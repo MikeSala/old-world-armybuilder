@@ -2692,13 +2692,7 @@
           "name_fr": "Objets Magiques",
           "name_it": "Oggetti magici",
           "name_pl": "Magiczne przedmioty",
-          "types": [
-            "weapon",
-            "armor-mages",
-            "talisman",
-            "arcane-item",
-            "enchanted-item"
-          ],
+          "types": ["weapon", "armor-mages", "talisman", "arcane-item", "enchanted-item"],
           "selected": [],
           "maxPoints": 50
         }
@@ -4479,13 +4473,7 @@
           "name_fr": "Chef (champion)",
           "points": 6,
           "magic": {
-            "types": [
-              "weapon",
-              "armor",
-              "talisman",
-              "arcane-item",
-              "enchanted-item"
-            ],
+            "types": ["weapon", "armor", "talisman", "arcane-item", "enchanted-item"],
             "maxPoints": 25
           }
         }
@@ -5273,7 +5261,7 @@
       "mounts": [],
       "notes": {
         "name_en": "0-1 Mangler Squig per Night Goblin Chief or Night Goblin Shaman taken",
-        "name_cn": "0-1Mangler Squig per Night Goblin Chief or Night Goblin Shaman taken",
+        "name_cn": "0-1 Mangler Squig per Night Goblin Chief or Night Goblin Shaman taken",
         "name_de": "0-1 Kettensquigs pro gewähltem Nachtgoblin-Boss oder Nachtgobline-Schamane",
         "name_es": "0-1 Mangler Squig per Night Goblin Chief or Night Goblin Shaman taken",
         "name_fr": "0-1 Squig Broyeur par Chef Gobelin de la Nuit ou Chamane Gobelin de la Nuit sélectionné"

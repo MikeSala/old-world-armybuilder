@@ -21,6 +21,8 @@ type SelectedOption = {
   points: number;
   group: string;
   note?: string;
+  perModel?: boolean;
+  baseCost?: number;
 };
 
 type RosterEntry = {
@@ -28,6 +30,8 @@ type RosterEntry = {
   unitId: string;
   name: string;
   category: CategoryKey;
+  unitSize: number;
+  pointsPerModel: number;
   basePoints: number;
   options: SelectedOption[];
   totalPoints: number;
@@ -97,22 +101,39 @@ const normalizeSelectedOption = (option: any): SelectedOption => ({
       ? option.group
       : "Options",
   note: typeof option?.note === "string" ? option.note : undefined,
+  perModel: typeof option?.perModel === "boolean" ? option.perModel : undefined,
+  baseCost: typeof option?.baseCost === "number" ? option.baseCost : undefined,
 });
 
 const normalizeEntry = (entry: any): RosterEntry => {
   const optionsArray = Array.isArray(entry?.options)
     ? entry.options.map(normalizeSelectedOption)
     : [];
-  const basePoints =
+  const rawUnitSize = Number(entry?.unitSize);
+  const unitSize = Number.isFinite(rawUnitSize) && rawUnitSize > 0 ? Math.floor(rawUnitSize) : 1;
+  const rawPointsPerModel = Number(entry?.pointsPerModel);
+  const basePointsSource =
     typeof entry?.basePoints === "number"
       ? entry.basePoints
       : typeof entry?.points === "number"
       ? entry.points
       : 0;
-  const optionsPoints = optionsArray.reduce((sum: number, opt: SelectedOption) => sum + opt.points, 0);
+  const pointsPerModel =
+    Number.isFinite(rawPointsPerModel) && rawPointsPerModel > 0
+      ? rawPointsPerModel
+      : unitSize > 0
+      ? basePointsSource / unitSize
+      : basePointsSource;
+  const normalizedPointsPerModel = Number.isFinite(pointsPerModel) ? pointsPerModel : 0;
+  const basePoints = Math.max(0, normalizedPointsPerModel * unitSize);
+  const optionsPoints = optionsArray.reduce(
+    (sum: number, opt: SelectedOption) => sum + opt.points,
+    0
+  );
   const totalPoints =
-    typeof entry?.totalPoints === "number" ? entry.totalPoints : basePoints + optionsPoints;
-
+    typeof entry?.totalPoints === "number"
+      ? entry.totalPoints
+      : basePoints + optionsPoints;
   const category = isCategoryKey(entry?.category) ? entry.category : "core";
   const owned = typeof entry?.owned === "boolean" ? entry.owned : false;
 
@@ -130,6 +151,8 @@ const normalizeEntry = (entry: any): RosterEntry => {
         ? entry.name
         : "Unknown unit",
     category,
+    unitSize,
+    pointsPerModel: normalizedPointsPerModel,
     basePoints,
     options: optionsArray,
     totalPoints,
