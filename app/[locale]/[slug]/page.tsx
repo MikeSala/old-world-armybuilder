@@ -10,6 +10,7 @@ import {
 import { LocaleButton } from "@/components/ui/LocaleButton";
 import RosterBuilderClient from "@/components/builder/RosterBuilderClient";
 import CategoryBuckets from "@/components/builder/CategoryBucket";
+import RosterSummary from "@/components/builder/RosterSummary";
 
 const editSlugByLocale = locales.reduce<Record<Locale, string>>(
   (acc, locale) => {
@@ -55,6 +56,7 @@ export default function RosterEditPage({ params }: PageProps) {
       </header>
       <RosterBuilderClient dict={dictionary} />
       <CategoryBuckets dict={dictionary} />
+      <RosterSummary />
       <Link
         href={`/${locale}`}
         className="text-sm text-amber-300 underline decoration-dotted underline-offset-4 transition hover:text-amber-200"
