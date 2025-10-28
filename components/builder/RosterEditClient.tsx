@@ -1,12 +1,21 @@
 "use client";
-import { useMemo, useState } from "react";
-import SingleSelect, { SelectOption } from "../ui/SingleSelect";
+import { useMemo } from "react";
+import Select, { SelectOption } from "../ui/Select";
+import { useDispatch, useSelector } from "react-redux";
+import type { RootState } from "@/lib/store";
+import { setArmy, setComposition } from "@/lib/store/slices/rosterSlice";
 
 type ArmyNode = { id: string; label: string; children?: SelectOption[] };
 
-export default function RosterEditClient({ armies }: { armies: ArmyNode[] }) {
-  const [armyId, setArmyId] = useState<string | null>(null);
-  const [compId, setCompId] = useState<string | null>(null);
+export default function RosterEditClient({
+  armies,
+  dict,
+}: {
+  armies: ArmyNode[];
+  dict: { selectPlaceholder: string; army: string; armyComposition: string };
+}) {
+  const dispatch = useDispatch();
+  const { armyId, compositionId: compId } = useSelector((s: RootState) => s.roster.draft);
 
   const armyOptions: SelectOption[] = useMemo(
     () => armies.map((a) => ({ id: a.id, label: a.label })),
@@ -20,20 +29,21 @@ export default function RosterEditClient({ armies }: { armies: ArmyNode[] }) {
 
   return (
     <div className="space-y-4">
-      <SingleSelect
-        label="Armia"
+      <Select
+        label={dict.army}
+        placeholder={dict.selectPlaceholder}
         options={armyOptions}
         value={armyId}
         onChange={(id) => {
-          setArmyId(id);
-          setCompId(null);
+          dispatch(setArmy(id));
         }}
       />
-      <SingleSelect
-        label="Kompozycja"
+      <Select
+        label={dict.armyComposition}
+        placeholder={dict.selectPlaceholder}
         options={compositionOptions}
         value={compId}
-        onChange={setCompId}
+        onChange={(id) => dispatch(setComposition(id))}
         disabled={!armyId}
       />
     </div>

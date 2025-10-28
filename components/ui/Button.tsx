@@ -1,7 +1,5 @@
 "use client";
 
-// Reusable UI Button component with customizable variants, sizes, icons, and loading state
-
 import {
   forwardRef,
   type ButtonHTMLAttributes,
@@ -10,7 +8,13 @@ import {
 } from "react";
 
 // 🔹 TS: Types representing the possible variants and sizes for the Button component
-type ButtonVariant = "primary" | "secondary" | "ghost" | "outline" | "gradient";
+type ButtonVariant =
+  | "primary"
+  | "secondary"
+  | "ghost"
+  | "outline"
+  | "gradient"
+  | "accent";
 type ButtonSize = "sm" | "md" | "lg";
 
 // 🔹 TS: Props interface for the Button component, extending native button attributes
@@ -44,6 +48,8 @@ const variantClasses: Record<ButtonVariant, string> = {
     "rounded-md border border-stone-700 bg-stone-900/60 text-amber-200 hover:bg-stone-900 focus-visible:ring-amber-300 focus-visible:ring-offset-stone-800",
   gradient:
     "rounded-md border border-amber-600 bg-gradient-to-br from-amber-600 via-red-700 to-stone-900 text-amber-100 shadow-lg hover:-translate-y-0.5 hover:from-amber-500 hover:via-red-600 hover:to-stone-800 focus-visible:ring-amber-300 focus-visible:ring-offset-stone-900",
+  accent:
+    "rounded-md border border-amber-400 bg-amber-500 text-slate-900 shadow-lg shadow-amber-900/20 hover:bg-amber-400 focus-visible:ring-amber-200 focus-visible:ring-offset-slate-900 disabled:bg-amber-700 disabled:text-amber-200 disabled:shadow-none",
 };
 
 // Styling classes defining padding and font size for each button size option
