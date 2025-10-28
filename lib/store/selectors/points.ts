@@ -22,7 +22,12 @@ export const selectSpentByCategory = createSelector([selectDraft], (draft) => {
   }
 
   for (const entry of draft.entries) {
-    totals[entry.category] += entry.points;
+    const points =
+      (entry as any)?.totalPoints ?? (entry as any)?.points ?? (entry as any)?.basePoints ?? 0;
+    const category = (entry as any)?.category;
+    if (category in totals) {
+      totals[category as CategoryKey] += points;
+    }
   }
 
   return totals;

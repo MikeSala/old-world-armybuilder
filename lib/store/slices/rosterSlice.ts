@@ -15,13 +15,24 @@ type ValidationErrors = {
   points?: string;
 };
 
+type SelectedOption = {
+  id: string;
+  name: string;
+  points: number;
+  group: string;
+  note?: string;
+};
+
 type RosterEntry = {
   id: string;
   unitId: string;
   name: string;
   category: CategoryKey;
-  points: number;
+  basePoints: number;
+  options: SelectedOption[];
+  totalPoints: number;
   notes?: string;
+  owned: boolean;
 };
 
 type RosterState = {
@@ -59,10 +70,79 @@ const ensureUi = (state: { ui?: RosterState["ui"] }) => {
   return state.ui;
 };
 
+const CATEGORY_KEYS: CategoryKey[] = [
+  "characters",
+  "core",
+  "special",
+  "rare",
+  "mercenaries",
+  "allies",
+];
+
+const isCategoryKey = (value: unknown): value is CategoryKey =>
+  typeof value === "string" && CATEGORY_KEYS.includes(value as CategoryKey);
+
+const normalizeSelectedOption = (option: any): SelectedOption => ({
+  id:
+    typeof option?.id === "string" && option.id.trim().length > 0
+      ? option.id
+      : `option-${Math.random().toString(36).slice(2)}`,
+  name:
+    typeof option?.name === "string" && option.name.trim().length > 0
+      ? option.name
+      : "Option",
+  points: typeof option?.points === "number" ? option.points : 0,
+  group:
+    typeof option?.group === "string" && option.group.trim().length > 0
+      ? option.group
+      : "Options",
+  note: typeof option?.note === "string" ? option.note : undefined,
+});
+
+const normalizeEntry = (entry: any): RosterEntry => {
+  const optionsArray = Array.isArray(entry?.options)
+    ? entry.options.map(normalizeSelectedOption)
+    : [];
+  const basePoints =
+    typeof entry?.basePoints === "number"
+      ? entry.basePoints
+      : typeof entry?.points === "number"
+      ? entry.points
+      : 0;
+  const optionsPoints = optionsArray.reduce((sum: number, opt: SelectedOption) => sum + opt.points, 0);
+  const totalPoints =
+    typeof entry?.totalPoints === "number" ? entry.totalPoints : basePoints + optionsPoints;
+
+  const category = isCategoryKey(entry?.category) ? entry.category : "core";
+  const owned = typeof entry?.owned === "boolean" ? entry.owned : false;
+
+  return {
+    id:
+      typeof entry?.id === "string" && entry.id.trim().length > 0
+        ? entry.id
+        : `entry-${Math.random().toString(36).slice(2)}`,
+    unitId:
+      typeof entry?.unitId === "string" && entry.unitId.trim().length > 0
+        ? entry.unitId
+        : "unknown-unit",
+    name:
+      typeof entry?.name === "string" && entry.name.trim().length > 0
+        ? entry.name
+        : "Unknown unit",
+    category,
+    basePoints,
+    options: optionsArray,
+    totalPoints,
+    notes: typeof entry?.notes === "string" ? entry.notes : undefined,
+    owned,
+  };
+};
+
 const ensureEntries = (state: { draft: { entries?: RosterEntry[] } }) => {
   if (!state.draft.entries) {
     state.draft.entries = [];
   }
+  state.draft.entries = state.draft.entries.map(normalizeEntry);
   return state.draft.entries;
 };
 
@@ -100,9 +180,10 @@ const rosterSlice = createSlice({
       state.draft = { ...state.draft, ...a.payload };
       const ui = ensureUi(state);
       ui.pointsInput = String(state.draft.pointsLimit ?? 0);
+      ensureEntries(state);
     },
     upsertEntry(state, a: PayloadAction<RosterEntry>) {
-      const entry = a.payload;
+      const entry = normalizeEntry(a.payload);
       const entries = ensureEntries(state);
       const idx = entries.findIndex((e) => e.id === entry.id);
       if (idx >= 0) {
@@ -134,6 +215,11 @@ const rosterSlice = createSlice({
       const ui = ensureUi(state);
       ui.pointsInput = a.payload;
     },
+    toggleEntryOwned(state, a: PayloadAction<{ id: string; owned: boolean }>) {
+      const entries = ensureEntries(state);
+      const target = entries.find((entry) => entry.id === a.payload.id);
+      if (target) target.owned = a.payload.owned;
+    },
   },
 });
 
@@ -152,7 +238,8 @@ export const {
   upsertEntry,
   removeEntry,
   clearEntries,
+  toggleEntryOwned,
 } = rosterSlice.actions;
 export default rosterSlice.reducer;
-export type { RosterDraft, ValidationErrors, RosterState, RosterEntry };
+export type { RosterDraft, ValidationErrors, RosterState, RosterEntry, SelectedOption };
 export { initialState as rosterInitialState };
