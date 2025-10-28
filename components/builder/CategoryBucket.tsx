@@ -78,6 +78,105 @@ function getUnitNotes(unit: EmpireUnit): string | undefined {
   return undefined;
 }
 
+function formatCategoryLabel(category: string): string {
+  return category
+    .split("-")
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ");
+}
+
+type OptionSourceKey = "command" | "equipment" | "armor" | "options" | "mounts";
+
+type UnitOptionItem = {
+  id: string;
+  label: string;
+  points: number;
+  note?: string;
+  defaultSelected?: boolean;
+};
+
+type UnitOptionGroup = {
+  id: string;
+  groupKey: OptionSourceKey;
+  title: string;
+  type: "radio" | "checkbox";
+  options: UnitOptionItem[];
+};
+
+const OPTION_GROUP_DEFINITIONS: Array<{
+  key: OptionSourceKey;
+  title: string;
+  type: "radio" | "checkbox";
+}> = [
+  { key: "command", title: "Command", type: "checkbox" },
+  { key: "equipment", title: "Weapons", type: "radio" },
+  { key: "armor", title: "Armour", type: "radio" },
+  { key: "mounts", title: "Mounts", type: "radio" },
+  { key: "options", title: "Options", type: "checkbox" },
+];
+
+function slugify(value: string): string {
+  return value
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 60);
+}
+
+function extractOptionGroups(unit: EmpireUnit): UnitOptionGroup[] {
+  return OPTION_GROUP_DEFINITIONS.flatMap((def) => {
+    const raw = (unit as Record<string, unknown>)[def.key];
+    if (!Array.isArray(raw) || raw.length === 0) return [];
+
+    const options: UnitOptionItem[] = [];
+    raw.forEach((item, index) => {
+      if (!item || typeof item !== "object") return;
+      const candidate = item as Record<string, unknown>;
+      const nameValue = candidate.name_en ?? candidate.name;
+      if (typeof nameValue !== "string" || nameValue.trim().length === 0) return;
+
+      const optionId =
+        typeof candidate.id === "string" && candidate.id.trim().length > 0
+          ? (candidate.id as string)
+          : `${def.key}-${slugify(nameValue)}-${index}`;
+      const noteSource = candidate.notes as Record<string, unknown> | undefined;
+      const note =
+        noteSource && typeof noteSource === "object" && typeof noteSource["name_en"] === "string"
+          ? (noteSource["name_en"] as string)
+          : undefined;
+      const defaultSelected = Boolean(candidate.active || candidate.equippedDefault);
+
+      options.push({
+        id: optionId,
+        label: nameValue,
+        points: typeof candidate.points === "number" ? (candidate.points as number) : 0,
+        note,
+        defaultSelected,
+      });
+    });
+
+    if (options.length === 0) return [];
+
+    return [
+      {
+        id: `group-${def.key}`,
+        groupKey: def.key,
+        title: def.title,
+        type: def.type,
+        options,
+      },
+    ];
+  });
+}
+
+function findUnitByKey(units: EmpireUnit[], key: string | null) {
+  if (units.length === 0) return null;
+  if (!key) return { unit: units[0], index: 0 };
+  const foundIndex = units.findIndex((candidate, idx) => getUnitKey(candidate, idx) === key);
+  const index = foundIndex >= 0 ? foundIndex : 0;
+  return { unit: units[index], index };
+}
+
 // ---- UI: Category Row ----------------------------------------------------
 
 function CategoryRow({
@@ -132,6 +231,7 @@ export default function CategoryBuckets({ totals, onAddClick, dict, className }:
 
   const [activeCategory, setActiveCategory] = React.useState<CategoryKey | null>(null);
   const [selectedUnitId, setSelectedUnitId] = React.useState<string | null>(null);
+  const [optionSelections, setOptionSelections] = React.useState<Record<string, string[]>>({});
 
   // Current spent per category (default 0 if not provided yet)
   const spent: Required<TotalsByCategory> = {
@@ -162,10 +262,28 @@ export default function CategoryBuckets({ totals, onAddClick, dict, className }:
   const mercsAvailable = clampNonNeg(caps.mercenaries - spent.mercenaries);
   const alliesAvailable = clampNonNeg(caps.allies - spent.allies);
 
+  const activeUnits = React.useMemo(
+    () => (activeCategory ? unitsByCategory[activeCategory] ?? [] : []),
+    [activeCategory, unitsByCategory]
+  );
+
+  const activeUnitInfo = React.useMemo(
+    () => findUnitByKey(activeUnits, selectedUnitId),
+    [activeUnits, selectedUnitId]
+  );
+
+  const activeUnit = activeUnitInfo?.unit ?? null;
+
+  const optionGroups = React.useMemo(
+    () => (activeUnit ? extractOptionGroups(activeUnit) : []),
+    [activeUnit]
+  );
+
   const handleToggleCategory = (category: CategoryKey) => {
     if (activeCategory === category) {
       setActiveCategory(null);
       setSelectedUnitId(null);
+      setOptionSelections({});
       return;
     }
     const units = unitsByCategory[category] ?? [];
@@ -174,31 +292,69 @@ export default function CategoryBuckets({ totals, onAddClick, dict, className }:
     setSelectedUnitId(firstId);
   };
 
+  const handleOptionToggle = (group: UnitOptionGroup, optionId: string, checked: boolean) => {
+    setOptionSelections((prev) => {
+      const current = prev[group.id] ?? [];
+      if (group.type === "radio") {
+        return { ...prev, [group.id]: checked ? [optionId] : [] };
+      }
+      const next = checked
+        ? Array.from(new Set([...current, optionId]))
+        : current.filter((id) => id !== optionId);
+      return { ...prev, [group.id]: next };
+    });
+  };
+
   const handleConfirmAdd = () => {
-    if (!activeCategory || !selectedUnitId) return;
-    const units = unitsByCategory[activeCategory] ?? [];
-    const unit = units.find((candidate, index) => getUnitKey(candidate, index) === selectedUnitId);
-    if (!unit) return;
+    if (!activeCategory || !activeUnit) return;
 
     const entryId =
       typeof crypto !== "undefined" && typeof crypto.randomUUID === "function"
         ? crypto.randomUUID()
         : `entry-${Date.now()}-${Math.random().toString(16).slice(2)}`;
 
+    const selectedOptions = optionGroups.flatMap((group) => {
+      const selectedIds = optionSelections[group.id] ?? [];
+      return selectedIds
+        .map((selectedId) => {
+          const option = group.options.find((opt) => opt.id === selectedId);
+          if (!option) return null;
+          return {
+            id: `${group.id}-${option.id}`,
+            name: option.label,
+            points: option.points,
+            group: group.title,
+            note: option.note,
+          };
+        })
+        .filter((opt): opt is NonNullable<typeof opt> => opt !== null);
+    });
+
+    const basePoints = getUnitPoints(activeUnit);
+    const optionsPoints = selectedOptions.reduce((sum, opt) => sum + opt.points, 0);
+    const totalPoints = basePoints + optionsPoints;
+
     dispatch(
       upsertEntry({
         id: entryId,
-        unitId: typeof unit.id === "string" ? unit.id : selectedUnitId,
-        name: getUnitLabel(unit),
+        unitId:
+          typeof activeUnit.id === "string" && activeUnit.id.trim().length > 0
+            ? activeUnit.id
+            : selectedUnitId ?? entryId,
+        name: getUnitLabel(activeUnit),
         category: activeCategory,
-        points: getUnitPoints(unit),
-        notes: getUnitNotes(unit),
+        basePoints,
+        options: selectedOptions,
+        totalPoints,
+        notes: getUnitNotes(activeUnit),
+        owned: false,
       })
     );
 
     onAddClick?.(activeCategory);
     setActiveCategory(null);
     setSelectedUnitId(null);
+    setOptionSelections({});
   };
 
   React.useEffect(() => {
@@ -212,7 +368,27 @@ export default function CategoryBuckets({ totals, onAddClick, dict, className }:
     if (!exists) {
       setSelectedUnitId(getUnitKey(units[0], 0));
     }
-  }, [activeCategory, unitsByCategory, selectedUnitId]);
+  }, [activeCategory, selectedUnitId, unitsByCategory]);
+
+  React.useEffect(() => {
+    if (!activeUnit) {
+      setOptionSelections({});
+      return;
+    }
+    const defaults = optionGroups.reduce<Record<string, string[]>>((acc, group) => {
+      if (group.type === "radio") {
+        const defaultOption =
+          group.options.find((opt) => opt.defaultSelected) ?? group.options[0];
+        acc[group.id] = defaultOption ? [defaultOption.id] : [];
+      } else {
+        acc[group.id] = group.options
+          .filter((opt) => opt.defaultSelected)
+          .map((opt) => opt.id);
+      }
+      return acc;
+    }, {});
+    setOptionSelections(defaults);
+  }, [activeUnit, optionGroups]);
 
   const sections: Array<{
     key: CategoryKey;
@@ -267,19 +443,14 @@ export default function CategoryBuckets({ totals, onAddClick, dict, className }:
     },
   ];
 
-  const sectionClassName = "grid gap-6 sm:grid-cols-2 text-amber-100";
-  const containerClassName = className ? `${sectionClassName} ${className}` : sectionClassName;
+  const categoryGridClass = "grid gap-6 sm:grid-cols-2 text-amber-100";
 
   return (
-    <section className={containerClassName}>
-      {sections.map((section) =>
-        (() => {
-          const isActive = activeCategory === section.key;
-          const units = unitsByCategory[section.key] ?? [];
-          const options: SelectOption[] = units.map((unit, index) => ({
-            id: getUnitKey(unit, index),
-            label: getUnitLabel(unit),
-          }));
+    <div className={className}>
+      <section className={categoryGridClass}>
+        {sections.map((section) =>
+          (() => {
+            const isActive = activeCategory === section.key;
           const addDisabled = !section.warning && section.value <= 0 && !isActive;
           const addIcon = isActive ? "×" : "+";
           const addLabel = isActive ? dict.categoryToggleCloseLabel : dict.categoryAddLabel;
@@ -308,41 +479,127 @@ export default function CategoryBuckets({ totals, onAddClick, dict, className }:
               headerAction={headerAction}
             >
               {isActive ? (
-                options.length > 0 ? (
-                  <div className="flex w-full flex-col gap-3 md:w-auto md:flex-row md:items-center md:justify-end">
-                    <Select
-                      options={options}
-                      value={selectedUnitId}
-                      onChange={(next) => setSelectedUnitId(next)}
-                      placeholder={dict.categorySelectPlaceholder}
-                      className="w-full md:min-w-[220px]"
-                    />
-                    <Button
-                      variant="primary"
-                      size="sm"
-                      onClick={handleConfirmAdd}
-                      disabled={!selectedUnitId}
-                    >
-                      {dict.categoryConfirmAddLabel}
-                    </Button>
-                    <Button
-                      variant="secondary"
-                      size="sm"
-                      onClick={() => handleToggleCategory(section.key)}
-                    >
-                      {dict.categoryCancelLabel}
-                    </Button>
-                  </div>
-                ) : (
-                  <span className="text-sm text-amber-200/70 md:max-w-xs">
-                    {dict.categoryEmptyUnitsMessage}
-                  </span>
-                )
+                <p className="text-sm text-amber-200/70">Configure options in the panel below.</p>
               ) : null}
             </CategoryRow>
           );
         })()
       )}
+      </section>
+
+      <section className="mt-6 rounded-2xl border border-amber-300/30 bg-slate-900/60 p-6 text-amber-100 shadow-lg shadow-amber-900/10">
+        <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-300">
+          {activeCategory ? `Options for ${formatCategoryLabel(activeCategory)}` : "Select a unit"}
+        </h3>
+        {activeCategory ? (
+          (() => {
+            const units = unitsByCategory[activeCategory] ?? [];
+            const options: SelectOption[] = units.map((unit, index) => ({
+              id: getUnitKey(unit, index),
+              label: getUnitLabel(unit),
+            }));
+
+            if (options.length === 0) {
+              return (
+                <p className="mt-4 text-sm text-amber-200/70">{dict.categoryEmptyUnitsMessage}</p>
+              );
+            }
+
+            return (
+              <div className="mt-4 space-y-4">
+                <Select
+                  options={options}
+                  value={selectedUnitId}
+                  onChange={(next) => setSelectedUnitId(next)}
+                  placeholder={dict.categorySelectPlaceholder}
+                  className="w-full"
+                />
+
+                {optionGroups.length > 0 ? (
+                  <div className="space-y-3">
+                    {optionGroups.map((group) => (
+                      <OptionGroupSection
+                        key={group.id}
+                        group={group}
+                        selectedIds={optionSelections[group.id] ?? []}
+                        onToggle={handleOptionToggle}
+                      />
+                    ))}
+                  </div>
+                ) : (
+                  <p className="text-sm text-amber-200/70">No additional options for this unit.</p>
+                )}
+
+                <div className="flex flex-col gap-2 md:flex-row md:justify-end">
+                  <Button
+                    variant="primary"
+                    size="sm"
+                    onClick={handleConfirmAdd}
+                    disabled={!selectedUnitId}
+                  >
+                    {dict.categoryConfirmAddLabel}
+                  </Button>
+                  <Button variant="secondary" size="sm" onClick={() => setActiveCategory(null)}>
+                    {dict.categoryCancelLabel}
+                  </Button>
+                </div>
+              </div>
+            );
+          })()
+        ) : (
+          <p className="mt-4 text-sm text-amber-200/70">
+            Choose a category and unit from the list above to configure options.
+          </p>
+        )}
+      </section>
+    </div>
+  );
+}
+
+type OptionGroupSectionProps = {
+  group: UnitOptionGroup;
+  selectedIds: string[];
+  onToggle: (group: UnitOptionGroup, optionId: string, checked: boolean) => void;
+};
+
+function OptionGroupSection({ group, selectedIds, onToggle }: OptionGroupSectionProps) {
+  return (
+    <section className="rounded-xl border border-amber-300/20 bg-slate-900/60 p-4">
+      <h4 className="text-sm font-semibold uppercase tracking-wide text-amber-200">
+        {group.title}
+      </h4>
+      <ul className="mt-3 space-y-2">
+        {group.options.map((option) => {
+          const inputId = `${group.id}-${option.id}`;
+          const checked = selectedIds.includes(option.id);
+          const type = group.type === "radio" ? "radio" : "checkbox";
+          return (
+            <li key={option.id} className="flex items-start justify-between gap-3">
+              <label htmlFor={inputId} className="flex flex-1 cursor-pointer items-start gap-3 text-sm">
+                <input
+                  id={inputId}
+                  name={group.id}
+                  type={type}
+                  checked={checked}
+                  onChange={(event) =>
+                    onToggle(group, option.id, group.type === "radio" ? true : event.target.checked)
+                  }
+                  className="mt-1 h-4 w-4 rounded border-amber-400 bg-slate-900 text-amber-500 focus:ring-amber-500"
+                />
+                <span className="flex flex-col text-amber-100/90">
+                  <span className="font-medium">{option.label}</span>
+                  {option.note ? (
+                    <span className="text-xs text-amber-200/70">{option.note}</span>
+                  ) : null}
+                </span>
+              </label>
+              <span className="text-xs font-semibold text-amber-200/80">
+                {option.points ? `${option.points} pts` : "free"}
+              </span>
+            </li>
+          );
+        })}
+      </ul>
     </section>
   );
 }
