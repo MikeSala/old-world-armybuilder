@@ -7,7 +7,7 @@ import { selectSpentByCategory } from "@/lib/store/selectors/points";
 import type { CategoryKey } from "@/lib/data/domain/types/categories";
 import { Button } from "@/components/ui/Button";
 import Select, { type SelectOption } from "@/components/ui/Select";
-import { selectEmpireUnitsByCategory, type EmpireUnit } from "@/lib/store/selectors/catalog";
+import { selectUnitsByCategory, type ArmyUnit } from "@/lib/store/selectors/catalog";
 import { upsertEntry } from "@/lib/store/slices/rosterSlice";
 import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
 
@@ -49,7 +49,7 @@ function roundPoints(n: number) {
   return Math.round(n);
 }
 
-function getUnitKey(unit: EmpireUnit, index: number): string {
+function getUnitKey(unit: ArmyUnit, index: number): string {
   if (typeof unit.id === "string" && unit.id.trim().length > 0) return unit.id;
   if (typeof unit.name_en === "string" && unit.name_en.trim().length > 0) {
     return `${unit.name_en}-${index}`;
@@ -57,7 +57,7 @@ function getUnitKey(unit: EmpireUnit, index: number): string {
   return `empire-unit-${index}`;
 }
 
-function getUnitLabel(unit: EmpireUnit): string {
+function getUnitLabel(unit: ArmyUnit): string {
   if (typeof unit.name_en === "string" && unit.name_en.trim().length > 0) return unit.name_en;
   if (typeof (unit as { name?: string }).name === "string")
     return (unit as { name?: string }).name!;
@@ -65,11 +65,11 @@ function getUnitLabel(unit: EmpireUnit): string {
   return "Unnamed unit";
 }
 
-function getUnitPoints(unit: EmpireUnit): number {
+function getUnitPoints(unit: ArmyUnit): number {
   return typeof unit.points === "number" ? unit.points : 0;
 }
 
-function getUnitNotes(unit: EmpireUnit): string | undefined {
+function getUnitNotes(unit: ArmyUnit): string | undefined {
   const notes = unit.notes as Record<string, unknown> | undefined;
   if (notes && typeof notes === "object") {
     const english = notes["name_en"];
@@ -123,7 +123,7 @@ function slugify(value: string): string {
     .slice(0, 60);
 }
 
-function extractOptionGroups(unit: EmpireUnit): UnitOptionGroup[] {
+function extractOptionGroups(unit: ArmyUnit): UnitOptionGroup[] {
   return OPTION_GROUP_DEFINITIONS.flatMap((def) => {
     const raw = (unit as Record<string, unknown>)[def.key];
     if (!Array.isArray(raw) || raw.length === 0) return [];
@@ -169,7 +169,7 @@ function extractOptionGroups(unit: EmpireUnit): UnitOptionGroup[] {
   });
 }
 
-function findUnitByKey(units: EmpireUnit[], key: string | null) {
+function findUnitByKey(units: ArmyUnit[], key: string | null) {
   if (units.length === 0) return null;
   if (!key) return { unit: units[0], index: 0 };
   const foundIndex = units.findIndex((candidate, idx) => getUnitKey(candidate, idx) === key);
@@ -227,7 +227,7 @@ export default function CategoryBuckets({ totals, onAddClick, dict, className }:
   // Read points limit from Redux (roster.draft.pointsLimit)
   const pointsLimit = useSelector((s: RootState) => s.roster.draft.pointsLimit);
   const totalsFromStore = useSelector(selectSpentByCategory);
-  const unitsByCategory = useSelector(selectEmpireUnitsByCategory);
+  const unitsByCategory = useSelector(selectUnitsByCategory);
 
   const [activeCategory, setActiveCategory] = React.useState<CategoryKey | null>(null);
   const [selectedUnitId, setSelectedUnitId] = React.useState<string | null>(null);
