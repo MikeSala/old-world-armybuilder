@@ -42,6 +42,14 @@ export default function RosterSummary({ className }: { className?: string }) {
     const optionsPoints = options.reduce((sum, opt) => sum + opt.points, 0);
     const totalPoints =
       typeof entry.totalPoints === "number" ? entry.totalPoints : basePoints + optionsPoints;
+    const unitSize =
+      typeof entry.unitSize === "number" && entry.unitSize > 0 ? entry.unitSize : 1;
+    const pointsPerModel =
+      typeof entry.pointsPerModel === "number" && entry.pointsPerModel > 0
+        ? entry.pointsPerModel
+        : unitSize > 0
+        ? basePoints / unitSize
+        : basePoints;
 
     return {
       ...entry,
@@ -49,6 +57,8 @@ export default function RosterSummary({ className }: { className?: string }) {
       totalPoints,
       options,
       owned: Boolean(entry.owned),
+      unitSize,
+      pointsPerModel,
     };
   });
 
@@ -93,7 +103,7 @@ export default function RosterSummary({ className }: { className?: string }) {
                   </span>
                 </div>
                 <ul className="space-y-2 text-amber-100/90">
-                  {items.map((entry) => (
+                  {items.map((entry: RosterEntry) => (
                     <li key={entry.id} className="rounded-lg bg-slate-900/60 px-3 py-2">
                       <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
                         <div className="flex flex-col gap-1">
@@ -124,6 +134,9 @@ export default function RosterSummary({ className }: { className?: string }) {
                       </div>
                       <div className="mt-1 text-xs text-amber-200/70">
                         Base cost: {entry.basePoints} pts
+                        {entry.unitSize > 1
+                          ? ` · ${entry.unitSize} models @ ${entry.pointsPerModel} pts`
+                          : ""}
                       </div>
                       {entry.options.length ? (
                         <ul className="mt-2 space-y-1 text-xs text-amber-200/70">
@@ -134,7 +147,13 @@ export default function RosterSummary({ className }: { className?: string }) {
                                 {opt.note ? <span className="text-amber-200/60"> — {opt.note}</span> : null}
                               </span>
                               <span className="text-amber-200/80">
-                                {opt.points ? `${opt.points} pts` : "free"}
+                                {opt.points
+                                  ? `${opt.points} pts${
+                                      opt.perModel && opt.baseCost
+                                        ? ` (${opt.baseCost} pts/model)`
+                                        : ""
+                                    }`
+                                  : "free"}
                               </span>
                             </li>
                           ))}

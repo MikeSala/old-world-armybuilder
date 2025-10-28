@@ -8,7 +8,7 @@ import type { CategoryKey } from "@/lib/data/domain/types/categories";
 import { Button } from "@/components/ui/Button";
 import Select, { type SelectOption } from "@/components/ui/Select";
 import { selectUnitsByCategory, type ArmyUnit } from "@/lib/store/selectors/catalog";
-import { upsertEntry } from "@/lib/store/slices/rosterSlice";
+import { upsertEntry, type RosterEntry } from "@/lib/store/slices/rosterSlice";
 import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
 
 type TotalsByCategory = Partial<Record<CategoryKey, number>>;
@@ -93,6 +93,7 @@ type UnitOptionItem = {
   points: number;
   note?: string;
   defaultSelected?: boolean;
+  perModel?: boolean;
 };
 
 type UnitOptionGroup = {
@@ -150,6 +151,7 @@ function extractOptionGroups(unit: ArmyUnit): UnitOptionGroup[] {
         id: optionId,
         label: nameValue,
         points: typeof candidate.points === "number" ? (candidate.points as number) : 0,
+        perModel: Boolean(candidate.perModel),
         note,
         defaultSelected,
       });
@@ -184,7 +186,6 @@ function CategoryRow({
   rightValue,
   rightSuffix,
   emphasizeWarning,
-  helpText,
   headerAction,
   children,
 }: {
@@ -192,13 +193,14 @@ function CategoryRow({
   rightValue: number;
   rightSuffix: string; // "pts missing" | "pts available"
   emphasizeWarning?: boolean; // true for missing state
-  helpText: string;
   headerAction?: React.ReactNode;
   children?: React.ReactNode;
 }) {
+  const hasChildren = React.Children.count(children) > 0;
+
   return (
-    <div className="flex h-full flex-col rounded-2xl border border-amber-300/30 bg-slate-900/60 shadow-lg shadow-amber-900/20 backdrop-blur">
-      <div className="grid grid-cols-[1fr_auto_auto] items-center gap-4 border-b border-amber-300/20 px-5 py-4">
+    <div className="flex flex-col rounded-2xl border border-amber-300/30 bg-slate-900/60 shadow-lg shadow-amber-900/20 backdrop-blur">
+      <div className="grid grid-cols-[1fr_auto_auto] items-center gap-3 px-4 py-3">
         <div className="text-lg font-semibold text-amber-200">{title}</div>
         <div className="flex justify-center">{headerAction ?? <span className="hidden" />}</div>
         <div
@@ -210,11 +212,13 @@ function CategoryRow({
         </div>
       </div>
 
-      <div className="flex flex-1 flex-col gap-4 px-5 py-4 md:flex-row md:items-center md:justify-between">
-        <div className="flex flex-col items-stretch gap-3 md:flex-row md:items-center md:justify-end">
-          {children}
+      {hasChildren ? (
+        <div className="border-t border-amber-300/10 px-4 py-3">
+          <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+            {children}
+          </div>
         </div>
-      </div>
+      ) : null}
     </div>
   );
 }
@@ -228,10 +232,12 @@ export default function CategoryBuckets({ totals, onAddClick, dict, className }:
   const pointsLimit = useSelector((s: RootState) => s.roster.draft.pointsLimit);
   const totalsFromStore = useSelector(selectSpentByCategory);
   const unitsByCategory = useSelector(selectUnitsByCategory);
+  const rosterEntries = useSelector((s: RootState) => s.roster.draft.entries ?? []);
 
   const [activeCategory, setActiveCategory] = React.useState<CategoryKey | null>(null);
   const [selectedUnitId, setSelectedUnitId] = React.useState<string | null>(null);
   const [optionSelections, setOptionSelections] = React.useState<Record<string, string[]>>({});
+  const [unitSize, setUnitSize] = React.useState<number>(1);
 
   // Current spent per category (default 0 if not provided yet)
   const spent: Required<TotalsByCategory> = {
@@ -279,11 +285,47 @@ export default function CategoryBuckets({ totals, onAddClick, dict, className }:
     [activeUnit]
   );
 
+  const minUnitSize = React.useMemo(() => {
+    const raw = Number((activeUnit as { minimum?: unknown })?.minimum);
+    if (Number.isFinite(raw) && raw > 0) return Math.floor(raw);
+    return 1;
+  }, [activeUnit]);
+
+  const maxUnitSize = React.useMemo(() => {
+    const raw = Number((activeUnit as { maximum?: unknown })?.maximum);
+    if (Number.isFinite(raw) && raw > 0) return Math.floor(raw);
+    return null;
+  }, [activeUnit]);
+
+  const pointsPerModel = React.useMemo(() => (activeUnit ? getUnitPoints(activeUnit) : 0), [activeUnit]);
+
+  const clampUnitSize = React.useCallback(
+    (value: number) => {
+      let next = Number.isFinite(value) ? Math.floor(value) : minUnitSize;
+      next = Math.max(minUnitSize, next);
+      if (maxUnitSize !== null) {
+        next = Math.min(maxUnitSize, next);
+      }
+      return next;
+    },
+    [maxUnitSize, minUnitSize]
+  );
+
+  const entriesByCategory = React.useMemo(() => {
+    const grouped: Partial<Record<CategoryKey, RosterEntry[]>> = {};
+    rosterEntries.forEach((entry) => {
+      if (!grouped[entry.category]) grouped[entry.category] = [];
+      grouped[entry.category]!.push(entry);
+    });
+    return grouped;
+  }, [rosterEntries]);
+
   const handleToggleCategory = (category: CategoryKey) => {
     if (activeCategory === category) {
       setActiveCategory(null);
       setSelectedUnitId(null);
       setOptionSelections({});
+      setUnitSize(1);
       return;
     }
     const units = unitsByCategory[category] ?? [];
@@ -312,6 +354,10 @@ export default function CategoryBuckets({ totals, onAddClick, dict, className }:
       typeof crypto !== "undefined" && typeof crypto.randomUUID === "function"
         ? crypto.randomUUID()
         : `entry-${Date.now()}-${Math.random().toString(16).slice(2)}`;
+    const enforcedUnitSize = clampUnitSize(unitSize);
+    if (enforcedUnitSize !== unitSize) {
+      setUnitSize(enforcedUnitSize);
+    }
 
     const selectedOptions = optionGroups.flatMap((group) => {
       const selectedIds = optionSelections[group.id] ?? [];
@@ -319,18 +365,22 @@ export default function CategoryBuckets({ totals, onAddClick, dict, className }:
         .map((selectedId) => {
           const option = group.options.find((opt) => opt.id === selectedId);
           if (!option) return null;
+          const totalPoints = option.points * (option.perModel ? enforcedUnitSize : 1);
           return {
             id: `${group.id}-${option.id}`,
             name: option.label,
-            points: option.points,
+            points: totalPoints,
             group: group.title,
             note: option.note,
+            perModel: option.perModel,
+            baseCost: option.points,
           };
         })
         .filter((opt): opt is NonNullable<typeof opt> => opt !== null);
     });
 
-    const basePoints = getUnitPoints(activeUnit);
+    const costPerModel = Math.max(0, getUnitPoints(activeUnit));
+    const basePoints = costPerModel * enforcedUnitSize;
     const optionsPoints = selectedOptions.reduce((sum, opt) => sum + opt.points, 0);
     const totalPoints = basePoints + optionsPoints;
 
@@ -343,6 +393,8 @@ export default function CategoryBuckets({ totals, onAddClick, dict, className }:
             : selectedUnitId ?? entryId,
         name: getUnitLabel(activeUnit),
         category: activeCategory,
+        unitSize: enforcedUnitSize,
+        pointsPerModel: costPerModel,
         basePoints,
         options: selectedOptions,
         totalPoints,
@@ -355,6 +407,7 @@ export default function CategoryBuckets({ totals, onAddClick, dict, className }:
     setActiveCategory(null);
     setSelectedUnitId(null);
     setOptionSelections({});
+    setUnitSize(1);
   };
 
   React.useEffect(() => {
@@ -390,12 +443,19 @@ export default function CategoryBuckets({ totals, onAddClick, dict, className }:
     setOptionSelections(defaults);
   }, [activeUnit, optionGroups]);
 
+  React.useEffect(() => {
+    if (!activeUnit) {
+      setUnitSize(1);
+      return;
+    }
+    setUnitSize(clampUnitSize(minUnitSize));
+  }, [activeUnit, clampUnitSize, minUnitSize]);
+
   const sections: Array<{
     key: CategoryKey;
     title: string;
     value: number;
     suffix: string;
-    helpText: string;
     warning?: boolean;
   }> = [
     {
@@ -403,14 +463,12 @@ export default function CategoryBuckets({ totals, onAddClick, dict, className }:
       title: dict.categoryCharactersLabel,
       value: charactersAvailable,
       suffix: dict.categoryPtsAvailable,
-      helpText: dict.categoryHelpDefault,
     },
     {
       key: "core",
       title: dict.categoryCoreLabel,
       value: coreMissing > 0 ? coreMissing : 0,
       suffix: coreMissing > 0 ? dict.categoryPtsMissing : dict.categoryPtsAvailable,
-      helpText: coreMissing > 0 ? dict.categoryHelpWarning : dict.categoryHelpDefault,
       warning: coreMissing > 0,
     },
     {
@@ -418,140 +476,214 @@ export default function CategoryBuckets({ totals, onAddClick, dict, className }:
       title: dict.categorySpecialLabel,
       value: specialAvailable,
       suffix: dict.categoryPtsAvailable,
-      helpText: dict.categoryHelpDefault,
     },
     {
       key: "rare",
       title: dict.categoryRareLabel,
       value: rareAvailable,
       suffix: dict.categoryPtsAvailable,
-      helpText: dict.categoryHelpDefault,
     },
     {
       key: "mercenaries",
       title: dict.categoryMercsLabel,
       value: mercsAvailable,
       suffix: dict.categoryPtsAvailable,
-      helpText: dict.categoryHelpDefault,
     },
     {
       key: "allies",
       title: dict.categoryAlliesLabel,
       value: alliesAvailable,
       suffix: dict.categoryPtsAvailable,
-      helpText: dict.categoryHelpDefault,
     },
   ];
 
-  const categoryGridClass = "grid gap-6 sm:grid-cols-2 text-amber-100";
+  const categoryGridClass =
+    "grid gap-6 text-amber-100 lg:grid-cols-[minmax(0,440px)_minmax(0,1fr)] lg:items-start";
+  const displayUnitSize = clampUnitSize(unitSize);
 
   return (
     <div className={className}>
-      <section className={categoryGridClass}>
-        {sections.map((section) =>
-          (() => {
-            const isActive = activeCategory === section.key;
-          const addDisabled = !section.warning && section.value <= 0 && !isActive;
-          const addIcon = isActive ? "×" : "+";
-          const addLabel = isActive ? dict.categoryToggleCloseLabel : dict.categoryAddLabel;
-          const headerAction = (
-            <Button
-              variant="accent"
-              size="sm"
-              onClick={() => handleToggleCategory(section.key)}
-              disabled={addDisabled}
-            >
-              <span className="inline-flex h-5 w-5 items-center justify-center rounded bg-slate-900/10 text-sm font-bold">
-                {addIcon}
-              </span>
-              {addLabel}
-            </Button>
-          );
-
-          return (
-            <CategoryRow
-              key={section.key}
-              title={section.title}
-              rightValue={section.value}
-              rightSuffix={section.suffix}
-              emphasizeWarning={section.warning}
-              helpText={section.helpText}
-              headerAction={headerAction}
-            >
-              {isActive ? (
-                <p className="text-sm text-amber-200/70">Configure options in the panel below.</p>
-              ) : null}
-            </CategoryRow>
-          );
-        })()
-      )}
-      </section>
-
-      <section className="mt-6 rounded-2xl border border-amber-300/30 bg-slate-900/60 p-6 text-amber-100 shadow-lg shadow-amber-900/10">
-        <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-300">
-          {activeCategory ? `Options for ${formatCategoryLabel(activeCategory)}` : "Select a unit"}
-        </h3>
-        {activeCategory ? (
-          (() => {
-            const units = unitsByCategory[activeCategory] ?? [];
-            const options: SelectOption[] = units.map((unit, index) => ({
-              id: getUnitKey(unit, index),
-              label: getUnitLabel(unit),
-            }));
-
-            if (options.length === 0) {
-              return (
-                <p className="mt-4 text-sm text-amber-200/70">{dict.categoryEmptyUnitsMessage}</p>
+      <div className={categoryGridClass}>
+        <section className="space-y-4">
+          {sections.map((section) =>
+            (() => {
+              const isActive = activeCategory === section.key;
+              const addDisabled = !section.warning && section.value <= 0 && !isActive;
+              const categoryEntries = entriesByCategory[section.key] ?? [];
+              const addIcon = isActive ? "×" : "+";
+              const addLabel = isActive ? dict.categoryToggleCloseLabel : dict.categoryAddLabel;
+              const headerAction = (
+                <Button
+                  variant="accent"
+                  size="sm"
+                  onClick={() => handleToggleCategory(section.key)}
+                  disabled={addDisabled}
+                >
+                  <span className="inline-flex h-5 w-5 items-center justify-center rounded bg-slate-900/10 text-sm font-bold">
+                    {addIcon}
+                  </span>
+                  {addLabel}
+                </Button>
               );
-            }
 
-            return (
-              <div className="mt-4 space-y-4">
-                <Select
-                  options={options}
-                  value={selectedUnitId}
-                  onChange={(next) => setSelectedUnitId(next)}
-                  placeholder={dict.categorySelectPlaceholder}
-                  className="w-full"
-                />
+              return (
+                <CategoryRow
+                  key={section.key}
+                  title={section.title}
+                  rightValue={section.value}
+                  rightSuffix={section.suffix}
+                  emphasizeWarning={section.warning}
+                  headerAction={headerAction}
+                >
+                  {categoryEntries.length > 0 ? (
+                    <CategoryEntryList entries={categoryEntries} />
+                  ) : null}
+                </CategoryRow>
+              );
+            })()
+          )}
+        </section>
+        <section className="rounded-2xl border border-amber-300/30 bg-slate-900/60 p-5 text-amber-100 shadow-lg shadow-amber-900/10">
+          {activeCategory ? (
+            <>
+              <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-300">
+                {`Options for ${formatCategoryLabel(activeCategory)}`}
+              </h3>
+              {(() => {
+                const units = unitsByCategory[activeCategory] ?? [];
+                const options: SelectOption[] = units.map((unit, index) => ({
+                  id: getUnitKey(unit, index),
+                  label: getUnitLabel(unit),
+                }));
 
-                {optionGroups.length > 0 ? (
-                  <div className="space-y-3">
-                    {optionGroups.map((group) => (
-                      <OptionGroupSection
-                        key={group.id}
-                        group={group}
-                        selectedIds={optionSelections[group.id] ?? []}
-                        onToggle={handleOptionToggle}
-                      />
-                    ))}
+                if (options.length === 0) {
+                  return (
+                    <p className="mt-4 text-sm text-amber-200/70">
+                      {dict.categoryEmptyUnitsMessage}
+                    </p>
+                  );
+                }
+
+                return (
+                  <div className="mt-4 space-y-3">
+                    <Select
+                      options={options}
+                      value={selectedUnitId}
+                      onChange={(next) => setSelectedUnitId(next)}
+                      placeholder={dict.categorySelectPlaceholder}
+                      className="w-full"
+                    />
+
+                    <div className="rounded-xl border border-amber-300/20 bg-slate-900/60 p-4">
+                      <div className="flex flex-wrap items-center justify-between gap-3 text-xs uppercase tracking-wide text-amber-200/80">
+                        <span>Unit size</span>
+                        <span>
+                          {pointsPerModel ? `${pointsPerModel} pts per model` : "Flat cost"}
+                        </span>
+                      </div>
+                      <div className="mt-3 flex items-stretch">
+                        <input
+                          type="number"
+                          inputMode="numeric"
+                          min={minUnitSize}
+                          max={maxUnitSize ?? undefined}
+                          step={1}
+                          value={unitSize}
+                          onChange={(event) => {
+                            const parsed = Number(event.target.value);
+                            if (Number.isFinite(parsed)) {
+                              setUnitSize(parsed);
+                            } else {
+                              setUnitSize(minUnitSize);
+                            }
+                          }}
+                          onBlur={() => setUnitSize((prev) => clampUnitSize(prev))}
+                          className="w-full rounded-lg border border-slate-400 bg-slate-950/60 px-4 py-2 text-base text-amber-100 outline-none focus:border-sky-400 focus:ring-2 focus:ring-sky-400"
+                        />
+                        <div className="ml-2 flex flex-col">
+                          <button
+                            type="button"
+                            onClick={() => setUnitSize((prev) => clampUnitSize(prev + 1))}
+                            className="rounded-md bg-slate-800 px-2 py-1 text-sm text-amber-100 shadow hover:bg-slate-700 active:translate-y-px"
+                            aria-label="Increase unit size"
+                          >
+                            ▲
+                          </button>
+                          <button
+                            type="button"
+                            onClick={() => setUnitSize((prev) => clampUnitSize(prev - 1))}
+                            className="mt-1 rounded-md bg-slate-800 px-2 py-1 text-sm text-amber-100 shadow hover:bg-slate-700 active:translate-y-px"
+                            aria-label="Decrease unit size"
+                          >
+                            ▼
+                          </button>
+                        </div>
+                      </div>
+                      <div className="mt-2 flex flex-wrap items-center justify-between gap-3 text-xs text-amber-200/60">
+                        <span>
+                          Min {minUnitSize}
+                          {maxUnitSize !== null ? `, Max ${maxUnitSize}` : ""}
+                        </span>
+                        <span className="text-amber-100">
+                          {displayUnitSize * pointsPerModel +
+                            optionGroups.reduce((groupSum, group) => {
+                              const selectedIds = optionSelections[group.id] ?? [];
+                              return (
+                                groupSum +
+                                selectedIds.reduce((sum, selectedId) => {
+                                  const opt = group.options.find((o) => o.id === selectedId);
+                                  if (!opt) return sum;
+                                  const optionTotal = opt.points * (opt.perModel ? displayUnitSize : 1);
+                                  return sum + optionTotal;
+                                }, 0)
+                              );
+                            }, 0)}{" "}
+                          pts total
+                        </span>
+                      </div>
+                    </div>
+
+                    {optionGroups.length > 0 ? (
+                      <div className="space-y-3">
+                        {optionGroups.map((group) => (
+                          <OptionGroupSection
+                            key={group.id}
+                            group={group}
+                            selectedIds={optionSelections[group.id] ?? []}
+                            onToggle={handleOptionToggle}
+                          />
+                        ))}
+                      </div>
+                    ) : (
+                      <p className="text-sm text-amber-200/70">
+                        No additional options for this unit.
+                      </p>
+                    )}
+
+                    <div className="flex flex-col gap-2 lg:flex-row lg:justify-end">
+                      <Button
+                        variant="primary"
+                        size="sm"
+                        onClick={handleConfirmAdd}
+                        disabled={!selectedUnitId}
+                      >
+                        {dict.categoryConfirmAddLabel}
+                      </Button>
+                      <Button variant="secondary" size="sm" onClick={() => setActiveCategory(null)}>
+                        {dict.categoryCancelLabel}
+                      </Button>
+                    </div>
                   </div>
-                ) : (
-                  <p className="text-sm text-amber-200/70">No additional options for this unit.</p>
-                )}
-
-                <div className="flex flex-col gap-2 md:flex-row md:justify-end">
-                  <Button
-                    variant="primary"
-                    size="sm"
-                    onClick={handleConfirmAdd}
-                    disabled={!selectedUnitId}
-                  >
-                    {dict.categoryConfirmAddLabel}
-                  </Button>
-                  <Button variant="secondary" size="sm" onClick={() => setActiveCategory(null)}>
-                    {dict.categoryCancelLabel}
-                  </Button>
-                </div>
-              </div>
-            );
-          })()
-        ) : (
-          <p className="mt-4 text-sm text-amber-200/70">
-            Choose a category and unit from the list above to configure options.
-          </p>
-        )}
-      </section>
+                );
+              })()}
+            </>
+          ) : (
+            <p className="text-sm text-amber-200/70">
+              {dict.categoryHelpDefault ?? "Select a category to see options."}
+            </p>
+          )}
+        </section>
+      </div>
     </div>
   );
 }
@@ -561,6 +693,49 @@ type OptionGroupSectionProps = {
   selectedIds: string[];
   onToggle: (group: UnitOptionGroup, optionId: string, checked: boolean) => void;
 };
+
+function CategoryEntryList({ entries }: { entries: RosterEntry[] }) {
+  if (entries.length === 0) return null;
+
+  return (
+    <ul className="space-y-2">
+      {entries.map((entry) => {
+        const optionNames = entry.options
+          .map((opt) => opt.name)
+          .filter((name): name is string => Boolean(name && name.trim().length > 0));
+        const unitSummary =
+          entry.unitSize > 1
+            ? `${entry.unitSize} models`
+            : entry.unitSize === 1
+            ? "Single model"
+            : null;
+
+        return (
+          <li
+            key={entry.id}
+            className="rounded-lg border border-amber-300/10 bg-slate-900/50 px-3 py-2"
+          >
+            <div className="flex items-baseline justify-between gap-3">
+              <span className="text-sm font-semibold text-amber-100">{entry.name}</span>
+              <span className="text-xs font-semibold uppercase tracking-wide text-amber-200/80">
+                {entry.totalPoints} pts
+              </span>
+            </div>
+            {unitSummary ? (
+              <div className="text-xs text-amber-200/70">
+                {unitSummary}
+                {entry.pointsPerModel ? ` · ${entry.pointsPerModel} pts per model` : null}
+              </div>
+            ) : null}
+            {optionNames.length > 0 ? (
+              <div className="mt-1 text-xs text-amber-200/70">{optionNames.join(", ")}</div>
+            ) : null}
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
 
 function OptionGroupSection({ group, selectedIds, onToggle }: OptionGroupSectionProps) {
   return (
@@ -594,7 +769,9 @@ function OptionGroupSection({ group, selectedIds, onToggle }: OptionGroupSection
                 </span>
               </label>
               <span className="text-xs font-semibold text-amber-200/80">
-                {option.points ? `${option.points} pts` : "free"}
+                {option.points
+                  ? `${option.points} pts${option.perModel ? " / model" : ""}`
+                  : "free"}
               </span>
             </li>
           );

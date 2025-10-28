@@ -40,18 +40,18 @@ export default function TextFieldLabeled({
       onChange?.(next);
     },
     className:
-      "w-full rounded-lg border border-amber-300 bg-white px-4 py-3 text-lg text-amber-300 shadow-inner outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-300 disabled:opacity-60",
+      "w-full rounded-lg border border-slate-300 bg-slate-50 px-4 py-3 text-lg text-slate-900 shadow-sm outline-none focus:border-sky-400 focus:ring-2 focus:ring-sky-300 disabled:opacity-60",
     "aria-describedby": maxChars ? `${id}-counter` : undefined,
   };
 
-  const rootClassName = className ? `text-amber-300 ${className}` : "text-amber-300";
+  const rootClassName = className ? `text-slate-100 ${className}` : "text-slate-100";
 
   const length = (value ?? "").length;
 
   return (
     <div className={rootClassName}>
-      <label htmlFor={id} className="mb-2 block text-sm font-semibold text-amber-300">
-        {label} {optionalHint ? <span className="opacity-70">({optionalHint})</span> : null}
+      <label htmlFor={id} className="mb-2 block text-sm font-semibold text-slate-100">
+        {label} {optionalHint ? <span className="text-slate-400">({optionalHint})</span> : null}
       </label>
 
       {multiline ? (
@@ -63,7 +63,7 @@ export default function TextFieldLabeled({
       {maxChars !== undefined && (
         <div
           id={`${id}-counter`}
-          className="mt-1 text-right text-sm text-amber-300 opacity-70"
+          className="mt-1 text-right text-sm text-slate-400"
           aria-live="polite"
         >
           {length} / {maxChars}

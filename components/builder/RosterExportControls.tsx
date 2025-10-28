@@ -1,7 +1,8 @@
 "use client";
 
-import { useMemo } from "react";
+import { useEffect, useId, useMemo, useRef, useState } from "react";
 import { useSelector } from "react-redux";
+import { Download } from "lucide-react";
 import type { RootState } from "@/lib/store";
 import { ARMIES, ARMY_RULES, type Army, type ArmyRule } from "@/lib/data/armies/armies";
 import { Button } from "@/components/ui/Button";
@@ -26,8 +27,17 @@ type ExportPayload = {
     unitId: string;
     name: string;
     category: string;
+    unitSize: number;
+    pointsPerModel: number;
     basePoints: number;
-    options: Array<{ group: string; name: string; points: number; note?: string }>;
+    options: Array<{
+      group: string;
+      name: string;
+      points: number;
+      note?: string;
+      perModel?: boolean;
+      baseCost?: number;
+    }>;
     totalPoints: number;
     notes?: string;
     owned: boolean;
@@ -51,7 +61,21 @@ function normalizeEntries(entries: RosterEntry[]) {
   return entries.map((entry) => {
     const options = Array.isArray(entry.options) ? entry.options : [];
     const optionsPoints = options.reduce((sum, opt) => sum + opt.points, 0);
-    const basePoints = typeof entry.basePoints === "number" ? entry.basePoints : 0;
+    const legacyPoints = (entry as unknown as { points?: number }).points;
+    const basePoints =
+      typeof entry.basePoints === "number"
+        ? entry.basePoints
+        : typeof legacyPoints === "number"
+        ? legacyPoints
+        : 0;
+    const unitSize =
+      typeof entry.unitSize === "number" && entry.unitSize > 0 ? entry.unitSize : 1;
+    const pointsPerModel =
+      typeof entry.pointsPerModel === "number" && entry.pointsPerModel > 0
+        ? entry.pointsPerModel
+        : unitSize > 0
+        ? basePoints / unitSize
+        : basePoints;
     const totalPoints =
       typeof entry.totalPoints === "number" ? entry.totalPoints : basePoints + optionsPoints;
 
@@ -60,12 +84,22 @@ function normalizeEntries(entries: RosterEntry[]) {
       unitId: entry.unitId,
       name: entry.name,
       category: entry.category,
+      unitSize,
+      pointsPerModel,
       basePoints,
       options: options.map((opt) => ({
         group: opt.group,
         name: opt.name,
         points: opt.points,
         note: opt.note,
+        perModel:
+          typeof (opt as { perModel?: boolean }).perModel === "boolean"
+            ? (opt as { perModel?: boolean }).perModel
+            : undefined,
+        baseCost:
+          typeof (opt as { baseCost?: number }).baseCost === "number"
+            ? (opt as { baseCost?: number }).baseCost
+            : undefined,
       })),
       totalPoints,
       notes: entry.notes,
@@ -127,10 +161,21 @@ function buildTextExport(payload: ExportPayload): string {
   lines.push("## Units");
   payload.entries.forEach((entry) => {
     lines.push(`- ${entry.name} (${entry.category}) — ${entry.totalPoints} pts`);
-    lines.push(`  Base cost: ${entry.basePoints} pts`);
+    if (entry.unitSize > 1) {
+      lines.push(
+        `  Unit size: ${entry.unitSize} models @ ${entry.pointsPerModel} pts — base cost ${entry.basePoints} pts`
+      );
+    } else {
+      lines.push(`  Base cost: ${entry.basePoints} pts`);
+    }
     if (entry.options.length > 0) {
       entry.options.forEach((opt) => {
-        lines.push(`  - ${opt.group}: ${opt.name} (${opt.points ? `${opt.points} pts` : "free"})`);
+        const costLabel = opt.points
+          ? `${opt.points} pts${
+              opt.perModel && opt.baseCost ? ` (${opt.baseCost} pts/model)` : ""
+            }`
+          : "free";
+        lines.push(`  - ${opt.group}: ${opt.name} (${costLabel})`);
         if (opt.note) lines.push(`    note: ${opt.note}`);
       });
     }
@@ -143,42 +188,90 @@ function buildTextExport(payload: ExportPayload): string {
   return lines.join("\n");
 }
 
-function buildMissingUnitsText(payload: ExportPayload): string {
-  const missing = payload.entries.filter((entry) => !entry.owned);
-  if (missing.length === 0) {
-    return `All units in "${payload.roster.name}" are marked as owned.\nGenerated: ${payload.metadata.generatedAt}\n`;
-  }
+function escapePdfText(value: string): string {
+  return value
+    .replace(/\\/g, "\\\\")
+    .replace(/\(/g, "\\(")
+    .replace(/\)/g, "\\)")
+    .replace(/[\u0080-\uFFFF]/g, "?");
+}
 
-  const lines: string[] = [];
-  lines.push(`# Missing Units — ${payload.roster.name}`);
-  if (payload.roster.description) {
-    lines.push(payload.roster.description);
-  }
-  lines.push("");
-  lines.push(`Army: ${payload.roster.army.name}`);
-  if (payload.roster.composition.name) {
-    lines.push(`Composition: ${payload.roster.composition.name}`);
-  }
-  if (payload.roster.rule.name) {
-    lines.push(`Army Rule: ${payload.roster.rule.name}`);
-  }
-  lines.push("");
-  lines.push("## Units to acquire");
-  missing.forEach((entry) => {
-    lines.push(`- ${entry.name} (${entry.category}) — ${entry.totalPoints} pts total`);
-    lines.push(`  Base cost: ${entry.basePoints} pts`);
-    if (entry.options.length > 0) {
-      entry.options.forEach((opt) => {
-        lines.push(`  - ${opt.group}: ${opt.name} (${opt.points ? `${opt.points} pts` : "free"})`);
-      });
-    }
-    if (entry.notes) {
-      lines.push(`  Notes: ${entry.notes}`);
+function buildRosterPdf(payload: ExportPayload): string {
+  const text = buildTextExport(payload);
+  const lines = text.split("\n");
+
+  const contentParts = ["BT", "/F1 12 Tf", "1 14 TL", "72 760 Td"];
+  lines.forEach((line, index) => {
+    const escaped = escapePdfText(line);
+    if (index === 0) {
+      contentParts.push(`(${escaped}) Tj`);
+    } else {
+      contentParts.push(`T* (${escaped}) Tj`);
     }
   });
-  lines.push("");
-  lines.push(`Generated: ${payload.metadata.generatedAt}`);
-  return lines.join("\n");
+  contentParts.push("ET");
+
+  const stream = contentParts.join("\n");
+  const streamLength = new TextEncoder().encode(stream).length;
+
+  const objects = [
+    "1 0 obj\n<< /Type /Catalog /Pages 2 0 R >>\nendobj\n",
+    "2 0 obj\n<< /Type /Pages /Kids [3 0 R] /Count 1 >>\nendobj\n",
+    "3 0 obj\n<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>\nendobj\n",
+    `4 0 obj\n<< /Length ${streamLength} >>\nstream\n${stream}\nendstream\nendobj\n`,
+    "5 0 obj\n<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>\nendobj\n",
+  ];
+
+  let pdf = "%PDF-1.4\n";
+  const offsets: number[] = [0];
+  objects.forEach((obj) => {
+    offsets.push(pdf.length);
+    pdf += obj;
+  });
+
+  const xrefPosition = pdf.length;
+  pdf += `xref\n0 ${objects.length + 1}\n`;
+  pdf += "0000000000 65535 f \n";
+  offsets.slice(1).forEach((offset) => {
+    pdf += `${String(offset).padStart(10, "0")} 00000 n \n`;
+  });
+  pdf += `trailer\n<< /Size ${objects.length + 1} /Root 1 0 R >>\nstartxref\n${xrefPosition}\n%%EOF`;
+
+  return pdf;
+}
+
+function buildCsvExport(payload: ExportPayload): string {
+  const header = [
+    "Category",
+    "Unit",
+    "UnitSize",
+    "PointsPerModel",
+    "BasePoints",
+    "Options",
+    "TotalPoints",
+    "Owned",
+  ];
+  const rows = payload.entries.map((entry) => {
+    const options = entry.options
+      .map((opt) => {
+        if (!opt.points) return `${opt.group}: ${opt.name} (free)`;
+        const perModelNote =
+          opt.perModel && opt.baseCost ? ` | ${opt.baseCost} pts/model` : "";
+        return `${opt.group}: ${opt.name} (${opt.points})${perModelNote}`;
+      })
+      .join("; ");
+    return [
+      entry.category,
+      entry.name,
+      String(entry.unitSize),
+      String(entry.pointsPerModel),
+      String(entry.basePoints),
+      options,
+      String(entry.totalPoints),
+      entry.owned ? "yes" : "no",
+    ];
+  });
+  return [header, ...rows].map((cols) => cols.map((col) => `"${(col ?? "").toString().replace(/"/g, '""')}"`).join(",")).join("\n");
 }
 
 function triggerDownload(filename: string, content: string, mimeType: string) {
@@ -196,52 +289,141 @@ function triggerDownload(filename: string, content: string, mimeType: string) {
 export default function RosterExportControls({ className }: { className?: string }) {
   const draft = useSelector((state: RootState) => state.roster.draft);
   const payload = useMemo(() => buildExportPayload(draft), [draft]);
-  const missingUnitsCount = useMemo(
-    () => payload.entries.filter((entry) => !entry.owned).length,
-    [payload]
-  );
+  const [isMenuOpen, setMenuOpen] = useState(false);
+  const buttonRef = useRef<HTMLButtonElement | null>(null);
+  const menuRef = useRef<HTMLDivElement | null>(null);
+  const menuId = useId();
+  const buttonId = useId();
 
   const handleExportJson = () => {
     const filename = `${payload.roster.name.replace(/\s+/g, "-").toLowerCase()}-roster.json`;
     triggerDownload(filename, JSON.stringify(payload, null, 2), "application/json");
   };
 
-  const handleExportText = () => {
-    const filename = `${payload.roster.name.replace(/\s+/g, "-").toLowerCase()}-roster.txt`;
-    const text = buildTextExport(payload);
-    triggerDownload(filename, text, "text/plain");
+  const handleExportCsv = () => {
+    const filename = `${payload.roster.name.replace(/\s+/g, "-").toLowerCase()}-roster.csv`;
+    const csv = buildCsvExport(payload);
+    triggerDownload(filename, csv, "text/csv");
   };
 
-  const handleExportMissing = () => {
-    const filename = `${payload.roster.name.replace(/\s+/g, "-").toLowerCase()}-missing-units.txt`;
-    const text = buildMissingUnitsText(payload);
-    triggerDownload(filename, text, "text/plain");
+  const handleExportPdf = () => {
+    const filename = `${payload.roster.name.replace(/\s+/g, "-").toLowerCase()}-roster.pdf`;
+    const pdf = buildRosterPdf(payload);
+    triggerDownload(filename, pdf, "application/pdf");
   };
+
+  useEffect(() => {
+    if (!isMenuOpen) return;
+
+    const handlePointerDown = (event: MouseEvent) => {
+      const target = event.target as Node | null;
+      if (!target) return;
+      if (menuRef.current?.contains(target)) return;
+      if (buttonRef.current?.contains(target)) return;
+      setMenuOpen(false);
+    };
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setMenuOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handlePointerDown);
+    document.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      document.removeEventListener("mousedown", handlePointerDown);
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [isMenuOpen]);
 
   return (
     <section className={className} aria-label="Roster export controls">
-      <div className="rounded-2xl border border-amber-300/30 bg-slate-900/70 p-4 text-amber-100 shadow shadow-amber-900/10">
+      <div className="relative rounded-2xl border border-amber-300/30 bg-slate-900/70 p-4 text-amber-100 shadow shadow-amber-900/10">
         <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-400">
           Export roster
         </h3>
         <p className="mt-2 text-xs text-amber-200/70">
-          Download the current roster draft as JSON, as a readable summary, or export the list of units you still need to buy.
+          Download the current roster draft in multiple formats or export the list of units you
+          still need to buy.
         </p>
-        <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-          <Button variant="primary" size="sm" onClick={handleExportJson}>
-            Download JSON
-          </Button>
-          <Button variant="secondary" size="sm" onClick={handleExportText}>
-            Download Text
-          </Button>
+
+        <div className="mt-4">
           <Button
-            variant="ghost"
+            ref={buttonRef}
+            variant="primary"
             size="sm"
-            onClick={handleExportMissing}
-            disabled={missingUnitsCount === 0}
+            onClick={() => setMenuOpen((prev) => !prev)}
+            id={buttonId}
+            aria-haspopup="menu"
+            aria-expanded={isMenuOpen}
+            aria-controls={isMenuOpen ? menuId : undefined}
+            leftIcon={
+              <Download
+                aria-hidden
+                className="h-4 w-4"
+                strokeWidth={2}
+              />
+            }
           >
-            Missing Units ({missingUnitsCount})
+            Download roster
           </Button>
+
+          {isMenuOpen ? (
+            <div
+              ref={menuRef}
+              id={menuId}
+              role="menu"
+              aria-labelledby={buttonId}
+              className="absolute z-10 mt-2 w-56 rounded-lg border border-amber-300/40 bg-slate-900/95 p-2 text-sm shadow-lg shadow-amber-900/20"
+            >
+              <button
+                role="menuitem"
+                className="flex w-full items-center justify-between rounded-md px-3 py-2 text-left text-amber-100 hover:bg-slate-800/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
+                onClick={() => {
+                  setMenuOpen(false);
+                  handleExportJson();
+                }}
+              >
+                JSON
+                <span aria-hidden>→</span>
+              </button>
+              <button
+                role="menuitem"
+                className="flex w-full items-center justify-between rounded-md px-3 py-2 text-left text-amber-100 hover:bg-slate-800/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
+                onClick={() => {
+                  setMenuOpen(false);
+                  handleExportPdf();
+                }}
+              >
+                PDF
+                <span aria-hidden>→</span>
+              </button>
+              <button
+                role="menuitem"
+                className="flex w-full items-center justify-between rounded-md px-3 py-2 text-left text-amber-100 hover:bg-slate-800/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
+                onClick={() => {
+                  setMenuOpen(false);
+                  handleExportCsv();
+                }}
+              >
+                CSV
+                <span aria-hidden>→</span>
+              </button>
+              <button
+                role="menuitem"
+                className="flex w-full items-center justify-between rounded-md px-3 py-2 text-left text-amber-100 hover:bg-slate-800/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
+                onClick={() => {
+                  setMenuOpen(false);
+                  window.print();
+                }}
+              >
+                Print
+                <span aria-hidden>→</span>
+              </button>
+            </div>
+          ) : null}
         </div>
       </div>
     </section>
