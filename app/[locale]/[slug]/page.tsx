@@ -41,7 +41,6 @@ export default function RosterEditPage({ params }: PageProps) {
   }
 
   const dictionary = getDictionary(locale);
-  const alternateLocale = getAlternateLocale(locale);
 
   return (
     <section className="flex min-h-[calc(100vh-48px)] flex-col gap-6">

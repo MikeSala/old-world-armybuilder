@@ -2,11 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  color-scheme: light;
-}
+@layer base {
+  :root {
+    color-scheme: light;
+  }
 
-body {
-  margin: 0;
-  font-feature-settings: "rlig" 1, "calt" 1;
+  body {
+    margin: 0;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
 }
