@@ -76,7 +76,7 @@ export default function ArmyPointsCounter({
 
   return (
     <div className={className}>
-      <label className="mb-2 block text-base font-semibold text-amber-300">{armyLabel}:</label>
+      <label className="mb-2 block text-base font-semibold text-slate-100">{armyLabel}:</label>
 
       <div className="relative flex items-stretch">
         <input
@@ -86,7 +86,7 @@ export default function ArmyPointsCounter({
           min={min}
           value={pointsInput}
           onChange={(e) => handleInputChange(e.target.value)}
-          className="w-full rounded-lg border border-amber-300 bg-amber-50 px-4 py-3 text-lg text-amber-300 shadow-inner outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-300"
+          className="w-full rounded-lg border border-slate-300 bg-slate-50 px-4 py-3 text-lg text-slate-900 shadow-inner outline-none focus:border-sky-400 focus:ring-2 focus:ring-sky-300"
         />
         <div className="ml-2 flex flex-col">
           <button
@@ -111,14 +111,14 @@ export default function ArmyPointsCounter({
       </div>
 
       <div className="mt-4">
-        <div className="mb-2 text-sm font-semibold text-amber-300">{armySuggestionLabel}:</div>
+        <div className="mb-2 text-sm font-semibold text-slate-100">{armySuggestionLabel}:</div>
         <div className="flex flex-wrap gap-2">
           {suggestions.map((s) => (
             <button
               key={s}
               type="button"
               onClick={() => onSuggestionClick(s)}
-              className="rounded-md border border-slate-400 px-3 py-1 text-base shadow-sm hover:bg-amber-50 active:translate-y-px"
+              className="rounded-md border border-slate-500 px-3 py-1 text-base text-slate-100 shadow-sm hover:bg-slate-200 hover:text-slate-900 active:translate-y-px"
             >
               {s}
             </button>
