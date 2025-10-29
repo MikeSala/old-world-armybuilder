@@ -183,11 +183,14 @@ export default function RosterBuilderClient({ dict, className, onSaved }: Props)
                 type="button"
                 onClick={handleSave}
                 disabled={saving}
-                className="mt-4 rounded-md bg-amber-600 px-4 py-2 font-semibold text-amber-50 shadow hover:bg-amber-500 disabled:opacity-60"
+                className={`mt-4 rounded-md px-4 py-2 font-semibold text-amber-50 shadow disabled:opacity-60 ${
+                  savedAt
+                    ? "bg-amber-700 hover:bg-amber-700/90 focus-visible:bg-amber-700"
+                    : "bg-amber-600 hover:bg-amber-500"
+                }`}
               >
-                {dict.saveButtonLabel}
+                {savedAt ? "Zapisane" : "Zapisz"}
               </button>
-              {savedAt ? <span className="ml-3 text-sm text-amber-200">{dict.saveSuccess}</span> : null}
             </section>
           </div>
         ) : null}

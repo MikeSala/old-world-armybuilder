@@ -30,6 +30,12 @@ const STAT_FIELDS: Array<{ key: StatFieldKey; label: string }> = [
   { key: "Ld", label: "Ld" },
 ];
 
+type StatRow = {
+  key: string;
+  label: string;
+  values: Record<StatFieldKey, StatValue | undefined>;
+};
+
 const CATEGORY_TITLES: Record<CategoryKey, string> = {
   characters: "Characters",
   core: "Core",
@@ -62,6 +68,15 @@ const renderStatValue = (value: StatValue | undefined) => {
     return Number.isInteger(value) ? value : value.toFixed(1);
   }
   return value;
+};
+
+const extractStatValues = (
+  source: Partial<Record<StatFieldKey, StatValue>> | null | undefined
+): Record<StatFieldKey, StatValue | undefined> => {
+  return STAT_FIELDS.reduce((acc, field) => {
+    acc[field.key] = source ? source[field.key] : undefined;
+    return acc;
+  }, {} as Record<StatFieldKey, StatValue | undefined>);
 };
 
 const formatArray = (values: string[] | undefined) => {
@@ -162,6 +177,34 @@ export default function RosterDetailSheet({ onClose, className }: Props) {
               {categoryEntries.map((entry) => {
                 const stats = entry.stats ?? null;
                 const statsName = stats?.name ?? stats?.unit ?? entry.name;
+                const profileList = Array.isArray(stats?.profiles) ? stats?.profiles : [];
+
+                const statRows: StatRow[] = [];
+                if (stats) {
+                  statRows.push({
+                    key: "primary",
+                    label: statsName,
+                    values: extractStatValues(stats),
+                  });
+                  profileList.forEach((profile, index) => {
+                    const label =
+                      typeof profile.name === "string" && profile.name.trim().length > 0
+                        ? profile.name
+                        : `Profile ${index + 1}`;
+                    statRows.push({
+                      key: `profile-${index}-${label}`,
+                      label,
+                      values: extractStatValues(profile),
+                    });
+                  });
+                } else {
+                  statRows.push({
+                    key: "primary",
+                    label: statsName,
+                    values: extractStatValues(undefined),
+                  });
+                }
+
                 const infoItems = infoFields
                   .map(({ key, label }) => {
                     const value = stats?.[key];
@@ -187,70 +230,74 @@ export default function RosterDetailSheet({ onClose, className }: Props) {
                           </span>
                         </h4>
                         <p className="text-xs text-amber-200/70">{formatUnitSummary(entry)}</p>
-                      {entry.notes ? (
-                        <p className="mt-1 text-xs text-amber-200/60">{entry.notes}</p>
-                      ) : null}
+                        {entry.notes ? (
+                          <p className="mt-1 text-xs text-amber-200/60">{entry.notes}</p>
+                        ) : null}
+                      </div>
+                      <div className="text-right text-xs text-amber-200/70">
+                        <span>Owned: {entry.owned ? "Yes" : "No"}</span>
+                      </div>
                     </div>
-                    <div className="text-right text-xs text-amber-200/70">
-                      <span>Owned: {entry.owned ? "Yes" : "No"}</span>
-                    </div>
-                  </div>
-                  {entry.options.length ? (
-                    <ul className="space-y-1 text-xs text-amber-200/80">
-                      {entry.options.map((option) => (
-                        <li key={option.id} className="flex flex-wrap justify-between gap-3">
-                          <span>
-                            <span className="font-semibold">{option.group}:</span> {option.name}
-                            {option.note ? (
-                              <span className="text-amber-200/60"> — {option.note}</span>
-                            ) : null}
-                          </span>
-                          <span>{formatOptionCost(option.points, option.perModel, option.baseCost)}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  ) : null}
-                  <div className="overflow-x-auto">
-                    <table className="min-w-full divide-y divide-amber-400/20 text-xs">
-                      <thead className="text-amber-200/70">
-                        <tr>
-                          <th className="px-2 py-1 text-left font-semibold uppercase tracking-wide">
-                            Model
-                          </th>
-                          {STAT_FIELDS.map((field) => (
-                            <th
-                              key={field.key}
-                              className="px-2 py-1 text-center font-semibold uppercase tracking-wide"
-                            >
-                              {field.label}
+                    {entry.options.length ? (
+                      <ul className="space-y-1 text-xs text-amber-200/80">
+                        {entry.options.map((option) => (
+                          <li key={option.id} className="flex flex-wrap justify-between gap-3">
+                            <span>
+                              <span className="font-semibold">{option.group}:</span> {option.name}
+                              {option.note ? (
+                                <span className="text-amber-200/60"> — {option.note}</span>
+                              ) : null}
+                            </span>
+                            <span>{formatOptionCost(option.points, option.perModel, option.baseCost)}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    ) : null}
+                    <div className="overflow-x-auto">
+                      <table className="min-w-full divide-y divide-amber-400/20 text-xs">
+                        <thead className="text-amber-200/70">
+                          <tr>
+                            <th className="px-2 py-1 text-left font-semibold uppercase tracking-wide">
+                              Model
                             </th>
+                            {STAT_FIELDS.map((field) => (
+                              <th
+                                key={field.key}
+                                className="px-2 py-1 text-center font-semibold uppercase tracking-wide"
+                              >
+                                {field.label}
+                              </th>
+                            ))}
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {statRows.map((row) => (
+                            <tr key={row.key}>
+                              <th className="px-2 py-2 text-left font-semibold text-amber-100">
+                                {row.label}
+                              </th>
+                              {STAT_FIELDS.map((field) => (
+                                <td key={`${row.key}-${field.key}`} className="px-2 py-2 text-center">
+                                  {renderStatValue(row.values[field.key])}
+                                </td>
+                              ))}
+                            </tr>
                           ))}
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th className="px-2 py-2 text-left font-semibold text-amber-100">
-                            {statsName}
-                          </th>
-                          {STAT_FIELDS.map((field) => (
-                            <td key={field.key as string} className="px-2 py-2 text-center">
-                              {renderStatValue(entry.stats?.[field.key])}
-                            </td>
-                          ))}
-                        </tr>
-                      </tbody>
-                    </table>
-                    {entry.stats?.type || stats?.troopType ? (
-                      <p className="mt-1 text-[10px] uppercase tracking-[0.2em] text-amber-200/60">
-                        {stats?.type ?? stats?.troopType ?? ""}
-                      </p>
-                    ) : (
-                      <p className="mt-1 text-[10px] uppercase tracking-[0.2em] text-amber-200/40">
-                        Brak danych o typie jednostki
-                      </p>
-                    )}
-                  </div>
-                    {infoItems.length || (equipmentList && equipmentList.length) || (rulesList && rulesList.length) ? (
+                        </tbody>
+                      </table>
+                      {stats?.type || stats?.troopType ? (
+                        <p className="mt-1 text-[10px] uppercase tracking-[0.2em] text-amber-200/60">
+                          {stats?.type ?? stats?.troopType ?? ""}
+                        </p>
+                      ) : (
+                        <p className="mt-1 text-[10px] uppercase tracking-[0.2em] text-amber-200/40">
+                          Brak danych o typie jednostki
+                        </p>
+                      )}
+                    </div>
+                    {infoItems.length ||
+                    (equipmentList && equipmentList.length) ||
+                    (rulesList && rulesList.length) ? (
                       <div className="space-y-3 rounded-lg border border-amber-400/10 bg-slate-900/40 p-3 text-xs">
                         {infoItems.length ? (
                           <dl className="grid gap-2 sm:grid-cols-2">
