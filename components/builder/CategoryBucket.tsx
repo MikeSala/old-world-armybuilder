@@ -518,10 +518,12 @@ export default function CategoryBuckets({ totals, onAddClick, dict, className }:
                   size="sm"
                   onClick={() => handleToggleCategory(section.key)}
                   disabled={addDisabled}
+                  leftIcon={
+                    <span className="flex h-5 w-5 items-center justify-center text-sm font-bold leading-none">
+                      {addIcon}
+                    </span>
+                  }
                 >
-                  <span className="inline-flex h-5 w-5 items-center justify-center rounded bg-slate-900/10 text-sm font-bold">
-                    {addIcon}
-                  </span>
                   {addLabel}
                 </Button>
               );

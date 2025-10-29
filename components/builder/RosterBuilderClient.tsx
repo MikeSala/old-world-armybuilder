@@ -18,6 +18,7 @@ import {
   setSavedAt,
   setValidationErrors,
   rosterInitialState,
+  setSetupCollapsed,
 } from "@/lib/store/slices/rosterSlice";
 import { setCatalogArmy } from "@/lib/store/slices/catalogSlice";
 
@@ -56,9 +57,9 @@ export default function RosterBuilderClient({ dict, className, onSaved }: Props)
   const rosterState = useSelector((s: RootState) => s.roster) ?? rosterInitialState;
   const draftState = rosterState?.draft ?? rosterInitialState.draft;
   const uiState = rosterState?.ui ?? rosterInitialState.ui;
-  const { errors, saving, savedAt } = uiState;
+  const { errors, saving, savedAt, setupCollapsed } = uiState;
   const { armyId, compositionId, armyRuleId, pointsLimit, name, description } = draftState;
-  const [collapsed, setCollapsed] = React.useState(false);
+  const collapsed = setupCollapsed ?? false;
 
   const clientArmies = React.useMemo(
     () =>
@@ -96,7 +97,7 @@ export default function RosterBuilderClient({ dict, className, onSaved }: Props)
     dispatch(setSavedAt(timestamp));
     onSaved?.(snapshot);
     dispatch(setSaving(false));
-    setCollapsed(true);
+    dispatch(setSetupCollapsed(true));
   };
 
   return (
@@ -106,7 +107,11 @@ export default function RosterBuilderClient({ dict, className, onSaved }: Props)
           <h3 className="text-sm font-semibold uppercase tracking-[0.25em] text-amber-300">
             Roster Setup
           </h3>
-          <Button variant="secondary" size="sm" onClick={() => setCollapsed((prev) => !prev)}>
+          <Button
+            variant="secondary"
+            size="sm"
+            onClick={() => dispatch(setSetupCollapsed(!collapsed))}
+          >
             {collapsed ? "Edit details" : "Collapse"}
           </Button>
         </div>

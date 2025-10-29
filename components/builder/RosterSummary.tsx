@@ -1,10 +1,13 @@
 "use client";
 
+import * as React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import type { RootState, AppDispatch } from "@/lib/store";
 import type { RosterEntry } from "@/lib/store/slices/rosterSlice";
 import { removeEntry, toggleEntryOwned } from "@/lib/store/slices/rosterSlice";
 import { Button } from "@/components/ui/Button";
+import RosterDetailSheet from "@/components/builder/RosterDetailSheet";
+import RosterExportControls from "@/components/builder/RosterExportControls";
 
 type GroupedEntries = Record<string, RosterEntry[]>;
 
@@ -29,6 +32,16 @@ export default function RosterSummary({ className }: { className?: string }) {
   const { name, description, entries, pointsLimit } = useSelector(
     (state: RootState) => state.roster.draft
   );
+  const [showDetailSheet, setShowDetailSheet] = React.useState(false);
+
+  React.useEffect(() => {
+    if (!showDetailSheet) return;
+    const originalOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = originalOverflow;
+    };
+  }, [showDetailSheet]);
 
   const normalizedEntries = entries.map((entry) => {
     const legacyPoints = (entry as unknown as { points?: number }).points;
@@ -69,13 +82,29 @@ export default function RosterSummary({ className }: { className?: string }) {
     <aside className={className} aria-labelledby="roster-summary-heading">
       <div className="rounded-2xl border border-amber-300/30 bg-slate-900/80 p-6 text-amber-100 shadow-lg shadow-amber-900/15">
         <header className="mb-4">
-          <p className="text-sm uppercase tracking-[0.3em] text-amber-400">Roster Summary</p>
-          <h2 id="roster-summary-heading" className="mt-1 text-2xl font-semibold">
-            {name || "Untitled roster"}
-          </h2>
-          {description ? (
-            <p className="mt-2 text-sm text-amber-200/70">{description}</p>
-          ) : null}
+          <div className="flex items-start justify-between gap-4">
+            <div>
+              <p className="text-sm uppercase tracking-[0.3em] text-amber-400">Roster Summary</p>
+              <h2 id="roster-summary-heading" className="mt-1 text-2xl font-semibold">
+                {name || "Untitled roster"}
+              </h2>
+              {description ? (
+                <p className="mt-2 text-sm text-amber-200/70">{description}</p>
+              ) : null}
+            </div>
+            {entries.length ? (
+              <div className="flex flex-wrap items-center justify-end gap-2">
+                <RosterExportControls
+                  variant="inline"
+                  triggerVariant="accent"
+                  triggerLabel="Download roster"
+                />
+                <Button variant="accent" size="sm" onClick={() => setShowDetailSheet(true)}>
+                  View roster sheet
+                </Button>
+              </div>
+            ) : null}
+          </div>
           <div className="mt-3 flex items-center justify-between text-sm text-amber-200">
             <span>Points limit</span>
             <span className="font-semibold">{pointsLimit}</span>
@@ -167,6 +196,19 @@ export default function RosterSummary({ className }: { className?: string }) {
           </ul>
         )}
       </div>
+      {showDetailSheet ? (
+        <div
+          className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto bg-slate-950/80 p-4 sm:p-8"
+          onClick={() => setShowDetailSheet(false)}
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="roster-detail-sheet-heading"
+        >
+          <div onClick={(event) => event.stopPropagation()}>
+            <RosterDetailSheet onClose={() => setShowDetailSheet(false)} />
+          </div>
+        </div>
+      ) : null}
     </aside>
   );
 }
