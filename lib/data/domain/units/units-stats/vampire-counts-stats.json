@@ -1,0 +1,1458 @@
+[
+  {
+    "name": "Abyssal Terror",
+    "unitCategory": "Monster",
+    "troopType": "Monstrous Creature",
+    "baseSize": "50 x 100 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Wicked claws", "Poisonous tail", "Scaly skin (counts as heavy armour)"],
+    "profiles": [
+      {
+        "name": "Abyssal Terror",
+        "M": "6",
+        "WS": "4",
+        "BS": "-",
+        "S": "5",
+        "T": "+1",
+        "W": "+4",
+        "I": "2",
+        "A": "3",
+        "Ld": "-"
+      }
+    ],
+    "specialRules": [
+      "Close Order",
+      "Fly (9)",
+      "Large Target",
+      "Necromantic Undead",
+      "Stomp Attacks (D3)",
+      "Swiftstride",
+      "Terror"
+    ]
+  },
+  {
+    "name": "Bat Swarms",
+    "unitCategory": "Infantry",
+    "troopType": "Swarm",
+    "baseSize": "40 x 40 mm",
+    "unitSize": "3+",
+    "armourValue": "—",
+    "equipment": ["Claws and fangs (counts as hand weapons)"],
+    "profiles": [
+      {
+        "name": "Bat Swarm",
+        "M": "1",
+        "WS": "3",
+        "BS": "0",
+        "S": "2",
+        "T": "2",
+        "W": "5",
+        "I": "4",
+        "A": "5",
+        "Ld": "3"
+      }
+    ],
+    "specialRules": ["Fly (7)", "Necromantic Undead", "Regeneration (6+)", "Skirmishers"]
+  },
+  {
+    "name": "Black Coach",
+    "unitCategory": "Chariot",
+    "troopType": "Heavy Chariot",
+    "baseSize": "50 x 100 mm",
+    "unitSize": 1,
+    "armourValue": "3+",
+    "equipment": [
+      "Wraith: Spectral scythe",
+      "Nightmares: Iron-shod hooves (counts as hand weapon)"
+    ],
+    "profiles": [
+      {
+        "name": "Black Coach",
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "S": "5",
+        "T": "6",
+        "W": "4",
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      }
+    ],
+    "subUnits": [
+      {
+        "name": "Wraith",
+        "count": "x1",
+        "profiles": [
+          {
+            "name": "Wraith",
+            "M": "-",
+            "WS": "3",
+            "BS": "0",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "2",
+            "Ld": "5"
+          }
+        ]
+      },
+      {
+        "name": "Nightmare",
+        "count": "x2",
+        "profiles": [
+          {
+            "name": "Nightmare",
+            "M": "8",
+            "WS": "3",
+            "BS": "-",
+            "S": "4",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "1",
+            "Ld": "-"
+          }
+        ]
+      }
+    ],
+    "specialRules": [
+      "Close Order",
+      "First Charge",
+      "Impact Hits (D6+2)",
+      "Indomitable (1)",
+      "Magical Attacks",
+      "Necromantic Undead",
+      "Regeneration (6+)",
+      "Spectral Coach",
+      "Terror"
+    ]
+  },
+  {
+    "name": "Black Knights",
+    "unitCategory": "Cavalry",
+    "troopType": "Heavy Cavalry",
+    "baseSize": "30 x 60 mm",
+    "unitSize": "5+",
+    "armourValue": "5+",
+    "equipment": [
+      "Black Knights: Hand weapons",
+      "Black Knights: Heavy armour",
+      "Black Knights: Shields",
+      "Skeletal Steeds: Skeletal hooves (counts as hand weapons)"
+    ],
+    "profiles": [
+      {
+        "name": "Black Knight",
+        "M": "-",
+        "WS": "3",
+        "BS": "0",
+        "S": "4",
+        "T": "4",
+        "W": "1",
+        "I": "3",
+        "A": "1",
+        "Ld": "6"
+      }
+    ],
+    "commandGroup": [
+      {
+        "name": "Hell Knight",
+        "profiles": [
+          {
+            "name": "Hell Knight",
+            "M": "-",
+            "WS": "3",
+            "BS": "0",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "Ld": "6"
+          }
+        ]
+      }
+    ],
+    "subUnits": [
+      {
+        "name": "Skeletal Steed",
+        "count": "per model",
+        "profiles": [
+          {
+            "name": "Skeletal Steed",
+            "M": "7",
+            "WS": "2",
+            "BS": "-",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "1",
+            "Ld": "-"
+          }
+        ]
+      }
+    ],
+    "specialRules": [
+      "Cleaving Blow (Riders only)",
+      "Close Order",
+      "First Charge",
+      "Necromantic Undead",
+      "Regeneration (6+)",
+      "Swiftstride"
+    ]
+  },
+  {
+    "name": "Blood Knights",
+    "unitCategory": "Cavalry",
+    "troopType": "Heavy Cavalry",
+    "baseSize": "30 x 60 mm",
+    "unitSize": "5+",
+    "armourValue": "5+",
+    "equipment": [
+      "Blood Knights: Hand weapons",
+      "Blood Knights: Lances",
+      "Blood Knights: Heavy armour",
+      "Blood Knights: Shields",
+      "Nightmares: Iron-shod hooves (counts as hand weapons)",
+      "Nightmares: Barding"
+    ],
+    "profiles": [
+      {
+        "name": "Blood Knight",
+        "M": "-",
+        "WS": "5",
+        "BS": "3",
+        "S": "4",
+        "T": "4",
+        "W": "1",
+        "I": "4",
+        "A": "2",
+        "Ld": "7"
+      }
+    ],
+    "commandGroup": [
+      {
+        "name": "Kastellan",
+        "profiles": [
+          {
+            "name": "Kastellan",
+            "M": "-",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "4",
+            "A": "3",
+            "Ld": "7"
+          }
+        ]
+      }
+    ],
+    "subUnits": [
+      {
+        "name": "Nightmare",
+        "count": "per model",
+        "profiles": [
+          {
+            "name": "Nightmare",
+            "M": "7",
+            "WS": "3",
+            "BS": "-",
+            "S": "4",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "1",
+            "Ld": "-"
+          }
+        ]
+      }
+    ],
+    "specialRules": [
+      "Accursed Weapons",
+      "Close Order",
+      "Counter Charge",
+      "Dark Vitality",
+      "First Charge",
+      "Flammable",
+      "Indomitable (1)",
+      "Martial Pride",
+      "Necromantic Undead",
+      "Regeneration (6+)",
+      "Swiftstride"
+    ]
+  },
+  {
+    "name": "Cairn Wraith",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Spectral scythe"],
+    "profiles": [
+      {
+        "name": "Cairn Wraith",
+        "M": "6",
+        "WS": "4",
+        "BS": "0",
+        "S": "3",
+        "T": "3",
+        "W": "3",
+        "I": "2",
+        "A": "2",
+        "Ld": "6"
+      }
+    ],
+    "specialRules": [
+      "Ethereal",
+      "Indomitable (1)",
+      "Necromantic Undead",
+      "Regeneration (6+)",
+      "Terror"
+    ]
+  },
+  {
+    "name": "Corpse Cart",
+    "unitCategory": "Chariot",
+    "troopType": "Heavy Chariot",
+    "baseSize": "50 x 100 mm",
+    "unitSize": 1,
+    "armourValue": "4+",
+    "equipment": ["Corpsemaster: Hand weapon", "The Restless Dead: Hand weapons"],
+    "profiles": [
+      {
+        "name": "Corpse Cart",
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "S": "4",
+        "T": "4",
+        "W": "4",
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      }
+    ],
+    "subUnits": [
+      {
+        "name": "Corpsemaster",
+        "count": "x1",
+        "profiles": [
+          {
+            "name": "Corpsemaster",
+            "M": "-",
+            "WS": "3",
+            "BS": "0",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "3",
+            "A": "1",
+            "Ld": "5"
+          }
+        ]
+      },
+      {
+        "name": "The Restless Dead",
+        "count": "swarm",
+        "profiles": [
+          {
+            "name": "The Restless Dead",
+            "M": "4",
+            "WS": "1",
+            "BS": "0",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "1",
+            "A": "2D6",
+            "Ld": "-"
+          }
+        ]
+      }
+    ],
+    "magicLores": ["Necromancy"],
+    "specialRules": [
+      "Close Order",
+      "Dark Vitality",
+      "First Charge",
+      "Impact Hits (D3+1)",
+      "Indomitable (1)",
+      "Lore of Undeath",
+      "Necromantic Undead",
+      "Random Attacks (The Restless Dead only)",
+      "Regeneration (6+)"
+    ]
+  },
+  {
+    "name": "Coven Throne",
+    "unitCategory": "Chariot",
+    "troopType": "Heavy Chariot",
+    "baseSize": "50 x 100 mm",
+    "unitSize": 1,
+    "armourValue": "4+",
+    "equipment": [
+      "Pallid Handmaidens: Hand weapons",
+      "Spirit Horde: Hand weapons",
+      "Spirit Horde: Lances"
+    ],
+    "profiles": [
+      {
+        "name": "Coven Throne",
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "S": "5",
+        "T": "5",
+        "W": "5",
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      }
+    ],
+    "subUnits": [
+      {
+        "name": "Pallid Handmaiden",
+        "count": "x2",
+        "profiles": [
+          {
+            "name": "Pallid Handmaiden",
+            "M": "-",
+            "WS": "5",
+            "BS": "3",
+            "S": "5",
+            "T": "-",
+            "W": "-",
+            "I": "5",
+            "A": "2",
+            "Ld": "7"
+          }
+        ]
+      },
+      {
+        "name": "Spirit Horde",
+        "count": "swarm",
+        "profiles": [
+          {
+            "name": "Spirit",
+            "M": "6",
+            "WS": "3",
+            "BS": "0",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "1",
+            "A": "D6",
+            "Ld": "-"
+          }
+        ]
+      }
+    ],
+    "specialRules": [
+      "Close Order",
+      "Dark Vitality",
+      "First Charge",
+      "Fly (8)",
+      "Ghoulish Glamour",
+      "Impact Hits (D6+1)",
+      "Large Target",
+      "Necromantic Undead",
+      "Random Attacks (Spirit Horde only)",
+      "Regeneration (6+)",
+      "Scrying Pool"
+    ]
+  },
+  {
+    "name": "Crypt Ghouls",
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "10+",
+    "armourValue": "—",
+    "equipment": ["Hand weapons"],
+    "profiles": [
+      {
+        "name": "Crypt Ghoul",
+        "M": "5",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "4",
+        "W": "1",
+        "I": "3",
+        "A": "2",
+        "Ld": "5"
+      }
+    ],
+    "commandGroup": [
+      {
+        "name": "Crypt Ghast",
+        "profiles": [
+          {
+            "name": "Crypt Ghast",
+            "M": "5",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "3",
+            "Ld": "5"
+          }
+        ]
+      }
+    ],
+    "specialRules": [
+      "Move Through Cover",
+      "Necromantic Undead",
+      "Open Order",
+      "Poisoned Attacks",
+      "Regeneration (6+)",
+      "Reserve Move",
+      "Skirmishers"
+    ]
+  },
+  {
+    "name": "Crypt Horrors",
+    "unitCategory": "Infantry",
+    "troopType": "Monstrous Infantry",
+    "baseSize": "40 x 40 mm",
+    "unitSize": "3+",
+    "armourValue": "—",
+    "equipment": ["Filth-encrusted claws"],
+    "profiles": [
+      {
+        "name": "Crypt Horror",
+        "M": "6",
+        "WS": "3",
+        "BS": "0",
+        "S": "4",
+        "T": "5",
+        "W": "3",
+        "I": "2",
+        "A": "3",
+        "Ld": "5"
+      }
+    ],
+    "commandGroup": [
+      {
+        "name": "Crypt Haunter",
+        "profiles": [
+          {
+            "name": "Crypt Haunter",
+            "M": "6",
+            "WS": "3",
+            "BS": "0",
+            "S": "4",
+            "T": "5",
+            "W": "3",
+            "I": "2",
+            "A": "4",
+            "Ld": "5"
+          }
+        ]
+      }
+    ],
+    "specialRules": [
+      "Indomitable (1)",
+      "Move Through Cover",
+      "Necromantic Undead",
+      "Open Order",
+      "Regeneration (6+)",
+      "Stomp Attacks (1)"
+    ]
+  },
+  {
+    "name": "Dire Wolves",
+    "unitCategory": "Cavalry",
+    "troopType": "War Beast",
+    "baseSize": "25 x 50 mm",
+    "unitSize": "5-20",
+    "armourValue": "—",
+    "equipment": ["Claws and fangs (counts as hand weapons)"],
+    "profiles": [
+      {
+        "name": "Dire Wolf",
+        "M": "9",
+        "WS": "3",
+        "BS": "0",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "3",
+        "A": "1",
+        "Ld": "3"
+      }
+    ],
+    "commandGroup": [
+      {
+        "name": "Doom Wolf",
+        "profiles": [
+          {
+            "name": "Doom Wolf",
+            "M": "9",
+            "WS": "3",
+            "BS": "0",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "Ld": "3"
+          }
+        ]
+      }
+    ],
+    "specialRules": [
+      "Necromantic Undead",
+      "Open Order",
+      "Regeneration (6+)",
+      "Reserve Move",
+      "Slavering Charge",
+      "Swiftstride",
+      "Vanguard"
+    ]
+  },
+  {
+    "name": "Fell Bats",
+    "unitCategory": "Infantry",
+    "troopType": "Monstrous Infantry",
+    "baseSize": "40 x 40 mm",
+    "unitSize": "3+",
+    "armourValue": "—",
+    "equipment": ["Claws and fangs (counts as hand weapons)"],
+    "profiles": [
+      {
+        "name": "Fell Bat",
+        "M": "1",
+        "WS": "3",
+        "BS": "0",
+        "S": "3",
+        "T": "3",
+        "W": "2",
+        "I": "3",
+        "A": "2",
+        "Ld": "3"
+      }
+    ],
+    "specialRules": [
+      "Fly (10)",
+      "Necromantic Undead",
+      "Regeneration (6+)",
+      "Skirmishers",
+      "Swiftstride"
+    ]
+  },
+  {
+    "name": "Grave Guard",
+    "unitCategory": "Infantry",
+    "troopType": "Heavy Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "10+",
+    "armourValue": "—",
+    "equipment": ["Hand weapons", "Heavy armour", "Shields"],
+    "profiles": [
+      {
+        "name": "Grave Guard",
+        "M": "4",
+        "WS": "3",
+        "BS": "3",
+        "S": "4",
+        "T": "4",
+        "W": "1",
+        "I": "3",
+        "A": "1",
+        "Ld": "7"
+      }
+    ],
+    "commandGroup": [
+      {
+        "name": "Seneschal",
+        "profiles": [
+          {
+            "name": "Seneschal",
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "Ld": "7"
+          }
+        ]
+      }
+    ],
+    "specialRules": [
+      "Cleaving Blow",
+      "Close Order",
+      "Indomitable (1)",
+      "Necromantic Undead",
+      "Regeneration (6+)"
+    ]
+  },
+  {
+    "name": "Hexwraiths",
+    "unitCategory": "Cavalry",
+    "troopType": "Light Cavalry",
+    "baseSize": "30 x 60 mm",
+    "unitSize": "5-10",
+    "armourValue": "—",
+    "equipment": [
+      "Hexwraiths: Hand weapons",
+      "Hexwraiths: Great weapons",
+      "Spectral Steeds: Skeletal hooves (counts as hand weapons)"
+    ],
+    "profiles": [
+      {
+        "name": "Hexwraith",
+        "M": "-",
+        "WS": "3",
+        "BS": "0",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "2",
+        "A": "1",
+        "Ld": "5"
+      }
+    ],
+    "commandGroup": [
+      {
+        "name": "Hellwraith",
+        "profiles": [
+          {
+            "name": "Hellwraith",
+            "M": "-",
+            "WS": "3",
+            "BS": "0",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "2",
+            "A": "2",
+            "Ld": "5"
+          }
+        ]
+      }
+    ],
+    "subUnits": [
+      {
+        "name": "Spectral Steed",
+        "count": "per model",
+        "profiles": [
+          {
+            "name": "Spectral Steed",
+            "M": "8",
+            "WS": "2",
+            "BS": "-",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "1",
+            "Ld": "-"
+          }
+        ]
+      }
+    ],
+    "specialRules": [
+      "Ethereal",
+      "Flaming Attacks",
+      "Fly (8)",
+      "Magical Attacks",
+      "Necromantic Undead",
+      "Open Order",
+      "Regeneration (6+)",
+      "Spectral Reapers",
+      "Swiftstride",
+      "Terror"
+    ]
+  },
+  {
+    "name": "Master Necromancer",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Hand weapon"],
+    "profiles": [
+      {
+        "name": "Master Necromancer",
+        "M": "4",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "4",
+        "W": "3",
+        "I": "3",
+        "A": "2",
+        "Ld": "8"
+      }
+    ],
+    "magicLores": ["Dark Magic", "Illusion", "Necromancy"],
+    "specialRules": [
+      "Dark Vitality",
+      "Indomitable (1)",
+      "Invocation of Nehek",
+      "Lore of Undeath",
+      "Necromantic Undead",
+      "Regeneration (5+)"
+    ]
+  },
+  {
+    "name": "Mortis Engine",
+    "unitCategory": "Chariot",
+    "troopType": "Heavy Chariot",
+    "baseSize": "50 x 100 mm",
+    "unitSize": 1,
+    "armourValue": "4+",
+    "equipment": ["Banshees: Hand weapons", "Spirit Horde: Hand weapons", "Spirit Horde: Lances"],
+    "profiles": [
+      {
+        "name": "Mortis Engine",
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "S": "5",
+        "T": "5",
+        "W": "5",
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      }
+    ],
+    "subUnits": [
+      {
+        "name": "Banshee",
+        "count": "x3",
+        "profiles": [
+          {
+            "name": "Banshee",
+            "M": "-",
+            "WS": "3",
+            "BS": "0",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "3",
+            "A": "1",
+            "Ld": "5"
+          }
+        ]
+      },
+      {
+        "name": "Spirit Horde",
+        "count": "swarm",
+        "profiles": [
+          {
+            "name": "Spirit",
+            "M": "6",
+            "WS": "3",
+            "BS": "0",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "1",
+            "A": "D6",
+            "Ld": "-"
+          }
+        ]
+      }
+    ],
+    "specialRules": [
+      "Accursed Reliquary",
+      "Blasphemous Tome",
+      "Close Order",
+      "Dark Vitality",
+      "First Charge",
+      "Fly (8)",
+      "Impact Hits (D6+1)",
+      "Large Target",
+      "Necromantic Undead",
+      "Random Attacks (Spirit Horde only)",
+      "Regeneration (6+)",
+      "Wailing Dirge"
+    ]
+  },
+  {
+    "name": "Necromantic Acolyte",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Hand weapon"],
+    "profiles": [
+      {
+        "name": "Necromantic Acolyte",
+        "M": "4",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "3",
+        "W": "2",
+        "I": "3",
+        "A": "1",
+        "Ld": "7"
+      }
+    ],
+    "magicLores": ["Dark Magic", "Illusion", "Necromancy"],
+    "specialRules": [
+      "Dark Vitality",
+      "Indomitable (1)",
+      "Invocation of Nehek",
+      "Lore of Undeath",
+      "Necromantic Undead",
+      "Regeneration (5+)"
+    ]
+  },
+  {
+    "name": "Nightmare",
+    "unitCategory": "Mount",
+    "troopType": "Heavy Cavalry",
+    "baseSize": "30 x 60 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Iron-shod hooves (counts as a hand weapon)", "Barding"],
+    "profiles": [
+      {
+        "name": "Nightmare",
+        "M": "7",
+        "WS": "3",
+        "BS": "-",
+        "S": "4",
+        "T": "-",
+        "W": "-",
+        "I": "2",
+        "A": "1",
+        "Ld": "-"
+      }
+    ],
+    "specialRules": ["Counter Charge", "First Charge", "Necromantic Undead", "Swiftstride"]
+  },
+  {
+    "name": "Skeletal Steed (Vampire Counts)",
+    "unitCategory": "Mount",
+    "troopType": "Heavy Cavalry",
+    "baseSize": "30 x 60 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Skeletal hooves (counts as hand weapon)", "Barding"],
+    "profiles": [
+      {
+        "name": "Skeletal Steed",
+        "M": "7",
+        "WS": "2",
+        "BS": "-",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "2",
+        "A": "1",
+        "Ld": "-"
+      }
+    ],
+    "specialRules": ["First Charge", "Necromantic Undead", "Swiftstride"]
+  },
+  {
+    "name": "Skeleton Warriors (Vampire Counts)",
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "10+",
+    "armourValue": "—",
+    "equipment": ["Hand weapons", "Light armour", "Shields"],
+    "profiles": [
+      {
+        "name": "Skeleton Warrior",
+        "M": "4",
+        "WS": "2",
+        "BS": "2",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "1",
+        "A": "1",
+        "Ld": "5"
+      }
+    ],
+    "commandGroup": [
+      {
+        "name": "Skeleton Champion",
+        "profiles": [
+          {
+            "name": "Skeleton Champion",
+            "M": "4",
+            "WS": "2",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "1",
+            "A": "2",
+            "Ld": "5"
+          }
+        ]
+      }
+    ],
+    "specialRules": ["Close Order", "Horde", "Necromantic Undead", "Regeneration (6+)"]
+  },
+  {
+    "name": "Spirit Hosts",
+    "unitCategory": "Infantry",
+    "troopType": "Swarm",
+    "baseSize": "40 x 40 mm",
+    "unitSize": "3-6",
+    "armourValue": "—",
+    "equipment": ["Hand weapons"],
+    "profiles": [
+      {
+        "name": "Spirit Host",
+        "M": "6",
+        "WS": "3",
+        "BS": "0",
+        "S": "3",
+        "T": "3",
+        "W": "4",
+        "I": "1",
+        "A": "4",
+        "Ld": "4"
+      }
+    ],
+    "specialRules": [
+      "Bound Spirits",
+      "Ethereal",
+      "Magical Attacks",
+      "Necromantic Undead",
+      "Open Order",
+      "Regeneration (6+)",
+      "Reserve Move"
+    ]
+  },
+  {
+    "name": "Strigoi Ghoul King",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Hand weapon"],
+    "profiles": [
+      {
+        "name": "Strigoi Ghoul King",
+        "M": "6",
+        "WS": "6",
+        "BS": "3",
+        "S": "5",
+        "T": "5",
+        "W": "3",
+        "I": "7",
+        "A": "5",
+        "Ld": "8"
+      }
+    ],
+    "magicLores": ["Battle Magic", "Dark Magic", "Necromancy"],
+    "specialRules": [
+      "Dark Vitality",
+      "Flammable",
+      "Hatred (all enemies)",
+      "Indomitable (1)",
+      "Lore of Undeath",
+      "Necromantic Undead",
+      "Poisoned Attacks",
+      "Regeneration (5+)",
+      "The Hunger"
+    ]
+  },
+  {
+    "name": "Terrorgheist",
+    "unitCategory": "Monster",
+    "troopType": "Behemoth",
+    "baseSize": "100 x 150 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": [
+      "Filth-encrusted talons",
+      "Rancid maw",
+      "Calloused hide (counts as light armour)"
+    ],
+    "profiles": [
+      {
+        "name": "Terrorgheist",
+        "M": "6",
+        "WS": "3",
+        "BS": "0",
+        "S": "5",
+        "T": "6",
+        "W": "6",
+        "I": "3",
+        "A": "4",
+        "Ld": "4"
+      }
+    ],
+    "specialRules": [
+      "Close Order",
+      "Fly (9)",
+      "Indomitable (1)",
+      "Infested",
+      "Large Target",
+      "Necromantic Undead",
+      "Regeneration (5+)",
+      "Stomp Attacks (D6)",
+      "Swiftstride",
+      "Terror",
+      "Wailing Dirge"
+    ]
+  },
+  {
+    "name": "Terrorgheist (Mount)",
+    "unitCategory": "Mount",
+    "troopType": "Behemoth",
+    "baseSize": "100 x 150 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": [
+      "Filth-encrusted talons",
+      "Rancid maw",
+      "Calloused hide (counts as light armour)"
+    ],
+    "profiles": [
+      {
+        "name": "Terrorgheist (Mount)",
+        "M": "6",
+        "WS": "3",
+        "BS": "-",
+        "S": "5",
+        "T": "+1",
+        "W": "+5",
+        "I": "3",
+        "A": "4",
+        "Ld": "-"
+      }
+    ],
+    "specialRules": [
+      "Close Order",
+      "Fly (9)",
+      "Indomitable (1)",
+      "Infested",
+      "Large Target",
+      "Necromantic Undead",
+      "Regeneration (5+)",
+      "Stomp Attacks (D6)",
+      "Swiftstride",
+      "Terror",
+      "Wailing Dirge"
+    ]
+  },
+  {
+    "name": "Tomb Banshee",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Hand weapon"],
+    "profiles": [
+      {
+        "name": "Tomb Banshee",
+        "M": "6",
+        "WS": "3",
+        "BS": "0",
+        "S": "3",
+        "T": "3",
+        "W": "2",
+        "I": "3",
+        "A": "1",
+        "Ld": "6"
+      }
+    ],
+    "specialRules": [
+      "Ethereal",
+      "Indomitable (1)",
+      "Magical Attacks",
+      "Necromantic Undead",
+      "Regeneration (6+)",
+      "Terror",
+      "Wailing Dirge"
+    ]
+  },
+  {
+    "name": "Vampire Count",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Hand weapon"],
+    "profiles": [
+      {
+        "name": "Vampire Count",
+        "M": "6",
+        "WS": "7",
+        "BS": "5",
+        "S": "5",
+        "T": "5",
+        "W": "3",
+        "I": "6",
+        "A": "4",
+        "Ld": "8"
+      }
+    ],
+    "magicLores": ["Dark Magic", "Illusion", "Necromancy"],
+    "specialRules": [
+      "Dark Vitality",
+      "Flammable",
+      "Indomitable (2)",
+      "Lore of Undeath",
+      "Necromantic Undead",
+      "Regeneration (5+)"
+    ]
+  },
+  {
+    "name": "Vampire Thrall",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Hand weapon"],
+    "profiles": [
+      {
+        "name": "Vampire Thrall",
+        "M": "6",
+        "WS": "6",
+        "BS": "4",
+        "S": "5",
+        "T": "4",
+        "W": "2",
+        "I": "5",
+        "A": "3",
+        "Ld": "7"
+      }
+    ],
+    "magicLores": ["Dark Magic", "Illusion", "Necromancy"],
+    "specialRules": [
+      "Banner of the Count",
+      "Dark Vitality",
+      "Flammable",
+      "Indomitable (1)",
+      "Lore of Undeath",
+      "Necromantic Undead",
+      "Regeneration (5+)"
+    ]
+  },
+  {
+    "name": "Vargheists",
+    "unitCategory": "Infantry",
+    "troopType": "Monstrous Infantry",
+    "baseSize": "40 x 40 mm",
+    "unitSize": "3+",
+    "armourValue": "—",
+    "equipment": ["Wicked claws"],
+    "profiles": [
+      {
+        "name": "Vargheist",
+        "M": "6",
+        "WS": "4",
+        "BS": "0",
+        "S": "5",
+        "T": "4",
+        "W": "3",
+        "I": "4",
+        "A": "3",
+        "Ld": "7"
+      }
+    ],
+    "commandGroup": [
+      {
+        "name": "Vargoyle",
+        "profiles": [
+          {
+            "name": "Vargoyle",
+            "M": "6",
+            "WS": "4",
+            "BS": "0",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "4",
+            "Ld": "7"
+          }
+        ]
+      }
+    ],
+    "specialRules": [
+      "Armour Bane (2)",
+      "Dark Vitality",
+      "Flammable",
+      "Fly (9)",
+      "Frenzy",
+      "Indomitable (1)",
+      "Necromantic Undead",
+      "Regeneration (6+)",
+      "Skirmishers"
+    ]
+  },
+  {
+    "name": "Varghulf",
+    "unitCategory": "Monster",
+    "troopType": "Monstrous Creature",
+    "baseSize": "50 x 50 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Wicked claws", "Calloused hide (counts as light armour)"],
+    "profiles": [
+      {
+        "name": "Varghulf",
+        "M": "8",
+        "WS": "5",
+        "BS": "0",
+        "S": "5",
+        "T": "5",
+        "W": "4",
+        "I": "4",
+        "A": "4",
+        "Ld": "4"
+      }
+    ],
+    "specialRules": [
+      "Bestial Fury",
+      "Close Order",
+      "Counter Charge",
+      "Dark Vitality",
+      "Flammable",
+      "Frenzy",
+      "Indomitable (1)",
+      "Necromantic Undead",
+      "Regeneration (5+)",
+      "Swiftstride",
+      "Terror"
+    ]
+  },
+  {
+    "name": "Wight King",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "Heavy armour"],
+    "profiles": [
+      {
+        "name": "Wight King",
+        "M": "4",
+        "WS": "5",
+        "BS": "0",
+        "S": "5",
+        "T": "5",
+        "W": "3",
+        "I": "4",
+        "A": "3",
+        "Ld": "9"
+      }
+    ],
+    "specialRules": ["Indomitable (1)", "Killing Blow", "Necromantic Undead", "Regeneration (5+)"]
+  },
+  {
+    "name": "Wight Lord",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "Heavy armour"],
+    "profiles": [
+      {
+        "name": "Wight Lord",
+        "M": "4",
+        "WS": "4",
+        "BS": "0",
+        "S": "4",
+        "T": "5",
+        "W": "2",
+        "I": "4",
+        "A": "2",
+        "Ld": "8"
+      }
+    ],
+    "specialRules": ["Killing Blow", "Necromantic Undead", "Regeneration (6+)", "Wight Banner"]
+  },
+  {
+    "name": "Zombie Dragon",
+    "unitCategory": "Monster",
+    "troopType": "Behemoth",
+    "baseSize": "100 x 150 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": [
+      "Wicked claws",
+      "Pestilential breath",
+      "Draconic scales (counts as full plate armour)"
+    ],
+    "profiles": [
+      {
+        "name": "Zombie Dragon",
+        "M": "6",
+        "WS": "4",
+        "BS": "-",
+        "S": "6",
+        "T": "+1",
+        "W": "+5",
+        "I": "2",
+        "A": "5",
+        "Ld": "-"
+      }
+    ],
+    "specialRules": [
+      "Carrion Feeders",
+      "Close Order",
+      "Fly (9)",
+      "Large Target",
+      "Necromantic Undead",
+      "Stomp Attacks (D6)",
+      "Swiftstride",
+      "Terror"
+    ]
+  },
+  {
+    "name": "Zombies",
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "20-40",
+    "armourValue": "—",
+    "equipment": ["Hand weapons"],
+    "profiles": [
+      {
+        "name": "Zombies",
+        "M": "4",
+        "WS": "2",
+        "BS": "0",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "1",
+        "A": "1",
+        "Ld": "2"
+      }
+    ],
+    "specialRules": [
+      "Close Order",
+      "Horde",
+      "Necromantic Undead",
+      "Regeneration (6+)",
+      "The Newly Dead"
+    ]
+  }
+]

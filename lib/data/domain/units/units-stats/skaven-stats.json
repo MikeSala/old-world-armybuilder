@@ -1,0 +1,674 @@
+[
+  {
+    "name": "Clanrats",
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "20-40",
+    "armourValue": "—",
+    "equipment": ["Hand weapons", "light armour"],
+    "specialRules": ["Close Order", "Horde", "Scurry Away", "Warband"],
+    "profiles": {
+      "Clanrat": { "M": 5, "WS": 3, "BS": 3, "S": 3, "T": 3, "W": 1, "I": 4, "A": 1, "Ld": 4 },
+      "Clawleader": { "M": 5, "WS": 3, "BS": 3, "S": 3, "T": 3, "W": 1, "I": 4, "A": 2, "Ld": 5 }
+    }
+  },
+  {
+    "name": "Doomwheel",
+    "unitCategory": "Chariot",
+    "troopType": "Heavy Chariot",
+    "baseSize": "50 x 100 mm",
+    "unitSize": "1",
+    "armourValue": "5+",
+    "equipment": ["Warlock: Hand weapon", "Rats: Claws and fangs (counts as a hand weapon)"],
+    "specialRules": [
+      "Close Order",
+      "Crushing Bulk",
+      "Immune to Psychology",
+      "Impact Hits (D3+1)",
+      "Large Target",
+      "Random Attacks (Rats only)",
+      "Random Movement",
+      "Stomp Attacks (2)",
+      "Zzzzap!"
+    ],
+    "profiles": {
+      "Doomwheel": {
+        "M": "3D6",
+        "WS": "-",
+        "BS": "-",
+        "S": 5,
+        "T": 5,
+        "W": 4,
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      "Warlock": {
+        "M": "-",
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": "-",
+        "W": "-",
+        "I": 3,
+        "A": 1,
+        "Ld": 7
+      },
+      "Rats": {
+        "M": "-",
+        "WS": 2,
+        "BS": 0,
+        "S": 2,
+        "T": "-",
+        "W": "-",
+        "I": 4,
+        "A": "2D6",
+        "Ld": 5
+      }
+    }
+  },
+  {
+    "name": "Giant Rats",
+    "unitCategory": "Cavalry",
+    "troopType": "War Beast",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "10-30",
+    "armourValue": "—",
+    "equipment": ["Claws and teeth (counts as hand weapons)"],
+    "specialRules": ["Close Order", "Fight in Extra Rank", "Horde", "Scurry Away", "Warband"],
+    "profiles": {
+      "Giant Rat": { "M": 6, "WS": 2, "BS": 0, "S": 2, "T": 3, "W": 1, "I": 4, "A": 1, "Ld": 3 }
+    }
+  },
+  {
+    "name": "Grey Seer",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "D3 Warpstone Tokens"],
+    "specialRules": [
+      "Lore of the Horned Rat",
+      "Magical Attacks",
+      "Magic Resistance (-1)",
+      "Scurry Away",
+      "Verminous Valour",
+      "Warband",
+      "Warpstone Weapons"
+    ],
+    "magicLores": ["Battle Magic", "Daemonology", "Dark Magic", "Elementalism", "Illusion"],
+    "profiles": {
+      "Grey Seer": { "M": 5, "WS": 3, "BS": 3, "S": 3, "T": 4, "W": 3, "I": 5, "A": 2, "Ld": 7 }
+    }
+  },
+  {
+    "name": "Gutter Runners",
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "5+",
+    "armourValue": "—",
+    "equipment": ["Two hand weapons"],
+    "specialRules": [
+      "Evasive",
+      "Feigned Flight",
+      "Fire & Flee",
+      "Move Through Cover",
+      "Scouts",
+      "Scurry Away",
+      "Skirmishers"
+    ],
+    "profiles": {
+      "Gutter Runner": {
+        "M": 6,
+        "WS": 4,
+        "BS": 4,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 5,
+        "A": 1,
+        "Ld": 7
+      },
+      "Assassin": { "M": 6, "WS": 4, "BS": 4, "S": 3, "T": 3, "W": 1, "I": 5, "A": 2, "Ld": 7 }
+    }
+  },
+  {
+    "name": "Hell Pit Abomination",
+    "unitCategory": "Monster",
+    "troopType": "Behemoth",
+    "baseSize": "60 x 100 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Warpstone claws"],
+    "specialRules": [
+      "Abominable Attacks",
+      "Close Order",
+      "Immune to Psychology",
+      "Large Target",
+      "Magic Resistance (-1)",
+      "Random Attacks",
+      "Random Movement",
+      "Regeneration (5+)",
+      "Stomp Attacks (D3+1)",
+      "Terror",
+      "Timmm-berrr!",
+      "Too Horrible to Die",
+      "Unbreakable"
+    ],
+    "profiles": {
+      "Hell Pit Abomination": {
+        "M": "3D6",
+        "WS": 3,
+        "BS": 1,
+        "S": 6,
+        "T": 5,
+        "W": 6,
+        "I": 4,
+        "A": "D6+1",
+        "Ld": 8
+      }
+    }
+  },
+  {
+    "name": "Master Assassin",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Two hand weapons", "throwing weapons"],
+    "specialRules": [
+      "Ambushers",
+      "Eshin Infiltration",
+      "Evasive",
+      "Feigned Flight",
+      "Fire & Flee",
+      "Hidden",
+      "Move Through Cover",
+      "Poisoned Attacks",
+      "Scurry Away",
+      "Verminous Valour",
+      "Warpstone Weapons"
+    ],
+    "profiles": {
+      "Master Assassin": {
+        "M": 6,
+        "WS": 8,
+        "BS": 7,
+        "S": 4,
+        "T": 4,
+        "W": 2,
+        "I": 8,
+        "A": 3,
+        "Ld": 7
+      }
+    }
+  },
+  {
+    "name": "Master Moulder",
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "(see Rat Ogre & Giant Rat profiles)",
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "light armour"],
+    "specialRules": [
+      "Close Order",
+      "Horde",
+      "Leader of the Pack",
+      "Motley Crew",
+      "Scurry Away",
+      "Warband"
+    ],
+    "profiles": {
+      "Master Moulder": {
+        "M": 6,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 4,
+        "A": 2,
+        "Ld": 7
+      }
+    }
+  },
+  {
+    "name": "Night Runners",
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "10+",
+    "armourValue": "—",
+    "equipment": ["Hand weapons"],
+    "specialRules": ["Evasive", "Fire & Flee", "Scurry Away", "Skirmishers"],
+    "profiles": {
+      "Night Runner": { "M": 6, "WS": 3, "BS": 3, "S": 3, "T": 3, "W": 1, "I": 5, "A": 1, "Ld": 5 },
+      "Nightleader": { "M": 6, "WS": 3, "BS": 3, "S": 3, "T": 3, "W": 1, "I": 5, "A": 2, "Ld": 5 }
+    }
+  },
+  {
+    "name": "Packmaster",
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "(see Rat Ogre & Giant Rat profiles)",
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "light armour"],
+    "specialRules": [
+      "Close Order",
+      "Horde",
+      "Leader of the Pack",
+      "Motley Crew",
+      "Scurry Away",
+      "Warband"
+    ],
+    "profiles": {
+      "Packmaster": { "M": 6, "WS": 3, "BS": 3, "S": 3, "T": 3, "W": 1, "I": 4, "A": 1, "Ld": 6 }
+    }
+  },
+  {
+    "name": "Plague Censer Bearers",
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "2-10",
+    "armourValue": "—",
+    "equipment": ["Hand weapons", "plague censers"],
+    "specialRules": ["Frenzy", "Scurry Away", "Skirmishers", "Stubborn", "Warband"],
+    "profiles": {
+      "Plague Censer Bearer": {
+        "M": 5,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 4,
+        "W": 1,
+        "I": 3,
+        "A": 1,
+        "Ld": 5
+      }
+    }
+  },
+  {
+    "name": "Plague Furnace",
+    "unitCategory": "Chariot",
+    "troopType": "Heavy Chariot",
+    "baseSize": "60 x 100 mm",
+    "unitSize": "1",
+    "armourValue": "4+",
+    "equipment": ["Plague Furnace: Billowing Death", "Plague Monk Crew: Hand weapon"],
+    "specialRules": [
+      "Dragged Along",
+      "Fear",
+      "Frenzy",
+      "Great Censer",
+      "Impact Hits (D3+1)",
+      "Large Target",
+      "Magic Resistance (-1)",
+      "Poisoned Attacks",
+      "Scurrying Masses",
+      "Stomp Attacks (D3+1)"
+    ],
+    "profiles": {
+      "Plague Furnace": {
+        "M": 2,
+        "WS": "-",
+        "BS": "-",
+        "S": 5,
+        "T": 6,
+        "W": 5,
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      "Plague Monk Crew": {
+        "M": "-",
+        "WS": 3,
+        "BS": 0,
+        "S": 3,
+        "T": "-",
+        "W": "-",
+        "I": 3,
+        "A": 2,
+        "Ld": 5
+      }
+    }
+  },
+  {
+    "name": "Plague Monks",
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "10+",
+    "armourValue": "—",
+    "equipment": ["Hand weapons"],
+    "specialRules": ["Close Order", "Frenzy", "Horde", "Scurry Away", "Warband"],
+    "profiles": {
+      "Plague Monk": { "M": 5, "WS": 3, "BS": 3, "S": 3, "T": 4, "W": 1, "I": 3, "A": 1, "Ld": 5 },
+      "Plague Deacon": { "M": 5, "WS": 3, "BS": 3, "S": 3, "T": 4, "W": 1, "I": 3, "A": 2, "Ld": 5 }
+    }
+  },
+  {
+    "name": "Plague Priest",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Hand weapon"],
+    "specialRules": [
+      "Cloud of Flies",
+      "Frenzy",
+      "Lore of the Horned Rat",
+      "Magical Attacks",
+      "Scurry Away",
+      "Verminous Valour",
+      "Warband",
+      "Warpstone Weapons"
+    ],
+    "magicLores": ["Battle Magic", "Daemonology", "Dark Magic"],
+    "profiles": {
+      "Plague Priest": { "M": 5, "WS": 5, "BS": 3, "S": 4, "T": 5, "W": 2, "I": 5, "A": 3, "Ld": 6 }
+    }
+  },
+  {
+    "name": "Plagueclaw Catapult",
+    "unitCategory": "War Machine",
+    "troopType": "War Machine",
+    "baseSize": "50 x 100 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Plagueclaw Catapult", "hand weapons", "light armour"],
+    "specialRules": ["Random Attacks", "Skirmishers", "Stubborn"],
+    "profiles": {
+      "Plagueclaw Catapult": {
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "S": "-",
+        "T": 6,
+        "W": 4,
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      "Plague Monk Crew": {
+        "M": 5,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 4,
+        "W": 3,
+        "I": 2,
+        "A": "D3+3",
+        "Ld": 6
+      }
+    }
+  },
+  {
+    "name": "Poisoned Wind Globadiers",
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "2-10",
+    "armourValue": "—",
+    "equipment": ["Hand weapons", "Poisoned Wind globes", "light armour"],
+    "specialRules": ["Scurry Away", "Skirmishers", "Warband"],
+    "profiles": {
+      "Globadier": { "M": 5, "WS": 3, "BS": 3, "S": 3, "T": 3, "W": 1, "I": 4, "A": 1, "Ld": 5 }
+    }
+  },
+  {
+    "name": "Rat Ogres",
+    "unitCategory": "Infantry",
+    "troopType": "Monstrous Infantry",
+    "baseSize": "50 x 50 mm",
+    "unitSize": "3+",
+    "armourValue": "—",
+    "equipment": ["Hand weapons", "mutated hides (counts as heavy armour)"],
+    "specialRules": [
+      "Armour Bane (2)",
+      "Close Order",
+      "Fear",
+      "Frenzy",
+      "Horde",
+      "Safe from Harm",
+      "Scurry Away",
+      "Warband"
+    ],
+    "profiles": {
+      "Rat Ogre": { "M": 6, "WS": 4, "BS": 1, "S": 5, "T": 4, "W": 3, "I": 4, "A": 3, "Ld": 5 }
+    }
+  },
+  {
+    "name": "Rat Swarms",
+    "unitCategory": "Infantry",
+    "troopType": "Swarm",
+    "baseSize": "40 x 40 mm",
+    "unitSize": "3+",
+    "armourValue": "—",
+    "equipment": ["Claws and fangs (counts as hand weapons)"],
+    "specialRules": ["Immune to Psychology", "Loner", "Skirmishers", "Unbreakable", "Vanguard"],
+    "profiles": {
+      "Rat Swarm": { "M": 6, "WS": 2, "BS": 0, "S": 2, "T": 2, "W": 5, "I": 4, "A": 5, "Ld": 4 }
+    }
+  },
+  {
+    "name": "Screaming Bell",
+    "unitCategory": "Chariot",
+    "troopType": "Heavy Chariot",
+    "baseSize": "60 x 100 mm",
+    "unitSize": "1",
+    "armourValue": "4+",
+    "equipment": ["Rat Ogre Crew: Hand weapon"],
+    "specialRules": [
+      "Armour Bane (2, Rat Ogre only)",
+      "Blessings of the Horned Rat",
+      "Dragged Along",
+      "Impact Hits (D6+1)",
+      "Large Target",
+      "Magic Resistance (-3)",
+      "Scurrying Masses",
+      "Stubborn",
+      "Terror",
+      "Tolling the Bell"
+    ],
+    "profiles": {
+      "Screaming Bell": {
+        "M": 2,
+        "WS": "-",
+        "BS": "-",
+        "S": 5,
+        "T": 6,
+        "W": 5,
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      "Rat Ogre Crew": {
+        "M": "-",
+        "WS": 3,
+        "BS": 0,
+        "S": 5,
+        "T": "-",
+        "W": "-",
+        "I": 4,
+        "A": 3,
+        "Ld": 5
+      }
+    }
+  },
+  {
+    "name": "Skaven Chieftain",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "light armour"],
+    "specialRules": ["Scurry Away", "Verminous Valour", "Warband", "Warpstone Weapons"],
+    "profiles": {
+      "Skaven Chieftain": {
+        "M": 5,
+        "WS": 5,
+        "BS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 2,
+        "I": 6,
+        "A": 3,
+        "Ld": 6
+      }
+    }
+  },
+  {
+    "name": "Skaven Warlord",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "light armour"],
+    "specialRules": ["Scurry Away", "Verminous Valour", "Warband", "Warpstone Weapons"],
+    "profiles": {
+      "Skaven Warlord": {
+        "M": 5,
+        "WS": 6,
+        "BS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": 7,
+        "A": 4,
+        "Ld": 7
+      }
+    }
+  },
+  {
+    "name": "Stormvermin",
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "10+",
+    "armourValue": "—",
+    "equipment": ["Hand weapons", "halberds", "heavy armour"],
+    "specialRules": ["Close Order", "Horde", "Scurry Away", "Warband", "Warpstone Weapons"],
+    "profiles": {
+      "Stormvermin": { "M": 5, "WS": 4, "BS": 3, "S": 3, "T": 3, "W": 1, "I": 5, "A": 1, "Ld": 5 },
+      "Fangleader": { "M": 5, "WS": 4, "BS": 3, "S": 3, "T": 3, "W": 1, "I": 5, "A": 2, "Ld": 6 }
+    }
+  },
+  {
+    "name": "Warlock Engineer",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "D3 Warpstone Tokens"],
+    "specialRules": [
+      "Lore of the Horned Rat",
+      "Magical Attacks",
+      "Scurry Away",
+      "Verminous Valour",
+      "Warband",
+      "Warpstone Weapons"
+    ],
+    "magicLores": ["Battle Magic", "Elementalism"],
+    "profiles": {
+      "Warlock Engineer": {
+        "M": 5,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 2,
+        "I": 4,
+        "A": 2,
+        "Ld": 5
+      }
+    }
+  },
+  {
+    "name": "Warp Lightning Cannon",
+    "unitCategory": "War Machine",
+    "troopType": "War Machine",
+    "baseSize": "50 x 100 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Warp Lightning Cannon", "hand weapons", "light armour"],
+    "specialRules": ["Skirmishers"],
+    "profiles": {
+      "Warp Lightning Cannon": {
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "S": "-",
+        "T": 6,
+        "W": 4,
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      "Engineer & Crew": {
+        "M": 5,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 3,
+        "I": 3,
+        "A": 3,
+        "Ld": 6
+      }
+    }
+  },
+  {
+    "name": "Warplock Jezzails",
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 50 mm",
+    "unitSize": "3+",
+    "armourValue": "—",
+    "equipment": ["Hand weapons", "warplock jezzails", "pavise"],
+    "specialRules": ["Open Order", "Scurry Away", "Warband"],
+    "profiles": {
+      "Jezzail Team": { "M": 5, "WS": 3, "BS": 3, "S": 3, "T": 3, "W": 2, "I": 3, "A": 2, "Ld": 5 }
+    }
+  },
+  {
+    "name": "Weapon Team",
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 50 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Hand weapons", "light armour"],
+    "specialRules": [
+      "Loner",
+      "Open Order",
+      "Scurry Away",
+      "Deploying Weapon Teams",
+      "Weapon Team Leadership",
+      "Targeting Weapon Teams"
+    ],
+    "profiles": {
+      "Weapon Team Crew": {
+        "M": 5,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 2,
+        "I": 3,
+        "A": 2,
+        "Ld": 4
+      }
+    }
+  }
+]

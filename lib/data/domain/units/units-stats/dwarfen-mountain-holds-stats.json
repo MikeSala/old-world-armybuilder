@@ -1,0 +1,212 @@
+
+[
+  {
+    "name": "Anvil of Doom",
+    "M": null, "WS": null, "BS": null, "S": null, "T": 7, "W": 5, "I": null, "A": null, "Ld": null,
+    "unitCategory": "Character",
+    "troopType": "War Machine, Character",
+    "baseSize": null,
+    "unitSize": 1,
+    "armourValue": null,
+    "equipment": ["Hand weapons", "heavy armour", "shields"],
+    "specialRules": ["Ancestral Shield", "Gromril Armour", "Gromril Weapons", "Hatred (Orcs & Goblins)", "Immune to Psychology", "Immovable Object", "Magic Resistance (-3)", "Resolute", "Rune Lore", "Skirmishers", "Strike the Runes", "Unbreakable"]
+  },
+  {
+    "name": "Forgefather & Anvil Guard",
+    "M": 3, "WS": 6, "BS": 4, "S": 4, "T": 5, "W": 4, "I": 3, "A": 5, "Ld": 9,
+    "unitCategory": "Crew",
+    "troopType": null,
+    "baseSize": null,
+    "unitSize": null,
+    "armourValue": null,
+    "equipment": [],
+    "specialRules": []
+  },
+  {
+    "name": "Bolt Thrower",
+    "M": null, "WS": null, "BS": null, "S": null, "T": 6, "W": 3, "I": null, "A": null, "Ld": null,
+    "unitCategory": "War Machine",
+    "troopType": "War Machine",
+    "baseSize": "50 x 50 mm (war machine), 25 x 25 mm (crew)",
+    "unitSize": 1,
+    "armourValue": null,
+    "equipment": ["Bolt thrower", "hand weapons", "light armour"],
+    "specialRules": ["Hatred (Orcs & Goblins)", "Magic Resistance (-1)", "Skirmishers", "Stubborn"]
+  },
+  {
+    "name": "Dwarf Crew (Bolt Thrower)",
+    "M": 3, "WS": 3, "BS": 3, "S": 3, "T": 4, "W": 3, "I": 2, "A": 3, "Ld": 9,
+    "unitCategory": "Crew",
+    "troopType": null,
+    "baseSize": "25 x 25 mm",
+    "unitSize": null,
+    "armourValue": null,
+    "equipment": [],
+    "specialRules": []
+  },
+  {
+    "name": "Burlok Damminson",
+    "M": 3, "WS": 5, "BS": 5, "S": 4, "T": 4, "W": 2, "I": 2, "A": 3, "Ld": 10,
+    "unitCategory": "Named Character",
+    "troopType": "Heavy Infantry, Named Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": 1,
+    "armourValue": null,
+    "equipment": ["Furnace hammer", "rivet gun", "heavy armour"],
+    "specialRules": ["Dwarf Crafted", "Gromril Armour", "Hatred (Orcs & Goblins)", "Magic Resistance (-1)", "Prepared Positions", "Range Finding Optics", "Resolute", "\"Stand Back Chief\"", "Stubborn"]
+  },
+  {
+    "name": "Cannon",
+    "M": null, "WS": null, "BS": null, "S": null, "T": 7, "W": 3, "I": null, "A": null, "Ld": null,
+    "unitCategory": "War Machine",
+    "troopType": "War Machine",
+    "baseSize": "50 x 50 mm (war machine), 25 x 25 mm (crew)",
+    "unitSize": 1,
+    "armourValue": null,
+    "equipment": ["Cannon", "hand weapons", "light armour"],
+    "specialRules": ["Hatred (Orcs & Goblins)", "Magic Resistance (-1)", "Skirmishers", "Stubborn"]
+  },
+  {
+    "name": "Dwarf Crew (Cannon)",
+    "M": 3, "WS": 3, "BS": 3, "S": 3, "T": 4, "W": 3, "I": 2, "A": 3, "Ld": 9,
+    "unitCategory": "Crew",
+    "troopType": null,
+    "baseSize": "25 x 25 mm",
+    "unitSize": null,
+    "armourValue": null,
+    "equipment": [],
+    "specialRules": []
+  },
+  {
+    "name": "Daemon Slayer",
+    "M": 3, "WS": 7, "BS": 3, "S": 4, "T": 5, "W": 3, "I": 5, "A": 4, "Ld": 10,
+    "unitCategory": "Character",
+    "troopType": "Heavy Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": 1,
+    "armourValue": null,
+    "equipment": ["Hand weapon"],
+    "specialRules": ["Deathblow", "Gromril Weapons", "Hatred (Orcs & Goblins)", "Immune to Psychology", "Killing Blow", "Loner", "Magic Resistance (-2)", "Resolute", "Slayer of Daemons", "Unbreakable", "Vanguard"]
+  },
+  {
+    "name": "Doomseeker",
+    "M": 3, "WS": 5, "BS": 0, "S": 5, "T": 4, "W": 2, "I": 3, "A": "2D3", "Ld": 10,
+    "unitCategory": "Character",
+    "troopType": "Heavy Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": 1,
+    "armourValue": null,
+    "equipment": ["Whirling blades of death (counts as a hand weapon)"],
+    "specialRules": ["Deathblow", "Doomseeker", "First to the Fray", "Gromril Weapons", "Hatred (Orcs & Goblins)", "Immune to Psychology", "Impact Hits (D3+1)", "Loner", "Magic Resistance (-2)", "Random Attacks", "Resolute", "Unbreakable", "Vanguard", "Whirlwind of Death"]
+  },
+  {
+    "name": "Dragon Slayer",
+    "M": 3, "WS": 6, "BS": 3, "S": 4, "T": 5, "W": 2, "I": 4, "A": 3, "Ld": 10,
+    "unitCategory": "Character",
+    "troopType": "Heavy Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": 1,
+    "armourValue": null,
+    "equipment": ["Hand weapon"],
+    "specialRules": ["Deathblow", "Gromril Weapons", "Hatred (Orcs & Goblins)", "Immune to Psychology", "Killing Blow", "Loner", "Magic Resistance (-2)", "Resolute", "Slayer of Dragons", "Unbreakable", "Vanguard"]
+  },
+  {
+    "name": "Dwarf Cart",
+    "M": null, "WS": null, "BS": null, "S": 4, "T": 5, "W": 3, "I": null, "A": null, "Ld": null,
+    "unitCategory": "Chariot",
+    "troopType": "Light Chariot",
+    "baseSize": "50 x 75 mm",
+    "unitSize": 1,
+    "armourValue": "5+",
+    "equipment": ["Dwarf Crew: Hand weapons", "Draft Pony: Iron-shod hooves (counts as a hand weapon)"],
+    "specialRules": ["Hatred (Orcs & Goblins)", "Impact Hits (D3)", "Magic Resistance (-1)", "Open Order", "Resolute"]
+  },
+  {
+    "name": "Dwarf Crew (Cart)",
+    "M": null, "WS": 4, "BS": 4, "S": 3, "T": null, "W": null, "I": 2, "A": 1, "Ld": 8,
+    "unitCategory": "Crew",
+    "troopType": null,
+    "baseSize": "25 x 25 mm",
+    "unitSize": 1,
+    "armourValue": null,
+    "equipment": [],
+    "specialRules": []
+  },
+  {
+    "name": "Draft Pony",
+    "M": 6, "WS": 3, "BS": null, "S": 3, "T": null, "W": null, "I": 3, "A": 1, "Ld": null,
+    "unitCategory": "Mount",
+    "troopType": null,
+    "baseSize": null,
+    "unitSize": null,
+    "armourValue": null,
+    "equipment": [],
+    "specialRules": []
+  },
+  {
+    "name": "Dwarf Warrior",
+    "M": 3, "WS": 4, "BS": 3, "S": 3, "T": 4, "W": 1, "I": 2, "A": 1, "Ld": 9,
+    "unitCategory": "Infantry",
+    "troopType": "Heavy Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "5+",
+    "armourValue": null,
+    "equipment": ["Hand weapons", "heavy armour"],
+    "specialRules": ["Close Order", "Hatred (Orcs & Goblins)", "Magic Resistance (-1)", "Resolute", "Shieldwall"]
+  },
+  {
+    "name": "Veteran (Dwarf Warriors)",
+    "M": 3, "WS": 4, "BS": 3, "S": 3, "T": 4, "W": 1, "I": 2, "A": 2, "Ld": 9,
+    "unitCategory": "Champion",
+    "troopType": null,
+    "baseSize": "25 x 25 mm",
+    "unitSize": null,
+    "armourValue": null,
+    "equipment": [],
+    "specialRules": []
+  },
+  {
+    "name": "Engineer",
+    "M": 3, "WS": 4, "BS": 5, "S": 4, "T": 4, "W": 2, "I": 2, "A": 2, "Ld": 9,
+    "unitCategory": "Character",
+    "troopType": "Heavy Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": 1,
+    "armourValue": null,
+    "equipment": ["Hand weapon", "heavy armour"],
+    "specialRules": ["Artillery Master", "Dwarf Crafted", "Entrenchment", "Gromril Armour", "Hatred (Orcs & Goblins)", "Magic Resistance (-1)", "Resolute", "\"Stand Back Chief\"", "Stubborn"]
+  },
+  {
+    "name": "Engineer Sapper",
+    "M": 3, "WS": 4, "BS": 5, "S": 4, "T": 4, "W": 2, "I": 2, "A": 2, "Ld": 9,
+    "unitCategory": "Character",
+    "troopType": "Heavy Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": 1,
+    "armourValue": null,
+    "equipment": ["Hand weapon", "heavy armour"],
+    "specialRules": ["\"Dig In!\"", "Dwarf Crafted", "Gromril Armour", "Hatred (Orcs & Goblins)", "Hostile Terrain", "Magic Resistance (-1)", "Resolute", "Stubborn"]
+  },
+  {
+    "name": "Flame Cannon",
+    "M": null, "WS": null, "BS": null, "S": null, "T": 6, "W": 3, "I": null, "A": null, "Ld": null,
+    "unitCategory": "War Machine",
+    "troopType": "War Machine",
+    "baseSize": "50 x 75 mm (war machine), 25 x 25 mm (crew)",
+    "unitSize": 1,
+    "armourValue": null,
+    "equipment": ["Fire thrower", "hand weapons", "light armour"],
+    "specialRules": ["Hatred (Orcs & Goblins)", "Magic Resistance (-1)", "Skirmishers", "Stubborn"]
+  },
+  {
+    "name": "Dwarf Crew (Flame Cannon)",
+    "M": 3, "WS": 3, "BS": 3, "S": 3, "T": 4, "W": 3, "I": 2, "A": 3, "Ld": 9,
+    "unitCategory": "Crew",
+    "troopType": null,
+    "baseSize": "25 x 25 mm",
+    "unitSize": null,
+    "armourValue": null,
+    "equipment": [],
+    "specialRules": []
+  }
+]

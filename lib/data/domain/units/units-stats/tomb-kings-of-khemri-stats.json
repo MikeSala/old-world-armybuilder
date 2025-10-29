@@ -1,0 +1,1573 @@
+[
+  {
+    "name": "Arch Necrotect",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "whip", "light armour"],
+    "specialRules": [
+      "Dry as Dust",
+      "Flammable",
+      "Immortal Overseer",
+      "Khopesh",
+      "Nehekharan Undead",
+      "Regeneration (5+)",
+      "Stone Shaper"
+    ],
+    "profiles": [
+      {
+        "label": "Arch Necrotect",
+        "M": 4,
+        "WS": 4,
+        "BS": 3,
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": 3,
+        "A": 3,
+        "Ld": 8
+      }
+    ]
+  },
+  {
+    "name": "Carrion",
+    "unitCategory": "Infantry",
+    "troopType": "Monstrous Infantry",
+    "baseSize": "40 x 40 mm",
+    "unitSize": "2+",
+    "armourValue": "—",
+    "equipment": ["Beaks and talons (counts as hand weapons)"],
+    "specialRules": [
+      "Fly (10)",
+      "Nehekharan Undead",
+      "Regeneration (6+)",
+      "Skirmishers",
+      "Swiftstride"
+    ],
+    "profiles": [
+      {
+        "label": "Carrion",
+        "M": 2,
+        "WS": 3,
+        "BS": 0,
+        "S": 4,
+        "T": 4,
+        "W": 2,
+        "I": 3,
+        "A": 3,
+        "Ld": 4
+      }
+    ]
+  },
+  {
+    "name": "Casket of Souls",
+    "unitCategory": "War Machine",
+    "troopType": "War Machine",
+    "baseSize": "N/A",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Hand weapons", "great weapons", "light armour"],
+    "specialRules": [
+      "Cleaving Blow",
+      "Covenant of Power",
+      "Dry as Dust",
+      "Immovable Object",
+      "Indomitable (2)",
+      "Nehekharan Undead",
+      "Regeneration (5+)",
+      "Skirmishers",
+      "Unbound Spirits",
+      "Vortex of Souls"
+    ],
+    "profiles": [
+      {
+        "label": "Casket of Souls",
+        "M": "—",
+        "WS": "—",
+        "BS": "—",
+        "S": "—",
+        "T": 6,
+        "W": 4,
+        "I": "—",
+        "A": "—",
+        "Ld": "—"
+      },
+      {
+        "label": "Casket Guardians",
+        "M": 4,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 4,
+        "I": 3,
+        "A": 4,
+        "Ld": 8
+      }
+    ]
+  },
+  {
+    "name": "High Priest",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Hand weapon"],
+    "specialRules": [
+      "Arise!",
+      "Curse of the Necropolis",
+      "Indomitable (1)",
+      "Khopesh",
+      "Lore of Nehekhara",
+      "Nehekharan Undead",
+      "Regeneration (5+)",
+      "From Beneath the Sands"
+    ],
+    "magicLores": ["Elementalism", "Illusion", "Necromancy"],
+    "profiles": [
+      {
+        "label": "High Priest",
+        "M": 4,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 4,
+        "W": 3,
+        "I": 2,
+        "A": 2,
+        "Ld": 8
+      }
+    ]
+  },
+  {
+    "name": "Khemrian Warsphinx",
+    "unitCategory": "Monster",
+    "troopType": "Behemoth",
+    "baseSize": "60 x 100 mm",
+    "unitSize": 1,
+    "armourValue": "5+",
+    "equipment": [
+      "Khemrian Warsphinx: Wicked claws",
+      "Tomb Guard Crew: Hand weapons",
+      "Tomb Guard Crew: cavalry spears",
+      "Tomb Guard Crew: shortbows"
+    ],
+    "specialRules": [
+      "Arrows of Asaph",
+      "Cleaving Blow (Tomb Guard Crew only)",
+      "Close Order",
+      "Howdah",
+      "Indomitable (2)",
+      "Khopesh (Tomb Guard Crew only)",
+      "Large Target",
+      "Nehekharan Undead",
+      "Regeneration (6+)",
+      "Stomp Attacks (D3)",
+      "Terror"
+    ],
+    "profiles": [
+      {
+        "label": "Khemrian Warsphinx",
+        "M": 6,
+        "WS": 4,
+        "BS": "—",
+        "S": 5,
+        "T": 6,
+        "W": 5,
+        "I": 1,
+        "A": 4,
+        "Ld": "—"
+      },
+      {
+        "label": "Tomb Guard Crew (x2)",
+        "M": "—",
+        "WS": 3,
+        "BS": 3,
+        "S": 4,
+        "T": "—",
+        "W": "—",
+        "I": 3,
+        "A": 1,
+        "Ld": 8
+      }
+    ]
+  },
+  {
+    "name": "Mortuary Priest",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Hand weapon"],
+    "specialRules": [
+      "Arise!",
+      "Curse of the Necropolis",
+      "Indomitable (1)",
+      "Khopesh",
+      "Lore of Nehekhara",
+      "Nehekharan Undead",
+      "Regeneration (5+)",
+      "From Beneath the Sands"
+    ],
+    "magicLores": ["Elementalism", "Illusion", "Necromancy"],
+    "profiles": [
+      {
+        "label": "Mortuary Priest",
+        "M": 4,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 2,
+        "I": 2,
+        "A": 1,
+        "Ld": 7
+      }
+    ]
+  },
+  {
+    "name": "Necrolith Bone Dragon",
+    "unitCategory": "Monster",
+    "troopType": "Behemoth",
+    "baseSize": "100 x 150 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": [
+      "Wicked claws",
+      "breath of desiccation",
+      "draconic bones (counts as full plate armour)"
+    ],
+    "specialRules": [
+      "Close Order",
+      "Cloud of Dust",
+      "Dry as Dust",
+      "Fly (9)",
+      "Indomitable (2)",
+      "Large Target",
+      "Nehekharan Undead",
+      "Stomp Attacks (D6)",
+      "Swiftstride",
+      "Terror"
+    ],
+    "profiles": [
+      {
+        "label": "Necrolith Bone Dragon",
+        "M": 6,
+        "WS": 4,
+        "BS": "—",
+        "S": 6,
+        "T": "(+1)",
+        "W": "(+5)",
+        "I": 2,
+        "A": 5,
+        "Ld": "—"
+      }
+    ]
+  },
+  {
+    "name": "Necrolith Colossus",
+    "unitCategory": "Monster",
+    "troopType": "Behemoth",
+    "baseSize": "50 x 50 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Paired great khopeshes", "heavy armour"],
+    "specialRules": [
+      "Close Order",
+      "Indomitable (2)",
+      "Large Target",
+      "Nehekharan Undead",
+      "Regeneration (6+)",
+      "Stomp Attacks (D3)",
+      "Terror",
+      "Timmm-berrr!",
+      "Unstoppable Assault"
+    ],
+    "profiles": [
+      {
+        "label": "Necrolith Colossus",
+        "M": 6,
+        "WS": 3,
+        "BS": 2,
+        "S": 6,
+        "T": 6,
+        "W": 5,
+        "I": 1,
+        "A": 4,
+        "Ld": 8
+      }
+    ]
+  },
+  {
+    "name": "Necropolis Knights",
+    "unitCategory": "Cavalry",
+    "troopType": "Monstrous Cavalry",
+    "baseSize": "50 x 100 mm",
+    "unitSize": "2+",
+    "armourValue": "—",
+    "equipment": [
+      "Necropolis Knights: Hand weapons",
+      "Necropolis Knights: cavalry spears",
+      "Necropolis Knights: light armour",
+      "Necropolis Knights: shields",
+      "Necroserpent: Lashing tails (counts as hand weapons)"
+    ],
+    "specialRules": [
+      "Armoured Hide (1)",
+      "Cleaving Blow (Riders only)",
+      "Close Order",
+      "Impact Hits (1)",
+      "Indomitable (1)",
+      "Khopesh",
+      "Nehekharan Undead",
+      "Poisoned Attacks (Necroserpent only)",
+      "Regeneration (6+)",
+      "Swiftstride"
+    ],
+    "profiles": [
+      {
+        "label": "Necropolis Knight",
+        "M": "—",
+        "WS": 4,
+        "BS": 3,
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": 3,
+        "A": 2,
+        "Ld": 8
+      },
+      {
+        "label": "Necropolis Captain",
+        "M": "—",
+        "WS": 4,
+        "BS": 3,
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": 3,
+        "A": 3,
+        "Ld": 8
+      },
+      {
+        "label": "Necroserpent",
+        "M": 7,
+        "WS": 3,
+        "BS": "—",
+        "S": 5,
+        "T": "—",
+        "W": "—",
+        "I": 3,
+        "A": 3,
+        "Ld": "—"
+      }
+    ]
+  },
+  {
+    "name": "Necroserpents",
+    "unitCategory": "Cavalry",
+    "troopType": "Monstrous Cavalry",
+    "baseSize": "50 x 100 mm",
+    "unitSize": "2+",
+    "armourValue": "—",
+    "equipment": ["Lashing tails and venomous fangs (counts as hand weapons)"],
+    "specialRules": [
+      "Ambushers",
+      "Armoured Hide (1)",
+      "Impact Hits (1)",
+      "Indomitable (1)",
+      "Move Through Cover",
+      "Nehekharan Undead",
+      "Open Order",
+      "Poisoned Attacks",
+      "Regeneration (6+)",
+      "Swiftstride"
+    ],
+    "profiles": [
+      {
+        "label": "Necroserpent",
+        "M": 7,
+        "WS": 3,
+        "BS": 0,
+        "S": 5,
+        "T": 4,
+        "W": 3,
+        "I": 3,
+        "A": 3,
+        "Ld": 7
+      }
+    ]
+  },
+  {
+    "name": "Necrosphinx",
+    "unitCategory": "Monster",
+    "troopType": "Behemoth",
+    "baseSize": "60 x 100 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Cleaving blades", "decapitating strike", "heavy armour"],
+    "specialRules": [
+      "Close Order",
+      "Fly (9)",
+      "Indomitable (2)",
+      "Large Target",
+      "Nehekharan Undead",
+      "Regeneration (5+)",
+      "Stomp Attacks (D3+2)",
+      "Swiftstride",
+      "Terror",
+      "Soul Reaper"
+    ],
+    "profiles": [
+      {
+        "label": "Necrosphinx",
+        "M": 6,
+        "WS": 4,
+        "BS": 0,
+        "S": 5,
+        "T": 6,
+        "W": 6,
+        "I": 1,
+        "A": 5,
+        "Ld": 8
+      }
+    ]
+  },
+  {
+    "name": "Necrotect",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "whip", "light armour"],
+    "specialRules": [
+      "Dry as Dust",
+      "Eternal Taskmaster",
+      "Flammable",
+      "Khopesh",
+      "Nehekharan Undead",
+      "Regeneration (6+)"
+    ],
+    "profiles": [
+      {
+        "label": "Necrotect",
+        "M": 4,
+        "WS": 3,
+        "BS": 3,
+        "S": 4,
+        "T": 4,
+        "W": 2,
+        "I": 3,
+        "A": 2,
+        "Ld": 7
+      }
+    ]
+  },
+  {
+    "name": "Nekaph",
+    "unitCategory": "Named Character",
+    "troopType": "Regular Infantry, Named Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["The Flail of Conquered Kings", "light armour"],
+    "specialRules": [
+      "Dry as Dust",
+      "Flammable",
+      "Herald of Despair",
+      "Indomitable (2)",
+      "Killing Blow",
+      "Nehekharan Undead",
+      "Regeneration (5+)",
+      "Settra's Champion",
+      "Sworn Protector"
+    ],
+    "profiles": [
+      {
+        "label": "Nekaph",
+        "M": 4,
+        "WS": 5,
+        "BS": 3,
+        "S": 4,
+        "T": 4,
+        "W": 2,
+        "I": 4,
+        "A": 3,
+        "Ld": 8
+      }
+    ]
+  },
+  {
+    "name": "Prince Apophas",
+    "unitCategory": "Named Character",
+    "troopType": "Regular Infantry, Named Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "swarming mass", "light armour"],
+    "specialRules": [
+      "Ambushers",
+      "Fly (9)",
+      "Indomitable (2)",
+      "Khopesh",
+      "Loner",
+      "Nehekharan Undead",
+      "Regeneration (5+)",
+      "Scarab Prince",
+      "Usirian's Reaper",
+      "Terror"
+    ],
+    "profiles": [
+      {
+        "label": "Prince Apophas",
+        "M": 4,
+        "WS": 4,
+        "BS": 3,
+        "S": 4,
+        "T": 3,
+        "W": 4,
+        "I": 1,
+        "A": 5,
+        "Ld": 8
+      }
+    ]
+  },
+  {
+    "name": "Royal Herald",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "light armour"],
+    "specialRules": [
+      "Banner of the King",
+      "Dry as Dust",
+      "Flammable",
+      "Indomitable (1)",
+      "Khopesh",
+      "Nehekharan Undead",
+      "Regeneration (5+)",
+      "Sworn Protector"
+    ],
+    "profiles": [
+      {
+        "label": "Royal Herald",
+        "M": 4,
+        "WS": 4,
+        "BS": 3,
+        "S": 4,
+        "T": 4,
+        "W": 2,
+        "I": 3,
+        "A": 3,
+        "Ld": 8
+      }
+    ]
+  },
+  {
+    "name": "Screaming Skull Catapult",
+    "unitCategory": "War Machine",
+    "troopType": "War Machine",
+    "baseSize": "60 x 100 mm (war machine), 25 x 25 mm (crew)",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Screaming skull catapult", "hand weapons", "light armour"],
+    "specialRules": [
+      "Dry as Dust",
+      "Indomitable (1)",
+      "Nehekharan Undead",
+      "Regeneration (6+)",
+      "Skirmishers"
+    ],
+    "profiles": [
+      {
+        "label": "Screaming Skull Catapult",
+        "M": "—",
+        "WS": "—",
+        "BS": "—",
+        "S": "—",
+        "T": 6,
+        "W": 3,
+        "I": "—",
+        "A": "—",
+        "Ld": "—"
+      },
+      {
+        "label": "Skeleton Crew",
+        "M": 4,
+        "WS": 2,
+        "BS": 2,
+        "S": 3,
+        "T": 3,
+        "W": 3,
+        "I": 2,
+        "A": 3,
+        "Ld": 5
+      }
+    ]
+  },
+  {
+    "name": "Sepulchral Stalkers",
+    "unitCategory": "Cavalry",
+    "troopType": "Monstrous Cavalry",
+    "baseSize": "50 x 100 mm",
+    "unitSize": "2+",
+    "armourValue": "—",
+    "equipment": ["Hand weapons", "writhing tails", "halberds", "petrifying gaze", "heavy armour"],
+    "specialRules": [
+      "Close Order",
+      "Indomitable (1)",
+      "Nehekharan Undead",
+      "Regeneration (6+)",
+      "Swiftstride"
+    ],
+    "profiles": [
+      {
+        "label": "Sepulchral Stalkers",
+        "M": 7,
+        "WS": 3,
+        "BS": 3,
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": 3,
+        "A": 2,
+        "Ld": 8
+      }
+    ]
+  },
+  {
+    "name": "Settra the Imperishable",
+    "unitCategory": "Named Character",
+    "troopType": "Heavy Chariot, Named Character",
+    "baseSize": "100 x 150 mm",
+    "unitSize": 1,
+    "armourValue": "4+",
+    "equipment": [
+      "Settra: The Blessed Blade of Ptra",
+      "the Chariot of the Gods",
+      "the Crown of Nehekhara",
+      "the Scarab Brooch of Usirian",
+      "Skeletal Steed: Skeletal hooves (counts as hand weapons)"
+    ],
+    "specialRules": [
+      "Commander of Legions",
+      "Curse of the Necropolis",
+      "Dry as Dust",
+      "Flammable",
+      "Impact Hits (2D3)",
+      "Indomitable (3)",
+      "Lore of Nehekhara",
+      "My Will Be Done",
+      "Nehekharan Undead",
+      "Regeneration (5+)",
+      "Settra Does Not Kneel!",
+      "Settra the Great"
+    ],
+    "magicLores": ["Necromancy"],
+    "profiles": [
+      {
+        "label": "Settra the Imperishable",
+        "M": "—",
+        "WS": 7,
+        "BS": 3,
+        "S": 6,
+        "T": 5,
+        "W": "—",
+        "I": 3,
+        "A": 5,
+        "Ld": 10
+      },
+      {
+        "label": "Chariot of the Gods",
+        "M": "—",
+        "WS": "—",
+        "BS": "—",
+        "S": 5,
+        "T": 5,
+        "W": 8,
+        "I": "—",
+        "A": "—",
+        "Ld": "—"
+      },
+      {
+        "label": "Skeletal Steed (x4)",
+        "M": 8,
+        "WS": 2,
+        "BS": "—",
+        "S": 3,
+        "T": "—",
+        "W": "—",
+        "I": 2,
+        "A": 1,
+        "Ld": "—"
+      }
+    ]
+  },
+  {
+    "name": "Skeletal Steed (Tomb Kings)",
+    "unitCategory": "Mount",
+    "troopType": "Heavy Cavalry",
+    "baseSize": "25 x 50 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Skeletal hooves (counts as hand weapon)"],
+    "specialRules": ["Nehekharan Undead", "Swiftstride", "Vanguard"],
+    "profiles": [
+      {
+        "label": "Skeletal Steed",
+        "M": 8,
+        "WS": 2,
+        "BS": "—",
+        "S": 3,
+        "T": "—",
+        "W": "—",
+        "I": 2,
+        "A": 1,
+        "Ld": "—"
+      }
+    ]
+  },
+  {
+    "name": "Skeleton Archers",
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "10+ (5+ if a detachment)",
+    "armourValue": "—",
+    "equipment": ["Hand weapons", "warbows"],
+    "specialRules": [
+      "Arrows of Asaph",
+      "Detachment",
+      "Nehekharan Undead",
+      "Open Order",
+      "Regeneration (6+)"
+    ],
+    "profiles": [
+      {
+        "label": "Skeleton Archer",
+        "M": 4,
+        "WS": 2,
+        "BS": 2,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 2,
+        "A": 1,
+        "Ld": 5
+      },
+      {
+        "label": "Master of Arrows",
+        "M": 4,
+        "WS": 2,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 2,
+        "A": 1,
+        "Ld": 5
+      }
+    ]
+  },
+  {
+    "name": "Skeleton Cavalry Cohort",
+    "unitCategory": "Cavalry",
+    "troopType": "Heavy Cavalry",
+    "baseSize": "25 x 50 mm",
+    "unitSize": "5+/5+",
+    "armourValue": "—",
+    "equipment": [
+      "Royal Host Horseman: Hand weapons",
+      "Royal Host Horseman: cavalry spears",
+      "Royal Host Horseman: light armour",
+      "Royal Host Horseman: shields",
+      "Royal Host Horse Archer: Hand weapons",
+      "Royal Host Horse Archer: light armour",
+      "Royal Host Horse Archer: warbows",
+      "Skeletal Steed: Skeletal hooves (counts as hand weapons)"
+    ],
+    "specialRules": [
+      "Arrows of Asaph",
+      "Close Order",
+      "Horde",
+      "Motley Crew",
+      "Nehekharan Undead",
+      "Regeneration (6+)",
+      "Steadfast Discipline",
+      "Swiftstride",
+      "Vanguard"
+    ],
+    "profiles": [
+      {
+        "label": "Royal Host Horseman",
+        "M": "—",
+        "WS": 2,
+        "BS": 2,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 2,
+        "A": 1,
+        "Ld": 5
+      },
+      {
+        "label": "Royal Host Horse Archer",
+        "M": "—",
+        "WS": 2,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 2,
+        "A": 1,
+        "Ld": 5
+      },
+      {
+        "label": "Master of Horse",
+        "M": "—",
+        "WS": 2,
+        "BS": 2,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 3,
+        "A": 2,
+        "Ld": 5
+      },
+      {
+        "label": "Skeletal Steed",
+        "M": 8,
+        "WS": 2,
+        "BS": "—",
+        "S": 3,
+        "T": "—",
+        "W": "—",
+        "I": 2,
+        "A": 1,
+        "Ld": "—"
+      }
+    ]
+  },
+  {
+    "name": "Skeleton Chariot",
+    "unitCategory": "Mount",
+    "troopType": "Light Chariot",
+    "baseSize": "50 x 100 mm",
+    "unitSize": 1,
+    "armourValue": "5+",
+    "equipment": ["Skeletal Steed: Skeletal hooves (counts as hand weapons)"],
+    "specialRules": [
+      "Dry as Dust",
+      "Impact Hits (D3)",
+      "Nehekharan Undead",
+      "Open Order",
+      "Reserve Move",
+      "Swiftstride"
+    ],
+    "profiles": [
+      {
+        "label": "Skeleton Chariot",
+        "M": "—",
+        "WS": "—",
+        "BS": "—",
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": "—",
+        "A": "—",
+        "Ld": "—"
+      },
+      {
+        "label": "Skeletal Steed (x2)",
+        "M": 8,
+        "WS": 2,
+        "BS": "—",
+        "S": 3,
+        "T": "—",
+        "W": "—",
+        "I": 2,
+        "A": 1,
+        "Ld": "—"
+      }
+    ]
+  },
+  {
+    "name": "Skeleton Chariots",
+    "unitCategory": "Chariot",
+    "troopType": "Light Chariot",
+    "baseSize": "50 x 100 mm",
+    "unitSize": "1+",
+    "armourValue": "5+",
+    "equipment": [
+      "Skeleton Crew: Hand weapons",
+      "Skeleton Crew: cavalry spears",
+      "Skeleton Crew: warbows",
+      "Skeletal Steed: Skeletal hooves (counts as hand weapons)"
+    ],
+    "specialRules": [
+      "Arrows of Asaph",
+      "Dry as Dust",
+      "Horde",
+      "Impact Hits (D3)",
+      "Nehekharan Undead",
+      "Open Order",
+      "Regeneration (6+)",
+      "Reserve Move",
+      "Swiftstride"
+    ],
+    "profiles": [
+      {
+        "label": "Skeleton Chariots",
+        "M": "—",
+        "WS": "—",
+        "BS": "—",
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": "—",
+        "A": "—",
+        "Ld": "—"
+      },
+      {
+        "label": "Skeletal Crew (x2)",
+        "M": "—",
+        "WS": 3,
+        "BS": 2,
+        "S": 3,
+        "T": "—",
+        "W": "—",
+        "I": 2,
+        "A": 1,
+        "Ld": 7
+      },
+      {
+        "label": "Master Charioteer",
+        "M": "—",
+        "WS": 3,
+        "BS": 2,
+        "S": 3,
+        "T": "—",
+        "W": "—",
+        "I": 2,
+        "A": 2,
+        "Ld": 7
+      },
+      {
+        "label": "Skeletal Steed (x2)",
+        "M": 8,
+        "WS": 2,
+        "BS": "—",
+        "S": 3,
+        "T": "—",
+        "W": "—",
+        "I": 2,
+        "A": 1,
+        "Ld": "—"
+      }
+    ]
+  },
+  {
+    "name": "Skeleton Horse Archers",
+    "unitCategory": "Cavalry",
+    "troopType": "Light Cavalry",
+    "baseSize": "25 x 50 mm",
+    "unitSize": "5+",
+    "armourValue": "—",
+    "equipment": [
+      "Skeleton Horsemen: Hand weapons",
+      "Skeleton Horsemen: warbows",
+      "Skeletal Steed: Skeletal hooves (counts as hand weapons)"
+    ],
+    "specialRules": [
+      "Arrows of Asaph",
+      "Nehekharan Undead",
+      "Open Order",
+      "Regeneration (6+)",
+      "Reserve Move",
+      "Scouts",
+      "Skirmishers",
+      "Swiftstride"
+    ],
+    "profiles": [
+      {
+        "label": "Skeleton Horse Archer",
+        "M": "—",
+        "WS": 2,
+        "BS": 2,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 2,
+        "A": 1,
+        "Ld": 5
+      },
+      {
+        "label": "Master of Horse",
+        "M": "—",
+        "WS": 2,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 2,
+        "A": 1,
+        "Ld": 5
+      },
+      {
+        "label": "Skeletal Steed",
+        "M": 8,
+        "WS": 2,
+        "BS": "—",
+        "S": 3,
+        "T": "—",
+        "W": "—",
+        "I": 2,
+        "A": 1,
+        "Ld": "—"
+      }
+    ]
+  },
+  {
+    "name": "Skeleton Horsemen",
+    "unitCategory": "Cavalry",
+    "troopType": "Heavy Cavalry",
+    "baseSize": "25 x 50 mm",
+    "unitSize": "5+",
+    "armourValue": "—",
+    "equipment": [
+      "Skeleton Horsemen: Hand weapons",
+      "Skeleton Horsemen: shields",
+      "Skeletal Steed: Skeletal hooves (counts as hand weapons)"
+    ],
+    "specialRules": [
+      "Close Order",
+      "Horde",
+      "Nehekharan Undead",
+      "Regeneration (6+)",
+      "Swiftstride",
+      "Vanguard"
+    ],
+    "profiles": [
+      {
+        "label": "Skeleton Horseman",
+        "M": "—",
+        "WS": 2,
+        "BS": 2,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 2,
+        "A": 1,
+        "Ld": 5
+      },
+      {
+        "label": "Master of Horse",
+        "M": "—",
+        "WS": 2,
+        "BS": 2,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 2,
+        "A": 2,
+        "Ld": 5
+      },
+      {
+        "label": "Skeletal Steed",
+        "M": 8,
+        "WS": 2,
+        "BS": "—",
+        "S": 3,
+        "T": "—",
+        "W": "—",
+        "I": 2,
+        "A": 1,
+        "Ld": "—"
+      }
+    ]
+  },
+  {
+    "name": "Skeleton Infantry Cohort",
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "10+/10+",
+    "armourValue": "—",
+    "equipment": [
+      "Royal Host Warriors: Hand weapons",
+      "Royal Host Warriors: thrusting spears",
+      "Royal Host Warriors: light armour",
+      "Royal Host Warriors: shields",
+      "Royal Host Archers: Hand weapons",
+      "Royal Host Archers: light armour",
+      "Royal Host Archers: warbows"
+    ],
+    "specialRules": [
+      "Arrows of Asaph",
+      "Close Order",
+      "Horde",
+      "Motley Crew",
+      "Nehekharan Undead",
+      "Regeneration (6+)",
+      "Regimental Unit",
+      "Steadfast Discipline"
+    ],
+    "profiles": [
+      {
+        "label": "Royal Host Warrior",
+        "M": 4,
+        "WS": 2,
+        "BS": 2,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 2,
+        "A": 1,
+        "Ld": 5
+      },
+      {
+        "label": "Royal Host Archer",
+        "M": 4,
+        "WS": 2,
+        "BS": 2,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 2,
+        "A": 1,
+        "Ld": 5
+      },
+      {
+        "label": "Master of Arms",
+        "M": 4,
+        "WS": 2,
+        "BS": 2,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 3,
+        "A": 2,
+        "Ld": 5
+      }
+    ]
+  },
+  {
+    "name": "Skeleton Skirmishers",
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "5-20",
+    "armourValue": "—",
+    "equipment": ["Hand weapons"],
+    "specialRules": [
+      "Arrows of Asaph",
+      "Chariot Runners",
+      "Nehekharan Undead",
+      "Regeneration (6+)",
+      "Skirmishers",
+      "Vanguard"
+    ],
+    "profiles": [
+      {
+        "label": "Skeleton Skirmisher",
+        "M": 5,
+        "WS": 2,
+        "BS": 2,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 2,
+        "A": 1,
+        "Ld": 4
+      }
+    ]
+  },
+  {
+    "name": "Skeleton Warriors (Tomb Kings)",
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "10+",
+    "armourValue": "—",
+    "equipment": ["Hand weapons", "shields"],
+    "specialRules": [
+      "Close Order",
+      "Horde",
+      "Nehekharan Undead",
+      "Regeneration (6+)",
+      "Regimental Unit"
+    ],
+    "profiles": [
+      {
+        "label": "Skeleton Warrior",
+        "M": 4,
+        "WS": 2,
+        "BS": 2,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 2,
+        "A": 1,
+        "Ld": 5
+      },
+      {
+        "label": "Master of Arms",
+        "M": 4,
+        "WS": 2,
+        "BS": 2,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 2,
+        "A": 2,
+        "Ld": 5
+      }
+    ]
+  },
+  {
+    "name": "Tomb Guard",
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "5+",
+    "armourValue": "—",
+    "equipment": ["Hand weapons", "light armour", "shields"],
+    "specialRules": [
+      "Cleaving Blow",
+      "Close Order",
+      "Indomitable (1)",
+      "Khopesh",
+      "Nehekharan Undead",
+      "Regeneration (6+)",
+      "Regimental Unit"
+    ],
+    "profiles": [
+      {
+        "label": "Tomb Guard",
+        "M": 4,
+        "WS": 3,
+        "BS": 3,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 2,
+        "A": 1,
+        "Ld": 7
+      },
+      {
+        "label": "Tomb Captain",
+        "M": 4,
+        "WS": 3,
+        "BS": 3,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 3,
+        "A": 2,
+        "Ld": 7
+      }
+    ]
+  },
+  {
+    "name": "Tomb Guard Chariots",
+    "unitCategory": "Chariot",
+    "troopType": "Light Chariot",
+    "baseSize": "50 x 100 mm",
+    "unitSize": "3+",
+    "armourValue": "4+",
+    "equipment": [
+      "Tomb Guard Crew: Hand weapons",
+      "Tomb Guard Crew: halberds",
+      "Tomb Guard Crew: shields",
+      "Skeletal Steed: Skeletal hooves (counts as hand weapons)"
+    ],
+    "specialRules": [
+      "Cleaving Blow (Tomb Guard Crew only)",
+      "Dry as Dust",
+      "Impact Hits (D3+1)",
+      "Indomitable (2)",
+      "Khopesh",
+      "Nehekharan Undead",
+      "Open Order",
+      "Regeneration (6+)",
+      "Reserve Move",
+      "Swiftstride"
+    ],
+    "profiles": [
+      {
+        "label": "Tomb Guard Chariots",
+        "M": "—",
+        "WS": "—",
+        "BS": "—",
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": "—",
+        "A": "—",
+        "Ld": "—"
+      },
+      {
+        "label": "Tomb Guard Crew (x2)",
+        "M": "—",
+        "WS": 3,
+        "BS": 3,
+        "S": 4,
+        "T": "—",
+        "W": "—",
+        "I": 2,
+        "A": 1,
+        "Ld": 7
+      },
+      {
+        "label": "Tomb Captain",
+        "M": "—",
+        "WS": 3,
+        "BS": 3,
+        "S": 4,
+        "T": "—",
+        "W": "—",
+        "I": 2,
+        "A": 2,
+        "Ld": 7
+      },
+      {
+        "label": "Skeletal Steed (x2)",
+        "M": 8,
+        "WS": 2,
+        "BS": "—",
+        "S": 3,
+        "T": "—",
+        "W": "—",
+        "I": 2,
+        "A": 1,
+        "Ld": "—"
+      }
+    ]
+  },
+  {
+    "name": "Tomb King",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "heavy armour"],
+    "specialRules": [
+      "Curse of the Necropolis",
+      "Dry as Dust",
+      "Flammable",
+      "Indomitable (2)",
+      "Khopesh",
+      "My Will Be Done",
+      "Nehekharan Undead",
+      "Regeneration (5+)"
+    ],
+    "profiles": [
+      {
+        "label": "Tomb King",
+        "M": 4,
+        "WS": 6,
+        "BS": 3,
+        "S": 5,
+        "T": 5,
+        "W": 4,
+        "I": 4,
+        "A": 4,
+        "Ld": 10
+      }
+    ]
+  },
+  {
+    "name": "Tomb Prince",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "light armour"],
+    "specialRules": [
+      "Curse of the Necropolis",
+      "Dry as Dust",
+      "Flammable",
+      "Indomitable (2)",
+      "Khopesh",
+      "My Will Be Done",
+      "Nehekharan Undead",
+      "Regeneration (5+)"
+    ],
+    "profiles": [
+      {
+        "label": "Tomb Prince",
+        "M": 4,
+        "WS": 5,
+        "BS": 3,
+        "S": 4,
+        "T": 5,
+        "W": 3,
+        "I": 3,
+        "A": 3,
+        "Ld": 9
+      }
+    ]
+  },
+  {
+    "name": "Tomb Scorpion",
+    "unitCategory": "Monster",
+    "troopType": "Monstrous Creature",
+    "baseSize": "75 x 50 mm",
+    "unitSize": 1,
+    "armourValue": "—",
+    "equipment": [
+      "Decapitating claws",
+      "envenomed sting",
+      "bone carapace (counts as heavy armour)"
+    ],
+    "specialRules": [
+      "Close Order",
+      "Indomitable (1)",
+      "Magic Resistance (-1)",
+      "Nehekharan Undead",
+      "Regeneration (6+)",
+      "Stomp Attacks (D3)",
+      "Swiftstride",
+      "Vanguard"
+    ],
+    "profiles": [
+      {
+        "label": "Tomb Scorpion",
+        "M": 7,
+        "WS": 4,
+        "BS": 0,
+        "S": 5,
+        "T": 5,
+        "W": 3,
+        "I": 3,
+        "A": 4,
+        "Ld": 8
+      }
+    ]
+  },
+  {
+    "name": "Tomb Swarms",
+    "unitCategory": "Infantry",
+    "troopType": "Swarm",
+    "baseSize": "40 x 40 mm",
+    "unitSize": "2-10",
+    "armourValue": "—",
+    "equipment": ["Venomous bites and stings (counts as hand weapons)"],
+    "specialRules": [
+      "Dry as Dust",
+      "Nehekharan Undead",
+      "Poisoned Attacks",
+      "Regeneration (6+)",
+      "Skirmishers"
+    ],
+    "profiles": [
+      {
+        "label": "Tomb Swarm",
+        "M": 5,
+        "WS": 3,
+        "BS": 0,
+        "S": 2,
+        "T": 2,
+        "W": 5,
+        "I": 1,
+        "A": 5,
+        "Ld": 10
+      }
+    ]
+  },
+  {
+    "name": "Ushabti",
+    "unitCategory": "Infantry",
+    "troopType": "Monstrous Infantry",
+    "baseSize": "40 x 40 mm",
+    "unitSize": "3+",
+    "armourValue": "—",
+    "equipment": ["Hand weapons", "ritual blades", "heavy armour"],
+    "specialRules": [
+      "Arrows of Asaph",
+      "Close Order",
+      "Indomitable (1)",
+      "Khopesh",
+      "Nehekharan Undead",
+      "Regeneration (6+)"
+    ],
+    "profiles": [
+      {
+        "label": "Ushabti",
+        "M": 5,
+        "WS": 4,
+        "BS": 3,
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": 2,
+        "A": 3,
+        "Ld": 8
+      },
+      {
+        "label": "Ancient",
+        "M": 5,
+        "WS": 4,
+        "BS": 3,
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": 2,
+        "A": 4,
+        "Ld": 8
+      }
+    ]
+  },
+  {
+    "name": "Venerable Ushabti",
+    "unitCategory": "Infantry",
+    "troopType": "Monstrous Infantry",
+    "baseSize": "40 x 40 mm",
+    "unitSize": "3+",
+    "armourValue": "—",
+    "equipment": ["Hand weapons", "ritual blades", "heavy armour"],
+    "specialRules": [
+      "Close Order",
+      "Indomitable (1)",
+      "Khopesh",
+      "Magic Resistance (-2)",
+      "Nehekharan Undead",
+      "Regeneration (6+)"
+    ],
+    "profiles": [
+      {
+        "label": "Venerable Ushabti",
+        "M": 4,
+        "WS": 5,
+        "BS": 3,
+        "S": 5,
+        "T": 4,
+        "W": 3,
+        "I": 2,
+        "A": 3,
+        "Ld": 8
+      },
+      {
+        "label": "Venerable Ancient",
+        "M": 4,
+        "WS": 5,
+        "BS": 3,
+        "S": 5,
+        "T": 4,
+        "W": 3,
+        "I": 2,
+        "A": 4,
+        "Ld": 8
+      }
+    ]
+  }
+]

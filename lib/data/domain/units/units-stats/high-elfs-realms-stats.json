@@ -1,0 +1,113 @@
+[
+  {
+    "name": "Archmage",
+    "unitCategory": "Hero",
+    "troopType": "Infantry",
+    "baseSize": "25mm",
+    "unitSize": 1,
+    "armourValue": 3,
+    "equipment": "Staff, Robes",
+    "specialRules": ["Wizard", "Magic Resistance"],
+    "magicLores": ["High Magic", "Heavens", "Life"],
+    "profiles": []
+  },
+  {
+    "name": "Prince",
+    "unitCategory": "Hero",
+    "troopType": "Infantry",
+    "baseSize": "25mm",
+    "unitSize": 1,
+    "armourValue": 4,
+    "equipment": "Sword, Shield, Armour",
+    "specialRules": ["Leadership +1", "Inspiring"],
+    "profiles": []
+  },
+  {
+    "name": "Silver Helms",
+    "unitCategory": "Core",
+    "troopType": "Cavalry",
+    "baseSize": "25mm",
+    "unitSize": 10,
+    "armourValue": 5,
+    "equipment": "Lances, Swords, Armour",
+    "specialRules": ["Swiftstride", "Shield"],
+    "profiles": []
+  },
+  {
+    "name": "Spearmen",
+    "unitCategory": "Core",
+    "troopType": "Infantry",
+    "baseSize": "25mm",
+    "unitSize": 20,
+    "armourValue": 3,
+    "equipment": "Spears, Shields",
+    "specialRules": ["Shieldwall"],
+    "profiles": []
+  },
+  {
+    "name": "Swordmasters of Hoeth",
+    "unitCategory": "Special",
+    "troopType": "Infantry",
+    "baseSize": "25mm",
+    "unitSize": 10,
+    "armourValue": 4,
+    "equipment": "Swords, Armour",
+    "specialRules": ["Swiftstride", "Parry"],
+    "profiles": []
+  },
+  {
+    "name": "Phoenix Guard",
+    "unitCategory": "Special",
+    "troopType": "Infantry",
+    "baseSize": "25mm",
+    "unitSize": 10,
+    "armourValue": 5,
+    "equipment": "Halberds, Armour",
+    "specialRules": ["Shieldwall", "Fearless"],
+    "profiles": []
+  },
+  {
+    "name": "Dragon Princes",
+    "unitCategory": "Special",
+    "troopType": "Cavalry",
+    "baseSize": "25mm",
+    "unitSize": 10,
+    "armourValue": 5,
+    "equipment": "Lances, Swords, Armour",
+    "specialRules": ["Swiftstride", "Fearless"],
+    "profiles": []
+  },
+  {
+    "name": "Ellyrian Reavers",
+    "unitCategory": "Special",
+    "troopType": "Cavalry",
+    "baseSize": "25mm",
+    "unitSize": 10,
+    "armourValue": 3,
+    "equipment": "Bows, Swords, Light Armour",
+    "specialRules": ["Skirmish", "Swiftstride"],
+    "profiles": []
+  },
+  {
+    "name": "Highborn",
+    "unitCategory": "Rare",
+    "troopType": "Infantry",
+    "baseSize": "25mm",
+    "unitSize": 10,
+    "armourValue": 4,
+    "equipment": "Swords, Shields, Armour",
+    "specialRules": ["Fearless", "Inspiring"],
+    "profiles": []
+  },
+  {
+    "name": "White Lions of Chrace",
+    "unitCategory": "Rare",
+    "troopType": "Infantry",
+    "baseSize": "25mm",
+    "unitSize": 10,
+    "armourValue": 5,
+    "equipment": "Greatswords, Armour",
+    "specialRules": ["Fearless", "Swiftstride", "Parry"],
+    "profiles": []
+  }
+]

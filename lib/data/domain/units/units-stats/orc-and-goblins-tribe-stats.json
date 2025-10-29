@@ -1,0 +1,1888 @@
+{
+  "faction": "Orcs & Goblins",
+  "units": [
+    {
+      "name": "Arachnarok Spider",
+      "unitCategory": "Monster",
+      "troopType": "Behemoth",
+      "baseSize": "100 x 150 mm",
+      "unitSize": 1,
+      "armourValue": "4+",
+      "profiles": [
+        {
+          "variant": "Arachnarok Spider",
+          "M": 7,
+          "WS": 4,
+          "BS": null,
+          "S": 5,
+          "T": 6,
+          "W": 7,
+          "I": 4,
+          "A": 6,
+          "Ld": null
+        }
+      ],
+      "equipment": [
+        "Poisonous fangs (counts as a hand weapon)",
+        "Venom surge",
+        "Hand weapons (crew)",
+        "Cavalry spears (crew)",
+        "Shortbows (crew)"
+      ],
+      "specialRules": [
+        "Close Order",
+        "Howdah",
+        "Immune to Psychology",
+        "Large Target",
+        "Move Through Cover",
+        "Poisoned Attacks",
+        "Stomp Attacks (D6)",
+        "Stubborn",
+        "Swiftstride",
+        "Terror"
+      ],
+      "subUnits": [
+        {
+          "name": "Goblin Crew",
+          "count": 8,
+          "profile": {
+            "M": null,
+            "WS": 2,
+            "BS": 3,
+            "S": 3,
+            "T": null,
+            "W": null,
+            "I": 3,
+            "A": 1,
+            "Ld": 7
+          },
+          "equipment": ["Hand weapons", "Cavalry spears", "Shortbows"]
+        }
+      ]
+    },
+
+    {
+      "name": "Badlands Ogre Bulls",
+      "unitCategory": "Infantry",
+      "troopType": "Monstrous Infantry",
+      "baseSize": "40 x 40 mm",
+      "unitSize": "3+",
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Ogre",
+          "M": 6,
+          "WS": 3,
+          "BS": 2,
+          "S": 4,
+          "T": 4,
+          "W": 3,
+          "I": 2,
+          "A": 3,
+          "Ld": 7
+        },
+        {
+          "variant": "Crusher",
+          "M": 6,
+          "WS": 3,
+          "BS": 2,
+          "S": 4,
+          "T": 4,
+          "W": 3,
+          "I": 2,
+          "A": 4,
+          "Ld": 7
+        }
+      ],
+      "equipment": ["Hand weapons", "Light armour"],
+      "specialRules": [
+        "Armour Bane (1)",
+        "Close Order",
+        "Fear",
+        "Impact Hits (1)",
+        "Mercenaries",
+        "Motley Crew",
+        "Ogre Charge"
+      ]
+    },
+
+    {
+      "name": "Black Orc Bigboss",
+      "unitCategory": "Character",
+      "troopType": "Heavy Infantry, Character",
+      "baseSize": "30 x 30 mm",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Black Orc Bigboss",
+          "M": 4,
+          "WS": 6,
+          "BS": 3,
+          "S": 4,
+          "T": 5,
+          "W": 2,
+          "I": 5,
+          "A": 3,
+          "Ld": 8
+        }
+      ],
+      "equipment": ["Hand weapon", "Full plate armour"],
+      "specialRules": [
+        "Choppas",
+        "Da Boyz",
+        "Furious Charge",
+        "Ignore Panic",
+        "Quell Impetuosity",
+        "Rallying Cry",
+        "Waaagh!"
+      ]
+    },
+
+    {
+      "name": "Black Orc Boar Chariot",
+      "unitCategory": "Chariot",
+      "troopType": "Heavy Chariot",
+      "baseSize": "50 x 100 mm",
+      "unitSize": 1,
+      "armourValue": "3+",
+      "profiles": [
+        {
+          "variant": "Black Orc Boar Chariot",
+          "M": null,
+          "WS": null,
+          "BS": null,
+          "S": 5,
+          "T": 5,
+          "W": 4,
+          "I": null,
+          "A": null,
+          "Ld": null
+        }
+      ],
+      "equipment": ["Hand weapons (crew)", "Tusks (War Boars)"],
+      "specialRules": [
+        "Choppas",
+        "Close Order",
+        "First Charge",
+        "Furious Charge (Black Orc Crew only)",
+        "Ignore Panic",
+        "Impact Hits (D6+1)",
+        "Tusker Charge"
+      ],
+      "subUnits": [
+        {
+          "name": "Black Orc Crew",
+          "count": 2,
+          "profile": {
+            "M": null,
+            "WS": 4,
+            "BS": 3,
+            "S": 4,
+            "T": 4,
+            "W": null,
+            "I": 3,
+            "A": 1,
+            "Ld": 8
+          }
+        },
+        {
+          "name": "War Boar",
+          "count": 2,
+          "profile": {
+            "M": 7,
+            "WS": 3,
+            "BS": null,
+            "S": 3,
+            "T": null,
+            "W": null,
+            "I": 3,
+            "A": 1,
+            "Ld": null
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Black Orc Mob",
+      "unitCategory": "Infantry",
+      "troopType": "Heavy Infantry",
+      "baseSize": "30 x 30 mm",
+      "unitSize": "5+",
+      "armourValue": "5+",
+      "profiles": [
+        {
+          "variant": "Black Orc",
+          "M": 4,
+          "WS": 4,
+          "BS": 3,
+          "S": 4,
+          "T": 4,
+          "W": 1,
+          "I": 3,
+          "A": 1,
+          "Ld": 8
+        },
+        {
+          "variant": "Black Orc Boss",
+          "M": 4,
+          "WS": 4,
+          "BS": 3,
+          "S": 4,
+          "T": 4,
+          "W": 1,
+          "I": 3,
+          "A": 2,
+          "Ld": 8
+        }
+      ],
+      "equipment": ["Hand weapons", "Full plate armour"],
+      "specialRules": [
+        "Choppas",
+        "Close Order",
+        "Da Boyz",
+        "Furious Charge",
+        "Ignore Panic",
+        "Motley Crew",
+        "Quell Impetuosity"
+      ]
+    },
+
+    {
+      "name": "Black Orc Warboss",
+      "unitCategory": "Character",
+      "troopType": "Heavy Infantry, Character",
+      "baseSize": "30 x 30 mm",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Black Orc Warboss",
+          "M": 4,
+          "WS": 7,
+          "BS": 3,
+          "S": 5,
+          "T": 5,
+          "W": 3,
+          "I": 6,
+          "A": 4,
+          "Ld": 9
+        }
+      ],
+      "equipment": ["Hand weapon", "Full plate armour"],
+      "specialRules": [
+        "Choppas",
+        "Da Boyz",
+        "Furious Charge",
+        "Ignore Panic",
+        "Quell Impetuosity",
+        "Rallying Cry",
+        "Waaagh!"
+      ]
+    },
+
+    {
+      "name": "Bonegrinder Giant",
+      "unitCategory": "Monster",
+      "troopType": "Behemoth",
+      "baseSize": "50 x 100 mm (min) 100 x 150 mm (max)",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Bonegrinder Giant",
+          "M": 6,
+          "WS": 3,
+          "BS": 1,
+          "S": 7,
+          "T": 6,
+          "W": 8,
+          "I": 3,
+          "A": "*",
+          "Ld": 10
+        }
+      ],
+      "equipment": ["Bonegrinder Giant's club", "Calloused hide (counts as light armour)"],
+      "specialRules": [
+        "Bonegrinder Giant Attacks",
+        "Close Order",
+        "Immune to Psychology",
+        "Large Target",
+        "Mercenaries",
+        "Stomp Attacks (D6+1)",
+        "Terror",
+        "Timmm-berrr!",
+        "Unbreakable"
+      ]
+    },
+
+    {
+      "name": "Common Troll Mob",
+      "unitCategory": "Infantry",
+      "troopType": "Monstrous Infantry",
+      "baseSize": "40 x 40 mm",
+      "unitSize": "1-9",
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Common Troll",
+          "M": 6,
+          "WS": 3,
+          "BS": 1,
+          "S": 5,
+          "T": 4,
+          "W": 3,
+          "I": 2,
+          "A": 3,
+          "Ld": 4
+        }
+      ],
+      "equipment": ["Hand weapons", "Troll vomit", "Calloused hides (counts as light armour)"],
+      "specialRules": [
+        "Armour Bane (1)",
+        "Close Order",
+        "Fear",
+        "Flammable",
+        "Motley Crew",
+        "Regeneration (5+)",
+        "Stupidity"
+      ]
+    },
+
+    {
+      "name": "Doom Diver Catapult",
+      "unitCategory": "War Machine",
+      "troopType": "War Machine",
+      "baseSize": "50 x 75 mm (war machine), 25 x 25 mm (crew)",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Doom Diver Catapult",
+          "M": null,
+          "WS": null,
+          "BS": null,
+          "S": null,
+          "T": 5,
+          "W": 3,
+          "I": null,
+          "A": null,
+          "Ld": null
+        }
+      ],
+      "equipment": ["Doom Diver catapult (stone thrower)", "Hand weapons (crew)"],
+      "specialRules": ["Doom Diver", "Fear of Elves", "Skirmishers"],
+      "subUnits": [
+        {
+          "name": "Goblin Crew",
+          "count": 1,
+          "profile": { "M": 4, "WS": 2, "BS": 3, "S": 3, "T": 3, "W": 3, "I": 3, "A": 3, "Ld": 4 }
+        }
+      ]
+    },
+
+    {
+      "name": "Fanatic",
+      "unitCategory": "Infantry",
+      "troopType": "Regular Infantry",
+      "baseSize": "25 mm (round base)",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Fanatic",
+          "M": "*",
+          "WS": "*",
+          "BS": "*",
+          "S": 5,
+          "T": 3,
+          "W": 1,
+          "I": 5,
+          "A": "*",
+          "Ld": 10
+        }
+      ],
+      "equipment": ["Fanatic ball & chain"],
+      "specialRules": ["Immune to Psychology", "Release the Fanatics!"]
+    },
+
+    {
+      "name": "Giant",
+      "unitCategory": "Monster",
+      "troopType": "Behemoth",
+      "baseSize": "50 x 50 mm (min), 50 x 75 mm (max)",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Giant",
+          "M": 6,
+          "WS": 3,
+          "BS": 1,
+          "S": 6,
+          "T": 6,
+          "W": 6,
+          "I": 2,
+          "A": "*",
+          "Ld": 10
+        }
+      ],
+      "equipment": ["Giant's club", "Calloused hide (counts as light armour)"],
+      "specialRules": [
+        "Close Order",
+        "Giant Attacks",
+        "Immune to Psychology",
+        "Large Target",
+        "Pick Up And…",
+        "Stomp Attacks (D6)",
+        "Terror",
+        "Timmm-berrr!",
+        "Unbreakable"
+      ]
+    },
+
+    {
+      "name": "Giant Cave Squig (Mount)",
+      "unitCategory": "Mount",
+      "troopType": "Monstrous Cavalry",
+      "baseSize": "50 x 50 mm",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Giant Cave Squig",
+          "M": "3D6",
+          "WS": 4,
+          "BS": null,
+          "S": 5,
+          "T": "(+1)",
+          "W": 3,
+          "I": 3,
+          "A": null,
+          "Ld": null
+        }
+      ],
+      "equipment": ["Massive Gob"],
+      "specialRules": [
+        "Armoured Hide (1)",
+        "Hatred (Dwarfs)",
+        "Impact Hits (D3)",
+        "Loner",
+        "Random Movement"
+      ]
+    },
+
+    {
+      "name": "Giant Wolf (Mount)",
+      "unitCategory": "Mount",
+      "troopType": "Light Cavalry",
+      "baseSize": "25 x 50 mm",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Giant Wolf",
+          "M": 9,
+          "WS": 3,
+          "BS": null,
+          "S": 3,
+          "T": null,
+          "W": null,
+          "I": 3,
+          "A": 1,
+          "Ld": null
+        }
+      ],
+      "equipment": ["Claws and fangs (counts as a hand weapon)"],
+      "specialRules": ["Chariot Runners", "Fast Cavalry", "Fire & Flee", "Swiftstride"]
+    },
+
+    {
+      "name": "Gigantic Spider (Mount)",
+      "unitCategory": "Mount",
+      "troopType": "Light Cavalry",
+      "baseSize": "50 x 50 mm",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Gigantic Spider",
+          "M": 7,
+          "WS": 4,
+          "BS": null,
+          "S": 4,
+          "T": "(+1)",
+          "W": 4,
+          "I": 3,
+          "A": null,
+          "Ld": null
+        }
+      ],
+      "equipment": ["Claws and fangs (counts as a hand weapon)"],
+      "specialRules": [
+        "Armoured Hide (1)",
+        "Fast Cavalry",
+        "Move Through Cover",
+        "Poisoned Attacks",
+        "Swiftstride"
+      ]
+    },
+
+    {
+      "name": "Goblin Bigboss",
+      "unitCategory": "Character",
+      "troopType": "Regular Infantry, Character",
+      "baseSize": "25 x 25 mm",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Goblin Bigboss",
+          "M": 4,
+          "WS": 4,
+          "BS": 3,
+          "S": 4,
+          "T": 4,
+          "W": 2,
+          "I": 4,
+          "A": 3,
+          "Ld": 6
+        }
+      ],
+      "equipment": ["Hand weapon"],
+      "specialRules": ["Fear of Elves", "Impetuous", "Rallying Cry", "Warband"]
+    },
+
+    {
+      "name": "Goblin Bolt Throwa",
+      "unitCategory": "War Machine",
+      "troopType": "War Machine",
+      "baseSize": "50 x 50 mm (war machine), 25 x 25 mm (crew)",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Bolt Throwa",
+          "M": null,
+          "WS": null,
+          "BS": null,
+          "S": null,
+          "T": 5,
+          "W": 3,
+          "I": null,
+          "A": null,
+          "Ld": null
+        }
+      ],
+      "equipment": ["Bolt thrower", "Hand weapons (crew)"],
+      "specialRules": ["Fear of Elves", "Skirmishers"],
+      "subUnits": [
+        {
+          "name": "Goblin Crew",
+          "count": 1,
+          "profile": { "M": 4, "WS": 2, "BS": 3, "S": 3, "T": 3, "W": 3, "I": 3, "A": 3, "Ld": 4 }
+        }
+      ]
+    },
+
+    {
+      "name": "Goblin Mob",
+      "unitCategory": "Infantry",
+      "troopType": "Regular Infantry",
+      "baseSize": "25 x 25 mm",
+      "unitSize": "10+",
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Goblin",
+          "M": 4,
+          "WS": 2,
+          "BS": 3,
+          "S": 3,
+          "T": 3,
+          "W": 1,
+          "I": 2,
+          "A": 1,
+          "Ld": 5
+        },
+        {
+          "variant": "Boss",
+          "M": 4,
+          "WS": 2,
+          "BS": 3,
+          "S": 3,
+          "T": 3,
+          "W": 1,
+          "I": 2,
+          "A": 2,
+          "Ld": 6
+        }
+      ],
+      "equipment": ["Hand weapons", "Shields"],
+      "specialRules": ["Close Order", "Fear of Elves", "Horde", "Impetuous", "Warband"]
+    },
+
+    {
+      "name": "Goblin Oddgit",
+      "unitCategory": "Character",
+      "troopType": "Regular Infantry, Character",
+      "baseSize": "25 x 25 mm",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Goblin Oddgit",
+          "M": 4,
+          "WS": 3,
+          "BS": 3,
+          "S": 3,
+          "T": 3,
+          "W": 2,
+          "I": 3,
+          "A": 1,
+          "Ld": 6
+        }
+      ],
+      "equipment": ["Hand weapon"],
+      "specialRules": ["Fear of Elves", "Lore of Mork", "Warband"],
+      "magicLores": ["Elementalism", "Waaagh! Magic"]
+    },
+
+    {
+      "name": "Goblin Oddnob",
+      "unitCategory": "Character",
+      "troopType": "Regular Infantry, Character",
+      "baseSize": "25 x 25 mm",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Goblin Oddnob",
+          "M": 4,
+          "WS": 4,
+          "BS": 3,
+          "S": 3,
+          "T": 4,
+          "W": 3,
+          "I": 4,
+          "A": 2,
+          "Ld": 7
+        }
+      ],
+      "equipment": ["Hand weapon"],
+      "specialRules": ["Fear of Elves", "Lore of Mork", "Warband"],
+      "magicLores": ["Elementalism", "Waaagh! Magic"]
+    },
+
+    {
+      "name": "Goblin Rock Lobber",
+      "unitCategory": "War Machine",
+      "troopType": "War Machine",
+      "baseSize": "60 x 100 mm (war machine), 25 x 25 mm (crew)",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Rock Lobber",
+          "M": null,
+          "WS": null,
+          "BS": null,
+          "S": null,
+          "T": 6,
+          "W": 4,
+          "I": null,
+          "A": null,
+          "Ld": null
+        }
+      ],
+      "equipment": ["Stone thrower", "Hand weapons (crew)"],
+      "specialRules": ["Fear of Elves", "Skirmishers"],
+      "subUnits": [
+        {
+          "name": "Goblin Crew",
+          "count": 1,
+          "profile": { "M": 4, "WS": 2, "BS": 3, "S": 3, "T": 3, "W": 4, "I": 3, "A": 3, "Ld": 4 }
+        }
+      ]
+    },
+
+    {
+      "name": "Goblin Spider Rider Mob",
+      "unitCategory": "Cavalry",
+      "troopType": "Light Cavalry",
+      "baseSize": "25 x 50 mm",
+      "unitSize": "5+",
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Spider Rider",
+          "M": null,
+          "WS": 2,
+          "BS": 3,
+          "S": 3,
+          "T": 3,
+          "W": 1,
+          "I": 3,
+          "A": 1,
+          "Ld": 5
+        },
+        {
+          "variant": "Boss",
+          "M": null,
+          "WS": 2,
+          "BS": 3,
+          "S": 3,
+          "T": 3,
+          "W": 1,
+          "I": 3,
+          "A": 2,
+          "Ld": 6
+        },
+        {
+          "variant": "Giant Spider",
+          "M": 7,
+          "WS": 3,
+          "BS": null,
+          "S": 3,
+          "T": null,
+          "W": 4,
+          "I": 1,
+          "A": null,
+          "Ld": null
+        }
+      ],
+      "equipment": ["Hand weapons (riders)", "Shields (riders)", "Poisonous fangs (mount)"],
+      "specialRules": [
+        "Fast Cavalry",
+        "Fear of Elves",
+        "Impetuous",
+        "Move Through Cover",
+        "Open Order",
+        "Poisoned Attacks",
+        "Swiftstride",
+        "Warband"
+      ]
+    },
+
+    {
+      "name": "Goblin Warboss",
+      "unitCategory": "Character",
+      "troopType": "Regular Infantry, Character",
+      "baseSize": "25 x 25 mm",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Goblin Warboss",
+          "M": 4,
+          "WS": 5,
+          "BS": 3,
+          "S": 4,
+          "T": 4,
+          "W": 3,
+          "I": 5,
+          "A": 4,
+          "Ld": 7
+        }
+      ],
+      "equipment": ["Hand weapon"],
+      "specialRules": ["Fear of Elves", "Impetuous", "Rallying Cry", "Warband"]
+    },
+
+    {
+      "name": "Goblin Wolf Chariot",
+      "unitCategory": "Chariot",
+      "troopType": "Light Chariot",
+      "baseSize": "50 x 100 mm (two wolves), 60 x 100 mm (three wolves)",
+      "unitSize": "1-5",
+      "armourValue": "5+",
+      "profiles": [
+        {
+          "variant": "Goblin Wolf Chariot",
+          "M": null,
+          "WS": null,
+          "BS": null,
+          "S": 5,
+          "T": 4,
+          "W": 3,
+          "I": null,
+          "A": null,
+          "Ld": null
+        }
+      ],
+      "equipment": [
+        "Hand weapons (crew)",
+        "Cavalry spears (crew)",
+        "Shortbows (crew)",
+        "Claws & fangs (wolves)"
+      ],
+      "specialRules": [
+        "Fear of Elves",
+        "Impact Hits (D3+1)",
+        "Impetuous",
+        "Open Order",
+        "Swiftstride",
+        "Warband"
+      ],
+      "subUnits": [
+        {
+          "name": "Goblin Crew",
+          "count": 3,
+          "profile": {
+            "M": null,
+            "WS": 2,
+            "BS": 3,
+            "S": 3,
+            "T": null,
+            "W": null,
+            "I": 3,
+            "A": 1,
+            "Ld": 6
+          }
+        },
+        {
+          "name": "Giant Wolf",
+          "count": 2,
+          "profile": {
+            "M": 9,
+            "WS": 3,
+            "BS": null,
+            "S": 3,
+            "T": null,
+            "W": null,
+            "I": 3,
+            "A": 1,
+            "Ld": null
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Goblin Wolf Rider Mob",
+      "unitCategory": "Cavalry",
+      "troopType": "Light Cavalry",
+      "baseSize": "25 x 50 mm",
+      "unitSize": "5+",
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Wolf Rider",
+          "M": null,
+          "WS": 2,
+          "BS": 3,
+          "S": 3,
+          "T": 3,
+          "W": 1,
+          "I": 3,
+          "A": 1,
+          "Ld": 5
+        },
+        {
+          "variant": "Boss",
+          "M": null,
+          "WS": 2,
+          "BS": 3,
+          "S": 3,
+          "T": 3,
+          "W": 1,
+          "I": 3,
+          "A": 2,
+          "Ld": 6
+        },
+        {
+          "variant": "Giant Wolf",
+          "M": 9,
+          "WS": 3,
+          "BS": null,
+          "S": 3,
+          "T": null,
+          "W": null,
+          "I": 3,
+          "A": 1,
+          "Ld": null
+        }
+      ],
+      "equipment": ["Hand weapons (riders)", "Shields (riders)"],
+      "specialRules": [
+        "Chariot Runners",
+        "Fast Cavalry",
+        "Fear of Elves",
+        "Fire & Flee",
+        "Impetuous",
+        "Open Order",
+        "Skirmishers",
+        "Swiftstride",
+        "Warband"
+      ]
+    },
+
+    {
+      "name": "Kiknik Toofsnatcha",
+      "unitCategory": "Named Character",
+      "troopType": "Light Cavalry, Named Character",
+      "baseSize": "25 x 50 mm",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Kiknik Toofsnatcha",
+          "M": 4,
+          "WS": 5,
+          "BS": 3,
+          "S": 4,
+          "T": 4,
+          "W": 3,
+          "I": 5,
+          "A": 4,
+          "Ld": 8
+        }
+      ],
+      "equipment": [
+        "Da Boss's Trophy Rack",
+        "Da Skull Smasha",
+        "Cavalry spear",
+        "Shield",
+        "Light armour"
+      ],
+      "specialRules": [
+        "All Sneaky Like",
+        "Ambushers",
+        "Armour Bane (1, Chompa only)",
+        "Armoured Hide (1)",
+        "Chariot Runners",
+        "Fast Cavalry",
+        "Fear of Elves",
+        "Impetuous",
+        "'It & Run",
+        "Rallying Cry",
+        "Swiftstride",
+        "Warband"
+      ],
+      "subUnits": [
+        {
+          "name": "Chompa (mount)",
+          "count": 1,
+          "profile": {
+            "M": 9,
+            "WS": 3,
+            "BS": null,
+            "S": 4,
+            "T": null,
+            "W": null,
+            "I": 3,
+            "A": 2,
+            "Ld": null
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Mangler Squigs",
+      "unitCategory": "Monster",
+      "troopType": "Behemoth",
+      "baseSize": "50 x 75 mm",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Mangler Squig",
+          "M": "3D6",
+          "WS": 4,
+          "BS": 0,
+          "S": 6,
+          "T": 5,
+          "W": 4,
+          "I": 3,
+          "A": "D6",
+          "Ld": 4
+        }
+      ],
+      "equipment": ["Colossal fang-filled gob", "Scaly skin (counts as heavy armour)"],
+      "specialRules": [
+        "Close Order",
+        "Hatred (Dwarfs)",
+        "Immune to Psychology",
+        "Impact Hits (D6)",
+        "Ker-splat",
+        "Large Target",
+        "Random Attacks",
+        "Random Movement",
+        "Spiked Ball & Chains",
+        "Stomp Attacks (D3)",
+        "Timmm-berrr!"
+      ]
+    },
+
+    {
+      "name": "Nasty Skulker",
+      "unitCategory": "Infantry",
+      "troopType": "Regular Infantry",
+      "baseSize": "25 x 25 mm",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Nasty Skulker",
+          "M": 4,
+          "WS": 4,
+          "BS": 3,
+          "S": 3,
+          "T": 3,
+          "W": 1,
+          "I": 4,
+          "A": 2,
+          "Ld": 6
+        }
+      ],
+      "equipment": ["Hand weapon", "Light armour"],
+      "specialRules": [
+        "Armour Bane (2)",
+        "Fear of Elves",
+        "Horde",
+        "Skulking Menace",
+        "Strike First"
+      ]
+    },
+
+    {
+      "name": "Night Goblin Bigboss",
+      "unitCategory": "Character",
+      "troopType": "Regular Infantry, Character",
+      "baseSize": "25 x 25 mm",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Night Goblin Bigboss",
+          "M": 4,
+          "WS": 4,
+          "BS": 3,
+          "S": 4,
+          "T": 4,
+          "W": 2,
+          "I": 4,
+          "A": 3,
+          "Ld": 5
+        }
+      ],
+      "equipment": ["Hand weapon"],
+      "specialRules": ["Fear of Elves", "Hatred (Dwarfs)", "Rallying Cry", "Warband"]
+    },
+
+    {
+      "name": "Night Goblin Mob",
+      "unitCategory": "Infantry",
+      "troopType": "Regular Infantry",
+      "baseSize": "25 x 25 mm",
+      "unitSize": "10+",
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Night Goblin",
+          "M": 4,
+          "WS": 2,
+          "BS": 3,
+          "S": 3,
+          "T": 3,
+          "W": 1,
+          "I": 3,
+          "A": 1,
+          "Ld": 4
+        },
+        {
+          "variant": "Boss",
+          "M": 4,
+          "WS": 2,
+          "BS": 3,
+          "S": 3,
+          "T": 3,
+          "W": 1,
+          "I": 3,
+          "A": 2,
+          "Ld": 5
+        }
+      ],
+      "equipment": ["Hand weapons", "Shields"],
+      "specialRules": ["Close Order", "Fear of Elves", "Hatred (Dwarfs)", "Horde", "Warband"]
+    },
+
+    {
+      "name": "Night Goblin Oddgit",
+      "unitCategory": "Character",
+      "troopType": "Regular Infantry, Character",
+      "baseSize": "25 x 25 mm",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Night Goblin Oddgit",
+          "M": 4,
+          "WS": 3,
+          "BS": 3,
+          "S": 3,
+          "T": 3,
+          "W": 2,
+          "I": 3,
+          "A": 1,
+          "Ld": 5
+        }
+      ],
+      "equipment": ["Hand weapon"],
+      "specialRules": ["Fear of Elves", "Hatred (Dwarfs)", "Lore of Mork", "Warband"],
+      "magicLores": ["Illusion", "Waaagh! Magic"]
+    },
+
+    {
+      "name": "Night Goblin Oddnob",
+      "unitCategory": "Character",
+      "troopType": "Regular Infantry, Character",
+      "baseSize": "25 x 25 mm",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Night Goblin Oddnob",
+          "M": 4,
+          "WS": 4,
+          "BS": 3,
+          "S": 3,
+          "T": 4,
+          "W": 3,
+          "I": 4,
+          "A": 2,
+          "Ld": 6
+        }
+      ],
+      "equipment": ["Hand weapon"],
+      "specialRules": ["Fear of Elves", "Hatred (Dwarfs)", "Lore of Mork", "Warband"],
+      "magicLores": ["Illusion", "Waaagh! Magic"]
+    },
+
+    {
+      "name": "Night Goblin Squig Herd",
+      "unitCategory": "Infantry",
+      "troopType": "Regular Infantry",
+      "baseSize": "25 x 25 mm",
+      "unitSize": "1+/5+",
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Squig Herder",
+          "M": 4,
+          "WS": 2,
+          "BS": 3,
+          "S": 3,
+          "T": 3,
+          "W": 1,
+          "I": 3,
+          "A": 1,
+          "Ld": 6
+        },
+        {
+          "variant": "Cave Squig",
+          "M": 4,
+          "WS": 4,
+          "BS": null,
+          "S": 5,
+          "T": 3,
+          "W": 1,
+          "I": 4,
+          "A": 2,
+          "Ld": 3
+        }
+      ],
+      "equipment": [
+        "Assorted squig-herding implements (counts as hand weapons)",
+        "Huge gobs (Squigs)"
+      ],
+      "specialRules": [
+        "Hatred (Dwarfs)",
+        "Immune to Psychology",
+        "Impetuous",
+        "Loner",
+        "Motley Crew",
+        "Open Order",
+        "Skirmishers",
+        "Squigs Go Wild",
+        "Warband"
+      ]
+    },
+
+    {
+      "name": "Night Goblin Squig Hopper Mob",
+      "unitCategory": "Cavalry",
+      "troopType": "Light Cavalry",
+      "baseSize": "25 x 25 mm",
+      "unitSize": "5+",
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Squig Hopper",
+          "M": null,
+          "WS": 2,
+          "BS": 3,
+          "S": 3,
+          "T": 3,
+          "W": 1,
+          "I": 3,
+          "A": 1,
+          "Ld": 5
+        },
+        {
+          "variant": "Boss",
+          "M": null,
+          "WS": 2,
+          "BS": 3,
+          "S": 3,
+          "T": 3,
+          "W": 1,
+          "I": 3,
+          "A": 2,
+          "Ld": 6
+        },
+        {
+          "variant": "Bounder Squig",
+          "M": "3D6",
+          "WS": 4,
+          "BS": null,
+          "S": 5,
+          "T": null,
+          "W": null,
+          "I": 4,
+          "A": 2,
+          "Ld": null
+        }
+      ],
+      "equipment": ["Hand weapons (hoppers)", "Huge gobs (squigs)"],
+      "specialRules": [
+        "Hatred (Dwarfs)",
+        "Immune to Psychology",
+        "Impact Hits (1)",
+        "Loner",
+        "Open Order",
+        "Random Movement",
+        "Skirmishers",
+        "Warband"
+      ]
+    },
+
+    {
+      "name": "Night Goblin Warboss",
+      "unitCategory": "Character",
+      "troopType": "Regular Infantry, Character",
+      "baseSize": "25 x 25 mm",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Night Goblin Warboss",
+          "M": 4,
+          "WS": 5,
+          "BS": 3,
+          "S": 4,
+          "T": 4,
+          "W": 3,
+          "I": 5,
+          "A": 4,
+          "Ld": 6
+        }
+      ],
+      "equipment": ["Hand weapon"],
+      "specialRules": ["Fear of Elves", "Hatred (Dwarfs)", "Rallying Cry", "Warband"]
+    },
+
+    {
+      "name": "Ogdruz Swampdigga",
+      "unitCategory": "Named Character",
+      "troopType": "Regular Infantry, Named Character",
+      "baseSize": "30 x 30 mm",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Ogdruz Swampdigga",
+          "M": 4,
+          "WS": 4,
+          "BS": 2,
+          "S": 4,
+          "T": 5,
+          "W": 3,
+          "I": 4,
+          "A": 2,
+          "Ld": 8
+        }
+      ],
+      "equipment": ["Bog-wood Staff", "Trollhide Shawl", "Lore Familiar"],
+      "specialRules": [
+        "Choppas",
+        "Da Troll Calla",
+        "Ignore Goblin Panic",
+        "Protect Da Boss",
+        "Syphoned Strength",
+        "Warband"
+      ],
+      "magicLores": ["Elementalism", "Lore of Troll Magic"]
+    },
+
+    {
+      "name": "Orc Bigboss",
+      "unitCategory": "Character",
+      "troopType": "Regular Infantry, Character",
+      "baseSize": "30 x 30 mm",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Orc Bigboss",
+          "M": 4,
+          "WS": 5,
+          "BS": 2,
+          "S": 4,
+          "T": 5,
+          "W": 2,
+          "I": 4,
+          "A": 3,
+          "Ld": 7
+        }
+      ],
+      "equipment": ["Hand weapon", "Light armour"],
+      "specialRules": [
+        "Choppas",
+        "Furious Charge",
+        "Ignore Goblin Panic",
+        "Impetuous",
+        "Rallying Cry",
+        "Waaagh!",
+        "Warband"
+      ]
+    },
+
+    {
+      "name": "Orc Boar Boy Mob",
+      "unitCategory": "Cavalry",
+      "troopType": "Heavy Cavalry",
+      "baseSize": "30 x 60 mm",
+      "unitSize": "4+",
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Boar Boy",
+          "M": null,
+          "WS": 3,
+          "BS": 3,
+          "S": 3,
+          "T": 4,
+          "W": 1,
+          "I": 3,
+          "A": 1,
+          "Ld": 6
+        },
+        {
+          "variant": "Boss",
+          "M": null,
+          "WS": 3,
+          "BS": 3,
+          "S": 3,
+          "T": 4,
+          "W": 1,
+          "I": 3,
+          "A": 2,
+          "Ld": 7
+        },
+        {
+          "variant": "War Boar",
+          "M": 7,
+          "WS": 3,
+          "BS": null,
+          "S": 3,
+          "T": null,
+          "W": null,
+          "I": 3,
+          "A": 1,
+          "Ld": null
+        }
+      ],
+      "equipment": ["Hand weapons (riders)", "Light armour (riders)", "Tusks (boars)"],
+      "specialRules": [
+        "Armoured Hide (1)",
+        "Choppas",
+        "Close Order",
+        "Counter Charge",
+        "Furious Charge (Riders only)",
+        "Ignore Goblin Panic",
+        "Impetuous",
+        "Swiftstride",
+        "Tusker Charge",
+        "Warband"
+      ]
+    },
+
+    {
+      "name": "Orc Boar Chariot",
+      "unitCategory": "Chariot",
+      "troopType": "Heavy Chariot",
+      "baseSize": "50 x 100 mm",
+      "unitSize": 1,
+      "armourValue": "4+",
+      "profiles": [
+        {
+          "variant": "Orc Boar Chariot",
+          "M": null,
+          "WS": null,
+          "BS": null,
+          "S": 5,
+          "T": 5,
+          "W": 4,
+          "I": null,
+          "A": null,
+          "Ld": null
+        }
+      ],
+      "equipment": ["Hand weapons (crew)", "Cavalry spears (crew)", "Tusks (boars)"],
+      "specialRules": [
+        "Choppas",
+        "Close Order",
+        "First Charge",
+        "Ignore Goblin Panic",
+        "Impact Hits (D6+1)",
+        "Impetuous",
+        "Tusker Charge",
+        "Warband"
+      ],
+      "subUnits": [
+        {
+          "name": "Orc Crew",
+          "count": 2,
+          "profile": {
+            "M": null,
+            "WS": 3,
+            "BS": 3,
+            "S": 3,
+            "T": null,
+            "W": null,
+            "I": 3,
+            "A": 1,
+            "Ld": 7
+          }
+        },
+        {
+          "name": "War Boar",
+          "count": 2,
+          "profile": {
+            "M": 7,
+            "WS": 3,
+            "BS": null,
+            "S": 3,
+            "T": null,
+            "W": null,
+            "I": 3,
+            "A": 1,
+            "Ld": null
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Orc Bully",
+      "unitCategory": "War Machine",
+      "troopType": "Regular Infantry",
+      "baseSize": "30 x 30 mm",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Orc Bully",
+          "M": 4,
+          "WS": 3,
+          "BS": 3,
+          "S": 3,
+          "T": 4,
+          "W": 1,
+          "I": 3,
+          "A": 2,
+          "Ld": 7
+        }
+      ],
+      "equipment": ["Hand weapon", "Whip"],
+      "specialRules": ["Bully", "Choppas"]
+    },
+
+    {
+      "name": "Orc Mob",
+      "unitCategory": "Infantry",
+      "troopType": "Regular Infantry",
+      "baseSize": "30 x 30 mm",
+      "unitSize": "5+",
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Orc Boy",
+          "M": 4,
+          "WS": 3,
+          "BS": 3,
+          "S": 3,
+          "T": 4,
+          "W": 1,
+          "I": 3,
+          "A": 1,
+          "Ld": 6
+        },
+        {
+          "variant": "Boss",
+          "M": 4,
+          "WS": 3,
+          "BS": 3,
+          "S": 3,
+          "T": 4,
+          "W": 1,
+          "I": 3,
+          "A": 2,
+          "Ld": 7
+        }
+      ],
+      "equipment": ["Hand weapons", "Light armour"],
+      "specialRules": ["Choppas", "Close Order", "Ignore Goblin Panic", "Impetuous", "Warband"]
+    },
+
+    {
+      "name": "Orc Warboss",
+      "unitCategory": "Character",
+      "troopType": "Regular Infantry, Character",
+      "baseSize": "30 x 30 mm",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Orc Warboss",
+          "M": 4,
+          "WS": 6,
+          "BS": 2,
+          "S": 5,
+          "T": 5,
+          "W": 3,
+          "I": 5,
+          "A": 4,
+          "Ld": 8
+        }
+      ],
+      "equipment": ["Hand weapon", "Light armour"],
+      "specialRules": [
+        "Choppas",
+        "Furious Charge",
+        "Ignore Goblin Panic",
+        "Impetuous",
+        "Rallying Cry",
+        "Waaagh!",
+        "Warband"
+      ]
+    },
+
+    {
+      "name": "Orc Weirdboy",
+      "unitCategory": "Character",
+      "troopType": "Regular Infantry, Character",
+      "baseSize": "30 x 30 mm",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Orc Weirdboy",
+          "M": 4,
+          "WS": 3,
+          "BS": 2,
+          "S": 3,
+          "T": 4,
+          "W": 2,
+          "I": 3,
+          "A": 1,
+          "Ld": 7
+        }
+      ],
+      "equipment": ["Hand weapon"],
+      "specialRules": ["Choppas", "Ignore Goblin Panic", "Lore of Gork", "Mob Rule", "Warband"],
+      "magicLores": ["Battle Magic", "Elementalism", "Waaagh! Magic"]
+    },
+
+    {
+      "name": "Orc Weirdnob",
+      "unitCategory": "Character",
+      "troopType": "Regular Infantry, Character",
+      "baseSize": "30 x 30 mm",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Orc Weirdnob",
+          "M": 4,
+          "WS": 4,
+          "BS": 2,
+          "S": 4,
+          "T": 5,
+          "W": 3,
+          "I": 4,
+          "A": 2,
+          "Ld": 8
+        }
+      ],
+      "equipment": ["Hand weapon"],
+      "specialRules": ["Choppas", "Ignore Goblin Panic", "Lore of Gork", "Mob Rule", "Warband"],
+      "magicLores": ["Battle Magic", "Elementalism", "Waaagh! Magic"]
+    },
+
+    {
+      "name": "River Troll Mob",
+      "unitCategory": "Infantry",
+      "troopType": "Monstrous Infantry",
+      "baseSize": "40 x 40 mm",
+      "unitSize": "1-9",
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "River Troll",
+          "M": 6,
+          "WS": 3,
+          "BS": 1,
+          "S": 5,
+          "T": 4,
+          "W": 4,
+          "I": 1,
+          "A": 3,
+          "Ld": 4
+        }
+      ],
+      "equipment": ["Hand weapons", "Troll vomit", "Calloused hides (counts as light armour)"],
+      "specialRules": [
+        "Armour Bane (1)",
+        "Close Order",
+        "Fear",
+        "Flammable",
+        "Motley Crew",
+        "Regeneration (5+)",
+        "Stupidity"
+      ]
+    },
+
+    {
+      "name": "Snotling Mob",
+      "unitCategory": "Infantry",
+      "troopType": "Swarm",
+      "baseSize": "40 x 40 mm",
+      "unitSize": "2+",
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Snotlings",
+          "M": 5,
+          "WS": 2,
+          "BS": 2,
+          "S": 2,
+          "T": 2,
+          "W": 6,
+          "I": 3,
+          "A": 5,
+          "Ld": 4
+        }
+      ],
+      "equipment": ["Hand weapons", "Throwing weapons"],
+      "specialRules": [
+        "Immune to Psychology",
+        "Impetuous",
+        "Loner",
+        "Open Order",
+        "Skirmishers",
+        "Unbreakable",
+        "Vanguard"
+      ]
+    },
+
+    {
+      "name": "Snotling Pump Wagon",
+      "unitCategory": "Chariot",
+      "troopType": "Light Chariot",
+      "baseSize": "50 x 75 mm (min), 50 x 100 mm (max)",
+      "unitSize": "1-6",
+      "armourValue": "6+",
+      "profiles": [
+        {
+          "variant": "Pump Wagon",
+          "M": "2D6",
+          "WS": null,
+          "BS": null,
+          "S": 4,
+          "T": 4,
+          "W": 3,
+          "I": null,
+          "A": null,
+          "Ld": null
+        }
+      ],
+      "equipment": ["Hand weapons (crew)", "Throwing weapons (crew)"],
+      "specialRules": [
+        "Armour Bane (3, Pump Wagon Impact Hits only)",
+        "Immune to Psychology",
+        "Impact Hits (D3+1)",
+        "Loner",
+        "Open Order",
+        "Random Movement"
+      ],
+      "subUnits": [
+        {
+          "name": "Snotling Crew",
+          "count": 6,
+          "profile": {
+            "M": null,
+            "WS": 2,
+            "BS": 2,
+            "S": 2,
+            "T": null,
+            "W": null,
+            "I": 3,
+            "A": 1,
+            "Ld": 4
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Stone Troll Mob",
+      "unitCategory": "Infantry",
+      "troopType": "Monstrous Infantry",
+      "baseSize": "40 x 40 mm",
+      "unitSize": "1-9",
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Stone Troll",
+          "M": 6,
+          "WS": 3,
+          "BS": 1,
+          "S": 5,
+          "T": 4,
+          "W": 3,
+          "I": 1,
+          "A": 3,
+          "Ld": 5
+        }
+      ],
+      "equipment": ["Hand weapons", "Troll vomit", "Calloused hides (counts as light armour)"],
+      "specialRules": [
+        "Armour Bane (1)",
+        "Armoured Hide (1)",
+        "Close Order",
+        "Fear",
+        "Flammable",
+        "Magic Resistance (-1)",
+        "Motley Crew",
+        "Regeneration (5+)",
+        "Stupidity"
+      ]
+    },
+
+    {
+      "name": "Troll Hag",
+      "unitCategory": "Character",
+      "troopType": "Behemoth, Character",
+      "baseSize": "60 x 100 mm",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Troll Hag",
+          "M": 5,
+          "WS": 2,
+          "BS": 2,
+          "S": 6,
+          "T": 5,
+          "W": 6,
+          "I": 2,
+          "A": 3,
+          "Ld": 8
+        }
+      ],
+      "equipment": [
+        "Gnarled stump (counts as a hand weapon)",
+        "Troll vomit",
+        "Swamp breath",
+        "Scaly skin (counts as heavy armour)"
+      ],
+      "specialRules": [
+        "Close Order",
+        "Flammable",
+        "Immune to Psychology",
+        "Indiscriminate Hunger",
+        "Large Target",
+        "Motherly Love",
+        "Regeneration (5+)",
+        "Slimy Shanks",
+        "Stomp Attacks (D6)",
+        "Stupidity",
+        "Terror",
+        "Timmm-berrr!",
+        "Unbreakable"
+      ],
+      "magicLores": ["Battle Magic", "Lore of Troll Magic"]
+    },
+
+    {
+      "name": "War Boar (Mount)",
+      "unitCategory": "Mount",
+      "troopType": "Heavy Cavalry",
+      "baseSize": "30 x 60 mm",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "War Boar",
+          "M": 7,
+          "WS": 3,
+          "BS": null,
+          "S": 3,
+          "T": null,
+          "W": null,
+          "I": 3,
+          "A": 1,
+          "Ld": null
+        }
+      ],
+      "equipment": ["Tusks (counts as a hand weapon)"],
+      "specialRules": ["Armoured Hide (1)", "Counter Charge", "Swiftstride", "Tusker Charge"]
+    },
+
+    {
+      "name": "Wyvern",
+      "unitCategory": "Monster",
+      "troopType": "Monstrous Creature",
+      "baseSize": "50 x 100 mm",
+      "unitSize": 1,
+      "armourValue": null,
+      "profiles": [
+        {
+          "variant": "Wyvern",
+          "M": 4,
+          "WS": 5,
+          "BS": null,
+          "S": 6,
+          "T": "(+1)",
+          "W": "(+4)",
+          "I": 3,
+          "A": 3,
+          "Ld": null
+        }
+      ],
+      "equipment": ["Wicked claws", "Venomous tail", "Scaly skin (counts as heavy armour)"],
+      "specialRules": [
+        "Close Order",
+        "Fly (9)",
+        "Large Target",
+        "Stomp Attacks (D3)",
+        "Swiftstride",
+        "Terror"
+      ]
+    }
+  ]
+}

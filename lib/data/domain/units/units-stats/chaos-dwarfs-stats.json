@@ -1,0 +1,844 @@
+[
+  {
+    "name": "Bale Taurus",
+    "unitCategory": "Monster",
+    "troopType": "Behemoth",
+    "baseSize": "60 x 100 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Trampling hooves and goring horns"],
+    "specialRules": [
+      "Blazing Body",
+      "Born of Fire",
+      "Close Order",
+      "Fly (9)",
+      "Furious Charge",
+      "Large Target",
+      "Stomp Attacks (D3+1)",
+      "Swiftstride",
+      "Terror"
+    ],
+    "profiles": [
+      {
+        "label": "Bale Taurus",
+        "M": 6,
+        "WS": 5,
+        "BS": "—",
+        "S": 6,
+        "T": "(+1)",
+        "W": "(+4)",
+        "I": 3,
+        "A": 4,
+        "Ld": "—"
+      }
+    ]
+  },
+  {
+    "name": "Bull Centaur Renders",
+    "unitCategory": "Cavalry",
+    "troopType": "Monstrous Cavalry",
+    "baseSize": "50 x 75 mm",
+    "unitSize": "3+",
+    "armourValue": "—",
+    "equipment": ["Hand weapons", "light armour"],
+    "specialRules": [
+      "Armoured Hide (1)",
+      "Blackshard Armour",
+      "Close Order",
+      "Ensorcelled Weapons",
+      "Fear",
+      "First Charge",
+      "Impact Hits (D3)",
+      "Loner",
+      "Stampede",
+      "Stubborn",
+      "Swiftstride"
+    ],
+    "profiles": [
+      {
+        "label": "Bull Centaur Render",
+        "M": 7,
+        "WS": 4,
+        "BS": 2,
+        "S": 4,
+        "T": 5,
+        "W": 3,
+        "I": 3,
+        "A": 2,
+        "Ld": 8
+      },
+      {
+        "label": "Bull Centaur Ba'hal",
+        "M": 7,
+        "WS": 4,
+        "BS": 2,
+        "S": 4,
+        "T": 5,
+        "W": 3,
+        "I": 3,
+        "A": 3,
+        "Ld": 8
+      }
+    ]
+  },
+  {
+    "name": "Bull Centaur Taur'ruk",
+    "unitCategory": "Character",
+    "troopType": "Monstrous Cavalry, Character",
+    "baseSize": "50 x 75 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "heavy armour"],
+    "specialRules": [
+      "Armour Bane (1)",
+      "Armoured Hide (1)",
+      "Blackshard Armour",
+      "Ensorcelled Weapons",
+      "Fear",
+      "First Charge",
+      "Impact Hits (D3+1)",
+      "Loner",
+      "Stampede",
+      "Stubborn",
+      "Swiftstride"
+    ],
+    "profiles": [
+      {
+        "label": "Taur'ruk",
+        "M": 7,
+        "WS": 5,
+        "BS": 2,
+        "S": 5,
+        "T": 5,
+        "W": 4,
+        "I": 4,
+        "A": 4,
+        "Ld": 9
+      }
+    ]
+  },
+  {
+    "name": "Daemonsmith Sorcerer",
+    "unitCategory": "Character",
+    "troopType": "Heavy Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "heavy armour"],
+    "specialRules": [
+      "Blackshard Armour",
+      "Ensorcelled Weapons",
+      "Infernal Engineer",
+      "Lore of Hashut",
+      "Resolute",
+      "Sorcerer's Curse",
+      "Stubborn"
+    ],
+    "magicLores": ["Daemonology", "Dark Magic", "Elementalism"],
+    "profiles": [
+      {
+        "label": "Daemonsmith Sorcerer",
+        "M": 3,
+        "WS": 4,
+        "BS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 2,
+        "I": 2,
+        "A": 2,
+        "Ld": 9
+      }
+    ]
+  },
+  {
+    "name": "Deathshrieker Rocket Launcher",
+    "unitCategory": "War Machine",
+    "troopType": "War Machine",
+    "baseSize": "50 x 75 mm (war machine), 25 x 25 mm (crew)",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Demolition Rockets", "Infernal Incendiaries", "hand weapons", "heavy armour"],
+    "specialRules": ["Blackshard Armour", "Skirmishers"],
+    "profiles": [
+      {
+        "label": "Deathshrieker Rocket Launcher",
+        "M": "—",
+        "WS": "—",
+        "BS": "—",
+        "S": "—",
+        "T": 6,
+        "W": 3,
+        "I": "—",
+        "A": "—",
+        "Ld": "—"
+      },
+      {
+        "label": "Chaos Dwarf Crew",
+        "M": 3,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 4,
+        "W": 3,
+        "I": 2,
+        "A": 3,
+        "Ld": 9
+      }
+    ]
+  },
+  {
+    "name": "Dreadquake Mortar",
+    "unitCategory": "War Machine",
+    "troopType": "War Machine",
+    "baseSize": "N/A",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Dreadquake Mortar", "hand weapons", "heavy armour"],
+    "specialRules": ["Blackshard Armour", "Skirmishers"],
+    "profiles": [
+      {
+        "label": "Dreadquake Mortar",
+        "M": "—",
+        "WS": "—",
+        "BS": "—",
+        "S": "—",
+        "T": 7,
+        "W": 4,
+        "I": "—",
+        "A": "—",
+        "Ld": "—"
+      },
+      {
+        "label": "Chaos Dwarf Crew",
+        "M": 3,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 4,
+        "W": 3,
+        "I": 2,
+        "A": 3,
+        "Ld": 9
+      },
+      {
+        "label": "Ogre Loader",
+        "M": "—",
+        "WS": 3,
+        "BS": "—",
+        "S": 4,
+        "T": "(+2)",
+        "W": 2,
+        "I": "(+2)",
+        "A": "—",
+        "Ld": "—"
+      }
+    ]
+  },
+  {
+    "name": "Giant Wolf",
+    "unitCategory": "Mount",
+    "troopType": "Light Cavalry",
+    "baseSize": "25 x 50 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Claws and fangs (counts as a hand weapon)"],
+    "specialRules": ["Chariot Runners", "Fast Cavalry", "Fire & Flee", "Swiftstride"],
+    "profiles": [
+      {
+        "label": "Giant Wolf",
+        "M": 9,
+        "WS": 3,
+        "BS": "—",
+        "S": 3,
+        "T": "—",
+        "W": "—",
+        "I": 3,
+        "A": 1,
+        "Ld": "—"
+      }
+    ]
+  },
+  {
+    "name": "Great Taurus",
+    "unitCategory": "Monster",
+    "troopType": "Behemoth",
+    "baseSize": "60 x 100 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Trampling hooves and goring horns"],
+    "specialRules": [
+      "Blazing Body",
+      "Born of Fire",
+      "Close Order",
+      "Fly (9)",
+      "Furious Charge",
+      "Large Target",
+      "Stomp Attacks (D3)",
+      "Swiftstride",
+      "Terror"
+    ],
+    "profiles": [
+      {
+        "label": "Great Taurus",
+        "M": 6,
+        "WS": 5,
+        "BS": "—",
+        "S": 5,
+        "T": "(+4)",
+        "W": 3,
+        "I": 3,
+        "A": "—",
+        "Ld": "—"
+      }
+    ]
+  },
+  {
+    "name": "Hobgoblin Bolt Thrower",
+    "unitCategory": "War Machine",
+    "troopType": "War Machine",
+    "baseSize": "50 x 50 mm (war machine), 25 x 25 mm (crew)",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Bolt thrower", "hand weapons", "light armour"],
+    "specialRules": ["Levies", "Skirmishers"],
+    "profiles": [
+      {
+        "label": "Bolt Thrower",
+        "M": "—",
+        "WS": "—",
+        "BS": "—",
+        "S": "—",
+        "T": 4,
+        "W": 3,
+        "I": "—",
+        "A": "—",
+        "Ld": "—"
+      },
+      {
+        "label": "Hobgoblin Crew",
+        "M": 4,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 2,
+        "I": 3,
+        "A": 2,
+        "Ld": 6
+      }
+    ]
+  },
+  {
+    "name": "Hobgoblin Cutthroats",
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "10+",
+    "armourValue": "—",
+    "equipment": ["Hand weapons", "shields"],
+    "specialRules": ["Backstab", "Close Order", "Horde", "Levies", "Warband"],
+    "profiles": [
+      {
+        "label": "Cutthroat",
+        "M": 4,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 3,
+        "A": 1,
+        "Ld": 4
+      },
+      {
+        "label": "Boss",
+        "M": 4,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 3,
+        "A": 2,
+        "Ld": 5
+      }
+    ]
+  },
+  {
+    "name": "Hobgoblin Khan",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "throwing weapons"],
+    "specialRules": ["Backstab", "Evasive", "Levies", "Warband"],
+    "profiles": [
+      {
+        "label": "Hobgoblin Khan",
+        "M": 4,
+        "WS": 5,
+        "BS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 2,
+        "I": 5,
+        "A": 3,
+        "Ld": 7
+      }
+    ]
+  },
+  {
+    "name": "Hobgoblin Wolf Riders",
+    "unitCategory": "Cavalry",
+    "troopType": "Light Cavalry",
+    "baseSize": "25 x 50 mm",
+    "unitSize": "5+",
+    "armourValue": "—",
+    "equipment": [
+      "Hobgoblin Wolf Riders: Hand weapons",
+      "light armour",
+      "shields",
+      "Giant Wolves: Claws and fangs (counts as hand weapons)"
+    ],
+    "specialRules": [
+      "Backstab",
+      "Evasive",
+      "Fast Cavalry",
+      "Fire & Flee",
+      "Levies",
+      "Open Order",
+      "Skirmishers",
+      "Swiftstride"
+    ],
+    "profiles": [
+      {
+        "label": "Hobgoblin Wolf Rider",
+        "M": "—",
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 3,
+        "A": 1,
+        "Ld": 6
+      },
+      {
+        "label": "Boss",
+        "M": "—",
+        "WS": 3,
+        "BS": 4,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 3,
+        "A": 2,
+        "Ld": 6
+      },
+      {
+        "label": "Giant Wolf",
+        "M": 9,
+        "WS": 3,
+        "BS": "—",
+        "S": 3,
+        "T": "—",
+        "W": "—",
+        "I": 3,
+        "A": 1,
+        "Ld": "—"
+      }
+    ]
+  },
+  {
+    "name": "Infernal Castellan",
+    "unitCategory": "Character",
+    "troopType": "Heavy Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "heavy armour"],
+    "specialRules": [
+      "Blackshard Armour",
+      "Ensorcelled Weapons",
+      "Rallying Cry",
+      "Resolute",
+      "Stubborn"
+    ],
+    "profiles": [
+      {
+        "label": "Infernal Castellan",
+        "M": 3,
+        "WS": 6,
+        "BS": 4,
+        "S": 5,
+        "T": 5,
+        "W": 3,
+        "I": 3,
+        "A": 4,
+        "Ld": 10
+      }
+    ]
+  },
+  {
+    "name": "Infernal Guard",
+    "unitCategory": "Infantry",
+    "troopType": "Heavy Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "10+",
+    "armourValue": "—",
+    "equipment": ["Hand weapons", "heavy armour"],
+    "specialRules": [
+      "Close Order",
+      "Detachment",
+      "Regimental Unit",
+      "Resolute",
+      "Shieldwall",
+      "Stubborn"
+    ],
+    "profiles": [
+      {
+        "label": "Infernal Guard",
+        "M": 3,
+        "WS": 4,
+        "BS": 3,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 2,
+        "A": 1,
+        "Ld": 9
+      },
+      {
+        "label": "Deathmask",
+        "M": 3,
+        "WS": 4,
+        "BS": 3,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 2,
+        "A": 2,
+        "Ld": 9
+      }
+    ]
+  },
+  {
+    "name": "Infernal Ironsworn",
+    "unitCategory": "Infantry",
+    "troopType": "Heavy Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "10+",
+    "armourValue": "—",
+    "equipment": ["Hand weapons", "full plate armour"],
+    "specialRules": [
+      "Blackshard Armour",
+      "Close Order",
+      "Drilled",
+      "Ensorcelled Weapons",
+      "Quell Panic",
+      "Regimental Unit",
+      "Resolute",
+      "Shieldwall",
+      "Stubborn",
+      "Veteran"
+    ],
+    "profiles": [
+      {
+        "label": "Infernal Ironsworn",
+        "M": 3,
+        "WS": 5,
+        "BS": 3,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 2,
+        "A": 2,
+        "Ld": 9
+      },
+      {
+        "label": "Overseer",
+        "M": 3,
+        "WS": 5,
+        "BS": 3,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 2,
+        "A": 3,
+        "Ld": 9
+      }
+    ]
+  },
+  {
+    "name": "Infernal Seneschal",
+    "unitCategory": "Character",
+    "troopType": "Heavy Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "heavy armour"],
+    "specialRules": [
+      "Blackshard Armour",
+      "Ensorcelled Weapons",
+      "Rallying Cry",
+      "Resolute",
+      "Stubborn"
+    ],
+    "profiles": [
+      {
+        "label": "Infernal Seneschal",
+        "M": 3,
+        "WS": 5,
+        "BS": 4,
+        "S": 4,
+        "T": 5,
+        "W": 2,
+        "I": 2,
+        "A": 3,
+        "Ld": 9
+      }
+    ]
+  },
+  {
+    "name": "Iron Daemon",
+    "unitCategory": "Chariot",
+    "troopType": "Heavy Chariot",
+    "baseSize": "60 x 100 mm",
+    "unitSize": "1",
+    "armourValue": "3+",
+    "equipment": ["Iron Daemon: Steam Cannonade", "Chaos Dwarf Crew: Hand weapons"],
+    "specialRules": [
+      "Carriage Hauler",
+      "Close Order",
+      "Fear",
+      "Grinding Wheels",
+      "Immune to Psychology",
+      "Impact Hits (D6+1)",
+      "Large Target",
+      "Lumbering Destruction",
+      "Stomp Attacks (D3+1)",
+      "Unbreakable"
+    ],
+    "profiles": [
+      {
+        "label": "Iron Daemon",
+        "M": 5,
+        "WS": "—",
+        "BS": "—",
+        "S": 8,
+        "T": 7,
+        "W": 7,
+        "I": "—",
+        "A": "—",
+        "Ld": "—"
+      },
+      {
+        "label": "Chaos Dwarf Crew",
+        "M": "—",
+        "WS": 4,
+        "BS": 4,
+        "S": 3,
+        "T": "—",
+        "W": "—",
+        "I": 2,
+        "A": 1,
+        "Ld": 9
+      }
+    ]
+  },
+  {
+    "name": "K'daai Fireborn",
+    "unitCategory": "Infantry",
+    "troopType": "Monstrous Infantry",
+    "baseSize": "40 x 40 mm",
+    "unitSize": "3+",
+    "armourValue": "—",
+    "equipment": ["Rage and hellfire (counts as hand weapons)"],
+    "specialRules": [
+      "Blazing Body",
+      "Close Order",
+      "Ensorcelled Weapons",
+      "Fear",
+      "Flaming Attacks",
+      "Immune to Psychology",
+      "Regeneration (5+)",
+      "Unbreakable",
+      "Unstable",
+      "Warp-spawned"
+    ],
+    "profiles": [
+      {
+        "label": "K'daai Fireborn",
+        "M": 6,
+        "WS": 4,
+        "BS": 2,
+        "S": 5,
+        "T": 4,
+        "W": 2,
+        "I": 4,
+        "A": 3,
+        "Ld": 7
+      },
+      {
+        "label": "Manburner",
+        "M": 6,
+        "WS": 4,
+        "BS": 2,
+        "S": 5,
+        "T": 4,
+        "W": 2,
+        "I": 4,
+        "A": 4,
+        "Ld": 8
+      }
+    ]
+  },
+  {
+    "name": "Lammasu",
+    "unitCategory": "Monster",
+    "troopType": "Monstrous Creature",
+    "baseSize": "50 x 75 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Claws and fangs (counts as a hand weapon)"],
+    "specialRules": [
+      "Armour Bane (2)",
+      "Close Order",
+      "Fly (9)",
+      "Furious Charge",
+      "Large Target",
+      "Magic Resistance (-3)",
+      "Sorcerous Miasma",
+      "Stomp Attacks (D3)",
+      "Swiftstride",
+      "Terror"
+    ],
+    "profiles": [
+      {
+        "label": "Lammasu",
+        "M": 6,
+        "WS": 4,
+        "BS": "—",
+        "S": 5,
+        "T": "(+3)",
+        "W": 2,
+        "I": 2,
+        "A": "—",
+        "Ld": "—"
+      }
+    ]
+  },
+  {
+    "name": "Magma Cannon",
+    "unitCategory": "War Machine",
+    "troopType": "War Machine",
+    "baseSize": "50 x 100 mm (war machine), 25 x 25 mm (crew)",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Fire thrower", "hand weapons", "heavy armour"],
+    "specialRules": ["Blackshard Armour", "Skirmishers"],
+    "profiles": [
+      {
+        "label": "Magma Cannon",
+        "M": "—",
+        "WS": "—",
+        "BS": "—",
+        "S": "—",
+        "T": 6,
+        "W": 3,
+        "I": "—",
+        "A": "—",
+        "Ld": "—"
+      },
+      {
+        "label": "Chaos Dwarf Crew",
+        "M": 3,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 4,
+        "W": 3,
+        "I": 2,
+        "A": 3,
+        "Ld": 9
+      }
+    ]
+  },
+  {
+    "name": "Sneaky Gits",
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "10+",
+    "armourValue": "—",
+    "equipment": ["Two hand weapons", "throwing weapons"],
+    "specialRules": [
+      "Ambushers",
+      "Backstab",
+      "Evasive",
+      "Levies",
+      "Move Through Cover",
+      "Skirmishers"
+    ],
+    "profiles": [
+      {
+        "label": "Sneaking Git",
+        "M": 4,
+        "WS": 4,
+        "BS": 4,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 4,
+        "A": 1,
+        "Ld": 5
+      },
+      {
+        "label": "Murder Boss",
+        "M": 4,
+        "WS": 4,
+        "BS": 4,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 4,
+        "A": 2,
+        "Ld": 5
+      }
+    ]
+  },
+  {
+    "name": "Sorcerer-Prophet",
+    "unitCategory": "Character",
+    "troopType": "Heavy Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "heavy armour"],
+    "specialRules": [
+      "Blackshard Armour",
+      "Ensorcelled Weapons",
+      "Infernal Engineer",
+      "Lore of Hashut",
+      "Resolute",
+      "Sorcerer's Curse",
+      "Stubborn"
+    ],
+    "magicLores": ["Daemonology", "Dark Magic", "Elementalism"],
+    "profiles": [
+      {
+        "label": "Sorcerer-Prophet",
+        "M": 3,
+        "WS": 5,
+        "BS": 4,
+        "S": 4,
+        "T": 5,
+        "W": 3,
+        "I": 2,
+        "A": 3,
+        "Ld": 10
+      }
+    ]
+  }
+]

@@ -1,0 +1,577 @@
+[
+  {
+    "name": "Cathayan Grand Cannon",
+    "unitCategory": "War Machine",
+    "troopType": "War Machine",
+    "baseSize": "60 x 100 mm (war machine), 25 x 25 mm (crew)",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Grand cannon", "hand weapons", "light armour"],
+    "specialRules": ["Skirmishers"],
+    "profiles": [
+      {
+        "label": "Grand Cannon",
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "S": "-",
+        "T": 6,
+        "W": 3,
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      {
+        "label": "Cathayan Artillery Crew (x3)",
+        "M": 4,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 3,
+        "I": 3,
+        "A": 3,
+        "Ld": 7
+      }
+    ]
+  },
+  {
+    "name": "Cathayan Sentinel",
+    "unitCategory": "Monster",
+    "troopType": "Behemoth",
+    "baseSize": "100 x 150 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "great blade", "terracotta armour (counts as heavy armour)"],
+    "specialRules": [
+      "Close Order",
+      "Immune to Psychology",
+      "Implacable",
+      "Large Target",
+      "Stomp Attacks (D3+1)",
+      "Terror",
+      "Timmm-berrr!",
+      "Unbreakable"
+    ],
+    "profiles": [
+      {
+        "label": "Cathayan Sentinel",
+        "M": 6,
+        "WS": 5,
+        "BS": 1,
+        "S": 6,
+        "T": 6,
+        "W": 6,
+        "I": 3,
+        "A": 3,
+        "Ld": 10
+      }
+    ]
+  },
+  {
+    "name": "Cathayan Warhorse",
+    "unitCategory": "Mount",
+    "troopType": "Heavy Cavalry",
+    "baseSize": "30 x 60 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Iron-shod hooves (counts as a hand weapon)", "barding"],
+    "specialRules": ["Cathayan Cataphracts", "Counter Charge", "First Charge", "Swiftstride"],
+    "profiles": [
+      {
+        "label": "Cathayan Warhorse",
+        "M": 7,
+        "WS": 3,
+        "BS": "-",
+        "S": 3,
+        "T": "-",
+        "W": "-",
+        "I": 3,
+        "A": 1,
+        "Ld": "-"
+      }
+    ]
+  },
+  {
+    "name": "Fire Rain Rocket Battery",
+    "unitCategory": "War Machine",
+    "troopType": "War Machine",
+    "baseSize": "60 x 100 mm (war machine), 25 x 25 mm (crew)",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Fire rain rocket", "hand weapons", "light armour"],
+    "specialRules": ["Skirmishers"],
+    "profiles": [
+      {
+        "label": "Fire Rain Rocket",
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "S": "-",
+        "T": 6,
+        "W": 3,
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      {
+        "label": "Cathayan Artillery Crew (x3)",
+        "M": 4,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 3,
+        "I": 3,
+        "A": 3,
+        "Ld": 7
+      }
+    ]
+  },
+  {
+    "name": "Gate Keeper",
+    "unitCategory": "Character",
+    "troopType": "Heavy Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "heavy armour", "shield"],
+    "specialRules": ["Harmony of Stone & Steel", "Will of the Dragons"],
+    "profiles": [
+      {
+        "label": "Gate Keeper",
+        "M": 4,
+        "WS": 6,
+        "BS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 2,
+        "I": 4,
+        "A": 2,
+        "Ld": 8
+      }
+    ]
+  },
+  {
+    "name": "Gate Master",
+    "unitCategory": "Character",
+    "troopType": "Heavy Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "heavy armour", "shield"],
+    "specialRules": ["Harmony of Stone & Steel", "Will of the Dragons"],
+    "profiles": [
+      {
+        "label": "Gate Master",
+        "M": 4,
+        "WS": 7,
+        "BS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": 4,
+        "A": 3,
+        "Ld": 9
+      }
+    ]
+  },
+  {
+    "name": "Jade Lancers",
+    "unitCategory": "Cavalry",
+    "troopType": "Heavy Cavalry",
+    "baseSize": "30 x 60 mm",
+    "unitSize": "5+",
+    "armourValue": "5+",
+    "equipment": [
+      "Hand weapons",
+      "Cathayan lances",
+      "heavy armour",
+      "shields",
+      "Iron-shod hooves (Warhorses)",
+      "barding (Warhorses)"
+    ],
+    "specialRules": [
+      "Cathayan Cataphracts",
+      "Close Order",
+      "Counter Charge",
+      "Horde",
+      "Swiftstride",
+      "Will of the Dragons"
+    ],
+    "profiles": [
+      {
+        "label": "Jade Lancer",
+        "M": "-",
+        "WS": 4,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 3,
+        "A": 1,
+        "Ld": 8
+      },
+      {
+        "label": "Jade Lancer Officer",
+        "M": "-",
+        "WS": 4,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 3,
+        "A": 2,
+        "Ld": 8
+      },
+      {
+        "label": "Cathayan Warhorse",
+        "M": 7,
+        "WS": 3,
+        "BS": "-",
+        "S": 3,
+        "T": "-",
+        "W": "-",
+        "I": 3,
+        "A": 1,
+        "Ld": "-"
+      }
+    ]
+  },
+  {
+    "name": "Jade Warriors",
+    "unitCategory": "Infantry",
+    "troopType": "Heavy Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "5+",
+    "armourValue": "5+",
+    "equipment": ["Hand weapons", "heavy armour"],
+    "specialRules": [
+      "Close Order",
+      "Defensive Stance",
+      "Detachment",
+      "Regimental Unit",
+      "Will of the Dragons"
+    ],
+    "profiles": [
+      {
+        "label": "Jade Warrior",
+        "M": 4,
+        "WS": 4,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 3,
+        "A": 1,
+        "Ld": 8
+      },
+      {
+        "label": "Jade Officer",
+        "M": 4,
+        "WS": 4,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 3,
+        "A": 2,
+        "Ld": 8
+      }
+    ]
+  },
+  {
+    "name": "Lord Magistrate",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "light armour"],
+    "specialRules": ["Grand Strategist", "Harmony of Stone & Steel", "Will of the Dragons"],
+    "profiles": [
+      {
+        "label": "Lord Magistrate",
+        "M": 4,
+        "WS": 5,
+        "BS": 4,
+        "S": 3,
+        "T": 3,
+        "W": 3,
+        "I": 4,
+        "A": 2,
+        "Ld": 9
+      }
+    ]
+  },
+  {
+    "name": "Miao Ying",
+    "unitCategory": "Named Character",
+    "troopType": "Heavy Infantry, Behemoth, Named Character",
+    "baseSize": "50 x 50 mm (Human form), 100 x 150 mm (Dragon form)",
+    "unitSize": "1",
+    "armourValue": "Celestial Forged Armour (5+)",
+    "equipment": [
+      "Human Form: Talons of the Storm",
+      "Human Form: heavy armour",
+      "Dragon Form: Talons of the Storm",
+      "Dragon Form: Dragon fire",
+      "Dragon Form: Draconic scales (counts as full plate armour)"
+    ],
+    "specialRules": [
+      "Celestial Forged Armour (5+)",
+      "Disdain of the Dragons",
+      "Hatred (Warriors of Chaos & Daemonic models)",
+      "Fly (9) (Dragon Form only)",
+      "Large Target (Dragon Form only)",
+      "Magic Resistance (-1)",
+      "Mastery of the Storm Winds",
+      "Mastery of the Elemental Winds",
+      "Rallying Cry (Human Form only)",
+      "Stomp Attacks (D6) (Dragon Form only)",
+      "Stubborn",
+      "Supreme Matriarch of Nan-Gau",
+      "Swiftstride (Dragon Form only)",
+      "Terror (Dragon Form only)",
+      "Transformation of the Dragon",
+      "Will of the Dragons",
+      "Wrath of the Storm"
+    ],
+    "magicLores": ["Battle Magic", "Elementalism", "High Magic"],
+    "profiles": [
+      {
+        "label": "Human Form",
+        "M": 4,
+        "WS": 7,
+        "BS": 5,
+        "S": 4,
+        "T": 4,
+        "W": 7,
+        "I": 7,
+        "A": 4,
+        "Ld": 10
+      },
+      {
+        "label": "Dragon Form",
+        "M": 8,
+        "WS": 8,
+        "BS": 3,
+        "S": 7,
+        "T": 6,
+        "W": 7,
+        "I": 6,
+        "A": 6,
+        "Ld": 10
+      }
+    ]
+  },
+  {
+    "name": "Ogre Loader",
+    "unitCategory": "War Machine",
+    "troopType": "Monstrous Infantry, Character",
+    "baseSize": "40 x 40 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "light armour"],
+    "specialRules": ["Enough for Everyone", "Mercenary Crew"],
+    "profiles": [
+      {
+        "label": "Ogre Loader",
+        "M": 4,
+        "WS": 3,
+        "BS": 3,
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": 2,
+        "A": 3,
+        "Ld": 8
+      }
+    ]
+  },
+  {
+    "name": "Shugengan General",
+    "unitCategory": "Character",
+    "troopType": "Monstrous Creature, Character",
+    "baseSize": "60 x 100 mm",
+    "unitSize": "1",
+    "armourValue": "Celestial Forged Armour (5+), Armoured Hide (2)",
+    "equipment": [
+      "Shugengan: Hand weapon",
+      "Shugengan: iron talons",
+      "Shugengan: light armour",
+      "Great Spirit Longma: Crown of horns"
+    ],
+    "specialRules": [
+      "Counter Charge",
+      "Fear",
+      "Fly (9)",
+      "Impact Hits (D3+1)",
+      "Mastery of the Elemental Winds",
+      "Swiftstride",
+      "Will of the Dragons"
+    ],
+    "magicLores": ["Battle Magic", "Elementalism", "Illusion", "High Magic"],
+    "profiles": [
+      {
+        "label": "Shugengan General",
+        "M": "-",
+        "WS": 5,
+        "BS": 3,
+        "S": 4,
+        "T": 5,
+        "W": 6,
+        "I": 5,
+        "A": 3,
+        "Ld": 8
+      },
+      {
+        "label": "Great Spirit Longma",
+        "M": 8,
+        "WS": 5,
+        "BS": "-",
+        "S": 5,
+        "T": "-",
+        "W": "-",
+        "I": 4,
+        "A": 3,
+        "Ld": "-"
+      }
+    ]
+  },
+  {
+    "name": "Shugengan Lord",
+    "unitCategory": "Character",
+    "troopType": "Monstrous Creature, Character",
+    "baseSize": "60 x 100 mm",
+    "unitSize": "1",
+    "armourValue": "Celestial Forged Armour (5+), Armoured Hide (2)",
+    "equipment": [
+      "Shugengan: Hand weapon",
+      "Shugengan: iron talons",
+      "Shugengan: light armour",
+      "Great Spirit Longma: Crown of horns"
+    ],
+    "specialRules": [
+      "Counter Charge",
+      "Fear",
+      "Fly (9)",
+      "Impact Hits (D3+1)",
+      "Mastery of the Elemental Winds",
+      "Swiftstride",
+      "Will of the Dragons"
+    ],
+    "magicLores": ["Battle Magic", "Elementalism", "Illusion", "High Magic"],
+    "profiles": [
+      {
+        "label": "Shugengan Lord",
+        "M": "-",
+        "WS": 6,
+        "BS": 3,
+        "S": 4,
+        "T": 5,
+        "W": 7,
+        "I": 6,
+        "A": 4,
+        "Ld": 9
+      },
+      {
+        "label": "Great Spirit Longma",
+        "M": 8,
+        "WS": 5,
+        "BS": "-",
+        "S": 5,
+        "T": "-",
+        "W": "-",
+        "I": 4,
+        "A": 3,
+        "Ld": "-"
+      }
+    ]
+  },
+  {
+    "name": "Sky Lantern",
+    "unitCategory": "Chariot",
+    "troopType": "Heavy Chariot",
+    "baseSize": "100 x 100 mm",
+    "unitSize": "1",
+    "armourValue": "4+",
+    "equipment": ["Lantern Gunners: Hand weapons", "Commander: Hand weapon"],
+    "specialRules": [
+      "Close Order",
+      "Disengage",
+      "Eye of the Dragon",
+      "Feigned Flight",
+      "Fire & Flee",
+      "Fly (8)",
+      "Heavenly Beacon",
+      "Impact Hits (D3+1, Sky Lantern only)",
+      "Large Target",
+      "Reserve Move",
+      "Scouts",
+      "Unbreakable"
+    ],
+    "profiles": [
+      {
+        "label": "Sky Lantern",
+        "M": 1,
+        "WS": "-",
+        "BS": "-",
+        "S": 5,
+        "T": 5,
+        "W": 7,
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      {
+        "label": "Lantern Gunners (x4)",
+        "M": "-",
+        "WS": 3,
+        "BS": 4,
+        "S": 3,
+        "T": "-",
+        "W": "-",
+        "I": 3,
+        "A": 1,
+        "Ld": 8
+      },
+      {
+        "label": "Commander (champion, x1)",
+        "M": "-",
+        "WS": 3,
+        "BS": 5,
+        "S": 3,
+        "T": "-",
+        "W": "-",
+        "I": 3,
+        "A": 2,
+        "Ld": 8
+      }
+    ]
+  },
+  {
+    "name": "Strategist",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": ["Hand weapon", "light armour"],
+    "specialRules": ["Grand Strategist", "Harmony of Stone & Steel", "Will of the Dragons"],
+    "profiles": [
+      {
+        "label": "Strategist",
+        "M": 4,
+        "WS": 4,
+        "BS": 4,
+        "S": 3,
+        "T": 3,
+        "W": 2,
+        "I": 3,
+        "A": 1,
+        "Ld": 9
+      }
+    ]
+  }
+]

@@ -1,0 +1,953 @@
+[
+  {
+    "name": "Ancient Stegadon",
+    "unitCategory": "Monster",
+    "troopType": "Behemoth",
+    "baseSize": "60 x 100 mm",
+    "unitSize": "1",
+    "armourValue": "4+",
+    "equipment": ["Great horns", "Giant bow"],
+    "profiles": [
+      {
+        "label": "Ancient Stegadon",
+        "M": 6,
+        "WS": 4,
+        "BS": null,
+        "S": 6,
+        "T": 6,
+        "W": 5,
+        "I": 1,
+        "A": 3,
+        "Ld": null
+      }
+    ],
+    "subUnits": [
+      {
+        "name": "Skink Crew",
+        "count": "x5",
+        "troopType": "Regular Infantry",
+        "baseSize": "25 x 25 mm",
+        "equipment": ["Hand weapons", "Javelins"],
+        "profiles": [
+          {
+            "label": "Skink Crew",
+            "M": null,
+            "WS": 2,
+            "BS": 3,
+            "S": 3,
+            "T": null,
+            "W": null,
+            "I": 4,
+            "A": 1,
+            "Ld": 6
+          }
+        ]
+      }
+    ],
+    "specialRules": [
+      "Close Order",
+      "Cold Blooded",
+      "Howdah",
+      "Immune to Psychology",
+      "Impact Hits (D3+1)",
+      "Large Target",
+      "Poisoned Attacks (javelins only)",
+      "Stomp Attacks (D3+2)",
+      "Stubborn",
+      "Terror"
+    ]
+  },
+  {
+    "name": "Bastiladon",
+    "unitCategory": "Monster",
+    "troopType": "Monstrous Creature",
+    "baseSize": "60 x 100 mm",
+    "unitSize": "1",
+    "armourValue": "3+",
+    "equipment": ["Thunderous bludgeon", "Ark of Sotek"],
+    "profiles": [
+      {
+        "label": "Bastiladon",
+        "M": 4,
+        "WS": 3,
+        "BS": null,
+        "S": 4,
+        "T": 5,
+        "W": 4,
+        "I": 1,
+        "A": 3,
+        "Ld": null
+      }
+    ],
+    "subUnits": [
+      {
+        "name": "Skink Crew",
+        "count": "x3",
+        "equipment": ["Hand weapons", "Javelins"],
+        "profiles": [
+          {
+            "label": "Skink Crew",
+            "M": null,
+            "WS": 2,
+            "BS": 3,
+            "S": 3,
+            "T": null,
+            "W": null,
+            "I": 4,
+            "A": 1,
+            "Ld": 6
+          }
+        ]
+      }
+    ],
+    "specialRules": [
+      "Close Order",
+      "Cold Blooded",
+      "Immune to Psychology",
+      "Impact Hits (D3)",
+      "Impervious Defence",
+      "Large Target",
+      "Poisoned Attacks (javelins only)",
+      "Stomp Attacks (D3+1)",
+      "Stubborn",
+      "Terror"
+    ]
+  },
+  {
+    "name": "Carnosaur",
+    "unitCategory": "Monster",
+    "troopType": "Behemoth",
+    "baseSize": "50 x 100 mm",
+    "unitSize": "1",
+    "armourValue": null,
+    "equipment": ["Slashing talons", "Scaly skin (counts as heavy armour)"],
+    "profiles": [
+      {
+        "label": "Carnosaur",
+        "M": 7,
+        "WS": 3,
+        "BS": 0,
+        "S": 7,
+        "T": null,
+        "W": null,
+        "I": 2,
+        "A": 4,
+        "Ld": null
+      }
+    ],
+    "specialRules": [
+      "Blood Frenzy",
+      "Close Order",
+      "Cold Blooded",
+      "Large Target",
+      "Stomp Attacks (2)",
+      "Swiftstride",
+      "Terror"
+    ]
+  },
+  {
+    "name": "Chameleon Skinks",
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "5+",
+    "armourValue": null,
+    "equipment": ["Hand weapons", "Blowpipes", "Calloused hides (light armour)"],
+    "profiles": [
+      {
+        "label": "Chameleon Skink",
+        "M": 6,
+        "WS": 2,
+        "BS": 4,
+        "S": 3,
+        "T": 2,
+        "W": 1,
+        "I": 4,
+        "A": 1,
+        "Ld": 6
+      },
+      {
+        "label": "Patrol Leader",
+        "M": 6,
+        "WS": 2,
+        "BS": 5,
+        "S": 3,
+        "T": 2,
+        "W": 1,
+        "I": 4,
+        "A": 1,
+        "Ld": 6
+      }
+    ],
+    "specialRules": ["Cold Blooded", "Evasive", "Move Through Cover", "Scouts", "Skirmishers"]
+  },
+  {
+    "name": "Cold One (Lizardmen)",
+    "unitCategory": "Mount",
+    "troopType": "Heavy Cavalry",
+    "baseSize": "30 x 60 mm",
+    "unitSize": "1",
+    "armourValue": null,
+    "equipment": ["Claws and teeth (counts as a hand weapon)"],
+    "profiles": [
+      {
+        "label": "Cold One",
+        "M": 7,
+        "WS": 3,
+        "BS": null,
+        "S": 4,
+        "T": null,
+        "W": null,
+        "I": 2,
+        "A": 2,
+        "Ld": null
+      }
+    ],
+    "specialRules": [
+      "Armour Bane (1, Cold One only)",
+      "Armoured Hide (1)",
+      "Fear",
+      "Stupidity",
+      "Swiftstride"
+    ]
+  },
+  {
+    "name": "Cold One Riders",
+    "unitCategory": "Cavalry",
+    "troopType": "Heavy Cavalry",
+    "baseSize": "30 x 60 mm",
+    "unitSize": "5+",
+    "armourValue": "5+",
+    "equipment": ["Hand weapons", "Scaly skin (heavy armour)", "Shields"],
+    "profiles": [
+      {
+        "label": "Cold One Rider",
+        "M": null,
+        "WS": 4,
+        "BS": 0,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 2,
+        "A": 2,
+        "Ld": 8
+      },
+      {
+        "label": "Pack Leader",
+        "M": null,
+        "WS": 4,
+        "BS": 0,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 2,
+        "A": 3,
+        "Ld": 8
+      },
+      {
+        "label": "Cold One (Mount)",
+        "M": 7,
+        "WS": 3,
+        "BS": null,
+        "S": 4,
+        "T": null,
+        "W": null,
+        "I": 2,
+        "A": 2,
+        "Ld": null
+      }
+    ],
+    "specialRules": [
+      "Armour Bane (1, Cold One only)",
+      "Armoured Hide (1)",
+      "Close Order",
+      "Cold Blooded",
+      "Fear",
+      "Obsidian Blades",
+      "Stupidity",
+      "Swiftstride"
+    ]
+  },
+  {
+    "name": "Jungle Swarms",
+    "unitCategory": "Infantry",
+    "troopType": "Swarm",
+    "baseSize": "40 x 40 mm",
+    "unitSize": "3+",
+    "armourValue": null,
+    "equipment": ["Hand weapons"],
+    "profiles": [
+      {
+        "label": "Jungle Swarm",
+        "M": 5,
+        "WS": 3,
+        "BS": 0,
+        "S": 2,
+        "T": 2,
+        "W": 5,
+        "I": 1,
+        "A": 5,
+        "Ld": 5
+      }
+    ],
+    "specialRules": [
+      "Cold Blooded",
+      "Immune to Psychology",
+      "Loner",
+      "Move Through Cover",
+      "Poisoned Attacks",
+      "Skirmishers",
+      "Unbreakable",
+      "Vanguard"
+    ]
+  },
+  {
+    "name": "Kroxigor",
+    "unitCategory": "Infantry",
+    "troopType": "Monstrous Infantry",
+    "baseSize": "40 x 40 mm",
+    "unitSize": "3+",
+    "armourValue": null,
+    "equipment": ["Great weapons", "Scaly skin (heavy armour)"],
+    "profiles": [
+      {
+        "label": "Kroxigor",
+        "M": 6,
+        "WS": 3,
+        "BS": 0,
+        "S": 5,
+        "T": 4,
+        "W": 3,
+        "I": 3,
+        "A": 3,
+        "Ld": 7
+      },
+      {
+        "label": "Ancient",
+        "M": 6,
+        "WS": 3,
+        "BS": 0,
+        "S": 5,
+        "T": 4,
+        "W": 3,
+        "I": 3,
+        "A": 4,
+        "Ld": 7
+      }
+    ],
+    "specialRules": ["Aquatic", "Close Order", "Cold Blooded", "Fear", "Skirmish Screen"]
+  },
+  {
+    "name": "Razordon Pack",
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry, War Beast",
+    "baseSize": "25 x 25 mm (Skink Handlers), 50 x 75 mm (Razordons)",
+    "unitSize": "3+/1+",
+    "armourValue": null,
+    "equipment": [
+      "Skink Handlers: Hand weapons, Calloused hides (light armour)",
+      "Razordons: Wicked claws, Razor barbs, Scaly skin (heavy armour)"
+    ],
+    "profiles": [
+      {
+        "label": "Skink Handler",
+        "M": 6,
+        "WS": 2,
+        "BS": 3,
+        "S": 3,
+        "T": 2,
+        "W": 1,
+        "I": 4,
+        "A": 1,
+        "Ld": 5
+      },
+      {
+        "label": "Razordon",
+        "M": 6,
+        "WS": 3,
+        "BS": 4,
+        "S": 5,
+        "T": 4,
+        "W": 3,
+        "I": 4,
+        "A": 2,
+        "Ld": 4
+      }
+    ],
+    "specialRules": ["Aquatic", "Beast Handlers", "Cold Blooded", "Fear", "Skirmishers"]
+  },
+  {
+    "name": "Ripperdactyl",
+    "unitCategory": "Mount",
+    "troopType": "Monstrous Cavalry",
+    "baseSize": "40 x 40 mm",
+    "unitSize": "1",
+    "armourValue": null,
+    "equipment": ["Claws and teeth (counts as a hand weapon)"],
+    "profiles": [
+      {
+        "label": "Ripperdactyl",
+        "M": 2,
+        "WS": 3,
+        "BS": null,
+        "S": 4,
+        "T": null,
+        "W": null,
+        "I": 2,
+        "A": 2,
+        "Ld": null
+      }
+    ],
+    "specialRules": [
+      "Armoured Hide (1)",
+      "Cleaving Blow (Ripperdactyl only)",
+      "Fear",
+      "Fly (9)",
+      "Furious Charge (Ripperdactyl only)",
+      "Impetuous",
+      "Swiftstride",
+      "Toad Rage"
+    ]
+  },
+  {
+    "name": "Ripperdactyl Riders",
+    "unitCategory": "Cavalry",
+    "troopType": "Monstrous Cavalry",
+    "baseSize": "40 x 40 mm",
+    "unitSize": "3+",
+    "armourValue": "3+",
+    "equipment": ["Cavalry spears", "Calloused hides (light armour)", "Shields"],
+    "profiles": [
+      {
+        "label": "Ripperdactyl Rider",
+        "M": null,
+        "WS": 2,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 2,
+        "I": 4,
+        "A": 1,
+        "Ld": 5
+      },
+      {
+        "label": "Ripperdactyl Champion",
+        "M": null,
+        "WS": 2,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 2,
+        "I": 4,
+        "A": 2,
+        "Ld": 5
+      },
+      {
+        "label": "Ripperdactyl (Mount)",
+        "M": 2,
+        "WS": 3,
+        "BS": null,
+        "S": 4,
+        "T": null,
+        "W": null,
+        "I": 3,
+        "A": 2,
+        "Ld": null
+      }
+    ],
+    "specialRules": [
+      "Armoured Hide (1)",
+      "Cleaving Blow (Ripperdactyl only)",
+      "Cold Blooded",
+      "Fear",
+      "Fly (9)",
+      "Furious Charge (Ripperdactyl only)",
+      "Impetuous",
+      "Skirmishers",
+      "Swiftstride",
+      "Toad Rage"
+    ]
+  },
+  {
+    "name": "Salamander Pack",
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry, War Beast",
+    "baseSize": "25 x 25 mm (Skink Handlers), 50 x 75 mm (Salamanders)",
+    "unitSize": "3+/1+",
+    "armourValue": null,
+    "equipment": [
+      "Skink Handlers: Hand weapons, Calloused hides (light armour)",
+      "Salamanders: Wicked claws, Fiery breath, Scaly skin (heavy armour)"
+    ],
+    "profiles": [
+      {
+        "label": "Skink Handler",
+        "M": 6,
+        "WS": 2,
+        "BS": 3,
+        "S": 3,
+        "T": 2,
+        "W": 1,
+        "I": 4,
+        "A": 1,
+        "Ld": 5
+      },
+      {
+        "label": "Salamander",
+        "M": 6,
+        "WS": 3,
+        "BS": 3,
+        "S": 5,
+        "T": 4,
+        "W": 3,
+        "I": 4,
+        "A": 2,
+        "Ld": 4
+      }
+    ],
+    "specialRules": ["Aquatic", "Beast Handlers", "Cold Blooded", "Fear", "Skirmishers"]
+  },
+  {
+    "name": "Saurus Oldblood",
+    "unitCategory": "Character",
+    "troopType": "Heavy Infantry, Character",
+    "baseSize": "30 x 30 mm",
+    "unitSize": "1",
+    "armourValue": null,
+    "equipment": ["Hand weapon", "Scaly skin (heavy armour)"],
+    "profiles": [
+      {
+        "label": "Saurus Oldblood",
+        "M": 4,
+        "WS": 6,
+        "BS": 0,
+        "S": 5,
+        "T": 5,
+        "W": 3,
+        "I": 3,
+        "A": 5,
+        "Ld": 8
+      }
+    ],
+    "specialRules": ["Cold Blooded", "Furious Charge", "Obsidian Blades", "Rallying Cry"]
+  },
+  {
+    "name": "Saurus Scar-Veteran",
+    "unitCategory": "Character",
+    "troopType": "Heavy Infantry, Character",
+    "baseSize": "30 x 30 mm",
+    "unitSize": "1",
+    "armourValue": null,
+    "equipment": ["Hand weapon", "Scaly skin (heavy armour)"],
+    "profiles": [
+      {
+        "label": "Saurus Scar-Veteran",
+        "M": 4,
+        "WS": 5,
+        "BS": 0,
+        "S": 5,
+        "T": 5,
+        "W": 2,
+        "I": 3,
+        "A": 4,
+        "Ld": 8
+      }
+    ],
+    "specialRules": ["Cold Blooded", "Furious Charge", "Obsidian Blades", "Rallying Cry"]
+  },
+  {
+    "name": "Saurus Warriors",
+    "unitCategory": "Infantry",
+    "troopType": "Heavy Infantry",
+    "baseSize": "30 x 30 mm",
+    "unitSize": "10+",
+    "armourValue": null,
+    "equipment": ["Hand weapons", "Scaly skin (heavy armour)", "Shields"],
+    "profiles": [
+      {
+        "label": "Saurus Warrior",
+        "M": 4,
+        "WS": 3,
+        "BS": 0,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 1,
+        "A": 2,
+        "Ld": 8
+      },
+      {
+        "label": "Spawn Leader",
+        "M": 4,
+        "WS": 3,
+        "BS": 0,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 1,
+        "A": 3,
+        "Ld": 8
+      }
+    ],
+    "specialRules": ["Close Order", "Cold Blooded", "Obsidian Blades"]
+  },
+  {
+    "name": "Skink Chief",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "1",
+    "armourValue": null,
+    "equipment": ["Hand weapon", "Calloused hide (light armour)"],
+    "profiles": [
+      {
+        "label": "Skink Chief",
+        "M": 6,
+        "WS": 4,
+        "BS": 5,
+        "S": 4,
+        "T": 3,
+        "W": 2,
+        "I": 6,
+        "A": 3,
+        "Ld": 6
+      }
+    ],
+    "specialRules": ["Aquatic", "Cold Blooded", "Poisoned Attacks"]
+  },
+  {
+    "name": "Skink Priest",
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry, Character",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "1",
+    "armourValue": null,
+    "equipment": ["Hand weapon", "Calloused hide (light armour)"],
+    "profiles": [
+      {
+        "label": "Skink Priest",
+        "M": 6,
+        "WS": 2,
+        "BS": 3,
+        "S": 3,
+        "T": 2,
+        "W": 2,
+        "I": 4,
+        "A": 1,
+        "Ld": 6
+      }
+    ],
+    "specialRules": ["Arcane Vassal", "Aquatic", "Cold Blooded", "Lore of Lustria"],
+    "magicLores": ["Battle Magic", "Elementalism", "Illusion"]
+  },
+  {
+    "name": "Skink Skirmishers",
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "10+",
+    "armourValue": null,
+    "equipment": ["Hand weapons", "Calloused hides (light armour)"],
+    "profiles": [
+      {
+        "label": "Skink",
+        "M": 6,
+        "WS": 2,
+        "BS": 3,
+        "S": 3,
+        "T": 2,
+        "W": 1,
+        "I": 4,
+        "A": 1,
+        "Ld": 5
+      },
+      {
+        "label": "Patrol Leader",
+        "M": 6,
+        "WS": 2,
+        "BS": 4,
+        "S": 3,
+        "T": 2,
+        "W": 1,
+        "I": 4,
+        "A": 1,
+        "Ld": 5
+      }
+    ],
+    "specialRules": [
+      "Cold Blooded",
+      "Move Through Cover",
+      "Poisoned Attacks (javelins only)",
+      "Skirmishers"
+    ]
+  },
+  {
+    "name": "Slann Mage-Priest",
+    "unitCategory": "Character",
+    "troopType": "Monstrous Creature, Character",
+    "baseSize": "50 x 50 mm",
+    "unitSize": "1",
+    "armourValue": null,
+    "equipment": ["Hand weapon"],
+    "profiles": [
+      {
+        "label": "Slann Mage-Priest",
+        "M": 2,
+        "WS": 2,
+        "BS": 3,
+        "S": 3,
+        "T": 4,
+        "W": 5,
+        "I": 2,
+        "A": 1,
+        "Ld": 9
+      }
+    ],
+    "specialRules": [
+      "Arcane Shield",
+      "Close Order",
+      "Cold Blooded",
+      "Fly (8)",
+      "Large Target",
+      "Lore of Lustria"
+    ],
+    "magicLores": ["Battle Magic", "Elementalism", "High Magic", "Illusion", "Necromancy"]
+  },
+  {
+    "name": "Stegadon",
+    "unitCategory": "Monster",
+    "troopType": "Behemoth",
+    "baseSize": "60 x 100 mm",
+    "unitSize": "1",
+    "armourValue": "4+",
+    "equipment": ["Great horns", "Giant bow"],
+    "profiles": [
+      {
+        "label": "Stegadon",
+        "M": 6,
+        "WS": 3,
+        "BS": null,
+        "S": 5,
+        "T": 6,
+        "W": 5,
+        "I": 2,
+        "A": 4,
+        "Ld": null
+      }
+    ],
+    "subUnits": [
+      {
+        "name": "Skink Crew",
+        "count": "x5",
+        "equipment": ["Hand weapons", "Javelins"],
+        "profiles": [
+          {
+            "label": "Skink Crew",
+            "M": null,
+            "WS": 2,
+            "BS": 3,
+            "S": 3,
+            "T": null,
+            "W": null,
+            "I": 4,
+            "A": 1,
+            "Ld": 6
+          }
+        ]
+      }
+    ],
+    "specialRules": [
+      "Close Order",
+      "Cold Blooded",
+      "Howdah",
+      "Immune to Psychology",
+      "Impact Hits (D3+1)",
+      "Large Target",
+      "Poisoned Attacks (javelins only)",
+      "Stomp Attacks (D3+2)",
+      "Stubborn",
+      "Terror"
+    ]
+  },
+  {
+    "name": "Temple Guard",
+    "unitCategory": "Infantry",
+    "troopType": "Heavy Infantry",
+    "baseSize": "30 x 30 mm",
+    "unitSize": "10+",
+    "armourValue": null,
+    "equipment": ["Hand weapons", "Halberds", "Scaly skin (heavy armour)", "Shields"],
+    "profiles": [
+      {
+        "label": "Temple Guard",
+        "M": 4,
+        "WS": 4,
+        "BS": 0,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 1,
+        "A": 2,
+        "Ld": 8
+      },
+      {
+        "label": "Revered Guardian",
+        "M": 4,
+        "WS": 4,
+        "BS": 0,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 1,
+        "A": 3,
+        "Ld": 8
+      }
+    ],
+    "specialRules": [
+      "Close Order",
+      "Cold Blooded",
+      "Guardians",
+      "Obsidian Blades",
+      "Shieldwall",
+      "Stubborn"
+    ]
+  },
+  {
+    "name": "Terradon",
+    "unitCategory": "Mount",
+    "troopType": "Monstrous Cavalry",
+    "baseSize": "40 x 40 mm",
+    "unitSize": "1",
+    "armourValue": null,
+    "equipment": ["Claws and teeth (counts as a hand weapon)"],
+    "profiles": [
+      {
+        "label": "Terradon",
+        "M": 2,
+        "WS": 3,
+        "BS": null,
+        "S": 4,
+        "T": null,
+        "W": null,
+        "I": 2,
+        "A": 1,
+        "Ld": null
+      }
+    ],
+    "specialRules": ["Armoured Hide (1)", "Drop Rocks", "Fear", "Fly (10)", "Swiftstride"]
+  },
+  {
+    "name": "Terradon Riders",
+    "unitCategory": "Cavalry",
+    "troopType": "Monstrous Cavalry",
+    "baseSize": "40 x 40 mm",
+    "unitSize": "3+",
+    "armourValue": "3+",
+    "equipment": ["Hand weapons", "Calloused hide (light armour)", "Javelins"],
+    "profiles": [
+      {
+        "label": "Terradon Rider",
+        "M": null,
+        "WS": 2,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 2,
+        "I": 4,
+        "A": 1,
+        "Ld": 5
+      },
+      {
+        "label": "Sky Leader",
+        "M": null,
+        "WS": 2,
+        "BS": 4,
+        "S": 3,
+        "T": 3,
+        "W": 2,
+        "I": 4,
+        "A": 1,
+        "Ld": 5
+      },
+      {
+        "label": "Terradon (Mount)",
+        "M": 2,
+        "WS": 3,
+        "BS": null,
+        "S": 4,
+        "T": null,
+        "W": null,
+        "I": 2,
+        "A": 1,
+        "Ld": null
+      }
+    ],
+    "specialRules": [
+      "Armoured Hide (1)",
+      "Cold Blooded",
+      "Drop Rocks",
+      "Fear",
+      "Fly (10)",
+      "Poisoned Attacks (javelins only)",
+      "Skirmishers",
+      "Swiftstride"
+    ]
+  },
+  {
+    "name": "Troglodon",
+    "unitCategory": "Monster",
+    "troopType": "Monstrous Creature",
+    "baseSize": "50 x 100 mm",
+    "unitSize": "1",
+    "armourValue": null,
+    "equipment": ["Venomous talons", "Venom spray", "Scaly skin (heavy armour)"],
+    "profiles": [
+      {
+        "label": "Troglodon",
+        "M": 7,
+        "WS": 3,
+        "BS": null,
+        "S": 5,
+        "T": 5,
+        "W": 5,
+        "I": 2,
+        "A": 3,
+        "Ld": null
+      }
+    ],
+    "subUnits": [
+      {
+        "name": "Skink Oracle",
+        "equipment": ["Hand weapon"],
+        "profiles": [
+          {
+            "label": "Skink Oracle",
+            "M": null,
+            "WS": null,
+            "BS": null,
+            "S": null,
+            "T": null,
+            "W": null,
+            "I": null,
+            "A": null,
+            "Ld": null
+          }
+        ]
+      }
+    ],
+    "specialRules": [
+      "Arcane Vassal",
+      "Aquatic",
+      "Close Order",
+      "Cold Blooded",
+      "Immune to Psychology",
+      "Large Target",
+      "Lore of Lustria",
+      "Primeval Roar",
+      "Stomp Attacks (2)",
+      "Stubborn",
+      "Terror"
+    ],
+    "magicLores": ["Battle Magic", "Illusion"]
+  }
+]
