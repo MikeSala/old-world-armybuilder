@@ -46,6 +46,7 @@ type RosterState = {
     saving: boolean;
     savedAt: number | null;
     pointsInput: string;
+    setupCollapsed: boolean;
   };
 };
 
@@ -64,12 +65,16 @@ const initialState: RosterState = {
     saving: false,
     savedAt: null,
     pointsInput: "0",
+    setupCollapsed: false,
   },
 };
 
 const ensureUi = (state: { ui?: RosterState["ui"] }) => {
   if (!state.ui) {
     state.ui = { ...initialState.ui };
+  }
+  if (typeof state.ui.setupCollapsed !== "boolean") {
+    state.ui.setupCollapsed = initialState.ui.setupCollapsed;
   }
   return state.ui;
 };
@@ -238,6 +243,10 @@ const rosterSlice = createSlice({
       const ui = ensureUi(state);
       ui.pointsInput = a.payload;
     },
+    setSetupCollapsed(state, a: PayloadAction<boolean>) {
+      const ui = ensureUi(state);
+      ui.setupCollapsed = a.payload;
+    },
     toggleEntryOwned(state, a: PayloadAction<{ id: string; owned: boolean }>) {
       const entries = ensureEntries(state);
       const target = entries.find((entry) => entry.id === a.payload.id);
@@ -258,6 +267,7 @@ export const {
   setSaving,
   setSavedAt,
   setPointsInput,
+  setSetupCollapsed,
   upsertEntry,
   removeEntry,
   clearEntries,
