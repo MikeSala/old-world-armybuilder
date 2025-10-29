@@ -6,6 +6,10 @@ import { Download } from "lucide-react";
 import type { RootState } from "@/lib/store";
 import { ARMIES, ARMY_RULES, type Army, type ArmyRule } from "@/lib/data/armies/armies";
 import { Button } from "@/components/ui/Button";
+import type {
+  ButtonVariant,
+  ButtonSize,
+} from "@/components/ui/Button";
 import type { RosterDraft, RosterEntry } from "@/lib/store/slices/rosterSlice";
 
 type ExportPayload = {
@@ -286,7 +290,24 @@ function triggerDownload(filename: string, content: string, mimeType: string) {
   URL.revokeObjectURL(url);
 }
 
-export default function RosterExportControls({ className }: { className?: string }) {
+type Props = {
+  className?: string;
+  variant?: "card" | "inline";
+  triggerLabel?: string;
+  triggerVariant?: ButtonVariant;
+  triggerSize?: ButtonSize;
+};
+
+const joinClasses = (...values: Array<string | undefined | null | false>) =>
+  values.filter(Boolean).join(" ");
+
+export default function RosterExportControls({
+  className,
+  variant = "card",
+  triggerLabel = "Download roster",
+  triggerVariant,
+  triggerSize = "sm",
+}: Props) {
   const draft = useSelector((state: RootState) => state.roster.draft);
   const payload = useMemo(() => buildExportPayload(draft), [draft]);
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -338,6 +359,89 @@ export default function RosterExportControls({ className }: { className?: string
     };
   }, [isMenuOpen]);
 
+  const resolvedVariant =
+    triggerVariant ?? (variant === "inline" ? "accent" : "primary");
+
+  const triggerButton = (
+    <Button
+      ref={buttonRef}
+      variant={resolvedVariant}
+      size={triggerSize}
+      onClick={() => setMenuOpen((prev) => !prev)}
+      id={buttonId}
+      aria-haspopup="menu"
+      aria-expanded={isMenuOpen}
+      aria-controls={isMenuOpen ? menuId : undefined}
+      leftIcon={<Download aria-hidden className="h-4 w-4" strokeWidth={2} />}
+    >
+      {triggerLabel}
+    </Button>
+  );
+
+  const menu = isMenuOpen ? (
+    <div
+      ref={menuRef}
+      id={menuId}
+      role="menu"
+      aria-labelledby={buttonId}
+      className="absolute z-10 mt-2 w-56 rounded-lg border border-amber-300/40 bg-slate-900/95 p-2 text-sm shadow-lg shadow-amber-900/20"
+    >
+      <button
+        role="menuitem"
+        className="flex w-full items-center justify-between rounded-md px-3 py-2 text-left text-amber-100 hover:bg-slate-800/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
+        onClick={() => {
+          setMenuOpen(false);
+          handleExportJson();
+        }}
+      >
+        JSON
+        <span aria-hidden>→</span>
+      </button>
+      <button
+        role="menuitem"
+        className="flex w-full items-center justify-between rounded-md px-3 py-2 text-left text-amber-100 hover:bg-slate-800/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
+        onClick={() => {
+          setMenuOpen(false);
+          handleExportPdf();
+        }}
+      >
+        PDF
+        <span aria-hidden>→</span>
+      </button>
+      <button
+        role="menuitem"
+        className="flex w-full items-center justify-between rounded-md px-3 py-2 text-left text-amber-100 hover:bg-slate-800/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
+        onClick={() => {
+          setMenuOpen(false);
+          handleExportCsv();
+        }}
+      >
+        CSV
+        <span aria-hidden>→</span>
+      </button>
+      <button
+        role="menuitem"
+        className="flex w-full items-center justify-between rounded-md px-3 py-2 text-left text-amber-100 hover:bg-slate-800/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
+        onClick={() => {
+          setMenuOpen(false);
+          window.print();
+        }}
+      >
+        Print
+        <span aria-hidden>→</span>
+      </button>
+    </div>
+  ) : null;
+
+  if (variant === "inline") {
+    return (
+      <div className={joinClasses("relative", className)} aria-label="Roster export controls">
+        {triggerButton}
+        {menu}
+      </div>
+    );
+  }
+
   return (
     <section className={className} aria-label="Roster export controls">
       <div className="relative rounded-2xl border border-amber-300/30 bg-slate-900/70 p-4 text-amber-100 shadow shadow-amber-900/10">
@@ -350,80 +454,8 @@ export default function RosterExportControls({ className }: { className?: string
         </p>
 
         <div className="mt-4">
-          <Button
-            ref={buttonRef}
-            variant="primary"
-            size="sm"
-            onClick={() => setMenuOpen((prev) => !prev)}
-            id={buttonId}
-            aria-haspopup="menu"
-            aria-expanded={isMenuOpen}
-            aria-controls={isMenuOpen ? menuId : undefined}
-            leftIcon={
-              <Download
-                aria-hidden
-                className="h-4 w-4"
-                strokeWidth={2}
-              />
-            }
-          >
-            Download roster
-          </Button>
-
-          {isMenuOpen ? (
-            <div
-              ref={menuRef}
-              id={menuId}
-              role="menu"
-              aria-labelledby={buttonId}
-              className="absolute z-10 mt-2 w-56 rounded-lg border border-amber-300/40 bg-slate-900/95 p-2 text-sm shadow-lg shadow-amber-900/20"
-            >
-              <button
-                role="menuitem"
-                className="flex w-full items-center justify-between rounded-md px-3 py-2 text-left text-amber-100 hover:bg-slate-800/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
-                onClick={() => {
-                  setMenuOpen(false);
-                  handleExportJson();
-                }}
-              >
-                JSON
-                <span aria-hidden>→</span>
-              </button>
-              <button
-                role="menuitem"
-                className="flex w-full items-center justify-between rounded-md px-3 py-2 text-left text-amber-100 hover:bg-slate-800/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
-                onClick={() => {
-                  setMenuOpen(false);
-                  handleExportPdf();
-                }}
-              >
-                PDF
-                <span aria-hidden>→</span>
-              </button>
-              <button
-                role="menuitem"
-                className="flex w-full items-center justify-between rounded-md px-3 py-2 text-left text-amber-100 hover:bg-slate-800/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
-                onClick={() => {
-                  setMenuOpen(false);
-                  handleExportCsv();
-                }}
-              >
-                CSV
-                <span aria-hidden>→</span>
-              </button>
-              <button
-                role="menuitem"
-                className="flex w-full items-center justify-between rounded-md px-3 py-2 text-left text-amber-100 hover:bg-slate-800/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
-                onClick={() => {
-                  setMenuOpen(false);
-                  window.print();
-                }}
-              >
-                Print
-                <span aria-hidden>→</span>
-              </button>
-            </div>
-          ) : null}
+          {triggerButton}
+          {menu}
         </div>
       </div>
     </section>
