@@ -12,3 +12,33 @@
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body * {
+    visibility: hidden;
+  }
+
+  .print-hidden {
+    display: none !important;
+  }
+
+  .print-roster-sheet,
+  .print-roster-sheet * {
+    visibility: visible;
+  }
+
+  .print-roster-sheet {
+    position: static !important;
+    inset: auto !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+    max-width: none !important;
+    overflow: visible !important;
+    border-radius: 0 !important;
+  }
+}
