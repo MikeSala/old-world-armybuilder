@@ -16,7 +16,8 @@
       "Heavens",
       "Life"
     ],
-    "profiles": []
+    "profiles": [],
+    "id": "archmage"
   },
   {
     "name": "Prince",
@@ -30,7 +31,8 @@
       "Leadership +1",
       "Inspiring"
     ],
-    "profiles": []
+    "profiles": [],
+    "id": "prince"
   },
   {
     "name": "Silver Helms",
@@ -44,7 +46,8 @@
       "Swiftstride",
       "Shield"
     ],
-    "profiles": []
+    "profiles": [],
+    "id": "silver-helms"
   },
   {
     "name": "Spearmen",
@@ -57,7 +60,8 @@
     "specialRules": [
       "Shieldwall"
     ],
-    "profiles": []
+    "profiles": [],
+    "id": "spearmen"
   },
   {
     "name": "Swordmasters of Hoeth",
@@ -71,7 +75,8 @@
       "Swiftstride",
       "Parry"
     ],
-    "profiles": []
+    "profiles": [],
+    "id": "swordmasters-of-hoeth"
   },
   {
     "name": "Phoenix Guard",
@@ -85,7 +90,8 @@
       "Shieldwall",
       "Fearless"
     ],
-    "profiles": []
+    "profiles": [],
+    "id": "phoenix-guard"
   },
   {
     "name": "Dragon Princes",
@@ -99,7 +105,8 @@
       "Swiftstride",
       "Fearless"
     ],
-    "profiles": []
+    "profiles": [],
+    "id": "dragon-princes"
   },
   {
     "name": "Ellyrian Reavers",
@@ -113,7 +120,8 @@
       "Skirmish",
       "Swiftstride"
     ],
-    "profiles": []
+    "profiles": [],
+    "id": "ellyrian-reavers"
   },
   {
     "name": "Highborn",
@@ -127,7 +135,8 @@
       "Fearless",
       "Inspiring"
     ],
-    "profiles": []
+    "profiles": [],
+    "id": "highborn"
   },
   {
     "name": "White Lions of Chrace",
@@ -142,6 +151,7 @@
       "Swiftstride",
       "Parry"
     ],
-    "profiles": []
+    "profiles": [],
+    "id": "white-lions-of-chrace"
   }
 ]

@@ -23,7 +23,8 @@
       "Counter Charge",
       "First Charge",
       "Swiftstride"
-    ]
+    ],
+    "id": "barded-warhorse"
   },
   {
     "name": "Captain of the Empire",
@@ -48,7 +49,8 @@
     "specialRules": [
       "\"Hold the Line!\"",
       "Rallying Cry"
-    ]
+    ],
+    "id": "captain-of-the-empire"
   },
   {
     "name": "Chapter Master",
@@ -79,7 +81,8 @@
       "Stubborn",
       "Swiftstride",
       "Veteran"
-    ]
+    ],
+    "id": "chapter-master"
   },
   {
     "name": "Demigryph",
@@ -106,7 +109,8 @@
       "First Charge",
       "Fear",
       "Swiftstride"
-    ]
+    ],
+    "id": "demigryph"
   },
   {
     "name": "Demigryph Knights",
@@ -160,7 +164,8 @@
         "A": 3,
         "Ld": null
       }
-    ]
+    ],
+    "id": "demigryph-knights"
   },
   {
     "name": "Empire Archers",
@@ -202,7 +207,8 @@
         "A": 1,
         "Ld": 7
       }
-    ]
+    ],
+    "id": "empire-archers"
   },
   {
     "name": "Empire Engineer",
@@ -226,7 +232,8 @@
     "specialRules": [
       "Clouds of Soot & Smoke",
       "Master of Ballistics"
-    ]
+    ],
+    "id": "empire-engineer"
   },
   {
     "name": "Empire Greatswords",
@@ -267,7 +274,8 @@
         "A": 2,
         "Ld": 8
       }
-    ]
+    ],
+    "id": "empire-greatswords"
   },
   {
     "name": "Empire Knights",
@@ -320,7 +328,8 @@
         "A": 1,
         "Ld": null
       }
-    ]
+    ],
+    "id": "empire-knights"
   },
   {
     "name": "Empire Road Wardens",
@@ -375,7 +384,8 @@
         "A": 1,
         "Ld": null
       }
-    ]
+    ],
+    "id": "empire-road-wardens"
   },
   {
     "name": "Empire Steam Tank",
@@ -423,7 +433,8 @@
         "A": 1,
         "Ld": 8
       }
-    ]
+    ],
+    "id": "empire-steam-tank"
   },
   {
     "name": "Empire War Wagon",
@@ -478,7 +489,8 @@
         "A": 1,
         "Ld": null
       }
-    ]
+    ],
+    "id": "empire-war-wagon"
   },
   {
     "name": "Empire Warhorse",
@@ -502,7 +514,8 @@
     "specialRules": [
       "Fast Cavalry",
       "Swiftstride"
-    ]
+    ],
+    "id": "empire-warhorse"
   },
   {
     "name": "Flagellants",
@@ -547,7 +560,8 @@
         "A": 2,
         "Ld": 5
       }
-    ]
+    ],
+    "id": "flagellants"
   },
   {
     "name": "Free Company Militia",
@@ -589,7 +603,8 @@
         "A": 2,
         "Ld": 7
       }
-    ]
+    ],
+    "id": "free-company-militia"
   },
   {
     "name": "General Hans von Löwenhacke",
@@ -619,7 +634,8 @@
       "Rallying Cry",
       "Strategic Mastery",
       "Stubborn"
-    ]
+    ],
+    "id": "general-hans-von-lowenhacke"
   },
   {
     "name": "General of the Empire",
@@ -644,7 +660,8 @@
     "specialRules": [
       "\"Hold the Line!\"",
       "Rallying Cry"
-    ]
+    ],
+    "id": "general-of-the-empire"
   },
   {
     "name": "Grand Master",
@@ -675,7 +692,8 @@
       "Stubborn",
       "Swiftstride",
       "Veteran"
-    ]
+    ],
+    "id": "grand-master"
   },
   {
     "name": "Great Cannon",
@@ -713,7 +731,8 @@
         "A": 3,
         "Ld": 7
       }
-    ]
+    ],
+    "id": "great-cannon"
   },
   {
     "name": "Griffon (Empire)",
@@ -743,7 +762,8 @@
       "Stomp Attacks (D3)",
       "Swiftstride",
       "Terror"
-    ]
+    ],
+    "id": "griffon-empire-"
   },
   {
     "name": "Harald Gemunsen",
@@ -794,7 +814,8 @@
         "A": 1,
         "Ld": null
       }
-    ]
+    ],
+    "id": "harald-gemunsen"
   },
   {
     "name": "Harbinger of Doom",
@@ -824,7 +845,8 @@
       "Prayer of the Damned",
       "Unbreakable",
       "Zealot"
-    ]
+    ],
+    "id": "harbinger-of-doom"
   },
   {
     "name": "Helblaster Volley Gun",
@@ -862,7 +884,8 @@
         "A": 3,
         "Ld": 7
       }
-    ]
+    ],
+    "id": "helblaster-volley-gun"
   },
   {
     "name": "Helstorm Rocket Battery",
@@ -900,7 +923,8 @@
         "A": 3,
         "Ld": 7
       }
-    ]
+    ],
+    "id": "helstorm-rocket-battery"
   },
   {
     "name": "High Priest of Ulric",
@@ -926,7 +950,8 @@
       "Magical Attacks",
       "Magic Resistance (-1)",
       "Prayers of Ulric"
-    ]
+    ],
+    "id": "high-priest-of-ulric"
   },
   {
     "name": "Imperial Griffon",
@@ -956,7 +981,8 @@
       "Stomp Attacks (D3+1)",
       "Swiftstride",
       "Terror"
-    ]
+    ],
+    "id": "imperial-griffon"
   },
   {
     "name": "Imperial Ogres",
@@ -1000,7 +1026,8 @@
         "A": 4,
         "Ld": 7
       }
-    ]
+    ],
+    "id": "imperial-ogres"
   },
   {
     "name": "Inner Circle Knights",
@@ -1056,7 +1083,8 @@
         "A": 1,
         "Ld": null
       }
-    ]
+    ],
+    "id": "inner-circle-knights"
   },
   {
     "name": "Lector of Sigmar",
@@ -1082,7 +1110,8 @@
       "Magical Attacks",
       "Magic Resistance (-1)",
       "Prayers of Sigmar"
-    ]
+    ],
+    "id": "lector-of-sigmar"
   },
   {
     "name": "Master Mage",
@@ -1114,7 +1143,8 @@
       "Elementalism",
       "Illusion",
       "Necromancy"
-    ]
+    ],
+    "id": "master-mage"
   },
   {
     "name": "Mortar",
@@ -1152,7 +1182,8 @@
         "A": 3,
         "Ld": 7
       }
-    ]
+    ],
+    "id": "mortar"
   },
   {
     "name": "Nuln State Missile Troops",
@@ -1192,7 +1223,8 @@
         "A": 1,
         "Ld": 7
       }
-    ]
+    ],
+    "id": "nuln-state-missile-troops"
   },
   {
     "name": "Nuln State Troops",
@@ -1234,7 +1266,8 @@
         "A": 2,
         "Ld": 7
       }
-    ]
+    ],
+    "id": "nuln-state-troops"
   },
   {
     "name": "Nuln Swordsmen",
@@ -1276,7 +1309,8 @@
         "A": 2,
         "Ld": 7
       }
-    ]
+    ],
+    "id": "nuln-swordsmen"
   },
   {
     "name": "Nuln Veteran State Troops",
@@ -1319,7 +1353,8 @@
         "A": 2,
         "Ld": 7
       }
-    ]
+    ],
+    "id": "nuln-veteran-state-troops"
   },
   {
     "name": "Outriders",
@@ -1374,7 +1409,8 @@
         "A": 1,
         "Ld": null
       }
-    ]
+    ],
+    "id": "outriders"
   },
   {
     "name": "Pegasus",
@@ -1400,7 +1436,8 @@
       "First Charge",
       "Fly (10)",
       "Swiftstride"
-    ]
+    ],
+    "id": "pegasus"
   },
   {
     "name": "Pistoliers",
@@ -1456,7 +1493,8 @@
         "A": 1,
         "Ld": null
       }
-    ]
+    ],
+    "id": "pistoliers"
   },
   {
     "name": "Priest of Sigmar",
@@ -1482,7 +1520,8 @@
       "Magical Attacks",
       "Magic Resistance (-1)",
       "Prayers of Sigmar"
-    ]
+    ],
+    "id": "priest-of-sigmar"
   },
   {
     "name": "Priest of Ulric",
@@ -1508,7 +1547,8 @@
       "Magical Attacks",
       "Magic Resistance (-1)",
       "Prayers of Ulric"
-    ]
+    ],
+    "id": "priest-of-ulric"
   },
   {
     "name": "State Missile Troops",
@@ -1548,7 +1588,8 @@
         "A": 1,
         "Ld": 7
       }
-    ]
+    ],
+    "id": "state-missile-troops"
   },
   {
     "name": "State Troops",
@@ -1589,7 +1630,8 @@
         "A": 2,
         "Ld": 7
       }
-    ]
+    ],
+    "id": "state-troops"
   },
   {
     "name": "Teutogen Guard",
@@ -1632,7 +1674,8 @@
         "A": 2,
         "Ld": 8
       }
-    ]
+    ],
+    "id": "teutogen-guard"
   },
   {
     "name": "Veteran State Troops",
@@ -1674,7 +1717,8 @@
         "A": 2,
         "Ld": 7
       }
-    ]
+    ],
+    "id": "veteran-state-troops"
   },
   {
     "name": "War Altar of Sigmar",
@@ -1720,7 +1764,8 @@
         "A": 1,
         "Ld": null
       }
-    ]
+    ],
+    "id": "war-altar-of-sigmar"
   },
   {
     "name": "Witch Hunter",
@@ -1746,7 +1791,8 @@
       "Immune to Psychology",
       "Killing Blow",
       "Suffer Not..."
-    ]
+    ],
+    "id": "witch-hunter"
   },
   {
     "name": "Wizard Lord",
@@ -1778,6 +1824,7 @@
       "Elementalism",
       "Illusion",
       "Necromancy"
-    ]
+    ],
+    "id": "wizard-lord"
   }
 ]

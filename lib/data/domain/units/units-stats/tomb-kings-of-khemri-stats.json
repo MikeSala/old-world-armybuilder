@@ -33,7 +33,8 @@
         "A": 3,
         "Ld": 8
       }
-    ]
+    ],
+    "id": "arch-necrotect"
   },
   {
     "name": "Carrion",
@@ -65,7 +66,8 @@
         "A": 3,
         "Ld": 4
       }
-    ]
+    ],
+    "id": "carrion"
   },
   {
     "name": "Casket of Souls",
@@ -116,7 +118,8 @@
         "A": 4,
         "Ld": 8
       }
-    ]
+    ],
+    "id": "casket-of-souls"
   },
   {
     "name": "High Priest",
@@ -156,7 +159,8 @@
         "A": 2,
         "Ld": 8
       }
-    ]
+    ],
+    "id": "high-priest"
   },
   {
     "name": "Khemrian Warsphinx",
@@ -209,7 +213,8 @@
         "A": 1,
         "Ld": 8
       }
-    ]
+    ],
+    "id": "khemrian-warsphinx"
   },
   {
     "name": "Mortuary Priest",
@@ -249,7 +254,8 @@
         "A": 1,
         "Ld": 7
       }
-    ]
+    ],
+    "id": "mortuary-priest"
   },
   {
     "name": "Necrolith Bone Dragon",
@@ -288,7 +294,8 @@
         "A": 5,
         "Ld": "—"
       }
-    ]
+    ],
+    "id": "necrolith-bone-dragon"
   },
   {
     "name": "Necrolith Colossus",
@@ -325,7 +332,8 @@
         "A": 4,
         "Ld": 8
       }
-    ]
+    ],
+    "id": "necrolith-colossus"
   },
   {
     "name": "Necropolis Knights",
@@ -390,7 +398,8 @@
         "A": 3,
         "Ld": "—"
       }
-    ]
+    ],
+    "id": "necropolis-knights"
   },
   {
     "name": "Necroserpents",
@@ -427,7 +436,8 @@
         "A": 3,
         "Ld": 7
       }
-    ]
+    ],
+    "id": "necroserpents"
   },
   {
     "name": "Necrosphinx",
@@ -466,7 +476,8 @@
         "A": 5,
         "Ld": 8
       }
-    ]
+    ],
+    "id": "necrosphinx"
   },
   {
     "name": "Necrotect",
@@ -501,7 +512,8 @@
         "A": 2,
         "Ld": 7
       }
-    ]
+    ],
+    "id": "necrotect"
   },
   {
     "name": "Nekaph",
@@ -538,7 +550,8 @@
         "A": 3,
         "Ld": 8
       }
-    ]
+    ],
+    "id": "nekaph"
   },
   {
     "name": "Prince Apophas",
@@ -577,7 +590,8 @@
         "A": 5,
         "Ld": 8
       }
-    ]
+    ],
+    "id": "prince-apophas"
   },
   {
     "name": "Royal Herald",
@@ -613,7 +627,8 @@
         "A": 3,
         "Ld": 8
       }
-    ]
+    ],
+    "id": "royal-herald"
   },
   {
     "name": "Screaming Skull Catapult",
@@ -659,7 +674,8 @@
         "A": 3,
         "Ld": 5
       }
-    ]
+    ],
+    "id": "screaming-skull-catapult"
   },
   {
     "name": "Sepulchral Stalkers",
@@ -695,7 +711,8 @@
         "A": 2,
         "Ld": 8
       }
-    ]
+    ],
+    "id": "sepulchral-stalkers"
   },
   {
     "name": "Settra the Imperishable",
@@ -765,7 +782,8 @@
         "A": 1,
         "Ld": "—"
       }
-    ]
+    ],
+    "id": "settra-the-imperishable"
   },
   {
     "name": "Skeletal Steed (Tomb Kings)",
@@ -795,7 +813,8 @@
         "A": 1,
         "Ld": "—"
       }
-    ]
+    ],
+    "id": "skeletal-steed-tomb-kings-"
   },
   {
     "name": "Skeleton Archers",
@@ -840,7 +859,8 @@
         "A": 1,
         "Ld": 5
       }
-    ]
+    ],
+    "id": "skeleton-archers"
   },
   {
     "name": "Skeleton Cavalry Cohort",
@@ -919,7 +939,8 @@
         "A": 1,
         "Ld": "—"
       }
-    ]
+    ],
+    "id": "skeleton-cavalry-cohort"
   },
   {
     "name": "Skeleton Chariot",
@@ -964,7 +985,8 @@
         "A": 1,
         "Ld": "—"
       }
-    ]
+    ],
+    "id": "skeleton-chariot"
   },
   {
     "name": "Skeleton Chariots",
@@ -1039,7 +1061,8 @@
         "A": 1,
         "Ld": "—"
       }
-    ]
+    ],
+    "id": "skeleton-chariots"
   },
   {
     "name": "Skeleton Horse Archers",
@@ -1100,7 +1123,8 @@
         "A": 1,
         "Ld": "—"
       }
-    ]
+    ],
+    "id": "skeleton-horse-archers"
   },
   {
     "name": "Skeleton Horsemen",
@@ -1159,7 +1183,8 @@
         "A": 1,
         "Ld": "—"
       }
-    ]
+    ],
+    "id": "skeleton-horsemen"
   },
   {
     "name": "Skeleton Infantry Cohort",
@@ -1224,7 +1249,8 @@
         "A": 2,
         "Ld": 5
       }
-    ]
+    ],
+    "id": "skeleton-infantry-cohort"
   },
   {
     "name": "Skeleton Skirmishers",
@@ -1257,7 +1283,8 @@
         "A": 1,
         "Ld": 4
       }
-    ]
+    ],
+    "id": "skeleton-skirmishers"
   },
   {
     "name": "Skeleton Warriors (Tomb Kings)",
@@ -1302,7 +1329,8 @@
         "A": 2,
         "Ld": 5
       }
-    ]
+    ],
+    "id": "skeleton-warriors-tomb-kings-"
   },
   {
     "name": "Tomb Guard",
@@ -1350,7 +1378,8 @@
         "A": 2,
         "Ld": 7
       }
-    ]
+    ],
+    "id": "tomb-guard"
   },
   {
     "name": "Tomb Guard Chariots",
@@ -1426,7 +1455,8 @@
         "A": 1,
         "Ld": "—"
       }
-    ]
+    ],
+    "id": "tomb-guard-chariots"
   },
   {
     "name": "Tomb King",
@@ -1462,7 +1492,8 @@
         "A": 4,
         "Ld": 10
       }
-    ]
+    ],
+    "id": "tomb-king"
   },
   {
     "name": "Tomb Prince",
@@ -1498,7 +1529,8 @@
         "A": 3,
         "Ld": 9
       }
-    ]
+    ],
+    "id": "tomb-prince"
   },
   {
     "name": "Tomb Scorpion",
@@ -1535,7 +1567,8 @@
         "A": 4,
         "Ld": 8
       }
-    ]
+    ],
+    "id": "tomb-scorpion"
   },
   {
     "name": "Tomb Swarms",
@@ -1567,7 +1600,8 @@
         "A": 5,
         "Ld": 10
       }
-    ]
+    ],
+    "id": "tomb-swarms"
   },
   {
     "name": "Ushabti",
@@ -1614,7 +1648,8 @@
         "A": 4,
         "Ld": 8
       }
-    ]
+    ],
+    "id": "ushabti"
   },
   {
     "name": "Venerable Ushabti",
@@ -1661,6 +1696,7 @@
         "A": 4,
         "Ld": 8
       }
-    ]
+    ],
+    "id": "venerable-ushabti"
   }
 ]

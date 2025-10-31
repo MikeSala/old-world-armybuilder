@@ -39,7 +39,8 @@
         "A": 3,
         "Ld": 7
       }
-    ]
+    ],
+    "id": "cathayan-grand-cannon"
   },
   {
     "name": "Cathayan Sentinel",
@@ -76,7 +77,8 @@
         "A": 3,
         "Ld": 10
       }
-    ]
+    ],
+    "id": "cathayan-sentinel"
   },
   {
     "name": "Cathayan Warhorse",
@@ -108,7 +110,8 @@
         "A": 1,
         "Ld": "-"
       }
-    ]
+    ],
+    "id": "cathayan-warhorse"
   },
   {
     "name": "Fire Rain Rocket Battery",
@@ -150,7 +153,8 @@
         "A": 3,
         "Ld": 7
       }
-    ]
+    ],
+    "id": "fire-rain-rocket-battery"
   },
   {
     "name": "Gate Keeper",
@@ -181,7 +185,8 @@
         "A": 2,
         "Ld": 8
       }
-    ]
+    ],
+    "id": "gate-keeper"
   },
   {
     "name": "Gate Master",
@@ -212,7 +217,8 @@
         "A": 3,
         "Ld": 9
       }
-    ]
+    ],
+    "id": "gate-master"
   },
   {
     "name": "Jade Lancers",
@@ -274,7 +280,8 @@
         "A": 1,
         "Ld": "-"
       }
-    ]
+    ],
+    "id": "jade-lancers"
   },
   {
     "name": "Jade Warriors",
@@ -319,7 +326,8 @@
         "A": 2,
         "Ld": 8
       }
-    ]
+    ],
+    "id": "jade-warriors"
   },
   {
     "name": "Lord Magistrate",
@@ -350,7 +358,8 @@
         "A": 2,
         "Ld": 9
       }
-    ]
+    ],
+    "id": "lord-magistrate"
   },
   {
     "name": "Miao Ying",
@@ -415,7 +424,8 @@
         "A": 6,
         "Ld": 10
       }
-    ]
+    ],
+    "id": "miao-ying"
   },
   {
     "name": "Ogre Loader",
@@ -445,7 +455,8 @@
         "A": 3,
         "Ld": 8
       }
-    ]
+    ],
+    "id": "ogre-loader"
   },
   {
     "name": "Shugengan General",
@@ -500,7 +511,8 @@
         "A": 3,
         "Ld": "-"
       }
-    ]
+    ],
+    "id": "shugengan-general"
   },
   {
     "name": "Shugengan Lord",
@@ -555,7 +567,8 @@
         "A": 3,
         "Ld": "-"
       }
-    ]
+    ],
+    "id": "shugengan-lord"
   },
   {
     "name": "Sky Lantern",
@@ -619,7 +632,8 @@
         "A": 2,
         "Ld": 8
       }
-    ]
+    ],
+    "id": "sky-lantern"
   },
   {
     "name": "Strategist",
@@ -650,6 +664,7 @@
         "A": 1,
         "Ld": 9
       }
-    ]
+    ],
+    "id": "strategist"
   }
 ]

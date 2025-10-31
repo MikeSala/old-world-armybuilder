@@ -43,7 +43,8 @@
           "Ld": 8
         }
       }
-    ]
+    ],
+    "id": "black-ark-corsairs"
   },
   {
     "name": "Black Dragon",
@@ -77,7 +78,8 @@
       "Stomp Attacks (D6)",
       "Swiftstride",
       "Terror"
-    ]
+    ],
+    "id": "black-dragon"
   },
   {
     "name": "Black Guard of Naggarond",
@@ -126,7 +128,8 @@
           "Ld": 9
         }
       }
-    ]
+    ],
+    "id": "black-guard-of-naggarond"
   },
   {
     "name": "Bloodwrack Medusa",
@@ -161,7 +164,8 @@
       "Murderous",
       "Poisoned Attacks",
       "Stony Stare"
-    ]
+    ],
+    "id": "bloodwrack-medusa"
   },
   {
     "name": "Bloodwrack Shrine",
@@ -229,7 +233,8 @@
           "Ld": "-"
         }
       }
-    ]
+    ],
+    "id": "bloodwrack-shrine"
   },
   {
     "name": "Cauldron of Blood",
@@ -281,7 +286,8 @@
           "Ld": 9
         }
       }
-    ]
+    ],
+    "id": "cauldron-of-blood"
   },
   {
     "name": "Cold One (Dark Elves)",
@@ -311,7 +317,8 @@
       "First Charge",
       "Stupidity",
       "Swiftstride"
-    ]
+    ],
+    "id": "cold-one-dark-elves-"
   },
   {
     "name": "Cold One Chariot",
@@ -376,7 +383,8 @@
           "Ld": "-"
         }
       }
-    ]
+    ],
+    "id": "cold-one-chariot"
   },
   {
     "name": "Cold One Knights",
@@ -443,7 +451,8 @@
           "Ld": "-"
         }
       }
-    ]
+    ],
+    "id": "cold-one-knights"
   },
   {
     "name": "Dark Elf Dreadlord",
@@ -472,7 +481,8 @@
       "Hatred (High Elves)",
       "Murderous",
       "Strike First"
-    ]
+    ],
+    "id": "dark-elf-dreadlord"
   },
   {
     "name": "Dark Elf Master",
@@ -501,7 +511,8 @@
       "Hatred (High Elves)",
       "Murderous",
       "Strike First"
-    ]
+    ],
+    "id": "dark-elf-master"
   },
   {
     "name": "Dark Elf Shades",
@@ -548,7 +559,8 @@
           "Ld": 8
         }
       }
-    ]
+    ],
+    "id": "dark-elf-shades"
   },
   {
     "name": "Dark Elf Warriors",
@@ -594,7 +606,8 @@
           "Ld": 8
         }
       }
-    ]
+    ],
+    "id": "dark-elf-warriors"
   },
   {
     "name": "Dark Pegasus",
@@ -623,7 +636,8 @@
       "First Charge",
       "Fly (10)",
       "Swiftstride"
-    ]
+    ],
+    "id": "dark-pegasus"
   },
   {
     "name": "Dark Riders",
@@ -686,7 +700,8 @@
           "Ld": "-"
         }
       }
-    ]
+    ],
+    "id": "dark-riders"
   },
   {
     "name": "Dark Steed",
@@ -712,7 +727,8 @@
     "specialRules": [
       "Fast Cavalry",
       "Swiftstride"
-    ]
+    ],
+    "id": "dark-steed"
   },
   {
     "name": "Death Hag",
@@ -743,7 +759,8 @@
       "Murderous",
       "Poisoned Attacks",
       "Strike First"
-    ]
+    ],
+    "id": "death-hag"
   },
   {
     "name": "Doomfire Warlocks",
@@ -806,7 +823,8 @@
           "Ld": "-"
         }
       }
-    ]
+    ],
+    "id": "doomfire-warlocks"
   },
   {
     "name": "Har Ganeth Executioners",
@@ -853,7 +871,8 @@
           "Ld": 9
         }
       }
-    ]
+    ],
+    "id": "har-ganeth-executioners"
   },
   {
     "name": "Harpies",
@@ -882,7 +901,8 @@
       "Scouts",
       "Skirmishers",
       "Swiftstride"
-    ]
+    ],
+    "id": "harpies"
   },
   {
     "name": "High Beastmaster",
@@ -913,7 +933,8 @@
       "Hatred (High Elves)",
       "Murderous",
       "Strike First"
-    ]
+    ],
+    "id": "high-beastmaster"
   },
   {
     "name": "Khainite Assassin",
@@ -944,7 +965,8 @@
       "Immune to Psychology",
       "Murderous",
       "Strike First"
-    ]
+    ],
+    "id": "khainite-assassin"
   },
   {
     "name": "Kharibdyss",
@@ -992,7 +1014,8 @@
           "Ld": 8
         }
       }
-    ]
+    ],
+    "id": "kharibdyss"
   },
   {
     "name": "Manticore (Dark Elves)",
@@ -1024,7 +1047,8 @@
       "Swiftstride",
       "Terror",
       "Wilful Beast"
-    ]
+    ],
+    "id": "manticore-dark-elves-"
   },
   {
     "name": "Reaper Bolt Thrower",
@@ -1069,7 +1093,8 @@
           "Ld": 8
         }
       }
-    ]
+    ],
+    "id": "reaper-bolt-thrower"
   },
   {
     "name": "Repeater Crossbowmen",
@@ -1115,7 +1140,8 @@
           "Ld": 8
         }
       }
-    ]
+    ],
+    "id": "repeater-crossbowmen"
   },
   {
     "name": "Scourgerunner Chariot",
@@ -1179,7 +1205,8 @@
           "Ld": "-"
         }
       }
-    ]
+    ],
+    "id": "scourgerunner-chariot"
   },
   {
     "name": "Sisters of Slaughter",
@@ -1227,7 +1254,8 @@
           "Ld": 8
         }
       }
-    ]
+    ],
+    "id": "sisters-of-slaughter"
   },
   {
     "name": "Sorceress",
@@ -1264,7 +1292,8 @@
       "Dark Magic",
       "Elementalism",
       "Illusion"
-    ]
+    ],
+    "id": "sorceress"
   },
   {
     "name": "Supreme Sorceress",
@@ -1301,7 +1330,8 @@
       "Dark Magic",
       "Elementalism",
       "Illusion"
-    ]
+    ],
+    "id": "supreme-sorceress"
   },
   {
     "name": "War Hydra",
@@ -1351,7 +1381,8 @@
           "Ld": 8
         }
       }
-    ]
+    ],
+    "id": "war-hydra"
   },
   {
     "name": "Witch Elves",
@@ -1399,6 +1430,7 @@
           "Ld": 8
         }
       }
-    ]
+    ],
+    "id": "witch-elves"
   }
 ]

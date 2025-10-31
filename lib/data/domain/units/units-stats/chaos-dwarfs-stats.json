@@ -33,7 +33,8 @@
         "A": 4,
         "Ld": "—"
       }
-    ]
+    ],
+    "id": "bale-taurus"
   },
   {
     "name": "Bull Centaur Renders",
@@ -84,7 +85,8 @@
         "A": 3,
         "Ld": 8
       }
-    ]
+    ],
+    "id": "bull-centaur-renders"
   },
   {
     "name": "Bull Centaur Taur'ruk",
@@ -123,7 +125,8 @@
         "A": 4,
         "Ld": 9
       }
-    ]
+    ],
+    "id": "bull-centaur-taur-ruk"
   },
   {
     "name": "Daemonsmith Sorcerer",
@@ -163,7 +166,8 @@
         "A": 2,
         "Ld": 9
       }
-    ]
+    ],
+    "id": "daemonsmith-sorcerer"
   },
   {
     "name": "Deathshrieker Rocket Launcher",
@@ -207,7 +211,8 @@
         "A": 3,
         "Ld": 9
       }
-    ]
+    ],
+    "id": "deathshrieker-rocket-launcher"
   },
   {
     "name": "Dreadquake Mortar",
@@ -262,7 +267,8 @@
         "A": "—",
         "Ld": "—"
       }
-    ]
+    ],
+    "id": "dreadquake-mortar"
   },
   {
     "name": "Giant Wolf",
@@ -293,7 +299,8 @@
         "A": 1,
         "Ld": "—"
       }
-    ]
+    ],
+    "id": "giant-wolf"
   },
   {
     "name": "Great Taurus",
@@ -329,7 +336,8 @@
         "A": "—",
         "Ld": "—"
       }
-    ]
+    ],
+    "id": "great-taurus"
   },
   {
     "name": "Hobgoblin Bolt Thrower",
@@ -372,7 +380,8 @@
         "A": 2,
         "Ld": 6
       }
-    ]
+    ],
+    "id": "hobgoblin-bolt-thrower"
   },
   {
     "name": "Hobgoblin Cutthroats",
@@ -417,7 +426,8 @@
         "A": 2,
         "Ld": 5
       }
-    ]
+    ],
+    "id": "hobgoblin-cutthroats"
   },
   {
     "name": "Hobgoblin Khan",
@@ -449,7 +459,8 @@
         "A": 3,
         "Ld": 7
       }
-    ]
+    ],
+    "id": "hobgoblin-khan"
   },
   {
     "name": "Hobgoblin Wolf Riders",
@@ -511,7 +522,8 @@
         "A": 1,
         "Ld": "—"
       }
-    ]
+    ],
+    "id": "hobgoblin-wolf-riders"
   },
   {
     "name": "Infernal Castellan",
@@ -544,7 +556,8 @@
         "A": 4,
         "Ld": 10
       }
-    ]
+    ],
+    "id": "infernal-castellan"
   },
   {
     "name": "Infernal Guard",
@@ -590,7 +603,8 @@
         "A": 2,
         "Ld": 9
       }
-    ]
+    ],
+    "id": "infernal-guard"
   },
   {
     "name": "Infernal Ironsworn",
@@ -640,7 +654,8 @@
         "A": 3,
         "Ld": 9
       }
-    ]
+    ],
+    "id": "infernal-ironsworn"
   },
   {
     "name": "Infernal Seneschal",
@@ -673,7 +688,8 @@
         "A": 3,
         "Ld": 9
       }
-    ]
+    ],
+    "id": "infernal-seneschal"
   },
   {
     "name": "Iron Daemon",
@@ -723,7 +739,8 @@
         "A": 1,
         "Ld": 9
       }
-    ]
+    ],
+    "id": "iron-daemon"
   },
   {
     "name": "K'daai Fireborn",
@@ -772,7 +789,8 @@
         "A": 4,
         "Ld": 8
       }
-    ]
+    ],
+    "id": "k-daai-fireborn"
   },
   {
     "name": "Lammasu",
@@ -809,7 +827,8 @@
         "A": "—",
         "Ld": "—"
       }
-    ]
+    ],
+    "id": "lammasu"
   },
   {
     "name": "Magma Cannon",
@@ -852,7 +871,8 @@
         "A": 3,
         "Ld": 9
       }
-    ]
+    ],
+    "id": "magma-cannon"
   },
   {
     "name": "Sneaky Gits",
@@ -898,7 +918,8 @@
         "A": 2,
         "Ld": 5
       }
-    ]
+    ],
+    "id": "sneaky-gits"
   },
   {
     "name": "Sorcerer-Prophet",
@@ -938,6 +959,7 @@
         "A": 3,
         "Ld": 10
       }
-    ]
+    ],
+    "id": "sorcerer-prophet"
   }
 ]

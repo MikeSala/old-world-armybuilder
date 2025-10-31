@@ -33,7 +33,8 @@
       "Skirmishers",
       "Strike the Runes",
       "Unbreakable"
-    ]
+    ],
+    "id": "anvil-of-doom"
   },
   {
     "name": "Forgefather & Anvil Guard",
@@ -52,7 +53,8 @@
     "unitSize": null,
     "armourValue": null,
     "equipment": [],
-    "specialRules": []
+    "specialRules": [],
+    "id": "forgefather-anvil-guard"
   },
   {
     "name": "Bolt Thrower",
@@ -80,7 +82,8 @@
       "Magic Resistance (-1)",
       "Skirmishers",
       "Stubborn"
-    ]
+    ],
+    "id": "bolt-thrower"
   },
   {
     "name": "Dwarf Crew (Bolt Thrower)",
@@ -99,7 +102,8 @@
     "unitSize": null,
     "armourValue": null,
     "equipment": [],
-    "specialRules": []
+    "specialRules": [],
+    "id": "dwarf-crew-bolt-thrower-"
   },
   {
     "name": "Burlok Damminson",
@@ -132,7 +136,8 @@
       "Resolute",
       "\"Stand Back Chief\"",
       "Stubborn"
-    ]
+    ],
+    "id": "burlok-damminson"
   },
   {
     "name": "Cannon",
@@ -160,7 +165,8 @@
       "Magic Resistance (-1)",
       "Skirmishers",
       "Stubborn"
-    ]
+    ],
+    "id": "cannon"
   },
   {
     "name": "Dwarf Crew (Cannon)",
@@ -179,7 +185,8 @@
     "unitSize": null,
     "armourValue": null,
     "equipment": [],
-    "specialRules": []
+    "specialRules": [],
+    "id": "dwarf-crew-cannon-"
   },
   {
     "name": "Daemon Slayer",
@@ -212,7 +219,8 @@
       "Slayer of Daemons",
       "Unbreakable",
       "Vanguard"
-    ]
+    ],
+    "id": "daemon-slayer"
   },
   {
     "name": "Doomseeker",
@@ -248,7 +256,8 @@
       "Unbreakable",
       "Vanguard",
       "Whirlwind of Death"
-    ]
+    ],
+    "id": "doomseeker"
   },
   {
     "name": "Dragon Slayer",
@@ -281,7 +290,8 @@
       "Slayer of Dragons",
       "Unbreakable",
       "Vanguard"
-    ]
+    ],
+    "id": "dragon-slayer"
   },
   {
     "name": "Dwarf Cart",
@@ -309,7 +319,8 @@
       "Magic Resistance (-1)",
       "Open Order",
       "Resolute"
-    ]
+    ],
+    "id": "dwarf-cart"
   },
   {
     "name": "Dwarf Crew (Cart)",
@@ -328,7 +339,8 @@
     "unitSize": 1,
     "armourValue": null,
     "equipment": [],
-    "specialRules": []
+    "specialRules": [],
+    "id": "dwarf-crew-cart-"
   },
   {
     "name": "Draft Pony",
@@ -347,7 +359,8 @@
     "unitSize": null,
     "armourValue": null,
     "equipment": [],
-    "specialRules": []
+    "specialRules": [],
+    "id": "draft-pony"
   },
   {
     "name": "Dwarf Warrior",
@@ -375,7 +388,8 @@
       "Magic Resistance (-1)",
       "Resolute",
       "Shieldwall"
-    ]
+    ],
+    "id": "dwarf-warrior"
   },
   {
     "name": "Veteran (Dwarf Warriors)",
@@ -394,7 +408,8 @@
     "unitSize": null,
     "armourValue": null,
     "equipment": [],
-    "specialRules": []
+    "specialRules": [],
+    "id": "veteran-dwarf-warriors-"
   },
   {
     "name": "Engineer",
@@ -426,7 +441,8 @@
       "Resolute",
       "\"Stand Back Chief\"",
       "Stubborn"
-    ]
+    ],
+    "id": "engineer"
   },
   {
     "name": "Engineer Sapper",
@@ -457,7 +473,8 @@
       "Magic Resistance (-1)",
       "Resolute",
       "Stubborn"
-    ]
+    ],
+    "id": "engineer-sapper"
   },
   {
     "name": "Flame Cannon",
@@ -485,7 +502,8 @@
       "Magic Resistance (-1)",
       "Skirmishers",
       "Stubborn"
-    ]
+    ],
+    "id": "flame-cannon"
   },
   {
     "name": "Dwarf Crew (Flame Cannon)",
@@ -504,6 +522,7 @@
     "unitSize": null,
     "armourValue": null,
     "equipment": [],
-    "specialRules": []
+    "specialRules": [],
+    "id": "dwarf-crew-flame-cannon-"
   }
 ]

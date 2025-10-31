@@ -61,7 +61,8 @@
       "Stomp Attacks (D3+2)",
       "Stubborn",
       "Terror"
-    ]
+    ],
+    "id": "ancient-stegadon"
   },
   {
     "name": "Bastiladon",
@@ -123,7 +124,8 @@
       "Stomp Attacks (D3+1)",
       "Stubborn",
       "Terror"
-    ]
+    ],
+    "id": "bastiladon"
   },
   {
     "name": "Carnosaur",
@@ -158,7 +160,8 @@
       "Stomp Attacks (2)",
       "Swiftstride",
       "Terror"
-    ]
+    ],
+    "id": "carnosaur"
   },
   {
     "name": "Chameleon Skinks",
@@ -204,7 +207,8 @@
       "Move Through Cover",
       "Scouts",
       "Skirmishers"
-    ]
+    ],
+    "id": "chameleon-skinks"
   },
   {
     "name": "Cold One (Lizardmen)",
@@ -236,7 +240,8 @@
       "Fear",
       "Stupidity",
       "Swiftstride"
-    ]
+    ],
+    "id": "cold-one-lizardmen-"
   },
   {
     "name": "Cold One Riders",
@@ -297,7 +302,8 @@
       "Obsidian Blades",
       "Stupidity",
       "Swiftstride"
-    ]
+    ],
+    "id": "cold-one-riders"
   },
   {
     "name": "Jungle Swarms",
@@ -332,7 +338,8 @@
       "Skirmishers",
       "Unbreakable",
       "Vanguard"
-    ]
+    ],
+    "id": "jungle-swarms"
   },
   {
     "name": "Kroxigor",
@@ -377,7 +384,8 @@
       "Cold Blooded",
       "Fear",
       "Skirmish Screen"
-    ]
+    ],
+    "id": "kroxigor"
   },
   {
     "name": "Razordon Pack",
@@ -422,7 +430,8 @@
       "Cold Blooded",
       "Fear",
       "Skirmishers"
-    ]
+    ],
+    "id": "razordon-pack"
   },
   {
     "name": "Ripperdactyl",
@@ -457,7 +466,8 @@
       "Impetuous",
       "Swiftstride",
       "Toad Rage"
-    ]
+    ],
+    "id": "ripperdactyl"
   },
   {
     "name": "Ripperdactyl Riders",
@@ -520,7 +530,8 @@
       "Skirmishers",
       "Swiftstride",
       "Toad Rage"
-    ]
+    ],
+    "id": "ripperdactyl-riders"
   },
   {
     "name": "Salamander Pack",
@@ -565,7 +576,8 @@
       "Cold Blooded",
       "Fear",
       "Skirmishers"
-    ]
+    ],
+    "id": "salamander-pack"
   },
   {
     "name": "Saurus Oldblood",
@@ -597,7 +609,8 @@
       "Furious Charge",
       "Obsidian Blades",
       "Rallying Cry"
-    ]
+    ],
+    "id": "saurus-oldblood"
   },
   {
     "name": "Saurus Scar-Veteran",
@@ -629,7 +642,8 @@
       "Furious Charge",
       "Obsidian Blades",
       "Rallying Cry"
-    ]
+    ],
+    "id": "saurus-scar-veteran"
   },
   {
     "name": "Saurus Warriors",
@@ -673,7 +687,8 @@
       "Close Order",
       "Cold Blooded",
       "Obsidian Blades"
-    ]
+    ],
+    "id": "saurus-warriors"
   },
   {
     "name": "Skink Chief",
@@ -704,7 +719,8 @@
       "Aquatic",
       "Cold Blooded",
       "Poisoned Attacks"
-    ]
+    ],
+    "id": "skink-chief"
   },
   {
     "name": "Skink Priest",
@@ -741,7 +757,8 @@
       "Battle Magic",
       "Elementalism",
       "Illusion"
-    ]
+    ],
+    "id": "skink-priest"
   },
   {
     "name": "Skink Skirmishers",
@@ -785,7 +802,8 @@
       "Move Through Cover",
       "Poisoned Attacks (javelins only)",
       "Skirmishers"
-    ]
+    ],
+    "id": "skink-skirmishers"
   },
   {
     "name": "Slann Mage-Priest",
@@ -825,7 +843,8 @@
       "High Magic",
       "Illusion",
       "Necromancy"
-    ]
+    ],
+    "id": "slann-mage-priest"
   },
   {
     "name": "Stegadon",
@@ -887,7 +906,8 @@
       "Stomp Attacks (D3+2)",
       "Stubborn",
       "Terror"
-    ]
+    ],
+    "id": "stegadon"
   },
   {
     "name": "Temple Guard",
@@ -935,7 +955,8 @@
       "Obsidian Blades",
       "Shieldwall",
       "Stubborn"
-    ]
+    ],
+    "id": "temple-guard"
   },
   {
     "name": "Terradon",
@@ -967,7 +988,8 @@
       "Fear",
       "Fly (10)",
       "Swiftstride"
-    ]
+    ],
+    "id": "terradon"
   },
   {
     "name": "Terradon Riders",
@@ -1028,7 +1050,8 @@
       "Poisoned Attacks (javelins only)",
       "Skirmishers",
       "Swiftstride"
-    ]
+    ],
+    "id": "terradon-riders"
   },
   {
     "name": "Troglodon",
@@ -1094,6 +1117,7 @@
     "magicLores": [
       "Battle Magic",
       "Illusion"
-    ]
+    ],
+    "id": "troglodon"
   }
 ]

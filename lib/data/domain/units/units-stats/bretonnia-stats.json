@@ -67,7 +67,8 @@
         "equipment": [],
         "specialRules": []
       }
-    ]
+    ],
+    "id": "knights-of-the-realm"
   },
   {
     "name": "Knights Errant",
@@ -139,7 +140,8 @@
         "equipment": [],
         "specialRules": []
       }
-    ]
+    ],
+    "id": "knights-errant"
   },
   {
     "name": "Men-at-Arms",
@@ -189,7 +191,8 @@
           "Peasant's Duty"
         ]
       }
-    ]
+    ],
+    "id": "men-at-arms"
   },
   {
     "name": "Peasant Bowmen",
@@ -237,7 +240,8 @@
           "Defensive Stakes"
         ]
       }
-    ]
+    ],
+    "id": "peasant-bowmen"
   },
   {
     "name": "Grail Knights",
@@ -311,7 +315,8 @@
         "equipment": [],
         "specialRules": []
       }
-    ]
+    ],
+    "id": "grail-knights"
   },
   {
     "name": "Questing Knights",
@@ -379,7 +384,8 @@
         "equipment": [],
         "specialRules": []
       }
-    ]
+    ],
+    "id": "questing-knights"
   },
   {
     "name": "Pegasus Knights",
@@ -451,7 +457,8 @@
           "Fly"
         ]
       }
-    ]
+    ],
+    "id": "pegasus-knights"
   },
   {
     "name": "Mounted Yeomen",
@@ -521,7 +528,8 @@
         "equipment": [],
         "specialRules": []
       }
-    ]
+    ],
+    "id": "mounted-yeomen"
   },
   {
     "name": "Battle Pilgrims",
@@ -569,7 +577,8 @@
           "Stubborn"
         ]
       }
-    ]
+    ],
+    "id": "battle-pilgrims"
   },
   {
     "name": "Field Trebuchet",
@@ -614,7 +623,8 @@
           "Peasant's Duty"
         ]
       }
-    ]
+    ],
+    "id": "field-trebuchet"
   },
   {
     "name": "Grail Reliquae",
@@ -663,7 +673,8 @@
           "Stubborn"
         ]
       }
-    ]
+    ],
+    "id": "grail-reliquae"
   },
   {
     "name": "Damsel",
@@ -693,7 +704,8 @@
       "Lore of Beasts",
       "Lore of Heavens"
     ],
-    "profiles": []
+    "profiles": [],
+    "id": "damsel"
   },
   {
     "name": "Prophetess of the Lady",
@@ -723,7 +735,8 @@
       "Lore of Beasts",
       "Lore of Heavens"
     ],
-    "profiles": []
+    "profiles": [],
+    "id": "prophetess-of-the-lady"
   },
   {
     "name": "Paladin",
@@ -751,7 +764,8 @@
       "Oath of Duty"
     ],
     "magicLores": [],
-    "profiles": []
+    "profiles": [],
+    "id": "paladin"
   },
   {
     "name": "Duke",
@@ -779,7 +793,8 @@
       "Oath of Duty"
     ],
     "magicLores": [],
-    "profiles": []
+    "profiles": [],
+    "id": "duke"
   },
   {
     "name": "The Green Knight",
@@ -810,6 +825,7 @@
       "Unbreakable"
     ],
     "magicLores": [],
-    "profiles": []
+    "profiles": [],
+    "id": "the-green-knight"
   }
 ]

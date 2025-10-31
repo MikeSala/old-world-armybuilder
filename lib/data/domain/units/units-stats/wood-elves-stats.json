@@ -31,7 +31,8 @@
       "I": 8,
       "A": 4,
       "Ld": 10
-    }
+    },
+    "id": "araloth-lord-of-talsyn"
   },
   {
     "name": "Bear of Loren",
@@ -61,7 +62,8 @@
       "I": 3,
       "A": 2,
       "Ld": 6
-    }
+    },
+    "id": "bear-of-loren"
   },
   {
     "name": "Beast Keeper",
@@ -91,7 +93,8 @@
       "I": 4,
       "A": 1,
       "Ld": 8
-    }
+    },
+    "id": "beast-keeper"
   },
   {
     "name": "Branchwraith",
@@ -129,7 +132,8 @@
       "I": 6,
       "A": 2,
       "Ld": 8
-    }
+    },
+    "id": "branchwraith"
   },
   {
     "name": "Deepwood Hound",
@@ -157,7 +161,8 @@
       "I": 3,
       "A": 1,
       "Ld": 5
-    }
+    },
+    "id": "deepwood-hound"
   },
   {
     "name": "Deepwood Scouts",
@@ -205,7 +210,8 @@
           "Ld": 8
         }
       }
-    ]
+    ],
+    "id": "deepwood-scouts"
   },
   {
     "name": "Dryads",
@@ -256,7 +262,8 @@
           "Ld": 8
         }
       }
-    ]
+    ],
+    "id": "dryads"
   },
   {
     "name": "Elven Steed",
@@ -282,7 +289,8 @@
       "I": 4,
       "A": 1,
       "Ld": 0
-    }
+    },
+    "id": "elven-steed"
   },
   {
     "name": "Eternal Guard",
@@ -329,7 +337,8 @@
           "Ld": 9
         }
       }
-    ]
+    ],
+    "id": "eternal-guard"
   },
   {
     "name": "Forest Cat",
@@ -357,7 +366,8 @@
       "I": 4,
       "A": 1,
       "Ld": 5
-    }
+    },
+    "id": "forest-cat"
   },
   {
     "name": "Forest Dragon",
@@ -390,7 +400,8 @@
       "I": 4,
       "A": 6,
       "Ld": 0
-    }
+    },
+    "id": "forest-dragon"
   },
   {
     "name": "Glade Captain",
@@ -423,7 +434,8 @@
       "I": 5,
       "A": 3,
       "Ld": 9
-    }
+    },
+    "id": "glade-captain"
   },
   {
     "name": "Glade Guard",
@@ -467,7 +479,8 @@
           "Ld": 8
         }
       }
-    ]
+    ],
+    "id": "glade-guard"
   },
   {
     "name": "Glade Lord",
@@ -500,7 +513,8 @@
       "I": 6,
       "A": 4,
       "Ld": 10
-    }
+    },
+    "id": "glade-lord"
   },
   {
     "name": "Glade Riders",
@@ -565,7 +579,8 @@
           "Ld": 0
         }
       }
-    ]
+    ],
+    "id": "glade-riders"
   },
   {
     "name": "Great Eagle",
@@ -595,7 +610,8 @@
       "I": 4,
       "A": 3,
       "Ld": 6
-    }
+    },
+    "id": "great-eagle"
   },
   {
     "name": "Great Eagle (Mount)",
@@ -625,7 +641,8 @@
       "I": 4,
       "A": 3,
       "Ld": 0
-    }
+    },
+    "id": "great-eagle-mount-"
   },
   {
     "name": "Great Stag",
@@ -657,7 +674,8 @@
       "I": 4,
       "A": 2,
       "Ld": 0
-    }
+    },
+    "id": "great-stag"
   },
   {
     "name": "Guardians of Talsyn",
@@ -707,7 +725,8 @@
           "Ld": 9
         }
       }
-    ]
+    ],
+    "id": "guardians-of-talsyn"
   },
   {
     "name": "Orion, the King in the Woods",
@@ -744,7 +763,8 @@
       "I": 8,
       "A": 5,
       "Ld": 10
-    }
+    },
+    "id": "orion-the-king-in-the-woods"
   },
   {
     "name": "Shadowdancer",
@@ -780,7 +800,8 @@
       "I": 7,
       "A": 3,
       "Ld": 8
-    }
+    },
+    "id": "shadowdancer"
   },
   {
     "name": "Sisters of the Thorn",
@@ -847,7 +868,8 @@
           "Ld": 0
         }
       }
-    ]
+    ],
+    "id": "sisters-of-the-thorn"
   },
   {
     "name": "Spellsinger",
@@ -881,7 +903,8 @@
       "I": 4,
       "A": 1,
       "Ld": 8
-    }
+    },
+    "id": "spellsinger"
   },
   {
     "name": "Spellweaver",
@@ -915,7 +938,8 @@
       "I": 4,
       "A": 2,
       "Ld": 8
-    }
+    },
+    "id": "spellweaver"
   },
   {
     "name": "Sylvan Boar",
@@ -944,7 +968,8 @@
       "I": 3,
       "A": 1,
       "Ld": 5
-    }
+    },
+    "id": "sylvan-boar"
   },
   {
     "name": "Tree Kin",
@@ -997,7 +1022,8 @@
           "Ld": 8
         }
       }
-    ]
+    ],
+    "id": "tree-kin"
   },
   {
     "name": "Treeman",
@@ -1037,7 +1063,8 @@
       "I": 2,
       "A": 5,
       "Ld": 9
-    }
+    },
+    "id": "treeman"
   },
   {
     "name": "Treeman Ancient",
@@ -1081,7 +1108,8 @@
       "I": 2,
       "A": 3,
       "Ld": 10
-    }
+    },
+    "id": "treeman-ancient"
   },
   {
     "name": "Unicorn",
@@ -1112,7 +1140,8 @@
       "I": 5,
       "A": 2,
       "Ld": 0
-    }
+    },
+    "id": "unicorn"
   },
   {
     "name": "Wardancers",
@@ -1163,7 +1192,8 @@
           "Ld": 8
         }
       }
-    ]
+    ],
+    "id": "wardancers"
   },
   {
     "name": "Warden of Talsyn",
@@ -1198,7 +1228,8 @@
       "I": 6,
       "A": 4,
       "Ld": 9
-    }
+    },
+    "id": "warden-of-talsyn"
   },
   {
     "name": "Warhawk",
@@ -1227,7 +1258,8 @@
       "I": 4,
       "A": 2,
       "Ld": 0
-    }
+    },
+    "id": "warhawk"
   },
   {
     "name": "Warhawk Riders",
@@ -1294,7 +1326,8 @@
           "Ld": 0
         }
       }
-    ]
+    ],
+    "id": "warhawk-riders"
   },
   {
     "name": "Waystalker",
@@ -1327,7 +1360,8 @@
       "I": 5,
       "A": 2,
       "Ld": 8
-    }
+    },
+    "id": "waystalker"
   },
   {
     "name": "Waywatchers",
@@ -1376,7 +1410,8 @@
           "Ld": 8
         }
       }
-    ]
+    ],
+    "id": "waywatchers"
   },
   {
     "name": "Wild Riders",
@@ -1445,7 +1480,8 @@
           "Ld": 0
         }
       }
-    ]
+    ],
+    "id": "wild-riders"
   },
   {
     "name": "Wildwood Rangers",
@@ -1492,6 +1528,7 @@
           "Ld": 9
         }
       }
-    ]
+    ],
+    "id": "wildwood-rangers"
   }
 ]

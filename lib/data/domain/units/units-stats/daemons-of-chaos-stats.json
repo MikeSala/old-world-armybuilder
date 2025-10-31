@@ -25,7 +25,8 @@
       "Hatred",
       "Regeneration"
     ],
-    "magicLores": []
+    "magicLores": [],
+    "id": "bloodthirster-of-khorne"
   },
   {
     "name": "Bloodletters of Khorne",
@@ -50,7 +51,8 @@
       "Daemonic",
       "Hatred"
     ],
-    "magicLores": []
+    "magicLores": [],
+    "id": "bloodletters-of-khorne"
   },
   {
     "name": "Flesh Hounds of Khorne",
@@ -76,7 +78,8 @@
       "Hatred",
       "Fear"
     ],
-    "magicLores": []
+    "magicLores": [],
+    "id": "flesh-hounds-of-khorne"
   },
   {
     "name": "Skull Cannon",
@@ -102,7 +105,8 @@
       "Fear",
       "Blast"
     ],
-    "magicLores": []
+    "magicLores": [],
+    "id": "skull-cannon"
   },
   {
     "name": "Herald of Khorne",
@@ -129,7 +133,8 @@
       "Hatred",
       "Fear"
     ],
-    "magicLores": []
+    "magicLores": [],
+    "id": "herald-of-khorne"
   },
   {
     "name": "Bloodthirster of Khorne (on Juggernaut)",
@@ -159,7 +164,8 @@
       "Regeneration",
       "Juggernaut"
     ],
-    "magicLores": []
+    "magicLores": [],
+    "id": "bloodthirster-of-khorne-on-juggernaut-"
   },
   {
     "name": "Daemon Prince of Chaos (Khorne)",
@@ -187,7 +193,8 @@
       "Hatred",
       "Fly"
     ],
-    "magicLores": []
+    "magicLores": [],
+    "id": "daemon-prince-of-chaos-khorne-"
   },
   {
     "name": "Daemon Prince of Chaos (Khorne) (with wings)",
@@ -216,7 +223,8 @@
       "Hatred",
       "Fly"
     ],
-    "magicLores": []
+    "magicLores": [],
+    "id": "daemon-prince-of-chaos-khorne-with-wings-"
   },
   {
     "name": "Herald of Khorne (on Juggernaut)",
@@ -245,6 +253,7 @@
       "Fear",
       "Juggernaut"
     ],
-    "magicLores": []
+    "magicLores": [],
+    "id": "herald-of-khorne-on-juggernaut-"
   }
 ]

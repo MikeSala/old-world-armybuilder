@@ -31,6 +31,7 @@ export const DEFAULT_ARMY_ID = "empire-of-man";
 
 export const ARMY_UNIT_DATA: Record<string, ArmyUnitsRaw> = {
   "beastmen-brayherds": beastmen,
+  beastmen,
   "chaos-dwarfs": chaosDwarfs,
   "daemons-of-chaos": daemonsOfChaos,
   "dark-elves": darkElves,
@@ -42,6 +43,7 @@ export const ARMY_UNIT_DATA: Record<string, ArmyUnitsRaw> = {
   lizardmen,
   "ogre-kingdoms": ogreKingdoms,
   "orc-and-goblin-tribes": orcAndGoblinTribes,
+  "orc-goblin-tribes": orcAndGoblinTribes,
   "renegade-crowns": renegadeCrowns,
   skaven,
   "tomb-kings-of-khemri": tombKings,

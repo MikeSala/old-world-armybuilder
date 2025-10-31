@@ -39,7 +39,8 @@
         "A": 2,
         "Ld": 5
       }
-    }
+    },
+    "id": "clanrats"
   },
   {
     "name": "Doomwheel",
@@ -97,7 +98,8 @@
         "A": "2D6",
         "Ld": 5
       }
-    }
+    },
+    "id": "doomwheel"
   },
   {
     "name": "Giant Rats",
@@ -128,7 +130,8 @@
         "A": 1,
         "Ld": 3
       }
-    }
+    },
+    "id": "giant-rats"
   },
   {
     "name": "Grey Seer",
@@ -169,7 +172,8 @@
         "A": 2,
         "Ld": 7
       }
-    }
+    },
+    "id": "grey-seer"
   },
   {
     "name": "Gutter Runners",
@@ -213,10 +217,15 @@
         "A": 2,
         "Ld": 7
       }
-    }
+    },
+    "id": "gutter-runners"
   },
   {
+    "id": "hell-pit-abomination",
     "name": "Hell Pit Abomination",
+    "aliases": [
+      "Hell Pit Abomination {renegade}"
+    ],
     "unitCategory": "Monster",
     "troopType": "Behemoth",
     "baseSize": "60 x 100 mm",
@@ -290,7 +299,8 @@
         "A": 3,
         "Ld": 7
       }
-    }
+    },
+    "id": "master-assassin"
   },
   {
     "name": "Master Moulder",
@@ -323,7 +333,8 @@
         "A": 2,
         "Ld": 7
       }
-    }
+    },
+    "id": "master-moulder"
   },
   {
     "name": "Night Runners",
@@ -364,7 +375,8 @@
         "A": 2,
         "Ld": 5
       }
-    }
+    },
+    "id": "night-runners"
   },
   {
     "name": "Packmaster",
@@ -397,7 +409,8 @@
         "A": 1,
         "Ld": 6
       }
-    }
+    },
+    "id": "packmaster"
   },
   {
     "name": "Plague Censer Bearers",
@@ -429,7 +442,8 @@
         "A": 1,
         "Ld": 5
       }
-    }
+    },
+    "id": "plague-censer-bearers"
   },
   {
     "name": "Plague Furnace",
@@ -477,7 +491,8 @@
         "A": 2,
         "Ld": 5
       }
-    }
+    },
+    "id": "plague-furnace"
   },
   {
     "name": "Plague Monks",
@@ -519,7 +534,8 @@
         "A": 2,
         "Ld": 5
       }
-    }
+    },
+    "id": "plague-monks"
   },
   {
     "name": "Plague Priest",
@@ -558,7 +574,8 @@
         "A": 3,
         "Ld": 6
       }
-    }
+    },
+    "id": "plague-priest"
   },
   {
     "name": "Plagueclaw Catapult",
@@ -600,7 +617,8 @@
         "A": "D3+3",
         "Ld": 6
       }
-    }
+    },
+    "id": "plagueclaw-catapult"
   },
   {
     "name": "Poisoned Wind Globadiers",
@@ -631,7 +649,8 @@
         "A": 1,
         "Ld": 5
       }
-    }
+    },
+    "id": "poisoned-wind-globadiers"
   },
   {
     "name": "Rat Ogres",
@@ -666,7 +685,8 @@
         "A": 3,
         "Ld": 5
       }
-    }
+    },
+    "id": "rat-ogres"
   },
   {
     "name": "Rat Swarms",
@@ -697,7 +717,8 @@
         "A": 5,
         "Ld": 4
       }
-    }
+    },
+    "id": "rat-swarms"
   },
   {
     "name": "Screaming Bell",
@@ -744,7 +765,8 @@
         "A": 3,
         "Ld": 5
       }
-    }
+    },
+    "id": "screaming-bell"
   },
   {
     "name": "Skaven Chieftain",
@@ -775,7 +797,8 @@
         "A": 3,
         "Ld": 6
       }
-    }
+    },
+    "id": "skaven-chieftain"
   },
   {
     "name": "Skaven Warlord",
@@ -806,7 +829,8 @@
         "A": 4,
         "Ld": 7
       }
-    }
+    },
+    "id": "skaven-warlord"
   },
   {
     "name": "Stormvermin",
@@ -850,7 +874,8 @@
         "A": 2,
         "Ld": 6
       }
-    }
+    },
+    "id": "stormvermin"
   },
   {
     "name": "Warlock Engineer",
@@ -887,7 +912,8 @@
         "A": 2,
         "Ld": 5
       }
-    }
+    },
+    "id": "warlock-engineer"
   },
   {
     "name": "Warp Lightning Cannon",
@@ -927,7 +953,8 @@
         "A": 3,
         "Ld": 6
       }
-    }
+    },
+    "id": "warp-lightning-cannon"
   },
   {
     "name": "Warplock Jezzails",
@@ -958,7 +985,8 @@
         "A": 2,
         "Ld": 5
       }
-    }
+    },
+    "id": "warplock-jezzails"
   },
   {
     "name": "Weapon Team",
@@ -991,6 +1019,7 @@
         "A": 2,
         "Ld": 4
       }
-    }
+    },
+    "id": "weapon-team"
   }
 ]

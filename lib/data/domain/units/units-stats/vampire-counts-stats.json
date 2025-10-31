@@ -33,7 +33,8 @@
       "Stomp Attacks (D3)",
       "Swiftstride",
       "Terror"
-    ]
+    ],
+    "id": "abyssal-terror"
   },
   {
     "name": "Bat Swarms",
@@ -64,7 +65,8 @@
       "Necromantic Undead",
       "Regeneration (6+)",
       "Skirmishers"
-    ]
+    ],
+    "id": "bat-swarms"
   },
   {
     "name": "Black Coach",
@@ -139,7 +141,8 @@
       "Regeneration (6+)",
       "Spectral Coach",
       "Terror"
-    ]
+    ],
+    "id": "black-coach"
   },
   {
     "name": "Black Knights",
@@ -214,7 +217,8 @@
       "Necromantic Undead",
       "Regeneration (6+)",
       "Swiftstride"
-    ]
+    ],
+    "id": "black-knights"
   },
   {
     "name": "Blood Knights",
@@ -296,7 +300,8 @@
       "Necromantic Undead",
       "Regeneration (6+)",
       "Swiftstride"
-    ]
+    ],
+    "id": "blood-knights"
   },
   {
     "name": "Cairn Wraith",
@@ -328,7 +333,8 @@
       "Necromantic Undead",
       "Regeneration (6+)",
       "Terror"
-    ]
+    ],
+    "id": "cairn-wraith"
   },
   {
     "name": "Corpse Cart",
@@ -406,7 +412,8 @@
       "Necromantic Undead",
       "Random Attacks (The Restless Dead only)",
       "Regeneration (6+)"
-    ]
+    ],
+    "id": "corpse-cart"
   },
   {
     "name": "Coven Throne",
@@ -484,7 +491,8 @@
       "Random Attacks (Spirit Horde only)",
       "Regeneration (6+)",
       "Scrying Pool"
-    ]
+    ],
+    "id": "coven-throne"
   },
   {
     "name": "Crypt Ghouls",
@@ -537,7 +545,8 @@
       "Regeneration (6+)",
       "Reserve Move",
       "Skirmishers"
-    ]
+    ],
+    "id": "crypt-ghouls"
   },
   {
     "name": "Crypt Horrors",
@@ -589,7 +598,8 @@
       "Open Order",
       "Regeneration (6+)",
       "Stomp Attacks (1)"
-    ]
+    ],
+    "id": "crypt-horrors"
   },
   {
     "name": "Dire Wolves",
@@ -642,7 +652,8 @@
       "Slavering Charge",
       "Swiftstride",
       "Vanguard"
-    ]
+    ],
+    "id": "dire-wolves"
   },
   {
     "name": "Fell Bats",
@@ -674,7 +685,8 @@
       "Regeneration (6+)",
       "Skirmishers",
       "Swiftstride"
-    ]
+    ],
+    "id": "fell-bats"
   },
   {
     "name": "Grave Guard",
@@ -727,7 +739,8 @@
       "Indomitable (1)",
       "Necromantic Undead",
       "Regeneration (6+)"
-    ]
+    ],
+    "id": "grave-guard"
   },
   {
     "name": "Hexwraiths",
@@ -805,7 +818,8 @@
       "Spectral Reapers",
       "Swiftstride",
       "Terror"
-    ]
+    ],
+    "id": "hexwraiths"
   },
   {
     "name": "Master Necromancer",
@@ -843,7 +857,8 @@
       "Lore of Undeath",
       "Necromantic Undead",
       "Regeneration (5+)"
-    ]
+    ],
+    "id": "master-necromancer"
   },
   {
     "name": "Mortis Engine",
@@ -922,7 +937,8 @@
       "Random Attacks (Spirit Horde only)",
       "Regeneration (6+)",
       "Wailing Dirge"
-    ]
+    ],
+    "id": "mortis-engine"
   },
   {
     "name": "Necromantic Acolyte",
@@ -960,7 +976,8 @@
       "Lore of Undeath",
       "Necromantic Undead",
       "Regeneration (5+)"
-    ]
+    ],
+    "id": "necromantic-acolyte"
   },
   {
     "name": "Nightmare",
@@ -992,7 +1009,8 @@
       "First Charge",
       "Necromantic Undead",
       "Swiftstride"
-    ]
+    ],
+    "id": "nightmare"
   },
   {
     "name": "Skeletal Steed (Vampire Counts)",
@@ -1023,7 +1041,8 @@
       "First Charge",
       "Necromantic Undead",
       "Swiftstride"
-    ]
+    ],
+    "id": "skeletal-steed-vampire-counts-"
   },
   {
     "name": "Skeleton Warriors (Vampire Counts)",
@@ -1075,7 +1094,8 @@
       "Horde",
       "Necromantic Undead",
       "Regeneration (6+)"
-    ]
+    ],
+    "id": "skeleton-warriors-vampire-counts-"
   },
   {
     "name": "Spirit Hosts",
@@ -1109,7 +1129,8 @@
       "Open Order",
       "Regeneration (6+)",
       "Reserve Move"
-    ]
+    ],
+    "id": "spirit-hosts"
   },
   {
     "name": "Strigoi Ghoul King",
@@ -1150,7 +1171,8 @@
       "Poisoned Attacks",
       "Regeneration (5+)",
       "The Hunger"
-    ]
+    ],
+    "id": "strigoi-ghoul-king"
   },
   {
     "name": "Terrorgheist",
@@ -1190,7 +1212,8 @@
       "Swiftstride",
       "Terror",
       "Wailing Dirge"
-    ]
+    ],
+    "id": "terrorgheist"
   },
   {
     "name": "Terrorgheist (Mount)",
@@ -1230,7 +1253,8 @@
       "Swiftstride",
       "Terror",
       "Wailing Dirge"
-    ]
+    ],
+    "id": "terrorgheist-mount-"
   },
   {
     "name": "Tomb Banshee",
@@ -1264,7 +1288,8 @@
       "Regeneration (6+)",
       "Terror",
       "Wailing Dirge"
-    ]
+    ],
+    "id": "tomb-banshee"
   },
   {
     "name": "Vampire Count",
@@ -1302,7 +1327,8 @@
       "Lore of Undeath",
       "Necromantic Undead",
       "Regeneration (5+)"
-    ]
+    ],
+    "id": "vampire-count"
   },
   {
     "name": "Vampire Thrall",
@@ -1341,7 +1367,8 @@
       "Lore of Undeath",
       "Necromantic Undead",
       "Regeneration (5+)"
-    ]
+    ],
+    "id": "vampire-thrall"
   },
   {
     "name": "Vargheists",
@@ -1396,7 +1423,8 @@
       "Necromantic Undead",
       "Regeneration (6+)",
       "Skirmishers"
-    ]
+    ],
+    "id": "vargheists"
   },
   {
     "name": "Varghulf",
@@ -1435,7 +1463,8 @@
       "Regeneration (5+)",
       "Swiftstride",
       "Terror"
-    ]
+    ],
+    "id": "varghulf"
   },
   {
     "name": "Wight King",
@@ -1467,7 +1496,8 @@
       "Killing Blow",
       "Necromantic Undead",
       "Regeneration (5+)"
-    ]
+    ],
+    "id": "wight-king"
   },
   {
     "name": "Wight Lord",
@@ -1499,7 +1529,8 @@
       "Necromantic Undead",
       "Regeneration (6+)",
       "Wight Banner"
-    ]
+    ],
+    "id": "wight-lord"
   },
   {
     "name": "Zombie Dragon",
@@ -1536,7 +1567,8 @@
       "Stomp Attacks (D6)",
       "Swiftstride",
       "Terror"
-    ]
+    ],
+    "id": "zombie-dragon"
   },
   {
     "name": "Zombies",
@@ -1568,6 +1600,7 @@
       "Necromantic Undead",
       "Regeneration (6+)",
       "The Newly Dead"
-    ]
+    ],
+    "id": "zombies"
   }
 ]
