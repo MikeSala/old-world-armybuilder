@@ -35,11 +35,16 @@ export function CategoryConfigurator({ dict, selection }: Props) {
     formatCategoryLabel,
   } = selection;
 
+  const getOptionsTitle = (category: CategorySelectionState["activeCategory"]) =>
+    category
+      ? dict.categoryOptionsTitle.replace("{category}", formatCategoryLabel(category))
+      : "";
+
   if (!activeCategory) {
     return (
       <section className="rounded-2xl border border-amber-300/30 bg-slate-900/60 p-5 text-amber-100 shadow-lg shadow-amber-900/10">
         <p className="text-sm text-amber-200/70">
-          {dict.categoryHelpDefault ?? "Select a category to see options."}
+          {dict.categoryConfiguratorPrompt}
         </p>
       </section>
     );
@@ -54,7 +59,7 @@ export function CategoryConfigurator({ dict, selection }: Props) {
     return (
       <section className="rounded-2xl border border-amber-300/30 bg-slate-900/60 p-5 text-amber-100 shadow-lg shadow-amber-900/10">
         <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-300">
-          {`Options for ${formatCategoryLabel(activeCategory)}`}
+          {getOptionsTitle(activeCategory)}
         </h3>
         <p className="mt-4 text-sm text-amber-200/70">{dict.categoryEmptyUnitsMessage}</p>
       </section>
@@ -64,7 +69,7 @@ export function CategoryConfigurator({ dict, selection }: Props) {
   return (
     <section className="rounded-2xl border border-amber-300/30 bg-slate-900/60 p-5 text-amber-100 shadow-lg shadow-amber-900/10">
       <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-300">
-        {`Options for ${formatCategoryLabel(activeCategory)}`}
+        {getOptionsTitle(activeCategory)}
       </h3>
       <div className="mt-4 space-y-3">
         <Select
@@ -77,8 +82,12 @@ export function CategoryConfigurator({ dict, selection }: Props) {
 
         <div className="rounded-xl border border-amber-300/20 bg-slate-900/60 p-4">
           <div className="flex flex-wrap items-center justify-between gap-3 text-xs uppercase tracking-wide text-amber-200/80">
-            <span>Unit size</span>
-            <span>{pointsPerModel ? `${pointsPerModel} pts per model` : "Flat cost"}</span>
+            <span>{dict.categoryUnitSizeLabel}</span>
+            <span>
+              {pointsPerModel
+                ? dict.categoryUnitPointsPerModel.replace("{value}", String(pointsPerModel))
+                : dict.categoryUnitFlatCost}
+            </span>
           </div>
           <div className="mt-3 flex items-stretch">
             <input
@@ -104,7 +113,7 @@ export function CategoryConfigurator({ dict, selection }: Props) {
                 type="button"
                 onClick={incrementUnitSize}
                 className="rounded-md bg-slate-800 px-2 py-1 text-sm text-amber-100 shadow hover:bg-slate-700 active:translate-y-px"
-                aria-label="Increase unit size"
+                aria-label={dict.categoryUnitIncreaseAria}
               >
                 ▲
               </button>
@@ -112,7 +121,7 @@ export function CategoryConfigurator({ dict, selection }: Props) {
                 type="button"
                 onClick={decrementUnitSize}
                 className="mt-1 rounded-md bg-slate-800 px-2 py-1 text-sm text-amber-100 shadow hover:bg-slate-700 active:translate-y-px"
-                aria-label="Decrease unit size"
+                aria-label={dict.categoryUnitDecreaseAria}
               >
                 ▼
               </button>
@@ -120,10 +129,12 @@ export function CategoryConfigurator({ dict, selection }: Props) {
           </div>
           <div className="mt-2 flex flex-wrap items-center justify-between gap-3 text-xs text-amber-200/60">
             <span>
-              Min {minUnitSize}
-              {maxUnitSize !== null ? `, Max ${maxUnitSize}` : ""}
+              {dict.categoryUnitMinLabel} {minUnitSize}
+              {maxUnitSize !== null ? `, ${dict.categoryUnitMaxLabel} ${maxUnitSize}` : ""}
             </span>
-            <span className="text-amber-100">{totalPoints} pts total</span>
+            <span className="text-amber-100">
+              {dict.categoryUnitTotalPoints.replace("{value}", String(totalPoints))}
+            </span>
           </div>
         </div>
 
@@ -132,6 +143,7 @@ export function CategoryConfigurator({ dict, selection }: Props) {
             {optionGroups.map((group) => (
               <OptionGroupSection
                 key={group.id}
+                dict={dict}
                 group={group}
                 selectedIds={optionSelections[group.id] ?? []}
                 onToggle={onToggleOption}
@@ -139,7 +151,7 @@ export function CategoryConfigurator({ dict, selection }: Props) {
             ))}
           </div>
         ) : (
-          <p className="text-sm text-amber-200/70">No additional options for this unit.</p>
+          <p className="text-sm text-amber-200/70">{dict.categoryNoAdditionalOptions}</p>
         )}
 
         <div className="flex flex-col gap-2 lg:flex-row lg:justify-end">

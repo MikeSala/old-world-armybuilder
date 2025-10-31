@@ -11,6 +11,56 @@ import type {
   ButtonSize,
 } from "@/components/ui/Button";
 import type { RosterDraft, RosterEntry } from "@/lib/store/slices/rosterSlice";
+import type { CategoryKey } from "@/lib/data/domain/types/categories";
+
+type ExportDict = Pick<
+  LocaleDictionary,
+  | "rosterSummaryDefaultName"
+  | "rosterExportUnknownArmy"
+  | "rosterExportTitle"
+  | "rosterExportDescription"
+  | "rosterExportMenuPdf"
+  | "rosterExportMenuJson"
+  | "rosterExportMenuCsv"
+  | "rosterExportMenuPrint"
+  | "rosterExportArmyLabel"
+  | "rosterExportCompositionLabel"
+  | "rosterExportArmyRuleLabel"
+  | "rosterPointsLimitLabel"
+  | "rosterExportTotalPointsLabel"
+  | "rosterExportUnitsHeading"
+  | "rosterDetailModelsLine"
+  | "rosterSummaryBaseCost"
+  | "categoryOptionCostFree"
+  | "categoryOptionCostPerModelSuffix"
+  | "categoryOptionsDefaultLabel"
+  | "rosterExportPerModelSuffix"
+  | "rosterExportOptionNoteLabel"
+  | "rosterExportUnitNotesLabel"
+  | "rosterExportGeneratedLabel"
+  | "categoryPointsValue"
+  | "categoryCharactersLabel"
+  | "categoryCoreLabel"
+  | "categorySpecialLabel"
+  | "categoryRareLabel"
+  | "categoryMercsLabel"
+  | "categoryAlliesLabel"
+  | "rosterExportOwnedYes"
+  | "rosterExportOwnedNo"
+  | "rosterExportUnnamedUnit"
+  | "rosterExportCsvHeaderCategory"
+  | "rosterExportCsvHeaderUnit"
+  | "rosterExportCsvHeaderUnitSize"
+  | "rosterExportCsvHeaderPointsPerModel"
+  | "rosterExportCsvHeaderBasePoints"
+  | "rosterExportCsvHeaderOptions"
+  | "rosterExportCsvHeaderTotalPoints"
+  | "rosterExportCsvHeaderOwned"
+  | "rosterExportCsvOptionFreeSuffix"
+  | "rosterExportAriaLabel"
+  | "rosterDownloadButton"
+>;
+import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
 
 type ExportPayload = {
   metadata: {
@@ -112,7 +162,7 @@ function normalizeEntries(entries: RosterEntry[]) {
   });
 }
 
-function buildExportPayload(draft: RosterDraft): ExportPayload {
+function buildExportPayload(draft: RosterDraft, dict: ExportDict): ExportPayload {
   const { army, compositionName } = resolveArmy(draft);
   const armyRule = resolveRule(draft);
   const normalizedEntries = normalizeEntries(draft.entries ?? []);
@@ -124,11 +174,11 @@ function buildExportPayload(draft: RosterDraft): ExportPayload {
       formatVersion: "1.0.0",
     },
     roster: {
-      name: draft.name || "Untitled roster",
+      name: draft.name && draft.name.trim().length > 0 ? draft.name : dict.rosterSummaryDefaultName,
       description: draft.description || "",
       army: {
         id: army?.id ?? draft.armyId ?? null,
-        name: army?.name ?? (draft.armyId ?? "Unknown army"),
+        name: army?.name ?? (draft.armyId ?? dict.rosterExportUnknownArmy),
       },
       composition: {
         id: draft.compositionId ?? null,
@@ -145,50 +195,74 @@ function buildExportPayload(draft: RosterDraft): ExportPayload {
   };
 }
 
-function buildTextExport(payload: ExportPayload): string {
+function buildTextExport(payload: ExportPayload, dict: ExportDict): string {
+  const formatPoints = (value: number | string) =>
+    dict.categoryPointsValue.replace("{value}", String(value));
+  const categoryLabels: Record<CategoryKey, string> = {
+    characters: dict.categoryCharactersLabel,
+    core: dict.categoryCoreLabel,
+    special: dict.categorySpecialLabel,
+    rare: dict.categoryRareLabel,
+    mercenaries: dict.categoryMercsLabel,
+    allies: dict.categoryAlliesLabel,
+  };
+
+  const rosterName =
+    payload.roster.name && payload.roster.name.trim().length > 0
+      ? payload.roster.name
+      : dict.rosterSummaryDefaultName;
   const lines: string[] = [];
-  lines.push(`# ${payload.roster.name}`);
+  lines.push(`# ${rosterName}`);
   if (payload.roster.description) {
     lines.push(payload.roster.description);
   }
   lines.push("");
-  lines.push(`Army: ${payload.roster.army.name}`);
+  lines.push(`${dict.rosterExportArmyLabel}: ${payload.roster.army.name}`);
   if (payload.roster.composition.name) {
-    lines.push(`Composition: ${payload.roster.composition.name}`);
+    lines.push(`${dict.rosterExportCompositionLabel}: ${payload.roster.composition.name}`);
   }
   if (payload.roster.rule.name) {
-    lines.push(`Army Rule: ${payload.roster.rule.name}`);
+    lines.push(`${dict.rosterExportArmyRuleLabel}: ${payload.roster.rule.name}`);
   }
-  lines.push(`Points Limit: ${payload.roster.pointsLimit}`);
-  lines.push(`Total Points: ${payload.roster.totalPoints}`);
+  lines.push(`${dict.rosterPointsLimitLabel}: ${formatPoints(payload.roster.pointsLimit)}`);
+  lines.push(`${dict.rosterExportTotalPointsLabel}: ${formatPoints(payload.roster.totalPoints)}`);
   lines.push("");
-  lines.push("## Units");
+  lines.push(`## ${dict.rosterExportUnitsHeading}`);
   payload.entries.forEach((entry) => {
-    lines.push(`- ${entry.name} (${entry.category}) — ${entry.totalPoints} pts`);
+    const unitName = entry.name && entry.name.trim().length > 0 ? entry.name : dict.rosterExportUnnamedUnit;
+    const categoryLabel =
+      categoryLabels[entry.category as CategoryKey] ?? entry.category ?? "";
+    lines.push(
+      `- ${unitName} (${categoryLabel}) — ${formatPoints(entry.totalPoints)}`
+    );
     if (entry.unitSize > 1) {
-      lines.push(
-        `  Unit size: ${entry.unitSize} models @ ${entry.pointsPerModel} pts — base cost ${entry.basePoints} pts`
-      );
+      const unitSizeLine = dict.rosterDetailModelsLine
+        .replace("{count}", String(entry.unitSize))
+        .replace("{value}", formatPoints(entry.pointsPerModel));
+      lines.push(`  ${unitSizeLine}`);
     } else {
-      lines.push(`  Base cost: ${entry.basePoints} pts`);
+      lines.push(`  ${dict.rosterSummaryBaseCost.replace("{value}", formatPoints(entry.basePoints))}`);
     }
     if (entry.options.length > 0) {
       entry.options.forEach((opt) => {
-        const costLabel = opt.points
-          ? `${opt.points} pts${
-              opt.perModel && opt.baseCost ? ` (${opt.baseCost} pts/model)` : ""
-            }`
-          : "free";
-        lines.push(`  - ${opt.group}: ${opt.name} (${costLabel})`);
-        if (opt.note) lines.push(`    note: ${opt.note}`);
+        const costLabel = opt.points ? formatPoints(opt.points) : dict.categoryOptionCostFree;
+        const perModelNote =
+          opt.points && opt.perModel && typeof opt.baseCost === "number"
+            ? ` (${dict.rosterExportPerModelSuffix.replace("{value}", String(opt.baseCost))})`
+            : "";
+        const groupLabel = opt.group?.trim().length ? opt.group : dict.categoryOptionsDefaultLabel;
+        lines.push(`  - ${groupLabel}: ${opt.name} (${costLabel}${perModelNote})`);
+        if (opt.note) {
+          lines.push(`    ${dict.rosterExportOptionNoteLabel}: ${opt.note}`);
+        }
       });
     }
     if (entry.notes) {
-      lines.push(`  Notes: ${entry.notes}`);
+      lines.push(`  ${dict.rosterExportUnitNotesLabel}: ${entry.notes}`);
     }
   });
   lines.push("");
-  lines.push(`Generated: ${payload.metadata.generatedAt}`);
+  lines.push(`${dict.rosterExportGeneratedLabel}: ${payload.metadata.generatedAt}`);
   return lines.join("\n");
 }
 
@@ -200,8 +274,8 @@ function escapePdfText(value: string): string {
     .replace(/[\u0080-\uFFFF]/g, "?");
 }
 
-function buildRosterPdf(payload: ExportPayload): string {
-  const text = buildTextExport(payload);
+function buildRosterPdf(payload: ExportPayload, dict: ExportDict): string {
+  const text = buildTextExport(payload, dict);
   const lines = text.split("\n");
 
   const contentParts = ["BT", "/F1 12 Tf", "1 14 TL", "72 760 Td"];
@@ -244,38 +318,59 @@ function buildRosterPdf(payload: ExportPayload): string {
   return pdf;
 }
 
-function buildCsvExport(payload: ExportPayload): string {
+function buildCsvExport(payload: ExportPayload, dict: ExportDict): string {
   const header = [
-    "Category",
-    "Unit",
-    "UnitSize",
-    "PointsPerModel",
-    "BasePoints",
-    "Options",
-    "TotalPoints",
-    "Owned",
+    dict.rosterExportCsvHeaderCategory,
+    dict.rosterExportCsvHeaderUnit,
+    dict.rosterExportCsvHeaderUnitSize,
+    dict.rosterExportCsvHeaderPointsPerModel,
+    dict.rosterExportCsvHeaderBasePoints,
+    dict.rosterExportCsvHeaderOptions,
+    dict.rosterExportCsvHeaderTotalPoints,
+    dict.rosterExportCsvHeaderOwned,
   ];
+
+  const categoryLabels: Record<CategoryKey, string> = {
+    characters: dict.categoryCharactersLabel,
+    core: dict.categoryCoreLabel,
+    special: dict.categorySpecialLabel,
+    rare: dict.categoryRareLabel,
+    mercenaries: dict.categoryMercsLabel,
+    allies: dict.categoryAlliesLabel,
+  };
+
   const rows = payload.entries.map((entry) => {
+    const categoryLabel =
+      categoryLabels[entry.category as CategoryKey] ?? entry.category ?? "";
+    const unitName = entry.name && entry.name.trim().length > 0 ? entry.name : dict.rosterExportUnnamedUnit;
     const options = entry.options
       .map((opt) => {
-        if (!opt.points) return `${opt.group}: ${opt.name} (free)`;
+        const groupLabel = opt.group?.trim().length
+          ? opt.group
+          : dict.categoryOptionsDefaultLabel;
+        if (!opt.points) return `${groupLabel}: ${opt.name} ${dict.rosterExportCsvOptionFreeSuffix}`;
         const perModelNote =
-          opt.perModel && opt.baseCost ? ` | ${opt.baseCost} pts/model` : "";
-        return `${opt.group}: ${opt.name} (${opt.points})${perModelNote}`;
+          opt.perModel && opt.baseCost
+            ? ` | ${dict.rosterExportPerModelSuffix.replace("{value}", String(opt.baseCost))}`
+            : "";
+        return `${groupLabel}: ${opt.name} (${opt.points})${perModelNote}`;
       })
       .join("; ");
     return [
-      entry.category,
-      entry.name,
+      categoryLabel,
+      unitName,
       String(entry.unitSize),
       String(entry.pointsPerModel),
       String(entry.basePoints),
       options,
       String(entry.totalPoints),
-      entry.owned ? "yes" : "no",
+      entry.owned ? dict.rosterExportOwnedYes : dict.rosterExportOwnedNo,
     ];
   });
-  return [header, ...rows].map((cols) => cols.map((col) => `"${(col ?? "").toString().replace(/"/g, '""')}"`).join(",")).join("\n");
+
+  return [header, ...rows]
+    .map((cols) => cols.map((col) => `"${(col ?? "").toString().replace(/"/g, '""')}"`).join(","))
+    .join("\n");
 }
 
 function triggerDownload(filename: string, content: string, mimeType: string) {
@@ -291,6 +386,7 @@ function triggerDownload(filename: string, content: string, mimeType: string) {
 }
 
 type Props = {
+  dict: ExportDict;
   className?: string;
   variant?: "card" | "inline";
   triggerLabel?: string;
@@ -302,35 +398,38 @@ const joinClasses = (...values: Array<string | undefined | null | false>) =>
   values.filter(Boolean).join(" ");
 
 export default function RosterExportControls({
+  dict,
   className,
   variant = "card",
-  triggerLabel = "Download roster",
+  triggerLabel,
   triggerVariant,
   triggerSize = "sm",
 }: Props) {
   const draft = useSelector((state: RootState) => state.roster.draft);
-  const payload = useMemo(() => buildExportPayload(draft), [draft]);
+  const payload = useMemo(() => buildExportPayload(draft, dict), [draft, dict]);
   const [isMenuOpen, setMenuOpen] = useState(false);
   const buttonRef = useRef<HTMLButtonElement | null>(null);
   const menuRef = useRef<HTMLDivElement | null>(null);
   const menuId = useId();
   const buttonId = useId();
 
+  const effectiveTriggerLabel = triggerLabel ?? dict.rosterDownloadButton;
+
   const handleExportJson = () => {
     const filename = `${payload.roster.name.replace(/\s+/g, "-").toLowerCase()}-roster.json`;
     triggerDownload(filename, JSON.stringify(payload, null, 2), "application/json");
   };
 
-  const handleExportCsv = () => {
-    const filename = `${payload.roster.name.replace(/\s+/g, "-").toLowerCase()}-roster.csv`;
-    const csv = buildCsvExport(payload);
-    triggerDownload(filename, csv, "text/csv");
+  const handleExportPdf = () => {
+    const pdf = buildRosterPdf(payload, dict);
+    const filename = `${payload.roster.name.replace(/\s+/g, "-").toLowerCase()}-roster.pdf`;
+    triggerDownload(filename, pdf, "application/pdf");
   };
 
-  const handleExportPdf = () => {
-    const filename = `${payload.roster.name.replace(/\s+/g, "-").toLowerCase()}-roster.pdf`;
-    const pdf = buildRosterPdf(payload);
-    triggerDownload(filename, pdf, "application/pdf");
+  const handleExportCsv = () => {
+    const filename = `${payload.roster.name.replace(/\s+/g, "-").toLowerCase()}-roster.csv`;
+    const csv = buildCsvExport(payload, dict);
+    triggerDownload(filename, csv, "text/csv");
   };
 
   useEffect(() => {
@@ -359,8 +458,7 @@ export default function RosterExportControls({
     };
   }, [isMenuOpen]);
 
-  const resolvedVariant =
-    triggerVariant ?? (variant === "inline" ? "accent" : "primary");
+  const resolvedVariant = triggerVariant ?? (variant === "inline" ? "secondary" : "accent");
 
   const triggerButton = (
     <Button
@@ -374,7 +472,7 @@ export default function RosterExportControls({
       aria-controls={isMenuOpen ? menuId : undefined}
       leftIcon={<Download aria-hidden className="h-4 w-4" strokeWidth={2} />}
     >
-      {triggerLabel}
+      {effectiveTriggerLabel}
     </Button>
   );
 
@@ -394,7 +492,7 @@ export default function RosterExportControls({
           handleExportJson();
         }}
       >
-        JSON
+        {dict.rosterExportMenuJson}
         <span aria-hidden>→</span>
       </button>
       <button
@@ -405,7 +503,7 @@ export default function RosterExportControls({
           handleExportPdf();
         }}
       >
-        PDF
+        {dict.rosterExportMenuPdf}
         <span aria-hidden>→</span>
       </button>
       <button
@@ -416,7 +514,7 @@ export default function RosterExportControls({
           handleExportCsv();
         }}
       >
-        CSV
+        {dict.rosterExportMenuCsv}
         <span aria-hidden>→</span>
       </button>
       <button
@@ -427,7 +525,7 @@ export default function RosterExportControls({
           window.print();
         }}
       >
-        Print
+        {dict.rosterExportMenuPrint}
         <span aria-hidden>→</span>
       </button>
     </div>
@@ -435,7 +533,7 @@ export default function RosterExportControls({
 
   if (variant === "inline") {
     return (
-      <div className={joinClasses("relative", className)} aria-label="Roster export controls">
+      <div className={joinClasses("relative", className)} aria-label={dict.rosterExportAriaLabel}>
         {triggerButton}
         {menu}
       </div>
@@ -443,14 +541,13 @@ export default function RosterExportControls({
   }
 
   return (
-    <section className={className} aria-label="Roster export controls">
+    <section className={className} aria-label={dict.rosterExportAriaLabel}>
       <div className="relative rounded-2xl border border-amber-300/30 bg-slate-900/70 p-4 text-amber-100 shadow shadow-amber-900/10">
         <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-400">
-          Export roster
+          {dict.rosterExportTitle}
         </h3>
         <p className="mt-2 text-xs text-amber-200/70">
-          Download the current roster draft in multiple formats or export the list of units you
-          still need to buy.
+          {dict.rosterExportDescription}
         </p>
 
         <div className="mt-4">

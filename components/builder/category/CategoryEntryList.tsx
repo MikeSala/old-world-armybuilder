@@ -1,10 +1,12 @@
 import type { RosterEntry } from "@/lib/store/slices/rosterSlice";
+import type { Dict } from "./types";
 
 type Props = {
   entries: RosterEntry[];
+  dict: Dict;
 };
 
-export function CategoryEntryList({ entries }: Props) {
+export function CategoryEntryList({ entries, dict }: Props) {
   if (entries.length === 0) return null;
 
   return (
@@ -15,10 +17,17 @@ export function CategoryEntryList({ entries }: Props) {
           .filter((name): name is string => Boolean(name && name.trim().length > 0));
         const unitSummary =
           entry.unitSize > 1
-            ? `${entry.unitSize} models`
+            ? dict.categoryEntryMultipleModels.replace("{count}", String(entry.unitSize))
             : entry.unitSize === 1
-              ? "Single model"
+              ? dict.categoryEntrySingleModel
               : null;
+        const perModelCost = entry.pointsPerModel
+          ? dict.categoryEntryPointsPerModel.replace("{value}", String(entry.pointsPerModel))
+          : null;
+        const totalPointsLabel = dict.categoryPointsValue.replace(
+          "{value}",
+          String(entry.totalPoints)
+        );
 
         return (
           <li
@@ -28,13 +37,13 @@ export function CategoryEntryList({ entries }: Props) {
             <div className="flex items-baseline justify-between gap-3">
               <span className="text-sm font-semibold text-amber-100">{entry.name}</span>
               <span className="text-xs font-semibold uppercase tracking-wide text-amber-200/80">
-                {entry.totalPoints} pts
+                {totalPointsLabel}
               </span>
             </div>
             {unitSummary ? (
               <div className="text-xs text-amber-200/70">
                 {unitSummary}
-                {entry.pointsPerModel ? ` · ${entry.pointsPerModel} pts per model` : null}
+                {perModelCost ? ` · ${perModelCost}` : null}
               </div>
             ) : null}
             {optionNames.length > 0 ? (

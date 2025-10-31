@@ -1,12 +1,14 @@
 import type { UnitOptionGroup } from "@/lib/builder/unitHelpers";
+import type { Dict } from "./types";
 
 type Props = {
   group: UnitOptionGroup;
   selectedIds: string[];
   onToggle: (group: UnitOptionGroup, optionId: string, checked: boolean) => void;
+  dict: Dict;
 };
 
-export function OptionGroupSection({ group, selectedIds, onToggle }: Props) {
+export function OptionGroupSection({ group, selectedIds, onToggle, dict }: Props) {
   return (
     <section className="rounded-xl border border-amber-300/20 bg-slate-900/60 p-4">
       <h4 className="text-sm font-semibold uppercase tracking-wide text-amber-200">
@@ -46,8 +48,10 @@ export function OptionGroupSection({ group, selectedIds, onToggle }: Props) {
               </label>
               <span className="text-xs font-semibold text-amber-200/80">
                 {option.points
-                  ? `${option.points} pts${option.perModel ? " / model" : ""}`
-                  : "free"}
+                  ? `${dict.categoryPointsValue.replace("{value}", String(option.points))}${
+                      option.perModel ? dict.categoryOptionCostPerModelSuffix : ""
+                    }`
+                  : dict.categoryOptionCostFree}
               </span>
             </li>
           );

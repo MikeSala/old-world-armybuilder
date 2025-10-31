@@ -54,7 +54,9 @@ export function CategorySummaryPanel({
             emphasizeWarning={section.warning}
             headerAction={headerAction}
           >
-            {categoryEntries.length > 0 ? <CategoryEntryList entries={categoryEntries} /> : null}
+            {categoryEntries.length > 0 ? (
+              <CategoryEntryList entries={categoryEntries} dict={dict} />
+            ) : null}
           </CategorySummaryCard>
         );
       })}

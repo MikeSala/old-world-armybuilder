@@ -13,7 +13,12 @@ import {
 type SuggestionMode = "set" | "add";
 
 type Props = {
-  dict: { armyPointsLabel: string; armyPointsSuggestionsLabel: string };
+  dict: {
+    armyPointsLabel: string;
+    armyPointsSuggestionsLabel: string;
+    armyPointsIncreaseAria: string;
+    armyPointsDecreaseAria: string;
+  };
   step?: number; // default 50
   min?: number; // default 0
   suggestions?: number[]; // default values
@@ -38,6 +43,8 @@ export default function ArmyPointsCounter({
 
   const armyLabel = dict.armyPointsLabel;
   const armySuggestionLabel = dict.armyPointsSuggestionsLabel;
+  const increaseAria = dict.armyPointsIncreaseAria.replace("{value}", String(step));
+  const decreaseAria = dict.armyPointsDecreaseAria.replace("{value}", String(step));
 
   const updatePoints = useCallback(
     (next: number) => {
@@ -93,7 +100,7 @@ export default function ArmyPointsCounter({
             type="button"
             onClick={increment}
             className="rounded-md bg-slate-800 px-2 py-2 text-white shadow hover:bg-slate-700 active:translate-y-px"
-            aria-label={`Increase by ${step}`}
+            aria-label={increaseAria}
             title={`+${step}`}
           >
             ▲
@@ -102,7 +109,7 @@ export default function ArmyPointsCounter({
             type="button"
             onClick={decrement}
             className="mt-2 rounded-md bg-slate-800 px-2 py-2 text-white shadow hover:bg-slate-700 active:translate-y-px"
-            aria-label={`Decrease by ${step}`}
+            aria-label={decreaseAria}
             title={`-${step}`}
           >
             ▼

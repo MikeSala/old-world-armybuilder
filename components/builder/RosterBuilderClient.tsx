@@ -31,6 +31,8 @@ type Dict = {
   armyRuleLabel: string; // e.g. "Army Rule"
   armyPointsLabel: string; // for ArmyPointsCounter
   armyPointsSuggestionsLabel: string; // for ArmyPointsCounter
+  armyPointsIncreaseAria: string;
+  armyPointsDecreaseAria: string;
   rosterNameLabel: string;
   rosterNamePh?: string;
   rosterDescLabel: string;
@@ -42,6 +44,11 @@ type Dict = {
   validationPointsRequired: string; // e.g. "Set points limit > 0"
   saveSuccess: string; // e.g. "Saved"
   saveError: string; // e.g. "Could not save"
+  rosterSetupHeading: string;
+  rosterSetupEditButton: string;
+  rosterSetupCollapseButton: string;
+  rosterSetupSaveButton: string;
+  rosterSetupSavedButton: string;
 };
 
 type DraftSnapshot = RosterDraft & { updatedAt: number };
@@ -105,14 +112,14 @@ export default function RosterBuilderClient({ dict, className, onSaved }: Props)
       <div className="flex flex-col gap-4">
         <div className="flex items-center justify-between">
           <h3 className="text-sm font-semibold uppercase tracking-[0.25em] text-amber-300">
-            Roster Setup
+            {dict.rosterSetupHeading}
           </h3>
           <Button
             variant="secondary"
             size="sm"
             onClick={() => dispatch(setSetupCollapsed(!collapsed))}
           >
-            {collapsed ? "Edit details" : "Collapse"}
+            {collapsed ? dict.rosterSetupEditButton : dict.rosterSetupCollapseButton}
           </Button>
         </div>
 
@@ -162,6 +169,8 @@ export default function RosterBuilderClient({ dict, className, onSaved }: Props)
                   dict={{
                     armyPointsLabel: dict.armyPointsLabel,
                     armyPointsSuggestionsLabel: dict.armyPointsSuggestionsLabel,
+                    armyPointsIncreaseAria: dict.armyPointsIncreaseAria,
+                    armyPointsDecreaseAria: dict.armyPointsDecreaseAria,
                   }}
                   className="max-w-xs"
                 />
@@ -189,7 +198,7 @@ export default function RosterBuilderClient({ dict, className, onSaved }: Props)
                     : "bg-amber-600 hover:bg-amber-500"
                 }`}
               >
-                {savedAt ? "Zapisane" : "Zapisz"}
+                {savedAt ? dict.rosterSetupSavedButton : dict.rosterSetupSaveButton}
               </button>
             </section>
           </div>

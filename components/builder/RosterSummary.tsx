@@ -9,7 +9,12 @@ import { Button } from "@/components/ui/Button";
 import RosterDetailSheet from "@/components/builder/RosterDetailSheet";
 import RosterExportControls from "@/components/builder/RosterExportControls";
 
-type GroupedEntries = Record<string, RosterEntry[]>;
+import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
+import type { CategoryKey } from "@/lib/data/domain/types/categories";
+
+type Dict = LocaleDictionary;
+
+type GroupedEntries = Partial<Record<CategoryKey, RosterEntry[]>>;
 
 function groupEntriesByCategory(entries: RosterEntry[]): GroupedEntries {
   return entries.reduce<GroupedEntries>((acc, entry) => {
@@ -20,19 +25,24 @@ function groupEntriesByCategory(entries: RosterEntry[]): GroupedEntries {
   }, {});
 }
 
-function formatCategoryLabel(category: string): string {
-  return category
+const fallbackCategoryLabel = (category: string): string =>
+  category
     .split("-")
     .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
     .join(" ");
-}
 
-export default function RosterSummary({ className }: { className?: string }) {
+type Props = {
+  dict: Dict;
+  className?: string;
+};
+
+export default function RosterSummary({ dict, className }: Props) {
   const dispatch = useDispatch<AppDispatch>();
   const { name, description, entries, pointsLimit } = useSelector(
     (state: RootState) => state.roster.draft
   );
   const [showDetailSheet, setShowDetailSheet] = React.useState(false);
+  const [autoPrint, setAutoPrint] = React.useState(false);
 
   React.useEffect(() => {
     if (!showDetailSheet) return;
@@ -43,40 +53,73 @@ export default function RosterSummary({ className }: { className?: string }) {
     };
   }, [showDetailSheet]);
 
-  const normalizedEntries = entries.map((entry) => {
-    const legacyPoints = (entry as unknown as { points?: number }).points;
-    const basePoints =
-      typeof entry.basePoints === "number"
-        ? entry.basePoints
-        : typeof legacyPoints === "number"
-        ? legacyPoints
-        : 0;
-    const options = Array.isArray(entry.options) ? entry.options : [];
-    const optionsPoints = options.reduce((sum, opt) => sum + opt.points, 0);
-    const totalPoints =
-      typeof entry.totalPoints === "number" ? entry.totalPoints : basePoints + optionsPoints;
-    const unitSize =
-      typeof entry.unitSize === "number" && entry.unitSize > 0 ? entry.unitSize : 1;
-    const pointsPerModel =
-      typeof entry.pointsPerModel === "number" && entry.pointsPerModel > 0
-        ? entry.pointsPerModel
-        : unitSize > 0
-        ? basePoints / unitSize
-        : basePoints;
+  const formatPoints = React.useCallback(
+    (value: number) => dict.categoryPointsValue.replace("{value}", String(value)),
+    [dict.categoryPointsValue]
+  );
 
-    return {
-      ...entry,
-      basePoints,
-      totalPoints,
-      options,
-      owned: Boolean(entry.owned),
-      unitSize,
-      pointsPerModel,
-    };
-  });
+  const categoryLabels = React.useMemo(
+    () => ({
+      characters: dict.categoryCharactersLabel,
+      core: dict.categoryCoreLabel,
+      special: dict.categorySpecialLabel,
+      rare: dict.categoryRareLabel,
+      mercenaries: dict.categoryMercsLabel,
+      allies: dict.categoryAlliesLabel,
+    }),
+    [
+      dict.categoryCharactersLabel,
+      dict.categoryCoreLabel,
+      dict.categorySpecialLabel,
+      dict.categoryRareLabel,
+      dict.categoryMercsLabel,
+      dict.categoryAlliesLabel,
+    ]
+  );
 
-  const groups = groupEntriesByCategory(normalizedEntries);
-  const totalSpent = normalizedEntries.reduce((sum, entry) => sum + entry.totalPoints, 0);
+  const normalizedEntries = React.useMemo(() => {
+    return entries.map((entry) => {
+      const legacyPoints = (entry as unknown as { points?: number }).points;
+      const basePoints =
+        typeof entry.basePoints === "number"
+          ? entry.basePoints
+          : typeof legacyPoints === "number"
+          ? legacyPoints
+          : 0;
+      const options = Array.isArray(entry.options) ? entry.options : [];
+      const optionsPoints = options.reduce((sum, opt) => sum + (opt.points ?? 0), 0);
+      const totalPoints =
+        typeof entry.totalPoints === "number" ? entry.totalPoints : basePoints + optionsPoints;
+      const unitSize =
+        typeof entry.unitSize === "number" && entry.unitSize > 0 ? entry.unitSize : 1;
+      const pointsPerModel =
+        typeof entry.pointsPerModel === "number" && entry.pointsPerModel > 0
+          ? entry.pointsPerModel
+          : unitSize > 0
+          ? basePoints / unitSize
+          : basePoints;
+
+      return {
+        ...entry,
+        basePoints,
+        totalPoints,
+        options,
+        owned: Boolean(entry.owned),
+        unitSize,
+        pointsPerModel,
+      };
+    });
+  }, [entries]);
+
+  const groups = React.useMemo(
+    () => groupEntriesByCategory(normalizedEntries),
+    [normalizedEntries]
+  );
+  const totalSpent = React.useMemo(
+    () => normalizedEntries.reduce((sum, entry) => sum + entry.totalPoints, 0),
+    [normalizedEntries]
+  );
+  const hasEntries = normalizedEntries.length > 0;
 
   return (
     <aside className={className} aria-labelledby="roster-summary-heading">
@@ -84,115 +127,173 @@ export default function RosterSummary({ className }: { className?: string }) {
         <header className="mb-4">
           <div className="flex items-start justify-between gap-4">
             <div>
-              <p className="text-sm uppercase tracking-[0.3em] text-amber-400">Roster Summary</p>
+              <p className="text-sm uppercase tracking-[0.3em] text-amber-400">
+                {dict.rosterSummaryHeading}
+              </p>
               <h2 id="roster-summary-heading" className="mt-1 text-2xl font-semibold">
-                {name || "Untitled roster"}
+                {name || dict.rosterSummaryDefaultName}
               </h2>
               {description ? (
                 <p className="mt-2 text-sm text-amber-200/70">{description}</p>
               ) : null}
             </div>
-            {entries.length ? (
+            {hasEntries ? (
               <div className="flex flex-wrap items-center justify-end gap-2">
                 <RosterExportControls
+                  dict={dict}
                   variant="inline"
                   triggerVariant="accent"
-                  triggerLabel="Download roster"
                 />
-                <Button variant="accent" size="sm" onClick={() => setShowDetailSheet(true)}>
-                  View roster sheet
+                <Button variant="secondary" size="sm" onClick={() => setShowDetailSheet(true)}>
+                  {dict.rosterViewSheetButton}
+                </Button>
+                <Button
+                  variant="accent"
+                  size="sm"
+                  onClick={() => {
+                    setShowDetailSheet(true);
+                    setAutoPrint(true);
+                  }}
+                >
+                  {dict.rosterPrintButton}
                 </Button>
               </div>
             ) : null}
           </div>
           <div className="mt-3 flex items-center justify-between text-sm text-amber-200">
-            <span>Points limit</span>
-            <span className="font-semibold">{pointsLimit}</span>
+            <span>{dict.rosterPointsLimitLabel}</span>
+            <span className="font-semibold">{formatPoints(pointsLimit)}</span>
           </div>
           <div className="flex items-center justify-between text-sm text-amber-200">
-            <span>Total spent</span>
-            <span className="font-semibold">{totalSpent}</span>
+            <span>{dict.rosterTotalSpentLabel}</span>
+            <span className="font-semibold">{formatPoints(totalSpent)}</span>
           </div>
         </header>
 
-        {entries.length === 0 ? (
-          <p className="text-sm text-amber-200/60">
-            No units selected yet. Use the category panels to add entries to your roster.
-          </p>
+        {!hasEntries ? (
+          <p className="text-sm text-amber-200/60">{dict.rosterSummaryEmptyMessage}</p>
         ) : (
           <ul className="space-y-5 text-sm">
-            {Object.entries(groups).map(([category, items]) => (
-              <li key={category} className="rounded-xl bg-slate-800/60 p-4">
-                <div className="mb-2 flex items-center justify-between">
-                  <span className="font-semibold text-amber-200">
-                    {formatCategoryLabel(category)}
-                  </span>
-                  <span className="text-amber-200/70">
-                    {items.reduce((sum, entry) => sum + entry.totalPoints, 0)} pts
-                  </span>
-                </div>
-                <ul className="space-y-2 text-amber-100/90">
-                  {items.map((entry: RosterEntry) => (
-                    <li key={entry.id} className="rounded-lg bg-slate-900/60 px-3 py-2">
-                      <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
-                        <div className="flex flex-col gap-1">
-                          <span className="font-medium text-amber-100">{entry.name}</span>
-                          <label className="flex items-center gap-2 text-xs text-amber-200/80">
-                            <input
-                              type="checkbox"
-                              checked={entry.owned}
-                              onChange={(event) =>
-                                dispatch(toggleEntryOwned({ id: entry.id, owned: event.target.checked }))
-                              }
-                              className="h-4 w-4 rounded border-amber-400 bg-slate-900 text-amber-500 focus:ring-amber-400"
-                            />
-                            <span>I own this unit</span>
-                          </label>
-                        </div>
-                        <div className="flex items-center gap-3">
-                          <span className="text-amber-200/80">{entry.totalPoints} pts</span>
-                          <Button
-                            variant="secondary"
-                            size="sm"
-                            onClick={() => dispatch(removeEntry(entry.id))}
-                            aria-label={`Remove ${entry.name}`}
-                          >
-                            Remove
-                          </Button>
-                        </div>
-                      </div>
-                      <div className="mt-1 text-xs text-amber-200/70">
-                        Base cost: {entry.basePoints} pts
-                        {entry.unitSize > 1
-                          ? ` · ${entry.unitSize} models @ ${entry.pointsPerModel} pts`
-                          : ""}
-                      </div>
-                      {entry.options.length ? (
-                        <ul className="mt-2 space-y-1 text-xs text-amber-200/70">
-                          {entry.options.map((opt) => (
-                            <li key={opt.id} className="flex items-center justify-between gap-3">
-                              <span>
-                                <span className="font-medium">{opt.group}:</span> {opt.name}
-                                {opt.note ? <span className="text-amber-200/60"> — {opt.note}</span> : null}
-                              </span>
-                              <span className="text-amber-200/80">
-                                {opt.points
-                                  ? `${opt.points} pts${
-                                      opt.perModel && opt.baseCost
-                                        ? ` (${opt.baseCost} pts/model)`
-                                        : ""
-                                    }`
-                                  : "free"}
-                              </span>
-                            </li>
-                          ))}
-                        </ul>
-                      ) : null}
-                    </li>
-                  ))}
-                </ul>
-              </li>
-            ))}
+            {(Object.entries(groups) as Array<[CategoryKey, RosterEntry[]]>).map(
+              ([category, items]) => {
+                const categoryLabel =
+                  categoryLabels[category] ?? fallbackCategoryLabel(category);
+                const categoryPoints = formatPoints(
+                  items.reduce((sum, entry) => sum + entry.totalPoints, 0)
+                );
+
+                return (
+                  <li key={category} className="rounded-xl bg-slate-800/60 p-4">
+                    <div className="mb-2 flex items-center justify-between">
+                      <span className="font-semibold text-amber-200">{categoryLabel}</span>
+                      <span className="text-amber-200/70">{categoryPoints}</span>
+                    </div>
+                    <ul className="space-y-2 text-amber-100/90">
+                      {items.map((entry) => {
+                        const optionNames = entry.options
+                          .map((opt) => opt.name)
+                          .filter(
+                            (value): value is string => Boolean(value && value.trim().length > 0)
+                          );
+                        const baseCostText = dict.rosterSummaryBaseCost.replace(
+                          "{value}",
+                          formatPoints(entry.basePoints)
+                        );
+                        const unitSizeDetail =
+                          entry.unitSize > 1
+                            ? `${dict.categoryEntryMultipleModels.replace(
+                                "{count}",
+                                String(entry.unitSize)
+                              )} @ ${dict.categoryEntryPointsPerModel.replace(
+                                "{value}",
+                                String(entry.pointsPerModel)
+                              )}`
+                            : null;
+                        const entryPointsLabel = formatPoints(entry.totalPoints);
+
+                        return (
+                          <li key={entry.id} className="rounded-lg bg-slate-900/60 px-3 py-2">
+                            <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                              <div className="flex flex-col gap-1">
+                                <span className="font-medium text-amber-100">{entry.name}</span>
+                                <label className="flex items-center gap-2 text-xs text-amber-200/80">
+                                  <input
+                                    type="checkbox"
+                                    checked={entry.owned}
+                                    onChange={(event) =>
+                                      dispatch(
+                                        toggleEntryOwned({
+                                          id: entry.id,
+                                          owned: event.target.checked,
+                                        })
+                                      )
+                                    }
+                                    className="h-4 w-4 rounded border-amber-400 bg-slate-900 text-amber-500 focus:ring-amber-400"
+                                  />
+                                  <span>{dict.rosterSummaryOwnedLabel}</span>
+                                </label>
+                              </div>
+                              <div className="flex items-center gap-3">
+                                <span className="text-amber-200/80">{entryPointsLabel}</span>
+                                <Button
+                                  variant="secondary"
+                                  size="sm"
+                                  onClick={() => dispatch(removeEntry(entry.id))}
+                                  aria-label={dict.rosterSummaryRemoveAria.replace(
+                                    "{unit}",
+                                    entry.name
+                                  )}
+                                >
+                                  {dict.rosterSummaryRemoveButton}
+                                </Button>
+                              </div>
+                            </div>
+                            <div className="mt-1 text-xs text-amber-200/70">
+                              {baseCostText}
+                              {unitSizeDetail ? ` · ${unitSizeDetail}` : ""}
+                            </div>
+                            {entry.options.length ? (
+                              <ul className="mt-2 space-y-1 text-xs text-amber-200/70">
+                                {entry.options.map((opt) => {
+                                  const optionCost = opt.points
+                                    ? `${formatPoints(opt.points)}${
+                                        opt.perModel && typeof opt.baseCost === "number"
+                                          ? ` (${formatPoints(opt.baseCost)}${
+                                              dict.categoryOptionCostPerModelSuffix
+                                            })`
+                                          : ""
+                                      }`
+                                    : dict.categoryOptionCostFree;
+                                  return (
+                                    <li
+                                      key={opt.id}
+                                      className="flex items-center justify-between gap-3"
+                                    >
+                                      <span>
+                                        <span className="font-medium">{opt.group}:</span> {opt.name}
+                                        {opt.note ? (
+                                          <span className="text-amber-200/60"> — {opt.note}</span>
+                                        ) : null}
+                                      </span>
+                                      <span className="text-amber-200/80">{optionCost}</span>
+                                    </li>
+                                  );
+                                })}
+                              </ul>
+                            ) : null}
+                            {optionNames.length > 0 ? (
+                              <div className="mt-2 text-xs text-amber-200/70">
+                                {optionNames.join(", ")}
+                              </div>
+                            ) : null}
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </li>
+                );
+              }
+            )}
           </ul>
         )}
       </div>
@@ -205,7 +306,15 @@ export default function RosterSummary({ className }: { className?: string }) {
           aria-labelledby="roster-detail-sheet-heading"
         >
           <div onClick={(event) => event.stopPropagation()}>
-            <RosterDetailSheet onClose={() => setShowDetailSheet(false)} />
+            <RosterDetailSheet
+              dict={dict}
+              autoPrint={autoPrint}
+              onPrinted={() => setAutoPrint(false)}
+              onClose={() => {
+                setShowDetailSheet(false);
+                setAutoPrint(false);
+              }}
+            />
           </div>
         </div>
       ) : null}
