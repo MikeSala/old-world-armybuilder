@@ -23,6 +23,7 @@ type SelectedOption = {
   note?: string;
   perModel?: boolean;
   baseCost?: number;
+  sourceId?: string;
 };
 
 type RosterEntry = {
@@ -99,15 +100,16 @@ const normalizeSelectedOption = (option: any): SelectedOption => ({
   name:
     typeof option?.name === "string" && option.name.trim().length > 0
       ? option.name
-      : "Option",
+      : "",
   points: typeof option?.points === "number" ? option.points : 0,
   group:
     typeof option?.group === "string" && option.group.trim().length > 0
       ? option.group
-      : "Options",
+      : "",
   note: typeof option?.note === "string" ? option.note : undefined,
   perModel: typeof option?.perModel === "boolean" ? option.perModel : undefined,
   baseCost: typeof option?.baseCost === "number" ? option.baseCost : undefined,
+  sourceId: typeof option?.sourceId === "string" ? option.sourceId : undefined,
 });
 
 const normalizeEntry = (entry: any): RosterEntry => {
@@ -154,7 +156,7 @@ const normalizeEntry = (entry: any): RosterEntry => {
     name:
       typeof entry?.name === "string" && entry.name.trim().length > 0
         ? entry.name
-        : "Unknown unit",
+        : "",
     category,
     unitSize,
     pointsPerModel: normalizedPointsPerModel,
