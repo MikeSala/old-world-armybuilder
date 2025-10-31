@@ -1,13 +1,26 @@
 [
   {
     "name": "Black Ark Corsairs",
-    "stats": { "M": 5, "WS": 4, "BS": 4, "S": 3, "T": 3, "W": 1, "I": 4, "A": 1, "Ld": 8 },
+    "stats": {
+      "M": 5,
+      "WS": 4,
+      "BS": 4,
+      "S": 3,
+      "T": 3,
+      "W": 1,
+      "I": 4,
+      "A": 1,
+      "Ld": 8
+    },
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
     "unitSize": "10+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "Light armour"],
+    "equipment": [
+      "Hand weapons",
+      "Light armour"
+    ],
     "specialRules": [
       "Elven Reflexes",
       "Hatred (High Elves)",
@@ -18,7 +31,17 @@
     "profiles": [
       {
         "name": "Reaver",
-        "stats": { "M": 5, "WS": 4, "BS": 4, "S": 3, "T": 3, "W": 1, "I": 4, "A": 2, "Ld": 8 }
+        "stats": {
+          "M": 5,
+          "WS": 4,
+          "BS": 4,
+          "S": 3,
+          "T": 3,
+          "W": 1,
+          "I": 4,
+          "A": 2,
+          "Ld": 8
+        }
       }
     ]
   },
@@ -58,13 +81,27 @@
   },
   {
     "name": "Black Guard of Naggarond",
-    "stats": { "M": 5, "WS": 5, "BS": 4, "S": 3, "T": 3, "W": 1, "I": 5, "A": 1, "Ld": 9 },
+    "stats": {
+      "M": 5,
+      "WS": 5,
+      "BS": 4,
+      "S": 3,
+      "T": 3,
+      "W": 1,
+      "I": 5,
+      "A": 1,
+      "Ld": 9
+    },
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
     "unitSize": "10+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "Dread halberds", "Full plate armour"],
+    "equipment": [
+      "Hand weapons",
+      "Dread halberds",
+      "Full plate armour"
+    ],
     "specialRules": [
       "Close Order",
       "Elven Reflexes",
@@ -77,19 +114,43 @@
     "profiles": [
       {
         "name": "Tower Master",
-        "stats": { "M": 5, "WS": 5, "BS": 4, "S": 3, "T": 3, "W": 1, "I": 5, "A": 2, "Ld": 9 }
+        "stats": {
+          "M": 5,
+          "WS": 5,
+          "BS": 4,
+          "S": 3,
+          "T": 3,
+          "W": 1,
+          "I": 5,
+          "A": 2,
+          "Ld": 9
+        }
       }
     ]
   },
   {
     "name": "Bloodwrack Medusa",
-    "stats": { "M": 7, "WS": 5, "BS": 5, "S": 4, "T": 4, "W": 4, "I": 5, "A": 3, "Ld": 7 },
+    "stats": {
+      "M": 7,
+      "WS": 5,
+      "BS": 5,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "I": 5,
+      "A": 3,
+      "Ld": 7
+    },
     "unitCategory": "Monster",
     "troopType": "Monstrous Creature",
     "baseSize": "40 x 40 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "Petrifying gaze", "Light armour"],
+    "equipment": [
+      "Hand weapon",
+      "Petrifying gaze",
+      "Light armour"
+    ],
     "specialRules": [
       "Close Order",
       "Elven Reflexes",
@@ -142,7 +203,17 @@
     "profiles": [
       {
         "name": "Shrinekeeper (x2)",
-        "stats": { "M": "-", "WS": 4, "BS": 4, "S": 3, "T": "-", "W": "-", "I": 5, "A": 1, "Ld": 8 }
+        "stats": {
+          "M": "-",
+          "WS": 4,
+          "BS": 4,
+          "S": 3,
+          "T": "-",
+          "W": "-",
+          "I": 5,
+          "A": 1,
+          "Ld": 8
+        }
       },
       {
         "name": "Bloodwrack Medusa",
@@ -178,7 +249,9 @@
     "baseSize": "60 x 100 mm",
     "unitSize": "1",
     "armourValue": "4+",
-    "equipment": ["Witch Elf Crew: Two hand weapons"],
+    "equipment": [
+      "Witch Elf Crew: Two hand weapons"
+    ],
     "specialRules": [
       "Blessings of Khaine",
       "Close Order",
@@ -196,19 +269,41 @@
     "profiles": [
       {
         "name": "Witch Elf Crew (x2)",
-        "stats": { "M": "-", "WS": 4, "BS": 4, "S": 3, "T": "-", "W": "-", "I": 5, "A": 1, "Ld": 9 }
+        "stats": {
+          "M": "-",
+          "WS": 4,
+          "BS": 4,
+          "S": 3,
+          "T": "-",
+          "W": "-",
+          "I": 5,
+          "A": 1,
+          "Ld": 9
+        }
       }
     ]
   },
   {
     "name": "Cold One (Dark Elves)",
-    "stats": { "M": 7, "WS": 3, "BS": "-", "S": 4, "T": "+1", "W": "-", "I": 2, "A": 2, "Ld": "-" },
+    "stats": {
+      "M": 7,
+      "WS": 3,
+      "BS": "-",
+      "S": 4,
+      "T": "+1",
+      "W": "-",
+      "I": 2,
+      "A": 2,
+      "Ld": "-"
+    },
     "unitCategory": "Mount",
     "troopType": "Heavy Cavalry",
     "baseSize": "30 x 60 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Claws and teeth (hand weapon)"],
+    "equipment": [
+      "Claws and teeth (hand weapon)"
+    ],
     "specialRules": [
       "Armour Bane (1, Cold One only)",
       "Armoured Hide (1)",
@@ -255,7 +350,17 @@
     "profiles": [
       {
         "name": "Knight Charioteer (x2)",
-        "stats": { "M": "-", "WS": 5, "BS": 4, "S": 4, "T": "-", "W": "-", "I": 5, "A": 1, "Ld": 9 }
+        "stats": {
+          "M": "-",
+          "WS": 5,
+          "BS": 4,
+          "S": 4,
+          "T": "-",
+          "W": "-",
+          "I": 5,
+          "A": 1,
+          "Ld": 9
+        }
       },
       {
         "name": "Cold One (x2)",
@@ -275,7 +380,17 @@
   },
   {
     "name": "Cold One Knights",
-    "stats": { "M": "-", "WS": 5, "BS": 4, "S": 4, "T": 4, "W": 1, "I": 5, "A": 1, "Ld": 9 },
+    "stats": {
+      "M": "-",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 1,
+      "I": 5,
+      "A": 1,
+      "Ld": 9
+    },
     "unitCategory": "Cavalry",
     "troopType": "Heavy Cavalry",
     "baseSize": "30 x 60 mm",
@@ -302,7 +417,17 @@
     "profiles": [
       {
         "name": "Dread Knight",
-        "stats": { "M": "-", "WS": 5, "BS": 4, "S": 4, "T": 4, "W": 1, "I": 5, "A": 2, "Ld": 9 }
+        "stats": {
+          "M": "-",
+          "WS": 5,
+          "BS": 4,
+          "S": 4,
+          "T": 4,
+          "W": 1,
+          "I": 5,
+          "A": 2,
+          "Ld": 9
+        }
       },
       {
         "name": "Cold One",
@@ -322,35 +447,84 @@
   },
   {
     "name": "Dark Elf Dreadlord",
-    "stats": { "M": 5, "WS": 7, "BS": 7, "S": 4, "T": 3, "W": 3, "I": 6, "A": 4, "Ld": 10 },
+    "stats": {
+      "M": 5,
+      "WS": 7,
+      "BS": 7,
+      "S": 4,
+      "T": 3,
+      "W": 3,
+      "I": 6,
+      "A": 4,
+      "Ld": 10
+    },
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "Light armour"],
-    "specialRules": ["Eternal Hatred", "Hatred (High Elves)", "Murderous", "Strike First"]
+    "equipment": [
+      "Hand weapon",
+      "Light armour"
+    ],
+    "specialRules": [
+      "Eternal Hatred",
+      "Hatred (High Elves)",
+      "Murderous",
+      "Strike First"
+    ]
   },
   {
     "name": "Dark Elf Master",
-    "stats": { "M": 5, "WS": 6, "BS": 6, "S": 4, "T": 3, "W": 2, "I": 5, "A": 3, "Ld": 9 },
+    "stats": {
+      "M": 5,
+      "WS": 6,
+      "BS": 6,
+      "S": 4,
+      "T": 3,
+      "W": 2,
+      "I": 5,
+      "A": 3,
+      "Ld": 9
+    },
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "Light armour"],
-    "specialRules": ["Eternal Hatred", "Hatred (High Elves)", "Murderous", "Strike First"]
+    "equipment": [
+      "Hand weapon",
+      "Light armour"
+    ],
+    "specialRules": [
+      "Eternal Hatred",
+      "Hatred (High Elves)",
+      "Murderous",
+      "Strike First"
+    ]
   },
   {
     "name": "Dark Elf Shades",
-    "stats": { "M": 5, "WS": 5, "BS": 5, "S": 3, "T": 3, "W": 1, "I": 5, "A": 1, "Ld": 8 },
+    "stats": {
+      "M": 5,
+      "WS": 5,
+      "BS": 5,
+      "S": 3,
+      "T": 3,
+      "W": 1,
+      "I": 5,
+      "A": 1,
+      "Ld": 8
+    },
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
     "unitSize": "5+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "Repeater crossbows"],
+    "equipment": [
+      "Hand weapons",
+      "Repeater crossbows"
+    ],
     "specialRules": [
       "Elven Reflexes",
       "Evasive",
@@ -362,24 +536,63 @@
     "profiles": [
       {
         "name": "Bloodshade",
-        "stats": { "M": 5, "WS": 5, "BS": 6, "S": 3, "T": 3, "W": 1, "I": 5, "A": 1, "Ld": 8 }
+        "stats": {
+          "M": 5,
+          "WS": 5,
+          "BS": 6,
+          "S": 3,
+          "T": 3,
+          "W": 1,
+          "I": 5,
+          "A": 1,
+          "Ld": 8
+        }
       }
     ]
   },
   {
     "name": "Dark Elf Warriors",
-    "stats": { "M": 5, "WS": 4, "BS": 4, "S": 3, "T": 3, "W": 1, "I": 4, "A": 1, "Ld": 8 },
+    "stats": {
+      "M": 5,
+      "WS": 4,
+      "BS": 4,
+      "S": 3,
+      "T": 3,
+      "W": 1,
+      "I": 4,
+      "A": 1,
+      "Ld": 8
+    },
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
     "unitSize": "10+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "Light armour", "Shields"],
-    "specialRules": ["Close Order", "Elven Reflexes", "Hatred (High Elves)", "Martial Prowess"],
+    "equipment": [
+      "Hand weapons",
+      "Light armour",
+      "Shields"
+    ],
+    "specialRules": [
+      "Close Order",
+      "Elven Reflexes",
+      "Hatred (High Elves)",
+      "Martial Prowess"
+    ],
     "profiles": [
       {
         "name": "Lordling",
-        "stats": { "M": 5, "WS": 4, "BS": 4, "S": 3, "T": 3, "W": 1, "I": 4, "A": 2, "Ld": 8 }
+        "stats": {
+          "M": 5,
+          "WS": 4,
+          "BS": 4,
+          "S": 3,
+          "T": 3,
+          "W": 1,
+          "I": 4,
+          "A": 2,
+          "Ld": 8
+        }
       }
     ]
   },
@@ -401,7 +614,9 @@
     "baseSize": "40 x 60 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hooves (hand weapon)"],
+    "equipment": [
+      "Hooves (hand weapon)"
+    ],
     "specialRules": [
       "Armour Bane (1, Dark Pegasus only)",
       "Counter Charge",
@@ -412,13 +627,28 @@
   },
   {
     "name": "Dark Riders",
-    "stats": { "M": "-", "WS": 4, "BS": 4, "S": 3, "T": 3, "W": 1, "I": 4, "A": 1, "Ld": 8 },
+    "stats": {
+      "M": "-",
+      "WS": 4,
+      "BS": 4,
+      "S": 3,
+      "T": 3,
+      "W": 1,
+      "I": 4,
+      "A": 1,
+      "Ld": 8
+    },
     "unitCategory": "Cavalry",
     "troopType": "Light Cavalry",
     "baseSize": "30 x 60 mm",
     "unitSize": "5+",
     "armourValue": "—",
-    "equipment": ["Riders: Hand weapons", "Cavalry spears", "Light armour", "Dark Steeds: Hooves"],
+    "equipment": [
+      "Riders: Hand weapons",
+      "Cavalry spears",
+      "Light armour",
+      "Dark Steeds: Hooves"
+    ],
     "specialRules": [
       "Elven Reflexes",
       "Fast Cavalry",
@@ -430,7 +660,17 @@
     "profiles": [
       {
         "name": "Herald",
-        "stats": { "M": "-", "WS": 4, "BS": 4, "S": 3, "T": 3, "W": 1, "I": 4, "A": 2, "Ld": 8 }
+        "stats": {
+          "M": "-",
+          "WS": 4,
+          "BS": 4,
+          "S": 3,
+          "T": 3,
+          "W": 1,
+          "I": 4,
+          "A": 2,
+          "Ld": 8
+        }
       },
       {
         "name": "Dark Steed",
@@ -450,24 +690,51 @@
   },
   {
     "name": "Dark Steed",
-    "stats": { "M": 9, "WS": 3, "BS": "-", "S": 3, "T": "-", "W": "-", "I": 4, "A": 1, "Ld": "-" },
+    "stats": {
+      "M": 9,
+      "WS": 3,
+      "BS": "-",
+      "S": 3,
+      "T": "-",
+      "W": "-",
+      "I": 4,
+      "A": 1,
+      "Ld": "-"
+    },
     "unitCategory": "Mount",
     "troopType": "Light Cavalry",
     "baseSize": "30 x 60 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hooves (hand weapon)"],
-    "specialRules": ["Fast Cavalry", "Swiftstride"]
+    "equipment": [
+      "Hooves (hand weapon)"
+    ],
+    "specialRules": [
+      "Fast Cavalry",
+      "Swiftstride"
+    ]
   },
   {
     "name": "Death Hag",
-    "stats": { "M": 5, "WS": 6, "BS": 6, "S": 4, "T": 3, "W": 2, "I": 7, "A": 3, "Ld": 8 },
+    "stats": {
+      "M": 5,
+      "WS": 6,
+      "BS": 6,
+      "S": 4,
+      "T": 3,
+      "W": 2,
+      "I": 7,
+      "A": 3,
+      "Ld": 8
+    },
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Two hand weapons"],
+    "equipment": [
+      "Two hand weapons"
+    ],
     "specialRules": [
       "Eternal Hatred",
       "Frenzy",
@@ -480,13 +747,26 @@
   },
   {
     "name": "Doomfire Warlocks",
-    "stats": { "M": "-", "WS": 4, "BS": 4, "S": 4, "T": 3, "W": 1, "I": 5, "A": 1, "Ld": 8 },
+    "stats": {
+      "M": "-",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 3,
+      "W": 1,
+      "I": 5,
+      "A": 1,
+      "Ld": 8
+    },
     "unitCategory": "Cavalry",
     "troopType": "Light Cavalry",
     "baseSize": "30 x 60 mm",
     "unitSize": "5+",
     "armourValue": "—",
-    "equipment": ["Warlocks: Hand weapons", "Dark Steeds: Hooves"],
+    "equipment": [
+      "Warlocks: Hand weapons",
+      "Dark Steeds: Hooves"
+    ],
     "specialRules": [
       "Cursed Coven",
       "Dark Runes",
@@ -500,7 +780,17 @@
     "profiles": [
       {
         "name": "Master",
-        "stats": { "M": "-", "WS": 4, "BS": 4, "S": 4, "T": 3, "W": 1, "I": 5, "A": 2, "Ld": 8 }
+        "stats": {
+          "M": "-",
+          "WS": 4,
+          "BS": 4,
+          "S": 4,
+          "T": 3,
+          "W": 1,
+          "I": 5,
+          "A": 2,
+          "Ld": 8
+        }
       },
       {
         "name": "Dark Steed",
@@ -520,13 +810,27 @@
   },
   {
     "name": "Har Ganeth Executioners",
-    "stats": { "M": 5, "WS": 5, "BS": 4, "S": 4, "T": 3, "W": 1, "I": 5, "A": 1, "Ld": 9 },
+    "stats": {
+      "M": 5,
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 3,
+      "W": 1,
+      "I": 5,
+      "A": 1,
+      "Ld": 9
+    },
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
     "unitSize": "10+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "Har Ganeth greatswords", "Heavy armour"],
+    "equipment": [
+      "Hand weapons",
+      "Har Ganeth greatswords",
+      "Heavy armour"
+    ],
     "specialRules": [
       "Close Order",
       "Elven Reflexes",
@@ -537,30 +841,72 @@
     "profiles": [
       {
         "name": "Draich Master",
-        "stats": { "M": 5, "WS": 5, "BS": 4, "S": 4, "T": 3, "W": 1, "I": 5, "A": 2, "Ld": 9 }
+        "stats": {
+          "M": 5,
+          "WS": 5,
+          "BS": 4,
+          "S": 4,
+          "T": 3,
+          "W": 1,
+          "I": 5,
+          "A": 2,
+          "Ld": 9
+        }
       }
     ]
   },
   {
     "name": "Harpies",
-    "stats": { "M": 5, "WS": 3, "BS": 0, "S": 3, "T": 3, "W": 1, "I": 5, "A": 2, "Ld": 6 },
+    "stats": {
+      "M": 5,
+      "WS": 3,
+      "BS": 0,
+      "S": 3,
+      "T": 3,
+      "W": 1,
+      "I": 5,
+      "A": 2,
+      "Ld": 6
+    },
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
     "unitSize": "5+",
     "armourValue": "—",
-    "equipment": ["Claws (hand weapons)"],
-    "specialRules": ["Fly (10)", "Move Through Cover", "Scouts", "Skirmishers", "Swiftstride"]
+    "equipment": [
+      "Claws (hand weapons)"
+    ],
+    "specialRules": [
+      "Fly (10)",
+      "Move Through Cover",
+      "Scouts",
+      "Skirmishers",
+      "Swiftstride"
+    ]
   },
   {
     "name": "High Beastmaster",
-    "stats": { "M": "-", "WS": 7, "BS": 7, "S": 4, "T": 3, "W": 3, "I": 5, "A": 3, "Ld": 9 },
+    "stats": {
+      "M": "-",
+      "WS": 7,
+      "BS": 7,
+      "S": 4,
+      "T": 3,
+      "W": 3,
+      "I": 5,
+      "A": 3,
+      "Ld": 9
+    },
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "(as mount)",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "Whip", "Light armour"],
+    "equipment": [
+      "Hand weapon",
+      "Whip",
+      "Light armour"
+    ],
     "specialRules": [
       "Eternal Hatred",
       "Goad Beast",
@@ -571,13 +917,26 @@
   },
   {
     "name": "Khainite Assassin",
-    "stats": { "M": 5, "WS": 8, "BS": 7, "S": 4, "T": 3, "W": 2, "I": 7, "A": 3, "Ld": 8 },
+    "stats": {
+      "M": 5,
+      "WS": 8,
+      "BS": 7,
+      "S": 4,
+      "T": 3,
+      "W": 2,
+      "I": 7,
+      "A": 3,
+      "Ld": 8
+    },
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "Throwing weapons"],
+    "equipment": [
+      "Hand weapon",
+      "Throwing weapons"
+    ],
     "specialRules": [
       "Eternal Hatred",
       "Hatred (all enemies)",
@@ -589,13 +948,26 @@
   },
   {
     "name": "Kharibdyss",
-    "stats": { "M": 6, "WS": 5, "BS": 0, "S": 7, "T": 5, "W": 5, "I": 3, "A": 5, "Ld": 6 },
+    "stats": {
+      "M": 6,
+      "WS": 5,
+      "BS": 0,
+      "S": 7,
+      "T": 5,
+      "W": 5,
+      "I": 3,
+      "A": 5,
+      "Ld": 6
+    },
     "unitCategory": "Monster",
     "troopType": "Behemoth",
     "baseSize": "60 x 100 mm (Kharibdyss), 25 x 25 mm (Beastmaster Handlers)",
     "unitSize": "1",
     "armourValue": "5+",
-    "equipment": ["Cavernous maw", "Writhing tentacles"],
+    "equipment": [
+      "Cavernous maw",
+      "Writhing tentacles"
+    ],
     "specialRules": [
       "Abyssal Howl",
       "Close Order",
@@ -608,7 +980,17 @@
     "profiles": [
       {
         "name": "Beastmaster Handlers (x2)",
-        "stats": { "M": 6, "WS": 4, "BS": "-", "S": 3, "T": "-", "W": "-", "I": 4, "A": 1, "Ld": 8 }
+        "stats": {
+          "M": 6,
+          "WS": 4,
+          "BS": "-",
+          "S": 3,
+          "T": "-",
+          "W": "-",
+          "I": 4,
+          "A": 1,
+          "Ld": 8
+        }
       }
     ]
   },
@@ -630,7 +1012,10 @@
     "baseSize": "60 x 100 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Wicked claws", "Scaly skin (heavy armour)"],
+    "equipment": [
+      "Wicked claws",
+      "Scaly skin (heavy armour)"
+    ],
     "specialRules": [
       "Close Order",
       "Fly (9)",
@@ -659,29 +1044,76 @@
     "baseSize": "50 x 50 mm (war machine), 25 x 25 mm (crew)",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Repeater bolt thrower", "Hand weapons", "Light armour"],
-    "specialRules": ["Elven Reflexes", "Hatred (High Elves)", "Skirmishers"],
+    "equipment": [
+      "Repeater bolt thrower",
+      "Hand weapons",
+      "Light armour"
+    ],
+    "specialRules": [
+      "Elven Reflexes",
+      "Hatred (High Elves)",
+      "Skirmishers"
+    ],
     "profiles": [
       {
         "name": "Dark Elf Crew",
-        "stats": { "M": 5, "WS": 4, "BS": 4, "S": 3, "T": 3, "W": 2, "I": 4, "A": 2, "Ld": 8 }
+        "stats": {
+          "M": 5,
+          "WS": 4,
+          "BS": 4,
+          "S": 3,
+          "T": 3,
+          "W": 2,
+          "I": 4,
+          "A": 2,
+          "Ld": 8
+        }
       }
     ]
   },
   {
     "name": "Repeater Crossbowmen",
-    "stats": { "M": 5, "WS": 4, "BS": 4, "S": 3, "T": 3, "W": 1, "I": 4, "A": 1, "Ld": 8 },
+    "stats": {
+      "M": 5,
+      "WS": 4,
+      "BS": 4,
+      "S": 3,
+      "T": 3,
+      "W": 1,
+      "I": 4,
+      "A": 1,
+      "Ld": 8
+    },
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
     "unitSize": "10+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "Repeater crossbows", "Light armour"],
-    "specialRules": ["Close Order", "Elven Reflexes", "Hatred (High Elves)", "Martial Prowess"],
+    "equipment": [
+      "Hand weapons",
+      "Repeater crossbows",
+      "Light armour"
+    ],
+    "specialRules": [
+      "Close Order",
+      "Elven Reflexes",
+      "Hatred (High Elves)",
+      "Martial Prowess"
+    ],
     "profiles": [
       {
         "name": "Lordling",
-        "stats": { "M": 5, "WS": 4, "BS": 5, "S": 3, "T": 3, "W": 1, "I": 4, "A": 1, "Ld": 8 }
+        "stats": {
+          "M": 5,
+          "WS": 4,
+          "BS": 5,
+          "S": 3,
+          "T": 3,
+          "W": 1,
+          "I": 4,
+          "A": 1,
+          "Ld": 8
+        }
       }
     ]
   },
@@ -721,7 +1153,17 @@
     "profiles": [
       {
         "name": "Beastmaster Crew (x2)",
-        "stats": { "M": "-", "WS": 4, "BS": 4, "S": 3, "T": "-", "W": "-", "I": 4, "A": 1, "Ld": 8 }
+        "stats": {
+          "M": "-",
+          "WS": 4,
+          "BS": 4,
+          "S": 3,
+          "T": "-",
+          "W": "-",
+          "I": 4,
+          "A": 1,
+          "Ld": 8
+        }
       },
       {
         "name": "Dark Steed (x2)",
@@ -741,13 +1183,26 @@
   },
   {
     "name": "Sisters of Slaughter",
-    "stats": { "M": 5, "WS": 5, "BS": 4, "S": 3, "T": 3, "W": 1, "I": 6, "A": 2, "Ld": 9 },
+    "stats": {
+      "M": 5,
+      "WS": 5,
+      "BS": 4,
+      "S": 3,
+      "T": 3,
+      "W": 1,
+      "I": 6,
+      "A": 2,
+      "Ld": 9
+    },
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
     "unitSize": "10+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "Lash & buckler"],
+    "equipment": [
+      "Hand weapons",
+      "Lash & buckler"
+    ],
     "specialRules": [
       "Dance of Death",
       "Elven Reflexes",
@@ -760,19 +1215,41 @@
     "profiles": [
       {
         "name": "Hag",
-        "stats": { "M": 5, "WS": 5, "BS": 4, "S": 3, "T": 3, "W": 1, "I": 6, "A": 3, "Ld": 8 }
+        "stats": {
+          "M": 5,
+          "WS": 5,
+          "BS": 4,
+          "S": 3,
+          "T": 3,
+          "W": 1,
+          "I": 6,
+          "A": 3,
+          "Ld": 8
+        }
       }
     ]
   },
   {
     "name": "Sorceress",
-    "stats": { "M": 5, "WS": 4, "BS": 4, "S": 3, "T": 3, "W": 2, "I": 4, "A": 1, "Ld": 8 },
+    "stats": {
+      "M": 5,
+      "WS": 4,
+      "BS": 4,
+      "S": 3,
+      "T": 3,
+      "W": 2,
+      "I": 4,
+      "A": 1,
+      "Ld": 8
+    },
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon"],
+    "equipment": [
+      "Hand weapon"
+    ],
     "specialRules": [
       "Elven Reflexes",
       "Eternal Hatred",
@@ -781,17 +1258,35 @@
       "Lore of Naggaroth",
       "Murderous"
     ],
-    "magicLores": ["Battle Magic", "Daemonology", "Dark Magic", "Elementalism", "Illusion"]
+    "magicLores": [
+      "Battle Magic",
+      "Daemonology",
+      "Dark Magic",
+      "Elementalism",
+      "Illusion"
+    ]
   },
   {
     "name": "Supreme Sorceress",
-    "stats": { "M": 5, "WS": 4, "BS": 4, "S": 3, "T": 3, "W": 3, "I": 5, "A": 2, "Ld": 8 },
+    "stats": {
+      "M": 5,
+      "WS": 4,
+      "BS": 4,
+      "S": 3,
+      "T": 3,
+      "W": 3,
+      "I": 5,
+      "A": 2,
+      "Ld": 8
+    },
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon"],
+    "equipment": [
+      "Hand weapon"
+    ],
     "specialRules": [
       "Elven Reflexes",
       "Eternal Hatred",
@@ -800,17 +1295,37 @@
       "Lore of Naggaroth",
       "Murderous"
     ],
-    "magicLores": ["Battle Magic", "Daemonology", "Dark Magic", "Elementalism", "Illusion"]
+    "magicLores": [
+      "Battle Magic",
+      "Daemonology",
+      "Dark Magic",
+      "Elementalism",
+      "Illusion"
+    ]
   },
   {
     "name": "War Hydra",
-    "stats": { "M": 6, "WS": 4, "BS": 0, "S": 5, "T": 5, "W": 5, "I": 3, "A": 2, "Ld": 6 },
+    "stats": {
+      "M": 6,
+      "WS": 4,
+      "BS": 0,
+      "S": 5,
+      "T": 5,
+      "W": 5,
+      "I": 3,
+      "A": 2,
+      "Ld": 6
+    },
     "unitCategory": "Monster",
     "troopType": "Behemoth",
     "baseSize": "60 x 100 mm (War Hydra), 25 x 25 mm (Beastmaster Handlers)",
     "unitSize": "1",
     "armourValue": "5+",
-    "equipment": ["Wicked claws", "Serrated maws", "Fiery breath"],
+    "equipment": [
+      "Wicked claws",
+      "Serrated maws",
+      "Fiery breath"
+    ],
     "specialRules": [
       "Close Order",
       "Extra Attacks (+remaining Wounds)",
@@ -824,19 +1339,41 @@
     "profiles": [
       {
         "name": "Beastmaster Handlers (x2)",
-        "stats": { "M": 6, "WS": 4, "BS": "-", "S": 3, "T": "-", "W": "-", "I": 4, "A": 1, "Ld": 8 }
+        "stats": {
+          "M": 6,
+          "WS": 4,
+          "BS": "-",
+          "S": 3,
+          "T": "-",
+          "W": "-",
+          "I": 4,
+          "A": 1,
+          "Ld": 8
+        }
       }
     ]
   },
   {
     "name": "Witch Elves",
-    "stats": { "M": 5, "WS": 4, "BS": 4, "S": 3, "T": 3, "W": 1, "I": 5, "A": 1, "Ld": 8 },
+    "stats": {
+      "M": 5,
+      "WS": 4,
+      "BS": 4,
+      "S": 3,
+      "T": 3,
+      "W": 1,
+      "I": 5,
+      "A": 1,
+      "Ld": 8
+    },
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
     "unitSize": "10+",
     "armourValue": "—",
-    "equipment": ["Two hand weapons"],
+    "equipment": [
+      "Two hand weapons"
+    ],
     "specialRules": [
       "Close Order",
       "Elven Reflexes",
@@ -850,7 +1387,17 @@
     "profiles": [
       {
         "name": "Hag",
-        "stats": { "M": 5, "WS": 4, "BS": 4, "S": 3, "T": 3, "W": 1, "I": 5, "A": 2, "Ld": 8 }
+        "stats": {
+          "M": 5,
+          "WS": 4,
+          "BS": 4,
+          "S": 3,
+          "T": 3,
+          "W": 1,
+          "I": 5,
+          "A": 2,
+          "Ld": 8
+        }
       }
     ]
   }

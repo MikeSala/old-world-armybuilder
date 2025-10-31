@@ -6,7 +6,11 @@
     "baseSize": "50 x 100 mm",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Wicked claws", "Poisonous tail", "Scaly skin (counts as heavy armour)"],
+    "equipment": [
+      "Wicked claws",
+      "Poisonous tail",
+      "Scaly skin (counts as heavy armour)"
+    ],
     "profiles": [
       {
         "name": "Abyssal Terror",
@@ -38,7 +42,9 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "3+",
     "armourValue": "—",
-    "equipment": ["Claws and fangs (counts as hand weapons)"],
+    "equipment": [
+      "Claws and fangs (counts as hand weapons)"
+    ],
     "profiles": [
       {
         "name": "Bat Swarm",
@@ -53,7 +59,12 @@
         "Ld": "3"
       }
     ],
-    "specialRules": ["Fly (7)", "Necromantic Undead", "Regeneration (6+)", "Skirmishers"]
+    "specialRules": [
+      "Fly (7)",
+      "Necromantic Undead",
+      "Regeneration (6+)",
+      "Skirmishers"
+    ]
   },
   {
     "name": "Black Coach",
@@ -294,7 +305,9 @@
     "baseSize": "25 x 25 mm",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Spectral scythe"],
+    "equipment": [
+      "Spectral scythe"
+    ],
     "profiles": [
       {
         "name": "Cairn Wraith",
@@ -324,7 +337,10 @@
     "baseSize": "50 x 100 mm",
     "unitSize": 1,
     "armourValue": "4+",
-    "equipment": ["Corpsemaster: Hand weapon", "The Restless Dead: Hand weapons"],
+    "equipment": [
+      "Corpsemaster: Hand weapon",
+      "The Restless Dead: Hand weapons"
+    ],
     "profiles": [
       {
         "name": "Corpse Cart",
@@ -377,7 +393,9 @@
         ]
       }
     ],
-    "magicLores": ["Necromancy"],
+    "magicLores": [
+      "Necromancy"
+    ],
     "specialRules": [
       "Close Order",
       "Dark Vitality",
@@ -475,7 +493,9 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "10+",
     "armourValue": "—",
-    "equipment": ["Hand weapons"],
+    "equipment": [
+      "Hand weapons"
+    ],
     "profiles": [
       {
         "name": "Crypt Ghoul",
@@ -526,7 +546,9 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "3+",
     "armourValue": "—",
-    "equipment": ["Filth-encrusted claws"],
+    "equipment": [
+      "Filth-encrusted claws"
+    ],
     "profiles": [
       {
         "name": "Crypt Horror",
@@ -576,7 +598,9 @@
     "baseSize": "25 x 50 mm",
     "unitSize": "5-20",
     "armourValue": "—",
-    "equipment": ["Claws and fangs (counts as hand weapons)"],
+    "equipment": [
+      "Claws and fangs (counts as hand weapons)"
+    ],
     "profiles": [
       {
         "name": "Dire Wolf",
@@ -627,7 +651,9 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "3+",
     "armourValue": "—",
-    "equipment": ["Claws and fangs (counts as hand weapons)"],
+    "equipment": [
+      "Claws and fangs (counts as hand weapons)"
+    ],
     "profiles": [
       {
         "name": "Fell Bat",
@@ -657,7 +683,11 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "10+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "Heavy armour", "Shields"],
+    "equipment": [
+      "Hand weapons",
+      "Heavy armour",
+      "Shields"
+    ],
     "profiles": [
       {
         "name": "Grave Guard",
@@ -784,7 +814,9 @@
     "baseSize": "25 x 25 mm",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Hand weapon"],
+    "equipment": [
+      "Hand weapon"
+    ],
     "profiles": [
       {
         "name": "Master Necromancer",
@@ -799,7 +831,11 @@
         "Ld": "8"
       }
     ],
-    "magicLores": ["Dark Magic", "Illusion", "Necromancy"],
+    "magicLores": [
+      "Dark Magic",
+      "Illusion",
+      "Necromancy"
+    ],
     "specialRules": [
       "Dark Vitality",
       "Indomitable (1)",
@@ -816,7 +852,11 @@
     "baseSize": "50 x 100 mm",
     "unitSize": 1,
     "armourValue": "4+",
-    "equipment": ["Banshees: Hand weapons", "Spirit Horde: Hand weapons", "Spirit Horde: Lances"],
+    "equipment": [
+      "Banshees: Hand weapons",
+      "Spirit Horde: Hand weapons",
+      "Spirit Horde: Lances"
+    ],
     "profiles": [
       {
         "name": "Mortis Engine",
@@ -891,7 +931,9 @@
     "baseSize": "25 x 25 mm",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Hand weapon"],
+    "equipment": [
+      "Hand weapon"
+    ],
     "profiles": [
       {
         "name": "Necromantic Acolyte",
@@ -906,7 +948,11 @@
         "Ld": "7"
       }
     ],
-    "magicLores": ["Dark Magic", "Illusion", "Necromancy"],
+    "magicLores": [
+      "Dark Magic",
+      "Illusion",
+      "Necromancy"
+    ],
     "specialRules": [
       "Dark Vitality",
       "Indomitable (1)",
@@ -923,7 +969,10 @@
     "baseSize": "30 x 60 mm",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Iron-shod hooves (counts as a hand weapon)", "Barding"],
+    "equipment": [
+      "Iron-shod hooves (counts as a hand weapon)",
+      "Barding"
+    ],
     "profiles": [
       {
         "name": "Nightmare",
@@ -938,7 +987,12 @@
         "Ld": "-"
       }
     ],
-    "specialRules": ["Counter Charge", "First Charge", "Necromantic Undead", "Swiftstride"]
+    "specialRules": [
+      "Counter Charge",
+      "First Charge",
+      "Necromantic Undead",
+      "Swiftstride"
+    ]
   },
   {
     "name": "Skeletal Steed (Vampire Counts)",
@@ -947,7 +1001,10 @@
     "baseSize": "30 x 60 mm",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Skeletal hooves (counts as hand weapon)", "Barding"],
+    "equipment": [
+      "Skeletal hooves (counts as hand weapon)",
+      "Barding"
+    ],
     "profiles": [
       {
         "name": "Skeletal Steed",
@@ -962,7 +1019,11 @@
         "Ld": "-"
       }
     ],
-    "specialRules": ["First Charge", "Necromantic Undead", "Swiftstride"]
+    "specialRules": [
+      "First Charge",
+      "Necromantic Undead",
+      "Swiftstride"
+    ]
   },
   {
     "name": "Skeleton Warriors (Vampire Counts)",
@@ -971,7 +1032,11 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "10+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "Light armour", "Shields"],
+    "equipment": [
+      "Hand weapons",
+      "Light armour",
+      "Shields"
+    ],
     "profiles": [
       {
         "name": "Skeleton Warrior",
@@ -1005,7 +1070,12 @@
         ]
       }
     ],
-    "specialRules": ["Close Order", "Horde", "Necromantic Undead", "Regeneration (6+)"]
+    "specialRules": [
+      "Close Order",
+      "Horde",
+      "Necromantic Undead",
+      "Regeneration (6+)"
+    ]
   },
   {
     "name": "Spirit Hosts",
@@ -1014,7 +1084,9 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "3-6",
     "armourValue": "—",
-    "equipment": ["Hand weapons"],
+    "equipment": [
+      "Hand weapons"
+    ],
     "profiles": [
       {
         "name": "Spirit Host",
@@ -1046,7 +1118,9 @@
     "baseSize": "25 x 25 mm",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Hand weapon"],
+    "equipment": [
+      "Hand weapon"
+    ],
     "profiles": [
       {
         "name": "Strigoi Ghoul King",
@@ -1061,7 +1135,11 @@
         "Ld": "8"
       }
     ],
-    "magicLores": ["Battle Magic", "Dark Magic", "Necromancy"],
+    "magicLores": [
+      "Battle Magic",
+      "Dark Magic",
+      "Necromancy"
+    ],
     "specialRules": [
       "Dark Vitality",
       "Flammable",
@@ -1161,7 +1239,9 @@
     "baseSize": "25 x 25 mm",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Hand weapon"],
+    "equipment": [
+      "Hand weapon"
+    ],
     "profiles": [
       {
         "name": "Tomb Banshee",
@@ -1193,7 +1273,9 @@
     "baseSize": "25 x 25 mm",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Hand weapon"],
+    "equipment": [
+      "Hand weapon"
+    ],
     "profiles": [
       {
         "name": "Vampire Count",
@@ -1208,7 +1290,11 @@
         "Ld": "8"
       }
     ],
-    "magicLores": ["Dark Magic", "Illusion", "Necromancy"],
+    "magicLores": [
+      "Dark Magic",
+      "Illusion",
+      "Necromancy"
+    ],
     "specialRules": [
       "Dark Vitality",
       "Flammable",
@@ -1225,7 +1311,9 @@
     "baseSize": "25 x 25 mm",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Hand weapon"],
+    "equipment": [
+      "Hand weapon"
+    ],
     "profiles": [
       {
         "name": "Vampire Thrall",
@@ -1240,7 +1328,11 @@
         "Ld": "7"
       }
     ],
-    "magicLores": ["Dark Magic", "Illusion", "Necromancy"],
+    "magicLores": [
+      "Dark Magic",
+      "Illusion",
+      "Necromancy"
+    ],
     "specialRules": [
       "Banner of the Count",
       "Dark Vitality",
@@ -1258,7 +1350,9 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "3+",
     "armourValue": "—",
-    "equipment": ["Wicked claws"],
+    "equipment": [
+      "Wicked claws"
+    ],
     "profiles": [
       {
         "name": "Vargheist",
@@ -1311,7 +1405,10 @@
     "baseSize": "50 x 50 mm",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Wicked claws", "Calloused hide (counts as light armour)"],
+    "equipment": [
+      "Wicked claws",
+      "Calloused hide (counts as light armour)"
+    ],
     "profiles": [
       {
         "name": "Varghulf",
@@ -1347,7 +1444,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Hand weapon", "Heavy armour"],
+    "equipment": [
+      "Hand weapon",
+      "Heavy armour"
+    ],
     "profiles": [
       {
         "name": "Wight King",
@@ -1362,7 +1462,12 @@
         "Ld": "9"
       }
     ],
-    "specialRules": ["Indomitable (1)", "Killing Blow", "Necromantic Undead", "Regeneration (5+)"]
+    "specialRules": [
+      "Indomitable (1)",
+      "Killing Blow",
+      "Necromantic Undead",
+      "Regeneration (5+)"
+    ]
   },
   {
     "name": "Wight Lord",
@@ -1371,7 +1476,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Hand weapon", "Heavy armour"],
+    "equipment": [
+      "Hand weapon",
+      "Heavy armour"
+    ],
     "profiles": [
       {
         "name": "Wight Lord",
@@ -1386,7 +1494,12 @@
         "Ld": "8"
       }
     ],
-    "specialRules": ["Killing Blow", "Necromantic Undead", "Regeneration (6+)", "Wight Banner"]
+    "specialRules": [
+      "Killing Blow",
+      "Necromantic Undead",
+      "Regeneration (6+)",
+      "Wight Banner"
+    ]
   },
   {
     "name": "Zombie Dragon",
@@ -1432,7 +1545,9 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "20-40",
     "armourValue": "—",
-    "equipment": ["Hand weapons"],
+    "equipment": [
+      "Hand weapons"
+    ],
     "profiles": [
       {
         "name": "Zombies",

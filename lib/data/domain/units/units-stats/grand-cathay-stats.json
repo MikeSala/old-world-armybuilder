@@ -6,8 +6,14 @@
     "baseSize": "60 x 100 mm (war machine), 25 x 25 mm (crew)",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Grand cannon", "hand weapons", "light armour"],
-    "specialRules": ["Skirmishers"],
+    "equipment": [
+      "Grand cannon",
+      "hand weapons",
+      "light armour"
+    ],
+    "specialRules": [
+      "Skirmishers"
+    ],
     "profiles": [
       {
         "label": "Grand Cannon",
@@ -42,7 +48,11 @@
     "baseSize": "100 x 150 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "great blade", "terracotta armour (counts as heavy armour)"],
+    "equipment": [
+      "Hand weapon",
+      "great blade",
+      "terracotta armour (counts as heavy armour)"
+    ],
     "specialRules": [
       "Close Order",
       "Immune to Psychology",
@@ -75,8 +85,16 @@
     "baseSize": "30 x 60 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Iron-shod hooves (counts as a hand weapon)", "barding"],
-    "specialRules": ["Cathayan Cataphracts", "Counter Charge", "First Charge", "Swiftstride"],
+    "equipment": [
+      "Iron-shod hooves (counts as a hand weapon)",
+      "barding"
+    ],
+    "specialRules": [
+      "Cathayan Cataphracts",
+      "Counter Charge",
+      "First Charge",
+      "Swiftstride"
+    ],
     "profiles": [
       {
         "label": "Cathayan Warhorse",
@@ -99,8 +117,14 @@
     "baseSize": "60 x 100 mm (war machine), 25 x 25 mm (crew)",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Fire rain rocket", "hand weapons", "light armour"],
-    "specialRules": ["Skirmishers"],
+    "equipment": [
+      "Fire rain rocket",
+      "hand weapons",
+      "light armour"
+    ],
+    "specialRules": [
+      "Skirmishers"
+    ],
     "profiles": [
       {
         "label": "Fire Rain Rocket",
@@ -135,8 +159,15 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "heavy armour", "shield"],
-    "specialRules": ["Harmony of Stone & Steel", "Will of the Dragons"],
+    "equipment": [
+      "Hand weapon",
+      "heavy armour",
+      "shield"
+    ],
+    "specialRules": [
+      "Harmony of Stone & Steel",
+      "Will of the Dragons"
+    ],
     "profiles": [
       {
         "label": "Gate Keeper",
@@ -159,8 +190,15 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "heavy armour", "shield"],
-    "specialRules": ["Harmony of Stone & Steel", "Will of the Dragons"],
+    "equipment": [
+      "Hand weapon",
+      "heavy armour",
+      "shield"
+    ],
+    "specialRules": [
+      "Harmony of Stone & Steel",
+      "Will of the Dragons"
+    ],
     "profiles": [
       {
         "label": "Gate Master",
@@ -245,7 +283,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "5+",
     "armourValue": "5+",
-    "equipment": ["Hand weapons", "heavy armour"],
+    "equipment": [
+      "Hand weapons",
+      "heavy armour"
+    ],
     "specialRules": [
       "Close Order",
       "Defensive Stance",
@@ -287,8 +328,15 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "light armour"],
-    "specialRules": ["Grand Strategist", "Harmony of Stone & Steel", "Will of the Dragons"],
+    "equipment": [
+      "Hand weapon",
+      "light armour"
+    ],
+    "specialRules": [
+      "Grand Strategist",
+      "Harmony of Stone & Steel",
+      "Will of the Dragons"
+    ],
     "profiles": [
       {
         "label": "Lord Magistrate",
@@ -337,7 +385,11 @@
       "Will of the Dragons",
       "Wrath of the Storm"
     ],
-    "magicLores": ["Battle Magic", "Elementalism", "High Magic"],
+    "magicLores": [
+      "Battle Magic",
+      "Elementalism",
+      "High Magic"
+    ],
     "profiles": [
       {
         "label": "Human Form",
@@ -372,8 +424,14 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "light armour"],
-    "specialRules": ["Enough for Everyone", "Mercenary Crew"],
+    "equipment": [
+      "Hand weapon",
+      "light armour"
+    ],
+    "specialRules": [
+      "Enough for Everyone",
+      "Mercenary Crew"
+    ],
     "profiles": [
       {
         "label": "Ogre Loader",
@@ -411,7 +469,12 @@
       "Swiftstride",
       "Will of the Dragons"
     ],
-    "magicLores": ["Battle Magic", "Elementalism", "Illusion", "High Magic"],
+    "magicLores": [
+      "Battle Magic",
+      "Elementalism",
+      "Illusion",
+      "High Magic"
+    ],
     "profiles": [
       {
         "label": "Shugengan General",
@@ -461,7 +524,12 @@
       "Swiftstride",
       "Will of the Dragons"
     ],
-    "magicLores": ["Battle Magic", "Elementalism", "Illusion", "High Magic"],
+    "magicLores": [
+      "Battle Magic",
+      "Elementalism",
+      "Illusion",
+      "High Magic"
+    ],
     "profiles": [
       {
         "label": "Shugengan Lord",
@@ -496,7 +564,10 @@
     "baseSize": "100 x 100 mm",
     "unitSize": "1",
     "armourValue": "4+",
-    "equipment": ["Lantern Gunners: Hand weapons", "Commander: Hand weapon"],
+    "equipment": [
+      "Lantern Gunners: Hand weapons",
+      "Commander: Hand weapon"
+    ],
     "specialRules": [
       "Close Order",
       "Disengage",
@@ -557,8 +628,15 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "light armour"],
-    "specialRules": ["Grand Strategist", "Harmony of Stone & Steel", "Will of the Dragons"],
+    "equipment": [
+      "Hand weapon",
+      "light armour"
+    ],
+    "specialRules": [
+      "Grand Strategist",
+      "Harmony of Stone & Steel",
+      "Will of the Dragons"
+    ],
     "profiles": [
       {
         "label": "Strategist",

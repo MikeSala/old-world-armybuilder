@@ -15,8 +15,16 @@
     "baseSize": "60mm",
     "unitSize": 1,
     "armourValue": 3,
-    "equipment": ["Goreaxe", "Whip of Torment"],
-    "specialRules": ["Daemonic", "Fear", "Hatred", "Regeneration"],
+    "equipment": [
+      "Goreaxe",
+      "Whip of Torment"
+    ],
+    "specialRules": [
+      "Daemonic",
+      "Fear",
+      "Hatred",
+      "Regeneration"
+    ],
     "magicLores": []
   },
   {
@@ -35,8 +43,13 @@
     "baseSize": "25mm",
     "unitSize": 10,
     "armourValue": 2,
-    "equipment": ["Hellblade"],
-    "specialRules": ["Daemonic", "Hatred"],
+    "equipment": [
+      "Hellblade"
+    ],
+    "specialRules": [
+      "Daemonic",
+      "Hatred"
+    ],
     "magicLores": []
   },
   {
@@ -55,8 +68,14 @@
     "baseSize": "40mm",
     "unitSize": 3,
     "armourValue": 1,
-    "equipment": ["Teeth and Claws"],
-    "specialRules": ["Daemonic", "Hatred", "Fear"],
+    "equipment": [
+      "Teeth and Claws"
+    ],
+    "specialRules": [
+      "Daemonic",
+      "Hatred",
+      "Fear"
+    ],
     "magicLores": []
   },
   {
@@ -75,8 +94,14 @@
     "baseSize": "50mm",
     "unitSize": 1,
     "armourValue": 3,
-    "equipment": ["Skull Cannon"],
-    "specialRules": ["Daemonic", "Fear", "Blast"],
+    "equipment": [
+      "Skull Cannon"
+    ],
+    "specialRules": [
+      "Daemonic",
+      "Fear",
+      "Blast"
+    ],
     "magicLores": []
   },
   {
@@ -95,8 +120,15 @@
     "baseSize": "25mm",
     "unitSize": 1,
     "armourValue": 3,
-    "equipment": ["Hellblade", "Mark of Khorne"],
-    "specialRules": ["Daemonic", "Hatred", "Fear"],
+    "equipment": [
+      "Hellblade",
+      "Mark of Khorne"
+    ],
+    "specialRules": [
+      "Daemonic",
+      "Hatred",
+      "Fear"
+    ],
     "magicLores": []
   },
   {
@@ -115,8 +147,18 @@
     "baseSize": "80mm",
     "unitSize": 1,
     "armourValue": 4,
-    "equipment": ["Goreaxe", "Whip of Torment", "Juggernaut Mount"],
-    "specialRules": ["Daemonic", "Fear", "Hatred", "Regeneration", "Juggernaut"],
+    "equipment": [
+      "Goreaxe",
+      "Whip of Torment",
+      "Juggernaut Mount"
+    ],
+    "specialRules": [
+      "Daemonic",
+      "Fear",
+      "Hatred",
+      "Regeneration",
+      "Juggernaut"
+    ],
     "magicLores": []
   },
   {
@@ -135,8 +177,16 @@
     "baseSize": "40mm",
     "unitSize": 1,
     "armourValue": 3,
-    "equipment": ["Daemon Weapon", "Mark of Khorne"],
-    "specialRules": ["Daemonic", "Fear", "Hatred", "Fly"],
+    "equipment": [
+      "Daemon Weapon",
+      "Mark of Khorne"
+    ],
+    "specialRules": [
+      "Daemonic",
+      "Fear",
+      "Hatred",
+      "Fly"
+    ],
     "magicLores": []
   },
   {
@@ -155,8 +205,17 @@
     "baseSize": "40mm",
     "unitSize": 1,
     "armourValue": 3,
-    "equipment": ["Daemon Weapon", "Mark of Khorne", "Wings"],
-    "specialRules": ["Daemonic", "Fear", "Hatred", "Fly"],
+    "equipment": [
+      "Daemon Weapon",
+      "Mark of Khorne",
+      "Wings"
+    ],
+    "specialRules": [
+      "Daemonic",
+      "Fear",
+      "Hatred",
+      "Fly"
+    ],
     "magicLores": []
   },
   {
@@ -175,8 +234,17 @@
     "baseSize": "60mm",
     "unitSize": 1,
     "armourValue": 4,
-    "equipment": ["Hellblade", "Mark of Khorne", "Juggernaut Mount"],
-    "specialRules": ["Daemonic", "Hatred", "Fear", "Juggernaut"],
+    "equipment": [
+      "Hellblade",
+      "Mark of Khorne",
+      "Juggernaut Mount"
+    ],
+    "specialRules": [
+      "Daemonic",
+      "Hatred",
+      "Fear",
+      "Juggernaut"
+    ],
     "magicLores": []
   }
 ]

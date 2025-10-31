@@ -6,11 +6,39 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "20-40",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "light armour"],
-    "specialRules": ["Close Order", "Horde", "Scurry Away", "Warband"],
+    "equipment": [
+      "Hand weapons",
+      "light armour"
+    ],
+    "specialRules": [
+      "Close Order",
+      "Horde",
+      "Scurry Away",
+      "Warband"
+    ],
     "profiles": {
-      "Clanrat": { "M": 5, "WS": 3, "BS": 3, "S": 3, "T": 3, "W": 1, "I": 4, "A": 1, "Ld": 4 },
-      "Clawleader": { "M": 5, "WS": 3, "BS": 3, "S": 3, "T": 3, "W": 1, "I": 4, "A": 2, "Ld": 5 }
+      "Clanrat": {
+        "M": 5,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 4,
+        "A": 1,
+        "Ld": 4
+      },
+      "Clawleader": {
+        "M": 5,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 4,
+        "A": 2,
+        "Ld": 5
+      }
     }
   },
   {
@@ -20,7 +48,10 @@
     "baseSize": "50 x 100 mm",
     "unitSize": "1",
     "armourValue": "5+",
-    "equipment": ["Warlock: Hand weapon", "Rats: Claws and fangs (counts as a hand weapon)"],
+    "equipment": [
+      "Warlock: Hand weapon",
+      "Rats: Claws and fangs (counts as a hand weapon)"
+    ],
     "specialRules": [
       "Close Order",
       "Crushing Bulk",
@@ -75,10 +106,28 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "10-30",
     "armourValue": "—",
-    "equipment": ["Claws and teeth (counts as hand weapons)"],
-    "specialRules": ["Close Order", "Fight in Extra Rank", "Horde", "Scurry Away", "Warband"],
+    "equipment": [
+      "Claws and teeth (counts as hand weapons)"
+    ],
+    "specialRules": [
+      "Close Order",
+      "Fight in Extra Rank",
+      "Horde",
+      "Scurry Away",
+      "Warband"
+    ],
     "profiles": {
-      "Giant Rat": { "M": 6, "WS": 2, "BS": 0, "S": 2, "T": 3, "W": 1, "I": 4, "A": 1, "Ld": 3 }
+      "Giant Rat": {
+        "M": 6,
+        "WS": 2,
+        "BS": 0,
+        "S": 2,
+        "T": 3,
+        "W": 1,
+        "I": 4,
+        "A": 1,
+        "Ld": 3
+      }
     }
   },
   {
@@ -88,7 +137,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "D3 Warpstone Tokens"],
+    "equipment": [
+      "Hand weapon",
+      "D3 Warpstone Tokens"
+    ],
     "specialRules": [
       "Lore of the Horned Rat",
       "Magical Attacks",
@@ -98,9 +150,25 @@
       "Warband",
       "Warpstone Weapons"
     ],
-    "magicLores": ["Battle Magic", "Daemonology", "Dark Magic", "Elementalism", "Illusion"],
+    "magicLores": [
+      "Battle Magic",
+      "Daemonology",
+      "Dark Magic",
+      "Elementalism",
+      "Illusion"
+    ],
     "profiles": {
-      "Grey Seer": { "M": 5, "WS": 3, "BS": 3, "S": 3, "T": 4, "W": 3, "I": 5, "A": 2, "Ld": 7 }
+      "Grey Seer": {
+        "M": 5,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 4,
+        "W": 3,
+        "I": 5,
+        "A": 2,
+        "Ld": 7
+      }
     }
   },
   {
@@ -110,7 +178,9 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "5+",
     "armourValue": "—",
-    "equipment": ["Two hand weapons"],
+    "equipment": [
+      "Two hand weapons"
+    ],
     "specialRules": [
       "Evasive",
       "Feigned Flight",
@@ -132,7 +202,17 @@
         "A": 1,
         "Ld": 7
       },
-      "Assassin": { "M": 6, "WS": 4, "BS": 4, "S": 3, "T": 3, "W": 1, "I": 5, "A": 2, "Ld": 7 }
+      "Assassin": {
+        "M": 6,
+        "WS": 4,
+        "BS": 4,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 5,
+        "A": 2,
+        "Ld": 7
+      }
     }
   },
   {
@@ -142,7 +222,9 @@
     "baseSize": "60 x 100 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Warpstone claws"],
+    "equipment": [
+      "Warpstone claws"
+    ],
     "specialRules": [
       "Abominable Attacks",
       "Close Order",
@@ -179,7 +261,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Two hand weapons", "throwing weapons"],
+    "equipment": [
+      "Two hand weapons",
+      "throwing weapons"
+    ],
     "specialRules": [
       "Ambushers",
       "Eshin Infiltration",
@@ -214,7 +299,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "(see Rat Ogre & Giant Rat profiles)",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "light armour"],
+    "equipment": [
+      "Hand weapon",
+      "light armour"
+    ],
     "specialRules": [
       "Close Order",
       "Horde",
@@ -244,11 +332,38 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "10+",
     "armourValue": "—",
-    "equipment": ["Hand weapons"],
-    "specialRules": ["Evasive", "Fire & Flee", "Scurry Away", "Skirmishers"],
+    "equipment": [
+      "Hand weapons"
+    ],
+    "specialRules": [
+      "Evasive",
+      "Fire & Flee",
+      "Scurry Away",
+      "Skirmishers"
+    ],
     "profiles": {
-      "Night Runner": { "M": 6, "WS": 3, "BS": 3, "S": 3, "T": 3, "W": 1, "I": 5, "A": 1, "Ld": 5 },
-      "Nightleader": { "M": 6, "WS": 3, "BS": 3, "S": 3, "T": 3, "W": 1, "I": 5, "A": 2, "Ld": 5 }
+      "Night Runner": {
+        "M": 6,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 5,
+        "A": 1,
+        "Ld": 5
+      },
+      "Nightleader": {
+        "M": 6,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 5,
+        "A": 2,
+        "Ld": 5
+      }
     }
   },
   {
@@ -258,7 +373,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "(see Rat Ogre & Giant Rat profiles)",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "light armour"],
+    "equipment": [
+      "Hand weapon",
+      "light armour"
+    ],
     "specialRules": [
       "Close Order",
       "Horde",
@@ -268,7 +386,17 @@
       "Warband"
     ],
     "profiles": {
-      "Packmaster": { "M": 6, "WS": 3, "BS": 3, "S": 3, "T": 3, "W": 1, "I": 4, "A": 1, "Ld": 6 }
+      "Packmaster": {
+        "M": 6,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 4,
+        "A": 1,
+        "Ld": 6
+      }
     }
   },
   {
@@ -278,8 +406,17 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "2-10",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "plague censers"],
-    "specialRules": ["Frenzy", "Scurry Away", "Skirmishers", "Stubborn", "Warband"],
+    "equipment": [
+      "Hand weapons",
+      "plague censers"
+    ],
+    "specialRules": [
+      "Frenzy",
+      "Scurry Away",
+      "Skirmishers",
+      "Stubborn",
+      "Warband"
+    ],
     "profiles": {
       "Plague Censer Bearer": {
         "M": 5,
@@ -301,7 +438,10 @@
     "baseSize": "60 x 100 mm",
     "unitSize": "1",
     "armourValue": "4+",
-    "equipment": ["Plague Furnace: Billowing Death", "Plague Monk Crew: Hand weapon"],
+    "equipment": [
+      "Plague Furnace: Billowing Death",
+      "Plague Monk Crew: Hand weapon"
+    ],
     "specialRules": [
       "Dragged Along",
       "Fear",
@@ -346,11 +486,39 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "10+",
     "armourValue": "—",
-    "equipment": ["Hand weapons"],
-    "specialRules": ["Close Order", "Frenzy", "Horde", "Scurry Away", "Warband"],
+    "equipment": [
+      "Hand weapons"
+    ],
+    "specialRules": [
+      "Close Order",
+      "Frenzy",
+      "Horde",
+      "Scurry Away",
+      "Warband"
+    ],
     "profiles": {
-      "Plague Monk": { "M": 5, "WS": 3, "BS": 3, "S": 3, "T": 4, "W": 1, "I": 3, "A": 1, "Ld": 5 },
-      "Plague Deacon": { "M": 5, "WS": 3, "BS": 3, "S": 3, "T": 4, "W": 1, "I": 3, "A": 2, "Ld": 5 }
+      "Plague Monk": {
+        "M": 5,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 4,
+        "W": 1,
+        "I": 3,
+        "A": 1,
+        "Ld": 5
+      },
+      "Plague Deacon": {
+        "M": 5,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 4,
+        "W": 1,
+        "I": 3,
+        "A": 2,
+        "Ld": 5
+      }
     }
   },
   {
@@ -360,7 +528,9 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon"],
+    "equipment": [
+      "Hand weapon"
+    ],
     "specialRules": [
       "Cloud of Flies",
       "Frenzy",
@@ -371,9 +541,23 @@
       "Warband",
       "Warpstone Weapons"
     ],
-    "magicLores": ["Battle Magic", "Daemonology", "Dark Magic"],
+    "magicLores": [
+      "Battle Magic",
+      "Daemonology",
+      "Dark Magic"
+    ],
     "profiles": {
-      "Plague Priest": { "M": 5, "WS": 5, "BS": 3, "S": 4, "T": 5, "W": 2, "I": 5, "A": 3, "Ld": 6 }
+      "Plague Priest": {
+        "M": 5,
+        "WS": 5,
+        "BS": 3,
+        "S": 4,
+        "T": 5,
+        "W": 2,
+        "I": 5,
+        "A": 3,
+        "Ld": 6
+      }
     }
   },
   {
@@ -383,8 +567,16 @@
     "baseSize": "50 x 100 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Plagueclaw Catapult", "hand weapons", "light armour"],
-    "specialRules": ["Random Attacks", "Skirmishers", "Stubborn"],
+    "equipment": [
+      "Plagueclaw Catapult",
+      "hand weapons",
+      "light armour"
+    ],
+    "specialRules": [
+      "Random Attacks",
+      "Skirmishers",
+      "Stubborn"
+    ],
     "profiles": {
       "Plagueclaw Catapult": {
         "M": "-",
@@ -417,10 +609,28 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "2-10",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "Poisoned Wind globes", "light armour"],
-    "specialRules": ["Scurry Away", "Skirmishers", "Warband"],
+    "equipment": [
+      "Hand weapons",
+      "Poisoned Wind globes",
+      "light armour"
+    ],
+    "specialRules": [
+      "Scurry Away",
+      "Skirmishers",
+      "Warband"
+    ],
     "profiles": {
-      "Globadier": { "M": 5, "WS": 3, "BS": 3, "S": 3, "T": 3, "W": 1, "I": 4, "A": 1, "Ld": 5 }
+      "Globadier": {
+        "M": 5,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 4,
+        "A": 1,
+        "Ld": 5
+      }
     }
   },
   {
@@ -430,7 +640,10 @@
     "baseSize": "50 x 50 mm",
     "unitSize": "3+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "mutated hides (counts as heavy armour)"],
+    "equipment": [
+      "Hand weapons",
+      "mutated hides (counts as heavy armour)"
+    ],
     "specialRules": [
       "Armour Bane (2)",
       "Close Order",
@@ -442,7 +655,17 @@
       "Warband"
     ],
     "profiles": {
-      "Rat Ogre": { "M": 6, "WS": 4, "BS": 1, "S": 5, "T": 4, "W": 3, "I": 4, "A": 3, "Ld": 5 }
+      "Rat Ogre": {
+        "M": 6,
+        "WS": 4,
+        "BS": 1,
+        "S": 5,
+        "T": 4,
+        "W": 3,
+        "I": 4,
+        "A": 3,
+        "Ld": 5
+      }
     }
   },
   {
@@ -452,10 +675,28 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "3+",
     "armourValue": "—",
-    "equipment": ["Claws and fangs (counts as hand weapons)"],
-    "specialRules": ["Immune to Psychology", "Loner", "Skirmishers", "Unbreakable", "Vanguard"],
+    "equipment": [
+      "Claws and fangs (counts as hand weapons)"
+    ],
+    "specialRules": [
+      "Immune to Psychology",
+      "Loner",
+      "Skirmishers",
+      "Unbreakable",
+      "Vanguard"
+    ],
     "profiles": {
-      "Rat Swarm": { "M": 6, "WS": 2, "BS": 0, "S": 2, "T": 2, "W": 5, "I": 4, "A": 5, "Ld": 4 }
+      "Rat Swarm": {
+        "M": 6,
+        "WS": 2,
+        "BS": 0,
+        "S": 2,
+        "T": 2,
+        "W": 5,
+        "I": 4,
+        "A": 5,
+        "Ld": 4
+      }
     }
   },
   {
@@ -465,7 +706,9 @@
     "baseSize": "60 x 100 mm",
     "unitSize": "1",
     "armourValue": "4+",
-    "equipment": ["Rat Ogre Crew: Hand weapon"],
+    "equipment": [
+      "Rat Ogre Crew: Hand weapon"
+    ],
     "specialRules": [
       "Armour Bane (2, Rat Ogre only)",
       "Blessings of the Horned Rat",
@@ -510,8 +753,16 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "light armour"],
-    "specialRules": ["Scurry Away", "Verminous Valour", "Warband", "Warpstone Weapons"],
+    "equipment": [
+      "Hand weapon",
+      "light armour"
+    ],
+    "specialRules": [
+      "Scurry Away",
+      "Verminous Valour",
+      "Warband",
+      "Warpstone Weapons"
+    ],
     "profiles": {
       "Skaven Chieftain": {
         "M": 5,
@@ -533,8 +784,16 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "light armour"],
-    "specialRules": ["Scurry Away", "Verminous Valour", "Warband", "Warpstone Weapons"],
+    "equipment": [
+      "Hand weapon",
+      "light armour"
+    ],
+    "specialRules": [
+      "Scurry Away",
+      "Verminous Valour",
+      "Warband",
+      "Warpstone Weapons"
+    ],
     "profiles": {
       "Skaven Warlord": {
         "M": 5,
@@ -556,11 +815,41 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "10+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "halberds", "heavy armour"],
-    "specialRules": ["Close Order", "Horde", "Scurry Away", "Warband", "Warpstone Weapons"],
+    "equipment": [
+      "Hand weapons",
+      "halberds",
+      "heavy armour"
+    ],
+    "specialRules": [
+      "Close Order",
+      "Horde",
+      "Scurry Away",
+      "Warband",
+      "Warpstone Weapons"
+    ],
     "profiles": {
-      "Stormvermin": { "M": 5, "WS": 4, "BS": 3, "S": 3, "T": 3, "W": 1, "I": 5, "A": 1, "Ld": 5 },
-      "Fangleader": { "M": 5, "WS": 4, "BS": 3, "S": 3, "T": 3, "W": 1, "I": 5, "A": 2, "Ld": 6 }
+      "Stormvermin": {
+        "M": 5,
+        "WS": 4,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 5,
+        "A": 1,
+        "Ld": 5
+      },
+      "Fangleader": {
+        "M": 5,
+        "WS": 4,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 5,
+        "A": 2,
+        "Ld": 6
+      }
     }
   },
   {
@@ -570,7 +859,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "D3 Warpstone Tokens"],
+    "equipment": [
+      "Hand weapon",
+      "D3 Warpstone Tokens"
+    ],
     "specialRules": [
       "Lore of the Horned Rat",
       "Magical Attacks",
@@ -579,7 +871,10 @@
       "Warband",
       "Warpstone Weapons"
     ],
-    "magicLores": ["Battle Magic", "Elementalism"],
+    "magicLores": [
+      "Battle Magic",
+      "Elementalism"
+    ],
     "profiles": {
       "Warlock Engineer": {
         "M": 5,
@@ -601,8 +896,14 @@
     "baseSize": "50 x 100 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Warp Lightning Cannon", "hand weapons", "light armour"],
-    "specialRules": ["Skirmishers"],
+    "equipment": [
+      "Warp Lightning Cannon",
+      "hand weapons",
+      "light armour"
+    ],
+    "specialRules": [
+      "Skirmishers"
+    ],
     "profiles": {
       "Warp Lightning Cannon": {
         "M": "-",
@@ -635,10 +936,28 @@
     "baseSize": "25 x 50 mm",
     "unitSize": "3+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "warplock jezzails", "pavise"],
-    "specialRules": ["Open Order", "Scurry Away", "Warband"],
+    "equipment": [
+      "Hand weapons",
+      "warplock jezzails",
+      "pavise"
+    ],
+    "specialRules": [
+      "Open Order",
+      "Scurry Away",
+      "Warband"
+    ],
     "profiles": {
-      "Jezzail Team": { "M": 5, "WS": 3, "BS": 3, "S": 3, "T": 3, "W": 2, "I": 3, "A": 2, "Ld": 5 }
+      "Jezzail Team": {
+        "M": 5,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 2,
+        "I": 3,
+        "A": 2,
+        "Ld": 5
+      }
     }
   },
   {
@@ -648,7 +967,10 @@
     "baseSize": "25 x 50 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "light armour"],
+    "equipment": [
+      "Hand weapons",
+      "light armour"
+    ],
     "specialRules": [
       "Loner",
       "Open Order",

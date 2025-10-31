@@ -360,12 +360,18 @@
           "name_de": "Gifts of Chaos",
           "name_es": "Gifts of Chaos",
           "name_fr": "Dons du Chaos",
-          "types": ["gift-of-chaos"],
+          "types": [
+            "gift-of-chaos"
+          ],
           "selected": [],
           "maxPoints": 50
         }
       ],
-      "lores": ["battle-magic", "daemonology", "dark-magic"],
+      "lores": [
+        "battle-magic",
+        "daemonology",
+        "dark-magic"
+      ],
       "specialRules": {
         "name_en": "Chaos Armour {warriors of chaos} (4+), Ensorcelled Weapons, Fear, Gaze of the Gods, Immune to Psychology, Lore of Chaos, Regeneration (5+), Unbreakable, Unstable, Warp-spawned",
         "name_cn": "混沌甲 {warriors of chaos}(4+), 附魔武器, 恐惧, 诸神凝视, 心理免疫, 混沌法系, 重生(5+), 永不战败, 不稳定, 次元产物",
@@ -570,7 +576,8 @@
           "name_es": "On foot",
           "name_fr": "À Pied",
           "points": 0,
-          "active": true
+          "active": true,
+          "id": "on-foot"
         },
         {
           "name_en": "Chaos Steed",
@@ -578,7 +585,8 @@
           "name_de": "Chaos Steed",
           "name_es": "Chaos Steed",
           "name_fr": "Destrier du Chaos",
-          "points": 16
+          "points": 16,
+          "id": "chaos-steed"
         },
         {
           "name_en": "Daemonic Mount",
@@ -586,7 +594,8 @@
           "name_de": "Daemonic Mount",
           "name_es": "Daemonic Mount",
           "name_fr": "Monture Démoniaque",
-          "points": 35
+          "points": 35,
+          "id": "daemonic-mount"
         },
         {
           "name_en": "Chaos Chariot",
@@ -641,7 +650,8 @@
               "points": 10,
               "exclusive": true
             }
-          ]
+          ],
+          "id": "chaos-chariot"
         },
         {
           "name_en": "Manticore {warriors of chaos}",
@@ -659,7 +669,8 @@
               "name_fr": "Queue venimeuse",
               "points": 15
             }
-          ]
+          ],
+          "id": "manticore"
         },
         {
           "name_en": "Gorebeast Chariot",
@@ -714,7 +725,8 @@
               "points": 10,
               "exclusive": true
             }
-          ]
+          ],
+          "id": "gorebeast-chariot"
         },
         {
           "name_en": "Chosen Chaos Chariot",
@@ -723,7 +735,9 @@
           "name_es": "Chosen Chaos Chariot",
           "name_fr": "Char du Chaos Élu",
           "points": 140,
-          "armyComposition": ["heralds-of-darkness"],
+          "armyComposition": [
+            "heralds-of-darkness"
+          ],
           "options": [
             {
               "name_en": "Mark of Chaos Undivided",
@@ -770,7 +784,8 @@
               "points": 10,
               "exclusive": true
             }
-          ]
+          ],
+          "id": "chosen-chaos-chariot"
         },
         {
           "name_en": "Chaos Dragon",
@@ -778,7 +793,8 @@
           "name_de": "Chaos Dragon",
           "name_es": "Chaos Dragon",
           "name_fr": "Dragon du Chaos",
-          "points": 285
+          "points": 285,
+          "id": "chaos-dragon"
         }
       ],
       "items": [
@@ -788,7 +804,12 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Magic Items",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100
         },
@@ -798,7 +819,9 @@
           "name_de": "Gifts of Chaos",
           "name_es": "Gifts of Chaos",
           "name_fr": "Dons du Chaos",
-          "types": ["gift-of-chaos"],
+          "types": [
+            "gift-of-chaos"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -966,7 +989,8 @@
           "name_es": "On foot",
           "name_fr": "À Pied",
           "points": 0,
-          "active": true
+          "active": true,
+          "id": "on-foot"
         },
         {
           "name_en": "Chaos Steed",
@@ -974,7 +998,8 @@
           "name_de": "Chaos Steed",
           "name_es": "Chaos Steed",
           "name_fr": "Destrier du Chaos",
-          "points": 16
+          "points": 16,
+          "id": "chaos-steed"
         },
         {
           "name_en": "Daemonic Mount",
@@ -982,7 +1007,8 @@
           "name_de": "Daemonic Mount",
           "name_es": "Daemonic Mount",
           "name_fr": "Monture Démoniaque",
-          "points": 35
+          "points": 35,
+          "id": "daemonic-mount"
         },
         {
           "name_en": "Chaos Chariot",
@@ -1037,7 +1063,8 @@
               "points": 10,
               "exclusive": true
             }
-          ]
+          ],
+          "id": "chaos-chariot"
         },
         {
           "name_en": "Manticore {warriors of chaos}",
@@ -1055,7 +1082,8 @@
               "name_fr": "Queue venimeuse",
               "points": 15
             }
-          ]
+          ],
+          "id": "manticore"
         },
         {
           "name_en": "Chaos Dragon",
@@ -1063,7 +1091,8 @@
           "name_de": "Chaos Dragon",
           "name_es": "Chaos Dragon",
           "name_fr": "Dragon du Chaos",
-          "points": 285
+          "points": 285,
+          "id": "chaos-dragon"
         }
       ],
       "items": [
@@ -1089,12 +1118,18 @@
           "name_de": "Gifts of Chaos",
           "name_es": "Gifts of Chaos",
           "name_fr": "Dons du Chaos",
-          "types": ["gift-of-chaos"],
+          "types": [
+            "gift-of-chaos"
+          ],
           "selected": [],
           "maxPoints": 50
         }
       ],
-      "lores": ["battle-magic", "daemonology", "dark-magic"],
+      "lores": [
+        "battle-magic",
+        "daemonology",
+        "dark-magic"
+      ],
       "specialRules": {
         "name_en": "Chaos Armour {warriors of chaos} (5+), Ensorcelled Weapons, Gaze of the Gods, Lore of Chaos",
         "name_cn": "混沌甲 {warriors of chaos}(5+), 附魔武器, 诸神凝视, 混沌法系",
@@ -1159,9 +1194,14 @@
           "name_es": "Battle Standard Bearer",
           "name_fr": "Porteur de la Grande Bannière",
           "points": 25,
-          "armyComposition": ["warriors-of-chaos", "heralds-of-darkness"],
+          "armyComposition": [
+            "warriors-of-chaos",
+            "heralds-of-darkness"
+          ],
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           }
         }
@@ -1312,7 +1352,8 @@
           "name_es": "On foot",
           "name_fr": "À Pied",
           "points": 0,
-          "active": true
+          "active": true,
+          "id": "on-foot"
         },
         {
           "name_en": "Chaos Steed",
@@ -1320,7 +1361,8 @@
           "name_de": "Chaos Steed",
           "name_es": "Chaos Steed",
           "name_fr": "Destrier du Chaos",
-          "points": 16
+          "points": 16,
+          "id": "chaos-steed"
         },
         {
           "name_en": "Daemonic Mount",
@@ -1328,7 +1370,8 @@
           "name_de": "Daemonic Mount",
           "name_es": "Daemonic Mount",
           "name_fr": "Monture Démoniaque",
-          "points": 35
+          "points": 35,
+          "id": "daemonic-mount"
         },
         {
           "name_en": "Chaos Chariot",
@@ -1383,7 +1426,8 @@
               "points": 10,
               "exclusive": true
             }
-          ]
+          ],
+          "id": "chaos-chariot"
         },
         {
           "name_en": "Manticore {warriors of chaos}",
@@ -1401,7 +1445,8 @@
               "name_fr": "Queue venimeuse",
               "points": 15
             }
-          ]
+          ],
+          "id": "manticore"
         },
         {
           "name_en": "Gorebeast Chariot",
@@ -1456,7 +1501,8 @@
               "points": 10,
               "exclusive": true
             }
-          ]
+          ],
+          "id": "gorebeast-chariot"
         },
         {
           "name_en": "Chosen Chaos Chariot",
@@ -1465,7 +1511,9 @@
           "name_es": "Chosen Chaos Chariot",
           "name_fr": "Char du Chaos Élu",
           "points": 140,
-          "armyComposition": ["heralds-of-darkness"],
+          "armyComposition": [
+            "heralds-of-darkness"
+          ],
           "options": [
             {
               "name_en": "Mark of Chaos Undivided",
@@ -1512,7 +1560,8 @@
               "points": 10,
               "exclusive": true
             }
-          ]
+          ],
+          "id": "chosen-chaos-chariot"
         },
         {
           "name_en": "Chaos Dragon",
@@ -1520,7 +1569,8 @@
           "name_de": "Chaos Dragon",
           "name_es": "Chaos Dragon",
           "name_fr": "Dragon du Chaos",
-          "points": 285
+          "points": 285,
+          "id": "chaos-dragon"
         }
       ],
       "items": [
@@ -1530,7 +1580,12 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Magic Items",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 75
         },
@@ -1540,7 +1595,9 @@
           "name_de": "Gifts of Chaos",
           "name_es": "Gifts of Chaos",
           "name_fr": "Dons du Chaos",
-          "types": ["gift-of-chaos"],
+          "types": [
+            "gift-of-chaos"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -1694,7 +1751,8 @@
           "name_es": "On foot",
           "name_fr": "À Pied",
           "points": 0,
-          "active": true
+          "active": true,
+          "id": "on-foot"
         },
         {
           "name_en": "Chaos Steed",
@@ -1702,7 +1760,8 @@
           "name_de": "Chaos Steed",
           "name_es": "Chaos Steed",
           "name_fr": "Destrier du Chaos",
-          "points": 16
+          "points": 16,
+          "id": "chaos-steed"
         },
         {
           "name_en": "Daemonic Mount",
@@ -1710,7 +1769,8 @@
           "name_de": "Daemonic Mount",
           "name_es": "Daemonic Mount",
           "name_fr": "Monture Démoniaque",
-          "points": 35
+          "points": 35,
+          "id": "daemonic-mount"
         },
         {
           "name_en": "Chaos Chariot",
@@ -1765,7 +1825,8 @@
               "points": 10,
               "exclusive": true
             }
-          ]
+          ],
+          "id": "chaos-chariot"
         }
       ],
       "items": [
@@ -1791,12 +1852,18 @@
           "name_de": "Gifts of Chaos",
           "name_es": "Gifts of Chaos",
           "name_fr": "Dons du Chaos",
-          "types": ["gift-of-chaos"],
+          "types": [
+            "gift-of-chaos"
+          ],
           "selected": [],
           "maxPoints": 50
         }
       ],
-      "lores": ["battle-magic", "daemonology", "dark-magic"],
+      "lores": [
+        "battle-magic",
+        "daemonology",
+        "dark-magic"
+      ],
       "specialRules": {
         "name_en": "Chaos Armour {warriors of chaos} (5+), Ensorcelled Weapons, Gaze of the Gods, Lore of Chaos",
         "name_cn": "混沌甲 {warriors of chaos}(5+), 附魔武器, 诸神凝视, 混沌法系",
@@ -1830,7 +1897,9 @@
           "name_fr": "Porteur de la Grande Bannière",
           "points": 25,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           }
         }
@@ -2004,7 +2073,8 @@
           "name_es": "On foot",
           "name_fr": "À Pied",
           "points": 0,
-          "active": true
+          "active": true,
+          "id": "on-foot"
         },
         {
           "name_en": "Chaos Steed",
@@ -2012,7 +2082,8 @@
           "name_de": "Chaos Steed",
           "name_es": "Chaos Steed",
           "name_fr": "Destrier du Chaos",
-          "points": 16
+          "points": 16,
+          "id": "chaos-steed"
         },
         {
           "name_en": "Daemonic Mount",
@@ -2020,7 +2091,8 @@
           "name_de": "Daemonic Mount",
           "name_es": "Daemonic Mount",
           "name_fr": "Monture Démoniaque",
-          "points": 35
+          "points": 35,
+          "id": "daemonic-mount"
         },
         {
           "name_en": "Chaos Chariot",
@@ -2075,7 +2147,8 @@
               "points": 10,
               "exclusive": true
             }
-          ]
+          ],
+          "id": "chaos-chariot"
         },
         {
           "name_en": "Gorebeast Chariot",
@@ -2130,7 +2203,8 @@
               "points": 10,
               "exclusive": true
             }
-          ]
+          ],
+          "id": "gorebeast-chariot"
         },
         {
           "name_en": "Chosen Chaos Chariot",
@@ -2139,7 +2213,9 @@
           "name_es": "Chosen Chaos Chariot",
           "name_fr": "Char du Chaos Élu",
           "points": 140,
-          "armyComposition": ["heralds-of-darkness"],
+          "armyComposition": [
+            "heralds-of-darkness"
+          ],
           "options": [
             {
               "name_en": "Mark of Chaos Undivided",
@@ -2186,7 +2262,8 @@
               "points": 10,
               "exclusive": true
             }
-          ]
+          ],
+          "id": "chosen-chaos-chariot"
         }
       ],
       "items": [
@@ -2196,7 +2273,12 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Magic Items",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         },
@@ -2206,7 +2288,9 @@
           "name_de": "Gifts of Chaos",
           "name_es": "Gifts of Chaos",
           "name_fr": "Dons du Chaos",
-          "types": ["gift-of-chaos"],
+          "types": [
+            "gift-of-chaos"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -2256,7 +2340,9 @@
           "name_fr": "Porteur de la Grande Bannière",
           "points": 25,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           }
         }
@@ -2434,7 +2520,8 @@
           "name_de": "On foot",
           "name_fr": "À Pied",
           "points": 0,
-          "active": true
+          "active": true,
+          "id": "on-foot"
         },
         {
           "name_en": "Warhorse {warriors of chaos}",
@@ -2444,7 +2531,8 @@
           "name_fr": "Cheval de Guerre",
           "name_it": "Warhorse",
           "name_pl": "Warhorse",
-          "points": 14
+          "points": 14,
+          "id": "warhorse-warriors-of-chaos"
         }
       ],
       "items": [
@@ -2456,7 +2544,12 @@
           "name_fr": "Objets Magiques",
           "name_it": "Oggetti magici",
           "name_pl": "Magiczne przedmioty",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -2628,7 +2721,9 @@
       ],
       "mounts": [],
       "items": [],
-      "lores": ["dark-magic"],
+      "lores": [
+        "dark-magic"
+      ],
       "specialRules": {
         "name_en": "Armoured Hide (1), Breath of Change, Close Order, Fly (10), Large Target, Mark of Tzeentch, Regeneration (5+), Spirit of Galrauch, Stomp Attacks (D6), Swiftstride, Terror, Two-headed Dragon",
         "name_cn": "坚硬皮肤(1), 变化吐息, 紧密阵型, 飞行(10), 大型目标, 奸奇之印, 重生(5+), 迦尔洛希之魂, 践踏攻击(D6), 快速行进, 惊骇, 双头龙",
@@ -2677,7 +2772,12 @@
           "name_fr": "Champion",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -2689,7 +2789,9 @@
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -2873,7 +2975,12 @@
           "name_fr": "Champion",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -2885,7 +2992,9 @@
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -3947,7 +4056,12 @@
           "name_fr": "Champion",
           "points": 7,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -3959,7 +4073,9 @@
           "name_fr": "Porte-étendard",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 100
           }
         },
@@ -4165,7 +4281,12 @@
           "name_fr": "Champion",
           "points": 7,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -4177,7 +4298,9 @@
           "name_fr": "Porte-étendard",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 100
           }
         },
@@ -4904,7 +5027,12 @@
           "name_fr": "Shartak",
           "points": 7,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         }
@@ -4978,7 +5106,9 @@
           "name_de": "Shartak's Chaos Mutations",
           "name_es": "Shartak's Chaos Mutations",
           "name_fr": "Mutations du Chaos du Shartak",
-          "types": ["chaos-mutation"],
+          "types": [
+            "chaos-mutation"
+          ],
           "selected": [],
           "maxPoints": 25,
           "notes": {
@@ -5180,7 +5310,12 @@
           "name_pl": "First Sword (champion)",
           "points": 8,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -5194,7 +5329,9 @@
           "name_pl": "Standard bearer",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -5644,7 +5781,12 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Magic Items",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         },
@@ -5654,7 +5796,9 @@
           "name_de": "Chaos Mutations",
           "name_es": "Chaos Mutations",
           "name_fr": "Mutations du Chaos",
-          "types": ["chaos-mutation"],
+          "types": [
+            "chaos-mutation"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -5914,7 +6058,11 @@
       ],
       "mounts": [],
       "items": [],
-      "lores": ["battle-magic", "daemonology", "dark-magic"],
+      "lores": [
+        "battle-magic",
+        "daemonology",
+        "dark-magic"
+      ],
       "specialRules": {
         "name_en": "Explosive Demise, Fire & Chaos, Fly (10), Large Target, Lore of Chaos, Magical Attacks, Magic Resistance (-2), Mark of Chaos Undivided, Regeneration (5+), Stomp Attacks (D6), Swiftstride, Terror, Warpfire Aura, Close Order",
         "name_cn": "爆炸衰亡, 混沌之火, 飞行(10), 大型目标, 混沌法系, 魔法攻击, 魔法抗性(-2), 混沌无分之印, 重生(5+), 践踏攻击(D6), 快速行进, 惊骇, 次元火光环, 紧密阵型",

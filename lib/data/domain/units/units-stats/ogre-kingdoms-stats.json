@@ -7,8 +7,26 @@
     "unitSize": "1",
     "armourValue": null,
     "equipment": "Hand weapon and light armour",
-    "profiles": [{ "M": 6, "WS": 5, "BS": 3, "S": 5, "T": 5, "W": 4, "I": 4, "A": 4, "Ld": 8 }],
-    "specialRules": ["Armour Bane (1)", "Bull Charge", "Fear", "Impact Hits (2)", "Ogre Charge"]
+    "profiles": [
+      {
+        "M": 6,
+        "WS": 5,
+        "BS": 3,
+        "S": 5,
+        "T": 5,
+        "W": 4,
+        "I": 4,
+        "A": 4,
+        "Ld": 8
+      }
+    ],
+    "specialRules": [
+      "Armour Bane (1)",
+      "Bull Charge",
+      "Fear",
+      "Impact Hits (2)",
+      "Ogre Charge"
+    ]
   },
   {
     "name": "Butcher",
@@ -18,7 +36,19 @@
     "unitSize": "1",
     "armourValue": null,
     "equipment": "Hand weapon",
-    "profiles": [{ "M": 6, "WS": 3, "BS": 2, "S": 4, "T": 5, "W": 4, "I": 2, "A": 3, "Ld": 7 }],
+    "profiles": [
+      {
+        "M": 6,
+        "WS": 3,
+        "BS": 2,
+        "S": 4,
+        "T": 5,
+        "W": 4,
+        "I": 2,
+        "A": 3,
+        "Ld": 7
+      }
+    ],
     "specialRules": [
       "Armour Bane (1)",
       "Fear",
@@ -26,7 +56,11 @@
       "Lore of the Great Maw",
       "Ogre Charge"
     ],
-    "magicLores": ["Battle Magic", "Elementalism", "Illusion"]
+    "magicLores": [
+      "Battle Magic",
+      "Elementalism",
+      "Illusion"
+    ]
   },
   {
     "name": "Firebelly",
@@ -36,7 +70,19 @@
     "unitSize": "1",
     "armourValue": null,
     "equipment": "Hand weapon and flaming breath",
-    "profiles": [{ "M": 6, "WS": 3, "BS": 2, "S": 4, "T": 5, "W": 4, "I": 2, "A": 3, "Ld": 7 }],
+    "profiles": [
+      {
+        "M": 6,
+        "WS": 3,
+        "BS": 2,
+        "S": 4,
+        "T": 5,
+        "W": 4,
+        "I": 2,
+        "A": 3,
+        "Ld": 7
+      }
+    ],
     "specialRules": [
       "Armour Bane (1)",
       "Blessings of the Volcano God",
@@ -45,7 +91,10 @@
       "Impact Hits (1)",
       "Ogre Charge"
     ],
-    "magicLores": ["Battle Magic", "Elementalism"]
+    "magicLores": [
+      "Battle Magic",
+      "Elementalism"
+    ]
   },
   {
     "name": "Giant",
@@ -55,7 +104,19 @@
     "unitSize": "1",
     "armourValue": null,
     "equipment": "Giant's club and calloused hide (counts as light armour)",
-    "profiles": [{ "M": 6, "WS": 3, "BS": 1, "S": 6, "T": 6, "W": 6, "I": 2, "A": "*", "Ld": 10 }],
+    "profiles": [
+      {
+        "M": 6,
+        "WS": 3,
+        "BS": 1,
+        "S": 6,
+        "T": 6,
+        "W": 6,
+        "I": 2,
+        "A": "*",
+        "Ld": 10
+      }
+    ],
     "specialRules": [
       "Close Order",
       "Giant Attacks",
@@ -76,7 +137,19 @@
     "unitSize": "20+",
     "armourValue": null,
     "equipment": "Sharp stuff (counts as hand weapons and throwing weapons)",
-    "profiles": [{ "M": 4, "WS": 2, "BS": 3, "S": 2, "T": 3, "W": 1, "I": 3, "A": 1, "Ld": 5 }],
+    "profiles": [
+      {
+        "M": 4,
+        "WS": 2,
+        "BS": 3,
+        "S": 2,
+        "T": 3,
+        "W": 1,
+        "I": 3,
+        "A": 1,
+        "Ld": 5
+      }
+    ],
     "commandGroup": {
       "championName": "Groinbiter",
       "championProfile": {
@@ -91,7 +164,11 @@
         "Ld": 5
       }
     },
-    "specialRules": ["Close Order", "Horde", "Largely Insignificant"]
+    "specialRules": [
+      "Close Order",
+      "Horde",
+      "Largely Insignificant"
+    ]
   },
   {
     "name": "Gnoblar Scraplauncher",
@@ -102,19 +179,49 @@
     "armourValue": "4+",
     "equipment": "Scraplauncher catapult; Gnoblar Scrapper: Sharp stuff (counts as hand weapon and throwing weapons); Rhinox: Tusks and horns (counts as a hand weapon)",
     "profiles": [
-      { "M": "-", "WS": "-", "BS": "-", "S": 5, "T": 5, "W": 5, "I": "-", "A": "-", "Ld": "-" }
+      {
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "S": 5,
+        "T": 5,
+        "W": 5,
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      }
     ],
     "subUnits": [
       {
         "name": "Gnoblar Scrapper (x7)",
         "profiles": [
-          { "M": "-", "WS": 2, "BS": 3, "S": 2, "T": "-", "W": "-", "I": 3, "A": 1, "Ld": 5 }
+          {
+            "M": "-",
+            "WS": 2,
+            "BS": 3,
+            "S": 2,
+            "T": "-",
+            "W": "-",
+            "I": 3,
+            "A": 1,
+            "Ld": 5
+          }
         ]
       },
       {
         "name": "Rhinox (x1)",
         "profiles": [
-          { "M": 6, "WS": 3, "BS": "-", "S": 5, "T": "-", "W": "-", "I": 2, "A": 3, "Ld": "-" }
+          {
+            "M": 6,
+            "WS": 3,
+            "BS": "-",
+            "S": 5,
+            "T": "-",
+            "W": "-",
+            "I": 2,
+            "A": 3,
+            "Ld": "-"
+          }
         ]
       }
     ],
@@ -135,7 +242,19 @@
     "unitSize": "10+",
     "armourValue": null,
     "equipment": "Sharp stuff (counts as hand weapons and throwing weapons)",
-    "profiles": [{ "M": 4, "WS": 2, "BS": 3, "S": 2, "T": 3, "W": 1, "I": 3, "A": 1, "Ld": 5 }],
+    "profiles": [
+      {
+        "M": 4,
+        "WS": 2,
+        "BS": 3,
+        "S": 2,
+        "T": 3,
+        "W": 1,
+        "I": 3,
+        "A": 1,
+        "Ld": 5
+      }
+    ],
     "commandGroup": {
       "championName": "Snarefinger",
       "championProfile": {
@@ -166,7 +285,19 @@
     "unitSize": "1",
     "armourValue": null,
     "equipment": "Wicked claws, distensible jaw and calloused hide (counts as light armour)",
-    "profiles": [{ "M": 6, "WS": 3, "BS": 0, "S": 5, "T": 5, "W": 4, "I": 2, "A": 4, "Ld": 8 }],
+    "profiles": [
+      {
+        "M": 6,
+        "WS": 3,
+        "BS": 0,
+        "S": 5,
+        "T": 5,
+        "W": 4,
+        "I": 2,
+        "A": 4,
+        "Ld": 8
+      }
+    ],
     "specialRules": [
       "Ambushers",
       "Close Order",
@@ -186,7 +317,19 @@
     "unitSize": "1",
     "armourValue": null,
     "equipment": "Hand weapon, great throwing spear and light armour",
-    "profiles": [{ "M": 6, "WS": 5, "BS": 4, "S": 5, "T": 5, "W": 4, "I": 3, "A": 4, "Ld": 9 }],
+    "profiles": [
+      {
+        "M": 6,
+        "WS": 5,
+        "BS": 4,
+        "S": 5,
+        "T": 5,
+        "W": 4,
+        "I": 3,
+        "A": 4,
+        "Ld": 9
+      }
+    ],
     "specialRules": [
       "Armour Bane (1)",
       "Fear",
@@ -206,25 +349,65 @@
     "armourValue": "4+",
     "equipment": "Ironblaster: Cannon of the Sky-titans; Leadbelcher: Hand weapon; Gnoblar Scrapper: Sharp stuff (counts as hand weapon and throwing weapons); Rhinox: Tusks and horns (counts as a hand weapon)",
     "profiles": [
-      { "M": "-", "WS": "-", "BS": "-", "S": 5, "T": 6, "W": 5, "I": "-", "A": "-", "Ld": "-" }
+      {
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "S": 5,
+        "T": 6,
+        "W": 5,
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      }
     ],
     "subUnits": [
       {
         "name": "Leadbelcher (x1)",
         "profiles": [
-          { "M": "-", "WS": 3, "BS": 3, "S": 4, "T": "-", "W": "-", "I": 2, "A": 3, "Ld": 7 }
+          {
+            "M": "-",
+            "WS": 3,
+            "BS": 3,
+            "S": 4,
+            "T": "-",
+            "W": "-",
+            "I": 2,
+            "A": 3,
+            "Ld": 7
+          }
         ]
       },
       {
         "name": "Gnoblar Scrapper (x1)",
         "profiles": [
-          { "M": "-", "WS": 2, "BS": 3, "S": 2, "T": "-", "W": "-", "I": 3, "A": 1, "Ld": 5 }
+          {
+            "M": "-",
+            "WS": 2,
+            "BS": 3,
+            "S": 2,
+            "T": "-",
+            "W": "-",
+            "I": 3,
+            "A": 1,
+            "Ld": 5
+          }
         ]
       },
       {
         "name": "Rhinox (x1)",
         "profiles": [
-          { "M": 6, "WS": 3, "BS": "-", "S": 5, "T": "-", "W": "-", "I": 2, "A": 3, "Ld": "-" }
+          {
+            "M": 6,
+            "WS": 3,
+            "BS": "-",
+            "S": 5,
+            "T": "-",
+            "W": "-",
+            "I": 2,
+            "A": 3,
+            "Ld": "-"
+          }
         ]
       }
     ],
@@ -245,7 +428,19 @@
     "unitSize": "3+",
     "armourValue": null,
     "equipment": "Hand weapons, great weapons and heavy armour",
-    "profiles": [{ "M": 6, "WS": 3, "BS": 2, "S": 4, "T": 4, "W": 3, "I": 2, "A": 3, "Ld": 8 }],
+    "profiles": [
+      {
+        "M": 6,
+        "WS": 3,
+        "BS": 2,
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": 2,
+        "A": 3,
+        "Ld": 8
+      }
+    ],
     "commandGroup": {
       "championName": "Gutlord",
       "championProfile": {
@@ -260,7 +455,12 @@
         "Ld": 8
       }
     },
-    "specialRules": ["Close Order", "Fear", "Impact Hits (1)", "Ogre Charge"]
+    "specialRules": [
+      "Close Order",
+      "Fear",
+      "Impact Hits (1)",
+      "Ogre Charge"
+    ]
   },
   {
     "name": "Leadbelchers",
@@ -270,7 +470,19 @@
     "unitSize": "2+",
     "armourValue": null,
     "equipment": "Hand weapons, leadbelcher guns and light armour",
-    "profiles": [{ "M": 6, "WS": 3, "BS": 3, "S": 4, "T": 4, "W": 3, "I": 2, "A": 3, "Ld": 7 }],
+    "profiles": [
+      {
+        "M": 6,
+        "WS": 3,
+        "BS": 3,
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": 2,
+        "A": 3,
+        "Ld": 7
+      }
+    ],
     "commandGroup": {
       "championName": "Thunderfist",
       "championProfile": {
@@ -285,7 +497,12 @@
         "Ld": 7
       }
     },
-    "specialRules": ["Close Order", "Fear", "Impact Hits (1)", "Ogre Charge"]
+    "specialRules": [
+      "Close Order",
+      "Fear",
+      "Impact Hits (1)",
+      "Ogre Charge"
+    ]
   },
   {
     "name": "Maneaters",
@@ -295,7 +512,19 @@
     "unitSize": "2+",
     "armourValue": null,
     "equipment": "Hand weapons and light armour",
-    "profiles": [{ "M": 6, "WS": 4, "BS": 4, "S": 5, "T": 4, "W": 3, "I": 3, "A": 4, "Ld": 8 }],
+    "profiles": [
+      {
+        "M": 6,
+        "WS": 4,
+        "BS": 4,
+        "S": 5,
+        "T": 4,
+        "W": 3,
+        "I": 3,
+        "A": 4,
+        "Ld": 8
+      }
+    ],
     "commandGroup": {
       "championName": "Maneater Captain",
       "championProfile": {
@@ -310,7 +539,13 @@
         "Ld": 8
       }
     },
-    "specialRules": ["Close Order", "Fear", "Impact Hits (1)", "Motley Crew", "Ogre Charge"]
+    "specialRules": [
+      "Close Order",
+      "Fear",
+      "Impact Hits (1)",
+      "Motley Crew",
+      "Ogre Charge"
+    ]
   },
   {
     "name": "Mournfang Cavalry",
@@ -320,7 +555,19 @@
     "unitSize": "2+",
     "armourValue": null,
     "equipment": "Ogre: Hand weapons and light armour; Mournfang: Monstrous tusks",
-    "profiles": [{ "M": "-", "WS": 3, "BS": 2, "S": 4, "T": 4, "W": 4, "I": 2, "A": 3, "Ld": 7 }],
+    "profiles": [
+      {
+        "M": "-",
+        "WS": 3,
+        "BS": 2,
+        "S": 4,
+        "T": 4,
+        "W": 4,
+        "I": 2,
+        "A": 3,
+        "Ld": 7
+      }
+    ],
     "commandGroup": {
       "championName": "Crusher",
       "championProfile": {
@@ -339,7 +586,17 @@
       {
         "name": "Mournfang",
         "profiles": [
-          { "M": 8, "WS": 3, "BS": "-", "S": 5, "T": "-", "W": "-", "I": 2, "A": 3, "Ld": "-" }
+          {
+            "M": 8,
+            "WS": 3,
+            "BS": "-",
+            "S": 5,
+            "T": "-",
+            "W": "-",
+            "I": 2,
+            "A": 3,
+            "Ld": "-"
+          }
         ]
       }
     ],
@@ -360,7 +617,19 @@
     "unitSize": "3+",
     "armourValue": null,
     "equipment": "Hand weapons and light armour",
-    "profiles": [{ "M": 6, "WS": 3, "BS": 2, "S": 4, "T": 4, "W": 3, "I": 2, "A": 3, "Ld": 7 }],
+    "profiles": [
+      {
+        "M": 6,
+        "WS": 3,
+        "BS": 2,
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": 2,
+        "A": 3,
+        "Ld": 7
+      }
+    ],
     "commandGroup": {
       "championName": "Crusher",
       "championProfile": {
@@ -375,7 +644,13 @@
         "Ld": 7
       }
     },
-    "specialRules": ["Armour Bane (1)", "Close Order", "Fear", "Impact Hits (1)", "Ogre Charge"]
+    "specialRules": [
+      "Armour Bane (1)",
+      "Close Order",
+      "Fear",
+      "Impact Hits (1)",
+      "Ogre Charge"
+    ]
   },
   {
     "name": "Sabretusk Pack",
@@ -385,7 +660,19 @@
     "unitSize": "2-10",
     "armourValue": null,
     "equipment": "Claws and fangs (counts as hand weapons)",
-    "profiles": [{ "M": 8, "WS": 4, "BS": 0, "S": 4, "T": 4, "W": 2, "I": 4, "A": 2, "Ld": 6 }],
+    "profiles": [
+      {
+        "M": 8,
+        "WS": 4,
+        "BS": 0,
+        "S": 4,
+        "T": 4,
+        "W": 2,
+        "I": 4,
+        "A": 2,
+        "Ld": 6
+      }
+    ],
     "specialRules": [
       "Armour Bane (1)",
       "Fear",
@@ -405,7 +692,19 @@
     "unitSize": "1",
     "armourValue": null,
     "equipment": "Hand weapon",
-    "profiles": [{ "M": 6, "WS": 4, "BS": 3, "S": 4, "T": 5, "W": 5, "I": 3, "A": 4, "Ld": 8 }],
+    "profiles": [
+      {
+        "M": 6,
+        "WS": 4,
+        "BS": 3,
+        "S": 4,
+        "T": 5,
+        "W": 5,
+        "I": 3,
+        "A": 4,
+        "Ld": 8
+      }
+    ],
     "specialRules": [
       "Armour Bane (1)",
       "Fear",
@@ -413,7 +712,11 @@
       "Lore of the Great Maw",
       "Ogre Charge"
     ],
-    "magicLores": ["Battle Magic", "Elementalism", "Illusion"]
+    "magicLores": [
+      "Battle Magic",
+      "Elementalism",
+      "Illusion"
+    ]
   },
   {
     "name": "Stonehorn",
@@ -424,7 +727,17 @@
     "armourValue": null,
     "equipment": "Horns of stone and petrified flesh (counts as full plate armour)",
     "profiles": [
-      { "M": 7, "WS": 3, "BS": 0, "S": 6, "T": "+1", "W": "+4", "I": 2, "A": 4, "Ld": "-" }
+      {
+        "M": 7,
+        "WS": 3,
+        "BS": 0,
+        "S": 6,
+        "T": "+1",
+        "W": "+4",
+        "I": 2,
+        "A": 4,
+        "Ld": "-"
+      }
     ],
     "specialRules": [
       "Armour Bane (2, Stonehorn only)",
@@ -446,18 +759,50 @@
     "unitSize": "1",
     "armourValue": "4+",
     "equipment": "Stonehorn: Horns of stone; Ogre Beast Rider: Hand weapon and chaintrap; Ogre Crew: Hand weapon and harpoon launcher",
-    "profiles": [{ "M": 7, "WS": 3, "BS": 0, "S": 6, "T": 6, "W": 6, "I": 2, "A": 4, "Ld": "-" }],
+    "profiles": [
+      {
+        "M": 7,
+        "WS": 3,
+        "BS": 0,
+        "S": 6,
+        "T": 6,
+        "W": 6,
+        "I": 2,
+        "A": 4,
+        "Ld": "-"
+      }
+    ],
     "subUnits": [
       {
         "name": "Ogre Beast Rider (x1)",
         "profiles": [
-          { "M": "-", "WS": 3, "BS": 3, "S": 4, "T": "-", "W": "-", "I": 2, "A": 3, "Ld": 7 }
+          {
+            "M": "-",
+            "WS": 3,
+            "BS": 3,
+            "S": 4,
+            "T": "-",
+            "W": "-",
+            "I": 2,
+            "A": 3,
+            "Ld": 7
+          }
         ]
       },
       {
         "name": "Ogre Crew (x1)",
         "profiles": [
-          { "M": "-", "WS": 3, "BS": 3, "S": 4, "T": "-", "W": "-", "I": 2, "A": 3, "Ld": 7 }
+          {
+            "M": "-",
+            "WS": 3,
+            "BS": 3,
+            "S": 4,
+            "T": "-",
+            "W": "-",
+            "I": 2,
+            "A": 3,
+            "Ld": 7
+          }
         ]
       }
     ],
@@ -483,7 +828,17 @@
     "armourValue": null,
     "equipment": "Great tusks, chill breath and frozen pelt (counts as heavy armour)",
     "profiles": [
-      { "M": 6, "WS": 3, "BS": 0, "S": 6, "T": "+1", "W": "+4", "I": 2, "A": 4, "Ld": "-" }
+      {
+        "M": 6,
+        "WS": 3,
+        "BS": 0,
+        "S": 6,
+        "T": "+1",
+        "W": "+4",
+        "I": 2,
+        "A": 4,
+        "Ld": "-"
+      }
     ],
     "specialRules": [
       "Close Order",
@@ -504,18 +859,50 @@
     "unitSize": "1",
     "armourValue": "5+",
     "equipment": "Thundertusk: Great tusks and chill breath; Ogre Beast Rider: Hand weapon and chaintrap; Ogre Crew: Hand weapon and harpoon launcher",
-    "profiles": [{ "M": 6, "WS": 3, "BS": 0, "S": 6, "T": 6, "W": 6, "I": 2, "A": 4, "Ld": "-" }],
+    "profiles": [
+      {
+        "M": 6,
+        "WS": 3,
+        "BS": 0,
+        "S": 6,
+        "T": 6,
+        "W": 6,
+        "I": 2,
+        "A": 4,
+        "Ld": "-"
+      }
+    ],
     "subUnits": [
       {
         "name": "Ogre Beast Rider (x1)",
         "profiles": [
-          { "M": "-", "WS": 3, "BS": 3, "S": 4, "T": "-", "W": "-", "I": 2, "A": 3, "Ld": 7 }
+          {
+            "M": "-",
+            "WS": 3,
+            "BS": 3,
+            "S": 4,
+            "T": "-",
+            "W": "-",
+            "I": 2,
+            "A": 3,
+            "Ld": 7
+          }
         ]
       },
       {
         "name": "Ogre Crew (x1)",
         "profiles": [
-          { "M": "-", "WS": 3, "BS": 3, "S": 4, "T": "-", "W": "-", "I": 2, "A": 3, "Ld": 7 }
+          {
+            "M": "-",
+            "WS": 3,
+            "BS": 3,
+            "S": 4,
+            "T": "-",
+            "W": "-",
+            "I": 2,
+            "A": 3,
+            "Ld": 7
+          }
         ]
       }
     ],
@@ -539,8 +926,26 @@
     "unitSize": "1",
     "armourValue": null,
     "equipment": "Hand weapon and light armour",
-    "profiles": [{ "M": 6, "WS": 6, "BS": 4, "S": 5, "T": 5, "W": 5, "I": 5, "A": 5, "Ld": 9 }],
-    "specialRules": ["Armour Bane (1)", "Bull Charge", "Fear", "Impact Hits (2)", "Ogre Charge"]
+    "profiles": [
+      {
+        "M": 6,
+        "WS": 6,
+        "BS": 4,
+        "S": 5,
+        "T": 5,
+        "W": 5,
+        "I": 5,
+        "A": 5,
+        "Ld": 9
+      }
+    ],
+    "specialRules": [
+      "Armour Bane (1)",
+      "Bull Charge",
+      "Fear",
+      "Impact Hits (2)",
+      "Ogre Charge"
+    ]
   },
   {
     "name": "Yhetees",
@@ -550,7 +955,19 @@
     "unitSize": "3+",
     "armourValue": null,
     "equipment": "Grimfrost weapons",
-    "profiles": [{ "M": 7, "WS": 3, "BS": 0, "S": 5, "T": 4, "W": 3, "I": 4, "A": 3, "Ld": 7 }],
+    "profiles": [
+      {
+        "M": 7,
+        "WS": 3,
+        "BS": 0,
+        "S": 5,
+        "T": 4,
+        "W": 3,
+        "I": 4,
+        "A": 3,
+        "Ld": 7
+      }
+    ],
     "commandGroup": {
       "championName": "Greyback",
       "championProfile": {

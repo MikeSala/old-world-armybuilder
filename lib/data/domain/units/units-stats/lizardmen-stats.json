@@ -6,7 +6,10 @@
     "baseSize": "60 x 100 mm",
     "unitSize": "1",
     "armourValue": "4+",
-    "equipment": ["Great horns", "Giant bow"],
+    "equipment": [
+      "Great horns",
+      "Giant bow"
+    ],
     "profiles": [
       {
         "label": "Ancient Stegadon",
@@ -27,7 +30,10 @@
         "count": "x5",
         "troopType": "Regular Infantry",
         "baseSize": "25 x 25 mm",
-        "equipment": ["Hand weapons", "Javelins"],
+        "equipment": [
+          "Hand weapons",
+          "Javelins"
+        ],
         "profiles": [
           {
             "label": "Skink Crew",
@@ -64,7 +70,10 @@
     "baseSize": "60 x 100 mm",
     "unitSize": "1",
     "armourValue": "3+",
-    "equipment": ["Thunderous bludgeon", "Ark of Sotek"],
+    "equipment": [
+      "Thunderous bludgeon",
+      "Ark of Sotek"
+    ],
     "profiles": [
       {
         "label": "Bastiladon",
@@ -83,7 +92,10 @@
       {
         "name": "Skink Crew",
         "count": "x3",
-        "equipment": ["Hand weapons", "Javelins"],
+        "equipment": [
+          "Hand weapons",
+          "Javelins"
+        ],
         "profiles": [
           {
             "label": "Skink Crew",
@@ -120,7 +132,10 @@
     "baseSize": "50 x 100 mm",
     "unitSize": "1",
     "armourValue": null,
-    "equipment": ["Slashing talons", "Scaly skin (counts as heavy armour)"],
+    "equipment": [
+      "Slashing talons",
+      "Scaly skin (counts as heavy armour)"
+    ],
     "profiles": [
       {
         "label": "Carnosaur",
@@ -152,7 +167,11 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "5+",
     "armourValue": null,
-    "equipment": ["Hand weapons", "Blowpipes", "Calloused hides (light armour)"],
+    "equipment": [
+      "Hand weapons",
+      "Blowpipes",
+      "Calloused hides (light armour)"
+    ],
     "profiles": [
       {
         "label": "Chameleon Skink",
@@ -179,7 +198,13 @@
         "Ld": 6
       }
     ],
-    "specialRules": ["Cold Blooded", "Evasive", "Move Through Cover", "Scouts", "Skirmishers"]
+    "specialRules": [
+      "Cold Blooded",
+      "Evasive",
+      "Move Through Cover",
+      "Scouts",
+      "Skirmishers"
+    ]
   },
   {
     "name": "Cold One (Lizardmen)",
@@ -188,7 +213,9 @@
     "baseSize": "30 x 60 mm",
     "unitSize": "1",
     "armourValue": null,
-    "equipment": ["Claws and teeth (counts as a hand weapon)"],
+    "equipment": [
+      "Claws and teeth (counts as a hand weapon)"
+    ],
     "profiles": [
       {
         "label": "Cold One",
@@ -218,7 +245,11 @@
     "baseSize": "30 x 60 mm",
     "unitSize": "5+",
     "armourValue": "5+",
-    "equipment": ["Hand weapons", "Scaly skin (heavy armour)", "Shields"],
+    "equipment": [
+      "Hand weapons",
+      "Scaly skin (heavy armour)",
+      "Shields"
+    ],
     "profiles": [
       {
         "label": "Cold One Rider",
@@ -275,7 +306,9 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "3+",
     "armourValue": null,
-    "equipment": ["Hand weapons"],
+    "equipment": [
+      "Hand weapons"
+    ],
     "profiles": [
       {
         "label": "Jungle Swarm",
@@ -308,7 +341,10 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "3+",
     "armourValue": null,
-    "equipment": ["Great weapons", "Scaly skin (heavy armour)"],
+    "equipment": [
+      "Great weapons",
+      "Scaly skin (heavy armour)"
+    ],
     "profiles": [
       {
         "label": "Kroxigor",
@@ -335,7 +371,13 @@
         "Ld": 7
       }
     ],
-    "specialRules": ["Aquatic", "Close Order", "Cold Blooded", "Fear", "Skirmish Screen"]
+    "specialRules": [
+      "Aquatic",
+      "Close Order",
+      "Cold Blooded",
+      "Fear",
+      "Skirmish Screen"
+    ]
   },
   {
     "name": "Razordon Pack",
@@ -374,7 +416,13 @@
         "Ld": 4
       }
     ],
-    "specialRules": ["Aquatic", "Beast Handlers", "Cold Blooded", "Fear", "Skirmishers"]
+    "specialRules": [
+      "Aquatic",
+      "Beast Handlers",
+      "Cold Blooded",
+      "Fear",
+      "Skirmishers"
+    ]
   },
   {
     "name": "Ripperdactyl",
@@ -383,7 +431,9 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "1",
     "armourValue": null,
-    "equipment": ["Claws and teeth (counts as a hand weapon)"],
+    "equipment": [
+      "Claws and teeth (counts as a hand weapon)"
+    ],
     "profiles": [
       {
         "label": "Ripperdactyl",
@@ -416,7 +466,11 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "3+",
     "armourValue": "3+",
-    "equipment": ["Cavalry spears", "Calloused hides (light armour)", "Shields"],
+    "equipment": [
+      "Cavalry spears",
+      "Calloused hides (light armour)",
+      "Shields"
+    ],
     "profiles": [
       {
         "label": "Ripperdactyl Rider",
@@ -505,7 +559,13 @@
         "Ld": 4
       }
     ],
-    "specialRules": ["Aquatic", "Beast Handlers", "Cold Blooded", "Fear", "Skirmishers"]
+    "specialRules": [
+      "Aquatic",
+      "Beast Handlers",
+      "Cold Blooded",
+      "Fear",
+      "Skirmishers"
+    ]
   },
   {
     "name": "Saurus Oldblood",
@@ -514,7 +574,10 @@
     "baseSize": "30 x 30 mm",
     "unitSize": "1",
     "armourValue": null,
-    "equipment": ["Hand weapon", "Scaly skin (heavy armour)"],
+    "equipment": [
+      "Hand weapon",
+      "Scaly skin (heavy armour)"
+    ],
     "profiles": [
       {
         "label": "Saurus Oldblood",
@@ -529,7 +592,12 @@
         "Ld": 8
       }
     ],
-    "specialRules": ["Cold Blooded", "Furious Charge", "Obsidian Blades", "Rallying Cry"]
+    "specialRules": [
+      "Cold Blooded",
+      "Furious Charge",
+      "Obsidian Blades",
+      "Rallying Cry"
+    ]
   },
   {
     "name": "Saurus Scar-Veteran",
@@ -538,7 +606,10 @@
     "baseSize": "30 x 30 mm",
     "unitSize": "1",
     "armourValue": null,
-    "equipment": ["Hand weapon", "Scaly skin (heavy armour)"],
+    "equipment": [
+      "Hand weapon",
+      "Scaly skin (heavy armour)"
+    ],
     "profiles": [
       {
         "label": "Saurus Scar-Veteran",
@@ -553,7 +624,12 @@
         "Ld": 8
       }
     ],
-    "specialRules": ["Cold Blooded", "Furious Charge", "Obsidian Blades", "Rallying Cry"]
+    "specialRules": [
+      "Cold Blooded",
+      "Furious Charge",
+      "Obsidian Blades",
+      "Rallying Cry"
+    ]
   },
   {
     "name": "Saurus Warriors",
@@ -562,7 +638,11 @@
     "baseSize": "30 x 30 mm",
     "unitSize": "10+",
     "armourValue": null,
-    "equipment": ["Hand weapons", "Scaly skin (heavy armour)", "Shields"],
+    "equipment": [
+      "Hand weapons",
+      "Scaly skin (heavy armour)",
+      "Shields"
+    ],
     "profiles": [
       {
         "label": "Saurus Warrior",
@@ -589,7 +669,11 @@
         "Ld": 8
       }
     ],
-    "specialRules": ["Close Order", "Cold Blooded", "Obsidian Blades"]
+    "specialRules": [
+      "Close Order",
+      "Cold Blooded",
+      "Obsidian Blades"
+    ]
   },
   {
     "name": "Skink Chief",
@@ -598,7 +682,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": null,
-    "equipment": ["Hand weapon", "Calloused hide (light armour)"],
+    "equipment": [
+      "Hand weapon",
+      "Calloused hide (light armour)"
+    ],
     "profiles": [
       {
         "label": "Skink Chief",
@@ -613,7 +700,11 @@
         "Ld": 6
       }
     ],
-    "specialRules": ["Aquatic", "Cold Blooded", "Poisoned Attacks"]
+    "specialRules": [
+      "Aquatic",
+      "Cold Blooded",
+      "Poisoned Attacks"
+    ]
   },
   {
     "name": "Skink Priest",
@@ -622,7 +713,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": null,
-    "equipment": ["Hand weapon", "Calloused hide (light armour)"],
+    "equipment": [
+      "Hand weapon",
+      "Calloused hide (light armour)"
+    ],
     "profiles": [
       {
         "label": "Skink Priest",
@@ -637,8 +731,17 @@
         "Ld": 6
       }
     ],
-    "specialRules": ["Arcane Vassal", "Aquatic", "Cold Blooded", "Lore of Lustria"],
-    "magicLores": ["Battle Magic", "Elementalism", "Illusion"]
+    "specialRules": [
+      "Arcane Vassal",
+      "Aquatic",
+      "Cold Blooded",
+      "Lore of Lustria"
+    ],
+    "magicLores": [
+      "Battle Magic",
+      "Elementalism",
+      "Illusion"
+    ]
   },
   {
     "name": "Skink Skirmishers",
@@ -647,7 +750,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "10+",
     "armourValue": null,
-    "equipment": ["Hand weapons", "Calloused hides (light armour)"],
+    "equipment": [
+      "Hand weapons",
+      "Calloused hides (light armour)"
+    ],
     "profiles": [
       {
         "label": "Skink",
@@ -688,7 +794,9 @@
     "baseSize": "50 x 50 mm",
     "unitSize": "1",
     "armourValue": null,
-    "equipment": ["Hand weapon"],
+    "equipment": [
+      "Hand weapon"
+    ],
     "profiles": [
       {
         "label": "Slann Mage-Priest",
@@ -711,7 +819,13 @@
       "Large Target",
       "Lore of Lustria"
     ],
-    "magicLores": ["Battle Magic", "Elementalism", "High Magic", "Illusion", "Necromancy"]
+    "magicLores": [
+      "Battle Magic",
+      "Elementalism",
+      "High Magic",
+      "Illusion",
+      "Necromancy"
+    ]
   },
   {
     "name": "Stegadon",
@@ -720,7 +834,10 @@
     "baseSize": "60 x 100 mm",
     "unitSize": "1",
     "armourValue": "4+",
-    "equipment": ["Great horns", "Giant bow"],
+    "equipment": [
+      "Great horns",
+      "Giant bow"
+    ],
     "profiles": [
       {
         "label": "Stegadon",
@@ -739,7 +856,10 @@
       {
         "name": "Skink Crew",
         "count": "x5",
-        "equipment": ["Hand weapons", "Javelins"],
+        "equipment": [
+          "Hand weapons",
+          "Javelins"
+        ],
         "profiles": [
           {
             "label": "Skink Crew",
@@ -776,7 +896,12 @@
     "baseSize": "30 x 30 mm",
     "unitSize": "10+",
     "armourValue": null,
-    "equipment": ["Hand weapons", "Halberds", "Scaly skin (heavy armour)", "Shields"],
+    "equipment": [
+      "Hand weapons",
+      "Halberds",
+      "Scaly skin (heavy armour)",
+      "Shields"
+    ],
     "profiles": [
       {
         "label": "Temple Guard",
@@ -819,7 +944,9 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "1",
     "armourValue": null,
-    "equipment": ["Claws and teeth (counts as a hand weapon)"],
+    "equipment": [
+      "Claws and teeth (counts as a hand weapon)"
+    ],
     "profiles": [
       {
         "label": "Terradon",
@@ -834,7 +961,13 @@
         "Ld": null
       }
     ],
-    "specialRules": ["Armoured Hide (1)", "Drop Rocks", "Fear", "Fly (10)", "Swiftstride"]
+    "specialRules": [
+      "Armoured Hide (1)",
+      "Drop Rocks",
+      "Fear",
+      "Fly (10)",
+      "Swiftstride"
+    ]
   },
   {
     "name": "Terradon Riders",
@@ -843,7 +976,11 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "3+",
     "armourValue": "3+",
-    "equipment": ["Hand weapons", "Calloused hide (light armour)", "Javelins"],
+    "equipment": [
+      "Hand weapons",
+      "Calloused hide (light armour)",
+      "Javelins"
+    ],
     "profiles": [
       {
         "label": "Terradon Rider",
@@ -900,7 +1037,11 @@
     "baseSize": "50 x 100 mm",
     "unitSize": "1",
     "armourValue": null,
-    "equipment": ["Venomous talons", "Venom spray", "Scaly skin (heavy armour)"],
+    "equipment": [
+      "Venomous talons",
+      "Venom spray",
+      "Scaly skin (heavy armour)"
+    ],
     "profiles": [
       {
         "label": "Troglodon",
@@ -918,7 +1059,9 @@
     "subUnits": [
       {
         "name": "Skink Oracle",
-        "equipment": ["Hand weapon"],
+        "equipment": [
+          "Hand weapon"
+        ],
         "profiles": [
           {
             "label": "Skink Oracle",
@@ -948,6 +1091,9 @@
       "Stubborn",
       "Terror"
     ],
-    "magicLores": ["Battle Magic", "Illusion"]
+    "magicLores": [
+      "Battle Magic",
+      "Illusion"
+    ]
   }
 ]

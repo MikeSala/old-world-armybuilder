@@ -15,8 +15,15 @@
     "baseSize": "30 x 60 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Iron-shod hooves (counts as a hand weapon)", "Barding"],
-    "specialRules": ["Counter Charge", "First Charge", "Swiftstride"]
+    "equipment": [
+      "Iron-shod hooves (counts as a hand weapon)",
+      "Barding"
+    ],
+    "specialRules": [
+      "Counter Charge",
+      "First Charge",
+      "Swiftstride"
+    ]
   },
   {
     "name": "Captain of the Empire",
@@ -34,8 +41,14 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "Light armour"],
-    "specialRules": ["\"Hold the Line!\"", "Rallying Cry"]
+    "equipment": [
+      "Hand weapon",
+      "Light armour"
+    ],
+    "specialRules": [
+      "\"Hold the Line!\"",
+      "Rallying Cry"
+    ]
   },
   {
     "name": "Chapter Master",
@@ -53,7 +66,10 @@
     "baseSize": "(as mount)",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "Heavy armour"],
+    "equipment": [
+      "Hand weapon",
+      "Heavy armour"
+    ],
     "specialRules": [
       "Counter Charge",
       "First Charge",
@@ -81,8 +97,16 @@
     "baseSize": "50 x 75 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Wicked claws", "Barding"],
-    "specialRules": ["Counter Charge", "First Charge", "Fear", "Swiftstride"]
+    "equipment": [
+      "Wicked claws",
+      "Barding"
+    ],
+    "specialRules": [
+      "Counter Charge",
+      "First Charge",
+      "Fear",
+      "Swiftstride"
+    ]
   },
   {
     "name": "Demigryph Knights",
@@ -104,7 +128,13 @@
       "Demigryph Knights: Hand weapons, heavy armour and shields",
       "Demigryph: Wicked claws and barding"
     ],
-    "specialRules": ["Close Order", "Counter Charge", "First Charge", "Fear", "Swiftstride"],
+    "specialRules": [
+      "Close Order",
+      "Counter Charge",
+      "First Charge",
+      "Fear",
+      "Swiftstride"
+    ],
     "profiles": [
       {
         "name": "Demigryph Preceptor",
@@ -148,8 +178,17 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "5+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "Warbows"],
-    "specialRules": ["Detachment", "Move Through Cover", "Open Order", "Skirmishers", "Vanguard"],
+    "equipment": [
+      "Hand weapons",
+      "Warbows"
+    ],
+    "specialRules": [
+      "Detachment",
+      "Move Through Cover",
+      "Open Order",
+      "Skirmishers",
+      "Vanguard"
+    ],
     "profiles": [
       {
         "name": "Marksman",
@@ -181,8 +220,13 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon"],
-    "specialRules": ["Clouds of Soot & Smoke", "Master of Ballistics"]
+    "equipment": [
+      "Hand weapon"
+    ],
+    "specialRules": [
+      "Clouds of Soot & Smoke",
+      "Master of Ballistics"
+    ]
   },
   {
     "name": "Empire Greatswords",
@@ -200,8 +244,16 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "5+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "Great weapons", "Full plate armour"],
-    "specialRules": ["Close Order", "Regimental Unit", "Stubborn"],
+    "equipment": [
+      "Hand weapons",
+      "Great weapons",
+      "Full plate armour"
+    ],
+    "specialRules": [
+      "Close Order",
+      "Regimental Unit",
+      "Stubborn"
+    ],
     "profiles": [
       {
         "name": "Count's Champion",
@@ -237,7 +289,12 @@
       "Knights: Hand weapons, heavy armour and shields",
       "Barded Warhorse: Iron-shod hooves (counts as a hand weapon) and barding"
     ],
-    "specialRules": ["Close Order", "Counter Charge", "First Charge", "Swiftstride"],
+    "specialRules": [
+      "Close Order",
+      "Counter Charge",
+      "First Charge",
+      "Swiftstride"
+    ],
     "profiles": [
       {
         "name": "Preceptor",
@@ -336,7 +393,11 @@
     "baseSize": "60 x 100 mm",
     "unitSize": "1",
     "armourValue": "3+",
-    "equipment": ["Steam Cannon", "Steam gun", "Engineer Commander: Hand weapon"],
+    "equipment": [
+      "Steam Cannon",
+      "Steam gun",
+      "Engineer Commander: Hand weapon"
+    ],
     "specialRules": [
       "Close Order",
       "Grinding Wheels",
@@ -435,8 +496,13 @@
     "baseSize": "30 x 60 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Iron-shod hooves (counts as a hand weapon)"],
-    "specialRules": ["Fast Cavalry", "Swiftstride"]
+    "equipment": [
+      "Iron-shod hooves (counts as a hand weapon)"
+    ],
+    "specialRules": [
+      "Fast Cavalry",
+      "Swiftstride"
+    ]
   },
   {
     "name": "Flagellants",
@@ -454,7 +520,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "5+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "Flails"],
+    "equipment": [
+      "Hand weapons",
+      "Flails"
+    ],
     "specialRules": [
       "Close Order",
       "Fanatical Zeal",
@@ -496,8 +565,17 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "10+ (5+ if a detachment)",
     "armourValue": "—",
-    "equipment": ["Mixed weapons (counts as two hand weapons and throwing weapons)"],
-    "specialRules": ["Detachment", "Horde", "Impetuous", "Levies", "Open Order", "Warband"],
+    "equipment": [
+      "Mixed weapons (counts as two hand weapons and throwing weapons)"
+    ],
+    "specialRules": [
+      "Detachment",
+      "Horde",
+      "Impetuous",
+      "Levies",
+      "Open Order",
+      "Warband"
+    ],
     "profiles": [
       {
         "name": "Militia Leader",
@@ -529,7 +607,12 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "Full plate armour", "Judgement", "Griffon Helm"],
+    "equipment": [
+      "Hand weapon",
+      "Full plate armour",
+      "Judgement",
+      "Griffon Helm"
+    ],
     "specialRules": [
       "\"Hold the Line!\"",
       "Mercenary Commander",
@@ -554,8 +637,14 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "Light armour"],
-    "specialRules": ["\"Hold the Line!\"", "Rallying Cry"]
+    "equipment": [
+      "Hand weapon",
+      "Light armour"
+    ],
+    "specialRules": [
+      "\"Hold the Line!\"",
+      "Rallying Cry"
+    ]
   },
   {
     "name": "Grand Master",
@@ -573,7 +662,10 @@
     "baseSize": "(as mount)",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "Heavy armour"],
+    "equipment": [
+      "Hand weapon",
+      "Heavy armour"
+    ],
     "specialRules": [
       "Counter Charge",
       "First Charge",
@@ -601,8 +693,13 @@
     "baseSize": "50 x 75 mm (war machine), 25 x 25 mm (crew)",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Great cannon", "Hand weapons"],
-    "specialRules": ["Skirmishers"],
+    "equipment": [
+      "Great cannon",
+      "Hand weapons"
+    ],
+    "specialRules": [
+      "Skirmishers"
+    ],
     "profiles": [
       {
         "name": "Gun Crew",
@@ -634,7 +731,11 @@
     "baseSize": "50 x 50 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Wicked claws", "Serrated maw", "Griffonic pelt (counts as heavy armour)"],
+    "equipment": [
+      "Wicked claws",
+      "Serrated maw",
+      "Griffonic pelt (counts as heavy armour)"
+    ],
     "specialRules": [
       "Close Order",
       "Fly (9)",
@@ -711,7 +812,9 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon"],
+    "equipment": [
+      "Hand weapon"
+    ],
     "specialRules": [
       "Feel No Pain",
       "Furious Charge",
@@ -739,8 +842,13 @@
     "baseSize": "50 x 75 mm (war machine), 25 x 25 mm (crew)",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Helblaster Volley Gun", "Hand weapons"],
-    "specialRules": ["Skirmishers"],
+    "equipment": [
+      "Helblaster Volley Gun",
+      "Hand weapons"
+    ],
+    "specialRules": [
+      "Skirmishers"
+    ],
     "profiles": [
       {
         "name": "Gun Crew",
@@ -772,8 +880,13 @@
     "baseSize": "50 x 75 mm (war machine), 25 x 25 mm (crew)",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Helstorm Rocket Battery", "Hand weapons"],
-    "specialRules": ["Skirmishers"],
+    "equipment": [
+      "Helstorm Rocket Battery",
+      "Hand weapons"
+    ],
+    "specialRules": [
+      "Skirmishers"
+    ],
     "profiles": [
       {
         "name": "Gun Crew",
@@ -805,8 +918,15 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "Light armour"],
-    "specialRules": ["Magical Attacks", "Magic Resistance (-1)", "Prayers of Ulric"]
+    "equipment": [
+      "Hand weapon",
+      "Light armour"
+    ],
+    "specialRules": [
+      "Magical Attacks",
+      "Magic Resistance (-1)",
+      "Prayers of Ulric"
+    ]
   },
   {
     "name": "Imperial Griffon",
@@ -824,7 +944,11 @@
     "baseSize": "60 x 100 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Wicked claws", "Serrated maw", "Griffonic pelt (counts as heavy armour)"],
+    "equipment": [
+      "Wicked claws",
+      "Serrated maw",
+      "Griffonic pelt (counts as heavy armour)"
+    ],
     "specialRules": [
       "Close Order",
       "Fly (9)",
@@ -850,7 +974,10 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "3+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "Light armour"],
+    "equipment": [
+      "Hand weapons",
+      "Light armour"
+    ],
     "specialRules": [
       "Armour Bane (1)",
       "Close Order",
@@ -947,8 +1074,15 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "Light armour"],
-    "specialRules": ["Magical Attacks", "Magic Resistance (-1)", "Prayers of Sigmar"]
+    "equipment": [
+      "Hand weapon",
+      "Light armour"
+    ],
+    "specialRules": [
+      "Magical Attacks",
+      "Magic Resistance (-1)",
+      "Prayers of Sigmar"
+    ]
   },
   {
     "name": "Master Mage",
@@ -966,8 +1100,13 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon"],
-    "specialRules": ["Magical Attacks", "Magic Resistance (-1)"],
+    "equipment": [
+      "Hand weapon"
+    ],
+    "specialRules": [
+      "Magical Attacks",
+      "Magic Resistance (-1)"
+    ],
     "magicLores": [
       "Battle Magic",
       "Daemonology",
@@ -993,8 +1132,13 @@
     "baseSize": "50 x 75 mm (war machine), 25 x 25 mm (crew)",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Mortar", "Hand weapons"],
-    "specialRules": ["Skirmishers"],
+    "equipment": [
+      "Mortar",
+      "Hand weapons"
+    ],
+    "specialRules": [
+      "Skirmishers"
+    ],
     "profiles": [
       {
         "name": "Gun Crew",
@@ -1026,8 +1170,15 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "5+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "Handguns"],
-    "specialRules": ["Close Order", "Detachment", "Nuln State Troops"],
+    "equipment": [
+      "Hand weapons",
+      "Handguns"
+    ],
+    "specialRules": [
+      "Close Order",
+      "Detachment",
+      "Nuln State Troops"
+    ],
     "profiles": [
       {
         "name": "Sergeant",
@@ -1059,8 +1210,17 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "10+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "Halberds", "Light armour"],
-    "specialRules": ["Close Order", "Horde", "Nuln State Troops", "Regimental Unit"],
+    "equipment": [
+      "Hand weapons",
+      "Halberds",
+      "Light armour"
+    ],
+    "specialRules": [
+      "Close Order",
+      "Horde",
+      "Nuln State Troops",
+      "Regimental Unit"
+    ],
     "profiles": [
       {
         "name": "Sergeant",
@@ -1092,8 +1252,17 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "5+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "Light armour", "Shields"],
-    "specialRules": ["Close Order", "Detachment", "Horde", "Nuln State Troops"],
+    "equipment": [
+      "Hand weapons",
+      "Light armour",
+      "Shields"
+    ],
+    "specialRules": [
+      "Close Order",
+      "Detachment",
+      "Horde",
+      "Nuln State Troops"
+    ],
     "profiles": [
       {
         "name": "Sergeant",
@@ -1125,8 +1294,18 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "10+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "Halberds", "Light armour"],
-    "specialRules": ["Close Order", "Horde", "Nuln State Troops", "Regimental Unit", "Veteran"],
+    "equipment": [
+      "Hand weapons",
+      "Halberds",
+      "Light armour"
+    ],
+    "specialRules": [
+      "Close Order",
+      "Horde",
+      "Nuln State Troops",
+      "Regimental Unit",
+      "Veteran"
+    ],
     "profiles": [
       {
         "name": "Veteran Sergeant",
@@ -1213,8 +1392,15 @@
     "baseSize": "40 x 60 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Iron-shod hooves (counts as a hand weapon)"],
-    "specialRules": ["Counter Charge", "First Charge", "Fly (10)", "Swiftstride"]
+    "equipment": [
+      "Iron-shod hooves (counts as a hand weapon)"
+    ],
+    "specialRules": [
+      "Counter Charge",
+      "First Charge",
+      "Fly (10)",
+      "Swiftstride"
+    ]
   },
   {
     "name": "Pistoliers",
@@ -1288,8 +1474,15 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "Light armour"],
-    "specialRules": ["Magical Attacks", "Magic Resistance (-1)", "Prayers of Sigmar"]
+    "equipment": [
+      "Hand weapon",
+      "Light armour"
+    ],
+    "specialRules": [
+      "Magical Attacks",
+      "Magic Resistance (-1)",
+      "Prayers of Sigmar"
+    ]
   },
   {
     "name": "Priest of Ulric",
@@ -1307,8 +1500,15 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "Light armour"],
-    "specialRules": ["Magical Attacks", "Magic Resistance (-1)", "Prayers of Ulric"]
+    "equipment": [
+      "Hand weapon",
+      "Light armour"
+    ],
+    "specialRules": [
+      "Magical Attacks",
+      "Magic Resistance (-1)",
+      "Prayers of Ulric"
+    ]
   },
   {
     "name": "State Missile Troops",
@@ -1326,8 +1526,15 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "10+ (5+ if a detachment)",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "Crossbows"],
-    "specialRules": ["Close Order", "Detachment", "Regimental Unit"],
+    "equipment": [
+      "Hand weapons",
+      "Crossbows"
+    ],
+    "specialRules": [
+      "Close Order",
+      "Detachment",
+      "Regimental Unit"
+    ],
     "profiles": [
       {
         "name": "Sergeant",
@@ -1359,8 +1566,16 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "10+ (5+ if a detachment)",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "Light armour"],
-    "specialRules": ["Close Order", "Detachment", "Horde", "Regimental Unit"],
+    "equipment": [
+      "Hand weapons",
+      "Light armour"
+    ],
+    "specialRules": [
+      "Close Order",
+      "Detachment",
+      "Horde",
+      "Regimental Unit"
+    ],
     "profiles": [
       {
         "name": "Sergeant",
@@ -1392,8 +1607,18 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "5+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "Wolf hammers", "Full plate armour"],
-    "specialRules": ["Blessings of Ulric", "Close Order", "Drilled", "Stubborn", "Veteran"],
+    "equipment": [
+      "Hand weapons",
+      "Wolf hammers",
+      "Full plate armour"
+    ],
+    "specialRules": [
+      "Blessings of Ulric",
+      "Close Order",
+      "Drilled",
+      "Stubborn",
+      "Veteran"
+    ],
     "profiles": [
       {
         "name": "First Knight",
@@ -1425,8 +1650,17 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "10+ (5+ if a detachment)",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "Light armour"],
-    "specialRules": ["Close Order", "Detachment", "Horde", "Regimental Unit", "Veteran"],
+    "equipment": [
+      "Hand weapons",
+      "Light armour"
+    ],
+    "specialRules": [
+      "Close Order",
+      "Detachment",
+      "Horde",
+      "Regimental Unit",
+      "Veteran"
+    ],
     "profiles": [
       {
         "name": "Veteran Sergeant",
@@ -1458,7 +1692,9 @@
     "baseSize": "60 x 100 mm",
     "unitSize": "1",
     "armourValue": "4+",
-    "equipment": ["Warhorses: Iron-shod hooves (counts as a hand weapon)"],
+    "equipment": [
+      "Warhorses: Iron-shod hooves (counts as a hand weapon)"
+    ],
     "specialRules": [
       "Close Order",
       "First Charge",
@@ -1502,8 +1738,15 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "Light armour"],
-    "specialRules": ["Immune to Psychology", "Killing Blow", "Suffer Not..."]
+    "equipment": [
+      "Hand weapon",
+      "Light armour"
+    ],
+    "specialRules": [
+      "Immune to Psychology",
+      "Killing Blow",
+      "Suffer Not..."
+    ]
   },
   {
     "name": "Wizard Lord",
@@ -1521,8 +1764,13 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon"],
-    "specialRules": ["Magical Attacks", "Magic Resistance (-1)"],
+    "equipment": [
+      "Hand weapon"
+    ],
+    "specialRules": [
+      "Magical Attacks",
+      "Magic Resistance (-1)"
+    ],
     "magicLores": [
       "Battle Magic",
       "Daemonology",

@@ -6,7 +6,11 @@
     "baseSize": "25 x 25 mm",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Hand weapon", "whip", "light armour"],
+    "equipment": [
+      "Hand weapon",
+      "whip",
+      "light armour"
+    ],
     "specialRules": [
       "Dry as Dust",
       "Flammable",
@@ -38,7 +42,9 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "2+",
     "armourValue": "—",
-    "equipment": ["Beaks and talons (counts as hand weapons)"],
+    "equipment": [
+      "Beaks and talons (counts as hand weapons)"
+    ],
     "specialRules": [
       "Fly (10)",
       "Nehekharan Undead",
@@ -68,7 +74,11 @@
     "baseSize": "N/A",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Hand weapons", "great weapons", "light armour"],
+    "equipment": [
+      "Hand weapons",
+      "great weapons",
+      "light armour"
+    ],
     "specialRules": [
       "Cleaving Blow",
       "Covenant of Power",
@@ -115,7 +125,9 @@
     "baseSize": "25 x 25 mm",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Hand weapon"],
+    "equipment": [
+      "Hand weapon"
+    ],
     "specialRules": [
       "Arise!",
       "Curse of the Necropolis",
@@ -126,7 +138,11 @@
       "Regeneration (5+)",
       "From Beneath the Sands"
     ],
-    "magicLores": ["Elementalism", "Illusion", "Necromancy"],
+    "magicLores": [
+      "Elementalism",
+      "Illusion",
+      "Necromancy"
+    ],
     "profiles": [
       {
         "label": "High Priest",
@@ -202,7 +218,9 @@
     "baseSize": "25 x 25 mm",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Hand weapon"],
+    "equipment": [
+      "Hand weapon"
+    ],
     "specialRules": [
       "Arise!",
       "Curse of the Necropolis",
@@ -213,7 +231,11 @@
       "Regeneration (5+)",
       "From Beneath the Sands"
     ],
-    "magicLores": ["Elementalism", "Illusion", "Necromancy"],
+    "magicLores": [
+      "Elementalism",
+      "Illusion",
+      "Necromancy"
+    ],
     "profiles": [
       {
         "label": "Mortuary Priest",
@@ -275,7 +297,10 @@
     "baseSize": "50 x 50 mm",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Paired great khopeshes", "heavy armour"],
+    "equipment": [
+      "Paired great khopeshes",
+      "heavy armour"
+    ],
     "specialRules": [
       "Close Order",
       "Indomitable (2)",
@@ -374,7 +399,9 @@
     "baseSize": "50 x 100 mm",
     "unitSize": "2+",
     "armourValue": "—",
-    "equipment": ["Lashing tails and venomous fangs (counts as hand weapons)"],
+    "equipment": [
+      "Lashing tails and venomous fangs (counts as hand weapons)"
+    ],
     "specialRules": [
       "Ambushers",
       "Armoured Hide (1)",
@@ -409,7 +436,11 @@
     "baseSize": "60 x 100 mm",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Cleaving blades", "decapitating strike", "heavy armour"],
+    "equipment": [
+      "Cleaving blades",
+      "decapitating strike",
+      "heavy armour"
+    ],
     "specialRules": [
       "Close Order",
       "Fly (9)",
@@ -444,7 +475,11 @@
     "baseSize": "25 x 25 mm",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Hand weapon", "whip", "light armour"],
+    "equipment": [
+      "Hand weapon",
+      "whip",
+      "light armour"
+    ],
     "specialRules": [
       "Dry as Dust",
       "Eternal Taskmaster",
@@ -475,7 +510,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["The Flail of Conquered Kings", "light armour"],
+    "equipment": [
+      "The Flail of Conquered Kings",
+      "light armour"
+    ],
     "specialRules": [
       "Dry as Dust",
       "Flammable",
@@ -509,7 +547,11 @@
     "baseSize": "25 x 25 mm",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Hand weapon", "swarming mass", "light armour"],
+    "equipment": [
+      "Hand weapon",
+      "swarming mass",
+      "light armour"
+    ],
     "specialRules": [
       "Ambushers",
       "Fly (9)",
@@ -544,7 +586,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Hand weapon", "light armour"],
+    "equipment": [
+      "Hand weapon",
+      "light armour"
+    ],
     "specialRules": [
       "Banner of the King",
       "Dry as Dust",
@@ -577,7 +622,11 @@
     "baseSize": "60 x 100 mm (war machine), 25 x 25 mm (crew)",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Screaming skull catapult", "hand weapons", "light armour"],
+    "equipment": [
+      "Screaming skull catapult",
+      "hand weapons",
+      "light armour"
+    ],
     "specialRules": [
       "Dry as Dust",
       "Indomitable (1)",
@@ -619,7 +668,13 @@
     "baseSize": "50 x 100 mm",
     "unitSize": "2+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "writhing tails", "halberds", "petrifying gaze", "heavy armour"],
+    "equipment": [
+      "Hand weapons",
+      "writhing tails",
+      "halberds",
+      "petrifying gaze",
+      "heavy armour"
+    ],
     "specialRules": [
       "Close Order",
       "Indomitable (1)",
@@ -670,7 +725,9 @@
       "Settra Does Not Kneel!",
       "Settra the Great"
     ],
-    "magicLores": ["Necromancy"],
+    "magicLores": [
+      "Necromancy"
+    ],
     "profiles": [
       {
         "label": "Settra the Imperishable",
@@ -717,8 +774,14 @@
     "baseSize": "25 x 50 mm",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Skeletal hooves (counts as hand weapon)"],
-    "specialRules": ["Nehekharan Undead", "Swiftstride", "Vanguard"],
+    "equipment": [
+      "Skeletal hooves (counts as hand weapon)"
+    ],
+    "specialRules": [
+      "Nehekharan Undead",
+      "Swiftstride",
+      "Vanguard"
+    ],
     "profiles": [
       {
         "label": "Skeletal Steed",
@@ -741,7 +804,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "10+ (5+ if a detachment)",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "warbows"],
+    "equipment": [
+      "Hand weapons",
+      "warbows"
+    ],
     "specialRules": [
       "Arrows of Asaph",
       "Detachment",
@@ -862,7 +928,9 @@
     "baseSize": "50 x 100 mm",
     "unitSize": 1,
     "armourValue": "5+",
-    "equipment": ["Skeletal Steed: Skeletal hooves (counts as hand weapons)"],
+    "equipment": [
+      "Skeletal Steed: Skeletal hooves (counts as hand weapons)"
+    ],
     "specialRules": [
       "Dry as Dust",
       "Impact Hits (D3)",
@@ -1165,7 +1233,9 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "5-20",
     "armourValue": "—",
-    "equipment": ["Hand weapons"],
+    "equipment": [
+      "Hand weapons"
+    ],
     "specialRules": [
       "Arrows of Asaph",
       "Chariot Runners",
@@ -1196,7 +1266,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "10+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "shields"],
+    "equipment": [
+      "Hand weapons",
+      "shields"
+    ],
     "specialRules": [
       "Close Order",
       "Horde",
@@ -1238,7 +1311,11 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "5+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "light armour", "shields"],
+    "equipment": [
+      "Hand weapons",
+      "light armour",
+      "shields"
+    ],
     "specialRules": [
       "Cleaving Blow",
       "Close Order",
@@ -1358,7 +1435,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Hand weapon", "heavy armour"],
+    "equipment": [
+      "Hand weapon",
+      "heavy armour"
+    ],
     "specialRules": [
       "Curse of the Necropolis",
       "Dry as Dust",
@@ -1391,7 +1471,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": 1,
     "armourValue": "—",
-    "equipment": ["Hand weapon", "light armour"],
+    "equipment": [
+      "Hand weapon",
+      "light armour"
+    ],
     "specialRules": [
       "Curse of the Necropolis",
       "Dry as Dust",
@@ -1461,7 +1544,9 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "2-10",
     "armourValue": "—",
-    "equipment": ["Venomous bites and stings (counts as hand weapons)"],
+    "equipment": [
+      "Venomous bites and stings (counts as hand weapons)"
+    ],
     "specialRules": [
       "Dry as Dust",
       "Nehekharan Undead",
@@ -1491,7 +1576,11 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "3+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "ritual blades", "heavy armour"],
+    "equipment": [
+      "Hand weapons",
+      "ritual blades",
+      "heavy armour"
+    ],
     "specialRules": [
       "Arrows of Asaph",
       "Close Order",
@@ -1534,7 +1623,11 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "3+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "ritual blades", "heavy armour"],
+    "equipment": [
+      "Hand weapons",
+      "ritual blades",
+      "heavy armour"
+    ],
     "specialRules": [
       "Close Order",
       "Indomitable (1)",

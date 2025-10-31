@@ -6,7 +6,9 @@
     "baseSize": "60 x 100 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Trampling hooves and goring horns"],
+    "equipment": [
+      "Trampling hooves and goring horns"
+    ],
     "specialRules": [
       "Blazing Body",
       "Born of Fire",
@@ -40,7 +42,10 @@
     "baseSize": "50 x 75 mm",
     "unitSize": "3+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "light armour"],
+    "equipment": [
+      "Hand weapons",
+      "light armour"
+    ],
     "specialRules": [
       "Armoured Hide (1)",
       "Blackshard Armour",
@@ -88,7 +93,10 @@
     "baseSize": "50 x 75 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "heavy armour"],
+    "equipment": [
+      "Hand weapon",
+      "heavy armour"
+    ],
     "specialRules": [
       "Armour Bane (1)",
       "Armoured Hide (1)",
@@ -124,7 +132,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "heavy armour"],
+    "equipment": [
+      "Hand weapon",
+      "heavy armour"
+    ],
     "specialRules": [
       "Blackshard Armour",
       "Ensorcelled Weapons",
@@ -134,7 +145,11 @@
       "Sorcerer's Curse",
       "Stubborn"
     ],
-    "magicLores": ["Daemonology", "Dark Magic", "Elementalism"],
+    "magicLores": [
+      "Daemonology",
+      "Dark Magic",
+      "Elementalism"
+    ],
     "profiles": [
       {
         "label": "Daemonsmith Sorcerer",
@@ -157,8 +172,16 @@
     "baseSize": "50 x 75 mm (war machine), 25 x 25 mm (crew)",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Demolition Rockets", "Infernal Incendiaries", "hand weapons", "heavy armour"],
-    "specialRules": ["Blackshard Armour", "Skirmishers"],
+    "equipment": [
+      "Demolition Rockets",
+      "Infernal Incendiaries",
+      "hand weapons",
+      "heavy armour"
+    ],
+    "specialRules": [
+      "Blackshard Armour",
+      "Skirmishers"
+    ],
     "profiles": [
       {
         "label": "Deathshrieker Rocket Launcher",
@@ -193,8 +216,15 @@
     "baseSize": "N/A",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Dreadquake Mortar", "hand weapons", "heavy armour"],
-    "specialRules": ["Blackshard Armour", "Skirmishers"],
+    "equipment": [
+      "Dreadquake Mortar",
+      "hand weapons",
+      "heavy armour"
+    ],
+    "specialRules": [
+      "Blackshard Armour",
+      "Skirmishers"
+    ],
     "profiles": [
       {
         "label": "Dreadquake Mortar",
@@ -241,8 +271,15 @@
     "baseSize": "25 x 50 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Claws and fangs (counts as a hand weapon)"],
-    "specialRules": ["Chariot Runners", "Fast Cavalry", "Fire & Flee", "Swiftstride"],
+    "equipment": [
+      "Claws and fangs (counts as a hand weapon)"
+    ],
+    "specialRules": [
+      "Chariot Runners",
+      "Fast Cavalry",
+      "Fire & Flee",
+      "Swiftstride"
+    ],
     "profiles": [
       {
         "label": "Giant Wolf",
@@ -265,7 +302,9 @@
     "baseSize": "60 x 100 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Trampling hooves and goring horns"],
+    "equipment": [
+      "Trampling hooves and goring horns"
+    ],
     "specialRules": [
       "Blazing Body",
       "Born of Fire",
@@ -299,8 +338,15 @@
     "baseSize": "50 x 50 mm (war machine), 25 x 25 mm (crew)",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Bolt thrower", "hand weapons", "light armour"],
-    "specialRules": ["Levies", "Skirmishers"],
+    "equipment": [
+      "Bolt thrower",
+      "hand weapons",
+      "light armour"
+    ],
+    "specialRules": [
+      "Levies",
+      "Skirmishers"
+    ],
     "profiles": [
       {
         "label": "Bolt Thrower",
@@ -335,8 +381,17 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "10+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "shields"],
-    "specialRules": ["Backstab", "Close Order", "Horde", "Levies", "Warband"],
+    "equipment": [
+      "Hand weapons",
+      "shields"
+    ],
+    "specialRules": [
+      "Backstab",
+      "Close Order",
+      "Horde",
+      "Levies",
+      "Warband"
+    ],
     "profiles": [
       {
         "label": "Cutthroat",
@@ -371,8 +426,16 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "throwing weapons"],
-    "specialRules": ["Backstab", "Evasive", "Levies", "Warband"],
+    "equipment": [
+      "Hand weapon",
+      "throwing weapons"
+    ],
+    "specialRules": [
+      "Backstab",
+      "Evasive",
+      "Levies",
+      "Warband"
+    ],
     "profiles": [
       {
         "label": "Hobgoblin Khan",
@@ -457,7 +520,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "heavy armour"],
+    "equipment": [
+      "Hand weapon",
+      "heavy armour"
+    ],
     "specialRules": [
       "Blackshard Armour",
       "Ensorcelled Weapons",
@@ -487,7 +553,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "10+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "heavy armour"],
+    "equipment": [
+      "Hand weapons",
+      "heavy armour"
+    ],
     "specialRules": [
       "Close Order",
       "Detachment",
@@ -530,7 +599,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "10+",
     "armourValue": "—",
-    "equipment": ["Hand weapons", "full plate armour"],
+    "equipment": [
+      "Hand weapons",
+      "full plate armour"
+    ],
     "specialRules": [
       "Blackshard Armour",
       "Close Order",
@@ -577,7 +649,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "heavy armour"],
+    "equipment": [
+      "Hand weapon",
+      "heavy armour"
+    ],
     "specialRules": [
       "Blackshard Armour",
       "Ensorcelled Weapons",
@@ -607,7 +682,10 @@
     "baseSize": "60 x 100 mm",
     "unitSize": "1",
     "armourValue": "3+",
-    "equipment": ["Iron Daemon: Steam Cannonade", "Chaos Dwarf Crew: Hand weapons"],
+    "equipment": [
+      "Iron Daemon: Steam Cannonade",
+      "Chaos Dwarf Crew: Hand weapons"
+    ],
     "specialRules": [
       "Carriage Hauler",
       "Close Order",
@@ -654,7 +732,9 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "3+",
     "armourValue": "—",
-    "equipment": ["Rage and hellfire (counts as hand weapons)"],
+    "equipment": [
+      "Rage and hellfire (counts as hand weapons)"
+    ],
     "specialRules": [
       "Blazing Body",
       "Close Order",
@@ -701,7 +781,9 @@
     "baseSize": "50 x 75 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Claws and fangs (counts as a hand weapon)"],
+    "equipment": [
+      "Claws and fangs (counts as a hand weapon)"
+    ],
     "specialRules": [
       "Armour Bane (2)",
       "Close Order",
@@ -736,8 +818,15 @@
     "baseSize": "50 x 100 mm (war machine), 25 x 25 mm (crew)",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Fire thrower", "hand weapons", "heavy armour"],
-    "specialRules": ["Blackshard Armour", "Skirmishers"],
+    "equipment": [
+      "Fire thrower",
+      "hand weapons",
+      "heavy armour"
+    ],
+    "specialRules": [
+      "Blackshard Armour",
+      "Skirmishers"
+    ],
     "profiles": [
       {
         "label": "Magma Cannon",
@@ -772,7 +861,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "10+",
     "armourValue": "—",
-    "equipment": ["Two hand weapons", "throwing weapons"],
+    "equipment": [
+      "Two hand weapons",
+      "throwing weapons"
+    ],
     "specialRules": [
       "Ambushers",
       "Backstab",
@@ -815,7 +907,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "1",
     "armourValue": "—",
-    "equipment": ["Hand weapon", "heavy armour"],
+    "equipment": [
+      "Hand weapon",
+      "heavy armour"
+    ],
     "specialRules": [
       "Blackshard Armour",
       "Ensorcelled Weapons",
@@ -825,7 +920,11 @@
       "Sorcerer's Curse",
       "Stubborn"
     ],
-    "magicLores": ["Daemonology", "Dark Magic", "Elementalism"],
+    "magicLores": [
+      "Daemonology",
+      "Dark Magic",
+      "Elementalism"
+    ],
     "profiles": [
       {
         "label": "Sorcerer-Prophet",

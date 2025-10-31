@@ -56,11 +56,14 @@
             "A": 1,
             "Ld": 7
           },
-          "equipment": ["Hand weapons", "Cavalry spears", "Shortbows"]
+          "equipment": [
+            "Hand weapons",
+            "Cavalry spears",
+            "Shortbows"
+          ]
         }
       ]
     },
-
     {
       "name": "Badlands Ogre Bulls",
       "unitCategory": "Infantry",
@@ -94,7 +97,10 @@
           "Ld": 7
         }
       ],
-      "equipment": ["Hand weapons", "Light armour"],
+      "equipment": [
+        "Hand weapons",
+        "Light armour"
+      ],
       "specialRules": [
         "Armour Bane (1)",
         "Close Order",
@@ -105,7 +111,6 @@
         "Ogre Charge"
       ]
     },
-
     {
       "name": "Black Orc Bigboss",
       "unitCategory": "Character",
@@ -127,7 +132,10 @@
           "Ld": 8
         }
       ],
-      "equipment": ["Hand weapon", "Full plate armour"],
+      "equipment": [
+        "Hand weapon",
+        "Full plate armour"
+      ],
       "specialRules": [
         "Choppas",
         "Da Boyz",
@@ -138,7 +146,6 @@
         "Waaagh!"
       ]
     },
-
     {
       "name": "Black Orc Boar Chariot",
       "unitCategory": "Chariot",
@@ -160,7 +167,10 @@
           "Ld": null
         }
       ],
-      "equipment": ["Hand weapons (crew)", "Tusks (War Boars)"],
+      "equipment": [
+        "Hand weapons (crew)",
+        "Tusks (War Boars)"
+      ],
       "specialRules": [
         "Choppas",
         "Close Order",
@@ -203,7 +213,6 @@
         }
       ]
     },
-
     {
       "name": "Black Orc Mob",
       "unitCategory": "Infantry",
@@ -237,7 +246,10 @@
           "Ld": 8
         }
       ],
-      "equipment": ["Hand weapons", "Full plate armour"],
+      "equipment": [
+        "Hand weapons",
+        "Full plate armour"
+      ],
       "specialRules": [
         "Choppas",
         "Close Order",
@@ -248,7 +260,6 @@
         "Quell Impetuosity"
       ]
     },
-
     {
       "name": "Black Orc Warboss",
       "unitCategory": "Character",
@@ -270,7 +281,10 @@
           "Ld": 9
         }
       ],
-      "equipment": ["Hand weapon", "Full plate armour"],
+      "equipment": [
+        "Hand weapon",
+        "Full plate armour"
+      ],
       "specialRules": [
         "Choppas",
         "Da Boyz",
@@ -281,7 +295,6 @@
         "Waaagh!"
       ]
     },
-
     {
       "name": "Bonegrinder Giant",
       "unitCategory": "Monster",
@@ -303,7 +316,10 @@
           "Ld": 10
         }
       ],
-      "equipment": ["Bonegrinder Giant's club", "Calloused hide (counts as light armour)"],
+      "equipment": [
+        "Bonegrinder Giant's club",
+        "Calloused hide (counts as light armour)"
+      ],
       "specialRules": [
         "Bonegrinder Giant Attacks",
         "Close Order",
@@ -316,7 +332,6 @@
         "Unbreakable"
       ]
     },
-
     {
       "name": "Common Troll Mob",
       "unitCategory": "Infantry",
@@ -338,7 +353,11 @@
           "Ld": 4
         }
       ],
-      "equipment": ["Hand weapons", "Troll vomit", "Calloused hides (counts as light armour)"],
+      "equipment": [
+        "Hand weapons",
+        "Troll vomit",
+        "Calloused hides (counts as light armour)"
+      ],
       "specialRules": [
         "Armour Bane (1)",
         "Close Order",
@@ -349,7 +368,6 @@
         "Stupidity"
       ]
     },
-
     {
       "name": "Doom Diver Catapult",
       "unitCategory": "War Machine",
@@ -371,17 +389,33 @@
           "Ld": null
         }
       ],
-      "equipment": ["Doom Diver catapult (stone thrower)", "Hand weapons (crew)"],
-      "specialRules": ["Doom Diver", "Fear of Elves", "Skirmishers"],
+      "equipment": [
+        "Doom Diver catapult (stone thrower)",
+        "Hand weapons (crew)"
+      ],
+      "specialRules": [
+        "Doom Diver",
+        "Fear of Elves",
+        "Skirmishers"
+      ],
       "subUnits": [
         {
           "name": "Goblin Crew",
           "count": 1,
-          "profile": { "M": 4, "WS": 2, "BS": 3, "S": 3, "T": 3, "W": 3, "I": 3, "A": 3, "Ld": 4 }
+          "profile": {
+            "M": 4,
+            "WS": 2,
+            "BS": 3,
+            "S": 3,
+            "T": 3,
+            "W": 3,
+            "I": 3,
+            "A": 3,
+            "Ld": 4
+          }
         }
       ]
     },
-
     {
       "name": "Fanatic",
       "unitCategory": "Infantry",
@@ -403,10 +437,14 @@
           "Ld": 10
         }
       ],
-      "equipment": ["Fanatic ball & chain"],
-      "specialRules": ["Immune to Psychology", "Release the Fanatics!"]
+      "equipment": [
+        "Fanatic ball & chain"
+      ],
+      "specialRules": [
+        "Immune to Psychology",
+        "Release the Fanatics!"
+      ]
     },
-
     {
       "name": "Giant",
       "unitCategory": "Monster",
@@ -428,7 +466,10 @@
           "Ld": 10
         }
       ],
-      "equipment": ["Giant's club", "Calloused hide (counts as light armour)"],
+      "equipment": [
+        "Giant's club",
+        "Calloused hide (counts as light armour)"
+      ],
       "specialRules": [
         "Close Order",
         "Giant Attacks",
@@ -441,7 +482,6 @@
         "Unbreakable"
       ]
     },
-
     {
       "name": "Giant Cave Squig (Mount)",
       "unitCategory": "Mount",
@@ -463,7 +503,9 @@
           "Ld": null
         }
       ],
-      "equipment": ["Massive Gob"],
+      "equipment": [
+        "Massive Gob"
+      ],
       "specialRules": [
         "Armoured Hide (1)",
         "Hatred (Dwarfs)",
@@ -472,7 +514,6 @@
         "Random Movement"
       ]
     },
-
     {
       "name": "Giant Wolf (Mount)",
       "unitCategory": "Mount",
@@ -494,10 +535,16 @@
           "Ld": null
         }
       ],
-      "equipment": ["Claws and fangs (counts as a hand weapon)"],
-      "specialRules": ["Chariot Runners", "Fast Cavalry", "Fire & Flee", "Swiftstride"]
+      "equipment": [
+        "Claws and fangs (counts as a hand weapon)"
+      ],
+      "specialRules": [
+        "Chariot Runners",
+        "Fast Cavalry",
+        "Fire & Flee",
+        "Swiftstride"
+      ]
     },
-
     {
       "name": "Gigantic Spider (Mount)",
       "unitCategory": "Mount",
@@ -519,7 +566,9 @@
           "Ld": null
         }
       ],
-      "equipment": ["Claws and fangs (counts as a hand weapon)"],
+      "equipment": [
+        "Claws and fangs (counts as a hand weapon)"
+      ],
       "specialRules": [
         "Armoured Hide (1)",
         "Fast Cavalry",
@@ -528,7 +577,6 @@
         "Swiftstride"
       ]
     },
-
     {
       "name": "Goblin Bigboss",
       "unitCategory": "Character",
@@ -550,10 +598,16 @@
           "Ld": 6
         }
       ],
-      "equipment": ["Hand weapon"],
-      "specialRules": ["Fear of Elves", "Impetuous", "Rallying Cry", "Warband"]
+      "equipment": [
+        "Hand weapon"
+      ],
+      "specialRules": [
+        "Fear of Elves",
+        "Impetuous",
+        "Rallying Cry",
+        "Warband"
+      ]
     },
-
     {
       "name": "Goblin Bolt Throwa",
       "unitCategory": "War Machine",
@@ -575,17 +629,32 @@
           "Ld": null
         }
       ],
-      "equipment": ["Bolt thrower", "Hand weapons (crew)"],
-      "specialRules": ["Fear of Elves", "Skirmishers"],
+      "equipment": [
+        "Bolt thrower",
+        "Hand weapons (crew)"
+      ],
+      "specialRules": [
+        "Fear of Elves",
+        "Skirmishers"
+      ],
       "subUnits": [
         {
           "name": "Goblin Crew",
           "count": 1,
-          "profile": { "M": 4, "WS": 2, "BS": 3, "S": 3, "T": 3, "W": 3, "I": 3, "A": 3, "Ld": 4 }
+          "profile": {
+            "M": 4,
+            "WS": 2,
+            "BS": 3,
+            "S": 3,
+            "T": 3,
+            "W": 3,
+            "I": 3,
+            "A": 3,
+            "Ld": 4
+          }
         }
       ]
     },
-
     {
       "name": "Goblin Mob",
       "unitCategory": "Infantry",
@@ -619,10 +688,18 @@
           "Ld": 6
         }
       ],
-      "equipment": ["Hand weapons", "Shields"],
-      "specialRules": ["Close Order", "Fear of Elves", "Horde", "Impetuous", "Warband"]
+      "equipment": [
+        "Hand weapons",
+        "Shields"
+      ],
+      "specialRules": [
+        "Close Order",
+        "Fear of Elves",
+        "Horde",
+        "Impetuous",
+        "Warband"
+      ]
     },
-
     {
       "name": "Goblin Oddgit",
       "unitCategory": "Character",
@@ -644,11 +721,19 @@
           "Ld": 6
         }
       ],
-      "equipment": ["Hand weapon"],
-      "specialRules": ["Fear of Elves", "Lore of Mork", "Warband"],
-      "magicLores": ["Elementalism", "Waaagh! Magic"]
+      "equipment": [
+        "Hand weapon"
+      ],
+      "specialRules": [
+        "Fear of Elves",
+        "Lore of Mork",
+        "Warband"
+      ],
+      "magicLores": [
+        "Elementalism",
+        "Waaagh! Magic"
+      ]
     },
-
     {
       "name": "Goblin Oddnob",
       "unitCategory": "Character",
@@ -670,11 +755,19 @@
           "Ld": 7
         }
       ],
-      "equipment": ["Hand weapon"],
-      "specialRules": ["Fear of Elves", "Lore of Mork", "Warband"],
-      "magicLores": ["Elementalism", "Waaagh! Magic"]
+      "equipment": [
+        "Hand weapon"
+      ],
+      "specialRules": [
+        "Fear of Elves",
+        "Lore of Mork",
+        "Warband"
+      ],
+      "magicLores": [
+        "Elementalism",
+        "Waaagh! Magic"
+      ]
     },
-
     {
       "name": "Goblin Rock Lobber",
       "unitCategory": "War Machine",
@@ -696,17 +789,32 @@
           "Ld": null
         }
       ],
-      "equipment": ["Stone thrower", "Hand weapons (crew)"],
-      "specialRules": ["Fear of Elves", "Skirmishers"],
+      "equipment": [
+        "Stone thrower",
+        "Hand weapons (crew)"
+      ],
+      "specialRules": [
+        "Fear of Elves",
+        "Skirmishers"
+      ],
       "subUnits": [
         {
           "name": "Goblin Crew",
           "count": 1,
-          "profile": { "M": 4, "WS": 2, "BS": 3, "S": 3, "T": 3, "W": 4, "I": 3, "A": 3, "Ld": 4 }
+          "profile": {
+            "M": 4,
+            "WS": 2,
+            "BS": 3,
+            "S": 3,
+            "T": 3,
+            "W": 4,
+            "I": 3,
+            "A": 3,
+            "Ld": 4
+          }
         }
       ]
     },
-
     {
       "name": "Goblin Spider Rider Mob",
       "unitCategory": "Cavalry",
@@ -752,7 +860,11 @@
           "Ld": null
         }
       ],
-      "equipment": ["Hand weapons (riders)", "Shields (riders)", "Poisonous fangs (mount)"],
+      "equipment": [
+        "Hand weapons (riders)",
+        "Shields (riders)",
+        "Poisonous fangs (mount)"
+      ],
       "specialRules": [
         "Fast Cavalry",
         "Fear of Elves",
@@ -764,7 +876,6 @@
         "Warband"
       ]
     },
-
     {
       "name": "Goblin Warboss",
       "unitCategory": "Character",
@@ -786,10 +897,16 @@
           "Ld": 7
         }
       ],
-      "equipment": ["Hand weapon"],
-      "specialRules": ["Fear of Elves", "Impetuous", "Rallying Cry", "Warband"]
+      "equipment": [
+        "Hand weapon"
+      ],
+      "specialRules": [
+        "Fear of Elves",
+        "Impetuous",
+        "Rallying Cry",
+        "Warband"
+      ]
     },
-
     {
       "name": "Goblin Wolf Chariot",
       "unitCategory": "Chariot",
@@ -858,7 +975,6 @@
         }
       ]
     },
-
     {
       "name": "Goblin Wolf Rider Mob",
       "unitCategory": "Cavalry",
@@ -904,7 +1020,10 @@
           "Ld": null
         }
       ],
-      "equipment": ["Hand weapons (riders)", "Shields (riders)"],
+      "equipment": [
+        "Hand weapons (riders)",
+        "Shields (riders)"
+      ],
       "specialRules": [
         "Chariot Runners",
         "Fast Cavalry",
@@ -917,7 +1036,6 @@
         "Warband"
       ]
     },
-
     {
       "name": "Kiknik Toofsnatcha",
       "unitCategory": "Named Character",
@@ -978,7 +1096,6 @@
         }
       ]
     },
-
     {
       "name": "Mangler Squigs",
       "unitCategory": "Monster",
@@ -991,7 +1108,7 @@
           "variant": "Mangler Squig",
           "M": "3D6",
           "WS": 4,
-          "BS": 0,
+          "BS": null,
           "S": 6,
           "T": 5,
           "W": 4,
@@ -1000,7 +1117,10 @@
           "Ld": 4
         }
       ],
-      "equipment": ["Colossal fang-filled gob", "Scaly skin (counts as heavy armour)"],
+      "equipment": [
+        "Colossal fang-filled gob",
+        "Scaly skin (counts as heavy armour)"
+      ],
       "specialRules": [
         "Close Order",
         "Hatred (Dwarfs)",
@@ -1015,7 +1135,6 @@
         "Timmm-berrr!"
       ]
     },
-
     {
       "name": "Nasty Skulker",
       "unitCategory": "Infantry",
@@ -1037,7 +1156,10 @@
           "Ld": 6
         }
       ],
-      "equipment": ["Hand weapon", "Light armour"],
+      "equipment": [
+        "Hand weapon",
+        "Light armour"
+      ],
       "specialRules": [
         "Armour Bane (2)",
         "Fear of Elves",
@@ -1046,7 +1168,6 @@
         "Strike First"
       ]
     },
-
     {
       "name": "Night Goblin Bigboss",
       "unitCategory": "Character",
@@ -1068,10 +1189,16 @@
           "Ld": 5
         }
       ],
-      "equipment": ["Hand weapon"],
-      "specialRules": ["Fear of Elves", "Hatred (Dwarfs)", "Rallying Cry", "Warband"]
+      "equipment": [
+        "Hand weapon"
+      ],
+      "specialRules": [
+        "Fear of Elves",
+        "Hatred (Dwarfs)",
+        "Rallying Cry",
+        "Warband"
+      ]
     },
-
     {
       "name": "Night Goblin Mob",
       "unitCategory": "Infantry",
@@ -1105,10 +1232,18 @@
           "Ld": 5
         }
       ],
-      "equipment": ["Hand weapons", "Shields"],
-      "specialRules": ["Close Order", "Fear of Elves", "Hatred (Dwarfs)", "Horde", "Warband"]
+      "equipment": [
+        "Hand weapons",
+        "Shields"
+      ],
+      "specialRules": [
+        "Close Order",
+        "Fear of Elves",
+        "Hatred (Dwarfs)",
+        "Horde",
+        "Warband"
+      ]
     },
-
     {
       "name": "Night Goblin Oddgit",
       "unitCategory": "Character",
@@ -1130,11 +1265,20 @@
           "Ld": 5
         }
       ],
-      "equipment": ["Hand weapon"],
-      "specialRules": ["Fear of Elves", "Hatred (Dwarfs)", "Lore of Mork", "Warband"],
-      "magicLores": ["Illusion", "Waaagh! Magic"]
+      "equipment": [
+        "Hand weapon"
+      ],
+      "specialRules": [
+        "Fear of Elves",
+        "Hatred (Dwarfs)",
+        "Lore of Mork",
+        "Warband"
+      ],
+      "magicLores": [
+        "Illusion",
+        "Waaagh! Magic"
+      ]
     },
-
     {
       "name": "Night Goblin Oddnob",
       "unitCategory": "Character",
@@ -1156,11 +1300,20 @@
           "Ld": 6
         }
       ],
-      "equipment": ["Hand weapon"],
-      "specialRules": ["Fear of Elves", "Hatred (Dwarfs)", "Lore of Mork", "Warband"],
-      "magicLores": ["Illusion", "Waaagh! Magic"]
+      "equipment": [
+        "Hand weapon"
+      ],
+      "specialRules": [
+        "Fear of Elves",
+        "Hatred (Dwarfs)",
+        "Lore of Mork",
+        "Warband"
+      ],
+      "magicLores": [
+        "Illusion",
+        "Waaagh! Magic"
+      ]
     },
-
     {
       "name": "Night Goblin Squig Herd",
       "unitCategory": "Infantry",
@@ -1210,7 +1363,6 @@
         "Warband"
       ]
     },
-
     {
       "name": "Night Goblin Squig Hopper Mob",
       "unitCategory": "Cavalry",
@@ -1256,7 +1408,10 @@
           "Ld": null
         }
       ],
-      "equipment": ["Hand weapons (hoppers)", "Huge gobs (squigs)"],
+      "equipment": [
+        "Hand weapons (hoppers)",
+        "Huge gobs (squigs)"
+      ],
       "specialRules": [
         "Hatred (Dwarfs)",
         "Immune to Psychology",
@@ -1268,7 +1423,6 @@
         "Warband"
       ]
     },
-
     {
       "name": "Night Goblin Warboss",
       "unitCategory": "Character",
@@ -1290,10 +1444,16 @@
           "Ld": 6
         }
       ],
-      "equipment": ["Hand weapon"],
-      "specialRules": ["Fear of Elves", "Hatred (Dwarfs)", "Rallying Cry", "Warband"]
+      "equipment": [
+        "Hand weapon"
+      ],
+      "specialRules": [
+        "Fear of Elves",
+        "Hatred (Dwarfs)",
+        "Rallying Cry",
+        "Warband"
+      ]
     },
-
     {
       "name": "Ogdruz Swampdigga",
       "unitCategory": "Named Character",
@@ -1315,7 +1475,11 @@
           "Ld": 8
         }
       ],
-      "equipment": ["Bog-wood Staff", "Trollhide Shawl", "Lore Familiar"],
+      "equipment": [
+        "Bog-wood Staff",
+        "Trollhide Shawl",
+        "Lore Familiar"
+      ],
       "specialRules": [
         "Choppas",
         "Da Troll Calla",
@@ -1324,9 +1488,11 @@
         "Syphoned Strength",
         "Warband"
       ],
-      "magicLores": ["Elementalism", "Lore of Troll Magic"]
+      "magicLores": [
+        "Elementalism",
+        "Lore of Troll Magic"
+      ]
     },
-
     {
       "name": "Orc Bigboss",
       "unitCategory": "Character",
@@ -1348,7 +1514,10 @@
           "Ld": 7
         }
       ],
-      "equipment": ["Hand weapon", "Light armour"],
+      "equipment": [
+        "Hand weapon",
+        "Light armour"
+      ],
       "specialRules": [
         "Choppas",
         "Furious Charge",
@@ -1359,7 +1528,6 @@
         "Warband"
       ]
     },
-
     {
       "name": "Orc Boar Boy Mob",
       "unitCategory": "Cavalry",
@@ -1405,7 +1573,11 @@
           "Ld": null
         }
       ],
-      "equipment": ["Hand weapons (riders)", "Light armour (riders)", "Tusks (boars)"],
+      "equipment": [
+        "Hand weapons (riders)",
+        "Light armour (riders)",
+        "Tusks (boars)"
+      ],
       "specialRules": [
         "Armoured Hide (1)",
         "Choppas",
@@ -1419,7 +1591,6 @@
         "Warband"
       ]
     },
-
     {
       "name": "Orc Boar Chariot",
       "unitCategory": "Chariot",
@@ -1441,7 +1612,11 @@
           "Ld": null
         }
       ],
-      "equipment": ["Hand weapons (crew)", "Cavalry spears (crew)", "Tusks (boars)"],
+      "equipment": [
+        "Hand weapons (crew)",
+        "Cavalry spears (crew)",
+        "Tusks (boars)"
+      ],
       "specialRules": [
         "Choppas",
         "Close Order",
@@ -1485,7 +1660,6 @@
         }
       ]
     },
-
     {
       "name": "Orc Bully",
       "unitCategory": "War Machine",
@@ -1507,10 +1681,15 @@
           "Ld": 7
         }
       ],
-      "equipment": ["Hand weapon", "Whip"],
-      "specialRules": ["Bully", "Choppas"]
+      "equipment": [
+        "Hand weapon",
+        "Whip"
+      ],
+      "specialRules": [
+        "Bully",
+        "Choppas"
+      ]
     },
-
     {
       "name": "Orc Mob",
       "unitCategory": "Infantry",
@@ -1544,10 +1723,18 @@
           "Ld": 7
         }
       ],
-      "equipment": ["Hand weapons", "Light armour"],
-      "specialRules": ["Choppas", "Close Order", "Ignore Goblin Panic", "Impetuous", "Warband"]
+      "equipment": [
+        "Hand weapons",
+        "Light armour"
+      ],
+      "specialRules": [
+        "Choppas",
+        "Close Order",
+        "Ignore Goblin Panic",
+        "Impetuous",
+        "Warband"
+      ]
     },
-
     {
       "name": "Orc Warboss",
       "unitCategory": "Character",
@@ -1569,7 +1756,10 @@
           "Ld": 8
         }
       ],
-      "equipment": ["Hand weapon", "Light armour"],
+      "equipment": [
+        "Hand weapon",
+        "Light armour"
+      ],
       "specialRules": [
         "Choppas",
         "Furious Charge",
@@ -1580,7 +1770,6 @@
         "Warband"
       ]
     },
-
     {
       "name": "Orc Weirdboy",
       "unitCategory": "Character",
@@ -1602,11 +1791,22 @@
           "Ld": 7
         }
       ],
-      "equipment": ["Hand weapon"],
-      "specialRules": ["Choppas", "Ignore Goblin Panic", "Lore of Gork", "Mob Rule", "Warband"],
-      "magicLores": ["Battle Magic", "Elementalism", "Waaagh! Magic"]
+      "equipment": [
+        "Hand weapon"
+      ],
+      "specialRules": [
+        "Choppas",
+        "Ignore Goblin Panic",
+        "Lore of Gork",
+        "Mob Rule",
+        "Warband"
+      ],
+      "magicLores": [
+        "Battle Magic",
+        "Elementalism",
+        "Waaagh! Magic"
+      ]
     },
-
     {
       "name": "Orc Weirdnob",
       "unitCategory": "Character",
@@ -1628,11 +1828,22 @@
           "Ld": 8
         }
       ],
-      "equipment": ["Hand weapon"],
-      "specialRules": ["Choppas", "Ignore Goblin Panic", "Lore of Gork", "Mob Rule", "Warband"],
-      "magicLores": ["Battle Magic", "Elementalism", "Waaagh! Magic"]
+      "equipment": [
+        "Hand weapon"
+      ],
+      "specialRules": [
+        "Choppas",
+        "Ignore Goblin Panic",
+        "Lore of Gork",
+        "Mob Rule",
+        "Warband"
+      ],
+      "magicLores": [
+        "Battle Magic",
+        "Elementalism",
+        "Waaagh! Magic"
+      ]
     },
-
     {
       "name": "River Troll Mob",
       "unitCategory": "Infantry",
@@ -1654,7 +1865,11 @@
           "Ld": 4
         }
       ],
-      "equipment": ["Hand weapons", "Troll vomit", "Calloused hides (counts as light armour)"],
+      "equipment": [
+        "Hand weapons",
+        "Troll vomit",
+        "Calloused hides (counts as light armour)"
+      ],
       "specialRules": [
         "Armour Bane (1)",
         "Close Order",
@@ -1665,7 +1880,6 @@
         "Stupidity"
       ]
     },
-
     {
       "name": "Snotling Mob",
       "unitCategory": "Infantry",
@@ -1687,7 +1901,10 @@
           "Ld": 4
         }
       ],
-      "equipment": ["Hand weapons", "Throwing weapons"],
+      "equipment": [
+        "Hand weapons",
+        "Throwing weapons"
+      ],
       "specialRules": [
         "Immune to Psychology",
         "Impetuous",
@@ -1698,7 +1915,6 @@
         "Vanguard"
       ]
     },
-
     {
       "name": "Snotling Pump Wagon",
       "unitCategory": "Chariot",
@@ -1720,7 +1936,10 @@
           "Ld": null
         }
       ],
-      "equipment": ["Hand weapons (crew)", "Throwing weapons (crew)"],
+      "equipment": [
+        "Hand weapons (crew)",
+        "Throwing weapons (crew)"
+      ],
       "specialRules": [
         "Armour Bane (3, Pump Wagon Impact Hits only)",
         "Immune to Psychology",
@@ -1747,7 +1966,6 @@
         }
       ]
     },
-
     {
       "name": "Stone Troll Mob",
       "unitCategory": "Infantry",
@@ -1769,7 +1987,11 @@
           "Ld": 5
         }
       ],
-      "equipment": ["Hand weapons", "Troll vomit", "Calloused hides (counts as light armour)"],
+      "equipment": [
+        "Hand weapons",
+        "Troll vomit",
+        "Calloused hides (counts as light armour)"
+      ],
       "specialRules": [
         "Armour Bane (1)",
         "Armoured Hide (1)",
@@ -1782,7 +2004,6 @@
         "Stupidity"
       ]
     },
-
     {
       "name": "Troll Hag",
       "unitCategory": "Character",
@@ -1825,9 +2046,11 @@
         "Timmm-berrr!",
         "Unbreakable"
       ],
-      "magicLores": ["Battle Magic", "Lore of Troll Magic"]
+      "magicLores": [
+        "Battle Magic",
+        "Lore of Troll Magic"
+      ]
     },
-
     {
       "name": "War Boar (Mount)",
       "unitCategory": "Mount",
@@ -1849,10 +2072,16 @@
           "Ld": null
         }
       ],
-      "equipment": ["Tusks (counts as a hand weapon)"],
-      "specialRules": ["Armoured Hide (1)", "Counter Charge", "Swiftstride", "Tusker Charge"]
+      "equipment": [
+        "Tusks (counts as a hand weapon)"
+      ],
+      "specialRules": [
+        "Armoured Hide (1)",
+        "Counter Charge",
+        "Swiftstride",
+        "Tusker Charge"
+      ]
     },
-
     {
       "name": "Wyvern",
       "unitCategory": "Monster",
@@ -1874,7 +2103,11 @@
           "Ld": null
         }
       ],
-      "equipment": ["Wicked claws", "Venomous tail", "Scaly skin (counts as heavy armour)"],
+      "equipment": [
+        "Wicked claws",
+        "Venomous tail",
+        "Scaly skin (counts as heavy armour)"
+      ],
       "specialRules": [
         "Close Order",
         "Fly (9)",

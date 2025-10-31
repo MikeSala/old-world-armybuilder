@@ -7,8 +7,15 @@
     "unitSize": 1,
     "armourValue": 3,
     "equipment": "Staff, Robes",
-    "specialRules": ["Wizard", "Magic Resistance"],
-    "magicLores": ["High Magic", "Heavens", "Life"],
+    "specialRules": [
+      "Wizard",
+      "Magic Resistance"
+    ],
+    "magicLores": [
+      "High Magic",
+      "Heavens",
+      "Life"
+    ],
     "profiles": []
   },
   {
@@ -19,7 +26,10 @@
     "unitSize": 1,
     "armourValue": 4,
     "equipment": "Sword, Shield, Armour",
-    "specialRules": ["Leadership +1", "Inspiring"],
+    "specialRules": [
+      "Leadership +1",
+      "Inspiring"
+    ],
     "profiles": []
   },
   {
@@ -30,7 +40,10 @@
     "unitSize": 10,
     "armourValue": 5,
     "equipment": "Lances, Swords, Armour",
-    "specialRules": ["Swiftstride", "Shield"],
+    "specialRules": [
+      "Swiftstride",
+      "Shield"
+    ],
     "profiles": []
   },
   {
@@ -41,7 +54,9 @@
     "unitSize": 20,
     "armourValue": 3,
     "equipment": "Spears, Shields",
-    "specialRules": ["Shieldwall"],
+    "specialRules": [
+      "Shieldwall"
+    ],
     "profiles": []
   },
   {
@@ -52,7 +67,10 @@
     "unitSize": 10,
     "armourValue": 4,
     "equipment": "Swords, Armour",
-    "specialRules": ["Swiftstride", "Parry"],
+    "specialRules": [
+      "Swiftstride",
+      "Parry"
+    ],
     "profiles": []
   },
   {
@@ -63,7 +81,10 @@
     "unitSize": 10,
     "armourValue": 5,
     "equipment": "Halberds, Armour",
-    "specialRules": ["Shieldwall", "Fearless"],
+    "specialRules": [
+      "Shieldwall",
+      "Fearless"
+    ],
     "profiles": []
   },
   {
@@ -74,7 +95,10 @@
     "unitSize": 10,
     "armourValue": 5,
     "equipment": "Lances, Swords, Armour",
-    "specialRules": ["Swiftstride", "Fearless"],
+    "specialRules": [
+      "Swiftstride",
+      "Fearless"
+    ],
     "profiles": []
   },
   {
@@ -85,7 +109,10 @@
     "unitSize": 10,
     "armourValue": 3,
     "equipment": "Bows, Swords, Light Armour",
-    "specialRules": ["Skirmish", "Swiftstride"],
+    "specialRules": [
+      "Skirmish",
+      "Swiftstride"
+    ],
     "profiles": []
   },
   {
@@ -96,7 +123,10 @@
     "unitSize": 10,
     "armourValue": 4,
     "equipment": "Swords, Shields, Armour",
-    "specialRules": ["Fearless", "Inspiring"],
+    "specialRules": [
+      "Fearless",
+      "Inspiring"
+    ],
     "profiles": []
   },
   {
@@ -107,7 +137,11 @@
     "unitSize": 10,
     "armourValue": 5,
     "equipment": "Greatswords, Armour",
-    "specialRules": ["Fearless", "Swiftstride", "Parry"],
+    "specialRules": [
+      "Fearless",
+      "Swiftstride",
+      "Parry"
+    ],
     "profiles": []
   }
 ]

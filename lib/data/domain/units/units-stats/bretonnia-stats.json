@@ -15,8 +15,18 @@
     "baseSize": "25x50mm",
     "unitSize": "5+",
     "armourValue": 2,
-    "equipment": ["Hand Weapon", "Lance", "Shield", "Heavy Armour", "Barded Bretonnian Warhorse"],
-    "specialRules": ["The Lance Formation", "The Blessing of the Lady", "Oath of Duty"],
+    "equipment": [
+      "Hand Weapon",
+      "Lance",
+      "Shield",
+      "Heavy Armour",
+      "Barded Bretonnian Warhorse"
+    ],
+    "specialRules": [
+      "The Lance Formation",
+      "The Blessing of the Lady",
+      "Oath of Duty"
+    ],
     "magicLores": [],
     "profiles": [
       {
@@ -37,7 +47,11 @@
           "Heavy Armour",
           "Barded Bretonnian Warhorse"
         ],
-        "specialRules": ["The Lance Formation", "The Blessing of the Lady", "Oath of Duty"]
+        "specialRules": [
+          "The Lance Formation",
+          "The Blessing of the Lady",
+          "Oath of Duty"
+        ]
       },
       {
         "name": "Barded Bretonnian Warhorse",
@@ -143,8 +157,15 @@
     "baseSize": "25mm",
     "unitSize": "10+",
     "armourValue": 6,
-    "equipment": ["Hand Weapon", "Halberd", "Light Armour", "Shield"],
-    "specialRules": ["Peasant's Duty"],
+    "equipment": [
+      "Hand Weapon",
+      "Halberd",
+      "Light Armour",
+      "Shield"
+    ],
+    "specialRules": [
+      "Peasant's Duty"
+    ],
     "magicLores": [],
     "profiles": [
       {
@@ -158,8 +179,15 @@
         "I": 3,
         "A": 2,
         "Ld": 5,
-        "equipment": ["Hand Weapon", "Halberd", "Light Armour", "Shield"],
-        "specialRules": ["Peasant's Duty"]
+        "equipment": [
+          "Hand Weapon",
+          "Halberd",
+          "Light Armour",
+          "Shield"
+        ],
+        "specialRules": [
+          "Peasant's Duty"
+        ]
       }
     ]
   },
@@ -179,8 +207,14 @@
     "baseSize": "25mm",
     "unitSize": "10+",
     "armourValue": 0,
-    "equipment": ["Hand Weapon", "Longbow"],
-    "specialRules": ["Peasant's Duty", "Defensive Stakes"],
+    "equipment": [
+      "Hand Weapon",
+      "Longbow"
+    ],
+    "specialRules": [
+      "Peasant's Duty",
+      "Defensive Stakes"
+    ],
     "magicLores": [],
     "profiles": [
       {
@@ -194,8 +228,14 @@
         "I": 3,
         "A": 2,
         "Ld": 6,
-        "equipment": ["Hand Weapon", "Longbow"],
-        "specialRules": ["Peasant's Duty", "Defensive Stakes"]
+        "equipment": [
+          "Hand Weapon",
+          "Longbow"
+        ],
+        "specialRules": [
+          "Peasant's Duty",
+          "Defensive Stakes"
+        ]
       }
     ]
   },
@@ -289,8 +329,17 @@
     "baseSize": "25x50mm",
     "unitSize": "5+",
     "armourValue": 2,
-    "equipment": ["Hand Weapon", "Great Weapon", "Heavy Armour", "Barded Bretonnian Warhorse"],
-    "specialRules": ["The Lance Formation", "The Blessing of the Lady", "Questing Vow"],
+    "equipment": [
+      "Hand Weapon",
+      "Great Weapon",
+      "Heavy Armour",
+      "Barded Bretonnian Warhorse"
+    ],
+    "specialRules": [
+      "The Lance Formation",
+      "The Blessing of the Lady",
+      "Questing Vow"
+    ],
     "magicLores": [],
     "profiles": [
       {
@@ -304,8 +353,17 @@
         "I": 4,
         "A": 2,
         "Ld": 8,
-        "equipment": ["Hand Weapon", "Great Weapon", "Heavy Armour", "Barded Bretonnian Warhorse"],
-        "specialRules": ["The Lance Formation", "The Blessing of the Lady", "Questing Vow"]
+        "equipment": [
+          "Hand Weapon",
+          "Great Weapon",
+          "Heavy Armour",
+          "Barded Bretonnian Warhorse"
+        ],
+        "specialRules": [
+          "The Lance Formation",
+          "The Blessing of the Lady",
+          "Questing Vow"
+        ]
       },
       {
         "name": "Barded Bretonnian Warhorse",
@@ -339,8 +397,18 @@
     "baseSize": "40x60mm",
     "unitSize": "3+",
     "armourValue": 2,
-    "equipment": ["Hand Weapon", "Lance", "Shield", "Heavy Armour", "Barded Pegasus"],
-    "specialRules": ["The Blessing of the Lady", "Fly", "Vanguard"],
+    "equipment": [
+      "Hand Weapon",
+      "Lance",
+      "Shield",
+      "Heavy Armour",
+      "Barded Pegasus"
+    ],
+    "specialRules": [
+      "The Blessing of the Lady",
+      "Fly",
+      "Vanguard"
+    ],
     "magicLores": [],
     "profiles": [
       {
@@ -354,8 +422,18 @@
         "I": 3,
         "A": 2,
         "Ld": 8,
-        "equipment": ["Hand Weapon", "Lance", "Shield", "Heavy Armour", "Barded Pegasus"],
-        "specialRules": ["The Blessing of the Lady", "Fly", "Vanguard"]
+        "equipment": [
+          "Hand Weapon",
+          "Lance",
+          "Shield",
+          "Heavy Armour",
+          "Barded Pegasus"
+        ],
+        "specialRules": [
+          "The Blessing of the Lady",
+          "Fly",
+          "Vanguard"
+        ]
       },
       {
         "name": "Barded Pegasus",
@@ -369,7 +447,9 @@
         "A": 2,
         "Ld": 5,
         "equipment": [],
-        "specialRules": ["Fly"]
+        "specialRules": [
+          "Fly"
+        ]
       }
     ]
   },
@@ -389,8 +469,18 @@
     "baseSize": "25x50mm",
     "unitSize": "5+",
     "armourValue": 5,
-    "equipment": ["Hand Weapon", "Spear", "Bow", "Light Armour", "Warhorse"],
-    "specialRules": ["Fast Cavalry", "Peasant's Duty", "Vanguard"],
+    "equipment": [
+      "Hand Weapon",
+      "Spear",
+      "Bow",
+      "Light Armour",
+      "Warhorse"
+    ],
+    "specialRules": [
+      "Fast Cavalry",
+      "Peasant's Duty",
+      "Vanguard"
+    ],
     "magicLores": [],
     "profiles": [
       {
@@ -404,8 +494,18 @@
         "I": 3,
         "A": 2,
         "Ld": 6,
-        "equipment": ["Hand Weapon", "Spear", "Bow", "Light Armour", "Warhorse"],
-        "specialRules": ["Fast Cavalry", "Peasant's Duty", "Vanguard"]
+        "equipment": [
+          "Hand Weapon",
+          "Spear",
+          "Bow",
+          "Light Armour",
+          "Warhorse"
+        ],
+        "specialRules": [
+          "Fast Cavalry",
+          "Peasant's Duty",
+          "Vanguard"
+        ]
       },
       {
         "name": "Warhorse",
@@ -439,8 +539,14 @@
     "baseSize": "25mm",
     "unitSize": "10+",
     "armourValue": 6,
-    "equipment": ["Hand Weapon", "Shield"],
-    "specialRules": ["Devout", "Stubborn"],
+    "equipment": [
+      "Hand Weapon",
+      "Shield"
+    ],
+    "specialRules": [
+      "Devout",
+      "Stubborn"
+    ],
     "magicLores": [],
     "profiles": [
       {
@@ -454,8 +560,14 @@
         "I": 3,
         "A": 2,
         "Ld": 8,
-        "equipment": ["Hand Weapon", "Shield"],
-        "specialRules": ["Devout", "Stubborn"]
+        "equipment": [
+          "Hand Weapon",
+          "Shield"
+        ],
+        "specialRules": [
+          "Devout",
+          "Stubborn"
+        ]
       }
     ]
   },
@@ -475,8 +587,13 @@
     "baseSize": "varies",
     "unitSize": "1",
     "armourValue": 0,
-    "equipment": ["Stone Thrower"],
-    "specialRules": ["Large Target", "Crewed"],
+    "equipment": [
+      "Stone Thrower"
+    ],
+    "specialRules": [
+      "Large Target",
+      "Crewed"
+    ],
     "magicLores": [],
     "profiles": [
       {
@@ -490,8 +607,12 @@
         "I": 3,
         "A": 1,
         "Ld": 6,
-        "equipment": ["Hand Weapon"],
-        "specialRules": ["Peasant's Duty"]
+        "equipment": [
+          "Hand Weapon"
+        ],
+        "specialRules": [
+          "Peasant's Duty"
+        ]
       }
     ]
   },
@@ -511,8 +632,15 @@
     "baseSize": "40mm",
     "unitSize": "1",
     "armourValue": 5,
-    "equipment": ["Hand Weapon", "Relic Shield"],
-    "specialRules": ["Devout", "Stubborn", "Relic"],
+    "equipment": [
+      "Hand Weapon",
+      "Relic Shield"
+    ],
+    "specialRules": [
+      "Devout",
+      "Stubborn",
+      "Relic"
+    ],
     "magicLores": [],
     "profiles": [
       {
@@ -526,8 +654,14 @@
         "I": 3,
         "A": 1,
         "Ld": 8,
-        "equipment": ["Hand Weapon", "Shield"],
-        "specialRules": ["Devout", "Stubborn"]
+        "equipment": [
+          "Hand Weapon",
+          "Shield"
+        ],
+        "specialRules": [
+          "Devout",
+          "Stubborn"
+        ]
       }
     ]
   },
@@ -547,9 +681,18 @@
     "baseSize": "25mm",
     "unitSize": "1",
     "armourValue": 0,
-    "equipment": ["Hand Weapon"],
-    "specialRules": ["The Blessing of the Lady", "Wizard (Level 1)"],
-    "magicLores": ["Lore of Life", "Lore of Beasts", "Lore of Heavens"],
+    "equipment": [
+      "Hand Weapon"
+    ],
+    "specialRules": [
+      "The Blessing of the Lady",
+      "Wizard (Level 1)"
+    ],
+    "magicLores": [
+      "Lore of Life",
+      "Lore of Beasts",
+      "Lore of Heavens"
+    ],
     "profiles": []
   },
   {
@@ -568,9 +711,18 @@
     "baseSize": "25mm",
     "unitSize": "1",
     "armourValue": 0,
-    "equipment": ["Hand Weapon"],
-    "specialRules": ["The Blessing of the Lady", "Wizard (Level 3)"],
-    "magicLores": ["Lore of Life", "Lore of Beasts", "Lore of Heavens"],
+    "equipment": [
+      "Hand Weapon"
+    ],
+    "specialRules": [
+      "The Blessing of the Lady",
+      "Wizard (Level 3)"
+    ],
+    "magicLores": [
+      "Lore of Life",
+      "Lore of Beasts",
+      "Lore of Heavens"
+    ],
     "profiles": []
   },
   {
@@ -589,8 +741,15 @@
     "baseSize": "25mm",
     "unitSize": "1",
     "armourValue": 2,
-    "equipment": ["Hand Weapon", "Heavy Armour", "Shield"],
-    "specialRules": ["The Blessing of the Lady", "Oath of Duty"],
+    "equipment": [
+      "Hand Weapon",
+      "Heavy Armour",
+      "Shield"
+    ],
+    "specialRules": [
+      "The Blessing of the Lady",
+      "Oath of Duty"
+    ],
     "magicLores": [],
     "profiles": []
   },
@@ -610,8 +769,15 @@
     "baseSize": "25mm",
     "unitSize": "1",
     "armourValue": 1,
-    "equipment": ["Hand Weapon", "Heavy Armour", "Shield"],
-    "specialRules": ["The Blessing of the Lady", "Oath of Duty"],
+    "equipment": [
+      "Hand Weapon",
+      "Heavy Armour",
+      "Shield"
+    ],
+    "specialRules": [
+      "The Blessing of the Lady",
+      "Oath of Duty"
+    ],
     "magicLores": [],
     "profiles": []
   },
@@ -631,7 +797,11 @@
     "baseSize": "25x50mm",
     "unitSize": "1",
     "armourValue": 1,
-    "equipment": ["Hand Weapon", "Shield", "The Dolorous Blade"],
+    "equipment": [
+      "Hand Weapon",
+      "Shield",
+      "The Dolorous Blade"
+    ],
     "specialRules": [
       "Ethereal",
       "The Blessing of the Lady",

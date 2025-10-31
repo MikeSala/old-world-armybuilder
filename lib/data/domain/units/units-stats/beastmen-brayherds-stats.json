@@ -15,7 +15,9 @@
     "baseSize": "25 x 25 mm (min) 30 x 30 mm (max)",
     "unitSize": 1,
     "armourValue": null,
-    "equipment": ["Hand weapon"],
+    "equipment": [
+      "Hand weapon"
+    ],
     "specialRules": [
       "Blood Rage",
       "Brayhorn (General only)",
@@ -43,7 +45,11 @@
     "baseSize": "30 x 30 mm",
     "unitSize": "5+",
     "armourValue": null,
-    "equipment": ["Hand weapons", "great weapons", "heavy armour"],
+    "equipment": [
+      "Hand weapons",
+      "great weapons",
+      "heavy armour"
+    ],
     "specialRules": [
       "Blood Rage",
       "Close Order",
@@ -89,7 +95,9 @@
     "baseSize": "25 x 25 mm (min) 30 x 30 mm (max)",
     "unitSize": 1,
     "armourValue": null,
-    "equipment": ["Braystaff"],
+    "equipment": [
+      "Braystaff"
+    ],
     "specialRules": [
       "Gaze of the Gods",
       "Lore of Beasts",
@@ -97,7 +105,11 @@
       "Primal Fury",
       "Warband"
     ],
-    "magicLores": ["Daemonology", "Dark Magic", "Elementalism"]
+    "magicLores": [
+      "Daemonology",
+      "Dark Magic",
+      "Elementalism"
+    ]
   },
   {
     "name": "Centigor",
@@ -115,7 +127,10 @@
     "baseSize": "30 x 60 mm",
     "unitSize": "5+",
     "armourValue": null,
-    "equipment": ["Hand weapons", "shields"],
+    "equipment": [
+      "Hand weapons",
+      "shields"
+    ],
     "specialRules": [
       "Drunken",
       "Fast Cavalry",
@@ -167,7 +182,10 @@
     "baseSize": "50 x 50 mm (min), 50 x 75 mm (max)",
     "unitSize": 1,
     "armourValue": null,
-    "equipment": ["Giant's club", "calloused hide (counts as light armour)"],
+    "equipment": [
+      "Giant's club",
+      "calloused hide (counts as light armour)"
+    ],
     "specialRules": [
       "Close Order",
       "Giant Attacks",
@@ -197,8 +215,15 @@
     "baseSize": "25 x 50 mm",
     "unitSize": "5+",
     "armourValue": null,
-    "equipment": ["Claws and fangs (counts as a hand weapon)"],
-    "specialRules": ["Loner", "Move Through Cover", "Open Order", "Swiftstride"],
+    "equipment": [
+      "Claws and fangs (counts as a hand weapon)"
+    ],
+    "specialRules": [
+      "Loner",
+      "Move Through Cover",
+      "Open Order",
+      "Swiftstride"
+    ],
     "magicLores": null
   },
   {
@@ -283,7 +308,9 @@
     "baseSize": "50 x 50 mm",
     "unitSize": 1,
     "armourValue": null,
-    "equipment": ["Hand weapon"],
+    "equipment": [
+      "Hand weapon"
+    ],
     "specialRules": [
       "Armour Bane (1)",
       "Blood Greed",
@@ -316,7 +343,10 @@
     "baseSize": "50 x 75 mm",
     "unitSize": 1,
     "armourValue": null,
-    "equipment": ["Hand weapons", "light armour"],
+    "equipment": [
+      "Hand weapons",
+      "light armour"
+    ],
     "specialRules": [
       "Armour Bane (2)",
       "Armoured Hide (2)",
@@ -347,7 +377,10 @@
     "baseSize": "50 x 75 mm",
     "unitSize": "1-9",
     "armourValue": null,
-    "equipment": ["Hand weapons", "light armour"],
+    "equipment": [
+      "Hand weapons",
+      "light armour"
+    ],
     "specialRules": [
       "Armour Bane (1)",
       "Armoured Hide (2)",
@@ -396,7 +429,10 @@
     "baseSize": "60 x 100 mm",
     "unitSize": 1,
     "armourValue": null,
-    "equipment": ["Cleaver-limbs", "calloused hide (counts as light armour)"],
+    "equipment": [
+      "Cleaver-limbs",
+      "calloused hide (counts as light armour)"
+    ],
     "specialRules": [
       "Blood Greed",
       "Close Order",
@@ -428,7 +464,11 @@
     "baseSize": "30 x 60 mm",
     "unitSize": 1,
     "armourValue": null,
-    "equipment": ["Hand weapon", "Mansmasher", "the Skull of the Unicorn Lord"],
+    "equipment": [
+      "Hand weapon",
+      "Mansmasher",
+      "the Skull of the Unicorn Lord"
+    ],
     "specialRules": [
       "Drunken",
       "Father of Beasts",
@@ -459,7 +499,9 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "5+",
     "armourValue": null,
-    "equipment": ["Hand weapons"],
+    "equipment": [
+      "Hand weapons"
+    ],
     "specialRules": [
       "Bestial Charge",
       "Blood Rage",
@@ -509,7 +551,9 @@
     "baseSize": "50 x 50 mm",
     "unitSize": 1,
     "armourValue": null,
-    "equipment": ["Hand weapon"],
+    "equipment": [
+      "Hand weapon"
+    ],
     "specialRules": [
       "Armour Bane (1)",
       "Blood Greed",
@@ -542,7 +586,9 @@
     "baseSize": "25 x 25 mm (min) 30 x 30 mm (max)",
     "unitSize": 1,
     "armourValue": null,
-    "equipment": ["Braystaff"],
+    "equipment": [
+      "Braystaff"
+    ],
     "specialRules": [
       "Gaze of the Gods",
       "Lore of Beasts",
@@ -550,7 +596,11 @@
       "Primal Fury",
       "Warband"
     ],
-    "magicLores": ["Daemonology", "Dark Magic", "Elementalism"]
+    "magicLores": [
+      "Daemonology",
+      "Dark Magic",
+      "Elementalism"
+    ]
   },
   {
     "name": "Harpy",
@@ -568,8 +618,16 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "5+",
     "armourValue": null,
-    "equipment": ["Claws (counts as hand weapons)"],
-    "specialRules": ["Fly (10)", "Move Through Cover", "Scouts", "Skirmishers", "Swiftstride"],
+    "equipment": [
+      "Claws (counts as hand weapons)"
+    ],
+    "specialRules": [
+      "Fly (10)",
+      "Move Through Cover",
+      "Scouts",
+      "Skirmishers",
+      "Swiftstride"
+    ],
     "magicLores": null
   },
   {
@@ -588,7 +646,9 @@
     "baseSize": "No more than 6\" at its widest point",
     "unitSize": "0-1",
     "armourValue": null,
-    "equipment": ["Herdstones"],
+    "equipment": [
+      "Herdstones"
+    ],
     "specialRules": [],
     "magicLores": null
   },
@@ -608,7 +668,11 @@
     "baseSize": "60 x 100 mm",
     "unitSize": 1,
     "armourValue": null,
-    "equipment": ["Wicked claws", "slythey tongue", "scaly skin (counts as heavy armour)"],
+    "equipment": [
+      "Wicked claws",
+      "slythey tongue",
+      "scaly skin (counts as heavy armour)"
+    ],
     "specialRules": [
       "Close Order",
       "Fly (9)",
@@ -638,7 +702,10 @@
     "baseSize": "30 x 30 mm (Kralmaw), 25 x 25 mm (Leering Spirit marker)",
     "unitSize": 1,
     "armourValue": null,
-    "equipment": ["Hand weapon", "Grisly Totem (Braystaff)"],
+    "equipment": [
+      "Hand weapon",
+      "Grisly Totem (Braystaff)"
+    ],
     "specialRules": [
       "Future Sight",
       "Gaze of the Gods",
@@ -648,7 +715,10 @@
       "Primal Fury",
       "Warband"
     ],
-    "magicLores": ["Dark Magic", "Lore of Primal Magic"]
+    "magicLores": [
+      "Dark Magic",
+      "Lore of Primal Magic"
+    ]
   },
   {
     "name": "Minotaur",
@@ -666,7 +736,10 @@
     "baseSize": "50 x 50 mm",
     "unitSize": "2+",
     "armourValue": null,
-    "equipment": ["Hand weapon", "light armour"],
+    "equipment": [
+      "Hand weapon",
+      "light armour"
+    ],
     "specialRules": [
       "Blood Greed",
       "Blood Rage",
@@ -750,7 +823,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "10+/10+*",
     "armourValue": null,
-    "equipment": ["Gors: Hand weapons", "Ungors: Hand weapons and shields"],
+    "equipment": [
+      "Gors: Hand weapons",
+      "Ungors: Hand weapons and shields"
+    ],
     "specialRules": [
       "Bestial Charge (Gors only)",
       "Blood Rage",
@@ -822,7 +898,9 @@
     "baseSize": "25 x 50 mm",
     "unitSize": "10+",
     "armourValue": null,
-    "equipment": ["Claws and fangs (counts as a hand weapon)"],
+    "equipment": [
+      "Claws and fangs (counts as a hand weapon)"
+    ],
     "specialRules": [
       "Close Order",
       "Horde",
@@ -943,7 +1021,10 @@
     "baseSize": "50 x 75 mm",
     "unitSize": "1+",
     "armourValue": null,
-    "equipment": ["Tusks (counts as a hand weapon)", "calloused hide (counts as light armour)"],
+    "equipment": [
+      "Tusks (counts as a hand weapon)",
+      "calloused hide (counts as light armour)"
+    ],
     "specialRules": [
       "Armour Bane (1)",
       "Fear",
@@ -1025,7 +1106,10 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "10+",
     "armourValue": null,
-    "equipment": ["Hand weapons", "shields"],
+    "equipment": [
+      "Hand weapons",
+      "shields"
+    ],
     "specialRules": [
       "Chariot Runners",
       "Horde",
@@ -1074,7 +1158,11 @@
     "baseSize": "25 x 25 mm",
     "unitSize": null,
     "armourValue": null,
-    "equipment": ["Hand weapons", "throwing spears", "shields"],
+    "equipment": [
+      "Hand weapons",
+      "throwing spears",
+      "shields"
+    ],
     "specialRules": [
       "Close Order",
       "Horde",
@@ -1102,7 +1190,9 @@
     "baseSize": "25 x 25 mm (min) 30 x 30 mm (max)",
     "unitSize": 1,
     "armourValue": null,
-    "equipment": ["Hand weapon"],
+    "equipment": [
+      "Hand weapon"
+    ],
     "specialRules": [
       "Blood Rage",
       "Brayhorn (General only)",
@@ -1130,7 +1220,9 @@
     "baseSize": "30 x 60 mm",
     "unitSize": 1,
     "armourValue": null,
-    "equipment": ["Hand weapon"],
+    "equipment": [
+      "Hand weapon"
+    ],
     "specialRules": [
       "Drunken",
       "Fast Cavalry",
@@ -1160,7 +1252,9 @@
     "baseSize": "30 x 30 mm",
     "unitSize": "5+",
     "armourValue": null,
-    "equipment": ["Hand weapons"],
+    "equipment": [
+      "Hand weapons"
+    ],
     "specialRules": [
       "Armoured Hide (1)",
       "Blessing of Chaos",
