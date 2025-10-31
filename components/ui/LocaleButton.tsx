@@ -11,7 +11,7 @@ type LocaleButtonProps = AnchorHTMLAttributes<HTMLAnchorElement> & {
 };
 
 const baseClasses =
-  "inline-flex items-center gap-2 px-3 py-1.5 rounded-md border transition hover:bg-slate-100 text-sm";
+  "inline-flex items-center gap-2 px-3 py-1.5 rounded-md border transition hover:bg-slate-500 text-sm";
 
 // Mapowanie: jaki emoji dla danego języka
 const LOCALE_FLAGS: Record<Locale, string> = {
@@ -19,15 +19,8 @@ const LOCALE_FLAGS: Record<Locale, string> = {
   en: "🇬🇧",
 };
 
-export function LocaleButton({
-  locale,
-  href,
-  className,
-  ...props
-}: LocaleButtonProps) {
-  const mergedClassName = className
-    ? `${baseClasses} ${className}`
-    : baseClasses;
+export function LocaleButton({ locale, href, className, ...props }: LocaleButtonProps) {
+  const mergedClassName = className ? `${baseClasses} ${className}` : baseClasses;
 
   return (
     <Link href={href} className={mergedClassName} {...props}>
