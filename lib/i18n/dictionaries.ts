@@ -41,6 +41,107 @@ export type LocaleDictionary = {
   categoryConfirmAddLabel: string;
   categoryCancelLabel: string;
   categoryEmptyUnitsMessage: string;
+  categoryUnitSectionLocked: string;
+  categoryOptionsDefaultLabel: string;
+  categoryLockedNoticeDescription: string;
+  categoryConfiguratorPrompt: string;
+  categoryOptionsTitle: string;
+  categoryUnitSizeLabel: string;
+  categoryUnitPointsPerModel: string;
+  categoryUnitFlatCost: string;
+  categoryUnitIncreaseAria: string;
+  categoryUnitDecreaseAria: string;
+  categoryUnitMinLabel: string;
+  categoryUnitMaxLabel: string;
+  categoryUnitTotalPoints: string;
+  categoryNoAdditionalOptions: string;
+  categoryOptionCostFree: string;
+  categoryOptionCostPerModelSuffix: string;
+  categoryPointsValue: string;
+  categoryEntrySingleModel: string;
+  categoryEntryMultipleModels: string;
+  categoryEntryPointsPerModel: string;
+  rosterSummaryHeading: string;
+  rosterSummaryDefaultName: string;
+  rosterDownloadButton: string;
+  rosterViewSheetButton: string;
+  rosterPrintButton: string;
+  rosterPointsLimitLabel: string;
+  rosterTotalSpentLabel: string;
+  rosterSummaryEmptyMessage: string;
+  rosterSummaryOwnedLabel: string;
+  rosterSummaryRemoveButton: string;
+  rosterSummaryRemoveAria: string;
+  rosterSummaryBaseCost: string;
+  rosterSetupHeading: string;
+  rosterSetupEditButton: string;
+  rosterSetupCollapseButton: string;
+  rosterSetupSaveButton: string;
+  rosterSetupSavedButton: string;
+  headerBrandLabel: string;
+  rosterDetailHeading: string;
+  rosterDetailEmptyMessage: string;
+  rosterDetailStatsMissing: string;
+  rosterDetailCloseAria: string;
+  rosterDetailUnitCountSingle: string;
+  rosterDetailUnitCountPlural: string;
+  rosterDetailModelsLine: string;
+  rosterDetailOwnedLabel: string;
+  rosterDetailOwnedYes: string;
+  rosterDetailOwnedNo: string;
+  rosterDetailUnnamedUnit: string;
+  rosterDetailStatsModelLabel: string;
+  rosterDetailSpecialRulesLabel: string;
+  rosterDetailProfileFallback: string;
+  rosterDetailMountLabel: string;
+  rosterDetailSidebarUnitSize: string;
+  rosterDetailSidebarBaseSize: string;
+  rosterDetailSidebarArmourValue: string;
+  rosterDetailSidebarMountUnitSize: string;
+  rosterDetailSidebarMountBaseSize: string;
+  rosterDetailSidebarMountArmourValue: string;
+  unitSearchHeading: string;
+  unitSearchInputLabel: string;
+  unitSearchPlaceholder: string;
+  unitSearchClearButton: string;
+  unitSearchResultsCount: string;
+  unitSearchNoResults: string;
+  unitSearchArmyLabel: string;
+  unitSearchUnitCategoryLabel: string;
+  unitSearchTroopTypeLabel: string;
+  unitSearchEquipmentLabel: string;
+  unitSearchProfilesHeading: string;
+  rosterExportTitle: string;
+  rosterExportDescription: string;
+  rosterExportMenuPdf: string;
+  rosterExportMenuJson: string;
+  rosterExportMenuCsv: string;
+  rosterExportMenuPrint: string;
+  rosterExportArmyLabel: string;
+  rosterExportCompositionLabel: string;
+  rosterExportArmyRuleLabel: string;
+  rosterExportTotalPointsLabel: string;
+  rosterExportUnitsHeading: string;
+  rosterExportGeneratedLabel: string;
+  rosterExportOptionNoteLabel: string;
+  rosterExportPerModelSuffix: string;
+  rosterExportUnknownArmy: string;
+  rosterExportOwnedYes: string;
+  rosterExportOwnedNo: string;
+  rosterExportUnnamedUnit: string;
+  rosterExportCsvHeaderCategory: string;
+  rosterExportCsvHeaderUnit: string;
+  rosterExportCsvHeaderUnitSize: string;
+  rosterExportCsvHeaderPointsPerModel: string;
+  rosterExportCsvHeaderBasePoints: string;
+  rosterExportCsvHeaderOptions: string;
+  rosterExportCsvHeaderTotalPoints: string;
+  rosterExportCsvHeaderOwned: string;
+  rosterExportCsvOptionFreeSuffix: string;
+  rosterExportUnitNotesLabel: string;
+  rosterExportAriaLabel: string;
+  armyPointsIncreaseAria: string;
+  armyPointsDecreaseAria: string;
 };
 
 export const locales = ["pl", "en"] as const;
@@ -97,6 +198,112 @@ const dictionaries = {
     categoryConfirmAddLabel: "Dodaj jednostkę",
     categoryCancelLabel: "Anuluj",
     categoryEmptyUnitsMessage: "Brak jednostek dostępnych dla tej kompozycji.",
+    categoryUnitSectionLocked: "Wybór jednostek zablokowany",
+    categoryOptionsDefaultLabel: "Opcje",
+    categoryLockedNoticeDescription:
+      "Uzupełnij ustawienia rozpiski (armia, nazwa, punkty) i zapisz zmiany, aby dodać jednostki.",
+    categoryConfiguratorPrompt: "Wybierz kategorię, aby zobaczyć dostępne opcje.",
+    categoryOptionsTitle: "Opcje dla {category}",
+    categoryUnitSizeLabel: "Wielkość jednostki",
+    categoryUnitPointsPerModel: "{value} pkt za model",
+    categoryUnitFlatCost: "Stały koszt",
+    categoryUnitIncreaseAria: "Zwiększ wielkość jednostki",
+    categoryUnitDecreaseAria: "Zmniejsz wielkość jednostki",
+    categoryUnitMinLabel: "Min",
+    categoryUnitMaxLabel: "Maks",
+    categoryUnitTotalPoints: "{value} pkt łącznie",
+    categoryNoAdditionalOptions: "Brak dodatkowych opcji dla tej jednostki.",
+    categoryOptionCostFree: "bez kosztu",
+    categoryOptionCostPerModelSuffix: " / model",
+    categoryPointsValue: "{value} pkt",
+    categoryEntrySingleModel: "Pojedynczy model",
+    categoryEntryMultipleModels: "{count} modele",
+    categoryEntryPointsPerModel: "{value} pkt za model",
+    rosterSummaryHeading: "Podsumowanie rozpiski",
+    rosterSummaryDefaultName: "Rozpiska bez nazwy",
+    rosterDownloadButton: "Pobierz rozpiskę",
+    rosterViewSheetButton: "Zobacz kartę rozpiski",
+    rosterPrintButton: "Drukuj rozpiskę",
+    rosterPointsLimitLabel: "Limit punktów",
+    rosterTotalSpentLabel: "Wydano łącznie",
+    rosterSummaryEmptyMessage:
+      "Nie wybrano jeszcze żadnych jednostek. Użyj paneli kategorii, aby dodać wpisy do rozpiski.",
+    rosterSummaryOwnedLabel: "Posiadam tę jednostkę",
+    rosterSummaryRemoveButton: "Usuń",
+    rosterSummaryRemoveAria: "Usuń {unit}",
+    rosterSummaryBaseCost: "Koszt bazowy: {value}",
+    rosterSetupHeading: "Ustawienia rozpiski",
+    rosterSetupEditButton: "Edytuj szczegóły",
+    rosterSetupCollapseButton: "Zwiń",
+    rosterSetupSaveButton: "Zapisz",
+    rosterSetupSavedButton: "Zapisano",
+    headerBrandLabel: "Warhammer Old World Army Builder",
+    rosterDetailHeading: "Karta rozpiski",
+    rosterDetailEmptyMessage:
+      "Dodaj jednostki do rozpiski, aby zobaczyć ich szczegóły i statystyki.",
+    rosterDetailStatsMissing:
+      "Statystyki jednostek dla wybranej armii nie są jeszcze kompletne. Jednostki bez danych pokażą placeholder.",
+    rosterDetailCloseAria: "Zamknij kartę rozpiski",
+    rosterDetailUnitCountSingle: "{count} jednostka",
+    rosterDetailUnitCountPlural: "{count} jednostki",
+    rosterDetailModelsLine: "{count} modeli @ {value}",
+    rosterDetailOwnedLabel: "Posiadane",
+    rosterDetailOwnedYes: "Tak",
+    rosterDetailOwnedNo: "Nie",
+    rosterDetailUnnamedUnit: "Jednostka bez nazwy",
+    rosterDetailStatsModelLabel: "Model",
+    rosterDetailSpecialRulesLabel: "Zasady specjalne",
+    rosterDetailProfileFallback: "Profil {index}",
+    rosterDetailMountLabel: "Wierzchowiec",
+    rosterDetailSidebarUnitSize: "Wielkość jednostki",
+    rosterDetailSidebarBaseSize: "Rozmiar podstawki",
+    rosterDetailSidebarArmourValue: "Wartość pancerza",
+    rosterDetailSidebarMountUnitSize: "{mount} – wielkość jednostki",
+    rosterDetailSidebarMountBaseSize: "{mount} – rozmiar podstawki",
+    rosterDetailSidebarMountArmourValue: "{mount} – wartość pancerza",
+    unitSearchHeading: "Wyszukiwarka jednostek",
+    unitSearchInputLabel: "Wyszukaj jednostkę",
+    unitSearchPlaceholder: "Wpisz nazwę jednostki…",
+    unitSearchClearButton: "Wyczyść",
+    unitSearchResultsCount: "Znaleziono {count} jednostek",
+    unitSearchNoResults: "Brak jednostek spełniających kryteria.",
+    unitSearchArmyLabel: "Armia",
+    unitSearchUnitCategoryLabel: "Kategoria",
+    unitSearchTroopTypeLabel: "Typ oddziału",
+    unitSearchEquipmentLabel: "Wyposażenie",
+    unitSearchProfilesHeading: "Statystyki",
+    rosterExportTitle: "Eksport rozpiski",
+    rosterExportDescription:
+      "Pobierz aktualny szkic rozpiski w różnych formatach albo listę jednostek, których jeszcze potrzebujesz.",
+    rosterExportMenuJson: "JSON",
+    rosterExportMenuPdf: "PDF",
+    rosterExportMenuCsv: "CSV",
+    rosterExportMenuPrint: "Drukuj",
+    rosterExportArmyLabel: "Armia",
+    rosterExportCompositionLabel: "Kompozycja",
+    rosterExportArmyRuleLabel: "Zasada armii",
+    rosterExportTotalPointsLabel: "Łącznie punktów",
+    rosterExportUnitsHeading: "Jednostki",
+    rosterExportGeneratedLabel: "Wygenerowano",
+    rosterExportOptionNoteLabel: "uwaga",
+    rosterExportPerModelSuffix: "{value} pkt/model",
+    rosterExportUnknownArmy: "Nieznana armia",
+    rosterExportOwnedYes: "tak",
+    rosterExportOwnedNo: "nie",
+    rosterExportUnnamedUnit: "Jednostka bez nazwy",
+    rosterExportCsvHeaderCategory: "Kategoria",
+    rosterExportCsvHeaderUnit: "Jednostka",
+    rosterExportCsvHeaderUnitSize: "Wielkość",
+    rosterExportCsvHeaderPointsPerModel: "Punkty/model",
+    rosterExportCsvHeaderBasePoints: "Koszt bazowy",
+    rosterExportCsvHeaderOptions: "Opcje",
+    rosterExportCsvHeaderTotalPoints: "Łącznie",
+    rosterExportCsvHeaderOwned: "Posiadane",
+    rosterExportCsvOptionFreeSuffix: "(bez kosztu)",
+    rosterExportUnitNotesLabel: "Notatki",
+    rosterExportAriaLabel: "Sterowanie eksportem rozpiski",
+    armyPointsIncreaseAria: "Zwiększ o {value}",
+    armyPointsDecreaseAria: "Zmniejsz o {value}",
   },
   en: {
     heroTitle: "Warhammer Army Builder",
@@ -141,6 +348,112 @@ const dictionaries = {
     categoryConfirmAddLabel: "Add unit",
     categoryCancelLabel: "Cancel",
     categoryEmptyUnitsMessage: "No units available for this composition.",
+    categoryUnitSectionLocked: "Unit selection locked",
+    categoryOptionsDefaultLabel: "Options",
+    categoryLockedNoticeDescription:
+      "Complete the roster setup (army, name, points) and save your changes to start adding units.",
+    categoryConfiguratorPrompt: "Select a category to see available options.",
+    categoryOptionsTitle: "Options for {category}",
+    categoryUnitSizeLabel: "Unit size",
+    categoryUnitPointsPerModel: "{value} pts per model",
+    categoryUnitFlatCost: "Flat cost",
+    categoryUnitIncreaseAria: "Increase unit size",
+    categoryUnitDecreaseAria: "Decrease unit size",
+    categoryUnitMinLabel: "Min",
+    categoryUnitMaxLabel: "Max",
+    categoryUnitTotalPoints: "{value} pts total",
+    categoryNoAdditionalOptions: "No additional options for this unit.",
+    categoryOptionCostFree: "free",
+    categoryOptionCostPerModelSuffix: " / model",
+    categoryPointsValue: "{value} pts",
+    categoryEntrySingleModel: "Single model",
+    categoryEntryMultipleModels: "{count} models",
+    categoryEntryPointsPerModel: "{value} pts per model",
+    rosterSummaryHeading: "Roster Summary",
+    rosterSummaryDefaultName: "Untitled roster",
+    rosterDownloadButton: "Download roster",
+    rosterViewSheetButton: "View roster sheet",
+    rosterPrintButton: "Print roster",
+    rosterPointsLimitLabel: "Points limit",
+    rosterTotalSpentLabel: "Total spent",
+    rosterSummaryEmptyMessage:
+      "No units selected yet. Use the category panels to add entries to your roster.",
+    rosterSummaryOwnedLabel: "I own this unit",
+    rosterSummaryRemoveButton: "Remove",
+    rosterSummaryRemoveAria: "Remove {unit}",
+    rosterSummaryBaseCost: "Base cost: {value}",
+    rosterSetupHeading: "Roster Setup",
+    rosterSetupEditButton: "Edit details",
+    rosterSetupCollapseButton: "Collapse",
+    rosterSetupSaveButton: "Save",
+    rosterSetupSavedButton: "Saved",
+    headerBrandLabel: "Warhammer Old World Army Builder",
+    rosterDetailHeading: "Roster Sheet",
+    rosterDetailEmptyMessage:
+      "Add units to the roster to view their details and statistics.",
+    rosterDetailStatsMissing:
+      "Unit statistics for the selected army are not complete yet. Units without data will display placeholders.",
+    rosterDetailCloseAria: "Close roster sheet",
+    rosterDetailUnitCountSingle: "{count} unit",
+    rosterDetailUnitCountPlural: "{count} units",
+    rosterDetailModelsLine: "{count} models @ {value}",
+    rosterDetailOwnedLabel: "Owned",
+    rosterDetailOwnedYes: "Yes",
+    rosterDetailOwnedNo: "No",
+    rosterDetailUnnamedUnit: "Unnamed unit",
+    rosterDetailStatsModelLabel: "Model",
+    rosterDetailSpecialRulesLabel: "Special Rules",
+    rosterDetailProfileFallback: "Profile {index}",
+    rosterDetailMountLabel: "Mount",
+    rosterDetailSidebarUnitSize: "Unit Size",
+    rosterDetailSidebarBaseSize: "Base Size",
+    rosterDetailSidebarArmourValue: "Armour Value",
+    rosterDetailSidebarMountUnitSize: "{mount} Unit Size",
+    rosterDetailSidebarMountBaseSize: "{mount} Base Size",
+    rosterDetailSidebarMountArmourValue: "{mount} Armour Value",
+    unitSearchHeading: "Unit Finder",
+    unitSearchInputLabel: "Search for a unit",
+    unitSearchPlaceholder: "Type a unit name…",
+    unitSearchClearButton: "Clear",
+    unitSearchResultsCount: "Found {count} units",
+    unitSearchNoResults: "No units match the current query.",
+    unitSearchArmyLabel: "Army",
+    unitSearchUnitCategoryLabel: "Unit category",
+    unitSearchTroopTypeLabel: "Troop type",
+    unitSearchEquipmentLabel: "Equipment",
+    unitSearchProfilesHeading: "Statistics",
+    rosterExportTitle: "Export roster",
+    rosterExportDescription:
+      "Download the current roster draft in multiple formats or export the list of units you still need to buy.",
+    rosterExportMenuJson: "JSON",
+    rosterExportMenuPdf: "PDF",
+    rosterExportMenuCsv: "CSV",
+    rosterExportMenuPrint: "Print",
+    rosterExportArmyLabel: "Army",
+    rosterExportCompositionLabel: "Composition",
+    rosterExportArmyRuleLabel: "Army Rule",
+    rosterExportTotalPointsLabel: "Total Points",
+    rosterExportUnitsHeading: "Units",
+    rosterExportGeneratedLabel: "Generated",
+    rosterExportOptionNoteLabel: "note",
+    rosterExportPerModelSuffix: "{value} pts/model",
+    rosterExportUnknownArmy: "Unknown army",
+    rosterExportOwnedYes: "yes",
+    rosterExportOwnedNo: "no",
+    rosterExportUnnamedUnit: "Unnamed unit",
+    rosterExportCsvHeaderCategory: "Category",
+    rosterExportCsvHeaderUnit: "Unit",
+    rosterExportCsvHeaderUnitSize: "Unit Size",
+    rosterExportCsvHeaderPointsPerModel: "Points per model",
+    rosterExportCsvHeaderBasePoints: "Base points",
+    rosterExportCsvHeaderOptions: "Options",
+    rosterExportCsvHeaderTotalPoints: "Total points",
+    rosterExportCsvHeaderOwned: "Owned",
+    rosterExportCsvOptionFreeSuffix: "(free)",
+    rosterExportUnitNotesLabel: "Notes",
+    rosterExportAriaLabel: "Roster export controls",
+    armyPointsIncreaseAria: "Increase by {value}",
+    armyPointsDecreaseAria: "Decrease by {value}",
   },
 } satisfies Record<Locale, LocaleDictionary>;
 
