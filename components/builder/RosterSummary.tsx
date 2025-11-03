@@ -1,6 +1,9 @@
 "use client";
 
 import * as React from "react";
+import { createPortal } from "react-dom";
+import jsPDF from "jspdf";
+import html2canvas from "html2canvas";
 import { useDispatch, useSelector } from "react-redux";
 import type { RootState, AppDispatch } from "@/lib/store";
 import type { RosterEntry } from "@/lib/store/slices/rosterSlice";
@@ -43,6 +46,16 @@ export default function RosterSummary({ dict, className }: Props) {
   );
   const [showDetailSheet, setShowDetailSheet] = React.useState(false);
   const [autoPrint, setAutoPrint] = React.useState(false);
+  const [autoPdf, setAutoPdf] = React.useState(false);
+  const [pdfExporting, setPdfExporting] = React.useState(false);
+  const [printRoot, setPrintRoot] = React.useState<HTMLElement | null>(null);
+  const pdfRestoreSheetRef = React.useRef(false);
+
+  React.useEffect(() => {
+    if (typeof document === "undefined") return;
+    const node = document.getElementById("print-root");
+    setPrintRoot(node);
+  }, []);
 
   React.useEffect(() => {
     if (!showDetailSheet) return;
@@ -52,6 +65,85 @@ export default function RosterSummary({ dict, className }: Props) {
       document.body.style.overflow = originalOverflow;
     };
   }, [showDetailSheet]);
+
+  React.useEffect(() => {
+    if (typeof window === "undefined") return;
+    if (!autoPdf || !showDetailSheet) return;
+    let cancelled = false;
+
+    const capture = async () => {
+      try {
+        await new Promise((resolve) =>
+          requestAnimationFrame(() => requestAnimationFrame(resolve))
+        );
+        const sheet = document.querySelector(
+          ".print-roster-sheet"
+        ) as HTMLElement | null;
+        if (!sheet) return;
+
+        sheet.classList.add("pdf-capture");
+        const captureScale = Math.max(window.devicePixelRatio || 1, 2);
+        const canvas = await html2canvas(sheet, {
+          scale: captureScale,
+          useCORS: true,
+          backgroundColor: "#ffffff",
+        });
+        if (cancelled) return;
+
+        const orientation = canvas.width >= canvas.height ? "l" : "p";
+        const pdf = new jsPDF({ orientation, unit: "pt", format: "a4" });
+        const pageWidth = pdf.internal.pageSize.getWidth();
+        const pageHeight = pdf.internal.pageSize.getHeight();
+
+        const imgWidth = canvas.width;
+        const imgHeight = canvas.height;
+        const renderScale = Math.min(pageWidth / imgWidth, pageHeight / imgHeight);
+        const renderWidth = imgWidth * renderScale;
+        const renderHeight = imgHeight * renderScale;
+        const marginX = (pageWidth - renderWidth) / 2;
+        const marginY = (pageHeight - renderHeight) / 2;
+
+        const imageData = canvas.toDataURL("image/png", 1.0);
+        pdf.addImage(
+          imageData,
+          "PNG",
+          marginX,
+          marginY,
+          renderWidth,
+          renderHeight,
+          undefined,
+          "FAST"
+        );
+        pdf.save("roster.pdf");
+      } catch (error) {
+        console.error("Failed to export roster PDF", error);
+      } finally {
+        const sheetEl = document.querySelector(
+          ".print-roster-sheet"
+        ) as HTMLElement | null;
+        if (sheetEl) {
+          sheetEl.classList.remove("pdf-capture");
+        }
+        if (!cancelled) {
+          setPdfExporting(false);
+          setAutoPdf(false);
+          if (!pdfRestoreSheetRef.current) {
+            setShowDetailSheet(false);
+          }
+          pdfRestoreSheetRef.current = false;
+        }
+      }
+    };
+
+    capture();
+
+    return () => {
+      cancelled = true;
+      pdfRestoreSheetRef.current = false;
+      setPdfExporting(false);
+      setAutoPdf(false);
+    };
+  }, [autoPdf, showDetailSheet]);
 
   const formatPoints = React.useCallback(
     (value: number) => dict.categoryPointsValue.replace("{value}", String(value)),
@@ -121,9 +213,47 @@ export default function RosterSummary({ dict, className }: Props) {
   );
   const hasEntries = normalizedEntries.length > 0;
 
+  const handlePdfExport = React.useCallback(() => {
+    if (pdfExporting) return;
+     pdfRestoreSheetRef.current = showDetailSheet;
+    setPdfExporting(true);
+    if (!showDetailSheet) {
+      setShowDetailSheet(true);
+    }
+    setAutoPdf(true);
+  }, [pdfExporting, showDetailSheet]);
+
+  const overlayElement = (
+    <div
+      className="print-overlay fixed inset-0 z-50 flex items-start justify-center overflow-y-auto bg-slate-950/80 p-4 sm:p-8"
+      onClick={() => setShowDetailSheet(false)}
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="roster-detail-sheet-heading"
+    >
+      <div onClick={(event) => event.stopPropagation()} className="print-overlay__inner">
+        <RosterDetailSheet
+          dict={dict}
+          autoPrint={autoPrint}
+          onPrinted={() => setAutoPrint(false)}
+          onClose={() => {
+            setShowDetailSheet(false);
+            setAutoPrint(false);
+          }}
+        />
+      </div>
+    </div>
+  );
+
+  const detailSheetOverlay = showDetailSheet
+    ? printRoot
+      ? createPortal(overlayElement, printRoot)
+      : overlayElement
+    : null;
+
   return (
     <aside className={className} aria-labelledby="roster-summary-heading">
-      <div className="rounded-2xl border border-amber-300/30 bg-slate-900/80 p-6 text-amber-100 shadow-lg shadow-amber-900/15">
+      <div className="rounded-2xl border border-amber-300/30 bg-slate-900/80 p-6 text-amber-100 shadow-lg shadow-amber-900/15 print:hidden">
         <header className="mb-4">
           <div className="flex items-start justify-between gap-4">
             <div>
@@ -143,6 +273,8 @@ export default function RosterSummary({ dict, className }: Props) {
                   dict={dict}
                   variant="inline"
                   triggerVariant="accent"
+                  onPdfExport={handlePdfExport}
+                  pdfExporting={pdfExporting}
                 />
                 <Button variant="secondary" size="sm" onClick={() => setShowDetailSheet(true)}>
                   {dict.rosterViewSheetButton}
@@ -297,27 +429,7 @@ export default function RosterSummary({ dict, className }: Props) {
           </ul>
         )}
       </div>
-      {showDetailSheet ? (
-        <div
-          className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto bg-slate-950/80 p-4 sm:p-8"
-          onClick={() => setShowDetailSheet(false)}
-          role="dialog"
-          aria-modal="true"
-          aria-labelledby="roster-detail-sheet-heading"
-        >
-          <div onClick={(event) => event.stopPropagation()}>
-            <RosterDetailSheet
-              dict={dict}
-              autoPrint={autoPrint}
-              onPrinted={() => setAutoPrint(false)}
-              onClose={() => {
-                setShowDetailSheet(false);
-                setAutoPrint(false);
-              }}
-            />
-          </div>
-        </div>
-      ) : null}
+      {detailSheetOverlay}
     </aside>
   );
 }
