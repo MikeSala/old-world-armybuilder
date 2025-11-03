@@ -332,7 +332,7 @@ const CategorySection = React.memo(function CategorySection({
   return (
     <section
       aria-labelledby={`roster-category-${category.key}`}
-      className="space-y-4 rounded-2xl border border-amber-300/20 bg-slate-900/70 p-5 print:space-y-3 print:border-gray-300 print:bg-white print:p-4"
+      className="space-y-4 rounded-2xl border border-amber-300/20 bg-slate-900/70 p-5 print:space-y-3 print:border-gray-300 print:bg-white print:p-4 print-avoid-break"
     >
       <div className="flex flex-wrap items-baseline justify-between gap-3 print:gap-2">
         <h3
@@ -367,7 +367,7 @@ const UnitDetailCard = React.memo(function UnitDetailCard({
     unit.name && unit.name.trim().length > 0 ? unit.name : dict.rosterDetailUnnamedUnit;
 
   return (
-    <article className="space-y-3 rounded-xl border border-amber-400/10 bg-slate-950/60 p-4 shadow shadow-amber-900/10 print:space-y-2 print:border-gray-300 print:bg-white print:p-3 print:shadow-none">
+    <article className="space-y-3 rounded-xl border border-amber-400/10 bg-slate-950/60 p-4 shadow shadow-amber-900/10 print:space-y-2 print:border-gray-300 print:bg-white print:p-3 print:shadow-none print-avoid-break">
       <div className="flex flex-col gap-3 md:flex-row md:items-start md:justify-between print:gap-2 print:flex-row print:justify-between">
         <div>
           <h4 className="text-base font-semibold text-amber-100 print:text-gray-900 print:text-sm">

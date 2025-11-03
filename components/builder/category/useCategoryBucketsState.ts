@@ -272,6 +272,7 @@ export function useCategoryBucketsState({
             note: option.note,
             perModel: option.perModel,
             baseCost: option.points,
+            sourceId: option.id,
           };
         })
         .filter((opt): opt is NonNullable<typeof opt> => opt !== null);
