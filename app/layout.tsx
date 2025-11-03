@@ -5,6 +5,7 @@ import { MarginLayout } from "../components/layout/MarginLayout";
 import ClientProviders from "@/components/ClientProviders";
 import { Header } from "@/components/layout/Header";
 import { Locale } from "@/lib/i18n/dictionaries";
+import Footer from "./footer";
 
 export const metadata: Metadata = {
   title: "Warhammer Army Builder",
@@ -26,8 +27,10 @@ export default async function RootLayout({
           <Header locale={params.locale} restSegments={restSegments} />
           <main className="pt-20">
             <MarginLayout>{children}</MarginLayout>
+            <Footer />
           </main>
         </ClientProviders>
+        <div id="print-root" />
       </body>
     </html>
   );
