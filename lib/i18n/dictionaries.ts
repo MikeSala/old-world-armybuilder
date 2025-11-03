@@ -142,6 +142,9 @@ export type LocaleDictionary = {
   rosterExportAriaLabel: string;
   armyPointsIncreaseAria: string;
   armyPointsDecreaseAria: string;
+  footerAriaLabel: string;
+  footerLegalNotice: string;
+  footerCommunityNote: string;
 };
 
 export const locales = ["pl", "en"] as const;
@@ -304,6 +307,10 @@ const dictionaries = {
     rosterExportAriaLabel: "Sterowanie eksportem rozpiski",
     armyPointsIncreaseAria: "Zwiększ o {value}",
     armyPointsDecreaseAria: "Zmniejsz o {value}",
+    footerAriaLabel: "Informacje prawne i o projekcie",
+    footerLegalNotice:
+      "Ta strona ma charakter fanowski i nie jest w żaden sposób powiązana, wspierana ani licencjonowana przez Games Workshop. Wszystkie znaki towarowe, nazwy i materiały związane z Warhammerem są własnością Games Workshop Limited. Celem serwisu jest pomoc nowym graczom w rozpoczęciu przygody ze światem Warhammera. Serio, to wszystko jest naprawdę baaardzo skomplikowane :)",
+    footerCommunityNote: "projekt dla społeczności graczy.",
   },
   en: {
     heroTitle: "Warhammer Army Builder",
@@ -454,6 +461,10 @@ const dictionaries = {
     rosterExportAriaLabel: "Roster export controls",
     armyPointsIncreaseAria: "Increase by {value}",
     armyPointsDecreaseAria: "Decrease by {value}",
+    footerAriaLabel: "Legal and project information",
+    footerLegalNotice:
+      "This is a fan-made site and is in no way affiliated with, endorsed by, or licensed by Games Workshop. All trademarks, names, and materials related to Warhammer are the property of Games Workshop Limited. The goal of this project is to help new players begin their journey into the world of Warhammer. Seriously, the whole thing is really, really complicated :)",
+    footerCommunityNote: "a project for the player community.",
   },
 } satisfies Record<Locale, LocaleDictionary>;
 

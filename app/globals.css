@@ -9,30 +9,50 @@
 
   body {
     margin: 0;
-    font-feature-settings: "rlig" 1, "calt" 1;
+    font-feature-settings:
+      "rlig" 1,
+      "calt" 1;
   }
 }
 
 @media print {
+  /* 1) Base: preserve colors & set global print scale */
+  html,
   body {
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
+    font-size: 12px !important; /* global print scale */
+    line-height: 1.25;
   }
 
-  body * {
-    visibility: hidden;
-  }
-
-  .print-hidden {
+  /* 2) Hide everything except the dedicated print root */
+  body > *:not(#print-root) {
     display: none !important;
   }
 
-  .print-roster-sheet,
-  .print-roster-sheet * {
-    visibility: visible;
+  #print-root {
+    display: block !important;
   }
 
-  .print-roster-sheet {
+  #print-root .print-overlay {
+    position: static !important;
+    inset: auto !important;
+    z-index: auto !important;
+    display: block !important;
+    overflow: visible !important;
+    background: transparent !important;
+    padding: 0 !important;
+    justify-content: flex-start !important;
+    align-items: stretch !important;
+  }
+
+  #print-root .print-overlay__inner {
+    width: 100% !important;
+    max-width: none !important;
+  }
+
+  /* 3) Printable container styling */
+  #print-root .print-roster-sheet {
     position: static !important;
     inset: auto !important;
     margin: 0 auto !important;
@@ -40,5 +60,207 @@
     max-width: none !important;
     overflow: visible !important;
     border-radius: 0 !important;
+
+    /* Local font scale for the sheet */
+    font-size: 11px !important; /* adjust as needed (e.g., 10–13px) */
+    line-height: 1.25;
   }
+
+  /* Tighter headings in print */
+  #print-root .print-roster-sheet h1,
+  #print-root .print-roster-sheet h2,
+  #print-root .print-roster-sheet h3 {
+    font-size: 1em !important; /* keep headings compact */
+    font-weight: 600;
+    margin: 0.25em 0;
+  }
+
+  /* Tables: compact and readable */
+  #print-root .print-roster-sheet table {
+    font-size: 0.92em !important; /* slightly smaller inside tables */
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  #print-root .print-roster-sheet th,
+  #print-root .print-roster-sheet td {
+    padding: 2px 4px;
+    vertical-align: top;
+    break-inside: avoid;
+  }
+
+  #print-root .print-avoid-break {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Optional utility: force-hide specific elements in print if needed */
+  #print-root .print-hidden {
+    display: none !important;
+  }
+
+  /* Page margins */
+  @page {
+    margin: 10mm;
+  }
+}
+
+/* PDF capture helper: emulate core print styles when html2canvas snapshots the sheet */
+.pdf-capture {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border-radius: 0 !important;
+  border: 1px solid #d1d5db !important;
+  box-shadow: none !important;
+  padding: 24px !important;
+  font-size: 0.875rem !important;
+  line-height: 1.25 !important;
+  width: 100% !important;
+  max-width: none !important;
+}
+
+.pdf-capture .print\:hidden {
+  display: none !important;
+}
+
+.pdf-capture .print\:max-h-none {
+  max-height: none !important;
+}
+
+.pdf-capture .print\:max-w-none {
+  max-width: none !important;
+}
+
+.pdf-capture .print\:w-full {
+  width: 100% !important;
+}
+
+.pdf-capture .print\:rounded-none {
+  border-radius: 0 !important;
+}
+
+.pdf-capture .print\:border {
+  border-width: 1px !important;
+}
+
+.pdf-capture .print\:border-gray-300 {
+  border-color: #d1d5db !important;
+}
+
+.pdf-capture .print\:bg-white {
+  background-color: #ffffff !important;
+}
+
+.pdf-capture .print\:bg-gray-100 {
+  background-color: #f3f4f6 !important;
+}
+
+.pdf-capture .print\:text-black {
+  color: #000000 !important;
+}
+
+.pdf-capture .print\:text-gray-900 {
+  color: #111827 !important;
+}
+
+.pdf-capture .print\:text-gray-700 {
+  color: #374151 !important;
+}
+
+.pdf-capture .print\:text-gray-600 {
+  color: #4b5563 !important;
+}
+
+.pdf-capture .print\:text-gray-500 {
+  color: #6b7280 !important;
+}
+
+.pdf-capture .print\:text-xs {
+  font-size: 0.75rem !important;
+  line-height: 1rem !important;
+}
+
+.pdf-capture .print\:text-sm {
+  font-size: 0.875rem !important;
+  line-height: 1.25rem !important;
+}
+
+.pdf-capture .print\:text-base {
+  font-size: 1rem !important;
+  line-height: 1.5rem !important;
+}
+
+.pdf-capture .print\:text-xl {
+  font-size: 1.25rem !important;
+  line-height: 1.75rem !important;
+}
+
+.pdf-capture .print\:text-\[11px\] {
+  font-size: 11px !important;
+  line-height: 1.25 !important;
+}
+
+.pdf-capture .print\:space-y-3 > * + * {
+  margin-top: 0.75rem !important;
+}
+
+.pdf-capture .print\:space-y-2 > * + * {
+  margin-top: 0.5rem !important;
+}
+
+.pdf-capture .print\:space-y-0\.5 > * + * {
+  margin-top: 0.125rem !important;
+}
+
+.pdf-capture .print\:gap-1 {
+  gap: 0.25rem !important;
+}
+
+.pdf-capture .print\:gap-2 {
+  gap: 0.5rem !important;
+}
+
+.pdf-capture .print\:gap-4 {
+  gap: 1rem !important;
+}
+
+.pdf-capture .print\:p-6 {
+  padding: 24px !important;
+}
+
+.pdf-capture .print\:p-3 {
+  padding: 12px !important;
+}
+
+.pdf-capture .print\:p-2 {
+  padding: 8px !important;
+}
+
+.pdf-capture .print\:p-4 {
+  padding: 16px !important;
+}
+
+.pdf-capture .print\:grid {
+  display: grid !important;
+}
+
+.pdf-capture .print\:grid-cols-\[minmax\(0\,3fr\)_minmax\(0\,2fr\)\] {
+  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr) !important;
+}
+
+.pdf-capture .print\:flex-row {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.pdf-capture .print\:justify-between {
+  justify-content: space-between !important;
+}
+
+.pdf-capture .print\:divide-gray-300 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #d1d5db !important;
+}
+
+.pdf-capture .print\:shadow-none {
+  box-shadow: none !important;
 }

@@ -13,6 +13,9 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.9.2",
+    "clsx": "^2.1.1",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.3",
     "lucide-react": "^0.546.0",
     "next": "14.2.14",
     "react": "18.2.0",
