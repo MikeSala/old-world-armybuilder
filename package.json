@@ -12,6 +12,7 @@
     "format:check": "prettier --check ."
   },
   "dependencies": {
+    "@radix-ui/themes": "^3.2.1",
     "@reduxjs/toolkit": "^2.9.2",
     "clsx": "^2.1.1",
     "html2canvas": "^1.4.1",

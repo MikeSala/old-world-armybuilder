@@ -30,7 +30,7 @@ export default function ArmyPointsCounter({
   dict,
   step = 50,
   min = 0,
-  suggestions = [0, 500, 1000, 1500, 2000, 3000],
+  suggestions = [500, 1000, 1500, 2000, 3000],
   suggestionMode = "set",
   className,
 }: Props) {

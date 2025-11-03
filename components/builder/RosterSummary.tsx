@@ -213,6 +213,11 @@ export default function RosterSummary({ dict, className }: Props) {
   );
   const hasEntries = normalizedEntries.length > 0;
 
+  const handlePrintExport = React.useCallback(() => {
+    setShowDetailSheet(true);
+    setAutoPrint(true);
+  }, [setShowDetailSheet, setAutoPrint]);
+
   const handlePdfExport = React.useCallback(() => {
     if (pdfExporting) return;
      pdfRestoreSheetRef.current = showDetailSheet;
@@ -275,6 +280,7 @@ export default function RosterSummary({ dict, className }: Props) {
                   triggerVariant="accent"
                   onPdfExport={handlePdfExport}
                   pdfExporting={pdfExporting}
+                  onPrintExport={handlePrintExport}
                 />
                 <Button variant="secondary" size="sm" onClick={() => setShowDetailSheet(true)}>
                   {dict.rosterViewSheetButton}
@@ -282,10 +288,7 @@ export default function RosterSummary({ dict, className }: Props) {
                 <Button
                   variant="accent"
                   size="sm"
-                  onClick={() => {
-                    setShowDetailSheet(true);
-                    setAutoPrint(true);
-                  }}
+                  onClick={handlePrintExport}
                 >
                   {dict.rosterPrintButton}
                 </Button>
