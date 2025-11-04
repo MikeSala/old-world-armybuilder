@@ -1,8 +1,8 @@
 "use client";
 
-import * as React from "react";
 import * as Tooltip from "@radix-ui/react-tooltip";
-import clsx from "clsx";
+import { clsx } from "clsx";
+import * as React from "react";
 
 type Props = {
   abbreviation: string;

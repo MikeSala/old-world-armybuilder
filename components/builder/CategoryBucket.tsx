@@ -1,6 +1,7 @@
 "use client";
 
 import type { CategoryKey } from "@/lib/data/domain/types/categories";
+
 import { CategoryConfigurator } from "./category/CategoryConfigurator";
 import { CategoryLockedNotice } from "./category/CategoryLockedNotice";
 import { CategorySummaryPanel } from "./category/CategorySummaryPanel";

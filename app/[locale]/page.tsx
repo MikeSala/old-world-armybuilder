@@ -1,26 +1,24 @@
 import { ScrollText, Sword } from "lucide-react";
-import { getDictionary, locales, type Locale } from "../../lib/i18n/dictionaries";
-import { Button } from "../../components/ui/Button";
-import UnitSearch from "@/components/unit/UnitSearch";
+
 import { MarginLayout } from "@/components/layout/MarginLayout";
+import { Button } from "@/components/ui/Button";
+import UnitSearch from "@/components/unit/UnitSearch";
+import { getDictionary, locales, defaultLocale, type Locale } from "@/lib/i18n/dictionaries";
 
 type PageProps = {
-  params: {
-    locale: Locale;
-  };
+  params: Promise<Record<string, unknown>>;
 };
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
-export default function LandingPage({ params }: PageProps) {
-  const { locale } = params;
-
-  if (!locales.includes(locale)) {
-    return null;
-  }
-
+export default async function LandingPage({ params }: PageProps) {
+  const resolvedParams = await params;
+  const localeParam = resolvedParams?.locale;
+  const locale = typeof localeParam === "string" && locales.includes(localeParam as Locale)
+    ? (localeParam as Locale)
+    : defaultLocale;
   const dictionary = getDictionary(locale);
 
   return (

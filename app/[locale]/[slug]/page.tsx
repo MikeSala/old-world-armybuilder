@@ -1,10 +1,15 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getDictionary, locales, type Locale } from "../../../lib/i18n/dictionaries";
 
-import RosterBuilderClient from "@/components/builder/RosterBuilderClient";
 import CategoryBuckets from "@/components/builder/CategoryBucket";
+import RosterBuilderClient from "@/components/builder/RosterBuilderClient";
 import RosterSummary from "@/components/builder/RosterSummary";
+import ScrollToTopButton from "@/components/ScrollToTopButton";
+import {
+  getDictionary,
+  locales,
+  defaultLocale,
+  type Locale,
+} from "@/lib/i18n/dictionaries";
 
 const editSlugByLocale = locales.reduce<Record<Locale, string>>(
   (acc, locale) => {
@@ -15,10 +20,7 @@ const editSlugByLocale = locales.reduce<Record<Locale, string>>(
 );
 
 type PageProps = {
-  params: {
-    locale: Locale;
-    slug: string;
-  };
+  params: Promise<Record<string, unknown>>;
 };
 
 export function generateStaticParams() {
@@ -28,10 +30,23 @@ export function generateStaticParams() {
   }));
 }
 
-export default function RosterEditPage({ params }: PageProps) {
-  const { locale, slug } = params;
+export default async function RosterEditPage({ params }: PageProps) {
+  const resolvedParams = await params;
+  const rawLocale = resolvedParams?.locale;
+  const rawSlug = resolvedParams?.slug;
 
-  if (!locales.includes(locale) || editSlugByLocale[locale] !== slug) {
+  const locale: Locale =
+    typeof rawLocale === "string" && locales.includes(rawLocale as Locale)
+      ? (rawLocale as Locale)
+      : defaultLocale;
+  const slug =
+    typeof rawSlug === "string"
+      ? rawSlug
+      : Array.isArray(rawSlug)
+      ? String(rawSlug[0] ?? "")
+      : "";
+
+  if (editSlugByLocale[locale] !== slug) {
     notFound();
   }
 
@@ -46,12 +61,7 @@ export default function RosterEditPage({ params }: PageProps) {
       <RosterBuilderClient dict={dictionary} />
       <CategoryBuckets dict={dictionary} />
       <RosterSummary dict={dictionary} />
-      <Link
-        href={`/${locale}`}
-        className="text-sm text-amber-300 underline decoration-dotted underline-offset-4 transition hover:text-amber-200"
-      >
-        {dictionary.editBackLabel}
-      </Link>
+      <ScrollToTopButton className="self-center" label={dictionary.editMoveToTopLabel} />
     </section>
   );
 }

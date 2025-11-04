@@ -1,6 +1,6 @@
 import type { CategoryKey } from "@/lib/data/domain/types/categories";
-import type { RosterEntry } from "@/lib/store/slices/rosterSlice";
 import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
+import type { RosterEntry } from "@/lib/store/slices/rosterSlice";
 
 export type TotalsByCategory = Partial<Record<CategoryKey, number>>;
 

@@ -35,7 +35,7 @@ export function CategorySummaryCard({
 
       {hasChildren ? (
         <div className="border-t border-amber-300/10 px-4 py-3">
-          <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+          <div className="flex w-full flex-col gap-3 md:flex-col">
             {children}
           </div>
         </div>

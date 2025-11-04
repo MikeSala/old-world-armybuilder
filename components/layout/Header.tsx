@@ -1,7 +1,9 @@
-import clsx from "clsx";
+import { clsx } from "clsx";
 import Link from "next/link";
-import { LocaleButton } from "../ui/LocaleButton";
+
 import { getDictionary, locales, type Locale } from "@/lib/i18n/dictionaries";
+
+import { LocaleButton } from "../ui/LocaleButton";
 
 // Layout styles
 const headerClass =

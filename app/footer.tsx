@@ -1,7 +1,8 @@
 "use client";
 
-import * as React from "react";
 import { useParams } from "next/navigation";
+import * as React from "react";
+
 import { getDictionary, defaultLocale, isLocale } from "@/lib/i18n/dictionaries";
 
 function resolveLocaleParam(raw: string | string[] | undefined): string {
