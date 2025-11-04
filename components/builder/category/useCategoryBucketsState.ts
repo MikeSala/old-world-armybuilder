@@ -1,12 +1,6 @@
 import * as React from "react";
-import { useDispatch, useSelector } from "react-redux";
-import type { CategoryKey } from "@/lib/data/domain/types/categories";
-import type { ArmyUnit } from "@/lib/store/selectors/catalog";
-import { selectUnitsByCategory } from "@/lib/store/selectors/catalog";
-import type { RootState, AppDispatch } from "@/lib/store";
-import { selectSpentByCategory } from "@/lib/store/selectors/points";
-import { rosterInitialState, upsertEntry } from "@/lib/store/slices/rosterSlice";
-import type { RosterEntry } from "@/lib/store/slices/rosterSlice";
+import { useDispatch, useSelector, shallowEqual } from "react-redux";
+
 import {
   extractOptionGroups,
   findUnitByKey,
@@ -17,6 +11,14 @@ import {
   getUnitPoints,
   type UnitOptionGroup,
 } from "@/lib/builder/unitHelpers";
+import type { CategoryKey } from "@/lib/data/domain/types/categories";
+import type { RootState, AppDispatch } from "@/lib/store";
+import type { ArmyUnit } from "@/lib/store/selectors/catalog";
+import { selectUnitsByCategory } from "@/lib/store/selectors/catalog";
+import { selectSpentByCategory } from "@/lib/store/selectors/points";
+import { rosterInitialState, upsertEntry } from "@/lib/store/slices/rosterSlice";
+import type { RosterEntry } from "@/lib/store/slices/rosterSlice";
+
 import type {
   CategorySection,
   Dict,
@@ -70,15 +72,20 @@ export function useCategoryBucketsState({
   dict,
 }: UseCategoryBucketsStateOptions) {
   const dispatch = useDispatch<AppDispatch>();
-  const rosterMeta = useSelector((state: RootState) => ({
-    armyId: state.roster.draft.armyId ?? null,
-    name: state.roster.draft.name ?? "",
-    pointsLimit: state.roster.draft.pointsLimit ?? 0,
-    savedAt: state.roster.ui?.savedAt ?? rosterInitialState.ui.savedAt,
-  }));
+  const rosterMeta = useSelector(
+    (state: RootState) => ({
+      armyId: state.roster.draft.armyId ?? null,
+      name: state.roster.draft.name ?? "",
+      pointsLimit: state.roster.draft.pointsLimit ?? 0,
+      savedAt: state.roster.ui?.savedAt ?? rosterInitialState.ui.savedAt,
+    }),
+    shallowEqual
+  );
   const totalsFromStore = useSelector(selectSpentByCategory);
   const unitsByCategory = useSelector(selectUnitsByCategory);
-  const rosterEntries = useSelector((state: RootState) => state.roster.draft.entries ?? []);
+  const rosterEntries = useSelector(
+    (state: RootState) => state.roster.draft.entries ?? rosterInitialState.draft.entries
+  );
 
   const [activeCategory, setActiveCategory] = React.useState<CategoryKey | null>(null);
   const [selectedUnitId, setSelectedUnitId] = React.useState<string | null>(null);

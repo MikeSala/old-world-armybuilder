@@ -1,15 +1,17 @@
 "use client";
 
+import * as Accordion from "@radix-ui/react-accordion";
+import { ChevronDownIcon } from "@radix-ui/react-icons";
 import * as React from "react";
-import { searchUnitStats, type UnitSearchResult } from "@/lib/data/domain/units/units-stats/search";
-import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
+
 import {
   type UnitStatProfile,
   type UnitStatLine,
   normalizeUnitStatKey,
 } from "@/lib/data/domain/units/units-stats";
-import * as Accordion from "@radix-ui/react-accordion";
-import { ChevronDownIcon } from "@radix-ui/react-icons";
+import { searchUnitStats, type UnitSearchResult } from "@/lib/data/domain/units/units-stats/search";
+import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
+
 import { Button } from "../ui/Button";
 import { StatTooltipLabel } from "../ui/StatTooltipLabel";
 

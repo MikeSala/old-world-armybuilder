@@ -1,4 +1,5 @@
 import { createSlice, type PayloadAction } from "@reduxjs/toolkit";
+
 import type { CategoryKey } from "@/lib/data/domain/types/categories";
 
 type RosterDraft = {
@@ -65,7 +66,7 @@ const initialState: RosterState = {
     errors: {},
     saving: false,
     savedAt: null,
-    pointsInput: "0",
+    pointsInput: "2000",
     setupCollapsed: false,
   },
 };
@@ -97,15 +98,9 @@ const normalizeSelectedOption = (option: any): SelectedOption => ({
     typeof option?.id === "string" && option.id.trim().length > 0
       ? option.id
       : `option-${Math.random().toString(36).slice(2)}`,
-  name:
-    typeof option?.name === "string" && option.name.trim().length > 0
-      ? option.name
-      : "",
+  name: typeof option?.name === "string" && option.name.trim().length > 0 ? option.name : "",
   points: typeof option?.points === "number" ? option.points : 0,
-  group:
-    typeof option?.group === "string" && option.group.trim().length > 0
-      ? option.group
-      : "",
+  group: typeof option?.group === "string" && option.group.trim().length > 0 ? option.group : "",
   note: typeof option?.note === "string" ? option.note : undefined,
   perModel: typeof option?.perModel === "boolean" ? option.perModel : undefined,
   baseCost: typeof option?.baseCost === "number" ? option.baseCost : undefined,
@@ -123,14 +118,14 @@ const normalizeEntry = (entry: any): RosterEntry => {
     typeof entry?.basePoints === "number"
       ? entry.basePoints
       : typeof entry?.points === "number"
-      ? entry.points
-      : 0;
+        ? entry.points
+        : 0;
   const pointsPerModel =
     Number.isFinite(rawPointsPerModel) && rawPointsPerModel > 0
       ? rawPointsPerModel
       : unitSize > 0
-      ? basePointsSource / unitSize
-      : basePointsSource;
+        ? basePointsSource / unitSize
+        : basePointsSource;
   const normalizedPointsPerModel = Number.isFinite(pointsPerModel) ? pointsPerModel : 0;
   const basePoints = Math.max(0, normalizedPointsPerModel * unitSize);
   const optionsPoints = optionsArray.reduce(
@@ -138,9 +133,7 @@ const normalizeEntry = (entry: any): RosterEntry => {
     0
   );
   const totalPoints =
-    typeof entry?.totalPoints === "number"
-      ? entry.totalPoints
-      : basePoints + optionsPoints;
+    typeof entry?.totalPoints === "number" ? entry.totalPoints : basePoints + optionsPoints;
   const category = isCategoryKey(entry?.category) ? entry.category : "core";
   const owned = typeof entry?.owned === "boolean" ? entry.owned : false;
 
@@ -153,10 +146,7 @@ const normalizeEntry = (entry: any): RosterEntry => {
       typeof entry?.unitId === "string" && entry.unitId.trim().length > 0
         ? entry.unitId
         : "unknown-unit",
-    name:
-      typeof entry?.name === "string" && entry.name.trim().length > 0
-        ? entry.name
-        : "",
+    name: typeof entry?.name === "string" && entry.name.trim().length > 0 ? entry.name : "",
     category,
     unitSize,
     pointsPerModel: normalizedPointsPerModel,

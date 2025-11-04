@@ -1,16 +1,18 @@
 "use client";
 
-import { useMemo, useCallback } from "react";
-import clsx from "clsx";
-import { useSelector } from "react-redux";
+import { DropdownMenu, Theme } from "@radix-ui/themes";
+import { clsx } from "clsx";
 import { Download } from "lucide-react";
-import type { RootState } from "@/lib/store";
-import { ARMIES, ARMY_RULES, type Army, type ArmyRule } from "@/lib/data/armies/armies";
+import { useCallback, useMemo } from "react";
+import { useSelector } from "react-redux";
+
 import { Button } from "@/components/ui/Button";
 import type { ButtonVariant, ButtonSize } from "@/components/ui/Button";
-import type { RosterDraft, RosterEntry } from "@/lib/store/slices/rosterSlice";
+import { ARMIES, ARMY_RULES, type Army, type ArmyRule } from "@/lib/data/armies/armies";
 import type { CategoryKey } from "@/lib/data/domain/types/categories";
-import { DropdownMenu, Theme } from "@radix-ui/themes";
+import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
+import type { RootState } from "@/lib/store";
+import type { RosterDraft, RosterEntry } from "@/lib/store/slices/rosterSlice";
 
 type ExportDict = Pick<
   LocaleDictionary,
@@ -59,7 +61,6 @@ type ExportDict = Pick<
   | "rosterExportAriaLabel"
   | "rosterDownloadButton"
 >;
-import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
 
 type ExportPayload = {
   metadata: {

@@ -15,6 +15,7 @@ export type LocaleDictionary = {
   armyRuleLabel: string;
   armyPointsLabel: string;
   armyPointsSuggestionsLabel: string;
+  armyPointsPlaceholder: string;
   rosterNameLabel: string;
   rosterNamePh: string;
   rosterDescLabel: string;
@@ -185,6 +186,7 @@ const dictionaries = {
     armyRuleLabel: "Zasada Armii",
     armyPointsLabel: "Punkty",
     armyPointsSuggestionsLabel: "Sugestie",
+    armyPointsPlaceholder: "Uzupełnij liczbę punktów armii",
     rosterNameLabel: "Nazwa rozpiski",
     rosterNamePh: "Podaj nazwę własną…",
     rosterDescLabel: "Opis rozpiski",
@@ -349,6 +351,7 @@ const dictionaries = {
     armyRuleLabel: "Army Rule",
     armyPointsLabel: "Points",
     armyPointsSuggestionsLabel: "Suggestions",
+    armyPointsPlaceholder: "Fill in the army points value",
     rosterNameLabel: "Name",
     rosterNamePh: "Custom army name…",
     rosterDescLabel: "Description",
