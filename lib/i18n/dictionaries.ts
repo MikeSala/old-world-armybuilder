@@ -8,7 +8,7 @@ export type LocaleDictionary = {
   editSlug: string;
   editTitle: string;
   editDescription: string;
-  editBackLabel: string;
+  editMoveToTopLabel: string;
   selectPlaceholder: string;
   armyLabel: string;
   armyCompositionLabel: string;
@@ -64,12 +64,13 @@ export type LocaleDictionary = {
   rosterSummaryHeading: string;
   rosterSummaryDefaultName: string;
   rosterDownloadButton: string;
-  rosterViewSheetButton: string;
   rosterPrintButton: string;
   rosterPointsLimitLabel: string;
   rosterTotalSpentLabel: string;
   rosterSummaryEmptyMessage: string;
   rosterSummaryOwnedLabel: string;
+  rosterSummaryShowDetails: string;
+  rosterSummaryHideDetails: string;
   rosterSummaryRemoveButton: string;
   rosterSummaryRemoveAria: string;
   rosterSummaryBaseCost: string;
@@ -91,6 +92,15 @@ export type LocaleDictionary = {
   rosterDetailOwnedNo: string;
   rosterDetailUnnamedUnit: string;
   rosterDetailStatsModelLabel: string;
+  rosterDetailStatNameM: string;
+  rosterDetailStatNameWS: string;
+  rosterDetailStatNameBS: string;
+  rosterDetailStatNameS: string;
+  rosterDetailStatNameT: string;
+  rosterDetailStatNameW: string;
+  rosterDetailStatNameI: string;
+  rosterDetailStatNameA: string;
+  rosterDetailStatNameLd: string;
   rosterDetailSpecialRulesLabel: string;
   rosterDetailProfileFallback: string;
   rosterDetailMountLabel: string;
@@ -168,7 +178,7 @@ const dictionaries = {
     editSlug: "edycja-rozpiski",
     editTitle: "Edycja rozpiski",
     editDescription: "Wkrótce dodamy edytor — na razie to miejsce na Twoją rozpiskę.",
-    editBackLabel: "Wróć do strony głównej",
+    editMoveToTopLabel: "Powrót na górę",
     selectPlaceholder: "— wybierz —",
     armyLabel: "Armia",
     armyCompositionLabel: "Kompozycja Armii",
@@ -225,13 +235,14 @@ const dictionaries = {
     rosterSummaryHeading: "Podsumowanie rozpiski",
     rosterSummaryDefaultName: "Rozpiska bez nazwy",
     rosterDownloadButton: "Pobierz rozpiskę",
-    rosterViewSheetButton: "Zobacz kartę rozpiski",
     rosterPrintButton: "Drukuj rozpiskę",
     rosterPointsLimitLabel: "Limit punktów",
     rosterTotalSpentLabel: "Wydano łącznie",
     rosterSummaryEmptyMessage:
       "Nie wybrano jeszcze żadnych jednostek. Użyj paneli kategorii, aby dodać wpisy do rozpiski.",
     rosterSummaryOwnedLabel: "Posiadam tę jednostkę",
+    rosterSummaryShowDetails: "Pokaż szczegóły",
+    rosterSummaryHideDetails: "Ukryj szczegóły",
     rosterSummaryRemoveButton: "Usuń",
     rosterSummaryRemoveAria: "Usuń {unit}",
     rosterSummaryBaseCost: "Koszt bazowy: {value}",
@@ -255,6 +266,15 @@ const dictionaries = {
     rosterDetailOwnedNo: "Nie",
     rosterDetailUnnamedUnit: "Jednostka bez nazwy",
     rosterDetailStatsModelLabel: "Model",
+    rosterDetailStatNameM: "Ruch",
+    rosterDetailStatNameWS: "Umiejętność walki wręcz",
+    rosterDetailStatNameBS: "Umiejętność strzelania",
+    rosterDetailStatNameS: "Siła",
+    rosterDetailStatNameT: "Wytrzymałość",
+    rosterDetailStatNameW: "Żywotność",
+    rosterDetailStatNameI: "Inicjatywa",
+    rosterDetailStatNameA: "Ataki",
+    rosterDetailStatNameLd: "Dowodzenie",
     rosterDetailSpecialRulesLabel: "Zasady specjalne",
     rosterDetailProfileFallback: "Profil {index}",
     rosterDetailMountLabel: "Wierzchowiec",
@@ -322,7 +342,7 @@ const dictionaries = {
     editSlug: "roster-edit",
     editTitle: "Roster editor",
     editDescription: "The builder is coming soon — this is where your army roster will live.",
-    editBackLabel: "Back to the landing page",
+    editMoveToTopLabel: "Move to top",
     selectPlaceholder: "— Select —",
     armyLabel: "Army",
     armyCompositionLabel: "Army Composition",
@@ -379,13 +399,14 @@ const dictionaries = {
     rosterSummaryHeading: "Roster Summary",
     rosterSummaryDefaultName: "Untitled roster",
     rosterDownloadButton: "Download roster",
-    rosterViewSheetButton: "View roster sheet",
     rosterPrintButton: "Print roster",
     rosterPointsLimitLabel: "Points limit",
     rosterTotalSpentLabel: "Total spent",
     rosterSummaryEmptyMessage:
       "No units selected yet. Use the category panels to add entries to your roster.",
     rosterSummaryOwnedLabel: "I own this unit",
+    rosterSummaryShowDetails: "Show details",
+    rosterSummaryHideDetails: "Hide details",
     rosterSummaryRemoveButton: "Remove",
     rosterSummaryRemoveAria: "Remove {unit}",
     rosterSummaryBaseCost: "Base cost: {value}",
@@ -396,8 +417,7 @@ const dictionaries = {
     rosterSetupSavedButton: "Saved",
     headerBrandLabel: "Warhammer Old World Army Builder",
     rosterDetailHeading: "Roster Sheet",
-    rosterDetailEmptyMessage:
-      "Add units to the roster to view their details and statistics.",
+    rosterDetailEmptyMessage: "Add units to the roster to view their details and statistics.",
     rosterDetailStatsMissing:
       "Unit statistics for the selected army are not complete yet. Units without data will display placeholders.",
     rosterDetailCloseAria: "Close roster sheet",
@@ -409,6 +429,15 @@ const dictionaries = {
     rosterDetailOwnedNo: "No",
     rosterDetailUnnamedUnit: "Unnamed unit",
     rosterDetailStatsModelLabel: "Model",
+    rosterDetailStatNameM: "Movement",
+    rosterDetailStatNameWS: "Weapon Skill",
+    rosterDetailStatNameBS: "Ballistic Skill",
+    rosterDetailStatNameS: "Strength",
+    rosterDetailStatNameT: "Toughness",
+    rosterDetailStatNameW: "Wounds",
+    rosterDetailStatNameI: "Initiative",
+    rosterDetailStatNameA: "Attacks",
+    rosterDetailStatNameLd: "Leadership",
     rosterDetailSpecialRulesLabel: "Special Rules",
     rosterDetailProfileFallback: "Profile {index}",
     rosterDetailMountLabel: "Mount",
