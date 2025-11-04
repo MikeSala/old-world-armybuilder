@@ -8,6 +8,39 @@ import {
   type UnitStatLine,
   normalizeUnitStatKey,
 } from "@/lib/data/domain/units/units-stats";
+import * as Accordion from "@radix-ui/react-accordion";
+import { ChevronDownIcon } from "@radix-ui/react-icons";
+import { Button } from "../ui/Button";
+import { StatTooltipLabel } from "../ui/StatTooltipLabel";
+
+// Small, local CSS animations for Accordion (no global stylesheet required)
+// These class names are used in Accordion.Content above.
+const styles = (
+  <style jsx>{`
+    @keyframes accordion-down {
+      from {
+        height: 0;
+      }
+      to {
+        height: var(--radix-accordion-content-height);
+      }
+    }
+    @keyframes accordion-up {
+      from {
+        height: var(--radix-accordion-content-height);
+      }
+      to {
+        height: 0;
+      }
+    }
+    .data-\[state\=open\]\:animate-accordion-down[data-state="open"] {
+      animation: accordion-down 200ms ease-out;
+    }
+    .data-\[state\=closed\]\:animate-accordion-up[data-state="closed"] {
+      animation: accordion-up 200ms ease-out;
+    }
+  `}</style>
+);
 
 type StatFieldKey = "M" | "WS" | "BS" | "S" | "T" | "W" | "I" | "A" | "Ld";
 
@@ -27,6 +60,18 @@ const STAT_FIELDS: Array<{ key: StatFieldKey; label: string }> = [
   { key: "A", label: "A" },
   { key: "Ld", label: "Ld" },
 ];
+
+const STAT_TOOLTIP_KEYS: Record<StatFieldKey, keyof LocaleDictionary> = {
+  M: "rosterDetailStatNameM",
+  WS: "rosterDetailStatNameWS",
+  BS: "rosterDetailStatNameBS",
+  S: "rosterDetailStatNameS",
+  T: "rosterDetailStatNameT",
+  W: "rosterDetailStatNameW",
+  I: "rosterDetailStatNameI",
+  A: "rosterDetailStatNameA",
+  Ld: "rosterDetailStatNameLd",
+};
 
 // Normalize single stat value for robust equality checks
 const norm = (v: unknown) => {
@@ -95,7 +140,11 @@ const UnitStatsTable = ({ dict, unit }: { dict: LocaleDictionary; unit: UnitStat
                 key={field.key as string}
                 className="px-2 py-1 text-center font-semibold uppercase tracking-wide"
               >
-                {field.label}
+                <StatTooltipLabel
+                  abbreviation={field.label}
+                  label={dict[STAT_TOOLTIP_KEYS[field.key]]}
+                  className="inline-flex w-full justify-center"
+                />
               </th>
             ))}
           </tr>
@@ -134,14 +183,14 @@ const UnitStatsTable = ({ dict, unit }: { dict: LocaleDictionary; unit: UnitStat
   );
 };
 
-const UnitSearchResultCard = ({
+const UnitSearchResultBody = ({
   dict,
   result,
 }: {
   dict: LocaleDictionary;
   result: UnitSearchResult;
 }) => {
-  const { line, armyName } = result;
+  const { line } = result;
   const equipment = Array.isArray(line.equipment) ? line.equipment : [];
   const rules = Array.isArray(line.specialRules) ? line.specialRules : [];
 
@@ -164,29 +213,17 @@ const UnitSearchResultCard = ({
   }
 
   return (
-    <article className="space-y-4 rounded-2xl border border-amber-300/30 bg-slate-900/70 p-5 text-amber-100 shadow shadow-amber-900/20">
-      <div className="flex flex-col gap-2">
-        <div className="flex flex-wrap items-baseline justify-between gap-2">
-          <h3 className="text-lg font-semibold text-amber-100">
-            {line.name ?? dict.rosterDetailUnnamedUnit}
-          </h3>
-          {armyName ? (
-            <span className="text-sm text-amber-200/70">
-              {dict.unitSearchArmyLabel}: {armyName}
-            </span>
-          ) : null}
-        </div>
-        {infoRows.length ? (
-          <dl className="grid gap-2 sm:grid-cols-2">
-            {infoRows.map(({ label, value }) => (
-              <div key={`${label}-${value}`} className="flex flex-col gap-1">
-                <dt className="text-xs uppercase tracking-wide text-amber-200/70">{label}</dt>
-                <dd className="text-sm text-amber-100">{value}</dd>
-              </div>
-            ))}
-          </dl>
-        ) : null}
-      </div>
+    <div className="space-y-5">
+      {infoRows.length ? (
+        <dl className="grid gap-2 sm:grid-cols-2">
+          {infoRows.map(({ label, value }) => (
+            <div key={`${label}-${value}`} className="flex flex-col gap-1">
+              <dt className="text-xs uppercase tracking-wide text-amber-200/70">{label}</dt>
+              <dd className="text-sm text-amber-100">{value}</dd>
+            </div>
+          ))}
+        </dl>
+      ) : null}
 
       <div className="space-y-2">
         <h4 className="text-xs font-semibold uppercase tracking-wide text-amber-200/70">
@@ -216,7 +253,47 @@ const UnitSearchResultCard = ({
           </ul>
         </div>
       ) : null}
-    </article>
+    </div>
+  );
+};
+
+const UnitSearchResultAccordionItem = ({
+  dict,
+  result,
+  value,
+}: {
+  dict: LocaleDictionary;
+  result: UnitSearchResult;
+  value: string;
+}) => {
+  const { line, armyName } = result;
+  const title = line.name ?? dict.rosterDetailUnnamedUnit;
+
+  return (
+    <Accordion.Item
+      value={value}
+      className="overflow-hidden rounded-2xl border border-amber-300/30 bg-slate-900/70 text-amber-100 shadow shadow-amber-900/20"
+    >
+      <Accordion.Header className="w-full">
+        <Accordion.Trigger className="flex w-full items-center justify-between gap-3 px-5 py-4 text-left outline-none transition hover:bg-slate-900/80 data-[state=open]:border-b data-[state=open]:border-amber-300/20">
+          <div className="flex flex-col gap-1">
+            <h3 className="text-lg font-semibold text-amber-100">{title}</h3>
+            {armyName ? (
+              <span className="text-sm text-amber-200/70">
+                {dict.unitSearchArmyLabel}: {armyName}
+              </span>
+            ) : null}
+          </div>
+          <ChevronDownIcon
+            className="h-5 w-5 shrink-0 transition-transform duration-200 data-[state=open]:rotate-180"
+            aria-hidden
+          />
+        </Accordion.Trigger>
+      </Accordion.Header>
+      <Accordion.Content className="px-5 pb-5 pt-4 data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down">
+        <UnitSearchResultBody dict={dict} result={result} />
+      </Accordion.Content>
+    </Accordion.Item>
   );
 };
 
@@ -252,13 +329,13 @@ export default function UnitSearch({ dict, className }: Props) {
               {dict.unitSearchHeading}
             </h2>
             {query ? (
-              <button
+              <Button
                 type="button"
                 onClick={() => setQuery("")}
                 className="text-xs font-semibold uppercase tracking-wide text-amber-200/70 hover:text-amber-100"
               >
                 {dict.unitSearchClearButton}
-              </button>
+              </Button>
             ) : null}
           </div>
           <label className="flex flex-col gap-2 text-sm" htmlFor="unit-search-input">
@@ -276,17 +353,20 @@ export default function UnitSearch({ dict, className }: Props) {
         </div>
 
         {results.length > 0 ? (
-          <div className="space-y-4">
+          <Accordion.Root type="multiple" className="space-y-4">
             {results.map((result) => {
               const base = result.line.name ?? result.line.unit ?? "unit";
               const key = `${result.statsArmyId}-${normalizeUnitStatKey(base)}`;
-              return <UnitSearchResultCard key={key} dict={dict} result={result} />;
+              return (
+                <UnitSearchResultAccordionItem key={key} value={key} dict={dict} result={result} />
+              );
             })}
-          </div>
+          </Accordion.Root>
         ) : query.trim().length >= 2 ? (
           <p className="text-sm text-amber-200/70">{dict.unitSearchNoResults}</p>
         ) : null}
       </div>
+      {styles}
     </section>
   );
 }
