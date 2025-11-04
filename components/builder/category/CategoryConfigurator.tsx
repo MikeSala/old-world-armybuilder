@@ -1,10 +1,12 @@
 import * as React from "react";
+
 import { Button } from "@/components/ui/Button";
 import Select, { type SelectOption } from "@/components/ui/Select";
 import { getUnitKey, getUnitLabel } from "@/lib/builder/unitHelpers";
+
+import { OptionGroupSection } from "./OptionGroupSection";
 import type { Dict } from "./types";
 import type { CategorySelectionState } from "./useCategoryBucketsState";
-import { OptionGroupSection } from "./OptionGroupSection";
 
 type Props = {
   dict: Dict;

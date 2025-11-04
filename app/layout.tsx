@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 
 import "./globals.css";
-import { MarginLayout } from "../components/layout/MarginLayout";
+
 import ClientProviders from "@/components/ClientProviders";
 import { Header } from "@/components/layout/Header";
-import { Locale } from "@/lib/i18n/dictionaries";
+import { MarginLayout } from "@/components/layout/MarginLayout";
+import { Locale, defaultLocale, locales } from "@/lib/i18n/dictionaries";
+
 import Footer from "./footer";
 
 export const metadata: Metadata = {
@@ -12,19 +14,28 @@ export const metadata: Metadata = {
   description: "Narzędzie do tworzenia rozpiski armii Warhammer.",
 };
 
-export default async function RootLayout({
-  params,
-  children,
-}: {
-  params: { locale: Locale; slug?: string[] };
+type RootLayoutProps = {
+  params: Promise<Record<string, unknown>>;
   children: React.ReactNode;
-}) {
-  const restSegments: string[] = params.slug ?? [];
+};
+
+export default async function RootLayout({ params, children }: RootLayoutProps) {
+  const resolvedParams = await params;
+  const localeParam = resolvedParams?.locale;
+  const slugParam = resolvedParams?.slug;
+  const locale = typeof localeParam === "string" && locales.includes(localeParam as Locale)
+    ? (localeParam as Locale)
+    : defaultLocale;
+  const restSegments: string[] = Array.isArray(slugParam)
+    ? (slugParam as string[])
+    : typeof slugParam === "string"
+    ? [slugParam]
+    : [];
   return (
-    <html lang={params.locale}>
+    <html lang={locale} suppressHydrationWarning>
       <body className="bg-slate-600 text-amber-300">
         <ClientProviders>
-          <Header locale={params.locale} restSegments={restSegments} />
+          <Header locale={locale} restSegments={restSegments} />
           <main className="pt-20">
             <MarginLayout>{children}</MarginLayout>
             <Footer />

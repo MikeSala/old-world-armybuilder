@@ -1,20 +1,9 @@
 "use client";
 
-import {
-  forwardRef,
-  type ButtonHTMLAttributes,
-  type ForwardedRef,
-  type ReactNode,
-} from "react";
+import { forwardRef, type ButtonHTMLAttributes, type ForwardedRef, type ReactNode } from "react";
 
 // 🔹 TS: Types representing the possible variants and sizes for the Button component
-type ButtonVariant =
-  | "primary"
-  | "secondary"
-  | "ghost"
-  | "outline"
-  | "gradient"
-  | "accent";
+type ButtonVariant = "primary" | "secondary" | "ghost" | "outline" | "gradient" | "accent";
 type ButtonSize = "sm" | "md" | "lg";
 
 // 🔹 TS: Props interface for the Button component, extending native button attributes
@@ -34,7 +23,7 @@ function cn(...values: Array<string | undefined | null | false>) {
 
 // Base classes shared by all button variants and sizes for consistent styling and behavior
 const baseClasses =
-  "relative inline-flex items-center justify-center gap-2 font-semibold tracking-wide uppercase transition duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-60 shadow-sm";
+  "relative inline-flex w-auto items-center justify-center gap-2 font-semibold tracking-wide uppercase transition duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-60 shadow-sm";
 
 // Styling classes specific to each button variant, defining colors, borders, and hover/focus states
 const variantClasses: Record<ButtonVariant, string> = {
@@ -105,15 +94,11 @@ const Button = forwardRef(function Button(
       {...props}
     >
       {/* Render left icon if provided */}
-      {leftIcon ? (
-        <span className="inline-flex items-center">{leftIcon}</span>
-      ) : null}
+      {leftIcon ? <span className="inline-flex items-center">{leftIcon}</span> : null}
       {/* Render button children, hide when loading */}
       <span className={loading ? "opacity-0" : undefined}>{children}</span>
       {/* Render right icon if provided */}
-      {rightIcon ? (
-        <span className="inline-flex items-center">{rightIcon}</span>
-      ) : null}
+      {rightIcon ? <span className="inline-flex items-center">{rightIcon}</span> : null}
       {/* Show spinner overlay when loading */}
       {loading ? <span aria-hidden className={spinnerClass} /> : null}
     </button>

@@ -1,7 +1,8 @@
 "use client";
 
-import { AnchorHTMLAttributes } from "react";
 import Link from "next/link";
+import { AnchorHTMLAttributes } from "react";
+
 import { Locale } from "../../lib/i18n/dictionaries";
 
 type LocaleButtonProps = AnchorHTMLAttributes<HTMLAnchorElement> & {

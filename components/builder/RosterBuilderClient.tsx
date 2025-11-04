@@ -1,14 +1,16 @@
 "use client";
 
 import * as React from "react";
-import Select, { SelectOption } from "@/components/ui/Select";
-import { Button } from "@/components/ui/Button";
-import ArmyRulesSelectClient from "@/components/builder/ArmyRulesSelectClient";
-import ArmyPointsCounter from "@/components/builder/ArmyPointsCounter";
-import RosterMetaClient from "@/components/builder/RosterMetaClient";
-import { ARMIES } from "@/lib/data/armies/armies";
 import { useDispatch, useSelector } from "react-redux";
+
+import ArmyPointsCounter from "@/components/builder/ArmyPointsCounter";
+import ArmyRulesSelectClient from "@/components/builder/ArmyRulesSelectClient";
+import RosterMetaClient from "@/components/builder/RosterMetaClient";
+import { Button } from "@/components/ui/Button";
+import Select, { SelectOption } from "@/components/ui/Select";
+import { ARMIES } from "@/lib/data/armies/armies";
 import type { AppDispatch, RootState } from "@/lib/store";
+import { setCatalogArmy } from "@/lib/store/slices/catalogSlice";
 import type { RosterDraft, ValidationErrors } from "@/lib/store/slices/rosterSlice";
 import {
   setArmy,
@@ -20,7 +22,6 @@ import {
   rosterInitialState,
   setSetupCollapsed,
 } from "@/lib/store/slices/rosterSlice";
-import { setCatalogArmy } from "@/lib/store/slices/catalogSlice";
 
 // Minimal dictionary the component expects
 type Dict = {
@@ -31,6 +32,7 @@ type Dict = {
   armyRuleLabel: string; // e.g. "Army Rule"
   armyPointsLabel: string; // for ArmyPointsCounter
   armyPointsSuggestionsLabel: string; // for ArmyPointsCounter
+  armyPointsPlaceholder: string;
   armyPointsIncreaseAria: string;
   armyPointsDecreaseAria: string;
   rosterNameLabel: string;
@@ -100,7 +102,6 @@ export default function RosterBuilderClient({ dict, className, onSaved }: Props)
     dispatch(setSaving(true));
     const timestamp = Date.now();
     const snapshot: DraftSnapshot = { ...draftState, updatedAt: timestamp };
-    // Redux-persist will store the state; no manual localStorage writes
     dispatch(setSavedAt(timestamp));
     onSaved?.(snapshot);
     dispatch(setSaving(false));
@@ -115,7 +116,7 @@ export default function RosterBuilderClient({ dict, className, onSaved }: Props)
             {dict.rosterSetupHeading}
           </h3>
           <Button
-            variant="secondary"
+            variant="primary"
             size="sm"
             onClick={() => dispatch(setSetupCollapsed(!collapsed))}
           >
@@ -124,85 +125,72 @@ export default function RosterBuilderClient({ dict, className, onSaved }: Props)
         </div>
 
         {!collapsed ? (
-          <div className="flex flex-col gap-6 xl:flex-row">
-            <section className="flex-1 space-y-6">
-          <div className="rounded-xl border border-amber-300/30 bg-slate-900/30 p-6 shadow-lg shadow-amber-900/10">
-            <div className="flex flex-wrap gap-4">
-              <div className="flex min-w-[220px] flex-1 flex-col gap-2 md:max-w-xs">
-                <Select
-                  label={dict.armyLabel}
-                  placeholder={dict.selectPlaceholder}
-                  options={clientArmies}
-                  value={armyId}
-                  onChange={(id) => {
-                    dispatch(setArmy(id));
-                    dispatch(setCatalogArmy(id));
-                  }}
-                  className="w-full"
-                />
-                    {errors.army ? <p className="text-sm text-red-300">{errors.army}</p> : null}
-                  </div>
-                  <div className="flex min-w-[220px] flex-1 flex-col gap-2 md:max-w-xs">
-                    <Select
-                      label={dict.armyCompositionLabel}
-                      placeholder={dict.selectPlaceholder}
-                      options={compositionOptions}
-                      value={compositionId}
-                      onChange={(id) => dispatch(setComposition(id))}
-                      disabled={!armyId}
-                      className="w-full"
-                    />
-                  </div>
-                  <div className="flex min-w-[220px] flex-1 flex-col gap-2 md:max-w-xs">
-                    <ArmyRulesSelectClient
-                      dict={{ selectPlaceholder: dict.selectPlaceholder, armyRule: dict.armyRuleLabel }}
-                      defaultValue={armyRuleId}
-                      onChange={(id) => dispatch(setArmyRule(id))}
-                      className="w-full"
-                    />
-                  </div>
+          <section className="rounded-2xl border border-amber-300/30 bg-slate-900/30 p-6 shadow-lg shadow-amber-900/10">
+            <div className="grid gap-6 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)]">
+              <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-2">
+                  <Select
+                    label={dict.armyLabel}
+                    placeholder={dict.selectPlaceholder}
+                    options={clientArmies}
+                    value={armyId}
+                    onChange={(id) => {
+                      dispatch(setArmy(id));
+                      dispatch(setCatalogArmy(id));
+                    }}
+                    className="w-full"
+                  />
+                  {errors.army ? <p className="text-sm text-red-300">{errors.army}</p> : null}
+                </div>
+                <div className="flex flex-col gap-2">
+                  <Select
+                    label={dict.armyCompositionLabel}
+                    placeholder={dict.selectPlaceholder}
+                    options={compositionOptions}
+                    value={compositionId}
+                    onChange={(id) => dispatch(setComposition(id))}
+                    disabled={!armyId}
+                    className="w-full"
+                  />
+                </div>
+                <div className="flex flex-col gap-2">
+                  <ArmyRulesSelectClient
+                    dict={{
+                      selectPlaceholder: dict.selectPlaceholder,
+                      armyRule: dict.armyRuleLabel,
+                    }}
+                    defaultValue={armyRuleId}
+                    onChange={(id) => dispatch(setArmyRule(id))}
+                    className="w-full"
+                  />
+                  <ArmyPointsCounter
+                    dict={dict}
+                    className="flex items-center gap-2"
+                    showLabel={true}
+                  />
                 </div>
               </div>
 
-              <div className="rounded-xl border border-amber-300/30 bg-slate-900/30 p-6 shadow-lg shadow-amber-900/10">
-                <ArmyPointsCounter
-                  dict={{
-                    armyPointsLabel: dict.armyPointsLabel,
-                    armyPointsSuggestionsLabel: dict.armyPointsSuggestionsLabel,
-                    armyPointsIncreaseAria: dict.armyPointsIncreaseAria,
-                    armyPointsDecreaseAria: dict.armyPointsDecreaseAria,
-                  }}
-                  className="max-w-xs"
-                />
-                {errors.points ? <p className="mt-3 text-sm text-red-300">{errors.points}</p> : null}
+              <div className="flex flex-col gap-4">
+                <RosterMetaClient dict={dict} />
+                {errors.points ? <p className="text-sm text-red-300">{errors.points}</p> : null}
               </div>
-            </section>
-
-            <section className="flex-1 rounded-xl border border-amber-300/30 bg-slate-900/30 p-6 shadow-lg shadow-amber-900/10">
-              <RosterMetaClient
-                dict={{
-                  rosterNameLabel: dict.rosterNameLabel,
-                  rosterNamePh: dict.rosterNamePh,
-                  rosterDescLabel: dict.rosterDescLabel,
-                  rosterDescPh: dict.rosterDescPh,
-                  optionalHint: dict.optionalHint,
-                }}
-              />
-              <button
-                type="button"
-                onClick={handleSave}
-                disabled={saving}
-                className={`mt-4 rounded-md px-4 py-2 font-semibold text-amber-50 shadow disabled:opacity-60 ${
-                  savedAt
-                    ? "bg-amber-700 hover:bg-amber-700/90 focus-visible:bg-amber-700"
-                    : "bg-amber-600 hover:bg-amber-500"
-                }`}
-              >
-                {savedAt ? dict.rosterSetupSavedButton : dict.rosterSetupSaveButton}
-              </button>
-            </section>
-          </div>
+            </div>
+          </section>
         ) : null}
+        <Button
+          type="button"
+          size="md"
+          onClick={handleSave}
+          disabled={saving}
+          className={`mt-4 rounded-md px-4 py-2 self-center font-semibold text-amber-50 shadow disabled:opacity-60 ${
+            savedAt
+              ? "bg-amber-700 hover:bg-amber-700/90 focus-visible:bg-amber-700"
+              : "bg-amber-600 hover:bg-amber-500"
+          }`}
+        >
+          {savedAt ? dict.rosterSetupSavedButton : dict.rosterSetupSaveButton}
+        </Button>
       </div>
     </div>
   );

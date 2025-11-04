@@ -1,10 +1,14 @@
 "use client";
 
-import * as React from "react";
-import clsx from "clsx";
-import { useSelector } from "react-redux";
+import { clsx } from "clsx";
 import { X } from "lucide-react";
+import * as React from "react";
+import { useSelector } from "react-redux";
+
 import { Button } from "@/components/ui/Button";
+import { StatTooltipLabel } from "@/components/ui/StatTooltipLabel";
+import type { CategoryKey } from "@/lib/data/domain/types/categories";
+import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
 import {
   ORDERED_CATEGORIES,
   selectRosterDetailView,
@@ -13,8 +17,6 @@ import {
   type RosterUnitStatRow,
   type RosterUnitMetaRow,
 } from "@/lib/store/selectors/rosterDetails";
-import type { CategoryKey } from "@/lib/data/domain/types/categories";
-import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
 
 type DetailDict = Pick<
   LocaleDictionary,
@@ -45,6 +47,15 @@ type DetailDict = Pick<
   | "categoryOptionsDefaultLabel"
   | "categoryOptionCostPerModelSuffix"
   | "rosterDetailStatsModelLabel"
+  | "rosterDetailStatNameM"
+  | "rosterDetailStatNameWS"
+  | "rosterDetailStatNameBS"
+  | "rosterDetailStatNameS"
+  | "rosterDetailStatNameT"
+  | "rosterDetailStatNameW"
+  | "rosterDetailStatNameI"
+  | "rosterDetailStatNameA"
+  | "rosterDetailStatNameLd"
   | "rosterDetailSpecialRulesLabel"
   | "rosterDetailProfileFallback"
   | "rosterDetailMountLabel"
@@ -60,7 +71,6 @@ type Props = {
   dict: DetailDict;
   onClose?: () => void;
   onPrinted?: () => void;
-  autoPrint?: boolean;
   className?: string;
 };
 
@@ -125,6 +135,18 @@ const STAT_FIELDS = [
 ] as const;
 type StatFieldKey = (typeof STAT_FIELDS)[number]["key"];
 
+const STAT_TOOLTIP_KEYS: Record<StatFieldKey, keyof DetailDict> = {
+  M: "rosterDetailStatNameM",
+  WS: "rosterDetailStatNameWS",
+  BS: "rosterDetailStatNameBS",
+  S: "rosterDetailStatNameS",
+  T: "rosterDetailStatNameT",
+  W: "rosterDetailStatNameW",
+  I: "rosterDetailStatNameI",
+  A: "rosterDetailStatNameA",
+  Ld: "rosterDetailStatNameLd",
+};
+
 const MUTED_TEXT = "text-xs text-amber-200/70 print:text-gray-600 print:text-[11px]";
 
 const formatUnitSummary = (
@@ -155,7 +177,6 @@ export default function RosterDetailSheet({
   dict,
   onClose,
   onPrinted,
-  autoPrint,
   className,
 }: Props) {
   const handlePrint = React.useCallback(() => {
@@ -191,12 +212,6 @@ export default function RosterDetailSheet({
       dict.categoryAlliesLabel,
     ]
   );
-
-  React.useEffect(() => {
-    if (!autoPrint) return;
-    const id = window.setTimeout(handlePrint, 50);
-    return () => window.clearTimeout(id);
-  }, [autoPrint, handlePrint]);
 
   const categories = React.useMemo<CategorySectionData[]>(() => {
     return ORDERED_CATEGORIES.map((category) => {
@@ -464,7 +479,11 @@ const StatsTable = React.memo(function StatsTable({ rows, dict }: StatsTableProp
                 key={field.key}
                 className="px-2 py-1 text-center font-semibold uppercase tracking-wide print:text-gray-900 print:text-xs"
               >
-                {field.label}
+                <StatTooltipLabel
+                  abbreviation={field.label}
+                  label={dict[STAT_TOOLTIP_KEYS[field.key]]}
+                  className="inline-flex w-full justify-center"
+                />
               </th>
             ))}
           </tr>
@@ -492,8 +511,6 @@ const StatsTable = React.memo(function StatsTable({ rows, dict }: StatsTableProp
 });
 
 const SidebarPanel = React.memo(function SidebarPanel({ rules, meta, dict }: SidebarPanelProps) {
-  if (rules.length === 0 && meta.length === 0) return null;
-
   const localizeMetaLabel = React.useCallback(
     (label: string) => {
       if (label === "Unit Size") return dict.rosterDetailSidebarUnitSize;
@@ -533,6 +550,9 @@ const SidebarPanel = React.memo(function SidebarPanel({ rules, meta, dict }: Sid
       dict.rosterDetailMountLabel,
     ]
   );
+
+  const hasContent = rules.length > 0 || meta.length > 0;
+  if (!hasContent) return null;
 
   return (
     <aside className="space-y-3 rounded-lg border border-amber-400/10 bg-slate-900/40 p-3 text-xs print:space-y-2 print:border-gray-300 print:bg-white print:text-[11px]">

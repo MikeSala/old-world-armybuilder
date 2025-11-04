@@ -1,4 +1,5 @@
 import type { RosterEntry } from "@/lib/store/slices/rosterSlice";
+
 import type { Dict } from "./types";
 
 type Props = {
@@ -10,7 +11,7 @@ export function CategoryEntryList({ entries, dict }: Props) {
   if (entries.length === 0) return null;
 
   return (
-    <ul className="space-y-2">
+    <ul className="flex w-full flex-col gap-2">
       {entries.map((entry) => {
         const optionNames = entry.options
           .map((opt) => opt.name)
@@ -32,7 +33,7 @@ export function CategoryEntryList({ entries, dict }: Props) {
         return (
           <li
             key={entry.id}
-            className="rounded-lg border border-amber-300/10 bg-slate-900/50 px-3 py-2"
+            className="w-full rounded-lg border border-amber-300/10 bg-slate-900/50 px-3 py-2"
           >
             <div className="flex items-baseline justify-between gap-3">
               <span className="text-sm font-semibold text-amber-100">{entry.name}</span>

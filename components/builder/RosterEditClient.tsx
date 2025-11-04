@@ -1,9 +1,11 @@
 "use client";
 import { useMemo } from "react";
-import Select, { SelectOption } from "../ui/Select";
 import { useDispatch, useSelector } from "react-redux";
+
 import type { RootState } from "@/lib/store";
 import { setArmy, setComposition } from "@/lib/store/slices/rosterSlice";
+
+import Select, { SelectOption } from "../ui/Select";
 
 type ArmyNode = { id: string; label: string; children?: SelectOption[] };
 
