@@ -33,7 +33,7 @@ export function CategoryEntryList({ entries, dict }: Props) {
         return (
           <li
             key={entry.id}
-            className="w-full rounded-lg border border-amber-300/10 bg-slate-900/50 px-3 py-2"
+            className="w-full rounded-lg border border-amber-300/10 bg-slate-900/50 px-3 py-2 print-bg-white"
           >
             <div className="flex items-baseline justify-between gap-3">
               <span className="text-sm font-semibold text-amber-100">{entry.name}</span>

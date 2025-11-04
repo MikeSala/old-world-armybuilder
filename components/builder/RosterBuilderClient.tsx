@@ -67,7 +67,7 @@ export default function RosterBuilderClient({ dict, className, onSaved }: Props)
   const draftState = rosterState?.draft ?? rosterInitialState.draft;
   const uiState = rosterState?.ui ?? rosterInitialState.ui;
   const { errors, saving, savedAt, setupCollapsed } = uiState;
-  const { armyId, compositionId, armyRuleId, pointsLimit, name, description } = draftState;
+  const { armyId, compositionId, armyRuleId, pointsLimit } = draftState;
   const collapsed = setupCollapsed ?? false;
 
   const clientArmies = React.useMemo(

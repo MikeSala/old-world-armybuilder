@@ -20,7 +20,7 @@ export function CategorySummaryCard({
   const hasChildren = React.Children.count(children) > 0;
 
   return (
-    <div className="flex flex-col rounded-2xl border border-amber-300/30 bg-slate-900/60 shadow-lg shadow-amber-900/20 backdrop-blur">
+    <div className="flex flex-col rounded-2xl border border-amber-300/30 bg-slate-900/60 shadow-lg shadow-amber-900/20 backdrop-blur print-bg-white">
       <div className="grid grid-cols-[1fr_auto_auto] items-center gap-3 px-4 py-3">
         <div className="text-lg font-semibold text-amber-200">{title}</div>
         <div className="flex justify-center">{headerAction ?? <span className="hidden" />}</div>
