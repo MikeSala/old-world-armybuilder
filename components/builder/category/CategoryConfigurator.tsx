@@ -1,5 +1,3 @@
-import * as React from "react";
-
 import { Button } from "@/components/ui/Button";
 import Select, { type SelectOption } from "@/components/ui/Select";
 import { getUnitKey, getUnitLabel } from "@/lib/builder/unitHelpers";
@@ -31,23 +29,24 @@ export function CategoryConfigurator({ dict, selection }: Props) {
     optionGroups,
     optionSelections,
     onToggleOption,
-    onConfirmAdd,
+    onConfirm,
     onCancel,
     totalPoints,
-    formatCategoryLabel,
+    mode,
+    editingEntry,
   } = selection;
 
-  const getOptionsTitle = (category: CategorySelectionState["activeCategory"]) =>
-    category
-      ? dict.categoryOptionsTitle.replace("{category}", formatCategoryLabel(category))
-      : "";
+  const isEditing = mode === "edit";
+  const optionsTitle =
+    isEditing && editingEntry
+      ? dict.categoryEditTitle.replace("{unit}", editingEntry.name)
+      : dict.categoryOptionsDefaultLabel;
+  const confirmLabel = isEditing ? dict.categoryConfirmSaveLabel : dict.categoryConfirmAddLabel;
 
   if (!activeCategory) {
     return (
       <section className="rounded-2xl border border-amber-300/30 bg-slate-900/60 p-5 text-amber-100 shadow-lg shadow-amber-900/10">
-        <p className="text-sm text-amber-200/70">
-          {dict.categoryConfiguratorPrompt}
-        </p>
+        <p className="text-sm text-amber-200/70">{dict.categoryConfiguratorPrompt}</p>
       </section>
     );
   }
@@ -61,7 +60,7 @@ export function CategoryConfigurator({ dict, selection }: Props) {
     return (
       <section className="rounded-2xl border border-amber-300/30 bg-slate-900/60 p-5 text-amber-100 shadow-lg shadow-amber-900/10">
         <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-300">
-          {getOptionsTitle(activeCategory)}
+          {optionsTitle}
         </h3>
         <p className="mt-4 text-sm text-amber-200/70">{dict.categoryEmptyUnitsMessage}</p>
       </section>
@@ -70,9 +69,20 @@ export function CategoryConfigurator({ dict, selection }: Props) {
 
   return (
     <section className="rounded-2xl border border-amber-300/30 bg-slate-900/60 p-5 text-amber-100 shadow-lg shadow-amber-900/10">
-      <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-300">
-        {getOptionsTitle(activeCategory)}
-      </h3>
+      <div className="flex flex-col gap-2 lg:flex-row lg:items-center lg:justify-between">
+        <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-300 lg:self-start">
+          {optionsTitle}
+        </h3>
+
+        <div className="flex flex-col gap-2 lg:flex-row lg:items-center lg:gap-3">
+          <Button variant="primary" size="sm" onClick={onConfirm} disabled={!selectedUnitId}>
+            {confirmLabel}
+          </Button>
+          <Button variant="secondary" size="sm" onClick={onCancel}>
+            {dict.categoryCancelLabel}
+          </Button>
+        </div>
+      </div>
       <div className="mt-4 space-y-3">
         <Select
           options={options}
@@ -157,8 +167,8 @@ export function CategoryConfigurator({ dict, selection }: Props) {
         )}
 
         <div className="flex flex-col gap-2 lg:flex-row lg:justify-end">
-          <Button variant="primary" size="sm" onClick={onConfirmAdd} disabled={!selectedUnitId}>
-            {dict.categoryConfirmAddLabel}
+          <Button variant="primary" size="sm" onClick={onConfirm} disabled={!selectedUnitId}>
+            {confirmLabel}
           </Button>
           <Button variant="secondary" size="sm" onClick={onCancel}>
             {dict.categoryCancelLabel}

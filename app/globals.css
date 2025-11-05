@@ -25,13 +25,26 @@
     line-height: 1.25;
   }
 
-  /* 2) Hide everything except the dedicated print root */
-  body > *:not(#print-root) {
+  /* 2) Hide everything except the target printable containers */
+  body > *:not(#print-root):not(:has(#summary-print-root)) {
     display: none !important;
   }
 
   #print-root {
     display: block !important;
+  }
+
+  main > *:not(:has(#summary-print-root)) {
+    display: none !important;
+  }
+
+  section:has(#summary-print-root) > *:not(#summary-print-root) {
+    display: none !important;
+  }
+
+  #summary-print-root {
+    display: block !important;
+    width: 100% !important;
   }
 
   #print-root .print-overlay {
@@ -97,6 +110,16 @@
   /* Optional utility: force-hide specific elements in print if needed */
   #print-root .print-hidden {
     display: none !important;
+  }
+
+  #summary-print-root * {
+    color: #000000 !important;
+  }
+
+  #summary-print-root .print-bg-white {
+    background-color: #ffffff !important;
+    border-color: #d1d5db !important;
+    box-shadow: none !important;
   }
 
   /* Page margins */

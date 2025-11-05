@@ -16,12 +16,20 @@ type Props = {
 };
 
 export default function CategoryBuckets({ totals, onAddClick, dict, className }: Props) {
-  const { isRosterReady, sections, entriesByCategory, activeCategory, onToggleCategory, selection } =
-    useCategoryBucketsState({
-      totals,
-      onAddClick,
-      dict,
-    });
+  const {
+    isRosterReady,
+    sections,
+    entriesByCategory,
+    activeCategory,
+    onToggleCategory,
+    onEditEntry,
+    editingEntryId,
+    selection,
+  } = useCategoryBucketsState({
+    totals,
+    onAddClick,
+    dict,
+  });
 
   const categoryGridClass =
     "grid gap-6 text-amber-100 lg:grid-cols-[minmax(0,440px)_minmax(0,1fr)] lg:items-start";
@@ -38,6 +46,8 @@ export default function CategoryBuckets({ totals, onAddClick, dict, className }:
             entriesByCategory={entriesByCategory}
             dict={dict}
             onToggleCategory={onToggleCategory}
+            onEntrySelect={onEditEntry}
+            selectedEntryId={editingEntryId}
           />
           <CategoryConfigurator dict={dict} selection={selection} />
         </div>

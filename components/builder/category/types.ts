@@ -10,6 +10,8 @@ export type Dict = Pick<
   | "categoryPtsAvailable"
   | "categoryPtsMissing"
   | "categoryCoreLabel"
+  | "categoryCorePointsSummary"
+  | "categoryCapPointsSummary"
   | "categoryCharactersLabel"
   | "categorySpecialLabel"
   | "categoryRareLabel"
@@ -20,12 +22,14 @@ export type Dict = Pick<
   | "categoryToggleCloseLabel"
   | "categorySelectPlaceholder"
   | "categoryConfirmAddLabel"
+  | "categoryConfirmSaveLabel"
   | "categoryCancelLabel"
   | "categoryEmptyUnitsMessage"
   | "categoryUnitSectionLocked"
   | "categoryLockedNoticeDescription"
   | "categoryConfiguratorPrompt"
-  | "categoryOptionsTitle"
+  | "categoryOptionsDefaultLabel"
+  | "categoryEditTitle"
   | "categoryUnitSizeLabel"
   | "categoryUnitPointsPerModel"
   | "categoryUnitFlatCost"
@@ -48,7 +52,9 @@ export type CategorySection = {
   title: string;
   value: number;
   suffix: string;
+  formattedValue?: string;
   warning?: boolean;
+  enforceCap?: boolean;
 };
 
 export type EntriesByCategory = Partial<Record<CategoryKey, RosterEntry[]>>;

@@ -173,12 +173,7 @@ const renderStatValue = (value: number | string | null | undefined) => {
   return value;
 };
 
-export default function RosterDetailSheet({
-  dict,
-  onClose,
-  onPrinted,
-  className,
-}: Props) {
+export default function RosterDetailSheet({ dict, onClose, onPrinted, className }: Props) {
   const handlePrint = React.useCallback(() => {
     if (typeof window !== "undefined") {
       window.print();
@@ -436,7 +431,7 @@ const OptionSummaryList = React.memo(function OptionSummaryList({
     <div className="grid gap-x-3 gap-y-1 text-xs text-amber-200/80 print:text-gray-600 print:text-[11px] sm:grid-cols-[max-content_minmax(0,1fr)_max-content]">
       {summaries.map((summary, idx) => (
         <React.Fragment key={`${summary.group ?? "default"}-${idx}`}>
-          <span className="font-semibold text-amber-100 print:text-gray-900">
+          <span className="font-semibold text-amber-200/70 print:text-gray-900">
             {(() => {
               const normalized = summary.group?.trim() ?? "";
               const isDefault = normalized.length === 0 || normalized.toLowerCase() === "options";
@@ -444,7 +439,7 @@ const OptionSummaryList = React.memo(function OptionSummaryList({
               return `${label}:`;
             })()}
           </span>
-          <span className="text-amber-100 print:text-gray-900">{summary.items.join(", ")}</span>
+          <span className="text-amber-200/70 print:text-gray-900">{summary.items.join(", ")}</span>
           <span className="text-right text-amber-200/70 print:text-gray-600">
             {summary.cost ? formatPoints(summary.cost) : dict.categoryOptionCostFree}
           </span>
@@ -490,7 +485,7 @@ const StatsTable = React.memo(function StatsTable({ rows, dict }: StatsTableProp
         </thead>
         <tbody>
           {rows.map((row) => (
-            <tr key={row.label} className="text-amber-100 print:text-gray-900">
+            <tr key={row.label} className="text-amber-200 print:text-gray-900">
               <th className="px-2 py-2 text-left font-semibold print:text-xs">
                 {localizeLabel(row.label)}
               </th>

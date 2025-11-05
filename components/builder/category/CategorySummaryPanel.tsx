@@ -1,5 +1,3 @@
-import * as React from "react";
-
 import { Button } from "@/components/ui/Button";
 import type { CategoryKey } from "@/lib/data/domain/types/categories";
 
@@ -13,6 +11,8 @@ type Props = {
   entriesByCategory: EntriesByCategory;
   dict: Dict;
   onToggleCategory: (key: CategoryKey) => void;
+  onEntrySelect?: (entryId: string) => void;
+  selectedEntryId?: string | null;
 };
 
 export function CategorySummaryPanel({
@@ -21,13 +21,16 @@ export function CategorySummaryPanel({
   entriesByCategory,
   dict,
   onToggleCategory,
+  onEntrySelect,
+  selectedEntryId,
 }: Props) {
   return (
     <section className="space-y-2">
       {sections.map((section) => {
         const categoryEntries = entriesByCategory[section.key] ?? [];
         const isActive = activeCategory === section.key;
-        const addDisabled = !section.warning && section.value <= 0 && !isActive;
+        const shouldEnforceCap = section.enforceCap ?? true;
+        const addDisabled = shouldEnforceCap ? (!section.warning && section.value <= 0 && !isActive) : false;
 
         return (
           <CategorySummaryCard
@@ -35,13 +38,25 @@ export function CategorySummaryPanel({
             title={section.title}
             rightValue={section.value}
             rightSuffix={section.suffix}
+            rightText={section.formattedValue}
             emphasizeWarning={section.warning}
           >
             <div className="flex flex-col gap-2">
               {categoryEntries.length > 0 ? (
-                <CategoryEntryList entries={categoryEntries} dict={dict} />
+                <CategoryEntryList
+                  entries={categoryEntries}
+                  dict={dict}
+                  onSelect={
+                    onEntrySelect
+                      ? (entry) => {
+                          onEntrySelect(entry.id);
+                        }
+                      : undefined
+                  }
+                  activeEntryId={selectedEntryId}
+                />
               ) : null}
-              <div className="flex">
+              <div className="flex print:hidden self-center">
                 <Button
                   className="w-36"
                   variant="secondary"

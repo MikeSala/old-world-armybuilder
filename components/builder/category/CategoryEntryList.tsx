@@ -1,3 +1,5 @@
+import { clsx } from "clsx";
+
 import type { RosterEntry } from "@/lib/store/slices/rosterSlice";
 
 import type { Dict } from "./types";
@@ -5,9 +7,11 @@ import type { Dict } from "./types";
 type Props = {
   entries: RosterEntry[];
   dict: Dict;
+  onSelect?: (entry: RosterEntry) => void;
+  activeEntryId?: string | null;
 };
 
-export function CategoryEntryList({ entries, dict }: Props) {
+export function CategoryEntryList({ entries, dict, onSelect, activeEntryId }: Props) {
   if (entries.length === 0) return null;
 
   return (
@@ -33,7 +37,24 @@ export function CategoryEntryList({ entries, dict }: Props) {
         return (
           <li
             key={entry.id}
-            className="w-full rounded-lg border border-amber-300/10 bg-slate-900/50 px-3 py-2"
+            className={clsx(
+              "w-full rounded-lg border px-3 py-2 transition focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-300 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900 print-bg-white",
+              activeEntryId === entry.id
+                ? "border-amber-400 bg-slate-900/80"
+                : "border-amber-300/10 bg-slate-900/50 hover:border-amber-300/40 hover:bg-slate-900/70",
+              onSelect && "cursor-pointer"
+            )}
+            role={onSelect ? "button" : undefined}
+            tabIndex={onSelect ? 0 : undefined}
+            aria-current={activeEntryId === entry.id ? "true" : undefined}
+            onClick={() => onSelect?.(entry)}
+            onKeyDown={(event) => {
+              if (!onSelect) return;
+              if (event.key === "Enter" || event.key === " ") {
+                event.preventDefault();
+                onSelect(entry);
+              }
+            }}
           >
             <div className="flex items-baseline justify-between gap-3">
               <span className="text-sm font-semibold text-amber-100">{entry.name}</span>

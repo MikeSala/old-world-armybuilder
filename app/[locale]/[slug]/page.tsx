@@ -60,7 +60,9 @@ export default async function RosterEditPage({ params }: PageProps) {
       </header>
       <RosterBuilderClient dict={dictionary} />
       <CategoryBuckets dict={dictionary} />
-      <RosterSummary dict={dictionary} />
+      <div id="summary-print-root" className="w-full">
+        <RosterSummary dict={dictionary} />
+      </div>
       <ScrollToTopButton className="self-center" label={dictionary.editMoveToTopLabel} />
     </section>
   );

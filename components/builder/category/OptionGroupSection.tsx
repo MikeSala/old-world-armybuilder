@@ -32,16 +32,12 @@ export function OptionGroupSection({ group, selectedIds, onToggle, dict }: Props
                   type={type}
                   checked={checked}
                   onChange={(event) =>
-                    onToggle(
-                      group,
-                      option.id,
-                      group.type === "radio" ? true : event.target.checked
-                    )
+                    onToggle(group, option.id, group.type === "radio" ? true : event.target.checked)
                   }
                   className="mt-1 h-4 w-4 rounded border-amber-400 bg-slate-900 text-amber-500 focus:ring-amber-500"
                 />
-                <span className="flex flex-col text-amber-100/90">
-                  <span className="font-medium">{option.label}</span>
+                <span className="flex flex-col text-amber-200/70">
+                  <span className="font-medium text-amber-200/80">{option.label}</span>
                   {option.note ? (
                     <span className="text-xs text-amber-200/70">{option.note}</span>
                   ) : null}

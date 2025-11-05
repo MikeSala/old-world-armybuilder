@@ -1,7 +1,11 @@
+"use client";
+
 import { clsx } from "clsx";
 import Link from "next/link";
+import { useMemo } from "react";
+import { usePathname } from "next/navigation";
 
-import { getDictionary, locales, type Locale } from "@/lib/i18n/dictionaries";
+import { getDictionary, locales, defaultLocale, type Locale } from "@/lib/i18n/dictionaries";
 
 import { LocaleButton } from "../ui/LocaleButton";
 
@@ -16,34 +20,58 @@ const localeBtnBase = "border text-amber-200/80 transition-colors";
 const localeBtnActive = "border-amber-400 bg-amber-500/10 text-amber-200";
 const localeBtnIdle = "border-amber-300/40 hover:!border-amber-400 hover:!text-amber-100";
 
-// Safely join URL parts without creating double slashes
-function joinPath(parts: Array<string | false | null | undefined>) {
-  return parts.filter(Boolean).join("/");
+const editSlugByLocale: Record<Locale, string> = locales.reduce(
+  (acc, locale) => {
+    acc[locale] = getDictionary(locale).editSlug;
+    return acc;
+  },
+  {} as Record<Locale, string>
+);
+
+function extractLocaleAndSegments(pathname: string): { locale: Locale; segments: string[] } {
+  const segments = pathname.split("/").filter(Boolean);
+  const maybeLocale = segments[0];
+  if (maybeLocale && locales.includes(maybeLocale as Locale)) {
+    return { locale: maybeLocale as Locale, segments: segments.slice(1) };
+  }
+  return { locale: defaultLocale, segments };
 }
 
-// Validate provided locale and fallback to "pl"
-function resolveLocale(input: Locale | null | undefined): Locale {
-  const candidate = (input ?? "pl") as Locale;
-  return locales.includes(candidate) ? candidate : "pl";
-}
+export function Header() {
+  const pathname = usePathname() ?? "/";
 
-export async function Header({
-  locale,
-  restSegments = [],
-}: {
-  locale: Locale | null;
-  restSegments?: readonly string[];
-}) {
-  const activeBrandLocale = resolveLocale(locale);
-  const dictionary = await getDictionary(activeBrandLocale);
+  const { activeLocale, restSegments, dictionary } = useMemo(() => {
+    const { locale, segments } = extractLocaleAndSegments(pathname);
+    return {
+      activeLocale: locale,
+      restSegments: segments,
+      dictionary: getDictionary(locale),
+    };
+  }, [pathname]);
 
-  const buildHref = (l: Locale) => `/${joinPath([l, ...(restSegments ?? [])])}`;
+  const buildHref = (targetLocale: Locale) => {
+    const translatedSegments =
+      restSegments.length > 0
+        ? (() => {
+            const next = [...restSegments];
+            const activeSlug = editSlugByLocale[activeLocale];
+            const targetSlug = editSlugByLocale[targetLocale];
+            if (next[0] === activeSlug && targetSlug) {
+              next[0] = targetSlug;
+            }
+            return next;
+          })()
+        : restSegments;
+
+    const normalized = [targetLocale, ...translatedSegments].join("/");
+    return `/${normalized}`;
+  };
 
   return (
     <header className={headerClass}>
       <div className={innerClass}>
         <Link
-          href={`/${activeBrandLocale}`}
+          href={`/${activeLocale}`}
           className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-200 hover:text-amber-400"
           aria-label={dictionary.headerBrandLabel}
           title={dictionary.headerBrandLabel}
@@ -51,13 +79,13 @@ export async function Header({
           {dictionary.headerBrandLabel}
         </Link>
         <div className="flex items-center gap-2">
-          {locales.map((l) => {
-            const isActive = l === activeBrandLocale;
+          {locales.map((locale) => {
+            const isActive = locale === activeLocale;
             return (
               <LocaleButton
-                key={l}
-                locale={l}
-                href={buildHref(l)}
+                key={locale}
+                locale={locale}
+                href={buildHref(locale)}
                 className={clsx(localeBtnBase, isActive ? localeBtnActive : localeBtnIdle)}
               />
             );
