@@ -1,6 +1,7 @@
 "use client";
 
 import * as Dialog from "@radix-ui/react-dialog";
+import { clsx } from "clsx";
 import html2canvas from "html2canvas";
 import { jsPDF } from "jspdf";
 import * as React from "react";
@@ -84,6 +85,8 @@ export default function RosterSummary({ dict, className }: Props) {
   const [autoPdf, setAutoPdf] = React.useState(false);
   const [pdfExporting, setPdfExporting] = React.useState(false);
   const [printRoot, setPrintRoot] = React.useState<HTMLElement | null>(null);
+  const [printRequested, setPrintRequested] = React.useState(false);
+  const printRequestedRef = React.useRef(false);
   const pdfRestoreSheetRef = React.useRef(false);
   const [expandedEntryIds, setExpandedEntryIds] = React.useState<string[]>([]);
 
@@ -312,61 +315,124 @@ export default function RosterSummary({ dict, className }: Props) {
     setAutoPdf(true);
   }, [pdfExporting, showDetailSheet]);
 
+  const closeDetailSheet = React.useCallback(() => {
+    setShowDetailSheet(false);
+    setAutoPdf(false);
+    setPdfExporting(false);
+    pdfRestoreSheetRef.current = false;
+  }, [setAutoPdf, setPdfExporting, setShowDetailSheet]);
+
+  React.useEffect(() => {
+    if (typeof window === "undefined") return;
+    if (!printRequested) return;
+    let cancelled = false;
+
+    const runPrint = () => {
+      if (cancelled) return;
+      window.print();
+      setPrintRequested(false);
+      printRequestedRef.current = false;
+    };
+
+    const raf = window.requestAnimationFrame(() => {
+      window.requestAnimationFrame(runPrint);
+    });
+
+    return () => {
+      cancelled = true;
+      window.cancelAnimationFrame(raf);
+    };
+  }, [printRequested]);
+
+  React.useEffect(() => {
+    if (typeof window === "undefined") return;
+    const handleBeforePrint = () => {
+      if (printRequestedRef.current) {
+        closeDetailSheet();
+      }
+    };
+    const handleAfterPrint = () => {
+      setPrintRequested(false);
+      printRequestedRef.current = false;
+    };
+    window.addEventListener("beforeprint", handleBeforePrint);
+    window.addEventListener("afterprint", handleAfterPrint);
+    return () => {
+      window.removeEventListener("beforeprint", handleBeforePrint);
+      window.removeEventListener("afterprint", handleAfterPrint);
+    };
+  }, [closeDetailSheet]);
+
   const handleDialogOpenChange = React.useCallback(
     (open: boolean) => {
-      setShowDetailSheet(open);
-      if (!open) {
-        setAutoPdf(false);
-        setPdfExporting(false);
-        pdfRestoreSheetRef.current = false;
+      if (open) {
+        setShowDetailSheet(true);
+        return;
       }
+      closeDetailSheet();
     },
-    [setAutoPdf, setPdfExporting]
+    [closeDetailSheet]
   );
+
+  const handlePrintExport = React.useCallback(() => {
+    printRequestedRef.current = true;
+    setPrintRequested(true);
+  }, []);
 
   return (
     <Dialog.Root open={showDetailSheet} onOpenChange={handleDialogOpenChange}>
-      <aside className={className} aria-labelledby="roster-summary-heading">
-        <div className="rounded-2xl border border-amber-300/30 bg-slate-900/80 p-6 text-amber-100 shadow-lg shadow-amber-900/15 print:hidden">
+      <aside
+        className={clsx("print-summary-content print-bg-white print:text-black", className)}
+        aria-labelledby="roster-summary-heading"
+      >
+        <div className="rounded-2xl border border-amber-300/30 bg-slate-900/80 p-6 text-amber-100 shadow-lg shadow-amber-900/15 print-bg-white">
           <header className="mb-4">
             <div className="flex items-start justify-between gap-4">
               <div>
-                <p className="text-sm uppercase tracking-[0.3em] text-amber-400">
+                <p className="text-sm uppercase tracking-[0.3em] text-amber-400 print:text-gray-700">
                   {dict.rosterSummaryHeading}
                 </p>
-                <h2 id="roster-summary-heading" className="mt-1 text-2xl font-semibold">
+                <h2
+                  id="roster-summary-heading"
+                  className="mt-1 text-2xl font-semibold print:text-gray-900"
+                >
                   {name || dict.rosterSummaryDefaultName}
                 </h2>
                 {description ? (
-                  <p className="mt-2 text-sm text-amber-200/70">{description}</p>
+                  <p className="mt-2 text-sm text-amber-200/70 print:text-gray-700">
+                    {description}
+                  </p>
                 ) : null}
               </div>
               {hasEntries ? (
-              <div className="flex flex-wrap items-center justify-end gap-2">
-                <RosterExportControls
-                  dict={dict}
-                  variant="inline"
-                  triggerVariant="accent"
-                  onPdfExport={handlePdfExport}
-                  pdfExporting={pdfExporting}
-                />
-              </div>
-            ) : null}
+                <div className="flex flex-wrap items-center justify-end gap-2 print:hidden">
+                  <RosterExportControls
+                    dict={dict}
+                    variant="inline"
+                    triggerVariant="accent"
+                    onPdfExport={handlePdfExport}
+                    pdfExporting={pdfExporting}
+                    onPrintExport={handlePrintExport}
+                  />
+                </div>
+              ) : null}
             </div>
-            <div className="mt-3 flex items-center justify-between text-sm text-amber-200">
+            <div className="mt-3 flex items-center justify-between text-sm text-amber-200 print:text-gray-800">
               <span>{dict.rosterPointsLimitLabel}</span>
               <span className="font-semibold">{formatPoints(pointsLimit)}</span>
             </div>
-            <div className="flex items-center justify-between text-sm text-amber-200">
+            <div className="flex items-center justify-between text-sm text-amber-200 print:text-gray-800">
               <span>{dict.rosterTotalSpentLabel}</span>
               <span className="font-semibold">{formatPoints(totalSpent)}</span>
             </div>
           </header>
 
           {!hasEntries ? (
-            <p className="text-sm text-amber-200/60">{dict.rosterSummaryEmptyMessage}</p>
+            <p className="text-sm text-amber-200/60 print:text-gray-700">
+              {dict.rosterSummaryEmptyMessage}
+            </p>
           ) : (
-            <ul className="space-y-5 text-sm">
+            <ul className="space-y-5 text-sm print:space-y-4">
               {(Object.entries(groups) as Array<[CategoryKey, RosterEntry[]]>).map(
                 ([category, items]) => {
                   const categoryLabel = categoryLabels[category] ?? fallbackCategoryLabel(category);
@@ -375,12 +441,19 @@ export default function RosterSummary({ dict, className }: Props) {
                   );
 
                   return (
-                    <li key={category} className="rounded-xl bg-slate-800/60 p-4">
+                    <li
+                      key={category}
+                      className="rounded-xl bg-slate-800/60 p-4 print:break-inside-avoid print:border print:border-gray-300 print:bg-white print:shadow-none"
+                    >
                       <div className="mb-2 flex items-center justify-between">
-                        <span className="font-semibold text-amber-200">{categoryLabel}</span>
-                        <span className="text-amber-200/70">{categoryPoints}</span>
+                        <span className="font-semibold text-amber-200 print:text-gray-900">
+                          {categoryLabel}
+                        </span>
+                        <span className="text-amber-200/70 print:text-gray-800">
+                          {categoryPoints}
+                        </span>
                       </div>
-                      <ul className="space-y-2 text-amber-100/90">
+                      <ul className="space-y-2 text-amber-100/90 print:text-gray-900">
                         {items.map((entry) => {
                           const detail = detailByEntryId.get(entry.id);
                           const isExpanded = expandedEntryIds.includes(entry.id);
@@ -414,17 +487,25 @@ export default function RosterSummary({ dict, className }: Props) {
                                 )}`
                               : null;
                           const entryPointsLabel = formatPoints(entry.totalPoints);
+                          const ownedStatusLabel = entry.owned
+                            ? dict.rosterExportOwnedYes
+                            : dict.rosterExportOwnedNo;
 
                           return (
-                            <li key={entry.id} className="rounded-lg bg-slate-900/60 px-3 py-2">
-                              <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                            <li
+                              key={entry.id}
+                              className="rounded-lg bg-slate-900/60 px-3 py-2 print:break-inside-avoid print:border print:border-gray-300 print:bg-white print:shadow-none"
+                            >
+                              <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between print:gap-2">
                                 <div className="flex flex-col gap-1">
-                                  <span className="font-medium text-amber-100">
+                                  <span className="font-medium text-amber-100 print:text-gray-900">
                                     {entry.unitSize} {entry.name}
                                   </span>
                                 </div>
-                                <div className="flex flex-wrap items-center gap-3 md:ml-auto">
-                                  <span className="text-amber-200/80">{entryPointsLabel}</span>
+                                <div className="flex flex-wrap items-center gap-3 md:ml-auto print:gap-2">
+                                  <span className="text-amber-200/80 print:font-semibold print:text-gray-900">
+                                    {entryPointsLabel}
+                                  </span>
                                   <Button
                                     variant="secondary"
                                     size="sm"
@@ -433,6 +514,7 @@ export default function RosterSummary({ dict, className }: Props) {
                                       "{unit}",
                                       entry.name
                                     )}
+                                    className="print:hidden"
                                   >
                                     {dict.rosterSummaryRemoveButton}
                                   </Button>
@@ -441,11 +523,11 @@ export default function RosterSummary({ dict, className }: Props) {
                                     size="sm"
                                     onClick={() => toggleEntryDetails(entry.id)}
                                     aria-expanded={isExpanded}
-                                    className="text-xs uppercase tracking-wide text-amber-300 hover:text-amber-100"
+                                    className="print:hidden text-xs uppercase tracking-wide text-amber-300 hover:text-amber-100"
                                   >
                                     {detailsLabel}
                                   </Button>
-                                  <label className="flex flex-row-reverse items-center gap-2 text-xs text-amber-100 print:text-gray-600 md:ml-auto">
+                                  <label className="flex flex-row-reverse items-center gap-2 text-xs text-amber-100 print:hidden md:ml-auto">
                                     <input
                                       type="checkbox"
                                       checked={entry.owned}
@@ -461,20 +543,23 @@ export default function RosterSummary({ dict, className }: Props) {
                                     />
                                     <span>{dict.rosterSummaryOwnedLabel}</span>
                                   </label>
+                                  <span className="hidden text-xs text-gray-700 print:inline">
+                                    {dict.rosterSummaryOwnedLabel}: {ownedStatusLabel}
+                                  </span>
                                 </div>
                               </div>
 
-                              <div className="mt-1 text-xs text-amber-200/70">
+                              <div className="mt-1 text-xs text-amber-200/70 print:font-medium print:text-gray-700">
                                 {baseCostText}
                                 {unitSizeDetail ? ` · ${unitSizeDetail}` : ""}
                               </div>
                               {isExpanded ? (
                                 detail ? (
-                                  <div className="mt-3 space-y-3 rounded-lg border border-amber-400/20 bg-slate-950/60 p-3 text-xs text-amber-100">
+                                  <div className="mt-3 space-y-3 rounded-lg border border-amber-400/20 bg-slate-950/60 p-3 text-xs text-amber-200/70 print:break-inside-avoid print:border-gray-300 print:bg-gray-100">
                                     {statsRows.length ? (
-                                      <div className="overflow-x-auto">
-                                        <table className="min-w-full divide-y divide-amber-400/20 text-xs">
-                                          <thead className="text-amber-200/70">
+                                      <div className="overflow-x-auto print:overflow-visible">
+                                        <table className="min-w-full divide-y divide-amber-400/20 text-xs print:divide-gray-300">
+                                          <thead className="text-amber-200/70 print:text-gray-700">
                                             <tr>
                                               <th className="px-2 py-1 text-left font-semibold uppercase tracking-wide">
                                                 {dict.rosterDetailStatsModelLabel}
@@ -497,14 +582,17 @@ export default function RosterSummary({ dict, className }: Props) {
                                           </thead>
                                           <tbody>
                                             {statsRows.map((row) => (
-                                              <tr key={row.label} className="text-amber-100">
+                                              <tr
+                                                key={row.label}
+                                                className="text-amber-100 print:text-gray-900"
+                                              >
                                                 <th className="px-2 py-2 text-left font-semibold">
                                                   {row.label}
                                                 </th>
                                                 {SUMMARY_STAT_FIELDS.map((field) => (
                                                   <td
                                                     key={`${row.label}-${field.key}`}
-                                                    className="px-2 py-2 text-center"
+                                                    className="px-2 py-2 text-center print:text-gray-800"
                                                   >
                                                     {renderStatValue(row.values[field.key])}
                                                   </td>
@@ -515,7 +603,7 @@ export default function RosterSummary({ dict, className }: Props) {
                                         </table>
                                       </div>
                                     ) : (
-                                      <p className="text-amber-200/70">
+                                      <p className="text-amber-200/70 print:text-gray-700">
                                         {isStatsAvailable
                                           ? dict.rosterDetailStatsMissing
                                           : dict.rosterDetailStatsMissing}
@@ -526,10 +614,10 @@ export default function RosterSummary({ dict, className }: Props) {
                                       <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:gap-6">
                                         {specialRules.length ? (
                                           <div className="flex-1 space-y-1">
-                                            <h5 className="font-semibold uppercase tracking-wide text-amber-200/70">
+                                            <h5 className="font-semibold uppercase tracking-wide text-amber-200/70 print:text-gray-700">
                                               {dict.rosterDetailSpecialRulesLabel}
                                             </h5>
-                                            <p className="text-amber-100">
+                                            <p className="text-amber-100 print:text-gray-900">
                                               {specialRules.join(", ")}
                                             </p>
                                           </div>
@@ -541,10 +629,12 @@ export default function RosterSummary({ dict, className }: Props) {
                                                 key={`${meta.label}-${meta.value}`}
                                                 className="flex flex-col gap-0.5"
                                               >
-                                                <dt className="font-semibold uppercase tracking-wide text-amber-200/70">
+                                                <dt className="font-semibold uppercase tracking-wide text-amber-200/70 print:text-gray-700">
                                                   {meta.label}
                                                 </dt>
-                                                <dd className="text-amber-100">{meta.value}</dd>
+                                                <dd className="text-amber-100 print:text-gray-900">
+                                                  {meta.value}
+                                                </dd>
                                               </div>
                                             ))}
                                           </dl>
@@ -553,13 +643,13 @@ export default function RosterSummary({ dict, className }: Props) {
                                     ) : null}
                                   </div>
                                 ) : (
-                                  <div className="mt-3 rounded-lg border border-amber-200/20 bg-slate-900/40 p-3 text-xs text-amber-200/70">
+                                  <div className="mt-3 rounded-lg border border-amber-200/20 bg-slate-900/40 p-3 text-xs text-amber-200/70 print:border-gray-300 print:bg-gray-100 print:text-gray-700">
                                     {dict.rosterDetailStatsMissing}
                                   </div>
                                 )
                               ) : null}
                               {entry.options.length ? (
-                                <ul className="mt-2 space-y-1 text-xs text-amber-200/70">
+                                <ul className="mt-2 space-y-1 text-xs text-amber-200/70 print:text-gray-700">
                                   {entry.options.map((opt) => {
                                     const optionCost = opt.points
                                       ? `${formatPoints(opt.points)}${
@@ -573,16 +663,25 @@ export default function RosterSummary({ dict, className }: Props) {
                                     return (
                                       <li
                                         key={opt.id}
-                                        className="flex items-center justify-between gap-3"
+                                        className="flex items-center justify-between gap-3 print:break-inside-avoid print:grid print:grid-cols-[minmax(0,1fr)_auto] print:gap-2"
                                       >
-                                        <span>
-                                          <span className="font-medium">{opt.group}:</span>{" "}
-                                          <span className=" text-amber-100">{opt.name}</span>
+                                        <span className="print:text-gray-900">
+                                          <span className="font-medium text-amber-200/70 print:text-gray-900">
+                                            {opt.group}:
+                                          </span>{" "}
+                                          <span className=" text-amber-100 print:text-gray-900">
+                                            {opt.name}
+                                          </span>
                                           {opt.note ? (
-                                            <span className="text-amber-100"> — {opt.note}</span>
+                                            <span className="text-amber-200/70 print:text-gray-900">
+                                              {" "}
+                                              — {opt.note}
+                                            </span>
                                           ) : null}
                                         </span>
-                                        <span className="text-amber-200/80">{optionCost}</span>
+                                        <span className="text-amber-100 print:text-gray-900">
+                                          {optionCost}
+                                        </span>
                                       </li>
                                     );
                                   })}
@@ -610,15 +709,7 @@ export default function RosterSummary({ dict, className }: Props) {
                 <Dialog.Description className="sr-only">
                   {dict.rosterDetailEmptyMessage}
                 </Dialog.Description>
-                <RosterDetailSheet
-                  dict={dict}
-                  onClose={() => {
-                    setShowDetailSheet(false);
-                    setAutoPdf(false);
-                    setPdfExporting(false);
-                    pdfRestoreSheetRef.current = false;
-                  }}
-                />
+                <RosterDetailSheet dict={dict} onClose={closeDetailSheet} />
               </div>
             </Dialog.Content>
           </>

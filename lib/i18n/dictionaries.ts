@@ -31,6 +31,8 @@ export type LocaleDictionary = {
   categoryPtsMissing: string;
   categoryCharactersLabel: string;
   categoryCoreLabel: string;
+  categoryCorePointsSummary: string;
+  categoryCapPointsSummary: string;
   categorySpecialLabel: string;
   categoryRareLabel: string;
   categoryMercsLabel: string;
@@ -40,6 +42,7 @@ export type LocaleDictionary = {
   categoryToggleCloseLabel: string;
   categorySelectPlaceholder: string;
   categoryConfirmAddLabel: string;
+  categoryConfirmSaveLabel: string;
   categoryCancelLabel: string;
   categoryEmptyUnitsMessage: string;
   categoryUnitSectionLocked: string;
@@ -47,6 +50,7 @@ export type LocaleDictionary = {
   categoryLockedNoticeDescription: string;
   categoryConfiguratorPrompt: string;
   categoryOptionsTitle: string;
+  categoryEditTitle: string;
   categoryUnitSizeLabel: string;
   categoryUnitPointsPerModel: string;
   categoryUnitFlatCost: string;
@@ -202,6 +206,8 @@ const dictionaries = {
     categoryPtsMissing: "pkt brakujące",
     categoryCharactersLabel: "Bohaterowie",
     categoryCoreLabel: "Jednostki podstawowe",
+    categoryCorePointsSummary: "aktualnie {current} pkt / min {required} pkt",
+    categoryCapPointsSummary: "aktualnie {current} pkt / max {limit} pkt",
     categorySpecialLabel: "Jednostki specjalne",
     categoryRareLabel: "Jednostki rzadkie",
     categoryMercsLabel: "Najemnicy",
@@ -211,6 +217,7 @@ const dictionaries = {
     categoryToggleCloseLabel: "Zamknij",
     categorySelectPlaceholder: "Wybierz jednostkę",
     categoryConfirmAddLabel: "Dodaj jednostkę",
+    categoryConfirmSaveLabel: "Zapisz",
     categoryCancelLabel: "Anuluj",
     categoryEmptyUnitsMessage: "Brak jednostek dostępnych dla tej kompozycji.",
     categoryUnitSectionLocked: "Wybór jednostek zablokowany",
@@ -219,6 +226,7 @@ const dictionaries = {
       "Uzupełnij ustawienia rozpiski (armia, nazwa, punkty) i zapisz zmiany, aby dodać jednostki.",
     categoryConfiguratorPrompt: "Wybierz kategorię, aby zobaczyć dostępne opcje.",
     categoryOptionsTitle: "Opcje dla {category}",
+    categoryEditTitle: "Edytuj",
     categoryUnitSizeLabel: "Wielkość jednostki",
     categoryUnitPointsPerModel: "{value} pkt za model",
     categoryUnitFlatCost: "Stały koszt",
@@ -367,6 +375,8 @@ const dictionaries = {
     categoryPtsMissing: "pts missing",
     categoryCharactersLabel: "Characters",
     categoryCoreLabel: "Core Units",
+    categoryCorePointsSummary: "current {current} pts / min {required} pts",
+    categoryCapPointsSummary: "current {current} pts / max {limit} pts",
     categorySpecialLabel: "Special Units",
     categoryRareLabel: "Rare Units",
     categoryMercsLabel: "Mercenaries",
@@ -376,6 +386,7 @@ const dictionaries = {
     categoryToggleCloseLabel: "Close",
     categorySelectPlaceholder: "Select unit",
     categoryConfirmAddLabel: "Add unit",
+    categoryConfirmSaveLabel: "Save",
     categoryCancelLabel: "Cancel",
     categoryEmptyUnitsMessage: "No units available for this composition.",
     categoryUnitSectionLocked: "Unit selection locked",
@@ -384,6 +395,7 @@ const dictionaries = {
       "Complete the roster setup (army, name, points) and save your changes to start adding units.",
     categoryConfiguratorPrompt: "Select a category to see available options.",
     categoryOptionsTitle: "Options for {category}",
+    categoryEditTitle: "Edit",
     categoryUnitSizeLabel: "Unit size",
     categoryUnitPointsPerModel: "{value} pts per model",
     categoryUnitFlatCost: "Flat cost",

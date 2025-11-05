@@ -22,20 +22,14 @@ type RootLayoutProps = {
 export default async function RootLayout({ params, children }: RootLayoutProps) {
   const resolvedParams = await params;
   const localeParam = resolvedParams?.locale;
-  const slugParam = resolvedParams?.slug;
   const locale = typeof localeParam === "string" && locales.includes(localeParam as Locale)
     ? (localeParam as Locale)
     : defaultLocale;
-  const restSegments: string[] = Array.isArray(slugParam)
-    ? (slugParam as string[])
-    : typeof slugParam === "string"
-    ? [slugParam]
-    : [];
   return (
     <html lang={locale} suppressHydrationWarning>
       <body className="bg-slate-600 text-amber-300">
         <ClientProviders>
-          <Header locale={locale} restSegments={restSegments} />
+          <Header />
           <main className="pt-20">
             <MarginLayout>{children}</MarginLayout>
             <Footer />
