@@ -18,3 +18,10 @@ yarn-error.log*
 
 # System files
 .DS_Store
+
+# TS build info
+*.tsbuildinfo
+
+# pnpm store lock junk
+pnpm-lock.yaml
+.pnpm-store/
