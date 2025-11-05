@@ -4,6 +4,7 @@ type Props = {
   title: string;
   rightValue: number;
   rightSuffix: string;
+  rightText?: string;
   emphasizeWarning?: boolean;
   headerAction?: React.ReactNode;
   children?: React.ReactNode;
@@ -13,11 +14,14 @@ export function CategorySummaryCard({
   title,
   rightValue,
   rightSuffix,
+  rightText,
   emphasizeWarning,
   headerAction,
   children,
 }: Props) {
   const hasChildren = React.Children.count(children) > 0;
+  const displayText =
+    rightText ?? `${rightValue}${rightSuffix ? ` ${rightSuffix}` : ""}`;
 
   return (
     <div className="flex flex-col rounded-2xl border border-amber-300/30 bg-slate-900/60 shadow-lg shadow-amber-900/20 backdrop-blur print-bg-white">
@@ -29,7 +33,7 @@ export function CategorySummaryCard({
             emphasizeWarning ? "text-red-300" : "text-amber-200/80"
           }`}
         >
-          {rightValue} {rightSuffix}
+          {displayText}
         </div>
       </div>
 

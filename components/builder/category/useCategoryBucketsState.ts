@@ -34,6 +34,40 @@ function roundPoints(n: number) {
   return Math.round(n);
 }
 
+function mapEntryOptionsToSelections(
+  entry: RosterEntry,
+  groups: UnitOptionGroup[]
+): Record<string, string[]> {
+  const sourceIds = new Set(
+    entry.options
+      .map((opt) => (typeof opt.sourceId === "string" ? opt.sourceId : null))
+      .filter((id): id is string => Boolean(id))
+  );
+  const optionNames = new Set(
+    entry.options
+      .map((opt) => (typeof opt.name === "string" ? opt.name.trim() : ""))
+      .filter((name) => name.length > 0)
+  );
+
+  const byGroup = groups.reduce<Record<string, string[]>>((acc, group) => {
+    const matchingIds = group.options
+      .filter((opt) => sourceIds.has(opt.id) || optionNames.has(opt.label))
+      .map((opt) => opt.id);
+    if (group.type === "radio") {
+      if (matchingIds.length > 0) {
+        acc[group.id] = [matchingIds[0]];
+      } else {
+        const fallback = group.options.find((opt) => opt.defaultSelected) ?? group.options[0];
+        acc[group.id] = fallback ? [fallback.id] : [];
+      }
+    } else {
+      acc[group.id] = matchingIds;
+    }
+    return acc;
+  }, {});
+  return byGroup;
+}
+
 type UseCategoryBucketsStateOptions = {
   totals?: TotalsByCategory;
   onAddClick?: (category: CategoryKey) => void;
@@ -58,12 +92,14 @@ export type CategorySelectionState = {
   optionGroups: UnitOptionGroup[];
   optionSelections: Record<string, string[]>;
   onToggleOption: (group: UnitOptionGroup, optionId: string, checked: boolean) => void;
-  onConfirmAdd: () => void;
+  onConfirm: () => void;
   onCancel: () => void;
   totalPoints: number;
   totalOptionPoints: number;
   activeUnit: ArmyUnit | null;
   formatCategoryLabel: (category: string) => string;
+  mode: "add" | "edit";
+  editingEntry: RosterEntry | null;
 };
 
 export function useCategoryBucketsState({
@@ -91,6 +127,14 @@ export function useCategoryBucketsState({
   const [selectedUnitId, setSelectedUnitId] = React.useState<string | null>(null);
   const [optionSelections, setOptionSelections] = React.useState<Record<string, string[]>>({});
   const [unitSize, setUnitSize] = React.useState<number>(1);
+  const [editingEntryId, setEditingEntryId] = React.useState<string | null>(null);
+
+  const editingEntry = React.useMemo(
+    () => (editingEntryId ? rosterEntries.find((entry) => entry.id === editingEntryId) ?? null : null),
+    [editingEntryId, rosterEntries]
+  );
+  const optionPrefillEntryRef = React.useRef<string | null>(null);
+  const unitSizePrefillEntryRef = React.useRef<string | null>(null);
 
   const pointsLimit = rosterMeta.pointsLimit;
   const isRosterReady =
@@ -117,7 +161,17 @@ export function useCategoryBucketsState({
     allies: roundPoints(pointsLimit * 0.25),
   } as const;
 
-  const coreMissing = clampNonNeg(minCore - spent.core);
+  const coreRequirementMet = spent.core >= minCore;
+  const coreSummaryText = dict.categoryCorePointsSummary
+    .replace("{current}", String(spent.core))
+    .replace("{required}", String(minCore));
+  const formatCapSummary = React.useCallback(
+    (current: number, limit: number) =>
+      dict.categoryCapPointsSummary
+        .replace("{current}", String(current))
+        .replace("{limit}", String(limit)),
+    [dict.categoryCapPointsSummary]
+  );
   const charactersAvailable = clampNonNeg(caps.characters - spent.characters);
   const specialAvailable = clampNonNeg(caps.special - spent.special);
   const rareAvailable = clampNonNeg(caps.rare - spent.rare);
@@ -130,37 +184,44 @@ export function useCategoryBucketsState({
       title: dict.categoryCharactersLabel,
       value: charactersAvailable,
       suffix: dict.categoryPtsAvailable,
+      formattedValue: formatCapSummary(spent.characters, caps.characters),
     },
     {
       key: "core",
       title: dict.categoryCoreLabel,
-      value: coreMissing > 0 ? coreMissing : 0,
-      suffix: coreMissing > 0 ? dict.categoryPtsMissing : dict.categoryPtsAvailable,
-      warning: coreMissing > 0,
+      value: spent.core,
+      suffix: "",
+      formattedValue: coreSummaryText,
+      warning: !coreRequirementMet,
+      enforceCap: false,
     },
     {
       key: "special",
       title: dict.categorySpecialLabel,
       value: specialAvailable,
       suffix: dict.categoryPtsAvailable,
+      formattedValue: formatCapSummary(spent.special, caps.special),
     },
     {
       key: "rare",
       title: dict.categoryRareLabel,
       value: rareAvailable,
       suffix: dict.categoryPtsAvailable,
+      formattedValue: formatCapSummary(spent.rare, caps.rare),
     },
     {
       key: "mercenaries",
       title: dict.categoryMercsLabel,
       value: mercsAvailable,
       suffix: dict.categoryPtsAvailable,
+      formattedValue: formatCapSummary(spent.mercenaries, caps.mercenaries),
     },
     {
       key: "allies",
       title: dict.categoryAlliesLabel,
       value: alliesAvailable,
       suffix: dict.categoryPtsAvailable,
+      formattedValue: formatCapSummary(spent.allies, caps.allies),
     },
   ];
 
@@ -219,8 +280,24 @@ export function useCategoryBucketsState({
     return grouped;
   }, [rosterEntries]);
 
+  const handleStartEditingEntry = React.useCallback(
+    (entryId: string) => {
+      const entry = rosterEntries.find((item) => item.id === entryId);
+      if (!entry) return;
+      setEditingEntryId(entry.id);
+      optionPrefillEntryRef.current = entry.id;
+      unitSizePrefillEntryRef.current = entry.id;
+      setActiveCategory(entry.category);
+      setSelectedUnitId(entry.unitId);
+    },
+    [rosterEntries]
+  );
+
   const handleToggleCategory = React.useCallback(
     (category: CategoryKey) => {
+      setEditingEntryId(null);
+      optionPrefillEntryRef.current = null;
+      unitSizePrefillEntryRef.current = null;
       if (activeCategory === category) {
         setActiveCategory(null);
         setSelectedUnitId(null);
@@ -252,13 +329,14 @@ export function useCategoryBucketsState({
     []
   );
 
-  const handleConfirmAdd = React.useCallback(() => {
+  const handleConfirmSelection = React.useCallback(() => {
     if (!activeCategory || !activeUnit) return;
 
     const entryId =
-      typeof crypto !== "undefined" && typeof crypto.randomUUID === "function"
+      editingEntry?.id ??
+      (typeof crypto !== "undefined" && typeof crypto.randomUUID === "function"
         ? crypto.randomUUID()
-        : `entry-${Date.now()}-${Math.random().toString(16).slice(2)}`;
+        : `entry-${Date.now()}-${Math.random().toString(16).slice(2)}`);
     const enforcedUnitSize = clampUnitSize(unitSize);
     if (enforcedUnitSize !== unitSize) {
       setUnitSize(enforcedUnitSize);
@@ -304,12 +382,17 @@ export function useCategoryBucketsState({
         basePoints,
         options: selectedOptions,
         totalPoints,
-        notes: getUnitNotes(activeUnit),
-        owned: false,
+        notes: getUnitNotes(activeUnit) ?? editingEntry?.notes,
+        owned: editingEntry?.owned ?? false,
       })
     );
 
-    onAddClick?.(activeCategory);
+    if (!editingEntry) {
+      onAddClick?.(activeCategory);
+    }
+    setEditingEntryId(null);
+    optionPrefillEntryRef.current = null;
+    unitSizePrefillEntryRef.current = null;
     setActiveCategory(null);
     setSelectedUnitId(null);
     setOptionSelections({});
@@ -319,6 +402,7 @@ export function useCategoryBucketsState({
     activeUnit,
     clampUnitSize,
     dispatch,
+    editingEntry,
     onAddClick,
     optionGroups,
     optionSelections,
@@ -344,6 +428,16 @@ export function useCategoryBucketsState({
       setOptionSelections({});
       return;
     }
+
+    if (editingEntry) {
+      if (optionPrefillEntryRef.current === editingEntry.id) {
+        const prefilled = mapEntryOptionsToSelections(editingEntry, optionGroups);
+        setOptionSelections(prefilled);
+        optionPrefillEntryRef.current = null;
+      }
+      return;
+    }
+
     const defaults = optionGroups.reduce<Record<string, string[]>>((acc, group) => {
       if (group.type === "radio") {
         const defaultOption = group.options.find((opt) => opt.defaultSelected) ?? group.options[0];
@@ -354,15 +448,23 @@ export function useCategoryBucketsState({
       return acc;
     }, {});
     setOptionSelections(defaults);
-  }, [activeUnit, optionGroups]);
+  }, [activeUnit, optionGroups, editingEntry]);
 
   React.useEffect(() => {
     if (!activeUnit) {
       setUnitSize(1);
+      unitSizePrefillEntryRef.current = null;
+      return;
+    }
+    if (editingEntry) {
+      if (unitSizePrefillEntryRef.current === editingEntry.id) {
+        setUnitSize(clampUnitSize(editingEntry.unitSize));
+        unitSizePrefillEntryRef.current = null;
+      }
       return;
     }
     setUnitSize(clampUnitSize(minUnitSize));
-  }, [activeUnit, clampUnitSize, minUnitSize]);
+  }, [activeUnit, clampUnitSize, editingEntry, minUnitSize]);
 
   const displayUnitSize = clampUnitSize(unitSize);
 
@@ -401,12 +503,25 @@ export function useCategoryBucketsState({
     optionGroups,
     optionSelections,
     onToggleOption: handleOptionToggle,
-    onConfirmAdd: handleConfirmAdd,
-    onCancel: () => setActiveCategory(null),
+    onConfirm: handleConfirmSelection,
+    onCancel: () => {
+      if (editingEntryId) {
+        setEditingEntryId(null);
+        optionPrefillEntryRef.current = null;
+        unitSizePrefillEntryRef.current = null;
+      } else {
+        setActiveCategory(null);
+      }
+      setSelectedUnitId(null);
+      setOptionSelections({});
+      setUnitSize(1);
+    },
     totalPoints,
     totalOptionPoints,
     activeUnit,
     formatCategoryLabel,
+    mode: editingEntry ? "edit" : "add",
+    editingEntry,
   };
 
   return {
@@ -415,6 +530,8 @@ export function useCategoryBucketsState({
     entriesByCategory,
     activeCategory,
     onToggleCategory: handleToggleCategory,
+    onEditEntry: handleStartEditingEntry,
+    editingEntryId,
     selection,
   };
 }
