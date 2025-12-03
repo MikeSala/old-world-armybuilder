@@ -3,7 +3,6 @@
 import { DropdownMenu, Theme } from "@radix-ui/themes";
 import { clsx } from "clsx";
 import { Download } from "lucide-react";
-import { useCallback, useMemo } from "react";
 import { useSelector } from "react-redux";
 
 import { Button } from "@/components/ui/Button";
@@ -13,6 +12,7 @@ import type { CategoryKey } from "@/lib/data/domain/types/categories";
 import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
 import type { RootState } from "@/lib/store";
 import type { RosterDraft, RosterEntry } from "@/lib/store/slices/rosterSlice";
+import { normalizeRosterEntry } from "@/lib/roster/normalizeEntry";
 
 type ExportDict = Pick<
   LocaleDictionary,
@@ -61,6 +61,8 @@ type ExportDict = Pick<
   | "rosterExportAriaLabel"
   | "rosterDownloadButton"
 >;
+
+type ActionItem = { label: string; onSelect: () => void | Promise<void>; disabled?: boolean };
 
 type ExportPayload = {
   metadata: {
@@ -123,55 +125,21 @@ function resolveRule(draft: RosterDraft): ArmyRule | undefined {
   return ARMY_RULES.find((rule) => rule.id === draft.armyRuleId);
 }
 
-function normalizeEntries(entries: RosterEntry[]) {
-  return entries.map((entry) => {
-    const options = Array.isArray(entry.options) ? entry.options : [];
-    const optionsPoints = options.reduce((sum, opt) => sum + opt.points, 0);
-    const legacyPoints = (entry as unknown as { points?: number }).points;
-    const basePoints =
-      typeof entry.basePoints === "number"
-        ? entry.basePoints
-        : typeof legacyPoints === "number"
-          ? legacyPoints
-          : 0;
-    const unitSize = typeof entry.unitSize === "number" && entry.unitSize > 0 ? entry.unitSize : 1;
-    const pointsPerModel =
-      typeof entry.pointsPerModel === "number" && entry.pointsPerModel > 0
-        ? entry.pointsPerModel
-        : unitSize > 0
-          ? basePoints / unitSize
-          : basePoints;
-    const totalPoints =
-      typeof entry.totalPoints === "number" ? entry.totalPoints : basePoints + optionsPoints;
-
+const normalizeEntries = (entries: RosterEntry[]) =>
+  entries.map((entry) => {
+    const normalized = normalizeRosterEntry(entry);
     return {
-      id: entry.id,
-      unitId: entry.unitId,
-      name: entry.name,
-      category: entry.category,
-      unitSize,
-      pointsPerModel,
-      basePoints,
-      options: options.map((opt) => ({
+      ...normalized,
+      options: normalized.options.map((opt) => ({
         group: opt.group,
         name: opt.name,
         points: opt.points,
         note: opt.note,
-        perModel:
-          typeof (opt as { perModel?: boolean }).perModel === "boolean"
-            ? (opt as { perModel?: boolean }).perModel
-            : undefined,
-        baseCost:
-          typeof (opt as { baseCost?: number }).baseCost === "number"
-            ? (opt as { baseCost?: number }).baseCost
-            : undefined,
+        perModel: typeof opt.perModel === "boolean" ? opt.perModel : undefined,
+        baseCost: typeof opt.baseCost === "number" ? opt.baseCost : undefined,
       })),
-      totalPoints,
-      notes: entry.notes,
-      owned: Boolean(entry.owned),
     };
   });
-}
 
 function buildExportPayload(draft: RosterDraft, dict: ExportDict): ExportPayload {
   const { army, compositionName } = resolveArmy(draft);
@@ -206,6 +174,46 @@ function buildExportPayload(draft: RosterDraft, dict: ExportDict): ExportPayload
   };
 }
 
+const buildCategoryLabels = (dict: ExportDict): Record<CategoryKey, string> => ({
+  characters: dict.categoryCharactersLabel,
+  core: dict.categoryCoreLabel,
+  special: dict.categorySpecialLabel,
+  rare: dict.categoryRareLabel,
+  mercenaries: dict.categoryMercsLabel,
+  allies: dict.categoryAlliesLabel,
+});
+
+const formatCsvOption = (opt: ExportPayload["entries"][number]["options"][number], dict: ExportDict) => {
+  const groupLabel = opt.group?.trim().length ? opt.group : dict.categoryOptionsDefaultLabel;
+  if (!opt.points) return `${groupLabel}: ${opt.name} ${dict.rosterExportCsvOptionFreeSuffix}`;
+  const perModelNote =
+    opt.perModel && opt.baseCost
+      ? ` | ${dict.rosterExportPerModelSuffix.replace("{value}", String(opt.baseCost))}`
+      : "";
+  return `${groupLabel}: ${opt.name} (${opt.points})${perModelNote}`;
+};
+
+const formatCsvRow = (
+  entry: ExportPayload["entries"][number],
+  dict: ExportDict,
+  categoryLabels: Record<CategoryKey, string>
+) => {
+  const categoryLabel = categoryLabels[entry.category as CategoryKey] ?? entry.category ?? "";
+  const unitName =
+    entry.name && entry.name.trim().length > 0 ? entry.name : dict.rosterExportUnnamedUnit;
+  const options = entry.options.map((opt) => formatCsvOption(opt, dict)).join("; ");
+  return [
+    categoryLabel,
+    unitName,
+    String(entry.unitSize),
+    String(entry.pointsPerModel),
+    String(entry.basePoints),
+    options,
+    String(entry.totalPoints),
+    entry.owned ? dict.rosterExportOwnedYes : dict.rosterExportOwnedNo,
+  ];
+};
+
 function buildCsvExport(payload: ExportPayload, dict: ExportDict): string {
   const header = [
     dict.rosterExportCsvHeaderCategory,
@@ -218,42 +226,8 @@ function buildCsvExport(payload: ExportPayload, dict: ExportDict): string {
     dict.rosterExportCsvHeaderOwned,
   ];
 
-  const categoryLabels: Record<CategoryKey, string> = {
-    characters: dict.categoryCharactersLabel,
-    core: dict.categoryCoreLabel,
-    special: dict.categorySpecialLabel,
-    rare: dict.categoryRareLabel,
-    mercenaries: dict.categoryMercsLabel,
-    allies: dict.categoryAlliesLabel,
-  };
-
-  const rows = payload.entries.map((entry) => {
-    const categoryLabel = categoryLabels[entry.category as CategoryKey] ?? entry.category ?? "";
-    const unitName =
-      entry.name && entry.name.trim().length > 0 ? entry.name : dict.rosterExportUnnamedUnit;
-    const options = entry.options
-      .map((opt) => {
-        const groupLabel = opt.group?.trim().length ? opt.group : dict.categoryOptionsDefaultLabel;
-        if (!opt.points)
-          return `${groupLabel}: ${opt.name} ${dict.rosterExportCsvOptionFreeSuffix}`;
-        const perModelNote =
-          opt.perModel && opt.baseCost
-            ? ` | ${dict.rosterExportPerModelSuffix.replace("{value}", String(opt.baseCost))}`
-            : "";
-        return `${groupLabel}: ${opt.name} (${opt.points})${perModelNote}`;
-      })
-      .join("; ");
-    return [
-      categoryLabel,
-      unitName,
-      String(entry.unitSize),
-      String(entry.pointsPerModel),
-      String(entry.basePoints),
-      options,
-      String(entry.totalPoints),
-      entry.owned ? dict.rosterExportOwnedYes : dict.rosterExportOwnedNo,
-    ];
-  });
+  const categoryLabels = buildCategoryLabels(dict);
+  const rows = payload.entries.map((entry) => formatCsvRow(entry, dict, categoryLabels));
 
   return [header, ...rows]
     .map((cols) => cols.map((col) => `"${(col ?? "").toString().replace(/"/g, '""')}"`).join(","))
@@ -279,7 +253,7 @@ type Props = {
   triggerLabel?: string;
   triggerVariant?: ButtonVariant;
   triggerSize?: ButtonSize;
-  onPdfExport?: () => Promise<void> | void;
+  onPdfExport?: (fileName?: string) => Promise<void> | void;
   pdfExporting?: boolean;
   onPrintExport?: () => Promise<void> | void;
 };
@@ -296,63 +270,50 @@ export default function RosterExportControls({
   onPrintExport,
 }: Props) {
   const draft = useSelector((state: RootState) => state.roster.draft);
-  const payload = useMemo(() => buildExportPayload(draft, dict), [draft, dict]);
+  const payload = buildExportPayload(draft, dict);
 
   const isEmpty = payload.entries.length === 0;
 
   const effectiveTriggerLabel = triggerLabel ?? dict.rosterDownloadButton;
 
-  const handleExportJson = useCallback(() => {
-    const filename = `${slugifyFilename(payload.roster.name)}-roster.json`;
+  const handleExportJson = () => {
+    const base = slugifyFilename(payload.roster.name) || "roster";
+    const filename = `${base}-roster.json`;
     triggerDownload(filename, JSON.stringify(payload, null, 2), "application/json");
-  }, [payload]);
+  };
 
-  const handleExportCsv = useCallback(() => {
-    const filename = `${slugifyFilename(payload.roster.name)}-roster.csv`;
+  const handleExportCsv = () => {
+    const base = slugifyFilename(payload.roster.name) || "roster";
+    const filename = `${base}-roster.csv`;
     const csv = buildCsvExport(payload, dict);
     triggerDownload(filename, csv, "text/csv");
-  }, [payload, dict]);
+  };
 
-  const handleExportPrint = useCallback(() => {
+  const handleExportPrint = () => {
     if (onPrintExport) {
       void onPrintExport();
       return;
     }
     window.print();
-  }, [onPrintExport]);
+  };
 
   const resolvedVariant = triggerVariant ?? (variant === "inline" ? "secondary" : "accent");
 
-  type ActionItem = { label: string; onSelect: () => void | Promise<void>; disabled?: boolean };
-
-  const actions: ReadonlyArray<ActionItem> = useMemo(
-    () => [
-      { label: dict.rosterExportMenuJson, onSelect: handleExportJson },
-      {
-        label: dict.rosterExportMenuPdf,
-        onSelect: async () => {
-          if (onPdfExport) {
-            await onPdfExport();
-          }
-        },
-        disabled: pdfExporting ?? false,
+  const actions: ReadonlyArray<ActionItem> = [
+    { label: dict.rosterExportMenuJson, onSelect: handleExportJson },
+    {
+      label: dict.rosterExportMenuPdf,
+      onSelect: async () => {
+        if (onPdfExport) {
+          const base = slugifyFilename(payload.roster.name) || "roster";
+          await onPdfExport(`${base}-rozpiski.pdf`);
+        }
       },
-      { label: dict.rosterExportMenuCsv, onSelect: handleExportCsv, disabled: isEmpty },
-      { label: dict.rosterExportMenuPrint, onSelect: handleExportPrint },
-    ],
-    [
-      dict.rosterExportMenuJson,
-      dict.rosterExportMenuPdf,
-      dict.rosterExportMenuCsv,
-      dict.rosterExportMenuPrint,
-      onPdfExport,
-      pdfExporting,
-      handleExportJson,
-      handleExportCsv,
-      handleExportPrint,
-      isEmpty,
-    ]
-  );
+      disabled: pdfExporting ?? false,
+    },
+    { label: dict.rosterExportMenuCsv, onSelect: handleExportCsv, disabled: isEmpty },
+    { label: dict.rosterExportMenuPrint, onSelect: handleExportPrint },
+  ];
 
   const triggerButton = (
     <Theme>

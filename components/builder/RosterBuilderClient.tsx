@@ -9,49 +9,49 @@ import RosterMetaClient from "@/components/builder/RosterMetaClient";
 import { Button } from "@/components/ui/Button";
 import Select, { SelectOption } from "@/components/ui/Select";
 import { ARMIES } from "@/lib/data/armies/armies";
+import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
 import type { AppDispatch, RootState } from "@/lib/store";
 import { setCatalogArmy } from "@/lib/store/slices/catalogSlice";
 import type { RosterDraft, ValidationErrors } from "@/lib/store/slices/rosterSlice";
 import {
-  setArmy,
-  setComposition,
-  setArmyRule,
-  setSaving,
-  setSavedAt,
-  setValidationErrors,
   rosterInitialState,
+  setArmy,
+  setArmyRule,
+  setComposition,
+  setSavedAt,
+  setSaving,
   setSetupCollapsed,
+  setValidationErrors,
 } from "@/lib/store/slices/rosterSlice";
 
 // Minimal dictionary the component expects
-type Dict = {
-  // labels/placeholders
-  selectPlaceholder: string;
-  armyLabel: string; // e.g. "Army"
-  armyCompositionLabel: string; // e.g. "Composition"
-  armyRuleLabel: string; // e.g. "Army Rule"
-  armyPointsLabel: string; // for ArmyPointsCounter
-  armyPointsSuggestionsLabel: string; // for ArmyPointsCounter
-  armyPointsPlaceholder: string;
-  armyPointsIncreaseAria: string;
-  armyPointsDecreaseAria: string;
-  rosterNameLabel: string;
-  rosterNamePh?: string;
-  rosterDescLabel: string;
-  rosterDescPh?: string;
-  optionalHint?: string;
-  // buttons / validation / feedback
-  saveButtonLabel: string; // e.g. "Save and continue"
-  validationArmyRequired: string; // e.g. "Select an army"
-  validationPointsRequired: string; // e.g. "Set points limit > 0"
-  saveSuccess: string; // e.g. "Saved"
-  saveError: string; // e.g. "Could not save"
-  rosterSetupHeading: string;
-  rosterSetupEditButton: string;
-  rosterSetupCollapseButton: string;
-  rosterSetupSaveButton: string;
-  rosterSetupSavedButton: string;
-};
+type Dict = Pick<
+  LocaleDictionary,
+  | "selectPlaceholder"
+  | "armyLabel"
+  | "armyCompositionLabel"
+  | "armyRuleLabel"
+  | "armyPointsLabel"
+  | "armyPointsSuggestionsLabel"
+  | "armyPointsPlaceholder"
+  | "armyPointsIncreaseAria"
+  | "armyPointsDecreaseAria"
+  | "rosterNameLabel"
+  | "rosterNamePh"
+  | "rosterDescLabel"
+  | "rosterDescPh"
+  | "optionalHint"
+  | "saveButtonLabel"
+  | "validationArmyRequired"
+  | "validationPointsRequired"
+  | "saveSuccess"
+  | "saveError"
+  | "rosterSetupHeading"
+  | "rosterSetupEditButton"
+  | "rosterSetupCollapseButton"
+  | "rosterSetupSaveButton"
+  | "rosterSetupSavedButton"
+>;
 
 type DraftSnapshot = RosterDraft & { updatedAt: number };
 
@@ -136,7 +136,6 @@ export default function RosterBuilderClient({ dict, className, onSaved }: Props)
                     value={armyId}
                     onChange={(id) => {
                       dispatch(setArmy(id));
-                      dispatch(setCatalogArmy(id));
                     }}
                     className="w-full"
                   />

@@ -17,6 +17,15 @@ import {
   type RosterUnitStatRow,
   type RosterUnitMetaRow,
 } from "@/lib/store/selectors/rosterDetails";
+import {
+  formatOptionGroupLabel,
+  localizeMetaLabel,
+  buildCategoryLabels,
+  formatPointsValue,
+  ROSTER_STAT_FIELDS,
+  ROSTER_STAT_TOOLTIP_KEYS,
+  renderStatValue,
+} from "@/lib/utils/rosterFormatting";
 
 type DetailDict = Pick<
   LocaleDictionary,
@@ -45,7 +54,6 @@ type DetailDict = Pick<
   | "rosterDetailUnnamedUnit"
   | "categoryOptionCostFree"
   | "categoryOptionsDefaultLabel"
-  | "categoryOptionCostPerModelSuffix"
   | "rosterDetailStatsModelLabel"
   | "rosterDetailStatNameM"
   | "rosterDetailStatNameWS"
@@ -122,31 +130,6 @@ type SidebarPanelProps = {
   dict: DetailDict;
 };
 
-const STAT_FIELDS = [
-  { key: "M", label: "M" },
-  { key: "WS", label: "WS" },
-  { key: "BS", label: "BS" },
-  { key: "S", label: "S" },
-  { key: "T", label: "T" },
-  { key: "W", label: "W" },
-  { key: "I", label: "I" },
-  { key: "A", label: "A" },
-  { key: "Ld", label: "Ld" },
-] as const;
-type StatFieldKey = (typeof STAT_FIELDS)[number]["key"];
-
-const STAT_TOOLTIP_KEYS: Record<StatFieldKey, keyof DetailDict> = {
-  M: "rosterDetailStatNameM",
-  WS: "rosterDetailStatNameWS",
-  BS: "rosterDetailStatNameBS",
-  S: "rosterDetailStatNameS",
-  T: "rosterDetailStatNameT",
-  W: "rosterDetailStatNameW",
-  I: "rosterDetailStatNameI",
-  A: "rosterDetailStatNameA",
-  Ld: "rosterDetailStatNameLd",
-};
-
 const MUTED_TEXT = "text-xs text-amber-200/70 print:text-gray-600 print:text-[11px]";
 
 const formatUnitSummary = (
@@ -165,12 +148,12 @@ const formatUnitSummary = (
   return parts.join(" · ");
 };
 
-const renderStatValue = (value: number | string | null | undefined) => {
-  if (value === null || value === undefined || value === "") return "—";
-  if (typeof value === "number") {
-    return Number.isInteger(value) ? value : value.toFixed(1);
+const localizeStatLabel = (label: string, dict: DetailDict) => {
+  const profileMatch = label.match(/^Profile (\d+)$/);
+  if (profileMatch) {
+    return dict.rosterDetailProfileFallback.replace("{index}", profileMatch[1]);
   }
-  return value;
+  return label;
 };
 
 export default function RosterDetailSheet({ dict, onClose, onPrinted, className }: Props) {
@@ -184,42 +167,20 @@ export default function RosterDetailSheet({ dict, onClose, onPrinted, className 
   const detailView = useSelector(selectRosterDetailView);
   const hasEntries = detailView.entries.length > 0;
 
-  const formatPoints = React.useCallback(
-    (value: number | string) => dict.categoryPointsValue.replace("{value}", String(value)),
-    [dict.categoryPointsValue]
-  );
+  const formatPoints = (value: number | string) => formatPointsValue(value, dict);
 
-  const categoryTitles: Record<CategoryKey, string> = React.useMemo(
-    () => ({
-      characters: dict.categoryCharactersLabel,
-      core: dict.categoryCoreLabel,
-      special: dict.categorySpecialLabel,
-      rare: dict.categoryRareLabel,
-      mercenaries: dict.categoryMercsLabel,
-      allies: dict.categoryAlliesLabel,
-    }),
-    [
-      dict.categoryCharactersLabel,
-      dict.categoryCoreLabel,
-      dict.categorySpecialLabel,
-      dict.categoryRareLabel,
-      dict.categoryMercsLabel,
-      dict.categoryAlliesLabel,
-    ]
-  );
+  const categoryTitles: Record<CategoryKey, string> = buildCategoryLabels(dict);
 
-  const categories = React.useMemo<CategorySectionData[]>(() => {
-    return ORDERED_CATEGORIES.map((category) => {
-      const units = detailView.entryDetailsByCategory[category] ?? [];
-      if (!units.length) return null;
-      return {
-        key: category,
-        title: categoryTitles[category],
-        total: detailView.totalsByCategory[category] ?? 0,
-        units,
-      };
-    }).filter((section): section is CategorySectionData => section !== null);
-  }, [detailView.entryDetailsByCategory, detailView.totalsByCategory, categoryTitles]);
+  const categories: CategorySectionData[] = ORDERED_CATEGORIES.map((category) => {
+    const units = detailView.entryDetailsByCategory[category] ?? [];
+    if (!units.length) return null;
+    return {
+      key: category,
+      title: categoryTitles[category],
+      total: detailView.totalsByCategory[category] ?? 0,
+      units,
+    };
+  }).filter((section): section is CategorySectionData => section !== null);
 
   return (
     <div
@@ -257,7 +218,7 @@ export default function RosterDetailSheet({ dict, onClose, onPrinted, className 
   );
 }
 
-const RosterDetailHeader = React.memo(function RosterDetailHeader({
+function RosterDetailHeader({
   dict,
   formatPoints,
   name,
@@ -325,9 +286,9 @@ const RosterDetailHeader = React.memo(function RosterDetailHeader({
       ) : null}
     </header>
   );
-});
+}
 
-const CategorySection = React.memo(function CategorySection({
+function CategorySection({
   dict,
   formatPoints,
   category,
@@ -365,9 +326,9 @@ const CategorySection = React.memo(function CategorySection({
       </div>
     </section>
   );
-});
+}
 
-const UnitDetailCard = React.memo(function UnitDetailCard({
+function UnitDetailCard({
   dict,
   formatPoints,
   unit,
@@ -419,9 +380,9 @@ const UnitDetailCard = React.memo(function UnitDetailCard({
       </div>
     </article>
   );
-});
+}
 
-const OptionSummaryList = React.memo(function OptionSummaryList({
+function OptionSummaryList({
   summaries,
   dict,
   formatPoints,
@@ -432,12 +393,7 @@ const OptionSummaryList = React.memo(function OptionSummaryList({
       {summaries.map((summary, idx) => (
         <React.Fragment key={`${summary.group ?? "default"}-${idx}`}>
           <span className="font-semibold text-amber-200/70 print:text-gray-900">
-            {(() => {
-              const normalized = summary.group?.trim() ?? "";
-              const isDefault = normalized.length === 0 || normalized.toLowerCase() === "options";
-              const label = isDefault ? dict.categoryOptionsDefaultLabel : normalized;
-              return `${label}:`;
-            })()}
+            {formatOptionGroupLabel(summary.group ?? "", dict)}
           </span>
           <span className="text-amber-200/70 print:text-gray-900">{summary.items.join(", ")}</span>
           <span className="text-right text-amber-200/70 print:text-gray-600">
@@ -447,20 +403,9 @@ const OptionSummaryList = React.memo(function OptionSummaryList({
       ))}
     </div>
   );
-});
+}
 
-const StatsTable = React.memo(function StatsTable({ rows, dict }: StatsTableProps) {
-  const localizeLabel = React.useCallback(
-    (label: string) => {
-      const profileMatch = label.match(/^Profile (\d+)$/);
-      if (profileMatch) {
-        return dict.rosterDetailProfileFallback.replace("{index}", profileMatch[1]);
-      }
-      return label;
-    },
-    [dict.rosterDetailProfileFallback]
-  );
-
+function StatsTable({ rows, dict }: StatsTableProps) {
   return (
     <div className="overflow-x-auto">
       <table className="min-w-full divide-y divide-amber-400/20 text-xs print:divide-gray-300 print:text-[11px]">
@@ -469,14 +414,14 @@ const StatsTable = React.memo(function StatsTable({ rows, dict }: StatsTableProp
             <th className="px-2 py-1 text-left font-semibold uppercase tracking-wide print:text-gray-900 print:text-xs">
               {dict.rosterDetailStatsModelLabel}
             </th>
-            {STAT_FIELDS.map((field) => (
+            {ROSTER_STAT_FIELDS.map((field) => (
               <th
                 key={field.key}
                 className="px-2 py-1 text-center font-semibold uppercase tracking-wide print:text-gray-900 print:text-xs"
               >
                 <StatTooltipLabel
                   abbreviation={field.label}
-                  label={dict[STAT_TOOLTIP_KEYS[field.key]]}
+                  label={dict[ROSTER_STAT_TOOLTIP_KEYS[field.key]]}
                   className="inline-flex w-full justify-center"
                 />
               </th>
@@ -487,9 +432,9 @@ const StatsTable = React.memo(function StatsTable({ rows, dict }: StatsTableProp
           {rows.map((row) => (
             <tr key={row.label} className="text-amber-200 print:text-gray-900">
               <th className="px-2 py-2 text-left font-semibold print:text-xs">
-                {localizeLabel(row.label)}
+                {localizeStatLabel(row.label, dict)}
               </th>
-              {STAT_FIELDS.map((field) => (
+              {ROSTER_STAT_FIELDS.map((field) => (
                 <td
                   key={`${row.label}-${field.key}`}
                   className="px-2 py-2 text-center text-amber-100 print:text-gray-900 print:text-xs"
@@ -503,49 +448,9 @@ const StatsTable = React.memo(function StatsTable({ rows, dict }: StatsTableProp
       </table>
     </div>
   );
-});
+}
 
-const SidebarPanel = React.memo(function SidebarPanel({ rules, meta, dict }: SidebarPanelProps) {
-  const localizeMetaLabel = React.useCallback(
-    (label: string) => {
-      if (label === "Unit Size") return dict.rosterDetailSidebarUnitSize;
-      if (label === "Base Size") return dict.rosterDetailSidebarBaseSize;
-      if (label === "Armour Value") return dict.rosterDetailSidebarArmourValue;
-
-      const unitSizeMatch = label.match(/^(.*) Unit Size$/);
-      if (unitSizeMatch) {
-        const mountLabel =
-          unitSizeMatch[1] === "Mount" ? dict.rosterDetailMountLabel : unitSizeMatch[1];
-        return dict.rosterDetailSidebarMountUnitSize.replace("{mount}", mountLabel);
-      }
-
-      const baseSizeMatch = label.match(/^(.*) Base Size$/);
-      if (baseSizeMatch) {
-        const mountLabel =
-          baseSizeMatch[1] === "Mount" ? dict.rosterDetailMountLabel : baseSizeMatch[1];
-        return dict.rosterDetailSidebarMountBaseSize.replace("{mount}", mountLabel);
-      }
-
-      const armourMatch = label.match(/^(.*) Armour Value$/);
-      if (armourMatch) {
-        const mountLabel =
-          armourMatch[1] === "Mount" ? dict.rosterDetailMountLabel : armourMatch[1];
-        return dict.rosterDetailSidebarMountArmourValue.replace("{mount}", mountLabel);
-      }
-
-      return label;
-    },
-    [
-      dict.rosterDetailSidebarUnitSize,
-      dict.rosterDetailSidebarBaseSize,
-      dict.rosterDetailSidebarArmourValue,
-      dict.rosterDetailSidebarMountUnitSize,
-      dict.rosterDetailSidebarMountBaseSize,
-      dict.rosterDetailSidebarMountArmourValue,
-      dict.rosterDetailMountLabel,
-    ]
-  );
-
+function SidebarPanel({ rules, meta, dict }: SidebarPanelProps) {
   const hasContent = rules.length > 0 || meta.length > 0;
   if (!hasContent) return null;
 
@@ -570,7 +475,7 @@ const SidebarPanel = React.memo(function SidebarPanel({ rules, meta, dict }: Sid
           {meta.map((item) => (
             <div key={`${item.label}-${item.value}`} className="flex flex-col gap-0.5">
               <dt className="font-semibold uppercase tracking-wide text-amber-200/70 print:text-gray-600 print:text-xs">
-                {localizeMetaLabel(item.label)}
+                {localizeMetaLabel(item.label, dict)}
               </dt>
               <dd className="text-amber-100 print:text-gray-900 print:text-xs">{item.value}</dd>
             </div>
@@ -579,4 +484,4 @@ const SidebarPanel = React.memo(function SidebarPanel({ rules, meta, dict }: Sid
       ) : null}
     </aside>
   );
-});
+}
