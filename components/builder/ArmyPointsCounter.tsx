@@ -3,21 +3,15 @@
 import { useCallback, useId, type KeyboardEvent } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
+import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
 import type { AppDispatch, RootState } from "@/lib/store";
-import {
-  setPoints,
-  setPointsInput,
-  setValidationErrors,
-  rosterInitialState,
-} from "@/lib/store/slices/rosterSlice";
+import { setPoints, setPointsInput, setValidationErrors, rosterInitialState } from "@/lib/store/slices/rosterSlice";
 
 type Props = {
-  dict: {
-    armyPointsLabel: string;
-    armyPointsIncreaseAria: string;
-    armyPointsDecreaseAria: string;
-    armyPointsPlaceholder: string;
-  };
+  dict: Pick<
+    LocaleDictionary,
+    "armyPointsLabel" | "armyPointsIncreaseAria" | "armyPointsDecreaseAria" | "armyPointsPlaceholder"
+  >;
   step?: number;
   min?: number;
   className?: string;
@@ -38,12 +32,16 @@ export default function ArmyPointsCounter({
   showLabel = true,
 }: Props) {
   const dispatch = useDispatch<AppDispatch>();
-  const rosterState = useSelector((state: RootState) => state.roster) ?? rosterInitialState;
-
-  const { draft, ui } = rosterState;
-  const pointsLimit = draft?.pointsLimit ?? rosterInitialState.draft.pointsLimit;
-  const pointsInput = ui?.pointsInput ?? String(pointsLimit);
-  const hasPointsError = Boolean(ui?.errors?.points);
+  const { pointsLimit, pointsInput, errors } = useSelector((state: RootState) => {
+    const draft = state.roster?.draft ?? rosterInitialState.draft;
+    const ui = state.roster?.ui ?? rosterInitialState.ui;
+    return {
+      pointsLimit: draft.pointsLimit,
+      pointsInput: ui.pointsInput ?? String(draft.pointsLimit),
+      errors: ui.errors ?? {},
+    };
+  });
+  const hasPointsError = Boolean(errors.points);
 
   const labelId = useId();
 
@@ -56,42 +54,45 @@ export default function ArmyPointsCounter({
     (nextNumberLike: string | number) => {
       const digits = typeof nextNumberLike === "number" ? String(nextNumberLike) : nextNumberLike;
       const sanitized = parseDigits(digits);
-
       const parsed = sanitized === "" ? 0 : Number(sanitized);
       const clamped = clamp(Math.round(parsed), min, MAX_POINTS);
 
       dispatch(setPoints(clamped));
-
       dispatch(setPointsInput(String(clamped)));
 
-      if (hasPointsError && ui?.errors) {
-        const nextErrors = { ...ui.errors };
-
+      if (hasPointsError) {
+        const nextErrors = { ...errors };
         delete nextErrors.points;
         dispatch(setValidationErrors(nextErrors));
       }
     },
-    [dispatch, hasPointsError, min, ui.errors]
+    [dispatch, errors, hasPointsError, min]
   );
 
-  const handleChange = (raw: string) => {
-    dispatch(setPointsInput(raw));
-  };
+  const handleChange = useCallback(
+    (raw: string) => {
+      dispatch(setPointsInput(raw));
+    },
+    [dispatch]
+  );
 
-  const handleBlur = () => {
+  const handleBlur = useCallback(() => {
     commitPoints(pointsInput);
-  };
+  }, [commitPoints, pointsInput]);
 
-  const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === "Enter") {
-      commitPoints(pointsInput);
-    } else if (e.key === "Escape") {
-      dispatch(setPointsInput(String(pointsLimit)));
-    }
-  };
+  const handleKeyDown = useCallback(
+    (e: KeyboardEvent<HTMLInputElement>) => {
+      if (e.key === "Enter") {
+        commitPoints(pointsInput);
+      } else if (e.key === "Escape") {
+        dispatch(setPointsInput(String(pointsLimit)));
+      }
+    },
+    [commitPoints, dispatch, pointsInput, pointsLimit]
+  );
 
-  const increment = () => commitPoints(pointsLimit + step);
-  const decrement = () => commitPoints(pointsLimit - step);
+  const increment = useCallback(() => commitPoints(pointsLimit + step), [commitPoints, pointsLimit, step]);
+  const decrement = useCallback(() => commitPoints(pointsLimit - step), [commitPoints, pointsLimit, step]);
 
   const canInc = pointsLimit < MAX_POINTS;
   const canDec = pointsLimit > min;

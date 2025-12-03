@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import Select, { SelectOption } from "@/components/ui/Select";
 import { ARMY_RULES } from "@/lib/data/armies/armies";
@@ -18,6 +18,10 @@ export default function ArmyRulesSelectClient({
   onChange,
 }: Props) {
   const [value, setValue] = useState<string | null>(defaultValue);
+
+  useEffect(() => {
+    setValue(defaultValue ?? null);
+  }, [defaultValue]);
 
   const options: SelectOption[] = ARMY_RULES.map((r) => ({
     id: r.id,

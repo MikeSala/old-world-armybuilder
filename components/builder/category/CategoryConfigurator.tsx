@@ -1,3 +1,5 @@
+import * as React from "react";
+
 import { Button } from "@/components/ui/Button";
 import Select, { type SelectOption } from "@/components/ui/Select";
 import { getUnitKey, getUnitLabel } from "@/lib/builder/unitHelpers";
@@ -11,7 +13,10 @@ type Props = {
   selection: CategorySelectionState;
 };
 
-export function CategoryConfigurator({ dict, selection }: Props) {
+export const CategoryConfigurator = React.forwardRef<HTMLElement, Props>(function CategoryConfigurator(
+  { dict, selection },
+  ref
+) {
   const {
     activeCategory,
     units,
@@ -45,7 +50,10 @@ export function CategoryConfigurator({ dict, selection }: Props) {
 
   if (!activeCategory) {
     return (
-      <section className="rounded-2xl border border-amber-300/30 bg-slate-900/60 p-5 text-amber-100 shadow-lg shadow-amber-900/10">
+      <section
+        ref={ref}
+        className="rounded-2xl border border-amber-300/30 bg-slate-900/60 p-5 text-amber-100 shadow-lg shadow-amber-900/10"
+      >
         <p className="text-sm text-amber-200/70">{dict.categoryConfiguratorPrompt}</p>
       </section>
     );
@@ -58,7 +66,10 @@ export function CategoryConfigurator({ dict, selection }: Props) {
 
   if (!hasUnits) {
     return (
-      <section className="rounded-2xl border border-amber-300/30 bg-slate-900/60 p-5 text-amber-100 shadow-lg shadow-amber-900/10">
+      <section
+        ref={ref}
+        className="rounded-2xl border border-amber-300/30 bg-slate-900/60 p-5 text-amber-100 shadow-lg shadow-amber-900/10"
+      >
         <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-300">
           {optionsTitle}
         </h3>
@@ -68,7 +79,10 @@ export function CategoryConfigurator({ dict, selection }: Props) {
   }
 
   return (
-    <section className="rounded-2xl border border-amber-300/30 bg-slate-900/60 p-5 text-amber-100 shadow-lg shadow-amber-900/10">
+    <section
+      ref={ref}
+      className="rounded-2xl border border-amber-300/30 bg-slate-900/60 p-5 text-amber-100 shadow-lg shadow-amber-900/10"
+    >
       <div className="flex flex-col gap-2 lg:flex-row lg:items-center lg:justify-between">
         <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-300 lg:self-start">
           {optionsTitle}
@@ -124,7 +138,7 @@ export function CategoryConfigurator({ dict, selection }: Props) {
               <button
                 type="button"
                 onClick={incrementUnitSize}
-                className="rounded-md bg-slate-800 px-2 py-1 text-sm text-amber-100 shadow hover:bg-slate-700 active:translate-y-px"
+                className="rounded-md bg-slate-800 px-2 py-1 text-sm text-amber-100 shadow hover:bg-slate-700 active:translate-y-px focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
                 aria-label={dict.categoryUnitIncreaseAria}
               >
                 ▲
@@ -132,7 +146,7 @@ export function CategoryConfigurator({ dict, selection }: Props) {
               <button
                 type="button"
                 onClick={decrementUnitSize}
-                className="mt-1 rounded-md bg-slate-800 px-2 py-1 text-sm text-amber-100 shadow hover:bg-slate-700 active:translate-y-px"
+                className="mt-1 rounded-md bg-slate-800 px-2 py-1 text-sm text-amber-100 shadow hover:bg-slate-700 active:translate-y-px focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
                 aria-label={dict.categoryUnitDecreaseAria}
               >
                 ▼
@@ -177,4 +191,4 @@ export function CategoryConfigurator({ dict, selection }: Props) {
       </div>
     </section>
   );
-}
+});
