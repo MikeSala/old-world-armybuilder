@@ -17,19 +17,12 @@ import vampireCounts from "@/lib/data/domain/units/vampire-counts.json";
 import warriorsOfChaos from "@/lib/data/domain/units/warriors-of-chaos.json";
 import woodElfRealms from "@/lib/data/domain/units/wood-elf-realms.json";
 
-export type ArmyUnitsRaw = {
-  characters?: unknown[];
-  core?: unknown[];
-  special?: unknown[];
-  rare?: unknown[];
-  mercenaries?: unknown[];
-  allies?: unknown[];
-  [key: string]: unknown;
-};
+import { normalizeArmyUnitsRaw } from "./normalizers";
+import type { NormalizedArmyUnits } from "./types";
 
 export const DEFAULT_ARMY_ID = "empire-of-man";
 
-export const ARMY_UNIT_DATA: Record<string, ArmyUnitsRaw> = {
+const RAW_DATA = {
   "beastmen-brayherds": beastmen,
   beastmen,
   "chaos-dwarfs": chaosDwarfs,
@@ -51,3 +44,11 @@ export const ARMY_UNIT_DATA: Record<string, ArmyUnitsRaw> = {
   "warriors-of-chaos": warriorsOfChaos,
   "wood-elf-realms": woodElfRealms,
 };
+
+export const ARMY_UNIT_DATA: Record<string, NormalizedArmyUnits> = Object.entries(RAW_DATA).reduce(
+  (acc, [id, payload]) => {
+    acc[id] = normalizeArmyUnitsRaw(payload);
+    return acc;
+  },
+  {} as Record<string, NormalizedArmyUnits>
+);
