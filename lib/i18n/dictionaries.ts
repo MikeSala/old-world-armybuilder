@@ -85,6 +85,7 @@ export type LocaleDictionary = {
   rosterSetupSaveButton: string;
   rosterSetupSavedButton: string;
   headerBrandLabel: string;
+  headerSwitchLocaleLabel?: string;
   rosterDetailHeading: string;
   rosterDetailEmptyMessage: string;
   rosterDetailStatsMissing: string;
@@ -262,6 +263,7 @@ const dictionaries = {
     rosterSetupSaveButton: "Zapisz",
     rosterSetupSavedButton: "Zapisano",
     headerBrandLabel: "Warhammer Old World Army Builder",
+    headerSwitchLocaleLabel: "Zmień język na {locale}",
     rosterDetailHeading: "Karta rozpiski",
     rosterDetailEmptyMessage:
       "Dodaj jednostki do rozpiski, aby zobaczyć ich szczegóły i statystyki.",
@@ -431,6 +433,7 @@ const dictionaries = {
     rosterSetupSaveButton: "Save",
     rosterSetupSavedButton: "Saved",
     headerBrandLabel: "Warhammer Old World Army Builder",
+    headerSwitchLocaleLabel: "Switch language to {locale}",
     rosterDetailHeading: "Roster Sheet",
     rosterDetailEmptyMessage: "Add units to the roster to view their details and statistics.",
     rosterDetailStatsMissing:

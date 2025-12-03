@@ -4,75 +4,22 @@ import * as Accordion from "@radix-ui/react-accordion";
 import { ChevronDownIcon } from "@radix-ui/react-icons";
 import * as React from "react";
 
-import {
-  type UnitStatProfile,
-  type UnitStatLine,
-  normalizeUnitStatKey,
-} from "@/lib/data/domain/units/units-stats";
+import type { UnitStatProfile, UnitStatLine } from "@/lib/data/domain/units/units-stats";
 import { searchUnitStats, type UnitSearchResult } from "@/lib/data/domain/units/units-stats/search";
 import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
+import {
+  ROSTER_STAT_FIELDS,
+  ROSTER_STAT_TOOLTIP_KEYS,
+  renderStatValue,
+} from "@/lib/utils/rosterFormatting";
+import { normalizeUnitStatKey } from "@/lib/data/domain/units/units-stats";
 
 import { Button } from "../ui/Button";
 import { StatTooltipLabel } from "../ui/StatTooltipLabel";
 
-// Small, local CSS animations for Accordion (no global stylesheet required)
-// These class names are used in Accordion.Content above.
-const styles = (
-  <style jsx>{`
-    @keyframes accordion-down {
-      from {
-        height: 0;
-      }
-      to {
-        height: var(--radix-accordion-content-height);
-      }
-    }
-    @keyframes accordion-up {
-      from {
-        height: var(--radix-accordion-content-height);
-      }
-      to {
-        height: 0;
-      }
-    }
-    .data-\[state\=open\]\:animate-accordion-down[data-state="open"] {
-      animation: accordion-down 200ms ease-out;
-    }
-    .data-\[state\=closed\]\:animate-accordion-up[data-state="closed"] {
-      animation: accordion-up 200ms ease-out;
-    }
-  `}</style>
-);
-
-type StatFieldKey = "M" | "WS" | "BS" | "S" | "T" | "W" | "I" | "A" | "Ld";
-
 type Props = {
   dict: LocaleDictionary;
   className?: string;
-};
-
-const STAT_FIELDS: Array<{ key: StatFieldKey; label: string }> = [
-  { key: "M", label: "M" },
-  { key: "WS", label: "WS" },
-  { key: "BS", label: "BS" },
-  { key: "S", label: "S" },
-  { key: "T", label: "T" },
-  { key: "W", label: "W" },
-  { key: "I", label: "I" },
-  { key: "A", label: "A" },
-  { key: "Ld", label: "Ld" },
-];
-
-const STAT_TOOLTIP_KEYS: Record<StatFieldKey, keyof LocaleDictionary> = {
-  M: "rosterDetailStatNameM",
-  WS: "rosterDetailStatNameWS",
-  BS: "rosterDetailStatNameBS",
-  S: "rosterDetailStatNameS",
-  T: "rosterDetailStatNameT",
-  W: "rosterDetailStatNameW",
-  I: "rosterDetailStatNameI",
-  A: "rosterDetailStatNameA",
-  Ld: "rosterDetailStatNameLd",
 };
 
 // Normalize single stat value for robust equality checks
@@ -88,14 +35,6 @@ const norm = (v: unknown) => {
   return v;
 };
 
-const renderStatValue = (value: unknown) => {
-  if (value === null || value === undefined || value === "") return "—";
-  if (typeof value === "number") {
-    return Number.isInteger(value) ? value.toString() : value.toFixed(1);
-  }
-  return String(value);
-};
-
 const extractProfileRows = (
   line: UnitStatLine
 ): Array<{ label: string; profile: UnitStatProfile; index: number }> => {
@@ -107,7 +46,7 @@ const extractProfileRows = (
     if (!profile) return;
     const rawName = typeof profile.name === "string" ? profile.name : undefined;
     const label = rawName && rawName.trim().length > 0 ? rawName : `Profile ${index + 1}`;
-    const valueKey = STAT_FIELDS.map((field) => String(norm(profile[field.key]))).join("|");
+    const valueKey = ROSTER_STAT_FIELDS.map((field) => String(norm(profile[field.key]))).join("|");
     const dedupeKey = `${label}::${valueKey}`;
     if (seen.has(dedupeKey)) return;
     seen.add(dedupeKey);
@@ -117,8 +56,10 @@ const extractProfileRows = (
   return result;
 };
 
-const statsEqual = (a: Pick<UnitStatLine, StatFieldKey>, b: Pick<UnitStatLine, StatFieldKey>) =>
-  STAT_FIELDS.every(({ key }) => norm(a[key]) === norm(b[key]));
+const statsEqual = (
+  a: Pick<UnitStatLine, (typeof ROSTER_STAT_FIELDS)[number]["key"]>,
+  b: Pick<UnitStatLine, (typeof ROSTER_STAT_FIELDS)[number]["key"]>
+) => ROSTER_STAT_FIELDS.every(({ key }) => norm(a[key]) === norm(b[key]));
 
 const UnitStatsTable = ({ dict, unit }: { dict: LocaleDictionary; unit: UnitStatLine }) => {
   const baseLabel = unit.name ?? unit.unit ?? dict.rosterDetailUnnamedUnit;
@@ -137,14 +78,14 @@ const UnitStatsTable = ({ dict, unit }: { dict: LocaleDictionary; unit: UnitStat
             <th className="px-2 py-1 text-left font-semibold uppercase tracking-wide">
               {dict.rosterDetailStatsModelLabel}
             </th>
-            {STAT_FIELDS.map((field) => (
+            {ROSTER_STAT_FIELDS.map((field) => (
               <th
                 key={field.key as string}
                 className="px-2 py-1 text-center font-semibold uppercase tracking-wide"
               >
                 <StatTooltipLabel
                   abbreviation={field.label}
-                  label={dict[STAT_TOOLTIP_KEYS[field.key]]}
+                  label={dict[ROSTER_STAT_TOOLTIP_KEYS[field.key]]}
                   className="inline-flex w-full justify-center"
                 />
               </th>
@@ -155,7 +96,7 @@ const UnitStatsTable = ({ dict, unit }: { dict: LocaleDictionary; unit: UnitStat
           {displayBaseRow ? (
             <tr className="text-amber-100">
               <th className="px-2 py-2 text-left font-semibold">{baseLabel}</th>
-              {STAT_FIELDS.map((field) => (
+              {ROSTER_STAT_FIELDS.map((field) => (
                 <td key={`base-${field.key as string}`} className="px-2 py-2 text-center">
                   {renderStatValue(unit[field.key])}
                 </td>
@@ -172,7 +113,7 @@ const UnitStatsTable = ({ dict, unit }: { dict: LocaleDictionary; unit: UnitStat
                     )
                   : label || dict.rosterDetailProfileFallback.replace("{index}", String(index + 1))}
               </th>
-              {STAT_FIELDS.map((field) => (
+              {ROSTER_STAT_FIELDS.map((field) => (
                 <td key={`${label}-${field.key as string}`} className="px-2 py-2 text-center">
                   {renderStatValue(profile[field.key])}
                 </td>
@@ -305,12 +246,17 @@ export default function UnitSearch({ dict, className }: Props) {
 
   React.useEffect(() => {
     const trimmed = query.trim();
-    if (trimmed.length < 2) {
-      setResults([]);
-      return;
-    }
+    const timeout = window.setTimeout(() => {
+      if (trimmed.length < 2) {
+        setResults([]);
+        return;
+      }
+      setResults(searchUnitStats(trimmed));
+    }, 180);
 
-    setResults(searchUnitStats(trimmed));
+    return () => {
+      window.clearTimeout(timeout);
+    };
   }, [query]);
 
   const resultMessage = React.useMemo(() => {
@@ -368,7 +314,6 @@ export default function UnitSearch({ dict, className }: Props) {
           <p className="text-sm text-amber-200/70">{dict.unitSearchNoResults}</p>
         ) : null}
       </div>
-      {styles}
     </section>
   );
 }

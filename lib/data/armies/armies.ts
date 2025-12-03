@@ -3,7 +3,6 @@ export type Army = {
   id: string;
   name: string;
   compositions?: { id: string; name: string }[];
-  units?: any[]; // TODO: refine type once unit structure is finalized
 };
 
 export type ArmyRule = {

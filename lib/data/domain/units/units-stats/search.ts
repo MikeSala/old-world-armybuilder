@@ -115,6 +115,3 @@ export const searchUnitStats = (query: string, limit = 25): UnitSearchResult[] =
     .slice(0, limit)
     .map(({ tokens: _tokens, ...rest }) => rest);
 };
-
-export const getAllUnitStats = (): UnitSearchResult[] =>
-  UNIT_SEARCH_INDEX.map(({ tokens: _tokens, ...rest }) => rest);

@@ -2,12 +2,11 @@
 
 import { clsx } from "clsx";
 import Link from "next/link";
-import { useMemo } from "react";
 import { usePathname } from "next/navigation";
+import { useMemo } from "react";
 
+import { LocaleButton } from "@/components/ui/LocaleButton";
 import { getDictionary, locales, defaultLocale, type Locale } from "@/lib/i18n/dictionaries";
-
-import { LocaleButton } from "../ui/LocaleButton";
 
 // Layout styles
 const headerClass =
@@ -37,7 +36,7 @@ function extractLocaleAndSegments(pathname: string): { locale: Locale; segments:
   return { locale: defaultLocale, segments };
 }
 
-export function Header() {
+export default function Header() {
   const pathname = usePathname() ?? "/";
 
   const { activeLocale, restSegments, dictionary } = useMemo(() => {
@@ -86,6 +85,10 @@ export function Header() {
                 key={locale}
                 locale={locale}
                 href={buildHref(locale)}
+                label={dictionary.headerSwitchLocaleLabel?.replace(
+                  "{locale}",
+                  locale.toUpperCase()
+                )}
                 className={clsx(localeBtnBase, isActive ? localeBtnActive : localeBtnIdle)}
               />
             );

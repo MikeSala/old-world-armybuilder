@@ -3,20 +3,14 @@
 import { useDispatch, useSelector } from "react-redux";
 
 import TextField from "@/components/builder/TextField";
+import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
 import type { AppDispatch, RootState } from "@/lib/store";
 import { setDescription, setName } from "@/lib/store/slices/rosterSlice";
 
-type Dict = {
-  rosterNameLabel: string;
-  rosterNamePh?: string;
-  rosterDescLabel: string;
-  rosterDescPh?: string;
-  optionalHint?: string;
-  armyPointsLabel: string;
-  armyPointsIncreaseAria: string;
-  armyPointsDecreaseAria: string;
-  armyPointsPlaceholder: string;
-};
+type Dict = Pick<
+  LocaleDictionary,
+  "rosterNameLabel" | "rosterNamePh" | "rosterDescLabel" | "rosterDescPh" | "optionalHint"
+>;
 
 type Props = {
   dict: Dict;

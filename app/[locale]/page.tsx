@@ -6,7 +6,9 @@ import UnitSearch from "@/components/unit/UnitSearch";
 import { getDictionary, locales, defaultLocale, type Locale } from "@/lib/i18n/dictionaries";
 
 type PageProps = {
-  params: Promise<Record<string, unknown>>;
+  params: Promise<{
+    locale?: string;
+  }>;
 };
 
 export function generateStaticParams() {
@@ -14,11 +16,11 @@ export function generateStaticParams() {
 }
 
 export default async function LandingPage({ params }: PageProps) {
-  const resolvedParams = await params;
-  const localeParam = resolvedParams?.locale;
-  const locale = typeof localeParam === "string" && locales.includes(localeParam as Locale)
-    ? (localeParam as Locale)
-    : defaultLocale;
+  const { locale: localeParam } = await params;
+  const locale =
+    typeof localeParam === "string" && locales.includes(localeParam as Locale)
+      ? (localeParam as Locale)
+      : defaultLocale;
   const dictionary = getDictionary(locale);
 
   return (

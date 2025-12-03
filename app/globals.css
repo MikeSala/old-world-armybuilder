@@ -140,6 +140,8 @@
   line-height: 1.25 !important;
   width: 100% !important;
   max-width: none !important;
+  max-height: none !important;
+  overflow: visible !important;
 }
 
 .pdf-capture .print\:hidden {

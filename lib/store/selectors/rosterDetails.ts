@@ -2,9 +2,8 @@ import { createSelector } from "@reduxjs/toolkit";
 import type { RootState } from "@/lib/store";
 import {
   rosterInitialState,
-  type RosterEntry,
-  type SelectedOption,
 } from "@/lib/store/slices/rosterSlice";
+import { normalizeRosterEntry } from "@/lib/roster/normalizeEntry";
 import type { CategoryKey } from "@/lib/data/domain/types/categories";
 import {
   buildUnitStatIndex,
@@ -15,41 +14,6 @@ import {
 } from "@/lib/data/domain/units/units-stats";
 
 const selectDraft = (state: RootState) => state.roster?.draft ?? rosterInitialState.draft;
-
-const normalizeOptions = (entry: RosterEntry): SelectedOption[] =>
-  Array.isArray(entry.options) ? entry.options.map((option) => ({ ...option })) : [];
-
-const normalizeRosterEntry = (entry: RosterEntry) => {
-  const options = normalizeOptions(entry);
-  const optionsPoints = options.reduce((sum, opt) => sum + (opt.points ?? 0), 0);
-  const legacyPoints = (entry as unknown as { points?: number }).points;
-  const basePoints =
-    typeof entry.basePoints === "number"
-      ? entry.basePoints
-      : typeof legacyPoints === "number"
-      ? legacyPoints
-      : 0;
-  const unitSize =
-    typeof entry.unitSize === "number" && entry.unitSize > 0 ? Math.floor(entry.unitSize) : 1;
-  const pointsPerModel =
-    typeof entry.pointsPerModel === "number" && entry.pointsPerModel > 0
-      ? entry.pointsPerModel
-      : unitSize > 0
-      ? basePoints / unitSize
-      : basePoints;
-  const totalPoints =
-    typeof entry.totalPoints === "number" ? entry.totalPoints : basePoints + optionsPoints;
-
-  return {
-    ...entry,
-    options,
-    basePoints,
-    unitSize,
-    pointsPerModel,
-    totalPoints,
-    owned: Boolean(entry.owned),
-  };
-};
 
 export type NormalizedRosterEntry = ReturnType<typeof normalizeRosterEntry>;
 

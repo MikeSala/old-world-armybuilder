@@ -13,7 +13,7 @@ import {
 } from "@/lib/builder/unitHelpers";
 import type { CategoryKey } from "@/lib/data/domain/types/categories";
 import type { RootState, AppDispatch } from "@/lib/store";
-import type { ArmyUnit } from "@/lib/store/selectors/catalog";
+import type { NormalizedArmyUnit as ArmyUnit } from "@/lib/data/catalog/types";
 import { selectUnitsByCategory } from "@/lib/store/selectors/catalog";
 import { selectSpentByCategory } from "@/lib/store/selectors/points";
 import { rosterInitialState, upsertEntry } from "@/lib/store/slices/rosterSlice";
@@ -25,48 +25,14 @@ import type {
   EntriesByCategory,
   TotalsByCategory,
 } from "./types";
-
-function clampNonNeg(n: number) {
-  return n < 0 ? 0 : n;
-}
-
-function roundPoints(n: number) {
-  return Math.round(n);
-}
-
-function mapEntryOptionsToSelections(
-  entry: RosterEntry,
-  groups: UnitOptionGroup[]
-): Record<string, string[]> {
-  const sourceIds = new Set(
-    entry.options
-      .map((opt) => (typeof opt.sourceId === "string" ? opt.sourceId : null))
-      .filter((id): id is string => Boolean(id))
-  );
-  const optionNames = new Set(
-    entry.options
-      .map((opt) => (typeof opt.name === "string" ? opt.name.trim() : ""))
-      .filter((name) => name.length > 0)
-  );
-
-  const byGroup = groups.reduce<Record<string, string[]>>((acc, group) => {
-    const matchingIds = group.options
-      .filter((opt) => sourceIds.has(opt.id) || optionNames.has(opt.label))
-      .map((opt) => opt.id);
-    if (group.type === "radio") {
-      if (matchingIds.length > 0) {
-        acc[group.id] = [matchingIds[0]];
-      } else {
-        const fallback = group.options.find((opt) => opt.defaultSelected) ?? group.options[0];
-        acc[group.id] = fallback ? [fallback.id] : [];
-      }
-    } else {
-      acc[group.id] = matchingIds;
-    }
-    return acc;
-  }, {});
-  return byGroup;
-}
+import {
+  buildCategorySections,
+  buildDefaultSelections,
+  buildSelectedOptions,
+  calculateOptionPoints,
+  clampUnitSizeValue,
+  mapEntryOptionsToSelections,
+} from "./utils";
 
 type UseCategoryBucketsStateOptions = {
   totals?: TotalsByCategory;
@@ -140,8 +106,7 @@ export function useCategoryBucketsState({
   const isRosterReady =
     Boolean(rosterMeta.savedAt) &&
     Boolean(rosterMeta.armyId) &&
-    pointsLimit > 0 &&
-    rosterMeta.name.trim().length > 0;
+    pointsLimit > 0;
 
   const spent: Required<TotalsByCategory> = {
     characters: totals?.characters ?? totalsFromStore.characters ?? 0,
@@ -152,78 +117,10 @@ export function useCategoryBucketsState({
     allies: totals?.allies ?? totalsFromStore.allies ?? 0,
   };
 
-  const minCore = roundPoints(pointsLimit * 0.25);
-  const caps = {
-    characters: roundPoints(pointsLimit * 0.5),
-    special: roundPoints(pointsLimit * 0.5),
-    rare: roundPoints(pointsLimit * 0.25),
-    mercenaries: roundPoints(pointsLimit * 0.2),
-    allies: roundPoints(pointsLimit * 0.25),
-  } as const;
-
-  const coreRequirementMet = spent.core >= minCore;
-  const coreSummaryText = dict.categoryCorePointsSummary
-    .replace("{current}", String(spent.core))
-    .replace("{required}", String(minCore));
-  const formatCapSummary = React.useCallback(
-    (current: number, limit: number) =>
-      dict.categoryCapPointsSummary
-        .replace("{current}", String(current))
-        .replace("{limit}", String(limit)),
-    [dict.categoryCapPointsSummary]
+  const sections: CategorySection[] = React.useMemo(
+    () => buildCategorySections(dict, spent, pointsLimit),
+    [dict, pointsLimit, spent]
   );
-  const charactersAvailable = clampNonNeg(caps.characters - spent.characters);
-  const specialAvailable = clampNonNeg(caps.special - spent.special);
-  const rareAvailable = clampNonNeg(caps.rare - spent.rare);
-  const mercsAvailable = clampNonNeg(caps.mercenaries - spent.mercenaries);
-  const alliesAvailable = clampNonNeg(caps.allies - spent.allies);
-
-  const sections: CategorySection[] = [
-    {
-      key: "characters",
-      title: dict.categoryCharactersLabel,
-      value: charactersAvailable,
-      suffix: dict.categoryPtsAvailable,
-      formattedValue: formatCapSummary(spent.characters, caps.characters),
-    },
-    {
-      key: "core",
-      title: dict.categoryCoreLabel,
-      value: spent.core,
-      suffix: "",
-      formattedValue: coreSummaryText,
-      warning: !coreRequirementMet,
-      enforceCap: false,
-    },
-    {
-      key: "special",
-      title: dict.categorySpecialLabel,
-      value: specialAvailable,
-      suffix: dict.categoryPtsAvailable,
-      formattedValue: formatCapSummary(spent.special, caps.special),
-    },
-    {
-      key: "rare",
-      title: dict.categoryRareLabel,
-      value: rareAvailable,
-      suffix: dict.categoryPtsAvailable,
-      formattedValue: formatCapSummary(spent.rare, caps.rare),
-    },
-    {
-      key: "mercenaries",
-      title: dict.categoryMercsLabel,
-      value: mercsAvailable,
-      suffix: dict.categoryPtsAvailable,
-      formattedValue: formatCapSummary(spent.mercenaries, caps.mercenaries),
-    },
-    {
-      key: "allies",
-      title: dict.categoryAlliesLabel,
-      value: alliesAvailable,
-      suffix: dict.categoryPtsAvailable,
-      formattedValue: formatCapSummary(spent.allies, caps.allies),
-    },
-  ];
 
   const activeUnits = React.useMemo(
     () => (activeCategory ? unitsByCategory[activeCategory] ?? [] : []),
@@ -260,14 +157,7 @@ export function useCategoryBucketsState({
   );
 
   const clampUnitSize = React.useCallback(
-    (value: number) => {
-      let next = Number.isFinite(value) ? Math.floor(value) : minUnitSize;
-      next = Math.max(minUnitSize, next);
-      if (maxUnitSize !== null) {
-        next = Math.min(maxUnitSize, next);
-      }
-      return next;
-    },
+    (value: number) => clampUnitSizeValue(value, minUnitSize, maxUnitSize),
     [maxUnitSize, minUnitSize]
   );
 
@@ -294,7 +184,7 @@ export function useCategoryBucketsState({
   );
 
   const handleToggleCategory = React.useCallback(
-    (category: CategoryKey) => {
+    (category: CategoryKey, _anchor?: HTMLElement | null) => {
       setEditingEntryId(null);
       optionPrefillEntryRef.current = null;
       unitSizePrefillEntryRef.current = null;
@@ -342,30 +232,11 @@ export function useCategoryBucketsState({
       setUnitSize(enforcedUnitSize);
     }
 
-    const selectedOptions = optionGroups.flatMap((group) => {
-      const selectedIds = optionSelections[group.id] ?? [];
-      return selectedIds
-        .map((selectedId) => {
-          const option = group.options.find((opt) => opt.id === selectedId);
-          if (!option) return null;
-          const totalPoints = option.points * (option.perModel ? enforcedUnitSize : 1);
-          return {
-            id: `${group.id}-${option.id}`,
-            name: option.label,
-            points: totalPoints,
-            group: group.title,
-            note: option.note,
-            perModel: option.perModel,
-            baseCost: option.points,
-            sourceId: option.id,
-          };
-        })
-        .filter((opt): opt is NonNullable<typeof opt> => opt !== null);
-    });
+    const selectedOptions = buildSelectedOptions(optionGroups, optionSelections, enforcedUnitSize);
 
     const costPerModel = Math.max(0, getUnitPoints(activeUnit));
     const basePoints = costPerModel * enforcedUnitSize;
-    const optionsPoints = selectedOptions.reduce((sum, opt) => sum + opt.points, 0);
+    const optionsPoints = calculateOptionPoints(optionGroups, optionSelections, enforcedUnitSize);
     const totalPoints = basePoints + optionsPoints;
 
     dispatch(
@@ -438,16 +309,7 @@ export function useCategoryBucketsState({
       return;
     }
 
-    const defaults = optionGroups.reduce<Record<string, string[]>>((acc, group) => {
-      if (group.type === "radio") {
-        const defaultOption = group.options.find((opt) => opt.defaultSelected) ?? group.options[0];
-        acc[group.id] = defaultOption ? [defaultOption.id] : [];
-      } else {
-        acc[group.id] = group.options.filter((opt) => opt.defaultSelected).map((opt) => opt.id);
-      }
-      return acc;
-    }, {});
-    setOptionSelections(defaults);
+    setOptionSelections(buildDefaultSelections(optionGroups));
   }, [activeUnit, optionGroups, editingEntry]);
 
   React.useEffect(() => {
@@ -469,18 +331,7 @@ export function useCategoryBucketsState({
   const displayUnitSize = clampUnitSize(unitSize);
 
   const totalOptionPoints = React.useMemo(() => {
-    return optionGroups.reduce((groupSum, group) => {
-      const selectedIds = optionSelections[group.id] ?? [];
-      return (
-        groupSum +
-        selectedIds.reduce((sum, selectedId) => {
-          const opt = group.options.find((o) => o.id === selectedId);
-          if (!opt) return sum;
-          const optionTotal = opt.points * (opt.perModel ? displayUnitSize : 1);
-          return sum + optionTotal;
-        }, 0)
-      );
-    }, 0);
+    return calculateOptionPoints(optionGroups, optionSelections, displayUnitSize);
   }, [displayUnitSize, optionGroups, optionSelections]);
 
   const totalPoints = displayUnitSize * pointsPerModel + totalOptionPoints;

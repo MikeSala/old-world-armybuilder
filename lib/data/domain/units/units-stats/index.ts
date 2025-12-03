@@ -25,6 +25,8 @@ type RawUnitCollection = {
   units?: unknown;
 };
 
+type RawStatsByArmy = Record<string, unknown>;
+
 const isRecord = (value: unknown): value is Record<string, unknown> =>
   typeof value === "object" && value !== null && !Array.isArray(value);
 
@@ -32,6 +34,14 @@ const toOptionalString = (value: unknown): string | undefined => {
   if (typeof value !== "string") return undefined;
   const trimmed = value.trim();
   return trimmed.length > 0 ? trimmed : undefined;
+};
+
+const firstNonEmptyString = (...values: unknown[]): string | undefined => {
+  for (const value of values) {
+    const normalized = toOptionalString(value);
+    if (normalized) return normalized;
+  }
+  return undefined;
 };
 
 const normalizeStatValue = (value: unknown): StatValue => {
@@ -53,6 +63,14 @@ const normalizeStringArray = (value: unknown): string[] | undefined => {
     .map((item) => (typeof item === "string" ? item.trim() : null))
     .filter((item): item is string => Boolean(item && item.length > 0));
   return result.length > 0 ? result : undefined;
+};
+
+const pickStats = (source: Record<string, unknown>): Record<StatKey, StatValue> => {
+  const stats = {} as Record<StatKey, StatValue>;
+  STAT_FIELD_KEYS.forEach((key) => {
+    stats[key] = normalizeStatValue(source[key]);
+  });
+  return stats;
 };
 
 export type UnitStatProfile = {
@@ -84,48 +102,45 @@ const normalizeProfiles = (value: unknown): UnitStatProfile[] | undefined => {
   const profiles = value
     .map((candidate) => {
       if (!isRecord(candidate)) return null;
-      const profile: UnitStatProfile = STAT_FIELD_KEYS.reduce<UnitStatProfile>(
-        (acc, key) => {
-          acc[key] = normalizeStatValue(candidate[key]);
-          return acc;
-        },
-        {
-          name: toOptionalString(candidate.name) ?? toOptionalString(candidate.label) ?? toOptionalString(candidate.variant) ?? null,
-        } as UnitStatProfile
-      );
-      return profile;
+      return {
+        ...pickStats(candidate),
+        name: firstNonEmptyString(candidate.name, candidate.label, candidate.variant) ?? null,
+      } as UnitStatProfile;
     })
     .filter((profile): profile is UnitStatProfile => profile !== null);
 
   return profiles.length > 0 ? profiles : undefined;
 };
 
+const fillMissingStatsFromProfile = (line: UnitStatLine, profile: UnitStatProfile) => {
+  STAT_FIELD_KEYS.forEach((key) => {
+    if (line[key] === null && profile[key] !== null) {
+      line[key] = profile[key];
+    }
+  });
+};
+
 const normalizeLine = (value: unknown): UnitStatLine | null => {
   if (!isRecord(value)) return null;
 
-  const primaryName = toOptionalString(value.name) ?? toOptionalString(value.unit);
+  const primaryName = firstNonEmptyString(value.name, value.unit);
   if (!primaryName) return null;
 
-  const line: UnitStatLine = STAT_FIELD_KEYS.reduce<UnitStatLine>(
-    (acc, key) => {
-      acc[key] = normalizeStatValue(value[key]);
-      return acc;
-    },
-    {
-      unit: toOptionalString(value.unit),
-      name: primaryName,
-      type: toOptionalString(value.type) ?? null,
-      unitCategory: toOptionalString(value.unitCategory) ?? null,
-      troopType: toOptionalString(value.troopType) ?? null,
-      baseSize: toOptionalString(value.baseSize) ?? null,
-      unitSize: normalizeStatValue(value.unitSize),
-      armourValue: normalizeStatValue(value.armourValue),
-      equipment: normalizeStringArray(value.equipment),
-      specialRules: normalizeStringArray(value.specialRules),
-    } as UnitStatLine
-  );
+  const line: UnitStatLine = {
+    ...pickStats(value),
+    unit: toOptionalString(value.unit),
+    name: primaryName,
+    type: toOptionalString(value.type) ?? null,
+    unitCategory: toOptionalString(value.unitCategory) ?? null,
+    troopType: toOptionalString(value.troopType) ?? null,
+    baseSize: toOptionalString(value.baseSize) ?? null,
+    unitSize: normalizeStatValue(value.unitSize),
+    armourValue: normalizeStatValue(value.armourValue),
+    equipment: normalizeStringArray(value.equipment),
+    specialRules: normalizeStringArray(value.specialRules),
+  };
 
-  const idValue = toOptionalString((value as Record<string, unknown>).id);
+  const idValue = toOptionalString(value.id);
   if (idValue) line.id = idValue;
 
   const aliases = normalizeStringArray(value.aliases);
@@ -135,63 +150,77 @@ const normalizeLine = (value: unknown): UnitStatLine | null => {
   if (profiles) {
     line.profiles = profiles;
     const hasPrimaryStats = STAT_FIELD_KEYS.some((key) => line[key] !== null);
-    if (!hasPrimaryStats) {
-      const firstProfile = profiles[0];
-      if (firstProfile) {
-        STAT_FIELD_KEYS.forEach((key) => {
-          if (line[key] === null && firstProfile[key] !== null) {
-            line[key] = firstProfile[key];
-          }
-        });
-      }
+    if (!hasPrimaryStats && profiles[0]) {
+      fillMissingStatsFromProfile(line, profiles[0]);
     }
   }
 
-  const mountIds = normalizeStringArray((value as Record<string, unknown>).mountIds);
+  const mountIds = normalizeStringArray(value.mountIds);
   if (mountIds) line.mountIds = mountIds;
 
   return line;
 };
 
+const getEntries = (payload: unknown): unknown[] => {
+  if (Array.isArray(payload)) return payload;
+  if (isRecord(payload) && Array.isArray((payload as RawUnitCollection).units)) {
+    return (payload as RawUnitCollection).units as unknown[];
+  }
+  return [];
+};
+
 const normalizeUnitStats = (payload: unknown): UnitStatLine[] => {
-  const entries: unknown[] | undefined = Array.isArray(payload)
-    ? payload
-    : isRecord(payload) && Array.isArray((payload as RawUnitCollection).units)
-    ? ((payload as RawUnitCollection).units as unknown[])
-    : undefined;
-
-  if (!entries) return [];
-
-  return entries
+  return getEntries(payload)
     .map((entry) => normalizeLine(entry))
     .filter((line): line is UnitStatLine => line !== null);
 };
 
-export const UNIT_STATS_BY_ARMY: ArmyUnitStats = {
-  "beastmen-brayherds": normalizeUnitStats(beastmen),
-  "kingdom-of-bretonnia": normalizeUnitStats(bretonnia),
-  "chaos-dwarfs": normalizeUnitStats(chaosDwarfs),
-  "daemons-of-chaos": normalizeUnitStats(daemonsOfChaos),
-  "dark-elves": normalizeUnitStats(darkElves),
-  "dwarfen-mountain-holds": normalizeUnitStats(dwarfen),
-  "empire-of-man": normalizeUnitStats(empire),
-  "grand-cathay": normalizeUnitStats(grandCathay),
-  "high-elf-realms": normalizeUnitStats(highElfRealms),
-  lizardmen: normalizeUnitStats(lizardmen),
-  "ogre-kingdoms": normalizeUnitStats(ogreKingdoms),
-  "orc-and-goblin-tribes": normalizeUnitStats(orcAndGoblins),
-  skaven: normalizeUnitStats(skaven),
-  "tomb-kings-of-khemri": normalizeUnitStats(tombKings),
-  "vampire-counts": normalizeUnitStats(vampireCounts),
-  "warriors-of-chaos": normalizeUnitStats(warriorsOfChaos),
-  "wood-elf-realms": normalizeUnitStats(woodElves),
+const RAW_STATS_BY_ARMY: RawStatsByArmy = {
+  "beastmen-brayherds": beastmen,
+  "kingdom-of-bretonnia": bretonnia,
+  "chaos-dwarfs": chaosDwarfs,
+  "daemons-of-chaos": daemonsOfChaos,
+  "dark-elves": darkElves,
+  "dwarfen-mountain-holds": dwarfen,
+  "empire-of-man": empire,
+  "grand-cathay": grandCathay,
+  "high-elf-realms": highElfRealms,
+  lizardmen,
+  "ogre-kingdoms": ogreKingdoms,
+  "orc-and-goblin-tribes": orcAndGoblins,
+  skaven,
+  "tomb-kings-of-khemri": tombKings,
+  "vampire-counts": vampireCounts,
+  "warriors-of-chaos": warriorsOfChaos,
+  "wood-elf-realms": woodElves,
 };
+
+const normalizeArmyStats = (rawStats: RawStatsByArmy): ArmyUnitStats =>
+  Object.entries(rawStats).reduce<ArmyUnitStats>((acc, [armyId, payload]) => {
+    acc[armyId] = normalizeUnitStats(payload);
+    return acc;
+  }, {} as ArmyUnitStats);
+
+export const UNIT_STATS_BY_ARMY: ArmyUnitStats = normalizeArmyStats(RAW_STATS_BY_ARMY);
 
 export const AVAILABLE_STATS_ARMIES = Object.keys(UNIT_STATS_BY_ARMY);
 
+const STATS_ARMY_ALIASES: Record<string, string[]> = {
+  beastmen: ["beastmen-brayherds"],
+  "orc-goblin-tribes": ["orc-and-goblin-tribes"],
+};
+
+const resolveStatsArmyId = (armyId: string | null | undefined): string | null => {
+  if (!armyId) return null;
+  if (UNIT_STATS_BY_ARMY[armyId]) return armyId;
+  const aliasMatch = STATS_ARMY_ALIASES[armyId]?.find((candidate) => UNIT_STATS_BY_ARMY[candidate]);
+  return aliasMatch ?? null;
+};
+
 export const getArmyUnitStats = (armyId: string | null | undefined): UnitStatLine[] | undefined => {
-  if (!armyId) return undefined;
-  return UNIT_STATS_BY_ARMY[armyId] ?? undefined;
+  const resolved = resolveStatsArmyId(armyId);
+  if (!resolved) return undefined;
+  return UNIT_STATS_BY_ARMY[resolved];
 };
 
 const NORMALIZE_REGEX = /[^a-z0-9]/g;
@@ -210,30 +239,29 @@ const registerKey = (map: Map<string, UnitStatLine>, key: string, line: UnitStat
   map.set(key, line);
 };
 
+const registerNames = (
+  map: Map<string, UnitStatLine>,
+  line: UnitStatLine,
+  names: Array<string | undefined>
+) => {
+  names.forEach((name) => {
+    if (!name) return;
+    const key = normalizeUnitStatKey(name);
+    if (key) registerKey(map, key, line);
+  });
+};
+
 export const buildUnitStatIndex = (stats: UnitStatLine[] | undefined) => {
   const map = new Map<string, UnitStatLine>();
   if (!stats) return map;
 
   stats.forEach((line) => {
-    const rawName = typeof line.unit === "string" ? line.unit : line.name;
-    if (!rawName || typeof rawName !== "string") return;
-    const primaryKey = normalizeUnitStatKey(rawName);
-    if (!primaryKey) return;
-    registerKey(map, primaryKey, line);
-
-    if (line.id) {
-      const idKey = normalizeUnitStatKey(line.id);
-      if (idKey) registerKey(map, idKey, line);
-    }
-
-    if (Array.isArray(line.aliases)) {
-      line.aliases.forEach((alias) => {
-        if (typeof alias !== "string" || alias.trim().length === 0) return;
-        const aliasKey = normalizeUnitStatKey(alias);
-        if (!aliasKey) return;
-        registerKey(map, aliasKey, line);
-      });
-    }
+    registerNames(map, line, [
+      typeof line.unit === "string" ? line.unit : line.name,
+      line.name,
+      line.id,
+      ...(line.aliases ?? []),
+    ]);
   });
 
   return map;

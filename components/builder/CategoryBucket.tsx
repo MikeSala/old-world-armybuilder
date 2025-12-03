@@ -1,5 +1,6 @@
 "use client";
 
+import * as React from "react";
 import type { CategoryKey } from "@/lib/data/domain/types/categories";
 
 import { CategoryConfigurator } from "./category/CategoryConfigurator";
@@ -30,6 +31,23 @@ export default function CategoryBuckets({ totals, onAddClick, dict, className }:
     onAddClick,
     dict,
   });
+  const configuratorRef = React.useRef<HTMLElement | null>(null);
+
+  const scrollConfiguratorToAnchor = React.useCallback((anchor?: HTMLElement | null) => {
+    if (!anchor || !configuratorRef.current || typeof window === "undefined") return;
+    const delta =
+      anchor.getBoundingClientRect().top - configuratorRef.current.getBoundingClientRect().top;
+    if (Math.abs(delta) < 4) return;
+    window.scrollBy({ top: delta, behavior: "smooth" });
+  }, []);
+
+  const handleToggleCategory = React.useCallback(
+    (category: CategoryKey, anchor?: HTMLElement | null) => {
+      onToggleCategory(category, anchor);
+      scrollConfiguratorToAnchor(anchor);
+    },
+    [onToggleCategory, scrollConfiguratorToAnchor]
+  );
 
   const categoryGridClass =
     "grid gap-6 text-amber-100 lg:grid-cols-[minmax(0,440px)_minmax(0,1fr)] lg:items-start";
@@ -45,11 +63,11 @@ export default function CategoryBuckets({ totals, onAddClick, dict, className }:
             activeCategory={activeCategory}
             entriesByCategory={entriesByCategory}
             dict={dict}
-            onToggleCategory={onToggleCategory}
+            onToggleCategory={handleToggleCategory}
             onEntrySelect={onEditEntry}
             selectedEntryId={editingEntryId}
           />
-          <CategoryConfigurator dict={dict} selection={selection} />
+          <CategoryConfigurator ref={configuratorRef} dict={dict} selection={selection} />
         </div>
       )}
     </div>
