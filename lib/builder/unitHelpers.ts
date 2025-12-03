@@ -1,4 +1,4 @@
-import type { ArmyUnit } from "@/lib/store/selectors/catalog";
+import type { NormalizedArmyUnit as ArmyUnit } from "@/lib/data/catalog/types";
 
 export type OptionSourceKey = "command" | "equipment" | "armor" | "options" | "mounts";
 

@@ -20,7 +20,10 @@ const editSlugByLocale = locales.reduce<Record<Locale, string>>(
 );
 
 type PageProps = {
-  params: Promise<Record<string, unknown>>;
+  params: Promise<{
+    locale?: string;
+    slug?: string | string[];
+  }>;
 };
 
 export function generateStaticParams() {
@@ -31,9 +34,7 @@ export function generateStaticParams() {
 }
 
 export default async function RosterEditPage({ params }: PageProps) {
-  const resolvedParams = await params;
-  const rawLocale = resolvedParams?.locale;
-  const rawSlug = resolvedParams?.slug;
+  const { locale: rawLocale, slug: rawSlug } = await params;
 
   const locale: Locale =
     typeof rawLocale === "string" && locales.includes(rawLocale as Locale)
