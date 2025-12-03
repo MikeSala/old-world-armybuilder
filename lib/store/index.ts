@@ -2,8 +2,9 @@
 import { configureStore, combineReducers } from "@reduxjs/toolkit";
 import { persistStore, persistReducer } from "redux-persist";
 import storage from "redux-persist/lib/storage";
-import rosterReducer from "./slices/rosterSlice";
+
 import catalogReducer from "./slices/catalogSlice";
+import rosterReducer from "./slices/rosterSlice";
 
 const rootPersistConfig = {
   key: "wab",

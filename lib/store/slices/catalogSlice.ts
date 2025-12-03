@@ -1,12 +1,13 @@
 import { createSlice, type PayloadAction } from "@reduxjs/toolkit";
-import { ARMY_UNIT_DATA, DEFAULT_ARMY_ID, type ArmyUnitsRaw } from "@/lib/data/catalog/armyData";
+import { ARMY_UNIT_DATA, DEFAULT_ARMY_ID } from "@/lib/data/catalog/armyData";
+import type { NormalizedArmyUnits } from "@/lib/data/catalog/types";
 
 type CatalogState = {
   armyId: string;
-  raw: ArmyUnitsRaw;
+  raw: NormalizedArmyUnits;
 };
 
-const getArmyData = (armyId: string | null | undefined): ArmyUnitsRaw => {
+const getArmyData = (armyId: string | null | undefined): NormalizedArmyUnits => {
   if (!armyId) return ARMY_UNIT_DATA[DEFAULT_ARMY_ID];
   return ARMY_UNIT_DATA[armyId] ?? ARMY_UNIT_DATA[DEFAULT_ARMY_ID];
 };

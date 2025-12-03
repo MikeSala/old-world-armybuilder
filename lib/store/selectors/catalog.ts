@@ -2,20 +2,10 @@ import { createSelector } from "@reduxjs/toolkit";
 import type { RootState } from "@/lib/store";
 import { catalogInitialState } from "@/lib/store/slices/catalogSlice";
 import { rosterInitialState } from "@/lib/store/slices/rosterSlice";
-import type { ArmyUnitsRaw } from "@/lib/data/catalog/armyData";
 import type { CategoryKey } from "@/lib/data/domain/types/categories";
+import type { NormalizedArmyUnits, NormalizedArmyUnit } from "@/lib/data/catalog/types";
 
-type ArmyUnit = {
-  id?: string;
-  name_en?: string;
-  points?: number;
-  armyComposition?: Record<string, { category?: string } | undefined>;
-  [key: string]: unknown;
-};
-
-type UnitsByCategory = Record<CategoryKey, ArmyUnit[]>;
-
-const CATEGORY_FIELD_MAP: Record<CategoryKey, keyof ArmyUnitsRaw> = {
+const CATEGORY_FIELD_MAP: Record<CategoryKey, CategoryKey> = {
   characters: "characters",
   core: "core",
   special: "special",
@@ -58,22 +48,20 @@ const isUnitAllowedForComposition = (
 
 export const selectUnitsByCategory = createSelector(
   [selectCatalogRaw, selectRosterDraft],
-  (raw: ArmyUnitsRaw, rosterDraft): UnitsByCategory => {
+  (raw: NormalizedArmyUnits, rosterDraft): Record<CategoryKey, NormalizedArmyUnit[]> => {
     const compositionId = rosterDraft?.compositionId ?? null;
     const armyId = rosterDraft?.armyId ?? null;
     const rawCandidates = [compositionId, armyId].filter((id): id is string => Boolean(id));
     const candidates = expandArmyCandidates(rawCandidates);
 
-    const result = {} as UnitsByCategory;
+    const result = {} as Record<CategoryKey, NormalizedArmyUnit[]>;
 
     (Object.keys(CATEGORY_FIELD_MAP) as CategoryKey[]).forEach((categoryKey) => {
       const field = CATEGORY_FIELD_MAP[categoryKey];
-      const units = ((raw as Record<string, unknown>)[field] as ArmyUnit[] | undefined) ?? [];
+      const units = ((raw as Record<string, unknown>)[field] as NormalizedArmyUnit[] | undefined) ?? [];
       result[categoryKey] = units.filter((unit) => isUnitAllowedForComposition(unit, candidates));
     });
 
     return result;
   }
 );
-
-export type { ArmyUnit, UnitsByCategory };
