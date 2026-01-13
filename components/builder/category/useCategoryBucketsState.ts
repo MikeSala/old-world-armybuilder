@@ -135,8 +135,8 @@ export function useCategoryBucketsState({
   const activeUnit = activeUnitInfo?.unit ?? null;
 
   const optionGroups = React.useMemo(
-    () => (activeUnit ? extractOptionGroups(activeUnit) : []),
-    [activeUnit]
+    () => (activeUnit ? extractOptionGroups(activeUnit, dict) : []),
+    [activeUnit, dict]
   );
 
   const minUnitSize = React.useMemo(() => {

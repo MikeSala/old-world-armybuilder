@@ -12,6 +12,7 @@ import {
   type UnitStatLine,
   type StatValue,
 } from "@/lib/data/domain/units/units-stats";
+import { resolveOptionGroupKey, type OptionGroupKey } from "@/lib/utils/rosterFormatting";
 
 const selectDraft = (state: RootState) => state.roster?.draft ?? rosterInitialState.draft;
 
@@ -25,7 +26,13 @@ export type RosterEntryWithStats = NormalizedRosterEntry & {
 const STAT_FIELD_KEYS = ["M", "WS", "BS", "S", "T", "W", "I", "A", "Ld"] as const;
 type StatKey = (typeof STAT_FIELD_KEYS)[number];
 
-const SUMMARY_GROUP_ORDER = ["Command", "Weapons", "Armour", "Mounts", "Options"] as const;
+const SUMMARY_GROUP_ORDER: OptionGroupKey[] = [
+  "command",
+  "equipment",
+  "armor",
+  "mounts",
+  "options",
+];
 
 const extractStatValues = (
   source: Partial<Record<StatKey, StatValue>> | null | undefined
@@ -56,9 +63,15 @@ export type RosterUnitStatRow = {
   values: Record<StatKey, StatValue | undefined>;
 };
 
+export type RosterUnitOptionSummaryItem = {
+  id?: string;
+  name: string;
+  note?: string;
+};
+
 export type RosterUnitOptionSummary = {
   group: string;
-  items: string[];
+  items: RosterUnitOptionSummaryItem[];
   cost: number;
 };
 
@@ -69,6 +82,7 @@ export type RosterUnitMetaRow = {
 
 export type RosterUnitDetail = {
   id: string;
+  unitId: string;
   name: string;
   totalPoints: number;
   basePoints: number;
@@ -86,16 +100,24 @@ export type RosterUnitDetail = {
 const buildOptionSummaries = (entry: NormalizedRosterEntry): RosterUnitOptionSummary[] => {
   const grouped = new Map<string, RosterUnitOptionSummary>();
   entry.options.forEach((option) => {
-    const group =
-      typeof option.group === "string" && option.group.trim().length > 0 ? option.group : "";
-    const bucket =
-      grouped.get(group) ?? grouped.set(group, { group, items: [], cost: 0 }).get(group)!;
-    if (option.name) bucket.items.push(option.name);
+    const rawGroup = typeof option.group === "string" ? option.group : "";
+    const groupKey = resolveOptionGroupKey(rawGroup);
+    const group = groupKey ?? rawGroup.trim();
+    const bucket = grouped.get(group) ?? grouped.set(group, { group, items: [], cost: 0 }).get(group)!;
+    if (option.name) {
+      bucket.items.push({
+        id: option.sourceId,
+        name: option.name,
+        note: option.note,
+      });
+    }
     bucket.cost += option.points ?? 0;
   });
   return Array.from(grouped.values()).sort((a, b) => {
-    const aIdx = SUMMARY_GROUP_ORDER.indexOf(a.group as typeof SUMMARY_GROUP_ORDER[number]);
-    const bIdx = SUMMARY_GROUP_ORDER.indexOf(b.group as typeof SUMMARY_GROUP_ORDER[number]);
+    const aKey = resolveOptionGroupKey(a.group);
+    const bKey = resolveOptionGroupKey(b.group);
+    const aIdx = aKey ? SUMMARY_GROUP_ORDER.indexOf(aKey) : -1;
+    const bIdx = bKey ? SUMMARY_GROUP_ORDER.indexOf(bKey) : -1;
     const safeA = aIdx === -1 ? SUMMARY_GROUP_ORDER.length : aIdx;
     const safeB = bIdx === -1 ? SUMMARY_GROUP_ORDER.length : bIdx;
     return safeA - safeB;
@@ -230,6 +252,7 @@ const buildUnitDetail = (entry: RosterEntryWithStats): RosterUnitDetail => {
 
   return {
     id: entry.id,
+    unitId: entry.unitId,
     name: entry.name,
     totalPoints: entry.totalPoints,
     basePoints: entry.basePoints,
@@ -332,7 +355,8 @@ export const selectRosterDetailView = createSelector([selectDraft], (draft): Ros
       .filter(
         (option) =>
           typeof option.group === "string" &&
-          option.group.toLowerCase().includes("mount") &&
+          (option.group.toLowerCase().includes("mount") ||
+            option.group.toLowerCase().includes("wierzch")) &&
           (typeof option.name === "string" || typeof option.id === "string")
       )
       .forEach((option) => {

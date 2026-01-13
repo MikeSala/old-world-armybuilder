@@ -4,17 +4,19 @@ import { persistStore, persistReducer } from "redux-persist";
 import storage from "redux-persist/lib/storage";
 
 import catalogReducer from "./slices/catalogSlice";
+import clipboardReducer from "./slices/clipboardSlice";
 import rosterReducer from "./slices/rosterSlice";
 
 const rootPersistConfig = {
   key: "wab",
   storage,
-  whitelist: ["roster"],
+  whitelist: ["roster", "clipboard"],
 };
 
 const rootReducer = combineReducers({
   roster: rosterReducer,
   catalog: catalogReducer,
+  clipboard: clipboardReducer,
 });
 
 const persistedReducer = persistReducer(rootPersistConfig, rootReducer);

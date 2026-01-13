@@ -6,12 +6,15 @@ import type { CategoryKey } from "@/lib/data/domain/types/categories";
 import { CategoryEntryList } from "./CategoryEntryList";
 import { CategorySummaryCard } from "./CategorySummaryCard";
 import type { CategorySection, Dict, EntriesByCategory } from "./types";
+import type { OptionLabelByUnitId } from "@/lib/builder/unitHelpers";
 
 type Props = {
   sections: CategorySection[];
   activeCategory: CategoryKey | null;
   entriesByCategory: EntriesByCategory;
   dict: Dict;
+  unitLabelById?: Map<string, string>;
+  optionLabelByUnitId?: OptionLabelByUnitId;
   onToggleCategory: (key: CategoryKey, anchor?: HTMLElement | null) => void;
   onEntrySelect?: (entryId: string) => void;
   selectedEntryId?: string | null;
@@ -22,6 +25,8 @@ type ItemProps = {
   activeCategory: CategoryKey | null;
   entriesByCategory: EntriesByCategory;
   dict: Dict;
+  unitLabelById?: Map<string, string>;
+  optionLabelByUnitId?: OptionLabelByUnitId;
   onToggleCategory: (key: CategoryKey, anchor?: HTMLElement | null) => void;
   onEntrySelect?: (entryId: string) => void;
   selectedEntryId?: string | null;
@@ -32,6 +37,8 @@ function CategorySummaryItem({
   activeCategory,
   entriesByCategory,
   dict,
+  unitLabelById,
+  optionLabelByUnitId,
   onToggleCategory,
   onEntrySelect,
   selectedEntryId,
@@ -56,6 +63,8 @@ function CategorySummaryItem({
             <CategoryEntryList
               entries={categoryEntries}
               dict={dict}
+              unitLabelById={unitLabelById}
+              optionLabelByUnitId={optionLabelByUnitId}
               onSelect={
                 onEntrySelect
                   ? (entry) => {
@@ -93,6 +102,8 @@ export function CategorySummaryPanel({
   activeCategory,
   entriesByCategory,
   dict,
+  unitLabelById,
+  optionLabelByUnitId,
   onToggleCategory,
   onEntrySelect,
   selectedEntryId,
@@ -106,6 +117,8 @@ export function CategorySummaryPanel({
           activeCategory={activeCategory}
           entriesByCategory={entriesByCategory}
           dict={dict}
+          unitLabelById={unitLabelById}
+          optionLabelByUnitId={optionLabelByUnitId}
           onToggleCategory={onToggleCategory}
           onEntrySelect={onEntrySelect}
           selectedEntryId={selectedEntryId}

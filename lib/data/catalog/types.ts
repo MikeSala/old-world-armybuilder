@@ -10,6 +10,10 @@ export type ArmyCompositionMap = Record<string, ArmyCompositionRule | undefined>
 export type ArmyUnitOption = {
   id?: string;
   name_en?: string;
+  name_de?: string;
+  name_fr?: string;
+  name_es?: string;
+  name_pl?: string;
   name?: string;
   points?: number;
   perModel?: boolean;
@@ -23,6 +27,10 @@ export type ArmyUnitOption = {
 export type ArmyUnit = {
   id?: string;
   name_en?: string;
+  name_de?: string;
+  name_fr?: string;
+  name_es?: string;
+  name_pl?: string;
   name?: string;
   points?: number;
   armyComposition?: ArmyCompositionMap;
@@ -42,6 +50,10 @@ export type ArmyUnitsRaw = Partial<Record<CategoryKey, ArmyUnit[]>> & Record<str
 export type NormalizedArmyUnitOption = {
   id: string;
   name: string;
+  name_de?: string;
+  name_fr?: string;
+  name_es?: string;
+  name_pl?: string;
   points: number;
   perModel: boolean;
   active: boolean;
@@ -55,7 +67,11 @@ export type NormalizedArmyUnitOption = {
 export type NormalizedArmyUnit = {
   id: string;
   name_en: string;
+  name_de?: string;
+  name_fr?: string;
+  name_es?: string;
   name?: string;
+  name_pl?: string;
   points: number;
   armyComposition?: ArmyCompositionMap;
   command: NormalizedArmyUnitOption[];

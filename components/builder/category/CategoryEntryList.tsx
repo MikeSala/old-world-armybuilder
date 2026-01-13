@@ -1,25 +1,43 @@
 import { clsx } from "clsx";
 
+import type { OptionLabelByUnitId } from "@/lib/builder/unitHelpers";
 import type { RosterEntry } from "@/lib/store/slices/rosterSlice";
+import { translateNameForDict, translateTextForDict } from "@/lib/i18n/translateLocale";
 
 import type { Dict } from "./types";
 
 type Props = {
   entries: RosterEntry[];
   dict: Dict;
+  unitLabelById?: Map<string, string>;
+  optionLabelByUnitId?: OptionLabelByUnitId;
   onSelect?: (entry: RosterEntry) => void;
   activeEntryId?: string | null;
 };
 
-export function CategoryEntryList({ entries, dict, onSelect, activeEntryId }: Props) {
+export function CategoryEntryList({
+  entries,
+  dict,
+  unitLabelById,
+  optionLabelByUnitId,
+  onSelect,
+  activeEntryId,
+}: Props) {
   if (entries.length === 0) return null;
 
   return (
     <ul className="flex w-full flex-col gap-2">
       {entries.map((entry) => {
+        const optionMap = optionLabelByUnitId?.get(entry.unitId);
         const optionNames = entry.options
-          .map((opt) => opt.name)
+          .map((opt) => {
+            const optionInfo = opt.sourceId ? optionMap?.get(opt.sourceId) : null;
+            if (optionInfo?.label) return optionInfo.label;
+            return opt.name ? translateTextForDict(opt.name, dict) : opt.name;
+          })
           .filter((name): name is string => Boolean(name && name.trim().length > 0));
+        const unitName =
+          unitLabelById?.get(entry.unitId) ?? translateNameForDict(entry.name, dict);
         const unitSummary =
           entry.unitSize > 1
             ? dict.categoryEntryMultipleModels.replace("{count}", String(entry.unitSize))
@@ -57,7 +75,7 @@ export function CategoryEntryList({ entries, dict, onSelect, activeEntryId }: Pr
             }}
           >
             <div className="flex items-baseline justify-between gap-3">
-              <span className="text-sm font-semibold text-amber-100">{entry.name}</span>
+              <span className="text-sm font-semibold text-amber-100">{unitName}</span>
               <span className="text-xs font-semibold uppercase tracking-wide text-amber-200/80">
                 {totalPointsLabel}
               </span>

@@ -6,6 +6,7 @@ export type TotalsByCategory = Partial<Record<CategoryKey, number>>;
 
 export type Dict = Pick<
   LocaleDictionary,
+  | "localeName"
   | "categoryAddLabel"
   | "categoryPtsAvailable"
   | "categoryPtsMissing"
@@ -29,6 +30,10 @@ export type Dict = Pick<
   | "categoryLockedNoticeDescription"
   | "categoryConfiguratorPrompt"
   | "categoryOptionsDefaultLabel"
+  | "categoryOptionGroupCommandLabel"
+  | "categoryOptionGroupEquipmentLabel"
+  | "categoryOptionGroupArmorLabel"
+  | "categoryOptionGroupMountsLabel"
   | "categoryEditTitle"
   | "categoryUnitSizeLabel"
   | "categoryUnitPointsPerModel"

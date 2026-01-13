@@ -189,21 +189,20 @@ export const buildSelectedOptions = (
 ): SelectedOption[] =>
   groups.flatMap((group) => {
     const selectedIds = selections[group.id] ?? [];
-    return selectedIds
-      .map((selectedId) => {
-        const option = group.options.find((opt) => opt.id === selectedId);
-        if (!option) return null;
-        const totalPoints = option.points * (option.perModel ? unitSize : 1);
-        return {
-          id: `${group.id}-${option.id}`,
-          name: option.label,
-          points: totalPoints,
-          group: group.title,
-          note: option.note,
-          perModel: option.perModel,
-          baseCost: option.points,
-          sourceId: option.id,
-        };
-      })
-      .filter((opt): opt is SelectedOption => opt !== null);
+    return selectedIds.reduce<SelectedOption[]>((acc, selectedId) => {
+      const option = group.options.find((opt) => opt.id === selectedId);
+      if (!option) return acc;
+      const totalPoints = option.points * (option.perModel ? unitSize : 1);
+      acc.push({
+        id: `${group.id}-${option.id}`,
+        name: option.label,
+        points: totalPoints,
+        group: group.groupKey,
+        note: option.note,
+        perModel: option.perModel,
+        baseCost: option.points,
+        sourceId: option.id,
+      });
+      return acc;
+    }, []);
   });

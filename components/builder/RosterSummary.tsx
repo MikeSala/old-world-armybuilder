@@ -9,10 +9,12 @@ import RosterDetailSheet from "@/components/builder/RosterDetailSheet";
 import RosterExportControls from "@/components/builder/RosterExportControls";
 import { RosterSummaryList } from "@/components/builder/RosterSummaryList";
 import { useRosterExport } from "@/components/builder/hooks/useRosterExport";
+import { buildOptionLabelByUnitId, buildUnitLabelById } from "@/lib/builder/unitHelpers";
 import type { CategoryKey } from "@/lib/data/domain/types/categories";
 import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
 import type { RootState, AppDispatch } from "@/lib/store";
 import { normalizeRosterEntry, type RosterEntry } from "@/lib/roster/normalizeEntry";
+import { selectUnitsByCategory } from "@/lib/store/selectors/catalog";
 import { selectRosterDetailView, type RosterUnitDetail } from "@/lib/store/selectors/rosterDetails";
 import { removeEntry, toggleEntryOwned } from "@/lib/store/slices/rosterSlice";
 import { buildCategoryLabels, formatPointsValue } from "@/lib/utils/rosterFormatting";
@@ -40,6 +42,7 @@ export default function RosterSummary({ dict, className }: Props) {
     (state: RootState) => state.roster.draft
   );
   const detailView = useSelector(selectRosterDetailView);
+  const unitsByCategory = useSelector(selectUnitsByCategory);
   const [expandedEntryIds, setExpandedEntryIds] = React.useState<string[]>([]);
   const {
     showDetailSheet,
@@ -68,6 +71,14 @@ export default function RosterSummary({ dict, className }: Props) {
   const isStatsAvailable = detailView.statsAvailable;
 
   const categoryLabels = React.useMemo(() => buildCategoryLabels(dict), [dict]);
+  const unitLabelById = React.useMemo(
+    () => buildUnitLabelById(unitsByCategory, dict),
+    [dict, unitsByCategory]
+  );
+  const optionLabelByUnitId = React.useMemo(
+    () => buildOptionLabelByUnitId(unitsByCategory, dict),
+    [dict, unitsByCategory]
+  );
 
   const normalizedEntries = React.useMemo(
     () => entries.map((entry) => normalizeRosterEntry(entry)),
@@ -141,6 +152,8 @@ export default function RosterSummary({ dict, className }: Props) {
                     dict={dict}
                     variant="inline"
                     triggerVariant="accent"
+                    unitLabelById={unitLabelById}
+                    optionLabelByUnitId={optionLabelByUnitId}
                     onPdfExport={(fileName) => handlePdfExport(fileName ?? buildPdfFilename(name))}
                     pdfExporting={pdfExporting}
                     onPrintExport={handlePrintExport}
@@ -165,6 +178,8 @@ export default function RosterSummary({ dict, className }: Props) {
               categoryLabels={categoryLabels}
               detailByEntryId={detailByEntryId}
               expandedEntryIds={expandedEntryIds}
+              unitLabelById={unitLabelById}
+              optionLabelByUnitId={optionLabelByUnitId}
               onToggleDetails={toggleEntryDetails}
               onRemoveEntry={handleRemoveEntry}
               onToggleOwned={handleOwnedChange}
@@ -187,7 +202,12 @@ export default function RosterSummary({ dict, className }: Props) {
                 <Dialog.Description className="sr-only">
                   {dict.rosterDetailEmptyMessage}
                 </Dialog.Description>
-                <RosterDetailSheet dict={dict} onClose={closeDetailSheet} />
+                <RosterDetailSheet
+                  dict={dict}
+                  unitLabelById={unitLabelById}
+                  optionLabelByUnitId={optionLabelByUnitId}
+                  onClose={closeDetailSheet}
+                />
               </div>
             </Dialog.Content>
           </>

@@ -1,8 +1,11 @@
 "use client";
 
 import * as React from "react";
+import { useSelector } from "react-redux";
 import type { CategoryKey } from "@/lib/data/domain/types/categories";
 
+import { buildOptionLabelByUnitId, buildUnitLabelById } from "@/lib/builder/unitHelpers";
+import { selectUnitsByCategory } from "@/lib/store/selectors/catalog";
 import { CategoryConfigurator } from "./category/CategoryConfigurator";
 import { CategoryLockedNotice } from "./category/CategoryLockedNotice";
 import { CategorySummaryPanel } from "./category/CategorySummaryPanel";
@@ -17,6 +20,15 @@ type Props = {
 };
 
 export default function CategoryBuckets({ totals, onAddClick, dict, className }: Props) {
+  const unitsByCategory = useSelector(selectUnitsByCategory);
+  const unitLabelById = React.useMemo(
+    () => buildUnitLabelById(unitsByCategory, dict),
+    [dict, unitsByCategory]
+  );
+  const optionLabelByUnitId = React.useMemo(
+    () => buildOptionLabelByUnitId(unitsByCategory, dict),
+    [dict, unitsByCategory]
+  );
   const {
     isRosterReady,
     sections,
@@ -63,6 +75,8 @@ export default function CategoryBuckets({ totals, onAddClick, dict, className }:
             activeCategory={activeCategory}
             entriesByCategory={entriesByCategory}
             dict={dict}
+            unitLabelById={unitLabelById}
+            optionLabelByUnitId={optionLabelByUnitId}
             onToggleCategory={handleToggleCategory}
             onEntrySelect={onEditEntry}
             selectedEntryId={editingEntryId}

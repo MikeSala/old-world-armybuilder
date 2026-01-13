@@ -1,175 +1,177 @@
+import type { DataKey } from "@/lib/i18n/data";
+
 // minimalny kształt danych — zero skomplikowania
 export type Army = {
   id: string;
-  name: string;
-  compositions?: { id: string; name: string }[];
+  nameKey: DataKey;
+  compositions?: { id: string; nameKey: DataKey }[];
 };
 
 export type ArmyRule = {
   id: string;
-  name: string;
+  nameKey: DataKey;
 };
 
 export const ARMY_RULES: ArmyRule[] = [
-  { id: "open-war", name: "Open War" },
-  { id: "grand-melee", name: "Grand Melee" },
-  { id: "combined-arms", name: "Combined Arms" },
-  { id: "hybrid", name: "Grand Melee + Combined Arms" },
-  { id: "battle-march", name: "Battle March" },
+  { id: "open-war", nameKey: "armyRule.open-war" },
+  { id: "grand-melee", nameKey: "armyRule.grand-melee" },
+  { id: "combined-arms", nameKey: "armyRule.combined-arms" },
+  { id: "hybrid", nameKey: "armyRule.hybrid" },
+  { id: "battle-march", nameKey: "armyRule.battle-march" },
 ];
 
 export const ARMIES: Army[] = [
   {
     id: "beastmen",
-    name: "Beastmen Brayherds",
+    nameKey: "army.beastmen",
     compositions: [
-      { id: "grand-army", name: "Grand Army" },
-      { id: "minotaur-blood-herd", name: "Minotaur Blood Herd" },
-      { id: "wild-herd", name: "Wild Herd" },
+      { id: "grand-army", nameKey: "composition.grand-army" },
+      { id: "minotaur-blood-herd", nameKey: "composition.minotaur-blood-herd" },
+      { id: "wild-herd", nameKey: "composition.wild-herd" },
     ],
   },
   {
     id: "chaos-dwarfs",
-    name: "Chaos Dwarfs",
+    nameKey: "army.chaos-dwarfs",
     compositions: [
-      { id: "grand-army", name: "Grand Army" },
-      { id: "renegade", name: "Renegade" },
+      { id: "grand-army", nameKey: "composition.grand-army" },
+      { id: "renegade", nameKey: "composition.renegades" },
     ],
   },
   {
     id: "daemons-of-chaos",
-    name: "Daemons of Chaos",
+    nameKey: "army.daemons-of-chaos",
     compositions: [
-      { id: "grand-army", name: "Grand Army" },
-      { id: "renegade", name: "Renegade" },
+      { id: "grand-army", nameKey: "composition.grand-army" },
+      { id: "renegade", nameKey: "composition.renegades" },
     ],
   },
   {
     id: "dark-elves",
-    name: "Dark Elves",
+    nameKey: "army.dark-elves",
     compositions: [
-      { id: "grand-army", name: "Grand Army" },
-      { id: "renegade", name: "Renegade" },
+      { id: "grand-army", nameKey: "composition.grand-army" },
+      { id: "renegade", nameKey: "composition.renegades" },
     ],
   },
   {
     id: "dwarfen-mountain-holds",
-    name: "Dwarfen Mountain Holds",
+    nameKey: "army.dwarfen-mountain-holds",
     compositions: [
-      { id: "grand-army", name: "Grand Army" },
-      { id: "royal-clan", name: "Royal Clan" },
-      { id: "expeditionary-force", name: "Expeditionary Force" },
-      { id: "slayer-host", name: "Slayer Host" },
+      { id: "grand-army", nameKey: "composition.grand-army" },
+      { id: "royal-clan", nameKey: "composition.royal-clan" },
+      { id: "expeditionary-force", nameKey: "composition.expeditionary-force" },
+      { id: "slayer-host", nameKey: "composition.slayer-host" },
     ],
   },
 
   {
     id: "empire-of-man",
-    name: "Empire of Man",
+    nameKey: "army.empire-of-man",
     compositions: [
-      { id: "core", name: "Armia podstawowa" },
-      { id: "nuln", name: "City-State of Nuln" },
-      { id: "knights-panther", name: "Order of the Knights Panther" },
-      { id: "white-wolf", name: "Order of the White Wolf" },
-      { id: "blazing-sun", name: "Order of the Blazing Sun" },
-      { id: "morr", name: "Order of the Knights of Morr" },
-      { id: "fiery-heart", name: "Order of the Fiery Heart" },
+      { id: "core", nameKey: "composition.core" },
+      { id: "nuln", nameKey: "composition.nuln" },
+      { id: "knights-panther", nameKey: "composition.knights-panther" },
+      { id: "white-wolf", nameKey: "composition.white-wolf" },
+      { id: "blazing-sun", nameKey: "composition.blazing-sun" },
+      { id: "morr", nameKey: "composition.morr" },
+      { id: "fiery-heart", nameKey: "composition.fiery-heart" },
     ],
   },
 
   {
     id: "grand-cathay",
-    name: "Grand Cathay",
-    compositions: [{ id: "core", name: "Armia podstawowa" }],
+    nameKey: "army.grand-cathay",
+    compositions: [{ id: "core", nameKey: "composition.core" }],
   },
   {
     id: "high-elf-realms",
-    name: "High Elf Realms",
+    nameKey: "army.high-elf-realms",
     compositions: [
-      { id: "grand-army", name: "Grand Army" },
-      { id: "chracian-warhost", name: "The Chracian Warhost" },
-      { id: "sea-guard-garrison", name: "Sea Guard Garrison" },
+      { id: "grand-army", nameKey: "composition.grand-army" },
+      { id: "chracian-warhost", nameKey: "composition.chracian-warhost" },
+      { id: "sea-guard-garrison", nameKey: "composition.sea-guard-garrison" },
     ],
   },
   {
     id: "kingdom-of-bretonnia",
-    name: "Kingdom of Bretonnia",
+    nameKey: "army.kingdom-of-bretonnia",
     compositions: [
-      { id: "grand-army", name: "Grand Army" },
-      { id: "errantry-crusades", name: "Errantry Crusades" },
-      { id: "bretonnian-exiles", name: "Bretonnian Exiles" },
+      { id: "grand-army", nameKey: "composition.grand-army" },
+      { id: "errantry-crusades", nameKey: "composition.errantry-crusades" },
+      { id: "bretonnian-exiles", nameKey: "composition.bretonnian-exiles" },
     ],
   },
   {
     id: "lizardmen",
-    name: "Lizardmen",
+    nameKey: "army.lizardmen",
     compositions: [
-      { id: "grand-army", name: "Grand Army" },
-      { id: "renegade", name: "Renegade" },
+      { id: "grand-army", nameKey: "composition.grand-army" },
+      { id: "renegade", nameKey: "composition.renegades" },
     ],
   },
   {
     id: "ogre-kingdoms",
-    name: "Ogre Kingdoms",
+    nameKey: "army.ogre-kingdoms",
     compositions: [
-      { id: "grand-army", name: "Grand Army" },
-      { id: "renegade", name: "Renegade" },
+      { id: "grand-army", nameKey: "composition.grand-army" },
+      { id: "renegade", nameKey: "composition.renegades" },
     ],
   },
   {
     id: "orc-goblin-tribes",
-    name: "Orc & Goblin Tribes",
+    nameKey: "army.orc-goblin-tribes",
     compositions: [
-      { id: "nomadic-waaagh", name: "Nomadic Waaagh!" },
-      { id: "troll-horde", name: "Troll Horde" },
+      { id: "nomadic-waaagh", nameKey: "composition.nomadic-waaagh" },
+      { id: "troll-horde", nameKey: "composition.troll-horde" },
     ],
   },
   {
     id: "renegade-crowns",
-    name: "Renegade Crowns",
-    compositions: [{ id: "grand-army", name: "Grand Army" }],
+    nameKey: "army.renegade-crowns",
+    compositions: [{ id: "grand-army", nameKey: "composition.grand-army" }],
   },
   {
     id: "skaven",
-    name: "Skaven",
+    nameKey: "army.skaven",
     compositions: [
-      { id: "grand-army", name: "Grand Army" },
-      { id: "renegade", name: "Renegade" },
+      { id: "grand-army", nameKey: "composition.grand-army" },
+      { id: "renegade", nameKey: "composition.renegades" },
     ],
   },
   {
     id: "tomb-kings-of-khemri",
-    name: "Tomb Kings of Khemri",
+    nameKey: "army.tomb-kings-of-khemri",
     compositions: [
-      { id: "grand-army", name: "Grand Army" },
-      { id: "nehekharan-royal-hosts", name: "Nehekharan Royal Hosts" },
-      { id: "mortuary-cults", name: "Mortuary Cults" },
+      { id: "grand-army", nameKey: "composition.grand-army" },
+      { id: "nehekharan-royal-hosts", nameKey: "composition.nehekharan-royal-hosts" },
+      { id: "mortuary-cults", nameKey: "composition.mortuary-cults" },
     ],
   },
   {
     id: "vampire-counts",
-    name: "Vampire Counts",
+    nameKey: "army.vampire-counts",
     compositions: [
-      { id: "grand-army", name: "Grand Army" },
-      { id: "renegade", name: "Renegade" },
+      { id: "grand-army", nameKey: "composition.grand-army" },
+      { id: "renegade", nameKey: "composition.renegades" },
     ],
   },
   {
     id: "warriors-of-chaos",
-    name: "Warriors of Chaos",
+    nameKey: "army.warriors-of-chaos",
     compositions: [
-      { id: "grand-army", name: "Grand Army" },
-      { id: "wolves-of-the-sea", name: "Wolves of the Sea" },
-      { id: "heralds-of-darkness", name: "Heralds of Darkness" },
+      { id: "grand-army", nameKey: "composition.grand-army" },
+      { id: "wolves-of-the-sea", nameKey: "composition.wolves-of-the-sea" },
+      { id: "heralds-of-darkness", nameKey: "composition.heralds-of-darkness" },
     ],
   },
   {
     id: "wood-elf-realms",
-    name: "Wood Elf Realms",
+    nameKey: "army.wood-elf-realms",
     compositions: [
-      { id: "grand-army", name: "Grand Army" },
-      { id: "orions-wild-hunt", name: "Orion’s Wild Hunt" },
-      { id: "host-of-talsyn", name: "Host of Talsyn" },
+      { id: "grand-army", nameKey: "composition.grand-army" },
+      { id: "orions-wild-hunt", nameKey: "composition.orions-wild-hunt" },
+      { id: "host-of-talsyn", nameKey: "composition.host-of-talsyn" },
     ],
   },
 ];

@@ -2,7 +2,8 @@ import * as React from "react";
 
 import { Button } from "@/components/ui/Button";
 import Select, { type SelectOption } from "@/components/ui/Select";
-import { getUnitKey, getUnitLabel } from "@/lib/builder/unitHelpers";
+import { getLocalizedUnitLabel, getUnitKey } from "@/lib/builder/unitHelpers";
+import { translateNameForDict } from "@/lib/i18n/translateLocale";
 
 import { OptionGroupSection } from "./OptionGroupSection";
 import type { Dict } from "./types";
@@ -39,12 +40,17 @@ export const CategoryConfigurator = React.forwardRef<HTMLElement, Props>(functio
     totalPoints,
     mode,
     editingEntry,
+    activeUnit,
   } = selection;
 
   const isEditing = mode === "edit";
+  const activeUnitLabel = activeUnit ? getLocalizedUnitLabel(activeUnit, dict) : null;
   const optionsTitle =
     isEditing && editingEntry
-      ? dict.categoryEditTitle.replace("{unit}", editingEntry.name)
+      ? dict.categoryEditTitle.replace(
+          "{unit}",
+          activeUnitLabel ?? translateNameForDict(editingEntry.name, dict)
+        )
       : dict.categoryOptionsDefaultLabel;
   const confirmLabel = isEditing ? dict.categoryConfirmSaveLabel : dict.categoryConfirmAddLabel;
 
@@ -61,7 +67,7 @@ export const CategoryConfigurator = React.forwardRef<HTMLElement, Props>(functio
 
   const options: SelectOption[] = units.map((unit, index) => ({
     id: getUnitKey(unit, index),
-    label: getUnitLabel(unit),
+    label: getLocalizedUnitLabel(unit, dict),
   }));
 
   if (!hasUnits) {

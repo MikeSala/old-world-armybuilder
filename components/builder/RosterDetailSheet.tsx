@@ -7,6 +7,7 @@ import { useSelector } from "react-redux";
 
 import { Button } from "@/components/ui/Button";
 import { StatTooltipLabel } from "@/components/ui/StatTooltipLabel";
+import type { OptionLabelByUnitId } from "@/lib/builder/unitHelpers";
 import type { CategoryKey } from "@/lib/data/domain/types/categories";
 import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
 import {
@@ -26,9 +27,11 @@ import {
   ROSTER_STAT_TOOLTIP_KEYS,
   renderStatValue,
 } from "@/lib/utils/rosterFormatting";
+import { translateNameForDict, translateTextForDict } from "@/lib/i18n/translateLocale";
 
 type DetailDict = Pick<
   LocaleDictionary,
+  | "localeName"
   | "rosterSummaryDefaultName"
   | "rosterDetailHeading"
   | "rosterDetailEmptyMessage"
@@ -54,6 +57,10 @@ type DetailDict = Pick<
   | "rosterDetailUnnamedUnit"
   | "categoryOptionCostFree"
   | "categoryOptionsDefaultLabel"
+  | "categoryOptionGroupCommandLabel"
+  | "categoryOptionGroupEquipmentLabel"
+  | "categoryOptionGroupArmorLabel"
+  | "categoryOptionGroupMountsLabel"
   | "rosterDetailStatsModelLabel"
   | "rosterDetailStatNameM"
   | "rosterDetailStatNameWS"
@@ -77,6 +84,8 @@ type DetailDict = Pick<
 
 type Props = {
   dict: DetailDict;
+  unitLabelById?: Map<string, string>;
+  optionLabelByUnitId?: OptionLabelByUnitId;
   onClose?: () => void;
   onPrinted?: () => void;
   className?: string;
@@ -93,6 +102,8 @@ type CategorySectionProps = {
   dict: DetailDict;
   formatPoints: (value: number | string) => string;
   category: CategorySectionData;
+  unitLabelById?: Map<string, string>;
+  optionLabelByUnitId?: OptionLabelByUnitId;
 };
 
 type RosterDetailHeaderProps = {
@@ -111,6 +122,8 @@ type UnitDetailCardProps = {
   dict: DetailDict;
   formatPoints: (value: number | string) => string;
   unit: RosterUnitDetail;
+  unitLabelById?: Map<string, string>;
+  optionLabelByUnitId?: OptionLabelByUnitId;
 };
 
 type StatsTableProps = {
@@ -122,6 +135,8 @@ type OptionSummaryListProps = {
   summaries: RosterUnitOptionSummary[];
   dict: DetailDict;
   formatPoints: (value: number | string) => string;
+  unitId: string;
+  optionLabelByUnitId?: OptionLabelByUnitId;
 };
 
 type SidebarPanelProps = {
@@ -153,10 +168,17 @@ const localizeStatLabel = (label: string, dict: DetailDict) => {
   if (profileMatch) {
     return dict.rosterDetailProfileFallback.replace("{index}", profileMatch[1]);
   }
-  return label;
+  return translateNameForDict(label, dict);
 };
 
-export default function RosterDetailSheet({ dict, onClose, onPrinted, className }: Props) {
+export default function RosterDetailSheet({
+  dict,
+  unitLabelById,
+  optionLabelByUnitId,
+  onClose,
+  onPrinted,
+  className,
+}: Props) {
   const handlePrint = React.useCallback(() => {
     if (typeof window !== "undefined") {
       window.print();
@@ -211,6 +233,8 @@ export default function RosterDetailSheet({ dict, onClose, onPrinted, className 
             dict={dict}
             formatPoints={formatPoints}
             category={category}
+            unitLabelById={unitLabelById}
+            optionLabelByUnitId={optionLabelByUnitId}
           />
         ))
       )}
@@ -292,6 +316,8 @@ function CategorySection({
   dict,
   formatPoints,
   category,
+  unitLabelById,
+  optionLabelByUnitId,
 }: CategorySectionProps) {
   const unitCount =
     category.units.length === 1
@@ -321,7 +347,14 @@ function CategorySection({
       </div>
       <div className="space-y-4 print:space-y-3">
         {category.units.map((unit) => (
-          <UnitDetailCard key={unit.id} dict={dict} formatPoints={formatPoints} unit={unit} />
+          <UnitDetailCard
+            key={unit.id}
+            dict={dict}
+            formatPoints={formatPoints}
+            unit={unit}
+            unitLabelById={unitLabelById}
+            optionLabelByUnitId={optionLabelByUnitId}
+          />
         ))}
       </div>
     </section>
@@ -332,10 +365,18 @@ function UnitDetailCard({
   dict,
   formatPoints,
   unit,
+  unitLabelById,
+  optionLabelByUnitId,
 }: UnitDetailCardProps) {
   const ownedText = unit.owned ? dict.rosterDetailOwnedYes : dict.rosterDetailOwnedNo;
+  const unitLabel = unitLabelById?.get(unit.unitId);
   const unitName =
-    unit.name && unit.name.trim().length > 0 ? unit.name : dict.rosterDetailUnnamedUnit;
+    unitLabel ??
+    (unit.name && unit.name.trim().length > 0
+      ? translateNameForDict(unit.name, dict)
+      : dict.rosterDetailUnnamedUnit);
+  const unitRole = unit.unitRole ? translateTextForDict(unit.unitRole, dict) : null;
+  const unitNotes = unit.notes ? translateTextForDict(unit.notes, dict) : null;
 
   return (
     <article className="space-y-3 rounded-xl border border-amber-400/10 bg-slate-950/60 p-4 shadow shadow-amber-900/10 print:space-y-2 print:border-gray-300 print:bg-white print:p-3 print:shadow-none print-avoid-break">
@@ -347,17 +388,17 @@ function UnitDetailCard({
               [{formatPoints(unit.totalPoints)}]
             </span>
           </h4>
-          {unit.unitRole ? (
+          {unitRole ? (
             <p className="text-xs uppercase tracking-[0.2em] text-amber-200/60 print:text-gray-500 print:text-[11px]">
-              {unit.unitRole}
+              {unitRole}
             </p>
           ) : null}
           <p className="text-xs text-amber-200/70 print:text-gray-600 print:text-[11px]">
             {formatUnitSummary(unit, dict, formatPoints)}
           </p>
-          {unit.notes ? (
+          {unitNotes ? (
             <p className="mt-1 text-xs text-amber-200/60 print:text-gray-500 print:text-[11px]">
-              {unit.notes}
+              {unitNotes}
             </p>
           ) : null}
         </div>
@@ -373,6 +414,8 @@ function UnitDetailCard({
             dict={dict}
             formatPoints={formatPoints}
             summaries={unit.optionSummaries}
+            unitId={unit.unitId}
+            optionLabelByUnitId={optionLabelByUnitId}
           />
           <StatsTable dict={dict} rows={unit.statRows} />
         </div>
@@ -386,8 +429,11 @@ function OptionSummaryList({
   summaries,
   dict,
   formatPoints,
+  unitId,
+  optionLabelByUnitId,
 }: OptionSummaryListProps) {
   if (!summaries.length) return null;
+  const optionMap = optionLabelByUnitId?.get(unitId);
   return (
     <div className="grid gap-x-3 gap-y-1 text-xs text-amber-200/80 print:text-gray-600 print:text-[11px] sm:grid-cols-[max-content_minmax(0,1fr)_max-content]">
       {summaries.map((summary, idx) => (
@@ -395,7 +441,14 @@ function OptionSummaryList({
           <span className="font-semibold text-amber-200/70 print:text-gray-900">
             {formatOptionGroupLabel(summary.group ?? "", dict)}
           </span>
-          <span className="text-amber-200/70 print:text-gray-900">{summary.items.join(", ")}</span>
+          <span className="text-amber-200/70 print:text-gray-900">
+            {summary.items
+              .map((item) => {
+                const optionInfo = item.id ? optionMap?.get(item.id) : null;
+                return optionInfo?.label ?? translateTextForDict(item.name, dict);
+              })
+              .join(", ")}
+          </span>
           <span className="text-right text-amber-200/70 print:text-gray-600">
             {summary.cost ? formatPoints(summary.cost) : dict.categoryOptionCostFree}
           </span>
@@ -464,7 +517,7 @@ function SidebarPanel({ rules, meta, dict }: SidebarPanelProps) {
           <ul className="mt-1 list-disc space-y-1 pl-5 text-amber-100 print:text-gray-900 print:space-y-0.5">
             {rules.map((rule) => (
               <li key={rule} className="print:text-xs">
-                {rule}
+                {translateTextForDict(rule, dict)}
               </li>
             ))}
           </ul>
