@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 export default function RootRedirect() {
   useEffect(() => {
-    window.location.replace("/pl");
+    window.location.replace("/pl/");
   }, []);
 
   return (
@@ -13,8 +13,8 @@ export default function RootRedirect() {
         <h1 className="text-xl font-semibold text-amber-100">Redirecting…</h1>
         <p className="text-sm text-amber-200/80">
           If you are not redirected, open{" "}
-          <a className="text-amber-100 underline hover:text-amber-200" href="/pl">
-            /pl
+          <a className="text-amber-100 underline hover:text-amber-200" href="/pl/">
+            /pl/
           </a>
           .
         </p>

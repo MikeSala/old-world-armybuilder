@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Keep locale URLs clean by forcing trailing slashes.
+  RewriteRule ^(pl|en|de|fr|es)\.html$ $1/ [R=301,L]
+  RewriteRule ^(pl|en|de|fr|es)$ $1/ [R=301,L]
+</IfModule>
