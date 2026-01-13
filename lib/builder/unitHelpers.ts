@@ -52,6 +52,8 @@ const OPTION_GROUP_DEFINITIONS: Array<{
 
 type LocaleKey = "pl" | "en" | "de" | "fr" | "es";
 
+type LocaleHint = Pick<LocaleDictionary, "localeName">;
+
 type OptionGroupDict = Pick<
   LocaleDictionary,
   | "localeName"
@@ -62,7 +64,7 @@ type OptionGroupDict = Pick<
   | "categoryOptionGroupMountsLabel"
 >;
 
-const resolveLocaleKey = (dict: LocaleDictionary): LocaleKey => {
+const resolveLocaleKey = (dict: LocaleHint | null | undefined): LocaleKey => {
   const raw = dict?.localeName?.toLowerCase();
   if (raw === "pl" || raw === "en" || raw === "de" || raw === "fr" || raw === "es") {
     return raw;
@@ -72,8 +74,8 @@ const resolveLocaleKey = (dict: LocaleDictionary): LocaleKey => {
 
 const resolveLocalizedValue = (
   values: Partial<Record<LocaleKey, string>>,
-  dict: LocaleDictionary,
-  translateFallback: (value: string, dict: LocaleDictionary) => string,
+  dict: LocaleHint,
+  translateFallback: (value: string, dict: LocaleHint) => string,
   fallback?: string
 ) => {
   const locale = resolveLocaleKey(dict);
@@ -107,7 +109,7 @@ export function getUnitLabel(unit: ArmyUnit): string {
   return "Jednostka bez nazwy";
 }
 
-export function getLocalizedUnitLabel(unit: ArmyUnit, dict: LocaleDictionary): string {
+export function getLocalizedUnitLabel(unit: ArmyUnit, dict: LocaleHint): string {
   return resolveLocalizedValue(
     {
       en: unit.name_en ?? unit.name,
@@ -122,7 +124,7 @@ export function getLocalizedUnitLabel(unit: ArmyUnit, dict: LocaleDictionary): s
   );
 }
 
-export function getLocalizedOptionLabel(option: UnitOptionItem, dict: LocaleDictionary): string {
+export function getLocalizedOptionLabel(option: UnitOptionItem, dict: LocaleHint): string {
   return resolveLocalizedValue(
     {
       en: option.label,
@@ -137,10 +139,7 @@ export function getLocalizedOptionLabel(option: UnitOptionItem, dict: LocaleDict
   );
 }
 
-export function getLocalizedOptionNote(
-  option: UnitOptionItem,
-  dict: LocaleDictionary
-): string | undefined {
+export function getLocalizedOptionNote(option: UnitOptionItem, dict: LocaleHint): string | undefined {
   const note = resolveLocalizedValue(
     {
       en: option.note,
@@ -173,7 +172,7 @@ export function getUnitNotes(unit: ArmyUnit): string | undefined {
 
 export function buildUnitLabelById(
   unitsByCategory: Partial<Record<CategoryKey, ArmyUnit[]>>,
-  dict: LocaleDictionary
+  dict: LocaleHint
 ): Map<string, string> {
   const map = new Map<string, string>();
   (Object.values(unitsByCategory) as ArmyUnit[][]).forEach((units) => {
@@ -191,7 +190,7 @@ export function buildUnitLabelById(
 
 export function buildOptionLabelByUnitId(
   unitsByCategory: Partial<Record<CategoryKey, ArmyUnit[]>>,
-  dict: LocaleDictionary
+  dict: OptionGroupDict
 ): OptionLabelByUnitId {
   const map: OptionLabelByUnitId = new Map();
   (Object.values(unitsByCategory) as ArmyUnit[][]).forEach((units) => {
