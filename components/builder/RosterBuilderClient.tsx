@@ -10,10 +10,17 @@ import { Button } from "@/components/ui/Button";
 import Select, { SelectOption } from "@/components/ui/Select";
 import { ARMIES } from "@/lib/data/armies/armies";
 import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
+import { tData } from "@/lib/i18n/data";
 import type { AppDispatch, RootState } from "@/lib/store";
 import { setCatalogArmy } from "@/lib/store/slices/catalogSlice";
+import {
+  CLIPBOARD_LIMIT,
+  removeClipboardItem,
+  saveToClipboard,
+} from "@/lib/store/slices/clipboardSlice";
 import type { RosterDraft, ValidationErrors } from "@/lib/store/slices/rosterSlice";
 import {
+  loadDraft,
   rosterInitialState,
   setArmy,
   setArmyRule,
@@ -27,6 +34,7 @@ import {
 // Minimal dictionary the component expects
 type Dict = Pick<
   LocaleDictionary,
+  | "localeName"
   | "selectPlaceholder"
   | "armyLabel"
   | "armyCompositionLabel"
@@ -51,6 +59,15 @@ type Dict = Pick<
   | "rosterSetupCollapseButton"
   | "rosterSetupSaveButton"
   | "rosterSetupSavedButton"
+  | "rosterSummaryDefaultName"
+  | "rosterExportUnknownArmy"
+  | "rosterPointsLimitLabel"
+  | "categoryPointsValue"
+  | "rosterClipboardHeading"
+  | "rosterClipboardSaveButton"
+  | "rosterClipboardEmpty"
+  | "rosterClipboardRestoreButton"
+  | "rosterClipboardRemoveButton"
 >;
 
 type DraftSnapshot = RosterDraft & { updatedAt: number };
@@ -69,15 +86,19 @@ export default function RosterBuilderClient({ dict, className, onSaved }: Props)
   const { errors, saving, savedAt, setupCollapsed } = uiState;
   const { armyId, compositionId, armyRuleId, pointsLimit } = draftState;
   const collapsed = setupCollapsed ?? false;
+  const clipboardItems = useSelector((s: RootState) => s.clipboard?.items ?? []);
 
   const clientArmies = React.useMemo(
     () =>
       ARMIES.map((a) => ({
         id: a.id,
-        label: a.name,
-        children: (a.compositions ?? []).map((c) => ({ id: c.id, label: c.name })),
+        label: tData(a.nameKey, dict),
+        children: (a.compositions ?? []).map((c) => ({
+          id: c.id,
+          label: tData(c.nameKey, dict),
+        })),
       })),
-    []
+    [dict.localeName]
   );
 
   React.useEffect(() => {
@@ -95,6 +116,17 @@ export default function RosterBuilderClient({ dict, className, onSaved }: Props)
     if (!pointsLimit || pointsLimit <= 0) next.points = dict.validationPointsRequired;
     dispatch(setValidationErrors(next));
     return Object.keys(next).length === 0;
+  };
+
+  const handleSaveToClipboard = () => {
+    if (!validate()) return;
+    dispatch(saveToClipboard({ draft: draftState }));
+  };
+
+  const handleRestoreFromClipboard = (draft: RosterDraft, savedAt: number) => {
+    dispatch(loadDraft(draft));
+    dispatch(setSavedAt(savedAt));
+    dispatch(setValidationErrors({}));
   };
 
   const handleSave = () => {
@@ -157,6 +189,7 @@ export default function RosterBuilderClient({ dict, className, onSaved }: Props)
                     dict={{
                       selectPlaceholder: dict.selectPlaceholder,
                       armyRule: dict.armyRuleLabel,
+                      localeName: dict.localeName,
                     }}
                     defaultValue={armyRuleId}
                     onChange={(id) => dispatch(setArmyRule(id))}
@@ -177,19 +210,94 @@ export default function RosterBuilderClient({ dict, className, onSaved }: Props)
             </div>
           </section>
         ) : null}
-        <Button
-          type="button"
-          size="md"
-          onClick={handleSave}
-          disabled={saving}
-          className={`mt-4 rounded-md px-4 py-2 self-center font-semibold text-amber-50 shadow disabled:opacity-60 ${
-            savedAt
-              ? "bg-amber-700 hover:bg-amber-700/90 focus-visible:bg-amber-700"
-              : "bg-amber-600 hover:bg-amber-500"
-          }`}
-        >
-          {savedAt ? dict.rosterSetupSavedButton : dict.rosterSetupSaveButton}
-        </Button>
+        <div className="mt-4 flex flex-wrap items-center justify-center gap-3">
+          <Button
+            type="button"
+            size="md"
+            onClick={handleSave}
+            disabled={saving}
+            className={`rounded-md px-4 py-2 font-semibold text-amber-50 shadow disabled:opacity-60 ${
+              savedAt
+                ? "bg-amber-700 hover:bg-amber-700/90 focus-visible:bg-amber-700"
+                : "bg-amber-600 hover:bg-amber-500"
+            }`}
+          >
+            {savedAt ? dict.rosterSetupSavedButton : dict.rosterSetupSaveButton}
+          </Button>
+          <Button
+            type="button"
+            size="md"
+            variant="outline"
+            onClick={handleSaveToClipboard}
+            disabled={saving}
+          >
+            {dict.rosterClipboardSaveButton}
+          </Button>
+        </div>
+
+        <section className="rounded-2xl border border-amber-300/20 bg-slate-900/30 p-4">
+          <div className="flex items-center justify-between">
+            <h4 className="text-xs font-semibold uppercase tracking-[0.25em] text-amber-300">
+              {dict.rosterClipboardHeading} ({clipboardItems.length}/{CLIPBOARD_LIMIT})
+            </h4>
+          </div>
+          {clipboardItems.length === 0 ? (
+            <p className="mt-3 text-sm text-amber-200/60">{dict.rosterClipboardEmpty}</p>
+          ) : (
+            <ul className="mt-3 space-y-2 text-sm">
+              {clipboardItems.map((item) => {
+                const armyLabel =
+                  clientArmies.find((army) => army.id === item.draft.armyId)?.label ??
+                  dict.rosterExportUnknownArmy;
+                const rosterName =
+                  item.name && item.name.trim().length > 0
+                    ? item.name
+                    : item.draft.name && item.draft.name.trim().length > 0
+                    ? item.draft.name
+                    : dict.rosterSummaryDefaultName;
+                const pointsLabel = dict.categoryPointsValue.replace(
+                  "{value}",
+                  String(item.draft.pointsLimit ?? 0)
+                );
+
+                return (
+                  <li
+                    key={item.id}
+                    className="rounded-lg border border-amber-300/20 bg-slate-900/60 px-3 py-2"
+                  >
+                    <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                      <div className="flex flex-col gap-1">
+                        <span className="font-semibold text-amber-100">{rosterName}</span>
+                        <span className="text-xs text-amber-200/70">
+                          {dict.armyLabel}: {armyLabel}
+                        </span>
+                        <span className="text-xs text-amber-200/70">
+                          {dict.rosterPointsLimitLabel}: {pointsLabel}
+                        </span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <Button
+                          variant="secondary"
+                          size="sm"
+                          onClick={() => handleRestoreFromClipboard(item.draft, item.savedAt)}
+                        >
+                          {dict.rosterClipboardRestoreButton}
+                        </Button>
+                        <Button
+                          variant="outline"
+                          size="sm"
+                          onClick={() => dispatch(removeClipboardItem(item.id))}
+                        >
+                          {dict.rosterClipboardRemoveButton}
+                        </Button>
+                      </div>
+                    </div>
+                  </li>
+                );
+              })}
+            </ul>
+          )}
+        </section>
       </div>
     </div>
   );
