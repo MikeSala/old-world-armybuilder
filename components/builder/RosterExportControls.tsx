@@ -7,15 +7,20 @@ import { useSelector } from "react-redux";
 
 import { Button } from "@/components/ui/Button";
 import type { ButtonVariant, ButtonSize } from "@/components/ui/Button";
+import type { OptionLabelByUnitId } from "@/lib/builder/unitHelpers";
 import { ARMIES, ARMY_RULES, type Army, type ArmyRule } from "@/lib/data/armies/armies";
 import type { CategoryKey } from "@/lib/data/domain/types/categories";
 import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
+import { tData } from "@/lib/i18n/data";
+import { translateNameForDict, translateTextForDict } from "@/lib/i18n/translateLocale";
+import { getOptionGroupLabel } from "@/lib/utils/rosterFormatting";
 import type { RootState } from "@/lib/store";
 import type { RosterDraft, RosterEntry } from "@/lib/store/slices/rosterSlice";
 import { normalizeRosterEntry } from "@/lib/roster/normalizeEntry";
 
 type ExportDict = Pick<
   LocaleDictionary,
+  | "localeName"
   | "rosterSummaryDefaultName"
   | "rosterExportUnknownArmy"
   | "rosterExportTitle"
@@ -35,6 +40,10 @@ type ExportDict = Pick<
   | "categoryOptionCostFree"
   | "categoryOptionCostPerModelSuffix"
   | "categoryOptionsDefaultLabel"
+  | "categoryOptionGroupCommandLabel"
+  | "categoryOptionGroupEquipmentLabel"
+  | "categoryOptionGroupArmorLabel"
+  | "categoryOptionGroupMountsLabel"
   | "rosterExportPerModelSuffix"
   | "rosterExportOptionNoteLabel"
   | "rosterExportUnitNotesLabel"
@@ -111,13 +120,13 @@ function slugifyFilename(name: string) {
 
 function resolveArmy(draft: RosterDraft): {
   army: Army | undefined;
-  compositionName: string | null;
+  compositionKey: NonNullable<Army["compositions"]>[number]["nameKey"] | null;
 } {
-  if (!draft.armyId) return { army: undefined, compositionName: null };
+  if (!draft.armyId) return { army: undefined, compositionKey: null };
   const army = ARMIES.find((candidate) => candidate.id === draft.armyId);
-  const compositionName =
-    army?.compositions?.find((c) => c.id === draft.compositionId)?.name ?? null;
-  return { army, compositionName };
+  const compositionKey =
+    army?.compositions?.find((c) => c.id === draft.compositionId)?.nameKey ?? null;
+  return { army, compositionKey };
 }
 
 function resolveRule(draft: RosterDraft): ArmyRule | undefined {
@@ -125,27 +134,52 @@ function resolveRule(draft: RosterDraft): ArmyRule | undefined {
   return ARMY_RULES.find((rule) => rule.id === draft.armyRuleId);
 }
 
-const normalizeEntries = (entries: RosterEntry[]) =>
+const normalizeEntries = (
+  entries: RosterEntry[],
+  dict: ExportDict,
+  unitLabelById?: Map<string, string>,
+  optionLabelByUnitId?: OptionLabelByUnitId
+) =>
   entries.map((entry) => {
     const normalized = normalizeRosterEntry(entry);
+    const unitLabel = unitLabelById?.get(normalized.unitId);
+    const optionMap = optionLabelByUnitId?.get(normalized.unitId);
     return {
       ...normalized,
-      options: normalized.options.map((opt) => ({
-        group: opt.group,
-        name: opt.name,
-        points: opt.points,
-        note: opt.note,
-        perModel: typeof opt.perModel === "boolean" ? opt.perModel : undefined,
-        baseCost: typeof opt.baseCost === "number" ? opt.baseCost : undefined,
-      })),
+      name: unitLabel ?? (normalized.name ? translateNameForDict(normalized.name, dict) : normalized.name),
+      notes: normalized.notes ? translateTextForDict(normalized.notes, dict) : normalized.notes,
+      options: normalized.options.map((opt) => {
+        const optionInfo = opt.sourceId ? optionMap?.get(opt.sourceId) : null;
+        const groupSource =
+          opt.group && opt.group.trim().length > 0 ? opt.group : optionInfo?.groupKey ?? "";
+        const groupLabel = getOptionGroupLabel(groupSource, dict);
+        return {
+          group: groupLabel,
+          name: optionInfo?.label ?? (opt.name ? translateTextForDict(opt.name, dict) : opt.name),
+          points: opt.points,
+          note: optionInfo?.note ?? (opt.note ? translateTextForDict(opt.note, dict) : opt.note),
+          perModel: typeof opt.perModel === "boolean" ? opt.perModel : undefined,
+          baseCost: typeof opt.baseCost === "number" ? opt.baseCost : undefined,
+        };
+      }),
     };
   });
 
-function buildExportPayload(draft: RosterDraft, dict: ExportDict): ExportPayload {
-  const { army, compositionName } = resolveArmy(draft);
+function buildExportPayload(
+  draft: RosterDraft,
+  dict: ExportDict,
+  unitLabelById?: Map<string, string>,
+  optionLabelByUnitId?: OptionLabelByUnitId
+): ExportPayload {
+  const { army, compositionKey } = resolveArmy(draft);
   const armyRule = resolveRule(draft);
-  const normalizedEntries = normalizeEntries(draft.entries ?? []);
+  const normalizedEntries = normalizeEntries(draft.entries ?? [], dict, unitLabelById, optionLabelByUnitId);
   const totalPoints = normalizedEntries.reduce((sum, entry) => sum + entry.totalPoints, 0);
+  const armyLabel = army?.nameKey
+    ? tData(army.nameKey, dict)
+    : draft.armyId ?? dict.rosterExportUnknownArmy;
+  const compositionLabel = compositionKey ? tData(compositionKey, dict) : null;
+  const ruleLabel = armyRule?.nameKey ? tData(armyRule.nameKey, dict) : null;
 
   return {
     metadata: {
@@ -157,15 +191,15 @@ function buildExportPayload(draft: RosterDraft, dict: ExportDict): ExportPayload
       description: draft.description || "",
       army: {
         id: army?.id ?? draft.armyId ?? null,
-        name: army?.name ?? draft.armyId ?? dict.rosterExportUnknownArmy,
+        name: armyLabel,
       },
       composition: {
         id: draft.compositionId ?? null,
-        name: compositionName,
+        name: compositionLabel,
       },
       rule: {
         id: draft.armyRuleId ?? null,
-        name: armyRule?.name ?? null,
+        name: ruleLabel,
       },
       pointsLimit: draft.pointsLimit,
       totalPoints,
@@ -253,6 +287,8 @@ type Props = {
   triggerLabel?: string;
   triggerVariant?: ButtonVariant;
   triggerSize?: ButtonSize;
+  unitLabelById?: Map<string, string>;
+  optionLabelByUnitId?: OptionLabelByUnitId;
   onPdfExport?: (fileName?: string) => Promise<void> | void;
   pdfExporting?: boolean;
   onPrintExport?: () => Promise<void> | void;
@@ -265,12 +301,14 @@ export default function RosterExportControls({
   triggerLabel,
   triggerVariant,
   triggerSize = "sm",
+  unitLabelById,
+  optionLabelByUnitId,
   onPdfExport,
   pdfExporting,
   onPrintExport,
 }: Props) {
   const draft = useSelector((state: RootState) => state.roster.draft);
-  const payload = buildExportPayload(draft, dict);
+  const payload = buildExportPayload(draft, dict, unitLabelById, optionLabelByUnitId);
 
   const isEmpty = payload.entries.length === 0;
 

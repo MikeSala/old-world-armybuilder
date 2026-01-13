@@ -43,19 +43,29 @@ const normalizeCompositionMap = (value: unknown): ArmyCompositionMap | undefined
 };
 
 const normalizeOption = (option: ArmyUnitOption, index: number, groupKey: string): NormalizedArmyUnitOption => {
-  const id =
-    toString(option.id) ??
-    (toString(option.name_en) ? `${groupKey}-${option.name_en}-${index}` : `${groupKey}-${index}`);
-  const name = toString(option.name_en) ?? toString(option.name) ?? `Option ${index + 1}`;
+  const namePl = toString((option as { name_pl?: unknown }).name_pl);
+  const nameDe = toString((option as { name_de?: unknown }).name_de);
+  const nameFr = toString((option as { name_fr?: unknown }).name_fr);
+  const nameEs = toString((option as { name_es?: unknown }).name_es);
+  const nameEn = toString(option.name_en);
+  const nameFallback = toString(option.name);
+  const id = toString(option.id) ?? (nameEn ? `${groupKey}-${nameEn}-${index}` : `${groupKey}-${index}`);
+  const name = nameEn ?? nameFallback ?? `Opcja ${index + 1}`;
   return {
     id,
     name,
+    name_de: nameDe ?? undefined,
+    name_fr: nameFr ?? undefined,
+    name_es: nameEs ?? undefined,
+    name_pl: namePl ?? undefined,
     points: toNumber(option.points) ?? 0,
     perModel: toBoolean(option.perModel),
     active: toBoolean(option.active),
     equippedDefault: toBoolean((option as { equippedDefault?: unknown }).equippedDefault),
     notes: normalizeNotes(option.notes),
-    note: toString((option.notes as Record<string, unknown> | undefined)?.["name_en"]),
+    note:
+      toString((option.notes as Record<string, unknown> | undefined)?.["name_pl"]) ??
+      toString((option.notes as Record<string, unknown> | undefined)?.["name_en"]),
     minimum: toNumber(option.minimum),
     maximum: toNumber(option.maximum),
   };
@@ -72,15 +82,25 @@ const normalizeOptionArray = (
 };
 
 export const normalizeArmyUnit = (unit: ArmyUnit, index = 0): NormalizedArmyUnit => {
-  const name = toString(unit.name_en) ?? toString(unit.name) ?? `Unit ${index + 1}`;
+  const namePl = toString((unit as { name_pl?: unknown }).name_pl);
+  const nameDe = toString((unit as { name_de?: unknown }).name_de);
+  const nameFr = toString((unit as { name_fr?: unknown }).name_fr);
+  const nameEs = toString((unit as { name_es?: unknown }).name_es);
+  const nameFallback = toString(unit.name);
+  const nameEn = toString(unit.name_en) ?? nameFallback;
+  const name = nameEn ?? `Jednostka ${index + 1}`;
   const id =
     toString(unit.id) ??
     (toString(unit.name_en) ? `unit-${unit.name_en}-${index}` : `unit-${index}`);
 
   return {
     id,
-    name_en: name,
-    name: toString(unit.name),
+    name_en: nameEn ?? name,
+    name_de: nameDe ?? undefined,
+    name_fr: nameFr ?? undefined,
+    name_es: nameEs ?? undefined,
+    name,
+    name_pl: namePl ?? undefined,
     points: toNumber(unit.points) ?? 0,
     armyComposition: normalizeCompositionMap(unit.armyComposition),
     command: normalizeOptionArray(unit.command, "command"),

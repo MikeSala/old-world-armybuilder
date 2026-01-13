@@ -7,6 +7,8 @@ import * as React from "react";
 import type { UnitStatProfile, UnitStatLine } from "@/lib/data/domain/units/units-stats";
 import { searchUnitStats, type UnitSearchResult } from "@/lib/data/domain/units/units-stats/search";
 import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
+import { tDataMaybe } from "@/lib/i18n/data";
+import { translateNameForDict, translateTextForDict } from "@/lib/i18n/translateLocale";
 import {
   ROSTER_STAT_FIELDS,
   ROSTER_STAT_TOOLTIP_KEYS,
@@ -62,11 +64,12 @@ const statsEqual = (
 ) => ROSTER_STAT_FIELDS.every(({ key }) => norm(a[key]) === norm(b[key]));
 
 const UnitStatsTable = ({ dict, unit }: { dict: LocaleDictionary; unit: UnitStatLine }) => {
-  const baseLabel = unit.name ?? unit.unit ?? dict.rosterDetailUnnamedUnit;
+  const baseLabelRaw = unit.name ?? unit.unit ?? dict.rosterDetailUnnamedUnit;
+  const baseLabel = translateNameForDict(baseLabelRaw, dict);
   const profileRows = extractProfileRows(unit);
   const hasProfileMatchingBase = profileRows.some(
     ({ profile, label }) =>
-      statsEqual(profile, unit) || (label && label.trim() === (baseLabel?.trim() ?? ""))
+      statsEqual(profile, unit) || (label && label.trim() === (baseLabelRaw?.trim() ?? ""))
   );
   const displayBaseRow = !hasProfileMatchingBase;
 
@@ -111,7 +114,9 @@ const UnitStatsTable = ({ dict, unit }: { dict: LocaleDictionary; unit: UnitStat
                       "{index}",
                       label.replace("Profile ", "")
                     )
-                  : label || dict.rosterDetailProfileFallback.replace("{index}", String(index + 1))}
+                  : label
+                    ? translateNameForDict(label, dict)
+                    : dict.rosterDetailProfileFallback.replace("{index}", String(index + 1))}
               </th>
               {ROSTER_STAT_FIELDS.map((field) => (
                 <td key={`${label}-${field.key as string}`} className="px-2 py-2 text-center">
@@ -136,14 +141,22 @@ const UnitSearchResultBody = ({
   const { line } = result;
   const equipment = Array.isArray(line.equipment) ? line.equipment : [];
   const rules = Array.isArray(line.specialRules) ? line.specialRules : [];
+  const translatedEquipment = equipment.map((item) => translateTextForDict(item, dict));
+  const translatedRules = rules.map((item) => translateTextForDict(item, dict));
 
   const infoRows: Array<{ label: string; value: string }> = [];
 
   if (line.unitCategory) {
-    infoRows.push({ label: dict.unitSearchUnitCategoryLabel, value: line.unitCategory });
+    infoRows.push({
+      label: dict.unitSearchUnitCategoryLabel,
+      value: translateTextForDict(line.unitCategory, dict),
+    });
   }
   if (line.troopType) {
-    infoRows.push({ label: dict.unitSearchTroopTypeLabel, value: line.troopType });
+    infoRows.push({
+      label: dict.unitSearchTroopTypeLabel,
+      value: translateTextForDict(line.troopType, dict),
+    });
   }
   if (line.baseSize) {
     infoRows.push({ label: dict.rosterDetailSidebarBaseSize, value: String(line.baseSize) });
@@ -180,7 +193,7 @@ const UnitSearchResultBody = ({
           <h4 className="text-xs font-semibold uppercase tracking-wide text-amber-200/70">
             {dict.unitSearchEquipmentLabel}
           </h4>
-          <p className="mt-1 text-sm text-amber-100/80">{equipment.join(", ")}</p>
+          <p className="mt-1 text-sm text-amber-100/80">{translatedEquipment.join(", ")}</p>
         </div>
       ) : null}
 
@@ -190,7 +203,7 @@ const UnitSearchResultBody = ({
             {dict.rosterDetailSpecialRulesLabel}
           </h4>
           <ul className="mt-1 list-disc space-y-1 pl-4 text-sm text-amber-100/90">
-            {rules.map((rule) => (
+            {translatedRules.map((rule) => (
               <li key={rule}>{rule}</li>
             ))}
           </ul>
@@ -209,8 +222,12 @@ const UnitSearchResultAccordionItem = ({
   result: UnitSearchResult;
   value: string;
 }) => {
-  const { line, armyName } = result;
-  const title = line.name ?? dict.rosterDetailUnnamedUnit;
+  const { line, armyNameKey, armyNameFallback } = result;
+  const titleSource = line.name ?? line.unit ?? null;
+  const title = titleSource
+    ? translateNameForDict(titleSource, dict)
+    : dict.rosterDetailUnnamedUnit;
+  const armyLabel = tDataMaybe(armyNameKey, dict, armyNameFallback);
 
   return (
     <Accordion.Item
@@ -221,9 +238,9 @@ const UnitSearchResultAccordionItem = ({
         <Accordion.Trigger className="flex w-full items-center justify-between gap-3 px-5 py-4 text-left outline-none transition hover:bg-slate-900/80 data-[state=open]:border-b data-[state=open]:border-amber-300/20">
           <div className="flex flex-col gap-1">
             <h3 className="text-lg font-semibold text-amber-100">{title}</h3>
-            {armyName ? (
+            {armyLabel ? (
               <span className="text-sm text-amber-200/70">
-                {dict.unitSearchArmyLabel}: {armyName}
+                {dict.unitSearchArmyLabel}: {armyLabel}
               </span>
             ) : null}
           </div>

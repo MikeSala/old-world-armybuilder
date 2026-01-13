@@ -1,4 +1,8 @@
-import type { UnitOptionGroup } from "@/lib/builder/unitHelpers";
+import {
+  getLocalizedOptionLabel,
+  getLocalizedOptionNote,
+  type UnitOptionGroup,
+} from "@/lib/builder/unitHelpers";
 
 import type { Dict } from "./types";
 
@@ -20,6 +24,8 @@ export function OptionGroupSection({ group, selectedIds, onToggle, dict }: Props
           const inputId = `${group.id}-${option.id}`;
           const checked = selectedIds.includes(option.id);
           const type = group.type === "radio" ? "radio" : "checkbox";
+          const label = getLocalizedOptionLabel(option, dict);
+          const note = getLocalizedOptionNote(option, dict);
           return (
             <li key={option.id} className="flex items-start justify-between gap-3">
               <label
@@ -37,9 +43,9 @@ export function OptionGroupSection({ group, selectedIds, onToggle, dict }: Props
                   className="mt-1 h-4 w-4 rounded border-amber-400 bg-slate-900 text-amber-500 focus:ring-amber-500"
                 />
                 <span className="flex flex-col text-amber-200/70">
-                  <span className="font-medium text-amber-200/80">{option.label}</span>
-                  {option.note ? (
-                    <span className="text-xs text-amber-200/70">{option.note}</span>
+                  <span className="font-medium text-amber-200/80">{label}</span>
+                  {note ? (
+                    <span className="text-xs text-amber-200/70">{note}</span>
                   ) : null}
                 </span>
               </label>

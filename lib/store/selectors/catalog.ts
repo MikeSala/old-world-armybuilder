@@ -38,7 +38,7 @@ export const selectCatalogArmyId = (s: RootState) => s.catalog?.armyId ?? catalo
 export const selectRosterDraft = (s: RootState) => s.roster?.draft ?? rosterInitialState.draft;
 
 const isUnitAllowedForComposition = (
-  unit: ArmyUnit,
+  unit: NormalizedArmyUnit,
   candidateCompositions: string[]
 ): boolean => {
   const compMap = unit.armyComposition;

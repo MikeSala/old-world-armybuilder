@@ -103,7 +103,7 @@
       "troopType": "Behemoth",
       "baseSize": "60 x 100 mm",
       "unitSize": "1",
-      "armourValue": "—",
+      "armourValue": "+4",
       "equipment": [
         "Wicked claws",
         "Dark Fire of Chaos",

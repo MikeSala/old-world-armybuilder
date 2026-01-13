@@ -15,6 +15,7 @@ import tombKings from "./tomb-kings-of-khemri-stats.json";
 import vampireCounts from "./vampire-counts-stats.json";
 import warriorsOfChaos from "./warriors-of-chaos-stats.json";
 import woodElves from "./wood-elves-stats.json";
+import { translateEnNameToPl } from "@/lib/i18n/translateEnToPl";
 
 type StatValue = number | string | null;
 
@@ -248,6 +249,11 @@ const registerNames = (
     if (!name) return;
     const key = normalizeUnitStatKey(name);
     if (key) registerKey(map, key, line);
+    const translated = translateEnNameToPl(name);
+    if (translated && translated !== name) {
+      const translatedKey = normalizeUnitStatKey(translated);
+      if (translatedKey) registerKey(map, translatedKey, line);
+    }
   });
 };
 

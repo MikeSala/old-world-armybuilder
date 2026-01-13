@@ -4,11 +4,14 @@ import {
   type UnitStatLine,
   normalizeUnitStatKey,
 } from "./index";
+import { translateEnNameToPl, translateEnTextToPl } from "@/lib/i18n/translateEnToPl";
+import type { DataKey } from "@/lib/i18n/data";
 
 export type UnitSearchResult = {
   statsArmyId: string;
   armyId: string | null;
-  armyName: string;
+  armyNameKey: DataKey | null;
+  armyNameFallback: string;
   line: UnitStatLine;
 };
 
@@ -32,9 +35,9 @@ const STATS_TO_ARMY_MAP: Record<string, string | null> = {
   "wood-elf-realms": "wood-elf-realms",
 };
 
-const armyNameById = new Map<string, string>();
+const armyNameKeyById = new Map<string, DataKey>();
 ARMIES.forEach((army) => {
-  armyNameById.set(army.id, army.name);
+  armyNameKeyById.set(army.id, army.nameKey);
 });
 
 const formatStatsArmyName = (statsId: string): string =>
@@ -61,13 +64,23 @@ const createTokens = (line: UnitStatLine): string[] => {
       .forEach((part) => tokens.add(part));
   };
 
-  push(line.name ?? line.unit ?? null);
-  push(line.unit);
-  push(line.type ?? null);
-  push(line.troopType ?? null);
+  const pushTranslated = (value: string | null | undefined, mode: "name" | "text") => {
+    if (!value) return;
+    push(value);
+    const translated = mode === "name" ? translateEnNameToPl(value) : translateEnTextToPl(value);
+    if (translated && translated !== value) {
+      push(translated);
+    }
+  };
+
+  pushTranslated(line.name ?? line.unit ?? null, "name");
+  pushTranslated(line.unit, "name");
+  pushTranslated(line.type ?? null, "text");
+  pushTranslated(line.troopType ?? null, "text");
+  pushTranslated(line.unitCategory ?? null, "text");
 
   if (Array.isArray(line.aliases)) {
-    line.aliases.forEach((alias) => push(alias));
+    line.aliases.forEach((alias) => pushTranslated(alias, "name"));
   }
 
   return Array.from(tokens);
@@ -76,14 +89,14 @@ const createTokens = (line: UnitStatLine): string[] => {
 const UNIT_SEARCH_INDEX: SearchEntry[] = Object.entries(UNIT_STATS_BY_ARMY).flatMap(
   ([statsArmyId, units]) => {
     const mappedArmyId = STATS_TO_ARMY_MAP[statsArmyId] ?? null;
-    const armyName = mappedArmyId
-      ? armyNameById.get(mappedArmyId) ?? formatStatsArmyName(statsArmyId)
-      : formatStatsArmyName(statsArmyId);
+    const armyNameFallback = formatStatsArmyName(statsArmyId);
+    const armyNameKey = mappedArmyId ? armyNameKeyById.get(mappedArmyId) ?? null : null;
 
     return units.map((line) => ({
       statsArmyId,
       armyId: mappedArmyId,
-      armyName,
+      armyNameKey,
+      armyNameFallback,
       line,
       tokens: createTokens(line),
     }));

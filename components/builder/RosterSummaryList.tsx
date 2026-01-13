@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/Button";
 import { StatTooltipLabel } from "@/components/ui/StatTooltipLabel";
 import type { CategoryKey } from "@/lib/data/domain/types/categories";
 import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
+import type { OptionLabelByUnitId } from "@/lib/builder/unitHelpers";
 import {
   formatOptionGroupLabel,
   localizeMetaLabel,
@@ -16,6 +17,7 @@ import {
 } from "@/lib/utils/rosterFormatting";
 import type { RosterEntry } from "@/lib/roster/normalizeEntry";
 import type { RosterUnitDetail } from "@/lib/store/selectors/rosterDetails";
+import { translateNameForDict, translateTextForDict } from "@/lib/i18n/translateLocale";
 
 type Dict = LocaleDictionary;
 
@@ -27,6 +29,8 @@ type Props = {
   categoryLabels: Record<CategoryKey, string>;
   detailByEntryId: Map<string, RosterUnitDetail>;
   expandedEntryIds: string[];
+  unitLabelById?: Map<string, string>;
+  optionLabelByUnitId?: OptionLabelByUnitId;
   onToggleDetails: (id: string) => void;
   onRemoveEntry: (id: string) => void;
   onToggleOwned: (id: string, owned: boolean) => void;
@@ -58,6 +62,8 @@ export function RosterSummaryList({
   categoryLabels,
   detailByEntryId,
   expandedEntryIds,
+  unitLabelById,
+  optionLabelByUnitId,
   onToggleDetails,
   onRemoveEntry,
   onToggleOwned,
@@ -66,6 +72,16 @@ export function RosterSummaryList({
   const groups = React.useMemo(
     () => Object.entries(groupedEntries) as Array<[CategoryKey, RosterEntry[]]>,
     [groupedEntries]
+  );
+  const formatStatLabel = React.useCallback(
+    (label: string) => {
+      const profileMatch = label.match(/^Profile (\d+)$/);
+      if (profileMatch) {
+        return dict.rosterDetailProfileFallback.replace("{index}", profileMatch[1]);
+      }
+      return translateNameForDict(label, dict);
+    },
+    [dict]
   );
 
   if (groups.length === 0) {
@@ -95,10 +111,14 @@ export function RosterSummaryList({
             </div>
             <ul className="space-y-2 text-amber-100/90 print:text-gray-900">
               {items.map((entry) => {
+                const entryName =
+                  unitLabelById?.get(entry.unitId) ?? translateNameForDict(entry.name, dict);
                 const detail = detailByEntryId.get(entry.id);
+                const optionMap = optionLabelByUnitId?.get(entry.unitId);
                 const isExpanded = expandedEntryIds.includes(entry.id);
                 const statsRows = detail?.statRows ?? [];
                 const specialRules = detail?.sidebarRules ?? [];
+                const translatedRules = specialRules.map((rule) => translateTextForDict(rule, dict));
                 const metaEntries = detail
                   ? detail.sidebarMeta.map((item) => ({
                       label: localizeMetaLabel(item.label, dict),
@@ -135,7 +155,7 @@ export function RosterSummaryList({
                     <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between print:gap-2">
                       <div className="flex flex-col gap-1">
                         <span className="font-medium text-amber-100 print:text-gray-900">
-                          {entry.unitSize} {entry.name}
+                          {entry.unitSize} {entryName}
                         </span>
                       </div>
                       <div className="flex flex-wrap items-center gap-3 md:ml-auto print:gap-2">
@@ -146,7 +166,7 @@ export function RosterSummaryList({
                           variant="secondary"
                           size="sm"
                           onClick={() => onRemoveEntry(entry.id)}
-                          aria-label={dict.rosterSummaryRemoveAria.replace("{unit}", entry.name)}
+                          aria-label={dict.rosterSummaryRemoveAria.replace("{unit}", entryName)}
                           className="print:hidden"
                         >
                           {dict.rosterSummaryRemoveButton}
@@ -207,7 +227,9 @@ export function RosterSummaryList({
                                 <tbody>
                                   {statsRows.map((row) => (
                                     <tr key={row.label} className="text-amber-100 print:text-gray-900">
-                                      <th className="px-2 py-2 text-left font-semibold">{row.label}</th>
+                                      <th className="px-2 py-2 text-left font-semibold">
+                                        {formatStatLabel(row.label)}
+                                      </th>
                                       {ROSTER_STAT_FIELDS.map((field) => (
                                         <td
                                           key={`${row.label}-${field.key}`}
@@ -235,7 +257,7 @@ export function RosterSummaryList({
                                     {dict.rosterDetailSpecialRulesLabel}
                                   </h5>
                                   <p className="text-amber-100 print:text-gray-900">
-                                    {specialRules.join(", ")}
+                                    {translatedRules.join(", ")}
                                   </p>
                                 </div>
                               ) : null}
@@ -269,7 +291,16 @@ export function RosterSummaryList({
                       <ul className="mt-2 space-y-1 text-xs text-amber-200/70 print:text-gray-700">
                         {entry.options.map((opt) => {
                           const optionCost = formatOptionCost(opt, dict, formatPointsFor);
-                          const optionGroupLabel = formatOptionGroupLabel(opt.group ?? "", dict);
+                          const optionInfo = opt.sourceId ? optionMap?.get(opt.sourceId) : null;
+                          const groupSource =
+                            opt.group && opt.group.trim().length > 0
+                              ? opt.group
+                              : optionInfo?.groupKey ?? "";
+                          const optionGroupLabel = formatOptionGroupLabel(groupSource, dict);
+                          const optionName = optionInfo?.label ?? translateTextForDict(opt.name, dict);
+                          const optionNote = optionInfo?.note ?? (opt.note
+                            ? translateTextForDict(opt.note, dict)
+                            : undefined);
                           return (
                             <li
                               key={opt.id}
@@ -279,9 +310,12 @@ export function RosterSummaryList({
                                 <span className="font-medium text-amber-200/70 print:text-gray-900">
                                   {optionGroupLabel}
                                 </span>{" "}
-                                <span className=" text-amber-100 print:text-gray-900">{opt.name}</span>
-                                {opt.note ? (
-                                  <span className="text-amber-200/70 print:text-gray-900"> — {opt.note}</span>
+                                <span className=" text-amber-100 print:text-gray-900">{optionName}</span>
+                                {optionNote ? (
+                                  <span className="text-amber-200/70 print:text-gray-900">
+                                    {" "}
+                                    — {optionNote}
+                                  </span>
                                 ) : null}
                               </span>
                               <span className="text-amber-100 print:text-gray-900">{optionCost}</span>
