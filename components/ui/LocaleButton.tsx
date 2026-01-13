@@ -19,6 +19,9 @@ const baseClasses =
 const LOCALE_FLAGS: Record<Locale, string> = {
   pl: "🇵🇱",
   en: "🇬🇧",
+  de: "🇩🇪",
+  fr: "🇫🇷",
+  es: "🇪🇸",
 };
 
 export function LocaleButton({ locale, href, className, label, ...props }: LocaleButtonProps) {

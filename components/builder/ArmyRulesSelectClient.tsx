@@ -3,9 +3,10 @@ import { useEffect, useState } from "react";
 
 import Select, { SelectOption } from "@/components/ui/Select";
 import { ARMY_RULES } from "@/lib/data/armies/armies";
+import { tData } from "@/lib/i18n/data";
 
 type Props = {
-  dict: { selectPlaceholder: string; armyRule: string };
+  dict: { selectPlaceholder: string; armyRule: string; localeName: string };
   defaultValue?: string | null;
   className?: string;
   onChange?: (id: string | null) => void;
@@ -25,7 +26,7 @@ export default function ArmyRulesSelectClient({
 
   const options: SelectOption[] = ARMY_RULES.map((r) => ({
     id: r.id,
-    label: r.name,
+    label: tData(r.nameKey, dict),
   }));
 
   return (
