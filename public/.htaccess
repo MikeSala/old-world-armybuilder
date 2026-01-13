@@ -1,6 +1,9 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
+  # Redirect root to the default locale.
+  RewriteRule ^$ /pl/ [R=301,L]
+
   # Keep locale URLs clean by forcing trailing slashes.
   RewriteRule ^(pl|en|de|fr|es)\.html$ $1/ [R=301,L]
   RewriteRule ^(pl|en|de|fr|es)$ $1/ [R=301,L]

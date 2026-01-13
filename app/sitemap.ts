@@ -1,0 +1,26 @@
+import type { MetadataRoute } from "next";
+
+import { getDictionary, locales, type Locale } from "@/lib/i18n/dictionaries";
+
+const SITE_URL = "https://army-builder.com";
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const lastModified = new Date();
+  const editSlugByLocale = locales.reduce<Record<Locale, string>>((acc, locale) => {
+    acc[locale] = getDictionary(locale).editSlug;
+    return acc;
+  }, {} as Record<Locale, string>);
+
+  const urls: MetadataRoute.Sitemap = locales.flatMap((locale) => [
+    {
+      url: `${SITE_URL}/${locale}/`,
+      lastModified,
+    },
+    {
+      url: `${SITE_URL}/${locale}/${editSlugByLocale[locale]}/`,
+      lastModified,
+    },
+  ]);
+
+  return urls;
+}
