@@ -11,8 +11,8 @@ import {
   type LocaleDictionary,
 } from "@/lib/i18n/dictionaries";
 
-export type DataDictionary = typeof dataEn;
-export type DataKey = keyof DataDictionary;
+export type DataKey = keyof typeof dataEn;
+export type DataDictionary = Record<DataKey, string>;
 
 type LocaleHint = Pick<LocaleDictionary, "localeName">;
 

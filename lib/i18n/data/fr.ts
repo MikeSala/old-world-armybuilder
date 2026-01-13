@@ -50,4 +50,4 @@ export const dataFr = {
   "composition.heralds-of-darkness": "Herauds des tenebres",
   "composition.orions-wild-hunt": "Chasse sauvage d'Orion",
   "composition.host-of-talsyn": "Ost de Talsyn",
-} satisfies Partial<typeof dataEn>;
+} satisfies Partial<Record<keyof typeof dataEn, string>>;
