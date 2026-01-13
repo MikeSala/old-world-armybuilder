@@ -2,6 +2,8 @@ import type { MetadataRoute } from "next";
 
 import { getDictionary, locales, type Locale } from "@/lib/i18n/dictionaries";
 
+export const dynamic = "force-static";
+
 const SITE_URL = "https://army-builder.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
