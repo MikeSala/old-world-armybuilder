@@ -16,20 +16,12 @@ import type { RootState, AppDispatch } from "@/lib/store";
 import { normalizeRosterEntry, type RosterEntry } from "@/lib/roster/normalizeEntry";
 import { selectUnitsByCategory } from "@/lib/store/selectors/catalog";
 import { selectRosterDetailView, type RosterUnitDetail } from "@/lib/store/selectors/rosterDetails";
+import { groupEntriesByCategory, type GroupedEntries } from "@/lib/store/selectors/roster";
 import { removeEntry, toggleEntryOwned } from "@/lib/store/slices/rosterSlice";
 import { buildCategoryLabels, formatPointsValue } from "@/lib/utils/rosterFormatting";
+import { TAILWIND_TEXT } from "@/lib/styles/tailwindConstants";
 
 type Dict = LocaleDictionary;
-
-type GroupedEntries = Partial<Record<CategoryKey, RosterEntry[]>>;
-
-const groupEntriesByCategory = (entries: RosterEntry[]): GroupedEntries =>
-  entries.reduce<GroupedEntries>((acc, entry) => {
-    const bucket = acc[entry.category] ?? [];
-    bucket.push(entry);
-    acc[entry.category] = bucket;
-    return acc;
-  }, {});
 
 type Props = {
   dict: Dict;
@@ -50,7 +42,6 @@ export default function RosterSummary({ dict, className }: Props) {
     printRoot,
     handleDialogOpenChange,
     handlePdfExport,
-    handlePrintExport,
     closeDetailSheet,
   } = useRosterExport();
 
@@ -156,7 +147,6 @@ export default function RosterSummary({ dict, className }: Props) {
                     optionLabelByUnitId={optionLabelByUnitId}
                     onPdfExport={(fileName) => handlePdfExport(fileName ?? buildPdfFilename(name))}
                     pdfExporting={pdfExporting}
-                    onPrintExport={handlePrintExport}
                   />
                 </div>
               ) : null}
@@ -186,7 +176,7 @@ export default function RosterSummary({ dict, className }: Props) {
               formatPointsFor={formatPointsFor}
             />
           ) : (
-            <p className="text-sm text-amber-200/60 print:text-gray-700">
+            <p className={TAILWIND_TEXT.EMPTY_STATE}>
               {dict.rosterSummaryEmptyMessage}
             </p>
           )}

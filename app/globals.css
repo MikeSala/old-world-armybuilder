@@ -64,7 +64,7 @@
     max-width: none !important;
   }
 
-  /* 3) Printable container styling */
+  /* 3) Printable container styling - synchronized with .pdf-capture */
   #print-root .print-roster-sheet {
     position: static !important;
     inset: auto !important;
@@ -73,10 +73,15 @@
     max-width: none !important;
     overflow: visible !important;
     border-radius: 0 !important;
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border: 1px solid #d1d5db !important;
+    box-shadow: none !important;
+    padding: 24px !important;
 
     /* Local font scale for the sheet */
-    font-size: 11px !important; /* adjust as needed (e.g., 10–13px) */
-    line-height: 1.25;
+    font-size: 0.875rem !important;
+    line-height: 1.25 !important;
   }
 
   /* Tighter headings in print */
@@ -108,7 +113,8 @@
   }
 
   /* Optional utility: force-hide specific elements in print if needed */
-  #print-root .print-hidden {
+  #print-root .print-hidden,
+  #print-root .print-roster-sheet .print\:hidden {
     display: none !important;
   }
 
@@ -120,6 +126,153 @@
     background-color: #ffffff !important;
     border-color: #d1d5db !important;
     box-shadow: none !important;
+  }
+
+  /* Apply all print: utility classes during actual print */
+  .print\:max-h-none {
+    max-height: none !important;
+  }
+
+  .print\:max-w-none {
+    max-width: none !important;
+  }
+
+  .print\:w-full {
+    width: 100% !important;
+  }
+
+  .print\:rounded-none {
+    border-radius: 0 !important;
+  }
+
+  .print\:border {
+    border-width: 1px !important;
+  }
+
+  .print\:border-gray-300 {
+    border-color: #d1d5db !important;
+  }
+
+  .print\:bg-white {
+    background-color: #ffffff !important;
+  }
+
+  .print\:bg-gray-100 {
+    background-color: #f3f4f6 !important;
+  }
+
+  .print\:text-black {
+    color: #000000 !important;
+  }
+
+  .print\:text-gray-900 {
+    color: #111827 !important;
+  }
+
+  .print\:text-gray-700 {
+    color: #374151 !important;
+  }
+
+  .print\:text-gray-600 {
+    color: #4b5563 !important;
+  }
+
+  .print\:text-gray-500 {
+    color: #6b7280 !important;
+  }
+
+  .print\:text-xs {
+    font-size: 0.75rem !important;
+    line-height: 1rem !important;
+  }
+
+  .print\:text-sm {
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+  }
+
+  .print\:text-base {
+    font-size: 1rem !important;
+    line-height: 1.5rem !important;
+  }
+
+  .print\:text-xl {
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+  }
+
+  .print\:text-\[11px\] {
+    font-size: 11px !important;
+    line-height: 1.25 !important;
+  }
+
+  .print\:space-y-3 > * + * {
+    margin-top: 0.75rem !important;
+  }
+
+  .print\:space-y-2 > * + * {
+    margin-top: 0.5rem !important;
+  }
+
+  .print\:space-y-0\.5 > * + * {
+    margin-top: 0.125rem !important;
+  }
+
+  .print\:gap-1 {
+    gap: 0.25rem !important;
+  }
+
+  .print\:gap-2 {
+    gap: 0.5rem !important;
+  }
+
+  .print\:gap-4 {
+    gap: 1rem !important;
+  }
+
+  .print\:p-6 {
+    padding: 24px !important;
+  }
+
+  .print\:p-3 {
+    padding: 12px !important;
+  }
+
+  .print\:p-2 {
+    padding: 8px !important;
+  }
+
+  .print\:p-4 {
+    padding: 16px !important;
+  }
+
+  .print\:grid {
+    display: grid !important;
+  }
+
+  .print\:grid-cols-\[minmax\(0\,3fr\)_minmax\(0\,2fr\)\] {
+    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr) !important;
+  }
+
+  .print\:flex-row {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+
+  .print\:justify-between {
+    justify-content: space-between !important;
+  }
+
+  .print\:divide-gray-300 > :not([hidden]) ~ :not([hidden]) {
+    border-color: #d1d5db !important;
+  }
+
+  .print\:shadow-none {
+    box-shadow: none !important;
+  }
+
+  .print\:overflow-visible {
+    overflow: visible !important;
   }
 
   /* Page margins */

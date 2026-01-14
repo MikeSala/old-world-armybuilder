@@ -18,10 +18,8 @@ export function useRosterExport(options?: Options) {
   const [pdfExporting, setPdfExporting] = React.useState(false);
   const [autoPdf, setAutoPdf] = React.useState(false);
   const [printRoot, setPrintRoot] = React.useState<HTMLElement | null>(null);
-  const [printRequested, setPrintRequested] = React.useState(false);
 
   const pdfRestoreSheetRef = React.useRef(false);
-  const printRequestedRef = React.useRef(false);
   const pdfFileNameRef = React.useRef("roster.pdf");
 
   const ensurePdfFilename = React.useCallback((raw?: string | null) => {
@@ -70,11 +68,6 @@ export function useRosterExport(options?: Options) {
     }
     setAutoPdf(true);
   }, [ensurePdfFilename, pdfExporting, showDetailSheet]);
-
-  const handlePrintExport = React.useCallback(() => {
-    printRequestedRef.current = true;
-    setPrintRequested(true);
-  }, []);
 
   React.useEffect(() => {
     if (typeof document === "undefined") return;
@@ -167,54 +160,12 @@ export function useRosterExport(options?: Options) {
     };
   }, [autoPdf, detailSheetSelector, showDetailSheet]);
 
-  React.useEffect(() => {
-    if (typeof window === "undefined") return;
-    if (!printRequested) return;
-    let cancelled = false;
-
-    const runPrint = () => {
-      if (cancelled) return;
-      window.print();
-      setPrintRequested(false);
-      printRequestedRef.current = false;
-    };
-
-    const raf = window.requestAnimationFrame(() => {
-      window.requestAnimationFrame(runPrint);
-    });
-
-    return () => {
-      cancelled = true;
-      window.cancelAnimationFrame(raf);
-    };
-  }, [printRequested]);
-
-  React.useEffect(() => {
-    if (typeof window === "undefined") return;
-    const handleBeforePrint = () => {
-      if (printRequestedRef.current) {
-        closeDetailSheet();
-      }
-    };
-    const handleAfterPrint = () => {
-      setPrintRequested(false);
-      printRequestedRef.current = false;
-    };
-    window.addEventListener("beforeprint", handleBeforePrint);
-    window.addEventListener("afterprint", handleAfterPrint);
-    return () => {
-      window.removeEventListener("beforeprint", handleBeforePrint);
-      window.removeEventListener("afterprint", handleAfterPrint);
-    };
-  }, [closeDetailSheet]);
-
   return {
     showDetailSheet,
     pdfExporting,
     printRoot,
     handleDialogOpenChange,
     handlePdfExport,
-    handlePrintExport,
     closeDetailSheet,
     openDetailSheet: () => setShowDetailSheet(true),
   };

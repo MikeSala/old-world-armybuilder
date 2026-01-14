@@ -141,7 +141,6 @@ export type LocaleDictionary = {
   rosterExportMenuPdf: string;
   rosterExportMenuJson: string;
   rosterExportMenuCsv: string;
-  rosterExportMenuPrint: string;
   rosterExportArmyLabel: string;
   rosterExportCompositionLabel: string;
   rosterExportArmyRuleLabel: string;
@@ -331,7 +330,6 @@ const dictionaries = {
     rosterExportMenuJson: "JSON",
     rosterExportMenuPdf: "PDF",
     rosterExportMenuCsv: "CSV",
-    rosterExportMenuPrint: "Drukuj",
     rosterExportArmyLabel: "Armia",
     rosterExportCompositionLabel: "Kompozycja",
     rosterExportArmyRuleLabel: "Zasada armii",
@@ -509,7 +507,6 @@ const dictionaries = {
     rosterExportMenuJson: "JSON",
     rosterExportMenuPdf: "PDF",
     rosterExportMenuCsv: "CSV",
-    rosterExportMenuPrint: "Print",
     rosterExportArmyLabel: "Army",
     rosterExportCompositionLabel: "Composition",
     rosterExportArmyRuleLabel: "Army Rule",
@@ -688,7 +685,6 @@ const dictionaries = {
     rosterExportMenuJson: "JSON",
     rosterExportMenuPdf: "PDF",
     rosterExportMenuCsv: "CSV",
-    rosterExportMenuPrint: "Drucken",
     rosterExportArmyLabel: "Armee",
     rosterExportCompositionLabel: "Komposition",
     rosterExportArmyRuleLabel: "Armeeregel",
@@ -868,7 +864,6 @@ const dictionaries = {
     rosterExportMenuJson: "JSON",
     rosterExportMenuPdf: "PDF",
     rosterExportMenuCsv: "CSV",
-    rosterExportMenuPrint: "Imprimer",
     rosterExportArmyLabel: "Armée",
     rosterExportCompositionLabel: "Composition",
     rosterExportArmyRuleLabel: "Règle d'armée",
@@ -1047,7 +1042,6 @@ const dictionaries = {
     rosterExportMenuJson: "JSON",
     rosterExportMenuPdf: "PDF",
     rosterExportMenuCsv: "CSV",
-    rosterExportMenuPrint: "Imprimir",
     rosterExportArmyLabel: "Ejército",
     rosterExportCompositionLabel: "Composición",
     rosterExportArmyRuleLabel: "Regla del ejército",

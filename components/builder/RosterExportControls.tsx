@@ -10,66 +10,13 @@ import type { ButtonVariant, ButtonSize } from "@/components/ui/Button";
 import type { OptionLabelByUnitId } from "@/lib/builder/unitHelpers";
 import { ARMIES, ARMY_RULES, type Army, type ArmyRule } from "@/lib/data/armies/armies";
 import type { CategoryKey } from "@/lib/data/domain/types/categories";
-import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
+import type { ExportDict } from "@/lib/i18n/dictSubsets";
 import { tData } from "@/lib/i18n/data";
 import { translateNameForDict, translateTextForDict } from "@/lib/i18n/translateLocale";
 import { getOptionGroupLabel } from "@/lib/utils/rosterFormatting";
 import type { RootState } from "@/lib/store";
 import type { RosterDraft, RosterEntry } from "@/lib/store/slices/rosterSlice";
 import { normalizeRosterEntry } from "@/lib/roster/normalizeEntry";
-
-type ExportDict = Pick<
-  LocaleDictionary,
-  | "localeName"
-  | "rosterSummaryDefaultName"
-  | "rosterExportUnknownArmy"
-  | "rosterExportTitle"
-  | "rosterExportDescription"
-  | "rosterExportMenuPdf"
-  | "rosterExportMenuJson"
-  | "rosterExportMenuCsv"
-  | "rosterExportMenuPrint"
-  | "rosterExportArmyLabel"
-  | "rosterExportCompositionLabel"
-  | "rosterExportArmyRuleLabel"
-  | "rosterPointsLimitLabel"
-  | "rosterExportTotalPointsLabel"
-  | "rosterExportUnitsHeading"
-  | "rosterDetailModelsLine"
-  | "rosterSummaryBaseCost"
-  | "categoryOptionCostFree"
-  | "categoryOptionCostPerModelSuffix"
-  | "categoryOptionsDefaultLabel"
-  | "categoryOptionGroupCommandLabel"
-  | "categoryOptionGroupEquipmentLabel"
-  | "categoryOptionGroupArmorLabel"
-  | "categoryOptionGroupMountsLabel"
-  | "rosterExportPerModelSuffix"
-  | "rosterExportOptionNoteLabel"
-  | "rosterExportUnitNotesLabel"
-  | "rosterExportGeneratedLabel"
-  | "categoryPointsValue"
-  | "categoryCharactersLabel"
-  | "categoryCoreLabel"
-  | "categorySpecialLabel"
-  | "categoryRareLabel"
-  | "categoryMercsLabel"
-  | "categoryAlliesLabel"
-  | "rosterExportOwnedYes"
-  | "rosterExportOwnedNo"
-  | "rosterExportUnnamedUnit"
-  | "rosterExportCsvHeaderCategory"
-  | "rosterExportCsvHeaderUnit"
-  | "rosterExportCsvHeaderUnitSize"
-  | "rosterExportCsvHeaderPointsPerModel"
-  | "rosterExportCsvHeaderBasePoints"
-  | "rosterExportCsvHeaderOptions"
-  | "rosterExportCsvHeaderTotalPoints"
-  | "rosterExportCsvHeaderOwned"
-  | "rosterExportCsvOptionFreeSuffix"
-  | "rosterExportAriaLabel"
-  | "rosterDownloadButton"
->;
 
 type ActionItem = { label: string; onSelect: () => void | Promise<void>; disabled?: boolean };
 
@@ -291,7 +238,6 @@ type Props = {
   optionLabelByUnitId?: OptionLabelByUnitId;
   onPdfExport?: (fileName?: string) => Promise<void> | void;
   pdfExporting?: boolean;
-  onPrintExport?: () => Promise<void> | void;
 };
 
 export default function RosterExportControls({
@@ -305,7 +251,6 @@ export default function RosterExportControls({
   optionLabelByUnitId,
   onPdfExport,
   pdfExporting,
-  onPrintExport,
 }: Props) {
   const draft = useSelector((state: RootState) => state.roster.draft);
   const payload = buildExportPayload(draft, dict, unitLabelById, optionLabelByUnitId);
@@ -327,14 +272,6 @@ export default function RosterExportControls({
     triggerDownload(filename, csv, "text/csv");
   };
 
-  const handleExportPrint = () => {
-    if (onPrintExport) {
-      void onPrintExport();
-      return;
-    }
-    window.print();
-  };
-
   const resolvedVariant = triggerVariant ?? (variant === "inline" ? "secondary" : "accent");
 
   const actions: ReadonlyArray<ActionItem> = [
@@ -350,7 +287,6 @@ export default function RosterExportControls({
       disabled: pdfExporting ?? false,
     },
     { label: dict.rosterExportMenuCsv, onSelect: handleExportCsv, disabled: isEmpty },
-    { label: dict.rosterExportMenuPrint, onSelect: handleExportPrint },
   ];
 
   const triggerButton = (
