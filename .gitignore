@@ -19,6 +19,9 @@ yarn-error.log*
 # System files
 .DS_Store
 
+# Claude Code
+.claude/
+
 # TS build info
 *.tsbuildinfo
 
