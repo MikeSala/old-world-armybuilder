@@ -191,3 +191,14 @@ export const formatUnitSizeDetail = (
   if (entry.unitSize <= 1) return null;
   return `${dict.categoryEntryMultipleModels.replace("{count}", String(entry.unitSize))} @ ${dict.categoryEntryPointsPerModel.replace("{value}", String(entry.pointsPerModel))}`;
 };
+
+export const formatStatLabel = (
+  label: string,
+  dict: Pick<Dict, "rosterDetailProfileFallback" | "localeName">
+): string => {
+  const profileMatch = label.match(/^Profile (\d+)$/);
+  if (profileMatch) {
+    return dict.rosterDetailProfileFallback.replace("{index}", profileMatch[1]);
+  }
+  return translateNameForDict(label, dict);
+};

@@ -7,22 +7,9 @@ import type {
   NormalizedArmyUnits,
 } from "./types";
 import type { CategoryKey } from "@/lib/data/domain/types/categories";
+import { toString, toNumber, toBoolean } from "@/lib/utils/typeCoercions";
 
 const CATEGORY_KEYS: CategoryKey[] = ["characters", "core", "special", "rare", "mercenaries", "allies"];
-
-const toString = (value: unknown): string | undefined => {
-  if (typeof value !== "string") return undefined;
-  const trimmed = value.trim();
-  return trimmed.length > 0 ? trimmed : undefined;
-};
-
-const toNumber = (value: unknown): number | undefined => {
-  const num = typeof value === "number" ? value : Number(value);
-  if (!Number.isFinite(num)) return undefined;
-  return num;
-};
-
-const toBoolean = (value: unknown): boolean => Boolean(value);
 
 const normalizeNotes = (notes: unknown): Record<string, unknown> | undefined => {
   if (!notes || typeof notes !== "object" || Array.isArray(notes)) return undefined;

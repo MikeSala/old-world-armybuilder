@@ -1,56 +1,10 @@
 import type { CategoryKey } from "@/lib/data/domain/types/categories";
-import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
+import type { CategoryDict } from "@/lib/i18n/dictSubsets";
 import type { RosterEntry } from "@/lib/store/slices/rosterSlice";
 
 export type TotalsByCategory = Partial<Record<CategoryKey, number>>;
 
-export type Dict = Pick<
-  LocaleDictionary,
-  | "localeName"
-  | "categoryAddLabel"
-  | "categoryPtsAvailable"
-  | "categoryPtsMissing"
-  | "categoryCoreLabel"
-  | "categoryCorePointsSummary"
-  | "categoryCapPointsSummary"
-  | "categoryCharactersLabel"
-  | "categorySpecialLabel"
-  | "categoryRareLabel"
-  | "categoryMercsLabel"
-  | "categoryAlliesLabel"
-  | "categoryHelpDefault"
-  | "categoryHelpWarning"
-  | "categoryToggleCloseLabel"
-  | "categorySelectPlaceholder"
-  | "categoryConfirmAddLabel"
-  | "categoryConfirmSaveLabel"
-  | "categoryCancelLabel"
-  | "categoryEmptyUnitsMessage"
-  | "categoryUnitSectionLocked"
-  | "categoryLockedNoticeDescription"
-  | "categoryConfiguratorPrompt"
-  | "categoryOptionsDefaultLabel"
-  | "categoryOptionGroupCommandLabel"
-  | "categoryOptionGroupEquipmentLabel"
-  | "categoryOptionGroupArmorLabel"
-  | "categoryOptionGroupMountsLabel"
-  | "categoryEditTitle"
-  | "categoryUnitSizeLabel"
-  | "categoryUnitPointsPerModel"
-  | "categoryUnitFlatCost"
-  | "categoryUnitIncreaseAria"
-  | "categoryUnitDecreaseAria"
-  | "categoryUnitMinLabel"
-  | "categoryUnitMaxLabel"
-  | "categoryUnitTotalPoints"
-  | "categoryNoAdditionalOptions"
-  | "categoryOptionCostFree"
-  | "categoryOptionCostPerModelSuffix"
-  | "categoryPointsValue"
-  | "categoryEntrySingleModel"
-  | "categoryEntryMultipleModels"
-  | "categoryEntryPointsPerModel"
->;
+export type Dict = CategoryDict;
 
 export type CategorySection = {
   key: CategoryKey;

@@ -1,20 +1,17 @@
 "use client";
 
-import { clsx } from "clsx";
 import * as React from "react";
 
 import { Button } from "@/components/ui/Button";
-import { StatTooltipLabel } from "@/components/ui/StatTooltipLabel";
+import { StatsTable } from "@/components/builder/StatsTable";
 import type { CategoryKey } from "@/lib/data/domain/types/categories";
 import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
 import type { OptionLabelByUnitId } from "@/lib/builder/unitHelpers";
 import {
   formatOptionGroupLabel,
   localizeMetaLabel,
-  renderStatValue,
-  ROSTER_STAT_FIELDS,
-  ROSTER_STAT_TOOLTIP_KEYS,
 } from "@/lib/utils/rosterFormatting";
+import { TAILWIND_TEXT } from "@/lib/styles/tailwindConstants";
 import type { RosterEntry } from "@/lib/roster/normalizeEntry";
 import type { RosterUnitDetail } from "@/lib/store/selectors/rosterDetails";
 import { translateNameForDict, translateTextForDict } from "@/lib/i18n/translateLocale";
@@ -73,20 +70,10 @@ export function RosterSummaryList({
     () => Object.entries(groupedEntries) as Array<[CategoryKey, RosterEntry[]]>,
     [groupedEntries]
   );
-  const formatStatLabel = React.useCallback(
-    (label: string) => {
-      const profileMatch = label.match(/^Profile (\d+)$/);
-      if (profileMatch) {
-        return dict.rosterDetailProfileFallback.replace("{index}", profileMatch[1]);
-      }
-      return translateNameForDict(label, dict);
-    },
-    [dict]
-  );
 
   if (groups.length === 0) {
     return (
-      <p className="text-sm text-amber-200/60 print:text-gray-700">
+      <p className={TAILWIND_TEXT.EMPTY_STATE}>
         {dict.rosterSummaryEmptyMessage}
       </p>
     );
@@ -203,46 +190,7 @@ export function RosterSummaryList({
                       detail ? (
                         <div className="mt-3 space-y-3 rounded-lg border border-amber-400/20 bg-slate-950/60 p-3 text-xs text-amber-200/70 print:break-inside-avoid print:border-gray-300 print:bg-gray-100">
                           {statsRows.length ? (
-                            <div className="overflow-x-auto print:overflow-visible">
-                              <table className="min-w-full divide-y divide-amber-400/20 text-xs print:divide-gray-300">
-                                <thead className="text-amber-200/70 print:text-gray-700">
-                                  <tr>
-                                    <th className="px-2 py-1 text-left font-semibold uppercase tracking-wide">
-                                      {dict.rosterDetailStatsModelLabel}
-                                    </th>
-                                    {ROSTER_STAT_FIELDS.map((field) => (
-                                      <th
-                                        key={field.key}
-                                        className="px-2 py-1 text-center font-semibold uppercase tracking-wide"
-                                      >
-                                        <StatTooltipLabel
-                                          abbreviation={field.label}
-                                          label={dict[ROSTER_STAT_TOOLTIP_KEYS[field.key]]}
-                                          className="inline-flex w-full justify-center"
-                                        />
-                                      </th>
-                                    ))}
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  {statsRows.map((row) => (
-                                    <tr key={row.label} className="text-amber-100 print:text-gray-900">
-                                      <th className="px-2 py-2 text-left font-semibold">
-                                        {formatStatLabel(row.label)}
-                                      </th>
-                                      {ROSTER_STAT_FIELDS.map((field) => (
-                                        <td
-                                          key={`${row.label}-${field.key}`}
-                                          className="px-2 py-2 text-center print:text-gray-800"
-                                        >
-                                          {renderStatValue(row.values[field.key])}
-                                        </td>
-                                      ))}
-                                    </tr>
-                                  ))}
-                                </tbody>
-                              </table>
-                            </div>
+                            <StatsTable rows={statsRows} dict={dict} />
                           ) : (
                             <p className="text-amber-200/70 print:text-gray-700">
                               {dict.rosterDetailStatsMissing}

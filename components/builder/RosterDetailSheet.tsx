@@ -6,10 +6,10 @@ import * as React from "react";
 import { useSelector } from "react-redux";
 
 import { Button } from "@/components/ui/Button";
-import { StatTooltipLabel } from "@/components/ui/StatTooltipLabel";
+import { StatsTable } from "@/components/builder/StatsTable";
 import type { OptionLabelByUnitId } from "@/lib/builder/unitHelpers";
 import type { CategoryKey } from "@/lib/data/domain/types/categories";
-import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
+import type { DetailDict } from "@/lib/i18n/dictSubsets";
 import {
   ORDERED_CATEGORIES,
   selectRosterDetailView,
@@ -23,64 +23,9 @@ import {
   localizeMetaLabel,
   buildCategoryLabels,
   formatPointsValue,
-  ROSTER_STAT_FIELDS,
-  ROSTER_STAT_TOOLTIP_KEYS,
-  renderStatValue,
 } from "@/lib/utils/rosterFormatting";
 import { translateNameForDict, translateTextForDict } from "@/lib/i18n/translateLocale";
-
-type DetailDict = Pick<
-  LocaleDictionary,
-  | "localeName"
-  | "rosterSummaryDefaultName"
-  | "rosterDetailHeading"
-  | "rosterDetailEmptyMessage"
-  | "rosterPrintButton"
-  | "rosterDetailCloseAria"
-  | "rosterPointsLimitLabel"
-  | "rosterTotalSpentLabel"
-  | "rosterDetailStatsMissing"
-  | "categoryPointsValue"
-  | "categoryCharactersLabel"
-  | "categoryCoreLabel"
-  | "categorySpecialLabel"
-  | "categoryRareLabel"
-  | "categoryMercsLabel"
-  | "categoryAlliesLabel"
-  | "rosterDetailUnitCountSingle"
-  | "rosterDetailUnitCountPlural"
-  | "rosterDetailModelsLine"
-  | "rosterSummaryBaseCost"
-  | "rosterDetailOwnedLabel"
-  | "rosterDetailOwnedYes"
-  | "rosterDetailOwnedNo"
-  | "rosterDetailUnnamedUnit"
-  | "categoryOptionCostFree"
-  | "categoryOptionsDefaultLabel"
-  | "categoryOptionGroupCommandLabel"
-  | "categoryOptionGroupEquipmentLabel"
-  | "categoryOptionGroupArmorLabel"
-  | "categoryOptionGroupMountsLabel"
-  | "rosterDetailStatsModelLabel"
-  | "rosterDetailStatNameM"
-  | "rosterDetailStatNameWS"
-  | "rosterDetailStatNameBS"
-  | "rosterDetailStatNameS"
-  | "rosterDetailStatNameT"
-  | "rosterDetailStatNameW"
-  | "rosterDetailStatNameI"
-  | "rosterDetailStatNameA"
-  | "rosterDetailStatNameLd"
-  | "rosterDetailSpecialRulesLabel"
-  | "rosterDetailProfileFallback"
-  | "rosterDetailMountLabel"
-  | "rosterDetailSidebarUnitSize"
-  | "rosterDetailSidebarBaseSize"
-  | "rosterDetailSidebarArmourValue"
-  | "rosterDetailSidebarMountUnitSize"
-  | "rosterDetailSidebarMountBaseSize"
-  | "rosterDetailSidebarMountArmourValue"
->;
+import { TAILWIND_CARDS, TAILWIND_TEXT } from "@/lib/styles/tailwindConstants";
 
 type Props = {
   dict: DetailDict;
@@ -126,11 +71,6 @@ type UnitDetailCardProps = {
   optionLabelByUnitId?: OptionLabelByUnitId;
 };
 
-type StatsTableProps = {
-  rows: RosterUnitStatRow[];
-  dict: DetailDict;
-};
-
 type OptionSummaryListProps = {
   summaries: RosterUnitOptionSummary[];
   dict: DetailDict;
@@ -145,7 +85,6 @@ type SidebarPanelProps = {
   dict: DetailDict;
 };
 
-const MUTED_TEXT = "text-xs text-amber-200/70 print:text-gray-600 print:text-[11px]";
 
 const formatUnitSummary = (
   unit: RosterUnitDetail,
@@ -163,13 +102,6 @@ const formatUnitSummary = (
   return parts.join(" · ");
 };
 
-const localizeStatLabel = (label: string, dict: DetailDict) => {
-  const profileMatch = label.match(/^Profile (\d+)$/);
-  if (profileMatch) {
-    return dict.rosterDetailProfileFallback.replace("{index}", profileMatch[1]);
-  }
-  return translateNameForDict(label, dict);
-};
 
 export default function RosterDetailSheet({
   dict,
@@ -379,7 +311,7 @@ function UnitDetailCard({
   const unitNotes = unit.notes ? translateTextForDict(unit.notes, dict) : null;
 
   return (
-    <article className="space-y-3 rounded-xl border border-amber-400/10 bg-slate-950/60 p-4 shadow shadow-amber-900/10 print:space-y-2 print:border-gray-300 print:bg-white print:p-3 print:shadow-none print-avoid-break">
+    <article className={`space-y-3 ${TAILWIND_CARDS.DETAIL_CARD} print:space-y-2 print:border-gray-300 print:bg-white print:p-3 print:shadow-none print-avoid-break`}>
       <div className="flex flex-col gap-3 md:flex-row md:items-start md:justify-between print:gap-2 print:flex-row print:justify-between">
         <div>
           <h4 className="text-base font-semibold text-amber-100 print:text-gray-900 print:text-sm">
@@ -402,7 +334,7 @@ function UnitDetailCard({
             </p>
           ) : null}
         </div>
-        <div className={`${MUTED_TEXT} text-right`}>
+        <div className={`${TAILWIND_TEXT.MUTED} text-right`}>
           <span>
             {dict.rosterDetailOwnedLabel}: {ownedText}
           </span>
@@ -454,51 +386,6 @@ function OptionSummaryList({
           </span>
         </React.Fragment>
       ))}
-    </div>
-  );
-}
-
-function StatsTable({ rows, dict }: StatsTableProps) {
-  return (
-    <div className="overflow-x-auto">
-      <table className="min-w-full divide-y divide-amber-400/20 text-xs print:divide-gray-300 print:text-[11px]">
-        <thead className="text-amber-200/70 print:text-gray-600">
-          <tr>
-            <th className="px-2 py-1 text-left font-semibold uppercase tracking-wide print:text-gray-900 print:text-xs">
-              {dict.rosterDetailStatsModelLabel}
-            </th>
-            {ROSTER_STAT_FIELDS.map((field) => (
-              <th
-                key={field.key}
-                className="px-2 py-1 text-center font-semibold uppercase tracking-wide print:text-gray-900 print:text-xs"
-              >
-                <StatTooltipLabel
-                  abbreviation={field.label}
-                  label={dict[ROSTER_STAT_TOOLTIP_KEYS[field.key]]}
-                  className="inline-flex w-full justify-center"
-                />
-              </th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          {rows.map((row) => (
-            <tr key={row.label} className="text-amber-200 print:text-gray-900">
-              <th className="px-2 py-2 text-left font-semibold print:text-xs">
-                {localizeStatLabel(row.label, dict)}
-              </th>
-              {ROSTER_STAT_FIELDS.map((field) => (
-                <td
-                  key={`${row.label}-${field.key}`}
-                  className="px-2 py-2 text-center text-amber-100 print:text-gray-900 print:text-xs"
-                >
-                  {renderStatValue(row.values[field.key])}
-                </td>
-              ))}
-            </tr>
-          ))}
-        </tbody>
-      </table>
     </div>
   );
 }

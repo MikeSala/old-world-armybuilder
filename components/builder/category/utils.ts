@@ -1,10 +1,11 @@
 import type { UnitOptionGroup } from "@/lib/builder/unitHelpers";
 import type { CategoryKey } from "@/lib/data/domain/types/categories";
 import type { SelectedOption, RosterEntry } from "@/lib/roster/normalizeEntry";
+import { clampNonNegative } from "@/lib/utils/math";
 
 import type { CategorySection, Dict, TotalsByCategory } from "./types";
 
-const clampNonNeg = (n: number) => (n < 0 ? 0 : n);
+const clampNonNeg = clampNonNegative;
 const roundPoints = (n: number) => Math.round(n);
 
 type CategoryMath = {

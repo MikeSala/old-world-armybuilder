@@ -6,6 +6,8 @@ import { useDispatch, useSelector } from "react-redux";
 import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
 import type { AppDispatch, RootState } from "@/lib/store";
 import { setPoints, setPointsInput, setValidationErrors, rosterInitialState } from "@/lib/store/slices/rosterSlice";
+import { clamp } from "@/lib/utils/math";
+import { parseDigits } from "@/lib/utils/stringHelpers";
 
 type Props = {
   dict: Pick<
@@ -19,10 +21,6 @@ type Props = {
 };
 
 const MAX_POINTS = 9999;
-
-// helpery
-const clamp = (v: number, mn: number, mx: number) => Math.min(mx, Math.max(mn, v));
-const parseDigits = (raw: string) => raw.replace(/\D+/g, "").slice(0, 4);
 
 export default function ArmyPointsCounter({
   dict,

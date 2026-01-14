@@ -3,6 +3,7 @@ import {
   getLocalizedOptionNote,
   type UnitOptionGroup,
 } from "@/lib/builder/unitHelpers";
+import { TAILWIND_CARDS } from "@/lib/styles/tailwindConstants";
 
 import type { Dict } from "./types";
 
@@ -15,7 +16,7 @@ type Props = {
 
 export function OptionGroupSection({ group, selectedIds, onToggle, dict }: Props) {
   return (
-    <section className="rounded-xl border border-amber-300/20 bg-slate-900/60 p-4">
+    <section className={TAILWIND_CARDS.OPTION_CARD}>
       <h4 className="text-sm font-semibold uppercase tracking-wide text-amber-200">
         {group.title}
       </h4>

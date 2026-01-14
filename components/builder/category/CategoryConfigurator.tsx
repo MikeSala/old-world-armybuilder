@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/Button";
 import Select, { type SelectOption } from "@/components/ui/Select";
 import { getLocalizedUnitLabel, getUnitKey } from "@/lib/builder/unitHelpers";
 import { translateNameForDict } from "@/lib/i18n/translateLocale";
+import { TAILWIND_CARDS, TAILWIND_TEXT } from "@/lib/styles/tailwindConstants";
 
 import { OptionGroupSection } from "./OptionGroupSection";
 import type { Dict } from "./types";
@@ -58,9 +59,9 @@ export const CategoryConfigurator = React.forwardRef<HTMLElement, Props>(functio
     return (
       <section
         ref={ref}
-        className="rounded-2xl border border-amber-300/30 bg-slate-900/60 p-5 text-amber-100 shadow-lg shadow-amber-900/10"
+        className={TAILWIND_CARDS.CONFIGURATOR_SECTION}
       >
-        <p className="text-sm text-amber-200/70">{dict.categoryConfiguratorPrompt}</p>
+        <p className={TAILWIND_TEXT.MUTED_SHORT}>{dict.categoryConfiguratorPrompt}</p>
       </section>
     );
   }
@@ -74,9 +75,9 @@ export const CategoryConfigurator = React.forwardRef<HTMLElement, Props>(functio
     return (
       <section
         ref={ref}
-        className="rounded-2xl border border-amber-300/30 bg-slate-900/60 p-5 text-amber-100 shadow-lg shadow-amber-900/10"
+        className={TAILWIND_CARDS.CONFIGURATOR_SECTION}
       >
-        <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-300">
+        <h3 className={TAILWIND_TEXT.SECTION_HEADING}>
           {optionsTitle}
         </h3>
         <p className="mt-4 text-sm text-amber-200/70">{dict.categoryEmptyUnitsMessage}</p>
@@ -87,10 +88,10 @@ export const CategoryConfigurator = React.forwardRef<HTMLElement, Props>(functio
   return (
     <section
       ref={ref}
-      className="rounded-2xl border border-amber-300/30 bg-slate-900/60 p-5 text-amber-100 shadow-lg shadow-amber-900/10"
+      className={TAILWIND_CARDS.CONFIGURATOR_SECTION}
     >
       <div className="flex flex-col gap-2 lg:flex-row lg:items-center lg:justify-between">
-        <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-300 lg:self-start">
+        <h3 className={`${TAILWIND_TEXT.SECTION_HEADING} lg:self-start`}>
           {optionsTitle}
         </h3>
 
@@ -112,7 +113,7 @@ export const CategoryConfigurator = React.forwardRef<HTMLElement, Props>(functio
           className="w-full"
         />
 
-        <div className="rounded-xl border border-amber-300/20 bg-slate-900/60 p-4">
+        <div className={TAILWIND_CARDS.OPTION_CARD}>
           <div className="flex flex-wrap items-center justify-between gap-3 text-xs uppercase tracking-wide text-amber-200/80">
             <span>{dict.categoryUnitSizeLabel}</span>
             <span>

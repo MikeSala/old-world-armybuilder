@@ -6,6 +6,7 @@ import {
   type RosterEntry,
   type SelectedOption,
 } from "@/lib/roster/normalizeEntry";
+import { clampNonNegative } from "@/lib/utils/math";
 
 type RosterDraft = {
   armyId: string | null;
@@ -93,7 +94,7 @@ const rosterSlice = createSlice({
       state.draft.armyRuleId = a.payload;
     },
     setPoints(state, a: PayloadAction<number>) {
-      state.draft.pointsLimit = Math.max(0, a.payload);
+      state.draft.pointsLimit = clampNonNegative(a.payload);
     },
     setName(state, a: PayloadAction<string>) {
       state.draft.name = a.payload;

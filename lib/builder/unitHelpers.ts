@@ -39,7 +39,11 @@ export type UnitOptionGroup = {
   options: UnitOptionItem[];
 };
 
-const OPTION_GROUP_DEFINITIONS: Array<{
+/**
+ * Definition of option groups with their types (radio vs checkbox).
+ * Exported for use across the application.
+ */
+export const OPTION_GROUP_DEFINITIONS: Array<{
   key: OptionSourceKey;
   type: "radio" | "checkbox";
 }> = [
@@ -48,7 +52,7 @@ const OPTION_GROUP_DEFINITIONS: Array<{
   { key: "armor", type: "radio" },
   { key: "mounts", type: "radio" },
   { key: "options", type: "checkbox" },
-];
+] as const;
 
 type LocaleKey = "pl" | "en" | "de" | "fr" | "es";
 
