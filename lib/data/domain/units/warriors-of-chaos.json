@@ -2,6 +2,7 @@
   "characters": [
     {
       "name_en": "Daemon Prince {warriors of chaos}",
+      "name_pl": "Książę Demonów {warriors of chaos}",
       "name_cn": "恶魔亲王 {warriors of chaos}",
       "name_de": "Daemon Prince",
       "name_es": "Daemon Prince",
@@ -382,6 +383,7 @@
     },
     {
       "name_en": "Chaos Lord",
+      "name_pl": "Władca Chaosu",
       "name_cn": "混沌领主",
       "name_de": "Chaos Lord",
       "name_es": "Chaos Lord",
@@ -837,6 +839,7 @@
     },
     {
       "name_en": "Sorcerer Lord",
+      "name_pl": "Władca Czarnoksiężników",
       "name_cn": "术士领主",
       "name_de": "Sorcerer Lord",
       "name_es": "Sorcerer Lord",
@@ -2747,6 +2750,7 @@
   "core": [
     {
       "name_en": "Chaos Warriors",
+      "name_pl": "Wojownicy Chaosu",
       "name_cn": "混沌勇士",
       "name_de": "Chaos Warriors",
       "name_es": "Chaos Warriors",
@@ -2943,6 +2947,7 @@
     },
     {
       "name_en": "Chaos Knights",
+      "name_pl": "Rycerze Chaosu",
       "name_cn": "混沌骑士",
       "name_de": "Chaos Knights",
       "name_es": "Chaos Knights",
@@ -3106,6 +3111,7 @@
     },
     {
       "name_en": "Chaos Marauders",
+      "name_pl": "Maruderzy Chaosu",
       "name_cn": "混沌掠夺者",
       "name_de": "Chaos Marauders",
       "name_es": "Chaos Marauders",
@@ -3342,6 +3348,7 @@
     },
     {
       "name_en": "Marauder Horsemen",
+      "name_pl": "Konni Maruderzy",
       "name_cn": "掠夺者骑兵",
       "name_de": "Marauder Horsemen",
       "name_es": "Marauder Horsemen",
@@ -4034,6 +4041,7 @@
   "special": [
     {
       "name_en": "Chosen Chaos Warriors",
+      "name_pl": "Wybrani Wojownicy Chaosu",
       "name_cn": "混沌神选者勇士",
       "name_de": "Chosen Chaos Warriors",
       "name_es": "Chosen Chaos Warriors",
@@ -4256,6 +4264,7 @@
     },
     {
       "name_en": "Chosen Chaos Knights",
+      "name_pl": "Wybrani Rycerze Chaosu",
       "name_cn": "混沌神选者骑士",
       "name_de": "Chosen Chaos Knights",
       "name_es": "Chosen Chaos Knights",
@@ -4664,6 +4673,7 @@
     },
     {
       "name_en": "Chaos Ogres",
+      "name_pl": "Ogry Chaosu",
       "name_cn": "混沌食人魔",
       "name_de": "Chaos Ogres",
       "name_es": "Chaos Ogres",
@@ -4819,6 +4829,7 @@
     },
     {
       "name_en": "Chaos Trolls",
+      "name_pl": "Trolle Chaosu",
       "name_cn": "混沌巨魔",
       "name_de": "Chaos Trolls",
       "name_es": "Chaos Trolls",
@@ -4895,6 +4906,7 @@
     },
     {
       "name_en": "Chaos Spawn",
+      "name_pl": "Pomiot Chaosu",
       "name_cn": "混沌卵",
       "name_de": "Chaos Spawn",
       "name_es": "Chaos Spawn",
@@ -4998,6 +5010,7 @@
     },
     {
       "name_en": "Dragon Ogres",
+      "name_pl": "Smocze Ogry",
       "name_cn": "龙魔",
       "name_de": "Dragon Ogres",
       "name_es": "Dragon Ogres",
@@ -5556,6 +5569,7 @@
   "rare": [
     {
       "name_en": "Gorebeast Chariot",
+      "name_pl": "Rydwan Bestii Krwi",
       "name_cn": "戈尔兽战车",
       "name_de": "Gorebeast Chariot",
       "name_es": "Gorebeast Chariot",
@@ -5821,6 +5835,7 @@
     },
     {
       "name_en": "Hellcannon",
+      "name_pl": "Piekielna Armata",
       "name_cn": "地狱炮",
       "name_de": "Hellcannon",
       "name_es": "Hellcannon",
