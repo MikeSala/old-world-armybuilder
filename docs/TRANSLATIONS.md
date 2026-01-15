@@ -11,6 +11,20 @@ Projekt używa **hybrydowego systemu tłumaczeń**:
 
 ### Metoda 1: Użycie skryptu (zalecane)
 
+#### Dla wszystkich armii (najszybsza metoda)
+
+```bash
+# Przetłumacz wszystkie armie
+node scripts/translate-all-armies.js
+
+# Przetłumacz tylko jedną armię
+node scripts/translate-all-armies.js empire-of-man
+```
+
+Skrypt `translate-all-armies.js` zawiera bazę **357 tłumaczeń** pokrywającą wszystkie armie i wspólne jednostki.
+
+#### Dla pojedynczej armii (Warriors of Chaos)
+
 1. Edytuj `scripts/add-pl-translations.js`
 2. Dodaj tłumaczenia do obiektu `translations`:
 
@@ -44,19 +58,30 @@ Otwórz plik jednostek (np. `lib/data/domain/units/warriors-of-chaos.json`) i do
 }
 ```
 
-## Rozszerzanie skryptu na inne armie
+## Rozszerzanie bazy tłumaczeń
 
-Aby dodać tłumaczenia dla innej armii:
+Aby dodać nowe tłumaczenia do bazy danych:
 
-1. Edytuj `scripts/add-pl-translations.js`
-2. Zmień nazwę pliku:
+1. Edytuj `scripts/translate-all-armies.js`
+2. Dodaj wpisy do obiektu `TRANSLATIONS`:
 
 ```javascript
-const targetFile = path.join(unitsDir, 'high-elves.json'); // zmień nazwę
+const TRANSLATIONS = {
+  // ... istniejące tłumaczenia
+  "New Unit Name": "Nowa Nazwa Jednostki",
+  "Another Unit": "Inna Jednostka",
+};
 ```
 
-3. Dodaj tłumaczenia specyficzne dla tej armii
-4. Uruchom skrypt
+3. Uruchom skrypt dla wybranej armii lub wszystkich armii:
+
+```bash
+# Wszystkie armie
+node scripts/translate-all-armies.js
+
+# Konkretna armia
+node scripts/translate-all-armies.js empire-of-man
+```
 
 ## Priorytet tłumaczeń
 
@@ -105,13 +130,33 @@ Przejdź do edytora rozpiski z językiem polskim i sprawdź czy nazwy wyświetla
 
 ## Status tłumaczeń
 
-### Warriors of Chaos (Wojownicy Chaosu)
-✅ 15/100+ jednostek przetłumaczonych ręcznie
-- Wszystkie kluczowe jednostki (postacie, core, special, rare)
-- Pozostałe używają automatycznego tłumaczenia
+### ✅ Ukończone (173 jednostki)
 
-### Inne armie
-⏳ Planowane - używają automatycznego tłumaczenia
+| Armia | Przetłumaczone jednostki |
+|-------|--------------------------|
+| Beastmen Brayherds | 20 jednostek |
+| Dwarfen Mountain Holds | 18 jednostek |
+| Tomb Kings of Khemri | 17 jednostek |
+| Vampire Counts | 16 jednostek |
+| Dark Elves | 14 jednostek |
+| Skaven | 14 jednostek |
+| Lizardmen | 13 jednostek |
+| Ogre Kingdoms | 12 jednostek |
+| Empire of Man | 11 jednostek |
+| High Elf Realms | 11 jednostek |
+| Chaos Dwarfs | 9 jednostek |
+| Kingdom of Bretonnia | 9 jednostek |
+| Orc and Goblin Tribes | 6 jednostek |
+| Grand Cathay | 3 jednostki |
+| Warriors of Chaos | 15 jednostek |
+
+### ⏳ W trakcie
+
+- Daemons of Chaos - brak tłumaczeń w bazie
+- Renegade Crowns - brak tłumaczeń w bazie
+- Wood Elf Realms - brak tłumaczeń w bazie
+
+Wszystkie armie używają **hybrydowego systemu**: `name_pl` (jeśli dostępne) → automatyczne tłumaczenie (fallback).
 
 ## Kontrybucja
 
