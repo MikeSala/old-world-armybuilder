@@ -26,21 +26,24 @@
           "name_fr": "Arme de base",
           "points": 0,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Morning star",
           "name_cn": "晨星锤",
           "name_de": "Morgenstern",
           "name_fr": "Morgenstern",
-          "points": 3
+          "points": 3,
+          "name_pl": "Gwiazda poranna"
         },
         {
           "name_de": "Zweihandwaffe",
           "name_en": "Great weapon",
           "name_cn": "重型武器",
           "name_fr": "Arme lourde",
-          "points": 4
+          "points": 4,
+          "name_pl": "Wielka broń"
         },
         {
           "name_de": "Lanze",
@@ -54,7 +57,8 @@
             "name_it": "if appropriately mounted",
             "name_de": "sofern geeignet beritten",
             "name_fr": "si monté"
-          }
+          },
+          "name_pl": "Lanca"
         }
       ],
       "armor": [
@@ -73,7 +77,8 @@
           "name_en": "Shield",
           "name_cn": "盾牌",
           "name_fr": "Bouclier",
-          "points": 2
+          "points": 2,
+          "name_pl": "Tarcza"
         }
       ],
       "mounts": [
@@ -229,21 +234,24 @@
           "name_fr": "Arme de base",
           "points": 0,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_de": "Morgenstern",
           "name_en": "Morning star",
           "name_cn": "晨星锤",
           "name_fr": "Morgenstern",
-          "points": 3
+          "points": 3,
+          "name_pl": "Gwiazda poranna"
         },
         {
           "name_de": "Zweihandwaffe",
           "name_en": "Great weapon",
           "name_cn": "重型武器",
           "name_fr": "Arme lourde",
-          "points": 4
+          "points": 4,
+          "name_pl": "Wielka broń"
         },
         {
           "name_de": "Lanze",
@@ -257,7 +265,8 @@
             "name_it": "if appropriately mounted",
             "name_de": "sofern geeignet beritten",
             "name_fr": "si monté"
-          }
+          },
+          "name_pl": "Lanca"
         }
       ],
       "armor": [
@@ -276,14 +285,16 @@
           "name_en": "Shield",
           "name_cn": "盾牌",
           "name_fr": "Bouclier",
-          "points": 2
+          "points": 2,
+          "name_pl": "Tarcza"
         },
         {
           "name_en": "The Questing Vow",
           "name_cn": "探索誓言",
           "name_de": "Questgelübde",
           "name_fr": "Le Vœu de la Quête",
-          "points": 15
+          "points": 15,
+          "name_pl": "Przysięga Poszukiwacza"
         },
         {
           "name_en": "The Grail Vow",
@@ -294,7 +305,8 @@
           "armyComposition": [
             "kingdom-of-bretonnia",
             "errantry-crusades"
-          ]
+          ],
+          "name_pl": "Przysięga Graala"
         },
         {
           "name_en": "The Exile's Vow (replaces the Knight's Vow)",
@@ -304,7 +316,8 @@
           "points": 0,
           "armyComposition": [
             "bretonnian-exiles"
-          ]
+          ],
+          "name_pl": "Przysięga Wygnańca (zastępuje Przysięgę Rycerza)"
         },
         {
           "name_en": "The Crusader's Vow (replaces the Knight's Vow)",
@@ -314,7 +327,8 @@
           "points": 0,
           "armyComposition": [
             "errantry-crusades"
-          ]
+          ],
+          "name_pl": "Przysięga Krzyżowca (zastępuje Przysięgę Rycerza)"
         }
       ],
       "mounts": [
@@ -424,7 +438,8 @@
           "name_fr": "Arme de base",
           "name_de": "Handwaffe",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [],
@@ -447,7 +462,8 @@
               "name_es": "Hechicero de Nivel 3",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 3"
             },
             {
               "name_en": "Level 4 Wizard",
@@ -456,9 +472,11 @@
               "name_fr": "Sorcier de Niveau 4",
               "name_es": "Hechicero de Nivel 4",
               "points": 30,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 4"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [
@@ -600,21 +618,24 @@
           "name_fr": "Arme de base",
           "points": 0,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Morning star",
           "name_cn": "晨星锤",
           "name_de": "Morgenstern",
           "name_fr": "Morgenstern",
-          "points": 3
+          "points": 3,
+          "name_pl": "Gwiazda poranna"
         },
         {
           "name_de": "Zweihandwaffe",
           "name_en": "Great weapon",
           "name_cn": "重型武器",
           "name_fr": "Arme lourde",
-          "points": 4
+          "points": 4,
+          "name_pl": "Wielka broń"
         },
         {
           "name_de": "Lanze",
@@ -628,7 +649,8 @@
             "name_it": "if appropriately mounted",
             "name_de": "sofern geeignet beritten",
             "name_fr": "si monté"
-          }
+          },
+          "name_pl": "Lanca"
         }
       ],
       "armor": [
@@ -647,14 +669,16 @@
           "name_en": "Shield",
           "name_cn": "盾牌",
           "name_fr": "Bouclier",
-          "points": 2
+          "points": 2,
+          "name_pl": "Tarcza"
         },
         {
           "name_en": "The Questing Vow",
           "name_cn": "探索誓言",
           "name_de": "Questgelübde",
           "name_fr": "Le Vœu de la Quête",
-          "points": 15
+          "points": 15,
+          "name_pl": "Przysięga Poszukiwacza"
         },
         {
           "name_en": "The Grail Vow",
@@ -665,7 +689,8 @@
           "armyComposition": [
             "kingdom-of-bretonnia",
             "errantry-crusades"
-          ]
+          ],
+          "name_pl": "Przysięga Graala"
         },
         {
           "name_en": "The Exile's Vow (replaces the Knight's Vow)",
@@ -675,7 +700,8 @@
           "points": 0,
           "armyComposition": [
             "bretonnian-exiles"
-          ]
+          ],
+          "name_pl": "Przysięga Wygnańca (zastępuje Przysięgę Rycerza)"
         },
         {
           "name_en": "The Crusader's Vow (replaces the Knight's Vow)",
@@ -685,7 +711,8 @@
           "points": 0,
           "armyComposition": [
             "errantry-crusades"
-          ]
+          ],
+          "name_pl": "Przysięga Krzyżowca (zastępuje Przysięgę Rycerza)"
         }
       ],
       "mounts": [
@@ -796,7 +823,8 @@
           "name_fr": "Arme de base",
           "name_de": "Handwaffe",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [],
@@ -819,7 +847,8 @@
               "name_es": "Hechicero de Nivel 1",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 1"
             },
             {
               "name_en": "Level 2 Wizard",
@@ -828,9 +857,11 @@
               "name_fr": "Sorcier de Niveau 2",
               "name_es": "Hechicero de Nivel 2",
               "points": 30,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 2"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [
@@ -919,28 +950,32 @@
           "name_de": "Handwaffe",
           "points": 0,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Halberd",
           "name_cn": "长戟",
           "name_de": "Hellebarde",
           "name_fr": "Hallebarde",
-          "points": 2
+          "points": 2,
+          "name_pl": "Halabarda"
         },
         {
           "name_en": "Additional hand weapon",
           "name_cn": "额外单手武器",
           "name_de": "Zusätzliche Handwaffe",
           "name_fr": "Arme de base additionnelle",
-          "points": 2
+          "points": 2,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Cavalry spear",
           "name_cn": "骑兵长矛",
           "name_de": "Kavalleriespeer (sofern geeignet beritten)",
           "name_fr": "Lance de cavalerie",
-          "points": 2
+          "points": 2,
+          "name_pl": "Włócznia kawalerii"
         }
       ],
       "armor": [
@@ -959,7 +994,8 @@
           "name_cn": "盾牌",
           "name_fr": "Bouclier",
           "name_de": "Schild",
-          "points": 2
+          "points": 2,
+          "name_pl": "Tarcza"
         }
       ],
       "mounts": [
@@ -1029,7 +1065,8 @@
           "name_de": "Handwaffe",
           "name_es": "Hand weapon",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [],
@@ -1052,7 +1089,8 @@
               "name_es": "Hechicero de Nivel 1",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 1"
             },
             {
               "name_en": "Level 2 Wizard",
@@ -1061,7 +1099,8 @@
               "name_fr": "Sorcier de Niveau 2",
               "name_es": "Hechicero de Nivel 2",
               "points": 30,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 2"
             },
             {
               "name_en": "Level 3 Wizard",
@@ -1070,9 +1109,11 @@
               "name_es": "Level 3 Wizard",
               "name_fr": "Sorcier de Niveau 3",
               "points": 60,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 3"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [
@@ -1149,7 +1190,8 @@
           "name_de": "Die Klinge des Leids",
           "active": true,
           "points": 0,
-          "name_fr": "La Lame de Douleur"
+          "name_fr": "La Lame de Douleur",
+          "name_pl": "Bolesne Ostrze"
         }
       ],
       "armor": [
@@ -1200,7 +1242,8 @@
           "name_de": "Ende der Trauer (Axt)",
           "active": true,
           "points": 0,
-          "name_fr": "Consolatrice"
+          "name_fr": "Consolatrice",
+          "name_pl": "Koniec Smutku"
         }
       ],
       "armor": [
@@ -1251,7 +1294,8 @@
           "name_de": "Handwaffe, Kelch von Brionne, Stab der Elemente",
           "active": true,
           "points": 0,
-          "name_fr": "Arme de base, Calice de Brionne, Le Bâton des Éléments"
+          "name_fr": "Arme de base, Calice de Brionne, Le Bâton des Éléments",
+          "name_pl": "Broń ręczna, Kielich Brionne, Laska Żywiołów"
         }
       ],
       "armor": [],
@@ -1336,7 +1380,8 @@
           "name_fr": "Armes de base, Armes d'hast, Boucliers",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Broń drzewcowa, Tarcze"
         }
       ],
       "armor": [
@@ -1418,7 +1463,8 @@
           "name_fr": "Armes de base, Arcs longs",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Długie łuki"
         }
       ],
       "armor": [
@@ -1446,21 +1492,24 @@
           "name_cn": "拒马",
           "name_de": "Pfähle",
           "name_fr": "Pieux de Défense",
-          "points": 10
+          "points": 10,
+          "name_pl": "Obronne pale"
         },
         {
           "name_en": "Burning Braziers",
           "name_cn": "火盆",
           "name_de": "Feuerschalen",
           "name_fr": "Braséros",
-          "points": 20
+          "points": 20,
+          "name_pl": "Płonące Kadłubki"
         },
         {
           "name_en": "Skirmishers",
           "name_cn": "散兵",
           "name_de": "Plänkler",
           "name_fr": "Tirailleurs",
-          "points": 0
+          "points": 0,
+          "name_pl": "Harcownicy"
         }
       ],
       "mounts": [],
@@ -1577,7 +1626,8 @@
           "name_fr": "Armes de base, Boucliers",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons",
@@ -1585,7 +1635,8 @@
           "name_de": "Handwaffen, Zweihandwaffen",
           "name_fr": "Armes de base, Armes lourdes",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń"
         },
         {
           "name_en": "Hand weapons, Great weapons, Shields",
@@ -1593,7 +1644,8 @@
           "name_de": "Handwaffe, Zweihandwaffe, Schild",
           "name_fr": "Armes de base, Armes lourdes, Boucliers",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń, Tarcze"
         }
       ],
       "armour": [
@@ -1616,7 +1668,8 @@
           "points": 0,
           "armyComposition": [
             "bretonnian-exiles"
-          ]
+          ],
+          "name_pl": "Przysięga Wygnańca (zastępuje Przysięgę Rycerza)"
         },
         {
           "name_en": "The Crusader's Vow (replaces the Knight's Vow)",
@@ -1626,7 +1679,8 @@
           "points": 0,
           "armyComposition": [
             "errantry-crusades"
-          ]
+          ],
+          "name_pl": "Przysięga Krzyżowca (zastępuje Przysięgę Rycerza)"
         }
       ],
       "mounts": [],
@@ -1718,7 +1772,8 @@
           "name_fr": "Armes de base, Lances de joute, Boucliers",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance, Tarcze"
         }
       ],
       "armor": [
@@ -1741,7 +1796,8 @@
           "points": 0,
           "armyComposition": [
             "bretonnian-exiles"
-          ]
+          ],
+          "name_pl": "Przysięga Wygnańca (zastępuje Przysięgę Rycerza)"
         },
         {
           "name_en": "The Crusader's Vow (replaces the Knight's Vow)",
@@ -1751,7 +1807,8 @@
           "points": 0,
           "armyComposition": [
             "errantry-crusades"
-          ]
+          ],
+          "name_pl": "Przysięga Krzyżowca (zastępuje Przysięgę Rycerza)"
         }
       ],
       "mounts": [],
@@ -1841,7 +1898,8 @@
           "name_fr": "Armes de base, Lances de joute, Boucliers",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance, Tarcze"
         }
       ],
       "armor": [
@@ -1864,7 +1922,8 @@
           "points": 0,
           "armyComposition": [
             "bretonnian-exiles"
-          ]
+          ],
+          "name_pl": "Przysięga Wygnańca (zastępuje Przysięgę Rycerza)"
         },
         {
           "name_en": "The Crusader's Vow (replaces the Knight's Vow)",
@@ -1874,7 +1933,8 @@
           "points": 0,
           "armyComposition": [
             "errantry-crusades"
-          ]
+          ],
+          "name_pl": "Przysięga Krzyżowca (zastępuje Przysięgę Rycerza)"
         }
       ],
       "mounts": [],
@@ -1955,7 +2015,8 @@
           "name_fr": "Armes de base, Hallebardes",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Halabardy"
         },
         {
           "name_en": "Hand weapons, Polearms",
@@ -1964,7 +2025,8 @@
           "name_es": "Hand weapons, Polearms",
           "name_fr": "Armes de base, Armes d'hast",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Broń drzewcowa"
         },
         {
           "name_en": "Hand weapons, Thrusting spears",
@@ -1973,7 +2035,8 @@
           "name_es": "Hand weapons, Thrusting spears",
           "name_fr": "Armes de base, Lances d'infanterie",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Włócznie kłująca"
         }
       ],
       "armor": [
@@ -2039,7 +2102,8 @@
           "name_fr": "Armes de base, Boucliers",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Tarcze"
         }
       ],
       "armor": [
@@ -2132,7 +2196,8 @@
           "name_fr": "Armes de base, Armes lourdes, Boucliers",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Wielka broń, Tarcze"
         }
       ],
       "armor": [
@@ -2226,7 +2291,8 @@
           "name_fr": "Arme de base, Lances de joute, Boucliers",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance, Tarcze"
         }
       ],
       "armor": [
@@ -2249,7 +2315,8 @@
           "points": 0,
           "armyComposition": [
             "bretonnian-exiles"
-          ]
+          ],
+          "name_pl": "Przysięga Wygnańca (zastępuje Przysięgę Rycerza)"
         },
         {
           "name_en": "The Crusader's Vow (replaces the Knight's Vow)",
@@ -2259,7 +2326,8 @@
           "points": 0,
           "armyComposition": [
             "errantry-crusades"
-          ]
+          ],
+          "name_pl": "Przysięga Krzyżowca (zastępuje Przysięgę Rycerza)"
         }
       ],
       "mounts": [],
@@ -2311,7 +2379,8 @@
           "name_fr": "Armes de base, Lances de cavalerie, Arcs courts",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Włócznie kawalerii, Krótkie łuki"
         }
       ],
       "armor": [
@@ -2340,7 +2409,8 @@
           "name_de": "Schild",
           "name_fr": "Boucliers",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Tarcze"
         },
         {
           "name_en": "Feigned Flight",
@@ -2348,7 +2418,8 @@
           "name_de": "Vorgetäuschte Flucht",
           "name_fr": "Fuite Feinte",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Udawany odwrót"
         }
       ],
       "mounts": [],
@@ -2411,7 +2482,8 @@
           "name_fr": "Armes de base, Arcs longs",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Długie łuki"
         }
       ],
       "armor": [],
@@ -2422,7 +2494,8 @@
           "name_de": "Schießen und Verschwinden",
           "name_fr": "Tir & Fuite",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Ogień i odwrót"
         },
         {
           "name_en": "Scouts",
@@ -2430,7 +2503,8 @@
           "name_de": "Kundschafter",
           "name_fr": "Éclaireurs",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Zwiadowcy"
         }
       ],
       "mounts": [],
@@ -2504,7 +2578,8 @@
           "name_fr": "Armes de base, Boucliers",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Tarcze"
         }
       ],
       "armor": [
@@ -2585,7 +2660,8 @@
           "name_fr": "Armes de base, Lances de joute, Boucliers",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance, Tarcze"
         }
       ],
       "armor": [
@@ -2677,7 +2753,8 @@
           "name_de": "Feldtrebuchet, Handwaffen",
           "name_fr": "Trébuchet de Campagne, Armes de base",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Trebusz polowy, Broń ręczna"
         }
       ],
       "armor": [],
@@ -2745,7 +2822,8 @@
           "name_fr": "Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [
@@ -2768,7 +2846,8 @@
           "name_fr": "Arme de base additionnelle",
           "name_es": "Additional hand weapon",
           "points": 2,
-          "stackable": true
+          "stackable": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Shields",
@@ -2777,7 +2856,8 @@
           "name_fr": "Boucliers",
           "name_es": "Shields",
           "points": 1,
-          "stackable": true
+          "stackable": true,
+          "name_pl": "Tarcze"
         },
         {
           "name_en": "Pistols",
@@ -2786,7 +2866,8 @@
           "name_es": "Pistols",
           "name_fr": "Pistolets",
           "points": 2,
-          "stackable": true
+          "stackable": true,
+          "name_pl": "Pistolety"
         },
         {
           "name_en": "Blunderbusses",
@@ -2795,7 +2876,8 @@
           "name_es": "Blunderbusses",
           "name_fr": "Tromblons",
           "points": 4,
-          "stackable": true
+          "stackable": true,
+          "name_pl": "Krótkie garłacze"
         },
         {
           "name_en": "Crossbows",
@@ -2804,7 +2886,8 @@
           "name_es": "Crossbows",
           "name_fr": "Arbalètes",
           "points": 3,
-          "stackable": true
+          "stackable": true,
+          "name_pl": "Kusze"
         },
         {
           "name_en": "Formation",
@@ -2829,7 +2912,8 @@
               "points": 0,
               "active": true,
               "perModel": true,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Szyk Otwarty"
             },
             {
               "name_en": "Close Order",
@@ -2839,7 +2923,8 @@
               "name_fr": "Ordre Serré",
               "points": 0,
               "perModel": true,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Zwarty Szyk"
             },
             {
               "name_en": "Skirmishers",
@@ -2848,9 +2933,11 @@
               "name_fr": "Tirailleurs",
               "points": 0,
               "perModel": true,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Harcownicy"
             }
-          ]
+          ],
+          "name_pl": "Formacja"
         },
         {
           "name_en": "Ambushers",
@@ -2866,7 +2953,8 @@
             "name_de": "Wenn Plänkler",
             "name_fr": "Si Tirailleurs",
             "name_es": "If Skirmishers"
-          }
+          },
+          "name_pl": "Zasadzka"
         },
         {
           "name_en": "Scouts",
@@ -2882,7 +2970,8 @@
             "name_de": "Wenn Plänkler",
             "name_fr": "Si Tirailleurs",
             "name_es": "If Skirmishers"
-          }
+          },
+          "name_pl": "Zwiadowcy"
         }
       ],
       "mounts": [],
@@ -2920,7 +3009,8 @@
           "name_fr": "Bombarde, Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Bombarda, Broń ręczna"
         }
       ],
       "armor": [

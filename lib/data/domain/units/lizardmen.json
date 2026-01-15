@@ -66,7 +66,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [],
@@ -79,7 +80,8 @@
           "name_es": "Hechicero de Nivel 4",
           "points": 0,
           "active": true,
-          "alwaysActive": true
+          "alwaysActive": true,
+          "name_pl": "Czarodziej poziomu 4"
         }
       ],
       "mounts": [],
@@ -182,7 +184,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -191,7 +194,8 @@
           "name_es": "Additional hand weapon",
           "name_fr": "Arme de base additionnelle",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Cavalry spear",
@@ -207,7 +211,8 @@
             "name_it": "if appropriately mounted",
             "name_de": "sofern geeignet beritten",
             "name_fr": "si monté"
-          }
+          },
+          "name_pl": "Włócznia kawalerii"
         },
         {
           "name_en": "Great weapon",
@@ -216,7 +221,8 @@
           "name_es": "Great weapon",
           "name_fr": "Arme lourde",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Halberd",
@@ -225,7 +231,8 @@
           "name_es": "Halberd",
           "name_fr": "Hallebarde",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Halabarda"
         }
       ],
       "armor": [
@@ -250,7 +257,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcza"
         }
       ],
       "mounts": [
@@ -347,7 +355,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -356,7 +365,8 @@
           "name_es": "Additional hand weapon",
           "name_fr": "Arme de base additionnelle",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Cavalry spear",
@@ -372,7 +382,8 @@
             "name_it": "if appropriately mounted",
             "name_de": "sofern geeignet beritten",
             "name_fr": "si monté"
-          }
+          },
+          "name_pl": "Włócznia kawalerii"
         },
         {
           "name_en": "Great weapon",
@@ -381,7 +392,8 @@
           "name_es": "Great weapon",
           "name_fr": "Arme lourde",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Halberd",
@@ -390,7 +402,8 @@
           "name_es": "Halberd",
           "name_fr": "Hallebarde",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Halabarda"
         }
       ],
       "armor": [
@@ -415,7 +428,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcza"
         }
       ],
       "mounts": [
@@ -523,7 +537,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [
@@ -557,7 +572,8 @@
               "name_es": "Hechicero de Nivel 1",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 1"
             },
             {
               "name_en": "Level 2 Wizard",
@@ -566,9 +582,11 @@
               "name_fr": "Sorcier de Niveau 2",
               "name_es": "Hechicero de Nivel 2",
               "points": 30,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 2"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [
@@ -693,7 +711,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -702,7 +721,8 @@
           "name_es": "Additional hand weapon",
           "name_fr": "Arme de base additionnelle",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Cavalry spear",
@@ -718,7 +738,8 @@
             "name_it": "if appropriately mounted",
             "name_de": "sofern geeignet beritten",
             "name_fr": "si monté"
-          }
+          },
+          "name_pl": "Włócznia kawalerii"
         },
         {
           "name_en": "Blowpipe",
@@ -727,7 +748,8 @@
           "name_es": "Blowpipe",
           "name_fr": "Sarbacane",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dmuchawka"
         },
         {
           "name_en": "Javelin",
@@ -736,7 +758,8 @@
           "name_es": "Javelins",
           "name_fr": "Javeline",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Oszczep"
         }
       ],
       "armor": [
@@ -761,7 +784,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcza"
         }
       ],
       "mounts": [
@@ -911,7 +935,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "name_it": "Hand weapons, Shields"
+          "name_it": "Hand weapons, Shields",
+          "name_pl": "Broń ręczna, Tarcze"
         },
         {
           "name_en": "Thrusting spears, Shields",
@@ -921,7 +946,8 @@
           "name_fr": "Lances d'infanterie, Boucliers",
           "points": 1,
           "perModel": true,
-          "name_it": "Thrusting spears, Shields"
+          "name_it": "Thrusting spears, Shields",
+          "name_pl": "Włócznie kłująca, Tarcze"
         }
       ],
       "armor": [
@@ -953,7 +979,8 @@
             "name_de": "0-1 unit per 1000 points may have the Shieldwall special rule",
             "name_es": "0-1 unit per 1000 points may have the Shieldwall special rule",
             "name_fr": "0-1 unité par tranche de 1000 points peut avoir la règle spéciale Mur de Boucliers"
-          }
+          },
+          "name_pl": "Mur Tarcz"
         }
       ],
       "mounts": [],
@@ -1033,7 +1060,8 @@
           "name_fr": "Armes de base, Hallebardes, Boucliers",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Halabardy, Tarcze"
         }
       ],
       "armor": [
@@ -1145,7 +1173,8 @@
           "name_fr": "Armes de base, Hallebardes, Boucliers",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Halabardy, Tarcze"
         }
       ],
       "armor": [
@@ -1209,7 +1238,8 @@
           "name_fr": "Armes de base, Javelines, Boucliers",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Oszczepy, Tarcze"
         },
         {
           "name_en": "Hand weapons, Blowpipes",
@@ -1218,7 +1248,8 @@
           "name_es": "Hand weapons, Blowpipes",
           "name_fr": "Armes de base, Sarbacanes",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Dmuchawki"
         }
       ],
       "armor": [
@@ -1241,7 +1272,8 @@
           "name_es": "Scouts",
           "name_fr": "Éclaireurs",
           "points": 10,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Zwiadowcy"
         },
         {
           "name_en": "Vanguard",
@@ -1250,7 +1282,8 @@
           "name_es": "Vanguard",
           "name_fr": "Avant-garde",
           "points": 5,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Awangarda"
         }
       ],
       "mounts": [],
@@ -1291,7 +1324,8 @@
           "name_es": "Hand weapons",
           "name_fr": "Armes de base",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [],
@@ -1346,7 +1380,8 @@
           "name_fr": "Sarbacanes, Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Dmuchawki, Broń ręczna"
         }
       ],
       "armor": [
@@ -1410,7 +1445,8 @@
           "name_fr": "Armes lourdes",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Wielka broń"
         }
       ],
       "armor": [
@@ -1491,7 +1527,8 @@
           "name_fr": "Armes de base, Javelines",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Oszczepy"
         },
         {
           "name_en": "Hand weapons, Fireleech bolas",
@@ -1500,7 +1537,8 @@
           "name_es": "Hand weapons, Fireleech bolas",
           "name_fr": "Armes de base, Bolas à pyrosangsues",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Ogniste bolas"
         }
       ],
       "armor": [
@@ -1574,7 +1612,8 @@
           "name_fr": "Lances de cavalerie, Boucliers",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Włócznie kawalerii, Tarcze"
         }
       ],
       "armor": [
@@ -1657,7 +1696,8 @@
           "name_fr": "Armes de base, Boucliers",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Tarcze"
         },
         {
           "name_en": "Cavalry spears, Shields",
@@ -1666,7 +1706,8 @@
           "name_es": "Cavalry spears, Shields",
           "name_fr": "Lances de cavalerie, Boucliers",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Włócznie kawalerii, Tarcze"
         }
       ],
       "armor": [
@@ -1691,7 +1732,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Wyćwiczeni"
         }
       ],
       "mounts": [],
@@ -1760,7 +1802,8 @@
           "name_es": "Hand weapons, Javelins, Thunderous bludgeon, Ark of Sotek",
           "name_fr": "Armes de base, Javelines, Balayage furieux, Arche de Sotek",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Oszczepy, Grzmiący maczuga, Arka Soteka"
         },
         {
           "name_en": "Hand weapons, Javelins, Thunderous bludgeon, Solar Engine",
@@ -1768,7 +1811,8 @@
           "name_de": "Hand weapons, Javelins, Thunderous bludgeon, Solar Engine",
           "name_es": "Hand weapons, Javelins, Thunderous bludgeon, Solar Engine",
           "name_fr": "Armes de base, Javelines, Balayage furieux, Machine Solaire",
-          "points": 15
+          "points": 15,
+          "name_pl": "Broń ręczna, Oszczepy, Grzmiący maczuga, Słoneczny Silnik"
         }
       ],
       "armor": [],
@@ -1779,7 +1823,8 @@
           "name_de": "Fourth Skink crew member",
           "name_es": "Fourth Skink crew member",
           "name_fr": "Quatrième membre d'équipage Skink",
-          "points": 5
+          "points": 5,
+          "name_pl": "Czwarty członek załogi Skinków"
         }
       ],
       "mounts": [],
@@ -1828,7 +1873,8 @@
           "name_es": "Hand weapons, Javelins, Great horns, Giant bow",
           "name_fr": "Armes de base, Javelines, Grandes cornes, Arc géant",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Oszczepy, Wielkie rogi, Gigantyczny łuk"
         },
         {
           "name_en": "Hand weapons, Javelins, Great horns, Giant blowpipes",
@@ -1836,7 +1882,8 @@
           "name_de": "Hand weapons, Javelins, Great horns, Giant blowpipes",
           "name_es": "Hand weapons, Javelins, Great horns, Giant blowpipes",
           "name_fr": "Armes de base, Javelines, Grandes cornes, Sarbacanes géantes",
-          "points": 0
+          "points": 0,
+          "name_pl": "Broń ręczna, Oszczepy, Wielkie rogi, Gigantyczne dmuchawki"
         }
       ],
       "armor": [],
@@ -1893,7 +1940,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "armyComposition": "lizardmen"
+          "armyComposition": "lizardmen",
+          "name_pl": "Złowrogie pazury, Ognisty oddech {jaszczuroludzie}"
         },
         {
           "name_en": "Wicked claws, Fiery breath {renegade}",
@@ -1904,7 +1952,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "armyComposition": "lm-renegade"
+          "armyComposition": "lm-renegade",
+          "name_pl": "Złowrogie pazury, Ognisty oddech {renegaci}"
         }
       ],
       "armor": [
@@ -1928,7 +1977,8 @@
           "name_fr": "Coureurs Skinks avec Armes de base et Armure légère (Peaux calleuses)",
           "points": 5,
           "perModel": true,
-          "stackable": true
+          "stackable": true,
+          "name_pl": "Opiekunowie Skinki z Bronią ręczną i Lekką zbroją (Zgrubiałe skóry)"
         }
       ],
       "mounts": [],
@@ -1980,7 +2030,8 @@
           "name_fr": "Griffes mortelles, Épines acérées",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Złowrogie pazury, Ostre kolce"
         }
       ],
       "armor": [
@@ -2004,7 +2055,8 @@
           "name_fr": "Coureurs Skinks avec Armes de base et Armure légère (Peaux calleuses)",
           "points": 5,
           "perModel": true,
-          "stackable": true
+          "stackable": true,
+          "name_pl": "Opiekunowie Skinki z Bronią ręczną i Lekką zbroją (Zgrubiałe skóry)"
         }
       ],
       "mounts": [],
@@ -2063,7 +2115,8 @@
           "name_es": "Venomous talons, Venom spray",
           "name_fr": "Serres venimeuses, Crachat de venin",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Jadowite szpony, Strumień trucizny"
         }
       ],
       "armor": [
@@ -2124,7 +2177,8 @@
           "name_es": "Hand weapons, Javelins, Great horns, Giant bow",
           "name_fr": "Armes de base, Javelines, Grandes cornes, Arc géant",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Oszczepy, Wielkie rogi, Gigantyczny łuk"
         },
         {
           "name_en": "Hand weapons, Javelins, Great horns, Giant blowpipes",
@@ -2132,7 +2186,8 @@
           "name_de": "Hand weapons, Javelins, Great horns, Giant blowpipes",
           "name_es": "Hand weapons, Javelins, Great horns, Giant blowpipes",
           "name_fr": "Armes de base, Javelines, Grandes cornes, Sarbacanes géantes",
-          "points": 0
+          "points": 0,
+          "name_pl": "Broń ręczna, Oszczepy, Wielkie rogi, Gigantyczne dmuchawki"
         },
         {
           "name_en": "Hand weapons, Javelins, Great horns, Engine of the Gods",
@@ -2141,7 +2196,8 @@
           "name_es": "Hand weapons, Javelins, Great horns, Engine of the Gods",
           "name_fr": "Armes de base, Javelines, Grandes cornes, Machine des Dieux",
           "points": 25,
-          "armyComposition": "lizardmen"
+          "armyComposition": "lizardmen",
+          "name_pl": "Broń ręczna, Oszczepy, Wielkie rogi, Silnik Bogów"
         },
         {
           "name_en": "Hand weapons, Javelins, Great horns, Engine of the Gods {renegade}",
@@ -2150,7 +2206,8 @@
           "name_es": "Hand weapons, Javelins, Great horns, Engine of the Gods",
           "name_fr": "Armes de base, Javelines, Grandes cornes, Machine des Dieux",
           "points": 25,
-          "armyComposition": "lm-renegade"
+          "armyComposition": "lm-renegade",
+          "name_pl": "Broń ręczna, Oszczepy, Wielkie rogi, Silnik Bogów {renegaci}"
         }
       ],
       "armor": [],

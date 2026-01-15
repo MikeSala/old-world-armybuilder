@@ -45,7 +45,8 @@
           "perModel": true,
           "active": true,
           "name_fr": "Arme de base",
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -55,7 +56,8 @@
           "name_es": "Arma de mano adicional",
           "points": 3,
           "perModel": true,
-          "name_fr": "Arme de base additionnelle"
+          "name_fr": "Arme de base additionnelle",
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Cavalry spear",
@@ -65,7 +67,8 @@
           "name_es": "Lanza de caballería",
           "points": 2,
           "perModel": true,
-          "name_fr": "Lance de cavalerie"
+          "name_fr": "Lance de cavalerie",
+          "name_pl": "Włócznia kawalerii"
         },
         {
           "name_en": "Great weapon",
@@ -75,7 +78,8 @@
           "name_es": "Arma a dos manos",
           "points": 4,
           "perModel": true,
-          "name_fr": "Arme lourde"
+          "name_fr": "Arme lourde",
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Halberd",
@@ -85,7 +89,8 @@
           "name_es": "Alabarda",
           "points": 3,
           "perModel": true,
-          "name_fr": "Hallebarde"
+          "name_fr": "Hallebarde",
+          "name_pl": "Halabarda"
         },
         {
           "name_en": "Lance",
@@ -95,7 +100,8 @@
           "name_es": "Lanza",
           "points": 4,
           "perModel": true,
-          "name_fr": "Lance de joute"
+          "name_fr": "Lance de joute",
+          "name_pl": "Lanca"
         },
         {
           "name_en": "Sword of Hoeth",
@@ -111,7 +117,8 @@
             "name_cn": "需要魔剑士精灵荣耀",
             "name_de": "Benötigt die Elfenehrung Lehrmeister",
             "name_fr": "Nécessite l'Honneur Elfique Maître du Savoir"
-          }
+          },
+          "name_pl": "Miecz Hoetha"
         },
         {
           "name_en": "Sword of Hoeth",
@@ -127,7 +134,8 @@
             "name_cn": "需要萨芙睿典卫精灵荣耀",
             "name_de": "Benötigt die Elfenehrung Wächter von Saphery",
             "name_fr": "Nécessite l'Honneur Elfique Gardien de Saphery"
-          }
+          },
+          "name_pl": "Miecz Hoetha"
         },
         {
           "name_en": "Bow of Avelorn",
@@ -143,7 +151,8 @@
             "name_cn": "需要阴影阔步者精灵荣耀",
             "name_de": "Benötigt die Elfenehrung Schattenpirscher",
             "name_fr": "Nécessite l'Honneur Elfique Rôdeur des Ombres"
-          }
+          },
+          "name_pl": "Łuk z Avelorn"
         },
         {
           "name_en": "Ceremonial halberd",
@@ -159,7 +168,8 @@
             "name_cn": "需要阿苏焉圣选者精灵荣耀",
             "name_de": "Benötigt die Elfenehrung Gesalbter des Asuryan",
             "name_fr": "Nécessite l'Honneur Elfique Élu d'Asuryan"
-          }
+          },
+          "name_pl": "Ceremonialna halabarda"
         },
         {
           "name_en": "Chracian great blade",
@@ -175,7 +185,8 @@
             "name_cn": "需要查里安寻猎者精灵荣耀",
             "name_de": "Benötigt die Elfenehrung Chracianischer Jäger",
             "name_fr": "Nécessite l'Honneur Elfique Chasseur Chracien"
-          }
+          },
+          "name_pl": "Wielkie ostrze z Chracii"
         },
         {
           "name_en": "Warbow",
@@ -190,7 +201,8 @@
             "name_en": "Requires Sea Guard Elven Honour",
             "name_cn": "需要海护卫精灵荣耀",
             "name_fr": "Nécessite l'Honneur Elfique Garde Maritime"
-          }
+          },
+          "name_pl": "Łuk bojowy"
         }
       ],
       "armor": [
@@ -251,7 +263,8 @@
           "name_es": "Escudo",
           "points": 2,
           "perModel": true,
-          "name_fr": "Bouclier"
+          "name_fr": "Bouclier",
+          "name_pl": "Tarcza"
         },
         {
           "name_en": "Longbow",
@@ -261,7 +274,8 @@
           "name_es": "Arco largo",
           "points": 4,
           "perModel": true,
-          "name_fr": "Arc long"
+          "name_fr": "Arc long",
+          "name_pl": "Długi łuk"
         },
         {
           "name_en": "Bow of Avelorn",
@@ -271,7 +285,8 @@
           "name_es": "Arco de Avelorn",
           "points": 12,
           "perModel": true,
-          "name_fr": "Arc d'Avelorn"
+          "name_fr": "Arc d'Avelorn",
+          "name_pl": "Łuk z Avelorn"
         }
       ],
       "mounts": [
@@ -544,7 +559,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -554,7 +570,8 @@
           "name_es": "Arma de mano adicional",
           "points": 3,
           "perModel": true,
-          "name_fr": "Arme de base additionnelle"
+          "name_fr": "Arme de base additionnelle",
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Cavalry spear",
@@ -564,7 +581,8 @@
           "name_es": "Lanza de caballería",
           "points": 2,
           "perModel": true,
-          "name_fr": "Lance de cavalerie"
+          "name_fr": "Lance de cavalerie",
+          "name_pl": "Włócznia kawalerii"
         },
         {
           "name_en": "Great weapon",
@@ -574,7 +592,8 @@
           "name_es": "Arma a dos manos",
           "points": 4,
           "perModel": true,
-          "name_fr": "Arme lourde"
+          "name_fr": "Arme lourde",
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Halberd",
@@ -584,7 +603,8 @@
           "name_es": "Alabarda",
           "points": 3,
           "perModel": true,
-          "name_fr": "Hallebarde"
+          "name_fr": "Hallebarde",
+          "name_pl": "Halabarda"
         },
         {
           "name_en": "Lance",
@@ -594,7 +614,8 @@
           "name_es": "Lanza",
           "points": 4,
           "perModel": true,
-          "name_fr": "Lance de joute"
+          "name_fr": "Lance de joute",
+          "name_pl": "Lanca"
         },
         {
           "name_en": "Sword of Hoeth",
@@ -609,7 +630,8 @@
             "name_en": "Requires Loremaster Elven Honour",
             "name_cn": "需要魔剑士精灵荣耀",
             "name_fr": "Nécessite l'Honneur Elfique Maître du Savoir"
-          }
+          },
+          "name_pl": "Miecz Hoetha"
         },
         {
           "name_en": "Sword of Hoeth",
@@ -624,7 +646,8 @@
             "name_en": "Requires Warden of Saphery Elven Honour",
             "name_cn": "需要萨芙睿典卫精灵荣耀",
             "name_fr": "Nécessite l'Honneur Elfique Gardien de Saphery"
-          }
+          },
+          "name_pl": "Miecz Hoetha"
         },
         {
           "name_en": "Bow of Avelorn",
@@ -639,7 +662,8 @@
             "name_en": "Requires Shadow Stalker Elven Honour",
             "name_cn": "需要阴影阔步者精灵荣耀",
             "name_fr": "Nécessite l'Honneur Elfique Rôdeur des Ombres"
-          }
+          },
+          "name_pl": "Łuk z Avelorn"
         },
         {
           "name_en": "Ceremonial halberd",
@@ -654,7 +678,8 @@
             "name_en": "Requires Anointed of Asuryan Elven Honour",
             "name_cn": "需要阿苏焉圣选者精灵荣耀",
             "name_fr": "Nécessite l'Honneur Elfique Élu d'Asuryan"
-          }
+          },
+          "name_pl": "Ceremonialna halabarda"
         },
         {
           "name_en": "Chracian great blade",
@@ -669,7 +694,8 @@
             "name_en": "Requires Chracian Hunter Elven Honour",
             "name_cn": "需要查里安寻猎者精灵荣耀",
             "name_fr": "Nécessite l'Honneur Elfique Chasseur Chracien"
-          }
+          },
+          "name_pl": "Wielkie ostrze z Chracii"
         },
         {
           "name_en": "Warbow",
@@ -684,7 +710,8 @@
             "name_en": "Requires Sea Guard Elven Honour",
             "name_cn": "需要海护卫精灵荣耀",
             "name_fr": "Nécessite l'Honneur Elfique Garde Maritime"
-          }
+          },
+          "name_pl": "Łuk bojowy"
         }
       ],
       "armor": [
@@ -744,7 +771,8 @@
           "name_es": "Escudo",
           "points": 2,
           "perModel": true,
-          "name_fr": "Bouclier"
+          "name_fr": "Bouclier",
+          "name_pl": "Tarcza"
         },
         {
           "name_en": "Longbow",
@@ -754,7 +782,8 @@
           "name_es": "Arco largo",
           "points": 4,
           "perModel": true,
-          "name_fr": "Arc long"
+          "name_fr": "Arc long",
+          "name_pl": "Długi łuk"
         },
         {
           "name_en": "Bow of Avelorn",
@@ -764,7 +793,8 @@
           "name_es": "Arco de Avelorn",
           "points": 12,
           "perModel": true,
-          "name_fr": "Arc d'Avelorn"
+          "name_fr": "Arc d'Avelorn",
+          "name_pl": "Łuk z Avelorn"
         }
       ],
       "mounts": [
@@ -1016,7 +1046,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "name_fr": "Arme de base"
+          "name_fr": "Arme de base",
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Sword of Hoeth",
@@ -1031,7 +1062,8 @@
             "name_en": "Requires Warden of Saphery Elven Honour",
             "name_cn": "需要萨芙睿典卫精灵荣耀",
             "name_fr": "Nécessite l'Honneur Elfique Gardien de Saphery"
-          }
+          },
+          "name_pl": "Miecz Hoetha"
         },
         {
           "name_en": "Bow of Avelorn",
@@ -1046,7 +1078,8 @@
             "name_en": "Requires Shadow Stalker Elven Honour",
             "name_cn": "需要阴影阔步者精灵荣耀",
             "name_fr": "Nécessite l'Honneur Elfique Rôdeur des Ombres"
-          }
+          },
+          "name_pl": "Łuk z Avelorn"
         },
         {
           "name_en": "Ceremonial halberd",
@@ -1061,7 +1094,8 @@
             "name_en": "Requires Anointed of Asuryan Elven Honour",
             "name_cn": "需要阿苏焉圣选者精灵荣耀",
             "name_fr": "Nécessite l'Honneur Elfique Élu d'Asuryan"
-          }
+          },
+          "name_pl": "Ceremonialna halabarda"
         },
         {
           "name_en": "Chracian great blade",
@@ -1076,7 +1110,8 @@
             "name_en": "Requires Chracian Hunter Elven Honour",
             "name_cn": "需要查里安寻猎者精灵荣耀",
             "name_fr": "Nécessite l'Honneur Elfique Chasseur Chracien"
-          }
+          },
+          "name_pl": "Wielkie ostrze z Chracii"
         },
         {
           "name_en": "Warbow",
@@ -1091,7 +1126,8 @@
             "name_en": "Requires Sea Guard Elven Honour",
             "name_cn": "需要海护卫精灵荣耀",
             "name_fr": "Nécessite l'Honneur Elfique Garde Maritime"
-          }
+          },
+          "name_pl": "Łuk bojowy"
         }
       ],
       "armor": [
@@ -1130,7 +1166,8 @@
               "name_es": "Hechicero de Nivel 3",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 3"
             },
             {
               "name_en": "Level 4 Wizard",
@@ -1139,9 +1176,11 @@
               "name_fr": "Sorcier de Niveau 4",
               "name_es": "Hechicero de Nivel 4",
               "points": 30,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 4"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [
@@ -1387,7 +1426,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "name_fr": "Arme de base"
+          "name_fr": "Arme de base",
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Sword of Hoeth",
@@ -1402,7 +1442,8 @@
             "name_en": "Requires Warden of Saphery Elven Honour",
             "name_cn": "需要萨芙睿典卫精灵荣耀",
             "name_fr": "Nécessite l'Honneur Elfique Gardien de Saphery"
-          }
+          },
+          "name_pl": "Miecz Hoetha"
         },
         {
           "name_en": "Bow of Avelorn",
@@ -1417,7 +1458,8 @@
             "name_en": "Requires Shadow Stalker Elven Honour",
             "name_cn": "需要阴影阔步者精灵荣耀",
             "name_fr": "Nécessite l'Honneur Elfique Rôdeur des Ombres"
-          }
+          },
+          "name_pl": "Łuk z Avelorn"
         },
         {
           "name_en": "Ceremonial halberd",
@@ -1432,7 +1474,8 @@
             "name_en": "Requires Anointed of Asuryan Elven Honour",
             "name_cn": "需要阿苏焉圣选者精灵荣耀",
             "name_fr": "Nécessite l'Honneur Elfique Élu d'Asuryan"
-          }
+          },
+          "name_pl": "Ceremonialna halabarda"
         },
         {
           "name_en": "Chracian great blade",
@@ -1447,7 +1490,8 @@
             "name_en": "Requires Chracian Hunter Elven Honour",
             "name_cn": "需要查里安寻猎者精灵荣耀",
             "name_fr": "Nécessite l'Honneur Elfique Chasseur Chracien"
-          }
+          },
+          "name_pl": "Wielkie ostrze z Chracii"
         },
         {
           "name_en": "Warbow",
@@ -1462,7 +1506,8 @@
             "name_en": "Requires Sea Guard Elven Honour",
             "name_cn": "需要海护卫精灵荣耀",
             "name_fr": "Nécessite l'Honneur Elfique Garde Maritime"
-          }
+          },
+          "name_pl": "Łuk bojowy"
         }
       ],
       "armor": [
@@ -1501,7 +1546,8 @@
               "name_es": "Hechicero de Nivel 1",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 1"
             },
             {
               "name_en": "Level 2 Wizard",
@@ -1510,9 +1556,11 @@
               "name_fr": "Sorcier de Niveau 2",
               "name_es": "Hechicero de Nivel 2",
               "points": 30,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 2"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [
@@ -1756,7 +1804,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "name_fr": "Arme de base"
+          "name_fr": "Arme de base",
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [
@@ -1791,7 +1840,8 @@
               "name_es": "Hechicero de Nivel 1",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 1"
             },
             {
               "name_en": "Level 2 Wizard",
@@ -1800,9 +1850,11 @@
               "name_fr": "Sorcier de Niveau 2",
               "name_es": "Hechicero de Nivel 2",
               "points": 30,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 2"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [
@@ -1885,7 +1937,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "name_fr": "Arme de base, Lance de suivante, Arc d'Avelorn"
+          "name_fr": "Arme de base, Lance de suivante, Arc d'Avelorn",
+          "name_pl": "Broń ręczna, Włócznia Służebnej, Łuk Avelornu"
         }
       ],
       "armor": [
@@ -1920,7 +1973,8 @@
           "name_es": "Cuerno de Isha",
           "points": 25,
           "perModel": true,
-          "name_fr": "Cor d'Isha"
+          "name_fr": "Cor d'Isha",
+          "name_pl": "Róg Ishy"
         }
       ],
       "mounts": [],
@@ -2007,7 +2061,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -2016,7 +2071,8 @@
           "name_de": "Zusätzliche Handwaffe",
           "name_es": "Arma de mano adicional",
           "name_fr": "Arme de base additionnelle",
-          "points": 4
+          "points": 4,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Chracian great blade",
@@ -2025,7 +2081,8 @@
           "name_de": "Chracian great blade",
           "name_es": "Chracian great blade",
           "name_fr": "Grande lame de Chrace",
-          "points": 3
+          "points": 3,
+          "name_pl": "Wielkie ostrze z Chracii"
         }
       ],
       "armor": [
@@ -2139,7 +2196,8 @@
           "name_es": "Arma de mano, Arco de guerra",
           "name_fr": "Arme de base, Arc de guerre",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Łuk bojowy"
         },
         {
           "name_en": "Hand weapon, Longbow",
@@ -2149,7 +2207,8 @@
           "name_es": "Arma de mano, Arco largo",
           "name_fr": "Arme de base, Arc long",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Długi łuk"
         }
       ],
       "armor": [
@@ -2181,7 +2240,8 @@
           "name_de": "Kavalleriespeer (if appropriately mounted)",
           "name_es": "Lanza de caballería (if appropriately mounted)",
           "name_fr": "Lance de cavalerie (si monté)",
-          "points": 2
+          "points": 2,
+          "name_pl": "Włócznia kawalerii (jeśli odpowiednio dosiadany)"
         },
         {
           "name_en": "Shield",
@@ -2190,7 +2250,8 @@
           "name_de": "Schild",
           "name_es": "Escudo",
           "name_fr": "Bouclier",
-          "points": 2
+          "points": 2,
+          "name_pl": "Tarcza"
         }
       ],
       "mounts": [
@@ -2338,7 +2399,8 @@
           "name_es": "Arma de mano",
           "name_fr": "Arme de base",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [],
@@ -2361,7 +2423,8 @@
               "name_es": "Hechicero de Nivel 1",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 1"
             },
             {
               "name_en": "Level 2 Wizard",
@@ -2370,7 +2433,8 @@
               "name_fr": "Sorcier de Niveau 2",
               "name_es": "Hechicero de Nivel 2",
               "points": 30,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 2"
             },
             {
               "name_en": "Level 3 Wizard",
@@ -2380,9 +2444,11 @@
               "name_es": "Mago de nivel 3",
               "name_fr": "Sorcier de Niveau 3",
               "points": 60,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 3"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [
@@ -2478,7 +2544,8 @@
           "name_fr": "Arme de base, Chayal",
           "points": 0,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna, Chayal"
         }
       ],
       "armor": [
@@ -2565,7 +2632,8 @@
           "name_fr": "Arme de base, Ire de Mathlann, Arc de guerre",
           "points": 0,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna, Gniew Mathlanna, Łuk bojowy"
         }
       ],
       "armor": [
@@ -2658,7 +2726,8 @@
           "name_fr": "Armes de base",
           "name_es": "Arma de mano",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Thrusting spears",
@@ -2668,7 +2737,8 @@
           "name_fr": "Lances d'infanterie",
           "name_es": "Lanzas largas",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Włócznie kłująca"
         }
       ],
       "armor": [
@@ -2691,7 +2761,8 @@
           "name_de": "Schildwall",
           "name_fr": "Mur de Boucliers",
           "name_es": "Muralla de escudos",
-          "points": 10
+          "points": 10,
+          "name_pl": "Mur Tarcz"
         },
         {
           "name_en": "Veteran",
@@ -2701,7 +2772,8 @@
           "name_es": "Veteranos",
           "points": 1,
           "perModel": true,
-          "name_fr": "Vétérans"
+          "name_fr": "Vétérans",
+          "name_pl": "Weteran"
         },
         {
           "name_en": "Move Through Cover",
@@ -2717,7 +2789,8 @@
             "name_en": "0-1 unit per 1000 points",
             "name_cn": "每1000分0-1单位",
             "name_fr": "0-1 unité par tranche de 1000 points"
-          }
+          },
+          "name_pl": "Ruch Przez Ukrycie"
         },
         {
           "name_en": "Lion Cloak",
@@ -2727,7 +2800,8 @@
           "name_fr": "Cape de Lion",
           "name_es": "Lion Cloak",
           "points": 10,
-          "armyComposition": "the-chracian-warhost"
+          "armyComposition": "the-chracian-warhost",
+          "name_pl": "Lwi Płaszcz"
         }
       ],
       "mounts": [],
@@ -2806,7 +2880,8 @@
           "name_es": "Arma de mano, Arco largo",
           "points": 0,
           "active": true,
-          "name_fr": "Armes de base, Arcs longs"
+          "name_fr": "Armes de base, Arcs longs",
+          "name_pl": "Broń ręczna, Długie łuki"
         }
       ],
       "armor": [
@@ -2830,7 +2905,8 @@
           "name_es": "Veteranos",
           "points": 1,
           "perModel": true,
-          "name_fr": "Vétérans"
+          "name_fr": "Vétérans",
+          "name_pl": "Weteran"
         },
         {
           "name_en": "Detachment",
@@ -2839,7 +2915,8 @@
           "name_de": "Abteilung",
           "name_fr": "Détachement",
           "name_es": "Destacamento",
-          "points": 0
+          "points": 0,
+          "name_pl": "Oddział"
         },
         {
           "name_en": "Move Through Cover",
@@ -2855,7 +2932,8 @@
             "name_en": "0-1 unit per 1000 points",
             "name_cn": "每1000分0-1单位",
             "name_fr": "0-1 unité par tranche de 1000 points"
-          }
+          },
+          "name_pl": "Ruch Przez Ukrycie"
         },
         {
           "name_en": "Lion Cloak",
@@ -2865,7 +2943,8 @@
           "name_fr": "Cape de Lion",
           "name_es": "Lion Cloak",
           "points": 10,
-          "armyComposition": "the-chracian-warhost"
+          "armyComposition": "the-chracian-warhost",
+          "name_pl": "Lwi Płaszcz"
         }
       ],
       "mounts": [],
@@ -2951,7 +3030,8 @@
           "name_es": "Armas de mano, Lanzas largas, Arcos de guerra",
           "name_fr": "Armes de base, Lances d'infanterie, Arcs de guerre",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Włócznie kłująca, Łuki bojowe"
         }
       ],
       "armor": [
@@ -2975,7 +3055,8 @@
           "name_es": "Escudos",
           "name_fr": "Boucliers",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Tarcze"
         },
         {
           "name_en": "Veteran",
@@ -2985,7 +3066,8 @@
           "name_es": "Veteranos",
           "name_fr": "Vétérans",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Weteran"
         },
         {
           "name_en": "Drilled",
@@ -3000,7 +3082,8 @@
             "name_en": "0-1 unit per 1000 points",
             "name_cn": "每1000分0-1单位",
             "name_fr": "0-1 unité par tranche de 1000 points"
-          }
+          },
+          "name_pl": "Wyćwiczeni"
         }
       ],
       "mounts": [],
@@ -3087,7 +3170,8 @@
           "name_fr": "Armes de base, Lances de cavalerie",
           "points": 0,
           "active": true,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Włócznie kawalerii"
         },
         {
           "name_en": "Hand weapons, Shortbows",
@@ -3097,7 +3181,8 @@
           "name_es": "Armas de mano, Arcos cortos",
           "name_fr": "Armes de base, Arcs courts",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Krótkie łuki"
         }
       ],
       "armor": [
@@ -3121,7 +3206,8 @@
           "name_es": "Arcos cortos",
           "points": 2,
           "perModel": true,
-          "name_fr": "Arcs courts"
+          "name_fr": "Arcs courts",
+          "name_pl": "Krótkie łuki"
         },
         {
           "name_en": "Scouts",
@@ -3131,7 +3217,8 @@
           "name_es": "Exploradores",
           "points": 2,
           "perModel": true,
-          "name_fr": "Éclaireurs"
+          "name_fr": "Éclaireurs",
+          "name_pl": "Zwiadowcy"
         },
         {
           "name_en": "Skirmishers",
@@ -3141,7 +3228,8 @@
           "name_fr": "Tirailleurs",
           "name_es": "Escaramuzadores",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Harcownicy"
         }
       ],
       "mounts": [],
@@ -3224,7 +3312,8 @@
           "name_es": "Armas de mano, Lanzas, Armas de mano (pezuñas)",
           "points": 0,
           "active": true,
-          "name_fr": "Armes de base, Lances de joute, Armes de base (Sabots)"
+          "name_fr": "Armes de base, Lances de joute, Armes de base (Sabots)",
+          "name_pl": "Broń ręczna, Lance, Broń ręczna (Kopyta)"
         }
       ],
       "armor": [
@@ -3248,7 +3337,8 @@
           "name_es": "Escudos",
           "points": 1,
           "perModel": true,
-          "name_fr": "Boucliers"
+          "name_fr": "Boucliers",
+          "name_pl": "Tarcze"
         }
       ],
       "mounts": [],
@@ -3315,7 +3405,8 @@
           "name_es": "Arcos de Avelorn",
           "points": 0,
           "active": true,
-          "name_fr": "Arcs d'Avelorn"
+          "name_fr": "Arcs d'Avelorn",
+          "name_pl": "Łuki z Avelorn"
         }
       ],
       "armor": [
@@ -3347,7 +3438,8 @@
             "name_es": "0-1 unidad",
             "name_de": "0-1 Einheit",
             "name_it": "0-1 unit"
-          }
+          },
+          "name_pl": "Nieugięty"
         },
         {
           "name_en": "Ambushers",
@@ -3365,7 +3457,8 @@
             "name_es": "0-1 unidad",
             "name_de": "0-1 Einheit",
             "name_it": "0-1 unit"
-          }
+          },
+          "name_pl": "Zasadzka"
         }
       ],
       "mounts": [],
@@ -3433,7 +3526,8 @@
           "name_es": "Armas de mano, Chracian great blades",
           "name_fr": "Armes de base, Grandes lames de Chrace",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Wielkie ostrza Chracii"
         }
       ],
       "armor": [
@@ -3467,7 +3561,8 @@
           "name_es": "Arcos de guerra",
           "name_fr": "Arcs de guerre",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Łuki bojowe"
         },
         {
           "name_en": "Lion Cloak",
@@ -3477,7 +3572,8 @@
           "name_es": "Lion Cloak",
           "name_fr": "Cape de Lion",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Lwi Płaszcz"
         },
         {
           "name_en": "Vanguard",
@@ -3489,7 +3585,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Awangarda"
         },
         {
           "name_en": "Scouts",
@@ -3508,7 +3605,8 @@
             "name_es": "0-1 unidad",
             "name_de": "0-1 Einheit",
             "name_it": "0-1 unit"
-          }
+          },
+          "name_pl": "Zwiadowcy"
         },
         {
           "name_en": "Ambushers",
@@ -3527,7 +3625,8 @@
             "name_es": "0-1 unidad",
             "name_de": "0-1 Einheit",
             "name_it": "0-1 unit"
-          }
+          },
+          "name_pl": "Zasadzka"
         }
       ],
       "mounts": [],
@@ -3615,7 +3714,8 @@
           "name_es": "Grandes hachas de Cracia",
           "points": 0,
           "active": true,
-          "name_fr": "Grandes lames de Chrace"
+          "name_fr": "Grandes lames de Chrace",
+          "name_pl": "Wielkie ostrza z Chracii"
         }
       ],
       "armor": [
@@ -3639,7 +3739,8 @@
           "name_de": "Veteranen (Replaces Valour of Ages)",
           "name_fr": "Vétérans (Remplace Valeur des Âges)",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Weteran (Zastępuje Męstwo Wieków)"
         }
       ],
       "mounts": [],
@@ -3731,7 +3832,8 @@
           "name_es": "Armas de mano, Arcos de guerra",
           "name_fr": "Armes de base, Arcs de guerre",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Łuki bojowe"
         },
         {
           "name_en": "Hand weapons, Thrusting spears, Shields",
@@ -3740,7 +3842,8 @@
           "name_de": "Handwaffen, Stoßspeere, Schilde",
           "name_es": "Armas de mano, Lanzas largas, Escudos",
           "name_fr": "Armes de base, Lances d'infanterie, Boucliers",
-          "points": 0
+          "points": 0,
+          "name_pl": "Broń ręczna, Włócznie kłująca, Tarcze"
         }
       ],
       "armor": [],
@@ -3753,7 +3856,8 @@
           "name_es": "Armadura ligera",
           "name_fr": "Armure légère",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Lekka zbroja"
         },
         {
           "name_en": "Skirmishers (Replaces Open Order)",
@@ -3763,7 +3867,8 @@
           "name_es": "Skirmishers (Replaces Open Order)",
           "name_fr": "Tirailleurs (Remplace Ordre Dispersé)",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Harcownicy (Zastępuje Szyk Otwarty)"
         },
         {
           "name_en": "Veteran (Replaces Valour of Ages)",
@@ -3773,7 +3878,8 @@
           "name_es": "Veteran (Replaces Valour of Ages)",
           "name_fr": "Vétérans (Remplace Valeur des Âges)",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Weteran (Zastępuje Męstwo Wieków)"
         }
       ],
       "mounts": [],
@@ -3858,7 +3964,8 @@
           "name_es": "Arma de mano, Lanza",
           "points": 0,
           "active": true,
-          "name_fr": "Armes de base, Lances de joute"
+          "name_fr": "Armes de base, Lances de joute",
+          "name_pl": "Broń ręczna, Lance"
         }
       ],
       "armor": [
@@ -3960,7 +4067,8 @@
           "name_es": "Espada de Hoeth",
           "points": 0,
           "active": true,
-          "name_fr": "Épées de Hoeth"
+          "name_fr": "Épées de Hoeth",
+          "name_pl": "Miecze Hoetha"
         }
       ],
       "armor": [
@@ -3984,7 +4092,8 @@
           "name_es": "Bien entrenados",
           "points": 1,
           "perModel": true,
-          "name_fr": "Bien Entraînés"
+          "name_fr": "Bien Entraînés",
+          "name_pl": "Wyćwiczeni"
         }
       ],
       "mounts": [],
@@ -4068,7 +4177,8 @@
           "name_es": "Alabardas ceremoniales",
           "points": 0,
           "active": true,
-          "name_fr": "Hallebardes de cérémonie"
+          "name_fr": "Hallebardes de cérémonie",
+          "name_pl": "Ceremonialne halabardy"
         }
       ],
       "armor": [
@@ -4092,7 +4202,8 @@
           "name_es": "Bien entrenados",
           "points": 1,
           "perModel": true,
-          "name_fr": "Bien Entraînés"
+          "name_fr": "Bien Entraînés",
+          "name_pl": "Wyćwiczeni"
         }
       ],
       "mounts": [],
@@ -4179,7 +4290,8 @@
           "name_es": "Grandes hachas de Cracia",
           "points": 0,
           "active": true,
-          "name_fr": "Grandes lames de Chrace"
+          "name_fr": "Grandes lames de Chrace",
+          "name_pl": "Wielkie ostrza z Chracii"
         }
       ],
       "armor": [
@@ -4203,7 +4315,8 @@
           "name_de": "Veteranen (Replaces Valour of Ages)",
           "name_fr": "Vétérans (Remplace Valeur des Âges)",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Weteran (Zastępuje Męstwo Wieków)"
         }
       ],
       "mounts": [],
@@ -4279,7 +4392,8 @@
           "name_es": "Arco largo",
           "points": 0,
           "active": true,
-          "name_fr": "Arcs longs"
+          "name_fr": "Arcs longs",
+          "name_pl": "Długie łuki"
         }
       ],
       "armor": [
@@ -4308,7 +4422,8 @@
             "name_en": "0-1 unit",
             "name_cn": "0-1单位",
             "name_fr": "0-1 unité"
-          }
+          },
+          "name_pl": "Zasadzka"
         },
         {
           "name_en": "Chariot Runners",
@@ -4323,7 +4438,8 @@
             "name_en": "0-1 unit",
             "name_cn": "0-1单位",
             "name_fr": "0-1 unité"
-          }
+          },
+          "name_pl": "Biegacze Rydwanu"
         },
         {
           "name_en": "Feigned Flight",
@@ -4338,7 +4454,8 @@
             "name_en": "0-1 unit",
             "name_cn": "0-1单位",
             "name_fr": "0-1 unité"
-          }
+          },
+          "name_pl": "Udawany odwrót"
         },
         {
           "name_en": "Ambushers",
@@ -4354,7 +4471,8 @@
             "name_en": "0-1 unit",
             "name_cn": "0-1单位",
             "name_fr": "0-1 unité"
-          }
+          },
+          "name_pl": "Zasadzka"
         }
       ],
       "mounts": [],
@@ -4394,7 +4512,8 @@
           "name_es": "Lanza de caballería, Arco largo",
           "points": 0,
           "active": true,
-          "name_fr": "Lances de cavalerie, Arcs longs"
+          "name_fr": "Lances de cavalerie, Arcs longs",
+          "name_pl": "Włócznie kawalerii, Długie łuki"
         }
       ],
       "armor": [],
@@ -4444,7 +4563,8 @@
           "name_es": "Gran hacha de Cracia",
           "points": 0,
           "active": true,
-          "name_fr": "Grandes lames de Chrace"
+          "name_fr": "Grandes lames de Chrace",
+          "name_pl": "Wielkie ostrza z Chracii"
         }
       ],
       "armor": [],
@@ -4495,7 +4615,8 @@
           "name_es": "Lanzas de caballería, Arcos cortos",
           "points": 0,
           "active": true,
-          "name_fr": "Lances de cavalerie, Arcs courts"
+          "name_fr": "Lances de cavalerie, Arcs courts",
+          "name_pl": "Włócznie kawalerii, Krótkie łuki"
         }
       ],
       "armor": [],
@@ -4508,7 +4629,8 @@
           "name_es": "Lanzavirotes ojo de águila",
           "points": 25,
           "perModel": true,
-          "name_fr": "Baliste Œil-d'aigle"
+          "name_fr": "Baliste Œil-d'aigle",
+          "name_pl": "Balista Orlego Oka"
         },
         {
           "name_en": "Ambushers",
@@ -4524,7 +4646,8 @@
             "name_en": "0-1 unit per 1000 points",
             "name_cn": "每1000分0-1单位",
             "name_fr": "0-1 unité par tranche de 1000 points"
-          }
+          },
+          "name_pl": "Zasadzka"
         }
       ],
       "mounts": [],
@@ -4576,7 +4699,8 @@
           "name_es": "Hand weapons (Claws and fangs)",
           "name_fr": "Armes de base (Griffes et crocs)",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna (Pazury i kły)"
         }
       ],
       "armor": [],
@@ -4648,7 +4772,8 @@
           "name_es": "Arcos de Avelorn",
           "points": 0,
           "active": true,
-          "name_fr": "Arcs d'Avelorn"
+          "name_fr": "Arcs d'Avelorn",
+          "name_pl": "Łuki z Avelorn"
         }
       ],
       "armor": [
@@ -4680,7 +4805,8 @@
             "name_es": "0-1 unidad",
             "name_de": "0-1 Einheit",
             "name_it": "0-1 unit"
-          }
+          },
+          "name_pl": "Nieugięty"
         },
         {
           "name_en": "Ambushers",
@@ -4698,7 +4824,8 @@
             "name_es": "0-1 unidad",
             "name_de": "0-1 Einheit",
             "name_it": "0-1 unit"
-          }
+          },
+          "name_pl": "Zasadzka"
         }
       ],
       "mounts": [],
@@ -4736,7 +4863,8 @@
           "name_fr": "Grandes lames de Chrace",
           "name_es": "Gran hacha de Cracia",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Wielkie ostrza z Chracii"
         }
       ],
       "armor": [],
@@ -4963,7 +5091,8 @@
           "name_es": "Lanzas de caballería, Arcos cortos",
           "points": 0,
           "active": true,
-          "name_fr": "Lances de cavalerie, Arcs courts"
+          "name_fr": "Lances de cavalerie, Arcs courts",
+          "name_pl": "Włócznie kawalerii, Krótkie łuki"
         }
       ],
       "armor": [],
@@ -4976,7 +5105,8 @@
           "name_es": "Lanzavirotes ojo de águila",
           "points": 25,
           "perModel": true,
-          "name_fr": "Baliste Œil-d'aigle"
+          "name_fr": "Baliste Œil-d'aigle",
+          "name_pl": "Balista Orlego Oka"
         }
       ],
       "mounts": [],
@@ -5064,7 +5194,8 @@
           "name_es": "Arma de mano, Grandes hachas de Cracia",
           "name_fr": "Armes de base, Grandes lames de Chrace",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Wielkie ostrza Chracii"
         }
       ],
       "armor": [
@@ -5123,7 +5254,8 @@
           "name_es": "Lashing talons, Serpentine tail, Briny breath",
           "name_fr": "Serres cinglantes, Queue de serpent, Souffle saumâtre",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Uderzające szpony, Wężowy ogon, Słony oddech"
         }
       ],
       "armor": [

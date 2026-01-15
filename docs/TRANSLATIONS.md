@@ -7,9 +7,9 @@ Projekt używa **hybrydowego systemu tłumaczeń**:
 1. **Tłumaczenia strukturalne** (`name_pl` w plikach JSON) - preferowane
 2. **Automatyczne tłumaczenia** (regex w `translateEnToPl.ts`) - fallback
 
-## Dodawanie tłumaczeń do jednostek
+## Dodawanie tłumaczeń do jednostek i ekwipunku
 
-### Metoda 1: Użycie skryptu (zalecane)
+### Dla jednostek - Metoda 1: Użycie skryptu (zalecane)
 
 #### Dla wszystkich armii (najszybsza metoda)
 
@@ -58,9 +58,30 @@ Otwórz plik jednostek (np. `lib/data/domain/units/warriors-of-chaos.json`) i do
 }
 ```
 
+### Dla ekwipunku - Użycie skryptu
+
+```bash
+# Przetłumacz ekwipunek wszystkich armii
+node scripts/translate-equipment.js
+
+# Przetłumacz ekwipunek tylko jednej armii
+node scripts/translate-equipment.js empire-of-man
+```
+
+Skrypt `translate-equipment.js` zawiera bazę **~1000 tłumaczeń** pokrywającą cały ekwipunek wszystkich armii:
+- Broń (ręczna, wielka, dystansowa, kombinacje)
+- Zbroje (lekka, ciężka, warianty)
+- Wierzchowce (konie, bestie, latające)
+- Rydwany i machiny wojenne
+- Champions i warianty jednostek
+- Specjalny ekwipunek i artefakty
+- Formacje i reguły specjalne
+
 ## Rozszerzanie bazy tłumaczeń
 
-Aby dodać nowe tłumaczenia do bazy danych:
+### Dla jednostek
+
+Aby dodać nowe tłumaczenia do bazy danych jednostek:
 
 1. Edytuj `scripts/translate-all-armies.js`
 2. Dodaj wpisy do obiektu `TRANSLATIONS`:
@@ -83,6 +104,31 @@ node scripts/translate-all-armies.js
 node scripts/translate-all-armies.js empire-of-man
 ```
 
+### Dla ekwipunku
+
+Aby dodać nowe tłumaczenia do bazy danych ekwipunku:
+
+1. Edytuj `scripts/translate-equipment.js`
+2. Dodaj wpisy do obiektu `EQUIPMENT_TRANSLATIONS`:
+
+```javascript
+const EQUIPMENT_TRANSLATIONS = {
+  // ... istniejące tłumaczenia
+  "New Weapon Name": "Nowa Nazwa Broni",
+  "Special Mount": "Specjalny Wierzchowiec",
+};
+```
+
+3. Uruchom skrypt:
+
+```bash
+# Wszystkie armie
+node scripts/translate-equipment.js
+
+# Konkretna armia
+node scripts/translate-equipment.js empire-of-man
+```
+
 ## Priorytet tłumaczeń
 
 System sprawdza tłumaczenia w następującej kolejności:
@@ -96,6 +142,7 @@ System sprawdza tłumaczenia w następującej kolejności:
 ### ✅ Kiedy używać `name_pl`
 
 - Nazwy jednostek (zawsze)
+- Nazwy ekwipunku (zawsze)
 - Złożone frazy wymagające poprawnej gramatyki
 - Jednostki z problemami w automatycznym tłumaczeniu
 
@@ -143,9 +190,15 @@ Przejdź do edytora rozpiski z językiem polskim i sprawdź czy nazwy wyświetla
 
 ## Status tłumaczeń
 
-### ✅ WSZYSTKIE ARMIE UKOŃCZONE! 🎉
+### ✅ WSZYSTKIE TŁUMACZENIA UKOŃCZONE! 🎉
 
-**588 jednostek przetłumaczonych | 18/18 armii ukończonych | 100% pokrycie**
+**100% pokrycie zarówno jednostek jak i ekwipunku!**
+
+#### Jednostki (Units)
+**588 jednostek przetłumaczonych | 18/18 armii | 100% pokrycie**
+
+#### Ekwipunek (Equipment)
+**2,156 przedmiotów ekwipunku przetłumaczonych | 18/18 armii | 100% pokrycie**
 
 | Armia | Przetłumaczone jednostki | Status |
 |-------|--------------------------|--------|
@@ -170,7 +223,9 @@ Przejdź do edytora rozpiski z językiem polskim i sprawdź czy nazwy wyświetla
 
 **System tłumaczeń:** Wszystkie armie używają **hybrydowego systemu** `name_pl` (strukturalne) → automatyczne tłumaczenie (fallback).
 
-**Baza tłumaczeń:** 622 tłumaczenia w `scripts/translate-all-armies.js`
+**Bazy tłumaczeń:**
+- **Jednostki:** 622 tłumaczenia w `scripts/translate-all-armies.js`
+- **Ekwipunek:** ~1000 tłumaczeń w `scripts/translate-equipment.js`
 
 ## Kontrybucja
 

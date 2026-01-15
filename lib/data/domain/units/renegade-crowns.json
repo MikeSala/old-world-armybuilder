@@ -191,7 +191,8 @@
           "name_es": "Arma de mano",
           "points": 0,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Great weapon",
@@ -199,7 +200,8 @@
           "name_de": "Zweihandwaffe",
           "name_fr": "Arme lourde",
           "name_es": "Arma a dos manos",
-          "points": 4
+          "points": 4,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Halberd",
@@ -207,7 +209,8 @@
           "name_de": "Hellebarde",
           "name_fr": "Hallebarde",
           "name_es": "Alabarda",
-          "points": 3
+          "points": 3,
+          "name_pl": "Halabarda"
         },
         {
           "name_en": "Lance",
@@ -223,14 +226,16 @@
             "name_de": "wenn beritten",
             "name_fr": "si monté",
             "name_es": "si está montado"
-          }
+          },
+          "name_pl": "Lanca"
         },
         {
           "name_en": "Morning star",
           "name_cn": "晨星锤",
           "name_de": "Morgenstern",
           "name_fr": "Morning star",
-          "points": 3
+          "points": 3,
+          "name_pl": "Gwiazda poranna"
         }
       ],
       "armor": [
@@ -267,7 +272,8 @@
           "name_de": "Schild",
           "name_fr": "Bouclier",
           "name_es": "Escudo",
-          "points": 2
+          "points": 2,
+          "name_pl": "Tarcza"
         },
         {
           "name_en": "Warbow",
@@ -277,7 +283,8 @@
           "name_es": "Arco de guerra",
           "name_fr": "Arc de guerre",
           "points": 3,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Łuk bojowy"
         },
         {
           "name_en": "Crossbow",
@@ -286,7 +293,8 @@
           "name_fr": "Arbalète",
           "name_es": "Ballesta",
           "points": 4,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Kusza"
         },
         {
           "name_en": "Pistol",
@@ -295,7 +303,8 @@
           "name_fr": "Pistolet",
           "name_es": "Pistola",
           "points": 5,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Pistolet"
         },
         {
           "name_en": "Brace of pistols",
@@ -304,7 +313,8 @@
           "name_fr": "Plusieurs pistolets",
           "name_es": "Ristra de pistolas",
           "points": 10,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Para pistolety"
         }
       ],
       "mounts": [
@@ -664,7 +674,8 @@
           "name_es": "Arma de mano",
           "points": 0,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Great weapon",
@@ -672,7 +683,8 @@
           "name_de": "Zweihandwaffe",
           "name_fr": "Arme lourde",
           "name_es": "Arma a dos manos",
-          "points": 4
+          "points": 4,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Halberd",
@@ -680,7 +692,8 @@
           "name_de": "Hellebarde",
           "name_fr": "Hallebarde",
           "name_es": "Alabarda",
-          "points": 3
+          "points": 3,
+          "name_pl": "Halabarda"
         },
         {
           "name_en": "Lance",
@@ -696,14 +709,16 @@
             "name_de": "wenn beritten",
             "name_fr": "si monté",
             "name_es": "si está montado"
-          }
+          },
+          "name_pl": "Lanca"
         },
         {
           "name_en": "Morning star",
           "name_cn": "晨星锤",
           "name_de": "Morgenstern",
           "name_fr": "Morning star",
-          "points": 3
+          "points": 3,
+          "name_pl": "Gwiazda poranna"
         }
       ],
       "armor": [
@@ -740,7 +755,8 @@
           "name_de": "Schild",
           "name_fr": "Bouclier",
           "name_es": "Escudo",
-          "points": 2
+          "points": 2,
+          "name_pl": "Tarcza"
         },
         {
           "name_en": "Warbow",
@@ -750,7 +766,8 @@
           "name_es": "Arco de guerra",
           "name_fr": "Arc de guerre",
           "points": 3,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Łuk bojowy"
         },
         {
           "name_en": "Crossbow",
@@ -759,7 +776,8 @@
           "name_fr": "Arbalète",
           "name_es": "Ballesta",
           "points": 4,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Kusza"
         },
         {
           "name_en": "Pistol",
@@ -768,7 +786,8 @@
           "name_fr": "Pistolet",
           "name_es": "Pistola",
           "points": 5,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Pistolet"
         },
         {
           "name_en": "Brace of pistols",
@@ -777,7 +796,8 @@
           "name_fr": "Plusieurs pistolets",
           "name_es": "Ristra de pistolas",
           "points": 10,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Para pistolety"
         }
       ],
       "mounts": [
@@ -1065,7 +1085,8 @@
           "name_de": "Handwaffe",
           "name_es": "Hand weapon",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [],
@@ -1088,7 +1109,8 @@
               "name_es": "Hechicero de Nivel 1",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 1"
             },
             {
               "name_en": "Level 2 Wizard",
@@ -1097,7 +1119,8 @@
               "name_fr": "Sorcier de Niveau 2",
               "name_es": "Hechicero de Nivel 2",
               "points": 30,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 2"
             },
             {
               "name_en": "Level 3 Wizard",
@@ -1106,9 +1129,11 @@
               "name_es": "Level 3 Wizard",
               "name_fr": "Sorcier de Niveau 3",
               "points": 60,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 3"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [
@@ -1256,7 +1281,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "defaultSelected": true
+          "defaultSelected": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Thrusting spears",
@@ -1264,7 +1290,8 @@
           "name_cn": "刺矛",
           "name_fr": "Lances d'infanterie",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Włócznie kłująca"
         },
         {
           "name_en": "Halberds",
@@ -1273,7 +1300,8 @@
           "name_fr": "Hallebardes",
           "name_es": "Alabardas",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Halabardy"
         },
         {
           "name_en": "Great weapons",
@@ -1282,7 +1310,8 @@
           "name_de": "Zweihandwaffen",
           "name_fr": "Armes lourdes",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Crossbows",
@@ -1290,7 +1319,8 @@
           "name_cn": "十字弩",
           "name_fr": "Arbalètes",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Kusze"
         },
         {
           "name_en": "Handguns",
@@ -1298,7 +1328,8 @@
           "name_cn": "火枪",
           "name_fr": "Arquebuses",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Arkebuzyz"
         }
       ],
       "armor": [
@@ -1329,7 +1360,8 @@
           "name_de": "Schilde",
           "name_fr": "Boucliers",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Tarcze"
         },
         {
           "name_en": "Heavy Infantry, Phalanx",
@@ -1341,7 +1373,8 @@
           "notes": {
             "name_en": "0-1 unit for each character with the Might of Miragliano Infamous Origin",
             "name_cn": "每有一个米拉格连诺伟力恶名起源角色则0-1单位"
-          }
+          },
+          "name_pl": "Ciężka Piechota, Falanga"
         }
       ],
       "mounts": [],
@@ -1423,7 +1456,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "defaultSelected": true
+          "defaultSelected": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Thrusting spears",
@@ -1431,7 +1465,8 @@
           "name_cn": "刺矛",
           "name_fr": "Lances d'infanterie",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Włócznie kłująca"
         },
         {
           "name_en": "Halberds",
@@ -1440,7 +1475,8 @@
           "name_fr": "Hallebardes",
           "name_es": "Alabardas",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Halabardy"
         },
         {
           "name_en": "Great weapons",
@@ -1449,7 +1485,8 @@
           "name_de": "Zweihandwaffen",
           "name_fr": "Armes lourdes",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Crossbows",
@@ -1457,7 +1494,8 @@
           "name_cn": "十字弩",
           "name_fr": "Arbalètes",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Kusze"
         },
         {
           "name_en": "Handguns",
@@ -1465,7 +1503,8 @@
           "name_cn": "火枪",
           "name_fr": "Arquebuses",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Arkebuzyz"
         }
       ],
       "armor": [
@@ -1505,7 +1544,8 @@
           "name_de": "Schilde",
           "name_fr": "Boucliers",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Tarcze"
         },
         {
           "name_en": "Drilled",
@@ -1514,7 +1554,8 @@
           "name_de": "Gut ausgebildet",
           "name_fr": "Bien Entraînés",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wyćwiczeni"
         },
         {
           "name_en": "Heavy Infantry, Phalanx",
@@ -1526,7 +1567,8 @@
           "notes": {
             "name_en": "0-1 unit for each character with the Might of Miragliano Infamous Origin",
             "name_cn": "每有一个米拉格连诺伟力恶名起源角色则0-1单位"
-          }
+          },
+          "name_pl": "Ciężka Piechota, Falanga"
         }
       ],
       "mounts": [],
@@ -1585,7 +1627,8 @@
           "name_es": "Armas de mano, Lanzas de caballería",
           "points": 1,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance"
         },
         {
           "name_en": "Hand weapons, Great weapons",
@@ -1594,7 +1637,8 @@
           "name_fr": "Armes de base, Armes lourdes",
           "name_es": "Armas de mano, Armas a dos manos",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń"
         }
       ],
       "armor": [
@@ -1637,7 +1681,8 @@
           "name_de": "Schilde",
           "name_fr": "Boucliers",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Tarcze"
         },
         {
           "name_en": "Lance Formation, Noble Disdain",
@@ -1650,7 +1695,8 @@
           "notes": {
             "name_en": "0-1 unit for each character with the Outcast Knights Infamous Origin",
             "name_cn": "每有一个变节骑士恶名起源角色则0-1单位"
-          }
+          },
+          "name_pl": "Formacja Lancerska, Szlachetna Pogarda"
         }
       ],
       "items": [],
@@ -1715,7 +1761,8 @@
           "name_es": "Armas de mano",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Cavalry spear",
@@ -1724,7 +1771,8 @@
           "name_es": "Lanza de caballería",
           "name_fr": "Lance de cavalerie",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Włócznia kawalerii"
         },
         {
           "name_en": "Shortbows",
@@ -1733,7 +1781,8 @@
           "name_es": "Cambiar escudos por arcos cortos",
           "name_fr": "Arcs courts",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Krótkie łuki"
         },
         {
           "name_en": "Pistols",
@@ -1742,7 +1791,8 @@
           "name_es": "Pistols",
           "name_fr": "Pistolets",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Pistolety"
         },
         {
           "name_en": "Brace of pistols",
@@ -1751,7 +1801,8 @@
           "name_fr": "Plusieurs pistolets",
           "name_es": "Ristra de pistolas",
           "points": 6,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Para pistolety"
         }
       ],
       "armor": [
@@ -1790,7 +1841,8 @@
           "name_de": "Schilde",
           "name_fr": "Boucliers",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Tarcze"
         },
         {
           "name_en": "Feigned Flight",
@@ -1803,7 +1855,8 @@
             "name_en": "0-1 per 1000 points",
             "name_cn": "每1000分0-1",
             "name_fr": "0-1 par tranche de 1000 points"
-          }
+          },
+          "name_pl": "Udawany odwrót"
         },
         {
           "name_en": "Reserve Move",
@@ -1817,7 +1870,8 @@
             "name_cn": "每1000分0-1",
             "name_de": "0-1 per 1.000 Punkte",
             "name_fr": "0-1 par tranche de 1000 points"
-          }
+          },
+          "name_pl": "Manewr Rezerwowy"
         },
         {
           "name_en": "Vanguard",
@@ -1832,7 +1886,8 @@
             "name_cn": "每1000分0-1",
             "name_de": "0-1 per 1.000 Punkte",
             "name_fr": "0-1 par tranche de 1000 points"
-          }
+          },
+          "name_pl": "Awangarda"
         },
         {
           "name_en": "Ambushers",
@@ -1845,7 +1900,8 @@
           "notes": {
             "name_en": "0-1 unit for each character with the Noble Outlaw Infamous Origin",
             "name_cn": "每有一个强盗贵族恶名起源角色则0-1单位"
-          }
+          },
+          "name_pl": "Zasadzka"
         }
       ],
       "mounts": [],
@@ -1890,7 +1946,8 @@
           "name_es": "Armas de mano adicionales, Armas arrojadizas (armas variadas)",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Dodatkowa broń ręczna, Broń do rzucania (mieszana broń)"
         }
       ],
       "armor": [],
@@ -1901,7 +1958,8 @@
           "name_de": "Abteilung",
           "name_fr": "Détachement",
           "name_es": "Destacamento",
-          "points": 0
+          "points": 0,
+          "name_pl": "Oddział"
         }
       ],
       "mounts": [],
@@ -1953,7 +2011,8 @@
           "name_es": "Armas de mano, Arcos de guerra",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Łuki bojowe"
         }
       ],
       "armor": [],
@@ -1967,7 +2026,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Ogień i odwrót"
         },
         {
           "name_en": "Scouts",
@@ -1978,7 +2038,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Zwiadowcy"
         },
         {
           "name_en": "Detachment",
@@ -1986,7 +2047,8 @@
           "name_de": "Abteilung",
           "name_fr": "Détachement",
           "name_es": "Destacamento",
-          "points": 0
+          "points": 0,
+          "name_pl": "Oddział"
         }
       ],
       "mounts": [],
@@ -2061,7 +2123,8 @@
           "name_es": "Armas de mano, Lanzas de caballería",
           "points": 1,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance"
         },
         {
           "name_en": "Hand weapons, Great weapons",
@@ -2070,7 +2133,8 @@
           "name_fr": "Armes de base, Armes lourdes",
           "name_es": "Armas de mano, Armas a dos manos",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń"
         }
       ],
       "armor": [
@@ -2122,7 +2186,8 @@
           "name_de": "Schilde",
           "name_fr": "Boucliers",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Tarcze"
         },
         {
           "name_en": "Lance Formation, Noble Disdain",
@@ -2135,7 +2200,8 @@
           "notes": {
             "name_en": "0-1 unit for each character with the Outcast Knights Infamous Origin",
             "name_cn": "每有一个变节骑士恶名起源角色则0-1单位"
-          }
+          },
+          "name_pl": "Formacja Lancerska, Szlachetna Pogarda"
         }
       ],
       "items": [],
@@ -2166,7 +2232,8 @@
           "name_fr": "Mortier, Armes de base",
           "name_es": "Mortero, Armas de mano",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Moździerz, Broń ręczna"
         }
       ],
       "armor": [],
@@ -2243,7 +2310,8 @@
           "name_fr": "Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [
@@ -2266,7 +2334,8 @@
           "name_fr": "Arme de base additionnelle",
           "name_es": "Additional hand weapon",
           "points": 2,
-          "stackable": true
+          "stackable": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Shields",
@@ -2275,7 +2344,8 @@
           "name_fr": "Boucliers",
           "name_es": "Shields",
           "points": 1,
-          "stackable": true
+          "stackable": true,
+          "name_pl": "Tarcze"
         },
         {
           "name_en": "Pistols",
@@ -2284,7 +2354,8 @@
           "name_es": "Pistols",
           "name_fr": "Pistolets",
           "points": 2,
-          "stackable": true
+          "stackable": true,
+          "name_pl": "Pistolety"
         },
         {
           "name_en": "Blunderbusses",
@@ -2293,7 +2364,8 @@
           "name_es": "Blunderbusses",
           "name_fr": "Tromblons",
           "points": 4,
-          "stackable": true
+          "stackable": true,
+          "name_pl": "Krótkie garłacze"
         },
         {
           "name_en": "Crossbows",
@@ -2302,7 +2374,8 @@
           "name_es": "Crossbows",
           "name_fr": "Arbalètes",
           "points": 3,
-          "stackable": true
+          "stackable": true,
+          "name_pl": "Kusze"
         },
         {
           "name_en": "Formation",
@@ -2327,7 +2400,8 @@
               "points": 0,
               "active": true,
               "perModel": true,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Szyk Otwarty"
             },
             {
               "name_en": "Close Order",
@@ -2337,7 +2411,8 @@
               "name_fr": "Close Order",
               "points": 0,
               "perModel": true,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Zwarty Szyk"
             },
             {
               "name_en": "Skirmishers",
@@ -2346,9 +2421,11 @@
               "name_fr": "Tirailleurs",
               "points": 0,
               "perModel": true,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Harcownicy"
             }
-          ]
+          ],
+          "name_pl": "Formacja"
         },
         {
           "name_en": "Ambushers",
@@ -2364,7 +2441,8 @@
             "name_de": "Wenn Plänkler",
             "name_fr": "Si Tirailleurs",
             "name_es": "If Skirmishers"
-          }
+          },
+          "name_pl": "Zasadzka"
         },
         {
           "name_en": "Scouts",
@@ -2380,7 +2458,8 @@
             "name_de": "Wenn Plänkler",
             "name_fr": "Si Tirailleurs",
             "name_es": "If Skirmishers"
-          }
+          },
+          "name_pl": "Zwiadowcy"
         },
         {
           "name_en": "+1 to Weapon Skill",
@@ -2393,7 +2472,8 @@
           "notes": {
             "name_en": "0-1 unit for each character with the Wandering Duelists Infamous Origin",
             "name_cn": "每有一个游荡决斗家恶名起源角色则0-1单位"
-          }
+          },
+          "name_pl": "+1 do Umiejętności Walki"
         }
       ],
       "mounts": [],
@@ -2425,7 +2505,8 @@
           "name_de": "Orgelkanone, Handwaffen",
           "name_fr": "Canon-orgue, Armes de base",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Organek, Broń ręczna"
         }
       ],
       "armor": [],
@@ -2459,7 +2540,8 @@
           "name_fr": "Bombard, Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Bombarda, Broń ręczna"
         }
       ],
       "armor": [

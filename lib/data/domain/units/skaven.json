@@ -53,7 +53,8 @@
           "name_es": "Hand weapon",
           "name_fr": "Arme de base",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -61,7 +62,8 @@
           "name_de": "Zusätzliche Handwaffe",
           "name_es": "Additional hand weapon",
           "name_fr": "Arme de base additionnelle",
-          "points": 3
+          "points": 3,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapon",
@@ -69,7 +71,8 @@
           "name_de": "Zweihandwaffe",
           "name_es": "Great weapon",
           "name_fr": "Arme lourde",
-          "points": 4
+          "points": 4,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Halberd",
@@ -77,7 +80,8 @@
           "name_de": "Hellebarde",
           "name_es": "Halberd",
           "name_fr": "Hallebarde",
-          "points": 3
+          "points": 3,
+          "name_pl": "Halabarda"
         }
       ],
       "armor": [
@@ -108,7 +112,8 @@
           "name_fr": "Bouclier",
           "points": 2,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcza"
         }
       ],
       "mounts": [],
@@ -178,7 +183,8 @@
           "name_es": "Hand weapon",
           "name_fr": "Arme de base",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -186,7 +192,8 @@
           "name_de": "Zusätzliche Handwaffe",
           "name_es": "Additional hand weapon",
           "name_fr": "Arme de base additionnelle",
-          "points": 3
+          "points": 3,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapon",
@@ -194,7 +201,8 @@
           "name_de": "Zweihandwaffe",
           "name_es": "Great weapon",
           "name_fr": "Arme lourde",
-          "points": 4
+          "points": 4,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Halberd",
@@ -202,7 +210,8 @@
           "name_de": "Hellebarde",
           "name_es": "Halberd",
           "name_fr": "Hallebarde",
-          "points": 3
+          "points": 3,
+          "name_pl": "Halabarda"
         }
       ],
       "armor": [
@@ -233,7 +242,8 @@
           "name_fr": "Bouclier",
           "points": 2,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcza"
         }
       ],
       "mounts": [],
@@ -323,7 +333,8 @@
           "name_es": "Hand weapon, Warpstone Tokens (D3)",
           "name_fr": "Arme de base, Fragments de Malepierre (D3)",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Żetony kamienia osnowy (K3)"
         }
       ],
       "armor": [],
@@ -346,7 +357,8 @@
               "name_es": "Hechicero de Nivel 3",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 3"
             },
             {
               "name_en": "Level 4 Wizard",
@@ -355,9 +367,11 @@
               "name_fr": "Sorcier de Niveau 4",
               "name_es": "Hechicero de Nivel 4",
               "points": 30,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 4"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [
@@ -463,7 +477,8 @@
           "name_es": "Hand weapon",
           "name_fr": "Arme de base",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Hand weapon, Warplock musket",
@@ -471,7 +486,8 @@
           "name_de": "Handwaffe, Warpschloss Muskete",
           "name_es": "Hand weapon, Warplock musket",
           "name_fr": "Arme de base, Mousquet à Malepierre",
-          "points": 9
+          "points": 9,
+          "name_pl": "Broń ręczna, Muszkiet warpowy"
         },
         {
           "name_en": "Hand weapon, Warplock pistol",
@@ -479,7 +495,8 @@
           "name_de": "Handwaffe, Warpschloss Pistole",
           "name_es": "Hand weapon, Warplock pistol",
           "name_fr": "Arme de base, Pistolet à Malepierre",
-          "points": 6
+          "points": 6,
+          "name_pl": "Broń ręczna, Pistolet warpowy"
         }
       ],
       "armor": [],
@@ -500,7 +517,8 @@
               "name_es": "Hechicero de Nivel 1",
               "points": 40,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 1"
             },
             {
               "name_en": "Level 2 Wizard",
@@ -509,9 +527,11 @@
               "name_fr": "Sorcier de Niveau 2",
               "name_es": "Hechicero de Nivel 2",
               "points": 70,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 2"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         },
         {
           "name_en": "Warpstone Tokens (D3)",
@@ -520,7 +540,8 @@
           "name_es": "Warpstone Tokens (D3)",
           "name_fr": "Fragments de Malepierre (D3)",
           "points": 0,
-          "alwaysActive": true
+          "alwaysActive": true,
+          "name_pl": "Żetony kamienia osnowy (K3)"
         }
       ],
       "mounts": [],
@@ -590,7 +611,8 @@
           "name_es": "Two hand weapons, Throwing weapons",
           "name_fr": "Deux armes de base, Armes de lancer",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Dwie bronie ręczne, Broń do rzucania"
         }
       ],
       "armor": [],
@@ -672,7 +694,8 @@
           "name_es": "Hand weapon",
           "name_fr": "Arme de base",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -680,7 +703,8 @@
           "name_de": "Zusätzliche Handwaffe",
           "name_es": "Additional hand weapon",
           "name_fr": "Arme de base additionnelle",
-          "points": 3
+          "points": 3,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Hand weapon, Plague censer",
@@ -688,7 +712,8 @@
           "name_de": "Handwaffe, Seuchenschleuder",
           "name_es": "Hand weapon, Plague censer",
           "name_fr": "Arme de base, Encensoir à Peste",
-          "points": 6
+          "points": 6,
+          "name_pl": "Broń ręczna, Kadzielnica zarazy"
         }
       ],
       "armor": [],
@@ -701,7 +726,8 @@
           "name_fr": "Sorcier de Niveau 1",
           "points": 30,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Czarodziej poziomu 1"
         },
         {
           "name_en": "Level 2 Wizard",
@@ -711,7 +737,8 @@
           "name_fr": "Sorcier de Niveau 2",
           "points": 60,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Czarodziej poziomu 2"
         }
       ],
       "mounts": [
@@ -867,7 +894,8 @@
           "name_fr": "Armes de base, Hallebardes",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Halabardy"
         }
       ],
       "armor": [
@@ -892,7 +920,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcze"
         }
       ],
       "mounts": [],
@@ -981,7 +1010,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Hand weapon, Thrusting spear",
@@ -990,7 +1020,8 @@
           "name_es": "Hand weapon, Thrusting spear",
           "name_fr": "Arme de base, Lance d'infanterie",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Włócznia kłująca"
         }
       ],
       "armor": [
@@ -1015,7 +1046,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcza"
         }
       ],
       "mounts": [],
@@ -1068,7 +1100,8 @@
           "name_fr": "Armes de base, Ratasphère",
           "points": 40,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Rozpruwacz"
         },
         {
           "name_en": "Hand weapons, Poisoned Wind Mortar",
@@ -1077,7 +1110,8 @@
           "name_es": "Hand weapons, Poisoned Wind Mortar",
           "name_fr": "Armes de base, Mortier à Globes Toxiques",
           "points": 55,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Moździerz Zatrutes go Wiatru"
         },
         {
           "name_en": "Hand weapons, Ratling Gun",
@@ -1086,7 +1120,8 @@
           "name_es": "Hand weapons, Ratling Gun",
           "name_fr": "Armes de base, Mitrailleuse Ratling",
           "points": 50,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Działo Szczurze"
         },
         {
           "name_en": "Hand weapons, Warpfire Thrower",
@@ -1095,7 +1130,8 @@
           "name_es": "Hand weapons, Warpfire Thrower",
           "name_fr": "Armes de base, Lance-Feu",
           "points": 60,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Miotacz Warpogiena"
         },
         {
           "name_en": "Hand weapons, Warp Grinder",
@@ -1104,7 +1140,8 @@
           "name_es": "Hand weapons, Warp Grinder",
           "name_fr": "Armes de base, Foreuse à Malepierre",
           "points": 30,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Szlifierka Osnowy"
         }
       ],
       "armor": [
@@ -1152,7 +1189,8 @@
           "name_fr": "Armes de base (Griffes et crocs)",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna (Pazury i kły)"
         }
       ],
       "armor": [],
@@ -1222,7 +1260,8 @@
           "name_fr": "Armes de base (Griffes et crocs)",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna (Pazury i zęby)"
         }
       ],
       "armor": [],
@@ -1242,7 +1281,8 @@
             "name_de": "Max 1 pro 3 Riesenratten",
             "name_es": "Max 1 per 3 Giant Rats",
             "name_fr": "Max 1 tous les 3 Rats Géants"
-          }
+          },
+          "name_pl": "Mistrz Stada, Bat"
         },
         {
           "name_en": "Packmaster, Things-catcher",
@@ -1259,7 +1299,8 @@
             "name_de": "Max 1 pro 3 Riesenratten",
             "name_es": "Max 1 per 3 Giant Rats",
             "name_fr": "Max 1 tous les 3 Rats Géants"
-          }
+          },
+          "name_pl": "Mistrz Stada, Łapacz rzeczy"
         }
       ],
       "mounts": [],
@@ -1310,7 +1351,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -1319,7 +1361,8 @@
           "name_es": "Additional hand weapon",
           "name_fr": "Arme de base additionnelle",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Hand weapon, Sling",
@@ -1328,7 +1371,8 @@
           "name_es": "Hand weapon, Sling",
           "name_fr": "Arme de base, Fronde",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Proca"
         },
         {
           "name_en": "Hand weapon, Throwing weapons",
@@ -1337,7 +1381,8 @@
           "name_es": "Hand weapon, Throwing weapons",
           "name_fr": "Arme de base, Armes de lancer",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Broń do rzucania"
         },
         {
           "name_en": "Additional hand weapon, Sling",
@@ -1346,7 +1391,8 @@
           "name_es": "Additional hand weapon, Sling",
           "name_fr": "Arme de base additionnelle, Fronde",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna, Proca"
         },
         {
           "name_en": "Additional hand weapon, Throwing weapons",
@@ -1355,7 +1401,8 @@
           "name_es": "Additional hand weapon, Throwing weapons",
           "name_fr": "Arme de base additionnelle, Armes de lancer",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna, Broń do rzucania"
         }
       ],
       "armor": [],
@@ -1453,7 +1500,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapons",
@@ -1462,7 +1510,8 @@
           "name_es": "Additional hand weapons",
           "name_fr": "Armes de base additionnelles",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         }
       ],
       "armor": [],
@@ -1559,7 +1608,8 @@
           "name_fr": "Armes de base, Hallebardes",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Halabardy"
         }
       ],
       "armor": [
@@ -1584,7 +1634,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcze"
         }
       ],
       "mounts": [],
@@ -1637,7 +1688,8 @@
           "name_fr": "Deux armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Dwie bronie ręczne"
         },
         {
           "name_en": "Two hand weapons, Sling",
@@ -1646,7 +1698,8 @@
           "name_es": "Two hand weapons, Sling",
           "name_fr": "Deux armes de base, Fronde",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dwie bronie ręczne, Proca"
         },
         {
           "name_en": "Two hand weapons, Throwing weapons",
@@ -1655,7 +1708,8 @@
           "name_es": "Two hand weapons, Throwing weapons",
           "name_fr": "Deux armes de base, Armes de lancer",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dwie bronie ręczne, Broń do rzucania"
         }
       ],
       "armor": [],
@@ -1669,7 +1723,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Zasadzka"
         },
         {
           "name_en": "Poisoned Attacks",
@@ -1680,7 +1735,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Trujące Ataki"
         }
       ],
       "mounts": [],
@@ -1765,7 +1821,8 @@
           "name_fr": "Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [
@@ -1796,7 +1853,8 @@
             "name_de": "Max 1 pro 3 Riesenratten",
             "name_es": "Max 1 per 3 Giant Rats",
             "name_fr": "Max 1 tous les 3 Rats Géants"
-          }
+          },
+          "name_pl": "Mistrz Stada, Bat"
         },
         {
           "name_en": "Packmaster, Things-catcher",
@@ -1813,7 +1871,8 @@
             "name_de": "Max 1 pro 3 Riesenratten",
             "name_es": "Max 1 per 3 Giant Rats",
             "name_fr": "Max 1 tous les 3 Rats Géants"
-          }
+          },
+          "name_pl": "Mistrz Stada, Łapacz rzeczy"
         }
       ],
       "mounts": [],
@@ -1905,7 +1964,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapons",
@@ -1914,7 +1974,8 @@
           "name_es": "Additional hand weapons",
           "name_fr": "Armes de base additionnelles",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         }
       ],
       "armor": [],
@@ -1977,7 +2038,8 @@
           "name_fr": "Armes de base, Jezzails",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Jezaile warpowe {skaveni}"
         }
       ],
       "armor": [
@@ -2051,7 +2113,8 @@
           "name_fr": "Armes de base, Globes de Vent Empoisonné",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Kule Zatrutego Wiatru"
         }
       ],
       "armor": [
@@ -2116,7 +2179,8 @@
           "name_fr": "Griffes de Malepierre",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Pazury z kamienia osnowy"
         }
       ],
       "armor": [],
@@ -2158,7 +2222,8 @@
           "name_fr": "Armes de base (Griffes et crocs)",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna (Pazury i kły)"
         }
       ],
       "armor": [],
@@ -2202,7 +2267,8 @@
           "name_fr": "Canon à Malefoudre, Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Działo Warpowego Błyskawicy {renegaci}, Broń ręczna"
         }
       ],
       "armor": [
@@ -2257,7 +2323,8 @@
           "name_fr": "Catapulte de la Peste, Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Katapulta Zarazowego Szponu, Broń ręczna"
         }
       ],
       "armor": [
@@ -2314,7 +2381,8 @@
           "name_fr": "Armes de base, Encensoirs à Peste",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Kadzielnice zarazy"
         }
       ],
       "armor": [],

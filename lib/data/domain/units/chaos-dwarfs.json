@@ -43,7 +43,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Darkforged weapon",
@@ -52,7 +53,8 @@
           "name_es": "Darkforged weapon",
           "name_fr": "Arme de Sombreforge",
           "points": 10,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń wykuta w mroku"
         }
       ],
       "armor": [
@@ -77,7 +79,8 @@
           "points": 15,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Bomby naftowe"
         },
         {
           "name_en": "Blood of Hashut",
@@ -87,7 +90,8 @@
           "name_fr": "Sang d’Hashut",
           "points": 20,
           "perModel": true,
-          "stackable": true
+          "stackable": true,
+          "name_pl": "Krew Hashuta"
         },
         {
           "name_en": "Wizard",
@@ -107,7 +111,8 @@
               "name_es": "Hechicero de Nivel 3",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 3"
             },
             {
               "name_en": "Level 4 Wizard",
@@ -116,9 +121,11 @@
               "name_fr": "Sorcier de Niveau 4",
               "name_es": "Hechicero de Nivel 4",
               "points": 30,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 4"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [
@@ -266,7 +273,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Darkforged weapon",
@@ -275,7 +283,8 @@
           "name_es": "Darkforged weapon",
           "name_fr": "Arme de Sombreforge",
           "points": 10,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń wykuta w mroku"
         }
       ],
       "armor": [
@@ -300,7 +309,8 @@
           "points": 15,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Bomby naftowe"
         },
         {
           "name_en": "Blood of Hashut",
@@ -310,7 +320,8 @@
           "name_fr": "Sang d’Hashut",
           "points": 20,
           "perModel": true,
-          "stackable": true
+          "stackable": true,
+          "name_pl": "Krew Hashuta"
         },
         {
           "name_en": "Wizard",
@@ -330,7 +341,8 @@
               "name_es": "Hechicero de Nivel 1",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 1"
             },
             {
               "name_en": "Level 2 Wizard",
@@ -339,9 +351,11 @@
               "name_fr": "Sorcier de Niveau 2",
               "name_es": "Hechicero de Nivel 2",
               "points": 30,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 2"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [
@@ -466,7 +480,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Darkforged weapon",
@@ -475,7 +490,8 @@
           "name_es": "Darkforged weapon",
           "name_fr": "Arme de Sombreforge",
           "points": 10,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń wykuta w mroku"
         },
         {
           "name_en": "Great weapon",
@@ -484,7 +500,8 @@
           "name_es": "Great weapon",
           "name_fr": "Arme lourde",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         }
       ],
       "armor": [
@@ -522,7 +539,8 @@
             "name_en": "if not using Naptha bombs",
             "name_cn": "若不使用火油炸弹",
             "name_fr": "si n'utilise pas de Bombes au Naptha"
-          }
+          },
+          "name_pl": "Pistolet"
         },
         {
           "name_en": "Naptha bombs",
@@ -536,7 +554,8 @@
             "name_en": "if not using Pistol",
             "name_cn": "若不使用手枪",
             "name_fr": "si n'utilise pas de Pistolet"
-          }
+          },
+          "name_pl": "Bomby naftowe"
         },
         {
           "name_en": "Fireglaive",
@@ -550,7 +569,8 @@
             "name_en": "if not using Hailshot blunderbuss",
             "name_cn": "若不使用霰弹短枪",
             "name_fr": "si n'utilise pas de Tromblon Grêle-de-Tir"
-          }
+          },
+          "name_pl": "Ognista glewia"
         },
         {
           "name_en": "Hailshot blunderbuss",
@@ -564,7 +584,8 @@
             "name_en": "if not using Fireglaive",
             "name_cn": "若不使用阔刃火枪",
             "name_fr": "si n'utilise pas de Glaive Ardent"
-          }
+          },
+          "name_pl": "Garłacz gradowy"
         },
         {
           "name_en": "Shield",
@@ -573,7 +594,8 @@
           "name_es": "Shield",
           "name_fr": "Bouclier",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Tarcza"
         }
       ],
       "mounts": [
@@ -684,7 +706,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Darkforged weapon",
@@ -693,7 +716,8 @@
           "name_es": "Darkforged weapon",
           "name_fr": "Arme de Sombreforge",
           "points": 10,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń wykuta w mroku"
         },
         {
           "name_en": "Great weapon",
@@ -702,7 +726,8 @@
           "name_es": "Great weapon",
           "name_fr": "Arme lourde",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         }
       ],
       "armor": [
@@ -740,7 +765,8 @@
             "name_en": "if not using Naptha bombs",
             "name_cn": "若不使用火油炸弹",
             "name_fr": "si n'utilise pas de Bombes au Naptha"
-          }
+          },
+          "name_pl": "Pistolet"
         },
         {
           "name_en": "Naptha bombs",
@@ -754,7 +780,8 @@
             "name_en": "if not using Pistol",
             "name_cn": "若不使用手枪",
             "name_fr": "si n'utilise pas de Pistolet"
-          }
+          },
+          "name_pl": "Bomby naftowe"
         },
         {
           "name_en": "Fireglaive",
@@ -768,7 +795,8 @@
             "name_en": "if not using Hailshot blunderbuss",
             "name_cn": "若不使用霰弹短枪",
             "name_fr": "si n'utilise pas de Tromblon Grêle-de-Tir"
-          }
+          },
+          "name_pl": "Ognista glewia"
         },
         {
           "name_en": "Hailshot blunderbuss",
@@ -782,7 +810,8 @@
             "name_en": "if not using Fireglaive",
             "name_cn": "若不使用阔刃火枪",
             "name_fr": "si n'utilise pas de Glaive Ardent"
-          }
+          },
+          "name_pl": "Garłacz gradowy"
         },
         {
           "name_en": "Shield",
@@ -791,7 +820,8 @@
           "name_es": "Shield",
           "name_fr": "Bouclier",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Tarcza"
         }
       ],
       "mounts": [
@@ -883,7 +913,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Darkforged weapon",
@@ -892,7 +923,8 @@
           "name_es": "Darkforged weapon",
           "name_fr": "Arme de Sombreforge",
           "points": 10,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń wykuta w mroku"
         },
         {
           "name_en": "Additional hand weapon",
@@ -901,7 +933,8 @@
           "name_es": "Additional hand weapon",
           "name_fr": "Arme de base additionnelle",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapon",
@@ -910,7 +943,8 @@
           "name_es": "Great weapon",
           "name_fr": "Arme lourde",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         }
       ],
       "armor": [
@@ -935,7 +969,8 @@
           "points": 3,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcza"
         }
       ],
       "mounts": [],
@@ -994,7 +1029,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna, Broń do rzucania"
         },
         {
           "name_en": "Additional hand weapon",
@@ -1003,7 +1039,8 @@
           "name_es": "Additional hand weapon",
           "name_fr": "Arme de base additionnelle",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapon",
@@ -1012,7 +1049,8 @@
           "name_es": "Great weapon",
           "name_fr": "Arme lourde",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Cavalry spear",
@@ -1028,7 +1066,8 @@
             "name_it": "if appropriately mounted",
             "name_de": "if appropriately mounted",
             "name_fr": "si monté"
-          }
+          },
+          "name_pl": "Włócznia kawalerii"
         }
       ],
       "armor": [],
@@ -1040,7 +1079,8 @@
           "name_es": "Light armour",
           "name_fr": "Armure légère",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Lekka zbroja"
         },
         {
           "name_en": "Shield",
@@ -1049,7 +1089,8 @@
           "name_es": "Shield",
           "name_fr": "Bouclier",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Tarcza"
         },
         {
           "name_en": "Shortbow (replaces Throwing weapons)",
@@ -1058,7 +1099,8 @@
           "name_es": "Shortbow (replaces Throwing weapons)",
           "name_fr": "Arc court (remplace Armes de lancer)",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Krótki łuk (zastępuje Broń do rzucania)"
         }
       ],
       "mounts": [
@@ -1142,7 +1184,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -1151,7 +1194,8 @@
           "name_es": "Additional hand weapon",
           "name_fr": "Arme de base additionnelle",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapon",
@@ -1160,7 +1204,8 @@
           "name_es": "Great weapon",
           "name_fr": "Arme lourde",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Cavalry spear",
@@ -1169,7 +1214,8 @@
           "name_es": "Cavalry spear",
           "name_fr": "Lance de cavalerie",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Włócznia kawalerii"
         }
       ],
       "armor": [
@@ -1194,7 +1240,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcza"
         }
       ],
       "mounts": [
@@ -1356,7 +1403,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -1365,7 +1413,8 @@
           "name_es": "Additional hand weapon",
           "name_fr": "Arme de base additionnelle",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapon",
@@ -1374,7 +1423,8 @@
           "name_es": "Great weapon",
           "name_fr": "Arme lourde",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Cavalry spear",
@@ -1383,7 +1433,8 @@
           "name_es": "Cavalry spear",
           "name_fr": "Lance de cavalerie",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Włócznia kawalerii"
         }
       ],
       "armor": [
@@ -1408,7 +1459,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcza"
         }
       ],
       "mounts": [
@@ -1632,7 +1684,8 @@
           "name_fr": "Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Great weapons",
@@ -1641,7 +1694,8 @@
           "name_es": "Great weapons",
           "name_fr": "Armes lourdes",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Fireglaives",
@@ -1650,7 +1704,8 @@
           "name_es": "Fireglaives",
           "name_fr": "Glaive Ardents",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Ogniste glewie"
         },
         {
           "name_en": "Hailshot blunderbuss",
@@ -1659,7 +1714,8 @@
           "name_es": "Hailshot blunderbuss",
           "name_fr": "Tromblon Grêle-de-Tir",
           "points": 5,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Garłacz gradowy"
         }
       ],
       "armor": [
@@ -1682,7 +1738,8 @@
           "name_es": "Shield",
           "name_fr": "Bouclier",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Tarcza"
         },
         {
           "name_en": "Drilled",
@@ -1698,7 +1755,8 @@
             "name_de": "0-1 per 1000 points",
             "name_es": "0-1 per 1000 points",
             "name_fr": "0-1 par tranche de 1000 points"
-          }
+          },
+          "name_pl": "Wyćwiczeni"
         },
         {
           "name_en": "Blackshard Armour",
@@ -1714,7 +1772,8 @@
             "name_de": "0-1 per 1000 points",
             "name_es": "0-1 per 1000 points",
             "name_fr": "0-1 par tranche de 1000 points"
-          }
+          },
+          "name_pl": "Zbroja Czarnego Odłamka"
         },
         {
           "name_en": "Detachment",
@@ -1722,7 +1781,8 @@
           "name_de": "Detachment",
           "name_es": "Detachment",
           "name_fr": "Détachement",
-          "points": 0
+          "points": 0,
+          "name_pl": "Oddział"
         }
       ],
       "mounts": [],
@@ -1782,7 +1842,8 @@
           "name_fr": "Armes de base, Boucliers",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Tarcze"
         },
         {
           "name_en": "Hand weapons, Shortbows",
@@ -1791,7 +1852,8 @@
           "name_es": "Hand weapons, Shortbows",
           "name_fr": "Armes de base, Arcs courts",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Krótkie łuki"
         }
       ],
       "armor": [
@@ -1886,7 +1948,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [
@@ -1911,7 +1974,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Nieugięty"
         },
         {
           "name_en": "Veteran",
@@ -1922,7 +1986,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Weteran"
         },
         {
           "name_en": "Shields",
@@ -1931,7 +1996,8 @@
           "name_es": "Shields",
           "name_fr": "Boucliers",
           "points": 1,
-          "stackable": true
+          "stackable": true,
+          "name_pl": "Tarcze"
         },
         {
           "name_en": "Great weapon",
@@ -1940,7 +2006,8 @@
           "name_es": "Great weapon",
           "name_fr": "Arme lourde",
           "points": 2,
-          "stackable": true
+          "stackable": true,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Additional hand weapon",
@@ -1949,7 +2016,8 @@
           "name_es": "Additional hand weapon",
           "name_fr": "Arme de base additionnelle",
           "points": 1,
-          "stackable": true
+          "stackable": true,
+          "name_pl": "Dodatkowa broń ręczna"
         }
       ],
       "mounts": [],
@@ -2062,7 +2130,8 @@
           "name_fr": "Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Great weapons",
@@ -2071,7 +2140,8 @@
           "name_es": "Great weapons",
           "name_fr": "Armes lourdes",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Halberds",
@@ -2080,7 +2150,8 @@
           "name_es": "Halberds",
           "name_fr": "Hallebardes",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Halabardy"
         }
       ],
       "armor": [
@@ -2105,7 +2176,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcza"
         }
       ],
       "mounts": [],
@@ -2208,7 +2280,8 @@
           "name_fr": "Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Great weapons",
@@ -2217,7 +2290,8 @@
           "name_es": "Great weapons",
           "name_fr": "Armes lourdes",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Halberds",
@@ -2226,7 +2300,8 @@
           "name_es": "Halberds",
           "name_fr": "Hallebardes",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Halabardy"
         }
       ],
       "armor": [
@@ -2251,7 +2326,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcza"
         }
       ],
       "mounts": [],
@@ -2310,7 +2386,8 @@
           "name_fr": "Deux armes de base, Armes de lancer",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Dwie bronie ręczne, Broń do rzucania"
         }
       ],
       "armor": [
@@ -2399,7 +2476,8 @@
           "name_fr": "Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [],
@@ -2484,7 +2562,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Great weapons",
@@ -2493,7 +2572,8 @@
           "name_es": "Great weapons",
           "name_fr": "Armes lourdes",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Shield",
@@ -2502,7 +2582,8 @@
           "name_es": "Shield",
           "name_fr": "Bouclier",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Tarcza"
         }
       ],
       "armor": [
@@ -2555,7 +2636,8 @@
           "name_fr": "Canonnade à Vapeur, Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Parowa Kanonade, Broń ręczna"
         },
         {
           "name_en": "Skullcracker, Hand weapons",
@@ -2564,7 +2646,8 @@
           "name_es": "Skullcracker, Hand weapons",
           "name_fr": "Briseur de Crânes, Armes de base",
           "points": 10,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Łamacz Czaszek, Broń ręczna"
         }
       ],
       "armor": [],
@@ -2578,7 +2661,8 @@
           "points": 35,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Piekielnie Związany"
         }
       ],
       "mounts": [],
@@ -2640,7 +2724,8 @@
           "name_fr": "Fusées de Démolition, Fusées Incendiaires Infernales, Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Rakiety burzące, Infernalne podpałki, Broń ręczna"
         }
       ],
       "armor": [
@@ -2665,7 +2750,8 @@
           "points": 30,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Piekielnie Związany"
         },
         {
           "name_en": "Steam Carriage",
@@ -2676,7 +2762,8 @@
           "points": 10,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Parowy Powóz"
         }
       ],
       "mounts": [],
@@ -2738,7 +2825,8 @@
           "name_fr": "Lance-flamme, Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Miotacz ognia, Broń ręczna"
         }
       ],
       "armor": [
@@ -2763,7 +2851,8 @@
           "points": 30,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Piekielnie Związany"
         },
         {
           "name_en": "Steam Carriage",
@@ -2774,7 +2863,8 @@
           "points": 10,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Parowy Powóz"
         }
       ],
       "mounts": [],
@@ -2814,7 +2904,8 @@
           "name_fr": "Baliste, Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Balista, Broń ręczna"
         }
       ],
       "armor": [
@@ -2897,7 +2988,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Cavalry spears",
@@ -2906,7 +2998,8 @@
           "name_es": "Cavalry spears",
           "name_fr": "Lances de cavalerie",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Włócznie kawalerii"
         }
       ],
       "armor": [
@@ -2931,7 +3024,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Krótki łuk"
         },
         {
           "name_en": "Feigned Flight (0-1 per 1000 points)",
@@ -2942,7 +3036,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Udawany odwrót (0-1 na 1000 punktów)"
         },
         {
           "name_en": "Reserve Move (0-1 per 1000 points)",
@@ -2953,7 +3048,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Manewr Rezerwowy (0-1 na 1000 punktów)"
         }
       ],
       "mounts": [],
@@ -2993,7 +3089,8 @@
           "name_fr": "Mortier Trembleffroi, Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Moździerz Straszliwego Wstrząsu, Broń ręczna"
         }
       ],
       "armor": [
@@ -3018,7 +3115,8 @@
           "points": 20,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Ładowniczy Ogr"
         },
         {
           "name_en": "Hellbound",
@@ -3029,7 +3127,8 @@
           "points": 30,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Piekielnie Związany"
         },
         {
           "name_en": "Steam Carriage",
@@ -3040,7 +3139,8 @@
           "points": 10,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Parowy Powóz"
         }
       ],
       "mounts": [],
@@ -3094,7 +3194,8 @@
           "name_es": "Doomfire, Hand weapons",
           "name_fr": "Feu Infernal, Armes de base",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Ogień zagłady, Broń ręczna"
         }
       ],
       "armor": [],
@@ -3132,7 +3233,8 @@
           "name_de": "Giant's club",
           "points": 0,
           "active": true,
-          "name_fr": "Massue de Géant"
+          "name_fr": "Massue de Géant",
+          "name_pl": "Maczuga olbrzyma"
         }
       ],
       "armor": [
@@ -3160,7 +3262,8 @@
           "points": 20,
           "minimum": 0,
           "maximum": 0,
-          "name_fr": "Régénération (6+)"
+          "name_fr": "Régénération (6+)",
+          "name_pl": "Regeneracja (6+)"
         }
       ],
       "mounts": [],

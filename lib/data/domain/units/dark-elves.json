@@ -28,7 +28,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -37,7 +38,8 @@
           "name_es": "Arma de mano adicional",
           "name_fr": "Arme de base additionnelle",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapon",
@@ -46,7 +48,8 @@
           "name_es": "Arma a dos manos",
           "name_fr": "Arme lourde",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Halberd",
@@ -55,7 +58,8 @@
           "name_es": "Alabarda",
           "name_fr": "Hallebarde",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Halabarda"
         },
         {
           "name_en": "Lance",
@@ -64,7 +68,8 @@
           "name_es": "Lanza de caballería",
           "name_fr": "Lance de joute",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Lanca"
         }
       ],
       "armor": [
@@ -107,7 +112,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcza"
         },
         {
           "name_en": "Repeater crossbow",
@@ -118,7 +124,8 @@
           "points": 6,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Powtarzalna kusza"
         },
         {
           "name_en": "Repeater handbow",
@@ -129,7 +136,8 @@
           "points": 5,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Powtarzalny łuk ręczny"
         },
         {
           "name_en": "Brace of Repeater handbows",
@@ -140,7 +148,8 @@
           "points": 10,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Para powtarzalnych ręcznych łuków"
         },
         {
           "name_en": "Sea Dragon Cloak",
@@ -151,7 +160,8 @@
           "points": 4,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Płaszcz Morskiego Smoka"
         }
       ],
       "mounts": [
@@ -319,7 +329,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -328,7 +339,8 @@
           "name_es": "Arma de mano adicional",
           "name_fr": "Arme de base additionnelle",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapon",
@@ -337,7 +349,8 @@
           "name_es": "Arma a dos manos",
           "name_fr": "Arme lourde",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Halberd",
@@ -346,7 +359,8 @@
           "name_es": "Alabarda",
           "name_fr": "Hallebarde",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Halabarda"
         },
         {
           "name_en": "Lance",
@@ -355,7 +369,8 @@
           "name_es": "Lanza de caballería",
           "name_fr": "Lance de joute",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Lanca"
         }
       ],
       "armor": [
@@ -398,7 +413,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcza"
         },
         {
           "name_en": "Repeater crossbow",
@@ -409,7 +425,8 @@
           "points": 6,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Powtarzalna kusza"
         },
         {
           "name_en": "Repeater handbow",
@@ -420,7 +437,8 @@
           "points": 5,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Powtarzalny łuk ręczny"
         },
         {
           "name_en": "Brace of Repeater handbows",
@@ -431,7 +449,8 @@
           "points": 10,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Para powtarzalnych ręcznych łuków"
         },
         {
           "name_en": "Sea Dragon Cloak",
@@ -442,7 +461,8 @@
           "points": 4,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Płaszcz Morskiego Smoka"
         }
       ],
       "mounts": [
@@ -550,7 +570,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [],
@@ -573,7 +594,8 @@
               "name_es": "Hechicero de Nivel 3",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 3"
             },
             {
               "name_en": "Level 4 Wizard",
@@ -582,9 +604,11 @@
               "name_fr": "Sorcier de Niveau 4",
               "name_es": "Hechicero de Nivel 4",
               "points": 30,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 4"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [
@@ -698,7 +722,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [],
@@ -721,7 +746,8 @@
               "name_es": "Hechicero de Nivel 1",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 1"
             },
             {
               "name_en": "Level 2 Wizard",
@@ -730,9 +756,11 @@
               "name_fr": "Sorcier de Niveau 2",
               "name_es": "Hechicero de Nivel 2",
               "points": 30,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 2"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [
@@ -838,7 +866,8 @@
           "name_fr": "Arme de base, Fouet",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Bat"
         },
         {
           "name_en": "Cavalry spear",
@@ -847,7 +876,8 @@
           "name_es": "Lanza de caballería",
           "name_fr": "Lance de cavalerie",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Włócznia kawalerii"
         }
       ],
       "armor": [
@@ -881,7 +911,8 @@
           "points": 6,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Powtarzalna kusza"
         },
         {
           "name_en": "Shield",
@@ -892,7 +923,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcza"
         },
         {
           "name_en": "Sea Dragon Cloak",
@@ -903,7 +935,8 @@
           "points": 4,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Płaszcz Morskiego Smoka"
         }
       ],
       "mounts": [
@@ -1000,7 +1033,8 @@
           "name_fr": "Deux armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Dwie bronie ręczne"
         }
       ],
       "armor": [],
@@ -1087,7 +1121,8 @@
           "name_fr": "Arme de base, Armes de lancer",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Broń do rzucania"
         },
         {
           "name_en": "Additional hand weapon",
@@ -1096,7 +1131,8 @@
           "name_es": "Arma de mano adicional",
           "name_fr": "Arme de base additionnelle",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Repeater handbow",
@@ -1105,7 +1141,8 @@
           "name_es": "Ballesta de repetición",
           "name_fr": "Arbalète de poing à répétition",
           "points": 5,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Powtarzalny łuk ręczny"
         }
       ],
       "armor": [],
@@ -1219,7 +1256,8 @@
           "name_fr": "Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Thrusting spears",
@@ -1228,7 +1266,8 @@
           "name_es": "Lanza",
           "name_fr": "Lances d'infanterie",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Włócznie kłująca"
         }
       ],
       "armor": [
@@ -1253,7 +1292,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Weteran"
         }
       ],
       "mounts": [],
@@ -1326,7 +1366,8 @@
           "name_fr": "Armes de base, Arbalètes à répétition",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Powtarzalne kusze"
         }
       ],
       "armor": [
@@ -1351,7 +1392,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcze"
         },
         {
           "name_en": "Veteran",
@@ -1362,7 +1404,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Weteran"
         }
       ],
       "mounts": [],
@@ -1434,7 +1477,8 @@
           "name_es": "Armas de mano, Arma de mano adicional",
           "name_fr": "Armes de base, Arme de base additionnelle",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Dodatkowa broń ręczna"
         },
         {
           "name_en": "Hand weapons, Repeater handbows",
@@ -1443,7 +1487,8 @@
           "name_es": "Armas de mano, Pistolas ballesta",
           "name_fr": "Armes de base, Arbalètes à répétition de poing",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Powtarzalne łuki ręczne"
         }
       ],
       "armor": [
@@ -1523,7 +1568,8 @@
           "name_fr": "Armes de base, Lances de cavalerie",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Włócznie kawalerii"
         },
         {
           "name_en": "Hand weapons, Cavalry spears, Repeater crossbows",
@@ -1532,7 +1578,8 @@
           "name_es": "Armas de mano, Lanzas de caballería, Ballestas de repetición",
           "name_fr": "Armes de base, Lances de cavalerie, Arbalètes à répétition",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Włócznie kawalerii, Powtarzalne kusze"
         }
       ],
       "armor": [
@@ -1557,7 +1604,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcze"
         },
         {
           "name_en": "Fire & Flee",
@@ -1568,7 +1616,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Ogień i odwrót"
         },
         {
           "name_en": "Scouts",
@@ -1579,7 +1628,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Zwiadowcy"
         }
       ],
       "mounts": [],
@@ -1652,7 +1702,8 @@
           "name_fr": "Deux armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Dwie bronie ręczne"
         }
       ],
       "armor": [],
@@ -1738,7 +1789,8 @@
           "name_fr": "Armes de base, Grandes épées d’Har Ganeth",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Wielkie miecze Har Ganeth"
         }
       ],
       "armor": [
@@ -1763,7 +1815,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Wyćwiczeni"
         }
       ],
       "mounts": [],
@@ -1836,7 +1889,8 @@
           "name_fr": "Deux armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Dwie bronie ręczne"
         }
       ],
       "armor": [],
@@ -1898,7 +1952,8 @@
           "name_fr": "Armes de base, Arbalètes à répétition",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Powtarzalne kusze"
         },
         {
           "name_en": "Hand weapons, Repeater crossbows, Additional hand weapons",
@@ -1907,7 +1962,8 @@
           "name_es": "Armas de mano, Ballestas de repetición, Armas de mano adicionales",
           "name_fr": "Armes de base, Arbalètes à répétition, Armes de base additionnelles",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Powtarzalne kusze, Dodatkowa broń ręczna"
         },
         {
           "name_en": "Hand weapons, Repeater crossbows, Great weapons",
@@ -1916,7 +1972,8 @@
           "name_es": "Armas de mano, Ballestas de repetición, Armas a dos manos",
           "name_fr": "Armes de base, Arbalètes à répétition, Armes lourdes",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Powtarzalne kusze, Wielka broń"
         }
       ],
       "armor": [
@@ -1940,7 +1997,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Zasadzka"
         },
         {
           "name_en": "Chariot Runners",
@@ -1951,7 +2009,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Biegacze Rydwanu"
         },
         {
           "name_en": "Veteran",
@@ -1962,7 +2021,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Weteran"
         }
       ],
       "mounts": [],
@@ -2004,7 +2064,8 @@
           "name_fr": "Armes de base (Griffes)",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna (Pazury)"
         }
       ],
       "armor": [],
@@ -2088,7 +2149,8 @@
           "name_fr": "Armes de base, Hallebardes d'effroi",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Halabardy grozy"
         }
       ],
       "armor": [
@@ -2113,7 +2175,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Wyćwiczeni"
         }
       ],
       "mounts": [],
@@ -2195,7 +2258,8 @@
           "name_fr": "Armes de base, Lances de joute, Boucliers",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance, Tarcze"
         }
       ],
       "armor": [
@@ -2259,7 +2323,8 @@
           "name_fr": "Harpon ravageur*, Armes de base, Lances de cavalerie, Arbalètes à répétition",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Harr pun niszczycielski*, Broń ręczna, Włócznie kawalerii, Powtarzalne kusze"
         }
       ],
       "armor": [
@@ -2312,7 +2377,8 @@
           "name_fr": "Armes de base, Lances de cavalerie, Arbalètes à répétition",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Włócznie kawalerii, Powtarzalne kusze"
         }
       ],
       "armor": [
@@ -2365,7 +2431,8 @@
           "name_fr": "Griffes mortelles, Gueules dentelées, Souffle ardent, Armes de base, Fouets",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Złowrogie pazury, Ząbkowane paszcze {renegaci}, Ognisty oddech {mroczne elfy}, Broń ręczna, Baty"
         }
       ],
       "armor": [
@@ -2418,7 +2485,8 @@
           "name_fr": "Gueule caverneuse, Tentacules sinueux, Armes de base, Fouets",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Jaskiniowa paszcza, Wijące się macki {mroczne elfy}, Broń ręczna, Bicze"
         }
       ],
       "armor": [
@@ -2506,7 +2574,8 @@
           "name_fr": "Armes de base, Lanières & bocle",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Bicz i puklerz"
         }
       ],
       "armor": [],
@@ -2548,7 +2617,8 @@
           "name_fr": "Lances de cavalerie, Regard pétrificateur",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Włócznie kawalerii, Kamieniejące spojrzenie"
         }
       ],
       "armor": [
@@ -2601,7 +2671,8 @@
           "name_fr": "Griffes mortelles, Gueules dentelées, Souffle ardent, Armes de base, Fouets",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Złowrogie pazury, Ząbkowane paszcze {renegaci}, Ognisty oddech {mroczne elfy}, Broń ręczna, Baty"
         }
       ],
       "armor": [
@@ -2654,7 +2725,8 @@
           "name_fr": "Gueule caverneuse, Tentacules sinueux, Armes de base, Fouets",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Jaskiniowa paszcza, Wijące się macki {mroczne elfy}, Broń ręczna, Bicze"
         }
       ],
       "armor": [
@@ -2707,7 +2779,8 @@
           "name_fr": "Arme de base, Regard pétrificateur",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Kamienne spojrzenie"
         }
       ],
       "armor": [
@@ -2780,7 +2853,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [],
@@ -2822,7 +2896,8 @@
           "name_fr": "Baliste à répétition, Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Powtarzalna balista, Broń ręczna"
         }
       ],
       "armor": [

@@ -34,7 +34,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -43,7 +44,8 @@
           "name_de": "Zusätzliche Handwaffe",
           "name_fr": "Arme de base additionnelle",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Flail",
@@ -52,7 +54,8 @@
           "name_de": "Flegel",
           "name_fr": "Fléau",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Cep"
         },
         {
           "name_en": "Great weapon",
@@ -61,7 +64,8 @@
           "name_de": "Zweihandwaffe",
           "name_fr": "Arme lourde",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Halberd",
@@ -70,7 +74,8 @@
           "name_de": "Hellebarde",
           "name_fr": "Hallebarde",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Halabarda"
         },
         {
           "name_en": "Cavalry spear",
@@ -86,7 +91,8 @@
             "name_it": "solo a Cavallo, Carro o Cavalcature Mostruose",
             "name_de": "sofern geeignet beritten",
             "name_fr": "si monté"
-          }
+          },
+          "name_pl": "Włócznia kawalerii"
         }
       ],
       "armor": [
@@ -109,7 +115,8 @@
           "name_de": "Schild",
           "name_fr": "Bouclier",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Tarcza"
         },
         {
           "name_en": "Arise!, Level 1 Wizard",
@@ -118,7 +125,8 @@
           "name_de": "Erhebt euch!, Level 1 Zauberer",
           "name_fr": "Levez-vous!, Sorcier de Niveau 1",
           "points": 35,
-          "armyComposition": "nehekharan-royal-hosts"
+          "armyComposition": "nehekharan-royal-hosts",
+          "name_pl": "Powstań!, Czarodziej poziomu 1"
         }
       ],
       "mounts": [
@@ -316,7 +324,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -325,7 +334,8 @@
           "name_de": "Zusätzliche Handwaffe",
           "name_fr": "Arme de base additionnelle",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Flail",
@@ -334,7 +344,8 @@
           "name_de": "Flegel",
           "name_fr": "Fléau",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Cep"
         },
         {
           "name_en": "Great weapon",
@@ -343,7 +354,8 @@
           "name_de": "Zweihandwaffe",
           "name_fr": "Arme lourde",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Halberd",
@@ -352,7 +364,8 @@
           "name_de": "Hellebarde",
           "name_fr": "Hallebarde",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Halabarda"
         },
         {
           "name_en": "Cavalry spear",
@@ -368,7 +381,8 @@
             "name_it": "solo a Cavallo, Carro o Cavalcature Mostruose",
             "name_de": "sofern geeignet beritten",
             "name_fr": "si monté"
-          }
+          },
+          "name_pl": "Włócznia kawalerii"
         }
       ],
       "armor": [
@@ -391,7 +405,8 @@
           "name_de": "Schild",
           "name_fr": "Bouclier",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Tarcza"
         },
         {
           "name_en": "Arise!, Level 1 Wizard",
@@ -400,7 +415,8 @@
           "name_de": "Erhebt euch!, Level 1 Zauberer",
           "name_fr": "Levez-vous!, Sorcier de Niveau 1",
           "points": 35,
-          "armyComposition": "nehekharan-royal-hosts"
+          "armyComposition": "nehekharan-royal-hosts",
+          "name_pl": "Powstań!, Czarodziej poziomu 1"
         }
       ],
       "mounts": [
@@ -575,7 +591,8 @@
           "name_de": "Handwaffe",
           "name_fr": "Arme de base",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -583,7 +600,8 @@
           "name_it": "Arma Addizionale",
           "name_de": "Zusätzliche Handwaffe",
           "name_fr": "Arme de base additionnelle",
-          "points": 3
+          "points": 3,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Flail",
@@ -591,7 +609,8 @@
           "name_it": "Flagello",
           "name_de": "Flegel",
           "name_fr": "Fléau",
-          "points": 3
+          "points": 3,
+          "name_pl": "Cep"
         },
         {
           "name_en": "Great weapon",
@@ -599,7 +618,8 @@
           "name_it": "Grande Arma",
           "name_de": "Zweihandwaffe",
           "name_fr": "Arme lourde",
-          "points": 4
+          "points": 4,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Halberd",
@@ -607,7 +627,8 @@
           "name_it": "Alabarda",
           "name_de": "Hellebarde",
           "name_fr": "Hallebarde",
-          "points": 3
+          "points": 3,
+          "name_pl": "Halabarda"
         },
         {
           "name_en": "Cavalry spear",
@@ -622,7 +643,8 @@
             "name_it": "solo a Cavallo, Carro o Cavalcature Mostruose",
             "name_de": "sofern geeignet beritten",
             "name_fr": "si monté"
-          }
+          },
+          "name_pl": "Włócznia kawalerii"
         }
       ],
       "armor": [
@@ -643,7 +665,8 @@
           "name_it": "Scudo",
           "name_de": "Schild",
           "name_fr": "Bouclier",
-          "points": 2
+          "points": 2,
+          "name_pl": "Tarcza"
         }
       ],
       "mounts": [
@@ -751,7 +774,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [],
@@ -774,7 +798,8 @@
               "name_es": "Hechicero de Nivel 3",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 3"
             },
             {
               "name_en": "Level 4 Wizard",
@@ -783,9 +808,11 @@
               "name_fr": "Sorcier de Niveau 4",
               "name_es": "Hechicero de Nivel 4",
               "points": 30,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 4"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [
@@ -930,7 +957,8 @@
           "name_de": "Handwaffe",
           "name_fr": "Arme de base",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [],
@@ -953,7 +981,8 @@
               "name_es": "Hechicero de Nivel 1",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 1"
             },
             {
               "name_en": "Level 2 Wizard",
@@ -962,9 +991,11 @@
               "name_fr": "Sorcier de Niveau 2",
               "name_es": "Hechicero de Nivel 2",
               "points": 30,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 2"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [
@@ -1066,7 +1097,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [
@@ -1157,7 +1189,8 @@
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Whip",
@@ -1167,7 +1200,8 @@
           "name_fr": "Fouet",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Bat"
         }
       ],
       "armor": [
@@ -1266,7 +1300,8 @@
           "name_es": "The Blessed Blade of Ptra",
           "name_fr": "La Lame Bénie de Ptra",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Błogosławione Ostrze Ptra"
         }
       ],
       "armor": [
@@ -1290,7 +1325,8 @@
           "name_es": "Hechicero de Nivel 1",
           "points": 0,
           "active": true,
-          "alwaysActive": true
+          "alwaysActive": true,
+          "name_pl": "Czarodziej poziomu 1"
         }
       ],
       "mounts": [
@@ -1339,7 +1375,8 @@
           "name_es": "Hand weapon, Swarming Mass",
           "name_fr": "Arme de base, Masse Grouillante",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Rosnąca Masa"
         }
       ],
       "armor": [
@@ -1409,7 +1446,8 @@
           "name_es": "The Flail of Conquered Kings",
           "name_fr": "Le Fléau des Rois Conquis",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Cep Pokonanych Królów"
         }
       ],
       "armor": [
@@ -1502,7 +1540,8 @@
           "name_fr": "Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Thrusting spears",
@@ -1511,7 +1550,8 @@
           "name_de": "Stoßspeere",
           "name_fr": "Lances d'infanterie",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Włócznie kłująca"
         }
       ],
       "armor": [
@@ -1536,7 +1576,8 @@
           "perModel": true,
           "active": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcze"
         },
         {
           "name_en": "Nehekharan Phalanx (0-1 per 1000 points)",
@@ -1546,7 +1587,8 @@
           "name_fr": "Phalange de Nehekhara (0-1 par tranche de 1000 points)",
           "points": 10,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Nehekharańska Falanga (0-1 na 1000 punktów)"
         }
       ],
       "mounts": [],
@@ -1625,7 +1667,8 @@
           "name_fr": "Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Warbows",
@@ -1635,7 +1678,8 @@
           "name_fr": "Arcs de guerre",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Łuki bojowe"
         }
       ],
       "armor": [
@@ -1656,7 +1700,8 @@
           "name_de": "Abteilung",
           "name_fr": "Détachement",
           "name_it": "Distaccamento",
-          "points": 0
+          "points": 0,
+          "name_pl": "Oddział"
         }
       ],
       "mounts": [],
@@ -1753,7 +1798,8 @@
           "name_fr": "Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Halberds",
@@ -1762,7 +1808,8 @@
           "name_de": "Hellebarden",
           "name_fr": "Hallebardes",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Halabardy"
         }
       ],
       "armor": [
@@ -1787,7 +1834,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Wyćwiczeni (0-1 na 1000 punktów)"
         },
         {
           "name_en": "Nehekharan Phalanx (0-1 per 1000 points)",
@@ -1798,7 +1846,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Nehekharańska Falanga (0-1 na 1000 punktów)"
         }
       ],
       "mounts": [],
@@ -1859,7 +1908,8 @@
           "name_fr": "Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Halberds",
@@ -1869,7 +1919,8 @@
           "name_fr": "Hallebardes",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Halabardy"
         },
         {
           "name_en": "Writhing tail",
@@ -1879,7 +1930,8 @@
           "name_fr": "Queue sinueuse",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Wijący ogon"
         },
         {
           "name_en": "Petrifying gaze",
@@ -1889,7 +1941,8 @@
           "name_fr": "Regard pétrificateur",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Kamieniejące spojrzenie"
         }
       ],
       "armor": [
@@ -1914,7 +1967,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 1
+          "maximum": 1,
+          "name_pl": "Zasadzka"
         }
       ],
       "mounts": [],
@@ -1964,7 +2018,8 @@
           "name_fr": "Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Hand weapons, Warbows",
@@ -1973,7 +2028,8 @@
           "name_de": "Handwaffen , Kriegsbogen",
           "name_fr": "Armes de base, Arcs de guerre",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Łuki bojowe"
         }
       ],
       "armor": [],
@@ -1987,7 +2043,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcze"
         },
         {
           "name_en": "Ambushers",
@@ -1998,7 +2055,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Zasadzka"
         },
         {
           "name_en": "Ambushers",
@@ -2015,7 +2073,8 @@
             "name_it": "0-1 per 1000 punti",
             "name_de": "0-1 pro 1000 Punkte",
             "name_fr": "0-1 par tranche de 1000 points"
-          }
+          },
+          "name_pl": "Zasadzka"
         }
       ],
       "mounts": [],
@@ -2112,7 +2171,8 @@
           "name_fr": "Armes de base, Lances de cavalerie, Arcs de guerre",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Włócznie kawalerii, Łuki bojowe"
         }
       ],
       "armor": [],
@@ -2170,7 +2230,8 @@
           "name_fr": "Armes de base (Morsures venimeuses et dards)",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna (Jadowite ugryzienia i ukłucia)"
         }
       ],
       "armor": [],
@@ -2184,7 +2245,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Zasadzka"
         }
       ],
       "mounts": [],
@@ -2286,7 +2348,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Cavalry spears",
@@ -2295,7 +2358,8 @@
           "name_de": "Kavalleriespeere",
           "name_fr": "Lances de cavalerie",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Włócznie kawalerii"
         }
       ],
       "armor": [
@@ -2334,7 +2398,8 @@
             "name_it": "Una ogni 1.000pti",
             "name_de": "0-1 Einheit pro 1000 Punkte",
             "name_fr": "0-1 unité par tranche de 1000 points"
-          }
+          },
+          "name_pl": "Przeciwnatarcie"
         }
       ],
       "mounts": [],
@@ -2412,7 +2477,8 @@
           "name_fr": "Armes de base, Arcs de guerre",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Łuki bojowe"
         }
       ],
       "armor": [
@@ -2434,7 +2500,8 @@
           "name_de": "Streitwagengarde",
           "name_fr": "Escorteurs de Chars",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Biegacze Rydwanu"
         },
         {
           "name_en": "Chariot Runners",
@@ -2451,7 +2518,8 @@
             "name_it": "0-1 per 1000 punti",
             "name_de": "0-1 pro 1000 Punkte",
             "name_fr": "0-1 par tranche de 1000 points"
-          }
+          },
+          "name_pl": "Biegacze Rydwanu"
         }
       ],
       "mounts": [],
@@ -2548,7 +2616,8 @@
           "name_es": "Hand weapons (both), Thrusting spears (Warriors), Warbows (Archers)",
           "name_fr": "Armes de base (les deux), Lances d'infanterie (Guerriers), Arcs de guerre (Archers)",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna (obie), Włócznie kłująca (Wojownicy), Łuki bojowe (Łucznicy)"
         }
       ],
       "armor": [
@@ -2574,7 +2643,8 @@
           "points": 5,
           "stackable": true,
           "minimum": 10,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Wojownicy Królewskiego Wojska"
         },
         {
           "name_en": "Royal Host Archers",
@@ -2586,7 +2656,8 @@
           "points": 5,
           "stackable": true,
           "minimum": 10,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Łucznicy Królewskiego Wojska"
         },
         {
           "name_en": "Nehekharan Phalanx",
@@ -2597,7 +2668,8 @@
           "points": 10,
           "perModel": false,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Nehekharańska Falanga"
         }
       ],
       "mounts": [],
@@ -2680,7 +2752,8 @@
           "name_es": "Hand weapons (both), Cavalry spears (Horsemen), Warbows (Horse Archers)",
           "name_fr": "Armes de base (les deux), Lances de cavalerie (Cavaliers), Arcs de guerre (Archers à Cheval)",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna (obie), Włócznie kawalerii (Jeźdźcy), Łuki bojowe (Jeźdźcy łucznicy)"
         }
       ],
       "armor": [
@@ -2706,7 +2779,8 @@
           "points": 12,
           "stackable": true,
           "minimum": 5,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Jeźdźcy Królewskiego Wojska"
         },
         {
           "name_en": "Royal Host Horse Archers",
@@ -2718,7 +2792,8 @@
           "points": 11,
           "stackable": true,
           "minimum": 5,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Jeźdźcy Łucznicy Królewskiego Wojska"
         },
         {
           "name_en": "Counter Charge",
@@ -2734,7 +2809,8 @@
             "name_en": "Set this to the total amount of Horses in the unit",
             "name_cn": "将此设置为单位中马的总数",
             "name_fr": "Indiquez ici le total de Chevaux dans l'unité"
-          }
+          },
+          "name_pl": "Przeciwnatarcie"
         }
       ],
       "mounts": [],
@@ -2776,7 +2852,8 @@
           "name_es": "Lashing tails and venomous fangs (Hand weapons)",
           "name_fr": "Queues fouettardes et crocs venimeux (Armes de base)",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Uderzające ogony i jadowite kły (Broń ręczna)"
         }
       ],
       "armor": [],
@@ -2789,7 +2866,8 @@
           "name_fr": "Les Horreurs d'En dessous",
           "points": 2,
           "perModel": true,
-          "armyComposition": "mortuary-cults"
+          "armyComposition": "mortuary-cults",
+          "name_pl": "Przerażenia Głębin"
         }
       ],
       "mounts": [],
@@ -2882,7 +2960,8 @@
           "name_es": "Hand weapons, Halberds, Shields",
           "name_fr": "Armes de base, Hallebardes, Boucliers",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Halabardy, Tarcze"
         }
       ],
       "armor": [],
@@ -2943,7 +3022,8 @@
           "name_fr": "Armes de base, Lames rituelles",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Rytualne ostrza"
         },
         {
           "name_en": "Hand weapons, Greatbows",
@@ -2952,7 +3032,8 @@
           "name_de": "Hand weapons, Großbögen",
           "name_fr": "Armes de base, Grands arcs",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielkie łuki"
         }
       ],
       "armor": [
@@ -3026,7 +3107,8 @@
           "name_fr": "Armes de base, Lames rituelles",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Rytualne ostrza"
         },
         {
           "name_en": "Hand weapons, Greatbows",
@@ -3035,7 +3117,8 @@
           "name_de": "Handwaffen, Großbögen",
           "name_fr": "Armes de base, Grands arcs",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielkie łuki"
         }
       ],
       "armor": [
@@ -3104,7 +3187,8 @@
           "name_fr": "Armes de base, Lames rituelles",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Rytualne ostrza"
         }
       ],
       "armor": [
@@ -3160,7 +3244,8 @@
           "name_fr": "Armes de base (Morsures venimeuses et dards)",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna (Jadowite ugryzienia i ukłucia)"
         }
       ],
       "armor": [],
@@ -3174,7 +3259,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Zasadzka"
         }
       ],
       "mounts": [],
@@ -3224,7 +3310,8 @@
           "name_fr": "Armes de base (Becs et serres)",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna (Dzioby i szpony)"
         }
       ],
       "armor": [],
@@ -3320,7 +3407,8 @@
           "name_fr": "Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Cavalry spears",
@@ -3329,7 +3417,8 @@
           "name_de": "Kavalleriespeere",
           "name_fr": "Lances de cavalerie",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Włócznie kawalerii"
         },
         {
           "name_en": "Hand weapons (Lashing tails)",
@@ -3339,7 +3428,8 @@
           "name_fr": "Armes de base (Queues fouettardes)",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna (Uderzające ogony)"
         }
       ],
       "armor": [
@@ -3362,7 +3452,8 @@
           "name_fr": "Boucliers",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Tarcze"
         },
         {
           "name_en": "Great weapon for Captain only",
@@ -3370,7 +3461,8 @@
           "name_it": "Grande Arma solo per Capitano della Necropoli",
           "name_de": "Zweihandwaffe (nur Hauptmann)",
           "name_fr": "Arme lourde pour le Capitaine uniquement",
-          "points": 3
+          "points": 3,
+          "name_pl": "Wielka broń tylko dla Kapitana"
         }
       ],
       "mounts": [],
@@ -3464,7 +3556,8 @@
           "name_fr": "Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Halberds",
@@ -3473,7 +3566,8 @@
           "name_de": "Hellebarden",
           "name_fr": "Hallebardes",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Halabardy"
         }
       ],
       "armor": [
@@ -3498,7 +3592,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Wyćwiczeni (0-1 na 1000 punktów)"
         },
         {
           "name_en": "Nehekharan Phalanx (0-1 per 1000 points)",
@@ -3509,7 +3604,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Nehekharańska Falanga (0-1 na 1000 punktów)"
         }
       ],
       "mounts": [],
@@ -3562,7 +3658,8 @@
           "name_es": "Lashing tails and venomous fangs (Hand weapons)",
           "name_fr": "Queues fouettardes et crocs venimeux (Armes de base)",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Uderzające ogony i jadowite kły (Broń ręczna)"
         }
       ],
       "armor": [],
@@ -3575,7 +3672,8 @@
           "name_fr": "Les Horreurs d'En dessous",
           "points": 2,
           "perModel": true,
-          "armyComposition": "mortuary-cults"
+          "armyComposition": "mortuary-cults",
+          "name_pl": "Przerażenia Głębin"
         }
       ],
       "mounts": [],
@@ -3617,7 +3715,8 @@
           "name_fr": "Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Halberds",
@@ -3627,7 +3726,8 @@
           "name_fr": "Hallebardes",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Halabardy"
         },
         {
           "name_en": "Writhing tails",
@@ -3637,7 +3737,8 @@
           "name_fr": "Queues sinueuses",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Wijące ogony"
         },
         {
           "name_en": "Petrifying gaze",
@@ -3647,7 +3748,8 @@
           "name_fr": "Regard pétrificateur",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Kamieniejące spojrzenie"
         }
       ],
       "armor": [
@@ -3672,7 +3774,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Zasadzka"
         }
       ],
       "mounts": [],
@@ -3715,7 +3818,8 @@
           "name_fr": "Pinces décapitantes, Dard venimeux",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Ścinające pazury, Zatrute żądło"
         }
       ],
       "armor": [
@@ -3738,7 +3842,8 @@
           "name_de": "Überfall",
           "name_fr": "Embusqueurs",
           "points": 5,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Zasadzka"
         },
         {
           "name_en": "The Terrors Below",
@@ -3748,7 +3853,8 @@
           "name_fr": "Les Horreurs d'En dessous",
           "points": 2,
           "perModel": true,
-          "armyComposition": "mortuary-cults"
+          "armyComposition": "mortuary-cults",
+          "name_pl": "Przerażenia Głębin"
         }
       ],
       "mounts": [],
@@ -3818,7 +3924,8 @@
           "name_fr": "Griffes mortelles (Sphinx de Guerre), Armes de base (Aurige Gardien des Tombes uniquement), Lances de cavalerie (Aurige Gardien des Tombes uniquement), Arcs courts (Aurige Gardien des Tombes uniquement)",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Złowrogie pazury (Warsphinx), Broń ręczna (tylko Straż Grobowców), Włócznie kawalerii (tylko Straż Grobowców), Krótkie łuki (tylko Straż Grobowców)"
         }
       ],
       "armor": [],
@@ -3833,7 +3940,8 @@
           "perModel": true,
           "stackable": true,
           "minimum": 0,
-          "maximum": 2
+          "maximum": 2,
+          "name_pl": "Może dodać do dwóch dodatkowych członków Straży Grobowców"
         },
         {
           "name_en": "Envenomed sting",
@@ -3842,7 +3950,8 @@
           "name_de": "Giftstachel",
           "name_fr": "Dard venimeux",
           "points": 5,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Zatrute żądło"
         },
         {
           "name_en": "Fiery roar",
@@ -3851,7 +3960,8 @@
           "name_de": "Flammendes Brüllen",
           "name_fr": "Rugissement ardent",
           "points": 20,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Ognisty ryk"
         }
       ],
       "mounts": [],
@@ -3947,7 +4057,8 @@
           "name_es": "Hand weapons, Halberds, Shields",
           "name_fr": "Armes de base, Hallebardes, Boucliers",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Halabardy, Tarcze"
         }
       ],
       "armor": [],
@@ -3989,7 +4100,8 @@
           "name_fr": "Paire de grands khopeshs",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Sparowane wielkie khopesze"
         }
       ],
       "armor": [
@@ -4050,7 +4162,8 @@
           "name_fr": "Lames fendoirs, Frappe de décapitation",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Rozłupujące ostrza, Ścięcie"
         }
       ],
       "armor": [
@@ -4073,7 +4186,8 @@
           "name_de": "Giftstachel",
           "name_fr": "Dard venimeux",
           "points": 5,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Zatrute żądło"
         }
       ],
       "mounts": [],
@@ -4123,7 +4237,8 @@
           "name_fr": "Paire de grands khopeshs",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Sparowane wielkie khopesze"
         }
       ],
       "armor": [
@@ -4179,7 +4294,8 @@
           "name_fr": "Catapulte à Crânes Hurlants",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Katapulta Wrzeszczącej Czaszki"
         },
         {
           "name_en": "Hand weapons",
@@ -4189,7 +4305,8 @@
           "name_fr": "Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [
@@ -4212,7 +4329,8 @@
           "name_de": "Schädel des Feindes",
           "name_fr": "Crânes de l'Ennemi",
           "points": 20,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Czaszki Wroga"
         }
       ],
       "mounts": [],
@@ -4255,7 +4373,8 @@
           "name_fr": "Armes de base",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Great weapons",
@@ -4265,7 +4384,8 @@
           "name_fr": "Armes lourdes",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Wielka broń"
         }
       ],
       "armor": [
@@ -4329,7 +4449,8 @@
           "name_fr": "Lames fendoirs, Frappe de décapitation",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Rozłupujące ostrza, Ścięcie"
         }
       ],
       "armor": [
@@ -4352,7 +4473,8 @@
           "name_de": "Giftstachel",
           "name_fr": "Dard venimeux",
           "points": 5,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Zatrute żądło"
         }
       ],
       "mounts": [],

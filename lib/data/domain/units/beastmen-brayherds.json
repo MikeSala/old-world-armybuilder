@@ -39,7 +39,8 @@
           "points": 0,
           "active": true,
           "name_es": "Arma de mano",
-          "name_fr": "Arme de base"
+          "name_fr": "Arme de base",
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -47,7 +48,8 @@
           "name_de": "Additional hand weapon",
           "points": 3,
           "name_es": "Arma de mano adicional",
-          "name_fr": "Arme de base additionnelle"
+          "name_fr": "Arme de base additionnelle",
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapon",
@@ -55,7 +57,8 @@
           "name_de": "Great weapon",
           "points": 4,
           "name_es": "Arma a dos manos",
-          "name_fr": "Arme lourde"
+          "name_fr": "Arme lourde",
+          "name_pl": "Wielka broń"
         }
       ],
       "armor": [
@@ -94,7 +97,8 @@
           "minimum": 0,
           "maximum": 0,
           "name_es": "Escudo",
-          "name_fr": "Bouclier"
+          "name_fr": "Bouclier",
+          "name_pl": "Tarcza"
         },
         {
           "name_en": "Ambushers",
@@ -104,7 +108,8 @@
           "minimum": 0,
           "maximum": 0,
           "name_es": "Emboscada",
-          "name_fr": "Embusqueurs"
+          "name_fr": "Embusqueurs",
+          "name_pl": "Zasadzka"
         }
       ],
       "mounts": [
@@ -252,7 +257,8 @@
           "points": 0,
           "active": true,
           "name_es": "Arma de mano",
-          "name_fr": "Arme de base"
+          "name_fr": "Arme de base",
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -260,7 +266,8 @@
           "name_de": "Additional hand weapon",
           "points": 3,
           "name_es": "Arma de mano adicional",
-          "name_fr": "Arme de base additionnelle"
+          "name_fr": "Arme de base additionnelle",
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapon",
@@ -268,7 +275,8 @@
           "name_de": "Great weapon",
           "points": 4,
           "name_es": "Arma a dos manos",
-          "name_fr": "Arme lourde"
+          "name_fr": "Arme lourde",
+          "name_pl": "Wielka broń"
         }
       ],
       "armor": [
@@ -307,7 +315,8 @@
           "minimum": 0,
           "maximum": 0,
           "name_es": "Escudo",
-          "name_fr": "Bouclier"
+          "name_fr": "Bouclier",
+          "name_pl": "Tarcza"
         },
         {
           "name_en": "Ambushers",
@@ -317,7 +326,8 @@
           "minimum": 0,
           "maximum": 0,
           "name_es": "Esboscada",
-          "name_fr": "Embusqueurs"
+          "name_fr": "Embusqueurs",
+          "name_pl": "Zasadzka"
         }
       ],
       "mounts": [
@@ -467,7 +477,8 @@
           "points": 0,
           "active": true,
           "name_es": "Cayado de la manada",
-          "name_fr": "Braillesceptre"
+          "name_fr": "Braillesceptre",
+          "name_pl": "Laska Braila"
         }
       ],
       "armor": [],
@@ -480,7 +491,8 @@
           "minimum": 0,
           "maximum": 0,
           "name_es": "Emboscada",
-          "name_fr": "Embusqueurs"
+          "name_fr": "Embusqueurs",
+          "name_pl": "Zasadzka"
         },
         {
           "name_en": "Wizard",
@@ -500,7 +512,8 @@
               "name_es": "Hechicero de Nivel 3",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 3"
             },
             {
               "name_en": "Level 4 Wizard",
@@ -509,9 +522,11 @@
               "name_fr": "Sorcier de Niveau 4",
               "name_es": "Hechicero de Nivel 4",
               "points": 30,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 4"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [
@@ -673,7 +688,8 @@
           "points": 0,
           "active": true,
           "name_es": "Cayado de la manada",
-          "name_fr": "Braillesceptre"
+          "name_fr": "Braillesceptre",
+          "name_pl": "Laska Braila"
         }
       ],
       "armor": [],
@@ -686,7 +702,8 @@
           "minimum": 0,
           "maximum": 0,
           "name_es": "Emboscada",
-          "name_fr": "Embusqueurs"
+          "name_fr": "Embusqueurs",
+          "name_pl": "Zasadzka"
         },
         {
           "name_en": "Wizard",
@@ -706,7 +723,8 @@
               "name_es": "Hechicero de Nivel 1",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 1"
             },
             {
               "name_en": "Level 2 Wizard",
@@ -715,9 +733,11 @@
               "name_fr": "Sorcier de Niveau 2",
               "name_es": "Hechicero de Nivel 2",
               "points": 30,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 2"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [
@@ -878,21 +898,24 @@
           "name_de": "Hand weapon",
           "points": 0,
           "active": true,
-          "name_fr": "Arme de base"
+          "name_fr": "Arme de base",
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
           "name_cn": "额外单手武器",
           "name_de": "Additional hand weapon",
           "points": 3,
-          "name_fr": "Arme de base additionnelle"
+          "name_fr": "Arme de base additionnelle",
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapon",
           "name_cn": "重型武器",
           "name_de": "Great weapon",
           "points": 4,
-          "name_fr": "Arme lourde"
+          "name_fr": "Arme lourde",
+          "name_pl": "Wielka broń"
         }
       ],
       "armor": [
@@ -925,7 +948,8 @@
           "name_cn": "盾牌",
           "name_de": "Shield",
           "name_fr": "Bouclier",
-          "points": 5
+          "points": 5,
+          "name_pl": "Tarcza"
         },
         {
           "name_en": "Level 1 Wizard",
@@ -939,7 +963,8 @@
           "notes": {
             "name_en": "If selected, he must also be the general",
             "name_fr": "Si sélectionné, il doit être le général"
-          }
+          },
+          "name_pl": "Czarodziej poziomu 1"
         },
         {
           "name_en": "Level 2 Wizard",
@@ -953,7 +978,8 @@
           "notes": {
             "name_en": "If selected, he must also be the general",
             "name_fr": "Si sélectionné, il doit être le général"
-          }
+          },
+          "name_pl": "Czarodziej poziomu 2"
         }
       ],
       "mounts": [],
@@ -1092,21 +1118,24 @@
           "name_de": "Hand weapon",
           "points": 0,
           "active": true,
-          "name_fr": "Arme de base"
+          "name_fr": "Arme de base",
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
           "name_cn": "额外单手武器",
           "name_de": "Additional hand weapon",
           "points": 3,
-          "name_fr": "Arme de base additionnelle"
+          "name_fr": "Arme de base additionnelle",
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapon",
           "name_cn": "重型武器",
           "name_de": "Great weapon",
           "points": 4,
-          "name_fr": "Arme lourde"
+          "name_fr": "Arme lourde",
+          "name_pl": "Wielka broń"
         }
       ],
       "armor": [
@@ -1139,7 +1168,8 @@
           "name_cn": "盾牌",
           "name_de": "Shield",
           "name_fr": "Bouclier",
-          "points": 5
+          "points": 5,
+          "name_pl": "Tarcza"
         },
         {
           "name_en": "Level 1 Wizard",
@@ -1153,7 +1183,8 @@
           "notes": {
             "name_en": "If selected, he must also be the general",
             "name_fr": "Si sélectionné, il doit être le général"
-          }
+          },
+          "name_pl": "Czarodziej poziomu 1"
         },
         {
           "name_en": "Level 2 Wizard",
@@ -1167,7 +1198,8 @@
           "notes": {
             "name_en": "If selected, he must also be the general",
             "name_fr": "Si sélectionné, il doit être le général"
-          }
+          },
+          "name_pl": "Czarodziej poziomu 2"
         }
       ],
       "mounts": [],
@@ -1273,21 +1305,24 @@
           "name_de": "Hand weapon",
           "points": 0,
           "active": true,
-          "name_fr": "Arme de base"
+          "name_fr": "Arme de base",
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Cavalry spear",
           "name_cn": "骑兵长矛",
           "name_de": "Cavalry spear",
           "points": 2,
-          "name_fr": "Lance de cavalerie"
+          "name_fr": "Lance de cavalerie",
+          "name_pl": "Włócznia kawalerii"
         },
         {
           "name_en": "Great weapon",
           "name_cn": "重型武器",
           "name_de": "Great weapon",
           "points": 4,
-          "name_fr": "Arme lourde"
+          "name_fr": "Arme lourde",
+          "name_pl": "Wielka broń"
         }
       ],
       "armor": [
@@ -1322,7 +1357,8 @@
           "points": 2,
           "minimum": 0,
           "maximum": 0,
-          "name_fr": "Haches de lancer, Javelines"
+          "name_fr": "Haches de lancer, Javelines",
+          "name_pl": "Topory do rzucania, Oszczepy"
         },
         {
           "name_en": "Shield",
@@ -1331,7 +1367,8 @@
           "points": 2,
           "minimum": 0,
           "maximum": 0,
-          "name_fr": "Bouclier"
+          "name_fr": "Bouclier",
+          "name_pl": "Tarcza"
         },
         {
           "name_en": "Ambushers",
@@ -1340,7 +1377,8 @@
           "points": 10,
           "minimum": 0,
           "maximum": 0,
-          "name_fr": "Embusqueurs"
+          "name_fr": "Embusqueurs",
+          "name_pl": "Zasadzka"
         }
       ],
       "mounts": [],
@@ -1454,7 +1492,8 @@
           "name_de": "Hand weapon, Grisly Totem",
           "name_fr": "Arme de base, Totem d’Épouvante",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Makabryczny Totem"
         }
       ],
       "armor": [],
@@ -1467,7 +1506,8 @@
           "name_fr": "Sorcier de Niveau 4",
           "points": 0,
           "active": true,
-          "alwaysActive": true
+          "alwaysActive": true,
+          "name_pl": "Czarodziej poziomu 4"
         }
       ],
       "mounts": [],
@@ -1515,7 +1555,8 @@
           "name_de": "Hand weapon, Mansmasher, The Skull of the Unicorn Lord",
           "name_fr": "Arme de base, Écrase-Hommes, Le Crâne du Seigneur Licorne",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Miażdżyciel Ludzi, Czaszka Pana Jednorożców"
         }
       ],
       "armor": [],
@@ -1875,7 +1916,8 @@
           "maximum": 0,
           "perModel": true,
           "name_es": "Tozudo",
-          "name_fr": "Obstiné"
+          "name_fr": "Obstiné",
+          "name_pl": "Nieugięty"
         },
         {
           "name_en": "Veteran",
@@ -1886,7 +1928,8 @@
           "maximum": 0,
           "perModel": true,
           "name_es": "Veterano",
-          "name_fr": "Vétérans"
+          "name_fr": "Vétérans",
+          "name_pl": "Weteran"
         }
       ],
       "mounts": [],
@@ -1994,7 +2037,8 @@
           "active": true,
           "equippedDefault": true,
           "name_es": "Hand weapons",
-          "name_fr": "Armes de base"
+          "name_fr": "Armes de base",
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapons",
@@ -2003,7 +2047,8 @@
           "points": 0,
           "perModel": true,
           "name_es": "Arma de mano adicional",
-          "name_fr": "Armes de base additionnelles"
+          "name_fr": "Armes de base additionnelles",
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Shields",
@@ -2012,7 +2057,8 @@
           "points": 0,
           "perModel": true,
           "name_es": "Escudos",
-          "name_fr": "Boucliers"
+          "name_fr": "Boucliers",
+          "name_pl": "Tarcze"
         }
       ],
       "armor": [],
@@ -2024,7 +2070,8 @@
           "name_es": "Emboscada",
           "name_fr": "Embusqueurs",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Zasadzka"
         },
         {
           "name_en": "Ambushers",
@@ -2038,7 +2085,8 @@
           "notes": {
             "name_en": "0-1 Gor Herd, Ungor Herd or Centigor Herd per 1000 points with a Unit Strength of 10 or less",
             "name_fr": "0-1 Harde de Gor, Harde d'Ungor ou Harde de Centigor par tranche de 1000 points avec une Puissance d'Unité de 10 ou moins"
-          }
+          },
+          "name_pl": "Zasadzka"
         }
       ],
       "mounts": [],
@@ -2098,7 +2146,8 @@
           "perModel": true,
           "active": true,
           "name_es": "Arma de mano y escudo",
-          "name_fr": "Armes de base, Bouclier"
+          "name_fr": "Armes de base, Bouclier",
+          "name_pl": "Broń ręczna, Tarcza"
         },
         {
           "name_en": "Thrusting spears, Shield",
@@ -2107,7 +2156,8 @@
           "points": 1,
           "perModel": true,
           "name_es": "Lanzas",
-          "name_fr": "Lances d'infanterie, Bouclier"
+          "name_fr": "Lances d'infanterie, Bouclier",
+          "name_pl": "Włócznie kłująca, Tarcza"
         },
         {
           "name_en": "Throwing spears, Shield",
@@ -2116,7 +2166,8 @@
           "points": 1,
           "perModel": true,
           "name_es": "Lanzas arrojadizas",
-          "name_fr": "Javelots, Bouclier"
+          "name_fr": "Javelots, Bouclier",
+          "name_pl": "Włócznie do rzucania, Tarcza"
         },
         {
           "name_en": "Shortbows",
@@ -2125,7 +2176,8 @@
           "points": 0,
           "perModel": true,
           "name_es": "Cambiar escudos por arcos cortos",
-          "name_fr": "Arcs courts"
+          "name_fr": "Arcs courts",
+          "name_pl": "Krótkie łuki"
         }
       ],
       "armor": [],
@@ -2139,7 +2191,8 @@
           "maximum": 0,
           "perModel": true,
           "name_es": "Emboscada",
-          "name_fr": "Embusqueurs"
+          "name_fr": "Embusqueurs",
+          "name_pl": "Zasadzka"
         },
         {
           "name_en": "Ambushers",
@@ -2153,7 +2206,8 @@
           "notes": {
             "name_en": "0-1 Gor Herd, Ungor Herd or Centigor Herd per 1000 points with a Unit Strength of 10 or less",
             "name_fr": "0-1 Harde de Gor, Harde d'Ungor ou Harde de Centigor par tranche de 1000 points avec une Puissance d'Unité de 10 ou moins"
-          }
+          },
+          "name_pl": "Zasadzka"
         }
       ],
       "mounts": [],
@@ -2188,7 +2242,8 @@
           "name_fr": "Armes de base (Griffes et crocs)",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna (Pazury i kły)"
         }
       ],
       "armor": [],
@@ -2201,7 +2256,8 @@
           "perModel": true,
           "minimum": 0,
           "maximum": 0,
-          "name_fr": "Peau Blindée (1)"
+          "name_fr": "Peau Blindée (1)",
+          "name_pl": "Opancerzona Skóra (1)"
         },
         {
           "name_en": "Poisoned Attacks",
@@ -2211,7 +2267,8 @@
           "perModel": true,
           "minimum": 0,
           "maximum": 0,
-          "name_fr": "Attaques Empoisonnées"
+          "name_fr": "Attaques Empoisonnées",
+          "name_pl": "Trujące Ataki"
         },
         {
           "name_en": "Vanguard",
@@ -2220,7 +2277,8 @@
           "points": 5,
           "minimum": 0,
           "maximum": 0,
-          "name_fr": "Avant-garde"
+          "name_fr": "Avant-garde",
+          "name_pl": "Awangarda"
         }
       ],
       "mounts": [],
@@ -2260,7 +2318,8 @@
           "name_fr": "Armes de base (Griffes et crocs)",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna (Pazury i kły)"
         }
       ],
       "armor": [],
@@ -2271,7 +2330,8 @@
           "name_de": "Armoured Hide (1)",
           "name_fr": "Peau Blindée (1)",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Opancerzona Skóra (1)"
         },
         {
           "name_en": "Poisoned Attacks",
@@ -2279,7 +2339,8 @@
           "name_de": "Poisoned Attacks",
           "name_fr": "Attaques Empoisonnées",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Trujące Ataki"
         },
         {
           "name_en": "Ungor Ravagers",
@@ -2291,7 +2352,8 @@
           "notes": {
             "name_en": "May include one Ungor Ravager for every three Primal Warhounds",
             "name_fr": "Peut inclure 1 Ravageur Ungor par tranche de 3 Chiens Primordiaux"
-          }
+          },
+          "name_pl": "Najeźdźcy Ungorów"
         }
       ],
       "mounts": [],
@@ -2336,7 +2398,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "name_fr": "Armes de base (défenses)"
+          "name_fr": "Armes de base (défenses)",
+          "name_pl": "Broń ręczna (kły)"
         }
       ],
       "armor": [
@@ -2428,7 +2491,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "name_fr": "Armes de base, Boucliers"
+          "name_fr": "Armes de base, Boucliers",
+          "name_pl": "Broń ręczna, Tarcze"
         },
         {
           "name_en": "Hand weapons, Cavalry spears, Shields",
@@ -2436,7 +2500,8 @@
           "name_de": "Hand weapons, Cavalry spears, Shields",
           "points": 1,
           "perModel": true,
-          "name_fr": "Armes de base, Lances de cavalerie, Boucliers"
+          "name_fr": "Armes de base, Lances de cavalerie, Boucliers",
+          "name_pl": "Broń ręczna, Włócznie kawalerii, Tarcze"
         },
         {
           "name_en": "Hand weapons, Throwing spears, Shields",
@@ -2444,7 +2509,8 @@
           "name_de": "Hand weapons, Throwing spears, Shields",
           "points": 1,
           "perModel": true,
-          "name_fr": "Armes de base, Javelots, Boucliers"
+          "name_fr": "Armes de base, Javelots, Boucliers",
+          "name_pl": "Broń ręczna, Włócznie do rzucania, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons",
@@ -2452,7 +2518,8 @@
           "name_de": "Hand weapons, Great weapons",
           "points": 1,
           "perModel": true,
-          "name_fr": "Armes de base, Armes lourdes"
+          "name_fr": "Armes de base, Armes lourdes",
+          "name_pl": "Broń ręczna, Wielka broń"
         }
       ],
       "armor": [],
@@ -2464,7 +2531,8 @@
           "name_fr": "Haches de lancer",
           "points": 1,
           "perModel": true,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Topory do rzucania"
         },
         {
           "name_en": "Javelins",
@@ -2473,7 +2541,8 @@
           "name_fr": "Javelines",
           "points": 1,
           "perModel": true,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Oszczepy"
         },
         {
           "name_en": "Ambushers",
@@ -2481,7 +2550,8 @@
           "name_de": "Ambushers",
           "points": 1,
           "perModel": true,
-          "name_fr": "Embusqueurs"
+          "name_fr": "Embusqueurs",
+          "name_pl": "Zasadzka"
         },
         {
           "name_en": "Ambushers",
@@ -2495,7 +2565,8 @@
           "notes": {
             "name_en": "0-1 Gor Herd, Ungor Herd or Centigor Herd per 1000 points with a Unit Strength of 10 or less",
             "name_fr": "0-1 Harde de Gor, Harde d'Ungor ou Harde de Centigor par tranche de 1000 points avec une Puissance d'Unité de 10 ou moins"
-          }
+          },
+          "name_pl": "Zasadzka"
         },
         {
           "name_en": "The Sons of Ghorros",
@@ -2505,7 +2576,8 @@
             "name_en": "0-1 Centigor Herd in the same muster list as Ghorros",
             "name_fr": "0-1 Harde de Centigor dans la même liste d'armée que Ghorros"
           },
-          "name_fr": "Les Fils de Ghorros"
+          "name_fr": "Les Fils de Ghorros",
+          "name_pl": "Synowie Ghorrosa"
         }
       ],
       "mounts": [],
@@ -2548,7 +2620,8 @@
           "name_de": "Hand weapons, Great weapons (Bestigor Crew), Cavalry spears (Gor Crew)",
           "name_fr": "Armes de base, Armes lourdes (Aurige Bestigor), Lances de cavalerie (Aurige Gor)",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Wielka broń (Załoga Bestigorów), Włócznie kawalerii (Załoga Gorów)"
         }
       ],
       "armor": [],
@@ -2643,7 +2716,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "name_fr": "Arme de base"
+          "name_fr": "Arme de base",
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [
@@ -2664,7 +2738,8 @@
           "name_de": "Additional hand weapon",
           "points": 3,
           "stackable": true,
-          "name_fr": "Arme de base additionnelle"
+          "name_fr": "Arme de base additionnelle",
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapon",
@@ -2672,7 +2747,8 @@
           "name_de": "Great weapon",
           "points": 4,
           "stackable": true,
-          "name_fr": "Arme lourde"
+          "name_fr": "Arme lourde",
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Shield",
@@ -2680,7 +2756,8 @@
           "name_de": "Shield",
           "points": 2,
           "stackable": true,
-          "name_fr": "Bouclier"
+          "name_fr": "Bouclier",
+          "name_pl": "Tarcza"
         },
         {
           "name_en": "Ambushers",
@@ -2688,7 +2765,8 @@
           "name_de": "Ambushers",
           "points": 3,
           "perModel": true,
-          "name_fr": "Embusqueurs"
+          "name_fr": "Embusqueurs",
+          "name_pl": "Zasadzka"
         }
       ],
       "mounts": [],
@@ -2787,7 +2865,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "name_fr": "Armes de base, Armes lourdes"
+          "name_fr": "Armes de base, Armes lourdes",
+          "name_pl": "Broń ręczna, Wielka broń"
         }
       ],
       "armor": [
@@ -2810,7 +2889,8 @@
           "minimum": 0,
           "maximum": 0,
           "perModel": true,
-          "name_fr": "Obstiné"
+          "name_fr": "Obstiné",
+          "name_pl": "Nieugięty"
         },
         {
           "name_en": "Veteran",
@@ -2820,7 +2900,8 @@
           "minimum": 0,
           "maximum": 0,
           "perModel": true,
-          "name_fr": "Vétérans"
+          "name_fr": "Vétérans",
+          "name_pl": "Weteran"
         },
         {
           "name_en": "Ambushers",
@@ -2830,7 +2911,8 @@
           "name_fr": "Embusqueurs",
           "points": 1,
           "perModel": true,
-          "armyComposition": "wild-herd"
+          "armyComposition": "wild-herd",
+          "name_pl": "Zasadzka"
         }
       ],
       "mounts": [],
@@ -2864,7 +2946,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "name_fr": "Armes de base (griffes)"
+          "name_fr": "Armes de base (griffes)",
+          "name_pl": "Broń ręczna (pazury)"
         }
       ],
       "armor": [],
@@ -2952,7 +3035,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "name_fr": "Arme de base"
+          "name_fr": "Arme de base",
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [
@@ -2973,7 +3057,8 @@
           "name_de": "Additional hand weapon",
           "points": 3,
           "stackable": true,
-          "name_fr": "Arme de base additionnelle"
+          "name_fr": "Arme de base additionnelle",
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapon",
@@ -2981,7 +3066,8 @@
           "name_de": "Great weapon",
           "points": 4,
           "stackable": true,
-          "name_fr": "Arme lourde"
+          "name_fr": "Arme lourde",
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Shield",
@@ -2989,7 +3075,8 @@
           "name_de": "Shield",
           "points": 2,
           "stackable": true,
-          "name_fr": "Bouclier"
+          "name_fr": "Bouclier",
+          "name_pl": "Tarcza"
         },
         {
           "name_en": "Ambushers",
@@ -2997,7 +3084,8 @@
           "name_de": "Ambushers",
           "points": 3,
           "perModel": true,
-          "name_fr": "Embusqueurs"
+          "name_fr": "Embusqueurs",
+          "name_pl": "Zasadzka"
         }
       ],
       "mounts": [],
@@ -3052,7 +3140,8 @@
           "name_de": "Hand weapons (claws), Petrifying gaze",
           "points": 0,
           "active": true,
-          "name_fr": "Armes de base (griffes), Regard pétrificateur"
+          "name_fr": "Armes de base (griffes), Regard pétrificateur",
+          "name_pl": "Broń ręczna (pazury), Kamieniejące spojrzenie"
         }
       ],
       "armor": [
@@ -3073,7 +3162,8 @@
           "points": 20,
           "minimum": 0,
           "maximum": 0,
-          "name_fr": "Vomi acide"
+          "name_fr": "Vomi acide",
+          "name_pl": "Kwaśne wymioty"
         },
         {
           "name_en": "Poisoned Attacks",
@@ -3082,7 +3172,8 @@
           "points": 10,
           "minimum": 0,
           "maximum": 0,
-          "name_fr": "Attaques Empoisonnées"
+          "name_fr": "Attaques Empoisonnées",
+          "name_pl": "Trujące Ataki"
         }
       ],
       "mounts": [],
@@ -3154,7 +3245,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "name_fr": "Armes de base, Boucliers"
+          "name_fr": "Armes de base, Boucliers",
+          "name_pl": "Broń ręczna, Tarcze"
         },
         {
           "name_en": "Hand weapons, Cavalry spears, Shields",
@@ -3162,7 +3254,8 @@
           "name_de": "Hand weapons, Cavalry spears, Shields",
           "points": 1,
           "perModel": true,
-          "name_fr": "Armes de base, Lances de cavalerie, Boucliers"
+          "name_fr": "Armes de base, Lances de cavalerie, Boucliers",
+          "name_pl": "Broń ręczna, Włócznie kawalerii, Tarcze"
         },
         {
           "name_en": "Hand weapons, Throwing spears, Shields",
@@ -3170,7 +3263,8 @@
           "name_de": "Hand weapons, Throwing spears, Shields",
           "points": 1,
           "perModel": true,
-          "name_fr": "Armes de base, Javelots, Boucliers"
+          "name_fr": "Armes de base, Javelots, Boucliers",
+          "name_pl": "Broń ręczna, Włócznie do rzucania, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons",
@@ -3178,7 +3272,8 @@
           "name_de": "Hand weapons, Great weapons",
           "points": 1,
           "perModel": true,
-          "name_fr": "Armes de base, Armes lourdes"
+          "name_fr": "Armes de base, Armes lourdes",
+          "name_pl": "Broń ręczna, Wielka broń"
         }
       ],
       "armor": [],
@@ -3190,7 +3285,8 @@
           "name_fr": "Haches de lancer",
           "points": 1,
           "perModel": true,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Topory do rzucania"
         },
         {
           "name_en": "Javelins",
@@ -3199,7 +3295,8 @@
           "name_fr": "Javelines",
           "points": 1,
           "perModel": true,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Oszczepy"
         },
         {
           "name_en": "Ambushers",
@@ -3207,7 +3304,8 @@
           "name_de": "Ambushers",
           "points": 1,
           "perModel": true,
-          "name_fr": "Embusqueurs"
+          "name_fr": "Embusqueurs",
+          "name_pl": "Zasadzka"
         },
         {
           "name_en": "Ambushers",
@@ -3221,7 +3319,8 @@
           "notes": {
             "name_en": "0-1 Gor Herd, Ungor Herd or Centigor Herd per 1000 points with a Unit Strength of 10 or less",
             "name_fr": "0-1 Harde de Gor, Harde d'Ungor ou Harde de Centigor par tranche de 1000 points avec une Puissance d'Unité de 10 ou moins"
-          }
+          },
+          "name_pl": "Zasadzka"
         },
         {
           "name_en": "The Sons of Ghorros",
@@ -3231,7 +3330,8 @@
             "name_en": "0-1 Centigor Herd in the same muster list as Ghorros",
             "name_fr": "0-1 Harde de Centigor dans la même liste d'armée que Ghorros"
           },
-          "name_fr": "Les Fils de Ghorros"
+          "name_fr": "Les Fils de Ghorros",
+          "name_pl": "Synowie Ghorrosa"
         }
       ],
       "mounts": [],
@@ -3301,7 +3401,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "name_fr": "Arme de base"
+          "name_fr": "Arme de base",
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapons",
@@ -3309,7 +3410,8 @@
           "name_de": "Additional hand weapons",
           "points": 3,
           "perModel": true,
-          "name_fr": "Armes de base additionnelles"
+          "name_fr": "Armes de base additionnelles",
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapons",
@@ -3317,7 +3419,8 @@
           "name_de": "Great weapons",
           "points": 4,
           "perModel": true,
-          "name_fr": "Armes lourdes"
+          "name_fr": "Armes lourdes",
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Halberds",
@@ -3325,7 +3428,8 @@
           "name_de": "Halberds",
           "points": 3,
           "perModel": true,
-          "name_fr": "Hallebardes"
+          "name_fr": "Hallebardes",
+          "name_pl": "Halabardy"
         }
       ],
       "armor": [
@@ -3396,7 +3500,8 @@
           "name_de": "Hand weapons, Great weapons (Bestigor Crew), Cavalry spears (Gor Crew)",
           "name_fr": "Armes de base, Armes lourdes (Aurige Bestigor), Lances de cavalerie (Aurige Gor)",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Wielka broń (Załoga Bestigorów), Włócznie kawalerii (Załoga Gorów)"
         }
       ],
       "armor": [],
@@ -3462,7 +3567,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "name_fr": "Armes de base"
+          "name_fr": "Armes de base",
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapons",
@@ -3470,7 +3576,8 @@
           "name_de": "Additional hand weapons",
           "points": 3,
           "perModel": true,
-          "name_fr": "Armes de base additionnelles"
+          "name_fr": "Armes de base additionnelles",
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapons",
@@ -3478,7 +3585,8 @@
           "name_de": "Great weapons",
           "points": 4,
           "perModel": true,
-          "name_fr": "Armes lourdes"
+          "name_fr": "Armes lourdes",
+          "name_pl": "Wielka broń"
         }
       ],
       "armor": [
@@ -3501,7 +3609,8 @@
           "points": 0,
           "active": true,
           "perModel": true,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Znak Chaosu Niepodzielonego"
         },
         {
           "name_en": "Mark of Khorne",
@@ -3510,7 +3619,8 @@
           "name_fr": "Marque de Khorne",
           "points": 3,
           "perModel": true,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Znak Khorne'a"
         },
         {
           "name_en": "Mark of Nurgle",
@@ -3519,7 +3629,8 @@
           "name_fr": "Marque de Nurgle",
           "points": 3,
           "perModel": true,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Znak Nurgle'a"
         },
         {
           "name_en": "Mark of Slaanesh",
@@ -3528,7 +3639,8 @@
           "name_fr": "Marque de Slaanesh",
           "points": 3,
           "perModel": true,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Znak Slaanesha"
         },
         {
           "name_en": "Mark of Tzeentch",
@@ -3537,7 +3649,8 @@
           "name_fr": "Marque de Tzeentch",
           "points": 3,
           "perModel": true,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Znak Tzeentcha"
         }
       ],
       "mounts": [],
@@ -3581,7 +3694,8 @@
           "points": 0,
           "active": true,
           "name_es": "Wicked claws, Slythey tongue",
-          "name_fr": "Griffes mortelles, Langue protractile"
+          "name_fr": "Griffes mortelles, Langue protractile",
+          "name_pl": "Nikczemne pazury, Śliski język"
         }
       ],
       "armor": [
@@ -3635,7 +3749,8 @@
           "name_de": "Hand weapon (claws), Hurl attack",
           "points": 0,
           "active": true,
-          "name_fr": "Arme de base (griffes), Jet de roc"
+          "name_fr": "Arme de base (griffes), Jet de roc",
+          "name_pl": "Broń ręczna (pazury), Atak ciskany"
         }
       ],
       "armor": [
@@ -3692,7 +3807,8 @@
           "name_de": "Cleaver-limbs",
           "points": 0,
           "active": true,
-          "name_fr": "Membres-hachoirs"
+          "name_fr": "Membres-hachoirs",
+          "name_pl": "Kończyny-siekiery"
         }
       ],
       "armor": [
@@ -3792,7 +3908,8 @@
           "name_de": "Hand weapons (Claws and fangs), Twisted antlers",
           "name_fr": "Armes de base (Griffes et crocs), Ramure difforme",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna (Pazury i kły), Poskręcane poroża"
         }
       ],
       "armor": [],
@@ -3803,7 +3920,8 @@
           "name_de": "Ambushers",
           "name_es": "Emboscada",
           "name_fr": "Embusqueurs",
-          "points": 10
+          "points": 10,
+          "name_pl": "Zasadzka"
         },
         {
           "name_en": "Frenzy",
@@ -3811,7 +3929,8 @@
           "name_de": "Frenzy",
           "name_es": "Frenzy",
           "name_fr": "Frénésie",
-          "points": 5
+          "points": 5,
+          "name_pl": "Furia"
         }
       ],
       "mounts": [],
@@ -3876,7 +3995,8 @@
           "name_fr": "Armes de base, Boucliers",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Tarcze"
         },
         {
           "name_en": "Additional hand weapons",
@@ -3885,7 +4005,8 @@
           "name_es": "Arma de mano adicional",
           "name_fr": "Armes de base additionnelles",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         }
       ],
       "armor": [],
@@ -3897,7 +4018,8 @@
           "name_es": "Emboscada",
           "name_fr": "Embusqueurs",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Zasadzka"
         }
       ],
       "mounts": [],
@@ -3933,7 +4055,8 @@
           "name_de": "Hand weapons, Great weapons (Bestigor Crew), Cavalry spears (Gor Crew)",
           "name_fr": "Armes de base, Armes lourdes (Aurige Bestigor), Lances de cavalerie (Aurige Gor)",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Wielka broń (Załoga Bestigorów), Włócznie kawalerii (Załoga Gorów)"
         }
       ],
       "armor": [],
@@ -3983,21 +4106,24 @@
           "name_de": "Hand weapon",
           "points": 0,
           "active": true,
-          "name_fr": "Arme de base"
+          "name_fr": "Arme de base",
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
           "name_cn": "额外单手武器",
           "name_de": "Additional hand weapon",
           "points": 3,
-          "name_fr": "Arme de base additionnelle"
+          "name_fr": "Arme de base additionnelle",
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapon",
           "name_cn": "重型武器",
           "name_de": "Great weapon",
           "points": 4,
-          "name_fr": "Arme lourde"
+          "name_fr": "Arme lourde",
+          "name_pl": "Wielka broń"
         }
       ],
       "armor": [
@@ -4081,7 +4207,8 @@
           "name_es": "Wicked claws, slythey tongue",
           "name_fr": "Griffes mortelles, Langue protractile",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Nikczemne pazury, Śliski język"
         }
       ],
       "armor": [
@@ -4131,7 +4258,8 @@
           "name_de": "Hand weapon (claws), Hurl attack",
           "points": 0,
           "active": true,
-          "name_fr": "Arme de base (griffes), Jet de roc"
+          "name_fr": "Arme de base (griffes), Jet de roc",
+          "name_pl": "Broń ręczna (pazury), Atak ciskany"
         }
       ],
       "armor": [
@@ -4173,7 +4301,8 @@
           "name_de": "Giant's club",
           "points": 0,
           "active": true,
-          "name_fr": "Massue de Géant"
+          "name_fr": "Massue de Géant",
+          "name_pl": "Maczuga olbrzyma"
         }
       ],
       "armor": [
@@ -4201,7 +4330,8 @@
           "points": 20,
           "minimum": 0,
           "maximum": 0,
-          "name_fr": "Régénération (6+)"
+          "name_fr": "Régénération (6+)",
+          "name_pl": "Regeneracja (6+)"
         }
       ],
       "mounts": [],
@@ -4237,7 +4367,8 @@
           "name_de": "Cleaver-limbs",
           "points": 0,
           "active": true,
-          "name_fr": "Membres-hachoirs"
+          "name_fr": "Membres-hachoirs",
+          "name_pl": "Kończyny-siekiery"
         }
       ],
       "armor": [
@@ -4290,7 +4421,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "name_fr": "Armes de base"
+          "name_fr": "Armes de base",
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [
@@ -4312,7 +4444,8 @@
           "name_fr": "Armes de base additionnelles",
           "points": 3,
           "perModel": true,
-          "stackable": true
+          "stackable": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapons",
@@ -4321,7 +4454,8 @@
           "name_fr": "Armes lourdes",
           "points": 4,
           "perModel": true,
-          "stackable": true
+          "stackable": true,
+          "name_pl": "Wielka broń"
         }
       ],
       "mounts": [],
@@ -4364,7 +4498,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "name_fr": "Arme de base (appendices fouettards)"
+          "name_fr": "Arme de base (appendices fouettards)",
+          "name_pl": "Broń ręczna (wymachujące kończyny)"
         }
       ],
       "armor": [
@@ -4388,7 +4523,8 @@
           "name_de": "Spawn of Khorne",
           "name_fr": "Rejeton de Khorne",
           "points": 3,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Pomiot Khorne'a"
         },
         {
           "name_en": "Spawn of Nurgle",
@@ -4396,7 +4532,8 @@
           "name_de": "Spawn of Nurgle",
           "name_fr": "Rejeton de Nurgle",
           "points": 2,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Pomiot Nurgle'a"
         },
         {
           "name_en": "Spawn of Slaanesh",
@@ -4404,7 +4541,8 @@
           "name_de": "Spawn of Slaanesh",
           "name_fr": "Rejeton de Slaanesh",
           "points": 3,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Pomiot Slaanesha"
         },
         {
           "name_en": "Spawn of Tzeentch",
@@ -4412,7 +4550,8 @@
           "name_de": "Spawn of Tzeentch",
           "name_fr": "Rejeton de Tzeentch",
           "points": 1,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Pomiot Tzeentcha"
         }
       ],
       "mounts": [],

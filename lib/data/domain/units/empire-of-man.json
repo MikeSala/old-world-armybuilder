@@ -51,7 +51,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -60,7 +61,8 @@
           "name_fr": "Arme de base additionnelle",
           "name_es": "Arma de mano adicional",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapon",
@@ -69,7 +71,8 @@
           "name_fr": "Arme lourde",
           "name_es": "Arma a dos manos",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Halberd",
@@ -78,7 +81,8 @@
           "name_fr": "Hallebarde",
           "name_es": "Alabarda",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Halabarda"
         },
         {
           "name_en": "Lance",
@@ -95,7 +99,8 @@
             "name_de": "wenn beritten",
             "name_fr": "si monté",
             "name_es": "si está montado"
-          }
+          },
+          "name_pl": "Lanca"
         },
         {
           "name_en": "Handgun",
@@ -104,7 +109,8 @@
           "name_fr": "Arquebuse",
           "name_es": "Arcabuz",
           "points": 6,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Arkebuz"
         },
         {
           "name_en": "Longbow",
@@ -113,7 +119,8 @@
           "name_fr": "Arc long",
           "name_es": "Arco largo",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Długi łuk"
         }
       ],
       "armor": [
@@ -156,7 +163,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcza"
         },
         {
           "name_en": "Pistol",
@@ -167,7 +175,8 @@
           "points": 5,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Pistolet"
         },
         {
           "name_en": "Brace of pistols",
@@ -178,7 +187,8 @@
           "points": 10,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Para pistolety"
         }
       ],
       "mounts": [
@@ -337,7 +347,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -346,7 +357,8 @@
           "name_fr": "Arme de base additionnelle",
           "name_es": "Arma de mano adicional",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapon",
@@ -355,7 +367,8 @@
           "name_fr": "Arme lourde",
           "name_es": "Arma a dos manos",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Halberd",
@@ -364,7 +377,8 @@
           "name_fr": "Hallebarde",
           "name_es": "Alabarda",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Halabarda"
         },
         {
           "name_en": "Lance",
@@ -381,7 +395,8 @@
             "name_de": "wenn beritten",
             "name_fr": "si monté",
             "name_es": "si está montado"
-          }
+          },
+          "name_pl": "Lanca"
         },
         {
           "name_en": "Handgun",
@@ -390,7 +405,8 @@
           "name_fr": "Arquebuse",
           "name_es": "Arcabuz",
           "points": 6,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Arkebuz"
         },
         {
           "name_en": "Longbow",
@@ -399,7 +415,8 @@
           "name_fr": "Arc long",
           "name_es": "Arco largo",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Długi łuk"
         }
       ],
       "armor": [
@@ -442,7 +459,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcza"
         },
         {
           "name_en": "Pistol",
@@ -453,7 +471,8 @@
           "points": 5,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Pistolet"
         },
         {
           "name_en": "Brace of pistols",
@@ -464,7 +483,8 @@
           "points": 10,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Para pistolety"
         }
       ],
       "mounts": [
@@ -587,7 +607,8 @@
           "name_es": "Arma de mano",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [],
@@ -610,7 +631,8 @@
               "name_es": "Hechicero de Nivel 3",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 3"
             },
             {
               "name_en": "Level 4 Wizard",
@@ -619,9 +641,11 @@
               "name_fr": "Sorcier de Niveau 4",
               "name_es": "Hechicero de Nivel 4",
               "points": 30,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 4"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [
@@ -759,7 +783,8 @@
           "name_es": "Arma de mano",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [],
@@ -782,7 +807,8 @@
               "name_es": "Hechicero de Nivel 1",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 1"
             },
             {
               "name_en": "Level 2 Wizard",
@@ -791,9 +817,11 @@
               "name_fr": "Sorcier de Niveau 2",
               "name_es": "Hechicero de Nivel 2",
               "points": 30,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 2"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [
@@ -955,7 +983,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -971,7 +1000,8 @@
             "knightly-order-blazing-sun",
             "knightly-order-morr",
             "knightly-order-fiery-heart"
-          ]
+          ],
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapon",
@@ -980,7 +1010,8 @@
           "name_fr": "Arme lourde",
           "name_es": "Arma a dos manos",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Lance",
@@ -989,7 +1020,8 @@
           "name_fr": "Lance de joute",
           "name_es": "Lanza de caballería",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Lanca"
         },
         {
           "name_en": "Wolf hammer",
@@ -1003,7 +1035,8 @@
             "name_en": "Only in Order of the White Wolf army or as a member of the Order of the White Wolf",
             "name_de": "Nur in einer Armee des Ordens des Weißen Wolfs oder als Mitglied des Ordens des Weißen Wolfs",
             "name_fr": "Seulement dans une armée de l'Ordre du Loup Blanc ou en tant que membre de l'Ordre du Loup Blanc"
-          }
+          },
+          "name_pl": "Wilczy młot"
         }
       ],
       "armor": [
@@ -1035,7 +1068,8 @@
           "name_fr": "Bouclier",
           "name_es": "Escudo",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Tarcza"
         },
         {
           "name_en": "Order of the Knights Panther",
@@ -1045,7 +1079,8 @@
           "name_es": "Order of the Knights Panther",
           "points": 10,
           "alwaysActive": true,
-          "armyComposition": "knightly-order-panther"
+          "armyComposition": "knightly-order-panther",
+          "name_pl": "Zakon Rycerzy Pantery"
         },
         {
           "name_en": "Order of the Knights Panther",
@@ -1055,7 +1090,8 @@
           "name_es": "Order of the Knights Panther",
           "points": 10,
           "exclusive": true,
-          "armyComposition": "empire-of-man"
+          "armyComposition": "empire-of-man",
+          "name_pl": "Zakon Rycerzy Pantery"
         },
         {
           "name_en": "Order of the White Wolf",
@@ -1065,7 +1101,8 @@
           "name_es": "Order of the White Wolf",
           "points": 15,
           "alwaysActive": true,
-          "armyComposition": "knightly-order-white-wolf"
+          "armyComposition": "knightly-order-white-wolf",
+          "name_pl": "Zakon Białego Wilka"
         },
         {
           "name_en": "Order of the White Wolf",
@@ -1075,7 +1112,8 @@
           "name_es": "Order of the White Wolf",
           "points": 15,
           "exclusive": true,
-          "armyComposition": "empire-of-man"
+          "armyComposition": "empire-of-man",
+          "name_pl": "Zakon Białego Wilka"
         },
         {
           "name_en": "Order of the Blazing Sun",
@@ -1085,7 +1123,8 @@
           "name_es": "Order of the Blazing Sun",
           "points": 10,
           "alwaysActive": true,
-          "armyComposition": "knightly-order-blazing-sun"
+          "armyComposition": "knightly-order-blazing-sun",
+          "name_pl": "Zakon Płonącego Słońca"
         },
         {
           "name_en": "Order of the Blazing Sun",
@@ -1095,7 +1134,8 @@
           "name_es": "Order of the Blazing Sun",
           "points": 10,
           "exclusive": true,
-          "armyComposition": "empire-of-man"
+          "armyComposition": "empire-of-man",
+          "name_pl": "Zakon Płonącego Słońca"
         },
         {
           "name_en": "Order of the Knights of Morr",
@@ -1105,7 +1145,8 @@
           "name_es": "Order of the Knights of Morr",
           "points": 15,
           "alwaysActive": true,
-          "armyComposition": "knightly-order-morr"
+          "armyComposition": "knightly-order-morr",
+          "name_pl": "Zakon Rycerzy Morra"
         },
         {
           "name_en": "Order of the Knights of Morr",
@@ -1115,7 +1156,8 @@
           "name_es": "Order of the Knights of Morr",
           "points": 15,
           "exclusive": true,
-          "armyComposition": "empire-of-man"
+          "armyComposition": "empire-of-man",
+          "name_pl": "Zakon Rycerzy Morra"
         },
         {
           "name_en": "Order of the Fiery Heart",
@@ -1125,7 +1167,8 @@
           "name_es": "Order of the Fiery Heart",
           "points": 15,
           "alwaysActive": true,
-          "armyComposition": "knightly-order-fiery-heart"
+          "armyComposition": "knightly-order-fiery-heart",
+          "name_pl": "Zakon Ognistego Serca"
         },
         {
           "name_en": "Order of the Fiery Heart",
@@ -1135,7 +1178,8 @@
           "name_es": "Order of the Fiery Heart",
           "points": 15,
           "exclusive": true,
-          "armyComposition": "empire-of-man"
+          "armyComposition": "empire-of-man",
+          "name_pl": "Zakon Ognistego Serca"
         }
       ],
       "mounts": [
@@ -1313,7 +1357,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -1329,7 +1374,8 @@
             "knightly-order-blazing-sun",
             "knightly-order-morr",
             "knightly-order-fiery-heart"
-          ]
+          ],
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapon",
@@ -1338,7 +1384,8 @@
           "name_fr": "Arme lourde",
           "name_es": "Arma a dos manos",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Lance",
@@ -1347,7 +1394,8 @@
           "name_fr": "Lance de joute",
           "name_es": "Lanza de caballería",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Lanca"
         },
         {
           "name_en": "Wolf hammer",
@@ -1360,7 +1408,8 @@
           "notes": {
             "name_en": "Only in Order of the White Wolf army or as a member of the Order of the White Wolf",
             "name_fr": "Seulement dans une armée de l'Ordre du Loup Blanc ou en tant que membre de l'Ordre du Loup Blanc"
-          }
+          },
+          "name_pl": "Wilczy młot"
         }
       ],
       "armor": [
@@ -1392,7 +1441,8 @@
           "name_fr": "Bouclier",
           "name_es": "Escudo",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Tarcza"
         },
         {
           "name_en": "Order of the Knights Panther",
@@ -1402,7 +1452,8 @@
           "name_es": "Order of the Knights Panther",
           "points": 10,
           "alwaysActive": true,
-          "armyComposition": "knightly-order-panther"
+          "armyComposition": "knightly-order-panther",
+          "name_pl": "Zakon Rycerzy Pantery"
         },
         {
           "name_en": "Order of the Knights Panther",
@@ -1412,7 +1463,8 @@
           "name_es": "Order of the Knights Panther",
           "points": 10,
           "exclusive": true,
-          "armyComposition": "empire-of-man"
+          "armyComposition": "empire-of-man",
+          "name_pl": "Zakon Rycerzy Pantery"
         },
         {
           "name_en": "Order of the White Wolf",
@@ -1422,7 +1474,8 @@
           "name_es": "Order of the White Wolf",
           "points": 15,
           "alwaysActive": true,
-          "armyComposition": "knightly-order-white-wolf"
+          "armyComposition": "knightly-order-white-wolf",
+          "name_pl": "Zakon Białego Wilka"
         },
         {
           "name_en": "Order of the White Wolf",
@@ -1432,7 +1485,8 @@
           "name_es": "Order of the White Wolf",
           "points": 15,
           "exclusive": true,
-          "armyComposition": "empire-of-man"
+          "armyComposition": "empire-of-man",
+          "name_pl": "Zakon Białego Wilka"
         },
         {
           "name_en": "Order of the Blazing Sun",
@@ -1442,7 +1496,8 @@
           "name_es": "Order of the Blazing Sun",
           "points": 10,
           "alwaysActive": true,
-          "armyComposition": "knightly-order-blazing-sun"
+          "armyComposition": "knightly-order-blazing-sun",
+          "name_pl": "Zakon Płonącego Słońca"
         },
         {
           "name_en": "Order of the Blazing Sun",
@@ -1452,7 +1507,8 @@
           "name_es": "Order of the Blazing Sun",
           "points": 10,
           "exclusive": true,
-          "armyComposition": "empire-of-man"
+          "armyComposition": "empire-of-man",
+          "name_pl": "Zakon Płonącego Słońca"
         },
         {
           "name_en": "Order of the Knights of Morr",
@@ -1462,7 +1518,8 @@
           "name_es": "Order of the Knights of Morr",
           "points": 15,
           "alwaysActive": true,
-          "armyComposition": "knightly-order-morr"
+          "armyComposition": "knightly-order-morr",
+          "name_pl": "Zakon Rycerzy Morra"
         },
         {
           "name_en": "Order of the Knights of Morr",
@@ -1472,7 +1529,8 @@
           "name_es": "Order of the Knights of Morr",
           "points": 15,
           "exclusive": true,
-          "armyComposition": "empire-of-man"
+          "armyComposition": "empire-of-man",
+          "name_pl": "Zakon Rycerzy Morra"
         },
         {
           "name_en": "Order of the Fiery Heart",
@@ -1482,7 +1540,8 @@
           "name_es": "Order of the Fiery Heart",
           "points": 15,
           "alwaysActive": true,
-          "armyComposition": "knightly-order-fiery-heart"
+          "armyComposition": "knightly-order-fiery-heart",
+          "name_pl": "Zakon Ognistego Serca"
         },
         {
           "name_en": "Order of the Fiery Heart",
@@ -1492,7 +1551,8 @@
           "name_es": "Order of the Fiery Heart",
           "points": 15,
           "exclusive": true,
-          "armyComposition": "empire-of-man"
+          "armyComposition": "empire-of-man",
+          "name_pl": "Zakon Ognistego Serca"
         }
       ],
       "mounts": [
@@ -1610,7 +1670,8 @@
           "name_es": "Arma de mano",
           "points": 0,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -1619,7 +1680,8 @@
           "name_fr": "Arme de base additionnelle",
           "name_es": "Arma de mano adicional",
           "points": 3,
-          "group": "weapons1"
+          "group": "weapons1",
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapon",
@@ -1628,7 +1690,8 @@
           "name_fr": "Arme lourde",
           "name_es": "Arma a dos manos",
           "points": 4,
-          "group": "weapons1"
+          "group": "weapons1",
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Crossbow",
@@ -1637,7 +1700,8 @@
           "name_fr": "Arbalète",
           "name_es": "Ballesta",
           "points": 6,
-          "group": "weapons2"
+          "group": "weapons2",
+          "name_pl": "Kusza"
         },
         {
           "name_en": "Handgun",
@@ -1646,7 +1710,8 @@
           "name_fr": "Arquebuse",
           "name_es": "Arcabuz",
           "points": 6,
-          "group": "weapons2"
+          "group": "weapons2",
+          "name_pl": "Arkebuz"
         },
         {
           "name_en": "Pistol",
@@ -1655,7 +1720,8 @@
           "name_fr": "Pistolet",
           "name_es": "Pistola",
           "points": 5,
-          "group": "weapons3"
+          "group": "weapons3",
+          "name_pl": "Pistolet"
         },
         {
           "name_en": "Brace of pistols",
@@ -1664,7 +1730,8 @@
           "name_fr": "Plusieurs pistolets",
           "name_es": "Ristra de pistolas",
           "points": 10,
-          "group": "weapons3"
+          "group": "weapons3",
+          "name_pl": "Para pistolety"
         }
       ],
       "armor": [
@@ -1688,7 +1755,8 @@
           "name_es": "The Witch",
           "points": 0,
           "active": true,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Wiedźma"
         },
         {
           "name_en": "The Revenant",
@@ -1697,7 +1765,8 @@
           "name_fr": "Les Revenants",
           "name_es": "The Revenant",
           "points": 0,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Widmo"
         },
         {
           "name_en": "The Mutant",
@@ -1706,7 +1775,8 @@
           "name_fr": "Les Mutants",
           "name_es": "The Mutant",
           "points": 0,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Mutant"
         },
         {
           "name_en": "The Daemon",
@@ -1715,7 +1785,8 @@
           "name_fr": "Les Démons",
           "name_es": "The Daemon",
           "points": 0,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Demon"
         }
       ],
       "mounts": [
@@ -1863,7 +1934,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -1872,7 +1944,8 @@
           "name_fr": "Arme de base additionnelle",
           "name_es": "Arma de mano adicional",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapon",
@@ -1881,7 +1954,8 @@
           "name_fr": "Arme lourde",
           "name_es": "Arma a dos manos",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         }
       ],
       "armor": [
@@ -1915,7 +1989,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcza"
         }
       ],
       "mounts": [
@@ -2029,7 +2104,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -2038,7 +2114,8 @@
           "name_fr": "Arme de base additionnelle",
           "name_es": "Arma de mano adicional",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapon",
@@ -2047,7 +2124,8 @@
           "name_fr": "Arme lourde",
           "name_es": "Arma a dos manos",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         }
       ],
       "armor": [
@@ -2081,7 +2159,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcza"
         }
       ],
       "mounts": [
@@ -2202,7 +2281,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -2211,7 +2291,8 @@
           "name_fr": "Arme de base additionnelle",
           "name_es": "Arma de mano adicional",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapon",
@@ -2220,7 +2301,8 @@
           "name_fr": "Arme lourde",
           "name_es": "Arma a dos manos",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         }
       ],
       "armor": [
@@ -2254,7 +2336,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcza"
         }
       ],
       "mounts": [
@@ -2364,7 +2447,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -2373,7 +2457,8 @@
           "name_fr": "Arme de base additionnelle",
           "name_es": "Arma de mano adicional",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Great weapon",
@@ -2382,7 +2467,8 @@
           "name_fr": "Arme lourde",
           "name_es": "Arma a dos manos",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         }
       ],
       "armor": [
@@ -2416,7 +2502,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcza"
         }
       ],
       "mounts": [
@@ -2530,7 +2617,8 @@
           "name_es": "Arma de mano",
           "points": 0,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Grenade launching blunderbuss",
@@ -2538,7 +2626,8 @@
           "name_de": "Granatenbüchse",
           "name_fr": "Tromblon à grenades",
           "name_es": "Trabuco lanzagranadas",
-          "points": 10
+          "points": 10,
+          "name_pl": "Garłacz wyrzutnia granatów"
         },
         {
           "name_en": "Hochland long rifle",
@@ -2546,7 +2635,8 @@
           "name_de": "Hochland-Langbüchse",
           "name_fr": "Long fusil de Hochland",
           "name_es": "Rifle largo de Hochland",
-          "points": 10
+          "points": 10,
+          "name_pl": "Długi karabin hochlandzki"
         },
         {
           "name_en": "Repeater handgun",
@@ -2554,7 +2644,8 @@
           "name_de": "Bündelmuskete",
           "name_fr": "Arquebuse à répétition",
           "name_es": "Mosquete de repetición",
-          "points": 8
+          "points": 8,
+          "name_pl": "Powtarzalny arkebuz"
         },
         {
           "name_en": "Repeater pistol",
@@ -2562,7 +2653,8 @@
           "name_de": "Bündelpistole",
           "name_fr": "Pistolet à répétition",
           "name_es": "Pistola de repetición",
-          "points": 8
+          "points": 8,
+          "name_pl": "Powtarzalny pistolet"
         }
       ],
       "armor": [
@@ -2582,7 +2674,8 @@
           "name_de": "Taubenbomben",
           "name_fr": "Pigeons grenadiers",
           "name_es": "Palomas bomba",
-          "points": 20
+          "points": 20,
+          "name_pl": "Bomby gołębie"
         }
       ],
       "mounts": [
@@ -2673,7 +2766,8 @@
           "name_es": "Arma de mano",
           "points": 0,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Flail",
@@ -2681,7 +2775,8 @@
           "name_de": "Flegel",
           "name_es": "Flail",
           "name_fr": "Fléau",
-          "points": 3
+          "points": 3,
+          "name_pl": "Cep"
         },
         {
           "name_en": "Great weapon",
@@ -2689,7 +2784,8 @@
           "name_de": "Zweihandwaffe",
           "name_fr": "Arme lourde",
           "name_es": "Arma a dos manos",
-          "points": 4
+          "points": 4,
+          "name_pl": "Wielka broń"
         }
       ],
       "armor": [],
@@ -2765,7 +2861,8 @@
           "name_es": "Arma de mano, Judgement, The Griffon Helm",
           "points": 0,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna, Wyrok, Hełm Gryfa"
         }
       ],
       "armor": [
@@ -2848,7 +2945,8 @@
           "name_es": "Arma de mano, Beast Reaver",
           "points": 0,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna, Bestia Grabieżca"
         }
       ],
       "armor": [
@@ -2951,7 +3049,8 @@
           "name_es": "Armas de mano, Lanzas de caballería, Escudos",
           "points": 1,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance, Tarcze"
         }
       ],
       "armor": [
@@ -2976,7 +3075,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Nieugięty"
         }
       ],
       "mounts": [],
@@ -3064,7 +3164,8 @@
           "name_es": "Armas de mano, Armas a dos manos, Escudos",
           "points": 1,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Wielka broń, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons",
@@ -3073,7 +3174,8 @@
           "name_fr": "Armes de base, Armes lourdes",
           "name_es": "Armas de mano, Armas a dos manos",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń"
         },
         {
           "name_en": "Hand weapons, Wolf hammers, Shields",
@@ -3082,7 +3184,8 @@
           "name_fr": "Armes de base, Marteaux du loup, Boucliers",
           "name_es": "Armas de mano, Wolf hammers, Escudos",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wilcze młoty, Tarcze"
         },
         {
           "name_en": "Hand weapons, Wolf hammers",
@@ -3091,7 +3194,8 @@
           "name_fr": "Armes de base, Marteaux du loup",
           "name_es": "Armas de mano, Wolf hammers",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wilcze młoty"
         }
       ],
       "armor": [
@@ -3116,7 +3220,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Nieugięty"
         }
       ],
       "mounts": [],
@@ -3204,7 +3309,8 @@
           "name_es": "Armas de mano, Lanzas de caballería, Escudos",
           "points": 1,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons, Shields",
@@ -3213,7 +3319,8 @@
           "name_fr": "Armes de base, Armes lourdes, Boucliers",
           "name_es": "Armas de mano, Armas a dos manos, Escudos",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons",
@@ -3222,7 +3329,8 @@
           "name_fr": "Armes de base, Armes lourdes",
           "name_es": "Armas de mano, Armas a dos manos",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń"
         }
       ],
       "armor": [
@@ -3247,7 +3355,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Nieugięty"
         }
       ],
       "mounts": [],
@@ -3335,7 +3444,8 @@
           "name_es": "Armas de mano, Lanzas de caballería, Escudos",
           "points": 1,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons, Shields",
@@ -3344,7 +3454,8 @@
           "name_fr": "Armes de base, Armes lourdes, Boucliers",
           "name_es": "Armas de mano, Armas a dos manos, Escudos",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons",
@@ -3353,7 +3464,8 @@
           "name_fr": "Armes de base, Armes lourdes",
           "name_es": "Armas de mano, Armas a dos manos",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń"
         }
       ],
       "armor": [
@@ -3378,7 +3490,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Nieugięty"
         }
       ],
       "mounts": [],
@@ -3466,7 +3579,8 @@
           "name_es": "Armas de mano, Lanzas de caballería, Escudos",
           "points": 1,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons, Shields",
@@ -3475,7 +3589,8 @@
           "name_fr": "Armes de base, Armes lourdes, Boucliers",
           "name_es": "Armas de mano, Armas a dos manos, Escudos",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons",
@@ -3484,7 +3599,8 @@
           "name_fr": "Armes de base, Armes lourdes",
           "name_es": "Armas de mano, Armas a dos manos",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń"
         }
       ],
       "armor": [
@@ -3509,7 +3625,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Nieugięty"
         }
       ],
       "mounts": [],
@@ -3633,7 +3750,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Halberds",
@@ -3642,7 +3760,8 @@
           "name_fr": "Hallebardes",
           "name_es": "Alabardas",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Halabardy"
         },
         {
           "name_en": "Thrusting spears",
@@ -3651,7 +3770,8 @@
           "name_fr": "Lances d'infanterie",
           "name_es": "Lanzas (infantería)",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Włócznie kłująca"
         }
       ],
       "armor": [
@@ -3676,7 +3796,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcze"
         },
         {
           "name_en": "Detachment",
@@ -3684,7 +3805,8 @@
           "name_de": "Abteilung",
           "name_fr": "Détachement",
           "name_es": "Destacamento",
-          "points": 0
+          "points": 0,
+          "name_pl": "Oddział"
         }
       ],
       "mounts": [],
@@ -3759,7 +3881,8 @@
           "name_es": "Alabardas",
           "active": true,
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Halabardy"
         }
       ],
       "armor": [
@@ -3782,7 +3905,8 @@
           "name_fr": "Boucliers",
           "name_es": "Escudos",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Tarcze"
         }
       ],
       "mounts": [],
@@ -3826,7 +3950,8 @@
           "name_fr": "Armes de base, Boucliers",
           "points": 1,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Tarcze"
         }
       ],
       "armor": [
@@ -3848,7 +3973,8 @@
           "name_de": "Feldwaibel (Champion)",
           "name_fr": "Sergent (champion)",
           "name_es": "Sargento (campeón)",
-          "points": 0
+          "points": 0,
+          "name_pl": "Sierżant (czempion)"
         }
       ],
       "mounts": [],
@@ -3937,7 +4063,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Halberds",
@@ -3946,7 +4073,8 @@
           "name_fr": "Hallebardes",
           "name_es": "Alabardas",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Halabardy"
         },
         {
           "name_en": "Thrusting spears",
@@ -3955,7 +4083,8 @@
           "name_fr": "Lances d'infanterie",
           "name_es": "Lanzas (infantería)",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Włócznie kłująca"
         }
       ],
       "armor": [
@@ -3980,7 +4109,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Tarcze"
         },
         {
           "name_en": "Drilled",
@@ -3991,7 +4121,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Wyćwiczeni"
         },
         {
           "name_en": "Detachment",
@@ -3999,7 +4130,8 @@
           "name_de": "Abteilung",
           "name_fr": "Détachement",
           "name_es": "Destacamento",
-          "points": 0
+          "points": 0,
+          "name_pl": "Oddział"
         }
       ],
       "mounts": [],
@@ -4089,7 +4221,8 @@
           "name_es": "Alabardas",
           "points": 1,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Halabardy"
         }
       ],
       "armor": [
@@ -4112,7 +4245,8 @@
           "name_fr": "Boucliers",
           "name_es": "Escudos",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Tarcze"
         },
         {
           "name_en": "Drilled",
@@ -4121,7 +4255,8 @@
           "name_fr": "Bien Entraînés",
           "name_es": "Entrenado",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wyćwiczeni"
         }
       ],
       "mounts": [],
@@ -4289,7 +4424,8 @@
           "name_es": "Armas de mano, Ballestas",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Kusze"
         },
         {
           "name_en": "Hand weapons, Handguns",
@@ -4298,7 +4434,8 @@
           "name_fr": "Armes de base, Arquebuses",
           "name_es": "Armas de mano, Arcabuces",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Arkeb uzy"
         }
       ],
       "armor": [
@@ -4322,7 +4459,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Wyćwiczeni"
         },
         {
           "name_en": "Detachment",
@@ -4330,7 +4468,8 @@
           "name_de": "Abteilung",
           "name_fr": "Détachement",
           "name_es": "Destacamento",
-          "points": 0
+          "points": 0,
+          "name_pl": "Oddział"
         }
       ],
       "mounts": [],
@@ -4374,7 +4513,8 @@
           "name_es": "Armas de mano, Arcabuces",
           "points": 1,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Arkeb uzy"
         }
       ],
       "armor": [
@@ -4396,7 +4536,8 @@
           "name_fr": "Bien Entraînés",
           "name_es": "Entrenado",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wyćwiczeni"
         },
         {
           "name_en": "Sergeant (champion), Handgun",
@@ -4406,7 +4547,8 @@
           "name_es": "Ballesta/Arcabuz",
           "points": 0,
           "exclusive": true,
-          "active": true
+          "active": true,
+          "name_pl": "Sierżant (czempion), Arkebuz"
         },
         {
           "name_en": "Sergeant (champion), Brace of pistols",
@@ -4415,7 +4557,8 @@
           "name_fr": "Sergent (champion), Plusieurs pistolets",
           "name_es": "Ristra de pistolas",
           "points": 5,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Sierżant (czempion), Para pistoletów"
         },
         {
           "name_en": "Sergeant (champion), Hochland long rifle",
@@ -4424,7 +4567,8 @@
           "name_fr": "Sergent (champion), Long fusil de Hochland",
           "name_es": "Rifle largo de Hochland",
           "points": 8,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Sierżant (czempion), Długi karabin hochlandzki"
         },
         {
           "name_en": "Sergeant (champion), Repeater handgun",
@@ -4433,7 +4577,8 @@
           "name_fr": "Sergent (champion), Arquebuse à répétition",
           "name_es": "Mosquete de repetición",
           "points": 5,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Sierżant (czempion), Powtarzalny arkebuz"
         }
       ],
       "mounts": [],
@@ -4503,7 +4648,8 @@
           "name_es": "Armas de mano adicionales, Armas arrojadizas (armas variadas)",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Dodatkowa broń ręczna, Broń do rzucania (mieszana broń)"
         }
       ],
       "armor": [],
@@ -4514,7 +4660,8 @@
           "name_de": "Abteilung",
           "name_fr": "Détachement",
           "name_es": "Destacamento",
-          "points": 0
+          "points": 0,
+          "name_pl": "Oddział"
         }
       ],
       "mounts": [],
@@ -4566,7 +4713,8 @@
           "name_es": "Armas de mano, Arcos de guerra",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Łuki bojowe"
         }
       ],
       "armor": [],
@@ -4580,7 +4728,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Ogień i odwrót"
         },
         {
           "name_en": "Scouts",
@@ -4591,7 +4740,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Zwiadowcy"
         },
         {
           "name_en": "Detachment",
@@ -4599,7 +4749,8 @@
           "name_de": "Abteilung",
           "name_fr": "Détachement",
           "name_es": "Destacamento",
-          "points": 0
+          "points": 0,
+          "name_pl": "Oddział"
         }
       ],
       "mounts": [],
@@ -4702,7 +4853,8 @@
           "name_es": "Armas de mano, Pistolas, Mosquetes de repeteción",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Pistolety, Powtarzalne arkebuz y"
         }
       ],
       "armor": [
@@ -4805,7 +4957,8 @@
           "name_es": "Armas de mano, Lanzas de caballería, Escudos",
           "points": 1,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons, Shields",
@@ -4814,7 +4967,8 @@
           "name_fr": "Armes de base, Armes lourdes, Boucliers",
           "name_es": "Armas de mano, Armas a dos manos, Escudos",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons",
@@ -4823,7 +4977,8 @@
           "name_fr": "Armes de base, Armes lourdes",
           "name_es": "Armas de mano, Armas a dos manos",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń"
         }
       ],
       "armor": [
@@ -4853,7 +5008,8 @@
             "name_cn": "每1000分0-1 单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
             "name_it": "0-1 unità ogni 1000p.ti"
-          }
+          },
+          "name_pl": "Wyćwiczeni"
         },
         {
           "name_en": "Stubborn",
@@ -4869,7 +5025,8 @@
             "name_cn": "每1000分0-1 单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
             "name_it": "0-1 unità ogni 1000p.ti"
-          }
+          },
+          "name_pl": "Nieugięty"
         }
       ],
       "mounts": [],
@@ -4976,7 +5133,8 @@
           "name_es": "Armas de mano, Lanzas de caballería, Escudos",
           "points": 1,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance, Tarcze"
         }
       ],
       "armor": [
@@ -5006,7 +5164,8 @@
             "name_cn": "每1000分0-1 单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
             "name_it": "0-1 unità ogni 1000p.ti"
-          }
+          },
+          "name_pl": "Wyćwiczeni"
         },
         {
           "name_en": "Stubborn",
@@ -5022,7 +5181,8 @@
             "name_cn": "每1000分0-1 单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
             "name_it": "0-1 unità ogni 1000p.ti"
-          }
+          },
+          "name_pl": "Nieugięty"
         }
       ],
       "mounts": [],
@@ -5138,7 +5298,8 @@
           "name_es": "Armas de mano, Armas a dos manos, Escudos",
           "points": 1,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Wielka broń, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons",
@@ -5147,7 +5308,8 @@
           "name_fr": "Armes de base, Armes lourdes",
           "name_es": "Armas de mano, Armas a dos manos",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń"
         },
         {
           "name_en": "Hand weapons, Wolf hammers, Shields",
@@ -5156,7 +5318,8 @@
           "name_fr": "Armes de base, Marteaux du loup, Boucliers",
           "name_es": "Armas de mano, Wolf hammers, Escudos",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wilcze młoty, Tarcze"
         },
         {
           "name_en": "Hand weapons, Wolf hammers",
@@ -5165,7 +5328,8 @@
           "name_fr": "Armes de base, Marteaux du loup",
           "name_es": "Armas de mano, Wolf hammers",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wilcze młoty"
         }
       ],
       "armor": [
@@ -5195,7 +5359,8 @@
             "name_cn": "每1000分0-1 单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
             "name_it": "0-1 unità ogni 1000p.ti"
-          }
+          },
+          "name_pl": "Wyćwiczeni"
         },
         {
           "name_en": "Stubborn",
@@ -5211,7 +5376,8 @@
             "name_cn": "每1000分0-1 单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
             "name_it": "0-1 unità ogni 1000p.ti"
-          }
+          },
+          "name_pl": "Nieugięty"
         }
       ],
       "mounts": [],
@@ -5318,7 +5484,8 @@
           "name_es": "Armas de mano, Lanzas de caballería, Escudos",
           "points": 1,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons, Shields",
@@ -5327,7 +5494,8 @@
           "name_fr": "Armes de base, Armes lourdes, Boucliers",
           "name_es": "Armas de mano, Armas a dos manos, Escudos",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons",
@@ -5336,7 +5504,8 @@
           "name_fr": "Armes de base, Armes lourdes",
           "name_es": "Armas de mano, Armas a dos manos",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń"
         }
       ],
       "armor": [
@@ -5366,7 +5535,8 @@
             "name_cn": "每1000分0-1 单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
             "name_it": "0-1 unità ogni 1000p.ti"
-          }
+          },
+          "name_pl": "Wyćwiczeni"
         },
         {
           "name_en": "Stubborn",
@@ -5382,7 +5552,8 @@
             "name_cn": "每1000分0-1 单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
             "name_it": "0-1 unità ogni 1000p.ti"
-          }
+          },
+          "name_pl": "Nieugięty"
         }
       ],
       "mounts": [],
@@ -5489,7 +5660,8 @@
           "name_es": "Armas de mano, Lanzas de caballería, Escudos",
           "points": 1,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons, Shields",
@@ -5498,7 +5670,8 @@
           "name_fr": "Armes de base, Armes lourdes, Boucliers",
           "name_es": "Armas de mano, Armas a dos manos, Escudos",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons",
@@ -5507,7 +5680,8 @@
           "name_fr": "Armes de base, Armes lourdes",
           "name_es": "Armas de mano, Armas a dos manos",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń"
         }
       ],
       "armor": [
@@ -5537,7 +5711,8 @@
             "name_cn": "每1000分0-1单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
             "name_it": "0-1 unità ogni 1000p.ti"
-          }
+          },
+          "name_pl": "Wyćwiczeni"
         },
         {
           "name_en": "Stubborn",
@@ -5553,7 +5728,8 @@
             "name_cn": "每1000分0-1单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
             "name_it": "0-1 unità ogni 1000p.ti"
-          }
+          },
+          "name_pl": "Nieugięty"
         }
       ],
       "mounts": [],
@@ -5660,7 +5836,8 @@
           "name_es": "Armas de mano, Lanzas de caballería, Escudos",
           "points": 1,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons, Shields",
@@ -5669,7 +5846,8 @@
           "name_fr": "Armes de base, Armes lourdes, Boucliers",
           "name_es": "Armas de mano, Armas a dos manos, Escudos",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons",
@@ -5678,7 +5856,8 @@
           "name_fr": "Armes de base, Armes lourdes",
           "name_es": "Armas de mano, Armas a dos manos",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń"
         }
       ],
       "armor": [
@@ -5708,7 +5887,8 @@
             "name_cn": "每1000分0-1单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
             "name_it": "0-1 unità ogni 1000p.ti"
-          }
+          },
+          "name_pl": "Wyćwiczeni"
         },
         {
           "name_en": "Stubborn",
@@ -5724,7 +5904,8 @@
             "name_cn": "每1000分0-1单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
             "name_it": "0-1 unità ogni 1000p.ti"
-          }
+          },
+          "name_pl": "Nieugięty"
         }
       ],
       "mounts": [],
@@ -5817,7 +5998,8 @@
           "name_es": "Armas a dos manos",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Wielka broń"
         }
       ],
       "armor": [
@@ -5842,7 +6024,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Wyćwiczeni"
         },
         {
           "name_en": "Veteran",
@@ -5853,7 +6036,8 @@
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Weteran"
         }
       ],
       "mounts": [],
@@ -5941,7 +6125,8 @@
           "name_es": "Hand weapons, Wolf hammers",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Wilcze młoty"
         }
       ],
       "armor": [
@@ -5971,7 +6156,8 @@
             "name_de": "0-1 Einheit",
             "name_fr": "0-1 unité",
             "name_es": ""
-          }
+          },
+          "name_pl": "Strażnicy Świątyni"
         }
       ],
       "mounts": [],
@@ -6085,7 +6271,8 @@
           "name_es": "Armas de mano, Ristras de pistolas",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Para pistoletów"
         }
       ],
       "armor": [
@@ -6108,7 +6295,8 @@
           "name_fr": "Avant-garde",
           "name_es": "Vanguardia",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Awangarda"
         }
       ],
       "mounts": [],
@@ -6214,7 +6402,8 @@
           "name_es": "Armas de mano, Pistolas, Mosquetes de repeteción",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Pistolety, Powtarzalne arkebuz y"
         }
       ],
       "armor": [
@@ -6284,7 +6473,8 @@
           "name_fr": "Grand canon, Armes de base",
           "name_es": "Gran cañón, Armas de mano",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Wielka armata, Broń ręczna"
         }
       ],
       "armor": [],
@@ -6295,7 +6485,8 @@
           "name_de": "Veteranen",
           "name_fr": "Vétérans",
           "name_es": "Veterano",
-          "points": 10
+          "points": 10,
+          "name_pl": "Weteran"
         },
         {
           "name_en": "Veteran, Vanguard",
@@ -6311,7 +6502,8 @@
             "name_de": "0-1 Kriegsmaschine pro 1.000 Punkte",
             "name_fr": "0-1 machine de guerre par tranche de 1000 points",
             "name_es": ""
-          }
+          },
+          "name_pl": "Weteran, Awangarda"
         }
       ],
       "mounts": [],
@@ -6366,7 +6558,8 @@
           "name_fr": "Mortier, Armes de base",
           "name_es": "Mortero, Armas de mano",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Moździerz, Broń ręczna"
         }
       ],
       "armor": [],
@@ -6378,7 +6571,8 @@
           "name_fr": "Vétérans",
           "name_es": "Veterano",
           "points": 10,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Weteran"
         },
         {
           "name_en": "Veteran, Vanguard",
@@ -6394,7 +6588,8 @@
             "name_de": "0-1 Kriegsmaschine pro 1.000 Punkte",
             "name_fr": "0-1 machine de guerre par tranche de 1000 points",
             "name_es": ""
-          }
+          },
+          "name_pl": "Weteran, Awangarda"
         }
       ],
       "mounts": [],
@@ -6447,7 +6642,8 @@
           "name_es": "Armas de mano, Assorted weapons, Blunderbuss, Long rifle, Repeating rifle, Ball & chain, Hooked halberd, Man-catcher",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Różnorodna broń, Garłacz, Długi karabin, Powtarzalny karabin, Kula z łańcuchem, Haczykowata halabarda, Łapacz ludzi"
         }
       ],
       "armor": [
@@ -6547,7 +6743,8 @@
           "name_es": "Armas de mano, Lanzas de caballería, Escudos",
           "points": 1,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons, Shields",
@@ -6556,7 +6753,8 @@
           "name_fr": "Armes de base, Armes lourdes, Boucliers",
           "name_es": "Armas de mano, Armas a dos manos, Escudos",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons",
@@ -6565,7 +6763,8 @@
           "name_fr": "Armes de base, Armes lourdes",
           "name_es": "Armas de mano, Armas a dos manos",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń"
         }
       ],
       "armor": [
@@ -6590,7 +6789,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Nieugięty"
         }
       ],
       "mounts": [],
@@ -6681,7 +6881,8 @@
           "name_es": "Armas de mano, Lanzas de caballería, Escudos",
           "points": 1,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance, Tarcze"
         }
       ],
       "armor": [
@@ -6706,7 +6907,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Nieugięty"
         }
       ],
       "mounts": [],
@@ -6806,7 +7008,8 @@
           "name_es": "Armas de mano, Armas a dos manos, Escudos",
           "points": 1,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Wielka broń, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons",
@@ -6815,7 +7018,8 @@
           "name_fr": "Armes de base, Armes lourdes",
           "name_es": "Armas de mano, Armas a dos manos",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń"
         },
         {
           "name_en": "Hand weapons, Wolf hammers, Shields",
@@ -6824,7 +7028,8 @@
           "name_fr": "Armes de base, Marteaux du loup, Boucliers",
           "name_es": "Armas de mano, Wolf hammers, Escudos",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wilcze młoty, Tarcze"
         },
         {
           "name_en": "Hand weapons, Wolf hammers",
@@ -6833,7 +7038,8 @@
           "name_fr": "Armes de base, Marteaux du loup",
           "name_es": "Armas de mano, Wolf hammers",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wilcze młoty"
         }
       ],
       "armor": [
@@ -6858,7 +7064,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Nieugięty"
         }
       ],
       "mounts": [],
@@ -6949,7 +7156,8 @@
           "name_es": "Armas de mano, Lanzas de caballería, Escudos",
           "points": 1,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons, Shields",
@@ -6958,7 +7166,8 @@
           "name_fr": "Armes de base, Armes lourdes, Boucliers",
           "name_es": "Armas de mano, Armas a dos manos, Escudos",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons",
@@ -6967,7 +7176,8 @@
           "name_fr": "Armes de base, Armes lourdes",
           "name_es": "Armas de mano, Armas a dos manos",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń"
         }
       ],
       "armor": [
@@ -6992,7 +7202,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Nieugięty"
         }
       ],
       "mounts": [],
@@ -7083,7 +7294,8 @@
           "name_es": "Armas de mano, Lanzas de caballería, Escudos",
           "points": 1,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons, Shields",
@@ -7092,7 +7304,8 @@
           "name_fr": "Armes de base, Armes lourdes, Boucliers",
           "name_es": "Armas de mano, Armas a dos manos, Escudos",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons",
@@ -7101,7 +7314,8 @@
           "name_fr": "Armes de base, Armes lourdes",
           "name_es": "Armas de mano, Armas a dos manos",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń"
         }
       ],
       "armor": [
@@ -7126,7 +7340,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Nieugięty"
         }
       ],
       "mounts": [],
@@ -7217,7 +7432,8 @@
           "name_es": "Armas de mano, Lanzas de caballería, Escudos",
           "points": 1,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons, Shields",
@@ -7226,7 +7442,8 @@
           "name_fr": "Armes de base, Armes lourdes, Boucliers",
           "name_es": "Armas de mano, Armas a dos manos, Escudos",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń, Tarcze"
         },
         {
           "name_en": "Hand weapons, Great weapons",
@@ -7235,7 +7452,8 @@
           "name_fr": "Armes de base, Armes lourdes",
           "name_es": "Armas de mano, Armas a dos manos",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Wielka broń"
         }
       ],
       "armor": [
@@ -7260,7 +7478,8 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Nieugięty"
         }
       ],
       "mounts": [],
@@ -7348,7 +7567,8 @@
           "name_es": "Armas de mano, Lanzas de caballería, Escudos",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance, Tarcze"
         },
         {
           "name_en": "Hand weapons, Halberds, Shields",
@@ -7357,7 +7577,8 @@
           "name_fr": "Armes de base, Hallebardes, Boucliers",
           "name_es": "Armas de mano, Alabardas, Escudos",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Halabardy, Tarcze"
         }
       ],
       "armor": [
@@ -7470,7 +7691,8 @@
           "name_es": "Armas de mano, Lanzas de caballería, Escudos",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance, Tarcze"
         }
       ],
       "armor": [
@@ -7583,7 +7805,8 @@
           "name_es": "Armas de mano, Wolf hammers, Escudos",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Wilcze młoty, Tarcze"
         },
         {
           "name_en": "Hand weapons, Halberds, Shields",
@@ -7592,7 +7815,8 @@
           "name_fr": "Armes de base, Hallebardes, Boucliers",
           "name_es": "Armas de mano, Alabardas, Escudos",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Halabardy, Tarcze"
         }
       ],
       "armor": [
@@ -7705,7 +7929,8 @@
           "name_es": "Armas de mano, Lanzas de caballería, Escudos",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance, Tarcze"
         },
         {
           "name_en": "Hand weapons, Halberds, Shields",
@@ -7714,7 +7939,8 @@
           "name_fr": "Armes de base, Hallebardes, Boucliers",
           "name_es": "Armas de mano, Alabardas, Escudos",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Halabardy, Tarcze"
         }
       ],
       "armor": [
@@ -7827,7 +8053,8 @@
           "name_es": "Armas de mano, Lanzas de caballería, Escudos",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance, Tarcze"
         },
         {
           "name_en": "Hand weapons, Halberds, Shields",
@@ -7836,7 +8063,8 @@
           "name_fr": "Armes de base, Hallebardes, Boucliers",
           "name_es": "Armas de mano, Alabardas, Escudos",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Halabardy, Tarcze"
         }
       ],
       "armor": [
@@ -7949,7 +8177,8 @@
           "name_es": "Armas de mano, Lanzas de caballería, Escudos",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Lance, Tarcze"
         },
         {
           "name_en": "Hand weapons, Halberds, Shields",
@@ -7958,7 +8187,8 @@
           "name_fr": "Armes de base, Hallebardes, Boucliers",
           "name_es": "Armas de mano, Alabardas, Escudos",
           "points": 0,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Halabardy, Tarcze"
         }
       ],
       "armor": [
@@ -8086,7 +8316,8 @@
           "name_es": "Armas de mano, Ballestas",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Kusze"
         },
         {
           "name_en": "Hand weapons, Brace of pistols",
@@ -8095,7 +8326,8 @@
           "name_fr": "Armes de base, Plusieurs pistolets",
           "name_es": "Armas de mano, Brace of pistols",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Broń ręczna, Para pistoletów"
         }
       ],
       "armor": [
@@ -8118,7 +8350,8 @@
           "name_fr": "Fuite Feinte",
           "name_es": "Feigned Flight",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Udawany odwrót"
         },
         {
           "name_en": "Vanguard",
@@ -8129,7 +8362,8 @@
           "points": 0,
           "active": true,
           "perModel": true,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Awangarda"
         },
         {
           "name_en": "Ambushers",
@@ -8139,7 +8373,8 @@
           "name_es": "Ambushers",
           "points": 1,
           "perModel": true,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Zasadzka"
         },
         {
           "name_en": "Scouts",
@@ -8149,7 +8384,8 @@
           "name_es": "Scouts",
           "points": 1,
           "perModel": true,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Zwiadowcy"
         }
       ],
       "mounts": [],
@@ -8203,7 +8439,8 @@
           "name_fr": "Canon à Vapeur, Couleuvrine à Vapeur",
           "name_es": "Cañón de vapor, Arma de vapor",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Parowa Armata, Parowe działo {imperium}"
         }
       ],
       "armor": [],
@@ -8215,7 +8452,8 @@
           "name_fr": "Long fusil de Hochland",
           "name_es": "Rifle largo de Hochland",
           "points": 10,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Długi karabin hochlandzki"
         },
         {
           "name_en": "Pigeon bombs",
@@ -8224,7 +8462,8 @@
           "name_fr": "Pigeons grenadiers",
           "name_es": "Palomas bomba",
           "points": 20,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Bomby gołębie"
         },
         {
           "name_en": "Repeater pistol",
@@ -8233,7 +8472,8 @@
           "name_fr": "Pistolet à répétition",
           "name_es": "Pistola de repetición",
           "points": 8,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Powtarzalny pistolet"
         }
       ],
       "mounts": [],
@@ -8300,7 +8540,8 @@
           "name_es": "Armas de mano, Mayales",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Cepy"
         }
       ],
       "armor": [],
@@ -8356,7 +8597,8 @@
           "name_fr": "Canon à Répétition Feu d'Enfer, Armes de base",
           "name_es": "Helblaster Volley Gun, Armas de mano",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Helblaster Salwowe Działo {broń}, Broń ręczna"
         }
       ],
       "armor": [],
@@ -8375,7 +8617,8 @@
             "name_de": "0-1 Kriegsmaschine pro 1.000 Punkte",
             "name_fr": "0-1 machine de guerre par tranche de 1000 points",
             "name_es": ""
-          }
+          },
+          "name_pl": "Weteran, Awangarda"
         }
       ],
       "mounts": [],
@@ -8427,7 +8670,8 @@
           "name_fr": "Batterie Tonnerre de Feu, Armes de base",
           "name_es": "Helstorm Rocket Battery, Armas de mano",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Helstorm Bateria Rakiet {broń}, Broń ręczna"
         }
       ],
       "armor": [],
@@ -8446,7 +8690,8 @@
             "name_de": "0-1 Kriegsmaschine pro 1.000 Punkte",
             "name_fr": "0-1 machine de guerre par tranche de 1000 points",
             "name_es": ""
-          }
+          },
+          "name_pl": "Weteran, Awangarda"
         }
       ],
       "mounts": [],

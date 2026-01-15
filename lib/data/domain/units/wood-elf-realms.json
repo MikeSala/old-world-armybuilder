@@ -562,7 +562,8 @@
               "name_es": "Hechicero de Nivel 3",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 3"
             },
             {
               "name_en": "Level 4 Wizard",
@@ -571,9 +572,11 @@
               "name_fr": "Sorcier de Niveau 4",
               "name_es": "Hechicero de Nivel 4",
               "points": 30,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 4"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [
@@ -746,7 +749,8 @@
               "name_es": "Hechicero de Nivel 1",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 1"
             },
             {
               "name_en": "Level 2 Wizard",
@@ -755,9 +759,11 @@
               "name_fr": "Sorcier de Niveau 2",
               "name_es": "Hechicero de Nivel 2",
               "points": 30,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 2"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [
@@ -1167,7 +1173,8 @@
           "name_fr": "Embusqueurs",
           "name_es": "Ambushers",
           "points": 10,
-          "armyComposition": "host-of-talsyn"
+          "armyComposition": "host-of-talsyn",
+          "name_pl": "Zasadzka"
         }
       ],
       "mounts": [],
@@ -1292,7 +1299,8 @@
               "name_es": "Hechicero de Nivel 1",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 1"
             },
             {
               "name_en": "Level 2 Wizard",
@@ -1301,9 +1309,11 @@
               "name_fr": "Sorcier de Niveau 2",
               "name_es": "Hechicero de Nivel 2",
               "points": 30,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 2"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [],
@@ -2012,7 +2022,8 @@
           "name_es": "Ambushers",
           "points": 1,
           "perModel": true,
-          "armyComposition": "host-of-talsyn"
+          "armyComposition": "host-of-talsyn",
+          "name_pl": "Zasadzka"
         }
       ],
       "mounts": [],
@@ -3068,7 +3079,8 @@
           "name_es": "Ambushers",
           "points": 1,
           "perModel": true,
-          "armyComposition": "host-of-talsyn"
+          "armyComposition": "host-of-talsyn",
+          "name_pl": "Zasadzka"
         }
       ],
       "mounts": [],
@@ -3374,7 +3386,8 @@
           "name_fr": "Embusqueurs",
           "name_es": "Ambushers",
           "points": 10,
-          "armyComposition": "host-of-talsyn"
+          "armyComposition": "host-of-talsyn",
+          "name_pl": "Zasadzka"
         }
       ],
       "mounts": [],
@@ -3479,7 +3492,8 @@
           "name_es": "Hand weapons (Claws, fangs, tusks, teeth)",
           "name_fr": "Armes de base (Griffes, crocs, défenses, dents)",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna (Pazury, kły, ciosy, zęby)"
         }
       ],
       "armor": [],
@@ -3522,7 +3536,8 @@
           "name_es": "Hand weapons (Claws, fangs, tusks, teeth)",
           "name_fr": "Armes de base (Griffes, crocs, défenses, dents)",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna (Pazury, kły, ciosy, zęby)"
         }
       ],
       "armor": [],
@@ -3565,7 +3580,8 @@
           "name_es": "Hand weapons (Claws, fangs, tusks, teeth)",
           "name_fr": "Armes de base (Griffes, crocs, défenses, dents)",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna (Pazury, kły, ciosy, zęby)"
         }
       ],
       "armor": [],
@@ -3608,7 +3624,8 @@
           "name_es": "Hand weapons (Claws, fangs, tusks, teeth)",
           "name_fr": "Armes de base (Griffes, crocs, défenses, dents)",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna (Pazury, kły, ciosy, zęby)"
         }
       ],
       "armor": [],

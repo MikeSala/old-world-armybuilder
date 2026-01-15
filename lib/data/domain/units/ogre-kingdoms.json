@@ -26,7 +26,8 @@
           "name_de": "Handwaffe",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -34,7 +35,8 @@
           "name_fr": "Arme de base additionnelle",
           "name_de": "Zusätzliche Handwaffe",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Ironfist",
@@ -43,7 +45,8 @@
           "name_de": "Eisenfaust",
           "points": 6,
           "perModel": true,
-          "armyComposition": "ogre-kingdoms"
+          "armyComposition": "ogre-kingdoms",
+          "name_pl": "Żelazna Pięść"
         },
         {
           "name_en": "Ironfist {renegade}",
@@ -52,7 +55,8 @@
           "name_de": "Eisenfaust",
           "points": 6,
           "perModel": true,
-          "armyComposition": "ok-renegade"
+          "armyComposition": "ok-renegade",
+          "name_pl": "Żelazna Pięść {renegaci}"
         },
         {
           "name_en": "Great weapon",
@@ -60,7 +64,8 @@
           "name_fr": "Arme lourde",
           "name_de": "Zweihandwaffe",
           "points": 5,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         }
       ],
       "armor": [
@@ -89,7 +94,8 @@
           "name_fr": "Pistolet Ogre",
           "name_de": "Ogerpistole",
           "points": 6,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Pistloe t ogra"
         },
         {
           "name_en": "Brace of Ogre pistols",
@@ -97,7 +103,8 @@
           "name_fr": "Paire de pistolets Ogres",
           "name_de": "Ogerpistolenpaar",
           "points": 12,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Para ogrich pistolety"
         }
       ],
       "mounts": [
@@ -204,7 +211,8 @@
           "name_de": "Handwaffe",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -212,7 +220,8 @@
           "name_fr": "Arme de base additionnelle",
           "name_de": "Zusätzliche Handwaffe",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Ironfist",
@@ -221,7 +230,8 @@
           "name_de": "Eisenfaust",
           "points": 6,
           "perModel": true,
-          "armyComposition": "ogre-kingdoms"
+          "armyComposition": "ogre-kingdoms",
+          "name_pl": "Żelazna Pięść"
         },
         {
           "name_en": "Ironfist {renegade}",
@@ -230,7 +240,8 @@
           "name_de": "Eisenfaust",
           "points": 6,
           "perModel": true,
-          "armyComposition": "ok-renegade"
+          "armyComposition": "ok-renegade",
+          "name_pl": "Żelazna Pięść {renegaci}"
         },
         {
           "name_en": "Great weapon",
@@ -238,7 +249,8 @@
           "name_fr": "Arme lourde",
           "name_de": "Zweihandwaffe",
           "points": 5,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         }
       ],
       "armor": [
@@ -267,7 +279,8 @@
           "name_fr": "Pistolet Ogre",
           "name_de": "Ogerpistole",
           "points": 6,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Pistloe t ogra"
         },
         {
           "name_en": "Brace of Ogre pistols",
@@ -275,7 +288,8 @@
           "name_fr": "Paire de pistolets Ogres",
           "name_de": "Ogerpistolenpaar",
           "points": 12,
-          "exclusive": true
+          "exclusive": true,
+          "name_pl": "Para ogrich pistolety"
         }
       ],
       "mounts": [
@@ -368,7 +382,8 @@
           "name_de": "Handwaffe",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -376,7 +391,8 @@
           "name_fr": "Arme de base additionnelle",
           "name_de": "Zusätzliche Handwaffe",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         }
       ],
       "armor": [],
@@ -389,7 +405,8 @@
           "points": 30,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0
+          "maximum": 0,
+          "name_pl": "Kocioł Rzeźnika"
         },
         {
           "name_en": "Wizard",
@@ -409,7 +426,8 @@
               "name_es": "Hechicero de Nivel 3",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 3"
             },
             {
               "name_en": "Level 4 Wizard",
@@ -418,9 +436,11 @@
               "name_fr": "Sorcier de Niveau 4",
               "name_es": "Hechicero de Nivel 4",
               "points": 35,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 4"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [],
@@ -495,7 +515,8 @@
           "name_de": "Handwaffe",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -503,7 +524,8 @@
           "name_fr": "Arme de base additionnelle",
           "name_de": "Zusätzliche Handwaffe",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         }
       ],
       "armor": [],
@@ -513,7 +535,8 @@
           "name_cn": "屠夫大锅",
           "name_fr": "Chaudron de Boucher",
           "name_de": "Fleischerkessel",
-          "points": 30
+          "points": 30,
+          "name_pl": "Kocioł Rzeźnika"
         },
         {
           "name_en": "Wizard",
@@ -533,7 +556,8 @@
               "name_es": "Hechicero de Nivel 1",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 1"
             },
             {
               "name_en": "Level 2 Wizard",
@@ -542,9 +566,11 @@
               "name_fr": "Sorcier de Niveau 2",
               "name_es": "Hechicero de Nivel 2",
               "points": 35,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 2"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [],
@@ -610,7 +636,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "equippedDefault": true
+          "equippedDefault": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapon",
@@ -618,7 +645,8 @@
           "name_fr": "Arme de base additionnelle",
           "name_de": "Zusätzliche Handwaffe",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Harpoon launcher",
@@ -626,7 +654,8 @@
           "name_fr": "Lance-harpon",
           "name_de": "Harpunenschleuder",
           "points": 10,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wyrzutnia harpunów"
         },
         {
           "name_en": "Additional hand weapon, Harpoon launcher",
@@ -634,7 +663,8 @@
           "name_fr": "Arme de base additionnelle, Lance-harpon",
           "name_de": "Zusätzliche Handwaffe, Harpunenschleuder",
           "points": 14,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna, Wyrzutnia harpunów"
         }
       ],
       "armor": [],
@@ -758,7 +788,8 @@
           "name_de": "Handwaffe, Flammender Atem",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Płonący oddech {królestwa ogrów}"
         }
       ],
       "armor": [],
@@ -769,7 +800,8 @@
           "name_fr": "Arme lourde",
           "name_de": "Zweihandwaffe",
           "points": 6,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Wizard",
@@ -789,7 +821,8 @@
               "name_es": "Hechicero de Nivel 1",
               "points": 0,
               "exclusive": true,
-              "active": true
+              "active": true,
+              "name_pl": "Czarodziej poziomu 1"
             },
             {
               "name_en": "Level 2 Wizard",
@@ -798,9 +831,11 @@
               "name_fr": "Sorcier de Niveau 2",
               "name_es": "Hechicero de Nivel 2",
               "points": 35,
-              "exclusive": true
+              "exclusive": true,
+              "name_pl": "Czarodziej poziomu 2"
             }
-          ]
+          ],
+          "name_pl": "Czarodziej"
         }
       ],
       "mounts": [],
@@ -925,7 +960,8 @@
           "name_it": "Hand weapon",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Additional hand weapons",
@@ -935,7 +971,8 @@
           "name_fr": "Armes de base additionnelles",
           "name_it": "Additional hand weapons",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Ironfists",
@@ -946,7 +983,8 @@
           "name_it": "Ironfists",
           "points": 4,
           "perModel": true,
-          "armyComposition": "ogre-kingdoms"
+          "armyComposition": "ogre-kingdoms",
+          "name_pl": "Żelazne Pięści"
         },
         {
           "name_en": "Ironfists {renegade}",
@@ -957,7 +995,8 @@
           "name_it": "Ironfists",
           "points": 4,
           "perModel": true,
-          "armyComposition": "ok-renegade"
+          "armyComposition": "ok-renegade",
+          "name_pl": "Żelazne Pięści {renegaci}"
         }
       ],
       "armor": [
@@ -1070,7 +1109,8 @@
           "name_it": "Hand weapons, Great weapons",
           "points": 0,
           "perModel": false,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Wielka broń"
         }
       ],
       "armor": [
@@ -1094,7 +1134,8 @@
           "name_es": "Look-out Gnoblar (Standard bearer)",
           "name_fr": "Gnoblar Longue-vue (Porte-étendard)",
           "name_it": "Look-out Gnoblar (Standard bearer)",
-          "points": 5
+          "points": 5,
+          "name_pl": "Gnoblar Obserwator (Sztandarowy)"
         },
         {
           "name_en": "Veteran",
@@ -1104,7 +1145,8 @@
           "name_fr": "Vétérans",
           "name_it": "Veteran",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Weteran"
         }
       ],
       "mounts": [],
@@ -1174,7 +1216,8 @@
           "name_it": "Hand weapons, Throwing weapons (Sharp stuff)",
           "points": 0,
           "perModel": false,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Broń do rzucania (Ostre rzeczy)"
         }
       ],
       "armor": [],
@@ -1234,7 +1277,8 @@
           "name_it": "Hand weapons, Throwing weapons (Sharp stuff)",
           "points": 0,
           "perModel": false,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Broń do rzucania (Ostre rzeczy)"
         }
       ],
       "armor": [],
@@ -1284,7 +1328,8 @@
           "name_it": "Hand weapons (Claws and fangs)",
           "points": 0,
           "perModel": false,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna (Pazury i kły)"
         }
       ],
       "armor": [],
@@ -1297,7 +1342,8 @@
           "name_fr": "Embusqueurs",
           "name_it": "Ambushers",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Zasadzka"
         },
         {
           "name_en": "Scouts",
@@ -1307,7 +1353,8 @@
           "name_fr": "Éclaireurs",
           "name_it": "Scouts",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Zwiadowcy"
         },
         {
           "name_en": "Vanguard",
@@ -1317,7 +1364,8 @@
           "name_fr": "Avant-garde",
           "name_it": "Vanguard",
           "points": 1,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Awangarda"
         }
       ],
       "mounts": [],
@@ -1402,7 +1450,8 @@
           "name_it": "Hand weapons, Leadbelcher guns",
           "points": 0,
           "perModel": false,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Działa Leadbelcher {renegaci}"
         }
       ],
       "armor": [
@@ -1427,7 +1476,8 @@
           "name_fr": "Vétérans",
           "name_it": "Veteran",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Weteran"
         }
       ],
       "mounts": [],
@@ -1535,7 +1585,8 @@
           "name_de": "Handwaffen",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         }
       ],
       "armor": [
@@ -1555,28 +1606,32 @@
           "name_cn": "心理免疫",
           "name_fr": "Immunisé à la Psychologie",
           "name_de": "Immung gegen Psychologie",
-          "points": 0
+          "points": 0,
+          "name_pl": "Odporność na psychologię"
         },
         {
           "name_en": "Poisoned Attacks",
           "name_cn": "淬毒攻击",
           "name_fr": "Attaques Empoisonnées",
           "name_de": "Giftattacken",
-          "points": 0
+          "points": 0,
+          "name_pl": "Trujące Ataki"
         },
         {
           "name_en": "Stubborn",
           "name_cn": "坚毅",
           "name_fr": "Obstiné",
           "name_de": "Unnachgiebig",
-          "points": 0
+          "points": 0,
+          "name_pl": "Nieugięty"
         },
         {
           "name_en": "Vanguard",
           "name_cn": "先锋",
           "name_fr": "Avant-garde",
           "name_de": "Vorhut",
-          "points": 0
+          "points": 0,
+          "name_pl": "Awangarda"
         },
         {
           "name_en": "Additional hand weapons",
@@ -1584,7 +1639,8 @@
           "name_fr": "Armes de base additionnelles",
           "name_de": "Zusätzliche Handwaffen",
           "points": 3,
-          "stackable": true
+          "stackable": true,
+          "name_pl": "Dodatkowa broń ręczna"
         },
         {
           "name_en": "Ironfists",
@@ -1593,7 +1649,8 @@
           "name_de": "Eisenfäuste",
           "points": 4,
           "stackable": true,
-          "armyComposition": "ogre-kingdoms"
+          "armyComposition": "ogre-kingdoms",
+          "name_pl": "Żelazne Pięści"
         },
         {
           "name_en": "Ironfists {renegade}",
@@ -1602,7 +1659,8 @@
           "name_de": "Eisenfäuste",
           "points": 4,
           "stackable": true,
-          "armyComposition": "ok-renegade"
+          "armyComposition": "ok-renegade",
+          "name_pl": "Żelazne Pięści {renegaci}"
         },
         {
           "name_en": "Great weapons",
@@ -1610,7 +1668,8 @@
           "name_fr": "Armes lourdes",
           "name_de": "Zweihandwaffen",
           "points": 4,
-          "stackable": true
+          "stackable": true,
+          "name_pl": "Wielka broń"
         },
         {
           "name_en": "Ogre pistols",
@@ -1618,7 +1677,8 @@
           "name_fr": "Pistolets Ogres",
           "name_de": "Ogerpistolen",
           "points": 6,
-          "stackable": true
+          "stackable": true,
+          "name_pl": "Pistolety ogrów"
         },
         {
           "name_en": "Brace of Ogre pistols",
@@ -1626,7 +1686,8 @@
           "name_fr": "Paire de pistolets Ogres",
           "name_de": "Ogerpistolenpaar",
           "points": 12,
-          "stackable": true
+          "stackable": true,
+          "name_pl": "Para ogrich pistolety"
         },
         {
           "name_en": "Heavy armour",
@@ -1634,7 +1695,8 @@
           "name_fr": "Armure lourde",
           "name_de": "Schwere Rüstung",
           "points": 3,
-          "stackable": true
+          "stackable": true,
+          "name_pl": "Ciężka zbroja"
         }
       ],
       "mounts": [],
@@ -1726,7 +1788,8 @@
           "name_it": "Hand weapon",
           "points": 0,
           "perModel": true,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna"
         },
         {
           "name_en": "Ironfist",
@@ -1737,7 +1800,8 @@
           "name_it": "Ironfist",
           "points": 4,
           "perModel": true,
-          "armyComposition": "ogre-kingdoms"
+          "armyComposition": "ogre-kingdoms",
+          "name_pl": "Żelazna Pięść"
         },
         {
           "name_en": "Ironfist {renegade}",
@@ -1748,7 +1812,8 @@
           "name_it": "Ironfist",
           "points": 4,
           "perModel": true,
-          "armyComposition": "ok-renegade"
+          "armyComposition": "ok-renegade",
+          "name_pl": "Żelazna Pięść {renegaci}"
         },
         {
           "name_en": "Great weapon",
@@ -1758,7 +1823,8 @@
           "name_fr": "Arme lourde",
           "name_it": "Great weapon",
           "points": 4,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Wielka broń"
         }
       ],
       "armor": [
@@ -1792,7 +1858,8 @@
           "name_es": "Brace of Ogre pistols (Crusher)",
           "name_fr": "Paire de pistolets Ogres (Broyeur)",
           "name_it": "Brace of Ogre pistols (Crusher)",
-          "points": 12
+          "points": 12,
+          "name_pl": "Para ogrich pistolety (Miażdżyciela)"
         }
       ],
       "mounts": [],
@@ -1851,7 +1918,8 @@
           "name_it": "Grimfrost weapons",
           "points": 0,
           "perModel": false,
-          "active": true
+          "active": true,
+          "name_pl": "Broń Mrożnogryzy"
         }
       ],
       "armor": [],
@@ -1864,7 +1932,8 @@
           "name_fr": "Éclaireurs",
           "name_it": "Scouts",
           "points": 3,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Zwiadowcy"
         },
         {
           "name_en": "Vanguard",
@@ -1874,7 +1943,8 @@
           "name_fr": "Avant-garde",
           "name_it": "Vanguard",
           "points": 2,
-          "perModel": true
+          "perModel": true,
+          "name_pl": "Awangarda"
         }
       ],
       "mounts": [],
@@ -1946,7 +2016,8 @@
           "name_it": "Cannon of the Sky-titans",
           "points": 0,
           "perModel": false,
-          "active": true
+          "active": true,
+          "name_pl": "Armata Tytanów Nieba {renegade}, Broń ręczna"
         }
       ],
       "armor": [],
@@ -2003,7 +2074,8 @@
           "name_it": "Scraplauncher catapult, Hand weapons",
           "points": 0,
           "perModel": false,
-          "active": true
+          "active": true,
+          "name_pl": "Katapulta Śmieciomiot, Broń ręczna"
         }
       ],
       "armor": [],
@@ -2043,7 +2115,8 @@
           "name_de": "Handwaffen, Steinerne Hörner (Steinyak), Harpunenschleuder (Oger-Besatzung), Ketten-Fangeisen (Ogerreiter)",
           "points": 0,
           "perModel": false,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Kamienne rogi (Kamienioróg), Wyrzutnia harpunów (Załoga Ogrów), Pułapka łańcuchowa (Jeździec bestii ogrów)"
         },
         {
           "name_en": "Hand weapon, Horns of stone (Stonehorn), Harpoon launcher (Ogre Crew), Blood vulture (Ogre Beast Rider)",
@@ -2051,7 +2124,8 @@
           "name_fr": "Arme de base, Cornes de pierre (Mastauroc), Lance-harpon (Servant Ogre), Vautour de sang (Chevaucheur Ogre)",
           "name_de": "Handwaffen, Steinerne Hörner (Steinyak), Harpunenschleuder (Oger-Besatzung), Blutgeier (Ogerreiter)",
           "points": 5,
-          "perModel": false
+          "perModel": false,
+          "name_pl": "Broń ręczna, Kamienne rogi (Kamienioróg), Wyrzutnia harpunów (Załoga Ogrów), Krwawy sęp (Jeździec bestii ogrów)"
         }
       ],
       "armor": [],
@@ -2063,7 +2137,8 @@
           "name_es": "Harpoon launcher (Ogre Beast Rider)",
           "name_fr": "Lance-harpon (Chevaucheur Ogre)",
           "name_it": "Harpoon launcher (Ogre Beast Rider)",
-          "points": 8
+          "points": 8,
+          "name_pl": "Wyrzutnia harpunów (Jeździec bestii ogrów)"
         }
       ],
       "mounts": [],
@@ -2106,7 +2181,8 @@
           "name_fr": "Arme de base, Grandes défenses (Mégastodonte), Souffle glacial (Mégastodonte), Lance-harpon (Servant Ogre), Croque-monsieur (Chevaucheur Ogre)",
           "name_de": "Handwaffen, Gewalltige Hauer (Donnerhorn), Eisiger Atem (Donnerhorn), Harpunenschleuder (Oger-Besatzung), Ketten-Fangeisen (Ogerreiter)",
           "points": 0,
-          "active": true
+          "active": true,
+          "name_pl": "Broń ręczna, Wielkie kły (Gromogur), Lodowaty oddech (Gromogur), Wyrzutnia harpunów (Załoga Ogrów), Pułapka łańcuchowa (Jeździec bestii ogrów)"
         },
         {
           "name_en": "Hand weapon, Great tusks (Thundertusk), Chill breath (Thundertusk), Harpoon launcher (Ogre Crew), Blood vulture (Ogre Beast Rider)",
@@ -2114,7 +2190,8 @@
           "name_fr": "Arme de base, Grandes défenses (Mégastodonte), Souffle glacial (Mégastodonte), Lance-harpon (Servant Ogre), Vautour de sang (Chevaucheur Ogre)",
           "name_de": "Eisiger Atem (Donnerhorn), Gewaltige Hauer, Handwaffen, Harpunenschleuder (Oger-Besatzung), Ketten-Fangeisen (Ogerreiter)",
           "points": 5,
-          "perModel": false
+          "perModel": false,
+          "name_pl": "Broń ręczna, Wielkie kły (Gromogur), Lodowaty oddech (Gromogur), Wyrzutnia harpunów (Załoga Ogrów), Krwawy sęp (Jeździec bestii ogrów)"
         }
       ],
       "armor": [],
@@ -2127,7 +2204,8 @@
           "name_fr": "Lance-harpon (Chevaucheur Ogre)",
           "name_it": "Harpoon launcher (Ogre Beast Rider)",
           "points": 8,
-          "perModel": false
+          "perModel": false,
+          "name_pl": "Wyrzutnia harpunów (Jeździec bestii ogrów)"
         }
       ],
       "mounts": [],
@@ -2171,7 +2249,8 @@
           "name_it": "Giant's club",
           "points": 0,
           "perModel": false,
-          "active": true
+          "active": true,
+          "name_pl": "Maczuga olbrzyma"
         }
       ],
       "armor": [
@@ -2248,7 +2327,8 @@
           "name_it": "Wicked claws, Distensible jaw",
           "points": 0,
           "perModel": false,
-          "active": true
+          "active": true,
+          "name_pl": "Złowrogie pazury, Rozciągliwa szczęka"
         }
       ],
       "armor": [
@@ -2273,7 +2353,8 @@
           "name_fr": "Éclaireurs",
           "name_it": "Scouts",
           "points": 3,
-          "perModel": false
+          "perModel": false,
+          "name_pl": "Zwiadowcy"
         },
         {
           "name_en": "Vanguard",
@@ -2283,7 +2364,8 @@
           "name_fr": "Avant-garde",
           "name_it": "Vanguard",
           "points": 3,
-          "perModel": false
+          "perModel": false,
+          "name_pl": "Awangarda"
         }
       ],
       "mounts": [],
