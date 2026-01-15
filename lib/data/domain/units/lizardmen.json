@@ -2,6 +2,7 @@
   "characters": [
     {
       "name_en": "Slann Mage-Priest {renegade}",
+      "name_pl": "Magik-Kapłan Slannów {renegade}",
       "name_cn": "史兰魔祭司 {renegade}",
       "name_de": "Slann Mage-Priest",
       "name_es": "Slann Mage-Priest",
@@ -968,6 +969,7 @@
     },
     {
       "name_en": "Temple Guard {renegade}",
+      "name_pl": "Straż Świątynna {renegade}",
       "name_cn": "神殿守卫 {renegade}",
       "name_de": "Temple Guard",
       "name_es": "Temple Guard",
@@ -1067,6 +1069,7 @@
     },
     {
       "name_en": "Temple Guard {renegade}",
+      "name_pl": "Straż Świątynna {renegade}",
       "name_cn": "神殿守卫 {renegade}",
       "name_de": "Temple Guard",
       "name_es": "Temple Guard",
@@ -1270,6 +1273,7 @@
     },
     {
       "name_en": "Jungle Swarms",
+      "name_pl": "Roje Dżungli",
       "name_cn": "丛林蛇群",
       "name_de": "Jungle Swarms",
       "name_es": "Jungle Swarms",
@@ -1599,6 +1603,7 @@
     },
     {
       "name_en": "Cold One Riders",
+      "name_pl": "Jeźdźcy na Zimnych",
       "name_cn": "冷蜥骑手",
       "name_de": "Cold One Riders",
       "name_es": "Cold One Riders",
@@ -1851,6 +1856,7 @@
   "rare": [
     {
       "name_en": "Salamander Pack",
+      "name_pl": "Sfora Salamander",
       "name_cn": "火蜥蜴猎群",
       "name_de": "Salamander Pack",
       "name_es": "Salamander Pack",
@@ -1938,6 +1944,7 @@
     },
     {
       "name_en": "Razordon Pack",
+      "name_pl": "Sfora Razordonów",
       "name_cn": "刺背蜥猎群",
       "name_de": "Razordon Pack",
       "name_es": "Razordon Pack",
@@ -2013,6 +2020,7 @@
     },
     {
       "name_en": "Troglodon",
+      "name_pl": "Troglodon",
       "name_cn": "穴居龙",
       "name_de": "Troglodon",
       "name_es": "Troglodon",

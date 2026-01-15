@@ -2,6 +2,7 @@
   "characters": [
     {
       "name_en": "King",
+      "name_pl": "Król",
       "name_cn": "国王",
       "name_it": "Re",
       "name_de": "König",
@@ -695,6 +696,7 @@
     },
     {
       "name_en": "Daemon Slayer",
+      "name_pl": "Pogromca Demonów",
       "name_cn": "恶魔屠夫",
       "name_it": "Sventrademoni",
       "name_de": "Dämonenslayer",
@@ -847,6 +849,7 @@
     },
     {
       "name_en": "Dragon Slayer",
+      "name_pl": "Pogromca Smoków",
       "name_cn": "巨龙屠夫",
       "name_it": "Sventradraghi",
       "name_de": "Drachenslayer",
@@ -1000,6 +1003,7 @@
     },
     {
       "name_en": "Engineer",
+      "name_pl": "Inżynier",
       "name_cn": "矮人工程师",
       "name_it": "Ingegnere",
       "name_de": "Maschinist",
@@ -1147,6 +1151,7 @@
     {
       "name_de": "Sappeur-Maschinist",
       "name_en": "Engineer Sapper",
+      "name_pl": "Inżynier Saper",
       "name_cn": "掘壕工程兵",
       "name_fr": "Ingénieur Sapeur",
       "id": "engineer-sapper",
@@ -1258,6 +1263,7 @@
     {
       "name_de": "Thorgrim Ulleksson",
       "name_en": "Thorgrim Ulleksson",
+      "name_pl": "Thorgrim Ulleksson",
       "name_cn": "索尔葛林·乌莱克森（大仇恨之书学究）",
       "name_fr": "Thorgrim Ulleksson",
       "id": "thorgrim-ullekson",
@@ -1319,6 +1325,7 @@
     {
       "name_de": "Ungrim Eisenfaust",
       "name_en": "Ungrim Ironfist",
+      "name_pl": "Ungrim Żelazna Pięść",
       "name_cn": "阿格里姆·铁拳（屠夫王）",
       "name_fr": "Ungrim Poing-de-Fer",
       "id": "ungrim-ironfist",
@@ -1383,6 +1390,7 @@
     {
       "name_de": "Burlok Damminson",
       "name_en": "Burlok Damminson",
+      "name_pl": "Burlok Damminson",
       "name_cn": "布洛克·达明森",
       "name_fr": "Burlok Damminson",
       "id": "burlok-damminson",
@@ -1598,6 +1606,7 @@
     {
       "name_de": "Königliche Klankrieger",
       "name_en": "Royal Clan Warriors",
+      "name_pl": "Wojownicy Królewskiego Klanu",
       "name_cn": "王室氏族战士",
       "name_fr": "Guerriers des Clans Royaux",
       "id": "royal-clan-warriors",
@@ -2162,6 +2171,7 @@
     },
     {
       "name_en": "Rangers",
+      "name_pl": "Tropiciele",
       "name_cn": "游侠",
       "name_it": "Ranger",
       "name_de": "Grenzläufer",
@@ -2330,6 +2340,7 @@
     {
       "name_de": "Kundschafter-Gyrokopter",
       "name_en": "Scout Gyrocopters",
+      "name_pl": "Gyrokoptery Zwiadowcze",
       "name_cn": "侦察直升机",
       "name_fr": "Gyrocoptères de Reconnaissance",
       "id": "scout-gyrocopters",
@@ -2389,6 +2400,7 @@
     {
       "name_de": "Zwergenkarren",
       "name_en": "Dwarf Cart",
+      "name_pl": "Wóz Krasnoludzki",
       "name_cn": "矮人矿车",
       "name_fr": "Chariot Nain",
       "id": "dwarf-cart-bugman",
@@ -2430,6 +2442,7 @@
     {
       "name_de": "Zwergenkarren",
       "name_en": "Dwarf Cart",
+      "name_pl": "Wóz Krasnoludzki",
       "name_cn": "矮人矿车",
       "name_fr": "Chariot Nain",
       "id": "dwarf-cart",
@@ -3234,6 +3247,7 @@
     },
     {
       "name_en": "Brotherhood of Grimnir",
+      "name_pl": "Bractwo Grimnira",
       "name_cn": "Brotherhood of Grimnir",
       "name_it": "Brotherhood of Grimnir",
       "name_de": "Brotherhood of Grimnir",
@@ -3380,6 +3394,7 @@
     {
       "name_de": "Dammaz Drengi",
       "name_en": "Doomseeker",
+      "name_pl": "Szukający Zagłady",
       "name_cn": "末日追寻者",
       "name_fr": "Cherche-mort",
       "id": "doomseeker",
@@ -3481,6 +3496,7 @@
     },
     {
       "name_en": "Gyrocopters",
+      "name_pl": "Gyrokoptery",
       "name_cn": "矮人直升机",
       "name_it": "Girocotteri",
       "name_de": "Gyrokopter",
@@ -3561,6 +3577,7 @@
     {
       "name_de": "Kundschafter-Gyrokopter",
       "name_en": "Scout Gyrocopters",
+      "name_pl": "Gyrokoptery Zwiadowcze",
       "name_cn": "侦察直升机",
       "name_fr": "Gyrocoptères de Reconnaissance",
       "id": "scout-gyrocopters",
@@ -3613,6 +3630,7 @@
     },
     {
       "name_en": "Bolt Thrower {dwarfs}",
+      "name_pl": "Balista {dwarfs}",
       "name_cn": "弩炮（矮人）",
       "name_it": "Balista",
       "name_de": "Speerschleuder",
@@ -3768,6 +3786,7 @@
     },
     {
       "name_en": "Cannon {dwarfs}",
+      "name_pl": "Armata {dwarfs}",
       "name_cn": "加农炮（矮人）",
       "name_it": "Cannone",
       "name_de": "Kanone",
@@ -3851,6 +3870,7 @@
   "rare": [
     {
       "name_en": "Rangers",
+      "name_pl": "Tropiciele",
       "name_cn": "游侠",
       "name_it": "Ranger",
       "name_de": "Grenzläufer",
@@ -4401,6 +4421,7 @@
     {
       "name_de": "Goblinschnitter",
       "name_en": "Goblin-Hewer",
+      "name_pl": "Rozpruwacz Goblinów",
       "name_cn": "地精收割机",
       "name_fr": "Faucheuse de Gobelins",
       "id": "goblin-hewer",

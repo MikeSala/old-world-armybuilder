@@ -734,6 +734,7 @@
     },
     {
       "name_en": "Firebelly",
+      "name_pl": "Ogniobrzuch",
       "name_cn": "火腹",
       "name_fr": "Ventre-feu",
       "name_de": "Feuerbauch",
@@ -1140,6 +1141,7 @@
     },
     {
       "name_en": "Gnoblar Fighters",
+      "name_pl": "Gnoblarscy Wojownicy",
       "name_cn": "孬不拉战士",
       "name_de": "Gnoblarkrieger",
       "name_es": "Gnoblar Fighters",
@@ -1199,6 +1201,7 @@
     },
     {
       "name_en": "Gnoblar Trappers",
+      "name_pl": "Gnoblarscy Traperzy",
       "name_cn": "孬不拉捕手",
       "name_de": "Gnoblar-Fallensteller",
       "name_es": "Gnoblar Trappers",
@@ -1258,6 +1261,7 @@
     },
     {
       "name_en": "Sabretusk Pack",
+      "name_pl": "Sfora Szablozębów",
       "name_cn": "霜齿兽兽群",
       "name_de": "Säbelzahnrudel",
       "name_es": "Sabretusk Pack",
@@ -1814,6 +1818,7 @@
     },
     {
       "name_en": "Yhetees",
+      "name_pl": "Yhetee",
       "name_cn": "雪怪",
       "name_de": "Yhetis",
       "name_es": "Yhetees",
@@ -1960,6 +1965,7 @@
     },
     {
       "name_en": "Gnoblar Scraplauncher",
+      "name_pl": "Gnoblarskie Ciskacze Złomu",
       "name_cn": "孬不拉废铁投射器",
       "name_de": "Gnoblar-Schrottschleuder",
       "name_es": "Gnoblar Scraplauncher",
@@ -2018,6 +2024,7 @@
   "rare": [
     {
       "name_en": "Stonehorn Riders",
+      "name_pl": "Jeźdźcy Kamiennego Rogu",
       "name_cn": "石角兽骑兵",
       "name_de": "Steinyakreiter",
       "name_es": "Stonehorn Riders",
@@ -2079,6 +2086,7 @@
     },
     {
       "name_en": "Thundertusk Riders",
+      "name_pl": "Jeźdźcy Gromogłosa",
       "name_cn": "雷牙兽骑兵",
       "name_de": "Donnerhornreiter",
       "name_es": "Thundertusk Riders",
@@ -2202,6 +2210,7 @@
     },
     {
       "name_en": "Gorger",
+      "name_pl": "Żarłok",
       "name_cn": "贪吃魔",
       "name_de": "Verschlinger",
       "name_es": "Gorger",

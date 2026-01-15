@@ -530,6 +530,7 @@
     },
     {
       "name_en": "Royal Herald",
+      "name_pl": "Królewski Herold",
       "name_cn": "皇家传令官",
       "name_de": "Königlicher Herold",
       "name_es": "Royal Herald",
@@ -718,6 +719,7 @@
     },
     {
       "name_en": "High Priest",
+      "name_pl": "Wysoki Kapłan",
       "name_cn": "高等祭司",
       "name_de": "Hohepriester",
       "name_es": "High Priest",
@@ -882,6 +884,7 @@
     },
     {
       "name_en": "Mortuary Priest",
+      "name_pl": "Kapłan Grobowy",
       "name_cn": "葬仪祭司",
       "name_de": "Priester des Totenkults",
       "name_es": "Mortuary Priest",
@@ -1044,6 +1047,7 @@
     },
     {
       "name_en": "Arch Necrotect",
+      "name_pl": "Arcynekrotekt",
       "name_cn": "古墓大技师",
       "name_it": "Gran Necrotetto",
       "name_de": "Erznekrotekt",
@@ -1122,6 +1126,7 @@
     },
     {
       "name_en": "Necrotect",
+      "name_pl": "Nekrotekt",
       "name_cn": "古墓技师",
       "name_de": "Nekrotekt",
       "name_es": "Necrotect",
@@ -1224,6 +1229,7 @@
     },
     {
       "name_en": "Settra the Imperishable",
+      "name_pl": "Settra Niezniszczalny",
       "name_cn": "不朽者赛特拉",
       "name_it": "Settra l'Imperituro",
       "name_de": "Settra der Unvergängliche",
@@ -1314,6 +1320,7 @@
     },
     {
       "name_en": "Prince Apophas",
+      "name_pl": "Książę Apophas",
       "name_cn": "阿波法斯王子",
       "name_it": "Principe Apophas",
       "name_de": "Prinz Apophas",
@@ -1362,6 +1369,7 @@
     },
     {
       "name_en": "Nekaph",
+      "name_pl": "Nekaph",
       "name_cn": "尼卡夫",
       "name_it": "Nekaph",
       "name_de": "Nekaph",
@@ -1433,6 +1441,7 @@
   "core": [
     {
       "name_en": "Skeleton Warriors {tomb kings}",
+      "name_pl": "Szkieletowi Wojownicy {tomb kings}",
       "name_cn": "骷髅战士 {tomb kings}",
       "name_de": "Skelettkrieger",
       "name_es": "Skeleton Warriors",
@@ -1935,6 +1944,7 @@
     },
     {
       "name_en": "Skeleton Skirmishers",
+      "name_pl": "Szkieletowi Harownicy",
       "name_cn": "骷髅散兵",
       "name_de": "Skelettplänkler",
       "name_es": "Skeleton Skirmishers",
@@ -2041,6 +2051,7 @@
     },
     {
       "name_en": "Skeleton Chariots",
+      "name_pl": "Szkieletowe Rydwany",
       "name_cn": "骷髅战车",
       "name_de": "Skelettstreitwagen",
       "name_es": "Skeleton Chariots",
@@ -2139,6 +2150,7 @@
     },
     {
       "name_en": "Tomb Swarms",
+      "name_pl": "Roje Grobowców",
       "name_cn": "古墓虫群",
       "name_de": "Gruftschwärme",
       "name_es": "Tomb Swarms",
@@ -2205,6 +2217,7 @@
     },
     {
       "name_en": "Skeleton Horsemen",
+      "name_pl": "Szkieletowi Konni",
       "name_cn": "骷髅骑手",
       "name_de": "Skelettreiter",
       "name_es": "Skeleton Horsemen",
@@ -2354,6 +2367,7 @@
     },
     {
       "name_en": "Skeleton Horse Archers",
+      "name_pl": "Szkieletowi Konni Łucznicy",
       "name_cn": "骷髅弓骑手",
       "name_de": "Skelettbogenreiter",
       "name_es": "Skeleton Horse Archers",
@@ -2473,6 +2487,7 @@
     },
     {
       "name_en": "Skeleton Infantry Cohort",
+      "name_pl": "Kohorta Szkieletowej Piechoty",
       "name_cn": "骷髅步兵大队",
       "name_it": "Coorti Reali di Fanteria Scheletrica",
       "name_de": "Skelett-Infanteriekohorte",
@@ -2604,6 +2619,7 @@
     },
     {
       "name_en": "Skeleton Cavalry Cohort",
+      "name_pl": "Kohorta Szkieletowej Kawalerii",
       "name_cn": "骷髅骑兵大队",
       "name_it": "Coorti Reali di Cavalleria Scheletrica",
       "name_de": "Skelett-Kavalleriekohorte",
@@ -2740,6 +2756,7 @@
     },
     {
       "name_en": "Necroserpents",
+      "name_pl": "Nekrowęże",
       "name_cn": "死亡蛇灵",
       "name_it": "Necroserpenti",
       "name_de": "Wächterschlangen",
@@ -2802,6 +2819,7 @@
     },
     {
       "name_en": "Tomb Guard Chariots",
+      "name_pl": "Rydwany Straży Grobowców",
       "name_cn": "古墓守卫战车",
       "name_it": "Carri della Guardia del Sepolcro",
       "name_de": "Streitwagen der Gruftwächter",
@@ -3055,6 +3073,7 @@
     },
     {
       "name_en": "Venerable Ushabti",
+      "name_pl": "Czcigodni Ushabti",
       "name_cn": "神圣乌沙比特",
       "name_it": "Venerabile Ushabti",
       "name_de": "Altgediente Ushabti",
@@ -3121,6 +3140,7 @@
     },
     {
       "name_en": "Tomb Swarms",
+      "name_pl": "Roje Grobowców",
       "name_cn": "古墓虫群",
       "name_de": "Gruftschwärme",
       "name_es": "Tomb Swarms",
@@ -3522,6 +3542,7 @@
     },
     {
       "name_en": "Necroserpents",
+      "name_pl": "Nekrowęże",
       "name_cn": "死亡蛇灵",
       "name_it": "Necroserpenti",
       "name_de": "Wächterschlangen",
@@ -3863,6 +3884,7 @@
     },
     {
       "name_en": "Tomb Guard Chariots",
+      "name_pl": "Rydwany Straży Grobowców",
       "name_cn": "古墓守卫战车",
       "name_it": "Carri della Guardia del Sepolcro",
       "name_de": "Streitwagen der Gruftwächter",
@@ -3949,6 +3971,7 @@
     },
     {
       "name_en": "Necrolith Colossus",
+      "name_pl": "Kolos Nekrolitowy",
       "name_cn": "死灵巨像",
       "name_de": "Nekrolith-Koloss",
       "name_es": "Necrolith Colossus",
@@ -4082,6 +4105,7 @@
   "rare": [
     {
       "name_en": "Necrolith Colossus",
+      "name_pl": "Kolos Nekrolitowy",
       "name_cn": "死灵巨像",
       "name_de": "Nekrolith-Koloss",
       "name_es": "Necrolith Colossus",

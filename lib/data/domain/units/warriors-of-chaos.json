@@ -1143,6 +1143,7 @@
     },
     {
       "name_en": "Exalted Champion",
+      "name_pl": "Wywyższony Czempion",
       "name_cn": "至尊冠军",
       "name_de": "Exalted Champion",
       "name_es": "Exalted Champion",
@@ -1616,6 +1617,7 @@
     },
     {
       "name_en": "Exalted Sorcerer",
+      "name_pl": "Wywyższony Czarnoksiężnik",
       "name_cn": "至尊法师",
       "name_de": "Exalted Sorcerer",
       "name_es": "Exalted Sorcerer",
@@ -1877,6 +1879,7 @@
     },
     {
       "name_en": "Aspiring Champion",
+      "name_pl": "Aspirujący Czempion",
       "name_cn": "野心冠军",
       "name_de": "Aspiring Champion",
       "name_es": "Aspiring Champion",
@@ -3580,6 +3583,7 @@
     },
     {
       "name_en": "Chaos Warhounds {warriors of chaos}",
+      "name_pl": "Bojowe Psy Chaosu {warriors of chaos}",
       "name_cn": "混沌猎犬 {warriors of chaos}",
       "name_de": "Chaos Warhounds",
       "name_es": "Chaos Warhounds",
@@ -3695,6 +3699,7 @@
     },
     {
       "name_en": "Forsaken",
+      "name_pl": "Opuszczeni",
       "name_cn": "被遗弃者",
       "name_de": "Forsaken",
       "name_es": "Forsaken",
@@ -3942,6 +3947,7 @@
     },
     {
       "name_en": "Chaos Chariot",
+      "name_pl": "Rydwan Chaosu",
       "name_cn": "混沌战车",
       "name_de": "Chaos Chariot",
       "name_es": "Chaos Chariot",
@@ -4588,6 +4594,7 @@
     },
     {
       "name_en": "Chaos Chariot",
+      "name_pl": "Rydwan Chaosu",
       "name_cn": "混沌战车",
       "name_de": "Chaos Chariot",
       "name_es": "Chaos Chariot",
@@ -5142,6 +5149,7 @@
     },
     {
       "name_en": "Chimera",
+      "name_pl": "Chimera",
       "name_cn": "奇美拉",
       "name_de": "Chimera",
       "name_es": "Chimera",
@@ -5663,6 +5671,7 @@
     },
     {
       "name_en": "Chaos Giant",
+      "name_pl": "Olbrzym Chaosu",
       "name_cn": "混沌巨人",
       "name_de": "Chaos Giant",
       "name_es": "Chaos Giant",
@@ -5732,6 +5741,7 @@
     },
     {
       "name_en": "Dragon Ogre Shaggoth",
+      "name_pl": "Shaggoth Smoczy Ogr",
       "name_cn": "远古龙魔",
       "name_de": "Dragon Ogre Shaggoth",
       "name_es": "Dragon Ogre Shaggoth",

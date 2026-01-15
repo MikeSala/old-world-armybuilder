@@ -830,6 +830,7 @@
     },
     {
       "name_en": "Doombull",
+      "name_pl": "Doombull",
       "name_cn": "末日公牛",
       "name_de": "Doombull",
       "name_es": "Doombull",
@@ -1243,6 +1244,7 @@
     },
     {
       "name_en": "Warhoof",
+      "name_pl": "Wojenkopiyt",
       "name_cn": "战蹄",
       "name_de": "Warhoof",
       "name_es": "Warhoof",
@@ -1415,6 +1417,7 @@
     },
     {
       "name_en": "Kralmaw",
+      "name_pl": "Kralmaw",
       "name_cn": "Kralmaw",
       "name_de": "Kralmaw",
       "name_es": "Kralmaw",
@@ -1483,6 +1486,7 @@
     },
     {
       "name_en": "Ghorros",
+      "name_pl": "Ghorros",
       "name_cn": "Ghorros",
       "name_de": "Ghorros",
       "name_es": "Ghorros",
@@ -1531,6 +1535,7 @@
   "core": [
     {
       "name_en": "Primal Warherd",
+      "name_pl": "Pierwotne Stado Wojenne",
       "name_cn": "Primal Warherd",
       "name_de": "Primal Warherd",
       "name_es": "Primal Warherd",
@@ -1729,6 +1734,7 @@
     },
     {
       "name_en": "Gors",
+      "name_pl": "Gory",
       "name_cn": "Gors",
       "name_de": "Gors",
       "name_es": "Gors",
@@ -1749,6 +1755,7 @@
     },
     {
       "name_en": "Ungors",
+      "name_pl": "Ungory",
       "name_cn": "Ungors",
       "name_de": "Ungors",
       "name_es": "Ungors",
@@ -2229,6 +2236,7 @@
     },
     {
       "name_en": "Primal Warhounds",
+      "name_pl": "Pierwotne Psy Wojenne",
       "name_cn": "Primal Warhounds",
       "name_de": "Primal Warhounds",
       "name_es": "Primal Warhounds",
@@ -2299,6 +2307,7 @@
     },
     {
       "name_en": "Razorgor Herd",
+      "name_pl": "Stado Brzytwogrów",
       "name_cn": "剃刀兽群",
       "name_de": "Razorgor Herd",
       "name_es": "Razorgor Herd",
@@ -2355,6 +2364,7 @@
     },
     {
       "name_en": "Centigor Herd",
+      "name_pl": "Stado Centigorów",
       "name_cn": "人马兽群",
       "name_de": "Centigor Herd",
       "name_es": "Centigor Herd",
@@ -2556,6 +2566,7 @@
     },
     {
       "name_en": "Minotaur Herd",
+      "name_pl": "Stado Minotaurów",
       "name_cn": "牛头人群",
       "name_de": "Minotaur Herd",
       "name_es": "Minotaur Herd",
@@ -2871,6 +2882,7 @@
     },
     {
       "name_en": "Minotaur Herd",
+      "name_pl": "Stado Minotaurów",
       "name_cn": "牛头人群",
       "name_de": "Minotaur Herd",
       "name_es": "Minotaur Herd",
@@ -3013,6 +3025,7 @@
     },
     {
       "name_en": "Cockatrice",
+      "name_pl": "Kokatrys",
       "name_cn": "鸡蛇兽",
       "name_de": "Cockatrice",
       "name_es": "Cockatrice",
@@ -3085,6 +3098,7 @@
     },
     {
       "name_en": "Centigor Herd",
+      "name_pl": "Stado Centigorów",
       "name_cn": "人马兽群",
       "name_de": "Centigor Herd",
       "name_es": "Centigor Herd",
@@ -3359,6 +3373,7 @@
     },
     {
       "name_en": "Razorgor Chariot",
+      "name_pl": "Rydwan Brzytwogrów",
       "name_cn": "剃刀兽战车",
       "name_de": "Razorgor Chariot",
       "name_es": "Razorgor Chariot",
@@ -3538,6 +3553,7 @@
     },
     {
       "name_en": "Jabberslythe",
+      "name_pl": "Jabberslythe",
       "name_cn": "疯语兽",
       "name_de": "Jabberslythe",
       "name_es": "Jabberslythe",
@@ -3703,6 +3719,7 @@
     },
     {
       "name_en": "Herdstone",
+      "name_pl": "Kamień Stada",
       "name_cn": "Herdstone",
       "name_de": "Herdstone",
       "name_es": "Herdstone",
@@ -3744,6 +3761,7 @@
     },
     {
       "name_en": "Preyton",
+      "name_pl": "Preyton",
       "name_cn": "Preyton",
       "name_de": "Preyton",
       "name_es": "Preyton",
@@ -3809,6 +3827,7 @@
     },
     {
       "name_en": "Warped Gors",
+      "name_pl": "Wypaczone Gory",
       "name_cn": "Warped Gors",
       "name_de": "Warped Gors",
       "name_es": "Warped Gors",
@@ -3934,6 +3953,7 @@
   "rare": [
     {
       "name_en": "Dragon Ogre Shaggoth",
+      "name_pl": "Shaggoth Smoczy Ogr",
       "name_cn": "远古龙魔",
       "name_de": "Dragon Ogre Shaggoth",
       "name_es": "Dragon Ogre Shaggoth",
@@ -4037,6 +4057,7 @@
     },
     {
       "name_en": "Jabberslythe",
+      "name_pl": "Jabberslythe",
       "name_cn": "疯语兽",
       "name_de": "Jabberslythe",
       "name_es": "Jabberslythe",
@@ -4137,6 +4158,7 @@
     },
     {
       "name_en": "Chaos Giant",
+      "name_pl": "Olbrzym Chaosu",
       "name_cn": "混沌巨人",
       "name_de": "Chaos Giant",
       "name_es": "Chaos Giant",

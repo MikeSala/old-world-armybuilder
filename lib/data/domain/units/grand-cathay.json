@@ -2,6 +2,7 @@
   "characters": [
     {
       "name_en": "Miao Ying",
+      "name_pl": "Miao Ying",
       "name_cn": "妙影",
       "name_de": "Miao Ying",
       "name_fr": "Miao Ying",
@@ -74,6 +75,7 @@
     },
     {
       "name_en": "Shugengan Lord",
+      "name_pl": "Władca Shugengan",
       "name_cn": "修验卿领主",
       "name_de": "Shugengan Lord",
       "name_fr": "Seigneur Shugengan",
@@ -267,6 +269,7 @@
     },
     {
       "name_en": "Shugengan General",
+      "name_pl": "Generał Shugengan",
       "name_cn": "修验卿将军",
       "name_de": "Shugengan General",
       "name_fr": "Général Shugengan",
@@ -452,6 +455,7 @@
     },
     {
       "name_en": "Lord Magistrate",
+      "name_pl": "Lord Magistrat",
       "name_cn": "经略使",
       "name_de": "Lord Magistrate",
       "name_fr": "Seigneur Magistrat",
@@ -609,6 +613,7 @@
     },
     {
       "name_en": "Strategist",
+      "name_pl": "Strateg",
       "name_cn": "参谋",
       "name_de": "Strategist",
       "name_fr": "Stratège",
@@ -766,6 +771,7 @@
     },
     {
       "name_en": "Gate Master",
+      "name_pl": "Mistrz Bramy",
       "name_cn": "门下督",
       "name_de": "Gate Master",
       "name_fr": "Maître des Portes",
@@ -876,6 +882,7 @@
     },
     {
       "name_en": "Gate Keeper",
+      "name_pl": "Strażnik Bramy",
       "name_cn": "门下吏",
       "name_de": "Gate Keeper",
       "name_fr": "Gardien des Portes",
@@ -1161,6 +1168,7 @@
     },
     {
       "name_en": "Jade Lancers",
+      "name_pl": "Jadeitowi Lansjerzy",
       "name_cn": "玉勇枪骑兵",
       "name_de": "Jade Lancers",
       "name_fr": "Lanciers de Jade",
@@ -1329,6 +1337,7 @@
   "special": [
     {
       "name_en": "Jade Lancers",
+      "name_pl": "Jadeitowi Lansjerzy",
       "name_cn": "玉勇枪骑兵",
       "name_de": "Jade Lancers",
       "name_fr": "Lanciers de Jade",
@@ -1495,6 +1504,7 @@
     },
     {
       "name_en": "Cathayan Grand Cannon",
+      "name_pl": "Wielka Armata Cathay",
       "name_cn": "震旦巨炮",
       "name_de": "Cathayan Grand Cannon",
       "name_fr": "Grand Canon Cathayen",
@@ -1562,6 +1572,7 @@
     },
     {
       "name_en": "Fire Rain Rocket Battery",
+      "name_pl": "Bateria Rakiet Ognia Deszczu",
       "name_cn": "炎霖火箭炮",
       "name_de": "Fire Rain Rocket Battery",
       "name_fr": "Batterie de Fusées Pluie de Feu",
@@ -1629,6 +1640,7 @@
     },
     {
       "name_en": "Cathayan Sentinel",
+      "name_pl": "Wartownik Cathay",
       "name_cn": "震旦禁卫",
       "name_de": "Cathayan Sentinel",
       "name_fr": "Sentinelle Cathayenne",
@@ -1903,6 +1915,7 @@
     },
     {
       "name_en": "Cathayan Sentinel",
+      "name_pl": "Wartownik Cathay",
       "name_cn": "震旦禁卫",
       "name_de": "Cathayan Sentinel",
       "name_fr": "Sentinelle Cathayenne",

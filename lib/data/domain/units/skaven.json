@@ -2,6 +2,7 @@
   "characters": [
     {
       "name_en": "Skaven Warlord",
+      "name_pl": "Watażka Skavenów",
       "name_cn": "斯卡文军阀",
       "name_de": "Kriegsherr der Skaven",
       "name_es": "Skaven Warlord",
@@ -139,6 +140,7 @@
     },
     {
       "name_en": "Skaven Chieftain",
+      "name_pl": "Wódz Plemienny Skavenów",
       "name_cn": "斯卡文族长",
       "name_de": "Häuptling der Skaven",
       "name_es": "Skaven Chieftain",
@@ -555,6 +557,7 @@
     },
     {
       "name_en": "Master Assassin",
+      "name_pl": "Mistrz Skrytobójca",
       "name_cn": "刺客死亡大师",
       "name_de": "Meisterassassine",
       "name_es": "Master Assassin",
@@ -627,6 +630,7 @@
     },
     {
       "name_en": "Plague Priest",
+      "name_pl": "Kapłan Zarazy",
       "name_cn": "瘟疫祭司",
       "name_de": "Seuchenpriester",
       "name_es": "Plague Priest",
@@ -1027,6 +1031,7 @@
     },
     {
       "name_en": "Weapon Team",
+      "name_pl": "Zespół Broni",
       "name_cn": "武器小组",
       "name_de": "Waffenteam",
       "name_es": "Weapon Team",
@@ -1128,6 +1133,7 @@
     },
     {
       "name_en": "Rat Swarms",
+      "name_pl": "Roje Szczurów",
       "name_cn": "鼠群",
       "name_de": "Rattenschwarm",
       "name_es": "Rat Swarms",
@@ -1171,6 +1177,7 @@
     },
     {
       "name_en": "Giant Rats",
+      "name_pl": "Olbrzymie Szczury",
       "name_cn": "巨鼠",
       "name_de": "Riesenratten",
       "name_es": "Giant Rats",
@@ -1275,6 +1282,7 @@
     },
     {
       "name_en": "Night Runners",
+      "name_pl": "Nocni Biegacze",
       "name_cn": "夜奔鼠",
       "name_de": "Schattenläufer",
       "name_es": "Night Runners",
@@ -1924,6 +1932,7 @@
     },
     {
       "name_en": "Warplock Jezzails",
+      "name_pl": "Jezzaile Osnowego Zamka",
       "name_cn": "次元抬枪队",
       "name_de": "Warpschloss Jezzails",
       "name_es": "Warplock Jezzails",
@@ -2073,6 +2082,7 @@
   "rare": [
     {
       "name_en": "Hell Pit Abomination {renegade}",
+      "name_pl": "Obrzydliwość z Piekielnej Jamy {renegade}",
       "name_cn": "地狱深坑憎恶 {renegade}",
       "name_de": "Höllengrubenbrut",
       "name_es": "Hell Pit Abomination",

@@ -225,6 +225,7 @@
     },
     {
       "name_en": "Daemonsmith Sorcerer",
+      "name_pl": "Czarnoksiężnik Kowal Demonów",
       "name_cn": "恶魔铁匠",
       "name_de": "Daemonsmith Sorcerer",
       "name_es": "Daemonsmith Sorcerer",
@@ -439,6 +440,7 @@
     },
     {
       "name_en": "Infernal Castellan",
+      "name_pl": "Infernalny Kasztelan",
       "name_cn": "地狱卫堡主",
       "name_de": "Infernal Castellan",
       "name_es": "Infernal Castellan",
@@ -642,6 +644,7 @@
     },
     {
       "name_en": "Infernal Seneschal",
+      "name_pl": "Infernalny Seneszal",
       "name_cn": "地狱卫总管",
       "name_de": "Infernal Seneschal",
       "name_es": "Infernal Seneschal",
@@ -964,6 +967,7 @@
     },
     {
       "name_en": "Hobgoblin Khan",
+      "name_pl": "Hobgobliński Chan",
       "name_cn": "大地精可汗",
       "name_de": "Hobgoblin Khan",
       "name_es": "Hobgoblin Khan",
@@ -1111,6 +1115,7 @@
     },
     {
       "name_en": "Black Orc Warboss",
+      "name_pl": "Wódz Wojenny Czarnych Orków",
       "name_cn": "黑兽人老大",
       "name_de": "Black Orc Warboss",
       "name_es": "Black Orc Warboss",
@@ -1324,6 +1329,7 @@
     },
     {
       "name_en": "Black Orc Bigboss",
+      "name_pl": "Wielki Szef Czarnych Orków",
       "name_cn": "黑兽人勇士",
       "name_de": "Black Orc Bigboss",
       "name_es": "Black Orc Bigboss",
@@ -1820,6 +1826,7 @@
     },
     {
       "name_en": "Black Orc Mob",
+      "name_pl": "Tłum Czarnych Orków",
       "name_cn": "黑兽人战帮",
       "name_de": "Black Orc Mob",
       "name_es": "Black Orc Mob",
@@ -1965,6 +1972,7 @@
     },
     {
       "name_en": "Infernal Ironsworn",
+      "name_pl": "Infernalni Żelazo-Przysięgli",
       "name_cn": "地狱卫铁誓军",
       "name_de": "Infernal Ironsworn",
       "name_es": "Infernal Ironsworn",
@@ -2122,6 +2130,7 @@
   "special": [
     {
       "name_en": "Infernal Ironsworn",
+      "name_pl": "Infernalni Żelazo-Przysięgli",
       "name_cn": "地狱卫铁誓军",
       "name_de": "Infernal Ironsworn",
       "name_es": "Infernal Ironsworn",
@@ -2265,6 +2274,7 @@
     },
     {
       "name_en": "Sneaky Gits",
+      "name_pl": "Podstępne Dranie",
       "name_cn": "卑鄙潜伏者",
       "name_de": "Sneaky Gits",
       "name_es": "Sneaky Gits",
@@ -2335,6 +2345,7 @@
     },
     {
       "name_en": "K'daai Fireborn {renegade}",
+      "name_pl": "K'daai Ognioro {renegade}",
       "name_cn": "卡德艾焰魔 {renegade}",
       "name_de": "K'daai Fireborn",
       "name_es": "K'daai Fireborn",
@@ -2413,6 +2424,7 @@
     },
     {
       "name_en": "Bull Centaur Renders",
+      "name_pl": "Byczentaury Rozdzieracze",
       "name_cn": "半人牛撕裂者",
       "name_de": "Bull Centaur Renders",
       "name_es": "Bull Centaur Renders",
@@ -2785,6 +2797,7 @@
     },
     {
       "name_en": "Hobgoblin Bolt Thrower",
+      "name_pl": "Hobgoblińska Balista",
       "name_cn": "大地精弩炮",
       "name_de": "Hobgoblin Bolt Thrower",
       "name_es": "Hobgoblin Bolt Thrower",
@@ -2839,6 +2852,7 @@
   "rare": [
     {
       "name_en": "Hobgoblin Wolf Riders",
+      "name_pl": "Hobgoblińska Wilkojazda",
       "name_cn": "大地精狼骑劫掠者",
       "name_de": "Hobgoblin Wolf Riders",
       "name_es": "Hobgoblin Wolf Riders",
@@ -3098,6 +3112,7 @@
     },
     {
       "name_en": "Chaos Giant",
+      "name_pl": "Olbrzym Chaosu",
       "name_cn": "混沌巨人",
       "name_de": "Chaos Giant",
       "name_es": "Chaos Giant",

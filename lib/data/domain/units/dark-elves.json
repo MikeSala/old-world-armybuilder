@@ -2,6 +2,7 @@
   "characters": [
     {
       "name_en": "Dark Elf Dreadlord",
+      "name_pl": "Pan Grozy Mrocznych Elfów",
       "name_cn": "恐惧领主",
       "name_de": "Dark Elf Dreadlord",
       "name_es": "Príncipe oscuro",
@@ -278,6 +279,7 @@
     },
     {
       "name_en": "Dark Elf Master",
+      "name_pl": "Mistrz Mrocznych Elfów",
       "name_cn": "奴主",
       "name_de": "Dark Elf Master",
       "name_es": "Noble oscuro",
@@ -810,6 +812,7 @@
     },
     {
       "name_en": "High Beastmaster",
+      "name_pl": "Wysoki Mistrz Bestii",
       "name_cn": "高阶驯兽师",
       "name_de": "High Beastmaster",
       "name_es": "Gran señor de las bestias",
@@ -980,6 +983,7 @@
     },
     {
       "name_en": "Death Hag",
+      "name_pl": "Wiedźma Śmierci",
       "name_cn": "死亡魔女",
       "name_de": "Death Hag",
       "name_es": "Sacerdotisa elfa bruja",
@@ -1066,6 +1070,7 @@
     },
     {
       "name_en": "Khainite Assassin",
+      "name_pl": "Skrytobójca Khaine'a",
       "name_cn": "凯恩刺客",
       "name_de": "Khainite Assassin",
       "name_es": "Asesino Khainita",
@@ -1271,6 +1276,7 @@
     },
     {
       "name_en": "Repeater Crossbowmen",
+      "name_pl": "Kusznicy z Powtarzalną Kuszą",
       "name_cn": "黑锐连弩手",
       "name_de": "Repeater Crossbowmen",
       "name_es": "Ballesteros",
@@ -1379,6 +1385,7 @@
     },
     {
       "name_en": "Black Ark Corsairs",
+      "name_pl": "Korsarze Czarnej Arki",
       "name_cn": "黑色方舟海盗",
       "name_de": "Black Ark Corsairs",
       "name_es": "Corsarios de arca negra",
@@ -1672,6 +1679,7 @@
   "special": [
     {
       "name_en": "Har Ganeth Executioners",
+      "name_pl": "Kaci z Har Ganeth",
       "name_cn": "哈尔冈西刽子手",
       "name_de": "Har Ganeth Executioners",
       "name_es": "Verdugos de Har Ganeth",
@@ -1853,6 +1861,7 @@
     },
     {
       "name_en": "Dark Elf Shades",
+      "name_pl": "Cienie Mrocznych Elfów",
       "name_cn": "黯影",
       "name_de": "Dark Elf Shades",
       "name_es": "Sombras",
@@ -2020,6 +2029,7 @@
     },
     {
       "name_en": "Black Guard of Naggarond",
+      "name_pl": "Czarna Gwardia Naggarondu",
       "name_cn": "纳加隆德黑卫",
       "name_de": "Black Guard of Naggarond",
       "name_es": "Guardia negra de Naggarond",
@@ -2230,6 +2240,7 @@
     },
     {
       "name_en": "Scourgerunner Chariots",
+      "name_pl": "Rydwany Biczowników",
       "name_cn": "灾行者战车",
       "name_de": "Scourgerunner Chariots",
       "name_es": "Carros fustigadores",
@@ -2445,6 +2456,7 @@
   "rare": [
     {
       "name_en": "Sisters of Slaughter",
+      "name_pl": "Siostry Rzezi",
       "name_cn": "杀戮姐妹",
       "name_de": "Sisters of Slaughter",
       "name_es": "Hermanas de la matanza",
@@ -2519,6 +2531,7 @@
     },
     {
       "name_en": "Bloodwrack Shrines",
+      "name_pl": "Sanktuaria Krwawej Agonii",
       "name_cn": "血骸神龛（叛变）",
       "name_de": "Bloodwrack Shrines",
       "name_es": "Altares drenasangre",
@@ -2677,6 +2690,7 @@
     },
     {
       "name_en": "Bloodwrack Medusas",
+      "name_pl": "Meduzy Krwawej Agonii",
       "name_cn": "血骸美杜莎",
       "name_de": "Bloodwrack Medusas",
       "name_es": "Medusas drenasangre",
@@ -2729,6 +2743,7 @@
     },
     {
       "name_en": "Doomfire Warlocks",
+      "name_pl": "Czarnoksiężnicy Ognia Zagłady",
       "name_cn": "地狱火术士",
       "name_de": "Doomfire Warlocks",
       "name_es": "Brujos fuegoletal",

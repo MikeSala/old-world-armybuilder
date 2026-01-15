@@ -1714,6 +1714,7 @@
     },
     {
       "name_en": "Dragon Mage",
+      "name_pl": "Smoczy Mag",
       "name_cn": "龙法师",
       "name_it": "Mago Dragone",
       "name_de": "Drachenmagier",
@@ -1850,6 +1851,7 @@
     },
     {
       "name_en": "Handmaiden of the Everqueen",
+      "name_pl": "Służebna Wiecznie Królowej",
       "name_cn": "永恒女王侍卫",
       "name_it": "Handmaiden of the Everqueen",
       "name_de": "Zofe der Immerkönigin",
@@ -1951,6 +1953,7 @@
     },
     {
       "name_en": "Chracian Chieftain",
+      "name_pl": "Wódz z Chracii",
       "name_cn": "查瑞斯酋长",
       "name_it": "Chracian Chieftain",
       "name_de": "Chracian Chieftain",
@@ -2088,6 +2091,7 @@
     },
     {
       "name_en": "Sea Guard Garrison Commander",
+      "name_pl": "Dowódca Garnizonu Straży Morskiej",
       "name_cn": "海卫戍军指挥官",
       "name_it": "Sea Guard Garrison Commander",
       "name_de": "Sea Guard Garrison Commander",
@@ -2285,6 +2289,7 @@
     },
     {
       "name_en": "Storm Weaver",
+      "name_pl": "Tkaczka Burzy",
       "name_cn": "风暴编织者",
       "name_it": "Storm Weaver",
       "name_de": "Storm Weaver",
@@ -2435,6 +2440,7 @@
     },
     {
       "name_en": "Korhil Lionmane",
+      "name_pl": "Korhil Lwia Grzywa",
       "name_cn": "科希尔·狮鬃",
       "name_it": "Korhil Lionmane",
       "name_de": "Korhil Lionmane",
@@ -2521,6 +2527,7 @@
     },
     {
       "name_en": "Ishaya Vess",
+      "name_pl": "Ishaya Vess",
       "name_cn": "伊莎雅·维斯",
       "name_it": "Ishaya Vess",
       "name_de": "Ishaya Vess",
@@ -2589,6 +2596,7 @@
   "core": [
     {
       "name_en": "Elven Spearmen",
+      "name_pl": "Elficcy Włócznicy",
       "name_cn": "精灵矛兵",
       "name_it": "Elven Spearmen",
       "name_de": "Elfische Speerträger",
@@ -2735,6 +2743,7 @@
     },
     {
       "name_en": "Elven Archers",
+      "name_pl": "Elficcy Łucznicy",
       "name_cn": "精灵弓箭手",
       "name_it": "Elven Archers",
       "name_de": "Elfische Bogenschützen",
@@ -3254,6 +3263,7 @@
     },
     {
       "name_en": "Sisters of Avelorn",
+      "name_pl": "Siostry z Avelorn",
       "name_cn": "阿瓦隆姐妹",
       "name_it": "Sorelle di Avelorn",
       "name_de": "Schwestern von Avelorn",
@@ -3370,6 +3380,7 @@
     },
     {
       "name_en": "Chracian Woodsmen",
+      "name_pl": "Leśnicy z Chracii",
       "name_cn": "查瑞斯樵夫",
       "name_it": "Chracian Woodsmen",
       "name_de": "Chracian Woodsmen",
@@ -3531,6 +3542,7 @@
     },
     {
       "name_en": "White Lions of Chrace",
+      "name_pl": "Białe Lwy z Chracii",
       "name_cn": "查瑞斯白狮禁卫",
       "name_it": "Leoni Bianchi di Chrace",
       "name_de": "Weiße Löwen von Chrace",
@@ -3643,6 +3655,7 @@
     },
     {
       "name_en": "Ship's Company",
+      "name_pl": "Załoga Okrętowa",
       "name_cn": "随船连队",
       "name_it": "Ship's Company",
       "name_de": "Ship's Company",
@@ -3879,6 +3892,7 @@
     },
     {
       "name_en": "Swordmasters of Hoeth",
+      "name_pl": "Mistrzowie Miecza z Hoeth",
       "name_cn": "荷斯剑圣",
       "name_it": "Maestri di Spada di Hoeth",
       "name_de": "Schwertmeister von Hoeth",
@@ -4094,6 +4108,7 @@
     },
     {
       "name_en": "White Lions of Chrace",
+      "name_pl": "Białe Lwy z Chracii",
       "name_cn": "查瑞斯白狮禁卫",
       "name_it": "Leoni Bianchi di Chrace",
       "name_de": "Weiße Löwen von Chrace",
@@ -4354,6 +4369,7 @@
     },
     {
       "name_en": "Tiranoc Chariots",
+      "name_pl": "Rydwany Tiranoc",
       "name_cn": "泰伦诺克战车",
       "name_it": "Carri di Tiranoc",
       "name_de": "Tiranoc-Streitwagen",
@@ -4395,6 +4411,7 @@
     },
     {
       "name_en": "Lion Chariot of Chrace",
+      "name_pl": "Rydwan Lwów z Chracii",
       "name_cn": "查瑞斯白狮战车",
       "name_it": "Carro dei Leoni di Chrace",
       "name_de": "Löwenstreitwagen von Chrace",
@@ -4445,6 +4462,7 @@
     },
     {
       "name_en": "Lothern Skycutter",
+      "name_pl": "Przecinak Nieba z Lothernu",
       "name_cn": "洛瑟恩斩天艇",
       "name_it": "Lothern Skycutter",
       "name_de": "Himmelssegler von Lothern",
@@ -4521,6 +4539,7 @@
     },
     {
       "name_en": "War Lions",
+      "name_pl": "Wojenne Lwy",
       "name_cn": "战狮",
       "name_it": "War Lions",
       "name_de": "War Lions",
@@ -4577,6 +4596,7 @@
   "rare": [
     {
       "name_en": "Sisters of Avelorn",
+      "name_pl": "Siostry z Avelorn",
       "name_cn": "阿瓦隆姐妹",
       "name_it": "Sorelle di Avelorn",
       "name_de": "Schwestern Avelorn",
@@ -4693,6 +4713,7 @@
     },
     {
       "name_en": "Lion Chariot of Chrace",
+      "name_pl": "Rydwan Lwów z Chracii",
       "name_cn": "查瑞斯白狮战车",
       "name_it": "Carro dei Leoni di Chrace",
       "name_de": "Löwenstreitwagen von Chrace",
@@ -4733,6 +4754,7 @@
     },
     {
       "name_en": "Flamespyre Phoenix",
+      "name_pl": "Feniks Płomiennej Pyry",
       "name_cn": "炽焰凤凰",
       "name_it": "Fenice di Fuoco",
       "name_de": "Flamespyre Phoenix",
@@ -4780,6 +4802,7 @@
     },
     {
       "name_en": "Frostheart Phoenix",
+      "name_pl": "Feniks Mroźnego Serca",
       "name_cn": "霜心凤凰",
       "name_it": "Fenice di Ghiaccio",
       "name_de": "Frostherz-Phönix",
@@ -4872,6 +4895,7 @@
     },
     {
       "name_en": "Eagle-Claw Bolt Thrower",
+      "name_pl": "Balista Orlich Pazurów",
       "name_cn": "鹰爪弩炮",
       "name_it": "Eagle-Claw Balista",
       "name_de": "Adlerauge-Speerschleuder",
@@ -4916,6 +4940,7 @@
     },
     {
       "name_en": "Lothern Skycutter",
+      "name_pl": "Przecinak Nieba z Lothernu",
       "name_cn": "洛瑟恩斩天艇",
       "name_it": "Lothern Skycutter",
       "name_de": "Himmelssegler von Lothern",
@@ -4966,6 +4991,7 @@
     },
     {
       "name_en": "Lion Guard",
+      "name_pl": "Gwardia Lwów",
       "name_cn": "白狮卫队",
       "name_it": "Lion Guard",
       "name_de": "Lion Guard",
@@ -5067,6 +5093,7 @@
     },
     {
       "name_en": "Merwyrm",
+      "name_pl": "Morski Smok",
       "name_cn": "海龙兽",
       "name_it": "Merwyrm",
       "name_de": "Merwyrm",

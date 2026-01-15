@@ -2,6 +2,7 @@
   "characters": [
     {
       "name_en": "Duke",
+      "name_pl": "Książę",
       "name_cn": "公爵",
       "name_de": "Herzog",
       "name_fr": "Duc",
@@ -173,6 +174,7 @@
     },
     {
       "name_en": "Baron",
+      "name_pl": "Baron",
       "name_cn": "男爵",
       "name_de": "Baron",
       "id": "baron",
@@ -399,6 +401,7 @@
     },
     {
       "name_en": "Prophetess",
+      "name_pl": "Prorokini",
       "name_cn": "女先知",
       "name_de": "Dame",
       "name_fr": "Prophétesse",
@@ -752,6 +755,7 @@
     },
     {
       "name_en": "Damsel",
+      "name_pl": "Dama",
       "name_cn": "圣女",
       "name_de": "Maid",
       "name_fr": "Damoiselle",
@@ -891,6 +895,7 @@
     },
     {
       "name_en": "Sergeant-at-Arms",
+      "name_pl": "Sierżant Zbrojny",
       "name_cn": "步兵团军士",
       "name_de": "Korporal",
       "name_fr": "Sergent d'Armes",
@@ -999,6 +1004,7 @@
     },
     {
       "name_en": "Outcast Wizard",
+      "name_pl": "Czarodziej Wyrzutek",
       "name_cn": "流亡法师",
       "name_de": "Ausgestoßene Zauberer",
       "name_es": "Outcast Wizard",
@@ -1127,6 +1133,7 @@
     },
     {
       "name_en": "The Green Knight",
+      "name_pl": "Zielony Rycerz",
       "name_cn": "绿骑士",
       "name_de": "Der Grüne Ritter",
       "name_es": "The Green Knight",
@@ -1168,6 +1175,7 @@
     },
     {
       "name_en": "Sir Cecil Gastonne",
+      "name_pl": "Sir Cecil Gastonne",
       "name_cn": "塞西尔 加斯托涅爵士",
       "name_de": "Sir Cecil Gastonne",
       "name_es": "Sir Cecil Gastonne",
@@ -1218,6 +1226,7 @@
     },
     {
       "name_en": "Lady Élisse Duchaard",
+      "name_pl": "Dama Élisse Duchaard",
       "name_cn": "艾莉丝·杜莎尔德女士",
       "name_de": "Lady Élisse Duchaard",
       "name_es": "Lady Élisse Duchaard",
@@ -1489,6 +1498,7 @@
     },
     {
       "name_en": "Knights of the Realm on Foot",
+      "name_pl": "Rycerze Królestwa Pieszo",
       "name_cn": "步战王国骑士",
       "name_de": "Ritter des Königs zu Fuß",
       "name_fr": "Chevaliers du Royaume à Pied",
@@ -1629,6 +1639,7 @@
     },
     {
       "name_en": "Mounted Knights of the Realm",
+      "name_pl": "Konni Rycerze Królestwa",
       "name_cn": "骑马王国骑士",
       "name_de": "Berittene Ritter des Königs",
       "name_fr": "Chevaliers du Royaume Montés",
@@ -1876,6 +1887,7 @@
     },
     {
       "name_en": "Yeomen Guard",
+      "name_pl": "Straż Jegomościów",
       "name_cn": "民兵卫队",
       "name_de": "Freisassengarde",
       "name_es": "Yeomen Guard",
@@ -2002,6 +2014,7 @@
     },
     {
       "name_en": "Battle Pilgrims",
+      "name_pl": "Pielgrzymi Bitewni",
       "name_cn": "战斗朝圣者",
       "name_de": "Gralspilger",
       "name_fr": "Pélerins du Graal",
@@ -2359,6 +2372,7 @@
     },
     {
       "name_en": "Squires",
+      "name_pl": "Giermkowie",
       "name_cn": "乡绅",
       "name_de": "Knappen",
       "name_fr": "Écuyers",
@@ -2440,6 +2454,7 @@
     },
     {
       "name_en": "Battle Pilgrims",
+      "name_pl": "Pielgrzymi Bitewni",
       "name_cn": "战斗朝圣者",
       "name_de": "Gralspilger",
       "name_fr": "Pélerins du Graal",
@@ -2677,6 +2692,7 @@
     },
     {
       "name_en": "Border Princes Brigands",
+      "name_pl": "Bandyci Książąt Pogranicza",
       "name_cn": "边境亲王领盗贼",
       "name_de": "Briganten der Grenzgrafschaften",
       "name_es": "Border Princes Brigands",
@@ -2887,6 +2903,7 @@
     },
     {
       "name_en": "Border Princes Bombard",
+      "name_pl": "Bombarda Książąt Pogranicza",
       "name_cn": "边境亲王领射石炮",
       "name_de": "Bombarde der Grenzgrafschaften",
       "name_es": "Border Princes Bombard",

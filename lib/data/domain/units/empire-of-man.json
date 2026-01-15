@@ -553,6 +553,7 @@
     },
     {
       "name_en": "Wizard Lord",
+      "name_pl": "Władca Czarodziejów",
       "name_cn": "法师领主",
       "name_de": "Meistermagier",
       "name_fr": "Seigneur Sorcier",
@@ -711,6 +712,7 @@
     },
     {
       "name_en": "Master Mage",
+      "name_pl": "Mistrz Magii",
       "name_cn": "魔法大师",
       "name_de": "Kampfzauberer",
       "name_fr": "Maître Mage",
@@ -1201,6 +1203,7 @@
     },
     {
       "name_en": "Chapter Master",
+      "name_pl": "Mistrz Kapituły",
       "name_cn": "骑士团长",
       "name_de": "Kapitelmeister",
       "name_fr": "Maître de Chapitre",
@@ -1557,6 +1560,7 @@
     },
     {
       "name_en": "Witch Hunter",
+      "name_pl": "Łowca Czarownic",
       "name_cn": "猎巫人",
       "name_de": "Hexenjäger",
       "name_fr": "Répurgateur",
@@ -1786,6 +1790,7 @@
     },
     {
       "name_en": "Lector of Sigmar",
+      "name_pl": "Lektor Sigmara",
       "name_cn": "西格玛诵经师",
       "name_de": "Lektor des Sigmar",
       "name_fr": "Archidiacre de Sigmar",
@@ -1976,6 +1981,7 @@
     },
     {
       "name_en": "Priest of Sigmar",
+      "name_pl": "Kapłan Sigmara",
       "name_cn": "西格玛牧师",
       "name_de": "Priester des Sigmar",
       "name_fr": "Prêtre de Sigmar",
@@ -2140,6 +2146,7 @@
     },
     {
       "name_en": "High Priest of Ulric",
+      "name_pl": "Wysoki Kapłan Ulryka",
       "name_cn": "尤里克高等祭司",
       "name_de": "Hohepriester des Ulric",
       "name_fr": "Grand Prêtre d'Ulric",
@@ -2312,6 +2319,7 @@
     },
     {
       "name_en": "Priest of Ulric",
+      "name_pl": "Kapłan Ulryka",
       "name_cn": "尤里克祭司",
       "name_de": "Priester des Ulric",
       "name_fr": "Prêtre d'Ulric",
@@ -2473,6 +2481,7 @@
     },
     {
       "name_en": "Empire Engineer",
+      "name_pl": "Inżynier Imperium",
       "name_cn": "帝国工程师",
       "name_de": "Technicus",
       "name_fr": "Ingénieur de l'Empire",
@@ -2630,6 +2639,7 @@
     },
     {
       "name_en": "Harbinger of Doom",
+      "name_pl": "Zwiastun Zagłady",
       "name_cn": "末日预言者",
       "name_de": "Sendbote des Untergangs",
       "name_fr": "Émissaire de la Fin",
@@ -2720,6 +2730,7 @@
     },
     {
       "name_en": "General Hans von Löwenhacke",
+      "name_pl": "Generał Hans von Löwenhacke",
       "name_cn": "汉斯·冯·洛温哈克将军",
       "name_de": "General Hans von Löwenhacke",
       "name_fr": "Général Hans von Löwenhacke",
@@ -2790,6 +2801,7 @@
     },
     {
       "name_en": "Harald Gemunsen",
+      "name_pl": "Harald Gemunsen",
       "name_cn": "哈拉尔德·杰穆森",
       "name_de": "Harald Gemunsen",
       "name_fr": "Harald Gemunsen",
@@ -2874,6 +2886,7 @@
   "core": [
     {
       "name_en": "Inner Circle Knights Panther",
+      "name_pl": "Rycerze Pantery Wewnętrznego Kręgu",
       "name_cn": "猎豹内环骑士",
       "name_de": "Ritter des inneren Zirkels der Pantherritter",
       "name_fr": "Chevaliers Panthères du Cercle Intérieur",
@@ -2986,6 +2999,7 @@
     },
     {
       "name_en": "Inner Circle Knights of the White Wolf",
+      "name_pl": "Rycerze Białego Wilka Wewnętrznego Kręgu",
       "name_cn": "白狼内环骑士",
       "name_de": "Ritter des inneren Zirkels des Weißen Wolfs",
       "name_fr": "Chevaliers du Loup Blanc du Cercle Intérieur",
@@ -3125,6 +3139,7 @@
     },
     {
       "name_en": "Inner Circle Knights of the Blazing Sun",
+      "name_pl": "Rycerze Płonącego Słońca Wewnętrznego Kręgu",
       "name_cn": "焰阳内环骑士",
       "name_de": "Ritter des inneren Zirkels des Sonnenordens",
       "name_fr": "Chevaliers du Soleil du Cercle Intérieur",
@@ -3255,6 +3270,7 @@
     },
     {
       "name_en": "Inner Circle Knights of Morr",
+      "name_pl": "Rycerze Morra Wewnętrznego Kręgu",
       "name_cn": "莫尔内环骑士",
       "name_de": "Ritter des Inneren Zirkels des Morr",
       "name_fr": "Chevaliers de Morr du Cercle Intérieur",
@@ -3385,6 +3401,7 @@
     },
     {
       "name_en": "Inner Circle Knights of the Fiery Heart",
+      "name_pl": "Rycerze Ognistego Serca Wewnętrznego Kręgu",
       "name_cn": "燃烧之心内环骑士",
       "name_de": "Ritter des Inneren Zirkels des Flammenden Herzens",
       "name_fr": "Chevaliers du Cœur Ardent du Cercle Intérieur",
@@ -3515,6 +3532,7 @@
     },
     {
       "name_en": "State Troops",
+      "name_pl": "Wojska Stanowe",
       "name_cn": "省兵",
       "name_de": "Staatstruppen",
       "name_fr": "Troupes Régulières",
@@ -3689,6 +3707,7 @@
     },
     {
       "name_en": "Nuln State Troops",
+      "name_pl": "Wojska Stanowe Nulnu",
       "name_cn": "努恩省兵",
       "name_de": "Nulner Staatstruppen",
       "name_fr": "Troupes Régulières de Nuln",
@@ -3786,6 +3805,7 @@
     },
     {
       "name_en": "State Troops",
+      "name_pl": "Wojska Stanowe",
       "name_cn": "省兵",
       "name_de": "Staatstruppen",
       "name_fr": "Troupes Régulières",
@@ -3851,6 +3871,7 @@
     },
     {
       "name_en": "Veteran State Troops",
+      "name_pl": "Weterani Wojsk Stanowych",
       "name_cn": "资深省兵",
       "name_de": "Staatstruppen-Veteranen",
       "name_fr": "Vétérans des Troupes Régulières",
@@ -4001,6 +4022,7 @@
     },
     {
       "name_en": "Nuln Veteran State Troops",
+      "name_pl": "Weterani Wojsk Stanowych Nulnu",
       "name_cn": "努恩资深省兵",
       "name_de": "Nulner Staatstruppen-Veteranen",
       "name_fr": "Vétérans des Troupes Régulières de Nuln",
@@ -4122,6 +4144,7 @@
     },
     {
       "name_en": "State Missile Troops",
+      "name_pl": "Wojska Strzeleckie Stanowe",
       "name_cn": "远程省兵",
       "name_de": "Staatstruppen-Schützen",
       "name_fr": "Troupes de Tir de l'Empire",
@@ -4330,6 +4353,7 @@
     },
     {
       "name_en": "State Missile Troops",
+      "name_pl": "Wojska Strzeleckie Stanowe",
       "name_cn": "远程省兵",
       "name_de": "Staatstruppen-Schützen",
       "name_fr": "Troupes de Tir de l'Empire",
@@ -4432,6 +4456,7 @@
     },
     {
       "name_en": "Free Company Militia",
+      "name_pl": "Milicja Wolnej Kompanii",
       "name_cn": "自由联队民兵",
       "name_de": "Freischärler",
       "name_fr": "Milice des Franches Compagnies",
@@ -4512,6 +4537,7 @@
     },
     {
       "name_en": "Empire Archers",
+      "name_pl": "Łucznicy Imperium",
       "name_cn": "帝国弓箭手",
       "name_de": "Imperiale Bogenschützen",
       "name_fr": "Archers de l'Empire",
@@ -4712,6 +4738,7 @@
     },
     {
       "name_en": "Empire Knights",
+      "name_pl": "Rycerze Imperium",
       "name_cn": "帝国骑士",
       "name_de": "Ritter des Imperiums",
       "name_fr": "Chevaliers de l'Empire",
@@ -4865,6 +4892,7 @@
     },
     {
       "name_en": "Empire Knights Panther",
+      "name_pl": "Rycerze Pantery Imperium",
       "name_cn": "猎豹帝国骑士",
       "name_de": "Pantherritter",
       "name_fr": "Chevaliers Panthères",
@@ -5017,6 +5045,7 @@
     },
     {
       "name_en": "Empire Knights of the White Wolf",
+      "name_pl": "Rycerze Białego Wilka Imperium",
       "name_cn": "白狼帝国骑士",
       "name_de": "Ritter des Weißen Wolfs",
       "name_fr": "Chevaliers du Loup Blanc",
@@ -5205,6 +5234,7 @@
     },
     {
       "name_en": "Empire Knights of the Blazing Sun",
+      "name_pl": "Rycerze Płonącego Słońca Imperium",
       "name_cn": "焰阳帝国骑士",
       "name_de": "Ritter des Sonnenordens",
       "name_fr": "Chevaliers du Soleil",
@@ -5375,6 +5405,7 @@
     },
     {
       "name_en": "Empire Knights of Morr",
+      "name_pl": "Rycerze Morra Imperium",
       "name_cn": "莫尔帝国骑士",
       "name_de": "Ritter des Morr",
       "name_fr": "Chevaliers de Morr",
@@ -5545,6 +5576,7 @@
     },
     {
       "name_en": "Empire Knights of the Fiery Heart",
+      "name_pl": "Rycerze Ognistego Serca Imperium",
       "name_cn": "燃烧之心帝国骑士",
       "name_de": "Ritter des Flammenden Herzens",
       "name_fr": "Chevaliers du Cœur Ardent",
@@ -5717,6 +5749,7 @@
   "special": [
     {
       "name_en": "Empire Greatswords",
+      "name_pl": "Wielcy Mieczownicy Imperium",
       "name_cn": "帝国大剑士",
       "name_de": "Imperiale Bihandkämpfer",
       "name_fr": "Joueurs d'Épées de l'Empire",
@@ -5843,6 +5876,7 @@
     },
     {
       "name_en": "Teutogen Guard",
+      "name_pl": "Gwardia Teutogenów",
       "name_cn": "条顿卫队",
       "name_de": "Teutogengarde",
       "name_fr": "Garde Teutogène",
@@ -6216,6 +6250,7 @@
     },
     {
       "name_en": "Great Cannon {empire}",
+      "name_pl": "Wielka Armata {empire}",
       "name_cn": "巨型加农炮 {empire}",
       "name_de": "Großkanone",
       "name_fr": "Grand Canon",
@@ -6297,6 +6332,7 @@
     },
     {
       "name_en": "Mortar {empire}",
+      "name_pl": "Moździerz {empire}",
       "name_cn": "臼炮 {empire}",
       "name_de": "Mörser",
       "name_fr": "Mortier",
@@ -6379,6 +6415,7 @@
     },
     {
       "name_en": "Empire War Wagon",
+      "name_pl": "Wóz Wojenny Imperium",
       "name_cn": "帝国战争车垒",
       "name_de": "Imperialer Kriegswagen",
       "name_fr": "Chariot de Guerre de l'Empire",
@@ -6445,6 +6482,7 @@
     },
     {
       "name_en": "Inner Circle Knights",
+      "name_pl": "Rycerze Wewnętrznego Kręgu",
       "name_cn": "内环骑士",
       "name_de": "Ritter des Inneren Zirkels",
       "name_fr": "Chevaliers du Cercle Intérieur",
@@ -6575,6 +6613,7 @@
     },
     {
       "name_en": "Inner Circle Knights Panther",
+      "name_pl": "Rycerze Pantery Wewnętrznego Kręgu",
       "name_cn": "猎豹内环骑士",
       "name_de": "Ritter des inneren Zirkels der Pantherritter",
       "name_fr": "Chevaliers Panthères du Cercle Intérieur",
@@ -6690,6 +6729,7 @@
     },
     {
       "name_en": "Inner Circle Knights of the White Wolf",
+      "name_pl": "Rycerze Białego Wilka Wewnętrznego Kręgu",
       "name_cn": "白狼内环骑士",
       "name_de": "Innerer Zirkel der Ritter des Weißen Wolfs",
       "name_fr": "Chevaliers du Loup Blanc du Cercle Intérieur",
@@ -6841,6 +6881,7 @@
     },
     {
       "name_en": "Inner Circle Knights of the Blazing Sun",
+      "name_pl": "Rycerze Płonącego Słońca Wewnętrznego Kręgu",
       "name_cn": "焰阳内环骑士",
       "name_de": "Ritter des Inneren Zirkels des Sonnenordens",
       "name_fr": "Chevaliers du Soleil du Cercle Intérieur",
@@ -6974,6 +7015,7 @@
     },
     {
       "name_en": "Inner Circle Knights of Morr",
+      "name_pl": "Rycerze Morra Wewnętrznego Kręgu",
       "name_cn": "莫尔内环骑士",
       "name_de": "Ritter des Inneren Zirkels des Morr",
       "name_fr": "Chevaliers de Morr du Cercle Intérieur",
@@ -7107,6 +7149,7 @@
     },
     {
       "name_en": "Inner Circle Knights of the Fiery Heart",
+      "name_pl": "Rycerze Ognistego Serca Wewnętrznego Kręgu",
       "name_cn": "燃烧之心内环骑士",
       "name_de": "Ritter des Inneren Zirkels des Flammenden Herzens",
       "name_fr": "Chevaliers du Cœur Ardent du Cercle Intérieur",
@@ -7352,6 +7395,7 @@
     },
     {
       "name_en": "Demigryph Knights Panther",
+      "name_pl": "Rycerze Pantery na Demigryfach",
       "name_cn": "猎豹半狮鹫骑士",
       "name_de": "Demigreifen-Pantherritter",
       "name_fr": "Chevaliers Panthères Demigriffon",
@@ -7464,6 +7508,7 @@
     },
     {
       "name_en": "Demigryph Knights of the White Wolf",
+      "name_pl": "Rycerze Białego Wilka na Demigryfach",
       "name_cn": "白狼半狮鹫骑士",
       "name_de": "Demigreifenritter des Weißen Wolfs",
       "name_fr": "Chevaliers du Loup Blanc Demigriffon",
@@ -7585,6 +7630,7 @@
     },
     {
       "name_en": "Demigryph Knights of the Blazing Sun",
+      "name_pl": "Rycerze Płonącego Słońca na Demigryfach",
       "name_cn": "焰阳半狮鹫骑士",
       "name_de": "Demigreifenritter des Sonnenordens",
       "name_fr": "Chevaliers du Soleil Demigriffon",
@@ -7706,6 +7752,7 @@
     },
     {
       "name_en": "Demigryph Knights of Morr",
+      "name_pl": "Rycerze Morra na Demigryfach",
       "name_cn": "莫尔半狮鹫骑士",
       "name_de": "Demigreifenritter des Morr",
       "name_fr": "Chevaliers de Morr Demigriffon",
@@ -7827,6 +7874,7 @@
     },
     {
       "name_en": "Demigryph Knights of the Fiery Heart",
+      "name_pl": "Rycerze Ognistego Serca na Demigryfach",
       "name_cn": "燃烧之心半狮鹫骑士",
       "name_de": "Demigreifenritter des Flammenden Herzens",
       "name_fr": "Chevaliers du Cœur Ardent Demigriffon",
@@ -7950,6 +7998,7 @@
   "rare": [
     {
       "name_en": "Empire Road Wardens",
+      "name_pl": "Strażnicy Dróg Imperium",
       "name_cn": "帝国护路人",
       "name_de": "Imperiale Straßenwächter",
       "name_fr": "Patrouilleurs Ruraux de l'Empire",

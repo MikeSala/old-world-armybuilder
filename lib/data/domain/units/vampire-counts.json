@@ -2,6 +2,7 @@
   "characters": [
     {
       "name_en": "Vampire Count {renegade}",
+      "name_pl": "Hrabia Wampir {renegade}",
       "name_cn": "吸血鬼伯爵",
       "name_de": "Vampirfürst",
       "name_es": "Vampire Count",
@@ -227,6 +228,7 @@
     },
     {
       "name_en": "Vampire Thrall",
+      "name_pl": "Sługa Wampir",
       "name_cn": "吸血鬼侍臣",
       "name_de": "Vampir",
       "name_es": "Vampire Thrall",
@@ -438,6 +440,7 @@
     },
     {
       "name_en": "Master Necromancer",
+      "name_pl": "Mistrz Nekromanta",
       "name_cn": "死灵大法师",
       "name_de": "Meisternekromant",
       "name_es": "Master Necromancer",
@@ -583,6 +586,7 @@
     },
     {
       "name_en": "Necromantic Acolyte",
+      "name_pl": "Nekromantyczny Akolita",
       "name_cn": "死灵法师学徒",
       "name_de": "Nekromant",
       "name_es": "Necromantic Acolyte",
@@ -712,6 +716,7 @@
     },
     {
       "name_en": "Strigoi Ghoul King",
+      "name_pl": "Król Ghuli Strigoi",
       "name_cn": "史崔格食尸鬼王",
       "name_de": "Strigoi-Ghulkönig",
       "name_es": "Strigoi Ghoul King",
@@ -835,6 +840,7 @@
     },
     {
       "name_en": "Cairn Wraith",
+      "name_pl": "Widmo z Kurhanu",
       "name_cn": "石冢恶灵",
       "name_de": "Gespenst",
       "name_es": "Cairn Wraith",
@@ -876,6 +882,7 @@
     },
     {
       "name_en": "Wight King",
+      "name_pl": "Król Upiorów",
       "name_cn": "尸妖王",
       "name_de": "Fluchfürst",
       "name_es": "Wight King",
@@ -1143,6 +1150,7 @@
     },
     {
       "name_en": "Tomb Banshee",
+      "name_pl": "Grobowa Banshee",
       "name_cn": "荒坟女妖",
       "name_de": "Banshee",
       "name_es": "Tomb Banshee",
@@ -1186,6 +1194,7 @@
   "core": [
     {
       "name_en": "Skeleton Warriors {vampire counts}",
+      "name_pl": "Szkieletowi Wojownicy {vampire counts}",
       "name_cn": "骷髅战士",
       "name_de": "Skelettkrieger",
       "name_es": "Skeleton Warriors",
@@ -1280,6 +1289,7 @@
     },
     {
       "name_en": "Zombies",
+      "name_pl": "Zombie",
       "name_cn": "僵尸",
       "name_de": "Zombies",
       "name_es": "Zombies",
@@ -1393,6 +1403,7 @@
     },
     {
       "name_en": "Bat Swarms",
+      "name_pl": "Roje Nietoperzy",
       "name_cn": "蝙蝠群",
       "name_de": "Fledermausschwarm",
       "name_es": "Bat Swarms",
@@ -2103,6 +2114,7 @@
     },
     {
       "name_en": "Spirit Hosts",
+      "name_pl": "Zastępy Duchów",
       "name_cn": "幽灵群",
       "name_de": "Geisterschar",
       "name_es": "Spirit Hosts",
@@ -2399,6 +2411,7 @@
     },
     {
       "name_en": "Black Coach",
+      "name_pl": "Czarny Powóz",
       "name_cn": "黑马车",
       "name_de": "Schwarze Kutsche",
       "name_es": "Black Coach",
@@ -2665,6 +2678,7 @@
     },
     {
       "name_en": "Hexwraiths",
+      "name_pl": "Wiedźmogonów",
       "name_cn": "缚灵骑士",
       "name_de": "Sensenreiter",
       "name_es": "Hexwraiths",

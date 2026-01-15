@@ -145,32 +145,32 @@ Przejdź do edytora rozpiski z językiem polskim i sprawdź czy nazwy wyświetla
 
 ### ✅ WSZYSTKIE ARMIE UKOŃCZONE! 🎉
 
-**191+ jednostek przetłumaczonych | 18/18 armii ukończonych | 100% pokrycie**
+**588 jednostek przetłumaczonych | 18/18 armii ukończonych | 100% pokrycie**
 
 | Armia | Przetłumaczone jednostki | Status |
 |-------|--------------------------|--------|
 | Daemons of Chaos | 47 jednostek | ✅ Kompletne |
+| Orc and Goblin Tribes | 47 jednostek | ✅ Kompletne |
+| Beastmen Brayherds | 44 jednostki | ✅ Kompletne |
+| Tomb Kings of Khemri | 41 jednostek | ✅ Kompletne |
+| Dwarfen Mountain Holds | 39 jednostek | ✅ Kompletne |
+| High Elf Realms | 38 jednostek | ✅ Kompletne |
+| Warriors of Chaos | 34 jednostki | ✅ Kompletne |
 | Wood Elf Realms | 33 jednostki | ✅ Kompletne |
-| Beastmen Brayherds | 20 jednostek | ✅ Kompletne |
-| Dwarfen Mountain Holds | 18 jednostek | ✅ Kompletne |
-| Tomb Kings of Khemri | 17 jednostek | ✅ Kompletne |
-| Vampire Counts | 16 jednostek | ✅ Kompletne |
-| Warriors of Chaos | 15 jednostek | ✅ Kompletne |
-| Dark Elves | 14 jednostek | ✅ Kompletne |
-| Skaven | 14 jednostek | ✅ Kompletne |
+| Vampire Counts | 30 jednostek | ✅ Kompletne |
+| Dark Elves | 29 jednostek | ✅ Kompletne |
+| Kingdom of Bretonnia | 26 jednostek | ✅ Kompletne |
+| Chaos Dwarfs | 24 jednostki | ✅ Kompletne |
+| Skaven | 24 jednostki | ✅ Kompletne |
+| Lizardmen | 21 jednostek | ✅ Kompletne |
+| Ogre Kingdoms | 21 jednostek | ✅ Kompletne |
+| Grand Cathay | 16 jednostek | ✅ Kompletne |
 | Renegade Crowns | 14 jednostek | ✅ Kompletne |
-| Lizardmen | 13 jednostek | ✅ Kompletne |
-| Ogre Kingdoms | 12 jednostek | ✅ Kompletne |
-| Empire of Man | 11 jednostek | ✅ Kompletne |
-| High Elf Realms | 11 jednostek | ✅ Kompletne |
-| Chaos Dwarfs | 9 jednostek | ✅ Kompletne |
-| Kingdom of Bretonnia | 9 jednostek | ✅ Kompletne |
-| Orc and Goblin Tribes | 6 jednostek | ✅ Kompletne |
-| Grand Cathay | 3 jednostki | ✅ Kompletne |
+| Empire of Man | 60 jednostek | ✅ Kompletne |
 
 **System tłumaczeń:** Wszystkie armie używają **hybrydowego systemu** `name_pl` (strukturalne) → automatyczne tłumaczenie (fallback).
 
-**Baza tłumaczeń:** 375 tłumaczeń w `scripts/translate-all-armies.js`
+**Baza tłumaczeń:** 622 tłumaczenia w `scripts/translate-all-armies.js`
 
 ## Kontrybucja
 
