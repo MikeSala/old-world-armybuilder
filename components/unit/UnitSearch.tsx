@@ -8,7 +8,7 @@ import type { UnitStatProfile, UnitStatLine } from "@/lib/data/domain/units/unit
 import { searchUnitStats, type UnitSearchResult } from "@/lib/data/domain/units/units-stats/search";
 import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
 import { tDataMaybe } from "@/lib/i18n/data";
-import { translateNameForDict, translateTextForDict } from "@/lib/i18n/translateLocale";
+import { isPolishLocale, translateNameForDict, translateTextForDict } from "@/lib/i18n/translateLocale";
 import {
   ROSTER_STAT_FIELDS,
   ROSTER_STAT_TOOLTIP_KEYS,
@@ -64,8 +64,10 @@ const statsEqual = (
 ) => ROSTER_STAT_FIELDS.every(({ key }) => norm(a[key]) === norm(b[key]));
 
 const UnitStatsTable = ({ dict, unit }: { dict: LocaleDictionary; unit: UnitStatLine }) => {
-  const baseLabelRaw = unit.name ?? unit.unit ?? dict.rosterDetailUnnamedUnit;
-  const baseLabel = translateNameForDict(baseLabelRaw, dict);
+  const preferPolishName = isPolishLocale(dict) && typeof unit.name_pl === "string";
+  const baseLabelRaw =
+    preferPolishName && unit.name_pl ? unit.name_pl : unit.name ?? unit.unit ?? dict.rosterDetailUnnamedUnit;
+  const baseLabel = preferPolishName ? baseLabelRaw : translateNameForDict(baseLabelRaw, dict);
   const profileRows = extractProfileRows(unit);
   const hasProfileMatchingBase = profileRows.some(
     ({ profile, label }) =>
@@ -223,9 +225,12 @@ const UnitSearchResultAccordionItem = ({
   value: string;
 }) => {
   const { line, armyNameKey, armyNameFallback } = result;
-  const titleSource = line.name ?? line.unit ?? null;
+  const preferPolishName = isPolishLocale(dict) && typeof line.name_pl === "string";
+  const titleSource = preferPolishName && line.name_pl ? line.name_pl : line.name ?? line.unit ?? null;
   const title = titleSource
-    ? translateNameForDict(titleSource, dict)
+    ? preferPolishName
+      ? titleSource
+      : translateNameForDict(titleSource, dict)
     : dict.rosterDetailUnnamedUnit;
   const armyLabel = tDataMaybe(armyNameKey, dict, armyNameFallback);
 
