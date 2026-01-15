@@ -249,7 +249,12 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100
         }
@@ -301,7 +306,9 @@
           "name_es": "Battle Standard Bearer",
           "points": 25,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           }
         }
@@ -505,7 +512,12 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -520,6 +532,7 @@
     },
     {
       "name_en": "Orc Warboss",
+      "name_pl": "Wódz Wojenny Orków",
       "name_cn": "兽人战将",
       "name_de": "Ork-Waaaghboss",
       "name_fr": "Chef de Guerre Orque",
@@ -772,7 +785,12 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100
         }
@@ -809,7 +827,9 @@
           "name_es": "Battle Standard Bearer",
           "points": 25,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           }
         }
@@ -1009,7 +1029,12 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -1184,12 +1209,22 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "talisman", "arcane-item", "enchanted-item"],
+          "types": [
+            "weapon",
+            "talisman",
+            "arcane-item",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100
         }
       ],
-      "lores": ["battle-magic", "elementalism", "waaagh-magic", "troll-magic"],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "waaagh-magic",
+        "troll-magic"
+      ],
       "specialRules": {
         "name_en": "Choppas, Ignore Goblin Panic, Lore of Gork, Mob Rule, Warband",
         "name_cn": "大砍刀, 无视地精恐慌, 搞哥法系, 帮派大哥, 战帮",
@@ -1318,12 +1353,22 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "talisman", "arcane-item", "enchanted-item"],
+          "types": [
+            "weapon",
+            "talisman",
+            "arcane-item",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
       ],
-      "lores": ["battle-magic", "elementalism", "waaagh-magic", "troll-magic"],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "waaagh-magic",
+        "troll-magic"
+      ],
       "specialRules": {
         "name_en": "Choppas, Ignore Goblin Panic, Lore of Gork, Mob Rule, Warband",
         "name_cn": "大砍刀, 无视地精恐慌, 搞哥法系, 帮派大哥, 战帮",
@@ -1334,6 +1379,7 @@
     },
     {
       "name_en": "Goblin Warboss",
+      "name_pl": "Wódz Wojenny Goblinów",
       "name_cn": "地精战将",
       "name_de": "Goblin-Waaaghboss",
       "name_fr": "Chef de Guerre Gobelin",
@@ -1433,7 +1479,9 @@
               "name_en": "Ambushers",
               "name_cn": "伏击",
               "points": 10,
-              "armyComposition": ["nomadic-waaagh"],
+              "armyComposition": [
+                "nomadic-waaagh"
+              ],
               "name_fr": "Embusqueurs",
               "name_de": "Überfall"
             }
@@ -1488,7 +1536,12 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100
         }
@@ -1525,7 +1578,9 @@
           "name_es": "Battle Standard Bearer",
           "points": 25,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           }
         }
@@ -1614,7 +1669,9 @@
               "name_en": "Ambushers",
               "name_cn": "伏击",
               "points": 10,
-              "armyComposition": ["nomadic-waaagh"],
+              "armyComposition": [
+                "nomadic-waaagh"
+              ],
               "name_fr": "Embusqueurs",
               "name_de": "Überfall"
             }
@@ -1669,7 +1726,12 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -1764,7 +1826,9 @@
               "name_en": "Ambushers",
               "name_cn": "伏击",
               "points": 10,
-              "armyComposition": ["nomadic-waaagh"],
+              "armyComposition": [
+                "nomadic-waaagh"
+              ],
               "name_fr": "Embusqueurs",
               "name_de": "Überfall"
             }
@@ -1828,12 +1892,21 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "talisman", "arcane-item", "enchanted-item"],
+          "types": [
+            "weapon",
+            "talisman",
+            "arcane-item",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100
         }
       ],
-      "lores": ["elementalism", "waaagh-magic", "troll-magic"],
+      "lores": [
+        "elementalism",
+        "waaagh-magic",
+        "troll-magic"
+      ],
       "specialRules": {
         "name_en": "Fear of Elves, Lore of Mork, Warband",
         "name_cn": "惧怕精灵, 毛哥法系, 战帮",
@@ -1924,7 +1997,9 @@
               "name_en": "Ambushers",
               "name_cn": "伏击",
               "points": 10,
-              "armyComposition": ["nomadic-waaagh"],
+              "armyComposition": [
+                "nomadic-waaagh"
+              ],
               "name_fr": "Embusqueurs",
               "name_de": "Überfall"
             }
@@ -1966,12 +2041,21 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "talisman", "arcane-item", "enchanted-item"],
+          "types": [
+            "weapon",
+            "talisman",
+            "arcane-item",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
       ],
-      "lores": ["elementalism", "waaagh-magic", "troll-magic"],
+      "lores": [
+        "elementalism",
+        "waaagh-magic",
+        "troll-magic"
+      ],
       "specialRules": {
         "name_en": "Fear of Elves, Lore of Mork, Warband",
         "name_cn": "惧怕精灵, 毛哥法系, 战帮",
@@ -2095,7 +2179,12 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100
         }
@@ -2137,7 +2226,9 @@
           "name_es": "Battle Standard Bearer",
           "points": 25,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           }
         }
@@ -2235,7 +2326,12 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -2331,12 +2427,21 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "talisman", "arcane-item", "enchanted-item"],
+          "types": [
+            "weapon",
+            "talisman",
+            "arcane-item",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100
         }
       ],
-      "lores": ["illusion", "waaagh-magic", "troll-magic"],
+      "lores": [
+        "illusion",
+        "waaagh-magic",
+        "troll-magic"
+      ],
       "specialRules": {
         "name_en": "Fear of Elves, Hatred (Dwarfs), Lore of Mork, Warband",
         "name_cn": "惧怕精灵, 仇恨(矮人), 毛哥法系, 战帮",
@@ -2428,12 +2533,21 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "talisman", "arcane-item", "enchanted-item"],
+          "types": [
+            "weapon",
+            "talisman",
+            "arcane-item",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
       ],
-      "lores": ["illusion", "waaagh-magic", "troll-magic"],
+      "lores": [
+        "illusion",
+        "waaagh-magic",
+        "troll-magic"
+      ],
       "specialRules": {
         "name_en": "Fear of Elves, Hatred (Dwarfs), Lore of Mork, Warband",
         "name_cn": "惧怕精灵, 仇恨(矮人), 毛哥法系, 战帮",
@@ -2574,7 +2688,10 @@
       ],
       "mounts": [],
       "items": [],
-      "lores": ["troll-magic", "elementalism"],
+      "lores": [
+        "troll-magic",
+        "elementalism"
+      ],
       "arcaneFamiliar": true,
       "specialRules": {
         "name_en": "Choppas, Da Troll Calla, Ignore Goblin Panic, Protect Da Boss, Syphoned Strength, Warband",
@@ -2692,12 +2809,21 @@
           "name_fr": "Objets Magiques",
           "name_it": "Oggetti magici",
           "name_pl": "Magiczne przedmioty",
-          "types": ["weapon", "armor-mages", "talisman", "arcane-item", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor-mages",
+            "talisman",
+            "arcane-item",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
       ],
-      "lores": ["troll-magic", "battle-magic"],
+      "lores": [
+        "troll-magic",
+        "battle-magic"
+      ],
       "specialRules": {
         "name_en": "Close Order, Flammable, Immune to Psychology, Indiscriminate Hunger, Large Target, Motherly Love, Regeneration (5+), Slimy Shanks, Stomp Attacks (D6), Stupidity, Terror, Timmm-berrr!, Unbreakable",
         "name_cn": "紧密阵型, 易燃, 心理免疫, 饥不择食, 大型目标, 母爱, 重生(5+), 黏滑小腿, 践踏攻击(D6), 愚笨, 惊骇, 倒啦！, 永不战败",
@@ -2977,7 +3103,12 @@
           "name_fr": "Chef (champion)",
           "points": 7,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -2988,7 +3119,9 @@
           "name_fr": "Porte-étendard",
           "points": 5,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -3172,7 +3305,12 @@
           "name_fr": "Chef (champion)",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -3183,7 +3321,9 @@
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -3307,7 +3447,9 @@
           "name_fr": "Porte-étendard",
           "points": 5,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -3473,7 +3615,9 @@
           "name_fr": "Porte-étendard",
           "points": 5,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -3620,7 +3764,9 @@
           "name_fr": "Porte-étendard",
           "points": 5,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -3709,7 +3855,9 @@
           "name_fr": "Porte-étendard",
           "points": 5,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -3793,7 +3941,9 @@
           "name_fr": "Embusqueurs",
           "points": 1,
           "perModel": true,
-          "armyComposition": ["nomadic-waaagh"]
+          "armyComposition": [
+            "nomadic-waaagh"
+          ]
         },
         {
           "name_en": "Ambushers",
@@ -3802,7 +3952,9 @@
           "name_fr": "Embusqueurs",
           "points": 0,
           "perModel": true,
-          "armyComposition": ["nomadic-waaagh"],
+          "armyComposition": [
+            "nomadic-waaagh"
+          ],
           "notes": {
             "name_en": "0-1 Goblin Wolf Rider Mob if Kiknik is in the army",
             "name_cn": "0-1Goblin Wolf Rider Mob if Kiknik is in the army",
@@ -3816,7 +3968,9 @@
           "name_de": "Geschlossene Ränge, Horde",
           "name_fr": "Ordre Serré, Horde",
           "points": 0,
-          "armyComposition": ["nomadic-waaagh"],
+          "armyComposition": [
+            "nomadic-waaagh"
+          ],
           "notes": {
             "name_en": "Replace Open Order and Skirmishers",
             "name_cn": "替换 开放阵型 和 散兵",
@@ -3861,7 +4015,12 @@
           "name_fr": "Chef (champion)",
           "points": 8,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -3872,7 +4031,9 @@
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -3982,7 +4143,9 @@
           "name_fr": "Avant-garde",
           "points": 1,
           "perModel": true,
-          "armyComposition": ["nomadic-waaagh"],
+          "armyComposition": [
+            "nomadic-waaagh"
+          ],
           "notes": {
             "name_en": "0-1 per 1000 points",
             "name_cn": "每1000分0-1",
@@ -4168,7 +4331,12 @@
           "name_fr": "Chef (champion)",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -4179,7 +4347,9 @@
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -4314,7 +4484,12 @@
           "name_fr": "Chef (champion)",
           "points": 8,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -4325,7 +4500,9 @@
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -4433,7 +4610,9 @@
           "name_fr": "Avant-garde",
           "points": 1,
           "perModel": true,
-          "armyComposition": ["nomadic-waaagh"],
+          "armyComposition": [
+            "nomadic-waaagh"
+          ],
           "notes": {
             "name_en": "0-1 per 1000 points",
             "name_cn": "每1000分0-1",
@@ -4473,7 +4652,13 @@
           "name_fr": "Chef (champion)",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "arcane-item", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "arcane-item",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         }
@@ -4527,6 +4712,7 @@
     },
     {
       "name_en": "Orc Boar Chariot",
+      "name_pl": "Rydwan Dzików Orków",
       "name_cn": "兽人野猪战车",
       "name_de": "Orc Boar Chariot",
       "name_fr": "Char à Sangliers Orque",
@@ -5028,6 +5214,7 @@
   "rare": [
     {
       "name_en": "Giant",
+      "name_pl": "Olbrzym",
       "name_cn": "巨人",
       "name_de": "Riese",
       "name_fr": "Géant",
@@ -5074,6 +5261,7 @@
     },
     {
       "name_en": "Doom Diver Catapult",
+      "name_pl": "Katapulta Nurków Zagłady",
       "name_cn": "死亡俯冲弹射器",
       "name_de": "Kamikazekatapult",
       "name_fr": "Catapulte à Plongeurs de la Mort",
@@ -5172,6 +5360,7 @@
     },
     {
       "name_en": "Arachnarok Spider",
+      "name_pl": "Pająk Arachnarok",
       "name_cn": "阿拉克纳瑞巨蛛",
       "name_de": "Arachnarok-Spinne",
       "name_fr": "Arachnarok",
@@ -5389,7 +5578,9 @@
           "name_pl": "Standard bearer",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },

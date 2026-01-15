@@ -198,12 +198,18 @@
           "name_de": "Vampirkräfte",
           "name_es": "Vampiric Powers",
           "name_fr": "Pouvoirs Vampiriques",
-          "types": ["vampiric-power"],
+          "types": [
+            "vampiric-power"
+          ],
           "selected": [],
           "maxPoints": 100
         }
       ],
-      "lores": ["dark-magic", "illusion", "necromancy"],
+      "lores": [
+        "dark-magic",
+        "illusion",
+        "necromancy"
+      ],
       "specialRules": {
         "name_en": "Dark Vitality {renegade}, Flammable, Indomitable (2), Lore of Undeath, Necromantic Undead, Regeneration (5+)",
         "name_cn": "黑暗活力, 易燃, 顽强不屈(2), 亡灵法系, 不死亡灵, 重生(5+)",
@@ -242,7 +248,9 @@
           "name_de": "Armeestandartenträger",
           "points": 25,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           },
           "name_fr": "Porteur de la Grande Bannière"
@@ -401,12 +409,18 @@
           "name_de": "Vampirkräfte",
           "name_es": "Vampiric Powers",
           "name_fr": "Pouvoirs Vampiriques",
-          "types": ["vampiric-power"],
+          "types": [
+            "vampiric-power"
+          ],
           "selected": [],
           "maxPoints": 50
         }
       ],
-      "lores": ["dark-magic", "illusion", "necromancy"],
+      "lores": [
+        "dark-magic",
+        "illusion",
+        "necromancy"
+      ],
       "specialRules": {
         "name_en": "Banner of the Count, Dark Vitality {renegade}, Flammable, Indomitable (1), Lore of Undeath, Necromantic Undead, Regeneration (5+)",
         "name_cn": "伯爵旗手, 黑暗活力, 易燃, 顽强不屈(1), 亡灵法系, 不死亡灵, 重生(5+)",
@@ -547,7 +561,11 @@
           "maxPoints": 100
         }
       ],
-      "lores": ["dark-magic", "illusion", "necromancy"],
+      "lores": [
+        "dark-magic",
+        "illusion",
+        "necromancy"
+      ],
       "specialRules": {
         "name_en": "Level 3 (or 4) Wizard, Dark Vitality {renegade}, Indomitable (1), Invocation of Nehek, Lore of Undeath, Necromantic Undead, Regeneration (5+)",
         "name_cn": "3（或4）级法师, 黑暗活力, 顽强不屈(1), 尼科之咒, 亡灵法系, 不死亡灵, 重生(5+)",
@@ -672,7 +690,11 @@
           "maxPoints": 50
         }
       ],
-      "lores": ["dark-magic", "illusion", "necromancy"],
+      "lores": [
+        "dark-magic",
+        "illusion",
+        "necromancy"
+      ],
       "specialRules": {
         "name_en": "Level 1 (or 2) Wizard, Dark Vitality {renegade}, Indomitable (1), Invocation of Nehek, Lore of Undeath, Necromantic Undead, Regeneration (5+)",
         "name_cn": "1（或2）级法师, 黑暗活力, 顽强不屈(1), 尼科之咒, 亡灵法系, 不死亡灵, 重生(5+)",
@@ -769,7 +791,12 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "talisman", "arcane-item", "enchanted-item"],
+          "types": [
+            "weapon",
+            "talisman",
+            "arcane-item",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 75
         },
@@ -779,12 +806,18 @@
           "name_de": "Vampirkräfte",
           "name_es": "Vampiric Powers",
           "name_fr": "Pouvoirs Vampiriques",
-          "types": ["vampiric-power"],
+          "types": [
+            "vampiric-power"
+          ],
           "selected": [],
           "maxPoints": 75
         }
       ],
-      "lores": ["battle-magic", "dark-magic", "necromancy"],
+      "lores": [
+        "battle-magic",
+        "dark-magic",
+        "necromancy"
+      ],
       "specialRules": {
         "name_en": "Dark Vitality {renegade}, Flammable, Hatred (all enemies), Indomitable (1), Lore of Undeath, Necromantic Undead, Poisoned Attacks, Regeneration (5+), the Hunger",
         "name_cn": "黑暗活力, 易燃, 仇恨(所有敌人), 顽强不屈(1), 亡灵法系, 不死亡灵, 淬毒攻击, 重生(5+), 饥渴",
@@ -969,6 +1002,7 @@
     },
     {
       "name_en": "Wight Lord",
+      "name_pl": "Pan Upiorów",
       "name_cn": "尸妖领主",
       "name_de": "Fluchherr",
       "name_es": "Wight Lord",
@@ -982,7 +1016,9 @@
           "name_de": "Armeestandartenträger",
           "points": 25,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           },
           "name_fr": "Porteur de la Grande Bannière"
@@ -1175,7 +1211,9 @@
           "name_fr": "Porte-étendard",
           "points": 5,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -1302,6 +1340,7 @@
     },
     {
       "name_en": "Crypt Ghouls",
+      "name_pl": "Ghule z Krypt",
       "name_cn": "墓穴食尸鬼",
       "name_de": "Gruftghule",
       "name_es": "Crypt Ghouls",
@@ -1397,6 +1436,7 @@
     },
     {
       "name_en": "Dire Wolves",
+      "name_pl": "Wilki Zagłady",
       "name_cn": "恐狼",
       "name_de": "Todeswölfe",
       "name_es": "Dire Wolves",
@@ -1449,6 +1489,7 @@
     },
     {
       "name_en": "Grave Guard",
+      "name_pl": "Straż Grobów",
       "name_cn": "荒坟守卫",
       "name_de": "Verfluchte",
       "name_es": "Grave Guard",
@@ -1484,7 +1525,9 @@
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -1586,6 +1629,7 @@
     },
     {
       "name_en": "Black Knights",
+      "name_pl": "Czarni Rycerze",
       "name_cn": "黑骑士",
       "name_de": "Fluchritter",
       "name_es": "Black Knights",
@@ -1621,7 +1665,9 @@
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -1702,6 +1748,7 @@
   "special": [
     {
       "name_en": "Grave Guard",
+      "name_pl": "Straż Grobów",
       "name_cn": "荒坟守卫",
       "name_de": "Verfluchte",
       "name_es": "Grave Guard",
@@ -1737,7 +1784,9 @@
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -1839,6 +1888,7 @@
     },
     {
       "name_en": "Black Knights",
+      "name_pl": "Czarni Rycerze",
       "name_cn": "黑骑士",
       "name_de": "Fluchritter",
       "name_es": "Black Knights",
@@ -1875,7 +1925,9 @@
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -1954,6 +2006,7 @@
     },
     {
       "name_en": "Crypt Horrors",
+      "name_pl": "Koszmary z Krypt",
       "name_cn": "墓穴恐鬼",
       "name_de": "Gruftschrecken",
       "name_es": "Crypt Horrors",
@@ -2006,6 +2059,7 @@
     },
     {
       "name_en": "Fell Bats",
+      "name_pl": "Nietoperze",
       "name_cn": "恶蝠",
       "name_de": "Vampirfledermäuse",
       "name_es": "Fell Bats",
@@ -2092,6 +2146,7 @@
     },
     {
       "name_en": "Vargheists",
+      "name_pl": "Vargheisty",
       "name_cn": "嗜血天鬼",
       "name_de": "Vargheists",
       "name_es": "Vargheists",
@@ -2144,6 +2199,7 @@
     },
     {
       "name_en": "Terrorgheist",
+      "name_pl": "Terrorgheist",
       "name_cn": "惧龙蝠",
       "name_de": "Flederbestie",
       "name_es": "Terrorgheist",
@@ -2196,6 +2252,7 @@
     },
     {
       "name_en": "Corpse Cart",
+      "name_pl": "Wóz Zwłok",
       "name_cn": "运尸车",
       "name_de": "Leichenkarren",
       "name_es": "Corpse Cart",
@@ -2289,6 +2346,7 @@
   "rare": [
     {
       "name_en": "Vargheists",
+      "name_pl": "Vargheisty",
       "name_cn": "嗜血天鬼",
       "name_de": "Vargheists",
       "name_es": "Vargheists",
@@ -2382,6 +2440,7 @@
     },
     {
       "name_en": "Terrorgheist",
+      "name_pl": "Terrorgheist",
       "name_cn": "惧龙蝠",
       "name_de": "Flederbestie",
       "name_es": "Terrorgheist",
@@ -2434,6 +2493,7 @@
     },
     {
       "name_en": "Varghulf",
+      "name_pl": "Varghulf",
       "name_cn": "嗜血蝠狼",
       "name_de": "Varghulf",
       "name_es": "Varghulf",
@@ -2486,6 +2546,7 @@
     },
     {
       "name_en": "Blood Knights",
+      "name_pl": "Krwawe Rycerze",
       "name_cn": "血骑士",
       "name_de": "Blutritter",
       "name_es": "Blood Knights",
@@ -2523,7 +2584,9 @@
           "name_fr": "Porte-étendard",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },

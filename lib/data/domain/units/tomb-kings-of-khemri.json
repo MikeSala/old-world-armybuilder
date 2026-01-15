@@ -2,6 +2,7 @@
   "characters": [
     {
       "name_en": "Tomb King",
+      "name_pl": "Król Grobowców",
       "name_cn": "古墓王",
       "name_de": "Gruftkönig",
       "name_es": "Tomb King",
@@ -18,7 +19,10 @@
           "name_fr": "Général",
           "name_es": "General",
           "points": 0,
-          "armyComposition": ["tomb-kings-of-khemri", "nehekharan-royal-hosts"]
+          "armyComposition": [
+            "tomb-kings-of-khemri",
+            "nehekharan-royal-hosts"
+          ]
         }
       ],
       "equipment": [
@@ -201,7 +205,12 @@
           "name_it": "Oggetti Magici",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100,
           "armyComposition": "tomb-kings-of-khemri"
@@ -275,6 +284,7 @@
     },
     {
       "name_en": "Tomb Prince",
+      "name_pl": "Książę Grobowców",
       "name_cn": "古墓王子",
       "name_de": "Gruftprinz",
       "name_es": "Tomb Prince",
@@ -291,7 +301,10 @@
           "name_fr": "Général",
           "name_es": "General",
           "points": 0,
-          "armyComposition": ["tomb-kings-of-khemri", "nehekharan-royal-hosts"]
+          "armyComposition": [
+            "tomb-kings-of-khemri",
+            "nehekharan-royal-hosts"
+          ]
         }
       ],
       "equipment": [
@@ -424,10 +437,18 @@
           "name_it": "Oggetti Magici",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50,
-          "armyComposition": ["tomb-kings-of-khemri", "mortuary-cults"]
+          "armyComposition": [
+            "tomb-kings-of-khemri",
+            "mortuary-cults"
+          ]
         },
         {
           "name_en": "Magic Items",
@@ -525,7 +546,9 @@
           "name_fr": "Général",
           "name_es": "General",
           "points": 0,
-          "armyComposition": ["tomb-kings-of-khemri"]
+          "armyComposition": [
+            "tomb-kings-of-khemri"
+          ]
         },
         {
           "name_en": "Battle Standard Bearer",
@@ -536,7 +559,9 @@
           "name_es": "Battle Standard Bearer",
           "points": 25,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           }
         }
@@ -709,7 +734,10 @@
           "name_fr": "Général",
           "name_es": "General",
           "points": 0,
-          "armyComposition": ["tomb-kings-of-khemri", "mortuary-cults"]
+          "armyComposition": [
+            "tomb-kings-of-khemri",
+            "mortuary-cults"
+          ]
         }
       ],
       "equipment": [
@@ -803,7 +831,11 @@
           "maxPoints": 100
         }
       ],
-      "lores": ["elementalism", "illusion", "necromancy"],
+      "lores": [
+        "elementalism",
+        "illusion",
+        "necromancy"
+      ],
       "specialRules": {
         "name_en": "Arise!, Curse of the Necropolis, Indomitable (1), Khopesh, Lore of Nehekhara, Nehekharan Undead, Regeneration (5+), From Beneath the Sands",
         "name_cn": "唤醒!, 墓地诅咒, 顽强不屈(1), 霍佩什, 尼赫喀拉法系, 尼赫喀拉亡灵, 重生(5+), 黄沙裹尸",
@@ -866,7 +898,10 @@
           "name_fr": "Général",
           "name_es": "General",
           "points": 0,
-          "armyComposition": ["tomb-kings-of-khemri", "mortuary-cults"]
+          "armyComposition": [
+            "tomb-kings-of-khemri",
+            "mortuary-cults"
+          ]
         },
         {
           "name_en": "Battle Standard Bearer",
@@ -876,7 +911,9 @@
           "name_fr": "Porteur de la Grande Bannière",
           "points": 25,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           },
           "armyComposition": "mortuary-cults"
@@ -964,7 +1001,11 @@
           "maxPoints": 50
         }
       ],
-      "lores": ["elementalism", "illusion", "necromancy"],
+      "lores": [
+        "elementalism",
+        "illusion",
+        "necromancy"
+      ],
       "specialRules": {
         "name_en": "Arise!, Curse of the Necropolis, Indomitable (1), Khopesh, Lore of Nehekhara, Nehekharan Undead, Regeneration (5+), From Beneath the Sands",
         "name_cn": "唤醒!, 墓地诅咒, 顽强不屈(1), 霍佩什, 尼赫喀拉法系, 尼赫喀拉亡灵, 重生(5+), 黄沙裹尸",
@@ -1047,7 +1088,12 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 75
         }
@@ -1092,7 +1138,9 @@
           "name_fr": "Général",
           "name_es": "General",
           "points": 0,
-          "armyComposition": ["tomb-kings-of-khemri"]
+          "armyComposition": [
+            "tomb-kings-of-khemri"
+          ]
         }
       ],
       "equipment": [
@@ -1138,7 +1186,12 @@
           "name_it": "Oggetti Magici",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -1247,7 +1300,9 @@
         }
       ],
       "items": [],
-      "lores": ["necromancy"],
+      "lores": [
+        "necromancy"
+      ],
       "specialRules": {
         "name_en": "Commander of Legions, Curse of the Necropolis, Dry as Dust, Flammable, Impact Hits (2D3), Indomitable (3), Lore of Nehekhara, My Will Be Done, Nehekharan Undead, Regeneration (5+), Settra Does Not Kneel!, Settra the Great",
         "name_cn": "军团指挥官, 墓地诅咒, 干枯如尘, 易燃, 撞击(2D3), 顽强不屈(3), 尼赫喀拉法系, 吾愿必达, 尼赫喀拉亡灵, 重生(5+), 塞特拉永不屈服!, 伟大者塞特拉",
@@ -1332,7 +1387,9 @@
           "name_fr": "Général",
           "name_es": "General",
           "points": 0,
-          "armyComposition": ["tomb-kings-of-khemri"]
+          "armyComposition": [
+            "tomb-kings-of-khemri"
+          ]
         }
       ],
       "equipment": [
@@ -1412,7 +1469,9 @@
           "name_fr": "Porte-étendard",
           "points": 5,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -1511,6 +1570,7 @@
     },
     {
       "name_en": "Skeleton Archers",
+      "name_pl": "Szkieletowi Łucznicy",
       "name_cn": "骷髅弓箭手",
       "name_de": "Skelettbogenschützen",
       "name_es": "Skeleton Archers",
@@ -1623,6 +1683,7 @@
     },
     {
       "name_en": "Tomb Guard",
+      "name_pl": "Straż Grobowców",
       "name_cn": "古墓守卫",
       "name_de": "Gruftwächter",
       "name_es": "Tomb Guard",
@@ -1659,7 +1720,9 @@
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -1767,6 +1830,7 @@
     },
     {
       "name_en": "Sepulchral Stalkers",
+      "name_pl": "Grobowe Tropy",
       "name_cn": "幽冥行者",
       "name_de": "Grabjäger",
       "name_es": "Sepulchral Stalkers",
@@ -2013,7 +2077,9 @@
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -2175,7 +2241,9 @@
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           },
           "notes": {
@@ -2422,7 +2490,12 @@
           "name_fr": "Maître d'Armes (champion)",
           "points": 5,
           "magic": {
-            "types": ["weapon", "enchanted-item", "armor", "talisman"],
+            "types": [
+              "weapon",
+              "enchanted-item",
+              "armor",
+              "talisman"
+            ],
             "maxPoints": 30
           }
         },
@@ -2435,7 +2508,9 @@
           "name_fr": "Porte-étendard",
           "points": 5,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -2546,7 +2621,12 @@
           "name_fr": "Maître des Chevaux (champion)",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 30
           }
         },
@@ -2559,7 +2639,9 @@
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -2739,7 +2821,12 @@
           "name_fr": "Capitaine des Tombes (champion)",
           "points": 7,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 50
           }
         },
@@ -2752,7 +2839,9 @@
           "name_fr": "Porte-étendard",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -2807,6 +2896,7 @@
     },
     {
       "name_en": "Ushabti",
+      "name_pl": "Ushabti",
       "name_cn": "乌沙比特",
       "name_de": "Ushabti",
       "name_es": "Ushabti",
@@ -2889,6 +2979,7 @@
   "special": [
     {
       "name_en": "Ushabti",
+      "name_pl": "Ushabti",
       "name_cn": "乌沙比特",
       "name_de": "Ushabti",
       "name_es": "Ushabti",
@@ -3093,6 +3184,7 @@
     },
     {
       "name_en": "Carrion",
+      "name_pl": "Padlinożercy",
       "name_cn": "腐尸秃鹰",
       "name_de": "Todesgeier",
       "name_es": "Carrion",
@@ -3147,6 +3239,7 @@
     },
     {
       "name_en": "Necropolis Knights",
+      "name_pl": "Rycerze Nekropolii",
       "name_cn": "墓地骑士",
       "name_de": "Nekropolenritter",
       "name_es": "Necropolis Knights",
@@ -3183,7 +3276,9 @@
           "name_fr": "Porte-étendard",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -3288,6 +3383,7 @@
     },
     {
       "name_en": "Tomb Guard",
+      "name_pl": "Straż Grobowców",
       "name_cn": "古墓守卫",
       "name_de": "Gruftwächter",
       "name_es": "Tom Guard",
@@ -3324,7 +3420,9 @@
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -3478,6 +3576,7 @@
     },
     {
       "name_en": "Sepulchral Stalkers",
+      "name_pl": "Grobowe Tropy",
       "name_cn": "幽冥行者",
       "name_de": "Grabjäger",
       "name_es": "Sepulchral Stalkers",
@@ -3577,6 +3676,7 @@
     },
     {
       "name_en": "Tomb Scorpion",
+      "name_pl": "Skorpion Grobowców",
       "name_cn": "古墓巨蝎",
       "name_de": "Gruftskorpion",
       "name_es": "Tomb Scorpion",
@@ -3679,6 +3779,7 @@
     },
     {
       "name_en": "Khemrian Warsphinx",
+      "name_pl": "Sfinks Wojenny Khemri",
       "name_cn": "喀穆里征战斯芬克斯",
       "name_de": "Khemrische Kriegssphinx",
       "name_es": "Khemrian Warsphinx",
@@ -3781,7 +3882,12 @@
           "name_fr": "Capitaine des Tombes (champion)",
           "points": 7,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 50
           }
         },
@@ -3794,7 +3900,9 @@
           "name_fr": "Porte-étendard",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -3901,6 +4009,7 @@
     },
     {
       "name_en": "Necrosphinx",
+      "name_pl": "Nekrosfinks",
       "name_cn": "死灵斯芬克斯",
       "name_de": "Nekrosphinx",
       "name_es": "Necrosphinx",
@@ -4028,6 +4137,7 @@
     },
     {
       "name_en": "Screaming Skull Catapult",
+      "name_pl": "Katapulta Krzyczących Czaszek",
       "name_cn": "尖啸颅骨投石机",
       "name_de": "Schädelkatapult",
       "name_es": "Screaming Skull Catapult",
@@ -4103,6 +4213,7 @@
     },
     {
       "name_en": "Casket of Souls",
+      "name_pl": "Skrzynia Dusz",
       "name_cn": "魂棺",
       "name_de": "Lade der Verdammten Seelen",
       "name_es": "Casket of Souls",
@@ -4176,6 +4287,7 @@
     },
     {
       "name_en": "Necrosphinx",
+      "name_pl": "Nekrosfinks",
       "name_cn": "死灵斯芬克斯",
       "name_de": "Nekrosphinx",
       "name_es": "Necroshpinx",

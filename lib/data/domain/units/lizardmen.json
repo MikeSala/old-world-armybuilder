@@ -48,7 +48,9 @@
           "points": 25,
           "exclusive": false,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           },
           "name_fr": "Porteur de la Grande Bannière"
@@ -104,7 +106,9 @@
           "name_de": "Disciplines of the Old Ones",
           "name_es": "Disciplines of the Old Ones",
           "name_fr": "Disciplines Ancestrales",
-          "types": ["discipline-old-ones"],
+          "types": [
+            "discipline-old-ones"
+          ],
           "selected": [],
           "maxPoints": 0
         }
@@ -126,6 +130,7 @@
     },
     {
       "name_en": "Saurus Oldblood",
+      "name_pl": "Stara Krew Saurusów",
       "name_cn": "蜥人古血",
       "name_de": "Saurus Oldblood",
       "name_es": "Saurus Oldblood",
@@ -281,7 +286,13 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "banner", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "banner",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100
         }
@@ -297,6 +308,7 @@
     },
     {
       "name_en": "Saurus Scar-Veteran",
+      "name_pl": "Weteran Blizn Saurusów",
       "name_cn": "蜴人疤痕老兵",
       "name_de": "Saurus Scar-Veteran",
       "name_es": "Saurus Scar-Veteran",
@@ -317,7 +329,9 @@
           "name_de": "Battle Standard Bearer",
           "points": 25,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           },
           "name_fr": "Porteur de la Grande Bannière"
@@ -437,7 +451,13 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "banner", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "banner",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -460,6 +480,7 @@
     },
     {
       "name_en": "Skink Priest",
+      "name_pl": "Kapłan Skinków",
       "name_cn": "灵蜥祭司",
       "name_de": "Skink Priest",
       "name_es": "Skink Priest",
@@ -611,7 +632,11 @@
           "maxPoints": 50
         }
       ],
-      "lores": ["elementalism", "battle-magic", "illusion"],
+      "lores": [
+        "elementalism",
+        "battle-magic",
+        "illusion"
+      ],
       "specialRules": {
         "name_en": "Arcane Vassal, Aquatic**, Cold Blooded {renegade}, Lore of Lustria",
         "name_cn": "奥术构造, 水生**, 冷血 {renegade}, 露丝契亚法系",
@@ -629,6 +654,7 @@
     },
     {
       "name_en": "Skink Chief",
+      "name_pl": "Wódz Skinków",
       "name_cn": "灵蜥首领",
       "name_de": "Skink Chief",
       "name_es": "Skink Chief",
@@ -649,7 +675,9 @@
           "name_de": "Battle Standard Bearer",
           "points": 25,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           },
           "name_fr": "Porteur de la Grande Bannière"
@@ -794,7 +822,12 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -819,6 +852,7 @@
   "core": [
     {
       "name_en": "Saurus Warriors",
+      "name_pl": "Wojownicy Saurusów",
       "name_cn": "蜥人勇士",
       "name_de": "Saurus Warriors",
       "name_es": "Saurus Warriors",
@@ -837,7 +871,12 @@
           "name_fr": "Premier de Couvée (champion)",
           "points": 7,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           },
           "name_it": "Spawn Leader (champion)"
@@ -951,7 +990,12 @@
           "name_fr": "Gardien Révéré (champion)",
           "points": 7,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 50
           }
         },
@@ -963,7 +1007,9 @@
           "name_fr": "Porte-étendard",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 100
           }
         },
@@ -1055,7 +1101,12 @@
           "name_fr": "Gardien Révéré (champion)",
           "points": 7,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 50
           }
         },
@@ -1067,7 +1118,9 @@
           "name_fr": "Porte-étendard",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 100
           }
         },
@@ -1125,6 +1178,7 @@
     },
     {
       "name_en": "Skink Skirmishers",
+      "name_pl": "Harownicy Skinków",
       "name_cn": "灵蜥散兵",
       "name_de": "Skink Skirmishers",
       "name_es": "Skink Skirmishers",
@@ -1260,6 +1314,7 @@
   "special": [
     {
       "name_en": "Chameleon Skinks",
+      "name_pl": "Kameleon Skinków",
       "name_cn": "变色龙",
       "name_de": "Chameleon Skinks",
       "name_es": "Chameleon Skinks",
@@ -1323,6 +1378,7 @@
     },
     {
       "name_en": "Kroxigors",
+      "name_pl": "Kroxigorzy",
       "name_cn": "巨蜥",
       "name_de": "Kroxigors",
       "name_es": "Kroxigors",
@@ -1386,6 +1442,7 @@
     },
     {
       "name_en": "Terradon Riders",
+      "name_pl": "Jeźdźcy Terradonów",
       "name_cn": "翼龙骑手",
       "name_de": "Terradon Riders",
       "name_es": "Terradon Riders",
@@ -1468,6 +1525,7 @@
     },
     {
       "name_en": "Ripperdactyl Riders",
+      "name_pl": "Jeźdźcy Ripperdaktyli",
       "name_cn": "巨喙龙骑手",
       "name_de": "Ripperdactyl Riders",
       "name_es": "Ripperdactyl Riders",
@@ -1639,7 +1697,9 @@
           "name_de": "Magical Standard",
           "name_es": "Magical Standard",
           "name_fr": "Bannière Magique",
-          "types": ["banner"],
+          "types": [
+            "banner"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -1662,6 +1722,7 @@
     },
     {
       "name_en": "Bastiladon",
+      "name_pl": "Bastiladon",
       "name_cn": "甲龙",
       "name_de": "Bastiladon",
       "name_es": "Bastiladon",
@@ -1729,6 +1790,7 @@
     },
     {
       "name_en": "Stegadon",
+      "name_pl": "Stegadon",
       "name_cn": "三角龙",
       "name_de": "Stegadon",
       "name_es": "Stegadon",
@@ -2021,6 +2083,7 @@
     },
     {
       "name_en": "Ancient Stegadon",
+      "name_pl": "Pradawny Stegadon",
       "name_cn": "远古三角龙",
       "name_de": "Ancient Stegadon",
       "name_es": "Ancient Stegadon",

@@ -2,6 +2,7 @@
   "characters": [
     {
       "name_en": "General of the Empire",
+      "name_pl": "Generał Imperium",
       "name_cn": "帝国将军",
       "name_de": "General des Imperiums",
       "name_fr": "Général de l'Empire",
@@ -256,7 +257,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100
         }
@@ -282,6 +288,7 @@
     },
     {
       "name_en": "Captain of the Empire",
+      "name_pl": "Kapitan Imperium",
       "name_cn": "帝国队长",
       "name_de": "Hauptmann des Imperiums",
       "name_fr": "Capitaine de l'Empire",
@@ -313,7 +320,9 @@
           "name_es": "Portaestandarte de Batalla",
           "points": 25,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           }
         }
@@ -516,7 +525,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -850,6 +864,7 @@
     },
     {
       "name_en": "Grand Master",
+      "name_pl": "Wielki Mistrz",
       "name_cn": "大导师",
       "name_de": "Großmeister",
       "name_fr": "Grand Maître",
@@ -1155,7 +1170,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100
         }
@@ -1266,7 +1286,9 @@
           "name_es": "Portaestandarte de Batalla",
           "points": 25,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           },
           "armyComposition": [
@@ -1504,7 +1526,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -1564,7 +1591,10 @@
           "name_fr": "Général",
           "name_es": "General",
           "points": 0,
-          "armyComposition": ["empire-of-man", "city-state-of-nuln"]
+          "armyComposition": [
+            "empire-of-man",
+            "city-state-of-nuln"
+          ]
         }
       ],
       "equipment": [
@@ -1718,7 +1748,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -1807,7 +1842,10 @@
           "name_fr": "Général",
           "name_es": "General",
           "points": 0,
-          "armyComposition": ["empire-of-man", "city-state-of-nuln"]
+          "armyComposition": [
+            "empire-of-man",
+            "city-state-of-nuln"
+          ]
         }
       ],
       "equipment": [
@@ -1917,7 +1955,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objets Mágicos",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100
         }
@@ -1964,7 +2007,10 @@
           "name_fr": "Général",
           "name_es": "General",
           "points": 0,
-          "armyComposition": ["empire-of-man", "city-state-of-nuln"]
+          "armyComposition": [
+            "empire-of-man",
+            "city-state-of-nuln"
+          ]
         }
       ],
       "equipment": [
@@ -2066,7 +2112,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -2128,7 +2179,10 @@
           "name_fr": "Général",
           "name_es": "General",
           "points": 0,
-          "armyComposition": ["empire-of-man", "city-state-of-nuln"]
+          "armyComposition": [
+            "empire-of-man",
+            "city-state-of-nuln"
+          ]
         }
       ],
       "equipment": [
@@ -2230,7 +2284,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100
         }
@@ -2281,7 +2340,10 @@
           "name_fr": "Général",
           "name_es": "General",
           "points": 0,
-          "armyComposition": ["empire-of-man", "city-state-of-nuln"]
+          "armyComposition": [
+            "empire-of-man",
+            "city-state-of-nuln"
+          ]
         }
       ],
       "equipment": [
@@ -2383,7 +2445,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -2437,7 +2504,9 @@
           "name_es": "Portaestandarte de Batalla",
           "points": 25,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           },
           "armyComposition": "city-state-of-nuln"
@@ -2533,7 +2602,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -2618,7 +2692,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -2835,7 +2914,9 @@
           "name_es": "Portaestandarte",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -2945,7 +3026,9 @@
           "name_es": "Portaestandarte",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -3082,7 +3165,9 @@
           "name_es": "Portaestandarte",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -3210,7 +3295,9 @@
           "name_es": "Portaestandarte",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -3338,7 +3425,9 @@
           "name_es": "Portaestandarte",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -3785,7 +3874,12 @@
           "name_es": "Sargento Veterano (campeón)",
           "points": 5,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -3797,7 +3891,9 @@
           "name_es": "Portaestandarte",
           "points": 5,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -3930,7 +4026,12 @@
           "name_es": "Sargento Veterano (campeón)",
           "points": 5,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -3942,7 +4043,9 @@
           "name_es": "Portaestandarte",
           "points": 5,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -4139,7 +4242,9 @@
           "name_es": "Portaestandarte",
           "points": 5,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 25
           }
         },
@@ -4491,6 +4596,7 @@
     },
     {
       "name_en": "Outriders",
+      "name_pl": "Zwiadowcy",
       "name_cn": "先驱侍骑",
       "name_de": "Schützenreiter",
       "name_fr": "Escorteurs",
@@ -4631,7 +4737,12 @@
           "name_es": "Preceptor (campeón)",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -4643,7 +4754,9 @@
           "name_es": "Portaestandarte",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 25
           }
         },
@@ -4794,7 +4907,12 @@
           "name_es": "Preceptor (campeón)",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -4806,7 +4924,9 @@
           "name_es": "Portaestandarte",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 25
           }
         },
@@ -4948,7 +5068,12 @@
           "name_es": "Preceptor (campeón)",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -4960,7 +5085,9 @@
           "name_es": "Portaestandarte",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 25
           }
         },
@@ -5120,7 +5247,12 @@
           "name_es": "Preceptor (campeón)",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -5132,7 +5264,9 @@
           "name_es": "Portaestandarte",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 25
           }
         },
@@ -5283,7 +5417,12 @@
           "name_es": "Preceptor (campeón)",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -5295,7 +5434,9 @@
           "name_es": "Portaestandarte",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 25
           }
         },
@@ -5446,7 +5587,12 @@
           "name_es": "Preceptor (campeón)",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -5458,7 +5604,9 @@
           "name_es": "Portaestandarte",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 25
           }
         },
@@ -5612,7 +5760,9 @@
           "name_es": "Portaestandarte",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -5733,7 +5883,9 @@
           "name_es": "Portaestandarte",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -5801,6 +5953,7 @@
     },
     {
       "name_en": "Pistoliers",
+      "name_pl": "Pistoletnicy",
       "name_cn": "手枪骑兵",
       "name_de": "Pistoliere",
       "name_fr": "Pistoliers",
@@ -5944,6 +6097,7 @@
     },
     {
       "name_en": "Outriders",
+      "name_pl": "Zwiadowcy",
       "name_cn": "先驱侍骑",
       "name_de": "Schützenreiter",
       "name_fr": "Escorteurs",
@@ -6331,7 +6485,9 @@
           "name_es": "Portaestandarte",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -6462,7 +6618,9 @@
           "name_es": "Portaestandarte",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -6584,7 +6742,9 @@
           "name_es": "Portaestandarte",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -6724,7 +6884,9 @@
           "name_es": "Portaestandarte",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -6855,7 +7017,9 @@
           "name_es": "Portaestandarte",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -6986,7 +7150,9 @@
           "name_es": "Portaestandarte",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -7074,6 +7240,7 @@
     },
     {
       "name_en": "Demigryph Knights",
+      "name_pl": "Rycerze na Demigryfach",
       "name_cn": "半狮鹫骑士",
       "name_de": "Demigreifenritter",
       "name_fr": "Chevaliers Demigriffons",
@@ -7114,7 +7281,9 @@
           "name_es": "Portaestandarte",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -7233,7 +7402,9 @@
           "name_es": "Portaestandarte",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -7343,7 +7514,9 @@
           "name_es": "Portaestandarte",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -7462,7 +7635,9 @@
           "name_es": "Portaestandarte",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -7581,7 +7756,9 @@
           "name_es": "Portaestandarte",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -7700,7 +7877,9 @@
           "name_es": "Portaestandarte",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -7944,6 +8123,7 @@
     },
     {
       "name_en": "Steam Tank",
+      "name_pl": "Czołg Parowy",
       "name_cn": "蒸汽坦克",
       "name_de": "Dampfpanzer",
       "name_fr": "Tank à Vapeur",
@@ -8027,6 +8207,7 @@
     },
     {
       "name_en": "Flagellants",
+      "name_pl": "Flagelanci",
       "name_cn": "鞭笞僧",
       "name_de": "Flagellanten",
       "name_fr": "Flagellants",
@@ -8095,6 +8276,7 @@
     },
     {
       "name_en": "Helblaster Volley Gun",
+      "name_pl": "Helblaster",
       "name_cn": "地狱喷射连环炮",
       "name_de": "Höllenfeuer-Salvenkanone",
       "name_fr": "Canon à Répétition Feu d'Enfer",
@@ -8165,6 +8347,7 @@
     },
     {
       "name_en": "Helstorm Rocket Battery",
+      "name_pl": "Wyrzutnia Rakiet Helstorm",
       "name_cn": "地狱风暴火箭炮",
       "name_de": "Höllensturm-Raketenlafette",
       "name_fr": "Batterie Tonnerre de Feu",

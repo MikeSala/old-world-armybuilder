@@ -250,7 +250,12 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100
         }
@@ -296,7 +301,9 @@
           "name_fr": "Porteur de la Grande Bannière",
           "points": 25,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           }
         }
@@ -487,7 +494,12 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -510,6 +522,7 @@
     },
     {
       "name_en": "Supreme Sorceress",
+      "name_pl": "Najwyższa Czarodziejka",
       "name_cn": "高阶女术士",
       "name_de": "Supreme Sorceress",
       "name_es": "Gran hechicera",
@@ -657,6 +670,7 @@
     },
     {
       "name_en": "Sorceress",
+      "name_pl": "Czarodziejka",
       "name_cn": "女术士",
       "name_de": "Sorceress",
       "name_es": "Hechicera ",
@@ -945,7 +959,12 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 75
         }
@@ -1008,7 +1027,9 @@
           "name_de": "Gifts of Khaine",
           "name_es": "Regalos de Khaine",
           "name_fr": "Dons de Khaine",
-          "types": ["gift-of-khaine"],
+          "types": [
+            "gift-of-khaine"
+          ],
           "selected": [],
           "maxPoints": 20
         },
@@ -1018,7 +1039,11 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 75
         }
@@ -1098,7 +1123,9 @@
           "name_de": "Forbidden Poisons",
           "name_es": "Venenos prohibidos",
           "name_fr": "Poisons Interdits",
-          "types": ["forbidden-poison"],
+          "types": [
+            "forbidden-poison"
+          ],
           "selected": [],
           "maxPoints": 15
         },
@@ -1108,7 +1135,11 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -1133,6 +1164,7 @@
   "core": [
     {
       "name_en": "Dark Elf Warriors",
+      "name_pl": "Wojownicy Mrocznych Elfów",
       "name_cn": "黑暗精灵战士",
       "name_de": "Dark Elf Warriors",
       "name_es": "Guerreros elfos oscuros",
@@ -1158,7 +1190,9 @@
           "name_fr": "Porte-étendard",
           "points": 5,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -1262,7 +1296,9 @@
           "name_fr": "Porte-étendard",
           "points": 5,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -1368,7 +1404,9 @@
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -1434,6 +1472,7 @@
     },
     {
       "name_en": "Dark Riders",
+      "name_pl": "Mroczni Jeźdźcy",
       "name_cn": "黑暗骑手",
       "name_de": "Dark Riders",
       "name_es": "Jinetes oscuros",
@@ -1556,6 +1595,7 @@
     },
     {
       "name_en": "Witch Elves",
+      "name_pl": "Wiedźmie Elfy",
       "name_cn": "巫灵",
       "name_de": "Witch Elves",
       "name_es": "Elfas brujas",
@@ -1581,7 +1621,9 @@
           "name_fr": "Porte-étendard",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -1647,7 +1689,12 @@
           "name_fr": "Maître du Draich (champion)",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -1659,7 +1706,9 @@
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -1729,6 +1778,7 @@
     },
     {
       "name_en": "Witch Elves",
+      "name_pl": "Wiedźmie Elfy",
       "name_cn": "巫灵",
       "name_de": "Witch Elves",
       "name_es": "Elfas brujas",
@@ -1754,7 +1804,9 @@
           "name_fr": "Porte-étendard",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -1818,7 +1870,12 @@
           "name_fr": "Ombre Sanglante (champion)",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         }
@@ -1919,6 +1976,7 @@
     },
     {
       "name_en": "Harpies",
+      "name_pl": "Harpie",
       "name_cn": "鹰身女妖",
       "name_de": "Harpies",
       "name_es": "Arpías",
@@ -1979,7 +2037,12 @@
           "name_fr": "Maître de la Tour (champion)",
           "points": 7,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 50
           }
         },
@@ -1991,7 +2054,9 @@
           "name_fr": "Porte-étendard",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 100
           }
         },
@@ -2061,6 +2126,7 @@
     },
     {
       "name_en": "Cold One Knights",
+      "name_pl": "Rycerze na Zimnych",
       "name_cn": "冷蜥骑士",
       "name_de": "Cold One Knights",
       "name_es": "Caballeros gélidos",
@@ -2078,7 +2144,12 @@
           "name_fr": "Chevalier d'Effroi (champion)",
           "points": 7,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 50
           }
         },
@@ -2090,7 +2161,9 @@
           "name_fr": "Porte-étendard",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -2211,6 +2284,7 @@
     },
     {
       "name_en": "Cold One Chariot",
+      "name_pl": "Rydwan na Zimnych",
       "name_cn": "冷蜥战车",
       "name_de": "Cold One Chariot",
       "name_es": "Carros de gélidos",
@@ -2263,6 +2337,7 @@
     },
     {
       "name_en": "War Hydra",
+      "name_pl": "Wojenna Hydra",
       "name_cn": "战争多头蜥",
       "name_de": "War Hydra",
       "name_es": "Hidra de guerra",
@@ -2315,6 +2390,7 @@
     },
     {
       "name_en": "Kharibdyss",
+      "name_pl": "Kharibdyss",
       "name_cn": "深渊海妖",
       "name_de": "Kharibdyss",
       "name_es": "Kharibdyss",
@@ -2394,7 +2470,9 @@
           "name_fr": "Porte-étendard",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -2493,6 +2571,7 @@
     },
     {
       "name_en": "War Hydra",
+      "name_pl": "Wojenna Hydra",
       "name_cn": "战争多头蜥",
       "name_de": "War Hydra",
       "name_es": "Hidra de guerra",
@@ -2545,6 +2624,7 @@
     },
     {
       "name_en": "Kharibdyss",
+      "name_pl": "Kharibdyss",
       "name_cn": "深渊海妖",
       "name_de": "Kharibdyss",
       "name_es": "Kharibdyss",
@@ -2666,7 +2746,12 @@
           "name_fr": "Maître Conjurateur (champion)",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         }
@@ -2705,6 +2790,7 @@
     },
     {
       "name_en": "Reaper Bolt Thrower",
+      "name_pl": "Balista Żniwiarza",
       "name_cn": "收割者弩炮",
       "name_de": "Reaper Bolt Thrower",
       "name_es": "Lanzavirotes destripador",

@@ -2,6 +2,7 @@
   "characters": [
     {
       "name_en": "Prince",
+      "name_pl": "Książę",
       "name_cn": "王子",
       "name_it": "Prince",
       "name_de": "Prinz",
@@ -463,7 +464,9 @@
           "name_it": "Onoroficenze Elfiche",
           "name_de": "Elfenehrungen",
           "name_es": "Honores élficos",
-          "types": ["elven-honour"],
+          "types": [
+            "elven-honour"
+          ],
           "selected": [],
           "maxPoints": 0,
           "name_fr": "Honneurs Elfiques"
@@ -480,6 +483,7 @@
     },
     {
       "name_en": "Noble",
+      "name_pl": "Szlachcic",
       "name_cn": "贵族",
       "name_it": "Noble",
       "name_de": "Edler",
@@ -521,7 +525,9 @@
           "name_es": "Portaestandarte de batalla",
           "points": 25,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           },
           "name_fr": "Porteur de la Grande Bannière"
@@ -949,7 +955,9 @@
           "name_it": "Onoroficenze Elfiche",
           "name_de": "Elfenehrungen",
           "name_es": "Honores élficos",
-          "types": ["elven-honour"],
+          "types": [
+            "elven-honour"
+          ],
           "selected": [],
           "maxPoints": 0,
           "name_fr": "Honneurs Elfiques"
@@ -966,6 +974,7 @@
     },
     {
       "name_en": "Archmage",
+      "name_pl": "Arcymagik",
       "name_cn": "大法师",
       "name_it": "Archmage",
       "name_de": "Erzmagier",
@@ -1312,12 +1321,19 @@
           "name_de": "Elfenehrungen",
           "name_es": "Honores élficos",
           "name_fr": "Honneurs Elfiques",
-          "types": ["elven-honour"],
+          "types": [
+            "elven-honour"
+          ],
           "selected": [],
           "maxPoints": 0
         }
       ],
-      "lores": ["battle-magic", "elementalism", "high-magic", "illusion"],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "high-magic",
+        "illusion"
+      ],
       "specialRules": {
         "name_en": "Elven Reflexes, Ithilmar Weapons, Lileath's Blessing, Lore of Saphery, Valour of Ages",
         "name_cn": "精灵反应, 伊瑟拉玛武器, 莉莉丝祝福, 萨芙睿法系, 岁月的荣耀",
@@ -1329,6 +1345,7 @@
     },
     {
       "name_en": "Mage",
+      "name_pl": "Magik",
       "name_cn": "法师",
       "name_it": "Mage",
       "name_de": "Magier",
@@ -1673,12 +1690,19 @@
           "name_de": "Elfenehrungen",
           "name_es": "Honores élficos",
           "name_fr": "Honneurs Elfiques",
-          "types": ["elven-honour"],
+          "types": [
+            "elven-honour"
+          ],
           "selected": [],
           "maxPoints": 0
         }
       ],
-      "lores": ["battle-magic", "elementalism", "high-magic", "illusion"],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "high-magic",
+        "illusion"
+      ],
       "specialRules": {
         "name_en": "Elven Reflexes, Ithilmar Weapons, Lileath's Blessing, Lore of Saphery, Valour of Ages",
         "name_cn": "精灵反应, 伊瑟拉玛武器, 莉莉丝祝福, 萨芙睿法系, 岁月的荣耀",
@@ -1811,7 +1835,10 @@
           "name_fr": "Objets Magiques"
         }
       ],
-      "lores": ["battle-magic", "elementalism"],
+      "lores": [
+        "battle-magic",
+        "elementalism"
+      ],
       "specialRules": {
         "name_en": "Blessings of Asuryan, Close Order, Dragon Armour, Elven Reflexes, Fly (10), Impetuous, Ithilmar Weapons, Large Target, Lileath's Blessing, Lore of Saphery, Stomp Attacks (D6), Swiftstride, Terror, Valour of Ages",
         "name_cn": "阿苏焉赐福, 紧密阵型, 龙甲, 精灵反应, 飞行(10), 鲁莽, 伊瑟拉玛武器, 大型目标, 莉莉丝祝福, 萨芙睿法系, 践踏攻击(D6), 快速行进, 惊骇, 岁月的荣耀",
@@ -1902,7 +1929,12 @@
           "name_it": "Oggetti Magici",
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50,
           "name_fr": "Objets Magiques"
@@ -1955,7 +1987,9 @@
           "name_fr": "Porteur de la Grande Bannière",
           "points": 25,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           }
         }
@@ -2033,7 +2067,12 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 75
         }
@@ -2080,7 +2119,9 @@
           "name_fr": "Porteur de la Grande Bannière",
           "points": 25,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           }
         }
@@ -2368,12 +2409,21 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "talisman", "enchanted-item", "arcane-item"],
+          "types": [
+            "weapon",
+            "talisman",
+            "enchanted-item",
+            "arcane-item"
+          ],
           "selected": [],
           "maxPoints": 75
         }
       ],
-      "lores": ["dark-magic", "elementalism", "illusion"],
+      "lores": [
+        "dark-magic",
+        "elementalism",
+        "illusion"
+      ],
       "specialRules": {
         "name_en": "Elven Reflexes, Ithilmar Weapons, Lore of Saphery, Valour of Ages",
         "name_cn": "精灵反应, 伊瑟拉玛武器, 萨芙睿法系, 岁月的荣耀",
@@ -2574,7 +2624,9 @@
           "name_es": "Portaestandarte",
           "points": 5,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           },
           "name_fr": "Porte-étendard"
@@ -2719,7 +2771,9 @@
           "name_es": "Portaestandarte",
           "points": 5,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 25
           },
           "name_fr": "Porte-étendard"
@@ -2817,6 +2871,7 @@
     },
     {
       "name_en": "Lothern Sea Guard",
+      "name_pl": "Straż Morska Lothernu",
       "name_cn": "洛瑟恩海卫",
       "name_it": "Guardia del Mare di Lothern",
       "name_de": "Seegarde von Lothern",
@@ -2843,7 +2898,12 @@
           "name_es": "Maestro del mar (Campeón)",
           "points": 7,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           },
           "name_fr": "Maître Maritime (champion)"
@@ -2856,7 +2916,9 @@
           "name_es": "Portaestandarte",
           "points": 5,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           },
           "name_fr": "Porte-étendard"
@@ -2944,6 +3006,7 @@
     },
     {
       "name_en": "Ellyrian Reavers",
+      "name_pl": "Najezdnicy z Ellyrionu",
       "name_cn": "艾里昂掠夺者",
       "name_it": "Ellyrian Reavers",
       "name_de": "Ellyrianische Grenzreiter",
@@ -2970,7 +3033,12 @@
           "name_es": "Heraldo (campeón)",
           "points": 8,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           },
           "name_fr": "Émissaire (champion)"
@@ -2983,7 +3051,9 @@
           "name_es": "Portaestandarte",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 25
           },
           "name_fr": "Porte-étendard"
@@ -3077,6 +3147,7 @@
     },
     {
       "name_en": "Silver Helms",
+      "name_pl": "Srebrne Hełmy",
       "name_cn": "银盔骑士",
       "name_it": "Elmi D'Argento",
       "name_de": "Silberhelme",
@@ -3100,7 +3171,12 @@
           "name_es": "Yelmo alto (campeón)",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           },
           "name_fr": "Grand Heaume (champion)"
@@ -3113,7 +3189,9 @@
           "name_es": "Portaestandarte",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 25
           },
           "name_fr": "Porte-étendard"
@@ -3207,7 +3285,12 @@
           "name_es": "Hermana mayor",
           "points": 7,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 50
           },
           "name_fr": "Sœur Supérieure"
@@ -3476,7 +3559,12 @@
           "name_es": "Guardián",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           },
           "name_fr": "Gardien"
@@ -3489,7 +3577,9 @@
           "name_es": "Portaestandarte",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           },
           "name_fr": "Porte-étendard"
@@ -3687,6 +3777,7 @@
   "special": [
     {
       "name_en": "Dragon Princes",
+      "name_pl": "Książęta Smoków",
       "name_cn": "龙王子",
       "name_it": "Principi Drago",
       "name_de": "Drachenprinzen",
@@ -3710,7 +3801,12 @@
           "name_es": "Maestro de dragones",
           "points": 7,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 50
           },
           "name_fr": "Maître Dragon"
@@ -3723,7 +3819,9 @@
           "name_es": "Portaestandarte",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           },
           "name_fr": "Porte-étendard"
@@ -3804,7 +3902,12 @@
           "name_es": "Señor de la espada",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 50
           },
           "name_fr": "Grande Lame"
@@ -3817,7 +3920,9 @@
           "name_es": "Portaestandarte",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           },
           "name_fr": "Porte-étendard"
@@ -3881,6 +3986,7 @@
     },
     {
       "name_en": "Phoenix Guard",
+      "name_pl": "Straż Feniksa",
       "name_cn": "凤凰守卫",
       "name_it": "Phoenix Guard",
       "name_de": "Phönixgarde",
@@ -3904,7 +4010,12 @@
           "name_es": "Guardián de la llama",
           "points": 7,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           },
           "name_fr": "Gardien de la Flamme"
@@ -3917,7 +4028,9 @@
           "name_es": "Portaestandarte",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 100
           },
           "name_fr": "Porte-étendard"
@@ -4007,7 +4120,12 @@
           "name_es": "Guardián",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           },
           "name_fr": "Gardien"
@@ -4020,7 +4138,9 @@
           "name_es": "Portaestandarte",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           },
           "name_fr": "Porte-étendard"
@@ -4084,6 +4204,7 @@
     },
     {
       "name_en": "Shadow Warriors",
+      "name_pl": "Wojownicy Cienia",
       "name_cn": "阴影战士",
       "name_it": "Guerrieri Ombra",
       "name_de": "Schattenkrieger",
@@ -4123,7 +4244,12 @@
           "name_es": "Caminante de las sombras",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           },
           "name_fr": "Arpenteur des Ombres"
@@ -4482,7 +4608,12 @@
           "name_es": "Hermana superiora",
           "points": 7,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 50
           },
           "name_fr": "Sœur Supérieure"
@@ -4696,6 +4827,7 @@
     },
     {
       "name_en": "Great Eagle",
+      "name_pl": "Wielki Orzeł",
       "name_cn": "巨鹰{mount}",
       "name_it": "Grandi Aquile",
       "name_de": "Riesenadler",
@@ -4863,7 +4995,12 @@
           "name_fr": "Capitaine Garde Lion (champion)",
           "points": 7,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 50
           }
         },
@@ -4876,7 +5013,9 @@
           "name_fr": "Porte-étendard",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },

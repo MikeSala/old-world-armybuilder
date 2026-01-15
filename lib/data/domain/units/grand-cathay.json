@@ -59,7 +59,11 @@
       ],
       "mounts": [],
       "items": [],
-      "lores": ["battle-magic", "elementalism", "high-magic"],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "high-magic"
+      ],
       "specialRules": {
         "name_en": "Celestial Forged Armour (5+), Disdain of the Dragons, Hatred (Warriors of Chaos & Daemonic models), Magic Resistance (-1), Mastery of the Storm Winds, Lore of Yang, Lore of Yin, Mastery of the Elemental Winds, Stubborn, Supreme Matriarch of Nan-Gau, Transformation of the Dragon, Will of the Dragons, Wrath of the Storm, Rallying Cry (Human Form), Fly (9 - Dragon Form), Large Target (Dragon Form), Stomp Attacks (D6 - Dragon Form), Swiftstride (Dragon Form), Terror (Dragon Form)",
         "name_cn": "天工铸甲(5+), 龙之蔑视, 仇恨(混沌勇士 & 恶魔模型), 魔法抗性(-1), 狂飙之主, 阳系法术, 阴系法术, 精气之风精通, 坚毅, 南皋宗姬, 转变形态, 巨龙意志, 飙龙之怒, 集结战吼(人类形态), 飞行(9 - 巨龙形态), 大型目标(巨龙形态), 践踏攻击(D6 - 巨龙形态), 快速行进(巨龙形态), 惊骇(巨龙形态)",
@@ -240,7 +244,12 @@
           }
         }
       ],
-      "lores": ["battle-magic", "elementalism", "illusion", "high-magic"],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "illusion",
+        "high-magic"
+      ],
       "specialRules": {
         "name_en": "Armoured Hide (2), Celestial Forged Armour (5+), Counter Charge, Fear, Fly (9), Impact Hits (D3+1), Mastery of the Elemental Winds, Swiftstride, Will of the Dragons, Crown of horns {cathay}",
         "name_cn": "坚硬皮肤(2), 天工铸甲(5+), 反制冲锋, 恐惧, 飞行(9), 撞击(D3+1), 精气之风精通, 快速行进, 巨龙意志, 角冠",
@@ -420,7 +429,12 @@
           }
         }
       ],
-      "lores": ["battle-magic", "elementalism", "illusion", "high-magic"],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "illusion",
+        "high-magic"
+      ],
       "specialRules": {
         "name_en": "Armoured Hide (2), Celestial Forged Armour (5+), Counter Charge, Fear, Fly (9), Impact Hits (D3+1), Mastery of the Elemental Winds, Swiftstride, Will of the Dragons, Crown of horns {cathay}",
         "name_cn": "坚硬皮肤(2), 天工铸甲(5+), 反制冲锋, 恐惧, 飞行(9), 撞击(D3+1), 精气之风精通, 快速行进, 巨龙意志, 角冠",
@@ -560,7 +574,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100,
           "notes": {
@@ -712,7 +731,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50,
           "notes": {
@@ -824,7 +848,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100
         }
@@ -870,7 +899,9 @@
           "name_es": "Portaestandarte de Batalla",
           "points": 25,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           }
         }
@@ -941,7 +972,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -966,6 +1002,7 @@
   "core": [
     {
       "name_en": "Jade Warriors",
+      "name_pl": "Jadeitowi Wojownicy",
       "name_cn": "玉勇",
       "name_de": "Jade Warriors",
       "name_fr": "Guerriers de Jade",
@@ -983,7 +1020,12 @@
           "name_es": "Jade Officer (campeón)",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -995,7 +1037,9 @@
           "name_es": "Portaestandarte",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           },
           "notes": {
@@ -1134,7 +1178,12 @@
           "name_es": "Jade Lancer Officer (campeón)",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 50
           }
         },
@@ -1146,7 +1195,9 @@
           "name_es": "Portaestandarte",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -1295,7 +1346,12 @@
           "name_es": "Jade Lancer Officer (campeón)",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 50
           }
         },
@@ -1307,7 +1363,9 @@
           "name_es": "Portaestandarte",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -1681,6 +1739,7 @@
     },
     {
       "name_en": "Sky Lantern",
+      "name_pl": "Latarnia Nieba",
       "name_cn": "天灯",
       "name_de": "Sky Lantern",
       "name_fr": "Lanterne Céleste",
@@ -1761,6 +1820,7 @@
   "rare": [
     {
       "name_en": "Sky Lantern",
+      "name_pl": "Latarnia Nieba",
       "name_cn": "天灯",
       "name_de": "Sky Lantern",
       "name_fr": "Lanterne Céleste",

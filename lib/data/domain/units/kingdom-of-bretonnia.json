@@ -128,7 +128,12 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100
         },
@@ -137,7 +142,9 @@
           "name_cn": "骑士美德",
           "name_de": "Rittertugend",
           "name_fr": "Vertus Chevaleresques",
-          "types": ["knightly-virtue"],
+          "types": [
+            "knightly-virtue"
+          ],
           "selected": [],
           "maxPoints": 0
         }
@@ -282,7 +289,10 @@
           "name_de": "Gralsgelübde",
           "name_fr": "Le Vœu du Graal",
           "points": 20,
-          "armyComposition": ["kingdom-of-bretonnia", "errantry-crusades"]
+          "armyComposition": [
+            "kingdom-of-bretonnia",
+            "errantry-crusades"
+          ]
         },
         {
           "name_en": "The Exile's Vow (replaces the Knight's Vow)",
@@ -290,7 +300,9 @@
           "name_de": "Das Exilantengelübde",
           "name_fr": "Le Vœu de l'Exilé (remplace le Vœu du Chevalier)",
           "points": 0,
-          "armyComposition": ["bretonnian-exiles"]
+          "armyComposition": [
+            "bretonnian-exiles"
+          ]
         },
         {
           "name_en": "The Crusader's Vow (replaces the Knight's Vow)",
@@ -298,7 +310,9 @@
           "name_de": "The Crusader's Vow (replaces the Knight's Vow)",
           "name_fr": "Le Vœu du Croisé (remplace le Vœu du Chevalier)",
           "points": 0,
-          "armyComposition": ["errantry-crusades"]
+          "armyComposition": [
+            "errantry-crusades"
+          ]
         }
       ],
       "mounts": [
@@ -354,7 +368,12 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 75
         },
@@ -363,7 +382,9 @@
           "name_cn": "骑士美德",
           "name_de": "Rittertugend",
           "name_fr": "Vertus Chevaleresques",
-          "types": ["knightly-virtue"],
+          "types": [
+            "knightly-virtue"
+          ],
           "selected": [],
           "maxPoints": 0
         }
@@ -492,7 +513,11 @@
           "maxPoints": 100
         }
       ],
-      "lores": ["battle-magic", "elementalism", "illusion"],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "illusion"
+      ],
       "specialRules": {
         "name_en": "Aura of the Lady, Blessings of the Lady, Lore of the Lady, Magical Attacks, Magic Resistance (-2), Shield of the Lady",
         "name_cn": "女神光辉, 女神祝福, 女神法系, 魔法攻击, 魔法抗性(-2), 女神之盾",
@@ -517,6 +542,7 @@
     },
     {
       "name_en": "Paladin",
+      "name_pl": "Palladyn",
       "name_cn": "圣骑士",
       "name_de": "Paladin",
       "name_fr": "Paladin",
@@ -556,7 +582,9 @@
           "name_fr": "Porteur de la Grande Bannière",
           "points": 0,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           }
         }
@@ -631,7 +659,10 @@
           "name_de": "Gralsgelübde",
           "name_fr": "Le Vœu du Graal",
           "points": 20,
-          "armyComposition": ["kingdom-of-bretonnia", "errantry-crusades"]
+          "armyComposition": [
+            "kingdom-of-bretonnia",
+            "errantry-crusades"
+          ]
         },
         {
           "name_en": "The Exile's Vow (replaces the Knight's Vow)",
@@ -639,7 +670,9 @@
           "name_de": "Das Exilantengelübde",
           "name_fr": "Le Vœu de l'Exilé (remplace le Vœu du Chevalier)",
           "points": 0,
-          "armyComposition": ["bretonnian-exiles"]
+          "armyComposition": [
+            "bretonnian-exiles"
+          ]
         },
         {
           "name_en": "The Crusader's Vow (replaces the Knight's Vow)",
@@ -647,7 +680,9 @@
           "name_de": "The Crusader's Vow (replaces the Knight's Vow)",
           "name_fr": "Le Vœu du Croisé (remplace le Vœu du Chevalier)",
           "points": 0,
-          "armyComposition": ["errantry-crusades"]
+          "armyComposition": [
+            "errantry-crusades"
+          ]
         }
       ],
       "mounts": [
@@ -687,7 +722,12 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         },
@@ -696,7 +736,9 @@
           "name_cn": "骑士美德",
           "name_de": "Rittertugend",
           "name_fr": "Vertus Chevaleresques",
-          "types": ["knightly-virtue"],
+          "types": [
+            "knightly-virtue"
+          ],
           "selected": [],
           "maxPoints": 0
         }
@@ -835,7 +877,11 @@
           "maxPoints": 50
         }
       ],
-      "lores": ["battle-magic", "elementalism", "illusion"],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "illusion"
+      ],
       "specialRules": {
         "name_en": "Aura of the Lady, Blessings of the Lady, Lore of the Lady, Magical Attacks, Magic Resistance (-2), Shield of the Lady",
         "name_cn": "女神光辉, 女神祝福, 女神法系, 魔法攻击, 魔法抗性(-2), 女神之盾",
@@ -934,7 +980,12 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 25
         }
@@ -1198,7 +1249,9 @@
       "options": [],
       "mounts": [],
       "items": [],
-      "lores": ["elementalism"],
+      "lores": [
+        "elementalism"
+      ],
       "specialRules": {
         "name_en": "Arcane Backlash, Armour Bane (2 - Ariandir only), Armoured Hide (1), Aura of the Lady, Beguiling Aura, Blessings of the Lady, Counter Charge, Lore of the Lady, Magical Attacks, Magic Resistance (-2), Shield of the Lady, Stomp Attacks (1), Swiftstride",
         "name_cn": "奥术反制, 碎甲攻击(2 - Ariandir only), 坚硬皮肤(1), 女神光辉, 迷人光环, 女神祝福, 反制冲锋, 女神法系, 魔法攻击, 魔法抗性(-2), 女神之盾, 践踏攻击(1), 快速行进",
@@ -1218,6 +1271,7 @@
   "core": [
     {
       "name_en": "Men-at-Arms",
+      "name_pl": "Zbrojni",
       "name_cn": "武装民兵",
       "name_de": "Landsknechte",
       "name_fr": "Hommes d'Armes",
@@ -1316,6 +1370,7 @@
     },
     {
       "name_en": "Peasant Bowmen",
+      "name_pl": "Chłopscy Łucznicy",
       "name_cn": "民兵弓箭手",
       "name_de": "Bogenschützen",
       "name_fr": "Paysans Archers",
@@ -1475,7 +1530,12 @@
           "points": 6,
           "magic": {
             "maxPoints": 25,
-            "types": ["weapon", "armor", "talisman", "enchanted-item"]
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ]
           }
         },
         {
@@ -1486,7 +1546,9 @@
           "points": 6,
           "magic": {
             "maxPoints": 25,
-            "types": ["banner"]
+            "types": [
+              "banner"
+            ]
           }
         },
         {
@@ -1542,7 +1604,9 @@
           "name_de": "Das Exilantengelübde",
           "name_fr": "Le Vœu de l'Exilé (remplace le Vœu du Chevalier)",
           "points": 0,
-          "armyComposition": ["bretonnian-exiles"]
+          "armyComposition": [
+            "bretonnian-exiles"
+          ]
         },
         {
           "name_en": "The Crusader's Vow (replaces the Knight's Vow)",
@@ -1550,7 +1614,9 @@
           "name_de": "The Crusader's Vow (replaces the Knight's Vow)",
           "name_fr": "Le Vœu du Croisé (remplace le Vœu du Chevalier)",
           "points": 0,
-          "armyComposition": ["errantry-crusades"]
+          "armyComposition": [
+            "errantry-crusades"
+          ]
         }
       ],
       "mounts": [],
@@ -1604,7 +1670,12 @@
           "points": 7,
           "magic": {
             "maxPoints": 25,
-            "types": ["weapon", "armor", "talisman", "enchanted-item"]
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ]
           }
         },
         {
@@ -1615,7 +1686,9 @@
           "points": 7,
           "magic": {
             "maxPoints": 25,
-            "types": ["banner"]
+            "types": [
+              "banner"
+            ]
           }
         },
         {
@@ -1655,7 +1728,9 @@
           "name_de": "Das Exilantengelübde",
           "name_fr": "Le Vœu de l'Exilé (remplace le Vœu du Chevalier)",
           "points": 0,
-          "armyComposition": ["bretonnian-exiles"]
+          "armyComposition": [
+            "bretonnian-exiles"
+          ]
         },
         {
           "name_en": "The Crusader's Vow (replaces the Knight's Vow)",
@@ -1663,7 +1738,9 @@
           "name_de": "The Crusader's Vow (replaces the Knight's Vow)",
           "name_fr": "Le Vœu du Croisé (remplace le Vœu du Chevalier)",
           "points": 0,
-          "armyComposition": ["errantry-crusades"]
+          "armyComposition": [
+            "errantry-crusades"
+          ]
         }
       ],
       "mounts": [],
@@ -1676,6 +1753,7 @@
     },
     {
       "name_en": "Knights Errant",
+      "name_pl": "Rycerze Wędrowni",
       "name_cn": "侠义骑士",
       "name_de": "Fahrende Ritter",
       "name_fr": "Chevaliers Errants",
@@ -1731,7 +1809,9 @@
           "points": 6,
           "magic": {
             "maxPoints": 25,
-            "types": ["banner"]
+            "types": [
+              "banner"
+            ]
           }
         },
         {
@@ -1771,7 +1851,9 @@
           "name_de": "Das Exilantengelübde",
           "name_fr": "Le Vœu de l'Exilé (remplace le Vœu du Chevalier)",
           "points": 0,
-          "armyComposition": ["bretonnian-exiles"]
+          "armyComposition": [
+            "bretonnian-exiles"
+          ]
         },
         {
           "name_en": "The Crusader's Vow (replaces the Knight's Vow)",
@@ -1779,7 +1861,9 @@
           "name_de": "The Crusader's Vow (replaces the Knight's Vow)",
           "name_fr": "Le Vœu du Croisé (remplace le Vœu du Chevalier)",
           "points": 0,
-          "armyComposition": ["errantry-crusades"]
+          "armyComposition": [
+            "errantry-crusades"
+          ]
         }
       ],
       "mounts": [],
@@ -1835,7 +1919,9 @@
           "name_es": "Standard bearer",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 25
           }
         },
@@ -1979,6 +2065,7 @@
   "special": [
     {
       "name_en": "Questing Knights",
+      "name_pl": "Rycerze Poszukujący",
       "name_cn": "探索骑士",
       "name_de": "Questritter",
       "name_fr": "Chevaliers de la Quête",
@@ -1995,7 +2082,12 @@
           "points": 7,
           "magic": {
             "maxPoints": 25,
-            "types": ["weapon", "armor", "talisman", "enchanted-item"]
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ]
           }
         },
         {
@@ -2006,7 +2098,9 @@
           "points": 7,
           "magic": {
             "maxPoints": 100,
-            "types": ["banner"]
+            "types": [
+              "banner"
+            ]
           }
         },
         {
@@ -2047,7 +2141,9 @@
           "name_cn": "典范骑士可选择一项骑士美德",
           "name_de": "Rittergelübde für Eremit",
           "name_fr": "Vertu Chevaleresque du Champion de la Quête",
-          "types": ["knightly-virtue"],
+          "types": [
+            "knightly-virtue"
+          ],
           "selected": [],
           "maxPoints": 0
         }
@@ -2072,6 +2168,7 @@
     },
     {
       "name_en": "Pegasus Knights",
+      "name_pl": "Rycerze Pegazów",
       "name_cn": "飞马骑士",
       "name_de": "Pegasusritter",
       "name_fr": "Chevaliers Pégases",
@@ -2095,7 +2192,9 @@
           "points": 7,
           "magic": {
             "maxPoints": 50,
-            "types": ["banner"]
+            "types": [
+              "banner"
+            ]
           }
         },
         {
@@ -2135,7 +2234,9 @@
           "name_de": "Das Exilantengelübde",
           "name_fr": "Le Vœu de l'Exilé (remplace le Vœu du Chevalier)",
           "points": 0,
-          "armyComposition": ["bretonnian-exiles"]
+          "armyComposition": [
+            "bretonnian-exiles"
+          ]
         },
         {
           "name_en": "The Crusader's Vow (replaces the Knight's Vow)",
@@ -2143,7 +2244,9 @@
           "name_de": "The Crusader's Vow (replaces the Knight's Vow)",
           "name_fr": "Le Vœu du Croisé (remplace le Vœu du Chevalier)",
           "points": 0,
-          "armyComposition": ["errantry-crusades"]
+          "armyComposition": [
+            "errantry-crusades"
+          ]
         }
       ],
       "mounts": [],
@@ -2156,6 +2259,7 @@
     },
     {
       "name_en": "Mounted Yeomen",
+      "name_pl": "Konni Jegomościowie",
       "name_cn": "骑马侍从",
       "name_de": "Berittene Freisassen",
       "name_fr": "Sergents montés",
@@ -2412,6 +2516,7 @@
   "rare": [
     {
       "name_en": "Grail Knights",
+      "name_pl": "Rycerze Graala",
       "name_cn": "圣杯骑士",
       "name_de": "Gralsritter",
       "name_fr": "Chevaliers du Graal",
@@ -2428,7 +2533,12 @@
           "points": 7,
           "magic": {
             "maxPoints": 50,
-            "types": ["weapon", "armor", "talisman", "enchanted-item"]
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ]
           }
         },
         {
@@ -2439,7 +2549,9 @@
           "points": 7,
           "magic": {
             "maxPoints": 100,
-            "types": ["banner"]
+            "types": [
+              "banner"
+            ]
           }
         },
         {
@@ -2480,7 +2592,9 @@
           "name_cn": "圣杯守卫可选择一项骑士美德",
           "name_de": "Rittertugend für Gralshüter",
           "name_fr": "Vertu Chevaleresque du Gardien du Graal",
-          "types": ["knightly-virtue"],
+          "types": [
+            "knightly-virtue"
+          ],
           "selected": [],
           "maxPoints": 0
         }
@@ -2502,6 +2616,7 @@
     },
     {
       "name_en": "Field Trebuchet",
+      "name_pl": "Trebusz Polowy",
       "name_cn": "野战投石机",
       "name_de": "Feldtrebuchet",
       "name_fr": "Trébuchet de Campagne",
@@ -2579,7 +2694,12 @@
           "name_fr": "Desperado (champion)",
           "points": 7,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 50
           }
         },

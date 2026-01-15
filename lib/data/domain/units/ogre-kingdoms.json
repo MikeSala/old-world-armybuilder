@@ -2,6 +2,7 @@
   "characters": [
     {
       "name_en": "Tyrant",
+      "name_pl": "Tyran",
       "name_cn": "暴君",
       "name_fr": "Tyran",
       "name_de": "Tyrann",
@@ -129,7 +130,12 @@
           "name_cn": "魔法物品",
           "name_fr": "Objets Magiques",
           "name_de": "Magische Gegenstände",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100
         },
@@ -138,7 +144,9 @@
           "name_cn": "威名",
           "name_de": "Großer Name",
           "name_fr": "Grand Nom",
-          "types": ["big-name"],
+          "types": [
+            "big-name"
+          ],
           "selected": [],
           "maxPoints": 0
         }
@@ -159,6 +167,7 @@
     },
     {
       "name_en": "Bruiser",
+      "name_pl": "Łobuz",
       "name_cn": "大汉",
       "name_fr": "Cogneur",
       "name_de": "Brecher",
@@ -180,7 +189,9 @@
           "name_fr": "Porteur de la Grande Bannière",
           "points": 25,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           }
         }
@@ -297,7 +308,12 @@
           "name_cn": "魔法物品",
           "name_fr": "Objets Magiques",
           "name_de": "Magische Gegenstände",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         },
@@ -306,7 +322,9 @@
           "name_cn": "威名",
           "name_de": "Großer Name",
           "name_fr": "Grand Nom",
-          "types": ["big-name"],
+          "types": [
+            "big-name"
+          ],
           "selected": [],
           "maxPoints": 0
         }
@@ -326,6 +344,7 @@
     },
     {
       "name_en": "Slaughtermaster",
+      "name_pl": "Mistrz Rzezi",
       "name_cn": "屠宰大师",
       "name_fr": "Désosseur",
       "name_de": "Fleischermeister",
@@ -411,7 +430,12 @@
           "name_cn": "魔法物品",
           "name_fr": "Objets Magiques",
           "name_de": "Magische Gegenstände",
-          "types": ["enchanted-item", "talisman", "weapon", "arcane-item"],
+          "types": [
+            "enchanted-item",
+            "talisman",
+            "weapon",
+            "arcane-item"
+          ],
           "selected": [],
           "maxPoints": 100
         },
@@ -420,12 +444,18 @@
           "name_cn": "威名",
           "name_de": "Großer Name",
           "name_fr": "Grand Nom",
-          "types": ["big-name"],
+          "types": [
+            "big-name"
+          ],
           "selected": [],
           "maxPoints": 0
         }
       ],
-      "lores": ["battle-magic", "elementalism", "illusion"],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "illusion"
+      ],
       "specialRules": {
         "name_en": "Armour Bane (1), Fear, Impact Hits (2), Lore of the Great Maw, Ogre Charge",
         "name_cn": "碎甲攻击(1), 恐惧, 撞击(2), 大胃之神法系, 食人魔冲锋",
@@ -441,6 +471,7 @@
     },
     {
       "name_en": "Butcher",
+      "name_pl": "Rzeźnik",
       "name_cn": "屠夫",
       "name_fr": "Boucher",
       "name_de": "Fleischer",
@@ -523,7 +554,12 @@
           "name_cn": "魔法物品",
           "name_fr": "Objets Magiques",
           "name_de": "Magische Gegenstände",
-          "types": ["enchanted-item", "talisman", "weapon", "arcane-item"],
+          "types": [
+            "enchanted-item",
+            "talisman",
+            "weapon",
+            "arcane-item"
+          ],
           "selected": [],
           "maxPoints": 50
         },
@@ -532,12 +568,18 @@
           "name_cn": "威名",
           "name_de": "Großer Name",
           "name_fr": "Grand Nom",
-          "types": ["big-name"],
+          "types": [
+            "big-name"
+          ],
           "selected": [],
           "maxPoints": 0
         }
       ],
-      "lores": ["battle-magic", "elementalism", "illusion"],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "illusion"
+      ],
       "specialRules": {
         "name_en": "Armour Bane (1), Fear, Impact Hits (2), Lore of the Great Maw, Ogre Charge",
         "name_cn": "碎甲攻击(1), 恐惧, 撞击(2), 大胃之神法系, 食人魔冲锋",
@@ -552,6 +594,7 @@
     },
     {
       "name_en": "Hunter",
+      "name_pl": "Łowca",
       "name_cn": "猎人",
       "name_fr": "Chasseur",
       "name_de": "Jäger",
@@ -655,7 +698,12 @@
           "name_cn": "魔法物品",
           "name_fr": "Objets Magiques",
           "name_de": "Magische Gegenstände",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         },
@@ -664,7 +712,9 @@
           "name_cn": "威名",
           "name_de": "Großer Name",
           "name_fr": "Grand Nom",
-          "types": ["big-name"],
+          "types": [
+            "big-name"
+          ],
           "selected": [],
           "maxPoints": 0
         }
@@ -759,12 +809,20 @@
           "name_cn": "魔法物品",
           "name_fr": "Objets Magiques",
           "name_de": "Magische Gegenstände",
-          "types": ["weapon", "talisman", "enchanted-item", "arcane-item"],
+          "types": [
+            "weapon",
+            "talisman",
+            "enchanted-item",
+            "arcane-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
       ],
-      "lores": ["battle-magic", "elementalism"],
+      "lores": [
+        "battle-magic",
+        "elementalism"
+      ],
       "specialRules": {
         "name_en": "Armour Bane (1), Blessings of the Volcano God, Fear, Flaming Attacks, Impact Hits (1), Ogre Charge",
         "name_cn": "碎甲攻击(1), 火嘴神的祝福, 恐惧, 火焰攻击, 撞击(1), 食人魔冲锋",
@@ -776,6 +834,7 @@
   "core": [
     {
       "name_en": "Ogre Bulls",
+      "name_pl": "Ogry Byki",
       "name_cn": "食人魔蛮牛战士",
       "name_de": "Ogerbullen",
       "name_es": "Ogre Bulls",
@@ -828,7 +887,9 @@
           "name_it": "Standard bearer",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           },
           "options": [
@@ -926,6 +987,7 @@
     },
     {
       "name_en": "Ironguts",
+      "name_pl": "Żelazoflaki",
       "name_cn": "铁胃",
       "name_de": "Eisenwänste",
       "name_es": "Ironguts",
@@ -959,7 +1021,12 @@
           "name_cn": "大肚王(冠军)",
           "points": 7,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           },
           "name_de": "Stahlwanst (Champion)",
@@ -972,7 +1039,9 @@
           "name_cn": "旗手",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           },
           "name_de": "Standartenträger",
@@ -1271,6 +1340,7 @@
   "special": [
     {
       "name_en": "Leadbelchers",
+      "name_pl": "Ołowiopoły",
       "name_cn": "喷铅者",
       "name_de": "Bleispucker",
       "name_es": "Leadbelchers",
@@ -1378,6 +1448,7 @@
     },
     {
       "name_en": "Maneaters",
+      "name_pl": "Ludojady",
       "name_cn": "食人者",
       "name_de": "Vielfraße",
       "name_es": "Maneaters",
@@ -1413,7 +1484,12 @@
           "name_de": "Vielfraß-Hauptmann (Champion)",
           "points": 7,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 50
           }
         },
@@ -1424,7 +1500,9 @@
           "name_de": "Standartenträger",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           },
           "options": [
@@ -1578,6 +1656,7 @@
     },
     {
       "name_en": "Mournfang Cavalry",
+      "name_pl": "Kawaleria Załobnych Kłów",
       "name_cn": "丧牙兽骑兵",
       "name_de": "Trauerfangkavallerie",
       "name_es": "Mournfang Cavalry",
@@ -1595,7 +1674,12 @@
           "name_cn": "碾压者(冠军)",
           "points": 7,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           },
           "name_de": "Quetscher (Champion)",
@@ -1608,7 +1692,9 @@
           "name_cn": "旗手",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           },
           "name_de": "Standartenträger",
@@ -1808,6 +1894,7 @@
     },
     {
       "name_en": "Ironblaster",
+      "name_pl": "Żelazogrzmot",
       "name_cn": "轰铁炮",
       "name_de": "Eisenspeier",
       "name_es": "Ironblaster",
@@ -2055,6 +2142,7 @@
     },
     {
       "name_en": "Giant",
+      "name_pl": "Olbrzym",
       "name_cn": "巨人",
       "name_de": "Riese",
       "name_es": "Giant",

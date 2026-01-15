@@ -118,7 +118,12 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100
         }
@@ -155,7 +160,9 @@
           "name_de": "Battle Standard Bearer",
           "points": 25,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           },
           "name_fr": "Porteur de la Grande Bannière"
@@ -235,7 +242,12 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -258,6 +270,7 @@
     },
     {
       "name_en": "Grey Seer",
+      "name_pl": "Szary Prorok",
       "name_cn": "灰先知",
       "name_de": "Grauer Prophet",
       "name_es": "Grey Seer",
@@ -406,6 +419,7 @@
     },
     {
       "name_en": "Warlock Engineer",
+      "name_pl": "Inżynier Czarnoksiężnik",
       "name_cn": "工程术士",
       "name_de": "Warlocktechniker",
       "name_es": "Warlock Engineer",
@@ -527,7 +541,10 @@
           "maxPoints": 50
         }
       ],
-      "lores": ["battle-magic", "elementalism"],
+      "lores": [
+        "battle-magic",
+        "elementalism"
+      ],
       "specialRules": {
         "name_en": "Lore of the Horned Rat, Magical Attacks, Scurry Away, Verminous Valour, Warband, Warpstone Weapons",
         "name_cn": "大角鼠法系, 魔法攻击, 抱头鼠窜, 首鼠两端, 战帮, 次元石武器",
@@ -583,7 +600,11 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -727,7 +748,11 @@
           "maxPoints": 50
         }
       ],
-      "lores": ["daemonology", "battle-magic", "dark-magic"],
+      "lores": [
+        "daemonology",
+        "battle-magic",
+        "dark-magic"
+      ],
       "specialRules": {
         "name_en": "Cloud of Flies, Frenzy, Lore of the Horned Rat, Magical Attacks, Scurry Away, Verminous Valour, Warband, Warpstone Weapons (not for the mount)",
         "name_cn": "蝇之云, 狂暴, 大角鼠法系, 魔法攻击, 抱头鼠窜, 首鼠两端, 战帮, 次元石武器(不适用于此模型的坐骑)",
@@ -740,6 +765,7 @@
   "core": [
     {
       "name_en": "Stormvermin",
+      "name_pl": "Szturmoszczury",
       "name_cn": "风暴鼠",
       "name_de": "Sturmratten",
       "name_es": "Stormvermin",
@@ -813,7 +839,9 @@
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -876,6 +904,7 @@
     },
     {
       "name_en": "Clanrats",
+      "name_pl": "Szczury Klanowe",
       "name_cn": "氏族鼠",
       "name_de": "Klanratten",
       "name_es": "Clanrats",
@@ -1343,6 +1372,7 @@
     },
     {
       "name_en": "Plague Monks",
+      "name_pl": "Mnisi Zarazy",
       "name_cn": "瘟疫僧",
       "name_de": "Seuchenmönche",
       "name_es": "Plague Monks",
@@ -1374,7 +1404,12 @@
           "name_fr": "Diacre de la Peste",
           "points": 6,
           "magic": {
-            "types": ["weapon", "talisman", "enchanted-item", "armor"],
+            "types": [
+              "weapon",
+              "talisman",
+              "enchanted-item",
+              "armor"
+            ],
             "maxPoints": 25
           }
         },
@@ -1386,7 +1421,9 @@
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -1437,6 +1474,7 @@
   "special": [
     {
       "name_en": "Stormvermin",
+      "name_pl": "Szturmoszczury",
       "name_cn": "风暴鼠",
       "name_de": "Sturmratten",
       "name_es": "Stormvermin",
@@ -1489,7 +1527,9 @@
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -1552,6 +1592,7 @@
     },
     {
       "name_en": "Gutter Runners",
+      "name_pl": "Biegnące Ściekami",
       "name_cn": "阴沟奔行鼠",
       "name_de": "Gossenläufer",
       "name_es": "Gutter Runners",
@@ -1569,7 +1610,12 @@
           "name_fr": "Assassin",
           "points": 7,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         }
@@ -1649,6 +1695,7 @@
     },
     {
       "name_en": "Rat Ogres",
+      "name_pl": "Szczurze Ogry",
       "name_cn": "鼠巨魔",
       "name_de": "Rattenoger",
       "name_es": "Rat Ogres",
@@ -1774,6 +1821,7 @@
     },
     {
       "name_en": "Plague Monks",
+      "name_pl": "Mnisi Zarazy",
       "name_cn": "瘟疫僧",
       "name_de": "Seuchenmönche",
       "name_es": "Plague Monks",
@@ -1808,7 +1856,12 @@
           "name_fr": "Diacre de la Peste",
           "points": 6,
           "magic": {
-            "types": ["weapon", "talisman", "enchanted-item", "armor"],
+            "types": [
+              "weapon",
+              "talisman",
+              "enchanted-item",
+              "armor"
+            ],
             "maxPoints": 25
           }
         },
@@ -1820,7 +1873,9 @@
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -1942,6 +1997,7 @@
     },
     {
       "name_en": "Poisoned Wind Globadiers",
+      "name_pl": "Globadziści Zatrułych Wiatrów",
       "name_cn": "毒风掷弹手",
       "name_de": "Giftwindkrieger",
       "name_es": "Poisoned Wind Globadiers",
@@ -2075,6 +2131,7 @@
     },
     {
       "name_en": "Doomwheel",
+      "name_pl": "Koło Zagłady",
       "name_cn": "毁灭巨轮",
       "name_de": "Todesrad",
       "name_es": "Doomwheel",
@@ -2118,6 +2175,7 @@
     },
     {
       "name_en": "Warp Lightning Cannon",
+      "name_pl": "Armata Błyskawicy Osnowy",
       "name_cn": "次元闪电炮",
       "name_de": "Warpblitzkanone",
       "name_es": "Warp Lightning Cannon",
@@ -2172,6 +2230,7 @@
     },
     {
       "name_en": "Plagueclaw Catapult",
+      "name_pl": "Katapulta Zarazowego Szponu",
       "name_cn": "瘟疫利爪投石机",
       "name_de": "Seuchenklauen Katapult",
       "name_es": "Plagueclaw Catapult",
@@ -2226,6 +2285,7 @@
     },
     {
       "name_en": "Plague Censer Bearers",
+      "name_pl": "Niosący Kadzidła Zarazy",
       "name_cn": "瘟疫香炉僧",
       "name_de": "Seuchenschleuderer",
       "name_es": "Plague Censer Bearers",

@@ -2,6 +2,7 @@
   "characters": [
     {
       "name_en": "Sorcerer-Prophet",
+      "name_pl": "Czarnoksiężnik-Prorok",
       "name_cn": "术士先知",
       "name_de": "Sorcerer-Prophet",
       "name_es": "Sorcerer-Prophet",
@@ -202,7 +203,11 @@
           "maxPoints": 100
         }
       ],
-      "lores": ["daemonology", "dark-magic", "elementalism"],
+      "lores": [
+        "daemonology",
+        "dark-magic",
+        "elementalism"
+      ],
       "specialRules": {
         "name_en": "Blackshard Armour, Ensorcelled Weapons, Infernal Engineer, Lore of Hashut, Resolute, Sorcerer's Curse, Stubborn",
         "name_cn": "黑铁鳞甲, 附魔武器, 地狱工程师, 哈苏特法系, 坚决, 术士诅咒, 坚毅",
@@ -412,7 +417,11 @@
           "maxPoints": 50
         }
       ],
-      "lores": ["daemonology", "dark-magic", "elementalism"],
+      "lores": [
+        "daemonology",
+        "dark-magic",
+        "elementalism"
+      ],
       "specialRules": {
         "name_en": "Blackshard Armour, Ensorcelled Weapons, Infernal Engineer, Lore of Hashut, Resolute, Sorcerer's Curse, Stubborn",
         "name_cn": "黑铁鳞甲, 附魔武器, 地狱工程师, 哈苏特法系, 坚决, 术士诅咒, 坚毅",
@@ -582,7 +591,9 @@
           "name_es": "Great Taurus",
           "name_fr": "Grand Taurus",
           "points": 120,
-          "armyComposition": ["cd-renegade"]
+          "armyComposition": [
+            "cd-renegade"
+          ]
         },
         {
           "name_en": "Bale Taurus",
@@ -591,7 +602,9 @@
           "name_es": "Bale Taurus",
           "name_fr": "Sombre Taurus",
           "points": 160,
-          "armyComposition": ["cd-renegade"]
+          "armyComposition": [
+            "cd-renegade"
+          ]
         }
       ],
       "items": [
@@ -601,7 +614,12 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100
         }
@@ -647,7 +665,9 @@
           "name_fr": "Porteur de la Grande Bannière",
           "points": 25,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           }
         }
@@ -788,7 +808,9 @@
           "name_es": "Great Taurus",
           "name_fr": "Grand Taurus",
           "points": 120,
-          "armyComposition": ["cd-renegade"]
+          "armyComposition": [
+            "cd-renegade"
+          ]
         }
       ],
       "items": [
@@ -798,7 +820,12 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -821,6 +848,7 @@
     },
     {
       "name_en": "Bull Centaur Taur'ruk",
+      "name_pl": "Byczentaur Taur'ruk",
       "name_cn": "半人牛领军者",
       "name_de": "Bull Centaur Taur'ruk",
       "name_es": "Bull Centaur Taur'ruk",
@@ -915,7 +943,12 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 75
         }
@@ -1050,7 +1083,12 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -1258,7 +1296,12 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100
         }
@@ -1458,7 +1501,12 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -1483,6 +1531,7 @@
   "core": [
     {
       "name_en": "Infernal Guard",
+      "name_pl": "Infernalna Straż",
       "name_cn": "地狱卫队",
       "name_de": "Infernal Guard",
       "name_es": "Infernal Guard",
@@ -1516,7 +1565,12 @@
           "name_fr": "Masque de Mort (champion)",
           "points": 6,
           "magic": {
-            "types": ["weapon", "talisman", "armor", "enchanted-item"],
+            "types": [
+              "weapon",
+              "talisman",
+              "armor",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           },
           "options": [
@@ -1548,7 +1602,9 @@
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -1676,6 +1732,7 @@
     },
     {
       "name_en": "Hobgoblin Cutthroats",
+      "name_pl": "Hobgobliny Opryszki",
       "name_cn": "大地精割喉者",
       "name_de": "Hobgoblin Cutthroats",
       "name_es": "Hobgoblin Cutthroats",
@@ -1781,7 +1838,12 @@
           "name_fr": "Chef",
           "points": 6,
           "magic": {
-            "types": ["weapon", "talisman", "armor", "enchanted-item"],
+            "types": [
+              "weapon",
+              "talisman",
+              "armor",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -1793,7 +1855,9 @@
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -1930,7 +1994,12 @@
           "name_fr": "Superviseur (champion)",
           "points": 7,
           "magic": {
-            "types": ["weapon", "talisman", "armor", "enchanted-item"],
+            "types": [
+              "weapon",
+              "talisman",
+              "armor",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           },
           "options": [
@@ -1961,7 +2030,9 @@
           "name_fr": "Porte-étendard",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 100
           }
         },
@@ -2068,7 +2139,12 @@
           "name_fr": "Superviseur (champion)",
           "points": 7,
           "magic": {
-            "types": ["weapon", "talisman", "armor", "enchanted-item"],
+            "types": [
+              "weapon",
+              "talisman",
+              "armor",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           },
           "options": [
@@ -2099,7 +2175,9 @@
           "name_fr": "Porte-étendard",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 100
           }
         },
@@ -2352,7 +2430,12 @@
           "name_fr": "Ba'hal",
           "points": 6,
           "magic": {
-            "types": ["weapon", "talisman", "armor", "enchanted-item"],
+            "types": [
+              "weapon",
+              "talisman",
+              "armor",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -2364,7 +2447,9 @@
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -2441,6 +2526,7 @@
     },
     {
       "name_en": "Iron Daemon",
+      "name_pl": "Żelazny Demon",
       "name_cn": "钢铁恶魔",
       "name_de": "Iron Daemon",
       "name_es": "Iron Daemon",
@@ -2503,6 +2589,7 @@
     },
     {
       "name_en": "Deathshrieker Rocket Launcher",
+      "name_pl": "Wyrzutnia Rakiet Wrzasku Śmierci",
       "name_cn": "死亡尖啸火箭车",
       "name_de": "Deathshrieker Rocket Launcher",
       "name_es": "Deathshrieker Rocket Launcher",
@@ -2600,6 +2687,7 @@
     },
     {
       "name_en": "Magma Cannon",
+      "name_pl": "Armata Magmy",
       "name_cn": "熔岩炮",
       "name_de": "Magma Cannon",
       "name_es": "Magma Cannon",
@@ -2874,6 +2962,7 @@
     },
     {
       "name_en": "Dreadquake Mortar",
+      "name_pl": "Moździerz Straszliwego Wstrząsu",
       "name_cn": "恐震臼炮",
       "name_de": "Dreadquake Mortar",
       "name_es": "Dreadquake Mortar",
@@ -2960,6 +3049,7 @@
     },
     {
       "name_en": "Hellcannon",
+      "name_pl": "Piekielna Armata",
       "name_cn": "地狱炮",
       "name_de": "Hellcannon",
       "name_es": "Hellcannon",
