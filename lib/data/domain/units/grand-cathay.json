@@ -18,6 +18,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0,
           "active": true,
           "alwaysActive": true
@@ -42,6 +43,7 @@
           "name_de": "Schwere Rüstung, Plattenrüstung (Dragon Form)",
           "name_fr": "Armure lourde, Armure de plate complète (Forme de Dragon)",
           "name_es": "Armadura pesada, Armadura completa (Dragon Form)",
+          "name_pl": "Ciężka Zbroja, Pełna Zbroja Płytowa (Smok Form)",
           "points": 0,
           "perModel": true,
           "active": true
@@ -72,7 +74,8 @@
         "name_cn": "天工铸甲(5+), 龙之蔑视, 仇恨(混沌勇士 & 恶魔模型), 魔法抗性(-1), 狂飙之主, 阳系法术, 阴系法术, 精气之风精通, 坚毅, 南皋宗姬, 转变形态, 巨龙意志, 飙龙之怒, 集结战吼(人类形态), 飞行(9 - 巨龙形态), 大型目标(巨龙形态), 践踏攻击(D6 - 巨龙形态), 快速行进(巨龙形态), 惊骇(巨龙形态)",
         "name_de": "Celestial Forged Armour (5+), Disdain of the Dragons, Hatred (Warriors of Chaos & Daemonic models), Magic Resistance (-1), Mastery of the Storm Winds, Lore of Yang, Lore of Yin, Mastery of the Elemental Winds, Stubborn, Supreme Matriarch of Nan-Gau, Transformation of the Dragon, Will of the Dragons, Wrath of the Storm, Rallying Cry (Human Form), Fly (9 - Dragon Form), Large Target (Dragon Form), Stomp Attacks (D6 - Dragon Form), Swiftstride (Dragon Form), Terror (Dragon Form)",
         "name_fr": "Armure Céleste (5+), Dédain des Dragons, Haine (Guerriers du Chaos & figurines Démoniaques), Résistance à la Magie (-1), Maîtrise des Vents de la Tempête, Domaine du Yang, Domaine du Yin, Maîtrise des Vents Élémentaires, Obstiné, Matriarche Suprême de Nan-Gau, Transformation du Dragon, Volonté des Dragons, Courroux de la Tempête, Cri de Ralliement (Forme Humaine), Vol (9 - Forme de Dragon), Grande Cible (Forme de Dragon), Attaques de Piétinement (D6 - Forme de Dragon), Rapide (Forme de Dragon), Terreur (Forme de Dragon)",
-        "name_es": "Celestial Forged Armour (5+), Disdain of the Dragons, Hatred (Warriors of Chaos & Daemonic models), Magic Resistance (-1), Mastery of the Storm Winds, Lore of Yang, Lore of Yin, Mastery of the Elemental Winds, Stubborn, Supreme Matriarch of Nan-Gau, Transformation of the Dragon, Will of the Dragons, Wrath of the Storm, Rallying Cry (Human Form), Fly (9 - Dragon Form), Large Target (Dragon Form), Stomp Attacks (D6 - Dragon Form), Swiftstride (Dragon Form), Terror (Dragon Form)"
+        "name_es": "Celestial Forged Armour (5+), Disdain of the Dragons, Hatred (Warriors of Chaos & Daemonic models), Magic Resistance (-1), Mastery of the Storm Winds, Lore of Yang, Lore of Yin, Mastery of the Elemental Winds, Stubborn, Supreme Matriarch of Nan-Gau, Transformation of the Dragon, Will of the Dragons, Wrath of the Storm, Rallying Cry (Human Form), Fly (9 - Dragon Form), Large Target (Dragon Form), Stomp Attacks (D6 - Dragon Form), Swiftstride (Dragon Form), Terror (Dragon Form)",
+        "name_pl": "Celestial Forged Zbroja (5+), Disdain of the Smoki, Nienawiść (Wojownicy of Chaos & Daemonic modele), Odporność Na Magię (-1), Mastery of the Burzowy Winds, Lore of Yang, Lore of Yin, Mastery of the Elemental Winds, Nieugięty, Supreme Matriarch of Nan-Gau, Transformation of the Smok, Will of the Smoki, Wrath of the Burzowy, Bojowy Okrzyk (Human Form), Lot (9 - Smok Form), Duży Cel (Smok Form), Zdeptanie (D6 - Smok Form), Szybki Krok (Smok Form), Terror (Smok Form)"
       }
     },
     {
@@ -91,6 +94,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -131,6 +135,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Armadura ligera",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "active": true
         },
@@ -140,6 +145,7 @@
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "name_es": "Armadura pesada",
+          "name_pl": "Ciężka Zbroja",
           "points": 4
         }
       ],
@@ -209,7 +215,8 @@
           "notes": {
             "name_en": "Must choose Lore of Yang or Lore of Yin",
             "name_cn": "必须选择阳系或者阴系法术",
-            "name_fr": "Doit choisir le Domaine du Yang ou le Domaine du Yin"
+            "name_fr": "Doit choisir le Domaine du Yang ou le Domaine du Yin",
+            "name_pl": "Musi choose Lore of Yang lub Lore of Yin"
           },
           "name_pl": "Wiedza Yang"
         },
@@ -231,6 +238,7 @@
           "name_de": "Great Spirit Longma",
           "name_fr": "Grand Esprit Longma",
           "name_es": "Great Spirit Longma",
+          "name_pl": "Wielki Spirit Longma",
           "points": 0,
           "active": true
         }
@@ -242,6 +250,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -254,7 +263,8 @@
           "maxPoints": 100,
           "notes": {
             "name_en": "Cannot take shields",
-            "name_fr": "Ne peut prendre de boucliers"
+            "name_fr": "Ne peut prendre de boucliers",
+            "name_pl": "Nie może brać tarcz"
           }
         }
       ],
@@ -269,14 +279,16 @@
         "name_cn": "坚硬皮肤(2), 天工铸甲(5+), 反制冲锋, 恐惧, 飞行(9), 撞击(D3+1), 精气之风精通, 快速行进, 巨龙意志, 角冠",
         "name_de": "Armoured Hide (2), Celestial Forged Armour (5+), Counter Charge, Fear, Fly (9), Impact Hits (D3+1), Mastery of the Elemental Winds, Swiftstride, Will of the Dragons, Crown of horns {cathay}",
         "name_fr": "Peau Blindée (2), Armure Céleste (5+), Contre-charge, Peur, Vol (9), Touches d'Impact (D3+1), Maîtrise des Vents Élémentaires, Rapide, Volonté des Dragons, Couronne de Cornes",
-        "name_es": "Armoured Hide (2), Celestial Forged Armour (5+), Counter Charge, Fear, Fly (9), Impact Hits (D3+1), Mastery of the Elemental Winds, Swiftstride, Will of the Dragons, Crown of horns {cathay}"
+        "name_es": "Armoured Hide (2), Celestial Forged Armour (5+), Counter Charge, Fear, Fly (9), Impact Hits (D3+1), Mastery of the Elemental Winds, Swiftstride, Will of the Dragons, Crown of horns {cathay}",
+        "name_pl": "Opancerzona Skóra (2), Celestial Forged Zbroja (5+), Przeciwnatarcie, Strach, Lot (9), Uderzenia Impetu (D3+1), Mastery of the Elemental Winds, Szybki Krok, Will of the Smoki, Crown of horns {cathay}"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -295,6 +307,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -335,6 +348,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Armadura ligera",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "active": true
         },
@@ -344,6 +358,7 @@
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "name_es": "Armadura pesada",
+          "name_pl": "Ciężka Zbroja",
           "points": 4
         }
       ],
@@ -403,7 +418,8 @@
           "notes": {
             "name_en": "Must choose Lore of Yang or Lore of Yin",
             "name_cn": "必须选择阳系或者阴系法术",
-            "name_fr": "Doit choisir le Domaine du Yang ou le Domaine du Yin"
+            "name_fr": "Doit choisir le Domaine du Yang ou le Domaine du Yin",
+            "name_pl": "Musi choose Lore of Yang lub Lore of Yin"
           },
           "name_pl": "Wiedza Yang"
         },
@@ -425,6 +441,7 @@
           "name_de": "Great Spirit Longma",
           "name_fr": "Grand Esprit Longma",
           "name_es": "Great Spirit Longma",
+          "name_pl": "Wielki Spirit Longma",
           "points": 0,
           "active": true
         }
@@ -436,6 +453,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -449,7 +467,8 @@
           "notes": {
             "name_en": "Cannot take shields",
             "name_cn": "不能购买盾牌",
-            "name_fr": "Ne peut prendre de boucliers"
+            "name_fr": "Ne peut prendre de boucliers",
+            "name_pl": "Nie może brać tarcz"
           }
         }
       ],
@@ -464,14 +483,16 @@
         "name_cn": "坚硬皮肤(2), 天工铸甲(5+), 反制冲锋, 恐惧, 飞行(9), 撞击(D3+1), 精气之风精通, 快速行进, 巨龙意志, 角冠",
         "name_de": "Armoured Hide (2), Celestial Forged Armour (5+), Counter Charge, Fear, Fly (9), Impact Hits (D3+1), Mastery of the Elemental Winds, Swiftstride, Will of the Dragons, Crown of horns",
         "name_fr": "Peau Blindée (2), Armure Céleste (5+), Contre-charge, Peur, Vol (9), Touches d'Impact (D3+1), Maîtrise des Vents Élémentaires, Rapide, Volonté des Dragons, Couronne de Cornes",
-        "name_es": "Armoured Hide (2), Celestial Forged Armour (5+), Counter Charge, Fear, Fly (9), Impact Hits (D3+1), Mastery of the Elemental Winds, Swiftstride, Will of the Dragons, Crown of horns"
+        "name_es": "Armoured Hide (2), Celestial Forged Armour (5+), Counter Charge, Fear, Fly (9), Impact Hits (D3+1), Mastery of the Elemental Winds, Swiftstride, Will of the Dragons, Crown of horns",
+        "name_pl": "Opancerzona Skóra (2), Celestial Forged Zbroja (5+), Przeciwnatarcie, Strach, Lot (9), Uderzenia Impetu (D3+1), Mastery of the Elemental Winds, Szybki Krok, Will of the Smoki, Crown of horns {cathay}"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -490,6 +511,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -512,6 +534,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Armadura ligera",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "active": true
         }
@@ -545,6 +568,7 @@
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "name_es": "A pie",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -554,6 +578,7 @@
           "name_de": "Sky Lantern",
           "name_fr": "Lanterne Céleste",
           "name_es": "Sky Lantern",
+          "name_pl": "Niebiańska Latarnia",
           "points": 135,
           "options": [
             {
@@ -562,6 +587,7 @@
               "name_de": "Sky Lantern Crane Guns",
               "name_fr": "Canons Grues de Lanterne Céleste",
               "name_es": "Sky Lantern Crane Guns",
+              "name_pl": "Działa dźwigowe Niebiańskiej Latarni",
               "points": 0,
               "active": true,
               "exclusive": true
@@ -572,6 +598,7 @@
               "name_de": "Iron hail guns, Gunpowder bombs",
               "name_fr": "Canons grêle de fer, Bombes de poudre à canon",
               "name_es": "Iron hail guns, Gunpowder bombs",
+              "name_pl": "Żelazny hail guns, Gunpowder bombs",
               "points": 0,
               "exclusive": true
             },
@@ -581,6 +608,7 @@
               "name_de": "Iron hail guns, Dragon fire bombs",
               "name_fr": "Canons grêle de fer, Bombes de feu du dragon",
               "name_es": "Iron hail guns, Dragon fire bombs",
+              "name_pl": "Żelazny hail guns, Smok ognisty bombs",
               "points": 20,
               "exclusive": true
             },
@@ -590,6 +618,7 @@
               "name_de": "Sky Lantern bombs",
               "name_fr": "Bombes de Lanterne Céleste",
               "name_es": "Sky Lantern bombs",
+              "name_pl": "Sky Lantern bomby",
               "points": 15
             }
           ]
@@ -602,6 +631,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -615,7 +645,8 @@
             "name_cn": "",
             "name_de": "",
             "name_fr": "Les boucliers magiques ne sont pas autorisés",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "Zakaz magicznych tarcz"
           }
         }
       ],
@@ -625,14 +656,16 @@
         "name_cn": "战略大师, 金石宁和, 巨龙意志",
         "name_de": "Grand Strategist, Harmony of Stone & Steel, Will of the Dragons",
         "name_fr": "Stratège, Harmonie de la Pierre & de l'Acier, Volonté des Dragons",
-        "name_es": "Grand Strategist, Harmony of Stone & Steel, Will of the Dragons"
+        "name_es": "Grand Strategist, Harmony of Stone & Steel, Will of the Dragons",
+        "name_pl": "Wielki Strategist, Harmony of Kamienny & Stalowy, Will of the Smoki"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -651,6 +684,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -673,6 +707,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Armadura ligera",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "active": true
         }
@@ -706,6 +741,7 @@
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "name_es": "A pie",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -715,6 +751,7 @@
           "name_de": "Sky Lantern",
           "name_fr": "Lanterne Céleste",
           "name_es": "Sky Lantern",
+          "name_pl": "Niebiańska Latarnia",
           "points": 135,
           "options": [
             {
@@ -723,6 +760,7 @@
               "name_de": "Sky Lantern Crane Guns",
               "name_fr": "Canons Grues de Lanterne Céleste",
               "name_es": "Sky Lantern Crane Guns",
+              "name_pl": "Działa dźwigowe Niebiańskiej Latarni",
               "points": 0,
               "active": true,
               "exclusive": true
@@ -733,6 +771,7 @@
               "name_de": "Iron hail guns, Gunpowder bombs",
               "name_fr": "Canons grêle de fer, Bombes de poudre à canon",
               "name_es": "Iron hail guns, Gunpowder bombs",
+              "name_pl": "Żelazny hail guns, Gunpowder bombs",
               "points": 0,
               "exclusive": true
             },
@@ -742,6 +781,7 @@
               "name_de": "Iron hail guns, Dragon fire bombs",
               "name_fr": "Canons grêle de fer, Bombes de feu du dragon",
               "name_es": "Iron hail guns, Dragon fire bombs",
+              "name_pl": "Żelazny hail guns, Smok ognisty bombs",
               "points": 20,
               "exclusive": true
             },
@@ -751,6 +791,7 @@
               "name_de": "Sky Lantern bombs",
               "name_fr": "Bombes de Lanterne Céleste",
               "name_es": "Sky Lantern bombs",
+              "name_pl": "Sky Lantern bomby",
               "points": 15
             }
           ]
@@ -763,6 +804,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -776,7 +818,8 @@
             "name_cn": "",
             "name_de": "",
             "name_fr": "Les boucliers magiques ne sont pas autorisés",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "Zakaz magicznych tarcz"
           }
         }
       ],
@@ -786,14 +829,16 @@
         "name_cn": "战略大师, 金石宁和, 巨龙意志",
         "name_de": "Grand Strategist, Harmony of Stone & Steel, Will of the Dragons",
         "name_fr": "Stratège, Harmonie de la Pierre & de l'Acier, Volonté des Dragons",
-        "name_es": "Grand Strategist, Harmony of Stone & Steel, Will of the Dragons"
+        "name_es": "Grand Strategist, Harmony of Stone & Steel, Will of the Dragons",
+        "name_pl": "Wielki Strategist, Harmony of Kamienny & Stalowy, Will of the Smoki"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -812,6 +857,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -853,6 +899,7 @@
           "name_de": "Schwere Rüstung, Schild",
           "name_fr": "Armure lourde, Bouclier",
           "name_es": "Armadura pesada, Escudo",
+          "name_pl": "Ciężka Zbroja, Shield",
           "points": 0,
           "active": true
         }
@@ -865,6 +912,7 @@
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "name_es": "A pie",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -874,6 +922,7 @@
           "name_de": "Cathayan Warhorse",
           "name_fr": "Destrier Cathayen",
           "name_es": "Cathayan Warhorse",
+          "name_pl": "Cathayan Rumak Bojowy",
           "points": 16
         }
       ],
@@ -884,6 +933,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -900,14 +950,16 @@
         "name_cn": "金石宁和, 巨龙意志",
         "name_de": "Harmony of Stone & Steel, Will of the Dragons",
         "name_fr": "Harmonie de la Pierre & de l'Acier, Volonté des Dragons",
-        "name_es": "Harmony of Stone & Steel, Will of the Dragons"
+        "name_es": "Harmony of Stone & Steel, Will of the Dragons",
+        "name_pl": "Harmony of Kamienny & Stalowy, Will of the Smoki"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -926,6 +978,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         },
         {
@@ -934,6 +987,7 @@
           "name_de": "Armeestandartenträger",
           "name_fr": "Porteur de la Grande Bannière",
           "name_es": "Portaestandarte de Batalla",
+          "name_pl": "Chorąży",
           "points": 25,
           "magic": {
             "types": [
@@ -981,6 +1035,7 @@
           "name_de": "Schwere Rüstung, Schild",
           "name_fr": "Armure lourde, Bouclier",
           "name_es": "Armadura pesada, Escudo",
+          "name_pl": "Ciężka Zbroja, Shield",
           "points": 0,
           "active": true
         }
@@ -993,6 +1048,7 @@
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "name_es": "A pie",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -1002,6 +1058,7 @@
           "name_de": "Cathayan Warhorse",
           "name_fr": "Destrier Cathayen",
           "name_es": "Cathayan Warhorse",
+          "name_pl": "Cathayan Rumak Bojowy",
           "points": 16
         }
       ],
@@ -1012,6 +1069,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -1028,14 +1086,16 @@
         "name_cn": "金石宁和, 巨龙意志",
         "name_de": "Harmony of Stone & Steel, Will of the Dragons",
         "name_fr": "Harmonie de la Pierre & de l'Acier, Volonté des Dragons",
-        "name_es": "Harmony of Stone & Steel, Will of the Dragons"
+        "name_es": "Harmony of Stone & Steel, Will of the Dragons",
+        "name_pl": "Harmony of Kamienny & Stalowy, Will of the Smoki"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     }
   ],
@@ -1058,6 +1118,7 @@
           "name_de": "Jade Officer (Champion)",
           "name_fr": "Officier de Jade (champion)",
           "name_es": "Jade Officer (campeón)",
+          "name_pl": "Jade Officer (czempion)",
           "points": 6,
           "magic": {
             "types": [
@@ -1075,6 +1136,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -1086,7 +1148,8 @@
             "name_de": "0-1 Einheit pro 1.000 Punkte können eine Magische Standarte im Wert von bis zu 50 Punkten erwerben",
             "name_en": "0-1 unit per 1000 points may purchase a magic standard worth up to 50 points",
             "name_cn": "每1000分0-1单位可购买不超过50分的魔法战旗",
-            "name_fr": "0-1 unité par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points"
+            "name_fr": "0-1 unité par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points",
+            "name_pl": "0-1 jednostka na 1000 punktów może purchase a magic standard worth up do 50 punktów"
           }
         },
         {
@@ -1095,6 +1158,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -1128,6 +1192,7 @@
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "name_es": "Armadura pesada",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1147,7 +1212,8 @@
             "name_en": "0-1 unit per 1000 points",
             "name_cn": "每1000分0-1单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
-            "name_it": "0-1 unità ogni 1000p.ti"
+            "name_it": "0-1 unità ogni 1000p.ti",
+            "name_pl": "0-1 jednostka na 1000 punktów"
           },
           "name_pl": "Wyćwiczeni"
         },
@@ -1164,7 +1230,8 @@
             "name_en": "0-1 unit per 1000 points",
             "name_cn": "每1000分0-1单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
-            "name_it": "0-1 unità ogni 1000p.ti"
+            "name_it": "0-1 unità ogni 1000p.ti",
+            "name_pl": "0-1 jednostka na 1000 punktów"
           },
           "name_pl": "Nieugięty"
         },
@@ -1181,14 +1248,16 @@
             "name_cn": "天工铸甲(6+)",
             "name_de": "Celestial Forged Armour (6+)",
             "name_fr": "Armure Céleste (6+)",
-            "name_es": "Celestial Forged Armour (6+)"
+            "name_es": "Celestial Forged Armour (6+)",
+            "name_pl": "Celestial Forged Zbroja (6+)"
           },
           "notes": {
             "name_en": "0-1 unit if Miao Ying is the army's General",
             "name_de": "0-1 unit if Miao Ying is the army's General",
             "name_cn": "如果妙影为主将，0-1单位",
             "name_fr": "0-1 unité si Miao Ying est la Générale de l'armée",
-            "name_it": "0-1 unit if Miao Ying is the army's General"
+            "name_it": "0-1 unit if Miao Ying is the army's General",
+            "name_pl": "0-1 jednostka jeśli Miao Ying is the army's Generał"
           },
           "name_pl": "Straż Niebiańskiego Smoka"
         }
@@ -1201,7 +1270,8 @@
         "name_cn": "紧密阵型, 不动如山, 分遣队, 主团单位, 巨龙意志",
         "name_de": "Close Order, Defensive Stance, Detachment, Regimental Unit, Will of the Dragons",
         "name_fr": "Ordre Serré, Posture Défensive, Détachement, Unité Régimentaire, Volonté des Dragons",
-        "name_es": "Close Order, Defensive Stance, Detachment, Regimental Unit, Will of the Dragons"
+        "name_es": "Close Order, Defensive Stance, Detachment, Regimental Unit, Will of the Dragons",
+        "name_pl": "Zwarty Szyk, Defensive Stance, Oddział, Jednostka Regimentowa, Will of the Smoki"
       }
     },
     {
@@ -1222,6 +1292,7 @@
           "name_de": "Jade Lancer Officer (Champion)",
           "name_fr": "Officier Lancier de Jade (champion)",
           "name_es": "Jade Lancer Officer (campeón)",
+          "name_pl": "Jade Lancer Officer (czempion)",
           "points": 6,
           "magic": {
             "types": [
@@ -1239,6 +1310,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -1253,6 +1325,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -1276,6 +1349,7 @@
           "name_de": "Schwere Rüstung, Rossharnische",
           "name_fr": "Armure lourde, Caparaçon",
           "name_es": "Armadura pesada, Barding",
+          "name_pl": "Ciężka zbroja, Kapparison",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1295,7 +1369,8 @@
             "name_en": "0-1 unit per 1000 points",
             "name_cn": "每1000分0-1单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
-            "name_it": "0-1 unità ogni 1000p.ti"
+            "name_it": "0-1 unità ogni 1000p.ti",
+            "name_pl": "0-1 jednostka na 1000 punktów"
           },
           "name_pl": "Zasadzka"
         },
@@ -1312,7 +1387,8 @@
             "name_en": "0-1 unit per 1000 points",
             "name_cn": "每1000分0-1单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
-            "name_it": "0-1 unità ogni 1000p.ti"
+            "name_it": "0-1 unità ogni 1000p.ti",
+            "name_pl": "0-1 jednostka na 1000 punktów"
           },
           "name_pl": "Wyćwiczeni"
         },
@@ -1329,7 +1405,8 @@
             "name_en": "0-1 unit per 1000 points",
             "name_cn": "每1000分0-1单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
-            "name_it": "0-1 unità ogni 1000p.ti"
+            "name_it": "0-1 unità ogni 1000p.ti",
+            "name_pl": "0-1 jednostka na 1000 punktów"
           },
           "name_pl": "Nieugięty"
         },
@@ -1346,14 +1423,16 @@
             "name_cn": "天工铸甲(6+)",
             "name_de": "Celestial Forged Armour (6+)",
             "name_fr": "Armure Céleste (6+)",
-            "name_es": "Celestial Forged Armour (6+)"
+            "name_es": "Celestial Forged Armour (6+)",
+            "name_pl": "Celestial Forged Zbroja (6+)"
           },
           "notes": {
             "name_en": "0-1 unit if Miao Ying is the army's General",
             "name_de": "0-1 unit if Miao Ying is the army's General",
             "name_cn": "如果妙影为主将，0-1单位",
             "name_fr": "0-1 unité si Miao Ying est la Générale de l'armée",
-            "name_it": "0-1 unit if Miao Ying is the army's General"
+            "name_it": "0-1 unit if Miao Ying is the army's General",
+            "name_pl": "0-1 jednostka jeśli Miao Ying is the army's Generał"
           },
           "name_pl": "Straż Niebiańskiego Smoka"
         }
@@ -1366,14 +1445,16 @@
         "name_cn": "震旦重骑, 紧密阵型, 反制冲锋, 部群, 快速行进, 巨龙意志",
         "name_de": "Cathayan Cataphracts, Geschlossene Ränge, Gegenangriff, Horde, Schnelle Bewegung, Will of the Dragons",
         "name_fr": "Cataphractaires Cathayens, Ordre Serré, Contre-charge, Horde, Rapide, Volonté des Dragons",
-        "name_es": "Cathayan Cataphracts, Formación Cerrada, Contracarga, Horde, Zancada Veloz, Will of the Dragons"
+        "name_es": "Cathayan Cataphracts, Formación Cerrada, Contracarga, Horde, Zancada Veloz, Will of the Dragons",
+        "name_pl": "Cathayan Cataphracts, Zwarty Szyk, Przeciwnatarcie, Horda, Szybki Krok, Will of the Smoki"
       },
       "notes": {
         "name_en": "0-1 unit of Jade Lancers per 1000 points may be taken as a Core choice",
         "name_cn": "每1000分0-1个单位的玉勇枪骑兵可作为核心选择",
         "name_de": "0-1 Einheit Freischärler pro 1.000 Punkte können als Kernauswahl gewählt werden",
         "name_fr": "0-1 unité de Lanciers de Jade par tranche de 1000 points peut être prise comme choix d'Unité de Base",
-        "name_es": "0-1 unit of Jade Lancers per 1000 points may be taken as a Core choice"
+        "name_es": "0-1 unit of Jade Lancers per 1000 points may be taken as a Core choice",
+        "name_pl": "0-1 jednostka of Jade Lancers na 1000 punktów może be taken jako a Podstawowy choice"
       }
     }
   ],
@@ -1396,6 +1477,7 @@
           "name_de": "Jade Lancer Officer (Champion)",
           "name_fr": "Officier Lancier de Jade (champion)",
           "name_es": "Jade Lancer Officer (campeón)",
+          "name_pl": "Jade Lancer Officer (czempion)",
           "points": 6,
           "magic": {
             "types": [
@@ -1413,6 +1495,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -1427,6 +1510,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -1450,6 +1534,7 @@
           "name_de": "Schwere Rüstung, Rossharnische",
           "name_fr": "Armure lourde, Caparaçon",
           "name_es": "Armadura pesada, Barding",
+          "name_pl": "Ciężka zbroja, Kapparison",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1469,7 +1554,8 @@
             "name_en": "0-1 unit per 1000 points",
             "name_cn": "每1000分0-1单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
-            "name_it": "0-1 unità ogni 1000p.ti"
+            "name_it": "0-1 unità ogni 1000p.ti",
+            "name_pl": "0-1 jednostka na 1000 punktów"
           },
           "name_pl": "Zasadzka"
         },
@@ -1486,7 +1572,8 @@
             "name_en": "0-1 unit per 1000 points",
             "name_cn": "每1000分0-1单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
-            "name_it": "0-1 unità ogni 1000p.ti"
+            "name_it": "0-1 unità ogni 1000p.ti",
+            "name_pl": "0-1 jednostka na 1000 punktów"
           },
           "name_pl": "Wyćwiczeni"
         },
@@ -1503,7 +1590,8 @@
             "name_en": "0-1 unit per 1000 points",
             "name_cn": "每1000分0-1单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
-            "name_it": "0-1 unità ogni 1000p.ti"
+            "name_it": "0-1 unità ogni 1000p.ti",
+            "name_pl": "0-1 jednostka na 1000 punktów"
           },
           "name_pl": "Nieugięty"
         },
@@ -1520,14 +1608,16 @@
             "name_cn": "天工铸甲(6+)",
             "name_de": "Celestial Forged Armour (6+)",
             "name_fr": "Armure Céleste (6+)",
-            "name_es": "Celestial Forged Armour (6+)"
+            "name_es": "Celestial Forged Armour (6+)",
+            "name_pl": "Celestial Forged Zbroja (6+)"
           },
           "notes": {
             "name_en": "0-1 unit if Miao Ying is the army's General",
             "name_de": "0-1 unit if Miao Ying is the army's General",
             "name_cn": "如果妙影为主将，0-1单位",
             "name_fr": "0-1 unité si Miao Ying est la Générale de l'armée",
-            "name_it": "0-1 unit if Miao Ying is the army's General"
+            "name_it": "0-1 unit if Miao Ying is the army's General",
+            "name_pl": "0-1 jednostka jeśli Miao Ying is the army's Generał"
           },
           "name_pl": "Straż Niebiańskiego Smoka"
         }
@@ -1540,14 +1630,16 @@
         "name_cn": "震旦重骑, 紧密阵型, 反制冲锋, 部群, 快速行进, 巨龙意志",
         "name_de": "Cathayan Cataphracts, Geschlossene Ränge, Gegenangriff, Horde, Schnelle Bewegung, Will of the Dragons",
         "name_fr": "Cataphractaires Cathayens, Ordre Serré, Contre-charge, Horde, Rapide, Volonté des Dragons",
-        "name_es": "Cathayan Cataphracts, Formación Cerrada, Contracarga, Horde, Zancada Veloz, Will of the Dragons"
+        "name_es": "Cathayan Cataphracts, Formación Cerrada, Contracarga, Horde, Zancada Veloz, Will of the Dragons",
+        "name_pl": "Cathayan Cataphracts, Zwarty Szyk, Przeciwnatarcie, Horda, Szybki Krok, Will of the Smoki"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -1579,6 +1671,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Armadura ligera",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "active": true
         }
@@ -1611,14 +1704,16 @@
         "name_cn": "散兵",
         "name_de": "Plänkler",
         "name_fr": "Tirailleurs",
-        "name_es": "Hostigadores"
+        "name_es": "Hostigadores",
+        "name_pl": "Harcownicy"
       },
       "notes": {
         "name_en": "0-3 war machines chosen from the following list per 1000 points: Cathayan Grand Cannon, Fire Rain Rocket Battery",
         "name_cn": "每1000分从以下列表中选择0-3台战争机器：震旦巨炮, 炎霖火箭炮",
         "name_de": "0-3 Kriegsmaschine aus der folgende Liste pro 1.000 Punkte: Cathayan Grand Cannon, Fire Rain Rocket Battery",
         "name_fr": "0-3 machines de guerre choisies dans la liste suivante par tranche de 1000 points: Grand Canon Cathayen, Batterie de Fusées Pluie de Feu",
-        "name_es": "0-3 máquinas de guerra de la siguiente lista por cada 1.000 puntos: Cathayan Grand Cannon, Fire Rain Rocket Battery"
+        "name_es": "0-3 máquinas de guerra de la siguiente lista por cada 1.000 puntos: Cathayan Grand Cannon, Fire Rain Rocket Battery",
+        "name_pl": "0-3 machiny wojenne chosen z the following list na 1000 punktów: Cathayan Wielki Cannon, Ognisty Rain Rocket Battery"
       }
     },
     {
@@ -1650,6 +1745,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Armadura ligera",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "active": true
         }
@@ -1682,14 +1778,16 @@
         "name_cn": "散兵",
         "name_de": "Plänkler",
         "name_fr": "Tirailleurs",
-        "name_es": "Hostigadores"
+        "name_es": "Hostigadores",
+        "name_pl": "Harcownicy"
       },
       "notes": {
         "name_en": "0-3 war machines chosen from the following list per 1000 points: Cathayan Grand Cannon, Fire Rain Rocket Battery",
         "name_cn": "每1000分从以下列表中选择0-3台战争机器：震旦巨炮, 炎霖火箭炮",
         "name_de": "0-3 Kriegsmaschine aus der folgende Liste pro 1.000 Punkte: Cathayan Grand Cannon, Fire Rain Rocket Battery",
         "name_fr": "0-3 machines de guerre choisies dans la liste suivante par tranche de 1000 points: Grand Canon Cathayen, Batterie de Fusées Pluie de Feu",
-        "name_es": "0-3 máquinas de guerra de la siguiente lista por cada 1.000 puntos: Cathayan Grand Cannon, Fire Rain Rocket Battery"
+        "name_es": "0-3 máquinas de guerra de la siguiente lista por cada 1.000 puntos: Cathayan Grand Cannon, Fire Rain Rocket Battery",
+        "name_pl": "0-3 machiny wojenne chosen z the following list na 1000 punktów: Cathayan Wielki Cannon, Ognisty Rain Rocket Battery"
       }
     },
     {
@@ -1726,6 +1824,7 @@
           "name_de": "Schwere Rüstung (Terracotta armour)",
           "name_fr": "Armure lourde (Armure de terre cuite)",
           "name_es": "Armadura pesada (Terracotta armour)",
+          "name_pl": "Ciężka Zbroja (Terracotta zbroja)",
           "points": 0,
           "active": true
         }
@@ -1743,7 +1842,8 @@
           "specialRules": {
             "name_en": "Regeneration (6+)",
             "name_fr": "Régénération (6+)",
-            "name_cn": "重生(6+)"
+            "name_cn": "重生(6+)",
+            "name_pl": "Regeneracja (6+)"
           },
           "name_pl": "Terakotowy Strażnik"
         },
@@ -1768,7 +1868,8 @@
           "specialRules": {
             "name_en": "Magic Resistance (-2)",
             "name_fr": "Résistance à la Magie (-2)",
-            "name_cn": "魔法抗性(-2)"
+            "name_cn": "魔法抗性(-2)",
+            "name_pl": "Odporność Na Magię (-2)"
           },
           "name_pl": "Obsydianowy Strażnik"
         },
@@ -1799,14 +1900,16 @@
         "name_cn": "紧密阵型, 心理免疫, 坚定不移, 大型目标, 践踏攻击(D3+1), 惊骇, 倒啦！, 永不战败",
         "name_de": "Close Order, Immune to Psychology, Implacable, Large Target, Stomp Attacks (D3+1), Terror, Timmm-berrr!, Unbreakable",
         "name_fr": "Ordre Serré, Immunisé à la Psychologie, Implacable, Grande Cible, Attaques de Piétinement (D3+1), Terreur, Timmm-berrr!, Indémoralisable",
-        "name_es": "Close Order, Immune to Psychology, Implacable, Large Target, Stomp Attacks (D3+1), Terror, Timmm-berrr!, Unbreakable"
+        "name_es": "Close Order, Immune to Psychology, Implacable, Large Target, Stomp Attacks (D3+1), Terror, Timmm-berrr!, Unbreakable",
+        "name_pl": "Zwarty Szyk, Odporność Na Psychologię, Implacable, Duży Cel, Zdeptanie (D3+1), Terror, Timmm-berrr!, Niezłomni"
       },
       "notes": {
         "name_en": "0-1 Cathayan Sentinel may be taken as a Special choice per 1000 points if your General is a Shugengan Lord or Shugengan",
         "name_cn": "若主将为修验卿领主或修颜卿，则0-1单位的震旦禁卫可作为特殊选择",
         "name_de": "0-1 Cathayan Sentinel may be taken as a Special choice per 1000 points if your General is a Shugengan Lord or Shugengan",
         "name_fr": "0-1 Sentinelle Cathayenne peut être pris comme choix Spécial par tranche de 1000 points si votre Général est un Seigneur Shugengan ou un Shugengan",
-        "name_es": "0-1 Cathayan Sentinel may be taken as a Special choice per 1000 points if your General is a Shugengan Lord or Shugengan"
+        "name_es": "0-1 Cathayan Sentinel may be taken as a Special choice per 1000 points if your General is a Shugengan Lord or Shugengan",
+        "name_pl": "0-1 Cathayan Sentinel może be taken jako a Specjalny choice na 1000 punktów jeśli twoja Generał is a Shugengan Władca lub Shugengan"
       }
     },
     {
@@ -1861,6 +1964,7 @@
           "name_de": "4+",
           "name_fr": "4+",
           "name_es": "4+",
+          "name_pl": "4+",
           "points": 0,
           "active": true
         }
@@ -1882,14 +1986,16 @@
         "name_cn": "紧密阵型, 脱离, 龙之眼, 诱敌诈退, 游击, 飞行(8), 天际灯标, 撞击(D3+1 - 仅限天灯), 大型目标, 预备移动, 侦察, 永不战败",
         "name_de": "Close Order, Disengage, Eye of the Dragon, Feigned Flight, Fire & Flee, Fly (8), Heavenly Beacon, Impact Hits (D3+1 - Sky Lantern only), Large Target, Reserve Move, Scouts, Unbreakable",
         "name_fr": "Ordre Serré, Désengagement, Œil du Dragon, Fuite Feinte, Tir & Fuite, Vol (8), Fanal Céleste, Touches d'Impact (D3+1 - Lanterne Céleste uniquement), Grande Cible, Mouvement de Réserve, Éclaireurs, Indémoralisable",
-        "name_es": "Close Order, Disengage, Eye of the Dragon, Feigned Flight, Fire & Flee, Fly (8), Heavenly Beacon, Impact Hits (D3+1 - Sky Lantern only), Large Target, Reserve Move, Scouts, Unbreakable"
+        "name_es": "Close Order, Disengage, Eye of the Dragon, Feigned Flight, Fire & Flee, Fly (8), Heavenly Beacon, Impact Hits (D3+1 - Sky Lantern only), Large Target, Reserve Move, Scouts, Unbreakable",
+        "name_pl": "Zwarty Szyk, Disengage, Eye of the Smok, Feigned Flight, Ogień I Odwrót, Lot (8), Heavenly Beacon, Uderzenia Impetu (D3+1 - Sky Lantern only), Duży Cel, Reserve Move, Zwiadowcy, Niezłomni"
       },
       "notes": {
         "name_en": "0-1 Sky Lantern may be taken as a Special choice per 1000 points if your General is a Lord Magistrate or Strategist",
         "name_cn": "若主将为经略使或参谋，则0-1单位的天灯可作为特殊选择",
         "name_de": "0-1 Sky Lantern may be taken as a Special choice per 1000 points if your General is a Lord Magistrate or Strategist",
         "name_fr": "0-1 Lanterne Céleste peut être pris comme choix Spécial par tranche de 1000 points si votre Général est un Seigneur Magistrat ou un Stratège",
-        "name_es": "0-1 Sky Lantern may be taken as a Special choice per 1000 points if your General is a Lord Magistrate or Strategist"
+        "name_es": "0-1 Sky Lantern may be taken as a Special choice per 1000 points if your General is a Lord Magistrate or Strategist",
+        "name_pl": "0-1 Sky Lantern może be taken jako a Specjalny choice na 1000 punktów jeśli twoja Generał is a Władca Magistrate lub Strategist"
       }
     }
   ],
@@ -1941,6 +2047,7 @@
           "name_de": "4+",
           "name_fr": "4+",
           "name_es": "4+",
+          "name_pl": "4+",
           "points": 0,
           "active": true
         }
@@ -1968,7 +2075,8 @@
             "name_cn": "每1000分0-1",
             "name_de": "0-1 per 1000 points",
             "name_fr": "0-1 par tranche de 1000 points",
-            "name_es": "0-1 per 1000 points"
+            "name_es": "0-1 per 1000 points",
+            "name_pl": "0-1 na 1000 punktów"
           },
           "name_pl": "Zasadzka"
         }
@@ -1979,7 +2087,8 @@
         "name_cn": "紧密阵型, 脱离, 龙之眼, 诱敌诈退, 游击, 飞行(8), 天际灯标, 撞击(D3+1 - 仅限天灯), 大型目标, 预备移动, 侦察, 永不战败",
         "name_de": "Close Order, Disengage, Eye of the Dragon, Feigned Flight, Fire & Flee, Fly (8), Heavenly Beacon, Impact Hits (D3+1 - Sky Lantern only), Large Target, Reserve Move, Scouts, Unbreakable",
         "name_fr": "Ordre Serré, Désengagement, Œil du Dragon, Fuite Feinte, Tir & Fuite, Vol (8), Fanal Céleste, Touches d'Impact (D3+1 - Lanterne Céleste uniquement), Grande Cible, Mouvement de Réserve, Éclaireurs, Indémoralisable",
-        "name_es": "Close Order, Disengage, Eye of the Dragon, Feigned Flight, Fire & Flee, Fly (8), Heavenly Beacon, Impact Hits (D3+1 - Sky Lantern only), Large Target, Reserve Move, Scouts, Unbreakable"
+        "name_es": "Close Order, Disengage, Eye of the Dragon, Feigned Flight, Fire & Flee, Fly (8), Heavenly Beacon, Impact Hits (D3+1 - Sky Lantern only), Large Target, Reserve Move, Scouts, Unbreakable",
+        "name_pl": "Zwarty Szyk, Disengage, Eye of the Smok, Feigned Flight, Ogień I Odwrót, Lot (8), Heavenly Beacon, Uderzenia Impetu (D3+1 - Sky Lantern only), Duży Cel, Reserve Move, Zwiadowcy, Niezłomni"
       }
     },
     {
@@ -2011,6 +2120,7 @@
           "name_de": "Schwere Rüstung (Terracotta armour)",
           "name_fr": "Armure lourde (Armure de terre cuite)",
           "name_es": "Armadura pesada (Terracotta armour)",
+          "name_pl": "Ciężka Zbroja (Terracotta zbroja)",
           "points": 0,
           "active": true
         }
@@ -2027,7 +2137,8 @@
           "active": true,
           "specialRules": {
             "name_en": "Regeneration (6+)",
-            "name_fr": "Régénération (6+)"
+            "name_fr": "Régénération (6+)",
+            "name_pl": "Regeneracja (6+)"
           },
           "name_pl": "Terakotowy Strażnik"
         },
@@ -2052,7 +2163,8 @@
           "specialRules": {
             "name_en": "Magic Resistance (-2)",
             "name_fr": "Résistance à la Magie (-2)",
-            "name_cn": "魔法抗性(-2)"
+            "name_cn": "魔法抗性(-2)",
+            "name_pl": "Odporność Na Magię (-2)"
           },
           "name_pl": "Obsydianowy Strażnik"
         },
@@ -2083,7 +2195,8 @@
         "name_cn": "紧密阵型, 心理免疫, 坚定不移, 大型目标, 践踏攻击(D3+1), 惊骇, 倒啦！, 永不战败",
         "name_de": "Close Order, Immune to Psychology, Implacable, Large Target, Stomp Attacks (D3+1), Terror, Timmm-berrr!, Unbreakable",
         "name_fr": "Ordre Serré, Immunisé à la Psychologie, Implacable, Grande Cible, Attaques de Piétinement (D3+1), Terreur, Timmm-berrr!, Indémoralisable",
-        "name_es": "Close Order, Immune to Psychology, Implacable, Large Target, Stomp Attacks (D3+1), Terror, Timmm-berrr!, Unbreakable"
+        "name_es": "Close Order, Immune to Psychology, Implacable, Large Target, Stomp Attacks (D3+1), Terror, Timmm-berrr!, Unbreakable",
+        "name_pl": "Zwarty Szyk, Odporność Na Psychologię, Implacable, Duży Cel, Zdeptanie (D3+1), Terror, Timmm-berrr!, Niezłomni"
       }
     }
   ],

@@ -15,6 +15,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -56,7 +57,7 @@
           "points": 6,
           "perModel": true,
           "armyComposition": "ok-renegade",
-          "name_pl": "Żelazna Pięść {renegaci}"
+          "name_pl": "Żelazna Pięść {renegade}"
         },
         {
           "name_en": "Great weapon",
@@ -74,6 +75,7 @@
           "name_cn": "轻甲",
           "name_fr": "Armure légère",
           "name_de": "Leichte Rüstung",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -83,6 +85,7 @@
           "name_cn": "重甲",
           "name_fr": "Armure lourde",
           "name_de": "Schwere Rüstung",
+          "name_pl": "Ciężka Zbroja",
           "points": 3,
           "perModel": true
         }
@@ -104,7 +107,7 @@
           "name_de": "Ogerpistolenpaar",
           "points": 12,
           "exclusive": true,
-          "name_pl": "Para ogrich pistolety"
+          "name_pl": "Para ogrzych pistoletów"
         }
       ],
       "mounts": [
@@ -113,6 +116,7 @@
           "name_cn": "步行",
           "name_fr": "À Pied",
           "name_de": "Zu Fuß",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -121,6 +125,7 @@
           "name_cn": "石角兽",
           "name_fr": "Mastauroc",
           "name_de": "Steinyak",
+          "name_pl": "Kamienioróg",
           "points": 195
         },
         {
@@ -128,6 +133,7 @@
           "name_cn": "雷牙兽",
           "name_fr": "Mégastodonte",
           "name_de": "Donnerhorn",
+          "name_pl": "Gromokieł",
           "points": 165
         }
       ],
@@ -137,6 +143,7 @@
           "name_cn": "魔法物品",
           "name_fr": "Objets Magiques",
           "name_de": "Magische Gegenstände",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -151,6 +158,7 @@
           "name_cn": "威名",
           "name_de": "Großer Name",
           "name_fr": "Grand Nom",
+          "name_pl": "Wielkie Imię",
           "types": [
             "big-name"
           ],
@@ -163,13 +171,15 @@
         "name_en": "Armour Bane (1), Bull Charge, Fear, Impact Hits (2), Ogre Charge",
         "name_cn": "碎甲攻击(1), 蛮牛冲锋, 恐惧, 撞击(2), 食人魔冲锋",
         "name_fr": "Arme Perforante (1), Charge Buffle, Peur, Touches d'Impact (2), Charge Ogre",
-        "name_de": "Rüstungsfluch (1), Walze, Angst, Aufpralltreffer (2), Ogerangriff"
+        "name_de": "Rüstungsfluch (1), Walze, Angst, Aufpralltreffer (2), Ogerangriff",
+        "name_pl": "Przebicie Zbroi (1), Bull Charge, Strach, Uderzenia Impetu (2), Ogr Charge"
       },
       "notes": {
         "name_en": "0-1 per 1000 points",
         "name_cn": "每1000分0-1",
         "name_fr": "0-1 par tranche de 1000 points",
-        "name_de": "0-1 pro 1.000 Punkte"
+        "name_de": "0-1 pro 1.000 Punkte",
+        "name_pl": "0-1 na 1000 punktów"
       }
     },
     {
@@ -187,6 +197,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         },
         {
@@ -194,6 +205,7 @@
           "name_cn": "战旗手",
           "name_de": "Armeestandartenträger",
           "name_fr": "Porteur de la Grande Bannière",
+          "name_pl": "Chorąży",
           "points": 25,
           "magic": {
             "types": [
@@ -241,7 +253,7 @@
           "points": 6,
           "perModel": true,
           "armyComposition": "ok-renegade",
-          "name_pl": "Żelazna Pięść {renegaci}"
+          "name_pl": "Żelazna Pięść {renegade}"
         },
         {
           "name_en": "Great weapon",
@@ -259,6 +271,7 @@
           "name_cn": "轻甲",
           "name_fr": "Armure légère",
           "name_de": "Leichte Rüstung",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -268,6 +281,7 @@
           "name_cn": "重甲",
           "name_fr": "Armure lourde",
           "name_de": "Schwere Rüstung",
+          "name_pl": "Ciężka Zbroja",
           "points": 3,
           "perModel": true
         }
@@ -298,6 +312,7 @@
           "name_cn": "步行",
           "name_fr": "À Pied",
           "name_de": "Zu Fuß",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -306,6 +321,7 @@
           "name_cn": "石角兽",
           "name_fr": "Mastauroc",
           "name_de": "Steinyak",
+          "name_pl": "Kamienioróg",
           "points": 195
         },
         {
@@ -313,6 +329,7 @@
           "name_cn": "雷牙兽",
           "name_fr": "Mégastodonte",
           "name_de": "Donnerhorn",
+          "name_pl": "Gromokieł",
           "points": 165
         }
       ],
@@ -322,6 +339,7 @@
           "name_cn": "魔法物品",
           "name_fr": "Objets Magiques",
           "name_de": "Magische Gegenstände",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -336,6 +354,7 @@
           "name_cn": "威名",
           "name_de": "Großer Name",
           "name_fr": "Grand Nom",
+          "name_pl": "Wielkie Imię",
           "types": [
             "big-name"
           ],
@@ -348,12 +367,14 @@
         "name_en": "Armour Bane (1), Bull Charge, Fear, Impact Hits (2), Ogre Charge",
         "name_cn": "碎甲攻击(1), 蛮牛冲锋, 恐惧, 撞击(2), 食人魔冲锋",
         "name_fr": "Arme Perforante (1), Charge Buffle, Peur, Touches d'Impact (2), Charge Ogre",
-        "name_de": "Rüstungsfluch (1), Walze, Angst, Aufpralltreffer (2), Ogerangriff"
+        "name_de": "Rüstungsfluch (1), Walze, Angst, Aufpralltreffer (2), Ogerangriff",
+        "name_pl": "Przebicie Zbroi (1), Bull Charge, Strach, Uderzenia Impetu (2), Ogr Charge"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
-        "name_fr": ""
+        "name_fr": "",
+        "name_pl": ""
       }
     },
     {
@@ -371,6 +392,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -450,6 +472,7 @@
           "name_cn": "魔法物品",
           "name_fr": "Objets Magiques",
           "name_de": "Magische Gegenstände",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "enchanted-item",
             "talisman",
@@ -464,6 +487,7 @@
           "name_cn": "威名",
           "name_de": "Großer Name",
           "name_fr": "Grand Nom",
+          "name_pl": "Wielkie Imię",
           "types": [
             "big-name"
           ],
@@ -480,13 +504,15 @@
         "name_en": "Armour Bane (1), Fear, Impact Hits (2), Lore of the Great Maw, Ogre Charge",
         "name_cn": "碎甲攻击(1), 恐惧, 撞击(2), 大胃之神法系, 食人魔冲锋",
         "name_fr": "Arme Perforante (1), Peur, Touches d'Impact (2), Domaine de La Gueule, Charge Ogre",
-        "name_de": "Rüstungsfluch (1), Angst, Aufpralltreffer (2), Lehre des Großen Schlundes, Ogerangriff"
+        "name_de": "Rüstungsfluch (1), Angst, Aufpralltreffer (2), Lehre des Großen Schlundes, Ogerangriff",
+        "name_pl": "Przebicie Zbroi (1), Strach, Uderzenia Impetu (2), Lore of the Wielki Maw, Ogr Charge"
       },
       "notes": {
         "name_en": "0-1 per 1000 points",
         "name_cn": "每1000分0-1",
         "name_fr": "0-1 par tranche de 1000 points",
-        "name_de": "0-1 pro 1.000 Punkte"
+        "name_de": "0-1 pro 1.000 Punkte",
+        "name_pl": "0-1 na 1000 punktów"
       }
     },
     {
@@ -504,6 +530,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -580,6 +607,7 @@
           "name_cn": "魔法物品",
           "name_fr": "Objets Magiques",
           "name_de": "Magische Gegenstände",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "enchanted-item",
             "talisman",
@@ -594,6 +622,7 @@
           "name_cn": "威名",
           "name_de": "Großer Name",
           "name_fr": "Grand Nom",
+          "name_pl": "Wielkie Imię",
           "types": [
             "big-name"
           ],
@@ -610,12 +639,14 @@
         "name_en": "Armour Bane (1), Fear, Impact Hits (2), Lore of the Great Maw, Ogre Charge",
         "name_cn": "碎甲攻击(1), 恐惧, 撞击(2), 大胃之神法系, 食人魔冲锋",
         "name_fr": "Arme Perforante (1), Peur, Touches d'Impact (2), Domaine de La Gueule, Charge Ogre",
-        "name_de": "Rüstungsfluch (1), Angst, Aufpralltreffer (2), Lehre des Großen Schlundes, Ogerangriff"
+        "name_de": "Rüstungsfluch (1), Angst, Aufpralltreffer (2), Lehre des Großen Schlundes, Ogerangriff",
+        "name_pl": "Przebicie Zbroi (1), Strach, Uderzenia Impetu (2), Lore of the Wielki Maw, Ogr Charge"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
-        "name_fr": ""
+        "name_fr": "",
+        "name_pl": ""
       }
     },
     {
@@ -675,6 +706,7 @@
           "name_cn": "步行",
           "name_fr": "À Pied",
           "name_de": "Zu Fuß",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true,
           "options": [
@@ -683,6 +715,7 @@
               "name_cn": "伏击",
               "name_fr": "Embusqueurs",
               "name_de": "Überfall",
+              "name_pl": "Zasadzka",
               "points": 10,
               "perModel": true,
               "exclusive": true
@@ -692,6 +725,7 @@
               "name_cn": "侦察",
               "name_fr": "Éclaireurs",
               "name_de": "Kundschafter",
+              "name_pl": "Zwiadowcy",
               "points": 5,
               "perModel": true,
               "exclusive": true
@@ -701,6 +735,7 @@
               "name_cn": "先锋",
               "name_fr": "Avant-garde",
               "name_de": "Vorhut",
+              "name_pl": "Awangarda",
               "points": 3,
               "perModel": true,
               "exclusive": true
@@ -712,6 +747,7 @@
           "name_cn": "石角兽",
           "name_fr": "Mastauroc",
           "name_de": "Steinyak",
+          "name_pl": "Kamienioróg",
           "points": 195
         },
         {
@@ -719,6 +755,7 @@
           "name_cn": "雷牙兽",
           "name_fr": "Mégastodonte",
           "name_de": "Donnerhorn",
+          "name_pl": "Gromokieł",
           "points": 165
         }
       ],
@@ -728,6 +765,7 @@
           "name_cn": "魔法物品",
           "name_fr": "Objets Magiques",
           "name_de": "Magische Gegenstände",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -742,6 +780,7 @@
           "name_cn": "威名",
           "name_de": "Großer Name",
           "name_fr": "Grand Nom",
+          "name_pl": "Wielkie Imię",
           "types": [
             "big-name"
           ],
@@ -754,12 +793,14 @@
         "name_en": "Armour Bane (1), Fear, Impact Hits (1), Loner, Move Through Cover, Ogre Charge, Running with the Pack {renegade}",
         "name_cn": "碎甲攻击(1), 恐惧, 撞击(1), 独行, 穿行掩体, 食人魔冲锋, 与兽同行 {renegade}",
         "name_fr": "Arme Perforante (1), Peur, Touches d'Impact (1), Solitaire, Mouvement à Couvert, Charge Ogre, Courir avec la Meute",
-        "name_de": "Rüstungsfluch (1), Angst, Aufpralltreffer (1), Einzelgänger, Durch Deckung bewegen, Ogerangriff, Teil des Rudels"
+        "name_de": "Rüstungsfluch (1), Angst, Aufpralltreffer (1), Einzelgänger, Durch Deckung bewegen, Ogerangriff, Teil des Rudels",
+        "name_pl": "Przebicie Zbroi (1), Strach, Uderzenia Impetu (1), Samotnik, Przechodzenie Przez Zasłony, Ogr Charge, Running z the Pack {renegade}"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
-        "name_fr": ""
+        "name_fr": "",
+        "name_pl": ""
       }
     },
     {
@@ -777,6 +818,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -789,7 +831,7 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "name_pl": "Broń ręczna, Płonący oddech {królestwa ogrów}"
+          "name_pl": "Broń ręczna, Płonący oddech {ogre kingdoms}"
         }
       ],
       "armor": [],
@@ -845,6 +887,7 @@
           "name_cn": "魔法物品",
           "name_fr": "Objets Magiques",
           "name_de": "Magische Gegenstände",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "talisman",
@@ -863,7 +906,8 @@
         "name_en": "Armour Bane (1), Blessings of the Volcano God, Fear, Flaming Attacks, Impact Hits (1), Ogre Charge",
         "name_cn": "碎甲攻击(1), 火嘴神的祝福, 恐惧, 火焰攻击, 撞击(1), 食人魔冲锋",
         "name_fr": "Arme Perforante (1), Bénédictions du Dieu Volcan, Peur, Attaques Enflammées, Touches d'Impact (1), Charge Ogre",
-        "name_de": "Rüstungsfluch (1), Segen des Vulkangottes, Angst, Flammenattacken, Aufpralltreffer (1), Ogerangriff"
+        "name_de": "Rüstungsfluch (1), Segen des Vulkangottes, Angst, Flammenattacken, Aufpralltreffer (1), Ogerangriff",
+        "name_pl": "Przebicie Zbroi (1), Blessings of the Volcano God, Strach, Flaming Attacks, Uderzenia Impetu (1), Ogr Charge"
       }
     }
   ],
@@ -889,7 +933,8 @@
             "name_en": "1+",
             "name_cn": "1+",
             "name_fr": "1+",
-            "name_de": "1+"
+            "name_de": "1+",
+            "name_pl": "1+"
           }
         },
         "ok-renegade": {
@@ -900,7 +945,8 @@
             "name_de": "Rüstungsfluch (1), Geschlossene Ränge, Angst, Aufpralltreffer (1), Ogerangriff, Monstrous Ranks",
             "name_es": "Armour Bane (1), Close Order, Fear, Impact Hits (1), Ogre Charge, Monstrous Ranks",
             "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Touches d'Impact (1), Charge Ogre, Rangs Monstrueux",
-            "name_it": "Armour Bane (1), Close Order, Fear, Impact Hits (1), Ogre Charge, Monstrous Ranks"
+            "name_it": "Armour Bane (1), Close Order, Fear, Impact Hits (1), Ogre Charge, Monstrous Ranks",
+            "name_pl": "Przebicie Zbroi (1), Zwarty Szyk, Strach, Uderzenia Impetu (1), Ogr Charge, Monstrous Ranks {renegade}"
           }
         }
       },
@@ -912,6 +958,7 @@
           "name_es": "Crusher (champion)",
           "name_fr": "Broyeur (champion)",
           "name_it": "Crusher (champion)",
+          "name_pl": "Crusher (czempion)",
           "points": 6
         },
         {
@@ -921,6 +968,7 @@
           "name_es": "Standard bearer",
           "name_fr": "Porte-étendard",
           "name_it": "Standard bearer",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -936,6 +984,7 @@
               "name_es": "Look-out Gnoblar",
               "name_fr": "Gnoblar Longue-vue",
               "name_it": "Look-out Gnoblar",
+              "name_pl": "Gnoblar obserwator",
               "points": 5
             }
           ]
@@ -947,6 +996,7 @@
           "name_es": "Bellower (musician)",
           "name_fr": "Beugleur (musicien)",
           "name_it": "Bellower (musician)",
+          "name_pl": "Bellower (muzyk)",
           "points": 6
         }
       ],
@@ -996,7 +1046,7 @@
           "points": 4,
           "perModel": true,
           "armyComposition": "ok-renegade",
-          "name_pl": "Żelazne Pięści {renegaci}"
+          "name_pl": "Żelazne Pięści {renegade}"
         }
       ],
       "armor": [
@@ -1007,6 +1057,7 @@
           "name_es": "Light armour",
           "name_fr": "Armure légère",
           "name_it": "Light armour",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": false,
           "active": true
@@ -1022,7 +1073,8 @@
         "name_de": "Rüstungsfluch (1), Geschlossene Ränge, Angst, Aufpralltreffer (1), Ogerangriff",
         "name_es": "Armour Bane (1), Close Order, Fear, Impact Hits (1), Ogre Charge",
         "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Touches d'Impact (1), Charge Ogre",
-        "name_it": "Armour Bane (1), Close Order, Fear, Impact Hits (1), Ogre Charge"
+        "name_it": "Armour Bane (1), Close Order, Fear, Impact Hits (1), Ogre Charge",
+        "name_pl": "Przebicie Zbroi (1), Zwarty Szyk, Strach, Uderzenia Impetu (1), Ogr Charge"
       }
     },
     {
@@ -1051,7 +1103,8 @@
             "name_de": "Angst, Aufpralltreffer (1), Geschlossene Ränge, Ogerangriff, Monstrous Ranks",
             "name_es": "Close Order, Fear, Impact Hits (1), Ogre Charge, Monstrous Ranks",
             "name_fr": "Ordre Serré, Peur, Touches d'Impact (1), Charge Ogre, Rangs Monstrueux",
-            "name_it": "Close Order, Fear, Impact Hits (1), Ogre Charge, Monstrous Ranks"
+            "name_it": "Close Order, Fear, Impact Hits (1), Ogre Charge, Monstrous Ranks",
+            "name_pl": "Zwarty Szyk, Strach, Uderzenia Impetu (1), Ogr Charge, Monstrous Ranks {renegade}"
           }
         }
       },
@@ -1072,7 +1125,8 @@
           "name_de": "Stahlwanst (Champion)",
           "name_es": "Gutlord",
           "name_fr": "Ventre de fer (champion)",
-          "name_it": "Gutlord"
+          "name_it": "Gutlord",
+          "name_pl": "Gutlord (czempion)"
         },
         {
           "name_en": "Standard bearer",
@@ -1087,7 +1141,8 @@
           "name_de": "Standartenträger",
           "name_es": "Standard bearer",
           "name_fr": "Porte-étendard",
-          "name_it": "Standard bearer"
+          "name_it": "Standard bearer",
+          "name_pl": "Sztandarowy"
         },
         {
           "name_en": "Bellower (musician)",
@@ -1096,6 +1151,7 @@
           "name_es": "Bellower (musician)",
           "name_fr": "Beugleur (musicien)",
           "name_it": "Bellower (musician)",
+          "name_pl": "Bellower (muzyk)",
           "points": 7
         }
       ],
@@ -1121,6 +1177,7 @@
           "name_es": "Heavy armour",
           "name_fr": "Armure lourde",
           "name_it": "Heavy armour",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": false,
           "active": true
@@ -1158,6 +1215,7 @@
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
           "name_it": "Oggetti magici",
+          "name_pl": "Przedmioty magiczne",
           "types": [],
           "selected": [],
           "maxPoints": 0
@@ -1170,7 +1228,8 @@
         "name_de": "Angst, Aufpralltreffer (1), Geschlossene Ränge, Ogerangriff",
         "name_es": "Close Order, Fear, Impact Hits (1), Ogre Charge",
         "name_fr": "Ordre Serré, Peur, Touches d'Impact (1), Charge Ogre",
-        "name_it": "Close Order, Fear, Impact Hits (1), Ogre Charge"
+        "name_it": "Close Order, Fear, Impact Hits (1), Ogre Charge",
+        "name_pl": "Zwarty Szyk, Strach, Uderzenia Impetu (1), Ogr Charge"
       },
       "notes": {
         "name_en": "",
@@ -1178,7 +1237,8 @@
         "name_de": "",
         "name_es": "",
         "name_fr": "",
-        "name_it": ""
+        "name_it": "",
+        "name_pl": ""
       }
     },
     {
@@ -1203,6 +1263,7 @@
           "name_es": "Groinbiter",
           "name_fr": "Mord-nez (champion)",
           "name_it": "Groinbiter",
+          "name_pl": "Groinbiter (czempion)",
           "points": 5
         }
       ],
@@ -1231,7 +1292,8 @@
         "name_de": "Geschlossene Ränge, Horde, Völlig Unbedeutend",
         "name_es": "Close Order, Horde, Largely Insignificant",
         "name_fr": "Ordre Serré, Horde, Complètement Insignifiant",
-        "name_it": "Close Order, Horde, Largely Insignificant"
+        "name_it": "Close Order, Horde, Largely Insignificant",
+        "name_pl": "Zwarty Szyk, Horda, Largely Insignificant"
       },
       "notes": {
         "name_en": "",
@@ -1239,7 +1301,8 @@
         "name_de": "",
         "name_es": "",
         "name_fr": "",
-        "name_it": ""
+        "name_it": "",
+        "name_pl": ""
       }
     },
     {
@@ -1264,6 +1327,7 @@
           "name_es": "Snarefinger",
           "name_fr": "Braconnier (champion)",
           "name_it": "Snarefinger",
+          "name_pl": "Snarefinger (czempion)",
           "points": 5
         }
       ],
@@ -1292,7 +1356,8 @@
         "name_de": "Völlig Unbedeutend, Durch Deckung bewegen, Kundschafter, Plänkler, Fallen & Schlingen",
         "name_es": "Largely Insignificant, Move Through Cover, Scouts, Skirmishers, Traps & Snares",
         "name_fr": "Complètement Insignifiant, Mouvement à Couvert, Éclaireurs, Tirailleurs, Pièges & Collets",
-        "name_it": "Largely Insignificant, Move Through Cover, Scouts, Skirmishers, Traps & Snares"
+        "name_it": "Largely Insignificant, Move Through Cover, Scouts, Skirmishers, Traps & Snares",
+        "name_pl": "Largely Insignificant, Przechodzenie Przez Zasłony, Zwiadowcy, Harcownicy, Traps & Snares"
       },
       "notes": {
         "name_en": "",
@@ -1300,7 +1365,8 @@
         "name_de": "",
         "name_es": "",
         "name_fr": "",
-        "name_it": ""
+        "name_it": "",
+        "name_pl": ""
       }
     },
     {
@@ -1377,7 +1443,8 @@
         "name_de": "Rüstungsfluch (1), Angst, Ungestüm, Einzelgänger, Durck Deckung bewegen, Offene Ränge, Plänkler, Schnelle Bewegung",
         "name_es": "Armour Bane (1), Fear, Impetuous, Loner, Move Through Cover, Open Order, Skirmishers, Swiftstride",
         "name_fr": "Arme Perforante (1), Peur, Impétueux, Solitaire, Mouvement à Couvert, Ordre Dispersé, Tirailleurs, Rapide",
-        "name_it": "Armour Bane (1), Fear, Impetuous, Loner, Move Through Cover, Open Order, Skirmishers, Swiftstride"
+        "name_it": "Armour Bane (1), Fear, Impetuous, Loner, Move Through Cover, Open Order, Skirmishers, Swiftstride",
+        "name_pl": "Przebicie Zbroi (1), Strach, Impet, Samotnik, Przechodzenie Przez Zasłony, Luźny Szyk, Harcownicy, Szybki Krok"
       },
       "notes": {
         "name_en": "",
@@ -1385,7 +1452,8 @@
         "name_de": "",
         "name_es": "",
         "name_fr": "",
-        "name_it": ""
+        "name_it": "",
+        "name_pl": ""
       }
     }
   ],
@@ -1416,7 +1484,8 @@
             "name_de": "Geschlossene Ränge, Angst, Aufpralltreffer (1), Ogerangriff, Monstrous Ranks",
             "name_es": "Close Order, Fear, Impact Hits (1), Ogre Charge, Monstrous Ranks",
             "name_fr": "Ordre Serré, Peur, Touches d'Impact (1), Charge Ogre, Rangs Monstrueux",
-            "name_it": "Close Order, Fear, Impact Hits (1), Ogre Charge, Monstrous Ranks"
+            "name_it": "Close Order, Fear, Impact Hits (1), Ogre Charge, Monstrous Ranks",
+            "name_pl": "Zwarty Szyk, Strach, Uderzenia Impetu (1), Ogr Charge, Monstrous Ranks {renegade}"
           }
         }
       },
@@ -1428,6 +1497,7 @@
           "name_es": "Thunderfist",
           "name_fr": "Crache-tonnerre (champion)",
           "name_it": "Thunderfist",
+          "name_pl": "Thunderfist (czempion)",
           "points": 8
         },
         {
@@ -1437,6 +1507,7 @@
           "name_es": "Bellower (musician)",
           "name_fr": "Beugleur (musicien)",
           "name_it": "Bellower (musician)",
+          "name_pl": "Bellower (muzyk)",
           "points": 6
         }
       ],
@@ -1451,7 +1522,7 @@
           "points": 0,
           "perModel": false,
           "active": true,
-          "name_pl": "Broń ręczna, Działa Leadbelcher {renegaci}"
+          "name_pl": "Broń ręczna, Działa Leadbelcher {renegade}"
         }
       ],
       "armor": [
@@ -1462,6 +1533,7 @@
           "name_es": "Light armour",
           "name_fr": "Armure légère",
           "name_it": "Light armour",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": false,
           "active": true
@@ -1489,7 +1561,8 @@
         "name_de": "Geschlossene Ränge, Angst, Aufpralltreffer (1), Ogerangriff",
         "name_es": "Close Order, Fear, Impact Hits (1), Ogre Charge",
         "name_fr": "Ordre Serré, Peur, Touches d'Impact (1), Charge Ogre",
-        "name_it": "Close Order, Fear, Impact Hits (1), Ogre Charge"
+        "name_it": "Close Order, Fear, Impact Hits (1), Ogre Charge",
+        "name_pl": "Zwarty Szyk, Strach, Uderzenia Impetu (1), Ogr Charge"
       },
       "notes": {
         "name_en": "",
@@ -1497,7 +1570,8 @@
         "name_de": "",
         "name_es": "",
         "name_fr": "",
-        "name_it": ""
+        "name_it": "",
+        "name_pl": ""
       }
     },
     {
@@ -1526,7 +1600,8 @@
             "name_de": "Geschlossene Ränge, Angst, Aufpralltreffer (1), Zusammengewürfelter Haufen, Ogerangriff, Monstrous Ranks",
             "name_es": "Close Order, Fear, Impact Hits (1), Motley Crew, Ogre Charge, Monstrous Ranks",
             "name_fr": "Ordre Serré, Peur, Touches d'Impact (1), Bande Hétéroclite, Charge Ogre, Rangs Monstrueux",
-            "name_it": "Close Order, Fear, Impact Hits (1), Motley Crew, Ogre Charge, Monstrous Ranks"
+            "name_it": "Close Order, Fear, Impact Hits (1), Motley Crew, Ogre Charge, Monstrous Ranks",
+            "name_pl": "Zwarty Szyk, Strach, Uderzenia Impetu (1), Zbieranina, Ogr Charge, Monstrous Ranks {renegade}"
           }
         }
       },
@@ -1536,6 +1611,7 @@
           "name_cn": "食人者队长(冠军)",
           "name_fr": "Capitaine Mangeur d'Hommes (champion)",
           "name_de": "Vielfraß-Hauptmann (Champion)",
+          "name_pl": "Maneater Kapitan (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -1552,6 +1628,7 @@
           "name_cn": "旗手",
           "name_fr": "Porte-étendard",
           "name_de": "Standartenträger",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "types": [
@@ -1565,6 +1642,7 @@
               "name_cn": "瞭望孬不拉",
               "name_fr": "Gnoblar Longue-vue",
               "name_de": "Spähgnoblar",
+              "name_pl": "Gnoblar obserwator",
               "points": 5
             }
           ]
@@ -1574,6 +1652,7 @@
           "name_cn": "大嗓门(乐手)",
           "name_fr": "Beugleur (musicien)",
           "name_de": "Brüller (Musiker)",
+          "name_pl": "Bellower (muzyk)",
           "points": 7
         }
       ],
@@ -1595,6 +1674,7 @@
           "name_cn": "轻甲",
           "name_fr": "Armure légère",
           "name_de": "Leichte Rüstung",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1660,7 +1740,7 @@
           "points": 4,
           "stackable": true,
           "armyComposition": "ok-renegade",
-          "name_pl": "Żelazne Pięści {renegaci}"
+          "name_pl": "Żelazne Pięści {renegade}"
         },
         {
           "name_en": "Great weapons",
@@ -1708,7 +1788,8 @@
         "name_de": "Geschlossene Ränge, Angst, Aufpralltreffer (1), Zusammengewürfelter Haufen, Ogerangriff",
         "name_es": "Close Order, Fear, Impact Hits (1), Motley Crew, Ogre Charge",
         "name_fr": "Ordre Serré, Peur, Touches d'Impact (1), Bande Hétéroclite, Charge Ogre",
-        "name_it": "Close Order, Fear, Impact Hits (1), Motley Crew, Ogre Charge"
+        "name_it": "Close Order, Fear, Impact Hits (1), Motley Crew, Ogre Charge",
+        "name_pl": "Zwarty Szyk, Strach, Uderzenia Impetu (1), Zbieranina, Ogr Charge"
       },
       "notes": {
         "name_en": "0-1 unit of Maneaters per 1000 points",
@@ -1717,7 +1798,7 @@
         "name_es": "0-1 unit of Maneaters per 1000 points",
         "name_fr": "0-1 unité de Mangeurs d'Hommes par tranche de 1000 points",
         "name_it": "0-1 unit of Maneaters per 1000 points",
-        "name_pl": "0-1 unit of Maneaters per 1000 points"
+        "name_pl": "0-1 jednostka of Maneaters na 1000 punktów"
       }
     },
     {
@@ -1751,7 +1832,8 @@
           "name_de": "Quetscher (Champion)",
           "name_es": "Crusher (champion)",
           "name_fr": "Broyeur (champion)",
-          "name_it": "Crusher (champion)"
+          "name_it": "Crusher (champion)",
+          "name_pl": "Crusher (czempion)"
         },
         {
           "name_en": "Standard bearer",
@@ -1766,7 +1848,8 @@
           "name_de": "Standartenträger",
           "name_es": "Standard bearer",
           "name_fr": "Porte-étendard",
-          "name_it": "Standard bearer"
+          "name_it": "Standard bearer",
+          "name_pl": "Sztandarowy"
         },
         {
           "name_en": "Bellower (musician)",
@@ -1775,6 +1858,7 @@
           "name_es": "Bellower (musician)",
           "name_fr": "Beugleur (musicien)",
           "name_it": "Bellower (musician)",
+          "name_pl": "Bellower (muzyk)",
           "points": 7
         }
       ],
@@ -1813,7 +1897,7 @@
           "points": 4,
           "perModel": true,
           "armyComposition": "ok-renegade",
-          "name_pl": "Żelazna Pięść {renegaci}"
+          "name_pl": "Żelazna Pięść {renegade}"
         },
         {
           "name_en": "Great weapon",
@@ -1835,6 +1919,7 @@
           "name_es": "Light armour",
           "name_fr": "Armure légère",
           "name_it": "Light armour",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1846,6 +1931,7 @@
           "name_es": "Heavy armour",
           "name_fr": "Armure lourde",
           "name_it": "Heavy armour",
+          "name_pl": "Ciężka Zbroja",
           "points": 3,
           "perModel": true
         }
@@ -1871,7 +1957,8 @@
         "name_de": "Zähe Haut (1), Geschlossene Ränge, Angst, Aufpralltreffer (W3), Trauerfangangriff, Schnelle Bewegung",
         "name_es": "Armoured Hide (1), Close Order, Fear, Impact Hits (D3), Mournfang Charge, Swiftstride",
         "name_fr": "Peau Blindée (1), Ordre Serré, Peur, Touches d'Impact (D3), Charge Férox, Rapide",
-        "name_it": "Armoured Hide (1), Close Order, Fear, Impact Hits (D3), Mournfang Charge, Swiftstride"
+        "name_it": "Armoured Hide (1), Close Order, Fear, Impact Hits (D3), Mournfang Charge, Swiftstride",
+        "name_pl": "Opancerzona Skóra (1), Zwarty Szyk, Strach, Uderzenia Impetu (D3), Mournfang Charge, Szybki Krok"
       },
       "notes": {
         "name_en": "0-1 unit of Mournfang Cavalry per 1000 points",
@@ -1880,7 +1967,7 @@
         "name_es": "0-1 unit of Mournfang Cavalry per 1000 points",
         "name_fr": "0-1 unité de Cavalerie Férox par tranche de 1000 points",
         "name_it": "0-1 unit of Mournfang Cavalry per 1000 points",
-        "name_pl": "0-1 unit of Mournfang Cavalry per 1000 points"
+        "name_pl": "0-1 jednostka of Mournfang Kawaleria na 1000 punktów"
       }
     },
     {
@@ -1905,6 +1992,7 @@
           "name_es": "Greyback",
           "name_fr": "Dos-gris",
           "name_it": "Greyback",
+          "name_pl": "Greyback",
           "points": 7
         }
       ],
@@ -1956,7 +2044,8 @@
         "name_de": "Zähe Haut (1), Angst, Brennbar, Einzelgänger, Durch Deckung bewegen, Lähmende Kälte, Offene Ränge, Schnelle Bewegung",
         "name_es": "Armoured Hide (1), Fear, Flammable, Loner, Move Through Cover, Numbing Chill, Open Order, Swiftstride",
         "name_fr": "Peau Blindée (1), Peur, Inflammable, Solitaire, Mouvement à Couvert, Frisson Paralysant, Ordre Dispersé, Rapide",
-        "name_it": "Armoured Hide (1), Fear, Flammable, Loner, Move Through Cover, Numbing Chill, Open Order, Swiftstride"
+        "name_it": "Armoured Hide (1), Fear, Flammable, Loner, Move Through Cover, Numbing Chill, Open Order, Swiftstride",
+        "name_pl": "Opancerzona Skóra (1), Strach, Łatwopalny, Samotnik, Przechodzenie Przez Zasłony, Numbing Chill, Luźny Szyk, Szybki Krok"
       },
       "notes": {
         "name_en": "",
@@ -1964,7 +2053,8 @@
         "name_de": "",
         "name_es": "",
         "name_fr": "",
-        "name_it": ""
+        "name_it": "",
+        "name_pl": ""
       }
     },
     {
@@ -1989,7 +2079,7 @@
             "name_es": "0-1 Ironblaster or Gnoblar Scraplauncher per 1000 points",
             "name_fr": "0-1 Boute-fer ou Lance-ferraille Gnoblar par tranche de 1000 points",
             "name_it": "0-1 Ironblaster or Gnoblar Scraplauncher per 1000 points",
-            "name_pl": "0-1 Ironblaster or Gnoblar Scraplauncher per 1000 points"
+            "name_pl": "0-1 Ironblaster lub Gnoblar Scraplauncher na 1000 punktów"
           }
         },
         "ok-renegade": {
@@ -2001,7 +2091,7 @@
             "name_es": "0-1 Ironblaster per 1000 points",
             "name_fr": "0-1 Boute-fer par tranche de 1000 points",
             "name_it": "0-1 Ironblaster per 1000 points",
-            "name_pl": "0-1 Ironblaster per 1000 points"
+            "name_pl": "0-1 Ironblaster na 1000 punktów"
           }
         }
       },
@@ -2031,7 +2121,8 @@
         "name_de": "Rüstungsfluch (2 - Nur Rhinox), Geschlossene Ränge, Angst, Erster Angriff, Aufpralltreffer (W6+1), Großes Ziel",
         "name_es": "Armour Bane (2 - Rhinox only), Close Order, Fear, First Charge, Impact Hits (D6+1), Large Target",
         "name_fr": "Arme Perforante (2 - Rhinox uniquement), Ordre Serré, Peur, Première Charge, Touches d'Impact (D6+1), Grande Cible",
-        "name_it": "Armour Bane (2 - Rhinox only), Close Order, Fear, First Charge, Impact Hits (D6+1), Large Target"
+        "name_it": "Armour Bane (2 - Rhinox only), Close Order, Fear, First Charge, Impact Hits (D6+1), Large Target",
+        "name_pl": "Przebicie Zbroi (2 - Rhinox only), Zwarty Szyk, Strach, Pierwsza Szarża, Uderzenia Impetu (D6+1), Duży Cel"
       }
     },
     {
@@ -2056,7 +2147,7 @@
             "name_es": "0-1 Ironblaster or Gnoblar Scraplauncher per 1000 points",
             "name_fr": "0-1 Boute-fer ou Lance-ferraille Gnoblar par tranche de 1000 points",
             "name_it": "0-1 Ironblaster or Gnoblar Scraplauncher per 1000 points",
-            "name_pl": "0-1 Ironblaster or Gnoblar Scraplauncher per 1000 points"
+            "name_pl": "0-1 Ironblaster lub Gnoblar Scraplauncher na 1000 punktów"
           }
         },
         "ok-renegade": {
@@ -2089,7 +2180,8 @@
         "name_de": "Rüstungsfluch (2 - Nur Rhinox), Geschlossene Ränger, Angst, Erster Angriff, Aufpralltreffer (W6+1), Großes Ziel",
         "name_es": "Armour Bane (2 - Rhinox only), Close Order, Fear, First Charge, Impact Hits (D6+1), Large Target",
         "name_fr": "Arme Perforante (2 - Rhinox uniquement), Ordre Serré, Peur, Première Charge, Touches d'Impact (D6+1), Grande Cible",
-        "name_it": "Armour Bane (2 - Rhinox only), Close Order, Fear, First Charge, Impact Hits (D6+1), Large Target"
+        "name_it": "Armour Bane (2 - Rhinox only), Close Order, Fear, First Charge, Impact Hits (D6+1), Large Target",
+        "name_pl": "Przebicie Zbroi (2 - Rhinox only), Zwarty Szyk, Strach, Pierwsza Szarża, Uderzenia Impetu (D6+1), Duży Cel"
       }
     }
   ],
@@ -2150,13 +2242,15 @@
         "name_de": "Rüstungsfluch (2 - Nur Steinyak), Geschlossene Ränge, Erster Angriff, Sänfte, Aufpralltreffer (W6+1), Großes Ziel, Steinernes Skelett, Schnelle Bewegung, Entsetzen, Donnernder Angriff",
         "name_es": "Armour Bane (2 - Stonehorn only), Close Order, First Charge, Howdah, Impact Hits (D6+1), Large Target, Stone Skeleton, Swiftstride, Terror, Thunderous Charge",
         "name_fr": "Arme Perforante (2 - Mastauroc uniquement), Ordre Serré, Première Charge, Howdah, Touches d'Impact (D6+1), Grande Cible, Squelette de Pierre, Rapide, Terreur, Charge Tonnerre",
-        "name_it": "Armour Bane (2 - Stonehorn only), Close Order, First Charge, Howdah, Impact Hits (D6+1), Large Target, Stone Skeleton, Swiftstride, Terror, Thunderous Charge"
+        "name_it": "Armour Bane (2 - Stonehorn only), Close Order, First Charge, Howdah, Impact Hits (D6+1), Large Target, Stone Skeleton, Swiftstride, Terror, Thunderous Charge",
+        "name_pl": "Przebicie Zbroi (2 - Stonehorn only), Zwarty Szyk, Pierwsza Szarża, Howdah, Uderzenia Impetu (D6+1), Duży Cel, Kamienny Skeleton, Szybki Krok, Terror, Thunderous Charge"
       },
       "notes": {
         "name_en": "0-1 Stonehorn Riders per 1000 points",
         "name_cn": "每1000分0-1",
         "name_fr": "0-1 Chevaucheurs de Mastauroc par tranche de 1000 points",
-        "name_de": "0-1 Steinyakreiter pro 1.000 Punkte"
+        "name_de": "0-1 Steinyakreiter pro 1.000 Punkte",
+        "name_pl": "0-1 Stonehorn Jeźdźcy na 1000 punktów"
       }
     },
     {
@@ -2217,13 +2311,15 @@
         "name_de": "Geschlossene Ränge, Erster Angriff, Sänfte, Aufpralltreffer (W3), Großes Ziel, Lähmende Kälte, Stampfattacken (3), Schnelle Bewegung, Entsetzen",
         "name_es": "Close Order, First Charge, Howdah, Impact Hits (D3), Large Target, Numbing Chill, Stomp Attacks (3), Swiftstride, Terror",
         "name_fr": "Ordre Serré, Première Charge, Howdah, Touches d'Impact (D3), Grande Cible, Frisson Paralysant, Attaques de Piétinement (3), Rapide, Terreur",
-        "name_it": "Close Order, First Charge, Howdah, Impact Hits (D3), Large Target, Numbing Chill, Stomp Attacks (3), Swiftstride, Terror"
+        "name_it": "Close Order, First Charge, Howdah, Impact Hits (D3), Large Target, Numbing Chill, Stomp Attacks (3), Swiftstride, Terror",
+        "name_pl": "Zwarty Szyk, Pierwsza Szarża, Howdah, Uderzenia Impetu (D3), Duży Cel, Numbing Chill, Zdeptanie (3), Szybki Krok, Terror"
       },
       "notes": {
         "name_en": "0-1 Thundertusk Riders per 1000 points",
         "name_cn": "每1000分0-1",
         "name_fr": "0-1 Chevaucheurs de Mégastodonte par tranche de 1000 points",
-        "name_de": "0-1 Donnerhornreiter pro 1.000 Punkte"
+        "name_de": "0-1 Donnerhornreiter pro 1.000 Punkte",
+        "name_pl": "0-1 Thundertusk Jeźdźcy na 1000 punktów"
       }
     },
     {
@@ -2261,6 +2357,7 @@
           "name_es": "Light armour (Calloused hide)",
           "name_fr": "Armure légère (Peau calleuse)",
           "name_it": "Light armour (Calloused hide)",
+          "name_pl": "Lekka Zbroja (Calloused hide)",
           "points": 0,
           "perModel": false,
           "active": true
@@ -2276,7 +2373,8 @@
         "name_de": "Geschlossene Ränge, Riesenattacken, Immung gegen Psychologie, Großes Ziel, Grabschen und..., Stampfattacken (W6), Entsetzen, Baum fällt!, Unerschütterlich",
         "name_es": "Close Order, Giant Attacks, Immune to Psychology, Large Target, Pick Up And..., Stomp Attacks (D6), Terror, Timmm-berrr!, Unbreakable",
         "name_fr": "Ordre Serré, Attaques de Géant, Immunisé à la Psychologie, Grande Cible, Ramassage, Attaques de Piétinement (D6), Terreur, Timmm-berrr!, Indémoralisable",
-        "name_it": "Close Order, Giant Attacks, Immune to Psychology, Large Target, Pick Up And..., Stomp Attacks (D6), Terror, Timmm-berrr!, Unbreakable"
+        "name_it": "Close Order, Giant Attacks, Immune to Psychology, Large Target, Pick Up And..., Stomp Attacks (D6), Terror, Timmm-berrr!, Unbreakable",
+        "name_pl": "Zwarty Szyk, Olbrzym Attacks, Odporność Na Psychologię, Duży Cel, Pick Up I..., Zdeptanie (D6), Terror, Timmm-berrr!, Niezłomni"
       },
       "notes": {
         "name_en": "",
@@ -2284,7 +2382,8 @@
         "name_de": "",
         "name_es": "",
         "name_fr": "",
-        "name_it": ""
+        "name_it": "",
+        "name_pl": ""
       }
     },
     {
@@ -2309,7 +2408,7 @@
             "name_es": "0-3 Gorgers",
             "name_fr": "0-3 Cannibales",
             "name_it": "0-3 Gorgers",
-            "name_pl": "0-3 Gorgers"
+            "name_pl": "0-3 Pożeracze"
           }
         },
         "ok-renegade": {
@@ -2339,6 +2438,7 @@
           "name_es": "Light armour (Calloused hide)",
           "name_fr": "Armure légère (Peau calleuse)",
           "name_it": "Light armour (Calloused hide)",
+          "name_pl": "Lekka Zbroja (Calloused hide)",
           "points": 0,
           "perModel": false,
           "active": true
@@ -2377,7 +2477,8 @@
         "name_de": "Überfall, Geschlossene Ränge, Angst, Raserei, Ausgehungert, Regeneration (6+), Schnelle Bewegung, Unerschütterlich",
         "name_es": "Ambushers, Close Order, Fear, Frenzy, Ravenous Hunger, Regeneration (6+), Swiftstride, Unbreakable",
         "name_fr": "Embusqueurs, Ordre Serré, Peur, Frénésie, Faim Dévorante, Régénération (6+), Rapide, Indémoralisable",
-        "name_it": "Ambushers, Close Order, Fear, Frenzy, Ravenous Hunger, Regeneration (6+), Swiftstride, Unbreakable"
+        "name_it": "Ambushers, Close Order, Fear, Frenzy, Ravenous Hunger, Regeneration (6+), Swiftstride, Unbreakable",
+        "name_pl": "Zasadzka, Zwarty Szyk, Strach, Frenzy, Ravenous Hunger, Regeneracja (6+), Szybki Krok, Niezłomni"
       }
     }
   ],

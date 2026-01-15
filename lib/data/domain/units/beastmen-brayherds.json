@@ -17,7 +17,8 @@
           "category": "characters",
           "notes": {
             "name_en": "0-1 Beastlord or Great Bray-Shaman per 1000 points",
-            "name_fr": "0-1 Seigneur des Bêtes ou Grand Braillechamane par tranche de 1000 points"
+            "name_fr": "0-1 Seigneur des Bêtes ou Grand Braillechamane par tranche de 1000 points",
+            "name_pl": "0-1 Beastlord lub Wielki Bray-Shaman na 1000 punktów"
           }
         }
       },
@@ -28,6 +29,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -69,7 +71,8 @@
           "points": 0,
           "active": true,
           "name_es": "Sin armadura",
-          "name_fr": "Pas d'armure"
+          "name_fr": "Pas d'armure",
+          "name_pl": "Bez zbroi"
         },
         {
           "name_en": "Light armour",
@@ -77,7 +80,8 @@
           "name_de": "Light armour",
           "points": 2,
           "name_es": "Armadura ligera",
-          "name_fr": "Armure légère"
+          "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja"
         },
         {
           "name_en": "Heavy armour",
@@ -85,7 +89,8 @@
           "name_de": "Heavy armour",
           "points": 4,
           "name_es": "Armadura pesada",
-          "name_fr": "Armure lourde"
+          "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja"
         }
       ],
       "options": [
@@ -120,7 +125,8 @@
           "points": 0,
           "active": true,
           "name_es": "A pie",
-          "name_fr": "À Pied"
+          "name_fr": "À Pied",
+          "name_pl": "Pieszo"
         },
         {
           "name_en": "Tuskgor Chariot",
@@ -128,7 +134,8 @@
           "name_de": "Tuskgor Chariot",
           "points": 85,
           "name_es": "Carro de Tuskgors",
-          "name_fr": "Char à Sangleboucs"
+          "name_fr": "Char à Sangleboucs",
+          "name_pl": "Tuskgor Rydwan"
         },
         {
           "name_en": "Razorgor Chariot",
@@ -136,7 +143,8 @@
           "name_de": "Razorgor Chariot",
           "points": 120,
           "name_es": "Carro de Garragors",
-          "name_fr": "Char à Razorgors"
+          "name_fr": "Char à Razorgors",
+          "name_pl": "Razorgor Rydwan"
         }
       ],
       "items": [
@@ -146,6 +154,7 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "enchanted-item",
             "talisman",
@@ -162,6 +171,7 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "enchanted-item",
             "talisman",
@@ -178,6 +188,7 @@
           "name_de": "Chaos Mutations",
           "name_es": "Mutaciones del caos",
           "name_fr": "Mutations du Chaos",
+          "name_pl": "Mutacje Chaosu",
           "types": [
             "chaos-mutation"
           ],
@@ -191,6 +202,7 @@
           "name_de": "Chaos Mutations",
           "name_es": "Mutaciones del caos",
           "name_fr": "Mutations du Chaos",
+          "name_pl": "Mutacje Chaosu",
           "types": [
             "chaos-mutation"
           ],
@@ -205,12 +217,14 @@
         "name_cn": "血怒, 嘶叫号角(主将限定), 裂敌者, 诸神凝视, 混沌无分之印, 原始狂怒, 战帮",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Rage Sanguinaire, Braillecorne (Général Uniquement), Déchiqueteur, Regard des Dieux, Marque du Chaos Universel, Fureur Primale, Bande de Guerre"
+        "name_fr": "Rage Sanguinaire, Braillecorne (Général Uniquement), Déchiqueteur, Regard des Dieux, Marque du Chaos Universel, Fureur Primale, Bande de Guerre",
+        "name_pl": "Krwawy Rage, Brayhorn (Generał Only), Foe Render, Spojrzenie Bogów, Znak Chaosu Niepodzielonego, Pierwotna Furia, Gromada"
       },
       "notes": {
         "name_en": "0-1 Beastlord, Great Bray-Shaman or Doombull per 1000 points",
         "name_cn": "0-1兽王, 每1000分大嘶叫萨满或末日公牛",
-        "name_fr": "0-1 Seigneur des Bêtes, Grand Braillechamane ou Doombull par tranche de 1000 points"
+        "name_fr": "0-1 Seigneur des Bêtes, Grand Braillechamane ou Doombull par tranche de 1000 points",
+        "name_pl": "0-1 Beastlord, Wielki Bray-Shaman lub Doombull na 1000 punktów"
       }
     },
     {
@@ -229,6 +243,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0,
           "armyComposition": [
             "beastmen-brayherds",
@@ -240,6 +255,7 @@
           "name_cn": "战旗手",
           "name_de": "Battle Standard Bearer",
           "name_fr": "Porteur de la Grande Bannière",
+          "name_pl": "Chorąży",
           "points": 25,
           "magic": {
             "types": [
@@ -287,7 +303,8 @@
           "points": 0,
           "active": true,
           "name_es": "Sin armadura",
-          "name_fr": "Pas d'armure"
+          "name_fr": "Pas d'armure",
+          "name_pl": "Bez zbroi"
         },
         {
           "name_en": "Light armour",
@@ -295,7 +312,8 @@
           "name_de": "Light armour",
           "points": 2,
           "name_es": "Armadura ligera",
-          "name_fr": "Armure légère"
+          "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja"
         },
         {
           "name_en": "Heavy armour",
@@ -303,7 +321,8 @@
           "name_de": "Heavy armour",
           "points": 4,
           "name_es": "Armadura pesada",
-          "name_fr": "Armure lourde"
+          "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja"
         }
       ],
       "options": [
@@ -338,7 +357,8 @@
           "points": 0,
           "active": true,
           "name_es": "A pie",
-          "name_fr": "À Pied"
+          "name_fr": "À Pied",
+          "name_pl": "Pieszo"
         },
         {
           "name_en": "Tuskgor Chariot",
@@ -346,7 +366,8 @@
           "name_de": "Tuskgor Chariot",
           "points": 85,
           "name_es": "Carro de Tuskgors",
-          "name_fr": "Char à Sangleboucs"
+          "name_fr": "Char à Sangleboucs",
+          "name_pl": "Tuskgor Rydwan"
         },
         {
           "name_en": "Razorgor Chariot",
@@ -354,7 +375,8 @@
           "name_de": "Razorgor Chariot",
           "points": 120,
           "name_es": "Carro de Garragors",
-          "name_fr": "Char à Razorgors"
+          "name_fr": "Char à Razorgors",
+          "name_pl": "Razorgor Rydwan"
         }
       ],
       "items": [
@@ -364,6 +386,7 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "enchanted-item",
             "talisman",
@@ -383,6 +406,7 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "enchanted-item",
             "talisman",
@@ -399,6 +423,7 @@
           "name_de": "Chaos Mutations",
           "name_es": "Mutaciones del caos",
           "name_fr": "Mutations du Chaos",
+          "name_pl": "Mutacje Chaosu",
           "types": [
             "chaos-mutation"
           ],
@@ -415,6 +440,7 @@
           "name_de": "Chaos Mutations",
           "name_es": "Mutaciones del caos",
           "name_fr": "Mutations du Chaos",
+          "name_pl": "Mutacje Chaosu",
           "types": [
             "chaos-mutation"
           ],
@@ -429,7 +455,8 @@
         "name_cn": "血怒, 嘶叫号角(主将限定), 裂敌者, 诸神凝视, 混沌无分之印, 原始狂怒, 战帮",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Rage Sanguinaire, Braillecorne (Général Uniquement), Déchiqueteur, Regard des Dieux, Marque du Chaos Universel, Fureur Primale, Bande de Guerre"
+        "name_fr": "Rage Sanguinaire, Braillecorne (Général Uniquement), Déchiqueteur, Regard des Dieux, Marque du Chaos Universel, Fureur Primale, Bande de Guerre",
+        "name_pl": "Krwawy Rage, Brayhorn (Generał Only), Foe Render, Spojrzenie Bogów, Znak Chaosu Niepodzielonego, Pierwotna Furia, Gromada"
       }
     },
     {
@@ -455,7 +482,8 @@
           ],
           "notes": {
             "name_en": "0-1 Beastlord or Great Bray-Shaman per 1000 points",
-            "name_fr": "0-1 Seigneur des Bêtes ou Grand Braillechamane par tranche de 1000 points"
+            "name_fr": "0-1 Seigneur des Bêtes ou Grand Braillechamane par tranche de 1000 points",
+            "name_pl": "0-1 Beastlord lub Wielki Bray-Shaman na 1000 punktów"
           }
         }
       },
@@ -466,6 +494,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -537,7 +566,8 @@
           "points": 0,
           "active": true,
           "name_es": "A pie",
-          "name_fr": "À Pied"
+          "name_fr": "À Pied",
+          "name_pl": "Pieszo"
         },
         {
           "name_en": "Tuskgor Chariot",
@@ -545,7 +575,8 @@
           "name_de": "Tuskgor Chariot",
           "points": 85,
           "name_es": "Carro de Tuskgors",
-          "name_fr": "Char à Sangleboucs"
+          "name_fr": "Char à Sangleboucs",
+          "name_pl": "Tuskgor Rydwan"
         },
         {
           "name_en": "Razorgor Chariot",
@@ -553,7 +584,8 @@
           "name_de": "Razorgor Chariot",
           "points": 120,
           "name_es": "Carro de Garragors",
-          "name_fr": "Char à Razorgors"
+          "name_fr": "Char à Razorgors",
+          "name_pl": "Razorgor Rydwan"
         }
       ],
       "items": [
@@ -563,6 +595,7 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "enchanted-item",
             "talisman",
@@ -580,6 +613,7 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "enchanted-item",
             "talisman",
@@ -597,6 +631,7 @@
           "name_de": "Chaos Mutations",
           "name_es": "Mutaciones del caos",
           "name_fr": "Mutations du Chaos",
+          "name_pl": "Mutacje Chaosu",
           "types": [
             "chaos-mutation"
           ],
@@ -610,6 +645,7 @@
           "name_de": "Chaos Mutations",
           "name_es": "Mutaciones del caos",
           "name_fr": "Mutations du Chaos",
+          "name_pl": "Mutacje Chaosu",
           "types": [
             "chaos-mutation"
           ],
@@ -628,12 +664,14 @@
         "name_cn": "嘶叫法杖, 诸神凝视, 野兽法系, 混沌无分之印, 原始狂怒, 战帮",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Braillesceptre, Regard des Dieux, Domaine des Bêtes, Marque du Chaos Universel, Fureur Primale, Bande de Guerre"
+        "name_fr": "Braillesceptre, Regard des Dieux, Domaine des Bêtes, Marque du Chaos Universel, Fureur Primale, Bande de Guerre",
+        "name_pl": "Braystaff, Spojrzenie Bogów, Lore of Bestie, Znak Chaosu Niepodzielonego, Pierwotna Furia, Gromada"
       },
       "notes": {
         "name_en": "0-1 Beastlord, Great Bray-Shaman or Doombull per 1000 points",
         "name_cn": "0-1兽王, 每1000分大嘶叫萨满或末日公牛",
-        "name_fr": "0-1 Seigneur des Bêtes, Grand Braillechamane ou Doombull par tranche de 1000 points"
+        "name_fr": "0-1 Seigneur des Bêtes, Grand Braillechamane ou Doombull par tranche de 1000 points",
+        "name_pl": "0-1 Beastlord, Wielki Bray-Shaman lub Doombull na 1000 punktów"
       }
     },
     {
@@ -653,7 +691,8 @@
           "category": "characters",
           "notes": {
             "name_en": "0-1 Bray-Shaman per 1000 points",
-            "name_fr": "0-1 Braillechamane par tranche de 1000 points"
+            "name_fr": "0-1 Braillechamane par tranche de 1000 points",
+            "name_pl": "0-1 Bray-Shaman na 1000 punktów"
           }
         },
         "wild-herd": {
@@ -673,6 +712,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0,
           "armyComposition": [
             "beastmen-brayherds",
@@ -748,7 +788,8 @@
           "points": 0,
           "active": true,
           "name_es": "A pie",
-          "name_fr": "À Pied"
+          "name_fr": "À Pied",
+          "name_pl": "Pieszo"
         },
         {
           "name_en": "Tuskgor Chariot",
@@ -756,7 +797,8 @@
           "name_de": "Tuskgor Chariot",
           "points": 85,
           "name_es": "Carro de Tuskgors",
-          "name_fr": "Char à Sangleboucs"
+          "name_fr": "Char à Sangleboucs",
+          "name_pl": "Tuskgor Rydwan"
         },
         {
           "name_en": "Razorgor Chariot",
@@ -764,7 +806,8 @@
           "name_de": "Razorgor Chariot",
           "points": 120,
           "name_es": "Carro de Garragors",
-          "name_fr": "Char à Razorgors"
+          "name_fr": "Char à Razorgors",
+          "name_pl": "Razorgor Rydwan"
         }
       ],
       "items": [
@@ -774,6 +817,7 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "enchanted-item",
             "talisman",
@@ -794,6 +838,7 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "enchanted-item",
             "talisman",
@@ -811,6 +856,7 @@
           "name_de": "Chaos Mutations",
           "name_es": "Mutaciones del caos",
           "name_fr": "Mutations du Chaos",
+          "name_pl": "Mutacje Chaosu",
           "types": [
             "chaos-mutation"
           ],
@@ -827,6 +873,7 @@
           "name_de": "Chaos Mutations",
           "name_es": "Mutaciones del caos",
           "name_fr": "Mutations du Chaos",
+          "name_pl": "Mutacje Chaosu",
           "types": [
             "chaos-mutation"
           ],
@@ -845,12 +892,13 @@
         "name_cn": "嘶叫法杖, 诸神凝视, 野兽法系, 混沌无分之印, 原始狂怒, 战帮",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Braillesceptre, Regard des Dieux, Domaine des Bêtes, Marque du Chaos Universel, Fureur Primale, Bande de Guerre"
+        "name_fr": "Braillesceptre, Regard des Dieux, Domaine des Bêtes, Marque du Chaos Universel, Fureur Primale, Bande de Guerre",
+        "name_pl": "Braystaff, Spojrzenie Bogów, Lore of Bestie, Znak Chaosu Niepodzielonego, Pierwotna Furia, Gromada"
       }
     },
     {
       "name_en": "Doombull",
-      "name_pl": "Doombull",
+      "name_pl": "Byk Zagłady",
       "name_cn": "末日公牛",
       "name_de": "Doombull",
       "name_es": "Doombull",
@@ -868,12 +916,14 @@
             "name_cn": "碎甲攻击(1), 嗜血, 血怒, 牛角, 恐惧, 裂敌者, 诸神凝视, 撞击(1), 混沌无分之印, 原始狂怒, 杀戮召唤, 战帮, Impetuous",
             "name_de": "Armour Bane (1), Blood Greed, Blood Rage, Bull-gors, Fear, Foe Render, Gaze of the Gods, Impact Hits (1), Mark of Chaos Undivided, Primal Fury, Slaughterer's Call, Warband, Impetuous",
             "name_es": "Armour Bane (1), Blood Greed, Blood Rage, Bull-gors, Fear, Foe Render, Gaze of the Gods, Impact Hits (1), Mark of Chaos Undivided, Primal Fury, Slaughterer's Call, Warband, Impetuous",
-            "name_fr": "Arme Perforante (1), Soif de Sang, Rage Sanguinaire, Taurogors, Peur, Déchiqueteur, Regard des Dieux, Touches d'Impact (1), Marque du Chaos Universel, Fureur Primale, Appel du Massacreur, Bande de Guerre, Impétueux"
+            "name_fr": "Arme Perforante (1), Soif de Sang, Rage Sanguinaire, Taurogors, Peur, Déchiqueteur, Regard des Dieux, Touches d'Impact (1), Marque du Chaos Universel, Fureur Primale, Appel du Massacreur, Bande de Guerre, Impétueux",
+            "name_pl": "Przebicie Zbroi (1), Krwawy Greed, Krwawy Rage, Bull-gors, Strach, Foe Render, Spojrzenie Bogów, Uderzenia Impetu (1), Znak Chaosu Niepodzielonego, Pierwotna Furia, Slaughterer's Call, Gromada, Impet"
           },
           "notes": {
             "name_en": "0-1 Doombull per 1000 points",
             "name_cn": "0-1 Doombull per 1000 points",
-            "name_fr": "0-1 Doombull par tranche de 1000 points"
+            "name_fr": "0-1 Doombull par tranche de 1000 points",
+            "name_pl": "0-1 Doombull na 1000 punktów"
           },
           "lores": [
             "battle-magic",
@@ -888,6 +938,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -925,21 +976,24 @@
           "name_de": "No armour",
           "points": 0,
           "active": true,
-          "name_fr": "Pas d'armure"
+          "name_fr": "Pas d'armure",
+          "name_pl": "Bez zbroi"
         },
         {
           "name_en": "Light armour",
           "name_cn": "轻甲",
           "name_de": "Light armour",
           "points": 3,
-          "name_fr": "Armure légère"
+          "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja"
         },
         {
           "name_en": "Heavy armour",
           "name_cn": "重甲",
           "name_de": "Heavy armour",
           "points": 6,
-          "name_fr": "Armure lourde"
+          "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja"
         }
       ],
       "options": [
@@ -962,7 +1016,8 @@
           "armyComposition": "minotaur-blood-herd",
           "notes": {
             "name_en": "If selected, he must also be the general",
-            "name_fr": "Si sélectionné, il doit être le général"
+            "name_fr": "Si sélectionné, il doit être le général",
+            "name_pl": "Jeśli selected, he musi also be the generał"
           },
           "name_pl": "Czarodziej poziomu 1"
         },
@@ -977,7 +1032,8 @@
           "armyComposition": "minotaur-blood-herd",
           "notes": {
             "name_en": "If selected, he must also be the general",
-            "name_fr": "Si sélectionné, il doit être le général"
+            "name_fr": "Si sélectionné, il doit être le général",
+            "name_pl": "Jeśli selected, he musi also be the generał"
           },
           "name_pl": "Czarodziej poziomu 2"
         }
@@ -989,6 +1045,7 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "enchanted-item",
             "talisman",
@@ -1004,6 +1061,7 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "enchanted-item",
             "talisman",
@@ -1016,7 +1074,8 @@
           "armyComposition": "minotaur-blood-herd",
           "notes": {
             "name_en": "Arcane items are only available if the Doombull is a wizard",
-            "name_fr": "Les objets cabalistiques ne sont disponibles que si le Doombull est un sorcier."
+            "name_fr": "Les objets cabalistiques ne sont disponibles que si le Doombull est un sorcier.",
+            "name_pl": "Arcane items are only available jeśli the Doombull is a czarodziej"
           }
         },
         {
@@ -1024,6 +1083,7 @@
           "name_cn": "混沌变异",
           "name_de": "Chaos Mutations",
           "name_fr": "Mutations du Chaos",
+          "name_pl": "Mutacje Chaosu",
           "types": [
             "chaos-mutation"
           ],
@@ -1036,6 +1096,7 @@
           "name_cn": "混沌变异 / 混沌赠礼",
           "name_de": "Chaos Mutations / Gifts of Chaos",
           "name_fr": "Mutations du Chaos / Dons du Chaos",
+          "name_pl": "Chaos Mutations / Gifts Chaos",
           "types": [
             "chaos-mutation",
             "gift-of-chaos"
@@ -1051,17 +1112,19 @@
         "name_cn": "碎甲攻击(1), 嗜血, 血怒, 牛角, 恐惧, 裂敌者, 诸神凝视, 撞击(1), 混沌无分之印, 原始狂怒, 杀戮召唤, 战帮",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Arme Perforante (1), Soif de Sang, Rage Sanguinaire, Taurogors, Peur, Déchiqueteur, Regard des Dieux, Touches d'Impact (1), Marque du Chaos Universel, Fureur Primale, Appel du Massacreur, Bande de Guerre"
+        "name_fr": "Arme Perforante (1), Soif de Sang, Rage Sanguinaire, Taurogors, Peur, Déchiqueteur, Regard des Dieux, Touches d'Impact (1), Marque du Chaos Universel, Fureur Primale, Appel du Massacreur, Bande de Guerre",
+        "name_pl": "Przebicie Zbroi (1), Krwawy Greed, Krwawy Rage, Bull-gors, Strach, Foe Render, Spojrzenie Bogów, Uderzenia Impetu (1), Znak Chaosu Niepodzielonego, Pierwotna Furia, Slaughterer's Call, Gromada"
       },
       "notes": {
         "name_en": "0-1 Beastlord, Great Bray-Shaman or Doombull per 1000 points",
         "name_cn": "0-1兽王, 每1000分大嘶叫萨满或末日公牛",
-        "name_fr": "0-1 Seigneur des Bêtes, Grand Braillechamane ou Doombull par tranche de 1000 points"
+        "name_fr": "0-1 Seigneur des Bêtes, Grand Braillechamane ou Doombull par tranche de 1000 points",
+        "name_pl": "0-1 Beastlord, Wielki Bray-Shaman lub Doombull na 1000 punktów"
       }
     },
     {
       "name_en": "Gorebull",
-      "name_pl": "Gorebull",
+      "name_pl": "Krwawy Byk",
       "name_cn": "利角公牛",
       "name_de": "Gorebull",
       "name_es": "Gorebull",
@@ -1079,7 +1142,8 @@
             "name_cn": "碎甲攻击(1), 嗜血, 血怒, 牛角, 恐惧, 裂敌者, 诸神凝视, 撞击(1), 混沌无分之印, 原始狂怒, 杀戮召唤, 战帮, Impetuous",
             "name_de": "Armour Bane (1), Blood Greed, Blood Rage, Bull-gors, Fear, Foe Render, Gaze of the Gods, Impact Hits (1), Mark of Chaos Undivided, Primal Fury, Slaughterer's Call, Warband, Impetuous",
             "name_es": "Armour Bane (1), Blood Greed, Blood Rage, Bull-gors, Fear, Foe Render, Gaze of the Gods, Impact Hits (1), Mark of Chaos Undivided, Primal Fury, Slaughterer's Call, Warband, Impetuous",
-            "name_fr": "Arme Perforante (1), Soif de Sang, Rage Sanguinaire, Taurogors, Peur, Déchiqueteur, Regard des Dieux, Touches d'Impact (1), Marque du Chaos Universel, Fureur Primale, Appel du Massacreur, Bande de Guerre, Impétueux"
+            "name_fr": "Arme Perforante (1), Soif de Sang, Rage Sanguinaire, Taurogors, Peur, Déchiqueteur, Regard des Dieux, Touches d'Impact (1), Marque du Chaos Universel, Fureur Primale, Appel du Massacreur, Bande de Guerre, Impétueux",
+            "name_pl": "Przebicie Zbroi (1), Krwawy Greed, Krwawy Rage, Bull-gors, Strach, Foe Render, Spojrzenie Bogów, Uderzenia Impetu (1), Znak Chaosu Niepodzielonego, Pierwotna Furia, Slaughterer's Call, Gromada, Impet"
           },
           "lores": [
             "battle-magic",
@@ -1094,6 +1158,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         },
         {
@@ -1101,6 +1166,7 @@
           "name_cn": "战旗手",
           "name_de": "Battle Standard Bearer",
           "name_fr": "Porteur de la Grande Bannière",
+          "name_pl": "Chorąży",
           "points": 25,
           "armyComposition": "minotaur-blood-herd",
           "magic": {
@@ -1145,21 +1211,24 @@
           "name_de": "No armour",
           "points": 0,
           "active": true,
-          "name_fr": "Pas d'armure"
+          "name_fr": "Pas d'armure",
+          "name_pl": "Bez zbroi"
         },
         {
           "name_en": "Light armour",
           "name_cn": "轻甲",
           "name_de": "Light armour",
           "points": 3,
-          "name_fr": "Armure légère"
+          "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja"
         },
         {
           "name_en": "Heavy armour",
           "name_cn": "重甲",
           "name_de": "Heavy armour",
           "points": 6,
-          "name_fr": "Armure lourde"
+          "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja"
         }
       ],
       "options": [
@@ -1182,7 +1251,8 @@
           "armyComposition": "minotaur-blood-herd",
           "notes": {
             "name_en": "If selected, he must also be the general",
-            "name_fr": "Si sélectionné, il doit être le général"
+            "name_fr": "Si sélectionné, il doit être le général",
+            "name_pl": "Jeśli selected, he musi also be the generał"
           },
           "name_pl": "Czarodziej poziomu 1"
         },
@@ -1197,7 +1267,8 @@
           "armyComposition": "minotaur-blood-herd",
           "notes": {
             "name_en": "If selected, he must also be the general",
-            "name_fr": "Si sélectionné, il doit être le général"
+            "name_fr": "Si sélectionné, il doit être le général",
+            "name_pl": "Jeśli selected, he musi also be the generał"
           },
           "name_pl": "Czarodziej poziomu 2"
         }
@@ -1217,6 +1288,7 @@
           "selected": [],
           "maxPoints": 50,
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "armyComposition": "beastmen-brayherds"
         },
         {
@@ -1233,10 +1305,12 @@
           "selected": [],
           "maxPoints": 50,
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "armyComposition": "minotaur-blood-herd",
           "notes": {
             "name_en": "Arcane items are only available if the Gorebull is a wizard",
-            "name_fr": "Les objets cabalistiques ne sont disponibles que si le Gorebull est un sorcier."
+            "name_fr": "Les objets cabalistiques ne sont disponibles que si le Gorebull est un sorcier.",
+            "name_pl": "Arcane items are only available jeśli the Gorebull is a czarodziej"
           }
         },
         {
@@ -1244,6 +1318,7 @@
           "name_cn": "混沌变异",
           "name_de": "Chaos Mutations",
           "name_fr": "Mutations du Chaos",
+          "name_pl": "Mutacje Chaosu",
           "types": [
             "chaos-mutation"
           ],
@@ -1256,6 +1331,7 @@
           "name_cn": "混沌变异 / 混沌赠礼",
           "name_de": "Chaos Mutations / Gifts of Chaos",
           "name_fr": "Mutations du Chaos / Dons du Chaos",
+          "name_pl": "Chaos Mutations / Gifts Chaos",
           "types": [
             "chaos-mutation",
             "gift-of-chaos"
@@ -1271,7 +1347,8 @@
         "name_cn": "碎甲攻击(1), 嗜血, 血怒, 牛角, 恐惧, 裂敌者, 诸神凝视, 撞击(1), 混沌无分之印, 原始狂怒, 杀戮召唤, 战帮",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Arme Perforante (1), Soif de Sang, Rage Sanguinaire, Taurogors, Peur, Déchiqueteur, Regard des Dieux, Touches d'Impact (1), Marque du Chaos Universel, Fureur Primale, Appel du Massacreur, Bande de Guerre"
+        "name_fr": "Arme Perforante (1), Soif de Sang, Rage Sanguinaire, Taurogors, Peur, Déchiqueteur, Regard des Dieux, Touches d'Impact (1), Marque du Chaos Universel, Fureur Primale, Appel du Massacreur, Bande de Guerre",
+        "name_pl": "Przebicie Zbroi (1), Krwawy Greed, Krwawy Rage, Bull-gors, Strach, Foe Render, Spojrzenie Bogów, Uderzenia Impetu (1), Znak Chaosu Niepodzielonego, Pierwotna Furia, Slaughterer's Call, Gromada"
       }
     },
     {
@@ -1291,6 +1368,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0,
           "armyComposition": [
             "beastmen-brayherds",
@@ -1332,21 +1410,24 @@
           "name_de": "No armour",
           "points": 0,
           "active": true,
-          "name_fr": "Pas d'armure"
+          "name_fr": "Pas d'armure",
+          "name_pl": "Bez zbroi"
         },
         {
           "name_en": "Light armour",
           "name_cn": "轻甲",
           "name_de": "Light armour",
           "points": 2,
-          "name_fr": "Armure légère"
+          "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja"
         },
         {
           "name_en": "Heavy armour",
           "name_cn": "重甲",
           "name_de": "Heavy armour",
           "points": 4,
-          "name_fr": "Armure lourde"
+          "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja"
         }
       ],
       "options": [
@@ -1388,6 +1469,7 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "enchanted-item",
             "talisman",
@@ -1406,6 +1488,7 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "enchanted-item",
             "talisman",
@@ -1421,6 +1504,7 @@
           "name_cn": "混沌变异",
           "name_de": "Chaos Mutations",
           "name_fr": "Mutations du Chaos",
+          "name_pl": "Mutacje Chaosu",
           "types": [
             "chaos-mutation"
           ],
@@ -1436,6 +1520,7 @@
           "name_cn": "混沌变异",
           "name_de": "Chaos Mutations",
           "name_fr": "Mutations du Chaos",
+          "name_pl": "Mutacje Chaosu",
           "types": [
             "chaos-mutation"
           ],
@@ -1450,7 +1535,8 @@
         "name_cn": "醉酒, 快速骑兵, 诸神凝视, 混沌无分之印, 穿行掩体, 原始狂怒, 践踏攻击(1), 快速行进, 战帮",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Ivres, Cavalerie Rapide, Regard des Dieux, Marque du Chaos Universel, Mouvement à Couvert, Fureur Primale, Attaques de Piétinement (1), Rapide, Bande de Guerre"
+        "name_fr": "Ivres, Cavalerie Rapide, Regard des Dieux, Marque du Chaos Universel, Mouvement à Couvert, Fureur Primale, Attaques de Piétinement (1), Rapide, Bande de Guerre",
+        "name_pl": "Drunken, Szybka Kawaleria, Spojrzenie Bogów, Znak Chaosu Niepodzielonego, Przechodzenie Przez Zasłony, Pierwotna Furia, Zdeptanie (1), Szybki Krok, Gromada"
       }
     },
     {
@@ -1478,6 +1564,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0,
           "armyComposition": [
             "beastmen-brayherds",
@@ -1521,7 +1608,8 @@
         "name_cn": "Braystaff, Future Sight, Gaze of the Gods, Leering Spirit, Lore of Beasts, Mark of Chaos Undivided, Primal Fury, Warband",
         "name_de": "Braystaff, Future Sight, Gaze of the Gods, Leering Spirit, Lore of Beasts, Mark of Chaos Undivided, Primal Fury, Warband",
         "name_es": "Braystaff, Future Sight, Gaze of the Gods, Leering Spirit, Lore of Beasts, Mark of Chaos Undivided, Primal Fury, Warband",
-        "name_fr": "Braillesceptre, Vision du Futur, Regard des Dieux, Esprit Malin, Domaine des Bêtes, Marque du Chaos Universel, Fureur Primale, Bande de Guerre"
+        "name_fr": "Braillesceptre, Vision du Futur, Regard des Dieux, Esprit Malin, Domaine des Bêtes, Marque du Chaos Universel, Fureur Primale, Bande de Guerre",
+        "name_pl": "Braystaff, Future Sight, Spojrzenie Bogów, Leering Spirit, Lore of Bestie, Znak Chaosu Niepodzielonego, Pierwotna Furia, Gromada"
       }
     },
     {
@@ -1541,6 +1629,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0,
           "armyComposition": [
             "beastmen-brayherds",
@@ -1569,7 +1658,8 @@
         "name_cn": "Drunken, Father of Beasts, Gaze of the Gods, Mark of Chaos Undivided, Move Through Cover, Primal Fury, Stomp Attacks (D3), Swiftstride, The Sons of Ghorros, Warband",
         "name_de": "Drunken, Father of Beasts, Gaze of the Gods, Mark of Chaos Undivided, Move Through Cover, Primal Fury, Stomp Attacks (D3), Swiftstride, The Sons of Ghorros, Warband",
         "name_es": "Drunken, Father of Beasts, Gaze of the Gods, Mark of Chaos Undivided, Move Through Cover, Primal Fury, Stomp Attacks (D3), Swiftstride, The Sons of Ghorros, Warband",
-        "name_fr": "Ivres, Père des Bêtes, Regard des Dieux, Marque du Chaos Universel, Mouvement à Couvert, Fureur Primale, Attaques de Piétinement (D3), Rapide, Les Fils de Ghorros, Bande de Guerre"
+        "name_fr": "Ivres, Père des Bêtes, Regard des Dieux, Marque du Chaos Universel, Mouvement à Couvert, Fureur Primale, Attaques de Piétinement (D3), Rapide, Les Fils de Ghorros, Bande de Guerre",
+        "name_pl": "Drunken, Father of Bestie, Spojrzenie Bogów, Znak Chaosu Niepodzielonego, Przechodzenie Przez Zasłony, Pierwotna Furia, Zdeptanie (D3), Szybki Krok, The Sons of Ghorros, Gromada"
       }
     }
   ],
@@ -1598,6 +1688,7 @@
           "name_de": "Foe-render (champion)",
           "name_es": "Foe-render (champion)",
           "name_fr": "Déchiqueteur (champion)",
+          "name_pl": "Foe-render (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -1614,6 +1705,7 @@
               "name_cn": "重型武器",
               "name_de": "Great weapon",
               "name_fr": "Arme lourde",
+              "name_pl": "Broń Wielka",
               "points": 0
             }
           ]
@@ -1624,6 +1716,7 @@
           "name_de": "Standard bearer",
           "name_es": "Portaestandarte",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 5,
           "magic": {
             "types": [
@@ -1638,6 +1731,7 @@
           "name_de": "Musician",
           "name_es": "Músico",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 5
         }
       ],
@@ -1662,6 +1756,7 @@
               "name_de": "Hand weapons, Shields",
               "name_es": "Escudos, Escudos",
               "name_fr": "Armes de base, Boucliers",
+              "name_pl": "Broń Ręczna, Shields",
               "points": 0,
               "id": 1,
               "stackable": true,
@@ -1676,6 +1771,7 @@
               "name_de": "Additional hand weapons",
               "name_es": "Arma de mano adicional",
               "name_fr": "Armes de base additionnelles",
+              "name_pl": "Dodatkowa Broń Ręczna",
               "points": 0,
               "id": 2,
               "stackable": true,
@@ -1692,17 +1788,20 @@
               "name_de": "Ambushers",
               "name_es": "Emboscada",
               "name_fr": "Embusqueurs",
+              "name_pl": "Zasadzka",
               "points": 1,
               "perModel": true,
               "id": 0,
               "notes": {
                 "name_en": "If selected, it must also be selected for Ungors",
-                "name_fr": "Si sélectionné, doit être sélectionné également pour les Ungors"
+                "name_fr": "Si sélectionné, doit être sélectionné également pour les Ungors",
+                "name_pl": "Jeśli selected, it musi also be selected dla Ungors"
               }
             }
           ],
           "specialRules": {},
-          "name_fr": "Gors"
+          "name_fr": "Gors",
+          "name_pl": "Gory"
         },
         {
           "id": "ungors.xtxqwnwp",
@@ -1718,6 +1817,7 @@
               "name_de": "Thrusting spears, Shields",
               "name_es": "Thrusting spears, Shields",
               "name_fr": "Lances d'infanterie, Boucliers",
+              "name_pl": "Thrusting spears, Tarcze",
               "points": 0,
               "id": 1,
               "stackable": true,
@@ -1732,6 +1832,7 @@
               "name_de": "Throwing spears, Shields",
               "name_es": "Throwing spears, Shields",
               "name_fr": "Javelots, Boucliers",
+              "name_pl": "Throwing spears, Tarcze",
               "points": 0,
               "id": 2,
               "stackable": true,
@@ -1748,17 +1849,20 @@
               "name_de": "Ambushers",
               "name_es": "Emboscada",
               "name_fr": "Embusqueurs",
+              "name_pl": "Zasadzka",
               "points": 1,
               "perModel": true,
               "id": 0,
               "notes": {
                 "name_en": "If selected, it must also be selected for Gors",
-                "name_fr": "Si sélectionné, doit être sélectionné également pour les Gors"
+                "name_fr": "Si sélectionné, doit être sélectionné également pour les Gors",
+                "name_pl": "Jeśli selected, it musi also be selected dla Gors"
               }
             }
           ],
           "specialRules": {},
-          "name_fr": "Ungors"
+          "name_fr": "Ungors",
+          "name_pl": "Ungory"
         }
       ],
       "specialRules": {
@@ -1766,11 +1870,13 @@
         "name_cn": "Bestial Charge (Gors only), Blood Rage, Close Order, Horde, Impetuous, Mark of Chaos Undivided, Mixed Unit, Motley Crew, Move Through Cover, Primal Fury, Warband",
         "name_de": "Bestial Charge (Gors only), Blood Rage, Close Order, Horde, Impetuous, Mark of Chaos Undivided, Mixed Unit, Motley Crew, Move Through Cover, Primal Fury, Warband",
         "name_es": "Bestial Charge (Gors only), Blood Rage, Close Order, Horde, Impetuous, Mark of Chaos Undivided, Mixed Unit, Motley Crew, Move Through Cover, Primal Fury, Warband",
-        "name_fr": "Charge Bestiale (Gors uniquement), Rage Sanguinaire, Ordre Serré, Horde, Impétueux, Marque du Chaos Universel, Unité Mixte, Bande Hétéroclite, Mouvement à Couvert, Fureur Primale, Bande de Guerre"
+        "name_fr": "Charge Bestiale (Gors uniquement), Rage Sanguinaire, Ordre Serré, Horde, Impétueux, Marque du Chaos Universel, Unité Mixte, Bande Hétéroclite, Mouvement à Couvert, Fureur Primale, Bande de Guerre",
+        "name_pl": "Bestial Charge (Gors only), Krwawy Rage, Zwarty Szyk, Horda, Impet, Znak Chaosu Niepodzielonego, Mixed Jednostka, Zbieranina, Przechodzenie Przez Zasłony, Pierwotna Furia, Gromada"
       },
       "notes": {
         "name_en": "1+ Primal Warherd",
-        "name_fr": "1+ Harde de Guerre Primordiale"
+        "name_fr": "1+ Harde de Guerre Primordiale",
+        "name_pl": "1+ Pierwotne stado wojenne"
       }
     },
     {
@@ -1836,7 +1942,8 @@
         "name_cn": "0-1if General is Beastlord或战角兽",
         "name_de": "0-1 if General is Beastlord or Wargor",
         "name_es": "0-1 si el Genral es un Caudillo o Beligor",
-        "name_fr": "0-1 si votre général est un Seigneur des Bêtes ou un Wargor"
+        "name_fr": "0-1 si votre général est un Seigneur des Bêtes ou un Wargor",
+        "name_pl": "0-1 jeśli Generał is Beastlord lub Wargor"
       },
       "command": [
         {
@@ -1845,11 +1952,13 @@
           "name_de": "Gouge-horn",
           "name_es": "Corneador",
           "name_fr": "Encorneur",
+          "name_pl": "Dłutoróg",
           "points": 8,
           "notes": {
             "name_en": "25 pts of Magic Items, 25 pts of Chaos Mutations",
             "name_cn": "25分的魔法物品, 25分的混沌变异",
-            "name_fr": "25 points d'Objets Magiques, 25 points de Mutations du Chaos"
+            "name_fr": "25 points d'Objets Magiques, 25 points de Mutations du Chaos",
+            "name_pl": "25 pkt przedmiotów magicznych, 25 pkt mutacji chaosu"
           },
           "magic": {
             "types": [
@@ -1867,7 +1976,8 @@
               "name_cn": "重型武器",
               "name_de": "Great weapon",
               "points": 0,
-              "name_fr": "Arme lourde"
+              "name_fr": "Arme lourde",
+              "name_pl": "Broń Wielka"
             }
           ]
         },
@@ -1883,7 +1993,8 @@
             "maxPoints": 50
           },
           "name_es": "Portaesdantarte",
-          "name_fr": "Porte-étendard"
+          "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy"
         },
         {
           "name_en": "Musician",
@@ -1891,7 +2002,8 @@
           "name_de": "Musician",
           "points": 6,
           "name_es": "Músico",
-          "name_fr": "Musicien"
+          "name_fr": "Musicien",
+          "name_pl": "Muzyk"
         }
       ],
       "armor": [
@@ -1903,7 +2015,8 @@
           "perModel": true,
           "active": true,
           "name_es": "Armadura pesada",
-          "name_fr": "Armure lourde"
+          "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja"
         }
       ],
       "options": [
@@ -1940,7 +2053,8 @@
         "name_cn": "血怒, 紧密阵型, 混沌无分之印, 原始狂怒, 战帮",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Rage Sanguinaire, Ordre Serré, Marque du Chaos Universel, Fureur Primale, Bande de Guerre"
+        "name_fr": "Rage Sanguinaire, Ordre Serré, Marque du Chaos Universel, Fureur Primale, Bande de Guerre",
+        "name_pl": "Krwawy Rage, Zwarty Szyk, Znak Chaosu Niepodzielonego, Pierwotna Furia, Gromada"
       }
     },
     {
@@ -1960,7 +2074,8 @@
           "notes": {
             "name_en": "1+ Gor Herd",
             "name_cn": "1+角兽群",
-            "name_fr": "1+ Harde de Gor"
+            "name_fr": "1+ Harde de Gor",
+            "name_pl": "1+ Stado Gorów"
           }
         },
         "minotaur-blood-herd": {
@@ -1970,7 +2085,8 @@
             "name_cn": "野蛮冲锋, 血怒, 部群, 混沌无分之印, 穿行掩体, 开放阵型, 原始狂怒, 散兵, 战帮, Impetuous",
             "name_de": "Bestial Charge, Blood Rage, Horde, Mark of Chaos Undivided, Move Through Cover, Open Order, Primal Fury, Skirmishers, Warband, Impetuous",
             "name_es": "Bestial Charge, Blood Rage, Horde, Mark of Chaos Undivided, Move Through Cover, Open Order, Primal Fury, Skirmishers, Warband, Impetuous",
-            "name_fr": "Charge Bestiale, Rage Sanguinaire, Horde, Marque du Chaos Universel, Mouvement à Couvert, Ordre Dispersé, Fureur Primale, Tirailleurs, Bande de Guerre, Impétueux"
+            "name_fr": "Charge Bestiale, Rage Sanguinaire, Horde, Marque du Chaos Universel, Mouvement à Couvert, Ordre Dispersé, Fureur Primale, Tirailleurs, Bande de Guerre, Impétueux",
+            "name_pl": "Bestial Charge, Krwawy Rage, Horda, Znak Chaosu Niepodzielonego, Przechodzenie Przez Zasłony, Luźny Szyk, Pierwotna Furia, Harcownicy, Gromada, Impet"
           }
         },
         "wild-herd": {
@@ -1999,10 +2115,12 @@
               "name_cn": "重型武器",
               "name_de": "Great weapon",
               "points": 0,
-              "name_fr": "Arme lourde"
+              "name_fr": "Arme lourde",
+              "name_pl": "Broń Wielka"
             }
           ],
-          "name_fr": "Pure-corne"
+          "name_fr": "Pure-corne",
+          "name_pl": "Prawdziwy Róg"
         },
         {
           "name_en": "Standard bearer",
@@ -2016,7 +2134,8 @@
             "maxPoints": 50
           },
           "name_es": "Portaestandarte",
-          "name_fr": "Porte-étendard"
+          "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy"
         },
         {
           "name_en": "Musician",
@@ -2024,7 +2143,8 @@
           "name_de": "Musician",
           "points": 5,
           "name_es": "Músico",
-          "name_fr": "Musicien"
+          "name_fr": "Musicien",
+          "name_pl": "Muzyk"
         }
       ],
       "equipment": [
@@ -2084,7 +2204,8 @@
           "armyComposition": "wild-herd",
           "notes": {
             "name_en": "0-1 Gor Herd, Ungor Herd or Centigor Herd per 1000 points with a Unit Strength of 10 or less",
-            "name_fr": "0-1 Harde de Gor, Harde d'Ungor ou Harde de Centigor par tranche de 1000 points avec une Puissance d'Unité de 10 ou moins"
+            "name_fr": "0-1 Harde de Gor, Harde d'Ungor ou Harde de Centigor par tranche de 1000 points avec une Puissance d'Unité de 10 ou moins",
+            "name_pl": "0-1 Gor Herd, Ungor Herd lub Centigor Herd na 1000 punktów z a Jednostka Strength of 10 lub less"
           },
           "name_pl": "Zasadzka"
         }
@@ -2097,7 +2218,8 @@
         "name_cn": "野蛮冲锋, 血怒, 部群, 混沌无分之印, 穿行掩体, 开放阵型, 原始狂怒, 散兵, 战帮",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Charge Bestiale, Rage Sanguinaire, Horde, Marque du Chaos Universel, Mouvement à Couvert, Ordre Dispersé, Fureur Primale, Tirailleurs, Bande de Guerre"
+        "name_fr": "Charge Bestiale, Rage Sanguinaire, Horde, Marque du Chaos Universel, Mouvement à Couvert, Ordre Dispersé, Fureur Primale, Tirailleurs, Bande de Guerre",
+        "name_pl": "Bestial Charge, Krwawy Rage, Horda, Znak Chaosu Niepodzielonego, Przechodzenie Przez Zasłony, Luźny Szyk, Pierwotna Furia, Harcownicy, Gromada"
       }
     },
     {
@@ -2118,7 +2240,8 @@
           "name_de": "Half-horn",
           "name_es": "Mediocuerno",
           "points": 7,
-          "name_fr": "Mi-corne"
+          "name_fr": "Mi-corne",
+          "name_pl": "Półróg"
         },
         {
           "name_en": "Standard bearer",
@@ -2126,7 +2249,8 @@
           "name_de": "Standard bearer",
           "name_es": "Portaestandarte",
           "points": 5,
-          "name_fr": "Porte-étendard"
+          "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy"
         },
         {
           "name_en": "Musician",
@@ -2134,7 +2258,8 @@
           "name_de": "Musician",
           "name_es": "Músico",
           "points": 5,
-          "name_fr": "Musicien"
+          "name_fr": "Musicien",
+          "name_pl": "Muzyk"
         }
       ],
       "equipment": [
@@ -2205,7 +2330,8 @@
           "armyComposition": "wild-herd",
           "notes": {
             "name_en": "0-1 Gor Herd, Ungor Herd or Centigor Herd per 1000 points with a Unit Strength of 10 or less",
-            "name_fr": "0-1 Harde de Gor, Harde d'Ungor ou Harde de Centigor par tranche de 1000 points avec une Puissance d'Unité de 10 ou moins"
+            "name_fr": "0-1 Harde de Gor, Harde d'Ungor ou Harde de Centigor par tranche de 1000 points avec une Puissance d'Unité de 10 ou moins",
+            "name_pl": "0-1 Gor Herd, Ungor Herd lub Centigor Herd na 1000 punktów z a Jednostka Strength of 10 lub less"
           },
           "name_pl": "Zasadzka"
         }
@@ -2218,7 +2344,8 @@
         "name_cn": "战车骑伴, 部群, 混沌无分之印, 穿行掩体, 开放阵型, 原始狂怒, 散兵, 战帮",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Escorteurs de Chars, Horde, Marque du Chaos Universel, Mouvement à Couvert, Ordre Dispersé, Fureur Primale, Tirailleurs, Bande de Guerre"
+        "name_fr": "Escorteurs de Chars, Horde, Marque du Chaos Universel, Mouvement à Couvert, Ordre Dispersé, Fureur Primale, Tirailleurs, Bande de Guerre",
+        "name_pl": "Rydwan Runners, Horda, Znak Chaosu Niepodzielonego, Przechodzenie Przez Zasłony, Luźny Szyk, Pierwotna Furia, Harcownicy, Gromada"
       }
     },
     {
@@ -2289,7 +2416,8 @@
         "name_cn": "独行, 穿行掩体, 开放阵型, 快速行进",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Solitaire, Mouvement à Couvert, Ordre Dispersé, Rapide"
+        "name_fr": "Solitaire, Mouvement à Couvert, Ordre Dispersé, Rapide",
+        "name_pl": "Samotnik, Przechodzenie Przez Zasłony, Luźny Szyk, Szybki Krok"
       }
     },
     {
@@ -2351,7 +2479,8 @@
           "stackable": true,
           "notes": {
             "name_en": "May include one Ungor Ravager for every three Primal Warhounds",
-            "name_fr": "Peut inclure 1 Ravageur Ungor par tranche de 3 Chiens Primordiaux"
+            "name_fr": "Peut inclure 1 Ravageur Ungor par tranche de 3 Chiens Primordiaux",
+            "name_pl": "Może zawiera one Ungor Ravager dla every three Primal Warhounds"
           },
           "name_pl": "Najeźdźcy Ungorów"
         }
@@ -2364,7 +2493,8 @@
         "name_cn": "Close Order, Horde, Motley Crew, Move Through Cover, Swiftstride, Warband",
         "name_de": "Close Order, Horde, Motley Crew, Move Through Cover, Swiftstride, Warband",
         "name_es": "Close Order, Horde, Motley Crew, Move Through Cover, Swiftstride, Warband",
-        "name_fr": "Ordre Serré, Horde, Bande Hétéroclite, Mouvement à Couvert, Rapide, Bande de Guerre"
+        "name_fr": "Ordre Serré, Horde, Bande Hétéroclite, Mouvement à Couvert, Rapide, Bande de Guerre",
+        "name_pl": "Zwarty Szyk, Horda, Zbieranina, Przechodzenie Przez Zasłony, Szybki Krok, Gromada"
       }
     },
     {
@@ -2410,7 +2540,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "name_fr": "Armure légère (peau calleuse)"
+          "name_fr": "Armure légère (peau calleuse)",
+          "name_pl": "Lekka Zbroja (calloused hide)"
         }
       ],
       "options": [],
@@ -2422,7 +2553,8 @@
         "name_cn": "碎甲攻击(1), 恐惧, 裂敌者, 撞击(D3), 独行, 开放阵型, 原始狂怒, 剃刀獠牙, 快速行进",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Arme Perforante (1), Peur, Déchiqueteur, Touches d'Impact (D3), Solitaire, Ordre Dispersé, Fureur Primale, Défenses Acérées, Rapide"
+        "name_fr": "Arme Perforante (1), Peur, Déchiqueteur, Touches d'Impact (D3), Solitaire, Ordre Dispersé, Fureur Primale, Défenses Acérées, Rapide",
+        "name_pl": "Przebicie Zbroi (1), Strach, Foe Render, Uderzenia Impetu (D3), Samotnik, Luźny Szyk, Pierwotna Furia, Razor Tusks, Szybki Krok"
       }
     },
     {
@@ -2441,7 +2573,8 @@
           "category": "core",
           "notes": {
             "name_en": "0-1 Centigor Herd may be taken as Core choice per Centigor Chieftain",
-            "name_fr": "0-1 Harde de Centigor peut être prise comme choix d'Unité de Base par Chef Centigor choisi"
+            "name_fr": "0-1 Harde de Centigor peut être prise comme choix d'Unité de Base par Chef Centigor choisi",
+            "name_pl": "0-1 Centigor Herd może be taken jako Podstawowy choice na Centigor Wódz"
           }
         }
       },
@@ -2460,7 +2593,8 @@
             ],
             "maxPoints": 25
           },
-          "name_fr": "Éventreur"
+          "name_fr": "Éventreur",
+          "name_pl": "Krwawokopyt"
         },
         {
           "name_en": "Standard bearer",
@@ -2473,14 +2607,16 @@
             ],
             "maxPoints": 50
           },
-          "name_fr": "Porte-étendard"
+          "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy"
         },
         {
           "name_en": "Musician",
           "name_cn": "乐手",
           "name_de": "Musician",
           "points": 6,
-          "name_fr": "Musicien"
+          "name_fr": "Musicien",
+          "name_pl": "Muzyk"
         }
       ],
       "equipment": [
@@ -2564,7 +2700,8 @@
           "armyComposition": "wild-herd",
           "notes": {
             "name_en": "0-1 Gor Herd, Ungor Herd or Centigor Herd per 1000 points with a Unit Strength of 10 or less",
-            "name_fr": "0-1 Harde de Gor, Harde d'Ungor ou Harde de Centigor par tranche de 1000 points avec une Puissance d'Unité de 10 ou moins"
+            "name_fr": "0-1 Harde de Gor, Harde d'Ungor ou Harde de Centigor par tranche de 1000 points avec une Puissance d'Unité de 10 ou moins",
+            "name_pl": "0-1 Gor Herd, Ungor Herd lub Centigor Herd na 1000 punktów z a Jednostka Strength of 10 lub less"
           },
           "name_pl": "Zasadzka"
         },
@@ -2574,7 +2711,8 @@
           "perModel": true,
           "notes": {
             "name_en": "0-1 Centigor Herd in the same muster list as Ghorros",
-            "name_fr": "0-1 Harde de Centigor dans la même liste d'armée que Ghorros"
+            "name_fr": "0-1 Harde de Centigor dans la même liste d'armée que Ghorros",
+            "name_pl": "0-1 Centigor Herd w the same muster list jako Ghorros"
           },
           "name_fr": "Les Fils de Ghorros",
           "name_pl": "Synowie Ghorrosa"
@@ -2588,7 +2726,8 @@
         "name_cn": "醉酒, 快速骑兵, 部群, 混沌无分之印, 穿行掩体, 开放阵型, 原始狂怒, 散兵, 践踏攻击(1), 快速行进, 战帮",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Ivres, Cavalerie Rapide, Horde, Marque du Chaos Universel, Mouvement à Couvert, Ordre Dispersé, Fureur Primale, Tirailleurs, Attaques de Piétinement (1), Rapide, Bande de Guerre"
+        "name_fr": "Ivres, Cavalerie Rapide, Horde, Marque du Chaos Universel, Mouvement à Couvert, Ordre Dispersé, Fureur Primale, Tirailleurs, Attaques de Piétinement (1), Rapide, Bande de Guerre",
+        "name_pl": "Drunken, Szybka Kawaleria, Horda, Znak Chaosu Niepodzielonego, Przechodzenie Przez Zasłony, Luźny Szyk, Pierwotna Furia, Harcownicy, Zdeptanie (1), Szybki Krok, Gromada"
       }
     },
     {
@@ -2608,7 +2747,8 @@
           "category": "core",
           "notes": {
             "name_en": "0-1 Tuskgor Chariot per 1000 points",
-            "name_fr": "0-1 Char à Sangleboucs par tranche de 1000 points"
+            "name_fr": "0-1 Char à Sangleboucs par tranche de 1000 points",
+            "name_pl": "0-1 Tuskgor Rydwan na 1000 punktów"
           }
         }
       },
@@ -2634,7 +2774,8 @@
         "name_cn": "紧密阵型, 先行冲锋, 撞击(D6+1), 混沌无分之印, 原始狂怒, 剃刀獠牙, 战帮",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Ordre Serré, Première Charge, Touches d'Impact (D6+1), Marque du Chaos Universel, Fureur Primale, Défenses Acérées, Bande de Guerre"
+        "name_fr": "Ordre Serré, Première Charge, Touches d'Impact (D6+1), Marque du Chaos Universel, Fureur Primale, Défenses Acérées, Bande de Guerre",
+        "name_pl": "Zwarty Szyk, Pierwsza Szarża, Uderzenia Impetu (D6+1), Znak Chaosu Niepodzielonego, Pierwotna Furia, Razor Tusks, Gromada"
       }
     },
     {
@@ -2656,7 +2797,8 @@
             "name_cn": "0-1if General is Doombull或利角公牛",
             "name_de": "0-1 if General is Doombull or Gorebull",
             "name_es": "0-1 if General is Doombull or Gorebull",
-            "name_fr": "0-1 si votre général est un Doombull ou un Gorebull"
+            "name_fr": "0-1 si votre général est un Doombull ou un Gorebull",
+            "name_pl": "0-1 jeśli Generał is Doombull lub Gorebull"
           }
         },
         "minotaur-blood-herd": {
@@ -2666,7 +2808,8 @@
             "name_cn": "嗜血, 血怒, 牛角, 紧密阵型, 恐惧, 裂敌者, 撞击(1), 混沌无分之印, 散兵游勇, 原始狂怒, 战帮, Impetuous",
             "name_de": "Blood Greed, Blood Rage, Bull-gors, Close Order, Fear, Foe Render, Impact Hits (1), Mark of Chaos Undivided, Motley Crew, Primal Fury, Warband, Impetuous",
             "name_es": "Blood Greed, Blood Rage, Bull-gors, Close Order, Fear, Foe Render, Impact Hits (1), Mark of Chaos Undivided, Motley Crew, Primal Fury, Warband, Impetuous",
-            "name_fr": "Soif de Sang, Rage Sanguinaire, Taurogors, Ordre Serré, Peur, Déchiqueteur, Touches d'Impact (1), Marque du Chaos Universel, Bande Hétéroclite, Fureur Primale, Bande de Guerre, Impétueux"
+            "name_fr": "Soif de Sang, Rage Sanguinaire, Taurogors, Ordre Serré, Peur, Déchiqueteur, Touches d'Impact (1), Marque du Chaos Universel, Bande Hétéroclite, Fureur Primale, Bande de Guerre, Impétueux",
+            "name_pl": "Krwawy Greed, Krwawy Rage, Bull-gors, Zwarty Szyk, Strach, Foe Render, Uderzenia Impetu (1), Znak Chaosu Niepodzielonego, Zbieranina, Pierwotna Furia, Gromada, Impet"
           }
         }
       },
@@ -2676,6 +2819,7 @@
           "name_cn": "血牛 (champion)",
           "name_de": "Bloodkine (champion)",
           "name_fr": "Sangor (champion)",
+          "name_pl": "Bloodkine (czempion)",
           "points": 6,
           "magic": {
             "types": [
@@ -2698,14 +2842,16 @@
             ],
             "maxPoints": 50
           },
-          "name_fr": "Porte-étendard"
+          "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy"
         },
         {
           "name_en": "Musician",
           "name_cn": "乐手",
           "name_de": "Musician",
           "points": 6,
-          "name_fr": "Musicien"
+          "name_fr": "Musicien",
+          "name_pl": "Muzyk"
         }
       ],
       "equipment": [
@@ -2728,7 +2874,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "name_fr": "Armure légère"
+          "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja"
         }
       ],
       "options": [
@@ -2780,7 +2927,8 @@
             "chaos-mutation"
           ],
           "maxPoints": 25,
-          "name_fr": "Mutations du Chaos (Sangor)"
+          "name_fr": "Mutations du Chaos (Sangor)",
+          "name_pl": "Mutacje Chaosu (Bloodkine)"
         }
       ],
       "lores": [],
@@ -2789,7 +2937,8 @@
         "name_cn": "嗜血, 血怒, 牛角, 紧密阵型, 恐惧, 裂敌者, 撞击(1), 混沌无分之印, 散兵游勇, 原始狂怒, 战帮",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Soif de Sang, Rage Sanguinaire, Taurogors, Ordre Serré, Peur, Déchiqueteur, Touches d'Impact (1), Marque du Chaos Universel, Bande Hétéroclite, Fureur Primale, Bande de Guerre"
+        "name_fr": "Soif de Sang, Rage Sanguinaire, Taurogors, Ordre Serré, Peur, Déchiqueteur, Touches d'Impact (1), Marque du Chaos Universel, Bande Hétéroclite, Fureur Primale, Bande de Guerre",
+        "name_pl": "Krwawy Greed, Krwawy Rage, Bull-gors, Zwarty Szyk, Strach, Foe Render, Uderzenia Impetu (1), Znak Chaosu Niepodzielonego, Zbieranina, Pierwotna Furia, Gromada"
       }
     }
   ],
@@ -2822,7 +2971,8 @@
           "notes": {
             "name_en": "25 pts of Magic Items, 25 pts of Chaos Mutations",
             "name_cn": "25分的魔法物品, 25分的混沌变异",
-            "name_fr": "25 points d'Objets Magiques, 25 points de Mutations du Chaos"
+            "name_fr": "25 points d'Objets Magiques, 25 points de Mutations du Chaos",
+            "name_pl": "25 pkt przedmiotów magicznych, 25 pkt mutacji chaosu"
           },
           "magic": {
             "types": [
@@ -2834,7 +2984,8 @@
             ],
             "maxPoints": 50
           },
-          "name_fr": "Encorneur"
+          "name_fr": "Encorneur",
+          "name_pl": "Dłutoróg"
         },
         {
           "name_en": "Standard bearer",
@@ -2847,14 +2998,16 @@
             ],
             "maxPoints": 50
           },
-          "name_fr": "Porte-étendard"
+          "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy"
         },
         {
           "name_en": "Musician",
           "name_cn": "乐手",
           "name_de": "Musician",
           "points": 6,
-          "name_fr": "Musicien"
+          "name_fr": "Musicien",
+          "name_pl": "Muzyk"
         }
       ],
       "equipment": [
@@ -2877,7 +3030,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "name_fr": "Armure lourde"
+          "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja"
         }
       ],
       "options": [
@@ -2923,7 +3077,8 @@
         "name_cn": "血怒, 紧密阵型, 混沌无分之印, 原始狂怒, 战帮",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Rage Sanguinaire, Ordre Serré, Marque du Chaos Universel, Fureur Primale, Bande de Guerre"
+        "name_fr": "Rage Sanguinaire, Ordre Serré, Marque du Chaos Universel, Fureur Primale, Bande de Guerre",
+        "name_pl": "Krwawy Rage, Zwarty Szyk, Znak Chaosu Niepodzielonego, Pierwotna Furia, Gromada"
       }
     },
     {
@@ -2960,7 +3115,8 @@
         "name_cn": "飞行(10), 穿行掩体, 侦察, 散兵, 快速行进",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Vol (10), Mouvement à Couvert, Éclaireurs, Tirailleurs, Rapide"
+        "name_fr": "Vol (10), Mouvement à Couvert, Éclaireurs, Tirailleurs, Rapide",
+        "name_pl": "Lot (10), Przechodzenie Przez Zasłony, Zwiadowcy, Harcownicy, Szybki Krok"
       }
     },
     {
@@ -2985,7 +3141,8 @@
             "name_cn": "嗜血, 血怒, 牛角, 紧密阵型, 恐惧, 裂敌者, 撞击(1), 混沌无分之印, 散兵游勇, 原始狂怒, 战帮, Impetuous",
             "name_de": "Blood Greed, Blood Rage, Bull-gors, Close Order, Fear, Foe Render, Impact Hits (1), Mark of Chaos Undivided, Motley Crew, Primal Fury, Warband, Impetuous",
             "name_es": "Blood Greed, Blood Rage, Bull-gors, Close Order, Fear, Foe Render, Impact Hits (1), Mark of Chaos Undivided, Motley Crew, Primal Fury, Warband, Impetuous",
-            "name_fr": "Soif de Sang, Rage Sanguinaire, Taurogors, Ordre Serré, Peur, Déchiqueteur, Touches d'Impact (1), Marque du Chaos Universel, Bande Hétéroclite, Fureur Primale, Bande de Guerre, Impétueux"
+            "name_fr": "Soif de Sang, Rage Sanguinaire, Taurogors, Ordre Serré, Peur, Déchiqueteur, Touches d'Impact (1), Marque du Chaos Universel, Bande Hétéroclite, Fureur Primale, Bande de Guerre, Impétueux",
+            "name_pl": "Krwawy Greed, Krwawy Rage, Bull-gors, Zwarty Szyk, Strach, Foe Render, Uderzenia Impetu (1), Znak Chaosu Niepodzielonego, Zbieranina, Pierwotna Furia, Gromada, Impet"
           }
         }
       },
@@ -3004,7 +3161,8 @@
             ],
             "maxPoints": 25
           },
-          "name_fr": "Sangor"
+          "name_fr": "Sangor",
+          "name_pl": "Krwiokrewny"
         },
         {
           "name_en": "Standard bearer",
@@ -3017,14 +3175,16 @@
             ],
             "maxPoints": 50
           },
-          "name_fr": "Porte-étendard"
+          "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy"
         },
         {
           "name_en": "Musician",
           "name_cn": "乐手",
           "name_de": "Musician",
           "points": 6,
-          "name_fr": "Musicien"
+          "name_fr": "Musicien",
+          "name_pl": "Muzyk"
         }
       ],
       "equipment": [
@@ -3047,7 +3207,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "name_fr": "Armure légère"
+          "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja"
         }
       ],
       "options": [
@@ -3099,7 +3260,8 @@
             "chaos-mutation"
           ],
           "maxPoints": 25,
-          "name_fr": "Mutations du Chaos (Sangor)"
+          "name_fr": "Mutations du Chaos (Sangor)",
+          "name_pl": "Mutacje Chaosu (Bloodkine)"
         }
       ],
       "lores": [],
@@ -3108,7 +3270,8 @@
         "name_cn": "嗜血, 血怒, 牛角, 紧密阵型, 恐惧, 裂敌者, 撞击(1), 混沌无分之印, 散兵游勇, 原始狂怒, 战帮",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Soif de Sang, Rage Sanguinaire, Taurogors, Ordre Serré, Peur, Déchiqueteur, Touches d'Impact (1), Marque du Chaos Universel, Bande Hétéroclite, Fureur Primale, Bande de Guerre"
+        "name_fr": "Soif de Sang, Rage Sanguinaire, Taurogors, Ordre Serré, Peur, Déchiqueteur, Touches d'Impact (1), Marque du Chaos Universel, Bande Hétéroclite, Fureur Primale, Bande de Guerre",
+        "name_pl": "Krwawy Greed, Krwawy Rage, Bull-gors, Zwarty Szyk, Strach, Foe Render, Uderzenia Impetu (1), Znak Chaosu Niepodzielonego, Zbieranina, Pierwotna Furia, Gromada"
       }
     },
     {
@@ -3128,7 +3291,8 @@
           "category": "special",
           "notes": {
             "name_en": "0-1 Cockatrice or Preyton per 1000 points",
-            "name_fr": "0-1 Cockatrice ou Preyton par tranche de 1000 points"
+            "name_fr": "0-1 Cockatrice ou Preyton par tranche de 1000 points",
+            "name_pl": "0-1 Cockatrice lub Preyton na 1000 punktów"
           }
         }
       },
@@ -3151,7 +3315,8 @@
           "name_de": "Heavy armour (scaly skin)",
           "points": 0,
           "active": true,
-          "name_fr": "Armure lourde (peau écailleuse)"
+          "name_fr": "Armure lourde (peau écailleuse)",
+          "name_pl": "Ciężka Zbroja (scaly skin)"
         }
       ],
       "options": [
@@ -3184,7 +3349,8 @@
         "name_cn": "紧密阵型, 飞行(10), 大型目标, 践踏攻击(1), 石化凝视, 快速行进, 惊骇",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Ordre Serré, Vol (10), Grande Cible, Attaques de Piétinement (1), Regard de Pierre, Rapide, Terreur"
+        "name_fr": "Ordre Serré, Vol (10), Grande Cible, Attaques de Piétinement (1), Regard de Pierre, Rapide, Terreur",
+        "name_pl": "Zwarty Szyk, Lot (10), Duży Cel, Zdeptanie (1), Stony Stare, Szybki Krok, Terror"
       }
     },
     {
@@ -3214,7 +3380,8 @@
             ],
             "maxPoints": 25
           },
-          "name_fr": "Éventreur"
+          "name_fr": "Éventreur",
+          "name_pl": "Krwawokopyt"
         },
         {
           "name_en": "Standard bearer",
@@ -3227,14 +3394,16 @@
             ],
             "maxPoints": 50
           },
-          "name_fr": "Porte-étendard"
+          "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy"
         },
         {
           "name_en": "Musician",
           "name_cn": "乐手",
           "name_de": "Musician",
           "points": 6,
-          "name_fr": "Musicien"
+          "name_fr": "Musicien",
+          "name_pl": "Muzyk"
         }
       ],
       "equipment": [
@@ -3318,7 +3487,8 @@
           "armyComposition": "wild-herd",
           "notes": {
             "name_en": "0-1 Gor Herd, Ungor Herd or Centigor Herd per 1000 points with a Unit Strength of 10 or less",
-            "name_fr": "0-1 Harde de Gor, Harde d'Ungor ou Harde de Centigor par tranche de 1000 points avec une Puissance d'Unité de 10 ou moins"
+            "name_fr": "0-1 Harde de Gor, Harde d'Ungor ou Harde de Centigor par tranche de 1000 points avec une Puissance d'Unité de 10 ou moins",
+            "name_pl": "0-1 Gor Herd, Ungor Herd lub Centigor Herd na 1000 punktów z a Jednostka Strength of 10 lub less"
           },
           "name_pl": "Zasadzka"
         },
@@ -3328,7 +3498,8 @@
           "perModel": true,
           "notes": {
             "name_en": "0-1 Centigor Herd in the same muster list as Ghorros",
-            "name_fr": "0-1 Harde de Centigor dans la même liste d'armée que Ghorros"
+            "name_fr": "0-1 Harde de Centigor dans la même liste d'armée que Ghorros",
+            "name_pl": "0-1 Centigor Herd w the same muster list jako Ghorros"
           },
           "name_fr": "Les Fils de Ghorros",
           "name_pl": "Synowie Ghorrosa"
@@ -3342,7 +3513,8 @@
         "name_cn": "醉酒, 快速骑兵, 部群, 混沌无分之印, 穿行掩体, 开放阵型, 原始狂怒, 散兵, 践踏攻击(1), 快速行进, 战帮",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Ivres, Cavalerie Rapide, Horde, Marque du Chaos Universel, Mouvement à Couvert, Ordre Dispersé, Fureur Primale, Tirailleurs, Attaques de Piétinement (1), Rapide, Bande de Guerre"
+        "name_fr": "Ivres, Cavalerie Rapide, Horde, Marque du Chaos Universel, Mouvement à Couvert, Ordre Dispersé, Fureur Primale, Tirailleurs, Attaques de Piétinement (1), Rapide, Bande de Guerre",
+        "name_pl": "Drunken, Szybka Kawaleria, Horda, Znak Chaosu Niepodzielonego, Przechodzenie Przez Zasłony, Luźny Szyk, Pierwotna Furia, Harcownicy, Zdeptanie (1), Szybki Krok, Gromada"
       }
     },
     {
@@ -3364,14 +3536,16 @@
           "category": "special",
           "notes": {
             "name_en": "0-1 unit of Dragon Ogres per 1000 points",
-            "name_fr": "0-1 unité de Dragons Ogres par tranche de 1000 points"
+            "name_fr": "0-1 unité de Dragons Ogres par tranche de 1000 points",
+            "name_pl": "0-1 jednostka of Smok Ogry na 1000 punktów"
           }
         },
         "wild-herd": {
           "category": "special",
           "notes": {
             "name_en": "0-1 unit of Dragon Ogres",
-            "name_fr": "0-1 unité de Dragons Ogres"
+            "name_fr": "0-1 unité de Dragons Ogres",
+            "name_pl": "0-1 jednostka of Smok Ogry"
           }
         }
       },
@@ -3390,7 +3564,8 @@
             ],
             "maxPoints": 25
           },
-          "name_fr": "Shartak"
+          "name_fr": "Shartak",
+          "name_pl": "Shartak"
         }
       ],
       "equipment": [
@@ -3440,7 +3615,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "name_fr": "Armure légère"
+          "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja"
         },
         {
           "name_en": "Heavy armour",
@@ -3448,7 +3624,8 @@
           "name_de": "Heavy armour",
           "points": 3,
           "perModel": true,
-          "name_fr": "Armure lourde"
+          "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja"
         }
       ],
       "options": [],
@@ -3463,7 +3640,8 @@
             "chaos-mutation"
           ],
           "maxPoints": 25,
-          "name_fr": "Mutations du Chaos (pour Shartak)"
+          "name_fr": "Mutations du Chaos (pour Shartak)",
+          "name_pl": "Mutacje Chaosu (dla Shartaka)"
         }
       ],
       "lores": [],
@@ -3472,7 +3650,8 @@
         "name_cn": "碎甲攻击(1), 坚硬皮肤(2), 紧密阵型, 恐惧, 附魔武器, 心理免疫, 践踏攻击(2), 风暴加剧",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Arme Perforante (1), Peau Blindée (2), Ordre Serré, Peur, Armes Ensorcelées, Immunisé à la Psychologie, Attaques de Piétinement (2), Orage Revitalisant"
+        "name_fr": "Arme Perforante (1), Peau Blindée (2), Ordre Serré, Peur, Armes Ensorcelées, Immunisé à la Psychologie, Attaques de Piétinement (2), Orage Revitalisant",
+        "name_pl": "Przebicie Zbroi (1), Opancerzona Skóra (2), Zwarty Szyk, Strach, Zaklęta Broń, Odporność Na Psychologię, Zdeptanie (2), The Quickening Burzowy"
       }
     },
     {
@@ -3514,7 +3693,8 @@
         "name_cn": "碎甲攻击(1 - Razorgor only), 紧密阵型, 恐惧, 先行冲锋, 裂敌者(仅剃刀兽), 撞击(D6+2), 混沌无分之印, 原始狂怒, 剃刀獠牙",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Arme Perforante (1 - Razorgor seulement), Ordre Serré, Peur, Première Charge, Déchiqueteur (Razorgor seulement), Touches d'Impact (D6+2), Marque du Chaos Universel, Fureur Primale, Défenses Acérées"
+        "name_fr": "Arme Perforante (1 - Razorgor seulement), Ordre Serré, Peur, Première Charge, Déchiqueteur (Razorgor seulement), Touches d'Impact (D6+2), Marque du Chaos Universel, Fureur Primale, Défenses Acérées",
+        "name_pl": "Przebicie Zbroi (1 - Razorgor only), Zwarty Szyk, Strach, Pierwsza Szarża, Foe Render (Razorgor only), Uderzenia Impetu (D6+2), Znak Chaosu Niepodzielonego, Pierwotna Furia, Razor Tusks"
       }
     },
     {
@@ -3542,21 +3722,24 @@
           "name_cn": "冠军",
           "name_de": "Champion",
           "points": 6,
-          "name_fr": "Champion"
+          "name_fr": "Champion",
+          "name_pl": "Czempion"
         },
         {
           "name_en": "Standard bearer",
           "name_cn": "旗手",
           "name_de": "Standard bearer",
           "points": 6,
-          "name_fr": "Porte-étendard"
+          "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy"
         },
         {
           "name_en": "Musician",
           "name_cn": "乐手",
           "name_de": "Musician",
           "points": 6,
-          "name_fr": "Musicien"
+          "name_fr": "Musicien",
+          "name_pl": "Muzyk"
         }
       ],
       "equipment": [
@@ -3597,7 +3780,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "name_fr": "Armure lourde"
+          "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja"
         }
       ],
       "options": [
@@ -3661,7 +3845,8 @@
         "name_cn": "碎甲攻击(1), 紧密阵型, 恐惧, 撞击(1), 食人魔冲锋",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Touches d'Impact (1), Charge Ogre"
+        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Touches d'Impact (1), Charge Ogre",
+        "name_pl": "Przebicie Zbroi (1), Zwarty Szyk, Strach, Uderzenia Impetu (1), Ogr Charge"
       }
     },
     {
@@ -3684,7 +3869,8 @@
         "name_cn": "0-1if General is Great Bray-Shaman或嘶叫萨满",
         "name_de": "0-1 if General is Great Bray-Shaman or Bray-Shaman",
         "name_es": "0-1 if General is Great Bray-Shaman or Bray-Shaman",
-        "name_fr": "0-1 si votre général est un Grand Braillechamane ou un Braillechamane"
+        "name_fr": "0-1 si votre général est un Grand Braillechamane ou un Braillechamane",
+        "name_pl": "0-1 jeśli Generał is Wielki Bray-Shaman lub Bray-Shaman"
       },
       "equipment": [
         {
@@ -3705,7 +3891,8 @@
           "name_de": "Heavy armour (scaly skin)",
           "points": 0,
           "active": true,
-          "name_fr": "Armure lourde (peau écailleuse)"
+          "name_fr": "Armure lourde (peau écailleuse)",
+          "name_pl": "Ciężka Zbroja (scaly skin)"
         }
       ],
       "options": [],
@@ -3717,7 +3904,8 @@
         "name_cn": "紧密阵型, 飞行(9), 大型目标, 疯狂光环, 淬毒攻击, 毒血喷溅, 践踏攻击(D3), 快速行进, 惊骇",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Ordre Serré, Vol (9), Grande Cible, Aura de Démence, Attaques Empoisonnées, Giclée de Sang Bilieux, Attaques de Piétinement (D3), Rapide, Terreur"
+        "name_fr": "Ordre Serré, Vol (9), Grande Cible, Aura de Démence, Attaques Empoisonnées, Giclée de Sang Bilieux, Attaques de Piétinement (D3), Rapide, Terreur",
+        "name_pl": "Zwarty Szyk, Lot (9), Duży Cel, Maddening Aura, Trujące Ataki, Spurting Bile Krwawy, Zdeptanie (D3), Szybki Krok, Terror"
       }
     },
     {
@@ -3740,7 +3928,8 @@
         "name_cn": "0-1if General is Great Bray-Shaman或嘶叫萨满",
         "name_de": "0-1 if General is Great Bray-Shaman or Bray-Shaman",
         "name_es": "0-1 if General is Great Bray-Shaman or Bray-Shaman",
-        "name_fr": "0-1 si votre général est un Grand Braillechamane ou un Braillechamane"
+        "name_fr": "0-1 si votre général est un Grand Braillechamane ou un Braillechamane",
+        "name_pl": "0-1 jeśli Generał is Wielki Bray-Shaman lub Bray-Shaman"
       },
       "equipment": [
         {
@@ -3760,7 +3949,8 @@
           "name_de": "Light armour (calloused hide)",
           "points": 0,
           "active": true,
-          "name_fr": "Armure légère (peau calleuse)"
+          "name_fr": "Armure légère (peau calleuse)",
+          "name_pl": "Lekka Zbroja (calloused hide)"
         }
       ],
       "options": [],
@@ -3772,7 +3962,8 @@
         "name_cn": "紧密阵型, 灵视, 心理免疫, 大型目标, 噬魂者, 践踏攻击(D3), 坚毅, 惊骇, 倒啦！",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Ordre Serré, Vue Spirituelle, Immunisé à la Psychologie, Grande Cible, Mangeur d'Âmes, Attaques de Piétinement (D3), Obstiné, Terreur, Timmm-berrr!"
+        "name_fr": "Ordre Serré, Vue Spirituelle, Immunisé à la Psychologie, Grande Cible, Mangeur d'Âmes, Attaques de Piétinement (D3), Obstiné, Terreur, Timmm-berrr!",
+        "name_pl": "Zwarty Szyk, Ghostsight, Odporność Na Psychologię, Duży Cel, Soul-eater, Zdeptanie (D3), Nieugięty, Terror, Timmm-berrr!"
       }
     },
     {
@@ -3792,7 +3983,8 @@
             "name_cn": "0-1if General is Doombull或利角公牛",
             "name_de": "0-1 if General is Doombull or Gorebull",
             "name_es": "0-1 if General is Doombull or Gorebull",
-            "name_fr": "0-1 si votre général est un Doombull ou un Gorebull"
+            "name_fr": "0-1 si votre général est un Doombull ou un Gorebull",
+            "name_pl": "0-1 jeśli Generał is Doombull lub Gorebull"
           }
         },
         "minotaur-blood-herd": {
@@ -3818,7 +4010,8 @@
           "name_de": "Light armour (calloused hide)",
           "points": 0,
           "active": true,
-          "name_fr": "Armure légère (peau calleuse)"
+          "name_fr": "Armure légère (peau calleuse)",
+          "name_pl": "Lekka Zbroja (calloused hide)"
         }
       ],
       "options": [],
@@ -3830,7 +4023,8 @@
         "name_cn": "嗜血, 紧密阵型, 狂暴, 大型目标, 原始狂怒, 重生(6+), 践踏攻击(D3), 坚毅, 生吞, 惊骇, 倒啦！",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Soif de Sang, Ordre Serré, Frénésie, Grande Cible, Fureur Primale, Régénération (6+), Attaques de Piétinement (D3), Obstiné, Avaler Tout Rond, Terreur, Timmm-berrr!"
+        "name_fr": "Soif de Sang, Ordre Serré, Frénésie, Grande Cible, Fureur Primale, Régénération (6+), Attaques de Piétinement (D3), Obstiné, Avaler Tout Rond, Terreur, Timmm-berrr!",
+        "name_pl": "Krwawy Greed, Zwarty Szyk, Frenzy, Duży Cel, Pierwotna Furia, Regeneracja (6+), Zdeptanie (D3), Nieugięty, Swallow Whole, Terror, Timmm-berrr!"
       }
     },
     {
@@ -3858,7 +4052,8 @@
         "name_cn": "0-1 per army",
         "name_de": "0-1 per army",
         "name_es": "0-1 per army",
-        "name_fr": "0-1 par armée"
+        "name_fr": "0-1 par armée",
+        "name_pl": "0-1 na armia"
       },
       "command": [],
       "equipment": [],
@@ -3872,7 +4067,8 @@
         "name_cn": "A Tingle in the Air, Bestial Fury, Dark Sorcery, Fearsome Edifice",
         "name_de": "A Tingle in the Air, Bestial Fury, Dark Sorcery, Fearsome Edifice",
         "name_es": "A Tingle in the Air, Bestial Fury, Dark Sorcery, Fearsome Edifice",
-        "name_fr": "Un Picotement dans l’Air, Fureur Bestiale, Noire Sorcellerie, Édifice Effrayant"
+        "name_fr": "Un Picotement dans l’Air, Fureur Bestiale, Noire Sorcellerie, Édifice Effrayant",
+        "name_pl": "A Tingle w the Air, Bestial Fury {beastmen}, Mroczny Sorcery, Fearsome Edifice"
       }
     },
     {
@@ -3890,14 +4086,16 @@
           "category": "special",
           "notes": {
             "name_en": "0-1 Preyton per 1000 points",
-            "name_fr": "0-1 Preyton par tranche de 1000 points"
+            "name_fr": "0-1 Preyton par tranche de 1000 points",
+            "name_pl": "0-1 Preyton na 1000 punktów"
           }
         },
         "wild-herd": {
           "category": "special",
           "notes": {
             "name_en": "0-1 Cockatrice or Preyton per 1000 points",
-            "name_fr": "0-1 Cockatrice ou Preyton par tranche de 1000 points"
+            "name_fr": "0-1 Cockatrice ou Preyton par tranche de 1000 points",
+            "name_pl": "0-1 Cockatrice lub Preyton na 1000 punktów"
           }
         }
       },
@@ -3941,7 +4139,8 @@
         "name_cn": "Close Order, Crown of Antlers, Endless Malice, Fly (10), Impact Hits (D3), Large Target, Terror",
         "name_de": "Close Order, Crown of Antlers, Endless Malice, Fly (10), Impact Hits (D3), Large Target, Terror",
         "name_es": "Close Order, Crown of Antlers, Endless Malice, Fly (10), Impact Hits (D3), Large Target, Terror",
-        "name_fr": "Ordre Serré, Couronne de Bois, Malice Infinie, Vol (10), Touches d'Impact (D3), Grande Cible, Terreur"
+        "name_fr": "Ordre Serré, Couronne de Bois, Malice Infinie, Vol (10), Touches d'Impact (D3), Grande Cible, Terreur",
+        "name_pl": "Zwarty Szyk, Crown of Antlers {beastmen}, Endless Malice, Lot (10), Uderzenia Impetu (D3), Duży Cel, Terror"
       }
     },
     {
@@ -3967,6 +4166,7 @@
           "name_de": "Splice-horn (champion)",
           "name_es": "Splice-horn (champion)",
           "name_fr": "Impure-corne (champion)",
+          "name_pl": "Splice-horn (czempion)",
           "points": 8
         },
         {
@@ -3975,6 +4175,7 @@
           "name_de": "Standard bearer",
           "name_es": "Portaestandarte",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 6
         },
         {
@@ -3983,6 +4184,7 @@
           "name_de": "Musician",
           "name_es": "Músico",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -4030,7 +4232,8 @@
         "name_cn": "Armoured Hide (1), Blessing of Chaos, Blood Rage, Mark of Chaos Undivided, Move Through Cover, Open Order, Primal Fury, Random Attacks, Stubborn, Warband",
         "name_de": "Armoured Hide (1), Blessing of Chaos, Blood Rage, Mark of Chaos Undivided, Move Through Cover, Open Order, Primal Fury, Random Attacks, Stubborn, Warband",
         "name_es": "Armoured Hide (1), Blessing of Chaos, Blood Rage, Mark of Chaos Undivided, Move Through Cover, Open Order, Primal Fury, Random Attacks, Stubborn, Warband",
-        "name_fr": "Peau Blindée (1), Bénédictions du Chaos, Rage Sanguinaire, Marque du Chaos Universel, Mouvement à Couvert, Ordre Dispersé, Fureur Primale, Attaques Aléatoires, Obstiné, Bande de Guerre"
+        "name_fr": "Peau Blindée (1), Bénédictions du Chaos, Rage Sanguinaire, Marque du Chaos Universel, Mouvement à Couvert, Ordre Dispersé, Fureur Primale, Attaques Aléatoires, Obstiné, Bande de Guerre",
+        "name_pl": "Opancerzona Skóra (1), Blessing of Chaos, Krwawy Rage, Znak Chaosu Niepodzielonego, Przechodzenie Przez Zasłony, Luźny Szyk, Pierwotna Furia, Random Attacks, Nieugięty, Gromada"
       }
     },
     {
@@ -4069,7 +4272,8 @@
         "name_cn": "紧密阵型, 先行冲锋, 撞击(D6+1), 混沌无分之印, 原始狂怒, 剃刀獠牙, 战帮",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Ordre Serré, Première Charge, Touches d'Impact (D6+1), Marque du Chaos Universel, Fureur Primale, Défenses Acérées, Bande de Guerre"
+        "name_fr": "Ordre Serré, Première Charge, Touches d'Impact (D6+1), Marque du Chaos Universel, Fureur Primale, Défenses Acérées, Bande de Guerre",
+        "name_pl": "Zwarty Szyk, Pierwsza Szarża, Uderzenia Impetu (D6+1), Znak Chaosu Niepodzielonego, Pierwotna Furia, Razor Tusks, Gromada"
       }
     }
   ],
@@ -4091,7 +4295,8 @@
           "category": "rare",
           "notes": {
             "name_en": "0-1 Dragon Ogre Shaggoth per 1000 points",
-            "name_fr": "0-1 Shaggoth Dragon Ogre par tranche de 1000 points"
+            "name_fr": "0-1 Shaggoth Dragon Ogre par tranche de 1000 points",
+            "name_pl": "0-1 Smok Ogr Shaggoth na 1000 punktów"
           }
         },
         "wild-herd": {
@@ -4133,14 +4338,16 @@
           "name_de": "Light armour",
           "points": 0,
           "active": true,
-          "name_fr": "Armure légère"
+          "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja"
         },
         {
           "name_en": "Heavy armour",
           "name_cn": "重甲",
           "name_de": "Heavy armour",
           "points": 6,
-          "name_fr": "Armure lourde"
+          "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja"
         }
       ],
       "options": [],
@@ -4158,7 +4365,8 @@
             "weapon"
           ],
           "maxPoints": 50,
-          "name_fr": "Objets Magiques"
+          "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne"
         },
         {
           "name_en": "Chaos Mutations",
@@ -4169,7 +4377,8 @@
             "chaos-mutation"
           ],
           "maxPoints": 50,
-          "name_fr": "Mutations du Chaos"
+          "name_fr": "Mutations du Chaos",
+          "name_pl": "Mutacje Chaosu"
         }
       ],
       "lores": [],
@@ -4178,7 +4387,8 @@
         "name_cn": "碎甲攻击(2), 坚硬皮肤(2), 紧密阵型, 附魔武器, 心理免疫, 大型目标, 践踏攻击(D3+1), 召唤风暴 {warriors}, 惊骇, 风暴加剧",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Arme Perforante (2), Peau Blindée (2), Ordre Serré, Armes Ensorcelées, Immunisé à la Psychologie, Grande Cible, Attaques de Piétinement (D3+1), Appeler la Tempête, Terreur, Orage Revitalisant"
+        "name_fr": "Arme Perforante (2), Peau Blindée (2), Ordre Serré, Armes Ensorcelées, Immunisé à la Psychologie, Grande Cible, Attaques de Piétinement (D3+1), Appeler la Tempête, Terreur, Orage Revitalisant",
+        "name_pl": "Przebicie Zbroi (2), Opancerzona Skóra (2), Zwarty Szyk, Zaklęta Broń, Odporność Na Psychologię, Duży Cel, Zdeptanie (D3+1), Burzowy Call {warriors}, Terror, The Quickening Burzowy"
       }
     },
     {
@@ -4218,7 +4428,8 @@
           "name_de": "Heavy armour (scaly skin)",
           "points": 0,
           "active": true,
-          "name_fr": "Armure lourde (peau écailleuse)"
+          "name_fr": "Armure lourde (peau écailleuse)",
+          "name_pl": "Ciężka Zbroja (scaly skin)"
         }
       ],
       "options": [],
@@ -4230,7 +4441,8 @@
         "name_cn": "紧密阵型, 飞行(9), 大型目标, 疯狂光环, 淬毒攻击, 毒血喷溅, 践踏攻击(D3), 快速行进, 惊骇",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Ordre Serré, Vol (9), Grande Cible, Aura de Démence, Attaques Empoisonnées, Giclée de Sang Bilieux, Attaques de Piétinement (D3), Rapide, Terreur"
+        "name_fr": "Ordre Serré, Vol (9), Grande Cible, Aura de Démence, Attaques Empoisonnées, Giclée de Sang Bilieux, Attaques de Piétinement (D3), Rapide, Terreur",
+        "name_pl": "Zwarty Szyk, Lot (9), Duży Cel, Maddening Aura, Trujące Ataki, Spurting Bile Krwawy, Zdeptanie (D3), Szybki Krok, Terror"
       }
     },
     {
@@ -4269,7 +4481,8 @@
           "name_de": "Light armour (calloused hide)",
           "points": 0,
           "active": true,
-          "name_fr": "Armure légère (peau calleuse)"
+          "name_fr": "Armure légère (peau calleuse)",
+          "name_pl": "Lekka Zbroja (calloused hide)"
         }
       ],
       "options": [],
@@ -4281,7 +4494,8 @@
         "name_cn": "紧密阵型, 灵视, 心理免疫, 大型目标, 噬魂者, 践踏攻击(D3), 坚毅, 惊骇, 倒啦！",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Ordre Serré, Vue Spirituelle, Immunisé à la Psychologie, Grande Cible, Mangeur d'Âmes, Attaques de Piétinement (D3), Obstiné, Terreur, Timmm-berrr!"
+        "name_fr": "Ordre Serré, Vue Spirituelle, Immunisé à la Psychologie, Grande Cible, Mangeur d'Âmes, Attaques de Piétinement (D3), Obstiné, Terreur, Timmm-berrr!",
+        "name_pl": "Zwarty Szyk, Ghostsight, Odporność Na Psychologię, Duży Cel, Soul-eater, Zdeptanie (D3), Nieugięty, Terror, Timmm-berrr!"
       }
     },
     {
@@ -4312,14 +4526,16 @@
           "name_de": "Light armour (calloused hide)",
           "points": 0,
           "active": true,
-          "name_fr": "Armure légère (peau calleuse)"
+          "name_fr": "Armure légère (peau calleuse)",
+          "name_pl": "Lekka Zbroja (calloused hide)"
         },
         {
           "name_en": "Heavy armour (scaly skin)",
           "name_cn": "重甲(鳞皮)",
           "name_de": "Heavy armour (scaly skin)",
           "points": 10,
-          "name_fr": "Armure lourde (peau écailleuse)"
+          "name_fr": "Armure lourde (peau écailleuse)",
+          "name_pl": "Ciężka Zbroja (scaly skin)"
         }
       ],
       "options": [
@@ -4342,7 +4558,8 @@
         "name_cn": "紧密阵型, 巨人攻击, 心理免疫, 大型目标, 打包, 践踏攻击(D6), 惊骇, 倒啦！, 永不战败",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Ordre Serré, Attaques de Géant, Immunisé à la Psychologie, Grande Cible, Ramassage, Attaques de Piétinement (D6), Terreur, Timmm-berrr!, Indémoralisable"
+        "name_fr": "Ordre Serré, Attaques de Géant, Immunisé à la Psychologie, Grande Cible, Ramassage, Attaques de Piétinement (D6), Terreur, Timmm-berrr!, Indémoralisable",
+        "name_pl": "Zwarty Szyk, Olbrzym Attacks, Odporność Na Psychologię, Duży Cel, Pick Up I..., Zdeptanie (D6), Terror, Timmm-berrr!, Niezłomni"
       }
     },
     {
@@ -4378,7 +4595,8 @@
           "name_de": "Light armour (calloused hide)",
           "points": 0,
           "active": true,
-          "name_fr": "Armure légère (peau calleuse)"
+          "name_fr": "Armure légère (peau calleuse)",
+          "name_pl": "Lekka Zbroja (calloused hide)"
         }
       ],
       "options": [],
@@ -4390,7 +4608,8 @@
         "name_cn": "嗜血, 紧密阵型, 狂暴, 大型目标, 原始狂怒, 重生(6+), 践踏攻击(D3), 坚毅, 生吞, 惊骇, 倒啦！",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Soif de Sang, Ordre Serré, Frénésie, Grande Cible, Fureur Primale, Régénération (6+), Attaques de Piétinement (D3), Obstiné, Avaler Tout Rond, Terreur, Timmm-berrr!"
+        "name_fr": "Soif de Sang, Ordre Serré, Frénésie, Grande Cible, Fureur Primale, Régénération (6+), Attaques de Piétinement (D3), Obstiné, Avaler Tout Rond, Terreur, Timmm-berrr!",
+        "name_pl": "Krwawy Greed, Zwarty Szyk, Frenzy, Duży Cel, Pierwotna Furia, Regeneracja (6+), Zdeptanie (D3), Nieugięty, Swallow Whole, Terror, Timmm-berrr!"
       }
     },
     {
@@ -4433,7 +4652,8 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "name_fr": "Armure légère (peau calleuse)"
+          "name_fr": "Armure légère (peau calleuse)",
+          "name_pl": "Lekka Zbroja (calloused hide)"
         }
       ],
       "options": [
@@ -4466,7 +4686,8 @@
         "name_cn": "碎甲攻击(1), 紧密阵型, 恐惧, 易燃, 重生(5+), 愚笨, Motley Crew",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Inflammable, Régénération (5+), Stupidité, Bande Hétéroclite"
+        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Inflammable, Régénération (5+), Stupidité, Bande Hétéroclite",
+        "name_pl": "Przebicie Zbroi (1), Zwarty Szyk, Strach, Łatwopalny, Regeneracja (5+), Stupidity, Zbieranina"
       }
     },
     {
@@ -4476,7 +4697,7 @@
       "name_es": "Chaos Spawn",
       "name_fr": "Rejetons du Chaos",
       "name_it": "Chaos Spawn",
-      "name_pl": "Chaos Spawn",
+      "name_pl": "Chaos Pomiot",
       "id": "chaos-spawn",
       "points": 50,
       "minimum": 1,
@@ -4510,7 +4731,7 @@
           "name_es": "Heavy armour (scaly skin)",
           "name_fr": "Armure lourde (peau écailleuse)",
           "name_it": "Heavy armour (scaly skin)",
-          "name_pl": "Heavy armour (scaly skin)",
+          "name_pl": "Ciężka Zbroja (scaly skin)",
           "points": 0,
           "perModel": true,
           "active": true
@@ -4562,7 +4783,8 @@
         "name_cn": "碎甲攻击(2), 恐惧, 心理免疫, 开放阵型, 随机攻击, 随机移动, 践踏攻击(1), 永不战败",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Arme Perforante (2), Peur, Immunisé à la Psychologie, Ordre Dispersé, Attaques Aléatoires, Mouvement Aléatoire, Attaques de Piétinement (1), Indémoralisable"
+        "name_fr": "Arme Perforante (2), Peur, Immunisé à la Psychologie, Ordre Dispersé, Attaques Aléatoires, Mouvement Aléatoire, Attaques de Piétinement (1), Indémoralisable",
+        "name_pl": "Przebicie Zbroi (2), Strach, Odporność Na Psychologię, Luźny Szyk, Random Attacks, Random Movement, Zdeptanie (1), Niezłomni"
       }
     },
     {
@@ -4572,7 +4794,7 @@
       "name_es": "Gigantic Spawn of Chaos",
       "name_fr": "Rejeton Gigantesque du Chaos",
       "name_it": "Gigantic Spawn of Chaos",
-      "name_pl": "Gigantic Spawn of Chaos",
+      "name_pl": "Gigantic Spawn Chaos",
       "id": "gigantic-spawn-of-chaos",
       "points": 145,
       "armyComposition": {
@@ -4589,7 +4811,7 @@
           "name_es": "Slashing talons, Gnashing maws",
           "name_fr": "Serres déchiqueteuses, Gueules avides",
           "name_it": "Slashing talons, Gnashing maws",
-          "name_pl": "Slashing talons, Gnashing maws",
+          "name_pl": "Slashing talons, Gnashing maws {warriors of chaos}",
           "points": 0,
           "perModel": true,
           "active": true
@@ -4603,7 +4825,7 @@
           "name_es": "Heavy armour (Scaly skin)",
           "name_fr": "Armure lourde (Peau écailleuse)",
           "name_it": "Heavy armour (Scaly skin)",
-          "name_pl": "Heavy armour (Scaly skin)",
+          "name_pl": "Ciężka Zbroja (Scaly skin)",
           "points": 0,
           "perModel": true,
           "active": true
@@ -4617,7 +4839,7 @@
           "name_es": "Gigantic Spawn of Khorne",
           "name_fr": "Rejeton Gigantesque de Khorne",
           "name_it": "Gigantic Spawn of Khorne",
-          "name_pl": "Gigantic Spawn of Khorne",
+          "name_pl": "Gigantic Spawn Khorne",
           "points": 20,
           "exclusive": true
         },
@@ -4628,7 +4850,7 @@
           "name_es": "Gigantic Spawn of Nurgle",
           "name_fr": "Rejeton Gigantesque de Nurgle",
           "name_it": "Gigantic Spawn of Nurgle",
-          "name_pl": "Gigantic Spawn of Nurgle",
+          "name_pl": "Gigantic Spawn Nurgle",
           "points": 25,
           "exclusive": true
         },
@@ -4639,7 +4861,7 @@
           "name_es": "Gigantic Spawn of Slaanesh",
           "name_fr": "Rejeton Gigantesque de Slaanesh",
           "name_it": "Gigantic Spawn of Slaanesh",
-          "name_pl": "Gigantic Spawn of Slaanesh",
+          "name_pl": "Gigantic Spawn Slaanesh",
           "points": 15,
           "exclusive": true
         },
@@ -4650,7 +4872,7 @@
           "name_es": "Gigantic Spawn of Tzeentch",
           "name_fr": "Rejeton Gigantesque de Tzeentch",
           "name_it": "Gigantic Spawn of Tzeentch",
-          "name_pl": "Gigantic Spawn of Tzeentch",
+          "name_pl": "Gigantic Spawn Tzeentch",
           "points": 10,
           "exclusive": true
         }
@@ -4665,7 +4887,7 @@
         "name_es": "Armour Bane (2), Close Order, First Charge, Immune to Psychology, Large Target, Random Attacks, Random Movement, Stomp Attacks (D6), Terror, Timmm-berrr!, Unbreakable",
         "name_fr": "Arme Perforante (2), Ordre Serré, Première Charge, Immunisé à la Psychologie, Grande Cible, Attaques Aléatoires, Mouvement Aléatoire, Attaques de Piétinement (D6), Terreur, Timmm-berrr!, Indémoralisable",
         "name_it": "Armour Bane (2), Close Order, First Charge, Immune to Psychology, Large Target, Random Attacks, Random Movement, Stomp Attacks (D6), Terror, Timmm-berrr!, Unbreakable",
-        "name_pl": "Armour Bane (2), Close Order, First Charge, Immune to Psychology, Large Target, Random Attacks, Random Movement, Stomp Attacks (D6), Terror, Timmm-berrr!, Unbreakable"
+        "name_pl": "Przebicie Zbroi (2), Zwarty Szyk, Pierwsza Szarża, Odporność Na Psychologię, Duży Cel, Random Attacks, Random Movement, Zdeptanie (D6), Terror, Timmm-berrr!, Niezłomni"
       },
       "notes": {
         "name_en": "0-1 Gigantic Spawn of Chaos per 1000 points",
@@ -4674,7 +4896,7 @@
         "name_es": "0-1 Gigantic Spawn of Chaos per 1000 points",
         "name_fr": "0-1 Rejeton Gigantesque du Chaos par tranche de 1000 points",
         "name_it": "0-1 Gigantic Spawn of Chaos per 1000 points",
-        "name_pl": "0-1 Gigantic Spawn of Chaos per 1000 points"
+        "name_pl": "0-1 Gigantic Pomiot of Chaos na 1000 punktów"
       }
     }
   ],

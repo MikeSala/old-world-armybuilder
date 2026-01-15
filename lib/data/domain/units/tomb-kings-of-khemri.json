@@ -18,6 +18,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0,
           "armyComposition": [
             "tomb-kings-of-khemri",
@@ -90,7 +91,8 @@
             "name_cn": "若处于骑乘状态",
             "name_it": "solo a Cavallo, Carro o Cavalcature Mostruose",
             "name_de": "sofern geeignet beritten",
-            "name_fr": "si monté"
+            "name_fr": "si monté",
+            "name_pl": "jeśli appropriately mounted"
           },
           "name_pl": "Włócznia kawalerii"
         }
@@ -102,6 +104,7 @@
           "name_it": "Armatura Pesante",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -136,6 +139,7 @@
           "name_it": "A Piedi",
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -145,6 +149,7 @@
           "name_it": "Destriero Scheletrico",
           "name_de": "Skelettpferd",
           "name_fr": "Coursier Squelette",
+          "name_pl": "Szkieletowy Rumak {tomb kings}",
           "points": 12
         },
         {
@@ -153,6 +158,7 @@
           "name_it": "Carro Scheletrico",
           "name_de": "Skelettstreitwagen",
           "name_fr": "Char Squelette",
+          "name_pl": "Skeleton Rydwan",
           "points": 35
         },
         {
@@ -161,6 +167,7 @@
           "name_it": "Drago Scheletrico Necrolitico",
           "name_de": "Nekrolith Knochendrache",
           "name_fr": "Dragon d'Os Nécrolithe",
+          "name_pl": "Necrolith Bone Smok",
           "points": 195
         },
         {
@@ -169,6 +176,7 @@
           "name_it": "Sfinge da Guerra Khemriana",
           "name_de": "Khemrische Kriegssphinx",
           "name_fr": "Sphinx de Guerre de Khemri",
+          "name_pl": "Khemryjski Sfinks Wojenny",
           "points": 175,
           "options": [
             {
@@ -177,6 +185,7 @@
               "name_it": "Guardia del Sepolco Aggiuntiva #1",
               "name_de": "Kann bis zu zwei zusätzliche Gruftwächterbesatzungsmitglieder erhalten",
               "name_fr": "Gardiens des Tombes supplémentaire #1",
+              "name_pl": "Additional Tomb Straż Załoga #1",
               "points": 10
             },
             {
@@ -185,6 +194,7 @@
               "name_it": "Guardia del Sepolco Aggiuntiva #2",
               "name_de": "Kann bis zu zwei zusätzliche Gruftwächterbesatzungsmitglieder erhalten",
               "name_fr": "Gardiens des Tombes supplémentaire #2",
+              "name_pl": "Additional Tomb Straż Załoga #2",
               "points": 10
             },
             {
@@ -193,6 +203,7 @@
               "name_it": "Puntura Avvelenata",
               "name_de": "Giftstachel",
               "name_fr": "Dard venimeux",
+              "name_pl": "Envenomed żądło",
               "points": 5
             },
             {
@@ -201,6 +212,7 @@
               "name_it": "Ruggito Infuocato",
               "name_de": "Flammendes Brüllen",
               "name_fr": "Rugissement ardent",
+              "name_pl": "Ognisty ryk",
               "points": 20
             }
           ]
@@ -213,6 +225,7 @@
           "name_it": "Oggetti Magici",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -229,6 +242,7 @@
           "name_it": "Oggetti Magici",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -241,7 +255,8 @@
           "armyComposition": "nehekharan-royal-hosts",
           "notes": {
             "name_en": "Arcane items are only available if the Tomb King is a wizard",
-            "name_fr": "Les objets cabalistiques ne sont disponibles que si le Roi des Tombes est un sorcier."
+            "name_fr": "Les objets cabalistiques ne sont disponibles que si le Roi des Tombes est un sorcier.",
+            "name_pl": "Arcane items are only available jeśli the Tomb Król is a czarodziej"
           }
         }
       ],
@@ -252,7 +267,8 @@
         "name_de": "Fluch der Nekropole, Staubtrocken, Brennbar, Unverwüstlich (2), Chepesh, Mein Wille geschehe, Untote von Nehekhara, Regeneration (5+)",
         "name_es": "Curse of the Necropolis, Dry as Dust, Flammable, Costrutto (2), Khopesh, My Will Be Done, Nehekharan Undead, Regeneration (5+)",
         "name_fr": "Malédiction de la Nécropole, Desséchés, Inflammable, Indomptable (2), Khopesh, Que Ma Volonté Soit Faite, Morts-vivants de Nehekhara, Régénération (5+)",
-        "name_it": "Maledizione della Necropoli, Arido come Polvere, Suscettibile al Fuoco, Costrutto (2), Khopesh, Sia Fatta la Mia Volontà, Non Morti di Nehekharan, Rigenerazione (5+)"
+        "name_it": "Maledizione della Necropoli, Arido come Polvere, Suscettibile al Fuoco, Costrutto (2), Khopesh, Sia Fatta la Mia Volontà, Non Morti di Nehekharan, Rigenerazione (5+)",
+        "name_pl": "Curse of the Necropolis, Dry jako Dust, Łatwopalny, Nieustępliwy (2), Khopesh, My Will Be Done, Nehekharijscy Nieumarli, Regeneracja (5+)"
       },
       "magic": {
         "types": [
@@ -274,7 +290,8 @@
             "name_de": "1+ Gruftkönig oder Gruftprinz, 0-1 Gruftkönig or Hohepriester pro 1000 Punkte",
             "name_es": "1+ Tomb King or Tomb Prince, 0-1 Tomb King or High Priest per 1000 points",
             "name_fr": "1+ Roi des Tombes ou Prince des Tombes, 0-1 Roi des Tombes ou Grand Prêtre par tranche de 1000 points",
-            "name_it": "1+ Re dei Sepolcri i Principe dei Sepolcri, 0-1 Re dei Sepolcri i Sommo Sacerdote Liche ogni 1.000 punti"
+            "name_it": "1+ Re dei Sepolcri i Principe dei Sepolcri, 0-1 Re dei Sepolcri i Sommo Sacerdote Liche ogni 1.000 punti",
+            "name_pl": "1+ Tomb Król lub Tomb Książę, 0-1 Tomb Król lub Wysoki Kapłan na 1000 punktów"
           }
         },
         "nehekharan-royal-hosts": {
@@ -285,7 +302,8 @@
             "name_de": "1+ Gruftkönig or Gruftprinz",
             "name_es": "1+ Tomb King or Tomb Prince",
             "name_fr": "1+ Roi des Tombes ou Prince des Tombes",
-            "name_it": "1+ Re dei Sepolcri i Principe dei Sepolcri"
+            "name_it": "1+ Re dei Sepolcri i Principe dei Sepolcri",
+            "name_pl": "1+ Tomb Król lub Tomb Książę"
           }
         }
       }
@@ -308,6 +326,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0,
           "armyComposition": [
             "tomb-kings-of-khemri",
@@ -380,7 +399,8 @@
             "name_cn": "若处于骑乘状态",
             "name_it": "solo a Cavallo, Carro o Cavalcature Mostruose",
             "name_de": "sofern geeignet beritten",
-            "name_fr": "si monté"
+            "name_fr": "si monté",
+            "name_pl": "jeśli appropriately mounted"
           },
           "name_pl": "Włócznia kawalerii"
         }
@@ -392,6 +412,7 @@
           "name_it": "Armatura Leggera",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -426,6 +447,7 @@
           "name_it": "A Piedi",
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -435,6 +457,7 @@
           "name_it": "Destriero Scheletrico",
           "name_de": "Skelettpferd",
           "name_fr": "Coursier Squelette",
+          "name_pl": "Szkieletowy Rumak {tomb kings}",
           "points": 12
         },
         {
@@ -443,6 +466,7 @@
           "name_it": "Carro Scheletrico",
           "name_de": "Skelettstreitwagen",
           "name_fr": "Char Squelette",
+          "name_pl": "Skeleton Rydwan",
           "points": 35
         }
       ],
@@ -453,6 +477,7 @@
           "name_it": "Oggetti Magici",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -472,6 +497,7 @@
           "name_it": "Oggetti Magici",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -484,7 +510,8 @@
           "armyComposition": "nehekharan-royal-hosts",
           "notes": {
             "name_en": "Arcane items are only available if the Tomb Prince is a wizard",
-            "name_fr": "Les objets cabalistiques ne sont disponibles que si le Prince des Tombes est un sorcier."
+            "name_fr": "Les objets cabalistiques ne sont disponibles que si le Prince des Tombes est un sorcier.",
+            "name_pl": "Arcane items are only available jeśli the Tomb Książę is a czarodziej"
           }
         }
       ],
@@ -495,7 +522,8 @@
         "name_de": "Fluch der Nekropole, Staubtrocken, Brennbar, Unverwüstlich (2), Chepesh, Mein Wille geschehe, Untote von Nehekhara, Regeneration (5+)",
         "name_es": "Curse of the Necropolis, Dry as Dust, Flammable, Indomitable (2), Khopesh, My Will Be Done, Nehekharan Undead, Regeneration (5+)",
         "name_fr": "Malédiction de la Nécropole, Desséchés, Inflammable, Indomptable (2), Khopesh, Que Ma Volonté Soit Faite, Morts-vivants de Nehekhara, Régénération (5+)",
-        "name_it": "Maledizione della Necropoli, Arido come Polvere, Suscettibile al Fuoco, Costrutto (2), Khopesh, Sia Fatta la Mia Volontà, Non Morti di Nehekharan, Rigenerazione (5+)"
+        "name_it": "Maledizione della Necropoli, Arido come Polvere, Suscettibile al Fuoco, Costrutto (2), Khopesh, Sia Fatta la Mia Volontà, Non Morti di Nehekharan, Rigenerazione (5+)",
+        "name_pl": "Curse of the Necropolis, Dry jako Dust, Łatwopalny, Nieustępliwy (2), Khopesh, My Will Be Done, Nehekharijscy Nieumarli, Regeneracja (5+)"
       },
       "armyComposition": {
         "tomb-kings-of-khemri": {
@@ -506,7 +534,8 @@
             "name_de": "1+ Gruftkönig or Gruftprinz",
             "name_es": "1+ Tomb King or Tomb Prince",
             "name_fr": "1+ Roi des Tombes ou Prince des Tombes",
-            "name_it": "1+ Re dei Sepolcri i Principe dei Sepolcri"
+            "name_it": "1+ Re dei Sepolcri i Principe dei Sepolcri",
+            "name_pl": "1+ Tomb Król lub Tomb Książę"
           }
         },
         "nehekharan-royal-hosts": {
@@ -517,7 +546,8 @@
             "name_de": "1+ Gruftkönig or Gruftprinz",
             "name_es": "1+ Tomb King or Tomb Prince",
             "name_fr": "1+ Roi des Tombes ou Prince des Tombes",
-            "name_it": "1+ Re dei Sepolcri i Principe dei Sepolcri"
+            "name_it": "1+ Re dei Sepolcri i Principe dei Sepolcri",
+            "name_pl": "1+ Tomb Król lub Tomb Książę"
           }
         },
         "mortuary-cults": {
@@ -528,7 +558,8 @@
             "name_de": "0-1 Gruftprinz oder Erznekrotekt pro 1000 Punkte",
             "name_es": "",
             "name_fr": "0-1 Prince des Tombes ou Archi-Nécrotecte par tranche de 1000 points",
-            "name_it": "0-1 Principe dei Sepolcri o Gran Necrotetto ogni 1.0000 punti"
+            "name_it": "0-1 Principe dei Sepolcri o Gran Necrotetto ogni 1.0000 punti",
+            "name_pl": "0-1 Tomb Książę lub Arch Necrotect na 1000 punktów"
           }
         }
       },
@@ -562,6 +593,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0,
           "armyComposition": [
             "tomb-kings-of-khemri"
@@ -574,6 +606,7 @@
           "name_de": "Armeestandartenträger",
           "name_fr": "Porteur de la Grande Bannière",
           "name_es": "Battle Standard Bearer",
+          "name_pl": "Chorąży",
           "points": 25,
           "magic": {
             "types": [
@@ -642,7 +675,8 @@
             "name_cn": "若处于骑乘状态",
             "name_it": "solo a Cavallo, Carro o Cavalcature Mostruose",
             "name_de": "sofern geeignet beritten",
-            "name_fr": "si monté"
+            "name_fr": "si monté",
+            "name_pl": "jeśli appropriately mounted"
           },
           "name_pl": "Włócznia kawalerii"
         }
@@ -654,6 +688,7 @@
           "name_it": "Armatura Leggera",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "active": true
         }
@@ -676,6 +711,7 @@
           "name_it": "A Piedi",
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -685,6 +721,7 @@
           "name_it": "Destriero Scheletrico",
           "name_de": "Skelettpferd",
           "name_fr": "Coursier Squelette",
+          "name_pl": "Szkieletowy Rumak {tomb kings}",
           "points": 12
         },
         {
@@ -693,6 +730,7 @@
           "name_it": "Carro Scheletrico",
           "name_de": "Skelettstreitwagen",
           "name_fr": "Char Squelette",
+          "name_pl": "Skeleton Rydwan",
           "points": 35
         }
       ],
@@ -703,6 +741,7 @@
           "name_it": "Oggetti Magici",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -721,7 +760,8 @@
         "name_de": "Banner des Königs, Staubtrocken, Brennbar, Unverwüstlich (1), Chepesh, Untote von Nehekhara, Regeneration (5+), Eingeschworener Leibwächter",
         "name_es": "Banner of the King, Dry as Dust, Flammable, Indomitable (1), Khopesh, Nehekharan Undead, Regeneration (5+), Sworn Protector",
         "name_fr": "Bannière du Roi, Desséchés, Inflammable, Indomptable (1), Khopesh, Morts-vivants de Nehekhara, Régénération (5+), Protecteur Assermenté",
-        "name_it": "Stendardo del Re, Arido come Polvere, Suscettibile al Fuoco, Costrutto (1), Khopesh, Non Morti di Nehekharan, Rigenerazione (5+), Protettore Giurato"
+        "name_it": "Stendardo del Re, Arido come Polvere, Suscettibile al Fuoco, Costrutto (1), Khopesh, Non Morti di Nehekharan, Rigenerazione (5+), Protettore Giurato",
+        "name_pl": "Banner of the Król, Dry jako Dust, Łatwopalny, Nieustępliwy (1), Khopesh, Nehekharijscy Nieumarli, Regeneracja (5+), Sworn Protector"
       },
       "notes": {
         "name_en": "",
@@ -729,7 +769,8 @@
         "name_de": "",
         "name_es": "",
         "name_fr": "",
-        "name_it": ""
+        "name_it": "",
+        "name_pl": ""
       },
       "armyComposition": {
         "tomb-kings-of-khemri": {
@@ -758,6 +799,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0,
           "armyComposition": [
             "tomb-kings-of-khemri",
@@ -822,6 +864,7 @@
           "name_it": "A Piedi",
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -831,6 +874,7 @@
           "name_it": "Destriero Scheletrico",
           "name_de": "Skelettpferd",
           "name_fr": "Coursier Squelette",
+          "name_pl": "Szkieletowy Rumak {tomb kings}",
           "points": 12
         },
         {
@@ -839,6 +883,7 @@
           "name_it": "Drago Scheletrico Necrolitico",
           "name_de": "Nekrolith Knochendrache",
           "name_fr": "Dragon d'Os Nécrolithe",
+          "name_pl": "Necrolith Bone Smok",
           "points": 195
         }
       ],
@@ -849,6 +894,7 @@
           "name_it": "Oggetti Magici",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor-mages",
@@ -871,7 +917,8 @@
         "name_de": "Erhebt euch!, Fluch der Nekropole, Unverwüstlich (1), Chepesh, Lehre von Nehekhara, Untote von Nehekhara, Regeneration (5+), Aus dem Sand",
         "name_es": "Arise!, Curse of the Necropolis, Indomitable (1), Khopesh, Lore of Nehekhara, Nehekharan Undead, Regeneration (5+), From Beneath the Sands",
         "name_fr": "Levez-vous!, Malédiction de la Nécropole, Indomptable (1), Khopesh, Domaine de Nehekhara, Morts-vivants de Nehekhara, Régénération (5+), Surgis de Sous les Sables",
-        "name_it": "Risorgi!, Maledizione della Necropoli, Costrutto (1), Khopesh, Saperi di Nehekhara, Non Morti di Nehekharan, Rigenerazione (5+), Da sotto le sabbie"
+        "name_it": "Risorgi!, Maledizione della Necropoli, Costrutto (1), Khopesh, Saperi di Nehekhara, Non Morti di Nehekharan, Rigenerazione (5+), Da sotto le sabbie",
+        "name_pl": "Arise!, Curse of the Necropolis, Nieustępliwy (1), Khopesh, Lore of Nehekhara, Nehekharijscy Nieumarli, Regeneracja (5+), Z Beneath the Sands"
       },
       "magic": {
         "types": [
@@ -893,7 +940,8 @@
             "name_de": "1+ Hohepriester or Priester des Totenkults, 0-1 Gruftkönig oder Hohepriester pro 1000 Punkte",
             "name_es": "1+ High Priest or Mortuary Priest, 0-1 Tomb King or High Priest per 1000 points",
             "name_fr": "1+ Grand Prêtre ou Prêtre Mortuaire, 0-1 Roi des Tombes ou Grand Prêtre par tranche de 1000 points",
-            "name_it": "1+ Sommo Sacerdote Liche o Sacerdote Liche, 0-1 Re dei Sepolcri o Sommo Sacerdote Liche ogni 1.000 punti"
+            "name_it": "1+ Sommo Sacerdote Liche o Sacerdote Liche, 0-1 Re dei Sepolcri o Sommo Sacerdote Liche ogni 1.000 punti",
+            "name_pl": "1+ Wysoki Kapłan lub Mortuary Kapłan, 0-1 Tomb Król lub Wysoki Kapłan na 1000 punktów"
           }
         },
         "mortuary-cults": {
@@ -904,7 +952,8 @@
             "name_de": "1+ Hohepriester oder Priester des Totenkults",
             "name_es": "",
             "name_fr": "1+ Grand Prêtre ou Prêtre Mortuaire",
-            "name_it": "1+ Sommo Sacerdote Liche o Sacerdote Liche"
+            "name_it": "1+ Sommo Sacerdote Liche o Sacerdote Liche",
+            "name_pl": "1+ Wysoki Kapłan lub Mortuary Kapłan"
           }
         }
       }
@@ -927,6 +976,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0,
           "armyComposition": [
             "tomb-kings-of-khemri",
@@ -939,6 +989,7 @@
           "name_it": "Stendardo da Battaglia",
           "name_de": "Armeestandartenträger",
           "name_fr": "Porteur de la Grande Bannière",
+          "name_pl": "Chorąży",
           "points": 25,
           "magic": {
             "types": [
@@ -1005,6 +1056,7 @@
           "name_it": "A Piedi",
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -1014,6 +1066,7 @@
           "name_it": "Destriero Scheletrico",
           "name_de": "Skelettpferd",
           "name_fr": "Coursier Squelette",
+          "name_pl": "Szkieletowy Rumak {tomb kings}",
           "points": 12
         }
       ],
@@ -1024,6 +1077,7 @@
           "name_it": "Oggetti Magici",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor-mages",
@@ -1046,7 +1100,8 @@
         "name_de": "Erhebt euch!, Fluch der Nekropole, Unverwüstlich (1), Chepesh, Lehre von Nehekhara, Untote von Nehekhara, Regeneration (5+), Aus dem Sand",
         "name_es": "Arise!, Curse of the Necropolis, Indomitable (1), Khopesh, Lore of Nehekhara, Nehekharan Undead, Regeneration (5+), From Beneath the Sands",
         "name_fr": "Levez-vous!, Malédiction de la Nécropole, Indomptable (1), Khopesh, Domaine de Nehekhara, Morts-vivants de Nehekhara, Régénération (5+), Surgis de Sous les Sables",
-        "name_it": "Risorgi!, Maledizione della Necropoli, Costrutto (1), Khopesh, Saperi di Nehekhara, Non Morti di Nehekharan, Rigenerazione (5+), Da sotto le sabbie"
+        "name_it": "Risorgi!, Maledizione della Necropoli, Costrutto (1), Khopesh, Saperi di Nehekhara, Non Morti di Nehekharan, Rigenerazione (5+), Da sotto le sabbie",
+        "name_pl": "Arise!, Curse of the Necropolis, Nieustępliwy (1), Khopesh, Lore of Nehekhara, Nehekharijscy Nieumarli, Regeneracja (5+), Z Beneath the Sands"
       },
       "armyComposition": {
         "tomb-kings-of-khemri": {
@@ -1057,7 +1112,8 @@
             "name_de": "1+ Hohepriester oder Priester des Totenkults, 0-1 Gruftkönig oder Hohepriester pro 1000 Punkte",
             "name_es": "",
             "name_fr": "1+ Grand Prêtre ou Prêtre Mortuaire, 0-1 Roi des Tombes ou Grand Prêtre par tranche de 1000 points",
-            "name_it": "1+ Sommo Sacerdote Liche o Sacerdote Liche, 0-1 Re dei Sepolcri o Sommo Sacerdote Liche ogni 1.000 punti"
+            "name_it": "1+ Sommo Sacerdote Liche o Sacerdote Liche, 0-1 Re dei Sepolcri o Sommo Sacerdote Liche ogni 1.000 punti",
+            "name_pl": "1+ Wysoki Kapłan lub Mortuary Kapłan, 0-1 Tomb Król lub Wysoki Kapłan na 1000 punktów"
           }
         },
         "mortuary-cults": {
@@ -1068,7 +1124,8 @@
             "name_de": "1+ Hohepriester oder Priester des Totenkults",
             "name_es": "",
             "name_fr": "1+ Grand Prêtre ou Prêtre Mortuaire",
-            "name_it": "1+ Sommo Sacerdote Liche o Sacerdote Liche"
+            "name_it": "1+ Sommo Sacerdote Liche o Sacerdote Liche",
+            "name_pl": "1+ Wysoki Kapłan lub Mortuary Kapłan"
           }
         },
         "nehekharan-royal-hosts": {
@@ -1109,6 +1166,7 @@
           "name_de": "Leichte Rüstung",
           "name_es": "Light armour",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1124,6 +1182,7 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -1141,7 +1200,8 @@
         "name_it": "Arido come Polvere, Eterno Dominatore, Infiammabile, Khopesh, Non morto di Nehekharan, Rigenerazione (5+), Plasmatore di pietre",
         "name_de": "Staubtrocken, Brennbar, Unsterblicher Aufseher, Chepesh, Untote von Nehekhara, Regeneration (5+), Steinformer",
         "name_es": "Dry as Dust, Flammable, Immortal Overseer, Khopesh, Nehekharan Undead, Regeneration (5+), Stone Shaper",
-        "name_fr": "Desséchés, Inflammable, Contremaître Immortel, Khopesh, Morts-vivants de Nehekhara, Régénération (5+), Tailleur de Pierre"
+        "name_fr": "Desséchés, Inflammable, Contremaître Immortel, Khopesh, Morts-vivants de Nehekhara, Régénération (5+), Tailleur de Pierre",
+        "name_pl": "Dry jako Dust, Łatwopalny, Immortal Overseer, Khopesh, Nehekharijscy Nieumarli, Regeneracja (5+), Kamienny Shaper"
       },
       "armyComposition": {
         "mortuary-cults": {
@@ -1151,7 +1211,8 @@
             "name_cn": "每1000分0-1古墓王子或古墓大技师",
             "name_it": "0-1 Principe dei Sepolcri o Gran Necrotetto ogni 1.0000 punti",
             "name_de": "0-1 Gruftprinz or Erznekrotekt pro 1000 Punkte",
-            "name_fr": "0-1 Prince des Tombes ou Archi-Nécrotecte par tranche de 1000 points"
+            "name_fr": "0-1 Prince des Tombes ou Archi-Nécrotecte par tranche de 1000 points",
+            "name_pl": "0-1 Tomb Książę lub Arch Necrotect na 1000 punktów"
           }
         }
       }
@@ -1174,6 +1235,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0,
           "armyComposition": [
             "tomb-kings-of-khemri"
@@ -1211,6 +1273,7 @@
           "name_it": "Armatura Leggera",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1225,6 +1288,7 @@
           "name_it": "Oggetti Magici",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -1242,7 +1306,8 @@
         "name_de": "Staubtrocken, Ewiger Antreiber, Brennbar, Chepesh, Untote von Nehekhara, Regeneration (6+)",
         "name_es": "Dry as Dust, Eternal Taskmaster, Flammable, Khopesh, Nehekharan Undead, Regeneration (6+)",
         "name_fr": "Desséchés, Éternel Contremaître, Inflammable, Khopesh, Morts-vivants de Nehekhara, Régénération (6+)",
-        "name_it": "Arido come Polvere, Eterno Dominatore, Suscettibile al Fuoco, Khopesh, Non Morti di Nehekharan, Rigenerazione (6+)"
+        "name_it": "Arido come Polvere, Eterno Dominatore, Suscettibile al Fuoco, Khopesh, Non Morti di Nehekharan, Rigenerazione (6+)",
+        "name_pl": "Dry jako Dust, Eternal Taskmaster, Łatwopalny, Khopesh, Nehekharijscy Nieumarli, Regeneracja (6+)"
       },
       "notes": {
         "name_en": "",
@@ -1250,7 +1315,8 @@
         "name_de": "",
         "name_es": "",
         "name_fr": "",
-        "name_it": ""
+        "name_it": "",
+        "name_pl": ""
       },
       "armyComposition": {
         "tomb-kings-of-khemri": {
@@ -1288,6 +1354,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -1312,6 +1379,7 @@
           "name_de": "Die Krone Nehekharas, Die Skarabäenbrosche des Usirian",
           "name_es": "The Crown of Nehekhara, The Scarab Brooch of Usirian",
           "name_fr": "La Couronne de Nehekhara, La Broche-Scarabée d'Usirian",
+          "name_pl": "Crown Nehekhara, Scarab Brooch Usirian",
           "points": 0,
           "active": true
         }
@@ -1337,6 +1405,7 @@
           "name_de": "Der Streitwagen der Götter",
           "name_es": "The Chariot of the Gods",
           "name_fr": "Le Char des Dieux",
+          "name_pl": "Chariot Gods",
           "points": 0,
           "active": true
         }
@@ -1351,7 +1420,8 @@
         "name_it": "Comandante delle Legioni, Maledizione della Necropoli, Arido come Polvere, Infiammabile, Colpi da impatto (2D3), Costrutto (3), Sapere di Nehekhara, Sia fatta la mia volontà, Non morto di Nehekharan, Rigenerazione (5+), Settra non si inginocchia!, Settra il Grande",
         "name_de": "Herrscher über Legionen, Fluch der Nekropole, Staubtrocken, Brennbar, Aufpralltreffer (2W3), Unverwüstlich (3), Lehre von Nehekhara, Mein Wille Geschehe, Untote von Nehekhara, Regeneration (5+), Settra kniet nicht!, Settra der Große",
         "name_es": "Commander of Legions, Curse of the Necropolis, Dry as Dust, Flammable, Impact Hits (2D3), Indomitable (3), Lore of Nehekhara, My Will Be Done, Nehekharan Undead, Regeneration (5+), Settra Does Not Kneel!, Settra the Great",
-        "name_fr": "Commandeur des Légions, Malédiction de la Nécropole, Desséchés, Inflammable, Touches d'Impact (2D3), Indomptable (3), Domaine de Nehekhara, Que Ma Volonté Soit Faite, Morts-vivants de Nehekhara, Régénération (5+), Settra Ne s'Agenouille Pas!, Settra le Grand"
+        "name_fr": "Commandeur des Légions, Malédiction de la Nécropole, Desséchés, Inflammable, Touches d'Impact (2D3), Indomptable (3), Domaine de Nehekhara, Que Ma Volonté Soit Faite, Morts-vivants de Nehekhara, Régénération (5+), Settra Ne s'Agenouille Pas!, Settra le Grand",
+        "name_pl": "Commander of Legions, Curse of the Necropolis, Dry jako Dust, Łatwopalny, Uderzenia Impetu (2D3), Nieustępliwy (3), Lore of Nehekhara, My Will Be Done, Nehekharijscy Nieumarli, Regeneracja (5+), Settra Does Not Kneel!, Settra the Wielki"
       }
     },
     {
@@ -1387,6 +1457,7 @@
           "name_de": "Leichte Rüstung",
           "name_es": "Light armour",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "active": true
         }
@@ -1401,7 +1472,8 @@
         "name_it": "Agguato, Volo (9), Costrutto (2), Khopesh, Solitario,  Non Morto di Nehekharan, Rigenerazione (5+), Principe degli Scarabei, Mietitore di Usirian, Terrore",
         "name_de": "Überfall, Fliegen (9), Unverwüstlich (2), Chepesh, Einzelgänger, Untote von Nehekhara, Regeneration (5+), Skarabäenprinz, Schnitter des Usirian, Entsetzen",
         "name_es": "Ambushers, Fly (9), Indomitable (2), Khopesh, Loner, Nehekharan Undead, Regeneration (5+), Scarab Prince, Usirian's Reaper, Terror",
-        "name_fr": "Embusqueurs, Vol (9), Indomptable (2), Khopesh, Solitaire, Morts-vivants de Nehekhara, Régénération (5+), Prince Scarabée, Faucheur d'Usirian, Terreur"
+        "name_fr": "Embusqueurs, Vol (9), Indomptable (2), Khopesh, Solitaire, Morts-vivants de Nehekhara, Régénération (5+), Prince Scarabée, Faucheur d'Usirian, Terreur",
+        "name_pl": "Zasadzka, Lot (9), Nieustępliwy (2), Khopesh, Samotnik, Nehekharijscy Nieumarli, Regeneracja (5+), Scarab Książę, Usirian's Reaper, Terror"
       }
     },
     {
@@ -1431,6 +1503,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0,
           "armyComposition": [
             "tomb-kings-of-khemri"
@@ -1458,6 +1531,7 @@
           "name_de": "Leichte Rüstung",
           "name_es": "Light armour",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "active": true
         }
@@ -1472,7 +1546,8 @@
         "name_it": "Arido come Polvere, Suscettibile al Fuoco, Araldo Della Disperazione, Costrutto (2), Colpo Mortale, Non Morto di Nehekharan, Rigenerazione (5+), Campione di Settra, Protettore Giurato",
         "name_de": "Staubtrocken, Brennbar, Bote der Verzweiflung, Unverwüstlich (2), Todesstoß, Untote von Nehekhara, Regeneration (5+), Settras Schiedskämpfer, Eingeschworener Leibwächter",
         "name_es": "Dry as Dust, Flammable, Herald of Despair, Indomitable (2), Killing Blow, Nehekharan Undead, Regeneration (5+), Settra's Champion, Sworn Protector",
-        "name_fr": "Desséchés, Inflammable, Héraut du Désespoir, Indomptable (2), Coup Fatal, Morts-vivants de Nehekhara, Régénération (5+), Champion de Settra, Protecteur Assermenté"
+        "name_fr": "Desséchés, Inflammable, Héraut du Désespoir, Indomptable (2), Coup Fatal, Morts-vivants de Nehekhara, Régénération (5+), Champion de Settra, Protecteur Assermenté",
+        "name_pl": "Dry jako Dust, Łatwopalny, Herald of Despair, Nieustępliwy (2), Killing Blow, Nehekharijscy Nieumarli, Regeneracja (5+), Settra's Czempion, Sworn Protector"
       }
     }
   ],
@@ -1496,6 +1571,7 @@
           "name_it": "Maestro D'Armi (campione)",
           "name_de": "Meister der Waffen (Champion)",
           "name_fr": "Maître d'Armes (champion)",
+          "name_pl": "Master Arms (champion)",
           "points": 5,
           "magic": {
             "types": [
@@ -1514,6 +1590,7 @@
           "name_it": "Alfiere",
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 5,
           "magic": {
             "types": [
@@ -1528,6 +1605,7 @@
           "name_it": "Musico",
           "name_de": "Musiker",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 5
         }
       ],
@@ -1561,6 +1639,7 @@
           "name_it": "Armatura Leggera",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 1,
           "perModel": true
         }
@@ -1600,7 +1679,8 @@
         "name_de": "Geschlossene Ränge, Horde, Untote von Nehekhara, Regeneration (6+), Hauptregiment",
         "name_es": "Close Order, Horde, Nehekharan Undead, Regeneration (6+), Regimental Unit",
         "name_fr": "Ordre Serré, Horde, Morts-vivants de Nehekhara, Régénération (6+), Unité Régimentaire",
-        "name_it": "Formazione Serrata, Orda, Non morto di Nehekharan, Unità Madre, Rigenerazione (6+)"
+        "name_it": "Formazione Serrata, Orda, Non morto di Nehekharan, Unità Madre, Rigenerazione (6+)",
+        "name_pl": "Zwarty Szyk, Horda, Nehekharijscy Nieumarli, Regeneracja (6+), Jednostka Regimentowa"
       },
       "armyComposition": {
         "tomb-kings-of-khemri": {
@@ -1611,7 +1691,8 @@
             "name_de": "1+ Einheit von Skelettkriegern und/oder Skelettbogenschützen",
             "name_es": "1+ unit of Skeleton Warriors and/or Skeleton Archers",
             "name_fr": "1+ unité de Guerriers Squelette et/ou d'Archers Squelettes",
-            "name_it": "1+ Unità di Guarrieri Scheletri e/o Arcieri Scheletri"
+            "name_it": "1+ Unità di Guarrieri Scheletri e/o Arcieri Scheletri",
+            "name_pl": "1+ jednostka of Skeleton Wojownicy i/lub Skeleton Łucznicy"
           }
         },
         "mortuary-cults": {
@@ -1639,6 +1720,7 @@
           "name_it": "Maestro Arciere (campione)",
           "name_de": "Meister der Bogen (Champion)",
           "name_fr": "Maître des Flèches (champion)",
+          "name_pl": "Master Arrows (champion)",
           "points": 5
         },
         {
@@ -1647,6 +1729,7 @@
           "name_it": "Alfiere",
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 5
         },
         {
@@ -1655,6 +1738,7 @@
           "name_it": "Musico",
           "name_de": "Musiker",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 5
         }
       ],
@@ -1689,6 +1773,7 @@
           "name_it": "Armatura Leggera",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 1,
           "perModel": true
         }
@@ -1713,7 +1798,8 @@
         "name_de": "Pfeile der Asaph, Abteilung, Untote von Nehekhara, Offene Ränge, Regeneration (6+)",
         "name_es": "Arrows of Asaph, Detachment, Nehekharan Undead, Open Order, Regeneration (6+)",
         "name_fr": "Flèches d'Asaph, Détachement, Morts-vivants de Nehekhara, Ordre Dispersé, Régénération (6+)",
-        "name_it": "Formazione Aperta, Freccie di Asaph, Non morto di Nehekharan, Rigenerazione (6+), Distaccamento"
+        "name_it": "Formazione Aperta, Freccie di Asaph, Non morto di Nehekharan, Rigenerazione (6+), Distaccamento",
+        "name_pl": "Arrows of Asaph, Oddział, Nehekharijscy Nieumarli, Luźny Szyk, Regeneracja (6+)"
       },
       "armyComposition": {
         "tomb-kings-of-khemri": {
@@ -1724,7 +1810,8 @@
             "name_de": "1+ Einheit von Skelettkriegern und/oder Skelettbogenschützen",
             "name_es": "1+ unit of Skeleton Warriors and/or Skeleton Archers",
             "name_fr": "1+ unité de Guerriers Squelette et/ou d'Archers Squelettes",
-            "name_it": "1+ Unità di Guarrieri Scheletri e/o Arcieri Scheletri"
+            "name_it": "1+ Unità di Guarrieri Scheletri e/o Arcieri Scheletri",
+            "name_pl": "1+ jednostka of Skeleton Wojownicy i/lub Skeleton Łucznicy"
           }
         },
         "mortuary-cults": {
@@ -1754,6 +1841,7 @@
           "name_it": "Capitano del Sepolcri (campione)",
           "name_de": "Hauptmann der Gruftwächer (Champion)",
           "name_fr": "Capitaine des Tombes (champion)",
+          "name_pl": "Tomb Kapitan (czempion)",
           "points": 6,
           "magic": {
             "types": [
@@ -1772,6 +1860,7 @@
           "name_it": "Alfiere",
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -1786,6 +1875,7 @@
           "name_it": "Musico",
           "name_de": "Musiker",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -1819,6 +1909,7 @@
           "name_it": "Armatura Leggera e Scudi",
           "name_de": "Leichte Rüstung, Schilde",
           "name_fr": "Armure légère, Boucliers",
+          "name_pl": "Lekka Zbroja, Shields",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1859,7 +1950,8 @@
         "name_de": "Spaltender Hieb, Geschlossene Ränge, Unverwüstlich (1), Chepesh, Untote von Nehekhara, Regeneration (6+), Hauptregiment",
         "name_es": "Cleaving Blow, Close Order, Indomitable (1), Khopesh, Nehekharan Undead, Regeneration (6+), Regimental Unit",
         "name_fr": "Coup de Fendoir, Ordre Serré, Indomptable (1), Khopesh, Morts-vivants de Nehekhara, Régénération (6+), Unité Régimentaire",
-        "name_it": "Colpo di Grazia, Formazione Serrata, Costrutti (1), Khopesh, Non Morto di Nehekharan, Rigenerazione (6+), Unità Madre"
+        "name_it": "Colpo di Grazia, Formazione Serrata, Costrutti (1), Khopesh, Non Morto di Nehekharan, Rigenerazione (6+), Unità Madre",
+        "name_pl": "Cleaving Blow, Zwarty Szyk, Nieustępliwy (1), Khopesh, Nehekharijscy Nieumarli, Regeneracja (6+), Jednostka Regimentowa"
       },
       "armyComposition": {
         "tomb-kings-of-khemri": {
@@ -1870,7 +1962,8 @@
             "name_de": "0-1 Einheit Gruftwächter oder Grabjäger darf als Kernauswahl gewählt werden",
             "name_es": "0-1 unit of Tomb Guard or Sepulchral Stalkers may be taken as a Core choice",
             "name_fr": "0-1 unité de Gardien des Tombes ou Rôdeurs Sépulcraux peut être prise comme choix d'Unité de Base",
-            "name_it": "0-1 unità di Guardia dei Sepolcri o Cacciatore dei Sepolcri possono essere scelti come Truppa"
+            "name_it": "0-1 unità di Guardia dei Sepolcri o Cacciatore dei Sepolcri possono essere scelti come Truppa",
+            "name_pl": "0-1 jednostka of Tomb Straż lub Sepulchral Stalkers może be taken jako a Podstawowy choice"
           }
         },
         "nehekharan-royal-hosts": {
@@ -1881,7 +1974,8 @@
             "name_de": "0-1 Einheit Gruftwächter oder Streitwagen der Gruftwächter darf als Kernauswahl gewählt werden",
             "name_es": "",
             "name_fr": "0-1 unité de Gardien des Tombes ou Chars Gardien des Tombes peut être prise comme choix d'Unité de Base",
-            "name_it": "0-1 unità di Guardia dei Sepolcri o Carri della Guardia dei Sepolcri possono essere scelte come Truppa"
+            "name_it": "0-1 unità di Guardia dei Sepolcri o Carri della Guardia dei Sepolcri possono essere scelte come Truppa",
+            "name_pl": "0-1 jednostka of Tomb Straż lub Tomb Straż Rydwany może be taken jako a Podstawowy choice"
           }
         }
       }
@@ -1952,6 +2046,7 @@
           "name_it": "Armatura Pesante",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1980,7 +2075,8 @@
         "name_de": "Geschlossene Ränge, Unverwüstlich (1), Untote von Nehekhara, Regeneration (6+), Schnelle Bewegung",
         "name_es": "Close Order, Indomitable (1), Nehekharan Undead, Regeneration (6+), Swiftstride",
         "name_fr": "Ordre Serré, Indomptable (1), Morts-vivants de Nehekhara, Régénération (6+), Rapide",
-        "name_it": "Formazione Serrata, Indomito (1), Non morto di Nehekharan, Rigenerazione (6+), Passo Rapido"
+        "name_it": "Formazione Serrata, Indomito (1), Non morto di Nehekharan, Rigenerazione (6+), Passo Rapido",
+        "name_pl": "Zwarty Szyk, Nieustępliwy (1), Nehekharijscy Nieumarli, Regeneracja (6+), Szybki Krok"
       },
       "notes": {
         "name_en": "",
@@ -1988,7 +2084,8 @@
         "name_de": "",
         "name_es": "",
         "name_fr": "",
-        "name_it": ""
+        "name_it": "",
+        "name_pl": ""
       },
       "armyComposition": {
         "tomb-kings-of-khemri": {
@@ -2072,7 +2169,8 @@
             "name_cn": "每1000分0-1",
             "name_it": "0-1 per 1000 punti",
             "name_de": "0-1 pro 1000 Punkte",
-            "name_fr": "0-1 par tranche de 1000 points"
+            "name_fr": "0-1 par tranche de 1000 points",
+            "name_pl": "0-1 na 1000 punktów"
           },
           "name_pl": "Zasadzka"
         }
@@ -2086,7 +2184,8 @@
         "name_de": "Pfeile der Asaph, Streitwagengarde, Untote von Nehekhara, Regeneration (6+), Plänkler, Vorhut",
         "name_es": "Arrows of Asaph, Chariot Runners, Nehekharan Undead, Regeneration (6+), Skirmishers, Vanguard",
         "name_fr": "Flèches d'Asaph, Escorteurs de Chars, Morts-vivants de Nehekhara, Régénération (6+), Tirailleurs, Avant-garde",
-        "name_it": "Schermagliatori, Avanguardia, Freccie di Asaph, Non morto di Nehekharan, Rigenerazione (6+), Scorta dei Carri"
+        "name_it": "Schermagliatori, Avanguardia, Freccie di Asaph, Non morto di Nehekharan, Rigenerazione (6+), Scorta dei Carri",
+        "name_pl": "Arrows of Asaph, Rydwan Runners, Nehekharijscy Nieumarli, Regeneracja (6+), Harcownicy, Awangarda"
       },
       "notes": {
         "name_en": "",
@@ -2094,7 +2193,8 @@
         "name_de": "",
         "name_es": "",
         "name_fr": "",
-        "name_it": ""
+        "name_it": "",
+        "name_pl": ""
       },
       "armyComposition": {
         "tomb-kings-of-khemri": {
@@ -2127,6 +2227,7 @@
           "name_it": "Maestro Auriga (campione)",
           "name_de": "Meister der Wagen (Champion)",
           "name_fr": "Maître Aurige (champion)",
+          "name_pl": "Mistrz Charioteer (czempion)",
           "points": 6,
           "magic": {
             "types": [
@@ -2145,6 +2246,7 @@
           "name_it": "Alfiere",
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -2159,6 +2261,7 @@
           "name_it": "Musico",
           "name_de": "Musiker",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -2186,7 +2289,8 @@
         "name_de": "Pfeile der Asaph, Staubtrocken, Horde, Aufpralltreffer (W3), Untote von Nehekhara, Offene Ränge, Regeneration (6+), Reservebewegung, Schnelle Bewegung",
         "name_es": "Arrows of Asaph, Dry as Dust, Horde, Impact Hits (D3), Nehekharan Undead, Open Order, Regeneration (6+), Reserve Move, Swiftstride",
         "name_fr": "Flèches d'Asaph, Desséchés, Horde, Touches d'Impact (D3), Morts-vivants de Nehekhara, Ordre Dispersé, Régénération (6+), Mouvement de Réserve, Rapide",
-        "name_it": "Formazione Aperta, Movimento Tattico, Passo Rapido, Frecce di Asaph, Arido come Polvere, Orda, Colpi di Impatto (D3), Non morto di Nehekharan, Rigenerazione (6+)"
+        "name_it": "Formazione Aperta, Movimento Tattico, Passo Rapido, Frecce di Asaph, Arido come Polvere, Orda, Colpi di Impatto (D3), Non morto di Nehekharan, Rigenerazione (6+)",
+        "name_pl": "Arrows of Asaph, Dry jako Dust, Horda, Uderzenia Impetu (D3), Nehekharijscy Nieumarli, Luźny Szyk, Regeneracja (6+), Reserve Move, Szybki Krok"
       },
       "armyComposition": {
         "tomb-kings-of-khemri": {
@@ -2200,7 +2304,8 @@
             "name_de": "1+ Einheit Skelettstreitwagen",
             "name_es": "",
             "name_fr": "1+ unité de Chars Squelettes",
-            "name_it": "1+ unità di Carri Scheletrici"
+            "name_it": "1+ unità di Carri Scheletrici",
+            "name_pl": "1+ jednostka of Skeleton Rydwany"
           }
         },
         "mortuary-cults": {
@@ -2258,7 +2363,8 @@
         "name_de": "Staubtrocken, Untote von Nehekhara, Giftattacken, Regeneration (6+), Plänkler",
         "name_es": "Dry as Dust, Nehekharan Undead, Poisoned Attacks, Regeneration (6+), Skirmishers",
         "name_fr": "Desséchés, Morts-vivants de Nehekhara, Attaques Empoisonnées, Régénération (6+), Tirailleurs",
-        "name_it": "Schermagliatori, Attacchi Venefici, Arido come Polvere, Non morto di Nehekharan, Rigenerazione (6+)"
+        "name_it": "Schermagliatori, Attacchi Venefici, Arido come Polvere, Non morto di Nehekharan, Rigenerazione (6+)",
+        "name_pl": "Dry jako Dust, Nehekharijscy Nieumarli, Trujące Ataki, Regeneracja (6+), Harcownicy"
       },
       "armyComposition": {
         "tomb-kings-of-khemri": {
@@ -2272,7 +2378,8 @@
             "name_de": "0-1 Einheit Gruftschwärme darf als Kernauswahl gewählt werden",
             "name_es": "",
             "name_fr": "0-1 unité de Nuées des Tombes peut être prise comme choix d'Unité de Base",
-            "name_it": "0-1 unità di Sciami dei Sepolcri possono essere scelti come Truppa"
+            "name_it": "0-1 unità di Sciami dei Sepolcri possono essere scelti come Truppa",
+            "name_pl": "0-1 jednostka of Tomb Swarms może be taken jako a Podstawowy choice"
           }
         }
       }
@@ -2296,6 +2403,7 @@
           "name_it": "Signore dei Cavalli(campione)",
           "name_de": "Meister der Reiter (Champion)",
           "name_fr": "Maître des Chevaux (champion)",
+          "name_pl": "Master Horse (champion)",
           "points": 6,
           "magic": {
             "types": [
@@ -2314,6 +2422,7 @@
           "name_it": "Alfiere",
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -2326,7 +2435,8 @@
             "name_cn": "每1000分，0-1个单位可以购买一面魔法战旗",
             "name_it": "0-1 unit per 1000 points may purchase a magic standard",
             "name_de": "0-1 Einheit pro 1000 Punkte darf eine Magische Standarte erwerben",
-            "name_fr": "0-1 unité par tranche de 1000 points peut acheter une bannière magique"
+            "name_fr": "0-1 unité par tranche de 1000 points peut acheter une bannière magique",
+            "name_pl": "0-1 jednostka na 1000 punktów może purchase a magic standard"
           }
         },
         {
@@ -2335,6 +2445,7 @@
           "name_it": "Musico",
           "name_de": "Musiker",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -2369,6 +2480,7 @@
           "name_it": "Senza Armatura, Scudi",
           "name_de": "Keine Rüstung, Schilde",
           "name_fr": "Pas d'armure, Boucliers",
+          "name_pl": "No zbroja, Shields",
           "points": 0,
           "perModel": true,
           "active": true
@@ -2379,6 +2491,7 @@
           "name_it": "Armatura Leggera, Scudi",
           "name_de": "Leichte Rüstung, Schilde",
           "name_fr": "Armure légère, Boucliers",
+          "name_pl": "Lekka Zbroja, Shields",
           "points": 1,
           "perModel": true
         }
@@ -2397,7 +2510,8 @@
             "name_cn": "每1000分0-1 单位",
             "name_it": "Una ogni 1.000pti",
             "name_de": "0-1 Einheit pro 1000 Punkte",
-            "name_fr": "0-1 unité par tranche de 1000 points"
+            "name_fr": "0-1 unité par tranche de 1000 points",
+            "name_pl": "0-1 jednostka na 1000 punktów"
           },
           "name_pl": "Przeciwnatarcie"
         }
@@ -2411,7 +2525,8 @@
         "name_de": "Geschlossene Ränge, Horde, Untote von Nehekhara, Regeneration (6+), Schnelle Bewegung, Vorhut",
         "name_es": "Close Order, Horde, Nehekharan Undead, Regeneration (6+), Swiftstride, Vanguard",
         "name_fr": "Ordre Serré, Horde, Morts-vivants de Nehekhara, Régénération (6+), Rapide, Avant-garde",
-        "name_it": "Formazione Serrata, Orda, Non morto di Nehekharan, Rigenerazione (6+), Passo Rapido, Avanguardia"
+        "name_it": "Formazione Serrata, Orda, Non morto di Nehekharan, Rigenerazione (6+), Passo Rapido, Avanguardia",
+        "name_pl": "Zwarty Szyk, Horda, Nehekharijscy Nieumarli, Regeneracja (6+), Szybki Krok, Awangarda"
       },
       "notes": {
         "name_en": "",
@@ -2419,7 +2534,8 @@
         "name_de": "",
         "name_es": "",
         "name_fr": "",
-        "name_it": ""
+        "name_it": "",
+        "name_pl": ""
       },
       "armyComposition": {
         "tomb-kings-of-khemri": {
@@ -2449,6 +2565,7 @@
           "name_it": "Signore dei Cavalli (campione)",
           "name_de": "Meister der Reiter (Champion)",
           "name_fr": "Maître des Chevaux (champion)",
+          "name_pl": "Master Horse (champion)",
           "points": 6
         },
         {
@@ -2457,6 +2574,7 @@
           "name_it": "Alfiere",
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 6
         },
         {
@@ -2465,6 +2583,7 @@
           "name_it": "Musico",
           "name_de": "Musiker",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -2488,6 +2607,7 @@
           "name_it": "Armatura Leggera",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 1,
           "perModel": true
         }
@@ -2517,7 +2637,8 @@
             "name_cn": "每1000分0-1",
             "name_it": "0-1 per 1000 punti",
             "name_de": "0-1 pro 1000 Punkte",
-            "name_fr": "0-1 par tranche de 1000 points"
+            "name_fr": "0-1 par tranche de 1000 points",
+            "name_pl": "0-1 na 1000 punktów"
           },
           "name_pl": "Biegacze Rydwanu"
         }
@@ -2531,7 +2652,8 @@
         "name_de": "Pfeile der Asaph, Untote von Nehekhara, Offene Ränge, Regeneration (6+), Reservebewegung, Kundschafter, Plänkler, Schnelle Bewegung",
         "name_es": "Arrows of Asaph, Nehekharan Undead, Open Order, Regeneration (6+), Reserve Move, Scouts, Skirmishers, Swiftstride",
         "name_fr": "Flèches d'Asaph, Morts-vivants de Nehekhara, Ordre Dispersé, Régénération (6+), Mouvement de Réserve, Éclaireurs, Tirailleurs, Rapide",
-        "name_it": "Freccie di Asaph, Non morto di Nehekharan, Formazione Aperta, Rigenerazione (6+), Movimento Tattico, Esploratori, Schermagliatori, Passo Rapido"
+        "name_it": "Freccie di Asaph, Non morto di Nehekharan, Formazione Aperta, Rigenerazione (6+), Movimento Tattico, Esploratori, Schermagliatori, Passo Rapido",
+        "name_pl": "Arrows of Asaph, Nehekharijscy Nieumarli, Luźny Szyk, Regeneracja (6+), Reserve Move, Zwiadowcy, Harcownicy, Szybki Krok"
       },
       "notes": {
         "name_en": "",
@@ -2539,7 +2661,8 @@
         "name_de": "",
         "name_es": "",
         "name_fr": "",
-        "name_it": ""
+        "name_it": "",
+        "name_pl": ""
       },
       "armyComposition": {
         "tomb-kings-of-khemri": {
@@ -2571,6 +2694,7 @@
           "name_de": "Meister der Waffen (Champion)",
           "name_es": "Master of Arms (champion)",
           "name_fr": "Maître d'Armes (champion)",
+          "name_pl": "Master Arms (champion)",
           "points": 5,
           "magic": {
             "types": [
@@ -2589,6 +2713,7 @@
           "name_de": "Standartenträger",
           "name_es": "Standard bearer",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 5,
           "magic": {
             "types": [
@@ -2604,6 +2729,7 @@
           "name_de": "Musiker",
           "name_es": "Musician",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 5
         }
       ],
@@ -2628,6 +2754,7 @@
           "name_de": "Leichte Rüstung (beide), Schilde (Krieger)",
           "name_es": "Light armour (both), Shields (Warriors)",
           "name_fr": "Armure légère (les deux), Boucliers (Guerriers)",
+          "name_pl": "Lekka Zbroja (both), Shields (Wojownicy)",
           "points": 0,
           "active": true
         }
@@ -2681,7 +2808,8 @@
         "name_it": "Freccie di Asaph, Formazione Serrata, Orda, Rigenerazione (6+), Equipaggiamento Eterogeneo*, Non Morto di Nehekharan, Unità Madre, Disciplina Ferrea",
         "name_de": "Pfeile der Asaph, Geschlossene Ränge, Horde, Zusammengewüfelter Haufen*, Untote von Nehekhara, Regeneration (6+), Hauptregiment, Unerschütterliche Disziplin",
         "name_es": "Arrows of Asaph, Close Order, Horde, Motley Crew*, Nehekharan Undead, Regeneration (6+), Regimental Unit, Steadfast Discipline",
-        "name_fr": "Flèches d'Asaph, Ordre Serré, Horde, Bande Hétéroclite*, Morts-vivants de Nehekhara, Régénération (6+), Unité Régimentaire, Discipline Inébranlable"
+        "name_fr": "Flèches d'Asaph, Ordre Serré, Horde, Bande Hétéroclite*, Morts-vivants de Nehekhara, Régénération (6+), Unité Régimentaire, Discipline Inébranlable",
+        "name_pl": "Arrows of Asaph, Zwarty Szyk, Horda, Zbieranina*, Nehekharijscy Nieumarli, Regeneracja (6+), Jednostka Regimentowa, Steadfast Discipline"
       },
       "armyComposition": {
         "nehekharan-royal-hosts": {
@@ -2707,6 +2835,7 @@
           "name_de": "Meister der Reiter (Champion)",
           "name_es": "Master of Horse (champion)",
           "name_fr": "Maître des Chevaux (champion)",
+          "name_pl": "Master Horse (champion)",
           "points": 6,
           "magic": {
             "types": [
@@ -2725,6 +2854,7 @@
           "name_de": "Standartenträger",
           "name_es": "Standard bearer",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -2740,6 +2870,7 @@
           "name_de": "Musiker",
           "name_es": "Musician",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -2764,6 +2895,7 @@
           "name_de": "Leichte Rüstung (beide), Schilde (Reiter)",
           "name_es": "Light armour (both), Shields (Horsemen)",
           "name_fr": "Armure légère (les deux), Boucliers (Cavaliers)",
+          "name_pl": "Lekka Zbroja (both), Shields (Horsemen)",
           "points": 0,
           "active": true
         }
@@ -2808,7 +2940,8 @@
           "notes": {
             "name_en": "Set this to the total amount of Horses in the unit",
             "name_cn": "将此设置为单位中马的总数",
-            "name_fr": "Indiquez ici le total de Chevaux dans l'unité"
+            "name_fr": "Indiquez ici le total de Chevaux dans l'unité",
+            "name_pl": "Set ten do the total amount of Konie w the jednostka"
           },
           "name_pl": "Przeciwnatarcie"
         }
@@ -2822,7 +2955,8 @@
         "name_it": "Freccie di Asaph, Formazione Serrata, Orda, Rigenerazione (6+), Non Morto di Nehekharan, Disciplina Ferrea, Passo Rapido, Avanguardia, Equipaggiamento Eterogeneo*",
         "name_de": "Pfeile der Asaph, Geschlossene Ränge, Horde, Zusammengewürfelter Haufen*, Untote von Nehekhara, Regeneration (6+), Unerschütterliche Disziplin, Schnelle Bewegung, Vorhut",
         "name_es": "Arrows of Asaph, Close Order, Horde, Motley Crew*, Nehekharan Undead, Regeneration (6+), Steadfast Discipline, Swiftstride, Vanguard",
-        "name_fr": "Flèches d'Asaph, Ordre Serré, Horde, Bande Hétéroclite*, Morts-vivants de Nehekhara, Régénération (6+), Discipline Inébranlable, Rapide, Avant-garde"
+        "name_fr": "Flèches d'Asaph, Ordre Serré, Horde, Bande Hétéroclite*, Morts-vivants de Nehekhara, Régénération (6+), Discipline Inébranlable, Rapide, Avant-garde",
+        "name_pl": "Arrows of Asaph, Zwarty Szyk, Horda, Zbieranina*, Nehekharijscy Nieumarli, Regeneracja (6+), Steadfast Discipline, Szybki Krok, Awangarda"
       },
       "armyComposition": {
         "nehekharan-royal-hosts": {
@@ -2879,7 +3013,8 @@
         "name_it": "Agguato, Pelle a Scaglie (1), Colpi da Impatto (1), Indomito (1), Viaggiatore, Non Morto di Nehekharan, Formazione Aperta, Attacchi Venefici, Rigenerazione (6+), Passo Rapido",
         "name_de": "Überfall, Zähe Haut (1), Aufpralltreffer (1), Unverwüstlich (1), Durch Deckung bewegen, Untote von Nehekhara, Offene Ränge, Giftattacken, Regeneration (6+), Schnelle Bewegung",
         "name_es": "Ambushers, Armoured Hide (1), Impact Hits (1), Indomitable (1), Move Through Cover, Nehekharan Undead, Open Order, Poisoned Attacks, Regeneration (6+), Swiftstride",
-        "name_fr": "Embusqueurs, Peau Blindée (1), Touches d'Impact (1), Indomptable (1), Mouvement à Couvert, Morts-vivants de Nehekhara, Ordre Dispersé, Attaques Empoisonnées, Régénération (6+), Rapide"
+        "name_fr": "Embusqueurs, Peau Blindée (1), Touches d'Impact (1), Indomptable (1), Mouvement à Couvert, Morts-vivants de Nehekhara, Ordre Dispersé, Attaques Empoisonnées, Régénération (6+), Rapide",
+        "name_pl": "Zasadzka, Opancerzona Skóra (1), Uderzenia Impetu (1), Nieustępliwy (1), Przechodzenie Przez Zasłony, Nehekharijscy Nieumarli, Luźny Szyk, Trujące Ataki, Regeneracja (6+), Szybki Krok"
       },
       "armyComposition": {
         "mortuary-cults": {
@@ -2890,7 +3025,8 @@
             "name_de": "0-1 Einheit Wächterschlangen können als Kernauswahl gewählt werden ",
             "name_es": "",
             "name_fr": "0-1 unité de Nécroserpents peut être prise comme choix d'Unité de Base",
-            "name_it": "0-1 unità di Necroserpenti può essere presa come scelta Truppa."
+            "name_it": "0-1 unità di Necroserpenti può essere presa come scelta Truppa.",
+            "name_pl": "0-1 jednostka of Necroserpents może be taken jako a Podstawowy choice"
           }
         }
       }
@@ -2915,6 +3051,7 @@
           "name_de": "Hauptmann der Gruftwächter (Champion)",
           "name_es": "Tomb Captain (champion)",
           "name_fr": "Capitaine des Tombes (champion)",
+          "name_pl": "Tomb Kapitan (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -2933,6 +3070,7 @@
           "name_de": "Standartenträger",
           "name_es": "Standard bearer",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "types": [
@@ -2948,6 +3086,7 @@
           "name_de": "Musiker",
           "name_es": "Musician",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -2975,7 +3114,8 @@
         "name_it": "Colpo di Grazia (solo Eq. Guardie dei Sepolcri), Arido come Polvere, Colpi da Impatto (D3+1), Indomito (2), Khopesh, Rigenerazione (6+), Non Morto di Nehekharan, Formazione Aperta, Movimento Tattico, Passo Rapido",
         "name_de": "Spaltender Hieb (nur Gruftwächterbesatzung), Staubtrocken, Aufpralltreffer (W3+1), Unverwüstlich (2), Chepesh, Untote von Nehekhara, Offene Ränge, Regeneration (6+), Reservebewegung, Schnelle Bewegung",
         "name_es": "Cleaving Blow (Tomb Guard Crew only), Dry as Dust, Impact Hits (D3+1), Indomitable (2), Khopesh, Nehekharan Undead, Open Order, Regeneration (6+), Reserve Move, Swiftstride",
-        "name_fr": "Coup de Fendoir (Aurige Gardien des Tombes uniquement), Desséchés, Touches d'Impact (D3+1), Indomptable (2), Khopesh, Morts-vivants de Nehekhara, Ordre Dispersé, Régénération (6+), Mouvement de Réserve, Rapide"
+        "name_fr": "Coup de Fendoir (Aurige Gardien des Tombes uniquement), Desséchés, Touches d'Impact (D3+1), Indomptable (2), Khopesh, Morts-vivants de Nehekhara, Ordre Dispersé, Régénération (6+), Mouvement de Réserve, Rapide",
+        "name_pl": "Cleaving Blow (Tomb Straż Załoga only), Dry jako Dust, Uderzenia Impetu (D3+1), Nieustępliwy (2), Khopesh, Nehekharijscy Nieumarli, Luźny Szyk, Regeneracja (6+), Reserve Move, Szybki Krok"
       },
       "armyComposition": {
         "nehekharan-royal-hosts": {
@@ -2986,7 +3126,8 @@
             "name_de": "0-1 Einheit Gruftwächter oder Streitwagen der Gruftwächter können als Kernauswahl gewählt werden",
             "name_es": "",
             "name_fr": "0-1 unité de Gardien des Tombes ou Chars Gardien des Tombes peut être prise comme choix d'Unité de Base",
-            "name_it": "0-1 unità di Guardia dei Sepolci 0 Carri della Guardia del Sepolcro può essere presa come scelta di Truppa"
+            "name_it": "0-1 unità di Guardia dei Sepolci 0 Carri della Guardia del Sepolcro può essere presa come scelta di Truppa",
+            "name_pl": "0-1 jednostka of Tomb Straż lub Tomb Straż Rydwany może be taken jako a Podstawowy choice"
           }
         }
       }
@@ -3010,6 +3151,7 @@
           "name_it": "Antico (campione)",
           "name_de": "Ehrwürdiger (Champion)",
           "name_fr": "Ancien (champion)",
+          "name_pl": "Ancient (czempion)",
           "points": 7
         }
       ],
@@ -3043,6 +3185,7 @@
           "name_it": "Armatura Pesante",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -3058,7 +3201,8 @@
         "name_de": "Pfeile der Asaph, Geschlossene Ränge, Unverwüstlich (1), Chepesh, Untote von Nehekhara, Regeneration (6+)",
         "name_es": "Arrows of Asaph, Close Order, Indomitable (1), Khopesh, Nehekharan Undead, Regeneration (6+)",
         "name_fr": "Flèches d'Asaph, Ordre Serré, Indomptable (1), Khopesh, Morts-vivants de Nehekhara, Régénération (6+)",
-        "name_it": "Freccie di Asaph, Formazione Serrata, Costrutto (1), Khopesh, Non morto di Nehekharan, Rigenerazione (6+)"
+        "name_it": "Freccie di Asaph, Formazione Serrata, Costrutto (1), Khopesh, Non morto di Nehekharan, Rigenerazione (6+)",
+        "name_pl": "Arrows of Asaph, Zwarty Szyk, Nieustępliwy (1), Khopesh, Nehekharijscy Nieumarli, Regeneracja (6+)"
       },
       "armyComposition": {
         "mortuary-cults": {
@@ -3069,7 +3213,8 @@
             "name_de": "0-1 Einheit Ushabti können als Kernauswahl gewählt werden",
             "name_es": "",
             "name_fr": "0-1 unité de Ushabti peut être prise comme choix d'Unité de Base",
-            "name_it": "0-1 unità di Ushabti può essere presa come scelta Truppa"
+            "name_it": "0-1 unità di Ushabti può essere presa come scelta Truppa",
+            "name_pl": "0-1 jednostka of Ushabti może be taken jako a Podstawowy choice"
           }
         }
       }
@@ -3095,6 +3240,7 @@
           "name_it": "Antico (campione)",
           "name_de": "Ehrwürdiger (Champion)",
           "name_fr": "Ancien (champion)",
+          "name_pl": "Ancient (czempion)",
           "points": 7
         }
       ],
@@ -3128,6 +3274,7 @@
           "name_it": "Armatura Pesante",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -3143,7 +3290,8 @@
         "name_de": "Pfeile der Asaph, Geschlossene Ränge, Unverwüstlich (1), Chepesh, Untote von Nehekhara, Regeneration (6+)",
         "name_es": "Arrows of Asaph, Close Order, Indomitable (1), Khopesh, Nehekharan Undead, Regeneration (6+)",
         "name_fr": "Flèches d'Asaph, Ordre Serré, Indomptable (1), Khopesh, Morts-vivants de Nehekhara, Régénération (6+)",
-        "name_it": "Freccie di Asaph, Formazione Serrata, Costrutto (1), Khopesh, Non morto di Nehekharan, Rigenerazione (6+)"
+        "name_it": "Freccie di Asaph, Formazione Serrata, Costrutto (1), Khopesh, Non morto di Nehekharan, Rigenerazione (6+)",
+        "name_pl": "Arrows of Asaph, Zwarty Szyk, Nieustępliwy (1), Khopesh, Nehekharijscy Nieumarli, Regeneracja (6+)"
       },
       "notes": {
         "name_en": "",
@@ -3151,7 +3299,8 @@
         "name_de": "",
         "name_es": "",
         "name_fr": "",
-        "name_it": ""
+        "name_it": "",
+        "name_pl": ""
       }
     },
     {
@@ -3174,6 +3323,7 @@
           "name_de": "Altgedienter Ehrwürdiger (Champion)",
           "name_es": "Venerable Ancient",
           "name_fr": "Ancien Vénérable",
+          "name_pl": "Czcigodny Pradawny",
           "points": 7
         }
       ],
@@ -3199,6 +3349,7 @@
           "name_de": "Schwere Rüstung",
           "name_es": "Heavy armour",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -3214,7 +3365,8 @@
         "name_it": "Formazione Serrata, Indomito (1), Khopesh, Resistenza alla Magia (-2), Non Morto di Nehekharan, Rigenerazione (6+)",
         "name_de": "Geschlossene Ränge, Unverwüstlich (1), Chepesh, Magieresistenz (-2), Untote von Nehekhara, Regeneration (6+)",
         "name_es": "Close Order, Indomitable (1), Khopesh, Magic Resistance (-2), Nehekharan Undead, Regeneration (6+)",
-        "name_fr": "Ordre Serré, Indomptable (1), Khopesh, Résistance à la Magie (-2), Morts-vivants de Nehekhara, Régénération (6+)"
+        "name_fr": "Ordre Serré, Indomptable (1), Khopesh, Résistance à la Magie (-2), Morts-vivants de Nehekhara, Régénération (6+)",
+        "name_pl": "Zwarty Szyk, Nieustępliwy (1), Khopesh, Odporność Na Magię (-2), Nehekharijscy Nieumarli, Regeneracja (6+)"
       },
       "armyComposition": {
         "mortuary-cults": {
@@ -3272,7 +3424,8 @@
         "name_de": "Staubtrocken, Untote von Nehekhara, Giftattacken, Regeneration (6+), Plänkler",
         "name_es": "Dry as Dust, Nehekharan Undead, Poisoned Attacks, Regeneration (6+), Skirmishers",
         "name_fr": "Desséchés, Morts-vivants de Nehekhara, Attaques Empoisonnées, Régénération (6+), Tirailleurs",
-        "name_it": "Schermagliatori, Attacchi Venefici, Arido come Polvere, Non morto di Nehekharan, Rigenerazione (6+)"
+        "name_it": "Schermagliatori, Attacchi Venefici, Arido come Polvere, Non morto di Nehekharan, Rigenerazione (6+)",
+        "name_pl": "Dry jako Dust, Nehekharijscy Nieumarli, Trujące Ataki, Regeneracja (6+), Harcownicy"
       },
       "notes": {
         "name_en": "",
@@ -3280,7 +3433,8 @@
         "name_de": "",
         "name_es": "",
         "name_fr": "",
-        "name_it": ""
+        "name_it": "",
+        "name_pl": ""
       },
       "armyComposition": {
         "mortuary-cults": {
@@ -3325,7 +3479,8 @@
         "name_de": "Fliegen (10), Untote von Nehekhara, Regeneration (6+), Plänkler, Schnelle Bewegung",
         "name_es": "Fly (10), Nehekharan Undead, Regeneration (6+), Skirmishers, Swiftstride",
         "name_fr": "Vol (10), Morts-vivants de Nehekhara, Régénération (6+), Tirailleurs, Rapide",
-        "name_it": "Volo (10), Non morto di Nehekharan, Rigenerazione (6+), Schermagliatori, Passo Rapido"
+        "name_it": "Volo (10), Non morto di Nehekharan, Rigenerazione (6+), Schermagliatori, Passo Rapido",
+        "name_pl": "Lot (10), Nehekharijscy Nieumarli, Regeneracja (6+), Harcownicy, Szybki Krok"
       },
       "notes": {
         "name_en": "",
@@ -3333,7 +3488,8 @@
         "name_de": "",
         "name_es": "",
         "name_fr": "",
-        "name_it": ""
+        "name_it": "",
+        "name_pl": ""
       },
       "armyComposition": {
         "tomb-kings-of-khemri": {
@@ -3363,6 +3519,7 @@
           "name_it": "Capitano della Necropoli (Campione)",
           "name_de": "Hauptmann der Nekropolenritter (Champion)",
           "name_fr": "Capitaine de la Nécropole (champion)",
+          "name_pl": "Necropolis Kapitan (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -3381,6 +3538,7 @@
           "name_it": "Alfiere",
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "types": [
@@ -3395,6 +3553,7 @@
           "name_it": "Musico",
           "name_de": "Musiker",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -3439,6 +3598,7 @@
           "name_it": "Armatura Leggera",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true
         }
@@ -3474,7 +3634,8 @@
         "name_de": "Zähe Haut (1), Spaltender Hieb, Geschlossene Ränge, Aufpralltreffer (1), Unverwüstlich (1), Chepesh, Untote von Nehekhara, Giftattacken, Regeneration (6+), Schnelle Bewegung",
         "name_es": "Armoured Hide (1), Cleaving Blow, Close Order, Impact Hits (1), Indomitable (1), Khopesh, Nehekharan Undead, Poisoned Attacks, Regeneration (6+), Swiftstride",
         "name_fr": "Peau Blindée (1), Coup de Fendoir, Ordre Serré, Touches d'Impact (1), Indomptable (1), Khopesh, Morts-vivants de Nehekhara, Attaques Empoisonnées, Régénération (6+), Rapide",
-        "name_it": "Pelle a Scaglie (1), Coplo di Grazia (solo cavalieri), Formazione Serrata, Colpi di Impatto (1), Costrutto (1), Khopesh, Rigenerazione (6+), Non morto di Nehekharan, Attacchi Venefici (Necroserpenti), Passo Rapido"
+        "name_it": "Pelle a Scaglie (1), Coplo di Grazia (solo cavalieri), Formazione Serrata, Colpi di Impatto (1), Costrutto (1), Khopesh, Rigenerazione (6+), Non morto di Nehekharan, Attacchi Venefici (Necroserpenti), Passo Rapido",
+        "name_pl": "Opancerzona Skóra (1), Cleaving Blow, Zwarty Szyk, Uderzenia Impetu (1), Nieustępliwy (1), Khopesh, Nehekharijscy Nieumarli, Trujące Ataki, Regeneracja (6+), Szybki Krok"
       },
       "notes": {
         "name_en": "",
@@ -3482,7 +3643,8 @@
         "name_de": "",
         "name_es": "",
         "name_fr": "",
-        "name_it": ""
+        "name_it": "",
+        "name_pl": ""
       },
       "armyComposition": {
         "tomb-kings-of-khemri": {
@@ -3512,6 +3674,7 @@
           "name_it": "Capitano del Sepolcro (campione)",
           "name_de": "Hauptmann der Gruftwächter (Champion)",
           "name_fr": "Capitaine des Tombes (champion)",
+          "name_pl": "Tomb Kapitan (czempion)",
           "points": 6,
           "magic": {
             "types": [
@@ -3530,6 +3693,7 @@
           "name_it": "Alfiere",
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -3544,6 +3708,7 @@
           "name_it": "Musico",
           "name_de": "Musiker",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -3577,6 +3742,7 @@
           "name_it": "Armatura Leggera e Scudi",
           "name_de": "Leichte Rüstung, Schilde",
           "name_fr": "Armure légère, Boucliers",
+          "name_pl": "Lekka Zbroja, Shields",
           "points": 0,
           "perModel": true,
           "active": true
@@ -3617,7 +3783,8 @@
         "name_de": "Spaltender Hieb, Geschlossene Ränge, Unverwüstlich (1), Chepesh, Untote von Nehekhara, Regeneration (6+), Hauptregiment",
         "name_es": "Cleaving Blow, Close Order, Indomitable (1), Khopesh, Nehekharan Undead, Regeneration (6+), Regimental Unit",
         "name_fr": "Coup de Fendoir, Ordre Serré, Indomptable (1), Khopesh, Morts-vivants de Nehekhara, Régénération (6+), Unité Régimentaire",
-        "name_it": "Colpo di Grazia, Formazione Serrata, Costrutti (1), Khopesh, Non Morto di Nehekharan, Rigenerazione (6+), Unità Madre"
+        "name_it": "Colpo di Grazia, Formazione Serrata, Costrutti (1), Khopesh, Non Morto di Nehekharan, Rigenerazione (6+), Unità Madre",
+        "name_pl": "Cleaving Blow, Zwarty Szyk, Nieustępliwy (1), Khopesh, Nehekharijscy Nieumarli, Regeneracja (6+), Jednostka Regimentowa"
       },
       "notes": {
         "name_en": "",
@@ -3625,7 +3792,8 @@
         "name_de": "",
         "name_es": "",
         "name_fr": "",
-        "name_it": ""
+        "name_it": "",
+        "name_pl": ""
       },
       "armyComposition": {
         "tomb-kings-of-khemri": {
@@ -3685,7 +3853,8 @@
         "name_it": "Agguato, Pelle a Scaglie (1), Colpi da Impatto (1), Indomito (1), Viaggiatore, Non Morto di Nehekharan, Formazione Aperta, Attacchi Venefici, Rigenerazione (6+), Passo Rapido",
         "name_de": "Überfall, Zähe Haut (1), Aufpralltreffer (1), Unverwüstlich (1), Durch Deckung bewegen, Untote von Nehekhara, Offene Ränge, Giftattacken, Regeneration (6+), Schnelle Bewegung",
         "name_es": "Ambushers, Armoured Hide (1), Impact Hits (1), Indomitable (1), Move Through Cover, Nehekharan Undead, Open Order, Poisoned Attacks, Regeneration (6+), Swiftstride",
-        "name_fr": "Embusqueurs, Peau Blindée (1), Touches d'Impact (1), Indomptable (1), Mouvement à Couvert, Morts-vivants de Nehekhara, Ordre Dispersé, Attaques Empoisonnées, Régénération (6+), Rapide"
+        "name_fr": "Embusqueurs, Peau Blindée (1), Touches d'Impact (1), Indomptable (1), Mouvement à Couvert, Morts-vivants de Nehekhara, Ordre Dispersé, Attaques Empoisonnées, Régénération (6+), Rapide",
+        "name_pl": "Zasadzka, Opancerzona Skóra (1), Uderzenia Impetu (1), Nieustępliwy (1), Przechodzenie Przez Zasłony, Nehekharijscy Nieumarli, Luźny Szyk, Trujące Ataki, Regeneracja (6+), Szybki Krok"
       },
       "armyComposition": {
         "mortuary-cults": {
@@ -3759,6 +3928,7 @@
           "name_it": "Armatura Pesante",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -3787,7 +3957,8 @@
         "name_de": "Geschlossene Ränge, Unverwüstlich (1), Untote von Nehekhara, Regeneration (6+), Schnelle Bewegung",
         "name_es": "Close Order, Indomitable (1), Nehekharan Undead, Regeneration (6+), Swiftstride",
         "name_fr": "Ordre Serré, Indomptable (1), Morts-vivants de Nehekhara, Régénération (6+), Rapide",
-        "name_it": "Formazione Serrata, Costrutto (1), Non morto di Nehekharan, Rigenerazione (6+), Passo Rapido"
+        "name_it": "Formazione Serrata, Costrutto (1), Non morto di Nehekharan, Rigenerazione (6+), Passo Rapido",
+        "name_pl": "Zwarty Szyk, Nieustępliwy (1), Nehekharijscy Nieumarli, Regeneracja (6+), Szybki Krok"
       },
       "armyComposition": {
         "tomb-kings-of-khemri": {
@@ -3829,6 +4000,7 @@
           "name_it": "Carapace Ossea (conta come Armatura Pesante)",
           "name_de": "Schwere Rüstung (Knochencarapax)",
           "name_fr": "Armure lourde (Carapace osseuse)",
+          "name_pl": "Ciężka Zbroja (Bone carapace)",
           "points": 0,
           "perModel": true,
           "active": true
@@ -3866,7 +4038,8 @@
         "name_de": "Geschlossene Ränge, Unverwüstlich (1), Magieresistenz (-1), Untote von Nehekhara, Regeneration (6+), Stampfattacken (W3), Schnelle Bewegung, Vorhut",
         "name_es": "Close Order, Indomitable (1), Magic Resistance (-1), Nehekharan Undead, Regeneration (6+), Stomp Attacks (D3), Swiftstride, Vanguard",
         "name_fr": "Ordre Serré, Indomptable (1), Résistance à la Magie (-1), Morts-vivants de Nehekhara, Régénération (6+), Attaques de Piétinement (D3), Rapide, Avant-garde",
-        "name_it": "Formazione Serrata, Costrutto (1), Resistenza alla Magia (-1), Non morto di Nehekharan, Rigenerazione (6+), Calpestamento (D3), Passo Rapido, Avanguardia"
+        "name_it": "Formazione Serrata, Costrutto (1), Resistenza alla Magia (-1), Non morto di Nehekharan, Rigenerazione (6+), Calpestamento (D3), Passo Rapido, Avanguardia",
+        "name_pl": "Zwarty Szyk, Nieustępliwy (1), Odporność Na Magię (-1), Nehekharijscy Nieumarli, Regeneracja (6+), Zdeptanie (D3), Szybki Krok, Awangarda"
       },
       "armyComposition": {
         "tomb-kings-of-khemri": {
@@ -3877,7 +4050,8 @@
             "name_de": "0-3 Gruftskorpione pro 1000 Punkte",
             "name_es": "0-3 Tomb Scorpions per 1000 points",
             "name_fr": "0-3 Scorpions des Tombes par tranche de 1000 points",
-            "name_it": "0-3 Scorpione dei Sepolcri ogni 1.000 punti"
+            "name_it": "0-3 Scorpione dei Sepolcri ogni 1.000 punti",
+            "name_pl": "0-3 Tomb Scorpions na 1000 punktów"
           }
         },
         "mortuary-cults": {
@@ -3888,7 +4062,8 @@
             "name_de": "1+ Gruftskorpion pro 1000 Punkte",
             "name_es": "",
             "name_fr": "1+ Scorpion des Tombes par tranche de 1000 points",
-            "name_it": "1+ Scorpione dei Sepolcri ogni 1.000 punti"
+            "name_it": "1+ Scorpione dei Sepolcri ogni 1.000 punti",
+            "name_pl": "1+ Tomb Scorpion na 1000 punktów"
           }
         },
         "nehekharan-royal-hosts": {
@@ -3899,7 +4074,8 @@
             "name_de": "0-2 Gruftskorpione pro 1000 Punkte",
             "name_es": "0-2 Tomb Scorpions per 1000 points",
             "name_fr": "0-2 Scorpions des Tombes par tranche de 1000 points",
-            "name_it": "0-2 Scorpione dei Sepolcri ogni 1.000 punti"
+            "name_it": "0-2 Scorpione dei Sepolcri ogni 1.000 punti",
+            "name_pl": "0-2 Tomb Scorpions na 1000 punktów"
           }
         }
       }
@@ -3973,7 +4149,8 @@
         "name_de": "Pfeile der Asaph, Spaltender Hieb (nur Gruftwächter), Geschlossene Ränge, Sänfte, Unverwüstlich (2), Chepesh (nur Gruftwächter, Großes Ziel, Unote von Nehekhara, Regeneration (6+), Stampfattacken (W3), Entsetzen",
         "name_es": "Arrows of Asaph, Cleaving Blow (Tomb Guard Crew only), Close Order, Howdah, Indomitable (2), Khopesh (Tomb Guard Crew only), Large Target, Nehekharan Undead, Regeneration (6+), Stomp Attacks (D3), Terror",
         "name_fr": "Flèches d'Asaph, Coup de Fendoir (Aurige Gardien des Tombes uniquement), Ordre Serré, Howdah, Indomptable (2), Khopesh (Aurige Gardien des Tombes uniquement), Grande Cible, Morts-vivants de Nehekhara, Régénération (6+), Attaques de Piétinement (D3), Terreur",
-        "name_it": "Freccie di Asaph, Coplo di Grazia (solo Guardie dei Sepolcri), Palanchino, Costrutto (2), Bersaglio Grande, Rigenerazione (6+), Khopesh (solo Guardie dei Sepolcri), Non morto di Nehekharan, Calpestamento (D3), Terrore, Formazione Serrata"
+        "name_it": "Freccie di Asaph, Coplo di Grazia (solo Guardie dei Sepolcri), Palanchino, Costrutto (2), Bersaglio Grande, Rigenerazione (6+), Khopesh (solo Guardie dei Sepolcri), Non morto di Nehekharan, Calpestamento (D3), Terrore, Formazione Serrata",
+        "name_pl": "Arrows of Asaph, Cleaving Blow (Tomb Straż Załoga only), Zwarty Szyk, Howdah, Nieustępliwy (2), Khopesh (Tomb Straż Załoga only), Duży Cel, Nehekharijscy Nieumarli, Regeneracja (6+), Zdeptanie (D3), Terror"
       },
       "notes": {
         "name_en": "0-2 Khemrian Warsphinx (not counting character mounts) per 1000 points",
@@ -3981,7 +4158,8 @@
         "name_de": "0-2 Khemrianische Kriegsshinx (Charaktermodell-Reittiere nicht mitgezählt) pro 1000 Punkte",
         "name_es": "0-2 Khemrian Warsphinx (not counting character mounts) per 1000 points",
         "name_fr": "0-2 Sphinx de Guerre de Khemri (sans compter les montures des personnages) par tranche de 1000 points",
-        "name_it": "0-2 Sfinge da Guerra Khemriana (senza contare le montature dei personaggi) ogni 1.000 punti"
+        "name_it": "0-2 Sfinge da Guerra Khemriana (senza contare le montature dei personaggi) ogni 1.000 punti",
+        "name_pl": "0-2 Khemrian Warsphinx (not counting postać wierzchowce) na 1000 punktów"
       },
       "armyComposition": {
         "tomb-kings-of-khemri": {
@@ -4012,6 +4190,7 @@
           "name_de": "Hauptmann der Gruftwächter (Champion)",
           "name_es": "Tomb Captain (champion)",
           "name_fr": "Capitaine des Tombes (champion)",
+          "name_pl": "Tomb Kapitan (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -4030,6 +4209,7 @@
           "name_de": "Standartenträger",
           "name_es": "Standard bearer",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "types": [
@@ -4045,6 +4225,7 @@
           "name_de": "Musiker",
           "name_es": "Musician",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -4072,7 +4253,8 @@
         "name_it": "Colpo di Grazia (solo Eq. Guardie dei Sepolcri), Arido come Polvere, Colpi da Impatto (D3+1), Indomito (2), Khopesh, Rigenerazione (6+), Non Morto di Nehekharan, Formazione Aperta, Movimento Tattico, Passo Rapido",
         "name_de": "Spaltender Hieb (nur Gruftwächter), Staubtrocken, Aufprallterffer (W3+1), Unverwüstlich (2), Chepesh, Untote von Nehekhara, Offene Ränge, Regeneration (6+), Reservebewegung, Schnelle Bewegung",
         "name_es": "Cleaving Blow (Tomb Guard Crew only), Dry as Dust, Impact Hits (D3+1), Indomitable (2), Khopesh, Nehekharan Undead, Open Order, Regeneration (6+), Reserve Move, Swiftstride",
-        "name_fr": "Coup de Fendoir (Aurige Gardien des Tombes uniquement), Desséchés, Touches d'Impact (D3+1), Indomptable (2), Khopesh, Morts-vivants de Nehekhara, Ordre Dispersé, Régénération (6+), Mouvement de Réserve, Rapide"
+        "name_fr": "Coup de Fendoir (Aurige Gardien des Tombes uniquement), Desséchés, Touches d'Impact (D3+1), Indomptable (2), Khopesh, Morts-vivants de Nehekhara, Ordre Dispersé, Régénération (6+), Mouvement de Réserve, Rapide",
+        "name_pl": "Cleaving Blow (Tomb Straż Załoga only), Dry jako Dust, Uderzenia Impetu (D3+1), Nieustępliwy (2), Khopesh, Nehekharijscy Nieumarli, Luźny Szyk, Regeneracja (6+), Reserve Move, Szybki Krok"
       },
       "armyComposition": {
         "nehekharan-royal-hosts": {
@@ -4111,6 +4293,7 @@
           "name_it": "Armatura Pesante",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -4126,7 +4309,8 @@
         "name_de": "Geschlossene Ränge, Unverwüstlich (2), Großes Ziel, Untote von Nehekhara, Regeneration (6+), Stampfattacken (W3), Entsetzen, Baum fällt!, Unaufhaltsamer Angriff",
         "name_es": "Close Order, Indomitable (2), Large Target, Nehekharan Undead, Regeneration (6+), Stomp Attacks (D3), Terror, Timmm-berrr!, Unstoppable Assault",
         "name_fr": "Ordre Serré, Indomptable (2), Grande Cible, Morts-vivants de Nehekhara, Régénération (6+), Attaques de Piétinement (D3), Terreur, Timmm-berrr!, Assaut Inexorable",
-        "name_it": "Formazione Serrata, Costrutto (2), Bersaglio Grande, Terrore, Rigenerazione (6+), Calpestamento (D3), Timmm-berrr!, Assalto Inarrestabile, Non morto di Nehekharan"
+        "name_it": "Formazione Serrata, Costrutto (2), Bersaglio Grande, Terrore, Rigenerazione (6+), Calpestamento (D3), Timmm-berrr!, Assalto Inarrestabile, Non morto di Nehekharan",
+        "name_pl": "Zwarty Szyk, Nieustępliwy (2), Duży Cel, Nehekharijscy Nieumarli, Regeneracja (6+), Zdeptanie (D3), Terror, Timmm-berrr!, Unstoppable Assault"
       },
       "armyComposition": {
         "mortuary-cults": {
@@ -4137,7 +4321,8 @@
             "name_de": "0-1 Nekrolith-Koloss oder Nekrosphinx können als Eliteauswahl gewählt werden",
             "name_es": "",
             "name_fr": "0-1 Colosse Nécrolithe ou Nécrosphinx peut être pris comme choix Spécial",
-            "name_it": "0-1 Colosso Necrolitico o Necrosfinge può essere presa come scelta Speciale"
+            "name_it": "0-1 Colosso Necrolitico o Necrosfinge può essere presa come scelta Speciale",
+            "name_pl": "0-1 Necrolith Colossus lub Necrosphinx może be taken jako a Specjalny choice"
           }
         }
       }
@@ -4173,6 +4358,7 @@
           "name_it": "Armatura Pesante",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -4199,7 +4385,8 @@
         "name_de": "Geschlossene Ränge, Fliegen (9), Unverwüstlich (2), Großes Ziel, Untote von Nehekhara, Regeneration (5+), Stampfattacken (W3+2), Schnelle Bewegung, Entsetzen",
         "name_es": "Close Order, Fly (9), Indomitable (2), Large Target, Nehekharan Undead, Regeneration (5+), Stomp Attacks (D3+2), Swiftstride, Terror",
         "name_fr": "Ordre Serré, Vol (9), Indomptable (2), Grande Cible, Morts-vivants de Nehekhara, Régénération (5+), Attaques de Piétinement (D3+2), Rapide, Terreur",
-        "name_it": "Formazione Serrata, Volo (9), Costrutto (2), Bersaglio Grande, Passo Rapido, Terrore, Non morto di Nehekharan, Rigenerazione (5+), Calpestamento (D3+2)"
+        "name_it": "Formazione Serrata, Volo (9), Costrutto (2), Bersaglio Grande, Passo Rapido, Terrore, Non morto di Nehekharan, Rigenerazione (5+), Calpestamento (D3+2)",
+        "name_pl": "Zwarty Szyk, Lot (9), Nieustępliwy (2), Duży Cel, Nehekharijscy Nieumarli, Regeneracja (5+), Zdeptanie (D3+2), Szybki Krok, Terror"
       },
       "armyComposition": {
         "mortuary-cults": {
@@ -4210,7 +4397,8 @@
             "name_de": "0-1 Nekrolith-Koloss oder Nekrosphinx können als Eliteauswahl gewählt werden",
             "name_es": "",
             "name_fr": "0-1 Colosse Nécrolithe ou Nécrosphinx peut être pris comme choix Spécial",
-            "name_it": "0-1 Colosso Necrolitico o Necrosfinge può essere presa come scelta Speciale"
+            "name_it": "0-1 Colosso Necrolitico o Necrosfinge può essere presa come scelta Speciale",
+            "name_pl": "0-1 Necrolith Colossus lub Necrosphinx może be taken jako a Specjalny choice"
           }
         }
       }
@@ -4248,6 +4436,7 @@
           "name_it": "Armatura Pesante",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -4263,7 +4452,8 @@
         "name_de": "Geschlossene Ränge, Unverwüstlich (2), Großes Zield, Untote von Nehekhara, Regeneration (6+), Stampfattacken (W3), Entsetzen, Baum fällt!, Unaufhaltsamer Angriff",
         "name_es": "Close Order, Indomitable (2), Large Target, Nehekharan Undead, Regeneration (6+), Stomp Attacks (D3), Terror, Timmm-berrr!, Unstoppable Assault",
         "name_fr": "Ordre Serré, Indomptable (2), Grande Cible, Morts-vivants de Nehekhara, Régénération (6+), Attaques de Piétinement (D3), Terreur, Timmm-berrr!, Assaut Inexorable",
-        "name_it": "Formazione Serrata, Costrutto (2), Bersaglio Grande, Terrore, Rigenerazione (6+), Calpestamento (D3), Timmm-berrr!, Assalto Inarrestabile, Non morto di Nehekharan"
+        "name_it": "Formazione Serrata, Costrutto (2), Bersaglio Grande, Terrore, Rigenerazione (6+), Calpestamento (D3), Timmm-berrr!, Assalto Inarrestabile, Non morto di Nehekharan",
+        "name_pl": "Zwarty Szyk, Nieustępliwy (2), Duży Cel, Nehekharijscy Nieumarli, Regeneracja (6+), Zdeptanie (D3), Terror, Timmm-berrr!, Unstoppable Assault"
       },
       "armyComposition": {
         "tomb-kings-of-khemri": {
@@ -4316,6 +4506,7 @@
           "name_it": "Armatura Leggera",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -4342,7 +4533,8 @@
         "name_de": "Staubtrocken, Unverwüstlich (1), Untote von Nehekhara, Regeneration (6+), Plänkler",
         "name_es": "Dry as Dust, Indomitable (1), Nehekharan Undead, Regeneration (6+), Skirmishers",
         "name_fr": "Desséchés, Indomptable (1), Morts-vivants de Nehekhara, Régénération (6+), Tirailleurs",
-        "name_it": "Arido come Polvere, Costrutto (1), Non morto di Nehekharan, Rigenerazione (6+), Schermagliatori"
+        "name_it": "Arido come Polvere, Costrutto (1), Non morto di Nehekharan, Rigenerazione (6+), Schermagliatori",
+        "name_pl": "Dry jako Dust, Nieustępliwy (1), Nehekharijscy Nieumarli, Regeneracja (6+), Harcownicy"
       },
       "notes": {
         "name_en": "0-2 Screaming Skull Catapults per 1000 points",
@@ -4350,7 +4542,8 @@
         "name_de": "0-2 Schädelkatapulte pro 1000 Punkte",
         "name_es": "0-2 Screaming Skull Catapults per 1000 points",
         "name_fr": "0-2 Catapultes à Crânes Hurlants par tranche de 1000 points",
-        "name_it": "0-2 Gettateschi Urlanti ogni 1.000 punti"
+        "name_it": "0-2 Gettateschi Urlanti ogni 1.000 punti",
+        "name_pl": "0-2 Screaming Skull Catapults na 1000 punktów"
       }
     },
     {
@@ -4395,6 +4588,7 @@
           "name_it": "Armatura Leggera",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -4410,7 +4604,8 @@
         "name_de": "Spaltender Hieb, Bund der Macht, Staubtrocken, Unbewegliches Objekt, Unverwüstlich (2), Untote von Nehekhara, Regeneration (5+), Plänkler, Entfesselte Geister, Seelenwirbel",
         "name_es": "Cleaving Blow, Covenant of Power, Dry as Dust, Immovable Object, Indomitable (2), Nehekharan Undead, Regeneration (5+), Skirmishers, Unbound Spirits, Vortex of Souls",
         "name_fr": "Coup de Fendoir, Alliance de Pouvoir, Desséchés, Objet Inébranlable, Indomptable (2), Morts-vivants de Nehekhara, Régénération (5+), Tirailleurs, Esprits Déchaînés, Vortex des Âmes",
-        "name_it": "Coplo di Grazia, Patto di Potenza, Arido come Polvere, Costrutto (2) Non morto di Nehekharan, Rigenerazione (5+), Oggetto Inamovibile, Schermagliatori, Spiriti Liberati, Vortice di Anime"
+        "name_it": "Coplo di Grazia, Patto di Potenza, Arido come Polvere, Costrutto (2) Non morto di Nehekharan, Rigenerazione (5+), Oggetto Inamovibile, Schermagliatori, Spiriti Liberati, Vortice di Anime",
+        "name_pl": "Cleaving Blow, Covenant of Power, Dry jako Dust, Immovable Object, Nieustępliwy (2), Nehekharijscy Nieumarli, Regeneracja (5+), Harcownicy, Unbound Spirits, Vortex of Souls"
       },
       "notes": {
         "name_en": "0-1 Casket of Souls per 1000 points",
@@ -4418,7 +4613,8 @@
         "name_de": "0-1 Lade der Verdammten Seelen pro 1000 Punkte",
         "name_es": "0-1 Casket of Souls per 1000 points",
         "name_fr": "0-1 Arche des Âmes Damnées par tranche de 1000 points",
-        "name_it": "0-1 Arca delle Anime ogni 1.000 punti"
+        "name_it": "0-1 Arca delle Anime ogni 1.000 punti",
+        "name_pl": "0-1 Casket of Souls na 1000 punktów"
       },
       "armyComposition": {
         "tomb-kings-of-khemri": {
@@ -4460,6 +4656,7 @@
           "name_it": "Armatura Pesante",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -4486,7 +4683,8 @@
         "name_de": "Geschlossene Ränge, Fliegen (9), Unverwüstlich (2), Großes Ziel, Untote von Nehekhara, Regeneration (5+), Stampfattacken (W3+2), Schnelle Bewegung, Entsetzen",
         "name_es": "Close Order, Fly (9), Indomitable (2), Large Target, Nehekharan Undead, Regeneration (5+), Stomp Attacks (D3+2), Swiftstride, Terror",
         "name_fr": "Ordre Serré, Vol (9), Indomptable (2), Grande Cible, Morts-vivants de Nehekhara, Régénération (5+), Attaques de Piétinement (D3+2), Rapide, Terreur",
-        "name_it": "Formazione Serrata, Volo (9), Costrutto (2), Bersaglio Grande, Passo Rapido, Terrore, Non morto di Nehekharan, Rigenerazione (5+), Calpestamento (D3+2)"
+        "name_it": "Formazione Serrata, Volo (9), Costrutto (2), Bersaglio Grande, Passo Rapido, Terrore, Non morto di Nehekharan, Rigenerazione (5+), Calpestamento (D3+2)",
+        "name_pl": "Zwarty Szyk, Lot (9), Nieustępliwy (2), Duży Cel, Nehekharijscy Nieumarli, Regeneracja (5+), Zdeptanie (D3+2), Szybki Krok, Terror"
       },
       "armyComposition": {
         "tomb-kings-of-khemri": {

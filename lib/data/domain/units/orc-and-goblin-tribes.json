@@ -16,7 +16,8 @@
             "name_cn": "0-1黑兽人老大, 每1000分兽人战将或兽人疯老大",
             "name_de": "0-1 Schwarzork-Waaaghboss, Ork-Waaaghboss oder Ork-Obawirrkopp pro 1000 Punkte",
             "name_es": "0-1 Black Orc Warboss, Orc Warboss or Orc Weirdnob per 1000 points",
-            "name_fr": "0-1 Chef de Guerre Orque Noir, Chef de Guerre Orque ou Bizarnob Orque par tranche de 1000 points"
+            "name_fr": "0-1 Chef de Guerre Orque Noir, Chef de Guerre Orque ou Bizarnob Orque par tranche de 1000 points",
+            "name_pl": "0-1 Czarny Ork Warboss, Ork Warboss lub Ork Weirdnob na 1000 punktów"
           }
         },
         "nomadic-waaagh": {
@@ -26,7 +27,8 @@
             "name_cn": "0-1 Black Orc Warboss or Black Orc Bigboss per Black Orc Boar Chariot",
             "name_de": "0-1 Schwarzork-Waaaghboss oder Schwarzork-Gargboss pro Schwarzork-Wildschweinstreitwagen",
             "name_es": "0-1 Black Orc Warboss or Black Orc Bigboss per Black Orc Boar Chariot",
-            "name_fr": "0-1 Chef de Guerre Orque Noir ou Grand Chef Orque Noir par Char à Sangliers Orque Noir"
+            "name_fr": "0-1 Chef de Guerre Orque Noir ou Grand Chef Orque Noir par Char à Sangliers Orque Noir",
+            "name_pl": "0-1 Czarny Ork Warboss lub Czarny Ork Bigboss na Czarny Ork Boar Rydwan"
           }
         }
       },
@@ -37,6 +39,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -81,7 +84,8 @@
             "name_en": "If appropriately mounted",
             "name_de": "Wenn beritten",
             "name_cn": "若处于骑乘状态",
-            "name_fr": "S'il est monté"
+            "name_fr": "S'il est monté",
+            "name_pl": "Jeśli appropriately mounted"
           },
           "name_pl": "Włócznia kawalerii"
         }
@@ -92,6 +96,7 @@
           "name_cn": "全身甲",
           "name_de": "Plattenrüstung",
           "name_fr": "Armure de plate complète",
+          "name_pl": "Pełna Zbroja Płytowa",
           "points": 0,
           "perModel": true,
           "active": true
@@ -114,6 +119,7 @@
           "name_cn": "步行",
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -122,12 +128,14 @@
           "name_cn": "战猪",
           "name_de": "Wildschwein",
           "name_fr": "Sanglier",
+          "name_pl": "Dzik bojowy",
           "points": 16,
           "specialRules": {
             "name_en": "Armoured Hide (1), Counter Charge, Swiftstride, Tusker Charge",
             "name_cn": "坚硬皮肤(1), 反制冲锋, 快速行进, 獠牙冲锋",
             "name_fr": "Peau Blindée (1), Contre-charge, Rapide, Charge de Sanglier",
-            "name_de": "Zähe Haut (1), Gegenangriff, Schnelle Bewegung, Hauerangriff"
+            "name_de": "Zähe Haut (1), Gegenangriff, Schnelle Bewegung, Hauerangriff",
+            "name_pl": "Opancerzona Skóra (1), Przeciwnatarcie, Szybki Krok, Tusker Charge"
           }
         },
         {
@@ -135,6 +143,7 @@
           "name_cn": "野猪战车",
           "name_de": "Wildschweinstreitwagen",
           "name_fr": "Char à Sangliers",
+          "name_pl": "Rydwan z dzikami",
           "points": 90,
           "options": [
             {
@@ -142,6 +151,7 @@
               "name_cn": "第三个兽人乘员",
               "name_de": "Drittes Ork-Besatzungsmitglied",
               "name_fr": "Troisième Aurige Orque",
+              "name_pl": "Third Ork załoga member",
               "points": 5
             },
             {
@@ -149,19 +159,22 @@
               "name_cn": "狂暴",
               "name_de": "Raserei",
               "name_fr": "Frénésie",
+              "name_pl": "Szał",
               "points": 4,
               "notes": [
                 {
                   "name_en": "If 2 crew members",
                   "name_cn": "If 2 crew members",
                   "name_fr": "Si 2 auriges",
-                  "name_de": "Bei 2 Besatzungsmitgliedern"
+                  "name_de": "Bei 2 Besatzungsmitgliedern",
+                  "name_pl": "Jeśli 2 załoga members"
                 },
                 {
                   "name_en": "0-1 per 1000 points",
                   "name_cn": "0-1 per 1000 points",
                   "name_fr": "0-1 par tranche de 1000 points",
-                  "name_de": "0-1 pro 1000 Punkte"
+                  "name_de": "0-1 pro 1000 Punkte",
+                  "name_pl": "0-1 na 1000 punktów"
                 }
               ]
             },
@@ -170,19 +183,22 @@
               "name_cn": "狂暴",
               "name_de": "Raserei",
               "name_fr": "Frénésie",
+              "name_pl": "Szał",
               "points": 6,
               "notes": [
                 {
                   "name_en": "If 3 crew members",
                   "name_cn": "If 3 crew members",
                   "name_fr": "Si 3 auriges",
-                  "name_de": "Bei 3 Besatzungsmitgliedern"
+                  "name_de": "Bei 3 Besatzungsmitgliedern",
+                  "name_pl": "Jeśli 3 załoga members"
                 },
                 {
                   "name_en": "0-1 per 1000 points",
                   "name_cn": "0-1 per 1000 points",
                   "name_fr": "0-1 par tranche de 1000 points",
-                  "name_de": "0-1 pro 1000 Punkte"
+                  "name_de": "0-1 pro 1000 Punkte",
+                  "name_pl": "0-1 na 1000 punktów"
                 }
               ]
             },
@@ -191,12 +207,14 @@
               "name_cn": "战漆",
               "name_de": "Kriegsbemalung",
               "name_fr": "Peintures de Guerre",
+              "name_pl": "Malowidła Wojenne",
               "points": 10,
               "notes": {
                 "name_en": "If frenzied",
                 "name_cn": "若具有狂暴",
                 "name_de": "Wenn rasend",
-                "name_fr": "Si frénétique"
+                "name_fr": "Si frénétique",
+                "name_pl": "Jeśli frenzied"
               }
             }
           ]
@@ -206,6 +224,7 @@
           "name_cn": "黑兽人野猪战车",
           "name_de": "Schwarzork-Wildschweinstreitwagen",
           "name_fr": "Char à Sangliers Orque Noir",
+          "name_pl": "Czarny Ork Boar Rydwan",
           "points": 130,
           "armyComposition": "nomadic-waaagh",
           "options": [
@@ -216,7 +235,8 @@
               "points": 2,
               "exclusive": true,
               "active": true,
-              "name_fr": "Armes de base, Armes de base additionnelles"
+              "name_fr": "Armes de base, Armes de base additionnelles",
+              "name_pl": "Broń Ręczna, Dodatkowa Broń Ręczna"
             },
             {
               "name_en": "Hand weapons, Great weapons",
@@ -224,14 +244,16 @@
               "name_de": "Handwaffen, Zweihandwaffen",
               "points": 4,
               "exclusive": true,
-              "name_fr": "Armes de base, Armes lourdes"
+              "name_fr": "Armes de base, Armes lourdes",
+              "name_pl": "Broń Ręczna, Broń Wielka"
             },
             {
               "name_en": "Standard bearer",
               "name_cn": "旗手",
               "name_de": "Standartenträger",
               "points": 10,
-              "name_fr": "Porte-étendard"
+              "name_fr": "Porte-étendard",
+              "name_pl": "Sztandarowy"
             }
           ]
         },
@@ -240,12 +262,14 @@
           "name_cn": "双足飞龙",
           "name_de": "Lindwurm",
           "name_fr": "Vouivre",
+          "name_pl": "Wywerna",
           "points": 130,
           "specialRules": {
             "name_en": "Close Order, Fly (9), Large Target, Stomp Attacks (D3), Swiftstride, Terror",
             "name_cn": "紧密阵型, 飞行(9), 大型目标, 践踏攻击(D3), 快速行进, 惊骇",
             "name_fr": "Ordre Serré, Vol (9), Grande Cible, Attaques de Piétinement (D3), Rapide, Terreur",
-            "name_de": "Geschlossene Ränge, Fliegen (9), Großes Zield, Stampfattacken (W3), Schnelle Bewegung, Entsetzen"
+            "name_de": "Geschlossene Ränge, Fliegen (9), Großes Zield, Stampfattacken (W3), Schnelle Bewegung, Entsetzen",
+            "name_pl": "Zwarty Szyk, Lot (9), Duży Cel, Zdeptanie (D3), Szybki Krok, Terror"
           }
         }
       ],
@@ -255,6 +279,7 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -270,7 +295,8 @@
         "name_cn": "大砍刀, 大只佬, 狂怒冲锋(doesn't apply to a mount), 无视恐慌, 抑制鲁莽, 集结战吼, Waaagh!",
         "name_de": "Spaltas, Da Jungs, Rasender Angriff (gilt nicht für ein Reittier), Panik ignorieren, Ungestüm unterdrücken, Sammelruf, Waaagh!",
         "name_es": "Choppas, Da Boyz, Furious Charge (doesn't apply to a mount), Ignore Panic, Quell Impetuosity, Rallying Cry, Waaagh!",
-        "name_fr": "Kikoup', Lé Boyz, Charge Dévastatrice (ne s'applique pas à la monture), Ignore la Panique, Calme l'Impétuosité, Cri de Ralliement, Waaagh!"
+        "name_fr": "Kikoup', Lé Boyz, Charge Dévastatrice (ne s'applique pas à la monture), Ignore la Panique, Calme l'Impétuosité, Cri de Ralliement, Waaagh!",
+        "name_pl": "Choppas, Da Boyz, Wściekła Szarża (doesn't apply do a wierzchowiec), Ignore Panic, Quell Impetuosity, Bojowy Okrzyk, Waaagh!"
       }
     },
     {
@@ -292,7 +318,8 @@
             "name_cn": "0-1Black Orc Warboss or Black Orc Bigboss per Black Orc Boar Chariot",
             "name_de": "0-1 Schwarzork-Waaaghboss oder Schwarzork-Gargboss pro Schwarzork-Wildschweinstreitwagen",
             "name_es": "0-1 Black Orc Warboss or Black Orc Bigboss per Black Orc Boar Chariot",
-            "name_fr": "0-1 Chef de Guerre Orque Noir ou Grand Chef Orque Noir par Char à Sangliers Orque Noir"
+            "name_fr": "0-1 Chef de Guerre Orque Noir ou Grand Chef Orque Noir par Char à Sangliers Orque Noir",
+            "name_pl": "0-1 Czarny Ork Warboss lub Czarny Ork Bigboss na Czarny Ork Boar Rydwan"
           }
         }
       },
@@ -303,6 +330,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         },
         {
@@ -311,6 +339,7 @@
           "name_de": "Armeestandartenträger",
           "name_fr": "Porteur de la Grande Bannière",
           "name_es": "Battle Standard Bearer",
+          "name_pl": "Chorąży",
           "points": 25,
           "magic": {
             "types": [
@@ -361,7 +390,8 @@
             "name_en": "If appropriately mounted",
             "name_cn": "若处于骑乘状态",
             "name_fr": "S'il est monté",
-            "name_de": "Wenn beritten"
+            "name_de": "Wenn beritten",
+            "name_pl": "Jeśli appropriately mounted"
           },
           "name_pl": "Włócznia kawalerii"
         }
@@ -372,6 +402,7 @@
           "name_cn": "全身甲",
           "name_de": "Plattenrüstung",
           "name_fr": "Armure de plate complète",
+          "name_pl": "Pełna Zbroja Płytowa",
           "points": 0,
           "perModel": true,
           "active": true
@@ -396,6 +427,7 @@
           "name_cn": "步行",
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -404,12 +436,14 @@
           "name_cn": "战猪",
           "name_de": "Wildschwein",
           "name_fr": "Sanglier",
+          "name_pl": "Dzik bojowy",
           "points": 16,
           "specialRules": {
             "name_en": "Armoured Hide (1), Counter Charge, Swiftstride, Tusker Charge",
             "name_cn": "坚硬皮肤(1), 反制冲锋, 快速行进, 獠牙冲锋",
             "name_fr": "Peau Blindée (1), Contre-charge, Rapide, Charge de Sanglier",
-            "name_de": "Zähe Haut (1), Gegenangriff, Schnelle Bewegung, Hauerangriff"
+            "name_de": "Zähe Haut (1), Gegenangriff, Schnelle Bewegung, Hauerangriff",
+            "name_pl": "Opancerzona Skóra (1), Przeciwnatarcie, Szybki Krok, Tusker Charge"
           }
         },
         {
@@ -417,6 +451,7 @@
           "name_cn": "野猪战车",
           "name_de": "Wildschweinstreitwagen",
           "name_fr": "Char à Sangliers",
+          "name_pl": "Rydwan z dzikami",
           "points": 90,
           "options": [
             {
@@ -424,6 +459,7 @@
               "name_cn": "第三个兽人乘员",
               "name_de": "Drittes Ork-Besatzungsmitglied",
               "name_fr": "Troisième Aurige Orque",
+              "name_pl": "Third Ork załoga member",
               "points": 5
             },
             {
@@ -431,19 +467,22 @@
               "name_cn": "狂暴",
               "name_de": "Raserei",
               "name_fr": "Frénésie",
+              "name_pl": "Szał",
               "points": 4,
               "notes": [
                 {
                   "name_en": "If 2 crew members",
                   "name_cn": "If 2 crew members",
                   "name_fr": "Si 2 auriges",
-                  "name_de": "Bei 2 Besatzungsmitgliedern"
+                  "name_de": "Bei 2 Besatzungsmitgliedern",
+                  "name_pl": "Jeśli 2 załoga members"
                 },
                 {
                   "name_en": "0-1 per 1000 points",
                   "name_cn": "0-1 per 1000 points",
                   "name_fr": "0-1 par tranche de 1000 points",
-                  "name_de": "0-1 pro 1000 Punkte"
+                  "name_de": "0-1 pro 1000 Punkte",
+                  "name_pl": "0-1 na 1000 punktów"
                 }
               ]
             },
@@ -452,19 +491,22 @@
               "name_cn": "狂暴",
               "name_de": "Raserei",
               "name_fr": "Frénésie",
+              "name_pl": "Szał",
               "points": 6,
               "notes": [
                 {
                   "name_en": "If 3 crew members",
                   "name_cn": "If 3 crew members",
                   "name_fr": "Si 3 auriges",
-                  "name_de": "Bei 3 Besatzungsmitgliedern"
+                  "name_de": "Bei 3 Besatzungsmitgliedern",
+                  "name_pl": "Jeśli 3 załoga members"
                 },
                 {
                   "name_en": "0-1 per 1000 points",
                   "name_cn": "0-1 per 1000 points",
                   "name_fr": "0-1 par tranche de 1000 points",
-                  "name_de": "0-1 pro 1000 Punkte"
+                  "name_de": "0-1 pro 1000 Punkte",
+                  "name_pl": "0-1 na 1000 punktów"
                 }
               ]
             },
@@ -473,12 +515,14 @@
               "name_cn": "战漆",
               "name_de": "Kriegsbemalung",
               "name_fr": "Peintures de Guerre",
+              "name_pl": "Malowidła Wojenne",
               "points": 10,
               "notes": {
                 "name_en": "If frenzied",
                 "name_cn": "若具有狂暴",
                 "name_fr": "Si frénétique",
-                "name_de": "Wenn rasend"
+                "name_de": "Wenn rasend",
+                "name_pl": "Jeśli frenzied"
               }
             }
           ]
@@ -488,6 +532,7 @@
           "name_cn": "黑兽人野猪战车",
           "name_de": "Schwarzork-Wildschweinstreitwagen",
           "name_fr": "Char à Sangliers Orque Noir",
+          "name_pl": "Czarny Ork Boar Rydwan",
           "points": 130,
           "armyComposition": "nomadic-waaagh",
           "options": [
@@ -498,7 +543,8 @@
               "points": 2,
               "exclusive": true,
               "active": true,
-              "name_fr": "Arme de base, Arme de base additionnelle"
+              "name_fr": "Arme de base, Arme de base additionnelle",
+              "name_pl": "Broń Ręczna, Dodatkowa Broń Ręczna"
             },
             {
               "name_en": "Hand weapons, Great weapons",
@@ -506,14 +552,16 @@
               "name_de": "Handwaffen, Zweihandwaffen",
               "points": 4,
               "exclusive": true,
-              "name_fr": "Armes de base, Armes lourdes"
+              "name_fr": "Armes de base, Armes lourdes",
+              "name_pl": "Broń Ręczna, Broń Wielka"
             },
             {
               "name_en": "Standard bearer",
               "name_cn": "旗手",
               "name_de": "Standartenträger",
               "points": 10,
-              "name_fr": "Porte-étendard"
+              "name_fr": "Porte-étendard",
+              "name_pl": "Sztandarowy"
             }
           ]
         }
@@ -524,6 +572,7 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -539,7 +588,8 @@
         "name_cn": "大砍刀, 大只佬, 狂怒冲锋(doesn't apply to a mount), 无视恐慌, 抑制鲁莽, 集结战吼, Waaagh!",
         "name_de": "Spaltas, Da Jungs, Rasender Angriff (gilt nicht für ein Reittier), Panik ignorieren, Ungestüm unterdrücken, Sammelruf, Waaagh!",
         "name_es": "Choppas, Da Boyz, Furious Charge (doesn't apply to a mount), Ignore Panic, Quell Impetuosity, Rallying Cry, Waaagh!",
-        "name_fr": "Kikoup', Lé Boyz, Charge Dévastatrice (ne s'applique pas à la monture), Ignore la Panique, Calme l'Impétuosité, Cri de Ralliement, Waaagh!"
+        "name_fr": "Kikoup', Lé Boyz, Charge Dévastatrice (ne s'applique pas à la monture), Ignore la Panique, Calme l'Impétuosité, Cri de Ralliement, Waaagh!",
+        "name_pl": "Choppas, Da Boyz, Wściekła Szarża (doesn't apply do a wierzchowiec), Ignore Panic, Quell Impetuosity, Bojowy Okrzyk, Waaagh!"
       }
     },
     {
@@ -557,7 +607,8 @@
             "name_en": "0-1 Black Orc Warboss, Orc Warboss or Orc Weirdnob per 1000 points",
             "name_cn": "0-1黑兽人老大, 每1000分兽人战将或兽人疯老大",
             "name_fr": "0-1 Chef de Guerre Orque Noir, Chef de Guerre Orque ou Bizarnob Orque par tranche de 1000 points",
-            "name_de": "0-1 Schwarzork-Waaaghboss, Ork-Waaaghboss oder Ork-Obawirrkopp pro 1000 Punkte"
+            "name_de": "0-1 Schwarzork-Waaaghboss, Ork-Waaaghboss oder Ork-Obawirrkopp pro 1000 Punkte",
+            "name_pl": "0-1 Czarny Ork Warboss, Ork Warboss lub Ork Weirdnob na 1000 punktów"
           }
         },
         "nomadic-waaagh": {
@@ -566,7 +617,8 @@
             "name_en": "0-1 Orc Warboss or Orc Weirdnob per 1000 points",
             "name_cn": "每1000分0-1兽人战将或兽人疯老大",
             "name_fr": "0-1 Chef de Guerre Orque ou Bizarnob Orque par tranche de 1000 points",
-            "name_de": "0-1 Ork-Waaaghboss oder Ork-Obawirrkopp pro 1000 Punkte"
+            "name_de": "0-1 Ork-Waaaghboss oder Ork-Obawirrkopp pro 1000 Punkte",
+            "name_pl": "0-1 Ork Warboss lub Ork Weirdnob na 1000 punktów"
           }
         },
         "troll-horde": {
@@ -575,7 +627,8 @@
             "name_en": "0-1 Orc Warboss or Orc Weirdnob per 1000 points",
             "name_cn": "每1000分0-1兽人战将或兽人疯老大",
             "name_fr": "0-1 Chef de Guerre Orque ou Bizarnob Orque par tranche de 1000 points",
-            "name_de": "0-1 Ork-Waaaghboss oder Ork-Obawirrkopp pro 1000 Punkte"
+            "name_de": "0-1 Ork-Waaaghboss oder Ork-Obawirrkopp pro 1000 Punkte",
+            "name_pl": "0-1 Ork Warboss lub Ork Weirdnob na 1000 punktów"
           }
         }
       },
@@ -586,6 +639,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -635,6 +689,7 @@
           "name_cn": "轻甲",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -644,6 +699,7 @@
           "name_cn": "重甲",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 3,
           "perModel": true
         },
@@ -652,13 +708,15 @@
           "name_cn": "狂暴",
           "name_de": "Raserei",
           "name_fr": "Frénésie",
+          "name_pl": "Szał",
           "points": 3,
           "perModel": true,
           "notes": {
             "name_en": "0-1 per 1000 points",
             "name_cn": "每1000分0-1",
             "name_fr": "0-1 par tranche de 1000 points",
-            "name_de": "0-1 pro 1000 Punkte"
+            "name_de": "0-1 pro 1000 Punkte",
+            "name_pl": "0-1 na 1000 punktów"
           }
         }
       ],
@@ -685,7 +743,8 @@
             "name_en": "If frenzied",
             "name_cn": "若具有狂暴",
             "name_fr": "Si frénétique",
-            "name_de": "Wenn rasend"
+            "name_de": "Wenn rasend",
+            "name_pl": "Jeśli frenzied"
           },
           "name_pl": "Malowanie wojenne"
         }
@@ -696,6 +755,7 @@
           "name_cn": "步行",
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -704,12 +764,14 @@
           "name_cn": "战猪",
           "name_de": "Wildschwein",
           "name_fr": "Sanglier",
+          "name_pl": "Dzik bojowy",
           "points": 16,
           "specialRules": {
             "name_en": "Armoured Hide (1), Counter Charge, Swiftstride, Tusker Charge",
             "name_cn": "坚硬皮肤(1), 反制冲锋, 快速行进, 獠牙冲锋",
             "name_fr": "Peau Blindée (1), Contre-charge, Rapide, Charge de Sanglier",
-            "name_de": "Zähe Haut (1), Gegenangriff, Schnelle Bewegung, Hauerangriff"
+            "name_de": "Zähe Haut (1), Gegenangriff, Schnelle Bewegung, Hauerangriff",
+            "name_pl": "Opancerzona Skóra (1), Przeciwnatarcie, Szybki Krok, Tusker Charge"
           }
         },
         {
@@ -717,6 +779,7 @@
           "name_cn": "野猪战车",
           "name_de": "Wildschweinstreitwagen",
           "name_fr": "Char à Sangliers",
+          "name_pl": "Rydwan z dzikami",
           "points": 90,
           "options": [
             {
@@ -724,6 +787,7 @@
               "name_cn": "第三个兽人乘员",
               "name_de": "Drittes Ork-Besatzungsmitglied",
               "name_fr": "Troisième Aurige Orque",
+              "name_pl": "Third Ork załoga member",
               "points": 5
             },
             {
@@ -731,19 +795,22 @@
               "name_cn": "狂暴",
               "name_de": "Raserei",
               "name_fr": "Frénésie",
+              "name_pl": "Szał",
               "points": 4,
               "notes": [
                 {
                   "name_en": "If 2 crew members",
                   "name_cn": "If 2 crew members",
                   "name_fr": "Si 2 auriges",
-                  "name_de": "Bei 2 Besatzungsmitgliedern"
+                  "name_de": "Bei 2 Besatzungsmitgliedern",
+                  "name_pl": "Jeśli 2 załoga members"
                 },
                 {
                   "name_en": "0-1 per 1000 points",
                   "name_cn": "0-1 per 1000 points",
                   "name_fr": "0-1 par tranche de 1000 points",
-                  "name_de": "0-1 pro 1000 Punkte"
+                  "name_de": "0-1 pro 1000 Punkte",
+                  "name_pl": "0-1 na 1000 punktów"
                 }
               ]
             },
@@ -752,19 +819,22 @@
               "name_cn": "狂暴",
               "name_de": "Raserei",
               "name_fr": "Frénésie",
+              "name_pl": "Szał",
               "points": 6,
               "notes": [
                 {
                   "name_en": "If 3 crew members",
                   "name_cn": "If 3 crew members",
                   "name_fr": "Si 3 auriges",
-                  "name_de": "Bei 3 Besatzungsmitgliedern"
+                  "name_de": "Bei 3 Besatzungsmitgliedern",
+                  "name_pl": "Jeśli 3 załoga members"
                 },
                 {
                   "name_en": "0-1 per 1000 points",
                   "name_cn": "0-1 per 1000 points",
                   "name_fr": "0-1 par tranche de 1000 points",
-                  "name_de": "0-1 pro 1000 Punkte"
+                  "name_de": "0-1 pro 1000 Punkte",
+                  "name_pl": "0-1 na 1000 punktów"
                 }
               ]
             },
@@ -773,12 +843,14 @@
               "name_cn": "战漆",
               "name_de": "Kriegsbemalung",
               "name_fr": "Peintures de Guerre",
+              "name_pl": "Malowidła Wojenne",
               "points": 10,
               "notes": {
                 "name_en": "If frenzied",
                 "name_cn": "若具有狂暴",
                 "name_fr": "Si frénétique",
-                "name_de": "Wenn rasend"
+                "name_de": "Wenn rasend",
+                "name_pl": "Jeśli frenzied"
               }
             }
           ]
@@ -788,12 +860,14 @@
           "name_cn": "双足飞龙",
           "name_de": "Lindwurm",
           "name_fr": "Vouivre",
+          "name_pl": "Wywerna",
           "points": 130,
           "specialRules": {
             "name_en": "Close Order, Fly (9), Large Target, Stomp Attacks (D3), Swiftstride, Terror",
             "name_cn": "紧密阵型, 飞行(9), 大型目标, 践踏攻击(D3), 快速行进, 惊骇",
             "name_fr": "Ordre Serré, Vol (9), Grande Cible, Attaques de Piétinement (D3), Rapide, Terreur",
-            "name_de": "Geschlossene Ränge, Fliegen (9), Großes Zield, Stampfattacken (W3), Schnelle Bewegung, Entsetzen"
+            "name_de": "Geschlossene Ränge, Fliegen (9), Großes Zield, Stampfattacken (W3), Schnelle Bewegung, Entsetzen",
+            "name_pl": "Zwarty Szyk, Lot (9), Duży Cel, Zdeptanie (D3), Szybki Krok, Terror"
           }
         }
       ],
@@ -803,6 +877,7 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -818,7 +893,8 @@
         "name_cn": "大砍刀, 狂怒冲锋(doesn't apply to a mount), 无视地精恐慌, 鲁莽, 集结战吼, Waaagh!, 战帮",
         "name_de": "Spaltas, Rasender Angriff (gilt nicht für ein Reittier), Goblin-Panik ignorieren, Ungestüm, Sammelruf, Waaagh!, Kriegerschar",
         "name_es": "Choppas, Furious Charge (doesn't apply to a mount), Ignore Goblin Panic, Impetuous, Rallying Cry, Waaagh!, Warband",
-        "name_fr": "Kikoup', Charge Dévastatrice (ne s'applique pas à la monture), Ignore la Panique des Gobelins, Impétueux, Cri de Ralliement, Waaagh!, Bande de Guerre"
+        "name_fr": "Kikoup', Charge Dévastatrice (ne s'applique pas à la monture), Ignore la Panique des Gobelins, Impétueux, Cri de Ralliement, Waaagh!, Bande de Guerre",
+        "name_pl": "Choppas, Wściekła Szarża (doesn't apply do a wierzchowiec), Ignore Goblin Panic, Impet, Bojowy Okrzyk, Waaagh!, Gromada"
       }
     },
     {
@@ -836,6 +912,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         },
         {
@@ -844,6 +921,7 @@
           "name_de": "Armeestandartenträger",
           "name_fr": "Porteur de la Grande Bannière",
           "name_es": "Battle Standard Bearer",
+          "name_pl": "Chorąży",
           "points": 25,
           "magic": {
             "types": [
@@ -899,6 +977,7 @@
           "name_cn": "轻甲",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -908,6 +987,7 @@
           "name_cn": "重甲",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 3,
           "perModel": true
         },
@@ -916,13 +996,15 @@
           "name_cn": "狂暴",
           "name_de": "Raserei",
           "name_fr": "Frénésie",
+          "name_pl": "Szał",
           "points": 3,
           "perModel": true,
           "notes": {
             "name_en": "0-1 per 1000 points",
             "name_cn": "每1000分0-1",
             "name_fr": "0-1 par tranche de 1000 points",
-            "name_de": "0-1 pro 1000 Punkte"
+            "name_de": "0-1 pro 1000 Punkte",
+            "name_pl": "0-1 na 1000 punktów"
           }
         }
       ],
@@ -949,7 +1031,8 @@
             "name_en": "If frenzied",
             "name_cn": "若具有狂暴",
             "name_fr": "Si frénétique",
-            "name_de": "Wenn rasend"
+            "name_de": "Wenn rasend",
+            "name_pl": "Jeśli frenzied"
           },
           "name_pl": "Malowanie wojenne"
         }
@@ -960,6 +1043,7 @@
           "name_cn": "步行",
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -968,12 +1052,14 @@
           "name_cn": "战猪",
           "name_de": "Wildschwein",
           "name_fr": "Sanglier",
+          "name_pl": "Dzik bojowy",
           "points": 16,
           "specialRules": {
             "name_en": "Armoured Hide (1), Counter Charge, Swiftstride, Tusker Charge",
             "name_cn": "坚硬皮肤(1), 反制冲锋, 快速行进, 獠牙冲锋",
             "name_fr": "Peau Blindée (1), Contre-charge, Rapide, Charge de Sanglier",
-            "name_de": "Zähe Haut (1), Gegenangriff, Schnelle Bewegung, Hauerangriff"
+            "name_de": "Zähe Haut (1), Gegenangriff, Schnelle Bewegung, Hauerangriff",
+            "name_pl": "Opancerzona Skóra (1), Przeciwnatarcie, Szybki Krok, Tusker Charge"
           }
         },
         {
@@ -981,6 +1067,7 @@
           "name_cn": "野猪战车",
           "name_de": "Wildschweinstreitwagen",
           "name_fr": "Char à Sangliers",
+          "name_pl": "Rydwan z dzikami",
           "points": 90,
           "options": [
             {
@@ -988,6 +1075,7 @@
               "name_cn": "第三个兽人乘员",
               "name_de": "Drittes Ork-Besatzungsmitglied",
               "name_fr": "Troisième Aurige Orque",
+              "name_pl": "Third Ork załoga member",
               "points": 5
             },
             {
@@ -995,19 +1083,22 @@
               "name_cn": "狂暴",
               "name_de": "Raserei",
               "name_fr": "Frénésie",
+              "name_pl": "Szał",
               "points": 4,
               "notes": [
                 {
                   "name_en": "If 2 crew members",
                   "name_cn": "If 2 crew members",
                   "name_fr": "Si 2 auriges",
-                  "name_de": "Bei 2 Besatzungsmitgliedern"
+                  "name_de": "Bei 2 Besatzungsmitgliedern",
+                  "name_pl": "Jeśli 2 załoga members"
                 },
                 {
                   "name_en": "0-1 per 1000 points",
                   "name_cn": "0-1 per 1000 points",
                   "name_fr": "0-1 par tranche de 1000 points",
-                  "name_de": "0-1 pro 1000 Punkte"
+                  "name_de": "0-1 pro 1000 Punkte",
+                  "name_pl": "0-1 na 1000 punktów"
                 }
               ]
             },
@@ -1016,19 +1107,22 @@
               "name_cn": "狂暴",
               "name_de": "Raserei",
               "name_fr": "Frénésie",
+              "name_pl": "Szał",
               "points": 6,
               "notes": [
                 {
                   "name_en": "If 3 crew members",
                   "name_cn": "If 3 crew members",
                   "name_fr": "Si 3 auriges",
-                  "name_de": "Bei 3 Besatzungsmitgliedern"
+                  "name_de": "Bei 3 Besatzungsmitgliedern",
+                  "name_pl": "Jeśli 3 załoga members"
                 },
                 {
                   "name_en": "0-1 per 1000 points",
                   "name_cn": "0-1 per 1000 points",
                   "name_fr": "0-1 par tranche de 1000 points",
-                  "name_de": "0-1 pro 1000 Punkte"
+                  "name_de": "0-1 pro 1000 Punkte",
+                  "name_pl": "0-1 na 1000 punktów"
                 }
               ]
             },
@@ -1037,12 +1131,14 @@
               "name_cn": "战漆",
               "name_de": "Kriegsbemalung",
               "name_fr": "Peintures de Guerre",
+              "name_pl": "Malowidła Wojenne",
               "points": 10,
               "notes": {
                 "name_en": "If frenzied",
                 "name_cn": "若具有狂暴",
                 "name_fr": "Si frénétique",
-                "name_de": "Wenn rasend"
+                "name_de": "Wenn rasend",
+                "name_pl": "Jeśli frenzied"
               }
             }
           ]
@@ -1054,6 +1150,7 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -1069,7 +1166,8 @@
         "name_cn": "大砍刀, 狂怒冲锋(doesn't apply to a mount), 无视地精恐慌, 鲁莽, 集结战吼, Waaagh!, 战帮",
         "name_de": "Spaltas, Rasender Angriff (gilt nicht für ein Reittier), Goblin-Panik ignorieren, Ungestüm, Sammelruf, Waaagh!, Kriegerschar",
         "name_es": "Choppas, Furious Charge (doesn't apply to a mount), Ignore Goblin Panic, Impetuous, Rallying Cry, Waaagh!, Warband",
-        "name_fr": "Kikoup', Charge Dévastatrice (ne s'applique pas à la monture), Ignore la Panique des Gobelins, Impétueux, Cri de Ralliement, Waaagh!, Bande de Guerre"
+        "name_fr": "Kikoup', Charge Dévastatrice (ne s'applique pas à la monture), Ignore la Panique des Gobelins, Impétueux, Cri de Ralliement, Waaagh!, Bande de Guerre",
+        "name_pl": "Choppas, Wściekła Szarża (doesn't apply do a wierzchowiec), Ignore Goblin Panic, Impet, Bojowy Okrzyk, Waaagh!, Gromada"
       }
     },
     {
@@ -1087,7 +1185,8 @@
             "name_en": "0-1 Black Orc Warboss, Orc Warboss or Orc Weirdnob per 1000 points",
             "name_cn": "0-1黑兽人老大, 每1000分兽人战将或兽人疯老大",
             "name_fr": "0-1 Chef de Guerre Orque Noir, Chef de Guerre Orque ou Bizarnob Orque par tranche de 1000 points",
-            "name_de": "0-1 Schwarzork-Waaaghboss, Ork-Waaaghboss oder Ork-Obawirrkopp pro 1000 Punkte"
+            "name_de": "0-1 Schwarzork-Waaaghboss, Ork-Waaaghboss oder Ork-Obawirrkopp pro 1000 Punkte",
+            "name_pl": "0-1 Czarny Ork Warboss, Ork Warboss lub Ork Weirdnob na 1000 punktów"
           }
         },
         "nomadic-waaagh": {
@@ -1096,7 +1195,8 @@
             "name_en": "0-1 Orc Warboss or Orc Weirdnob per 1000 points",
             "name_cn": "每1000分0-1兽人战将或兽人疯老大",
             "name_fr": "0-1 Chef de Guerre Orque ou Bizarnob Orque par tranche de 1000 points",
-            "name_de": "0-1 Ork-Waaaghboss oder Ork-Obawirrkopp pro 1000 Punkte"
+            "name_de": "0-1 Ork-Waaaghboss oder Ork-Obawirrkopp pro 1000 Punkte",
+            "name_pl": "0-1 Ork Warboss lub Ork Weirdnob na 1000 punktów"
           }
         },
         "troll-horde": {
@@ -1105,7 +1205,8 @@
             "name_en": "0-1 Orc Warboss or Orc Weirdnob per 1000 points",
             "name_cn": "每1000分0-1兽人战将或兽人疯老大",
             "name_fr": "0-1 Chef de Guerre Orque ou Bizarnob Orque par tranche de 1000 points",
-            "name_de": "0-1 Ork-Waaaghboss oder Ork-Obawirrkopp pro 1000 Punkte"
+            "name_de": "0-1 Ork-Waaaghboss oder Ork-Obawirrkopp pro 1000 Punkte",
+            "name_pl": "0-1 Ork Warboss lub Ork Weirdnob na 1000 punktów"
           }
         }
       },
@@ -1116,6 +1217,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -1137,13 +1239,15 @@
           "name_cn": "狂暴",
           "name_de": "Raserei",
           "name_fr": "Frénésie",
+          "name_pl": "Szał",
           "points": 0,
           "perModel": true,
           "notes": {
             "name_en": "0-1 per 1000 points",
             "name_cn": "每1000分0-1",
             "name_fr": "0-1 par tranche de 1000 points",
-            "name_de": "0-1 pro 1000 Punkte"
+            "name_de": "0-1 pro 1000 Punkte",
+            "name_pl": "0-1 na 1000 punktów"
           }
         }
       ],
@@ -1193,7 +1297,8 @@
             "name_en": "If frenzied",
             "name_cn": "若具有狂暴",
             "name_fr": "Si frénétique",
-            "name_de": "Wenn rasend"
+            "name_de": "Wenn rasend",
+            "name_pl": "Jeśli frenzied"
           },
           "name_pl": "Malowanie wojenne"
         }
@@ -1204,6 +1309,7 @@
           "name_cn": "步行",
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -1212,12 +1318,14 @@
           "name_cn": "战猪",
           "name_de": "Wildschwein",
           "name_fr": "Sanglier",
+          "name_pl": "Dzik bojowy",
           "points": 16,
           "specialRules": {
             "name_en": "Armoured Hide (1), Counter Charge, Swiftstride, Tusker Charge",
             "name_cn": "坚硬皮肤(1), 反制冲锋, 快速行进, 獠牙冲锋",
             "name_fr": "Peau Blindée (1), Contre-charge, Rapide, Charge de Sanglier",
-            "name_de": "Zähe Haut (1), Gegenangriff, Schnelle Bewegung, Hauerangriff"
+            "name_de": "Zähe Haut (1), Gegenangriff, Schnelle Bewegung, Hauerangriff",
+            "name_pl": "Opancerzona Skóra (1), Przeciwnatarcie, Szybki Krok, Tusker Charge"
           }
         },
         {
@@ -1225,12 +1333,14 @@
           "name_cn": "双足飞龙",
           "name_de": "Lindwurm",
           "name_fr": "Vouivre",
+          "name_pl": "Wywerna",
           "points": 130,
           "specialRules": {
             "name_en": "Close Order, Fly (9), Large Target, Stomp Attacks (D3), Swiftstride, Terror",
             "name_cn": "紧密阵型, 飞行(9), 大型目标, 践踏攻击(D3), 快速行进, 惊骇",
             "name_fr": "Ordre Serré, Vol (9), Grande Cible, Attaques de Piétinement (D3), Rapide, Terreur",
-            "name_de": "Geschlossene Ränge, Fliegen (9), Großes Zield, Stampfattacken (W3), Schnelle Bewegung, Entsetzen"
+            "name_de": "Geschlossene Ränge, Fliegen (9), Großes Zield, Stampfattacken (W3), Schnelle Bewegung, Entsetzen",
+            "name_pl": "Zwarty Szyk, Lot (9), Duży Cel, Zdeptanie (D3), Szybki Krok, Terror"
           }
         }
       ],
@@ -1240,6 +1350,7 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "talisman",
@@ -1261,7 +1372,8 @@
         "name_cn": "大砍刀, 无视地精恐慌, 搞哥法系, 帮派大哥, 战帮",
         "name_de": "Spaltas, Goblin-Panik ignorieren, Lehre des Gork, Grüner Mob, Kriegerschar",
         "name_es": "Choppas, Ignore Goblin Panic, Lore of Gork, Mob Rule, Warband",
-        "name_fr": "Kikoup', Ignore la Panique des Gobelins, Domaine de Gork, La Loi du Nombre, Bande de Guerre"
+        "name_fr": "Kikoup', Ignore la Panique des Gobelins, Domaine de Gork, La Loi du Nombre, Bande de Guerre",
+        "name_pl": "Choppas, Ignore Goblin Panic, Lore of Gork, Mob Rule, Gromada"
       }
     },
     {
@@ -1279,6 +1391,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -1300,13 +1413,15 @@
           "name_cn": "狂暴",
           "name_de": "Raserei",
           "name_fr": "Frénésie",
+          "name_pl": "Szał",
           "points": 0,
           "perModel": true,
           "notes": {
             "name_en": "0-1 per 1000 points",
             "name_cn": "每1000分0-1",
             "name_fr": "0-1 par tranche de 1000 points",
-            "name_de": "0-1 pro 1000 Punkte"
+            "name_de": "0-1 pro 1000 Punkte",
+            "name_pl": "0-1 na 1000 punktów"
           }
         }
       ],
@@ -1356,7 +1471,8 @@
             "name_en": "If frenzied",
             "name_cn": "若具有狂暴",
             "name_fr": "Si frénétique",
-            "name_de": "Wenn rasend"
+            "name_de": "Wenn rasend",
+            "name_pl": "Jeśli frenzied"
           },
           "name_pl": "Malowanie wojenne"
         }
@@ -1367,6 +1483,7 @@
           "name_cn": "步行",
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -1375,12 +1492,14 @@
           "name_cn": "战猪",
           "name_de": "Wildschwein",
           "name_fr": "Sanglier",
+          "name_pl": "Dzik bojowy",
           "points": 16,
           "specialRules": {
             "name_en": "Armoured Hide (1), Counter Charge, Swiftstride, Tusker Charge",
             "name_cn": "坚硬皮肤(1), 反制冲锋, 快速行进, 獠牙冲锋",
             "name_fr": "Peau Blindée (1), Contre-charge, Rapide, Charge de Sanglier",
-            "name_de": "Zähe Haut (1), Gegenangriff, Schnelle Bewegung, Hauerangriff"
+            "name_de": "Zähe Haut (1), Gegenangriff, Schnelle Bewegung, Hauerangriff",
+            "name_pl": "Opancerzona Skóra (1), Przeciwnatarcie, Szybki Krok, Tusker Charge"
           }
         }
       ],
@@ -1390,6 +1509,7 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "talisman",
@@ -1411,7 +1531,8 @@
         "name_cn": "大砍刀, 无视地精恐慌, 搞哥法系, 帮派大哥, 战帮",
         "name_de": "Spaltas, Goblin-Panik ignorieren, Lehre des Gork, Grüner Mob, Kriegerschar",
         "name_es": "Choppas, Ignore Goblin Panic, Lore of Gork, Mob Rule, Warband",
-        "name_fr": "Kikoup', Ignore la Panique des Gobelins, Domaine de Gork, La Loi du Nombre, Bande de Guerre"
+        "name_fr": "Kikoup', Ignore la Panique des Gobelins, Domaine de Gork, La Loi du Nombre, Bande de Guerre",
+        "name_pl": "Choppas, Ignore Goblin Panic, Lore of Gork, Mob Rule, Gromada"
       }
     },
     {
@@ -1429,6 +1550,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -1473,7 +1595,8 @@
             "name_en": "If appropriately mounted",
             "name_cn": "若处于骑乘状态",
             "name_fr": "S'il est monté",
-            "name_de": "Wenn beritten"
+            "name_de": "Wenn beritten",
+            "name_pl": "Jeśli appropriately mounted"
           },
           "name_pl": "Włócznia kawalerii"
         }
@@ -1484,6 +1607,7 @@
           "name_cn": "轻甲",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 3,
           "perModel": true
         }
@@ -1507,6 +1631,7 @@
           "name_cn": "步行",
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -1515,6 +1640,7 @@
           "name_cn": "巨狼",
           "name_de": "Riesenwolf",
           "name_fr": "Loup Géant",
+          "name_pl": "Olbrzym Wilk",
           "points": 10,
           "options": [
             {
@@ -1525,14 +1651,16 @@
                 "nomadic-waaagh"
               ],
               "name_fr": "Embusqueurs",
-              "name_de": "Überfall"
+              "name_de": "Überfall",
+              "name_pl": "Zasadzka"
             }
           ],
           "specialRules": {
             "name_en": "Chariot Runners, Fast Cavalry, Fire & Flee, Swiftstride",
             "name_cn": "战车骑伴, 快速骑兵, 游击, 快速行进",
             "name_fr": "Escorteurs de Chars, Cavalerie Rapide, Tir & Fuite, Rapide",
-            "name_de": "Streitwagengarde, Wendige Kavallerie, Schießen und Verschwinden, Schnelle Bewegung"
+            "name_de": "Streitwagengarde, Wendige Kavallerie, Schießen und Verschwinden, Schnelle Bewegung",
+            "name_pl": "Rydwan Runners, Szybka Kawaleria, Ogień I Odwrót, Szybki Krok"
           }
         },
         {
@@ -1540,12 +1668,14 @@
           "name_cn": "巨型蜘蛛",
           "name_de": "Gigantula",
           "name_fr": "Araignée Géante",
+          "name_pl": "Gigantyczny pająk",
           "points": 35,
           "specialRules": {
             "name_en": "Armoured Hide (1), Fast Cavalry, Poisoned Attacks, Swiftstride",
             "name_cn": "坚硬皮肤(1), 快速骑兵, 淬毒攻击, 快速行进",
             "name_fr": "Peau Blindée (1), Cavalerie Rapide, Attaques Empoisonnées, Rapide",
-            "name_de": "Zähe Haut (1), Wendige Kavallerie, Giftattacken, Schnelle Bewegung"
+            "name_de": "Zähe Haut (1), Wendige Kavallerie, Giftattacken, Schnelle Bewegung",
+            "name_pl": "Opancerzona Skóra (1), Szybka Kawaleria, Trujące Ataki, Szybki Krok"
           }
         },
         {
@@ -1553,6 +1683,7 @@
           "name_cn": "野狼战车",
           "name_de": "Wolfstreitwagen",
           "name_fr": "Char à Loups",
+          "name_pl": "Wilk Rydwan",
           "points": 53,
           "options": [
             {
@@ -1560,6 +1691,7 @@
               "name_cn": "第三只巨狼",
               "name_de": "Dritter Riesenwolf",
               "name_fr": "Troisième Loup Géant",
+              "name_pl": "Third Olbrzym Wilk",
               "points": 5
             },
             {
@@ -1567,6 +1699,7 @@
               "name_cn": "旗手",
               "name_de": "Standartenträger",
               "name_fr": "Porte-étendard",
+              "name_pl": "Sztandarowy",
               "points": 5
             }
           ]
@@ -1578,6 +1711,7 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -1593,7 +1727,8 @@
         "name_cn": "惧怕精灵, 鲁莽, 集结战吼, 战帮",
         "name_de": "Angst vor Elfen, Ungestüm, Sammelruf, Kriegerschar",
         "name_es": "Fear of Elves, Impetuous, Rallying Cry, Warband",
-        "name_fr": "Peur des Elfes, Impétueux, Cri de Ralliement, Bande de Guerre"
+        "name_fr": "Peur des Elfes, Impétueux, Cri de Ralliement, Bande de Guerre",
+        "name_pl": "Strach of Elfy, Impet, Bojowy Okrzyk, Gromada"
       }
     },
     {
@@ -1611,6 +1746,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         },
         {
@@ -1619,6 +1755,7 @@
           "name_de": "Armeestandartenträger",
           "name_fr": "Porteur de la Grande Bannière",
           "name_es": "Battle Standard Bearer",
+          "name_pl": "Chorąży",
           "points": 25,
           "magic": {
             "types": [
@@ -1669,7 +1806,8 @@
             "name_en": "If appropriately mounted",
             "name_cn": "若处于骑乘状态",
             "name_fr": "S'il est monté",
-            "name_de": "Wenn beritten"
+            "name_de": "Wenn beritten",
+            "name_pl": "Jeśli appropriately mounted"
           },
           "name_pl": "Włócznia kawalerii"
         }
@@ -1680,6 +1818,7 @@
           "name_cn": "轻甲",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 3,
           "perModel": true
         }
@@ -1703,6 +1842,7 @@
           "name_cn": "步行",
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -1711,6 +1851,7 @@
           "name_cn": "巨狼",
           "name_de": "Riesenwolf",
           "name_fr": "Loup Géant",
+          "name_pl": "Olbrzym Wilk",
           "points": 10,
           "options": [
             {
@@ -1721,14 +1862,16 @@
                 "nomadic-waaagh"
               ],
               "name_fr": "Embusqueurs",
-              "name_de": "Überfall"
+              "name_de": "Überfall",
+              "name_pl": "Zasadzka"
             }
           ],
           "specialRules": {
             "name_en": "Chariot Runners, Fast Cavalry, Fire & Flee, Swiftstride",
             "name_cn": "战车骑伴, 快速骑兵, 游击, 快速行进",
             "name_fr": "Escorteurs de Chars, Cavalerie Rapide, Tir & Fuite, Rapide",
-            "name_de": "Streitwagengarde, Wendige Kavallerie, Schießen und Verschwinden, Schnelle Bewegung"
+            "name_de": "Streitwagengarde, Wendige Kavallerie, Schießen und Verschwinden, Schnelle Bewegung",
+            "name_pl": "Rydwan Runners, Szybka Kawaleria, Ogień I Odwrót, Szybki Krok"
           }
         },
         {
@@ -1736,12 +1879,14 @@
           "name_cn": "巨型蜘蛛",
           "name_de": "Gigantula",
           "name_fr": "Araignée Géante",
+          "name_pl": "Gigantyczny pająk",
           "points": 35,
           "specialRules": {
             "name_en": "Armoured Hide (1), Fast Cavalry, Poisoned Attacks, Swiftstride",
             "name_cn": "坚硬皮肤(1), 快速骑兵, 淬毒攻击, 快速行进",
             "name_fr": "Peau Blindée (1), Cavalerie Rapide, Attaques Empoisonnées, Rapide",
-            "name_de": "Zähe Haut (1), Wendige Kavallerie, Giftattacken, Schnelle Bewegung"
+            "name_de": "Zähe Haut (1), Wendige Kavallerie, Giftattacken, Schnelle Bewegung",
+            "name_pl": "Opancerzona Skóra (1), Szybka Kawaleria, Trujące Ataki, Szybki Krok"
           }
         },
         {
@@ -1749,6 +1894,7 @@
           "name_cn": "野狼战车",
           "name_de": "Wolfstreitwagen",
           "name_fr": "Char à Loups",
+          "name_pl": "Wilk Rydwan",
           "points": 53,
           "options": [
             {
@@ -1756,6 +1902,7 @@
               "name_cn": "第三只巨狼",
               "name_de": "Dritter Riesenwolf",
               "name_fr": "Troisième Loup Géant",
+              "name_pl": "Third Olbrzym Wilk",
               "points": 5
             },
             {
@@ -1763,6 +1910,7 @@
               "name_cn": "旗手",
               "name_de": "Standartenträger",
               "name_fr": "Porte-étendard",
+              "name_pl": "Sztandarowy",
               "points": 5
             }
           ]
@@ -1774,6 +1922,7 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -1789,7 +1938,8 @@
         "name_cn": "惧怕精灵, 鲁莽, 集结战吼, 战帮",
         "name_de": "Angst vor Elfen, Ungestüm, Sammelruf, Kriegerschar",
         "name_es": "Fear of Elves, Impetuous, Rallying Cry, Warband",
-        "name_fr": "Peur des Elfes, Impétueux, Cri de Ralliement, Bande de Guerre"
+        "name_fr": "Peur des Elfes, Impétueux, Cri de Ralliement, Bande de Guerre",
+        "name_pl": "Strach of Elfy, Impet, Bojowy Okrzyk, Gromada"
       }
     },
     {
@@ -1807,6 +1957,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -1865,6 +2016,7 @@
           "name_cn": "步行",
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -1873,6 +2025,7 @@
           "name_cn": "巨狼",
           "name_de": "Riesenwolf",
           "name_fr": "Loup Géant",
+          "name_pl": "Olbrzym Wilk",
           "points": 10,
           "options": [
             {
@@ -1883,14 +2036,16 @@
                 "nomadic-waaagh"
               ],
               "name_fr": "Embusqueurs",
-              "name_de": "Überfall"
+              "name_de": "Überfall",
+              "name_pl": "Zasadzka"
             }
           ],
           "specialRules": {
             "name_en": "Chariot Runners, Fast Cavalry, Fire & Flee, Swiftstride",
             "name_cn": "战车骑伴, 快速骑兵, 游击, 快速行进",
             "name_fr": "Escorteurs de Chars, Cavalerie Rapide, Tir & Fuite, Rapide",
-            "name_de": "Streitwagengarde, Wendige Kavallerie, Schießen und Verschwinden, Schnelle Bewegung"
+            "name_de": "Streitwagengarde, Wendige Kavallerie, Schießen und Verschwinden, Schnelle Bewegung",
+            "name_pl": "Rydwan Runners, Szybka Kawaleria, Ogień I Odwrót, Szybki Krok"
           }
         },
         {
@@ -1904,6 +2059,7 @@
               "name_cn": "第三只巨狼",
               "name_de": "Dritter Riesenwolf",
               "name_fr": "Troisième Loup Géant",
+              "name_pl": "Third Olbrzym Wilk",
               "points": 5
             },
             {
@@ -1911,16 +2067,19 @@
               "name_cn": "旗手",
               "name_de": "Standartenträger",
               "name_fr": "Porte-étendard",
+              "name_pl": "Sztandarowy",
               "points": 5
             }
           ],
-          "name_fr": "Char à Loups"
+          "name_fr": "Char à Loups",
+          "name_pl": "Wilk Rydwan"
         },
         {
           "name_en": "Arachnarok Spider",
           "name_cn": "阿拉克纳瑞巨蛛",
           "name_de": "Arachnarok-Spinne",
           "name_fr": "Arachnarok",
+          "name_pl": "Arachnarok Pająk",
           "points": 310,
           "options": [
             {
@@ -1928,6 +2087,7 @@
               "name_cn": "蛛丝投掷器",
               "name_fr": "Catatoile",
               "name_de": "Spinnnenseidenwerfer",
+              "name_pl": "Miotacz pajęczej przędzy",
               "points": 35
             }
           ],
@@ -1935,7 +2095,8 @@
             "name_en": "Close Order, Howdah, Immune to Psychology, Large Target, Move Through Cover, Poisoned Attacks, Stomp Attacks (D6), Stubborn, Swiftstride, Terror",
             "name_cn": "紧密阵型, 驼轿, 心理免疫, 大型目标, 穿行掩体, 淬毒攻击, 践踏攻击(D6), 坚毅, 快速行进, 惊骇",
             "name_fr": "Ordre Serré, Howdah, Immunisé à la Psychologie, Grande Cible, Mouvement à Couvert, Attaques Empoisonnées, Attaques de Piétinement (D6), Obstiné, Rapide, Terreur",
-            "name_de": "Geschlossene Ränge, Sänfte, Immune gegen Psychologie, Großes Ziel, Durch Deckung bewegen, Giftattacken, Stampfattacken (W6), Unnachgiebig, Schnelle Bewegung, Entsetzen"
+            "name_de": "Geschlossene Ränge, Sänfte, Immune gegen Psychologie, Großes Ziel, Durch Deckung bewegen, Giftattacken, Stampfattacken (W6), Unnachgiebig, Schnelle Bewegung, Entsetzen",
+            "name_pl": "Zwarty Szyk, Howdah, Odporność Na Psychologię, Duży Cel, Przechodzenie Przez Zasłony, Trujące Ataki, Zdeptanie (D6), Nieugięty, Szybki Krok, Terror"
           }
         }
       ],
@@ -1945,6 +2106,7 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "talisman",
@@ -1965,7 +2127,8 @@
         "name_cn": "惧怕精灵, 毛哥法系, 战帮",
         "name_de": "Angst vor Elfen, Lehre des Mork, Kriegerschar",
         "name_es": "Fear of Elves, Lore of Mork, Warband",
-        "name_fr": "Peur des Elfes, Domaine de Mork, Bande de Guerre"
+        "name_fr": "Peur des Elfes, Domaine de Mork, Bande de Guerre",
+        "name_pl": "Strach of Elfy, Lore of Mork, Gromada"
       }
     },
     {
@@ -1983,6 +2146,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -2041,6 +2205,7 @@
           "name_cn": "步行",
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -2049,6 +2214,7 @@
           "name_cn": "巨狼",
           "name_de": "Riesenwolf",
           "name_fr": "Loup Géant",
+          "name_pl": "Olbrzym Wilk",
           "points": 10,
           "options": [
             {
@@ -2059,14 +2225,16 @@
                 "nomadic-waaagh"
               ],
               "name_fr": "Embusqueurs",
-              "name_de": "Überfall"
+              "name_de": "Überfall",
+              "name_pl": "Zasadzka"
             }
           ],
           "specialRules": {
             "name_en": "Chariot Runners, Fast Cavalry, Fire & Flee, Swiftstride",
             "name_cn": "战车骑伴, 快速骑兵, 游击, 快速行进",
             "name_fr": "Escorteurs de Chars, Cavalerie Rapide, Tir & Fuite, Rapide",
-            "name_de": "Streitwagengarde, Wendige Kavallerie, Schießen und Verschwinden, Schnelle Bewegung"
+            "name_de": "Streitwagengarde, Wendige Kavallerie, Schießen und Verschwinden, Schnelle Bewegung",
+            "name_pl": "Rydwan Runners, Szybka Kawaleria, Ogień I Odwrót, Szybki Krok"
           }
         },
         {
@@ -2074,6 +2242,7 @@
           "name_cn": "野狼战车",
           "name_de": "Wolfstreitwagen",
           "name_fr": "Char à Loups",
+          "name_pl": "Wilk Rydwan",
           "points": 53,
           "options": [
             {
@@ -2081,6 +2250,7 @@
               "name_cn": "第三只巨狼",
               "name_de": "Dritter Riesenwolf",
               "name_fr": "Troisième Loup Géant",
+              "name_pl": "Third Olbrzym Wilk",
               "points": 5
             },
             {
@@ -2088,6 +2258,7 @@
               "name_cn": "旗手",
               "name_de": "Standartenträger",
               "name_fr": "Porte-étendard",
+              "name_pl": "Sztandarowy",
               "points": 5
             }
           ]
@@ -2099,6 +2270,7 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "talisman",
@@ -2119,7 +2291,8 @@
         "name_cn": "惧怕精灵, 毛哥法系, 战帮",
         "name_de": "Angst vor Elfen, Lehre des Mork, Kriegerschar",
         "name_es": "Fear of Elves, Lore of Mork, Warband",
-        "name_fr": "Peur des Elfes, Domaine de Mork, Bande de Guerre"
+        "name_fr": "Peur des Elfes, Domaine de Mork, Bande de Guerre",
+        "name_pl": "Strach of Elfy, Lore of Mork, Gromada"
       }
     },
     {
@@ -2142,6 +2315,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -2186,7 +2360,8 @@
             "name_en": "If appropriately mounted",
             "name_cn": "若处于骑乘状态",
             "name_fr": "S'il est monté",
-            "name_de": "Wenn beritten"
+            "name_de": "Wenn beritten",
+            "name_pl": "Jeśli appropriately mounted"
           },
           "name_pl": "Włócznia kawalerii"
         }
@@ -2197,6 +2372,7 @@
           "name_cn": "轻甲",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 3,
           "perModel": true
         }
@@ -2220,6 +2396,7 @@
           "name_cn": "步行",
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -2228,12 +2405,14 @@
           "name_cn": "巨型洞穴跳跳",
           "name_de": "Großer Höhlensquig",
           "name_fr": "Squig des Cavernes Géant",
+          "name_pl": "Olbrzym Cave Squig",
           "points": 25,
           "specialRules": {
             "name_en": "Armoured Hide (1), Hatred (Dwarfs), Impact Hits (D3), Loner, Random Movement",
             "name_cn": "坚硬皮肤(1), 仇恨(矮人), 撞击(D3), 独行, 随机移动",
             "name_fr": "Peau Blindée (1), Haine (Nains), Touches d'Impact (D3), Solitaire, Mouvement Aléatoire",
-            "name_de": "Zähe Haut (1), Hass (Zwerge), Aufpralltreffer (W3), Einzelgänger, Zufällige Bewegung"
+            "name_de": "Zähe Haut (1), Hass (Zwerge), Aufpralltreffer (W3), Einzelgänger, Zufällige Bewegung",
+            "name_pl": "Opancerzona Skóra (1), Nienawiść (Krasnoludy), Uderzenia Impetu (D3), Samotnik, Random Movement"
           }
         }
       ],
@@ -2243,6 +2422,7 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -2258,7 +2438,8 @@
         "name_cn": "惧怕精灵, 仇恨(矮人), 集结战吼, 战帮",
         "name_de": "Angst vor Elfen, Hass (Zwerge), Sammelruf, Kriegerschar",
         "name_es": "Fear of Elves, Hatred (Dwarfs), Rallying Cry, Warband",
-        "name_fr": "Peur des Elfes, Haine (Nains), Cri de Ralliement, Bande de Guerre"
+        "name_fr": "Peur des Elfes, Haine (Nains), Cri de Ralliement, Bande de Guerre",
+        "name_pl": "Strach of Elfy, Nienawiść (Krasnoludy), Bojowy Okrzyk, Gromada"
       }
     },
     {
@@ -2281,6 +2462,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         },
         {
@@ -2289,6 +2471,7 @@
           "name_de": "Armeestandartenträger",
           "name_fr": "Porteur de la Grande Bannière",
           "name_es": "Battle Standard Bearer",
+          "name_pl": "Chorąży",
           "points": 25,
           "magic": {
             "types": [
@@ -2339,7 +2522,8 @@
             "name_en": "If appropriately mounted",
             "name_cn": "若处于骑乘状态",
             "name_fr": "S'il est monté",
-            "name_de": "Wenn beritten"
+            "name_de": "Wenn beritten",
+            "name_pl": "Jeśli appropriately mounted"
           },
           "name_pl": "Włócznia kawalerii"
         }
@@ -2350,6 +2534,7 @@
           "name_cn": "轻甲",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 3,
           "perModel": true
         }
@@ -2373,6 +2558,7 @@
           "name_cn": "步行",
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -2381,12 +2567,14 @@
           "name_cn": "巨型洞穴跳跳",
           "name_de": "Großer Höhlensquig",
           "name_fr": "Squig des Cavernes Géant",
+          "name_pl": "Olbrzym Cave Squig",
           "points": 25,
           "specialRules": {
             "name_en": "Armoured Hide (1), Hatred (Dwarfs), Impact Hits (D3), Loner, Random Movement",
             "name_cn": "坚硬皮肤(1), 仇恨(矮人), 撞击(D3), 独行, 随机移动",
             "name_fr": "Peau Blindée (1), Haine (Nains), Touches d'Impact (D3), Solitaire, Mouvement Aléatoire",
-            "name_de": "Zähe Haut (1), Hass (Zwerge), Aufpralltreffer (W3), Einzelgänger, Zufällige Bewegung"
+            "name_de": "Zähe Haut (1), Hass (Zwerge), Aufpralltreffer (W3), Einzelgänger, Zufällige Bewegung",
+            "name_pl": "Opancerzona Skóra (1), Nienawiść (Krasnoludy), Uderzenia Impetu (D3), Samotnik, Random Movement"
           }
         }
       ],
@@ -2396,6 +2584,7 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -2411,7 +2600,8 @@
         "name_cn": "惧怕精灵, 仇恨(矮人), 集结战吼, 战帮",
         "name_de": "Angst vor Elfen, Hass (Zwerge), Sammelruf, Kriegerschar",
         "name_es": "Fear of Elves, Hatred (Dwarfs), Rallying Cry, Warband",
-        "name_fr": "Peur des Elfes, Haine (Nains), Cri de Ralliement, Bande de Guerre"
+        "name_fr": "Peur des Elfes, Haine (Nains), Cri de Ralliement, Bande de Guerre",
+        "name_pl": "Strach of Elfy, Nienawiść (Krasnoludy), Bojowy Okrzyk, Gromada"
       }
     },
     {
@@ -2434,6 +2624,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -2492,6 +2683,7 @@
           "name_cn": "步行",
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         }
@@ -2502,6 +2694,7 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "talisman",
@@ -2522,7 +2715,8 @@
         "name_cn": "惧怕精灵, 仇恨(矮人), 毛哥法系, 战帮",
         "name_de": "Angst vor Elfen, Hass (Zwerge), Lehre des Mork, Kriegerschar",
         "name_es": "Fear of Elves, Hatred (Dwarfs), Lore of Mork, Warband",
-        "name_fr": "Peur des Elfes, Haine (Nains), Domaine de Mork, Bande de Guerre"
+        "name_fr": "Peur des Elfes, Haine (Nains), Domaine de Mork, Bande de Guerre",
+        "name_pl": "Strach of Elfy, Nienawiść (Krasnoludy), Lore of Mork, Gromada"
       }
     },
     {
@@ -2545,6 +2739,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -2603,6 +2798,7 @@
           "name_cn": "步行",
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         }
@@ -2613,6 +2809,7 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "talisman",
@@ -2633,7 +2830,8 @@
         "name_cn": "惧怕精灵, 仇恨(矮人), 毛哥法系, 战帮",
         "name_de": "Angst vor Elfen, Hass (Zwerge), Lehre des Mork, Kriegerschar",
         "name_es": "Fear of Elves, Hatred (Dwarfs), Lore of Mork, Warband",
-        "name_fr": "Peur des Elfes, Haine (Nains), Domaine de Mork, Bande de Guerre"
+        "name_fr": "Peur des Elfes, Haine (Nains), Domaine de Mork, Bande de Guerre",
+        "name_pl": "Strach of Elfy, Nienawiść (Krasnoludy), Lore of Mork, Gromada"
       }
     },
     {
@@ -2654,6 +2852,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -2665,7 +2864,7 @@
           "name_es": "Da Boss's Trophy Rack, Da Skull Smasha, Cavalry spear",
           "name_fr": "Râtelier à Trophées du Chef, Frakass' Crânes, Lance de cavalerie",
           "name_it": "Da Boss's Trophy Rack, Da Skull Smasha, Cavalry spear",
-          "name_pl": "Da Boss's Trophy Rack, Da Skull Smasha, Cavalry spear",
+          "name_pl": "Da Boss's Trophy Rack, Da Skull Smasha, Włócznia Kawaleryjska",
           "points": 0,
           "active": true
         }
@@ -2678,7 +2877,7 @@
           "name_es": "Shield, Light armour",
           "name_fr": "Bouclier, Armure légère",
           "name_it": "Shield, Light armour",
-          "name_pl": "Shield, Light armour",
+          "name_pl": "Shield, Lekka Zbroja",
           "points": 0,
           "active": true
         }
@@ -2692,7 +2891,7 @@
           "name_es": "Chompa",
           "name_fr": "Mâchoir'",
           "name_it": "Chompa",
-          "name_pl": "Chompa",
+          "name_pl": "Kłapacz",
           "points": 0,
           "active": true
         }
@@ -2706,7 +2905,7 @@
         "name_es": "All Sneaky Like, Ambushers, Armour Bane (1 - Chompa only), Armoured Hide (1), Chariot Runners, Fast Cavalry, Fear of Elves, Impetuous, 'It & Run, Rallying Cry, Swiftstride, Warband",
         "name_fr": "En Tapinois, Embusqueurs, Arme Perforante (1 - Mâchoir' uniquement), Peau Blindée (1), Escorteurs de Chars, Cavalerie Rapide, Peur des Elfes, Impétueux, ’Arrcèlement, Cri de Ralliement, Rapide, Bande de Guerre",
         "name_it": "All Sneaky Like, Ambushers, Armour Bane (1 - Chompa only), Armoured Hide (1), Chariot Runners, Fast Cavalry, Fear of Elves, Impetuous, 'It & Run, Rallying Cry, Swiftstride, Warband",
-        "name_pl": "All Sneaky Like, Ambushers, Armour Bane (1 - Chompa only), Armoured Hide (1), Chariot Runners, Fast Cavalry, Fear of Elves, Impetuous, 'It & Run, Rallying Cry, Swiftstride, Warband"
+        "name_pl": "All Sneaky Like, Zasadzka, Przebicie Zbroi (1 - Chompa only), Opancerzona Skóra (1), Rydwan Runners, Szybka Kawaleria, Strach of Elfy, Impet, 'It & Run, Bojowy Okrzyk, Szybki Krok, Gromada"
       }
     },
     {
@@ -2735,6 +2934,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -2746,7 +2946,7 @@
           "name_es": "Bog-wood staff, Trollhide shawl, Lore Familiar",
           "name_fr": "Bâton en Morta, Châle en Peau de Troll, Familier de Savoir",
           "name_it": "Bog-wood staff, Trollhide shawl, Lore Familiar",
-          "name_pl": "Bog-wood staff, Trollhide shawl, Lore Familiar",
+          "name_pl": "Kostur z bagiennego drewna, szal z trolliej skóry, Znajomy Magii",
           "points": 0,
           "active": true
         }
@@ -2760,7 +2960,7 @@
           "name_es": "Level 3 Wizard",
           "name_fr": "Sorcier de Niveau 3",
           "name_it": "Level 3 Wizard",
-          "name_pl": "Level 3 Wizard",
+          "name_pl": "Level 3 Czarodziej",
           "points": 0,
           "perModel": true,
           "active": true
@@ -2780,7 +2980,7 @@
         "name_es": "Choppas, Da Troll Calla, Ignore Goblin Panic, Protect Da Boss, Syphoned Strength, Warband",
         "name_fr": "Kikoup', Eul' Maître des Trolls, Ignore la Panique des Gobelins, Protégez l'Chef, Drain de Force, Bande de Guerre",
         "name_it": "Choppas, Da Troll Calla, Ignore Goblin Panic, Protect Da Boss, Syphoned Strength, Warband",
-        "name_pl": "Choppas, Da Troll Calla, Ignore Goblin Panic, Protect Da Boss, Syphoned Strength, Warband"
+        "name_pl": "Choppas, Da Troll Calla, Ignore Goblin Panic, Protect Da Boss, Syphoned Strength, Gromada"
       }
     },
     {
@@ -2790,7 +2990,7 @@
       "name_es": "Troll Hag",
       "name_fr": "Mégère Trollesse",
       "name_it": "Troll Hag",
-      "name_pl": "Troll Hag",
+      "name_pl": "Wiedźma Trolli",
       "id": "troll-hag",
       "points": 235,
       "command": [
@@ -2800,6 +3000,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -2810,7 +3011,8 @@
             "name_en": "Any army made using the Orc & Goblin Tribes Grand Army composition list that includes one or more Troll Mobs may include 0-1 Troll Hag as a Rare choice.",
             "name_cn": "Any army made using the Orc & Goblin Tribes Grand Army composition list that includes one或more Troll Mobs may include 0-1 Troll Hag as a Rare choice.",
             "name_fr": "Toute armée utilisant la liste de composition de grande armée des Tribus d'Orques & Gobelins qui inclut au moins une Bande de Trolls peut inclure 0-1 Mégère Trollesse comme choix d'Unité Rare",
-            "name_de": "Jede Armee, die die Großes-Heer-Zusammenstellungsliste der Stämme der Orks und Goblins verwendet und einen oder mehr Troll-Mobs enthält, kann 0-1 Trollhexe als seltene Auswahl aufnehmen."
+            "name_de": "Jede Armee, die die Großes-Heer-Zusammenstellungsliste der Stämme der Orks und Goblins verwendet und einen oder mehr Troll-Mobs enthält, kann 0-1 Trollhexe als seltene Auswahl aufnehmen.",
+            "name_pl": "Any armia made using the Plemiona Orków I Goblinów Wielka Armia composition list that zawiera one lub more Troll Mobs może zawiera 0-1 Troll Hag jako a Rzadki choice."
           }
         },
         "troll-horde": {
@@ -2825,7 +3027,7 @@
           "name_es": "Hand weapon (Gnarled stump), Troll vomit, Swamp breath",
           "name_fr": "Arme de base (Souche noueuse), Vomi de troll, Souffle marécageux",
           "name_it": "Hand weapon (Gnarled stump), Troll vomit, Swamp breath",
-          "name_pl": "Hand weapon (Gnarled stump), Troll vomit, Swamp breath",
+          "name_pl": "Broń Ręczna (Gnarled stump), Troll vomit, Swamp breath",
           "points": 0,
           "active": true
         }
@@ -2836,13 +3038,15 @@
           "name_cn": "重甲",
           "name_fr": "Armure lourde",
           "name_de": "Schwere Rüstung",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "active": true,
           "notes": {
             "name_en": "Scaly skin",
             "name_cn": "鳞皮",
             "name_fr": "Peau écailleuse",
-            "name_de": "Schuppenhaut"
+            "name_de": "Schuppenhaut",
+            "name_pl": "Łuszczasta skóra"
           }
         }
       ],
@@ -2914,7 +3118,7 @@
         "name_es": "Close Order, Flammable, Immune to Psychology, Indiscriminate Hunger, Large Target, Motherly Love, Regeneration (5+), Slimy Shanks, Stomp Attacks (D6), Stupidity, Terror, Timmm-berrr!, Unbreakable",
         "name_fr": "Ordre Serré, Inflammable, Immunisé à la Psychologie, Faim Aveugle, Grande Cible, Amour Maternel, Régénération (5+), Jarrets Visqueux, Attaques de Piétinement (D6), Stupidité, Terreur, Timmm-berrr!, Indémoralisable",
         "name_it": "Close Order, Flammable, Immune to Psychology, Indiscriminate Hunger, Large Target, Motherly Love, Regeneration (5+), Slimy Shanks, Stomp Attacks (D6), Stupidity, Terror, Timmm-berrr!, Unbreakable",
-        "name_pl": "Close Order, Flammable, Immune to Psychology, Indiscriminate Hunger, Large Target, Motherly Love, Regeneration (5+), Slimy Shanks, Stomp Attacks (D6), Stupidity, Terror, Timmm-berrr!, Unbreakable"
+        "name_pl": "Zwarty Szyk, Łatwopalny, Odporność Na Psychologię, Indiscriminate Hunger, Duży Cel, Motherly Love, Regeneracja (5+), Slimy Shanks, Zdeptanie (D6), Stupidity, Terror, Timmm-berrr!, Niezłomni"
       }
     }
   ],
@@ -2936,7 +3140,8 @@
             "name_en": "1 Troll Mob per 1000 points, 0-1 additional Troll Mob may be taken as a Core choice per Troll Hag taken",
             "name_cn": "每1000分1巨魔战帮，每选取1巨魔女巫，0-1额外巨魔战帮可作为核心选取",
             "name_de": "1 Troll-Mob pro 1.000 Punkte. Pro gewählter Trollhexe darf 0-1 zusätzlicher Troll-Mob als Kern-Auswahl gewählt werden",
-            "name_fr": "1 Bande de Trolls par tranche de 1000 points, 0-1 Bande de Trolls additionnelle peut être prise comme choix d'Unité de Base par Mégère Trollesse prise"
+            "name_fr": "1 Bande de Trolls par tranche de 1000 points, 0-1 Bande de Trolls additionnelle peut être prise comme choix d'Unité de Base par Mégère Trollesse prise",
+            "name_pl": "1 Troll Mob na 1000 punktów, 0-1 additional Troll Mob może be taken jako a Podstawowy choice na Troll Hag taken"
           }
         }
       },
@@ -2959,13 +3164,15 @@
           "name_en": "Light armour",
           "name_cn": "轻甲",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "active": true,
           "notes": {
             "name_en": "Calloused hide",
             "name_cn": "坚硬皮肤",
             "name_de": "Schwielige Haut",
-            "name_fr": "Peau calleuse"
+            "name_fr": "Peau calleuse",
+            "name_pl": "Zrogowaciała skóra"
           }
         }
       ],
@@ -2998,7 +3205,8 @@
         "name_cn": "碎甲攻击(1), 紧密阵型, 恐惧, 易燃, 重生(5+), 愚笨, Motley Crew",
         "name_de": "Rüstungsfluch (1), Geschlossen Ränge, Angst, Brennbar, Regeneration (5+), Blödheit, Motley Crew",
         "name_es": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity, Motley Crew",
-        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Inflammable, Régénération (5+), Stupidité, Bande Hétéroclite"
+        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Inflammable, Régénération (5+), Stupidité, Bande Hétéroclite",
+        "name_pl": "Przebicie Zbroi (1), Zwarty Szyk, Strach, Łatwopalny, Regeneracja (5+), Stupidity, Zbieranina"
       }
     },
     {
@@ -3018,7 +3226,8 @@
             "name_en": "1 Troll Mob per 1000 points, 0-1 additional Troll Mob may be taken as a Core choice per Troll Hag taken",
             "name_cn": "每1000分1巨魔战帮，每选取1巨魔女巫，0-1额外巨魔战帮可作为核心选取",
             "name_de": "1 Troll-Mob pro 1.000 Punkte. Pro gewählter Trollhexe darf 0-1 zusätzlicher Troll-Mob als Kern-Auswahl gewählt werden",
-            "name_fr": "1 Bande de Trolls par tranche de 1000 points, 0-1 Bande de Trolls additionnelle peut être prise comme choix d'Unité de Base par Mégère Trollesse prise"
+            "name_fr": "1 Bande de Trolls par tranche de 1000 points, 0-1 Bande de Trolls additionnelle peut être prise comme choix d'Unité de Base par Mégère Trollesse prise",
+            "name_pl": "1 Troll Mob na 1000 punktów, 0-1 additional Troll Mob może be taken jako a Podstawowy choice na Troll Hag taken"
           }
         }
       },
@@ -3042,13 +3251,15 @@
           "name_cn": "轻甲",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "active": true,
           "notes": {
             "name_en": "Calloused hide",
             "name_cn": "坚硬皮肤",
             "name_de": "Schwielige Haut",
-            "name_fr": "Peau calleuse"
+            "name_fr": "Peau calleuse",
+            "name_pl": "Zrogowaciała skóra"
           }
         }
       ],
@@ -3081,7 +3292,8 @@
         "name_cn": "碎甲攻击(1), 紧密阵型, 恐惧, 易燃, 重生(5+), 愚笨, Motley Crew",
         "name_de": "Rüstungsfluch (1), Geschlossen Ränge, Angst, Brennbar, Regeneration (5+), Blödheit, Motley Crew",
         "name_es": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity, Motley Crew",
-        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Inflammable, Régénération (5+), Stupidité, Bande Hétéroclite"
+        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Inflammable, Régénération (5+), Stupidité, Bande Hétéroclite",
+        "name_pl": "Przebicie Zbroi (1), Zwarty Szyk, Strach, Łatwopalny, Regeneracja (5+), Stupidity, Zbieranina"
       }
     },
     {
@@ -3101,7 +3313,8 @@
             "name_en": "1 Troll Mob per 1000 points, 0-1 additional Troll Mob may be taken as a Core choice per Troll Hag taken",
             "name_cn": "每1000分1巨魔战帮，每选取1巨魔女巫，0-1额外巨魔战帮可作为核心选取",
             "name_de": "1 Troll-Mob pro 1.000 Punkte. Pro gewählter Trollhexe darf 0-1 zusätzlicher Troll-Mob als Kern-Auswahl gewählt werden",
-            "name_fr": "1 Bande de Trolls par tranche de 1000 points, 0-1 Bande de Trolls additionnelle peut être prise comme choix d'Unité de Base par Mégère Trollesse prise"
+            "name_fr": "1 Bande de Trolls par tranche de 1000 points, 0-1 Bande de Trolls additionnelle peut être prise comme choix d'Unité de Base par Mégère Trollesse prise",
+            "name_pl": "1 Troll Mob na 1000 punktów, 0-1 additional Troll Mob może be taken jako a Podstawowy choice na Troll Hag taken"
           }
         }
       },
@@ -3125,13 +3338,15 @@
           "name_cn": "轻甲",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "active": true,
           "notes": {
             "name_en": "Calloused hide",
             "name_cn": "坚硬皮肤",
             "name_de": "Schwielige Haut",
-            "name_fr": "Peau calleuse"
+            "name_fr": "Peau calleuse",
+            "name_pl": "Zrogowaciała skóra"
           }
         }
       ],
@@ -3164,7 +3379,8 @@
         "name_cn": "碎甲攻击(1), 坚硬皮肤(1), 紧密阵型, 恐惧, 易燃, 魔法抗性(-1), 重生(5+), 愚笨, Motley Crew",
         "name_de": "Rüstungsfluch (1), Zähe Haut (1), Geschlossen Ränge, Angst, Brennbar, Magieresistenz (-1), Regeneration (5+), Blödheit, Motley Crew",
         "name_es": "Armour Bane (1), Armoured Hide (1), Close Order, Fear, Flammable, Magic Resistance (-1), Regeneration (5+), Stupidity, Motley Crew",
-        "name_fr": "Arme Perforante (1), Peau Blindée (1), Ordre Serré, Peur, Inflammable, Résistance à la Magie (-1), Régénération (5+), Stupidité, Bande Hétéroclite"
+        "name_fr": "Arme Perforante (1), Peau Blindée (1), Ordre Serré, Peur, Inflammable, Résistance à la Magie (-1), Régénération (5+), Stupidité, Bande Hétéroclite",
+        "name_pl": "Przebicie Zbroi (1), Opancerzona Skóra (1), Zwarty Szyk, Strach, Łatwopalny, Odporność Na Magię (-1), Regeneracja (5+), Stupidity, Zbieranina"
       }
     },
     {
@@ -3189,7 +3405,8 @@
         "name_de": "0-1 Ork-Mob pro 1.000 Punkte kann eine Magische Standarte erwerben im Wert bis zu 50 Punkte",
         "name_en": "0-1 Orc Mob per 1000 points may purchase a magic standard worth up to 50 points",
         "name_cn": "每1000分，0-1兽人战帮可以购买一面最多50分的魔法战旗",
-        "name_fr": "0-1 Bande d'Orques par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points"
+        "name_fr": "0-1 Bande d'Orques par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points",
+        "name_pl": "0-1 Ork Mob na 1000 punktów może purchase a magic standard worth up do 50 punktów"
       },
       "command": [
         {
@@ -3197,6 +3414,7 @@
           "name_cn": "老大(冠军)",
           "name_de": "Boss (Champion)",
           "name_fr": "Chef (champion)",
+          "name_pl": "Boss (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -3213,6 +3431,7 @@
           "name_cn": "旗手",
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 5,
           "magic": {
             "types": [
@@ -3226,6 +3445,7 @@
           "name_cn": "乐手",
           "name_de": "Musiker",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 5
         }
       ],
@@ -3284,6 +3504,7 @@
           "name_cn": "轻甲",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -3293,13 +3514,15 @@
           "name_cn": "狂暴",
           "name_de": "Raserei",
           "name_fr": "Frénésie",
+          "name_pl": "Szał",
           "points": 1,
           "perModel": true,
           "notes": {
             "name_en": "0-1 per 1000 points",
             "name_cn": "每1000分0-1",
             "name_de": "0-1 pro 1.000 Punkte",
-            "name_fr": "0-1 par tranche de 1000 points"
+            "name_fr": "0-1 par tranche de 1000 points",
+            "name_pl": "0-1 na 1000 punktów"
           }
         }
       ],
@@ -3324,7 +3547,8 @@
             "name_en": "If frenzied",
             "name_cn": "若具有狂暴",
             "name_de": "Wenn rasend",
-            "name_fr": "Si frénétique"
+            "name_fr": "Si frénétique",
+            "name_pl": "Jeśli frenzied"
           },
           "name_pl": "Malowanie wojenne"
         },
@@ -3337,7 +3561,8 @@
           "notes": {
             "name_en": "If frenzied",
             "name_cn": "若具有狂暴",
-            "name_fr": "Si frénétique"
+            "name_fr": "Si frénétique",
+            "name_pl": "Jeśli frenzied"
           },
           "name_pl": "Wielkie Sztychery"
         },
@@ -3352,7 +3577,8 @@
             "name_en": "0-1 per army",
             "name_cn": "0-1per army",
             "name_de": "0-1 pro Armee",
-            "name_fr": "0-1 par armée"
+            "name_fr": "0-1 par armée",
+            "name_pl": "0-1 na armia"
           },
           "name_pl": "Wielcy"
         },
@@ -3368,13 +3594,15 @@
               "name_en": "Replace Close Order",
               "name_cn": "Replace Close Order",
               "name_de": "Ersetzt Geschlossene Ränge",
-              "name_fr": "Remplace Ordre Serré"
+              "name_fr": "Remplace Ordre Serré",
+              "name_pl": "Replace Zwarty Szyk"
             },
             {
               "name_en": "0-1 per army",
               "name_cn": "0-1 per army",
               "name_de": "0-1 pro Armee",
-              "name_fr": "0-1 par armée"
+              "name_fr": "0-1 par armée",
+              "name_pl": "0-1 na armia"
             }
           ],
           "name_pl": "Harcownicy"
@@ -3386,7 +3614,8 @@
         "name_cn": "大砍刀, 紧密阵型, 无视地精恐慌, 鲁莽, 战帮",
         "name_de": "Spaltas, Geschlossen Ränge, Goblin-Panik ignorieren, Ungestüm, Kriegerschar",
         "name_es": "Choppas, Close Order, Ignore Goblin Panic, Impetuous, Warband",
-        "name_fr": "Kikoup', Ordre Serré, Ignore la Panique des Gobelins, Impétueux, Bande de Guerre"
+        "name_fr": "Kikoup', Ordre Serré, Ignore la Panique des Gobelins, Impétueux, Bande de Guerre",
+        "name_pl": "Choppas, Zwarty Szyk, Ignore Goblin Panic, Impet, Gromada"
       }
     },
     {
@@ -3410,6 +3639,7 @@
           "name_cn": "老大(冠军)",
           "name_de": "Boss (Champion)",
           "name_fr": "Chef (champion)",
+          "name_pl": "Boss (czempion)",
           "points": 6,
           "magic": {
             "types": [
@@ -3426,6 +3656,7 @@
           "name_cn": "旗手",
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -3439,6 +3670,7 @@
           "name_cn": "乐手",
           "name_de": "Musiker",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -3460,6 +3692,7 @@
           "name_cn": "全身甲",
           "name_de": "Plattenrüstung",
           "name_fr": "Armure de plate complète",
+          "name_pl": "Pełna Zbroja Płytowa",
           "points": 0,
           "perModel": true,
           "active": true
@@ -3518,14 +3751,16 @@
         "name_cn": "若你的主将为黑兽人战将，0-1黑兽人战帮可以作为核心选取",
         "name_de": "0-1 Schwarz-Mob können als Kernauswahl gewählt werden, wenn dein General ein Schwarzork-Boss ist",
         "name_es": "0-1 Black Orc Mob may be taken as a Core choice if your General is a Black Orc Boss",
-        "name_fr": "0-1 Bande d'Orques Noirs peut être prise comme Unité de Base si votre Général est un Chef Orque Noir"
+        "name_fr": "0-1 Bande d'Orques Noirs peut être prise comme Unité de Base si votre Général est un Chef Orque Noir",
+        "name_pl": "0-1 Czarny Ork Mob może be taken jako a Podstawowy choice jeśli twoja Generał is a Czarny Ork Boss"
       },
       "specialRules": {
         "name_en": "Choppas, Close Order, Da Boyz, Furious Charge, Ignore Panic, Motley Crew, Quell Impetuosity",
         "name_cn": "大砍刀, 紧密阵型, 大只佬, 狂怒冲锋, 无视恐慌, 散兵游勇, 抑制鲁莽",
         "name_de": "Spaltas, Geschlossen Ränge, Da Jungs, Rasender Angriff, Panik ignorieren, Zusammengewürfelter Haufen, Ungestüm unterdrücken",
         "name_es": "Choppas, Close Order, Da Boyz, Furious Charge, Ignore Panic, Motley Crew, Quell Impetuosity",
-        "name_fr": "Kikoup', Ordre Serré, Lé Boyz, Charge Dévastatrice, Ignore la Panique, Bande Hétéroclite, Calme l'Impétuosité"
+        "name_fr": "Kikoup', Ordre Serré, Lé Boyz, Charge Dévastatrice, Ignore la Panique, Bande Hétéroclite, Calme l'Impétuosité",
+        "name_pl": "Choppas, Zwarty Szyk, Da Boyz, Wściekła Szarża, Ignore Panic, Zbieranina, Quell Impetuosity"
       }
     },
     {
@@ -3552,6 +3787,7 @@
           "name_cn": "老大(冠军)",
           "name_de": "Boss (Champion)",
           "name_fr": "Chef (champion)",
+          "name_pl": "Boss (czempion)",
           "points": 7
         },
         {
@@ -3559,6 +3795,7 @@
           "name_cn": "旗手",
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 5,
           "magic": {
             "types": [
@@ -3572,6 +3809,7 @@
           "name_cn": "乐手",
           "name_de": "Musiker",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 5
         }
       ],
@@ -3611,6 +3849,7 @@
           "name_cn": "轻甲",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 1,
           "perModel": true
         }
@@ -3639,13 +3878,15 @@
               "name_en": "Replace Close Order",
               "name_cn": "替换紧密阵型",
               "name_de": "Ersetzt Geschlossene Ränge",
-              "name_fr": "Remplace Ordre Serré"
+              "name_fr": "Remplace Ordre Serré",
+              "name_pl": "Replace Zwarty Szyk"
             },
             {
               "name_en": "0-1 per 1000 points",
               "name_cn": "每1000分0-1",
               "name_de": "0-1 pro 1.000 Punkte",
-              "name_fr": "0-1 par tranche de 1000 points"
+              "name_fr": "0-1 par tranche de 1000 points",
+              "name_pl": "0-1 na 1000 punktów"
             }
           ],
           "name_pl": "Harcownicy"
@@ -3656,14 +3897,16 @@
         "name_en": "0-1 unit per 1000 points may purchase a magic standard worth up to 50 points",
         "name_cn": "0-1unit per 1000 points may purchase a magic standard worth up to 50 points",
         "name_de": "0-1 Einheit pro 1.000 Punkte kann eine Magische Standarte erwerben im Werte von bis zu 50 Punkten",
-        "name_fr": "0-1 unité par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points"
+        "name_fr": "0-1 unité par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points",
+        "name_pl": "0-1 jednostka na 1000 punktów może purchase a magic standard worth up do 50 punktów"
       },
       "specialRules": {
         "name_en": "Close Order, Fear of Elves, Horde, Impetuous, Warband",
         "name_cn": "紧密阵型, 惧怕精灵, 部群, 鲁莽, 战帮",
         "name_de": "Geschlossen Ränge, Angst vor Elfen, Horde, Ungestüm, Kriegerschar",
         "name_es": "Close Order, Fear of Elves, Horde, Impetuous, Warband",
-        "name_fr": "Ordre Serré, Peur des Elfes, Horde, Impétueux, Bande de Guerre"
+        "name_fr": "Ordre Serré, Peur des Elfes, Horde, Impétueux, Bande de Guerre",
+        "name_pl": "Zwarty Szyk, Strach of Elfy, Horda, Impet, Gromada"
       }
     },
     {
@@ -3702,7 +3945,8 @@
         "name_cn": "心理免疫, 鲁莽, 独行, 开放阵型, 散兵, 永不战败, 先锋",
         "name_de": "Immun gegen Psychologie, Ungestüm, Einzelgänger, Offene Ränge, Plänkler, Unerschütterlich, Vorhut",
         "name_es": "Immune to Psychology, Impetuous, Loner, Open Order, Skirmishers, Unbreakable, Vanguard",
-        "name_fr": "Immunisé à la Psychologie, Impétueux, Solitaire, Ordre Dispersé, Tirailleurs, Indémoralisable, Avant-garde"
+        "name_fr": "Immunisé à la Psychologie, Impétueux, Solitaire, Ordre Dispersé, Tirailleurs, Indémoralisable, Avant-garde",
+        "name_pl": "Odporność Na Psychologię, Impet, Samotnik, Luźny Szyk, Harcownicy, Niezłomni, Awangarda"
       }
     },
     {
@@ -3728,6 +3972,7 @@
           "name_cn": "老大(冠军)",
           "name_de": "Boss (Champion)",
           "name_fr": "Chef (champion)",
+          "name_pl": "Boss (czempion)",
           "points": 7
         },
         {
@@ -3735,6 +3980,7 @@
           "name_cn": "旗手",
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 5,
           "magic": {
             "types": [
@@ -3748,6 +3994,7 @@
           "name_cn": "乐手",
           "name_de": "Musiker",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 5
         }
       ],
@@ -3800,14 +4047,16 @@
         "name_cn": "0-1 Night Goblin Mob per Night Goblin Chief or Night Goblin Shaman taken, 0-1 Night Goblin Mob per 1000 points may purchase a magic standard worth up to 50 points",
         "name_de": "0-1 Nachtgoblin-Mob pro gewähltem Nachtgoblin-Boss oder Nachtgobline-Schamane, 0-1 Nachtgoblin-Mob pro 1.000 Punkte kann eine Magische Standarte erwerben im Wert von bis zu 50 Punkten",
         "name_es": "0-1 Night Goblin Mob per Night Goblin Chief or Night Goblin Shaman taken, 0-1 Night Goblin Mob per 1000 points may purchase a magic standard worth up to 50 points",
-        "name_fr": "0-1 Bande de Gobelins de la Nuit par Chef Gobelin de la Nuit ou Chamane Gobelin de la Nuit sélectionné, 0-1 Bande de Gobelins de la Nuit par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points"
+        "name_fr": "0-1 Bande de Gobelins de la Nuit par Chef Gobelin de la Nuit ou Chamane Gobelin de la Nuit sélectionné, 0-1 Bande de Gobelins de la Nuit par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points",
+        "name_pl": "0-1 Night Goblin Mob na Night Goblin Wódz lub Night Goblin Szaman taken, 0-1 Night Goblin Mob na 1000 punktów może purchase a magic standard worth up do 50 punktów"
       },
       "specialRules": {
         "name_en": "Close Order, Fear of Elves, Hatred (Dwarfs), Horde, Warband",
         "name_cn": "紧密阵型, 惧怕精灵, 仇恨(矮人), 部群, 战帮",
         "name_de": "Geschlossen Ränge, Angst vor Elfen, Hass (Zwege), Horde, Kriegerschar",
         "name_es": "Close Order, Fear of Elves, Hatred (Dwarfs), Horde, Warband",
-        "name_fr": "Ordre Serré, Peur des Elfes, Haine (Nains), Horde, Bande de Guerre"
+        "name_fr": "Ordre Serré, Peur des Elfes, Haine (Nains), Horde, Bande de Guerre",
+        "name_pl": "Zwarty Szyk, Strach of Elfy, Nienawiść (Krasnoludy), Horda, Gromada"
       }
     },
     {
@@ -3845,13 +4094,15 @@
         "name_cn": "心理免疫, 放出狂热者!",
         "name_de": "Immun gegen Psychologie, Fanatics loslassen!",
         "name_es": "Immune to Psychology, Release the Fanatics!",
-        "name_fr": "Immunisé à la Psychologie, Lâchez les Fanatiques!"
+        "name_fr": "Immunisé à la Psychologie, Lâchez les Fanatiques!",
+        "name_pl": "Odporność Na Psychologię, Release the Fanatics!"
       },
       "notes": {
         "name_en": "0-1 Fanatic per 10 Night Goblins, to a maximum of 3",
         "name_cn": "0-1Fanatic per 10 Night Goblins, 最多3个",
         "name_de": "0-1 Fanatic pro 10 Nachtgoblins bis zu einem Maximum von 3",
-        "name_fr": "0-1 Fanatique par tranche de 10 Gobelins de la Nuit, jusqu'à un maximum de 3"
+        "name_fr": "0-1 Fanatique par tranche de 10 Gobelins de la Nuit, jusqu'à un maximum de 3",
+        "name_pl": "0-1 Fanatic na 10 Night Gobliny, do a maximum of 3"
       }
     },
     {
@@ -3868,7 +4119,8 @@
         "name_en": "0-1 Goblin Spider Rider Mob per 1000 points may purchase a magic standard worth up to 50 points",
         "name_cn": "0-1Goblin Spider Rider Mob per 1000 points may purchase a magic standard worth up to 50 points",
         "name_de": "0-1 Goblin-Spinnenreiter-Mob pro 1.000 Punkte kann eine Magische Standarte erwerben im Wert von bis zu 50 Punkten",
-        "name_fr": "0-1 Bande de Gobelins sur Araignées par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points"
+        "name_fr": "0-1 Bande de Gobelins sur Araignées par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points",
+        "name_pl": "0-1 Goblin Spider Jeździec Mob na 1000 punktów może purchase a magic standard worth up do 50 punktów"
       },
       "armyComposition": {
         "orc-and-goblin-tribes": {
@@ -3884,6 +4136,7 @@
           "name_cn": "老大(冠军)",
           "name_de": "Boss (Champion)",
           "name_fr": "Chef (champion)",
+          "name_pl": "Boss (czempion)",
           "points": 7
         },
         {
@@ -3891,6 +4144,7 @@
           "name_cn": "旗手",
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 5,
           "magic": {
             "types": [
@@ -3904,6 +4158,7 @@
           "name_cn": "乐手",
           "name_de": "Musiker",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 5
         }
       ],
@@ -3955,7 +4210,8 @@
         "name_cn": "快速骑兵, 惧怕精灵, 鲁莽, 穿行掩体, 开放阵型, 淬毒攻击, 快速行进, 战帮",
         "name_de": "Wendige Kavallerie, Angst vor Elfen, Ungestüm, Durch Deckung bewegen, Offene Ränge, Giftattacken, Schnelle Bewegung, Kriegerschar",
         "name_es": "Fast Cavalry, Fear of Elves, Impetuous, Move Through Cover, Open Order, Poisoned Attacks, Swiftstride, Warband",
-        "name_fr": "Cavalerie Rapide, Peur des Elfes, Impétueux, Mouvement à Couvert, Ordre Dispersé, Attaques Empoisonnées, Rapide, Bande de Guerre"
+        "name_fr": "Cavalerie Rapide, Peur des Elfes, Impétueux, Mouvement à Couvert, Ordre Dispersé, Attaques Empoisonnées, Rapide, Bande de Guerre",
+        "name_pl": "Szybka Kawaleria, Strach of Elfy, Impet, Przechodzenie Przez Zasłony, Luźny Szyk, Trujące Ataki, Szybki Krok, Gromada"
       }
     },
     {
@@ -3972,7 +4228,8 @@
         "name_en": "0-1 Goblin Wolf Rider Mob per 1000 points may purchase a magic standard worth up to 50 points",
         "name_cn": "0-1Goblin Wolf Rider Mob per 1000 points may purchase a magic standard worth up to 50 points",
         "name_de": "0-1 Goblin-Wolfsreiter-Mob pro 1.000 Punkte kann eine Magische Standarte erwerben im Wert von bis zu 50 Punkten",
-        "name_fr": "0-1 Bande de Gobelins sur Loups par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points"
+        "name_fr": "0-1 Bande de Gobelins sur Loups par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points",
+        "name_pl": "0-1 Goblin Wilk Jeździec Mob na 1000 punktów może purchase a magic standard worth up do 50 punktów"
       },
       "command": [
         {
@@ -3980,6 +4237,7 @@
           "name_cn": "老大(冠军)",
           "name_de": "Boss (Champion)",
           "name_fr": "Chef (champion)",
+          "name_pl": "Boss (czempion)",
           "points": 7
         },
         {
@@ -3987,6 +4245,7 @@
           "name_cn": "旗手",
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 5,
           "magic": {
             "types": [
@@ -4000,6 +4259,7 @@
           "name_cn": "乐手",
           "name_de": "Musiker",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 5
         }
       ],
@@ -4039,6 +4299,7 @@
           "name_cn": "轻甲",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 1,
           "perModel": true
         }
@@ -4054,7 +4315,8 @@
           "notes": {
             "name_en": "0-1 per 1000 points",
             "name_cn": "每1000分0-1",
-            "name_fr": "0-1 par tranche de 1000 points"
+            "name_fr": "0-1 par tranche de 1000 points",
+            "name_pl": "0-1 na 1000 punktów"
           },
           "name_pl": "Udawany odwrót"
         },
@@ -4069,7 +4331,8 @@
             "name_en": "0-1 per 1000 points",
             "name_cn": "每1000分0-1",
             "name_de": "0-1 per 1.000 Punkte",
-            "name_fr": "0-1 par tranche de 1000 points"
+            "name_fr": "0-1 par tranche de 1000 points",
+            "name_pl": "0-1 na 1000 punktów"
           },
           "name_pl": "Manewr Rezerwowy"
         },
@@ -4099,7 +4362,8 @@
             "name_en": "0-1 Goblin Wolf Rider Mob if Kiknik is in the army",
             "name_cn": "0-1Goblin Wolf Rider Mob if Kiknik is in the army",
             "name_de": "0-1 Goblin Wolfsreiter-Mob, wenn Kiknik Teil der Armee ist",
-            "name_fr": "0-1 Bande de Gobelins sur Loups si Kiknik est dans l'armée"
+            "name_fr": "0-1 Bande de Gobelins sur Loups si Kiknik est dans l'armée",
+            "name_pl": "0-1 Goblin Wilk Jeździec Mob jeśli Kiknik is w the armia"
           },
           "name_pl": "Zasadzka"
         },
@@ -4116,7 +4380,8 @@
             "name_en": "Replace Open Order and Skirmishers",
             "name_cn": "替换 开放阵型 和 散兵",
             "name_de": "Ersetzt Offene Ränge und Plänkler",
-            "name_fr": "Remplace Ordre Dispersé et Tirailleurs"
+            "name_fr": "Remplace Ordre Dispersé et Tirailleurs",
+            "name_pl": "Replace Luźny Szyk i Harcownicy"
           },
           "name_pl": "Zwarty Szyk, Horda"
         }
@@ -4126,7 +4391,8 @@
         "name_en": "Chariot Runners, Fast Cavalry, Fear of Elves, Fire & Flee, Impetuous, Open Order, Skirmishers, Swiftstride, Warband",
         "name_cn": "战车骑伴, 快速骑兵, 惧怕精灵, 游击, 鲁莽, 开放阵型, 散兵, 快速行进, 战帮",
         "name_de": "Streitwagengarde, Wendige Kavallerie, Angst vor Elfen, Schießen und Verschwinden, Ungestüm, Offene Ränge, Plänkler, Schnelle Bewegung, Kriegerschar",
-        "name_fr": "Escorteurs de Chars, Cavalerie Rapide, Peur des Elfes, Tir & Fuite, Impétueux, Ordre Dispersé, Tirailleurs, Rapide, Bande de Guerre"
+        "name_fr": "Escorteurs de Chars, Cavalerie Rapide, Peur des Elfes, Tir & Fuite, Impétueux, Ordre Dispersé, Tirailleurs, Rapide, Bande de Guerre",
+        "name_pl": "Rydwan Runners, Szybka Kawaleria, Strach of Elfy, Ogień I Odwrót, Impet, Luźny Szyk, Harcownicy, Szybki Krok, Gromada"
       }
     },
     {
@@ -4146,7 +4412,8 @@
             "name_en": "0-1 Orc Boar Boy Mob may be taken as a Core choice if your General is an Orc Boss , 0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard worth up to 50 points",
             "name_cn": "0-1 Orc Boar Boy Mob may be taken as a Core choice if your General is an Orc Boss, 0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard worth up to 50 points",
             "name_de": "0-1 Ork-Wildschweinreiter-Mob können als Kernauswahl gewählt werden, wenn dein General ein Ork-Boss ist, 0-1 Ork-Wildschweinreiter-Mob pro 1.000 Punkte kann eine Magische Standarte erwerben im Wert von bis zu 50 Punkten",
-            "name_fr": "0-1 Bande d'Orques sur Sangliers peut être prise comme Unité de Base si votre Général est un Chef Orque , 0-1 Bande d'Orques sur Sangliers par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points"
+            "name_fr": "0-1 Bande d'Orques sur Sangliers peut être prise comme Unité de Base si votre Général est un Chef Orque , 0-1 Bande d'Orques sur Sangliers par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points",
+            "name_pl": "0-1 Ork Boar Boy Mob może be taken jako a Podstawowy choice jeśli twoja Generał is an Ork Boss , 0-1 Ork Boar Boy Mob na 1000 punktów może purchase a magic standard worth up do 50 punktów"
           }
         }
       },
@@ -4156,6 +4423,7 @@
           "name_cn": "老大(冠军)",
           "name_de": "Boss (Champion)",
           "name_fr": "Chef (champion)",
+          "name_pl": "Boss (czempion)",
           "points": 8,
           "magic": {
             "types": [
@@ -4172,6 +4440,7 @@
           "name_cn": "旗手",
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -4185,6 +4454,7 @@
           "name_cn": "乐手",
           "name_de": "Musiker",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -4216,6 +4486,7 @@
           "name_cn": "轻甲",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -4225,6 +4496,7 @@
           "name_cn": "重甲",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 1,
           "perModel": true
         },
@@ -4233,13 +4505,15 @@
           "name_cn": "狂暴",
           "name_de": "Raserei",
           "name_fr": "Frénésie",
+          "name_pl": "Szał",
           "points": 1,
           "perModel": true,
           "notes": {
             "name_en": "0-1 per 1000 points",
             "name_cn": "每1000分0-1",
             "name_de": "0-1 pro 1.000 Punkte",
-            "name_fr": "0-1 par tranche de 1000 points"
+            "name_fr": "0-1 par tranche de 1000 points",
+            "name_pl": "0-1 na 1000 punktów"
           }
         }
       ],
@@ -4266,7 +4540,8 @@
             "name_en": "0-1 per army",
             "name_cn": "0-1per army",
             "name_de": "0-1 pro Armee",
-            "name_fr": "0-1 par armée"
+            "name_fr": "0-1 par armée",
+            "name_pl": "0-1 na armia"
           },
           "name_pl": "Wielcy"
         },
@@ -4280,7 +4555,8 @@
           "notes": {
             "name_en": "If frenzied",
             "name_cn": "若具有狂暴",
-            "name_fr": "Si frénétique"
+            "name_fr": "Si frénétique",
+            "name_pl": "Jeśli frenzied"
           },
           "name_pl": "Malowanie wojenne"
         },
@@ -4297,7 +4573,8 @@
           "notes": {
             "name_en": "0-1 per 1000 points",
             "name_cn": "每1000分0-1",
-            "name_fr": "0-1 par tranche de 1000 points"
+            "name_fr": "0-1 par tranche de 1000 points",
+            "name_pl": "0-1 na 1000 punktów"
           },
           "name_pl": "Awangarda"
         }
@@ -4308,7 +4585,8 @@
         "name_cn": "坚硬皮肤(1), 大砍刀, 紧密阵型, 反制冲锋, 狂怒冲锋(Orc Boar Boys & Boss only), 无视地精恐慌, 鲁莽, 快速行进, 獠牙冲锋, 战帮",
         "name_de": "Zähe Haut (1), Spaltas, Geschlossen Ränge, Gegenangriff, Rasender Angriff (nur Ork-Wildschweinreiter und Boss), Goblin-Panik ignorieren, Ungestüm, Schnelle Bewegung, Hauerangriff, Kriegerschar",
         "name_es": "Armoured Hide (1), Choppas, Close Order, Counter Charge, Furious Charge (Orc Boar Boys & Boss only), Ignore Goblin Panic, Impetuous, Swiftstride, Tusker Charge, Warband",
-        "name_fr": "Peau Blindée (1), Kikoup', Ordre Serré, Contre-charge, Charge Dévastatrice (Orques sur Sangliers & Chef uniquement), Ignore la Panique des Gobelins, Impétueux, Rapide, Charge de Sanglier, Bande de Guerre"
+        "name_fr": "Peau Blindée (1), Kikoup', Ordre Serré, Contre-charge, Charge Dévastatrice (Orques sur Sangliers & Chef uniquement), Ignore la Panique des Gobelins, Impétueux, Rapide, Charge de Sanglier, Bande de Guerre",
+        "name_pl": "Opancerzona Skóra (1), Choppas, Zwarty Szyk, Przeciwnatarcie, Wściekła Szarża (Ork Boar Boys & Boss only), Ignore Goblin Panic, Impet, Szybki Krok, Tusker Charge, Gromada"
       }
     },
     {
@@ -4329,7 +4607,8 @@
             "name_cn": "0-1 Night Goblin Squig Herd per Night Goblin Chief or Night Goblin Shaman taken",
             "name_de": "0-1 Nachtgoblin-Squigherde pro gewähltem Nachtgoblin-Boss oder Nachtgobline-Schamanen",
             "name_es": "0-1 Night Goblin Squig Herd per Night Goblin Chief or Night Goblin Shaman taken",
-            "name_fr": "0-1 Troupeau de Squigs Gobelins de la Nuit par Chef Gobelin de la Nuit ou Chamane Gobelin de la Nuit sélectionné"
+            "name_fr": "0-1 Troupeau de Squigs Gobelins de la Nuit par Chef Gobelin de la Nuit ou Chamane Gobelin de la Nuit sélectionné",
+            "name_pl": "0-1 Night Goblin Squig Herd na Night Goblin Wódz lub Night Goblin Szaman taken"
           }
         }
       },
@@ -4350,7 +4629,8 @@
             "name_en": "At least 1 per 5 Squigs",
             "name_cn": "每五个洞穴跳跳至少有一个",
             "name_de": "Mindestens 1 pro 5 Squigs",
-            "name_fr": "Au moins 1 par tranche de 5 Squigs"
+            "name_fr": "Au moins 1 par tranche de 5 Squigs",
+            "name_pl": "At least 1 na 5 Squigs"
           },
           "name_pl": "Pasterz Squigów"
         },
@@ -4372,7 +4652,8 @@
         "name_cn": "仇恨(矮人), 心理免疫, 鲁莽, 独行, 散兵游勇, 开放阵型, 散兵, 跳跳发狂, 战帮",
         "name_de": "Hass (Zwege), Immun gegen Psychologie, Ungestüm, Einzelgänger, Zusammengewürfelter Haufen, Offene Ränge, Plänkler, Squig-Amok, Kriegerschar",
         "name_es": "Hatred (Dwarfs), Immune to Psychology, Impetuous, Loner, Motley Crew, Open Order, Skirmishers, Squigs Go Wild, Warband",
-        "name_fr": "Haine (Nains), Immunisé à la Psychologie, Impétueux, Solitaire, Bande Hétéroclite, Ordre Dispersé, Tirailleurs, Squigs Sauvages, Bande de Guerre"
+        "name_fr": "Haine (Nains), Immunisé à la Psychologie, Impétueux, Solitaire, Bande Hétéroclite, Ordre Dispersé, Tirailleurs, Squigs Sauvages, Bande de Guerre",
+        "name_pl": "Nienawiść (Krasnoludy), Odporność Na Psychologię, Impet, Samotnik, Zbieranina, Luźny Szyk, Harcownicy, Squigs Go Dziki, Gromada"
       }
     },
     {
@@ -4382,7 +4663,7 @@
       "name_es": "Black Orc Boar Chariot",
       "name_fr": "Char à Sangliers Orque Noir",
       "name_it": "Black Orc Boar Chariot",
-      "name_pl": "Black Orc Boar Chariot",
+      "name_pl": "Czarny Ork Boar Rydwan",
       "id": "black-orc-boar-chariot",
       "points": 130,
       "armyComposition": {
@@ -4392,7 +4673,8 @@
             "name_en": "0-1 Black Orc Boar Chariot may be taken as a Core choice if your General is a Black Orc Boss",
             "name_cn": "0-1Black Orc Boar Chariot may be taken as a Core choice if your General is a Black Orc Boss",
             "name_de": "0-1 Schwarzork-Wildschweinstreitwagen kann als Kernauswahl gewählt, wenn dein General ein Schwarzork-Boss ist",
-            "name_fr": "0-1 Char à Sangliers Orque Noir peut être pris comme Unité de Base si votre Général est un Chef Orque Noir"
+            "name_fr": "0-1 Char à Sangliers Orque Noir peut être pris comme Unité de Base si votre Général est un Chef Orque Noir",
+            "name_pl": "0-1 Czarny Ork Boar Rydwan może be taken jako a Podstawowy choice jeśli twoja Generał is a Czarny Ork Boss"
           }
         }
       },
@@ -4404,7 +4686,7 @@
           "name_es": "Standard bearer",
           "name_fr": "Porte-étendard",
           "name_it": "Standard bearer",
-          "name_pl": "Standard bearer",
+          "name_pl": "Sztandarowy",
           "points": 10,
           "magic": {
             "types": [],
@@ -4420,7 +4702,7 @@
           "name_es": "Hand weapon, Additional hand weapon",
           "name_fr": "Arme de base, Arme de base additionnelle",
           "name_it": "Hand weapon, Additional hand weapon",
-          "name_pl": "Hand weapon, Additional hand weapon",
+          "name_pl": "Broń Ręczna, Dodatkowa Broń Ręczna",
           "points": 2,
           "active": true
         },
@@ -4431,7 +4713,7 @@
           "name_es": "Hand weapon, Great weapon",
           "name_fr": "Arme de base, Arme lourde",
           "name_it": "Hand weapon, Great weapon",
-          "name_pl": "Hand weapon, Great weapon",
+          "name_pl": "Broń Ręczna, Broń Wielka",
           "points": 4,
           "active": false
         }
@@ -4442,7 +4724,8 @@
           "name_cn": "3+",
           "points": 0,
           "active": true,
-          "name_fr": "3+"
+          "name_fr": "3+",
+          "name_pl": "3+"
         }
       ],
       "options": [],
@@ -4456,7 +4739,7 @@
         "name_es": "Choppas, Close Order, First Charge, Furious Charge (Black Orc Crew only), Ignore Panic, Impact Hits (D6+1), Tusker Charge",
         "name_fr": "Kikoup', Ordre Serré, Première Charge, Charge Dévastatrice (Auriges Orques Noirs uniquement), Ignore la Panique, Touches d'Impact (D6+1), Charge de Sanglier",
         "name_it": "Choppas, Close Order, First Charge, Furious Charge (Black Orc Crew only), Ignore Panic, Impact Hits (D6+1), Tusker Charge",
-        "name_pl": "Choppas, Close Order, First Charge, Furious Charge (Black Orc Crew only), Ignore Panic, Impact Hits (D6+1), Tusker Charge"
+        "name_pl": "Choppas, Zwarty Szyk, Pierwsza Szarża, Wściekła Szarża (Czarny Ork Załoga only), Ignore Panic, Uderzenia Impetu (D6+1), Tusker Charge"
       }
     }
   ],
@@ -4482,6 +4765,7 @@
           "name_cn": "老大(冠军)",
           "name_de": "Boss (Champion)",
           "name_fr": "Chef (champion)",
+          "name_pl": "Boss (czempion)",
           "points": 6,
           "magic": {
             "types": [
@@ -4498,6 +4782,7 @@
           "name_cn": "旗手",
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -4511,6 +4796,7 @@
           "name_cn": "乐手",
           "name_de": "Musiker",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -4532,6 +4818,7 @@
           "name_cn": "全身甲",
           "name_de": "Plattenrüstung",
           "name_fr": "Armure de plate complète",
+          "name_pl": "Pełna Zbroja Płytowa",
           "points": 0,
           "perModel": true,
           "active": true
@@ -4594,7 +4881,8 @@
         "name_cn": "大砍刀, 紧密阵型, 大只佬, 狂怒冲锋, 无视恐慌, 散兵游勇, 抑制鲁莽",
         "name_de": "Spaltas, Geschlossen Ränge, Da Jungs, Rasender Angriff, Panik ignorieren, Zusammengewürfelter Haufen, Ungestüm unterdrücken",
         "name_es": "Choppas, Close Order, Da Boyz, Furious Charge, Ignore Panic, Motley Crew, Quell Impetuosity",
-        "name_fr": "Kikoup', Ordre Serré, Lé Boyz, Charge Dévastatrice, Ignore la Panique, Bande Hétéroclite, Calme l'Impétuosité"
+        "name_fr": "Kikoup', Ordre Serré, Lé Boyz, Charge Dévastatrice, Ignore la Panique, Bande Hétéroclite, Calme l'Impétuosité",
+        "name_pl": "Choppas, Zwarty Szyk, Da Boyz, Wściekła Szarża, Ignore Panic, Zbieranina, Quell Impetuosity"
       }
     },
     {
@@ -4614,7 +4902,8 @@
             "name_de": "0-1 Ork-Wilschweinreiter-Mob pro 1.000 Punkte können eine Magische Standarte im Wert von bis zu 50 Punkten erwerben",
             "name_en": "0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard worth up to 50 points",
             "name_cn": "0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard worth up to 50 points",
-            "name_fr": "0-1 Bande d'Orques sur Sangliers par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points"
+            "name_fr": "0-1 Bande d'Orques sur Sangliers par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points",
+            "name_pl": "0-1 Ork Boar Boy Mob na 1000 punktów może purchase a magic standard worth up do 50 punktów"
           }
         },
         "troll-horde": {
@@ -4623,7 +4912,8 @@
             "name_en": "0-1 Orc Boar Boy Mob per 1000 points, 0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard worth up to 50 points",
             "name_cn": "每1000分0-1兽人战猪小子战帮, 0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard worth up to 50 points",
             "name_de": "0-1 0-1 Ork-Wilschweinreiter-Mob pro 1.000 Punkte, 0-1 Ork-Wilschweinreiter-Mob pro 1.000 Punkte können eine Magische Standarte im Wert von bis zu 50 Punkten erwerben",
-            "name_fr": "0-1 Bande d'Orques sur Sangliers par tranche de 1000 points, 0-1 Bande d'Orques sur Sangliers par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points"
+            "name_fr": "0-1 Bande d'Orques sur Sangliers par tranche de 1000 points, 0-1 Bande d'Orques sur Sangliers par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points",
+            "name_pl": "0-1 Ork Boar Boy Mob na 1000 punktów, 0-1 Ork Boar Boy Mob na 1000 punktów może purchase a magic standard worth up do 50 punktów"
           }
         },
         "nomadic-waaagh": {
@@ -4632,7 +4922,8 @@
             "name_de": "0-1 Ork-Wilschweinreiter-Mob pro 1.000 Punkte können eine Magische Standarte im Wert von bis zu 50 Punkten erwerben",
             "name_en": "0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard worth up to 50 points",
             "name_cn": "0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard worth up to 50 points",
-            "name_fr": "0-1 Bande d'Orques sur Sangliers par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points"
+            "name_fr": "0-1 Bande d'Orques sur Sangliers par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points",
+            "name_pl": "0-1 Ork Boar Boy Mob na 1000 punktów może purchase a magic standard worth up do 50 punktów"
           }
         }
       },
@@ -4642,6 +4933,7 @@
           "name_cn": "老大(冠军)",
           "name_de": "Boss (Champion)",
           "name_fr": "Chef (champion)",
+          "name_pl": "Boss (czempion)",
           "points": 8,
           "magic": {
             "types": [
@@ -4658,6 +4950,7 @@
           "name_cn": "旗手",
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -4671,6 +4964,7 @@
           "name_cn": "乐手",
           "name_de": "Musiker",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -4702,6 +4996,7 @@
           "name_cn": "轻甲",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -4711,6 +5006,7 @@
           "name_cn": "重甲",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 1,
           "perModel": true
         },
@@ -4719,13 +5015,15 @@
           "name_cn": "狂暴",
           "name_de": "Raserei",
           "name_fr": "Frénésie",
+          "name_pl": "Szał",
           "points": 1,
           "perModel": true,
           "notes": {
             "name_en": "0-1 per 1000 points",
             "name_cn": "每1000分0-1",
             "name_de": "0-1 pro 1.000 Punkte",
-            "name_fr": "0-1 par tranche de 1000 points"
+            "name_fr": "0-1 par tranche de 1000 points",
+            "name_pl": "0-1 na 1000 punktów"
           }
         }
       ],
@@ -4750,7 +5048,8 @@
             "name_en": "0-1 per army",
             "name_cn": "0-1per army",
             "name_de": "0-1 pro Armee",
-            "name_fr": "0-1 par armée"
+            "name_fr": "0-1 par armée",
+            "name_pl": "0-1 na armia"
           },
           "name_pl": "Wielcy"
         },
@@ -4764,7 +5063,8 @@
           "notes": {
             "name_en": "If frenzied",
             "name_cn": "若具有狂暴",
-            "name_fr": "Si frénétique"
+            "name_fr": "Si frénétique",
+            "name_pl": "Jeśli frenzied"
           },
           "name_pl": "Malowanie wojenne"
         },
@@ -4782,7 +5082,8 @@
             "name_en": "0-1 per 1000 points",
             "name_cn": "每1000分0-1",
             "name_de": "0-1 pro 1.000 Punkte",
-            "name_fr": "0-1 par tranche de 1000 points"
+            "name_fr": "0-1 par tranche de 1000 points",
+            "name_pl": "0-1 na 1000 punktów"
           },
           "name_pl": "Awangarda"
         }
@@ -4793,7 +5094,8 @@
         "name_cn": "坚硬皮肤(1), 大砍刀, 紧密阵型, 反制冲锋, 狂怒冲锋(Orc Boar Boys & Boss only), 无视地精恐慌, 鲁莽, 快速行进, 獠牙冲锋, 战帮",
         "name_de": "Zähe Haut (1), Spaltas, Geschlossen Ränge, Gegenangriff, Rasender Angriff (nur Wildschweinreiter und Boss), Goblin-Panik ignorieren, Ungestüm, Schnelle Bewegung, Hauerangriff, Kriegerschar",
         "name_es": "Armoured Hide (1), Choppas, Close Order, Counter Charge, Furious Charge (Orc Boar Boys & Boss only), Ignore Goblin Panic, Impetuous, Swiftstride, Tusker Charge, Warband",
-        "name_fr": "Peau Blindée (1), Kikoup', Ordre Serré, Contre-charge, Charge Dévastatrice (Orques sur Sangliers & Chef uniquement), Ignore la Panique des Gobelins, Impétueux, Rapide, Charge de Sanglier, Bande de Guerre"
+        "name_fr": "Peau Blindée (1), Kikoup', Ordre Serré, Contre-charge, Charge Dévastatrice (Orques sur Sangliers & Chef uniquement), Ignore la Panique des Gobelins, Impétueux, Rapide, Charge de Sanglier, Bande de Guerre",
+        "name_pl": "Opancerzona Skóra (1), Choppas, Zwarty Szyk, Przeciwnatarcie, Wściekła Szarża (Ork Boar Boys & Boss only), Ignore Goblin Panic, Impet, Szybki Krok, Tusker Charge, Gromada"
       }
     },
     {
@@ -4817,6 +5119,7 @@
           "name_cn": "老大(冠军)",
           "name_de": "Boss (Champion)",
           "name_fr": "Chef (champion)",
+          "name_pl": "Boss (czempion)",
           "points": 6,
           "magic": {
             "types": [
@@ -4870,14 +5173,16 @@
         "name_cn": "0-1 Night Goblin Squig Hopper Mob per Night Goblin Chief or Night Goblin Shaman taken",
         "name_de": "0-1 Nachtgoblin-Squighoppa-Mob pro gewähltem Nachtgoblin-Boss oder Nachtgobline-Schamane",
         "name_es": "0-1 Night Goblin Squig Hopper Mob per Night Goblin Chief or Night Goblin Shaman taken",
-        "name_fr": "0-1 Bande de Gobelins de la Nuit sur Squigs par Chef Gobelin de la Nuit ou Chamane Gobelin de la Nuit sélectionné"
+        "name_fr": "0-1 Bande de Gobelins de la Nuit sur Squigs par Chef Gobelin de la Nuit ou Chamane Gobelin de la Nuit sélectionné",
+        "name_pl": "0-1 Night Goblin Squig Hopper Mob na Night Goblin Wódz lub Night Goblin Szaman taken"
       },
       "specialRules": {
         "name_en": "Hatred (Dwarfs), Immune to Psychology, Impact Hits (1), Loner, Open Order, Random Movement, Skirmishers, Warband",
         "name_cn": "仇恨(矮人), 心理免疫, 撞击(1), 独行, 开放阵型, 随机移动, 散兵, 战帮",
         "name_de": "Hass (Zwege), Immun gegen Psychologie, Aufpralltreffer (1), Einzelgänger, Offene Ränge, Zufällige Bewegung, Plänkler, Kriegerschar",
         "name_es": "Hatred (Dwarfs), Immune to Psychology, Impact Hits (1), Loner, Open Order, Random Movement, Skirmishers, Warband",
-        "name_fr": "Haine (Nains), Immunisé à la Psychologie, Touches d'Impact (1), Solitaire, Ordre Dispersé, Mouvement Aléatoire, Tirailleurs, Bande de Guerre"
+        "name_fr": "Haine (Nains), Immunisé à la Psychologie, Touches d'Impact (1), Solitaire, Ordre Dispersé, Mouvement Aléatoire, Tirailleurs, Bande de Guerre",
+        "name_pl": "Nienawiść (Krasnoludy), Odporność Na Psychologię, Uderzenia Impetu (1), Samotnik, Luźny Szyk, Random Movement, Harcownicy, Gromada"
       }
     },
     {
@@ -4897,7 +5202,8 @@
           "notes": {
             "name_en": "0-1 Orc Boar Chariot per 1000 points",
             "name_cn": "每1000分0-1兽人野猪战车",
-            "name_fr": "0-1 Char à Sangliers Orque par tranche de 1000 points"
+            "name_fr": "0-1 Char à Sangliers Orque par tranche de 1000 points",
+            "name_pl": "0-1 Ork Boar Rydwan na 1000 punktów"
           }
         },
         "nomadic-waaagh": {
@@ -4923,7 +5229,8 @@
           "name_cn": "4+",
           "points": 0,
           "active": true,
-          "name_fr": "4+"
+          "name_fr": "4+",
+          "name_pl": "4+"
         }
       ],
       "options": [
@@ -4945,12 +5252,14 @@
             {
               "name_en": "If 2 crew members",
               "name_cn": "If 2 crew members",
-              "name_fr": "Si 2 auriges"
+              "name_fr": "Si 2 auriges",
+              "name_pl": "Jeśli 2 załoga members"
             },
             {
               "name_en": "0-1 per 1000 points",
               "name_cn": "0-1 per 1000 points",
-              "name_fr": "0-1 par tranche de 1000 points"
+              "name_fr": "0-1 par tranche de 1000 points",
+              "name_pl": "0-1 na 1000 punktów"
             }
           ],
           "name_pl": "Furia"
@@ -4965,12 +5274,14 @@
             {
               "name_en": "If 3 crew members",
               "name_cn": "If 3 crew members",
-              "name_fr": "Si 3 auriges"
+              "name_fr": "Si 3 auriges",
+              "name_pl": "Jeśli 3 załoga members"
             },
             {
               "name_en": "0-1 per 1000 points",
               "name_cn": "0-1 per 1000 points",
-              "name_fr": "0-1 par tranche de 1000 points"
+              "name_fr": "0-1 par tranche de 1000 points",
+              "name_pl": "0-1 na 1000 punktów"
             }
           ],
           "name_pl": "Furia"
@@ -4984,7 +5295,8 @@
           "notes": {
             "name_en": "If frenzied",
             "name_cn": "若具有狂暴",
-            "name_fr": "Si frénétique"
+            "name_fr": "Si frénétique",
+            "name_pl": "Jeśli frenzied"
           },
           "name_pl": "Malowanie wojenne"
         }
@@ -4995,7 +5307,8 @@
         "name_cn": "大砍刀, 紧密阵型, 先行冲锋, 无视地精恐慌, 撞击(D6+1), 鲁莽, 獠牙冲锋, 战帮",
         "name_de": "Spaltas, Geschlossen Ränge, Erster Angriff, Goblin-Panik ignorieren, Aufpralltreffer (W6+1), Ungestüm, Hauerangriff, Kriegerschar",
         "name_es": "Choppas, Close Order, First Charge, Ignore Goblin Panic, Impact Hits (D6+1), Impetuous, Tusker Charge, Warband",
-        "name_fr": "Kikoup', Ordre Serré, Première Charge, Ignore la Panique des Gobelins, Touches d'Impact (D6+1), Impétueux, Charge de Sanglier, Bande de Guerre"
+        "name_fr": "Kikoup', Ordre Serré, Première Charge, Ignore la Panique des Gobelins, Touches d'Impact (D6+1), Impétueux, Charge de Sanglier, Bande de Guerre",
+        "name_pl": "Choppas, Zwarty Szyk, Pierwsza Szarża, Ignore Goblin Panic, Uderzenia Impetu (D6+1), Impet, Tusker Charge, Gromada"
       }
     },
     {
@@ -5036,13 +5349,15 @@
           "name_cn": "轻甲",
           "name_fr": "Armure légère",
           "name_de": "Leichte Rüstung",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "active": true,
           "notes": {
             "name_en": "Calloused hide",
             "name_cn": "坚硬皮肤",
             "name_fr": "Peau calleuse",
-            "name_de": "Schwielige Haut"
+            "name_de": "Schwielige Haut",
+            "name_pl": "Zrogowaciała skóra"
           }
         }
       ],
@@ -5075,7 +5390,8 @@
         "name_cn": "碎甲攻击(1), 紧密阵型, 恐惧, 易燃, 重生(5+), 愚笨, Motley Crew",
         "name_de": "Rüstungsfluch (1), Geschlossen Ränge, Angst, Brennbar, Regeneration (5+), Blödheit, Motley Crew",
         "name_es": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity, Motley Crew",
-        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Inflammable, Régénération (5+), Stupidité, Bande Hétéroclite"
+        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Inflammable, Régénération (5+), Stupidité, Bande Hétéroclite",
+        "name_pl": "Przebicie Zbroi (1), Zwarty Szyk, Strach, Łatwopalny, Regeneracja (5+), Stupidity, Zbieranina"
       }
     },
     {
@@ -5115,13 +5431,15 @@
           "name_en": "Light armour",
           "name_cn": "轻甲",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "active": true,
           "notes": {
             "name_en": "Calloused hide",
             "name_cn": "坚硬皮肤",
             "name_fr": "Peau calleuse",
-            "name_de": "Schwielige Haut"
+            "name_de": "Schwielige Haut",
+            "name_pl": "Zrogowaciała skóra"
           }
         }
       ],
@@ -5154,7 +5472,8 @@
         "name_cn": "碎甲攻击(1), 紧密阵型, 恐惧, 易燃, 重生(5+), 愚笨, Motley Crew",
         "name_de": "Rüstungsfluch (1), Geschlossen Ränge, Angst, Brennbar, Regeneration (5+), Blödheit, Motley Crew",
         "name_es": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity, Motley Crew",
-        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Inflammable, Régénération (5+), Stupidité, Bande Hétéroclite"
+        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Inflammable, Régénération (5+), Stupidité, Bande Hétéroclite",
+        "name_pl": "Przebicie Zbroi (1), Zwarty Szyk, Strach, Łatwopalny, Regeneracja (5+), Stupidity, Zbieranina"
       }
     },
     {
@@ -5195,13 +5514,15 @@
           "name_cn": "轻甲",
           "name_fr": "Armure légère",
           "name_de": "Leichte Rüstung",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "active": true,
           "notes": {
             "name_en": "Calloused hide",
             "name_cn": "坚硬皮肤",
             "name_fr": "Peau calleuse",
-            "name_de": "Schwielige Haut"
+            "name_de": "Schwielige Haut",
+            "name_pl": "Zrogowaciała skóra"
           }
         }
       ],
@@ -5234,7 +5555,8 @@
         "name_cn": "碎甲攻击(1), 坚硬皮肤(1), 紧密阵型, 恐惧, 易燃, 魔法抗性(-1), 重生(5+), 愚笨, Motley Crew",
         "name_de": "Rüstungsfluch (1), Zähe Haut (1), Geschlossen Ränge, Angst, Brennbar, Magieresistenz (-1), Regeneration (5+), Blödheit, Motley Crew",
         "name_es": "Armour Bane (1), Armoured Hide (1), Close Order, Fear, Flammable, Magic Resistance (-1), Regeneration (5+), Stupidity, Motley Crew",
-        "name_fr": "Arme Perforante (1), Peau Blindée (1), Ordre Serré, Peur, Inflammable, Résistance à la Magie (-1), Régénération (5+), Stupidité, Bande Hétéroclite"
+        "name_fr": "Arme Perforante (1), Peau Blindée (1), Ordre Serré, Peur, Inflammable, Résistance à la Magie (-1), Régénération (5+), Stupidité, Bande Hétéroclite",
+        "name_pl": "Przebicie Zbroi (1), Opancerzona Skóra (1), Zwarty Szyk, Strach, Łatwopalny, Odporność Na Magię (-1), Regeneracja (5+), Stupidity, Zbieranina"
       }
     },
     {
@@ -5264,6 +5586,7 @@
           "name_cn": "旗手",
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 5
         }
       ],
@@ -5285,7 +5608,8 @@
           "name_cn": "5+",
           "points": 0,
           "active": true,
-          "name_fr": "5+"
+          "name_fr": "5+",
+          "name_pl": "5+"
         }
       ],
       "options": [
@@ -5308,7 +5632,8 @@
         "name_cn": "惧怕精灵, 撞击(D3+1), 鲁莽, 开放阵型, 快速行进, 战帮",
         "name_de": "Angst vor Elfen, Aufpralltreffer (W3+1), Ungestüm, Offene Ränge, Schnelle Bewegung, Kriegerschar",
         "name_es": "Fear of Elves, Impact Hits (D3+1), Impetuous, Open Order, Swiftstride, Warband",
-        "name_fr": "Peur des Elfes, Touches d'Impact (D3+1), Impétueux, Ordre Dispersé, Rapide, Bande de Guerre"
+        "name_fr": "Peur des Elfes, Touches d'Impact (D3+1), Impétueux, Ordre Dispersé, Rapide, Bande de Guerre",
+        "name_pl": "Strach of Elfy, Uderzenia Impetu (D3+1), Impet, Luźny Szyk, Szybki Krok, Gromada"
       }
     },
     {
@@ -5349,7 +5674,8 @@
         "name_cn": "碎甲攻击(3 - Impact Hits), 心理免疫, 撞击(D3+1), 独行, 开放阵型, 随机移动",
         "name_de": "Rüstungsfluch (3 - Aufpralltreffer), Immun gegen Psychologie, Impact Hits (W3+1), Einzelgänger, Offene Ränge, Zufällige Bewegung",
         "name_es": "Armour Bane (3 - Impact Hits), Immune to Psychology, Impact Hits (D3+1), Loner, Open Order, Random Movement",
-        "name_fr": "Arme Perforante (3 - Touches d'Impact), Immunisé à la Psychologie, Touches d'Impact (D3+1), Solitaire, Ordre Dispersé, Mouvement Aléatoire"
+        "name_fr": "Arme Perforante (3 - Touches d'Impact), Immunisé à la Psychologie, Touches d'Impact (D3+1), Solitaire, Ordre Dispersé, Mouvement Aléatoire",
+        "name_pl": "Przebicie Zbroi (3 - Uderzenia Impetu), Odporność Na Psychologię, Uderzenia Impetu (D3+1), Samotnik, Luźny Szyk, Random Movement"
       }
     },
     {
@@ -5395,14 +5721,16 @@
         "name_cn": "每1000分0-2Goblin Bolt Throwas",
         "name_de": "0-2 Goblin-Speerschleudas pro 1.000 Punkte",
         "name_es": "0-2 Goblin Bolt Throwas per 1000 points",
-        "name_fr": "0-2 Balistes Gobelines par tranche de 1000 points"
+        "name_fr": "0-2 Balistes Gobelines par tranche de 1000 points",
+        "name_pl": "0-2 Goblin Bolt Throwas na 1000 punktów"
       },
       "specialRules": {
         "name_en": "Fear of Elves, Skirmishers",
         "name_cn": "惧怕精灵, 散兵",
         "name_de": "Angst vor Elfen, Plänkler",
         "name_es": "Fear of Elves, Skirmishers",
-        "name_fr": "Peur des Elfes, Tirailleurs"
+        "name_fr": "Peur des Elfes, Tirailleurs",
+        "name_pl": "Strach of Elfy, Harcownicy"
       }
     }
   ],
@@ -5434,6 +5762,7 @@
           "name_cn": "轻甲",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true,
@@ -5441,7 +5770,8 @@
             "name_en": "Calloused hide",
             "name_cn": "坚硬皮肤",
             "name_de": "Schwielige Haut",
-            "name_fr": "Peau calleuse"
+            "name_fr": "Peau calleuse",
+            "name_pl": "Zrogowaciała skóra"
           }
         }
       ],
@@ -5452,7 +5782,8 @@
         "name_cn": "紧密阵型, 巨人攻击, 心理免疫, 大型目标, 打包, 践踏攻击(D6), 惊骇, 倒啦！, 永不战败",
         "name_de": "Geschlossen Ränge, Riesenattacken, Immun gegen Psychologie, Großes Ziel, Greifen und..., Stampfattacken (W6), Entsetzen, Baum fällt!, Unerschütterlich",
         "name_es": "Close Order, Giant Attacks, Immune to Psychology, Large Target, Pick Up And..., Stomp Attacks (D6), Terror, Timmm-berrr!, Unbreakable",
-        "name_fr": "Ordre Serré, Attaques de Géant, Immunisé à la Psychologie, Grande Cible, Ramassage, Attaques de Piétinement (D6), Terreur, Timmm-berrr!, Indémoralisable"
+        "name_fr": "Ordre Serré, Attaques de Géant, Immunisé à la Psychologie, Grande Cible, Ramassage, Attaques de Piétinement (D6), Terreur, Timmm-berrr!, Indémoralisable",
+        "name_pl": "Zwarty Szyk, Olbrzym Attacks, Odporność Na Psychologię, Duży Cel, Pick Up I..., Zdeptanie (D6), Terror, Timmm-berrr!, Niezłomni"
       }
     },
     {
@@ -5497,14 +5828,16 @@
         "name_cn": "每1000分0-1死亡俯冲弹射器",
         "name_de": "0-1 Kamikazekatapult pro 1.000 Punkte",
         "name_es": "0-1 Doom Diver Catapult per 1000 points",
-        "name_fr": "0-1 Catapulte à Plongeurs de la Mort par tranche de 1000 points"
+        "name_fr": "0-1 Catapulte à Plongeurs de la Mort par tranche de 1000 points",
+        "name_pl": "0-1 Doom Diver Catapult na 1000 punktów"
       },
       "specialRules": {
         "name_en": "Doom Diver, Fear of Elves, Skirmishers",
         "name_cn": "死亡俯冲, 惧怕精灵, 散兵",
         "name_de": "Kamikazegoblin, Angst vor Elfen, Plänkler",
         "name_es": "Doom Diver, Fear of Elves, Skirmishers",
-        "name_fr": "Plongeur de la Mort, Peur des Elfes, Tirailleurs"
+        "name_fr": "Plongeur de la Mort, Peur des Elfes, Tirailleurs",
+        "name_pl": "Doom Diver, Strach of Elfy, Harcownicy"
       }
     },
     {
@@ -5549,14 +5882,16 @@
         "name_cn": "每1000分0-1地精抛石机",
         "name_de": "0-1 Goblin-Steinschleuda pro 1.000 Punkte",
         "name_es": "0-1 Goblin Rock Lobber per 1000 points",
-        "name_fr": "0-1 Lance-rocs Gobelin par tranche de 1000 points"
+        "name_fr": "0-1 Lance-rocs Gobelin par tranche de 1000 points",
+        "name_pl": "0-1 Goblin Rock Lobber na 1000 punktów"
       },
       "specialRules": {
         "name_en": "Fear of Elves, Skirmishers",
         "name_cn": "惧怕精灵, 散兵",
         "name_de": "Angst vor Elfen, Plänkler",
         "name_es": "Fear of Elves, Skirmishers",
-        "name_fr": "Peur des Elfes, Tirailleurs"
+        "name_fr": "Peur des Elfes, Tirailleurs",
+        "name_pl": "Strach of Elfy, Harcownicy"
       }
     },
     {
@@ -5605,7 +5940,8 @@
         "name_cn": "紧密阵型, 驼轿, 心理免疫, 大型目标, 穿行掩体, 淬毒攻击, 践踏攻击(D6), 坚毅, 快速行进, 惊骇",
         "name_de": "Geschlossen Ränge, Sänfte, Immun gegen Psychologie, Großes Ziel, Durch Deckung bewegen, Giftattacken, Stampfattacken (W6), Unnachgiebig, Schnelle Bewegung, Entsetzen",
         "name_es": "Close Order, Howdah, Immune to Psychology, Large Target, Move Through Cover, Poisoned Attacks, Stomp Attacks (D6), Stubborn, Swiftstride, Terror",
-        "name_fr": "Ordre Serré, Howdah, Immunisé à la Psychologie, Grande Cible, Mouvement à Couvert, Attaques Empoisonnées, Attaques de Piétinement (D6), Obstiné, Rapide, Terreur"
+        "name_fr": "Ordre Serré, Howdah, Immunisé à la Psychologie, Grande Cible, Mouvement à Couvert, Attaques Empoisonnées, Attaques de Piétinement (D6), Obstiné, Rapide, Terreur",
+        "name_pl": "Zwarty Szyk, Howdah, Odporność Na Psychologię, Duży Cel, Przechodzenie Przez Zasłony, Trujące Ataki, Zdeptanie (D6), Nieugięty, Szybki Krok, Terror"
       }
     },
     {
@@ -5640,6 +5976,7 @@
           "name_cn": "重甲",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true,
@@ -5647,7 +5984,8 @@
             "name_en": "Scaly skin",
             "name_cn": "鳞皮",
             "name_de": "Schuppenhaut",
-            "name_fr": "Peau écailleuse"
+            "name_fr": "Peau écailleuse",
+            "name_pl": "Łuszczasta skóra"
           }
         }
       ],
@@ -5658,14 +5996,16 @@
         "name_cn": "0-1 Mangler Squig per Night Goblin Chief or Night Goblin Shaman taken",
         "name_de": "0-1 Kettensquigs pro gewähltem Nachtgoblin-Boss oder Nachtgobline-Schamane",
         "name_es": "0-1 Mangler Squig per Night Goblin Chief or Night Goblin Shaman taken",
-        "name_fr": "0-1 Squig Broyeur par Chef Gobelin de la Nuit ou Chamane Gobelin de la Nuit sélectionné"
+        "name_fr": "0-1 Squig Broyeur par Chef Gobelin de la Nuit ou Chamane Gobelin de la Nuit sélectionné",
+        "name_pl": "0-1 Mangler Squig na Night Goblin Wódz lub Night Goblin Szaman taken"
       },
       "specialRules": {
         "name_en": "Close Order, Hatred (Dwarfs), Immune to Psychology, Impact Hits (D6), Ker-splat, Large Target, Random Attacks, Random Movement, Spiked Ball & Chains, Stomp Attacks (D3), Timmm-berrr!",
         "name_cn": "紧密阵型, 仇恨(矮人), 心理免疫, 撞击(D6), 咻——啪, 大型目标, 随机攻击, 随机移动, 尖刺链球, 践踏攻击(D3), 倒啦！",
         "name_de": "Geschlossen Ränge, Hass (Zwege), Immun gegen Psychologie, Aufpralltreffer (W6), Garg-Matsch, Großes Ziel, Zufällige Attacken, Zufällige Bewegung, Stachelige Kugelkette, Stampfattacken (W3), Baum fällt!",
         "name_es": "Close Order, Hatred (Dwarfs), Immune to Psychology, Impact Hits (D6), Ker-splat, Large Target, Random Attacks, Random Movement, Spiked Ball & Chains, Stomp Attacks (D3), Timmm-berrr!",
-        "name_fr": "Ordre Serré, Haine (Nains), Immunisé à la Psychologie, Touches d'Impact (D6), Sproutch, Grande Cible, Attaques Aléatoires, Mouvement Aléatoire, Chaînes & Boulets, Attaques de Piétinement (D3), Timmm-berrr!"
+        "name_fr": "Ordre Serré, Haine (Nains), Immunisé à la Psychologie, Touches d'Impact (D6), Sproutch, Grande Cible, Attaques Aléatoires, Mouvement Aléatoire, Chaînes & Boulets, Attaques de Piétinement (D3), Timmm-berrr!",
+        "name_pl": "Zwarty Szyk, Nienawiść (Krasnoludy), Odporność Na Psychologię, Uderzenia Impetu (D6), Ker-splat, Duży Cel, Random Attacks, Random Movement, Spiked Ball & Chains, Zdeptanie (D3), Timmm-berrr!"
       }
     },
     {
@@ -5675,7 +6015,7 @@
       "name_es": "Black Orc Boar Chariot",
       "name_fr": "Char à Sangliers Orque Noir",
       "name_it": "Black Orc Boar Chariot",
-      "name_pl": "Black Orc Boar Chariot",
+      "name_pl": "Czarny Ork Boar Rydwan",
       "id": "black-orc-boar-chariot",
       "points": 130,
       "armyComposition": {
@@ -5691,7 +6031,7 @@
           "name_es": "Standard bearer",
           "name_fr": "Porte-étendard",
           "name_it": "Standard bearer",
-          "name_pl": "Standard bearer",
+          "name_pl": "Sztandarowy",
           "points": 10,
           "magic": {
             "types": [],
@@ -5707,7 +6047,7 @@
           "name_es": "Hand weapon, Additional hand weapon",
           "name_fr": "Arme de base, Arme de base additionnelle",
           "name_it": "Hand weapon, Additional hand weapon",
-          "name_pl": "Hand weapon, Additional hand weapon",
+          "name_pl": "Broń Ręczna, Dodatkowa Broń Ręczna",
           "points": 2,
           "active": true
         },
@@ -5718,7 +6058,7 @@
           "name_es": "Hand weapon, Great weapon",
           "name_fr": "Arme de base, Arme lourde",
           "name_it": "Hand weapon, Great weapon",
-          "name_pl": "Hand weapon, Great weapon",
+          "name_pl": "Broń Ręczna, Broń Wielka",
           "points": 4,
           "active": false
         }
@@ -5730,7 +6070,8 @@
           "name_de": "3+",
           "points": 0,
           "active": true,
-          "name_fr": "3+"
+          "name_fr": "3+",
+          "name_pl": "3+"
         }
       ],
       "options": [],
@@ -5744,7 +6085,7 @@
         "name_es": "Choppas, Close Order, First Charge, Furious Charge (Black Orc Crew only), Ignore Panic, Impact Hits (D6+1), Tusker Charge",
         "name_fr": "Kikoup', Ordre Serré, Première Charge, Charge Dévastatrice (Auriges Orques Noirs uniquement), Ignore la Panique, Touches d'Impact (D6+1), Charge de Sanglier",
         "name_it": "Choppas, Close Order, First Charge, Furious Charge (Black Orc Crew only), Ignore Panic, Impact Hits (D6+1), Tusker Charge",
-        "name_pl": "Choppas, Close Order, First Charge, Furious Charge (Black Orc Crew only), Ignore Panic, Impact Hits (D6+1), Tusker Charge"
+        "name_pl": "Choppas, Zwarty Szyk, Pierwsza Szarża, Wściekła Szarża (Czarny Ork Załoga only), Ignore Panic, Uderzenia Impetu (D6+1), Tusker Charge"
       }
     }
   ],
@@ -5756,7 +6097,7 @@
       "name_es": "Badlands Ogre Bulls",
       "name_fr": "Buffles Ogres des Terres Arides",
       "name_it": "Badlands Ogre Bulls",
-      "name_pl": "Badlands Ogre Bulls",
+      "name_pl": "Badlands Ogr Bulls",
       "id": "badland-ogre-bulls",
       "army": "orc-and-goblin-tribes",
       "points": 31,
@@ -5770,7 +6111,7 @@
           "name_es": "Crusher (champion)",
           "name_fr": "Broyeur (champion)",
           "name_it": "Crusher (champion)",
-          "name_pl": "Crusher (champion)",
+          "name_pl": "Crusher (czempion)",
           "points": 7
         },
         {
@@ -5780,7 +6121,7 @@
           "name_es": "Standard bearer",
           "name_fr": "Porte-étendard",
           "name_it": "Standard bearer",
-          "name_pl": "Standard bearer",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -5796,7 +6137,7 @@
           "name_es": "Bellower (musician)",
           "name_fr": "Beugleur (musicien)",
           "name_it": "Bellower (musician)",
-          "name_pl": "Bellower (musician)",
+          "name_pl": "Bellower (muzyk)",
           "points": 6
         }
       ],
@@ -5808,7 +6149,7 @@
           "name_es": "Hand weapons",
           "name_fr": "Armes de base",
           "name_it": "Hand weapons",
-          "name_pl": "Hand weapons",
+          "name_pl": "Broń Ręczna",
           "points": 0,
           "perModel": true,
           "active": true
@@ -5822,7 +6163,7 @@
           "name_es": "Light armour",
           "name_fr": "Armure légère",
           "name_it": "Light armour",
-          "name_pl": "Light armour",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -5834,7 +6175,7 @@
           "name_es": "Heavy armour",
           "name_fr": "Armure lourde",
           "name_it": "Heavy armour",
-          "name_pl": "Heavy armour",
+          "name_pl": "Ciężka Zbroja",
           "points": 4,
           "perModel": true,
           "active": false
@@ -5848,7 +6189,7 @@
           "name_es": "Additional hand weapons",
           "name_fr": "Armes de base additionnelles",
           "name_it": "Additional hand weapons",
-          "name_pl": "Additional hand weapons",
+          "name_pl": "Dodatkowa Broń Ręczna",
           "points": 3,
           "perModel": true,
           "stackable": true
@@ -5860,7 +6201,7 @@
           "name_es": "Great weapons",
           "name_fr": "Armes lourdes",
           "name_it": "Great weapons",
-          "name_pl": "Great weapons",
+          "name_pl": "Broń Wielka",
           "points": 4,
           "perModel": true,
           "stackable": true
@@ -5872,7 +6213,7 @@
           "name_es": "Ironfists",
           "name_fr": "Poings d'Acier",
           "name_it": "Ironfists",
-          "name_pl": "Ironfists",
+          "name_pl": "Żelazne Pięści",
           "points": 4,
           "perModel": true,
           "stackable": true
@@ -5888,7 +6229,7 @@
         "name_es": "Armour Bane (1), Close Order, Fear, Impact Hits (1), Mercenaries, Motley Crew, Ogre Charge",
         "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Touches d'Impact (1), Mercenaires, Bande Hétéroclite, Charge Ogre",
         "name_it": "Armour Bane (1), Close Order, Fear, Impact Hits (1), Mercenaries, Motley Crew, Ogre Charge",
-        "name_pl": "Armour Bane (1), Close Order, Fear, Impact Hits (1), Mercenaries, Motley Crew, Ogre Charge"
+        "name_pl": "Przebicie Zbroi (1), Zwarty Szyk, Strach, Uderzenia Impetu (1), Mercenaries, Zbieranina, Ogr Charge"
       }
     },
     {
@@ -5898,7 +6239,7 @@
       "name_es": "Bonegrinder Giant",
       "name_fr": "Géant Broyeur d'Os",
       "name_it": "Bonegrinder Giant",
-      "name_pl": "Bonegrinder Giant",
+      "name_pl": "Bonegrinder Olbrzym",
       "id": "bonegrinder-giant",
       "army": "orc-and-goblin-tribes",
       "points": 300,
@@ -5911,7 +6252,7 @@
           "name_es": "Bonegrinders Giant's club",
           "name_fr": "Massue de Géant Broyeur d'Os",
           "name_it": "Bonegrinders Giant's club",
-          "name_pl": "Bonegrinders Giant's club",
+          "name_pl": "Maczuga Giganta Zgniatacza Kości",
           "points": 0,
           "active": true
         }
@@ -5924,14 +6265,15 @@
           "name_es": "Light armour",
           "name_fr": "Armure légère",
           "name_it": "Light armour",
-          "name_pl": "Light armour",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "active": true,
           "notes": {
             "name_en": "Calloused hide",
             "name_cn": "坚硬皮肤",
             "name_de": "Schwielige Haut",
-            "name_fr": "Peau calleuse"
+            "name_fr": "Peau calleuse",
+            "name_pl": "Zrogowaciała skóra"
           }
         }
       ],
@@ -5946,7 +6288,7 @@
         "name_es": "Bonegrinder Giant Attacks, Close Order, Immune to Psychology, Large Target, Mercenaries, Stomp Attacks (D6+1), Terror, Timmm-berrr!, Unbreakable",
         "name_fr": "Attaques de Géant Broyeur d'Os, Ordre Serré, Immunisé à la Psychologie, Grande Cible, Mercenaires, Attaques de Piétinement (D6+1), Terreur, Timmm-berrr!, Indémoralisable",
         "name_it": "Bonegrinder Giant Attacks, Close Order, Immune to Psychology, Large Target, Mercenaries, Stomp Attacks (D6+1), Terror, Timmm-berrr!, Unbreakable",
-        "name_pl": "Bonegrinder Giant Attacks, Close Order, Immune to Psychology, Large Target, Mercenaries, Stomp Attacks (D6+1), Terror, Timmm-berrr!, Unbreakable"
+        "name_pl": "Bonegrinder Olbrzym Attacks, Zwarty Szyk, Odporność Na Psychologię, Duży Cel, Mercenaries, Zdeptanie (D6+1), Terror, Timmm-berrr!, Niezłomni"
       },
       "notes": {
         "name_en": "0-1 Bonegrinder Giant",
@@ -5955,7 +6297,7 @@
         "name_es": "0-1 Bonegrinder Giant",
         "name_fr": "0-1 Géant Broyeur d'Os",
         "name_it": "0-1 Bonegrinder Giant",
-        "name_pl": "0-1 Bonegrinder Giant"
+        "name_pl": "0-1 Bonegrinder Olbrzym"
       }
     }
   ],

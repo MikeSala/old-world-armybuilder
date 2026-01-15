@@ -16,6 +16,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -69,6 +70,7 @@
           "name_de": "Keine Rüstung",
           "name_es": "No armour",
           "name_fr": "Pas d'armure",
+          "name_pl": "Bez zbroi",
           "points": 0,
           "perModel": true,
           "active": true
@@ -79,6 +81,7 @@
           "name_de": "Leichte Rüstung",
           "name_es": "Light armour",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 3,
           "perModel": true
         },
@@ -88,6 +91,7 @@
           "name_de": "Schwere Rüstung",
           "name_es": "Heavy armour",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 6,
           "perModel": true
         },
@@ -97,6 +101,7 @@
           "name_de": "Plattenrüstung",
           "name_es": "Full plate armour",
           "name_fr": "Armure de plate complète",
+          "name_pl": "Pełna Zbroja Płytowa",
           "points": 9,
           "perModel": true,
           "armyComposition": "vc-renegade"
@@ -147,6 +152,7 @@
           "name_de": "Zu Fuß",
           "name_es": "On foot",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -156,6 +162,7 @@
           "name_de": "Nachtmahr",
           "name_es": "Nightmare",
           "name_fr": "Cauchemar",
+          "name_pl": "Koszmar",
           "points": 16
         },
         {
@@ -164,6 +171,7 @@
           "name_de": "Hexenthron",
           "name_es": "Coven Throne",
           "name_fr": "Trône de Sabbat",
+          "name_pl": "Tron Sabatu",
           "points": 210
         },
         {
@@ -172,6 +180,7 @@
           "name_de": "Schrecken der Unterwelt",
           "name_es": "Abyssal Terror",
           "name_fr": "Terreur des Abysses",
+          "name_pl": "Otchłanne Przerażenie",
           "points": 120
         },
         {
@@ -180,6 +189,7 @@
           "name_de": "Zombiedrache",
           "name_es": "Zombie Dragon",
           "name_fr": "Dragon Zombie",
+          "name_pl": "Zombie Smok",
           "points": 215
         }
       ],
@@ -190,6 +200,7 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -206,6 +217,7 @@
           "name_de": "Vampirkräfte",
           "name_es": "Vampiric Powers",
           "name_fr": "Pouvoirs Vampiriques",
+          "name_pl": "Moce wampiryczne",
           "types": [
             "vampiric-power"
           ],
@@ -223,14 +235,16 @@
         "name_cn": "黑暗活力, 易燃, 顽强不屈(2), 亡灵法系, 不死亡灵, 重生(5+)",
         "name_de": "Dunkle Vitalität, Brennbar, Unverwüstlich (2), Lehre des Untodes, Nekromantische Untote, Regeneration (5+)",
         "name_es": "Dark Vitality, Flammable, Indomitable (2), Lore of Undeath, Necromantic Undead, Regeneration (5+)",
-        "name_fr": "Sombre Vitalité, Inflammable, Indomptable (2), Domaine de la Non-vie, Mort-vivant Nécromantique, Régénération (5+)"
+        "name_fr": "Sombre Vitalité, Inflammable, Indomptable (2), Domaine de la Non-vie, Mort-vivant Nécromantique, Régénération (5+)",
+        "name_pl": "Mroczny Vitality {renegade}, Łatwopalny, Nieustępliwy (2), Lore of Undeath, Nekromantyczni Nieumarli, Regeneracja (5+)"
       },
       "notes": {
         "name_en": "0-1 per 1000 points, 1+ Wizard",
         "name_cn": "每1000分0-1, 1+ 法师",
         "name_de": "0-1 pro 1000 Punkte, 1+ Zauberer",
         "name_es": "0-1 per 1000 points, 1+ Wizard",
-        "name_fr": "0-1 par tranche de 1000 points, 1+ Sorcier"
+        "name_fr": "0-1 par tranche de 1000 points, 1+ Sorcier",
+        "name_pl": "0-1 na 1000 punktów, 1+ Czarodziej"
       }
     },
     {
@@ -249,6 +263,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         },
         {
@@ -262,7 +277,8 @@
             ],
             "maxPoints": 0
           },
-          "name_fr": "Porteur de la Grande Bannière"
+          "name_fr": "Porteur de la Grande Bannière",
+          "name_pl": "Chorąży"
         }
       ],
       "equipment": [
@@ -315,6 +331,7 @@
           "name_de": "Keine Rüstung",
           "name_es": "No armour",
           "name_fr": "Pas d'armure",
+          "name_pl": "Bez zbroi",
           "points": 0,
           "perModel": true,
           "active": true
@@ -325,6 +342,7 @@
           "name_de": "Leichte Rüstung",
           "name_es": "Light armour",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 3,
           "perModel": true
         },
@@ -334,6 +352,7 @@
           "name_de": "Schwere Rüstung",
           "name_es": "Heavy armour",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 6,
           "perModel": true
         },
@@ -343,6 +362,7 @@
           "name_de": "Plattenrüstung",
           "name_es": "Full plate armour",
           "name_fr": "Armure de plate complète",
+          "name_pl": "Pełna Zbroja Płytowa",
           "points": 9,
           "perModel": true,
           "armyComposition": "vc-renegade"
@@ -381,6 +401,7 @@
           "name_de": "Zu Fuß",
           "name_es": "On foot",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -390,6 +411,7 @@
           "name_de": "Nachtmahr",
           "name_es": "Nightmare",
           "name_fr": "Cauchemar",
+          "name_pl": "Koszmar",
           "points": 16
         },
         {
@@ -398,6 +420,7 @@
           "name_de": "Hexenthron",
           "name_es": "Coven Throne",
           "name_fr": "Trône de Sabbat",
+          "name_pl": "Tron Sabatu",
           "points": 210
         }
       ],
@@ -408,6 +431,7 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -424,6 +448,7 @@
           "name_de": "Vampirkräfte",
           "name_es": "Vampiric Powers",
           "name_fr": "Pouvoirs Vampiriques",
+          "name_pl": "Moce wampiryczne",
           "types": [
             "vampiric-power"
           ],
@@ -441,14 +466,16 @@
         "name_cn": "伯爵旗手, 黑暗活力, 易燃, 顽强不屈(1), 亡灵法系, 不死亡灵, 重生(5+)",
         "name_de": "Banner des Grafen, Dunkle Vitalität, Brennbar, Unverwüstlich (1), Lehre des Untodes, Nekromantische Untote, Regeneration (5+)",
         "name_es": "Banner of the Count, Dark Vitality, Flammable, Indomitable (1), Lore of Undeath, Necromantic Undead, Regeneration (5+)",
-        "name_fr": "Bannière du Comte, Sombre Vitalité, Inflammable, Indomptable (1), Domaine de la Non-vie, Mort-vivant Nécromantique, Régénération (5+)"
+        "name_fr": "Bannière du Comte, Sombre Vitalité, Inflammable, Indomptable (1), Domaine de la Non-vie, Mort-vivant Nécromantique, Régénération (5+)",
+        "name_pl": "Banner of the Count, Mroczny Vitality {renegade}, Łatwopalny, Nieustępliwy (1), Lore of Undeath, Nekromantyczni Nieumarli, Regeneracja (5+)"
       },
       "notes": {
         "name_en": "1+ Wizard",
         "name_cn": "1+ 法师",
         "name_de": "1+ Zauberer",
         "name_es": "1+ Wizard",
-        "name_fr": "1+ Sorcier"
+        "name_fr": "1+ Sorcier",
+        "name_pl": "1+ Czarodziej"
       }
     },
     {
@@ -467,6 +494,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -527,6 +555,7 @@
           "name_de": "Zu Fuß",
           "name_es": "On foot",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -536,6 +565,7 @@
           "name_de": "Nachtmahr",
           "name_es": "Nightmare",
           "name_fr": "Cauchemar",
+          "name_pl": "Koszmar",
           "points": 16
         },
         {
@@ -544,6 +574,7 @@
           "name_de": "Mortisschrein",
           "name_es": "Mortis Engine",
           "name_fr": "Machine Mortis",
+          "name_pl": "Silnik Śmierci",
           "points": 195
         },
         {
@@ -552,6 +583,7 @@
           "name_de": "Schrecken der Unterwelt",
           "name_es": "Abyssal Terror",
           "name_fr": "Terreur des Abysses",
+          "name_pl": "Otchłanne Przerażenie",
           "points": 120
         },
         {
@@ -560,6 +592,7 @@
           "name_de": "Zombiedrache",
           "name_es": "Zombie Dragon",
           "name_fr": "Dragon Zombie",
+          "name_pl": "Zombie Smok",
           "points": 215
         }
       ],
@@ -570,6 +603,7 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor-mages",
@@ -591,14 +625,16 @@
         "name_cn": "3（或4）级法师, 黑暗活力, 顽强不屈(1), 尼科之咒, 亡灵法系, 不死亡灵, 重生(5+)",
         "name_de": "Stufe 3 (oder 4) Zauberer, Dunkle Vitalität, Unverwüstlich (1), Anrufung von Nehek, Lehre des Untodes, Nekromantische Untote, Regeneration (5+)",
         "name_es": "Level 3 (or 4) Wizard, Dark Vitality, Indomitable (1), Invocation of Nehek, Lore of Undeath, Necromantic Undead, Regeneration (5+)",
-        "name_fr": "Sorcier de Niveau 3 (ou 4), Sombre Vitalité, Indomptable (1), Invocation de Nehek, Domaine de la Non-vie, Mort-vivant Nécromantique, Régénération (5+)"
+        "name_fr": "Sorcier de Niveau 3 (ou 4), Sombre Vitalité, Indomptable (1), Invocation de Nehek, Domaine de la Non-vie, Mort-vivant Nécromantique, Régénération (5+)",
+        "name_pl": "Level 3 (lub 4) Czarodziej, Mroczny Vitality {renegade}, Nieustępliwy (1), Invocation of Nehek, Lore of Undeath, Nekromantyczni Nieumarli, Regeneracja (5+)"
       },
       "notes": {
         "name_en": "0-1 per 1000 points, 1+ Wizard",
         "name_cn": "每1000分0-1, 1+ 法师",
         "name_de": "0-1 pro 1000 Punkte, 1+ Zauberer",
         "name_es": "0-1 per 1000 points, 1+ Wizard",
-        "name_fr": "0-1 par tranche de 1000 points, 1+ Sorcier"
+        "name_fr": "0-1 par tranche de 1000 points, 1+ Sorcier",
+        "name_pl": "0-1 na 1000 punktów, 1+ Czarodziej"
       }
     },
     {
@@ -617,6 +653,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -677,6 +714,7 @@
           "name_de": "Zu Fuß",
           "name_es": "On foot",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -686,6 +724,7 @@
           "name_de": "Nachtmahr",
           "name_es": "Nightmare",
           "name_fr": "Cauchemar",
+          "name_pl": "Koszmar",
           "points": 16
         },
         {
@@ -694,6 +733,7 @@
           "name_de": "Mortisschrein",
           "name_es": "Mortis Engine",
           "name_fr": "Machine Mortis",
+          "name_pl": "Silnik Śmierci",
           "points": 195
         }
       ],
@@ -704,6 +744,7 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor-mages",
@@ -725,14 +766,16 @@
         "name_cn": "1（或2）级法师, 黑暗活力, 顽强不屈(1), 尼科之咒, 亡灵法系, 不死亡灵, 重生(5+)",
         "name_de": "Stufe 1 (oder 2) Zauberer, Dunkle Vitalität, Unverwüstlich (1), Anrufung von Nehek, Lehre des Untodes, Nekromantische Untote, Regeneration (5+)",
         "name_es": "Level 1 (or 2) Wizard, Dark Vitality, Indomitable (1), Invocation of Nehek, Lore of Undeath, Necromantic Undead, Regeneration (5+)",
-        "name_fr": "Sorcier de Niveau 1 (ou 2), Sombre Vitalité, Indomptable (1), Invocation de Nehek, Domaine de la Non-vie, Mort-vivant Nécromantique, Régénération (5+)"
+        "name_fr": "Sorcier de Niveau 1 (ou 2), Sombre Vitalité, Indomptable (1), Invocation de Nehek, Domaine de la Non-vie, Mort-vivant Nécromantique, Régénération (5+)",
+        "name_pl": "Level 1 (lub 2) Czarodziej, Mroczny Vitality {renegade}, Nieustępliwy (1), Invocation of Nehek, Lore of Undeath, Nekromantyczni Nieumarli, Regeneracja (5+)"
       },
       "notes": {
         "name_en": "1+ Wizard",
         "name_cn": "1+ 法师",
         "name_de": "1+ Zauberer",
         "name_es": "1+ Wizard",
-        "name_fr": "1+ Sorcier"
+        "name_fr": "1+ Sorcier",
+        "name_pl": "1+ Czarodziej"
       }
     },
     {
@@ -751,6 +794,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -801,6 +845,7 @@
           "name_de": "Zu Fuß",
           "name_es": "On foot",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -810,6 +855,7 @@
           "name_de": "Flederbestie",
           "name_es": "Terrorgheist",
           "name_fr": "Terreurgheist",
+          "name_pl": "Terrorgheist {mount}",
           "points": 185
         }
       ],
@@ -820,6 +866,7 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "talisman",
@@ -835,6 +882,7 @@
           "name_de": "Vampirkräfte",
           "name_es": "Vampiric Powers",
           "name_fr": "Pouvoirs Vampiriques",
+          "name_pl": "Moce wampiryczne",
           "types": [
             "vampiric-power"
           ],
@@ -852,14 +900,16 @@
         "name_cn": "黑暗活力, 易燃, 仇恨(所有敌人), 顽强不屈(1), 亡灵法系, 不死亡灵, 淬毒攻击, 重生(5+), 饥渴",
         "name_de": "Dunkle Vitalität, Brennbar, Hass (alle Feinde), Unverwüstlich (1), Lehre des Untodes, Nekromantische Untote, Giftattacken, Regeneration (5+), Der Durst",
         "name_es": "Dark Vitality, Flammable, Hatred (all enemies), Indomitable (1), Lore of Undeath, Necromantic Undead, Poisoned Attacks, Regeneration (5+), the Hunger",
-        "name_fr": "Sombre Vitalité, Inflammable, Haine (Tous les ennemis), Indomptable (1), Domaine de la Non-vie, Mort-vivant Nécromantique, Attaques Empoisonnées, Régénération (5+), La Soif Rouge"
+        "name_fr": "Sombre Vitalité, Inflammable, Haine (Tous les ennemis), Indomptable (1), Domaine de la Non-vie, Mort-vivant Nécromantique, Attaques Empoisonnées, Régénération (5+), La Soif Rouge",
+        "name_pl": "Mroczny Vitality {renegade}, Łatwopalny, Nienawiść (all enemies), Nieustępliwy (1), Lore of Undeath, Nekromantyczni Nieumarli, Trujące Ataki, Regeneracja (5+), the Hunger"
       },
       "notes": {
         "name_en": "0-1 per 1000 points",
         "name_cn": "每1000分0-1",
         "name_de": "0-1 pro 1000 Punkte",
         "name_es": "0-1 per 1000 points",
-        "name_fr": "0-1 par tranche de 1000 points"
+        "name_fr": "0-1 par tranche de 1000 points",
+        "name_pl": "0-1 na 1000 punktów"
       }
     },
     {
@@ -895,14 +945,16 @@
         "name_cn": "灵体, 顽强不屈(1), 不死亡灵, 重生(6+), 惊骇",
         "name_de": "Körperlos, Unverwüstlich (1), Nekromantische Untote, Regeneration (6+), Entsetzen",
         "name_es": "Ethereal, Indomitable (1), Necromantic Undead, Regeneration (6+), Terror",
-        "name_fr": "Ethéré, Indomptable (1), Mort-vivant Nécromantique, Régénération (6+), Terreur"
+        "name_fr": "Ethéré, Indomptable (1), Mort-vivant Nécromantique, Régénération (6+), Terreur",
+        "name_pl": "Ethereal, Nieustępliwy (1), Nekromantyczni Nieumarli, Regeneracja (6+), Terror"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_es": "",
-        "name_fr": ""
+        "name_fr": "",
+        "name_pl": ""
       }
     },
     {
@@ -965,6 +1017,7 @@
           "name_de": "Schwere Rüstung",
           "name_es": "Heavy armour",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -991,6 +1044,7 @@
           "name_de": "Zu Fuß",
           "name_es": "On foot",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -1000,6 +1054,7 @@
           "name_de": "Skelettpferd",
           "name_es": "Skeletal Steed",
           "name_fr": "Coursier Squelette",
+          "name_pl": "Szkieletowy Rumak {vampire counts}",
           "points": 14
         }
       ],
@@ -1010,6 +1065,7 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -1027,14 +1083,16 @@
         "name_cn": "顽强不屈(1), 一击必杀, 不死亡灵, 重生(5+)",
         "name_de": "Unverwüstlich (1), Todesstoß, Nekromantische Untote, Regeneration (5+)",
         "name_es": "Indomitable (1), Killing Blow, Necromantic Undead, Regeneration (5+)",
-        "name_fr": "Indomptable (1), Coup Fatal, Mort-vivant Nécromantique, Régénération (5+)"
+        "name_fr": "Indomptable (1), Coup Fatal, Mort-vivant Nécromantique, Régénération (5+)",
+        "name_pl": "Nieustępliwy (1), Killing Blow, Nekromantyczni Nieumarli, Regeneracja (5+)"
       },
       "notes": {
         "name_en": "0-1 per 1000 points",
         "name_cn": "每1000分0-1",
         "name_de": "0-1 pro 1000 Punkte",
         "name_es": "0-1 per 1000 points",
-        "name_fr": "0-1 par tranche de 1000 points"
+        "name_fr": "0-1 par tranche de 1000 points",
+        "name_pl": "0-1 na 1000 punktów"
       }
     },
     {
@@ -1058,7 +1116,8 @@
             ],
             "maxPoints": 0
           },
-          "name_fr": "Porteur de la Grande Bannière"
+          "name_fr": "Porteur de la Grande Bannière",
+          "name_pl": "Chorąży"
         }
       ],
       "equipment": [
@@ -1111,6 +1170,7 @@
           "name_de": "Schwere Rüstung",
           "name_es": "Heavy armour",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1137,6 +1197,7 @@
           "name_de": "Zu Fuß",
           "name_es": "On foot",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -1146,6 +1207,7 @@
           "name_de": "Skelettpferd",
           "name_es": "Skeletal Steed",
           "name_fr": "Coursier Squelette",
+          "name_pl": "Szkieletowy Rumak {vampire counts}",
           "points": 14
         }
       ],
@@ -1156,6 +1218,7 @@
           "name_de": "Magische Gegenstände",
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -1173,14 +1236,16 @@
         "name_cn": "一击必杀, 不死亡灵, 重生(6+), 尸妖旗手",
         "name_de": "Todesstoß, Nekromantische Untote, Regeneration (6+), Fluchbanner",
         "name_es": "Killing Blow, Necromantic Undead, Regeneration (6+), Wight Banner",
-        "name_fr": "Coup Fatal, Mort-vivant Nécromantique, Régénération (6+), Bannière du Revenant"
+        "name_fr": "Coup Fatal, Mort-vivant Nécromantique, Régénération (6+), Bannière du Revenant",
+        "name_pl": "Killing Blow, Nekromantyczni Nieumarli, Regeneracja (6+), Wight Banner"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_es": "",
-        "name_fr": ""
+        "name_fr": "",
+        "name_pl": ""
       }
     },
     {
@@ -1216,14 +1281,16 @@
         "name_cn": "灵体, 顽强不屈(1), 魔法攻击, 不死亡灵, 重生(6+), 惊骇, 哀嚎 {renegade}",
         "name_de": "Körperlos, Unverwüstlich (1), Magische Attacken, Nekromantische Untote, Regeneration (6+), Entsetzen, Tödliches Kreischen",
         "name_es": "Ethereal, Indomitable (1), Magical Attacks, Necromantic Undead, Regeneration (6+), Terror, Wailing Dirge",
-        "name_fr": "Ethéré, Indomptable (1), Attaques Magiques, Mort-vivant Nécromantique, Régénération (6+), Terreur, Gémissement Lugubre"
+        "name_fr": "Ethéré, Indomptable (1), Attaques Magiques, Mort-vivant Nécromantique, Régénération (6+), Terreur, Gémissement Lugubre",
+        "name_pl": "Ethereal, Nieustępliwy (1), Magiczne Ataki, Nekromantyczni Nieumarli, Regeneracja (6+), Terror, Wailing Dirge {renegade}"
       },
       "notes": {
         "name_en": "0-1 per 1000 points",
         "name_cn": "每1000分0-1",
         "name_de": "0-1 pro 1000 Punkte",
         "name_es": "0-1 per 1000 points",
-        "name_fr": "0-1 par tranche de 1000 points"
+        "name_fr": "0-1 par tranche de 1000 points",
+        "name_pl": "0-1 na 1000 punktów"
       }
     }
   ],
@@ -1246,6 +1313,7 @@
           "name_de": "Skeletthauptmann",
           "name_es": "Skeleton Champion",
           "name_fr": "Champion Squelette",
+          "name_pl": "Skeleton Czempion",
           "points": 5
         },
         {
@@ -1254,6 +1322,7 @@
           "name_de": "Standartenträger",
           "name_es": "Standard bearer",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 5,
           "magic": {
             "types": [
@@ -1268,6 +1337,7 @@
           "name_de": "Musiker",
           "name_es": "Musician",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 5
         }
       ],
@@ -1301,6 +1371,7 @@
           "name_de": "Leichte Rüstung, Schilde",
           "name_es": "Light armour, Shields",
           "name_fr": "Armure légère, Boucliers",
+          "name_pl": "Lekka Zbroja, Shields",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1315,14 +1386,16 @@
         "name_cn": "紧密阵型, 部群, 不死亡灵, 重生(6+)",
         "name_de": "Geschlossene Ränge, Horde, Nekromantische Untote, Regeneration (6+)",
         "name_es": "Close Order, Horde, Necromantic Undead, Regeneration (6+)",
-        "name_fr": "Ordre Serré, Horde, Mort-vivant Nécromantique, Régénération (6+)"
+        "name_fr": "Ordre Serré, Horde, Mort-vivant Nécromantique, Régénération (6+)",
+        "name_pl": "Zwarty Szyk, Horda, Nekromantyczni Nieumarli, Regeneracja (6+)"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_es": "",
-        "name_fr": ""
+        "name_fr": "",
+        "name_pl": ""
       }
     },
     {
@@ -1343,6 +1416,7 @@
           "name_de": "Standartenträger",
           "name_es": "Standard bearer",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 5
         },
         {
@@ -1351,6 +1425,7 @@
           "name_de": "Musiker",
           "name_es": "Musician",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 5
         }
       ],
@@ -1377,14 +1452,16 @@
         "name_cn": "紧密阵型, 部群, 不死亡灵, 重生(6+), 新鲜死者",
         "name_de": "Geschlossene Ränge, Horde, Nekromantische Untote, Regeneration (6+), Die kürzlich Verstorbenen",
         "name_es": "Close Order, Horde, Necromantic Undead, Regeneration (6+), the Newly Dead",
-        "name_fr": "Ordre Serré, Horde, Mort-vivant Nécromantique, Régénération (6+), Cadavres Frais"
+        "name_fr": "Ordre Serré, Horde, Mort-vivant Nécromantique, Régénération (6+), Cadavres Frais",
+        "name_pl": "Zwarty Szyk, Horda, Nekromantyczni Nieumarli, Regeneracja (6+), the Newly Dead"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_es": "",
-        "name_fr": ""
+        "name_fr": "",
+        "name_pl": ""
       }
     },
     {
@@ -1405,6 +1482,7 @@
           "name_de": "Gruftghast",
           "name_es": "Crypt Ghast",
           "name_fr": "Nécrophage",
+          "name_pl": "Upiór Krypty",
           "points": 6
         }
       ],
@@ -1431,14 +1509,16 @@
         "name_cn": "穿行掩体, 不死亡灵, 开放阵型, 淬毒攻击, 重生(6+), 预备移动, 散兵",
         "name_de": "Durch Deckung bewegen, Nekromantische Untote, Offene Ränge, Giftattacken, Regeneration (6+), Reservebewegung, Plänkler",
         "name_es": "Move Through Cover, Necromantic Undead, Open Order, Poisoned Attacks, Regeneration (6+), Reserve Move, Skirmishers",
-        "name_fr": "Mouvement à Couvert, Mort-vivant Nécromantique, Ordre Dispersé, Attaques Empoisonnées, Régénération (6+), Mouvement de Réserve, Tirailleurs"
+        "name_fr": "Mouvement à Couvert, Mort-vivant Nécromantique, Ordre Dispersé, Attaques Empoisonnées, Régénération (6+), Mouvement de Réserve, Tirailleurs",
+        "name_pl": "Przechodzenie Przez Zasłony, Nekromantyczni Nieumarli, Luźny Szyk, Trujące Ataki, Regeneracja (6+), Reserve Move, Harcownicy"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_es": "",
-        "name_fr": ""
+        "name_fr": "",
+        "name_pl": ""
       }
     },
     {
@@ -1476,14 +1556,16 @@
         "name_cn": "飞行(7), 不死亡灵, 重生(6+), 散兵",
         "name_de": "Fliegen (7), Nekromantische Untote, Regeneration (6+), Plänkler",
         "name_es": "Fly (7), Necromantic Undead, Regeneration (6+), Skirmishers",
-        "name_fr": "Vol (7), Mort-vivant Nécromantique, Régénération (6+), Tirailleurs"
+        "name_fr": "Vol (7), Mort-vivant Nécromantique, Régénération (6+), Tirailleurs",
+        "name_pl": "Lot (7), Nekromantyczni Nieumarli, Regeneracja (6+), Harcownicy"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_es": "",
-        "name_fr": ""
+        "name_fr": "",
+        "name_pl": ""
       }
     },
     {
@@ -1504,6 +1586,7 @@
           "name_de": "Warg",
           "name_es": "Doom Wolf",
           "name_fr": "Loup de Sang",
+          "name_pl": "Doom Wilk",
           "points": 6
         }
       ],
@@ -1530,14 +1613,16 @@
         "name_cn": "不死亡灵, 开放阵型, 重生(6+), 预备移动, 垂涎冲击, 快速行进, 先锋",
         "name_de": "Nekromantische Untote, Offene Ränge, Regeneration (6+), Reservebewegung, Geifernder Angriff, Schnelle Bewegung, Vorhut",
         "name_es": "Necromantic Undead, Open Order, Regeneration (6+), Reserve Move, Slavering Charge, Swiftstride, Vanguard",
-        "name_fr": "Mort-vivant Nécromantique, Ordre Dispersé, Régénération (6+), Mouvement de Réserve, Charge Écumante, Rapide, Avant-garde"
+        "name_fr": "Mort-vivant Nécromantique, Ordre Dispersé, Régénération (6+), Mouvement de Réserve, Charge Écumante, Rapide, Avant-garde",
+        "name_pl": "Nekromantyczni Nieumarli, Luźny Szyk, Regeneracja (6+), Reserve Move, Slavering Charge, Szybki Krok, Awangarda"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_es": "",
-        "name_fr": ""
+        "name_fr": "",
+        "name_pl": ""
       }
     },
     {
@@ -1558,6 +1643,7 @@
           "name_de": "Seneschall",
           "name_es": "Seneschal",
           "name_fr": "Sénéchal",
+          "name_pl": "Seneszal",
           "points": 6,
           "magic": {
             "types": [
@@ -1576,6 +1662,7 @@
           "name_de": "Standartenträger",
           "name_es": "Standard bearer",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -1590,6 +1677,7 @@
           "name_de": "Musiker",
           "name_es": "Musician",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -1623,6 +1711,7 @@
           "name_de": "Schwere Rüstung",
           "name_es": "Heavy armour",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1675,14 +1764,16 @@
         "name_cn": "劈裂打击, 紧密阵型, 顽强不屈(1), 不死亡灵, 重生(6+)",
         "name_de": "Spaltender Schlag, Geschlossene Ränge, Unverwüstlich (1), Nekromantische Untote, Regeneration (6+)",
         "name_es": "Cleaving Blow, Close Order, Indomitable (1), Necromantic Undead, Regeneration (6+)",
-        "name_fr": "Coup de Fendoir, Ordre Serré, Indomptable (1), Mort-vivant Nécromantique, Régénération (6+)"
+        "name_fr": "Coup de Fendoir, Ordre Serré, Indomptable (1), Mort-vivant Nécromantique, Régénération (6+)",
+        "name_pl": "Cleaving Blow, Zwarty Szyk, Nieustępliwy (1), Nekromantyczni Nieumarli, Regeneracja (6+)"
       },
       "notes": {
         "name_en": "If your army includes one or more Wights, 0-1 unit of Grave Guard or Black Knights may be taken as a Core choice",
         "name_cn": "If your army includes one or more Wights, 0-1 unit of Grave Guard or Black Knights may be taken as a Core choice",
         "name_de": "Wenn deine Armee einen oder mehr Fluchfürsten/Fluchherren enthält, kann 0-1 Einheit Verfluchte oder Fluchritter als Kernauswahl genommen werden.",
         "name_es": "If your army includes one or more Wights, 0-1 unit of Grave Guard or Black Knights may be taken as a Core choice",
-        "name_fr": "Si votre armée inclut un Revenants ou plus, 0-1 unité de Garde des Cryptes ou Chevaliers Noirs peut être prise comme choix d'Unité de Base"
+        "name_fr": "Si votre armée inclut un Revenants ou plus, 0-1 unité de Garde des Cryptes ou Chevaliers Noirs peut être prise comme choix d'Unité de Base",
+        "name_pl": "Jeśli twoja armia zawiera one lub more Wights, 0-1 jednostka of Grave Straż lub Czarny Rycerze może be taken jako a Podstawowy choice"
       }
     },
     {
@@ -1703,6 +1794,7 @@
           "name_de": "Höllenritter",
           "name_es": "Hell Knight",
           "name_fr": "Chevalier Infernal",
+          "name_pl": "Hell Rycerz",
           "points": 6,
           "magic": {
             "types": [
@@ -1721,6 +1813,7 @@
           "name_de": "Standartenträger",
           "name_es": "Standard bearer",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -1735,6 +1828,7 @@
           "name_de": "Musiker",
           "name_es": "Musician",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -1768,6 +1862,7 @@
           "name_de": "Schwere Rüstung, Schilde",
           "name_es": "Heavy armour, Shields",
           "name_fr": "Armure lourde, Boucliers",
+          "name_pl": "Ciężka Zbroja, Shields",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1795,14 +1890,16 @@
         "name_cn": "劈裂打击(仅限黑骑士与地狱骑士), 紧密阵型, 先行冲锋, 不死亡灵, 重生(6+), 快速行进",
         "name_de": "Spaltender Schlag (nur Fluchritter & Höllenritter), Geschlossene Ränge, Erster Angriff, Nekromantische Untote, Regeneration (6+), Schnelle Bewegung",
         "name_es": "Cleaving Blow (Black Knights & Hell Knight only), Close Order, First Charge, Necromantic Undead, Regeneration (6+), Swiftstride",
-        "name_fr": "Coup de Fendoir (Chevaliers Noirs & Chevalier Infernal uniquement), Ordre Serré, Première Charge, Mort-vivant Nécromantique, Régénération (6+), Rapide"
+        "name_fr": "Coup de Fendoir (Chevaliers Noirs & Chevalier Infernal uniquement), Ordre Serré, Première Charge, Mort-vivant Nécromantique, Régénération (6+), Rapide",
+        "name_pl": "Cleaving Blow (Czarny Rycerze & Hell Rycerz only), Zwarty Szyk, Pierwsza Szarża, Nekromantyczni Nieumarli, Regeneracja (6+), Szybki Krok"
       },
       "notes": {
         "name_en": "If your army includes one or more Wights, 0-1 unit of Grave Guard or Black Knights may be taken as a Core choice",
         "name_cn": "If your army includes one or more Wights, 0-1 unit of Grave Guard or Black Knights may be taken as a Core choice",
         "name_de": "Wenn deine Armee einen oder mehr Fluchfürsten/Fluchherren enthält, kann 0-1 Einheit Verfluchte oder Fluchritter als Kernauswahl genommen werden.",
         "name_es": "If your army includes one or more Wights, 0-1 unit of Grave Guard or Black Knights may be taken as a Core choice",
-        "name_fr": "Si votre armée inclut un Revenants ou plus, 0-1 unité de Garde des Cryptes ou Chevaliers Noirs peut être prise comme choix d'Unité de Base"
+        "name_fr": "Si votre armée inclut un Revenants ou plus, 0-1 unité de Garde des Cryptes ou Chevaliers Noirs peut être prise comme choix d'Unité de Base",
+        "name_pl": "Jeśli twoja armia zawiera one lub more Wights, 0-1 jednostka of Grave Straż lub Czarny Rycerze może be taken jako a Podstawowy choice"
       }
     }
   ],
@@ -1825,6 +1922,7 @@
           "name_de": "Seneschall",
           "name_es": "Seneschal",
           "name_fr": "Sénéchal",
+          "name_pl": "Seneszal",
           "points": 6,
           "magic": {
             "types": [
@@ -1843,6 +1941,7 @@
           "name_de": "Standartenträger",
           "name_es": "Standard bearer",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -1857,6 +1956,7 @@
           "name_de": "Musiker",
           "name_es": "Musician",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -1890,6 +1990,7 @@
           "name_de": "Schwere Rüstung",
           "name_es": "Heavy armour",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1942,14 +2043,16 @@
         "name_cn": "劈裂打击, 紧密阵型, 顽强不屈(1), 不死亡灵, 重生(6+)",
         "name_de": "Spaltender Schlag, Geschlossene Ränge, Unverwüstlich (1), Nekromantische Untote, Regeneration (6+)",
         "name_es": "Cleaving Blow, Close Order, Indomitable (1), Necromantic Undead, Regeneration (6+)",
-        "name_fr": "Coup de Fendoir, Ordre Serré, Indomptable (1), Mort-vivant Nécromantique, Régénération (6+)"
+        "name_fr": "Coup de Fendoir, Ordre Serré, Indomptable (1), Mort-vivant Nécromantique, Régénération (6+)",
+        "name_pl": "Cleaving Blow, Zwarty Szyk, Nieustępliwy (1), Nekromantyczni Nieumarli, Regeneracja (6+)"
       },
       "notes": {
         "name_en": "0-1 per 1000 points (mutually exclusive with Black Knights)",
         "name_cn": "每1000分0-1(和黑骑士不能同时选择)",
         "name_de": "0-1 pro 1000 Punkte (wechselseitig exklusiv mit Fluchrittern)",
         "name_es": "0-1 per 1000 points (mutually exclusive with Black Knights)",
-        "name_fr": "0-1 par tranche de 1000 points (mutuellement exclusif avec l'unité de Chevaliers Noirs)"
+        "name_fr": "0-1 par tranche de 1000 points (mutuellement exclusif avec l'unité de Chevaliers Noirs)",
+        "name_pl": "0-1 na 1000 punktów (mutually exclusive z Czarny Rycerze)"
       }
     },
     {
@@ -1970,6 +2073,7 @@
           "name_de": "Höllenritter",
           "name_es": "Hell Knight",
           "name_fr": "Chevalier Infernal",
+          "name_pl": "Hell Rycerz",
           "points": 6,
           "magic": {
             "types": [
@@ -1989,6 +2093,7 @@
           "name_de": "Standartenträger",
           "name_es": "Standard bearer",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -2003,6 +2108,7 @@
           "name_de": "Musiker",
           "name_es": "Musician",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -2036,6 +2142,7 @@
           "name_de": "Schwere Rüstung, Schilde",
           "name_es": "Heavy armour, Shields",
           "name_fr": "Armure lourde, Boucliers",
+          "name_pl": "Ciężka Zbroja, Shields",
           "points": 0,
           "perModel": true,
           "active": true
@@ -2063,14 +2170,16 @@
         "name_cn": "劈裂打击(仅限黑骑士与地狱骑士), 紧密阵型, 先行冲锋, 不死亡灵, 重生(6+), 快速行进",
         "name_de": "Spaltender Schlag (nur Fluchritter & Höllenritter), Geschlossene Ränge, Erster Angriff, Nekromantische Untote, Regeneration (6+), Schnelle Bewegung",
         "name_es": "Cleaving Blow (Black Knights & Hell Knight only), Close Order, First Charge, Necromantic Undead, Regeneration (6+), Swiftstride",
-        "name_fr": "Coup de Fendoir (Chevaliers Noirs & Chevalier Infernal uniquement), Ordre Serré, Première Charge, Mort-vivant Nécromantique, Régénération (6+), Rapide"
+        "name_fr": "Coup de Fendoir (Chevaliers Noirs & Chevalier Infernal uniquement), Ordre Serré, Première Charge, Mort-vivant Nécromantique, Régénération (6+), Rapide",
+        "name_pl": "Cleaving Blow (Czarny Rycerze & Hell Rycerz only), Zwarty Szyk, Pierwsza Szarża, Nekromantyczni Nieumarli, Regeneracja (6+), Szybki Krok"
       },
       "notes": {
         "name_en": "0-1 per 1000 points (mutually exclusive with Grave Guard)",
         "name_cn": "每1000分0-1(和荒坟守卫不能同时选择)",
         "name_de": "0-1 pro 1000 Punkte (wechselseitig exklusiv mit Verfluchten)",
         "name_es": "0-1 per 1000 points (mutually exclusive with Grave Guard)",
-        "name_fr": "0-1 par tranche de 1000 points (mutuellement exclusif avec l'unité de Garde des Cryptes)"
+        "name_fr": "0-1 par tranche de 1000 points (mutuellement exclusif avec l'unité de Garde des Cryptes)",
+        "name_pl": "0-1 na 1000 punktów (mutually exclusive z Grave Straż)"
       }
     },
     {
@@ -2091,6 +2200,7 @@
           "name_de": "Gruftscheusal",
           "name_es": "Crypt Haunter",
           "name_fr": "Hideur des Cryptes",
+          "name_pl": "Nękacz Krypty",
           "points": 7
         }
       ],
@@ -2117,14 +2227,16 @@
         "name_cn": "顽强不屈(1), 穿行掩体, 不死亡灵, 开放阵型, 重生(6+), 践踏攻击(1)",
         "name_de": "Unverwüstlich (1), Durch Deckung bewegen, Nekromantische Untote, Offene Ränge, Regeneration (6+), Stampfattacken (1)",
         "name_es": "Indomitable (1), Move Through Cover, Necromantic Undead, Open Order, Regeneration (6+), Stomp Attacks (1)",
-        "name_fr": "Indomptable (1), Mouvement à Couvert, Mort-vivant Nécromantique, Ordre Dispersé, Régénération (6+), Attaques de Piétinement (1)"
+        "name_fr": "Indomptable (1), Mouvement à Couvert, Mort-vivant Nécromantique, Ordre Dispersé, Régénération (6+), Attaques de Piétinement (1)",
+        "name_pl": "Nieustępliwy (1), Przechodzenie Przez Zasłony, Nekromantyczni Nieumarli, Luźny Szyk, Regeneracja (6+), Zdeptanie (1)"
       },
       "notes": {
         "name_en": "0-1 per 1000 points (mutually exclusive with Fell Bats)",
         "name_cn": "每1000分0-1(mutually exclusive with Fell Bats)",
         "name_de": "0-1 pro 1000 Punkte (wechselseitig exklusiv mit Vampirfledermäusen)",
         "name_es": "0-1 per 1000 points (mutually exclusive with Fell Bats)",
-        "name_fr": "0-1 par tranche de 1000 points (mutuellement exclusif avec l'unité de Chauves-Souris Géantes)"
+        "name_fr": "0-1 par tranche de 1000 points (mutuellement exclusif avec l'unité de Chauves-Souris Géantes)",
+        "name_pl": "0-1 na 1000 punktów (mutually exclusive z Fell Bats)"
       }
     },
     {
@@ -2162,14 +2274,16 @@
         "name_cn": "飞行(10), 不死亡灵, 重生(6+), 散兵, 快速行进",
         "name_de": "Fliegen (10), Nekromantische Untote, Regeneration (6+), Plänkler, Schnelle Bewegung",
         "name_es": "Fly (10), Necromantic Undead, Regeneration (6+), Skirmishers, Swiftstride",
-        "name_fr": "Vol (10), Mort-vivant Nécromantique, Régénération (6+), Tirailleurs, Rapide"
+        "name_fr": "Vol (10), Mort-vivant Nécromantique, Régénération (6+), Tirailleurs, Rapide",
+        "name_pl": "Lot (10), Nekromantyczni Nieumarli, Regeneracja (6+), Harcownicy, Szybki Krok"
       },
       "notes": {
         "name_en": "0-1 per 1000 points (mutually exclusive with Crypt Horrors)",
         "name_cn": "每1000分0-1(mutually exclusive with Crypt Horrors)",
         "name_de": "0-1 pro 1000 Punkte (wechselseitig exklusiv mit Gruftschrecken)",
         "name_es": "0-1 per 1000 points (mutually exclusive with Crypt Horrors)",
-        "name_fr": "0-1 par tranche de 1000 points (mutuellement exclusif avec l'unité d'Horreurs des Cryptes)"
+        "name_fr": "0-1 par tranche de 1000 points (mutuellement exclusif avec l'unité d'Horreurs des Cryptes)",
+        "name_pl": "0-1 na 1000 punktów (mutually exclusive z Crypt Horrors)"
       }
     },
     {
@@ -2207,14 +2321,16 @@
         "name_cn": "受缚灵魂, 灵体, 魔法攻击, 不死亡灵, 开放阵型, 重生(6+), 预备移动",
         "name_de": "Gebundene Geister, Körperlos, Magische Attacken, Nekromantische Untote, Offene Ränge, Regeneration (6+), Reservebewegung",
         "name_es": "Bound Spirits, Ethereal, Magical Attacks, Necromantic Undead, Open Order, Regeneration (6+), Reserve Move",
-        "name_fr": "Esprits Liés, Ethéré, Attaques Magiques, Mort-vivant Nécromantique, Ordre Dispersé, Régénération (6+), Mouvement de Réserve"
+        "name_fr": "Esprits Liés, Ethéré, Attaques Magiques, Mort-vivant Nécromantique, Ordre Dispersé, Régénération (6+), Mouvement de Réserve",
+        "name_pl": "Bound Spirits, Ethereal, Magiczne Ataki, Nekromantyczni Nieumarli, Luźny Szyk, Regeneracja (6+), Reserve Move"
       },
       "notes": {
         "name_en": "0-1 per Cairn Wraith or Tomb Banshee",
         "name_cn": "0-1 每队石冢恶灵或荒坟女妖",
         "name_de": "0-1 pro Gespenst oder Banshee",
         "name_es": "0-1 per Cairn Wraith or Tomb Banshee",
-        "name_fr": "0-1 par Spectres des Cairns ou Banshee"
+        "name_fr": "0-1 par Spectres des Cairns ou Banshee",
+        "name_pl": "0-1 na Cairn Wraith lub Tomb Banshee"
       }
     },
     {
@@ -2235,6 +2351,7 @@
           "name_de": "Varghyl",
           "name_es": "Vargoyle",
           "name_fr": "Vargoyle",
+          "name_pl": "Wargul",
           "points": 7
         }
       ],
@@ -2261,14 +2378,16 @@
         "name_cn": "碎甲攻击(2), 黑暗活力, 易燃, 飞行(9), 狂暴, 顽强不屈(1), 不死亡灵, 重生(6+), 散兵",
         "name_de": "Rüstungsfluch (2), Dunkle Vitalität, Brennbar, Fliegen (9), Raserei, Unverwüstlich (1), Nekromantische Untote, Regeneration (6+), Plänkler",
         "name_es": "Armour Bane (2), Dark Vitality, Flammable, Fly (9), Frenzy, Indomitable (1), Necromantic Undead, Regeneration (6+), Skirmishers",
-        "name_fr": "Arme Perforante (2), Sombre Vitalité, Inflammable, Vol (9), Frénésie, Indomptable (1), Mort-vivant Nécromantique, Régénération (6+), Tirailleurs"
+        "name_fr": "Arme Perforante (2), Sombre Vitalité, Inflammable, Vol (9), Frénésie, Indomptable (1), Mort-vivant Nécromantique, Régénération (6+), Tirailleurs",
+        "name_pl": "Przebicie Zbroi (2), Mroczny Vitality {renegade}, Łatwopalny, Lot (9), Frenzy, Nieustępliwy (1), Nekromantyczni Nieumarli, Regeneracja (6+), Harcownicy"
       },
       "notes": {
         "name_en": "0-1 if your general is a Strigoi Ghoul King (mutually exclusive with Terrorgheist)",
         "name_cn": "0-1若你的主将是史崔格食尸鬼王(和惧龙蝠不能同时选择)",
         "name_de": "0-1, wenn dein General ein Strigoi-Ghulkönig ist (wechselseitig exklusiv mit Flederbestie)",
         "name_es": "0-1 if your general is a Strigoi Ghoul King (mutually exclusive with Terrorgheist)",
-        "name_fr": "0-1 si votre général est un Roi Goule (mutuellement exclusif avec l'unité de Terreurgheist)"
+        "name_fr": "0-1 si votre général est un Roi Goule (mutuellement exclusif avec l'unité de Terreurgheist)",
+        "name_pl": "0-1 jeśli twoja generał is a Strigoi Ghoul Król (mutually exclusive z Terrorgheist)"
       }
     },
     {
@@ -2301,6 +2420,7 @@
           "name_de": "Modrige Lederhaut (Leichte Rüstung)",
           "name_es": "Calloused hide (light armour)",
           "name_fr": "Peau calleuse (Armure légère)",
+          "name_pl": "Calloused hide (lekka zbroja)",
           "points": 0,
           "perModel": true,
           "active": true
@@ -2315,14 +2435,16 @@
         "name_cn": "紧密阵型, 飞行(9), 顽强不屈(1), 寄生蝙蝠, 大型目标, 不死亡灵, 重生(5+), 践踏攻击(D6), 快速行进, 惊骇, 哀嚎 {renegade}",
         "name_de": "Geschlossene Ränge, Fliegen (9), Unverwüstlich (1), Fledermausbefall, Großes Ziel, Nekromantische Untote, Regeneration (5+), Stampfattacken (W6), Schnelle Bewegung, Entsetzen, Tödliches Kreischen",
         "name_es": "Close Order, Fly (9), Indomitable (1), Infested, Large Target, Necromantic Undead, Regeneration (5+), Stomp Attacks (D6), Swiftstride, Terror, Wailing Dirge",
-        "name_fr": "Ordre Serré, Vol (9), Indomptable (1), Infesté, Grande Cible, Mort-vivant Nécromantique, Régénération (5+), Attaques de Piétinement (D6), Rapide, Terreur, Gémissement Lugubre"
+        "name_fr": "Ordre Serré, Vol (9), Indomptable (1), Infesté, Grande Cible, Mort-vivant Nécromantique, Régénération (5+), Attaques de Piétinement (D6), Rapide, Terreur, Gémissement Lugubre",
+        "name_pl": "Zwarty Szyk, Lot (9), Nieustępliwy (1), Infested, Duży Cel, Nekromantyczni Nieumarli, Regeneracja (5+), Zdeptanie (D6), Szybki Krok, Terror, Wailing Dirge {renegade}"
       },
       "notes": {
         "name_en": "0-1 if your general is a Strigoi Ghoul King (mutually exclusive with Vargheists)",
         "name_cn": "0-1若你的主将是史崔格食尸鬼王(和嗜血天鬼不能同时选择)",
         "name_de": "0-1, wenn dein General ein Strigoi-Ghulkönig ist (wechselseitig exklusiv mit Vargheists)",
         "name_es": "0-1 if your general is a Strigoi Ghoul King (mutually exclusive with Vargheists)",
-        "name_fr": "0-1 si votre général est un Roi Goule (mutuellement exclusif avec l'unité de Vargheists)"
+        "name_fr": "0-1 si votre général est un Roi Goule (mutuellement exclusif avec l'unité de Vargheists)",
+        "name_pl": "0-1 jeśli twoja generał is a Strigoi Ghoul Król (mutually exclusive z Vargheists)"
       }
     },
     {
@@ -2382,7 +2504,8 @@
             "name_cn": "仅守尸者",
             "name_it": "Corpsemaster only",
             "name_de": "Nur Leichenmeister",
-            "name_fr": "Croque-mort uniquement"
+            "name_fr": "Croque-mort uniquement",
+            "name_pl": "Tylko Corpsemastera"
           },
           "name_pl": "Bat"
         },
@@ -2399,7 +2522,8 @@
             "name_cn": "仅守尸者",
             "name_it": "Corpsemaster only",
             "name_de": "Nur Leichenmeister",
-            "name_fr": "Croque-mort uniquement"
+            "name_fr": "Croque-mort uniquement",
+            "name_pl": "Tylko Corpsemastera"
           },
           "name_pl": "Włócznia kawalerii"
         }
@@ -2412,14 +2536,16 @@
         "name_cn": "1级法师(Necromancy), 紧密阵型, 黑暗活力, 先行冲锋, 撞击(D3+1), 顽强不屈(1), 亡灵法系, 不死亡灵, 随机攻击(The Restless Dead only), 重生(6+)",
         "name_de": "Stufe 1 Zauberer (Nekromantie), Geschlossene Ränge, Dunkle Vitalität, Erster Angriff, Aufpralltreffer (W3+1), Unverwüstlich (1), Lehre des Untodes, Nekromantische Untote, Zufällige Attacken (nur Die Rastlosen Toten), Regeneration (6+)",
         "name_es": "Level 1 Wizard (Necromancy), Close Order, Dark Vitality, First Charge, Impact Hits (D3+1), Indomitable (1), Lore of Undeath, Necromantic Undead, Random Attacks (The Restless Dead only), Regeneration (6+)",
-        "name_fr": "Sorcier de Niveau 1 (Nécromancie), Ordre Serré, Sombre Vitalité, Première Charge, Touches d'Impact (D3+1), Indomptable (1), Domaine de la Non-vie, Mort-vivant Nécromantique, Attaques Aléatoires (Cortège Inapaisé uniquement), Régénération (6+)"
+        "name_fr": "Sorcier de Niveau 1 (Nécromancie), Ordre Serré, Sombre Vitalité, Première Charge, Touches d'Impact (D3+1), Indomptable (1), Domaine de la Non-vie, Mort-vivant Nécromantique, Attaques Aléatoires (Cortège Inapaisé uniquement), Régénération (6+)",
+        "name_pl": "Level 1 Czarodziej (Necromancy), Zwarty Szyk, Mroczny Vitality {renegade}, Pierwsza Szarża, Uderzenia Impetu (D3+1), Nieustępliwy (1), Lore of Undeath, Nekromantyczni Nieumarli, Random Attacks (The Restless Dead only), Regeneracja (6+)"
       },
       "notes": {
         "name_en": "0-3",
         "name_cn": "0-3",
         "name_de": "0-3",
         "name_es": "0-3",
-        "name_fr": "0-3"
+        "name_fr": "0-3",
+        "name_pl": "0-3"
       }
     }
   ],
@@ -2442,6 +2568,7 @@
           "name_de": "Varghyl",
           "name_es": "Vargoyle",
           "name_fr": "Vargoyle",
+          "name_pl": "Wargul",
           "points": 7
         }
       ],
@@ -2468,14 +2595,16 @@
         "name_cn": "碎甲攻击(2), 黑暗活力, 易燃, 飞行(9), 狂暴, 顽强不屈(1), 不死亡灵, 重生(6+), 散兵",
         "name_de": "Rüstungsfluch (2), Dunkle Vitalität, Brennbar, Fliegen (9), Raserei, Unverwüstlich (1), Nekromantische Untote, Regeneration (6+), Plänkler",
         "name_es": "Armour Bane (2), Dark Vitality, Flammable, Fly (9), Frenzy, Indomitable (1), Necromantic Undead, Regeneration (6+), Skirmishers",
-        "name_fr": "Arme Perforante (2), Sombre Vitalité, Inflammable, Vol (9), Frénésie, Indomptable (1), Mort-vivant Nécromantique, Régénération (6+), Tirailleurs"
+        "name_fr": "Arme Perforante (2), Sombre Vitalité, Inflammable, Vol (9), Frénésie, Indomptable (1), Mort-vivant Nécromantique, Régénération (6+), Tirailleurs",
+        "name_pl": "Przebicie Zbroi (2), Mroczny Vitality {renegade}, Łatwopalny, Lot (9), Frenzy, Nieustępliwy (1), Nekromantyczni Nieumarli, Regeneracja (6+), Harcownicy"
       },
       "notes": {
         "name_en": "0-1 per 1000 points",
         "name_cn": "每1000分0-1",
         "name_de": "0-1 pro 1000 Punkte",
         "name_es": "0-1 per 1000 points",
-        "name_fr": "0-1 par tranche de 1000 points"
+        "name_fr": "0-1 par tranche de 1000 points",
+        "name_pl": "0-1 na 1000 punktów"
       }
     },
     {
@@ -2498,7 +2627,7 @@
           "points": 0,
           "perModel": true,
           "active": true,
-          "name_pl": "Widmowa kosa {czarny powóz}, Żelazne kopyta (Broń ręczna)"
+          "name_pl": "Widmowa kosa {black coach}, Żelazne kopyta (Broń ręczna)"
         }
       ],
       "armor": [],
@@ -2511,14 +2640,16 @@
         "name_cn": "紧密阵型, 先行冲锋, 撞击(D6+2), 顽强不屈(1), 魔法攻击, 不死亡灵, 重生(6+), 幽魂马车, 惊骇",
         "name_de": "Geschlossene Ränge, Erster Angriff, Aufpralltreffer (W6+2), Unverwüstlich (1), Magische Attacken, Nekromantische Untote, Regeneration (6+), Spektraler Kutschwagen, Entsetzen",
         "name_es": "Close Order, First Charge, Impact Hits (D6+2), Indomitable (1), Magical Attacks, Necromantic Undead, Regeneration (6+), Spectral Coach, Terror",
-        "name_fr": "Ordre Serré, Première Charge, Touches d'Impact (D6+2), Indomptable (1), Attaques Magiques, Mort-vivant Nécromantique, Régénération (6+), Spectre, Terreur"
+        "name_fr": "Ordre Serré, Première Charge, Touches d'Impact (D6+2), Indomptable (1), Attaques Magiques, Mort-vivant Nécromantique, Régénération (6+), Spectre, Terreur",
+        "name_pl": "Zwarty Szyk, Pierwsza Szarża, Uderzenia Impetu (D6+2), Nieustępliwy (1), Magiczne Ataki, Nekromantyczni Nieumarli, Regeneracja (6+), Spectral Coach, Terror"
       },
       "notes": {
         "name_en": "0-2",
         "name_cn": "0-2",
         "name_de": "0-2",
         "name_es": "0-2",
-        "name_fr": "0-2"
+        "name_fr": "0-2",
+        "name_pl": "0-2"
       }
     },
     {
@@ -2551,6 +2682,7 @@
           "name_de": "Modrige Lederhaut (Leichte Rüstung)",
           "name_es": "Calloused hide (light armour)",
           "name_fr": "Peau calleuse (Armure légère)",
+          "name_pl": "Calloused hide (lekka zbroja)",
           "points": 0,
           "perModel": true,
           "active": true
@@ -2565,19 +2697,21 @@
         "name_cn": "紧密阵型, 飞行(9), 顽强不屈(1), 寄生蝙蝠, 大型目标, 不死亡灵, 重生(5+), 践踏攻击(D6), 快速行进, 惊骇, 哀嚎 {renegade}",
         "name_de": "Geschlossene Ränge, Fliegen (9), Unverwüstlich (1), Fledermausbefall, Großes Ziel, Nekromantische Untote, Regeneration (5+), Stampfattacken (W6), Schnelle Bewegung, Entsetzen, Tödliches Kreischen",
         "name_es": "Close Order, Fly (9), Indomitable (1), Infested, Large Target, Necromantic Undead, Regeneration (5+), Stomp Attacks (D6), Swiftstride, Terror, Wailing Dirge",
-        "name_fr": "Ordre Serré, Vol (9), Indomptable (1), Infesté, Grande Cible, Mort-vivant Nécromantique, Régénération (5+), Attaques de Piétinement (D6), Rapide, Terreur, Gémissement Lugubre"
+        "name_fr": "Ordre Serré, Vol (9), Indomptable (1), Infesté, Grande Cible, Mort-vivant Nécromantique, Régénération (5+), Attaques de Piétinement (D6), Rapide, Terreur, Gémissement Lugubre",
+        "name_pl": "Zwarty Szyk, Lot (9), Nieustępliwy (1), Infested, Duży Cel, Nekromantyczni Nieumarli, Regeneracja (5+), Zdeptanie (D6), Szybki Krok, Terror, Wailing Dirge {renegade}"
       },
       "notes": {
         "name_en": "0-1 per 1000 points (mutually exclusive with Varghulf)",
         "name_cn": "每1000分0-1(mutually exclusive with Varghulf)",
         "name_de": "0–1 pro 1000 Punkte (wechselseitig exklusiv mit Varghulf)",
         "name_es": "0-1 per 1000 points (mutually exclusive with Varghulf)",
-        "name_fr": "0-1 par tranche de 1000 points (mutuellement exclusif avec l'unité de Varghulf)"
+        "name_fr": "0-1 par tranche de 1000 points (mutuellement exclusif avec l'unité de Varghulf)",
+        "name_pl": "0-1 na 1000 punktów (mutually exclusive z Varghulf)"
       }
     },
     {
       "name_en": "Varghulf",
-      "name_pl": "Varghulf",
+      "name_pl": "Wargulf",
       "name_cn": "嗜血蝠狼",
       "name_de": "Varghulf",
       "name_es": "Varghulf",
@@ -2605,6 +2739,7 @@
           "name_de": "Modrige Lederhaut (Leichte Rüstung)",
           "name_es": "Calloused hide (light armour)",
           "name_fr": "Peau calleuse (Armure légère)",
+          "name_pl": "Calloused hide (lekka zbroja)",
           "points": 0,
           "perModel": true,
           "active": true
@@ -2619,14 +2754,16 @@
         "name_cn": "兽性之怒, 紧密阵型, 反制冲锋, 黑暗活力, 易燃, 狂暴, 顽强不屈(1), 不死亡灵, 重生(5+), 快速行进, 惊骇",
         "name_de": "Bestienwut, Geschlossene Ränge, Gegenangriff, Dunkle Vitalität, Brennbar, Raserei, Unverwüstlich (1), Nekromantische Untote, Regeneration (5+), Schnelle Bewegung, Entsetzen",
         "name_es": "Bestial Fury, Close Order, Counter Charge, Dark Vitality, Flammable, Frenzy, Indomitable (1), Necromantic Undead, Regeneration (5+), Swiftstride, Terror",
-        "name_fr": "Furie Bestiale, Ordre Serré, Contre-charge, Sombre Vitalité, Inflammable, Frénésie, Indomptable (1), Mort-vivant Nécromantique, Régénération (5+), Rapide, Terreur"
+        "name_fr": "Furie Bestiale, Ordre Serré, Contre-charge, Sombre Vitalité, Inflammable, Frénésie, Indomptable (1), Mort-vivant Nécromantique, Régénération (5+), Rapide, Terreur",
+        "name_pl": "Bestial Fury, Zwarty Szyk, Przeciwnatarcie, Mroczny Vitality {renegade}, Łatwopalny, Frenzy, Nieustępliwy (1), Nekromantyczni Nieumarli, Regeneracja (5+), Szybki Krok, Terror"
       },
       "notes": {
         "name_en": "0-1 per 1000 points (mutually exclusive with Terrorgheist)",
         "name_cn": "每1000分0-1(和惧龙蝠不能同时选择)",
         "name_de": "0–1 pro 1000 Punkte (wechselseitig exklusiv mit Flederbestie)",
         "name_es": "0-1 per 1000 points (mutually exclusive with Terrorgheist)",
-        "name_fr": "0-1 par tranche de 1000 points (mutuellement exclusif avec l'unité de Terreurgheist)"
+        "name_fr": "0-1 par tranche de 1000 points (mutuellement exclusif avec l'unité de Terreurgheist)",
+        "name_pl": "0-1 na 1000 punktów (mutually exclusive z Terrorgheist)"
       }
     },
     {
@@ -2647,6 +2784,7 @@
           "name_de": "Kastellan",
           "name_es": "Kastellan",
           "name_fr": "Kasztellan",
+          "name_pl": "Kasztelan",
           "points": 7,
           "magic": {
             "types": [
@@ -2667,6 +2805,7 @@
           "name_de": "Standartenträger",
           "name_es": "Standard bearer",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "types": [
@@ -2681,6 +2820,7 @@
           "name_de": "Musiker",
           "name_es": "Musician",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -2704,6 +2844,7 @@
           "name_de": "Schwere Rüstung, Schilde, Rossharnisch",
           "name_es": "Heavy armour, Shields, Barding",
           "name_fr": "Armure lourde, Boucliers, Caparaçon",
+          "name_pl": "Ciężka Zbroja, Shields, Barding",
           "points": 0,
           "perModel": true,
           "active": true
@@ -2714,6 +2855,7 @@
           "name_de": "Plattenrüstung, Schilde, Rossharnisch",
           "name_es": "Full plate armour, Shields, Barding",
           "name_fr": "Armure de plate complète, Boucliers, Caparaçon",
+          "name_pl": "Pełna Zbroja Płytowa, Shields, Barding",
           "points": 5,
           "perModel": true
         }
@@ -2740,14 +2882,16 @@
         "name_cn": "受诅武器, 紧密阵型, 反制冲锋, 黑暗活力, 先行冲锋, 易燃, 顽强不屈(1), 傲人武艺, 不死亡灵, 重生(6+), 快速行进",
         "name_de": "Verfluchte Waffen, Geschlossene Ränge, Gegenangriff, Dunkle Vitalität, Erster Angriff, Brennbar, Unverwüstlich (1), Kriegerstolz, Nekromantische Untote, Regeneration (6+), Schnelle Bewegung",
         "name_es": "Accursed Weapons, Close Order, Counter Charge, Dark Vitality, First Charge, Flammable, Indomitable (1), Martial Pride, Necromantic Undead, Regeneration (6+), Swiftstride",
-        "name_fr": "Armes Maudites, Ordre Serré, Contre-charge, Sombre Vitalité, Première Charge, Inflammable, Indomptable (1), Fierté Martiale, Mort-vivant Nécromantique, Régénération (6+), Rapide"
+        "name_fr": "Armes Maudites, Ordre Serré, Contre-charge, Sombre Vitalité, Première Charge, Inflammable, Indomptable (1), Fierté Martiale, Mort-vivant Nécromantique, Régénération (6+), Rapide",
+        "name_pl": "Accursed Broń, Zwarty Szyk, Przeciwnatarcie, Mroczny Vitality {renegade}, Pierwsza Szarża, Łatwopalny, Nieustępliwy (1), Martial Pride, Nekromantyczni Nieumarli, Regeneracja (6+), Szybki Krok"
       },
       "notes": {
         "name_en": "0-1 per 1000 points, Kastellan chooses 25 points Magic Items and 25 points Vampiric Powers",
         "name_cn": "每1000分0-1, 堡主可以选择最高25分的魔法物品和最高25分的吸血鬼之力",
         "name_de": " „0–1 pro 1000 Punkte, Kastellan darf bis zu 25 Punkte Magische Gegenstände und 25 Punkte Vampirkräfte wählen",
         "name_es": "0-1 per 1000 points, Kastellan chooses 25 points Magic Items and 25 points Vampiric Powers",
-        "name_fr": "0-1 par tranche de 1000 points, Kasztellan peut prendre jusqu'à 25 points de Objets Magiques et jusqu'à 25 points de Pouvoirs Vampiriques"
+        "name_fr": "0-1 par tranche de 1000 points, Kasztellan peut prendre jusqu'à 25 points de Objets Magiques et jusqu'à 25 points de Pouvoirs Vampiriques",
+        "name_pl": "0-1 na 1000 punktów, Kastellan chooses 25 punktów Magic Items i 25 punktów Vampiric Powers"
       }
     },
     {
@@ -2768,6 +2912,7 @@
           "name_de": "Schnitter",
           "name_es": "Hellwraith",
           "name_fr": "Émissaire Infernal",
+          "name_pl": "Piekielny Upiór",
           "points": 6
         }
       ],
@@ -2794,14 +2939,16 @@
         "name_cn": "灵体, 火焰攻击, 飞行(8), 魔法攻击, 不死亡灵, 开放阵型, 重生(6+), 幽魂收割, 快速行进, 惊骇",
         "name_de": "Körperlos, Flammenattacken, Fliegen (8), Magische Attacken, Nekromantische Untote, Offene Ränge, Regeneration (6+), Spektrale Schnitter, Schnelle Bewegung, Entsetzen",
         "name_es": "Ethereal, Flaming Attacks, Fly (8), Magical Attacks, Necromantic Undead, Open Order, Regeneration (6+), Spectral Reapers, Swiftstride, Terror",
-        "name_fr": "Ethéré, Attaques Enflammées, Vol (8), Attaques Magiques, Mort-vivant Nécromantique, Ordre Dispersé, Régénération (6+), Faucheurs Spectraux, Rapide, Terreur"
+        "name_fr": "Ethéré, Attaques Enflammées, Vol (8), Attaques Magiques, Mort-vivant Nécromantique, Ordre Dispersé, Régénération (6+), Faucheurs Spectraux, Rapide, Terreur",
+        "name_pl": "Ethereal, Flaming Attacks, Lot (8), Magiczne Ataki, Nekromantyczni Nieumarli, Luźny Szyk, Regeneracja (6+), Spectral Reapers, Szybki Krok, Terror"
       },
       "notes": {
         "name_en": "0-1 per Cairn Wraith or Tomb Banshee",
         "name_cn": "0-1 每队石冢恶灵或荒坟女妖",
         "name_de": "0-1 pro Gespenst oder Banshee",
         "name_es": "0-1 per Cairn Wraith or Tomb Banshee",
-        "name_fr": "0-1 par Spectres des Cairns ou Banshee"
+        "name_fr": "0-1 par Spectres des Cairns ou Banshee",
+        "name_pl": "0-1 na Cairn Wraith lub Tomb Banshee"
       }
     }
   ],

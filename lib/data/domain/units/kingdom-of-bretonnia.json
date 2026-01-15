@@ -15,6 +15,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -56,7 +57,8 @@
             "name_cn": "若处于骑乘状态",
             "name_it": "if appropriately mounted",
             "name_de": "sofern geeignet beritten",
-            "name_fr": "si monté"
+            "name_fr": "si monté",
+            "name_pl": "jeśli appropriately mounted"
           },
           "name_pl": "Lanca"
         }
@@ -67,6 +69,7 @@
           "name_cn": "重甲",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "active": true
         }
@@ -87,6 +90,7 @@
           "name_en": "On foot",
           "name_cn": "步行",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -95,6 +99,7 @@
           "name_cn": "巴托尼亚战马",
           "name_de": "Bretonisches Schlachtross",
           "name_fr": "Destrier Bretonnien",
+          "name_pl": "Bretonnian Rumak Bojowy",
           "points": 16
         },
         {
@@ -102,6 +107,7 @@
           "name_cn": "披甲飞马",
           "name_de": "Pegasus mit Rossharnisch",
           "name_fr": "Pégase Caparaçonné",
+          "name_pl": "Barded Pegaz",
           "points": 30
         },
         {
@@ -109,6 +115,7 @@
           "name_cn": "皇家飞马",
           "name_de": "Königspegasus",
           "name_fr": "Pégase Royal",
+          "name_pl": "Royal Pegaz",
           "points": 70
         },
         {
@@ -116,6 +123,7 @@
           "name_cn": "角鹰",
           "name_de": "Hippogreif",
           "name_fr": "Hippogriffe",
+          "name_pl": "Hipogryf",
           "points": 120,
           "options": [
             {
@@ -123,6 +131,7 @@
               "name_en": "Barding",
               "name_cn": "马铠",
               "name_fr": "Caparaçon",
+              "name_pl": "Kapparison",
               "points": 15
             }
           ]
@@ -134,6 +143,7 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -148,6 +158,7 @@
           "name_cn": "骑士美德",
           "name_de": "Rittertugend",
           "name_fr": "Vertus Chevaleresques",
+          "name_pl": "Rycerskie Cnoty",
           "types": [
             "knightly-virtue"
           ],
@@ -159,14 +170,16 @@
         "name_en": "Blessings of the Lady, Rallying Cry, The Grail Vow",
         "name_cn": "女神祝福, 集结战吼, 圣杯誓言",
         "name_de": "Segen der Herrin, Sammelruf, Gralsgelübde",
-        "name_fr": "Bénédiction de la Dame, Cri de Ralliement, Le Vœu du Graal"
+        "name_fr": "Bénédiction de la Dame, Cri de Ralliement, Le Vœu du Graal",
+        "name_pl": "Blessings of the Lady, Bojowy Okrzyk, The Grail Vow"
       },
       "notes": {
         "name_en": "0-1 Duke",
         "name_cn": "0-1公爵",
         "name_de": "0-1 Herzog",
         "name_es": "0-1 Duke",
-        "name_fr": "0-1 Duc"
+        "name_fr": "0-1 Duc",
+        "name_pl": "0-1 Książę"
       },
       "armyComposition": {
         "kingdom-of-bretonnia": {
@@ -191,6 +204,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -202,7 +216,8 @@
             "name_cn": "每1000分0-1男爵或女先知",
             "name_de": "0-1 Baron oder Dame pro 1.000 Punkte",
             "name_es": "",
-            "name_fr": "0-1 Baron ou Prophétesse par tranche de 1000 points"
+            "name_fr": "0-1 Baron ou Prophétesse par tranche de 1000 points",
+            "name_pl": "0-1 Baron lub Prophetess na 1000 punktów"
           }
         },
         "errantry-crusades": {
@@ -212,7 +227,8 @@
             "name_cn": "每1000分0-1男爵或女先知",
             "name_de": "0-1 Baron oder Dame pro 1.000 Punkte ",
             "name_es": "",
-            "name_fr": "0-1 Baron ou Prophétesse par tranche de 1000 points"
+            "name_fr": "0-1 Baron ou Prophétesse par tranche de 1000 points",
+            "name_pl": "0-1 Baron lub Prophetess na 1000 punktów"
           }
         },
         "bretonnian-exiles": {
@@ -222,7 +238,8 @@
             "name_cn": "每1000分0-1男爵",
             "name_de": "0-1 Baron pro 1.000 Punkte",
             "name_es": "",
-            "name_fr": "0-1 Baron par tranche de 1000 points"
+            "name_fr": "0-1 Baron par tranche de 1000 points",
+            "name_pl": "0-1 Baron na 1000 punktów"
           }
         }
       },
@@ -264,7 +281,8 @@
             "name_cn": "若处于骑乘状态",
             "name_it": "if appropriately mounted",
             "name_de": "sofern geeignet beritten",
-            "name_fr": "si monté"
+            "name_fr": "si monté",
+            "name_pl": "jeśli appropriately mounted"
           },
           "name_pl": "Lanca"
         }
@@ -275,6 +293,7 @@
           "name_cn": "重甲",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "active": true
         }
@@ -337,6 +356,7 @@
           "name_en": "On foot",
           "name_cn": "步行",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -345,6 +365,7 @@
           "name_cn": "巴托尼亚战马",
           "name_de": "Bretonisches Schlachtross",
           "name_fr": "Destrier Bretonnien",
+          "name_pl": "Bretonnian Rumak Bojowy",
           "points": 16
         },
         {
@@ -352,6 +373,7 @@
           "name_cn": "披甲飞马",
           "name_de": "Pegasus mit Rossharnisch",
           "name_fr": "Pégase Caparaçonné",
+          "name_pl": "Barded Pegaz",
           "points": 30
         },
         {
@@ -359,6 +381,7 @@
           "name_cn": "皇家飞马",
           "name_de": "Königspegasus",
           "name_fr": "Pégase Royal",
+          "name_pl": "Royal Pegaz",
           "points": 70
         },
         {
@@ -366,6 +389,7 @@
           "name_en": "Hippogryph",
           "name_cn": "角鹰",
           "name_fr": "Hippogriffe",
+          "name_pl": "Hipogryf",
           "points": 120,
           "options": [
             {
@@ -373,6 +397,7 @@
               "name_en": "Barding",
               "name_cn": "马铠",
               "name_fr": "Caparaçon",
+              "name_pl": "Kapparison",
               "points": 15
             }
           ]
@@ -384,6 +409,7 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -398,6 +424,7 @@
           "name_cn": "骑士美德",
           "name_de": "Rittertugend",
           "name_fr": "Vertus Chevaleresques",
+          "name_pl": "Rycerskie Cnoty",
           "types": [
             "knightly-virtue"
           ],
@@ -409,7 +436,8 @@
         "name_en": "Blessings of the Lady, Rallying Cry, The Knight's Vow",
         "name_cn": "女神祝福, 集结战吼, 骑士誓言",
         "name_de": "Segen der Herrin, Sammelruf, Rittertugend",
-        "name_fr": "Bénédiction de la Dame, Cri de Ralliement, Le Vœu du Chevalier"
+        "name_fr": "Bénédiction de la Dame, Cri de Ralliement, Le Vœu du Chevalier",
+        "name_pl": "Blessings of the Lady, Bojowy Okrzyk, The Knight's Vow"
       },
       "name_fr": "Baron"
     },
@@ -428,6 +456,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -485,6 +514,7 @@
           "name_cn": "步行",
           "name_fr": "À Pied",
           "name_de": "Zu Fuß",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -493,6 +523,7 @@
           "name_cn": "战马 {bretonnia}",
           "name_de": "Schlachtross",
           "name_fr": "Destrier",
+          "name_pl": "Rumak Bojowy {bretonnia}",
           "points": 12
         },
         {
@@ -500,6 +531,7 @@
           "name_cn": "巴托尼亚战马",
           "name_de": "Bretonisches Schlachtross",
           "name_fr": "Destrier Bretonnien",
+          "name_pl": "Bretonnian Rumak Bojowy",
           "points": 16
         },
         {
@@ -507,6 +539,7 @@
           "name_cn": "独角兽",
           "name_de": "Einhorn",
           "name_fr": "Licorne",
+          "name_pl": "Jednorożec",
           "points": 35
         },
         {
@@ -514,6 +547,7 @@
           "name_cn": "皇家飞马",
           "name_de": "Königspegasus",
           "name_fr": "Pégase Royal",
+          "name_pl": "Royal Pegaz",
           "points": 70
         }
       ],
@@ -523,6 +557,7 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -543,14 +578,16 @@
         "name_en": "Aura of the Lady, Blessings of the Lady, Lore of the Lady, Magical Attacks, Magic Resistance (-2), Shield of the Lady",
         "name_cn": "女神光辉, 女神祝福, 女神法系, 魔法攻击, 魔法抗性(-2), 女神之盾",
         "name_de": "Aura der Herrin, Segen der Herrin, Lehre der Herrin, Magische Attacken, Magieresistenz (-2), Schild der Herrin",
-        "name_fr": "Aura de la Dame, Bénédiction de la Dame, Domaine de la Dame, Attaques Magiques, Résistance à la Magie (-2), Bouclier de la Dame"
+        "name_fr": "Aura de la Dame, Bénédiction de la Dame, Domaine de la Dame, Attaques Magiques, Résistance à la Magie (-2), Bouclier de la Dame",
+        "name_pl": "Aura of the Lady, Blessings of the Lady, Lore of the Lady, Magiczne Ataki, Odporność Na Magię (-2), Shield of the Lady"
       },
       "notes": {
         "name_en": "0-1 Baron or Prophetess per 1000 points",
         "name_cn": "每1000分0-1男爵或女先知",
         "name_de": "0-1 Baron oder Dame pro 1.000 Punkte",
         "name_es": "",
-        "name_fr": "0-1 Baron ou Prophétesse par tranche de 1000 points"
+        "name_fr": "0-1 Baron ou Prophétesse par tranche de 1000 points",
+        "name_pl": "0-1 Baron lub Prophetess na 1000 punktów"
       },
       "armyComposition": {
         "kingdom-of-bretonnia": {
@@ -580,7 +617,8 @@
             "name_cn": "1+ 圣骑士",
             "name_de": "1+ Paladin",
             "name_es": "",
-            "name_fr": "1+ Paladin"
+            "name_fr": "1+ Paladin",
+            "name_pl": "1+ Paladyn"
           }
         },
         "bretonnian-exiles": {
@@ -594,6 +632,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         },
         {
@@ -601,6 +640,7 @@
           "name_cn": "战旗手",
           "name_de": "Armeestandartenträger",
           "name_fr": "Porteur de la Grande Bannière",
+          "name_pl": "Chorąży",
           "points": 0,
           "magic": {
             "types": [
@@ -648,7 +688,8 @@
             "name_cn": "若处于骑乘状态",
             "name_it": "if appropriately mounted",
             "name_de": "sofern geeignet beritten",
-            "name_fr": "si monté"
+            "name_fr": "si monté",
+            "name_pl": "jeśli appropriately mounted"
           },
           "name_pl": "Lanca"
         }
@@ -659,6 +700,7 @@
           "name_cn": "重甲",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "active": true
         }
@@ -721,6 +763,7 @@
           "name_en": "On foot",
           "name_cn": "步行",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -729,6 +772,7 @@
           "name_cn": "巴托尼亚战马",
           "name_de": "Bretonisches Schlachtross",
           "name_fr": "Destrier Bretonnien",
+          "name_pl": "Bretonnian Rumak Bojowy",
           "points": 16
         },
         {
@@ -736,6 +780,7 @@
           "name_cn": "披甲飞马",
           "name_de": "Pegasus mit Rossharnisch",
           "name_fr": "Pégase Caparaçonné",
+          "name_pl": "Barded Pegaz",
           "points": 30
         },
         {
@@ -743,6 +788,7 @@
           "name_cn": "皇家飞马",
           "name_de": "Königspegasus",
           "name_fr": "Pégase Royal",
+          "name_pl": "Royal Pegaz",
           "points": 70
         }
       ],
@@ -752,6 +798,7 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -766,6 +813,7 @@
           "name_cn": "骑士美德",
           "name_de": "Rittertugend",
           "name_fr": "Vertus Chevaleresques",
+          "name_pl": "Rycerskie Cnoty",
           "types": [
             "knightly-virtue"
           ],
@@ -777,7 +825,8 @@
         "name_en": "Blessings of the Lady, Rallying Cry, The Knight's Vow",
         "name_cn": "女神祝福, 集结战吼, 骑士誓言",
         "name_de": "Segen der Herrin, Sammelruf, Rittergelübde",
-        "name_fr": "Bénédiction de la Dame, Cri de Ralliement, Le Vœu du Chevalier"
+        "name_fr": "Bénédiction de la Dame, Cri de Ralliement, Le Vœu du Chevalier",
+        "name_pl": "Blessings of the Lady, Bojowy Okrzyk, The Knight's Vow"
       }
     },
     {
@@ -802,7 +851,8 @@
             "name_cn": "0-1圣女",
             "name_de": "0-1 Dame",
             "name_es": "",
-            "name_fr": "0-1 Damoiselle"
+            "name_fr": "0-1 Damoiselle",
+            "name_pl": "0-1 Dama"
           }
         }
       },
@@ -813,6 +863,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -870,6 +921,7 @@
           "name_cn": "步行",
           "name_fr": "À Pied",
           "name_de": "Zu Fuß",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -878,6 +930,7 @@
           "name_cn": "战马 {bretonnia}",
           "name_de": "Schlachtross",
           "name_fr": "Destrier",
+          "name_pl": "Rumak Bojowy {bretonnia}",
           "points": 12
         },
         {
@@ -885,6 +938,7 @@
           "name_cn": "巴托尼亚战马",
           "name_de": "Bretonisches Schlachtross",
           "name_fr": "Destrier Bretonnien",
+          "name_pl": "Bretonnian Rumak Bojowy",
           "points": 16
         },
         {
@@ -892,6 +946,7 @@
           "name_cn": "独角兽",
           "name_de": "Einhorn",
           "name_fr": "Licorne",
+          "name_pl": "Jednorożec",
           "points": 35
         }
       ],
@@ -901,6 +956,7 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -921,7 +977,8 @@
         "name_en": "Aura of the Lady, Blessings of the Lady, Lore of the Lady, Magical Attacks, Magic Resistance (-2), Shield of the Lady",
         "name_cn": "女神光辉, 女神祝福, 女神法系, 魔法攻击, 魔法抗性(-2), 女神之盾",
         "name_de": "Aura der Herrin, Segen der Herrin, Lehre der Herrin, Magische Attacken, Magieresistenz (-2), Schild der Herrin",
-        "name_fr": "Aura de la Dame, Bénédiction de la Dame, Domaine de la Dame, Attaques Magiques, Résistance à la Magie (-2), Bouclier de la Dame"
+        "name_fr": "Aura de la Dame, Bénédiction de la Dame, Domaine de la Dame, Attaques Magiques, Résistance à la Magie (-2), Bouclier de la Dame",
+        "name_pl": "Aura of the Lady, Blessings of the Lady, Lore of the Lady, Magiczne Ataki, Odporność Na Magię (-2), Shield of the Lady"
       }
     },
     {
@@ -939,6 +996,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -984,6 +1042,7 @@
           "name_cn": "轻甲",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "active": true
         }
@@ -1004,6 +1063,7 @@
           "name_cn": "步行",
           "name_fr": "À Pied",
           "name_de": "Zu Fuß",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -1012,6 +1072,7 @@
           "name_cn": "战马 {bretonnia}",
           "name_de": "Schlachtross",
           "name_fr": "Destrier",
+          "name_pl": "Rumak Bojowy {bretonnia}",
           "points": 12
         }
       ],
@@ -1021,6 +1082,7 @@
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -1035,7 +1097,8 @@
         "name_en": "Levies, Peasant's Duty, Peasantry, Warband",
         "name_cn": "炮灰, 农民职责, 农民, 战帮",
         "name_de": "Bauernvolk, Des Bauern Pflicht, Gesindel, Kriegerschar",
-        "name_fr": "Conscrits, Devoir du Paysan, Paysannerie, Bande de Guerre"
+        "name_fr": "Conscrits, Devoir du Paysan, Paysannerie, Bande de Guerre",
+        "name_pl": "Levies, Peasant's Duty, Peasantry, Gromada"
       }
     },
     {
@@ -1054,6 +1117,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -1122,6 +1186,7 @@
           "name_en": "On foot",
           "name_cn": "步行",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -1131,6 +1196,7 @@
           "name_de": "Schlachtross",
           "name_fr": "Destrier",
           "name_es": "Warhorse",
+          "name_pl": "Rumak Bojowy {bretonnia}",
           "points": 12
         }
       ],
@@ -1141,6 +1207,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "talisman",
@@ -1164,7 +1231,8 @@
         "name_en": "Magical Attacks, Magic Resistance (-1), Untutored Arcanist",
         "name_cn": "魔法攻击, 魔法抗性(-1), 野蛮奥术",
         "name_de": "Magische Attacken, Magieresistenz (-1), Ungelernter Arkanist",
-        "name_fr": "Attaques Magiques, Résistance à la Magie (-1), Arcaniste Autodidacte"
+        "name_fr": "Attaques Magiques, Résistance à la Magie (-1), Arcaniste Autodidacte",
+        "name_pl": "Magiczne Ataki, Odporność Na Magię (-1), Untutored Arcanist"
       },
       "armyComposition": {
         "bretonnian-exiles": {
@@ -1201,7 +1269,8 @@
           "name_de": "Schwere Rüstung, Schild, Rossharnisch",
           "active": true,
           "points": 0,
-          "name_fr": "Armure lourde, Bouclier, Caparaçon"
+          "name_fr": "Armure lourde, Bouclier, Caparaçon",
+          "name_pl": "Ciężka Zbroja, Shield, Barding"
         }
       ],
       "options": [],
@@ -1212,7 +1281,8 @@
         "name_en": "Aura of the Fay, Blessed Knight, Ethereal, Guardian of the Sacred Sites, Immune to Psychology, Loner, Move Through Cover, Rallying Cry, Terror, Unbreakable, Unstable",
         "name_cn": "仙灵之辉, 受祝骑士, 灵体, 圣地守护者, 心理免疫, 独行, 穿行掩体, 集结战吼, 惊骇, 永不战败, 不稳定",
         "name_de": "Aura of the Fay, Gesegneter Ritter, Körperlos, Hüter der Heiligen Stätten, Immun gegen Psychologie, Einzelgänger, Durch Deckung bewegen, Sammelruf, Entsetzen, Unerschütterlich, Instabil",
-        "name_fr": "Aura Féérique, Chevalier Béni, Ethéré, Gardien des Sites Sacrés, Immunisé à la Psychologie, Solitaire, Mouvement à Couvert, Cri de Ralliement, Terreur, Indémoralisable, Instables"
+        "name_fr": "Aura Féérique, Chevalier Béni, Ethéré, Gardien des Sites Sacrés, Immunisé à la Psychologie, Solitaire, Mouvement à Couvert, Cri de Ralliement, Terreur, Indémoralisable, Instables",
+        "name_pl": "Aura of the Fay, Blessed Rycerz, Ethereal, Guardian of the Sacred Sites, Odporność Na Psychologię, Samotnik, Przechodzenie Przez Zasłony, Bojowy Okrzyk, Terror, Niezłomni, Unstable"
       }
     },
     {
@@ -1232,6 +1302,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -1253,7 +1324,8 @@
           "name_de": "Drachenhautmantel, Schwere Rüstung, Schild",
           "active": true,
           "points": 0,
-          "name_fr": "Cape en Peau de Dragon, Armure lourde, Bouclier"
+          "name_fr": "Cape en Peau de Dragon, Armure lourde, Bouclier",
+          "name_pl": "Dragonhide Cloak, Ciężka Zbroja, Shield"
         }
       ],
       "options": [],
@@ -1264,7 +1336,8 @@
         "name_en": "Blessings of the Lady, Rallying Cry, The Wyrm Slayer, The Exile's Vow",
         "name_cn": "女神祝福, 集结战吼, 妖龙杀手, 放逐誓言",
         "name_de": "Segen der Herrin, Sammelruf, Der Wyrmtöter, Das Exilantengelübde",
-        "name_fr": "Bénédiction de la Dame, Cri de Ralliement, Le Sauroctone, Le Vœu de l'Exilé"
+        "name_fr": "Bénédiction de la Dame, Cri de Ralliement, Le Sauroctone, Le Vœu de l'Exilé",
+        "name_pl": "Blessings of the Lady, Bojowy Okrzyk, The Wyrm Zabójca, The Exile's Vow"
       }
     },
     {
@@ -1284,6 +1357,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -1309,7 +1383,8 @@
         "name_en": "Arcane Backlash, Armour Bane (2 - Ariandir only), Armoured Hide (1), Aura of the Lady, Beguiling Aura, Blessings of the Lady, Counter Charge, Lore of the Lady, Magical Attacks, Magic Resistance (-2), Shield of the Lady, Stomp Attacks (1), Swiftstride",
         "name_cn": "奥术反制, 碎甲攻击(2 - Ariandir only), 坚硬皮肤(1), 女神光辉, 迷人光环, 女神祝福, 反制冲锋, 女神法系, 魔法攻击, 魔法抗性(-2), 女神之盾, 践踏攻击(1), 快速行进",
         "name_de": "Arcane Backlash, Armour Bane (2 - Ariandir only), Armoured Hide (1), Aura of the Lady, Beguiling Aura, Blessings of the Lady, Counter Charge, Lore of the Lady, Magical Attacks, Magic Resistance (-2), Shield of the Lady, Stomp Attacks (1), Swiftstride",
-        "name_fr": "Contrecoup Arcanique, Arme Perforante (2 - Ariandir uniquement), Peau Blindée (1), Aura de la Dame, Aura Envoûtante, Bénédiction de la Dame, Contre-charge, Domaine de la Dame, Attaques Magiques, Résistance à la Magie (-2), Bouclier de la Dame, Attaques de Piétinement (1), Rapide"
+        "name_fr": "Contrecoup Arcanique, Arme Perforante (2 - Ariandir uniquement), Peau Blindée (1), Aura de la Dame, Aura Envoûtante, Bénédiction de la Dame, Contre-charge, Domaine de la Dame, Attaques Magiques, Résistance à la Magie (-2), Bouclier de la Dame, Attaques de Piétinement (1), Rapide",
+        "name_pl": "Arcane Backlash, Przebicie Zbroi (2 - Ariandir only), Opancerzona Skóra (1), Aura of the Lady, Beguiling Aura, Blessings of the Lady, Przeciwnatarcie, Lore of the Lady, Magiczne Ataki, Odporność Na Magię (-2), Shield of the Lady, Zdeptanie (1), Szybki Krok"
       },
       "armyComposition": {
         "kingdom-of-bretonnia": {
@@ -1338,6 +1413,7 @@
           "name_en": "Yeoman (champion)",
           "name_cn": "自由民(冠军)",
           "name_fr": "Prévôt (champion)",
+          "name_pl": "Yeoman (czempion)",
           "points": 7
         },
         {
@@ -1345,6 +1421,7 @@
           "name_en": "Standard bearer",
           "name_cn": "旗手",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 5
         },
         {
@@ -1352,6 +1429,7 @@
           "name_en": "Musician",
           "name_cn": "乐手",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 5
         },
         {
@@ -1359,6 +1437,7 @@
           "name_en": "Grail Monk",
           "name_cn": "圣杯侍僧",
           "name_fr": "Moine du Graal",
+          "name_pl": "Mnich Graala",
           "points": 7,
           "options": [
             {
@@ -1367,7 +1446,8 @@
               "name_de": "Heiliges Triptychon",
               "points": 25,
               "exclusive": true,
-              "name_fr": "Triptyque Béni"
+              "name_fr": "Triptyque Béni",
+              "name_pl": "Błogosławiony Tryptyk"
             }
           ]
         }
@@ -1390,6 +1470,7 @@
           "name_cn": "轻甲",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1401,7 +1482,8 @@
         "name_en": "Close Order, Horde, Levies, Peasantry, Shieldwall, Warband",
         "name_cn": "紧密阵型, 部群, 炮灰, 农民, 盾墙, 战帮",
         "name_de": "Geschlossene Ränge, Horde, Gesindel, Bauernvolk, Schildwall, Kriegerschar",
-        "name_fr": "Ordre Serré, Horde, Conscrits, Paysannerie, Mur de Boucliers, Bande de Guerre"
+        "name_fr": "Ordre Serré, Horde, Conscrits, Paysannerie, Mur de Boucliers, Bande de Guerre",
+        "name_pl": "Zwarty Szyk, Horda, Levies, Peasantry, Shieldwall, Gromada"
       },
       "armyComposition": {
         "kingdom-of-bretonnia": {
@@ -1411,7 +1493,8 @@
             "name_cn": "1个单位以上的武装民兵和/或民兵弓箭手",
             "name_de": "1+ Einheiten Landsknechte und/oder Bogenschützen",
             "name_es": "",
-            "name_fr": "1+ unité d'Hommes d'Armes et/ou de Paysans Archers"
+            "name_fr": "1+ unité d'Hommes d'Armes et/ou de Paysans Archers",
+            "name_pl": "1+ jednostka of Men-at-Arms i/lub Peasant Bowmen"
           }
         },
         "errantry-crusades": {
@@ -1438,6 +1521,7 @@
           "name_cn": "农奴(冠军)",
           "name_de": "Grundhöriger",
           "name_fr": "Maître Archer (champion)",
+          "name_pl": "Villein (czempion)",
           "points": 7
         },
         {
@@ -1445,6 +1529,7 @@
           "name_cn": "旗手",
           "name_fr": "Porte-étendard",
           "name_de": "Standartenträger",
+          "name_pl": "Sztandarowy",
           "points": 5
         },
         {
@@ -1452,6 +1537,7 @@
           "name_cn": "乐手",
           "name_fr": "Musicien",
           "name_de": "Musiker",
+          "name_pl": "Muzyk",
           "points": 5
         }
       ],
@@ -1473,6 +1559,7 @@
           "name_cn": "无甲",
           "name_de": "keine Rüstung",
           "name_fr": "Pas d'armure",
+          "name_pl": "Bez zbroi",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1482,6 +1569,7 @@
           "name_cn": "轻甲",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 1,
           "perModel": true
         }
@@ -1517,7 +1605,8 @@
         "name_en": "Close Order, Levies, Peasantry",
         "name_cn": "紧密阵型, 炮灰, 农民",
         "name_de": "Geschlossene Ränge, Gesindel, Bauernvolk",
-        "name_fr": "Ordre Serré, Conscrits, Paysannerie"
+        "name_fr": "Ordre Serré, Conscrits, Paysannerie",
+        "name_pl": "Zwarty Szyk, Levies, Peasantry"
       },
       "armyComposition": {
         "kingdom-of-bretonnia": {
@@ -1527,7 +1616,8 @@
             "name_cn": "1个单位以上的武装民兵和/或民兵弓箭手",
             "name_de": "1+ Einheiten Landsknechte und/oder Bogenschützen ",
             "name_es": "",
-            "name_fr": "1+ unité d'Hommes d'Armes et/ou de Paysans Archers"
+            "name_fr": "1+ unité d'Hommes d'Armes et/ou de Paysans Archers",
+            "name_pl": "1+ jednostka of Men-at-Arms i/lub Peasant Bowmen"
           }
         },
         "errantry-crusades": {
@@ -1540,7 +1630,8 @@
             "name_cn": "1个单位以上的民兵卫队和/或民兵弓箭手",
             "name_de": "1+ Einheiten Freisassengarde und/oder Bogenschützen",
             "name_es": "",
-            "name_fr": "1+ unité de Gardes Roturiers et/ou de Paysans Archers"
+            "name_fr": "1+ unité de Gardes Roturiers et/ou de Paysans Archers",
+            "name_pl": "1+ jednostka of Yeomen Straż i/lub Peasant Bowmen"
           }
         }
       }
@@ -1563,7 +1654,8 @@
             "name_cn": "1个单位以上的步战王国骑士和/或骑马王国骑士",
             "name_de": "1+ Einheiten Ritter des Königs zu Fuß und/oder Berittene Ritter des Königs",
             "name_es": "",
-            "name_fr": "1+ unité de Chevaliers du Royaume à Pied et/ou de Chevaliers du Royaume Montés"
+            "name_fr": "1+ unité de Chevaliers du Royaume à Pied et/ou de Chevaliers du Royaume Montés",
+            "name_pl": "1+ jednostka of Rycerze of the Realm na Foot i/lub Mounted Rycerze of the Realm"
           }
         },
         "bretonnian-exiles": {
@@ -1573,7 +1665,8 @@
             "name_cn": "1个单位以上的步战王国骑士和/或骑马王国骑士",
             "name_de": "1+ Einheiten Ritter des Königs zu Fuß und/oder Berittene Ritter des Königs",
             "name_es": "",
-            "name_fr": "1+ unité de Chevaliers du Royaume à Pied et/ou de Chevaliers du Royaume Montés"
+            "name_fr": "1+ unité de Chevaliers du Royaume à Pied et/ou de Chevaliers du Royaume Montés",
+            "name_pl": "1+ jednostka of Rycerze of the Realm na Foot i/lub Mounted Rycerze of the Realm"
           }
         },
         "errantry-crusades": {
@@ -1586,6 +1679,7 @@
           "name_cn": "首席骑士(冠军)",
           "name_de": "Erster Ritter",
           "name_fr": "Champion du Royaume (champion)",
+          "name_pl": "First Rycerz (czempion)",
           "points": 6,
           "magic": {
             "maxPoints": 25,
@@ -1602,6 +1696,7 @@
           "name_cn": "旗手",
           "name_fr": "Porte-étendard",
           "name_de": "Standartenträger",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "maxPoints": 25,
@@ -1615,6 +1710,7 @@
           "name_cn": "乐手",
           "name_fr": "Musicien",
           "name_de": "Musiker",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -1654,6 +1750,7 @@
           "name_cn": "重甲",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1688,7 +1785,8 @@
         "name_en": "Blessings of the Lady, Close Order, Furious Charge, The Knight's Vow",
         "name_cn": "女神祝福, 紧密阵型, 狂怒冲锋, 骑士誓言",
         "name_de": "Segen der Herrin, Geschlossene Ränge, Rasender Angriff, Rittergelübde",
-        "name_fr": "Bénédiction de la Dame, Ordre Serré, Charge Dévastatrice, Le Vœu du Chevalier"
+        "name_fr": "Bénédiction de la Dame, Ordre Serré, Charge Dévastatrice, Le Vœu du Chevalier",
+        "name_pl": "Blessings of the Lady, Zwarty Szyk, Wściekła Szarża, The Knight's Vow"
       }
     },
     {
@@ -1709,7 +1807,8 @@
             "name_cn": "1个单位以上的步战王国骑士和/或骑马王国骑士",
             "name_de": "1+ Einheiten Ritter des Königs zu Fuß und/oder Berittene Ritter des Königs",
             "name_es": "",
-            "name_fr": "1+ unité de Chevaliers du Royaume à Pied et/ou de Chevaliers du Royaume Montés"
+            "name_fr": "1+ unité de Chevaliers du Royaume à Pied et/ou de Chevaliers du Royaume Montés",
+            "name_pl": "1+ jednostka of Rycerze of the Realm na Foot i/lub Mounted Rycerze of the Realm"
           }
         },
         "bretonnian-exiles": {
@@ -1719,7 +1818,8 @@
             "name_cn": "1个单位以上的步战王国骑士和/或骑马王国骑士",
             "name_de": "1+ Einheiten Ritter des Königs zu Fuß und/oder Berittene Ritter des Königs ",
             "name_es": "",
-            "name_fr": "1+ unité de Chevaliers du Royaume à Pied et/ou de Chevaliers du Royaume Montés"
+            "name_fr": "1+ unité de Chevaliers du Royaume à Pied et/ou de Chevaliers du Royaume Montés",
+            "name_pl": "1+ jednostka of Rycerze of the Realm na Foot i/lub Mounted Rycerze of the Realm"
           }
         },
         "errantry-crusades": {
@@ -1732,6 +1832,7 @@
           "name_cn": "首席骑士(冠军)",
           "name_de": "Erster Ritter",
           "name_fr": "Champion du Royaume (champion)",
+          "name_pl": "First Rycerz (czempion)",
           "points": 7,
           "magic": {
             "maxPoints": 25,
@@ -1748,6 +1849,7 @@
           "name_cn": "旗手",
           "name_fr": "Porte-étendard",
           "name_de": "Standartenträger",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "maxPoints": 25,
@@ -1761,6 +1863,7 @@
           "name_cn": "乐手",
           "name_fr": "Musicien",
           "name_de": "Musiker",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -1782,6 +1885,7 @@
           "name_cn": "重甲",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1816,7 +1920,8 @@
         "name_en": "Blessings of the Lady, Close Order, Counter Charge, Finest Warhorses, First Charge, Lance Formation, Swiftstride, The Knight's Vow",
         "name_cn": "女神祝福, 紧密阵型, 反制冲锋, 良种战马, 先行冲锋, 枪骑阵型, 快速行进, 骑士誓言",
         "name_de": "Blessings of the Lady, Close Order, Counter Charge, Finest Warhorses, First Charge, Lance Formation, Swiftstride, The Knight's Vow",
-        "name_fr": "Bénédiction de la Dame, Ordre Serré, Contre-charge, Destriers Supérieurs, Première Charge, Formation en Fer de Lance, Rapide, Le Vœu du Chevalier"
+        "name_fr": "Bénédiction de la Dame, Ordre Serré, Contre-charge, Destriers Supérieurs, Première Charge, Formation en Fer de Lance, Rapide, Le Vœu du Chevalier",
+        "name_pl": "Blessings of the Lady, Zwarty Szyk, Przeciwnatarcie, Finest Warhorses, Pierwsza Szarża, Lance Formation, Szybki Krok, The Knight's Vow"
       }
     },
     {
@@ -1837,7 +1942,8 @@
             "name_cn": "每选取1单位的步行或骑马王国骑士，则0-1单位的侠义骑士",
             "name_de": "0-1 Einheit Fahrender Ritter pro gewählte Einheit Ritter des Königs zu Fuß oder Berittene Ritter des Königs",
             "name_es": "",
-            "name_fr": "0-1 unité de Chevaliers Errants par unité de Chevaliers du Royaume à Pied ou de Chevaliers du Royaume Montés prise"
+            "name_fr": "0-1 unité de Chevaliers Errants par unité de Chevaliers du Royaume à Pied ou de Chevaliers du Royaume Montés prise",
+            "name_pl": "0-1 jednostka of Rycerze Errant na jednostka of Rycerze of the Realm na Foot lub Mounted Rycerze of the Realm taken"
           }
         },
         "bretonnian-exiles": {
@@ -1847,7 +1953,8 @@
             "name_cn": "每1000分0-1个单位的侠义骑士",
             "name_de": "0-1 Einheit Fahrende Ritter pro 1000 Punkte",
             "name_es": "",
-            "name_fr": "0-1 unité de Chevaliers Errants par tranche de 1000 points"
+            "name_fr": "0-1 unité de Chevaliers Errants par tranche de 1000 points",
+            "name_pl": "0-1 jednostka of Rycerze Errant na 1000 punktów"
           }
         },
         "errantry-crusades": {
@@ -1857,7 +1964,8 @@
             "name_cn": "每1000分1+ unit of Knights Errant",
             "name_de": "1+ Einheiten Fahrende Ritter pro 1000 Punkte",
             "name_es": "",
-            "name_fr": "1+ unité de Chevaliers Errants et/ou 1000 par tranche de $4 points"
+            "name_fr": "1+ unité de Chevaliers Errants et/ou 1000 par tranche de $4 points",
+            "name_pl": "1+ jednostka of Rycerze Errant na 1000 punktów"
           }
         }
       },
@@ -1867,6 +1975,7 @@
           "name_cn": "英勇(冠军)",
           "name_de": "Heißsporn",
           "name_fr": "Preux Chevalier (champion)",
+          "name_pl": "Gallant (czempion)",
           "points": 6
         },
         {
@@ -1874,6 +1983,7 @@
           "name_cn": "旗手",
           "name_fr": "Porte-étendard",
           "name_de": "Standartenträger",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "maxPoints": 25,
@@ -1887,6 +1997,7 @@
           "name_cn": "乐手",
           "name_fr": "Musicien",
           "name_de": "Musiker",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -1908,6 +2019,7 @@
           "name_cn": "重甲",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1942,7 +2054,8 @@
         "name_en": "Blessings of the Lady, Close Order, Finest Warhorses, First Charge, Impetuous, Lance Formation, Swiftstride, The Knight's Vow",
         "name_cn": "女神祝福, 紧密阵型, 良种战马, 先行冲锋, 鲁莽, 枪骑阵型, 快速行进, 骑士誓言",
         "name_de": "Blessings of the Lady, Close Order, Finest Warhorses, First Charge, Impetuous, Lance Formation, Swiftstride, The Knight's Vow",
-        "name_fr": "Bénédiction de la Dame, Ordre Serré, Destriers Supérieurs, Première Charge, Impétueux, Formation en Fer de Lance, Rapide, Le Vœu du Chevalier"
+        "name_fr": "Bénédiction de la Dame, Ordre Serré, Destriers Supérieurs, Première Charge, Impétueux, Formation en Fer de Lance, Rapide, Le Vœu du Chevalier",
+        "name_pl": "Blessings of the Lady, Zwarty Szyk, Finest Warhorses, Pierwsza Szarża, Impet, Lance Formation, Szybki Krok, The Knight's Vow"
       }
     },
     {
@@ -1963,6 +2076,7 @@
           "name_de": "Voigt",
           "name_es": "Warden (champion)",
           "name_fr": "Prévôt (champion)",
+          "name_pl": "Warden (czempion)",
           "points": 6
         },
         {
@@ -1971,6 +2085,7 @@
           "name_fr": "Moine du Graal",
           "name_de": "Gralsmönch",
           "name_es": "Grail Monk",
+          "name_pl": "Mnich Graala",
           "points": 7,
           "options": [
             {
@@ -1979,7 +2094,8 @@
               "name_de": "Heiliges Triptychon",
               "points": 25,
               "exclusive": true,
-              "name_fr": "Triptyque Béni"
+              "name_fr": "Triptyque Béni",
+              "name_pl": "Błogosławiony Tryptyk"
             }
           ]
         },
@@ -1989,6 +2105,7 @@
           "name_fr": "Porte-étendard",
           "name_de": "Standartenträger",
           "name_es": "Standard bearer",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -2003,6 +2120,7 @@
           "name_fr": "Musicien",
           "name_de": "Musiker",
           "name_es": "Musician",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -2046,6 +2164,7 @@
           "name_de": "Leichte Rüstung, Schilde",
           "name_es": "Light armour, Shields",
           "name_fr": "Armure légère, Boucliers",
+          "name_pl": "Lekka Zbroja, Shields",
           "points": 0,
           "perModel": true,
           "active": true
@@ -2060,7 +2179,8 @@
         "name_cn": "紧密阵型, 部群, 农民, 盾墙, 老兵, 战帮",
         "name_de": "Bauernvolk, Geschlossene Ränge, Horde, Kriegerschar, Schildwall, Veteranen",
         "name_es": "Close Order, Horde, Peasantry, Shieldwall, Veteran, Warband",
-        "name_fr": "Ordre Serré, Horde, Paysannerie, Mur de Boucliers, Vétérans, Bande de Guerre"
+        "name_fr": "Ordre Serré, Horde, Paysannerie, Mur de Boucliers, Vétérans, Bande de Guerre",
+        "name_pl": "Zwarty Szyk, Horda, Peasantry, Shieldwall, Veteran, Gromada"
       },
       "armyComposition": {
         "bretonnian-exiles": {
@@ -2070,7 +2190,8 @@
             "name_cn": "1个单位以上的民兵卫队和/或民兵弓箭手",
             "name_de": "1+ Einheiten Freisassengarde und/oder Bogenschützen",
             "name_es": "",
-            "name_fr": "1+ unité de Gardes Roturiers et/ou de Paysans Archers"
+            "name_fr": "1+ unité de Gardes Roturiers et/ou de Paysans Archers",
+            "name_pl": "1+ jednostka of Yeomen Straż i/lub Peasant Bowmen"
           }
         }
       }
@@ -2091,6 +2212,7 @@
           "name_cn": "圣杯遗骸",
           "name_de": "Gralsreliquie",
           "name_fr": "Reliquaire du Graal",
+          "name_pl": "Relikwiarz Graala",
           "points": 65
         }
       ],
@@ -2112,6 +2234,7 @@
           "name_cn": "轻甲",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -2123,7 +2246,8 @@
         "name_en": "Close Order, Hatred (all enemies), Levies, Peasantry, Stubborn",
         "name_cn": "紧密阵型, 仇恨(所有敌人), 炮灰, 农民, 坚毅",
         "name_de": "Close Order, Hatred (all enemies), Levies, Peasantry, Stubborn",
-        "name_fr": "Ordre Serré, Haine (Tous les ennemis), Conscrits, Paysannerie, Obstiné"
+        "name_fr": "Ordre Serré, Haine (Tous les ennemis), Conscrits, Paysannerie, Obstiné",
+        "name_pl": "Zwarty Szyk, Nienawiść (all enemies), Levies, Peasantry, Nieugięty"
       },
       "armyComposition": {
         "errantry-crusades": {
@@ -2133,7 +2257,8 @@
             "name_cn": "0-1个单位的战斗朝圣者可作为核心选择",
             "name_de": "0-1 Einheit Gralspilger kann als Kern-Auswahl gewählt werden",
             "name_es": "",
-            "name_fr": "0-1 unité de Pélerins du Graal peut être prise comme choix d'Unité de Base"
+            "name_fr": "0-1 unité de Pélerins du Graal peut être prise comme choix d'Unité de Base",
+            "name_pl": "0-1 jednostka of Battle Pilgrims może be taken jako a Podstawowy choice"
           }
         }
       }
@@ -2156,6 +2281,7 @@
           "name_cn": "典范(冠军)",
           "name_de": "Eremit",
           "name_fr": "Champion de la Quête (champion)",
+          "name_pl": "Paragon (czempion)",
           "points": 7,
           "magic": {
             "maxPoints": 25,
@@ -2172,6 +2298,7 @@
           "name_cn": "旗手",
           "name_fr": "Porte-étendard",
           "name_de": "Standartenträger",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "maxPoints": 100,
@@ -2185,6 +2312,7 @@
           "name_cn": "乐手",
           "name_fr": "Musicien",
           "name_de": "Musiker",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -2206,6 +2334,7 @@
           "name_cn": "重甲",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -2219,6 +2348,7 @@
           "name_cn": "典范骑士可选择一项骑士美德",
           "name_de": "Rittergelübde für Eremit",
           "name_fr": "Vertu Chevaleresque du Champion de la Quête",
+          "name_pl": "Rycerskie Cnoty Paragona",
           "types": [
             "knightly-virtue"
           ],
@@ -2230,7 +2360,8 @@
         "name_en": "Blessings of the Lady, Close Order, Finest Warhorses, First Charge, Lance Formation, Swiftstride, the Questing Vow",
         "name_cn": "女神祝福, 紧密阵型, 良种战马, 先行冲锋, 枪骑阵型, 快速行进, 探索誓言",
         "name_de": "Blessings of the Lady, Close Order, Finest Warhorses, First Charge, Lance Formation, Swiftstride, the Questing Vow",
-        "name_fr": "Bénédiction de la Dame, Ordre Serré, Destriers Supérieurs, Première Charge, Formation en Fer de Lance, Rapide, le Vœu de la Quête"
+        "name_fr": "Bénédiction de la Dame, Ordre Serré, Destriers Supérieurs, Première Charge, Formation en Fer de Lance, Rapide, le Vœu de la Quête",
+        "name_pl": "Blessings of the Lady, Zwarty Szyk, Finest Warhorses, Pierwsza Szarża, Lance Formation, Szybki Krok, the Questing Vow"
       },
       "armyComposition": {
         "kingdom-of-bretonnia": {
@@ -2260,6 +2391,7 @@
           "name_cn": "首席骑士(冠军)",
           "name_de": "Erster Ritter",
           "name_fr": "Champion Pégase (champion)",
+          "name_pl": "First Rycerz (czempion)",
           "points": 7
         },
         {
@@ -2267,6 +2399,7 @@
           "name_cn": "旗手",
           "name_fr": "Porte-étendard",
           "name_de": "Standartenträger",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "maxPoints": 50,
@@ -2280,6 +2413,7 @@
           "name_cn": "乐手",
           "name_fr": "Musicien",
           "name_de": "Musiker",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -2301,6 +2435,7 @@
           "name_cn": "重甲",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -2335,7 +2470,8 @@
         "name_en": "Blessings of the Lady, Counter Charge, Dispersed Formation, First Charge, Fly (10), Furious Charge (Pegasus Knights & First Knight only), Skirmishers, Swiftstride, The Knight's Vow",
         "name_cn": "女神祝福, 反制冲锋, 分散阵型, 先行冲锋, 飞行(10), 狂怒冲锋(仅限飞马骑士&首席骑士), 散兵, 快速行进, 骑士誓言",
         "name_de": "Blessings of the Lady, Counter Charge, Dispersed Formation, First Charge, Fly (10), Furious Charge (Pegasus Knights & First Knight only), Skirmishers, Swiftstride, The Knight's Vow",
-        "name_fr": "Bénédiction de la Dame, Contre-charge, Formation Éparse, Première Charge, Vol (10), Charge Dévastatrice (Chevaliers Pégases & Champion Pégase uniquement), Tirailleurs, Rapide, Le Vœu du Chevalier"
+        "name_fr": "Bénédiction de la Dame, Contre-charge, Formation Éparse, Première Charge, Vol (10), Charge Dévastatrice (Chevaliers Pégases & Champion Pégase uniquement), Tirailleurs, Rapide, Le Vœu du Chevalier",
+        "name_pl": "Blessings of the Lady, Przeciwnatarcie, Dispersed Formation, Pierwsza Szarża, Lot (10), Wściekła Szarża (Pegasus Rycerze & First Rycerz only), Harcownicy, Szybki Krok, The Knight's Vow"
       }
     },
     {
@@ -2354,6 +2490,7 @@
           "name_cn": "监军(冠军)",
           "name_de": "Voigt",
           "name_fr": "Prévôt (champion)",
+          "name_pl": "Warden (czempion)",
           "points": 5
         },
         {
@@ -2361,6 +2498,7 @@
           "name_cn": "旗手",
           "name_fr": "Porte-étendard",
           "name_de": "Standartenträger",
+          "name_pl": "Sztandarowy",
           "points": 5
         },
         {
@@ -2368,6 +2506,7 @@
           "name_cn": "乐手",
           "name_fr": "Musicien",
           "name_de": "Musiker",
+          "name_pl": "Muzyk",
           "points": 5
         }
       ],
@@ -2389,6 +2528,7 @@
           "name_cn": "无甲",
           "name_de": "Keine Rüstung",
           "name_fr": "Pas d'armure",
+          "name_pl": "Bez zbroi",
           "points": 0,
           "perModel": true,
           "active": true
@@ -2398,6 +2538,7 @@
           "name_cn": "轻甲",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 2,
           "perModel": true
         }
@@ -2427,7 +2568,8 @@
         "name_en": "Fast Cavalry, Fire & Flee, Levies, Open Order, Peasantry, Reserve Move, Skirmishers, Swiftstride",
         "name_cn": "快速骑兵, 游击, 炮灰, 开放阵型, 农民, 预备移动, 散兵, 快速行进",
         "name_de": "Fast Cavalry, Fire & Flee, Levies, Open Order, Peasantry, Reserve Move, Skirmishers, Swiftstride",
-        "name_fr": "Cavalerie Rapide, Tir & Fuite, Conscrits, Ordre Dispersé, Paysannerie, Mouvement de Réserve, Tirailleurs, Rapide"
+        "name_fr": "Cavalerie Rapide, Tir & Fuite, Conscrits, Ordre Dispersé, Paysannerie, Mouvement de Réserve, Tirailleurs, Rapide",
+        "name_pl": "Szybka Kawaleria, Ogień I Odwrót, Levies, Luźny Szyk, Peasantry, Reserve Move, Harcownicy, Szybki Krok"
       },
       "armyComposition": {
         "kingdom-of-bretonnia": {
@@ -2457,6 +2599,7 @@
           "name_cn": "士绅(冠军)",
           "name_de": "Junker",
           "name_fr": "Escuyer (champion)",
+          "name_pl": "Esquire (czempion)",
           "points": 7
         },
         {
@@ -2464,6 +2607,7 @@
           "name_cn": "旗手",
           "name_fr": "Porte-étendard",
           "name_de": "Standartenträger",
+          "name_pl": "Sztandarowy",
           "points": 5
         },
         {
@@ -2471,6 +2615,7 @@
           "name_cn": "乐手",
           "name_fr": "Musicien",
           "name_de": "Musiker",
+          "name_pl": "Muzyk",
           "points": 5
         }
       ],
@@ -2512,7 +2657,8 @@
         "name_en": "Move Through Cover, Open Order, Peasantry, Skirmishers, Vanguard",
         "name_cn": "穿行掩体, 开放阵型, 农民, 散兵, 先锋",
         "name_de": "Move Through Cover, Open Order, Peasantry, Skirmishers, Vanguard",
-        "name_fr": "Mouvement à Couvert, Ordre Dispersé, Paysannerie, Tirailleurs, Avant-garde"
+        "name_fr": "Mouvement à Couvert, Ordre Dispersé, Paysannerie, Tirailleurs, Avant-garde",
+        "name_pl": "Przechodzenie Przez Zasłony, Luźny Szyk, Peasantry, Harcownicy, Awangarda"
       },
       "armyComposition": {
         "kingdom-of-bretonnia": {
@@ -2544,7 +2690,8 @@
             "name_cn": "每1000分0-2个单位的战斗朝圣者",
             "name_de": "0-2 Einheiten Gralspilger pro 1.000 Punkte",
             "name_es": "",
-            "name_fr": "0-2 unités de Pélerins du Graal par tranche de 1000 points"
+            "name_fr": "0-2 unités de Pélerins du Graal par tranche de 1000 points",
+            "name_pl": "0-2 jednostki of Battle Pilgrims na 1000 punktów"
           }
         },
         "bretonnian-exiles": {
@@ -2554,7 +2701,8 @@
             "name_cn": "每1000分0-1个单位的战斗朝圣者",
             "name_de": "0-1 Einheit Gralspilger pro 1000 Punkte",
             "name_es": "",
-            "name_fr": "0-1 unité de Pélerins du Graal par tranche de 1000 points"
+            "name_fr": "0-1 unité de Pélerins du Graal par tranche de 1000 points",
+            "name_pl": "0-1 jednostka of Battle Pilgrims na 1000 punktów"
           }
         },
         "errantry-crusades": {
@@ -2567,6 +2715,7 @@
           "name_cn": "圣杯遗骸",
           "name_de": "Gralsreliquie",
           "name_fr": "Reliquaire du Graal",
+          "name_pl": "Relikwiarz Graala",
           "points": 65
         }
       ],
@@ -2588,6 +2737,7 @@
           "name_cn": "轻甲",
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -2599,7 +2749,8 @@
         "name_en": "Close Order, Hatred (all enemies), Levies, Peasantry, Stubborn",
         "name_cn": "紧密阵型, 仇恨(所有敌人), 炮灰, 农民, 坚毅",
         "name_de": "Close Order, Hatred (all enemies), Levies, Peasantry, Stubborn",
-        "name_fr": "Ordre Serré, Haine (Tous les ennemis), Conscrits, Paysannerie, Obstiné"
+        "name_fr": "Ordre Serré, Haine (Tous les ennemis), Conscrits, Paysannerie, Obstiné",
+        "name_pl": "Zwarty Szyk, Nienawiść (all enemies), Levies, Peasantry, Nieugięty"
       }
     }
   ],
@@ -2620,6 +2771,7 @@
           "name_cn": "圣杯守卫(冠军)",
           "name_de": "Gralshüter",
           "name_fr": "Gardien du Graal (champion)",
+          "name_pl": "Grail Guardian (czempion)",
           "points": 7,
           "magic": {
             "maxPoints": 50,
@@ -2636,6 +2788,7 @@
           "name_cn": "旗手",
           "name_fr": "Porte-étendard",
           "name_de": "Standartenträger",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "maxPoints": 100,
@@ -2649,6 +2802,7 @@
           "name_cn": "乐手",
           "name_fr": "Musicien",
           "name_de": "Musiker",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -2670,6 +2824,7 @@
           "name_cn": "重甲",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -2683,6 +2838,7 @@
           "name_cn": "圣杯守卫可选择一项骑士美德",
           "name_de": "Rittertugend für Gralshüter",
           "name_fr": "Vertu Chevaleresque du Gardien du Graal",
+          "name_pl": "Rycerskie Cnoty Strażnika Graala",
           "types": [
             "knightly-virtue"
           ],
@@ -2694,7 +2850,8 @@
         "name_en": "Blessings of the Lady, Close Order, Counter Charge, Finest Warhorses, First Charge, Lance Formation, Living Saints, Swiftstride, The Grail Vow",
         "name_cn": "女神祝福, 紧密阵型, 反制冲锋, 良种战马, 先行冲锋, 枪骑阵型, 活圣人, 快速行进, 圣杯誓言",
         "name_de": "Blessings of the Lady, Close Order, Counter Charge, Finest Warhorses, First Charge, Lance Formation, Living Saints, Swiftstride, The Grail Vow",
-        "name_fr": "Bénédiction de la Dame, Ordre Serré, Contre-charge, Destriers Supérieurs, Première Charge, Formation en Fer de Lance, Saints Vivants, Rapide, Le Vœu du Graal"
+        "name_fr": "Bénédiction de la Dame, Ordre Serré, Contre-charge, Destriers Supérieurs, Première Charge, Formation en Fer de Lance, Saints Vivants, Rapide, Le Vœu du Graal",
+        "name_pl": "Blessings of the Lady, Zwarty Szyk, Przeciwnatarcie, Finest Warhorses, Pierwsza Szarża, Lance Formation, Living Saints, Szybki Krok, The Grail Vow"
       },
       "armyComposition": {
         "kingdom-of-bretonnia": {
@@ -2722,7 +2879,8 @@
             "name_cn": "每1000分0-1野战投石机",
             "name_de": "0-1 Feldtrebuchet pro 1.000 Punkte",
             "name_es": "0-1 Field Trebuchet per 1000 points",
-            "name_fr": "0-1 Trébuchet de Campagne par tranche de 1000 points"
+            "name_fr": "0-1 Trébuchet de Campagne par tranche de 1000 points",
+            "name_pl": "0-1 Field Trebuchet na 1000 punktów"
           }
         },
         "bretonnian-exiles": {
@@ -2732,7 +2890,8 @@
             "name_cn": "每1000分0-1野战投石机",
             "name_de": "0-1 Field Trebuchet per 1000 points",
             "name_es": "0-1 Field Trebuchet per 1000 points",
-            "name_fr": "0-1 Trébuchet de Campagne par tranche de 1000 points"
+            "name_fr": "0-1 Trébuchet de Campagne par tranche de 1000 points",
+            "name_pl": "0-1 Field Trebuchet na 1000 punktów"
           }
         },
         "errantry-crusades": {
@@ -2742,7 +2901,8 @@
             "name_cn": "0-1野战投石机",
             "name_de": "0-1 Field Trebuchet",
             "name_es": "0-1 Field Trebuchet",
-            "name_fr": "0-1 Trébuchet de Campagne"
+            "name_fr": "0-1 Trébuchet de Campagne",
+            "name_pl": "0-1 Trebusz polowy"
           }
         }
       },
@@ -2764,7 +2924,8 @@
         "name_en": "Levies, Peasantry, Skirmishers",
         "name_cn": "炮灰, 农民, 散兵",
         "name_de": "Bauernvolk, Gesindel, Plänkler",
-        "name_fr": "Conscrits, Paysannerie, Tirailleurs"
+        "name_fr": "Conscrits, Paysannerie, Tirailleurs",
+        "name_pl": "Levies, Peasantry, Harcownicy"
       }
     },
     {
@@ -2785,6 +2946,7 @@
           "name_de": "Rädelsführer",
           "name_es": "Desperado (champion)",
           "name_fr": "Desperado (champion)",
+          "name_pl": "Desperado (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -2802,6 +2964,7 @@
           "name_fr": "Porte-étendard",
           "name_de": "Standartenträger",
           "name_es": "Standard bearer",
+          "name_pl": "Sztandarowy",
           "points": 5
         },
         {
@@ -2810,6 +2973,7 @@
           "name_fr": "Musicien",
           "name_de": "Musiker",
           "name_es": "Musician",
+          "name_pl": "Muzyk",
           "points": 5
         }
       ],
@@ -2833,6 +2997,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Light armour",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -2900,7 +3065,8 @@
           "alwaysActive": true,
           "notes": {
             "name_en": "0-1 Close Order and 0-1 Skirmishers per 1000 points",
-            "name_fr": "0-1 Ordre Serré et 0-1 Tirailleurs par tranche de 1000 points"
+            "name_fr": "0-1 Ordre Serré et 0-1 Tirailleurs par tranche de 1000 points",
+            "name_pl": "0-1 Zwarty Szyk i 0-1 Harcownicy na 1000 punktów"
           },
           "options": [
             {
@@ -2952,7 +3118,8 @@
             "name_cn": "如果散兵",
             "name_de": "Wenn Plänkler",
             "name_fr": "Si Tirailleurs",
-            "name_es": "If Skirmishers"
+            "name_es": "If Skirmishers",
+            "name_pl": "Jeśli Harcownicy"
           },
           "name_pl": "Zasadzka"
         },
@@ -2969,7 +3136,8 @@
             "name_cn": "如果散兵",
             "name_de": "Wenn Plänkler",
             "name_fr": "Si Tirailleurs",
-            "name_es": "If Skirmishers"
+            "name_es": "If Skirmishers",
+            "name_pl": "Jeśli Harcownicy"
           },
           "name_pl": "Zwiadowcy"
         }
@@ -2982,7 +3150,8 @@
         "name_cn": "部群, 鲁莽, 炮灰, 散兵游勇, 开放阵型, 战帮",
         "name_de": "Horde, Impetuous, Levies, Motley Crew, Open Order, Warband",
         "name_es": "Horde, Impetuous, Levies, Motley Crew, Open Order, Warband",
-        "name_fr": "Horde, Impétueux, Conscrits, Bande Hétéroclite, Ordre Dispersé, Bande de Guerre"
+        "name_fr": "Horde, Impétueux, Conscrits, Bande Hétéroclite, Ordre Dispersé, Bande de Guerre",
+        "name_pl": "Horda, Impet, Levies, Zbieranina, Luźny Szyk, Gromada"
       },
       "armyComposition": {
         "bretonnian-exiles": {
@@ -3020,6 +3189,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Light armour",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -3034,7 +3204,8 @@
         "name_cn": "炮灰, 散兵",
         "name_de": "Gesindel, Plänkler",
         "name_es": "Levies, Skirmishers",
-        "name_fr": "Conscrits, Tirailleurs"
+        "name_fr": "Conscrits, Tirailleurs",
+        "name_pl": "Levies, Harcownicy"
       },
       "armyComposition": {
         "bretonnian-exiles": {
@@ -3044,7 +3215,8 @@
             "name_cn": "每1000分0-1边境亲王领射石炮",
             "name_de": "0-1 Bombarde der Grenzgrafschaften pro 1000 Punkte",
             "name_es": "",
-            "name_fr": "0-1 Bombarde des Principautés Frontalières par tranche de 1000 points"
+            "name_fr": "0-1 Bombarde des Principautés Frontalières par tranche de 1000 points",
+            "name_pl": "0-1 Border Princes Bombard na 1000 punktów"
           }
         }
       }

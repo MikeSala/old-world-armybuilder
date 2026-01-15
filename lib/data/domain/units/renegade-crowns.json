@@ -16,6 +16,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0,
           "exclusive": false
         },
@@ -25,6 +26,7 @@
           "name_de": "The Might Of Miragliano",
           "name_fr": "The Might Of Miragliano",
           "name_es": "The Might Of Miragliano",
+          "name_pl": "Might Miragliano",
           "points": 25,
           "exclusive": true,
           "options": [
@@ -33,6 +35,7 @@
               "name_cn": "坚毅, 提利尔坚忍",
               "name_de": "Stubborn, Tilean Stoicism",
               "name_fr": "Stubborn, Tilean Stoicism",
+              "name_pl": "Nieugięty, Tilean Stoicism",
               "points": 0,
               "active": true,
               "alwaysActive": true
@@ -45,6 +48,7 @@
           "name_de": "The Renegade Knight",
           "name_fr": "The Renegade Knight",
           "name_es": "The Renegade Knight",
+          "name_pl": "Renegade Knight",
           "points": 25,
           "exclusive": true,
           "options": [
@@ -53,6 +57,7 @@
               "name_cn": "贵族蔑视, 老兵",
               "name_de": "Noble Disdain, Veteran",
               "name_fr": "Noble Disdain, Veteran",
+              "name_pl": "Noble Disdain, Weteran",
               "points": 0,
               "active": true,
               "alwaysActive": true
@@ -65,6 +70,7 @@
           "name_de": "The Noble Outlaw",
           "name_fr": "The Noble Outlaw",
           "name_es": "The Noble Outlaw",
+          "name_pl": "Noble Outlaw",
           "points": 20,
           "exclusive": true,
           "options": [
@@ -73,6 +79,7 @@
               "name_cn": "\"坚守阵线！\"",
               "name_de": "\"Hold the Line!\"",
               "name_fr": "\"Hold the Line!\"",
+              "name_pl": "\"Hold Line!\"",
               "points": 0,
               "active": true,
               "alwaysActive": true
@@ -83,6 +90,7 @@
               "name_de": "Muskete",
               "name_fr": "Arquebuse",
               "name_es": "Arcabuz",
+              "name_pl": "Muszkiet",
               "points": 6,
               "exclusive": true
             },
@@ -92,6 +100,7 @@
               "name_de": "Bündelmuskete",
               "name_fr": "Arquebuse à répétition",
               "name_es": "Mosquete de repetición",
+              "name_pl": "Powtarzalny muszkiet",
               "points": 8,
               "exclusive": true
             },
@@ -101,6 +110,7 @@
               "name_de": "Bündelpistole",
               "name_fr": "Pistolet à répétition",
               "name_es": "Pistola de repetición",
+              "name_pl": "Powtarzalny pistolet",
               "points": 8,
               "exclusive": true
             },
@@ -110,6 +120,7 @@
               "name_de": "Shortbow",
               "name_es": "Shortbow",
               "name_fr": "Arc court",
+              "name_pl": "Krótki Łuk",
               "points": 2,
               "exclusive": true
             },
@@ -119,6 +130,7 @@
               "name_de": "Langbogen",
               "name_fr": "Arc long",
               "name_es": "Arco largo",
+              "name_pl": "Długi Łuk",
               "points": 4,
               "exclusive": true
             },
@@ -128,13 +140,15 @@
               "name_de": "Überfall",
               "name_es": "Ambushers",
               "name_fr": "Embusqueurs",
+              "name_pl": "Zasadzka",
               "points": 10,
               "notes": {
                 "name_en": "Ambushers OR Scouts",
                 "name_cn": "伏击或侦察",
                 "name_de": "Ambushers OR Scouts",
                 "name_fr": "Ambushers OR Scouts",
-                "name_es": "Ambushers OR Scouts"
+                "name_es": "Ambushers OR Scouts",
+                "name_pl": "Zasadzka LUB Zwiadowcy"
               }
             },
             {
@@ -143,13 +157,15 @@
               "name_de": "Kundschafter",
               "name_es": "Scouts",
               "name_fr": "Éclaireurs",
+              "name_pl": "Zwiadowcy",
               "points": 10,
               "notes": {
                 "name_en": "Ambushers OR Scouts",
                 "name_cn": "伏击或侦察",
                 "name_de": "Ambushers OR Scouts",
                 "name_fr": "Ambushers OR Scouts",
-                "name_es": "Ambushers OR Scouts"
+                "name_es": "Ambushers OR Scouts",
+                "name_pl": "Zasadzka LUB Zwiadowcy"
               }
             }
           ]
@@ -160,6 +176,7 @@
           "name_de": "The Wandering Diestro",
           "name_fr": "The Wandering Diestro",
           "name_es": "The Wandering Diestro",
+          "name_pl": "Wandering Diestro",
           "points": 20,
           "exclusive": true,
           "options": [
@@ -168,6 +185,7 @@
               "name_cn": "虚招&闪避",
               "name_de": "Feint & Dodge",
               "name_fr": "Feint & Dodge",
+              "name_pl": "Zwód i Unik",
               "points": 0,
               "active": true,
               "alwaysActive": true
@@ -177,6 +195,7 @@
               "name_cn": "额外单手武器",
               "name_de": "Additional hand weapon",
               "name_fr": "Arme de base additionnelle",
+              "name_pl": "Dodatkowa Broń Ręczna",
               "points": 3
             }
           ]
@@ -225,7 +244,8 @@
             "name_it": "if appropriately mounted",
             "name_de": "wenn beritten",
             "name_fr": "si monté",
-            "name_es": "si está montado"
+            "name_es": "si está montado",
+            "name_pl": "jeśli appropriately mounted"
           },
           "name_pl": "Lanca"
         },
@@ -245,6 +265,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Armadura ligera",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "active": true
         },
@@ -254,6 +275,7 @@
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "name_es": "Armadura pesada",
+          "name_pl": "Ciężka Zbroja",
           "points": 3
         },
         {
@@ -262,6 +284,7 @@
           "name_de": "Plattenrüstung",
           "name_fr": "Armure de plate complète",
           "name_es": "Armadura completa",
+          "name_pl": "Pełna Zbroja Płytowa",
           "points": 6
         }
       ],
@@ -324,6 +347,7 @@
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "name_es": "A pie",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -333,6 +357,7 @@
           "name_de": "Warhorse",
           "name_fr": "Warhorse",
           "name_es": "Warhorse",
+          "name_pl": "Rumak Bojowy",
           "points": 12
         },
         {
@@ -341,6 +366,7 @@
           "name_de": "Schlachtross mit Rossharnisch",
           "name_fr": "Destrier Caparaçonné",
           "name_es": "Caballo de guerra con barda",
+          "name_pl": "Opancerzony rumak",
           "points": 16
         }
       ],
@@ -351,6 +377,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -361,7 +388,8 @@
           "maxPoints": 100,
           "notes": {
             "name_en": "Ignore with Renegade Knight or Noble Outlaw Infamous Origin",
-            "name_cn": "若为变节骑士或强盗贵族恶名起源则忽略"
+            "name_cn": "若为变节骑士或强盗贵族恶名起源则忽略",
+            "name_pl": "Ignore z Renegade Rycerz lub Noble Outlaw Infamous Origin"
           }
         },
         {
@@ -370,6 +398,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -381,7 +410,8 @@
           "magicItemsArmy": "kingdom-of-bretonnia",
           "notes": {
             "name_en": "Only with the Renegade Knight Infamous Origin",
-            "name_cn": "仅限变节骑士恶名起源"
+            "name_cn": "仅限变节骑士恶名起源",
+            "name_pl": "Only z the Renegade Rycerz Infamous Origin"
           }
         },
         {
@@ -390,6 +420,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -400,7 +431,8 @@
           "maxPoints": 100,
           "magicItemsArmy": "empire-of-man",
           "notes": {
-            "name_en": "仅限贵族强盗恶名起源"
+            "name_en": "仅限贵族强盗恶名起源",
+            "name_pl": "Tylko dla pochodzenia: niesławny szlachecki bandyta"
           }
         }
       ],
@@ -410,14 +442,16 @@
         "name_cn": "集结战吼, 老兵, 战帮",
         "name_de": "Sammelruf, Veteranen, Kriegerschar",
         "name_fr": "Cri de Ralliement, Vétérans, Bande de Guerre",
-        "name_es": "Grito de Guerra, Veteran, Warband"
+        "name_es": "Grito de Guerra, Veteran, Warband",
+        "name_pl": "Bojowy Okrzyk, Veteran, Gromada"
       },
       "notes": {
         "name_en": "0-1 Renegade Prince per 1,000 points",
         "name_cn": "每1000分0-1变节亲王",
         "name_de": "0-1 Renegade Prince per 1,000 points",
         "name_fr": "0-1 Renegade Prince per 1,000 points",
-        "name_es": "0-1 Renegade Prince per 1,000 points"
+        "name_es": "0-1 Renegade Prince per 1,000 points",
+        "name_pl": "0-1 Renegade Książę na 1,000 punktów"
       }
     },
     {
@@ -436,11 +470,13 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0,
           "exclusive": false,
           "notes": {
             "name_en": "Excludes Battle Standard Bearer",
-            "name_cn": "不包括战旗手"
+            "name_cn": "不包括战旗手",
+            "name_pl": "Excludes Battle Sztandarowy"
           }
         },
         {
@@ -449,11 +485,13 @@
           "name_de": "Armeestandartenträger",
           "name_fr": "Porteur de la Grande Bannière",
           "name_es": "Portaestandarte de Batalla",
+          "name_pl": "Chorąży",
           "points": 25,
           "exclusive": false,
           "notes": {
             "name_en": "Ignore with Renegade Knight or Noble Outlaw Infamous Origin",
-            "name_cn": "若为变节骑士或强盗贵族恶名起源则忽略"
+            "name_cn": "若为变节骑士或强盗贵族恶名起源则忽略",
+            "name_pl": "Ignore z Renegade Rycerz lub Noble Outlaw Infamous Origin"
           },
           "magic": {
             "types": [
@@ -468,11 +506,13 @@
           "name_de": "Armeestandartenträger",
           "name_fr": "Porteur de la Grande Bannière",
           "name_es": "Portaestandarte de Batalla",
+          "name_pl": "Chorąży",
           "points": 25,
           "exclusive": false,
           "notes": {
             "name_en": "Only with the Renegade Knight Infamous Origin",
-            "name_cn": "仅限变节骑士恶名起源"
+            "name_cn": "仅限变节骑士恶名起源",
+            "name_pl": "Only z the Renegade Rycerz Infamous Origin"
           },
           "magic": {
             "types": [
@@ -488,11 +528,13 @@
           "name_de": "Armeestandartenträger",
           "name_fr": "Porteur de la Grande Bannière",
           "name_es": "Portaestandarte de Batalla",
+          "name_pl": "Chorąży",
           "points": 25,
           "exclusive": false,
           "notes": {
             "name_en": "Only with the Noble Outlaw Infamous Origin",
-            "name_cn": "仅限强盗贵族恶名起源"
+            "name_cn": "仅限强盗贵族恶名起源",
+            "name_pl": "Only z the Noble Outlaw Infamous Origin"
           },
           "magic": {
             "types": [
@@ -508,6 +550,7 @@
           "name_de": "The Might Of Miragliano",
           "name_fr": "The Might Of Miragliano",
           "name_es": "The Might Of Miragliano",
+          "name_pl": "Might Miragliano",
           "points": 25,
           "exclusive": true,
           "options": [
@@ -516,6 +559,7 @@
               "name_cn": "坚毅, 提利尔坚忍",
               "name_de": "Stubborn, Tilean Stoicism",
               "name_fr": "Stubborn, Tilean Stoicism",
+              "name_pl": "Nieugięty, Tilean Stoicism",
               "points": 0,
               "active": true,
               "alwaysActive": true
@@ -528,6 +572,7 @@
           "name_de": "The Renegade Knight",
           "name_fr": "The Renegade Knight",
           "name_es": "The Renegade Knight",
+          "name_pl": "Renegade Knight",
           "points": 25,
           "exclusive": true,
           "options": [
@@ -536,6 +581,7 @@
               "name_cn": "贵族蔑视, 老兵",
               "name_de": "Noble Disdain, Veteran",
               "name_fr": "Noble Disdain, Veteran",
+              "name_pl": "Noble Disdain, Weteran",
               "points": 0,
               "active": true,
               "alwaysActive": true
@@ -548,6 +594,7 @@
           "name_de": "The Noble Outlaw",
           "name_fr": "The Noble Outlaw",
           "name_es": "The Noble Outlaw",
+          "name_pl": "Noble Outlaw",
           "points": 20,
           "exclusive": true,
           "options": [
@@ -556,6 +603,7 @@
               "name_cn": "\"坚守阵线！\"",
               "name_de": "\"Hold the Line!\"",
               "name_fr": "\"Hold the Line!\"",
+              "name_pl": "\"Hold Line!\"",
               "points": 0,
               "active": true,
               "alwaysActive": true
@@ -566,6 +614,7 @@
               "name_de": "Muskete",
               "name_fr": "Arquebuse",
               "name_es": "Arcabuz",
+              "name_pl": "Muszkiet",
               "points": 6,
               "exclusive": true
             },
@@ -575,6 +624,7 @@
               "name_de": "Bündelmuskete",
               "name_fr": "Arquebuse à répétition",
               "name_es": "Mosquete de repetición",
+              "name_pl": "Powtarzalny muszkiet",
               "points": 8,
               "exclusive": true
             },
@@ -584,6 +634,7 @@
               "name_de": "Bündelpistole",
               "name_fr": "Pistolet à répétition",
               "name_es": "Pistola de repetición",
+              "name_pl": "Powtarzalny pistolet",
               "points": 8,
               "exclusive": true
             },
@@ -593,6 +644,7 @@
               "name_de": "Shortbow",
               "name_es": "Shortbow",
               "name_fr": "Arc court",
+              "name_pl": "Krótki Łuk",
               "points": 2,
               "exclusive": true
             },
@@ -602,6 +654,7 @@
               "name_de": "Langbogen",
               "name_fr": "Arc long",
               "name_es": "Arco largo",
+              "name_pl": "Długi Łuk",
               "points": 4,
               "exclusive": true
             },
@@ -611,13 +664,15 @@
               "name_de": "Überfall",
               "name_es": "Ambushers",
               "name_fr": "Embusqueurs",
+              "name_pl": "Zasadzka",
               "points": 10,
               "notes": {
                 "name_en": "Ambushers OR Scouts",
                 "name_cn": "伏击或侦察",
                 "name_de": "Ambushers OR Scouts",
                 "name_fr": "Ambushers OR Scouts",
-                "name_es": "Ambushers OR Scouts"
+                "name_es": "Ambushers OR Scouts",
+                "name_pl": "Zasadzka LUB Zwiadowcy"
               }
             },
             {
@@ -626,13 +681,15 @@
               "name_de": "Kundschafter",
               "name_es": "Scouts",
               "name_fr": "Éclaireurs",
+              "name_pl": "Zwiadowcy",
               "points": 10,
               "notes": {
                 "name_en": "Ambushers OR Scouts",
                 "name_cn": "伏击或侦察",
                 "name_de": "Ambushers OR Scouts",
                 "name_fr": "Ambushers OR Scouts",
-                "name_es": "Ambushers OR Scouts"
+                "name_es": "Ambushers OR Scouts",
+                "name_pl": "Zasadzka LUB Zwiadowcy"
               }
             }
           ]
@@ -643,6 +700,7 @@
           "name_de": "The Wandering Diestro",
           "name_fr": "The Wandering Diestro",
           "name_es": "The Wandering Diestro",
+          "name_pl": "Wandering Diestro",
           "points": 20,
           "exclusive": true,
           "options": [
@@ -651,6 +709,7 @@
               "name_cn": "虚招&闪避",
               "name_de": "Feint & Dodge",
               "name_fr": "Feint & Dodge",
+              "name_pl": "Zwód i Unik",
               "points": 0,
               "active": true,
               "alwaysActive": true
@@ -660,6 +719,7 @@
               "name_cn": "额外单手武器",
               "name_de": "Additional hand weapon",
               "name_fr": "Arme de base additionnelle",
+              "name_pl": "Dodatkowa Broń Ręczna",
               "points": 3
             }
           ]
@@ -708,7 +768,8 @@
             "name_it": "if appropriately mounted",
             "name_de": "wenn beritten",
             "name_fr": "si monté",
-            "name_es": "si está montado"
+            "name_es": "si está montado",
+            "name_pl": "jeśli appropriately mounted"
           },
           "name_pl": "Lanca"
         },
@@ -728,6 +789,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Armadura ligera",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "active": true
         },
@@ -737,6 +799,7 @@
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "name_es": "Armadura pesada",
+          "name_pl": "Ciężka Zbroja",
           "points": 3
         },
         {
@@ -745,6 +808,7 @@
           "name_de": "Plattenrüstung",
           "name_fr": "Armure de plate complète",
           "name_es": "Armadura completa",
+          "name_pl": "Pełna Zbroja Płytowa",
           "points": 6
         }
       ],
@@ -807,6 +871,7 @@
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "name_es": "A pie",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -816,6 +881,7 @@
           "name_de": "Warhorse",
           "name_fr": "Warhorse",
           "name_es": "Warhorse",
+          "name_pl": "Rumak Bojowy",
           "points": 12
         },
         {
@@ -824,6 +890,7 @@
           "name_de": "Schlachtross mit Rossharnisch",
           "name_fr": "Destrier Caparaçonné",
           "name_es": "Caballo de guerra con barda",
+          "name_pl": "Opancerzony rumak",
           "points": 16
         }
       ],
@@ -834,6 +901,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -844,7 +912,8 @@
           "maxPoints": 50,
           "notes": {
             "name_en": "Ignore with Renegade Knight or Noble Outlaw Infamous Origin",
-            "name_cn": "若为变节骑士或强盗贵族恶名起源则忽略"
+            "name_cn": "若为变节骑士或强盗贵族恶名起源则忽略",
+            "name_pl": "Ignore z Renegade Rycerz lub Noble Outlaw Infamous Origin"
           }
         },
         {
@@ -853,6 +922,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -863,7 +933,8 @@
           "maxPoints": 50,
           "magicItemsArmy": "kingdom-of-bretonnia",
           "notes": {
-            "name_en": "Only with the Renegade Knight Infamous Origin"
+            "name_en": "Only with the Renegade Knight Infamous Origin",
+            "name_pl": "Only z the Renegade Rycerz Infamous Origin"
           }
         },
         {
@@ -872,6 +943,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -882,7 +954,8 @@
           "maxPoints": 50,
           "magicItemsArmy": "empire-of-man",
           "notes": {
-            "name_en": "Only with the Noble Outlaw Infamous Origin"
+            "name_en": "Only with the Noble Outlaw Infamous Origin",
+            "name_pl": "Only z the Noble Outlaw Infamous Origin"
           }
         }
       ],
@@ -892,7 +965,8 @@
         "name_cn": "集结战吼, 老兵, 战帮",
         "name_de": "Sammelruf, Veteranen, Kriegerschar",
         "name_fr": "Cri de Ralliement, Vétérans, Bande de Guerre",
-        "name_es": "Grito de Guerra, Veteran, Warband"
+        "name_es": "Grito de Guerra, Veteran, Warband",
+        "name_pl": "Bojowy Okrzyk, Veteran, Gromada"
       }
     },
     {
@@ -911,6 +985,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0,
           "exclusive": false
         },
@@ -920,6 +995,7 @@
           "name_de": "The Might Of Miragliano",
           "name_fr": "The Might Of Miragliano",
           "name_es": "The Might Of Miragliano",
+          "name_pl": "Might Miragliano",
           "points": 25,
           "exclusive": true,
           "options": [
@@ -928,6 +1004,7 @@
               "name_cn": "坚毅, 提利尔坚忍",
               "name_de": "Stubborn, Tilean Stoicism",
               "name_fr": "Stubborn, Tilean Stoicism",
+              "name_pl": "Nieugięty, Tilean Stoicism",
               "points": 0,
               "active": true,
               "alwaysActive": true
@@ -940,6 +1017,7 @@
           "name_de": "The Renegade Knight",
           "name_fr": "The Renegade Knight",
           "name_es": "The Renegade Knight",
+          "name_pl": "Renegade Knight",
           "points": 25,
           "exclusive": true,
           "options": [
@@ -948,6 +1026,7 @@
               "name_cn": "贵族蔑视, 老兵",
               "name_de": "Noble Disdain, Veteran",
               "name_fr": "Noble Disdain, Veteran",
+              "name_pl": "Noble Disdain, Weteran",
               "points": 0,
               "active": true,
               "alwaysActive": true
@@ -960,6 +1039,7 @@
           "name_de": "The Noble Outlaw",
           "name_fr": "The Noble Outlaw",
           "name_es": "The Noble Outlaw",
+          "name_pl": "Noble Outlaw",
           "points": 20,
           "exclusive": true,
           "options": [
@@ -968,6 +1048,7 @@
               "name_cn": "\"坚守阵线！\"",
               "name_de": "\"Hold the Line!\"",
               "name_fr": "\"Hold the Line!\"",
+              "name_pl": "\"Hold Line!\"",
               "points": 0,
               "active": true,
               "alwaysActive": true
@@ -978,6 +1059,7 @@
               "name_de": "Muskete",
               "name_fr": "Arquebuse",
               "name_es": "Arcabuz",
+              "name_pl": "Muszkiet",
               "points": 6,
               "exclusive": true
             },
@@ -987,6 +1069,7 @@
               "name_de": "Bündelmuskete",
               "name_fr": "Arquebuse à répétition",
               "name_es": "Mosquete de repetición",
+              "name_pl": "Powtarzalny muszkiet",
               "points": 8,
               "exclusive": true
             },
@@ -996,6 +1079,7 @@
               "name_de": "Bündelpistole",
               "name_fr": "Pistolet à répétition",
               "name_es": "Pistola de repetición",
+              "name_pl": "Powtarzalny pistolet",
               "points": 8,
               "exclusive": true
             },
@@ -1005,6 +1089,7 @@
               "name_de": "Shortbow",
               "name_es": "Shortbow",
               "name_fr": "Arc court",
+              "name_pl": "Krótki Łuk",
               "points": 2,
               "exclusive": true
             },
@@ -1014,6 +1099,7 @@
               "name_de": "Langbogen",
               "name_fr": "Arc long",
               "name_es": "Arco largo",
+              "name_pl": "Długi Łuk",
               "points": 4,
               "exclusive": true
             },
@@ -1023,13 +1109,15 @@
               "name_de": "Überfall",
               "name_es": "Ambushers",
               "name_fr": "Embusqueurs",
+              "name_pl": "Zasadzka",
               "points": 10,
               "notes": {
                 "name_en": "Ambushers OR Scouts",
                 "name_cn": "伏击或侦察",
                 "name_de": "Ambushers OR Scouts",
                 "name_fr": "Ambushers OR Scouts",
-                "name_es": "Ambushers OR Scouts"
+                "name_es": "Ambushers OR Scouts",
+                "name_pl": "Zasadzka LUB Zwiadowcy"
               }
             },
             {
@@ -1038,13 +1126,15 @@
               "name_de": "Kundschafter",
               "name_es": "Scouts",
               "name_fr": "Éclaireurs",
+              "name_pl": "Zwiadowcy",
               "points": 10,
               "notes": {
                 "name_en": "Ambushers OR Scouts",
                 "name_cn": "伏击或侦察",
                 "name_de": "Ambushers OR Scouts",
                 "name_fr": "Ambushers OR Scouts",
-                "name_es": "Ambushers OR Scouts"
+                "name_es": "Ambushers OR Scouts",
+                "name_pl": "Zasadzka LUB Zwiadowcy"
               }
             }
           ]
@@ -1055,6 +1145,7 @@
           "name_de": "The Wandering Diestro",
           "name_fr": "The Wandering Diestro",
           "name_es": "The Wandering Diestro",
+          "name_pl": "Wandering Diestro",
           "points": 20,
           "exclusive": true,
           "options": [
@@ -1063,6 +1154,7 @@
               "name_cn": "虚招&闪避",
               "name_de": "Feint & Dodge",
               "name_fr": "Feint & Dodge",
+              "name_pl": "Zwód i Unik",
               "points": 0,
               "active": true,
               "alwaysActive": true
@@ -1072,6 +1164,7 @@
               "name_cn": "额外单手武器",
               "name_de": "Additional hand weapon",
               "name_fr": "Arme de base additionnelle",
+              "name_pl": "Dodatkowa Broń Ręczna",
               "points": 3
             }
           ]
@@ -1142,6 +1235,7 @@
           "name_en": "On foot",
           "name_cn": "步行",
           "name_fr": "À Pied",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -1151,6 +1245,7 @@
           "name_de": "Schlachtross",
           "name_fr": "Destrier",
           "name_es": "Warhorse",
+          "name_pl": "Rumak Bojowy {bretonnia}",
           "points": 12
         }
       ],
@@ -1161,6 +1256,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "talisman",
@@ -1172,7 +1268,8 @@
           "maxPoints": 75,
           "notes": {
             "name_en": "Ignore with Renegade Knight or Noble Outlaw Infamous Origin",
-            "name_cn": "若为变节骑士或强盗贵族恶名起源则忽略"
+            "name_cn": "若为变节骑士或强盗贵族恶名起源则忽略",
+            "name_pl": "Ignore z Renegade Rycerz lub Noble Outlaw Infamous Origin"
           }
         },
         {
@@ -1181,6 +1278,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "talisman",
@@ -1193,7 +1291,8 @@
           "magicItemsArmy": "kingdom-of-bretonnia",
           "notes": {
             "name_en": "Only with the Renegade Knight Infamous Origin",
-            "name_cn": "仅限变节骑士恶名起源"
+            "name_cn": "仅限变节骑士恶名起源",
+            "name_pl": "Only z the Renegade Rycerz Infamous Origin"
           }
         },
         {
@@ -1202,6 +1301,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "talisman",
@@ -1214,7 +1314,8 @@
           "magicItemsArmy": "empire-of-man",
           "notes": {
             "name_en": "Only with the Noble Outlaw Infamous Origin",
-            "name_cn": "仅限贵族强盗恶名起源"
+            "name_cn": "仅限贵族强盗恶名起源",
+            "name_pl": "Only z the Noble Outlaw Infamous Origin"
           }
         }
       ],
@@ -1230,7 +1331,8 @@
         "name_en": "Magical Attacks, Magic Resistance (-1), Untutored Arcanist",
         "name_cn": "魔法攻击, 魔法抗性(-1), 野蛮奥术",
         "name_de": "Magische Attacken, Magieresistenz (-1), Ungelernter Arkanist",
-        "name_fr": "Attaques Magiques, Résistance à la Magie (-1), Arcaniste Autodidacte"
+        "name_fr": "Attaques Magiques, Résistance à la Magie (-1), Arcaniste Autodidacte",
+        "name_pl": "Magiczne Ataki, Odporność Na Magię (-1), Untutored Arcanist"
       }
     }
   ],
@@ -1252,6 +1354,7 @@
           "name_it": "Officer (campione)",
           "name_de": "Officer (Champion)",
           "name_fr": "Officer (champion)",
+          "name_pl": "Officer (czempion)",
           "points": 7
         },
         {
@@ -1260,6 +1363,7 @@
           "name_it": "Alfiere",
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 5
         },
         {
@@ -1268,6 +1372,7 @@
           "name_it": "Musico",
           "name_de": "Musiker",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 5
         }
       ],
@@ -1338,6 +1443,7 @@
           "name_en": "Light armour",
           "name_cn": "轻甲",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1348,6 +1454,7 @@
           "name_it": "Armatura Pesante",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 2,
           "perModel": true
         }
@@ -1372,7 +1479,8 @@
           "points": 10,
           "notes": {
             "name_en": "0-1 unit for each character with the Might of Miragliano Infamous Origin",
-            "name_cn": "每有一个米拉格连诺伟力恶名起源角色则0-1单位"
+            "name_cn": "每有一个米拉格连诺伟力恶名起源角色则0-1单位",
+            "name_pl": "0-1 jednostka dla każdy postać z the Might of Miragliano Infamous Origin"
           },
           "name_pl": "Ciężka Piechota, Falanga"
         }
@@ -1384,7 +1492,8 @@
         "name_it": "Close Order, Detachment, Horde, Regimental Unit, Warband",
         "name_de": "Close Order, Detachment, Horde, Regimental Unit, Warband",
         "name_es": "Close Order, Detachment, Horde, Regimental Unit, Warband",
-        "name_fr": "Close Order, Detachment, Horde, Regimental Unit, Warband"
+        "name_fr": "Close Order, Detachment, Horde, Regimental Unit, Warband",
+        "name_pl": "Zwarty Szyk, Oddział, Horda, Jednostka Regimentowa, Gromada"
       }
     },
     {
@@ -1402,7 +1511,8 @@
         "name_cn": "每1,000分0-1单位的资深雇佣步兵",
         "name_it": "0-1 unit of Veteran Sellswords per 1,000",
         "name_de": "0-1 unit of Veteran Sellswords per 1,000",
-        "name_fr": "0-1 unit of Veteran Sellswords per 1,000"
+        "name_fr": "0-1 unit of Veteran Sellswords per 1,000",
+        "name_pl": "0-1 jednostka of Veteran Sellswords na 1,000"
       },
       "command": [
         {
@@ -1411,6 +1521,7 @@
           "name_it": "Veteran Officer (campione)",
           "name_de": "Veteran Officer (Champion)",
           "name_fr": "Veteran Officer (champion)",
+          "name_pl": "Veteran Officer (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -1429,6 +1540,7 @@
           "name_it": "Alfiere",
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
           "points": 5,
           "magic": {
             "types": [
@@ -1443,6 +1555,7 @@
           "name_it": "Musico",
           "name_de": "Musiker",
           "name_fr": "Musicien",
+          "name_pl": "Muzyk",
           "points": 5
         }
       ],
@@ -1513,6 +1626,7 @@
           "name_en": "Light armour",
           "name_cn": "轻甲",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1523,6 +1637,7 @@
           "name_it": "Armatura Pesante",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 2,
           "perModel": true
         },
@@ -1532,6 +1647,7 @@
           "name_de": "Plattenrüstung",
           "name_fr": "Armure de plate complète",
           "name_es": "Armadura completa",
+          "name_pl": "Pełna Zbroja Płytowa",
           "points": 4,
           "perModel": true
         }
@@ -1566,7 +1682,8 @@
           "points": 10,
           "notes": {
             "name_en": "0-1 unit for each character with the Might of Miragliano Infamous Origin",
-            "name_cn": "每有一个米拉格连诺伟力恶名起源角色则0-1单位"
+            "name_cn": "每有一个米拉格连诺伟力恶名起源角色则0-1单位",
+            "name_pl": "0-1 jednostka dla każdy postać z the Might of Miragliano Infamous Origin"
           },
           "name_pl": "Ciężka Piechota, Falanga"
         }
@@ -1578,7 +1695,8 @@
         "name_it": "Close Order, Detachment, Horde, Regimental Unit, Warband, Veteran",
         "name_de": "Close Order, Detachment, Horde, Regimental Unit, Warband, Veteran",
         "name_es": "Close Order, Detachment, Horde, Regimental Unit, Warband, Veteran",
-        "name_fr": "Close Order, Detachment, Horde, Regimental Unit, Warband, Veteran"
+        "name_fr": "Close Order, Detachment, Horde, Regimental Unit, Warband, Veteran",
+        "name_pl": "Zwarty Szyk, Oddział, Horda, Jednostka Regimentowa, Gromada, Veteran"
       }
     },
     {
@@ -1599,6 +1717,7 @@
           "name_de": "Commander (Champion)",
           "name_fr": "Commander (champion)",
           "name_es": "Commander (campeón)",
+          "name_pl": "Commander (czempion)",
           "points": 6
         },
         {
@@ -1607,6 +1726,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 6
         },
         {
@@ -1615,6 +1735,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -1648,6 +1769,7 @@
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "name_es": "Armadura pesada",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1660,6 +1782,7 @@
           "name_de": "Warhorses",
           "name_fr": "Warhorses",
           "name_es": "Warhorses",
+          "name_pl": "Rumaki bojowe",
           "points": 0,
           "active": true
         },
@@ -1669,6 +1792,7 @@
           "name_de": "Barded Warhorses",
           "name_fr": "Barded Warhorses",
           "name_es": "Barded Warhorses",
+          "name_pl": "Opancerzone rumaki bojowe",
           "points": 3,
           "perModel": true
         }
@@ -1694,7 +1818,8 @@
           "perModel": true,
           "notes": {
             "name_en": "0-1 unit for each character with the Outcast Knights Infamous Origin",
-            "name_cn": "每有一个变节骑士恶名起源角色则0-1单位"
+            "name_cn": "每有一个变节骑士恶名起源角色则0-1单位",
+            "name_pl": "0-1 jednostka dla każdy postać z the Outcast Rycerze Infamous Origin"
           },
           "name_pl": "Formacja Lancerska, Szlachetna Pogarda"
         }
@@ -1706,7 +1831,8 @@
         "name_cn": "紧密阵型, 反制冲锋, 先行冲锋, 快速行进",
         "name_de": "Geschlossene Ränge, Gegenangriff, Erster Angriff, Schnelle Bewegung",
         "name_fr": "Ordre Serré, Contre-charge, Première Charge, Rapide",
-        "name_es": "Formación Cerrada, Contracarga, Primera Carga, Zancada Veloz"
+        "name_es": "Formación Cerrada, Contracarga, Primera Carga, Zancada Veloz",
+        "name_pl": "Zwarty Szyk, Przeciwnatarcie, Pierwsza Szarża, Szybki Krok"
       }
     },
     {
@@ -1727,6 +1853,7 @@
           "name_de": "Captain",
           "name_fr": "Captain",
           "name_es": "Captain",
+          "name_pl": "Kapitan",
           "points": 6
         },
         {
@@ -1735,6 +1862,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -1749,6 +1877,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -1811,6 +1940,7 @@
           "name_cn": "无甲",
           "name_de": "keine Rüstung",
           "name_fr": "Pas d'armure",
+          "name_pl": "Bez zbroi",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1820,6 +1950,7 @@
           "name_en": "Light armour",
           "name_cn": "轻甲",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 1,
           "perModel": true
         },
@@ -1829,6 +1960,7 @@
           "name_it": "Armatura Pesante",
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
           "points": 3,
           "perModel": true
         }
@@ -1854,7 +1986,8 @@
           "notes": {
             "name_en": "0-1 per 1000 points",
             "name_cn": "每1000分0-1",
-            "name_fr": "0-1 par tranche de 1000 points"
+            "name_fr": "0-1 par tranche de 1000 points",
+            "name_pl": "0-1 na 1000 punktów"
           },
           "name_pl": "Udawany odwrót"
         },
@@ -1869,7 +2002,8 @@
             "name_en": "0-1 per 1000 points",
             "name_cn": "每1000分0-1",
             "name_de": "0-1 per 1.000 Punkte",
-            "name_fr": "0-1 par tranche de 1000 points"
+            "name_fr": "0-1 par tranche de 1000 points",
+            "name_pl": "0-1 na 1000 punktów"
           },
           "name_pl": "Manewr Rezerwowy"
         },
@@ -1885,7 +2019,8 @@
             "name_en": "0-1 per 1000 points",
             "name_cn": "每1000分0-1",
             "name_de": "0-1 per 1.000 Punkte",
-            "name_fr": "0-1 par tranche de 1000 points"
+            "name_fr": "0-1 par tranche de 1000 points",
+            "name_pl": "0-1 na 1000 punktów"
           },
           "name_pl": "Awangarda"
         },
@@ -1899,7 +2034,8 @@
           "perModel": true,
           "notes": {
             "name_en": "0-1 unit for each character with the Noble Outlaw Infamous Origin",
-            "name_cn": "每有一个强盗贵族恶名起源角色则0-1单位"
+            "name_cn": "每有一个强盗贵族恶名起源角色则0-1单位",
+            "name_pl": "0-1 jednostka dla każdy postać z the Noble Outlaw Infamous Origin"
           },
           "name_pl": "Zasadzka"
         }
@@ -1912,7 +2048,8 @@
         "name_cn": "快速骑兵, 游击, 开放阵型, 散兵, 快速行进",
         "name_de": "Wendige Kavallerie, Schießen und Verschwinden, Offene Ränge, Plänkler, Schnelle Bewegung",
         "name_fr": "Cavalerie Rapide, Tir & Fuite, Ordre Dispersé, Tirailleurs, Rapide",
-        "name_es": "Caballería Rápida, Disparar y Huir, Formación Abierta, Hostigadores, Zancada Veloz"
+        "name_es": "Caballería Rápida, Disparar y Huir, Formación Abierta, Hostigadores, Zancada Veloz",
+        "name_pl": "Szybka Kawaleria, Ogień I Odwrót, Luźny Szyk, Harcownicy, Szybki Krok"
       }
     },
     {
@@ -1934,6 +2071,7 @@
           "name_de": "Feldwaibel der Miliz (Champion)",
           "name_fr": "Chef de Milice (champion)",
           "name_es": "Lider de la Milicia (campeón)",
+          "name_pl": "Militia leader (czempion)",
           "points": 7
         }
       ],
@@ -1970,14 +2108,16 @@
         "name_cn": "分遣队, 部群, 鲁莽, 炮灰, 开放阵型, 战帮",
         "name_de": "Abteilung, Horde, Ungestüm, Gesindel, Offene Ränge, Kriegerschar",
         "name_fr": "Détachement, Horde, Impétueux, Conscrits, Ordre Dispersé, Bande de Guerre",
-        "name_es": "Destacamento, Horda, Impetuoso, Levas, Formación Abierta, Partida de Guerra"
+        "name_es": "Destacamento, Horda, Impetuoso, Levas, Formación Abierta, Partida de Guerra",
+        "name_pl": "Oddział, Horda, Impet, Levies, Luźny Szyk, Gromada"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -1999,6 +2139,7 @@
           "name_de": "Meisterschütze (Champion)",
           "name_fr": "Tireur d'Élite (champion)",
           "name_es": "Tirador (campeón)",
+          "name_pl": "Marksman (czempion)",
           "points": 5
         }
       ],
@@ -2059,14 +2200,16 @@
         "name_cn": "分遣队, 穿行掩体, 开放阵型, 散兵, 先锋",
         "name_de": "Abteilung, Durch Deckung bewegen, Offene Ränge, Plänkler, Vorhut",
         "name_fr": "Détachement, Mouvement à Couvert, Ordre Dispersé, Tirailleurs, Avant-garde",
-        "name_es": "Destacamento, Mover a Través de Cobertura, Formación Abierta, Hostigadores, Vanguardia"
+        "name_es": "Destacamento, Mover a Través de Cobertura, Formación Abierta, Hostigadores, Vanguardia",
+        "name_pl": "Oddział, Przechodzenie Przez Zasłony, Luźny Szyk, Harcownicy, Awangarda"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     }
   ],
@@ -2089,6 +2232,7 @@
           "name_de": "Veteran Commander (Champion)",
           "name_fr": "Veteran Commander (champion)",
           "name_es": "Veteran Commander (campeón)",
+          "name_pl": "Veteran Commander (czempion)",
           "points": 6
         },
         {
@@ -2097,6 +2241,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -2111,6 +2256,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -2144,6 +2290,7 @@
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "name_es": "Armadura pesada",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -2154,6 +2301,7 @@
           "name_de": "Plattenrüstung",
           "name_fr": "Armure de plate complète",
           "name_es": "Armadura completa",
+          "name_pl": "Pełna Zbroja Płytowa",
           "points": 4,
           "perModel": true
         }
@@ -2165,6 +2313,7 @@
           "name_de": "Warhorses",
           "name_fr": "Warhorses",
           "name_es": "Warhorses",
+          "name_pl": "Rumaki bojowe",
           "points": 0,
           "active": true
         },
@@ -2174,6 +2323,7 @@
           "name_de": "Barded Warhorses",
           "name_fr": "Barded Warhorses",
           "name_es": "Barded Warhorses",
+          "name_pl": "Opancerzone rumaki bojowe",
           "points": 3,
           "perModel": true
         }
@@ -2199,7 +2349,8 @@
           "perModel": true,
           "notes": {
             "name_en": "0-1 unit for each character with the Outcast Knights Infamous Origin",
-            "name_cn": "每有一个变节骑士恶名起源角色则0-1单位"
+            "name_cn": "每有一个变节骑士恶名起源角色则0-1单位",
+            "name_pl": "0-1 jednostka dla każdy postać z the Outcast Rycerze Infamous Origin"
           },
           "name_pl": "Formacja Lancerska, Szlachetna Pogarda"
         }
@@ -2211,7 +2362,8 @@
         "name_cn": "紧密阵型, 反制冲锋, 先行冲锋, 快速行进, 老兵",
         "name_de": "Geschlossene Ränge, Gegenangriff, Erster Angriff, Schnelle Bewegung, Veteran",
         "name_fr": "Ordre Serré, Contre-charge, Première Charge, Rapide, Veteran",
-        "name_es": "Formación Cerrada, Contracarga, Primera Carga, Zancada Veloz, Veteran"
+        "name_es": "Formación Cerrada, Contracarga, Primera Carga, Zancada Veloz, Veteran",
+        "name_pl": "Zwarty Szyk, Przeciwnatarcie, Pierwsza Szarża, Szybki Krok, Veteran"
       }
     },
     {
@@ -2245,11 +2397,13 @@
         "name_it": "Levies, Schermagliatori",
         "name_de": "Levies, Plänkler",
         "name_es": "Levies, Skirmishers",
-        "name_fr": "Levies, Tirailleurs"
+        "name_fr": "Levies, Tirailleurs",
+        "name_pl": "Levies, Harcownicy"
       },
       "notes": {
         "name_en": "0-2 Border Princes Mortars per 1,000 points",
-        "name_cn": "每1,000分0-2边境亲王领臼炮"
+        "name_cn": "每1,000分0-2边境亲王领臼炮",
+        "name_pl": "0-2 Border Princes Mortars na 1,000 punktów"
       }
     }
   ],
@@ -2273,6 +2427,7 @@
           "name_de": "Rädelsführer",
           "name_es": "Desperado (champion)",
           "name_fr": "Desperado (champion)",
+          "name_pl": "Desperado (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -2290,6 +2445,7 @@
           "name_fr": "Porte-étendard",
           "name_de": "Standartenträger",
           "name_es": "Standard bearer",
+          "name_pl": "Sztandarowy",
           "points": 5
         },
         {
@@ -2298,6 +2454,7 @@
           "name_fr": "Musicien",
           "name_de": "Musiker",
           "name_es": "Musician",
+          "name_pl": "Muzyk",
           "points": 5
         }
       ],
@@ -2321,6 +2478,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Light armour",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -2388,7 +2546,8 @@
           "alwaysActive": true,
           "notes": {
             "name_en": "0-1 Close Order and 0-1 Skirmishers per 1000 points",
-            "name_cn": "0-1紧密阵型，每1,000分0-1单位的散兵阵型"
+            "name_cn": "0-1紧密阵型，每1,000分0-1单位的散兵阵型",
+            "name_pl": "0-1 Zwarty Szyk i 0-1 Harcownicy na 1000 punktów"
           },
           "options": [
             {
@@ -2440,7 +2599,8 @@
             "name_cn": "若为散兵",
             "name_de": "Wenn Plänkler",
             "name_fr": "Si Tirailleurs",
-            "name_es": "If Skirmishers"
+            "name_es": "If Skirmishers",
+            "name_pl": "Jeśli Harcownicy"
           },
           "name_pl": "Zasadzka"
         },
@@ -2457,7 +2617,8 @@
             "name_cn": "若为散兵",
             "name_de": "Wenn Plänkler",
             "name_fr": "Si Tirailleurs",
-            "name_es": "If Skirmishers"
+            "name_es": "If Skirmishers",
+            "name_pl": "Jeśli Harcownicy"
           },
           "name_pl": "Zwiadowcy"
         },
@@ -2471,7 +2632,8 @@
           "perModel": true,
           "notes": {
             "name_en": "0-1 unit for each character with the Wandering Duelists Infamous Origin",
-            "name_cn": "每有一个游荡决斗家恶名起源角色则0-1单位"
+            "name_cn": "每有一个游荡决斗家恶名起源角色则0-1单位",
+            "name_pl": "0-1 jednostka dla każdy postać z the Wandering Duelists Infamous Origin"
           },
           "name_pl": "+1 do Umiejętności Walki"
         }
@@ -2484,7 +2646,8 @@
         "name_cn": "部群, 鲁莽, 炮灰, 散兵游勇, 开放阵型, 战帮",
         "name_de": "Horde, Impetuous, Levies, Motley Crew, Open Order, Warband",
         "name_es": "Horde, Impetuous, Levies, Motley Crew, Open Order, Warband",
-        "name_fr": "Horde, Impétueux, Conscrits, Bande Hétéroclite, Ordre Dispersé, Bande de Guerre"
+        "name_fr": "Horde, Impétueux, Conscrits, Bande Hétéroclite, Ordre Dispersé, Bande de Guerre",
+        "name_pl": "Horda, Impet, Levies, Zbieranina, Luźny Szyk, Gromada"
       }
     },
     {
@@ -2518,7 +2681,8 @@
         "name_it": "Levies, Schermagliatori",
         "name_de": "Levies, Plänkler",
         "name_es": "Levies, Skirmishers",
-        "name_fr": "Levies, Tirailleurs"
+        "name_fr": "Levies, Tirailleurs",
+        "name_pl": "Levies, Harcownicy"
       }
     },
     {
@@ -2551,6 +2715,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Light armour",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -2565,7 +2730,8 @@
         "name_cn": "炮灰, 散兵",
         "name_de": "Gesindel, Plänkler",
         "name_es": "Levies, Skirmishers",
-        "name_fr": "Conscrits, Tirailleurs"
+        "name_fr": "Conscrits, Tirailleurs",
+        "name_pl": "Levies, Harcownicy"
       }
     }
   ],

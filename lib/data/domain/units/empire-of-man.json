@@ -17,7 +17,8 @@
             "name_cn": "每1000分0-1帝国将军或大导师",
             "name_de": "0-1 General des Imperiums oder Großmeister pro 1.000 Punkte",
             "name_fr": "0-1 Général de l'Empire ou Grand Maître par tranche de 1000 points",
-            "name_es": "0-1 General del Imperio o Gran Maestre por cada 1.000 puntos"
+            "name_es": "0-1 General del Imperio o Gran Maestre por cada 1.000 puntos",
+            "name_pl": "0-1 Generał of the Empire lub Wielki Mistrz na 1000 punktów"
           }
         },
         "city-state-of-nuln": {
@@ -27,7 +28,8 @@
             "name_cn": "每1000分0-1帝国将军或西格玛诵经师",
             "name_de": "0-1 General des Imperiums oder Lektor des Sigmar pro 1.000 Punkte",
             "name_fr": "0-1 Général de l'Empire ou Archidiacre de Sigmar par tranche de 1000 points",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 Generał of the Empire lub Lector of Sigmar na 1000 punktów"
           }
         }
       },
@@ -38,6 +40,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -98,7 +101,8 @@
             "name_it": "if appropriately mounted",
             "name_de": "wenn beritten",
             "name_fr": "si monté",
-            "name_es": "si está montado"
+            "name_es": "si está montado",
+            "name_pl": "jeśli appropriately mounted"
           },
           "name_pl": "Lanca"
         },
@@ -130,6 +134,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Armadura ligera",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -140,6 +145,7 @@
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "name_es": "Armadura pesada",
+          "name_pl": "Ciężka Zbroja",
           "points": 3,
           "perModel": true
         },
@@ -149,6 +155,7 @@
           "name_de": "Plattenrüstung",
           "name_fr": "Armure de plate complète",
           "name_es": "Armadura completa",
+          "name_pl": "Pełna Zbroja Płytowa",
           "points": 6,
           "perModel": true
         }
@@ -198,6 +205,7 @@
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "name_es": "A pie",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -207,6 +215,7 @@
           "name_de": "Schlachtross mit Rossharnisch",
           "name_fr": "Destrier Caparaçonné",
           "name_es": "Caballo de guerra con barda",
+          "name_pl": "Opancerzony rumak",
           "points": 16
         },
         {
@@ -215,6 +224,7 @@
           "name_de": "Imperiales Schlachtross",
           "name_fr": "Destrier de l'Empire",
           "name_es": "Caballo de guerra",
+          "name_pl": "Empire rumak bojowy",
           "points": 12
         },
         {
@@ -223,6 +233,7 @@
           "name_de": "Pegasus",
           "name_fr": "Pégase",
           "name_es": "Pegaso",
+          "name_pl": "Pegaz",
           "points": 30
         },
         {
@@ -231,6 +242,7 @@
           "name_de": "Demigreif",
           "name_fr": "Demigriffon",
           "name_es": "Semigrifo",
+          "name_pl": "Demigryf",
           "points": 50
         },
         {
@@ -239,6 +251,7 @@
           "name_de": "Greif",
           "name_fr": "Griffon",
           "name_es": "Grifo",
+          "name_pl": "Gryf {empire}",
           "points": 130
         },
         {
@@ -247,6 +260,7 @@
           "name_de": "Imperialer Greif",
           "name_fr": "Griffon Impérial",
           "name_es": "Grifo Imperial",
+          "name_pl": "Imperial Gryf",
           "points": 160,
           "options": [
             {
@@ -255,6 +269,7 @@
               "name_de": "Zweiköpfig",
               "name_fr": "Bicéphale",
               "name_es": "Dos Cabezas",
+              "name_pl": "Dwie głowy",
               "points": 20
             }
           ]
@@ -267,6 +282,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -283,7 +299,8 @@
         "name_cn": "\"坚守阵线！\", 集结战吼",
         "name_de": "\"Haltet die Linie!\", Sammelruf",
         "name_es": "\"¡Aguantad la línea!\", Grito de Guerra",
-        "name_fr": "\"Tenez la Ligne!\", Cri de Ralliement"
+        "name_fr": "\"Tenez la Ligne!\", Cri de Ralliement",
+        "name_pl": "\"Hold the Line!\", Bojowy Okrzyk"
       },
       "magic": {
         "types": [
@@ -320,6 +337,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         },
         {
@@ -328,6 +346,7 @@
           "name_de": "Armeestandartenträger",
           "name_fr": "Porteur de la Grande Bannière",
           "name_es": "Portaestandarte de Batalla",
+          "name_pl": "Chorąży",
           "points": 25,
           "magic": {
             "types": [
@@ -394,7 +413,8 @@
             "name_it": "if appropriately mounted",
             "name_de": "wenn beritten",
             "name_fr": "si monté",
-            "name_es": "si está montado"
+            "name_es": "si está montado",
+            "name_pl": "jeśli appropriately mounted"
           },
           "name_pl": "Lanca"
         },
@@ -426,6 +446,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Armadura ligera",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -436,6 +457,7 @@
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "name_es": "Armadura pesada",
+          "name_pl": "Ciężka Zbroja",
           "points": 3,
           "perModel": true
         },
@@ -445,6 +467,7 @@
           "name_de": "Plattenrüstung",
           "name_fr": "Armure de plate complète",
           "name_es": "Armadura completa",
+          "name_pl": "Pełna Zbroja Płytowa",
           "points": 6,
           "perModel": true
         }
@@ -494,6 +517,7 @@
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "name_es": "A pie",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -503,6 +527,7 @@
           "name_de": "Schlachtross mit Rossharnisch",
           "name_fr": "Destrier Caparaçonné",
           "name_es": "Caballo de guerra con barda",
+          "name_pl": "Opancerzony rumak",
           "points": 16
         },
         {
@@ -511,6 +536,7 @@
           "name_de": "Imperiales Schlachtross",
           "name_fr": "Destrier de l'Empire",
           "name_es": "Caballo de guerra",
+          "name_pl": "Empire rumak bojowy",
           "points": 12
         },
         {
@@ -519,6 +545,7 @@
           "name_de": "Pegasus",
           "name_fr": "Pégase",
           "name_es": "Pegaso",
+          "name_pl": "Pegaz",
           "points": 30
         },
         {
@@ -527,6 +554,7 @@
           "name_de": "Demigreif",
           "name_fr": "Demigriffon",
           "name_es": "Semigrifo",
+          "name_pl": "Demigryf",
           "points": 50
         },
         {
@@ -535,6 +563,7 @@
           "name_de": "Greif",
           "name_fr": "Griffon",
           "name_es": "Grifo",
+          "name_pl": "Gryf {empire}",
           "points": 130
         }
       ],
@@ -545,6 +574,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -561,14 +591,16 @@
         "name_cn": "\"坚守阵线！\", 集结战吼",
         "name_de": "",
         "name_fr": "\"Tenez la Ligne!\", Cri de Ralliement",
-        "name_es": "\"¡Aguantad la línea!\", Grito de Guerra"
+        "name_es": "\"¡Aguantad la línea!\", Grito de Guerra",
+        "name_pl": "\"Hold the Line!\", Bojowy Okrzyk"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -595,6 +627,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -655,6 +688,7 @@
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "name_es": "A pie",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -664,6 +698,7 @@
           "name_de": "Imperiales Schlachtross",
           "name_fr": "Destrier de l'Empire",
           "name_es": "Caballo de guerra",
+          "name_pl": "Rumak Imperium",
           "points": 12
         },
         {
@@ -672,6 +707,7 @@
           "name_de": "Pegasus",
           "name_fr": "Pégase",
           "name_es": "Pegaso",
+          "name_pl": "Pegaz",
           "points": 30
         },
         {
@@ -680,6 +716,7 @@
           "name_de": "Imperialer Greif",
           "name_fr": "Griffon Impérial",
           "name_es": "Grifo Imperial",
+          "name_pl": "Imperial Gryf",
           "points": 160,
           "options": [
             {
@@ -688,6 +725,7 @@
               "name_de": "Zweiköpfig",
               "name_fr": "Bicéphale",
               "name_es": "Dos Cabezas",
+              "name_pl": "Dwie głowy",
               "points": 20
             }
           ]
@@ -700,6 +738,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor-mages",
@@ -724,14 +763,16 @@
         "name_cn": "魔法攻击, 魔法抗性(-1)",
         "name_de": "Magische Attacken, Magieresistenz (-1)",
         "name_fr": "Attaques Magiques, Résistance à la Magie (-1)",
-        "name_es": "Ataques Mágicos, Resistencia a la Magia (-1)"
+        "name_es": "Ataques Mágicos, Resistencia a la Magia (-1)",
+        "name_pl": "Magiczne Ataki, Odporność Na Magię (-1)"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -757,7 +798,8 @@
             "name_cn": "每1000分0-2魔法大师可以作为角色选择",
             "name_de": "0-2 Master Mages as Character choices pro 1.000 Punkte",
             "name_fr": "0-2 Maîtres Mages peuvent être pris comme choix de Personnage par tranche de 1000 points",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-2 Mistrz Mages jako Postać choices na 1000 punktów"
           }
         },
         "knightly-order-morr": {
@@ -771,6 +813,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -831,6 +874,7 @@
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "name_es": "A pie",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -840,6 +884,7 @@
           "name_de": "Imperiales Schlachtross",
           "name_fr": "Destrier de l'Empire",
           "name_es": "Caballo de guerra",
+          "name_pl": "Rumak Imperium",
           "points": 12
         },
         {
@@ -848,6 +893,7 @@
           "name_de": "Pegasus",
           "name_fr": "Pégase",
           "name_es": "Pegaso",
+          "name_pl": "Pegaz",
           "points": 30
         }
       ],
@@ -858,6 +904,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor-mages",
@@ -882,14 +929,16 @@
         "name_cn": "魔法攻击, 魔法抗性(-1)",
         "name_de": "Magische Attacken, Magieresistenz (-1)",
         "name_fr": "Attaques Magiques, Résistance à la Magie (-1)",
-        "name_es": "Ataques Mágicos, Resistencia a la Magia (-1)"
+        "name_es": "Ataques Mágicos, Resistencia a la Magia (-1)",
+        "name_pl": "Magiczne Ataki, Odporność Na Magię (-1)"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -909,7 +958,8 @@
             "name_cn": "每1000分0-1帝国将军或大导师, 0-1 大导师或可以被升级为你所选的骑士团",
             "name_de": "0-1 General des Imperiums oder Großmeister pro 1.000 Punkte, 0-1 Großmeister oder Kapitelmeister können einem Ritterlichen Orden angehören",
             "name_fr": "0-1 Général de l'Empire ou Grand Maître par tranche de 1000 points, 0-1 Grand Maître ou Maître de Chapitre de votre armée peut être promu pour appartenir à l'Ordre de Chevalerie de votre choix",
-            "name_es": "0-1 General del Imperio o Gran Maestre por cada 1.000 puntos, 0-1 Grand Master or Chapter Master in your army may be upgraded to belong to your chosen Knightly Order"
+            "name_es": "0-1 General del Imperio o Gran Maestre por cada 1.000 puntos, 0-1 Grand Master or Chapter Master in your army may be upgraded to belong to your chosen Knightly Order",
+            "name_pl": "0-1 Generał of the Empire lub Wielki Mistrz na 1000 punktów, 0-1 Wielki Mistrz lub Chapter Mistrz w twoja armia może be upgraded do belong do twoja chosen Knightly Order"
           }
         },
         "knightly-order-panther": {
@@ -919,7 +969,8 @@
             "name_cn": "0-1 大导师",
             "name_de": "0-1 Großmeister",
             "name_fr": "0-1 Grand Maître",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 Wielki Mistrz"
           }
         },
         "knightly-order-white-wolf": {
@@ -929,7 +980,8 @@
             "name_cn": "0-1 大导师",
             "name_de": "0-1 Großmeister",
             "name_fr": "0-1 Grand Maître",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 Wielki Mistrz"
           }
         },
         "knightly-order-blazing-sun": {
@@ -939,7 +991,8 @@
             "name_cn": "0-1 大导师",
             "name_de": "0-1 Großmeister",
             "name_fr": "0-1 Grand Maître",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 Wielki Mistrz"
           }
         },
         "knightly-order-morr": {
@@ -949,7 +1002,8 @@
             "name_cn": "0-1 大导师",
             "name_de": "0-1 Großmeister",
             "name_fr": "0-1 Grand Maître",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 Wielki Mistrz"
           }
         },
         "knightly-order-fiery-heart": {
@@ -959,7 +1013,8 @@
             "name_cn": "0-1 大导师",
             "name_de": "0-1 Großmeister",
             "name_fr": "0-1 Grand Maître",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 Wielki Mistrz"
           }
         }
       },
@@ -970,6 +1025,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -1034,7 +1090,8 @@
           "notes": {
             "name_en": "Only in Order of the White Wolf army or as a member of the Order of the White Wolf",
             "name_de": "Nur in einer Armee des Ordens des Weißen Wolfs oder als Mitglied des Ordens des Weißen Wolfs",
-            "name_fr": "Seulement dans une armée de l'Ordre du Loup Blanc ou en tant que membre de l'Ordre du Loup Blanc"
+            "name_fr": "Seulement dans une armée de l'Ordre du Loup Blanc ou en tant que membre de l'Ordre du Loup Blanc",
+            "name_pl": "Only w Zakon Białego Wilka armia lub jako a member of the Zakon Białego Wilka"
           },
           "name_pl": "Wilczy młot"
         }
@@ -1046,6 +1103,7 @@
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "name_es": "Armadura pesada",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1056,6 +1114,7 @@
           "name_de": "Plattenrüstung",
           "name_fr": "Armure de plate complète",
           "name_es": "Armadura completa",
+          "name_pl": "Pełna Zbroja Płytowa",
           "points": 3,
           "perModel": true
         }
@@ -1189,6 +1248,7 @@
           "name_de": "Schlachtross mit Rossharnisch",
           "name_fr": "Destrier Caparaçonné",
           "name_es": "Caballo de guerra con barda",
+          "name_pl": "Opancerzony rumak",
           "points": 16,
           "active": true
         },
@@ -1198,6 +1258,7 @@
           "name_de": "Pegasus",
           "name_fr": "Pégase",
           "name_es": "Pegaso",
+          "name_pl": "Pegaz",
           "points": 30
         },
         {
@@ -1206,6 +1267,7 @@
           "name_de": "Demigreif",
           "name_fr": "Demigriffon",
           "name_es": "Semigrifo",
+          "name_pl": "Demigryf",
           "points": 50
         }
       ],
@@ -1216,6 +1278,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -1232,7 +1295,8 @@
         "name_cn": "反制冲锋, 先行冲锋, 心理免疫, 战斗大师, 集结战吼, 坚毅, 快速行进, 老兵",
         "name_de": "Gegenangriff, Erster Angriff, Immung gegen Psychologie, Meister der Schlachten, Sammelruf, Unnachgiebig, Schnelle Bewegung, Veteranen",
         "name_fr": "Contre-charge, Première Charge, Immunisé à la Psychologie, Maître des Batailles, Cri de Ralliement, Obstiné, Rapide, Vétérans",
-        "name_es": "Contracarga, Primera Carga, Inmune a la Psicología, Maestro de Batalla, Grito de Guerra, Zancada Veloz, Veterano"
+        "name_es": "Contracarga, Primera Carga, Inmune a la Psicología, Maestro de Batalla, Grito de Guerra, Zancada Veloz, Veterano",
+        "name_pl": "Przeciwnatarcie, Pierwsza Szarża, Odporność Na Psychologię, Mistrz of Battle, Bojowy Okrzyk, Nieugięty, Szybki Krok, Veteran"
       },
       "magic": {
         "types": [
@@ -1262,7 +1326,8 @@
             "name_cn": "0-1 大导师或Chapter Master in your army may be upgraded to belong to your chosen Knightly Order",
             "name_de": "0-1 Großmeister oder Kapitelmeister können einem Ritterlichen Orden angehören",
             "name_fr": "0-1 Grand Maître ou Maître de Chapitre de votre armée peut être promu pour appartenir à l'Ordre de Chevalerie de votre choix",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 Wielki Mistrz lub Chapter Mistrz w twoja armia może be upgraded do belong do twoja chosen Knightly Order"
           }
         },
         "knightly-order-panther": {
@@ -1272,7 +1337,8 @@
             "name_cn": "1+ 骑士团长",
             "name_de": "1+ Kapitelmeister",
             "name_fr": "1+ Maître de Chapitre",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "1+ Chapter Mistrz"
           }
         },
         "knightly-order-white-wolf": {
@@ -1282,7 +1348,8 @@
             "name_cn": "1+ 骑士团长",
             "name_de": "1+ Kapitelmeister",
             "name_fr": "1+ Maître de Chapitre",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "1+ Chapter Mistrz"
           }
         },
         "knightly-order-blazing-sun": {
@@ -1292,7 +1359,8 @@
             "name_cn": "1+ 骑士团长",
             "name_de": "1+ Kapitelmeister",
             "name_fr": "1+ Maître de Chapitre",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "1+ Chapter Mistrz"
           }
         },
         "knightly-order-morr": {
@@ -1302,7 +1370,8 @@
             "name_cn": "1+ 骑士团长",
             "name_de": "1+ Kapitelmeister",
             "name_fr": "1+ Maître de Chapitre",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "1+ Chapter Mistrz"
           }
         },
         "knightly-order-fiery-heart": {
@@ -1312,7 +1381,8 @@
             "name_cn": "1+ 骑士团长",
             "name_de": "1+ Kapitelmeister",
             "name_fr": "1+ Maître de Chapitre",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "1+ Chapter Mistrz"
           }
         }
       },
@@ -1323,6 +1393,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         },
         {
@@ -1331,6 +1402,7 @@
           "name_de": "Armeestandartenträger",
           "name_fr": "Porteur de la Grande Bannière",
           "name_es": "Portaestandarte de Batalla",
+          "name_pl": "Chorąży",
           "points": 25,
           "magic": {
             "types": [
@@ -1407,7 +1479,8 @@
           "perModel": true,
           "notes": {
             "name_en": "Only in Order of the White Wolf army or as a member of the Order of the White Wolf",
-            "name_fr": "Seulement dans une armée de l'Ordre du Loup Blanc ou en tant que membre de l'Ordre du Loup Blanc"
+            "name_fr": "Seulement dans une armée de l'Ordre du Loup Blanc ou en tant que membre de l'Ordre du Loup Blanc",
+            "name_pl": "Only w Zakon Białego Wilka armia lub jako a member of the Zakon Białego Wilka"
           },
           "name_pl": "Wilczy młot"
         }
@@ -1419,6 +1492,7 @@
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "name_es": "Armadura pesada",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1429,6 +1503,7 @@
           "name_de": "Plattenrüstung",
           "name_fr": "Armure de plate complète",
           "name_es": "Armadura completa",
+          "name_pl": "Pełna Zbroja Płytowa",
           "points": 3,
           "perModel": true
         }
@@ -1562,6 +1637,7 @@
           "name_de": "Schlachtross mit Rossharnisch",
           "name_fr": "Destrier Caparaçonné",
           "name_es": "Caballo de guerra con barda",
+          "name_pl": "Opancerzony rumak",
           "points": 16,
           "active": true
         },
@@ -1571,6 +1647,7 @@
           "name_de": "Pegasus",
           "name_fr": "Pégase",
           "name_es": "Pegaso",
+          "name_pl": "Pegaz",
           "points": 30
         },
         {
@@ -1579,6 +1656,7 @@
           "name_de": "Demigreif",
           "name_fr": "Demigriffon",
           "name_es": "Semigrifo",
+          "name_pl": "Demigryf",
           "points": 50
         }
       ],
@@ -1589,6 +1667,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -1605,7 +1684,8 @@
         "name_cn": "反制冲锋, 先行冲锋, 心理免疫, 战斗大师, 集结战吼, 坚毅, 快速行进, 老兵",
         "name_de": "Gegenangriff, Erster Angriff, Immung gegen Psychologie, Meister der Schlachten, Sammelruf, Unnachgiebig, Schnelle Bewegung, Veteranen",
         "name_fr": "Contre-charge, Première Charge, Immunisé à la Psychologie, Maître des Batailles, Cri de Ralliement, Obstiné, Rapide, Vétérans",
-        "name_es": "Contracarga, Primera Carga, Inmune a la Psicología, Maestro de Batalla, Grito de Guerra, Tozudo, Zancada Veloz, Veterano"
+        "name_es": "Contracarga, Primera Carga, Inmune a la Psicología, Maestro de Batalla, Grito de Guerra, Tozudo, Zancada Veloz, Veterano",
+        "name_pl": "Przeciwnatarcie, Pierwsza Szarża, Odporność Na Psychologię, Mistrz of Battle, Bojowy Okrzyk, Nieugięty, Szybki Krok, Veteran"
       },
       "magic": {
         "types": [
@@ -1654,6 +1734,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0,
           "armyComposition": [
             "empire-of-man",
@@ -1741,6 +1822,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Armadura ligera",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1796,6 +1878,7 @@
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "name_es": "A pie",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -1805,6 +1888,7 @@
           "name_de": "Imperiales Schlachtross",
           "name_fr": "Destrier de l'Empire",
           "name_es": "Caballo de guerra",
+          "name_pl": "Rumak Imperium",
           "points": 12
         },
         {
@@ -1813,6 +1897,7 @@
           "name_de": "Pegasus",
           "name_fr": "Pégase",
           "name_es": "Pegaso",
+          "name_pl": "Pegaz",
           "points": 30
         }
       ],
@@ -1823,6 +1908,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -1839,14 +1925,16 @@
         "name_cn": "心理免疫, 一击必杀, 毫不留情...",
         "name_de": "Immung gegen Psychologie, Todesstoss, Dulde nicht...",
         "name_fr": "Immunisé à la Psychologie, Coup Fatal, Ne Tolérez Pas...",
-        "name_es": "Inmune a la Psicología, Golpe Letal, Acusación"
+        "name_es": "Inmune a la Psicología, Golpe Letal, Acusación",
+        "name_pl": "Odporność Na Psychologię, Killing Blow, Suffer Not..."
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       },
       "magic": {
         "types": [
@@ -1879,7 +1967,8 @@
             "name_cn": "每1000分0-1帝国将军或西格玛诵经师, 0-1 西格玛战争祭坛",
             "name_de": "0-1 General des Imperiums oder Lektor des Sigmar pro 1.000 Punkte, 0-1 Kriegsaltar des Sigmar",
             "name_fr": "0-1 Général de l'Empire ou Archidiacre de Sigmar par tranche de 1000 points, 0-1 Autel de Guerre de Sigmar",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 Generał of the Empire lub Lector of Sigmar na 1000 punktów, 0-1 War Altar of Sigmar"
           }
         },
         "knightly-order-panther": {
@@ -1889,7 +1978,8 @@
             "name_cn": "每1000分0-1西格玛诵经师或尤里克高等祭司, 0-1西格玛战争祭坛",
             "name_de": "0-1 Lektor des Sigmar oder Hohepriester des Ulric pro 1.000 Punkte, 0-1 Kriegsaltar des Sigmar",
             "name_fr": "0-1 Archidiacre de Sigmar ou Grand Prêtre d'Ulric par tranche de 1000 points, 0-1 Autel de Guerre de Sigmar",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 Lector of Sigmar lub Wysoki Kapłan of Ulric na 1000 punktów, 0-1 War Altar of Sigmar"
           }
         },
         "knightly-order-fiery-heart": {
@@ -1899,7 +1989,8 @@
             "name_cn": "每1000分0-1西格玛诵经师或尤里克高等祭司, 0-1西格玛战争祭坛",
             "name_de": "0-1 Lektor des Sigmar oder Hohepriester des Ulric pro 1.000 Punkte, 0-1 Kriegsaltar des Sigmar",
             "name_fr": "0-1 Archidiacre de Sigmar ou Grand Prêtre d'Ulric par tranche de 1000 points, 0-1 Autel de Guerre de Sigmar",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 Lector of Sigmar lub Wysoki Kapłan of Ulric na 1000 punktów, 0-1 War Altar of Sigmar"
           }
         }
       },
@@ -1908,7 +1999,8 @@
         "name_cn": "每1000分0-1西格玛诵经师或尤里克高等祭司, 0-1西格玛战争祭坛",
         "name_de": "0-1 Lektor des Sigmar oder Hohepriester des Ulric pro 1.000 Punkte, 0-1 Kriegsaltar des Sigmar",
         "name_fr": "0-1 Archidiacre de Sigmar ou Grand Prêtre d'Ulric par tranche de 1000 points, 0-1 Autel de Guerre de Sigmar",
-        "name_es": "0-1 Archilector de Sigmar o Sumo Sacerdote de Ulric por cada 1.000 puntos, 0-1 Altar de Guerra de Sigmar"
+        "name_es": "0-1 Archilector de Sigmar o Sumo Sacerdote de Ulric por cada 1.000 puntos, 0-1 Altar de Guerra de Sigmar",
+        "name_pl": "0-1 Lector of Sigmar lub Wysoki Kapłan of Ulric na 1000 punktów, 0-1 War Altar of Sigmar"
       },
       "command": [
         {
@@ -1917,6 +2009,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0,
           "armyComposition": [
             "empire-of-man",
@@ -1965,6 +2058,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Armadura ligera",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -1975,6 +2069,7 @@
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "name_es": "Armadura pesada",
+          "name_pl": "Ciężka Zbroja",
           "points": 3,
           "perModel": true
         }
@@ -2000,6 +2095,7 @@
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "name_es": "A pie",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -2009,6 +2105,7 @@
           "name_de": "Schlachtross mit Rossharnisch",
           "name_fr": "Destrier Caparaçonné",
           "name_es": "Caballo de guerra con barda",
+          "name_pl": "Opancerzony rumak",
           "points": 16
         },
         {
@@ -2017,6 +2114,7 @@
           "name_de": "Imperiales Schlachtross",
           "name_fr": "Destrier de l'Empire",
           "name_es": "Caballo de guerra",
+          "name_pl": "Rumak Imperium",
           "points": 12
         },
         {
@@ -2025,6 +2123,7 @@
           "name_de": "Kriegsaltar des Sigmar",
           "name_fr": "Autel de Guerre de Sigmar",
           "name_es": "Altar de Guerra de Sigmar",
+          "name_pl": "War Altar Sigmar",
           "points": 135
         }
       ],
@@ -2035,6 +2134,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objets Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -2051,7 +2151,8 @@
         "name_cn": "魔法攻击, 魔法抗性(-1), 西格玛祈祷",
         "name_de": "Magische Attacken, Magieresistenz (-1), Gebete des Sigmar",
         "name_fr": "Attaques Magiques, Résistance à la Magie (-1), Prières de Sigmar",
-        "name_es": "Ataques Mágicos, Resistencia a la Magia (-1), Plegarias a Sigmar"
+        "name_es": "Ataques Mágicos, Resistencia a la Magia (-1), Plegarias a Sigmar",
+        "name_pl": "Magiczne Ataki, Odporność Na Magię (-1), Prayers of Sigmar"
       }
     },
     {
@@ -2087,6 +2188,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0,
           "armyComposition": [
             "empire-of-man",
@@ -2135,6 +2237,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Armadura ligera",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -2145,6 +2248,7 @@
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "name_es": "Armadura pesada",
+          "name_pl": "Ciężka Zbroja",
           "points": 3,
           "perModel": true
         }
@@ -2170,6 +2274,7 @@
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "name_es": "A pie",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -2179,6 +2284,7 @@
           "name_de": "Imperiales Schlachtross",
           "name_fr": "Destrier de l'Empire",
           "name_es": "Caballo de guerra",
+          "name_pl": "Rumak Imperium",
           "points": 12
         },
         {
@@ -2187,6 +2293,7 @@
           "name_de": "Schlachtross mit Rossharnisch",
           "name_fr": "Destrier Caparaçonné",
           "name_es": "Caballo de guerra con barda",
+          "name_pl": "Opancerzony rumak",
           "points": 16
         }
       ],
@@ -2197,6 +2304,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -2213,14 +2321,16 @@
         "name_cn": "魔法攻击, 魔法抗性(-1), 西格玛祈祷",
         "name_de": "Magische Attacken, Magieresistenz (-1), Gebete des Sigmar",
         "name_fr": "Attaques Magiques, Résistance à la Magie (-1), Prières de Sigmar",
-        "name_es": "Ataques Mágicos, Resistencia a la Magia (-1), Plegarias a Sigmar"
+        "name_es": "Ataques Mágicos, Resistencia a la Magia (-1), Plegarias a Sigmar",
+        "name_pl": "Magiczne Ataki, Odporność Na Magię (-1), Prayers of Sigmar"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -2243,7 +2353,8 @@
             "name_cn": "每1000分0-1西格玛诵经师或尤里克高等祭司",
             "name_de": "0-1 Lektor des Sigmar oder Hohepriester des Ulric pro 1.000 Punkte",
             "name_fr": "0-1 Archidiacre de Sigmar ou Grand Prêtre d'Ulric par tranche de 1000 points",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 Lector of Sigmar lub Wysoki Kapłan of Ulric na 1000 punktów"
           }
         },
         "knightly-order-white-wolf": {
@@ -2253,7 +2364,8 @@
             "name_cn": "每1000分0-1西格玛诵经师或尤里克高等祭司",
             "name_de": "0-1 Lektor des Sigmar oder Hohepriester des Ulric pro 1.000 Punkte",
             "name_fr": "0-1 Archidiacre de Sigmar ou Grand Prêtre d'Ulric par tranche de 1000 points",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 Lector of Sigmar lub Wysoki Kapłan of Ulric na 1000 punktów"
           }
         }
       },
@@ -2264,6 +2376,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0,
           "armyComposition": [
             "empire-of-man",
@@ -2312,6 +2425,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Armadura ligera",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -2322,6 +2436,7 @@
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "name_es": "Armadura pesada",
+          "name_pl": "Ciężka Zbroja",
           "points": 3,
           "perModel": true
         }
@@ -2347,6 +2462,7 @@
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "name_es": "A pie",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -2356,6 +2472,7 @@
           "name_de": "Schlachtross mit Rossharnisch",
           "name_fr": "Destrier Caparaçonné",
           "name_es": "Caballo de guerra con barda",
+          "name_pl": "Opancerzony rumak",
           "points": 16
         },
         {
@@ -2364,6 +2481,7 @@
           "name_de": "Imperiales Schlachtross",
           "name_fr": "Destrier de l'Empire",
           "name_es": "Caballo de guerra",
+          "name_pl": "Rumak Imperium",
           "points": 12
         }
       ],
@@ -2374,6 +2492,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -2390,14 +2509,16 @@
         "name_cn": "魔法攻击, 魔法抗性(-1), 尤里克祈祷",
         "name_de": "Magische Attacken, Magieresistenz (-1), Gebete des Ulric",
         "name_fr": "Attaques Magiques, Résistance à la Magie (-1), Prières d'Ulric",
-        "name_es": "Ataques Mágicos, Resistencia a la Magia (-1), Plegarias a Ulric"
+        "name_es": "Ataques Mágicos, Resistencia a la Magia (-1), Plegarias a Ulric",
+        "name_pl": "Magiczne Ataki, Odporność Na Magię (-1), Prayers of Ulric"
       },
       "notes": {
         "name_en": "0-1 Lector of Sigmar or High Priest of Ulric per 1000 points",
         "name_cn": "每1000分0-1西格玛诵经师或尤里克高等祭司",
         "name_de": "0-1 Lektor des Sigmar oder Hohepriester des Ulric pro 1.000 Punkte",
         "name_fr": "0-1 Archidiacre de Sigmar ou Grand Prêtre d'Ulric par tranche de 1000 points",
-        "name_es": "0-1 Archilector de Sigmar o Sumo Sacerdote de Ulric por cada 1.000 puntos"
+        "name_es": "0-1 Archilector de Sigmar o Sumo Sacerdote de Ulric por cada 1.000 puntos",
+        "name_pl": "0-1 Lector of Sigmar lub Wysoki Kapłan of Ulric na 1000 punktów"
       }
     },
     {
@@ -2430,6 +2551,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0,
           "armyComposition": [
             "empire-of-man",
@@ -2478,6 +2600,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Armadura ligera",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -2488,6 +2611,7 @@
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "name_es": "Armadura pesada",
+          "name_pl": "Ciężka Zbroja",
           "points": 3,
           "perModel": true
         }
@@ -2513,6 +2637,7 @@
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "name_es": "A pie",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -2522,6 +2647,7 @@
           "name_de": "Schlachtross mit Rossharnisch",
           "name_fr": "Destrier Caparaçonné",
           "name_es": "Caballo de guerra con barda",
+          "name_pl": "Opancerzony rumak",
           "points": 16
         },
         {
@@ -2530,6 +2656,7 @@
           "name_de": "Imperiales Schlachtross",
           "name_fr": "Destrier de l'Empire",
           "name_es": "Caballo de guerra",
+          "name_pl": "Rumak Imperium",
           "points": 12
         }
       ],
@@ -2540,6 +2667,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -2556,14 +2684,16 @@
         "name_cn": "魔法攻击, 魔法抗性(-1), 尤里克祈祷",
         "name_de": "Magische Attacken, Magieresistenz (-1), Gebete des Ulric",
         "name_fr": "Attaques Magiques, Résistance à la Magie (-1), Prières d'Ulric",
-        "name_es": "Ataques Mágicos, Resistencia a la Magia (-1), Plegarias a Ulric"
+        "name_es": "Ataques Mágicos, Resistencia a la Magia (-1), Plegarias a Ulric",
+        "name_pl": "Magiczne Ataki, Odporność Na Magię (-1), Prayers of Ulric"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -2590,6 +2720,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         },
         {
@@ -2598,6 +2729,7 @@
           "name_de": "Armeestandartenträger",
           "name_fr": "Porteur de la Grande Bannière",
           "name_es": "Portaestandarte de Batalla",
+          "name_pl": "Chorąży",
           "points": 25,
           "magic": {
             "types": [
@@ -2664,6 +2796,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Armadura ligera",
+          "name_pl": "Lekka Zbroja",
           "points": 3
         }
       ],
@@ -2685,6 +2818,7 @@
           "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "name_es": "A pie",
+          "name_pl": "Pieszo",
           "points": 0,
           "active": true
         },
@@ -2694,6 +2828,7 @@
           "name_de": "Imperialer Kriegswagen",
           "name_fr": "Chariot de Guerre de l'Empire",
           "name_es": "War Wagon",
+          "name_pl": "Wóz wojenny Imperium",
           "points": 140
         }
       ],
@@ -2704,6 +2839,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -2720,14 +2856,16 @@
         "name_cn": "煤灰烟云, 弹道大师",
         "name_de": "Wolken aus Ruß und Rauch, Ballistikexperte",
         "name_fr": "Nuages de Suie et de Fumée, Maître en Balistique",
-        "name_es": "Nubes de Humo y Hollín, Maestro Artillero"
+        "name_es": "Nubes de Humo y Hollín, Maestro Artillero",
+        "name_pl": "Clouds of Soot & Smoke, Mistrz of Ballistics"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -2754,6 +2892,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -2798,6 +2937,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
+          "name_pl": "Przedmioty magiczne",
           "types": [
             "weapon",
             "armor",
@@ -2814,14 +2954,16 @@
         "name_cn": "不觉疼痛, 狂怒冲锋, 心理免疫, 鲁莽, 仇恨(所有敌人), 绝望祷言, 永不战败, 狂热者",
         "name_de": "Verletzungen ignorieren, Rasender Angriff, Immung gegen Psychologie, Ungestüm, Hass (alle Feinde), Gebet der Verdammten, Unerschütterlich, Eiferer",
         "name_fr": "Insensibles à la Douleur, Charge Dévastatrice, Immunisé à la Psychologie, Impétueux, Haine (Tous les ennemis), Prière des Damnés, Indémoralisable, Zélote",
-        "name_es": "Feel No Pain, Furious Charge, Immune to Psychology, Impetuous, Hatred (all enemies), Prayer of the Damned, Unbreakable, Zealot"
+        "name_es": "Feel No Pain, Furious Charge, Immune to Psychology, Impetuous, Hatred (all enemies), Prayer of the Damned, Unbreakable, Zealot",
+        "name_pl": "Feel No Pain, Wściekła Szarża, Odporność Na Psychologię, Impet, Nienawiść (all enemies), Prayer of the Damned, Niezłomni, Zealot"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -2849,6 +2991,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -2872,6 +3015,7 @@
           "name_de": "Plattenrüstung",
           "name_fr": "Armure de plate complète",
           "name_es": "Armadura completa",
+          "name_pl": "Pełna Zbroja Płytowa",
           "points": 0,
           "active": true,
           "equippedDefault": true
@@ -2886,14 +3030,16 @@
         "name_cn": "\"坚守阵线！\", 佣兵指挥官, 集结战吼, 战略专精, 坚毅",
         "name_de": "\"Hold the Line!\", Söldnerkommandant, Sammelruf, Meisterlicher Stratege, Unnachgiebig",
         "name_fr": "\"Tenez la Ligne!\", Commandant Mercenaire, Cri de Ralliement, Maîtrise Stratégique, Obstiné",
-        "name_es": "\"Hold the Line!\", Mercenary Commander, Rallying Cry, Strategic Mastery, Stubborn"
+        "name_es": "\"Hold the Line!\", Mercenary Commander, Rallying Cry, Strategic Mastery, Stubborn",
+        "name_pl": "\"Hold the Line!\", Mercenary Commander, Bojowy Okrzyk, Strategic Mastery, Nieugięty"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -2933,6 +3079,7 @@
           "name_de": "General",
           "name_fr": "Général",
           "name_es": "General",
+          "name_pl": "Generał",
           "points": 0
         }
       ],
@@ -2956,6 +3103,7 @@
           "name_de": "Plattenrüstung, Rossharnisch",
           "name_fr": "Armure de plate complète, Caparaçon",
           "name_es": "Armadura completa, Barding",
+          "name_pl": "Pełna zbroja płytowa, Kapparison",
           "points": 0,
           "active": true,
           "equippedDefault": true
@@ -2970,14 +3118,16 @@
         "name_cn": "反制冲锋, 先行冲锋, 猎豹骑士团大导师, 仇恨(混沌勇士 + 野兽人嘶叫兽群 + 恶魔模型), 心理免疫, 魔法抗性(-1), 战斗大师, 集结战吼, 娴熟决斗家, 坚毅, 快速行进, 老兵",
         "name_de": "Gegenangriff, Erster Angriff, Großmeister der Pantherritter, Hass (Krieger des Chaos, Tiermenschen und Dämonen), Immung gegen Psychologie, Magieresistenz (-1), Meister der Schlachten, Sammelruf, Geschickter Duellant, Unnachgiebig, Schnelle Bewegung, Veteranen",
         "name_fr": "Contre-charge, Première Charge, Grand Maître des Chevaliers Panthères, Haine (figurines des Guerriers du Chaos, des Braillehardes Hommes-Bêtes et Démoniaques), Immunisé à la Psychologie, Résistance à la Magie (-1), Maître des Batailles, Cri de Ralliement, Duelliste Chevronné, Obstiné, Rapide, Vétérans",
-        "name_es": "Counter Charge, First Charge, Grand Master of the Knights Panther, Hatred (Warriors of Chaos + Beastmen Brayherds + Daemonic models), Immune to Psychology, Magic Resistance (-1), Master of Battle, Rallying Cry, Skilled Duellist, Stubborn, Swiftstride, Veteran"
+        "name_es": "Counter Charge, First Charge, Grand Master of the Knights Panther, Hatred (Warriors of Chaos + Beastmen Brayherds + Daemonic models), Immune to Psychology, Magic Resistance (-1), Master of Battle, Rallying Cry, Skilled Duellist, Stubborn, Swiftstride, Veteran",
+        "name_pl": "Przeciwnatarcie, Pierwsza Szarża, Wielki Mistrz of the Rycerze Panther, Nienawiść (Wojownicy of Chaos + Stada Zwierzoludzi + Daemonic modele), Odporność Na Psychologię, Odporność Na Magię (-1), Mistrz of Battle, Bojowy Okrzyk, Skilled Duellist, Nieugięty, Szybki Krok, Veteran"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     }
   ],
@@ -3005,6 +3155,7 @@
           "name_de": "Rittmeister des Inneren Zirkels (Champion)",
           "name_fr": "Précepteur du Cercle Intérieur (champion)",
           "name_es": "Preceptor del Círculo Interior (campeón)",
+          "name_pl": "Inner Circle Preceptor (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -3023,6 +3174,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "types": [
@@ -3037,6 +3189,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -3060,6 +3213,7 @@
           "name_de": "Plattenrüstung, Rossharnische",
           "name_fr": "Armure de plate complète, Caparaçon",
           "name_es": "Armadura completa, Barding",
+          "name_pl": "Pełna zbroja płytowa, Kapparison",
           "points": 0,
           "perModel": true,
           "active": true
@@ -3087,14 +3241,16 @@
         "name_cn": "猎豹骑士团, 紧密阵型, 反制冲锋, 受训, 先行冲锋, 内环, 快速行进, 老兵, 仇恨(混沌勇士 + 野兽人嘶叫兽群 + 恶魔模型), 魔法抗性(-1)",
         "name_de": "Orden der Pantherritter, Geschlossene Ränge, Gegenangriff, Gut ausgebildet, Erster Angriff, Innerer Zirkel, Schnelle Bewegung, Veteranen, IHass (Krieger des Chaos, Tiermenschen und Dämonen), Magieresistenz (-1)",
         "name_fr": "Ordre des Chevaliers Panthères, Ordre Serré, Contre-charge, Bien Entraînés, Première Charge, Cercle Intérieur, Rapide, Vétérans, Haine (figurines des Guerriers du Chaos, des Braillehardes Hommes-Bêtes et Démoniaques), Résistance à la Magie (-1)",
-        "name_es": "Order of the Knights Panther, Formación Cerrada, Contracarga, Entrenado, Primera Carga, Círculo Interior, Zancada Veloz, Veterano, Hatred (Warriors of Chaos + Beastmen Brayherds + Daemonic models), Magic Resistance (-1)"
+        "name_es": "Order of the Knights Panther, Formación Cerrada, Contracarga, Entrenado, Primera Carga, Círculo Interior, Zancada Veloz, Veterano, Hatred (Warriors of Chaos + Beastmen Brayherds + Daemonic models), Magic Resistance (-1)",
+        "name_pl": "Zakon Rycerzy Pantery, Zwarty Szyk, Przeciwnatarcie, Drilled, Pierwsza Szarża, Inner Circle, Szybki Krok, Veteran, Nienawiść (Wojownicy of Chaos + Stada Zwierzoludzi + Daemonic modele), Odporność Na Magię (-1)"
       },
       "notes": {
         "name_en": "0-1 unit of Inner Circle Knights may be taken as a Core choice",
         "name_cn": "0-1个单位的Inner Circle Knights may be taken as a Core choice",
         "name_de": "0-1 Einheit Ritter des Inneren Zirkels können als Kernauswahl gewählt werden",
         "name_fr": "0-1 unité de Chevaliers du Cercle Intérieur peut être prise comme choix d'Unité de Base",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": "0-1 jednostka of Inner Circle Rycerze może be taken jako a Podstawowy choice"
       }
     },
     {
@@ -3120,6 +3276,7 @@
           "name_de": "Rittmeister des Inneren Zirkels (Champion)",
           "name_fr": "Précepteur du Cercle Intérieur (champion)",
           "name_es": "Preceptor del Círculo Interior (campeón)",
+          "name_pl": "Inner Circle Preceptor (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -3138,6 +3295,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "types": [
@@ -3152,6 +3310,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -3205,6 +3364,7 @@
           "name_de": "Plattenrüstung, Rossharnische",
           "name_fr": "Armure de plate complète, Caparaçon",
           "name_es": "Armadura completa, Barding",
+          "name_pl": "Pełna zbroja płytowa, Kapparison",
           "points": 0,
           "perModel": true,
           "active": true
@@ -3232,14 +3392,16 @@
         "name_cn": "白狼骑士团, 紧密阵型, 反制冲锋, 受训, 先行冲锋, 内环, 快速行进, 老兵, 狂怒冲锋",
         "name_de": "Orden des Weißen Wolfs, Geschlossene Ränge, Gegenangriff, Gut ausgebildet, Erster Angriff, Innerer Zirkel, Schnelle Bewegung, Veteranen, Rasender Angriff",
         "name_fr": "Ordre du Loup Blanc, Ordre Serré, Contre-charge, Bien Entraînés, Première Charge, Cercle Intérieur, Rapide, Vétérans, Charge Dévastatrice",
-        "name_es": "Order of the White Wolf, Formación Cerrada, Contracarga, Entrenado, Primera Carga, Círculo Interior, Zancada Veloz, Veterano, Furious Charge"
+        "name_es": "Order of the White Wolf, Formación Cerrada, Contracarga, Entrenado, Primera Carga, Círculo Interior, Zancada Veloz, Veterano, Furious Charge",
+        "name_pl": "Zakon Białego Wilka, Zwarty Szyk, Przeciwnatarcie, Drilled, Pierwsza Szarża, Inner Circle, Szybki Krok, Veteran, Wściekła Szarża"
       },
       "notes": {
         "name_en": "0-1 unit of Inner Circle Knights may be taken as a Core choice",
         "name_cn": "0-1个单位的Inner Circle Knights may be taken as a Core choice",
         "name_de": "0-1 Einheit Ritter des Inneren Zirkels können als Kernauswahl gewählt werden",
         "name_fr": "0-1 unité de Chevaliers du Cercle Intérieur peut être prise comme choix d'Unité de Base",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": "0-1 jednostka of Inner Circle Rycerze może be taken jako a Podstawowy choice"
       }
     },
     {
@@ -3265,6 +3427,7 @@
           "name_de": "Rittmeister des Inneren Zirkels (Champion)",
           "name_fr": "Précepteur du Cercle Intérieur (champion)",
           "name_es": "Preceptor del Círculo Interior (campeón)",
+          "name_pl": "Inner Circle Preceptor (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -3283,6 +3446,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "types": [
@@ -3297,6 +3461,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -3340,6 +3505,7 @@
           "name_de": "Plattenrüstung, Rossharnische",
           "name_fr": "Armure de plate complète, Caparaçon",
           "name_es": "Armadura completa, Barding",
+          "name_pl": "Pełna zbroja płytowa, Kapparison",
           "points": 0,
           "perModel": true,
           "active": true
@@ -3367,14 +3533,16 @@
         "name_cn": "焰阳骑士团, 紧密阵型, 反制冲锋, 受训, 先行冲锋, 内环, 快速行进, 老兵, 闪避, 火焰攻击",
         "name_de": "Sonnenorden, Geschlossene Ränge, Gegenangriff, Gut ausgebildet, Erster Angriff, Innerer Zirkel, Schnelle Bewegung, Veteranen, Ausweichen, Flammenattacken",
         "name_fr": "Ordre du Soleil, Ordre Serré, Contre-charge, Bien Entraînés, Première Charge, Cercle Intérieur, Rapide, Vétérans, Esquiveur, Attaques Enflammées",
-        "name_es": "Order of the Blazing Sun, Formación Cerrada, Contracarga, Entrenado, Primera Carga, Círculo Interior, Zancada Veloz, Veterano, Evasive, Flaming Attacks"
+        "name_es": "Order of the Blazing Sun, Formación Cerrada, Contracarga, Entrenado, Primera Carga, Círculo Interior, Zancada Veloz, Veterano, Evasive, Flaming Attacks",
+        "name_pl": "Zakon Płonącego Słońca, Zwarty Szyk, Przeciwnatarcie, Drilled, Pierwsza Szarża, Inner Circle, Szybki Krok, Veteran, Evasive, Flaming Attacks"
       },
       "notes": {
         "name_en": "0-1 unit of Inner Circle Knights may be taken as a Core choice",
         "name_cn": "0-1个单位的Inner Circle Knights may be taken as a Core choice",
         "name_de": "0-1 Einheit Ritter des Inneren Zirkels können als Kernauswahl gewählt werden",
         "name_fr": "0-1 unité de Chevaliers du Cercle Intérieur peut être prise comme choix d'Unité de Base",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": "0-1 jednostka of Inner Circle Rycerze może be taken jako a Podstawowy choice"
       }
     },
     {
@@ -3400,6 +3568,7 @@
           "name_de": "Rittmeister des Inneren Zirkels (Champion)",
           "name_fr": "Précepteur du Cercle Intérieur (champion)",
           "name_es": "Preceptor del Círculo Interior (campeón)",
+          "name_pl": "Inner Circle Preceptor (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -3418,6 +3587,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "types": [
@@ -3432,6 +3602,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -3475,6 +3646,7 @@
           "name_de": "Plattenrüstung, Rossharnische",
           "name_fr": "Armure de plate complète, Caparaçon",
           "name_es": "Armadura completa, Barding",
+          "name_pl": "Pełna zbroja płytowa, Kapparison",
           "points": 0,
           "perModel": true,
           "active": true
@@ -3502,14 +3674,16 @@
         "name_cn": "莫尔骑士团, 紧密阵型, 反制冲锋, 受训, 先行冲锋, 内环, 快速行进, 老兵, 仇恨(亡灵模型), 恐惧, 魔法攻击",
         "name_de": "Orden der Ritter des Morr, Geschlossene Ränge, Gegenangriff, Gut ausgebildet, Erster Angriff, Innerer Zirkel, Schnelle Bewegung, Veteranen, Hass (Untote), Angst, Magische Attacken",
         "name_fr": "Ordre des Chevaliers de Morr, Ordre Serré, Contre-charge, Bien Entraînés, Première Charge, Cercle Intérieur, Rapide, Vétérans, Haine (figurines Mortes-vivantes)), Peur, Attaques Magiques",
-        "name_es": "Order of the Knights of Morr, Formación Cerrada, Contracarga, Entrenado, Primera Carga, Círculo Interior, Zancada Veloz, Veterano, Hatred (Undead models), Fear, Magical Attacks"
+        "name_es": "Order of the Knights of Morr, Formación Cerrada, Contracarga, Entrenado, Primera Carga, Círculo Interior, Zancada Veloz, Veterano, Hatred (Undead models), Fear, Magical Attacks",
+        "name_pl": "Zakon Rycerzy Morra, Zwarty Szyk, Przeciwnatarcie, Drilled, Pierwsza Szarża, Inner Circle, Szybki Krok, Veteran, Nienawiść (Undead modele), Strach, Magiczne Ataki"
       },
       "notes": {
         "name_en": "0-1 unit of Inner Circle Knights may be taken as a Core choice",
         "name_cn": "0-1个单位的Inner Circle Knights may be taken as a Core choice",
         "name_de": "0-1 Einheit Ritter des Inneren Zirkels können als Kernauswahl gewählt werden",
         "name_fr": "0-1 unité de Chevaliers du Cercle Intérieur peut être prise comme choix d'Unité de Base",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": "0-1 jednostka of Inner Circle Rycerze może be taken jako a Podstawowy choice"
       }
     },
     {
@@ -3535,6 +3709,7 @@
           "name_de": "Rittmeister des Inneren Zirkels (Champion)",
           "name_fr": "Précepteur du Cercle Intérieur (champion)",
           "name_es": "Preceptor del Círculo Interior (campeón)",
+          "name_pl": "Inner Circle Preceptor (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -3553,6 +3728,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "types": [
@@ -3567,6 +3743,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -3610,6 +3787,7 @@
           "name_de": "Plattenrüstung, Rossharnische",
           "name_fr": "Armure de plate complète, Caparaçon",
           "name_es": "Armadura completa, Barding",
+          "name_pl": "Pełna zbroja płytowa, Kapparison",
           "points": 0,
           "perModel": true,
           "active": true
@@ -3637,14 +3815,16 @@
         "name_cn": "燃烧之心骑士团, 紧密阵型, 反制冲锋, 受训, 先行冲锋, 内环, 快速行进, 老兵, 仇恨(敌方法师 + 兽人 & 地精)",
         "name_de": "Orden der Flammenden Herzens, Geschlossene Ränge, Gegenangriff, Gut ausgebildet, Erster Angriff, Innerer Zirkel, Schnelle Bewegung, Veteranen, Hass (feindliche Zauberer und Orks & Goblins)",
         "name_fr": "Ordre du Cœur Ardent, Ordre Serré, Contre-charge, Bien Entraînés, Première Charge, Cercle Intérieur, Rapide, Vétérans, Haine (Sorciers ennemis, Orques & Gobelins)",
-        "name_es": "Order of the Fiery Heart, Formación Cerrada, Contracarga, Entrenado, Primera Carga, Círculo Interior, Zancada Veloz, Veterano, Hatred (enemy Wizards + Orcs & Goblins)"
+        "name_es": "Order of the Fiery Heart, Formación Cerrada, Contracarga, Entrenado, Primera Carga, Círculo Interior, Zancada Veloz, Veterano, Hatred (enemy Wizards + Orcs & Goblins)",
+        "name_pl": "Zakon Ognistego Serca, Zwarty Szyk, Przeciwnatarcie, Drilled, Pierwsza Szarża, Inner Circle, Szybki Krok, Veteran, Nienawiść (enemy Wizards + Orki & Gobliny)"
       },
       "notes": {
         "name_en": "0-1 unit of Inner Circle Knights may be taken as a Core choice",
         "name_cn": "0-1个单位的Inner Circle Knights may be taken as a Core choice",
         "name_de": "0-1 Einheit Ritter des Inneren Zirkels können als Kernauswahl gewählt werden",
         "name_fr": "0-1 unité de Chevaliers du Cercle Intérieur peut être prise comme choix d'Unité de Base",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": "0-1 jednostka of Inner Circle Rycerze może be taken jako a Podstawowy choice"
       }
     },
     {
@@ -3667,7 +3847,8 @@
             "name_cn": "每1000分0-1个单位的省兵或远程省兵",
             "name_de": "0-1 Einheit Staatstruppen oder Staatstruppen-Schützen pro 1.000 Punkte",
             "name_fr": "0-1 unité de Troupes Régulières ou Troupes de Tir de l'Empire par tranche de 1000 points",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of State Troops lub State Missile Troops na 1000 punktów"
           }
         },
         "knightly-order-white-wolf": {
@@ -3677,7 +3858,8 @@
             "name_cn": "每1000分0-1个单位的省兵或远程省兵",
             "name_de": "0-1 Einheit Staatstruppen oder Staatstruppen-Schützen pro 1.000 Punkte",
             "name_fr": "0-1 unité de Troupes Régulières ou Troupes de Tir de l'Empire par tranche de 1000 points",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of State Troops lub State Missile Troops na 1000 punktów"
           }
         },
         "knightly-order-blazing-sun": {
@@ -3687,7 +3869,8 @@
             "name_cn": "每1000分0-1个单位的省兵或远程省兵",
             "name_de": "0-1 Einheit Staatstruppen oder Staatstruppen-Schützen pro 1.000 Punkte",
             "name_fr": "0-1 unité de Troupes Régulières ou Troupes de Tir de l'Empire par tranche de 1000 points",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of State Troops lub State Missile Troops na 1000 punktów"
           }
         },
         "knightly-order-morr": {
@@ -3697,7 +3880,8 @@
             "name_cn": "每1000分0-1个单位的省兵或远程省兵",
             "name_de": "0-1 Einheit Staatstruppen oder Staatstruppen-Schützen pro 1.000 Punkte",
             "name_fr": "0-1 unité de Troupes Régulières ou Troupes de Tir de l'Empire par tranche de 1000 points",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of State Troops lub State Missile Troops na 1000 punktów"
           }
         },
         "knightly-order-fiery-heart": {
@@ -3707,7 +3891,8 @@
             "name_cn": "每1000分0-1个单位的省兵或远程省兵",
             "name_de": "0-1 Einheit Staatstruppen oder Staatstruppen-Schützen pro 1.000 Punkte",
             "name_fr": "0-1 unité de Troupes Régulières ou Troupes de Tir de l'Empire par tranche de 1000 points",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of State Troops lub State Missile Troops na 1000 punktów"
           }
         }
       },
@@ -3721,6 +3906,7 @@
           "name_de": "Feldwaibel (Champion)",
           "name_fr": "Sergent (champion)",
           "name_es": "Sargento (campeón)",
+          "name_pl": "Sergeant (czempion)",
           "points": 5
         },
         {
@@ -3729,6 +3915,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 5
         },
         {
@@ -3737,6 +3924,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 5
         }
       ],
@@ -3781,6 +3969,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Armadura ligera",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -3817,14 +4006,16 @@
         "name_cn": "紧密阵型, 分遣队, 主团单位, 部群",
         "name_de": "Geschlossene Ränge, Abteilung, Hauptregiment, Horde",
         "name_fr": "Ordre Serré, Détachement, Unité Régimentaire, Horde",
-        "name_es": "Formación Cerrada, Destacamente, Unidad Regimental, Horde"
+        "name_es": "Formación Cerrada, Destacamente, Unidad Regimental, Horde",
+        "name_pl": "Zwarty Szyk, Oddział, Jednostka Regimentowa, Horda"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -3853,6 +4044,7 @@
           "name_de": "Feldwaibel (Champion)",
           "name_fr": "Sergent (champion)",
           "name_es": "Sargento (campeón)",
+          "name_pl": "Sergeant (czempion)",
           "points": 5
         },
         {
@@ -3861,6 +4053,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 5
         },
         {
@@ -3869,6 +4062,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 5
         }
       ],
@@ -3892,6 +4086,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Armadura ligera",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -3917,14 +4112,16 @@
         "name_cn": "紧密阵型, 主团单位, 努恩省兵, 部群",
         "name_de": "Geschlossene Ränge, Hauptregiment, Nulner Staatstruppen, Horde",
         "name_fr": "Ordre Serré, Unité Régimentaire, Troupes Régulières de Nuln, Horde",
-        "name_es": "Formación Cerrada, Unidad Regimental, Nuln State Troops, Horde"
+        "name_es": "Formación Cerrada, Unidad Regimental, Nuln State Troops, Horde",
+        "name_pl": "Zwarty Szyk, Jednostka Regimentowa, Nuln State Troops {empire}, Horda"
       },
       "notes": {
         "name_en": "1+ regiment of Nuln State Troops or Nuln Veteran State Troops, 1-2 detachments of State Missile Troops and/or State Troops",
         "name_cn": "1+只努恩省兵或努恩资深省兵, 由1个省兵主团单位和 1-2\n个远程省兵所伴同",
         "name_de": "1+ Regiment Nulner Staatstruppen oder Nulner Staatstruppen-Veteranen, 1-2 Abteilungen von Staatstruppen-Schützen und/oder Staatstruppen",
         "name_fr": "1+ régiment de Troupes Régulières de Nuln ou Vétérans des Troupes Régulières de Nuln, 1-2 détachements de Troupes de Tir de l'Empire et/ou Troupes Régulières",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": "1+ regiment of Nuln State Troops lub Nuln Veteran State Troops, 1-2 detachments of State Missile Troops i/lub State Troops"
       }
     },
     {
@@ -3961,6 +4158,7 @@
           "name_de": "Leichte Rüstung",
           "name_es": "Light armour",
           "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -3985,14 +4183,16 @@
         "name_cn": "紧密阵型, 分遣队, 部群",
         "name_de": "Geschlossene Ränge, Abteilung, Horde",
         "name_fr": "Ordre Serré, Détachement, Horde",
-        "name_es": "Formación Cerrada, Destacamente, Horde"
+        "name_es": "Formación Cerrada, Destacamente, Horde",
+        "name_pl": "Zwarty Szyk, Oddział, Horda"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_es": "",
-        "name_fr": ""
+        "name_fr": "",
+        "name_pl": ""
       }
     },
     {
@@ -4019,6 +4219,7 @@
           "name_de": "Feldwaibel-Veteran (Champion)",
           "name_fr": "Sergent Vétéran (champion)",
           "name_es": "Sargento Veterano (campeón)",
+          "name_pl": "Veteran Sergeant (czempion)",
           "points": 5,
           "magic": {
             "types": [
@@ -4036,6 +4237,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 5,
           "magic": {
             "types": [
@@ -4050,6 +4252,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 5
         }
       ],
@@ -4094,6 +4297,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Armadura ligera",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -4142,14 +4346,16 @@
         "name_cn": "紧密阵型, 分遣队, 主团单位, 老兵, 部群",
         "name_de": "Geschlossene Ränge, Abteilung, Hauptregiment, Veteranen, Horde",
         "name_fr": "Ordre Serré, Détachement, Unité Régimentaire, Vétérans, Horde",
-        "name_es": "Formación Cerrada, Destacamento, Unidad Regimental, Veterano, Horde"
+        "name_es": "Formación Cerrada, Destacamento, Unidad Regimental, Veterano, Horde",
+        "name_pl": "Zwarty Szyk, Oddział, Jednostka Regimentowa, Veteran, Horda"
       },
       "notes": {
         "name_en": "0-1 unit of Veteran State Troops per 1000 points",
         "name_cn": "每1000分0-1个单位的资深省兵",
         "name_de": "0-1 Einheit Veteranen Staatstruppen pro 1.000 Punkte",
         "name_fr": "0-1 unité de Vétérans des Troupes Régulières par tranche de 1000 points",
-        "name_es": "0-1 unidades de Tropas Estatales Veteranas por cada 1.000 puntos"
+        "name_es": "0-1 unidades de Tropas Estatales Veteranas por cada 1.000 puntos",
+        "name_pl": "0-1 jednostka of Veteran State Troops na 1000 punktów"
       }
     },
     {
@@ -4178,6 +4384,7 @@
           "name_de": "Feldwaibel-Veteran (Champion)",
           "name_fr": "Sergent Vétéran (champion)",
           "name_es": "Sargento Veterano (campeón)",
+          "name_pl": "Veteran Sergeant (czempion)",
           "points": 5,
           "magic": {
             "types": [
@@ -4195,6 +4402,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 5,
           "magic": {
             "types": [
@@ -4209,6 +4417,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 5
         }
       ],
@@ -4232,6 +4441,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Armadura ligera",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -4267,14 +4477,16 @@
         "name_cn": "紧密阵型, 主团单位, 老兵, 努恩省兵, 部群",
         "name_de": "Geschlossene Ränge, Hauptregiment, Veteranen, Nulner Staatstruppen, Horde",
         "name_fr": "Ordre Serré, Unité Régimentaire, Vétérans, Troupes Régulières de Nuln, Horde",
-        "name_es": "Formación Cerrada, Unidad Regimental, Veterano, Nuln State Troops, Horde"
+        "name_es": "Formación Cerrada, Unidad Regimental, Veterano, Nuln State Troops, Horde",
+        "name_pl": "Zwarty Szyk, Jednostka Regimentowa, Veteran, Nuln State Troops {empire}, Horda"
       },
       "notes": {
         "name_en": "1+ regiment of Nuln State Troops or Nuln Veteran State Troops, 1-2 detachments of State Missile Troops and/or State Troops",
         "name_cn": "1+只努恩省兵或努恩资深省兵, 由1个省兵主团单位和 1-2\n个远程省兵所伴同",
         "name_de": "1+ Regiment Nulner Staatstruppen oder Nulner Staatstruppen-Veteranen, 1-2 Abteilungen von Staatstruppen-Schützen und/oder Staatstruppen",
         "name_fr": "1+ régiment de Troupes Régulières de Nuln ou Vétérans des Troupes Régulières de Nuln, 1-2 détachements de Troupes de Tir de l'Empire et/ou Troupes Régulières",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": "1+ regiment of Nuln State Troops lub Nuln Veteran State Troops, 1-2 detachments of State Missile Troops i/lub State Troops"
       }
     },
     {
@@ -4297,7 +4509,8 @@
             "name_cn": "每1000分0-1个单位的省兵或远程省兵",
             "name_de": "0-1 Einheit Staatstruppen oder Staatstruppen-Schützen pro 1.000 Punkte",
             "name_fr": "0-1 unité de Troupes Régulières ou Troupes de Tir de l'Empire par tranche de 1000 points",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of State Troops lub State Missile Troops na 1000 punktów"
           }
         },
         "knightly-order-white-wolf": {
@@ -4307,7 +4520,8 @@
             "name_cn": "每1000分0-1个单位的省兵或远程省兵",
             "name_de": "0-1 Einheit Staatstruppen oder Staatstruppen-Schützen pro 1.000 Punkte",
             "name_fr": "0-1 unité de Troupes Régulières ou Troupes de Tir de l'Empire par tranche de 1000 points",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of State Troops lub State Missile Troops na 1000 punktów"
           }
         },
         "knightly-order-blazing-sun": {
@@ -4317,7 +4531,8 @@
             "name_cn": "每1000分0-1个单位的省兵或远程省兵",
             "name_de": "0-1 Einheit Staatstruppen oder Staatstruppen-Schützen pro 1.000 Punkte",
             "name_fr": "0-1 unité de Troupes Régulières ou Troupes de Tir de l'Empire par tranche de 1000 points",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of State Troops lub State Missile Troops na 1000 punktów"
           }
         },
         "knightly-order-morr": {
@@ -4327,7 +4542,8 @@
             "name_cn": "每1000分0-1个单位的省兵或远程省兵",
             "name_de": "0-1 Einheit Staatstruppen oder Staatstruppen-Schützen pro 1.000 Punkte",
             "name_fr": "0-1 unité de Troupes Régulières ou Troupes de Tir de l'Empire par tranche de 1000 points",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of State Troops lub State Missile Troops na 1000 punktów"
           }
         },
         "knightly-order-fiery-heart": {
@@ -4337,7 +4553,8 @@
             "name_cn": "每1000分0-1个单位的省兵或远程省兵",
             "name_de": "0-1 Einheit Staatstruppen oder Staatstruppen-Schützen pro 1.000 Punkte",
             "name_fr": "0-1 unité de Troupes Régulières ou Troupes de Tir de l'Empire par tranche de 1000 points",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of State Troops lub State Missile Troops na 1000 punktów"
           }
         }
       },
@@ -4351,6 +4568,7 @@
           "name_de": "Feldwaibel (Champion)",
           "name_fr": "Sergent (champion)",
           "name_es": "Sargento (campeón)",
+          "name_pl": "Sergeant (czempion)",
           "points": 5,
           "options": [
             {
@@ -4359,6 +4577,7 @@
               "name_de": "Armbrust/Muskete",
               "name_fr": "Arbalète/Arquebuse",
               "name_es": "Ballesta/Arcabuz",
+              "name_pl": "Kusza/Muszkiet",
               "points": 0,
               "exclusive": true,
               "active": true
@@ -4369,6 +4588,7 @@
               "name_de": "Pistolenpaar",
               "name_fr": "Plusieurs pistolets",
               "name_es": "Ristra de pistolas",
+              "name_pl": "Para pistoletów",
               "points": 5,
               "exclusive": true
             },
@@ -4378,6 +4598,7 @@
               "name_de": "Hochland Langbüchse",
               "name_fr": "Long fusil de Hochland",
               "name_es": "Rifle largo de Hochland",
+              "name_pl": "Długi karabin z Hochlandu",
               "points": 8,
               "exclusive": true
             },
@@ -4387,6 +4608,7 @@
               "name_de": "Repetier-Armbrust",
               "name_fr": "Arquebuse à répétition",
               "name_es": "Mosquete de repetición",
+              "name_pl": "Powtarzalny muszkiet",
               "points": 5,
               "exclusive": true
             }
@@ -4398,6 +4620,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 5,
           "magic": {
             "types": [
@@ -4412,6 +4635,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 5
         }
       ],
@@ -4445,6 +4669,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Armadura ligera",
+          "name_pl": "Lekka Zbroja",
           "points": 1,
           "perModel": true
         }
@@ -4480,14 +4705,16 @@
         "name_cn": "紧密阵型, 分遣队, 主团单位",
         "name_de": "Geschlossene Ränge, Abteilung, Hauptregiment",
         "name_fr": "Ordre Serré, Détachement, Unité Régimentaire",
-        "name_es": "Formación Cerrada, Destacamente, Unidad Regimental"
+        "name_es": "Formación Cerrada, Destacamente, Unidad Regimental",
+        "name_pl": "Zwarty Szyk, Oddział, Jednostka Regimentowa"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -4524,6 +4751,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Armadura ligera",
+          "name_pl": "Lekka Zbroja",
           "points": 1,
           "perModel": true
         }
@@ -4589,14 +4817,16 @@
         "name_cn": "紧密阵型, 分遣队",
         "name_de": "Geschlossene Ränge, Abteilung",
         "name_fr": "Ordre Serré, Détachement",
-        "name_es": "Formación Cerrada, Destacamente"
+        "name_es": "Formación Cerrada, Destacamente",
+        "name_pl": "Zwarty Szyk, Oddział"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -4622,7 +4852,8 @@
             "name_cn": "0-1个单位的Free Company Militia per 1000 points may be taken as a Core choice",
             "name_de": "0-1 Einheit Freischärler pro 1.000 Punkte können als Kernauswahl gewählt werden",
             "name_fr": "0-1 unité de Milice des Franches Compagnies par tranche de 1000 points peut être prise comme choix d'Unité de Base",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of Free Company Militia na 1000 punktów może be taken jako a Podstawowy choice"
           }
         }
       },
@@ -4636,6 +4867,7 @@
           "name_de": "Feldwaibel der Miliz (Champion)",
           "name_fr": "Chef de Milice (champion)",
           "name_es": "Lider de la Milicia (campeón)",
+          "name_pl": "Militia leader (czempion)",
           "points": 7
         }
       ],
@@ -4672,14 +4904,16 @@
         "name_cn": "分遣队, 部群, 鲁莽, 炮灰, 开放阵型, 战帮",
         "name_de": "Abteilung, Horde, Ungestüm, Gesindel, Offene Ränge, Kriegerschar",
         "name_fr": "Détachement, Horde, Impétueux, Conscrits, Ordre Dispersé, Bande de Guerre",
-        "name_es": "Destacamento, Horda, Impetuoso, Levas, Formación Abierta, Partida de Guerra"
+        "name_es": "Destacamento, Horda, Impetuoso, Levas, Formación Abierta, Partida de Guerra",
+        "name_pl": "Oddział, Horda, Impet, Levies, Luźny Szyk, Gromada"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -4701,6 +4935,7 @@
           "name_de": "Meisterschütze (Champion)",
           "name_fr": "Tireur d'Élite (champion)",
           "name_es": "Tirador (campeón)",
+          "name_pl": "Marksman (czempion)",
           "points": 5
         }
       ],
@@ -4761,14 +4996,16 @@
         "name_cn": "分遣队, 穿行掩体, 开放阵型, 散兵, 先锋",
         "name_de": "Abteilung, Durch Deckung bewegen, Offene Ränge, Plänkler, Vorhut",
         "name_fr": "Détachement, Mouvement à Couvert, Ordre Dispersé, Tirailleurs, Avant-garde",
-        "name_es": "Destacamento, Mover a Través de Cobertura, Formación Abierta, Hostigadores, Vanguardia"
+        "name_es": "Destacamento, Mover a Través de Cobertura, Formación Abierta, Hostigadores, Vanguardia",
+        "name_pl": "Oddział, Przechodzenie Przez Zasłony, Luźny Szyk, Harcownicy, Awangarda"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -4794,6 +5031,7 @@
           "name_de": "Meisterschützenreiter (Champion)",
           "name_fr": "Mitrailleur (champion)",
           "name_es": "Tirador experto (campeón)",
+          "name_pl": "Sharpshooter (czempion)",
           "points": 6,
           "options": [
             {
@@ -4802,6 +5040,7 @@
               "name_de": "Bündelmuskete",
               "name_fr": "Arquebuse à répétition",
               "name_es": "Mosquete de repetición",
+              "name_pl": "Powtarzalny muszkiet",
               "points": 0,
               "exclusive": true,
               "active": true
@@ -4812,6 +5051,7 @@
               "name_de": "Pistolenpaar",
               "name_fr": "Plusieurs pistolets",
               "name_es": "Ristra de pistolas",
+              "name_pl": "Para pistoletów",
               "points": 0,
               "exclusive": true
             },
@@ -4821,6 +5061,7 @@
               "name_de": "Granatenbüchse",
               "name_fr": "Tromblon à grenades",
               "name_es": "Trabuco lanzagranadas",
+              "name_pl": "Garłacz z wyrzutnią granatów",
               "points": 10,
               "exclusive": true
             },
@@ -4830,6 +5071,7 @@
               "name_de": "Bündelpistole",
               "name_fr": "Pistolet à répétition",
               "name_es": "Pistola de repetición",
+              "name_pl": "Powtarzalny pistolet",
               "points": 0,
               "exclusive": true
             }
@@ -4841,6 +5083,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -4864,6 +5107,7 @@
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "name_es": "Armadura pesada",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -4878,14 +5122,16 @@
         "name_cn": "快速骑兵, 游击, 开放阵型, 散兵, 快速行进, 先锋",
         "name_de": "Wendige Kavallerie, Schießen und Verschwinden, Offene Ränge, Plänkler, Schnelle Bewegung, Vorhut",
         "name_fr": "Cavalerie Rapide, Tir & Fuite, Ordre Dispersé, Tirailleurs, Rapide, Avant-garde",
-        "name_es": "Caballería Rápida, Disparar y Huir, Formación Abierta, Hostigadores, Zancada Veloz, Vanguardia"
+        "name_es": "Caballería Rápida, Disparar y Huir, Formación Abierta, Hostigadores, Zancada Veloz, Vanguardia",
+        "name_pl": "Szybka Kawaleria, Ogień I Odwrót, Luźny Szyk, Harcownicy, Szybki Krok, Awangarda"
       },
       "notes": {
         "name_en": "0-1 unit of Outriders per 1000 points",
         "name_cn": "每1000分0-1个单位的先驱侍骑",
         "name_de": "0-1 Einheit Schützenreiter pro 1.000 Punkte",
         "name_fr": "0-1 unité de Escorteurs par tranche de 1000 points",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": "0-1 jednostka of Outriders na 1000 punktów"
       }
     },
     {
@@ -4914,6 +5160,7 @@
           "name_de": "Rittmeister (Champion)",
           "name_fr": "Précepteur (champion)",
           "name_es": "Preceptor (campeón)",
+          "name_pl": "Preceptor (czempion)",
           "points": 6,
           "magic": {
             "types": [
@@ -4931,6 +5178,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -4945,6 +5193,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -4988,6 +5237,7 @@
           "name_de": "Schwere Rüstung, Rossharnische",
           "name_fr": "Armure lourde, Caparaçon",
           "name_es": "Armadura pesada, Barding",
+          "name_pl": "Ciężka zbroja, Kapparison",
           "points": 0,
           "perModel": true,
           "active": true
@@ -5007,7 +5257,8 @@
             "name_en": "0-1 unit per 1000 points",
             "name_cn": "每1000分0-1 单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
-            "name_it": "0-1 unità ogni 1000p.ti"
+            "name_it": "0-1 unità ogni 1000p.ti",
+            "name_pl": "0-1 jednostka na 1000 punktów"
           },
           "name_pl": "Wyćwiczeni"
         },
@@ -5024,7 +5275,8 @@
             "name_en": "0-1 unit per 1000 points",
             "name_cn": "每1000分0-1 单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
-            "name_it": "0-1 unità ogni 1000p.ti"
+            "name_it": "0-1 unità ogni 1000p.ti",
+            "name_pl": "0-1 jednostka na 1000 punktów"
           },
           "name_pl": "Nieugięty"
         }
@@ -5037,14 +5289,16 @@
         "name_cn": "紧密阵型, 反制冲锋, 先行冲锋, 快速行进",
         "name_de": "Geschlossene Ränge, Gegenangriff, Erster Angriff, Schnelle Bewegung",
         "name_fr": "Ordre Serré, Contre-charge, Première Charge, Rapide",
-        "name_es": "Formación Cerrada, Contracarga, Primera Carga, Zancada Veloz"
+        "name_es": "Formación Cerrada, Contracarga, Primera Carga, Zancada Veloz",
+        "name_pl": "Zwarty Szyk, Przeciwnatarcie, Pierwsza Szarża, Szybki Krok"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -5063,7 +5317,8 @@
             "name_cn": "0-1个单位的猎豹帝国骑士",
             "name_de": "0-1 Einheit Pantherritter",
             "name_fr": "0-1 unité de Chevaliers Panthères",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of Empire Rycerze Panther"
           }
         },
         "knightly-order-panther": {
@@ -5076,7 +5331,8 @@
             "name_cn": "0-1个单位的猎豹帝国骑士",
             "name_de": "0-1 Einheit Pantherritter",
             "name_fr": "0-1 unité de Chevaliers Panthères",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of Empire Rycerze Panther"
           }
         }
       },
@@ -5090,6 +5346,7 @@
           "name_de": "Rittmeister (Champion)",
           "name_fr": "Précepteur (champion)",
           "name_es": "Preceptor (campeón)",
+          "name_pl": "Preceptor (czempion)",
           "points": 6,
           "magic": {
             "types": [
@@ -5107,6 +5364,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -5121,6 +5379,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -5144,6 +5403,7 @@
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "name_es": "Armadura pesada",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -5163,7 +5423,8 @@
             "name_en": "0-1 unit per 1000 points",
             "name_cn": "每1000分0-1 单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
-            "name_it": "0-1 unità ogni 1000p.ti"
+            "name_it": "0-1 unità ogni 1000p.ti",
+            "name_pl": "0-1 jednostka na 1000 punktów"
           },
           "name_pl": "Wyćwiczeni"
         },
@@ -5180,7 +5441,8 @@
             "name_en": "0-1 unit per 1000 points",
             "name_cn": "每1000分0-1 单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
-            "name_it": "0-1 unità ogni 1000p.ti"
+            "name_it": "0-1 unità ogni 1000p.ti",
+            "name_pl": "0-1 jednostka na 1000 punktów"
           },
           "name_pl": "Nieugięty"
         }
@@ -5193,14 +5455,16 @@
         "name_cn": "猎豹骑士团, 紧密阵型, 反制冲锋, 先行冲锋, 快速行进, 仇恨(混沌勇士 + 野兽人嘶叫兽群 + 恶魔模型)",
         "name_de": "Orden der Pantherritter, Geschlossene Ränge, Gegenangriff, Erster Angriff, Schnelle Bewegung, IHass (Krieger des Chaos, Tiermenschen und Dämonen)",
         "name_fr": "Ordre des Chevaliers Panthères, Ordre Serré, Contre-charge, Première Charge, Rapide, Haine (figurines des Guerriers du Chaos, des Braillehardes Hommes-Bêtes et Démoniaques)",
-        "name_es": "Order of the Knights Panther, Formación Cerrada, Contracarga, Primera Carga, Zancada Veloz, Hatred (Warriors of Chaos + Beastmen Brayherds + Daemonic models)"
+        "name_es": "Order of the Knights Panther, Formación Cerrada, Contracarga, Primera Carga, Zancada Veloz, Hatred (Warriors of Chaos + Beastmen Brayherds + Daemonic models)",
+        "name_pl": "Zakon Rycerzy Pantery, Zwarty Szyk, Przeciwnatarcie, Pierwsza Szarża, Szybki Krok, Nienawiść (Wojownicy of Chaos + Stada Zwierzoludzi + Daemonic modele)"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -5219,7 +5483,8 @@
             "name_cn": "0-1个单位的白狼帝国骑士",
             "name_de": "0-1 Einheit Ritter des Weißen Wolfs",
             "name_fr": "0-1 unité de Chevaliers du Loup Blanc",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of Empire Rycerze of the Biały Wilk"
           }
         },
         "knightly-order-white-wolf": {
@@ -5231,7 +5496,8 @@
             "name_cn": "0-1个单位的帝国骑士或Inner Circle Knights belonging to the Order of the White Wolf",
             "name_de": "0-1 Einheit Ritter des Imperiums oder Ritter des Inneren Zirkels der Ordens des Weißen Wolfs",
             "name_fr": "0-1 unité de Chevaliers de l'Empire ou de Chevaliers du Cercle Intérieur appartenant à l'Ordre du Loup Blanc",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of Empire Rycerze lub Inner Circle Rycerze belonging do the Zakon Białego Wilka"
           }
         },
         "city-state-of-nuln": {
@@ -5241,7 +5507,8 @@
             "name_cn": "0-1个单位的白狼帝国骑士",
             "name_de": "0-1 Einheit Ritter des Weißen Wolfs",
             "name_fr": "0-1 unité de Chevaliers du Loup Blanc",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of Empire Rycerze of the Biały Wilk"
           }
         }
       },
@@ -5255,6 +5522,7 @@
           "name_de": "Rittmeister (Champion)",
           "name_fr": "Précepteur (champion)",
           "name_es": "Preceptor (campeón)",
+          "name_pl": "Preceptor (czempion)",
           "points": 6,
           "magic": {
             "types": [
@@ -5272,6 +5540,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -5286,6 +5555,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -5339,6 +5609,7 @@
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "name_es": "Armadura pesada",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -5358,7 +5629,8 @@
             "name_en": "0-1 unit per 1000 points",
             "name_cn": "每1000分0-1 单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
-            "name_it": "0-1 unità ogni 1000p.ti"
+            "name_it": "0-1 unità ogni 1000p.ti",
+            "name_pl": "0-1 jednostka na 1000 punktów"
           },
           "name_pl": "Wyćwiczeni"
         },
@@ -5375,7 +5647,8 @@
             "name_en": "0-1 unit per 1000 points",
             "name_cn": "每1000分0-1 单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
-            "name_it": "0-1 unità ogni 1000p.ti"
+            "name_it": "0-1 unità ogni 1000p.ti",
+            "name_pl": "0-1 jednostka na 1000 punktów"
           },
           "name_pl": "Nieugięty"
         }
@@ -5388,14 +5661,16 @@
         "name_cn": "白狼骑士团, 紧密阵型, 反制冲锋, 先行冲锋, 快速行进, 狂怒冲锋",
         "name_de": "Orden des Weißen Wolfs, Geschlossene Ränge, Gegenangriff, Erster Angriff, Schnelle Bewegung, Rasender Angriff",
         "name_fr": "Ordre du Loup Blanc, Ordre Serré, Contre-charge, Première Charge, Rapide, Charge Dévastatrice",
-        "name_es": "Order of the White Wolf, Formación Cerrada, Contracarga, Primera Carga, Zancada Veloz, Furious Charge"
+        "name_es": "Order of the White Wolf, Formación Cerrada, Contracarga, Primera Carga, Zancada Veloz, Furious Charge",
+        "name_pl": "Zakon Białego Wilka, Zwarty Szyk, Przeciwnatarcie, Pierwsza Szarża, Szybki Krok, Wściekła Szarża"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -5414,7 +5689,8 @@
             "name_cn": "0-1个单位的焰阳帝国骑士",
             "name_de": "0-1 Einheit itter des Sonnenordens",
             "name_fr": "0-1 unité de Chevaliers du Soleil",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of Empire Rycerze of the Blazing Słoneczny"
           }
         },
         "knightly-order-blazing-sun": {
@@ -5427,7 +5703,8 @@
             "name_cn": "0-1个单位的焰阳帝国骑士",
             "name_de": "0-1 Einheit Ritter des Sonnenordens",
             "name_fr": "0-1 unité de Chevaliers du Soleil",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of Empire Rycerze of the Blazing Słoneczny"
           }
         }
       },
@@ -5441,6 +5718,7 @@
           "name_de": "Rittmeister (Champion)",
           "name_fr": "Précepteur (champion)",
           "name_es": "Preceptor (campeón)",
+          "name_pl": "Preceptor (czempion)",
           "points": 6,
           "magic": {
             "types": [
@@ -5458,6 +5736,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -5472,6 +5751,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -5515,6 +5795,7 @@
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "name_es": "Armadura pesada",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -5534,7 +5815,8 @@
             "name_en": "0-1 unit per 1000 points",
             "name_cn": "每1000分0-1 单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
-            "name_it": "0-1 unità ogni 1000p.ti"
+            "name_it": "0-1 unità ogni 1000p.ti",
+            "name_pl": "0-1 jednostka na 1000 punktów"
           },
           "name_pl": "Wyćwiczeni"
         },
@@ -5551,7 +5833,8 @@
             "name_en": "0-1 unit per 1000 points",
             "name_cn": "每1000分0-1 单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
-            "name_it": "0-1 unità ogni 1000p.ti"
+            "name_it": "0-1 unità ogni 1000p.ti",
+            "name_pl": "0-1 jednostka na 1000 punktów"
           },
           "name_pl": "Nieugięty"
         }
@@ -5564,14 +5847,16 @@
         "name_cn": "焰阳骑士团, 紧密阵型, 反制冲锋, 先行冲锋, 快速行进, 闪避, 火焰攻击",
         "name_de": "Sonnenorden, Geschlossene Ränge, Gegenangriff, Erster Angriff, Schnelle Bewegung, Ausweichen, Flammenattacken",
         "name_fr": "Ordre du Soleil, Ordre Serré, Contre-charge, Première Charge, Rapide, Esquiveur, Attaques Enflammées",
-        "name_es": "Order of the Blazing Sun, Formación Cerrada, Contracarga, Primera Carga, Zancada Veloz, Evasive, Flaming Attacks"
+        "name_es": "Order of the Blazing Sun, Formación Cerrada, Contracarga, Primera Carga, Zancada Veloz, Evasive, Flaming Attacks",
+        "name_pl": "Zakon Płonącego Słońca, Zwarty Szyk, Przeciwnatarcie, Pierwsza Szarża, Szybki Krok, Evasive, Flaming Attacks"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -5590,7 +5875,8 @@
             "name_cn": "0-1个单位的莫尔帝国骑士",
             "name_de": "0-1 Ritter des Morr",
             "name_fr": "0-1 unité de Chevaliers de Morr",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of Empire Rycerze of Morr"
           }
         },
         "knightly-order-morr": {
@@ -5603,7 +5889,8 @@
             "name_cn": "0-1个单位的莫尔帝国骑士",
             "name_de": "0-1 Einheit Ritter des Morr",
             "name_fr": "0-1 unité de Chevaliers de Morr",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of Empire Rycerze of Morr"
           }
         }
       },
@@ -5617,6 +5904,7 @@
           "name_de": "Rittmeister (Champion)",
           "name_fr": "Précepteur (champion)",
           "name_es": "Preceptor (campeón)",
+          "name_pl": "Preceptor (czempion)",
           "points": 6,
           "magic": {
             "types": [
@@ -5634,6 +5922,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -5648,6 +5937,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -5691,6 +5981,7 @@
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "name_es": "Armadura pesada",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -5710,7 +6001,8 @@
             "name_en": "0-1 unit per 1000 points",
             "name_cn": "每1000分0-1单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
-            "name_it": "0-1 unità ogni 1000p.ti"
+            "name_it": "0-1 unità ogni 1000p.ti",
+            "name_pl": "0-1 jednostka na 1000 punktów"
           },
           "name_pl": "Wyćwiczeni"
         },
@@ -5727,7 +6019,8 @@
             "name_en": "0-1 unit per 1000 points",
             "name_cn": "每1000分0-1单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
-            "name_it": "0-1 unità ogni 1000p.ti"
+            "name_it": "0-1 unità ogni 1000p.ti",
+            "name_pl": "0-1 jednostka na 1000 punktów"
           },
           "name_pl": "Nieugięty"
         }
@@ -5740,14 +6033,16 @@
         "name_cn": "莫尔骑士团, 紧密阵型, 反制冲锋, 先行冲锋, 快速行进, 仇恨(亡灵模型)",
         "name_de": "Orden der Ritter des Morr, Geschlossene Ränge, Gegenangriff, Erster Angriff, Schnelle Bewegung, Hass (Untote)",
         "name_fr": "Ordre des Chevaliers de Morr, Ordre Serré, Contre-charge, Première Charge, Rapide, Haine (figurines Mortes-vivantes))",
-        "name_es": "Order of the Knights of Morr, Formación Cerrada, Contracarga, Primera Carga, Zancada Veloz, Hatred (Undead models)"
+        "name_es": "Order of the Knights of Morr, Formación Cerrada, Contracarga, Primera Carga, Zancada Veloz, Hatred (Undead models)",
+        "name_pl": "Zakon Rycerzy Morra, Zwarty Szyk, Przeciwnatarcie, Pierwsza Szarża, Szybki Krok, Nienawiść (Undead modele)"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -5766,7 +6061,8 @@
             "name_cn": "0-1个单位的Empire Knights of Fiery Heart",
             "name_de": "0-1 Einheit Ritter des Flammenden Herzens",
             "name_fr": "0-1 unité de Chevaliers du Cœur Ardent",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of Empire Rycerze of Fiery Heart"
           }
         },
         "knightly-order-fiery-heart": {
@@ -5779,7 +6075,8 @@
             "name_cn": "0-1个单位的Empire Knights of Fiery Heart",
             "name_de": "0-1 Einheit Ritter des Flammenden Herzens",
             "name_fr": "0-1 unité de Chevaliers du Cœur Ardent",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of Empire Rycerze of Fiery Heart"
           }
         }
       },
@@ -5793,6 +6090,7 @@
           "name_de": "Rittmeister (Champion)",
           "name_fr": "Précepteur (champion)",
           "name_es": "Preceptor (campeón)",
+          "name_pl": "Preceptor (czempion)",
           "points": 6,
           "magic": {
             "types": [
@@ -5810,6 +6108,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -5824,6 +6123,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -5867,6 +6167,7 @@
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "name_es": "Armadura pesada",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -5886,7 +6187,8 @@
             "name_en": "0-1 unit per 1000 points",
             "name_cn": "每1000分0-1单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
-            "name_it": "0-1 unità ogni 1000p.ti"
+            "name_it": "0-1 unità ogni 1000p.ti",
+            "name_pl": "0-1 jednostka na 1000 punktów"
           },
           "name_pl": "Wyćwiczeni"
         },
@@ -5903,7 +6205,8 @@
             "name_en": "0-1 unit per 1000 points",
             "name_cn": "每1000分0-1单位",
             "name_fr": "0-1 unité par tranche de 1000 points",
-            "name_it": "0-1 unità ogni 1000p.ti"
+            "name_it": "0-1 unità ogni 1000p.ti",
+            "name_pl": "0-1 jednostka na 1000 punktów"
           },
           "name_pl": "Nieugięty"
         }
@@ -5916,14 +6219,16 @@
         "name_cn": "燃烧之心骑士团, 紧密阵型, 反制冲锋, 先行冲锋, 快速行进, 仇恨(敌方法师 + 兽人 & 地精)",
         "name_de": "Orden der Flammenden Herzens, Geschlossene Ränge, Gegenangriff, Erster Angriff, Schnelle Bewegung, Hass (feindliche Zauberer und Orks & Goblins)",
         "name_fr": "Ordre du Cœur Ardent, Ordre Serré, Contre-charge, Première Charge, Rapide, Haine (Sorciers ennemis, Orques & Gobelins)",
-        "name_es": "Order of the Fiery Heart, Formación Cerrada, Contracarga, Primera Carga, Zancada Veloz, Hatred (enemy Wizards + Orcs & Goblins)"
+        "name_es": "Order of the Fiery Heart, Formación Cerrada, Contracarga, Primera Carga, Zancada Veloz, Hatred (enemy Wizards + Orcs & Goblins)",
+        "name_pl": "Zakon Ognistego Serca, Zwarty Szyk, Przeciwnatarcie, Pierwsza Szarża, Szybki Krok, Nienawiść (enemy Wizards + Orki & Gobliny)"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     }
   ],
@@ -5954,6 +6259,7 @@
           "name_de": "Champion des Fürsten (Champion)",
           "name_fr": "Champion du Comte (champion)",
           "name_es": "Campeón del Conde (campeón)",
+          "name_pl": "Count's Czempion (czempion)",
           "points": 8,
           "magic": {
             "types": [
@@ -5972,6 +6278,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
             "types": [
@@ -5986,6 +6293,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -6009,6 +6317,7 @@
           "name_de": "Plattenrüstung",
           "name_fr": "Armure de plate complète",
           "name_es": "Armadura completa",
+          "name_pl": "Pełna Zbroja Płytowa",
           "points": 0,
           "perModel": true,
           "active": true
@@ -6048,14 +6357,16 @@
         "name_cn": "紧密阵型, 主团单位, 坚毅",
         "name_de": "Geschlossene Ränge, Hauptregiment, Unnachgiebig",
         "name_fr": "Ordre Serré, Unité Régimentaire, Obstiné",
-        "name_es": "Formación Cerrada, Unidad Regimental, Tozudo"
+        "name_es": "Formación Cerrada, Unidad Regimental, Tozudo",
+        "name_pl": "Zwarty Szyk, Jednostka Regimentowa, Nieugięty"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -6075,7 +6386,8 @@
             "name_cn": "0-1个单位的Teutogen Guard may be taken as a Special choice per Warrior Priest of Ulric in your army",
             "name_de": "0-1 Einheit Teutogengarde können als Eliteauswahl pro enthaltenem Kriegerpriester des Ulric gewählt werden",
             "name_fr": "0-1 unité de Garde Teutogène peut être prise comme choix Spécial pour chaque Prêtre-Guerrier d'Ulric dans votre armée",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of Teutogen Straż może be taken jako a Specjalny choice na Wojownik Kapłan of Ulric w twoja armia"
           }
         },
         "knightly-order-white-wolf": {
@@ -6091,6 +6403,7 @@
           "name_de": "Erster Ritter (Champion)",
           "name_fr": "Premier Chevalier (champion)",
           "name_es": "First Knight (campeón)",
+          "name_pl": "First Rycerz (czempion)",
           "points": 8
         },
         {
@@ -6099,6 +6412,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "types": [
@@ -6113,6 +6427,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -6136,6 +6451,7 @@
           "name_de": "Plattenrüstung",
           "name_fr": "Armure de plate complète",
           "name_es": "Armadura completa",
+          "name_pl": "Pełna Zbroja Płytowa",
           "points": 0,
           "perModel": true,
           "active": true
@@ -6155,7 +6471,8 @@
             "name_cn": "0-1 单位",
             "name_de": "0-1 Einheit",
             "name_fr": "0-1 unité",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka"
           },
           "name_pl": "Strażnicy Świątyni"
         }
@@ -6168,7 +6485,8 @@
         "name_cn": "尤里克祝福, 紧密阵型, 受训, 坚毅, 老兵",
         "name_de": "Ulrics Segen, Geschlossene Ränge, Gut ausgebildet, Unnachgiebig, Veteranen",
         "name_fr": "Bénédiction d'Ulric, Ordre Serré, Bien Entraînés, Obstiné, Vétérans",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": "Blessings of Ulric, Zwarty Szyk, Drilled, Nieugięty, Veteran"
       }
     },
     {
@@ -6212,6 +6530,7 @@
           "name_de": "Veteran (Champion)",
           "name_fr": "Vétérans (champion)",
           "name_es": "Veterano (campeón)",
+          "name_pl": "Veteran (czempion)",
           "points": 8,
           "options": [
             {
@@ -6220,6 +6539,7 @@
               "name_de": "Pistolenpaar",
               "name_fr": "Plusieurs pistolets",
               "name_es": "Ristra de pistolas",
+              "name_pl": "Para pistoletów",
               "points": 0,
               "exclusive": true,
               "active": true
@@ -6230,6 +6550,7 @@
               "name_de": "Granatenbüchse",
               "name_fr": "Tromblon à grenades",
               "name_es": "Trabuco lanzagranadas",
+              "name_pl": "Garłacz z wyrzutnią granatów",
               "points": 5,
               "exclusive": true
             },
@@ -6239,6 +6560,7 @@
               "name_de": "Bündelmuskete",
               "name_fr": "Arquebuse à répétition",
               "name_es": "Mosquete de repetición",
+              "name_pl": "Powtarzalny muszkiet",
               "points": 5,
               "exclusive": true
             },
@@ -6248,6 +6570,7 @@
               "name_de": "Bündelpistole",
               "name_fr": "Pistolet à répétition",
               "name_es": "Pistola de repetición",
+              "name_pl": "Powtarzalny pistolet",
               "points": 0,
               "exclusive": true
             }
@@ -6259,6 +6582,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -6282,6 +6606,7 @@
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "name_es": "Armadura pesada",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -6307,14 +6632,16 @@
         "name_cn": "反制冲锋, 快速骑兵, 游击, 鲁莽, 开放阵型, 散兵, 快速行进",
         "name_de": "Gegenangriff, Wendige Kavallerie, Schießen und Verschwinden, Ungestüm, Offene Ränge, Plänkler, Schnelle Bewegung",
         "name_fr": "Contre-charge, Cavalerie Rapide, Tir & Fuite, Impétueux, Ordre Dispersé, Tirailleurs, Rapide",
-        "name_es": "Contracarga, Caballería Rápida, Disparar y Huir, Impetuoso, Formación Abierta, Hostigadores, Zancada Veloz"
+        "name_es": "Contracarga, Caballería Rápida, Disparar y Huir, Impetuoso, Formación Abierta, Hostigadores, Zancada Veloz",
+        "name_pl": "Przeciwnatarcie, Szybka Kawaleria, Ogień I Odwrót, Impet, Luźny Szyk, Harcownicy, Szybki Krok"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -6343,6 +6670,7 @@
           "name_de": "Meisterschützenreiter (Champion)",
           "name_fr": "Mitrailleur (champion)",
           "name_es": "Tirador experto (campeón)",
+          "name_pl": "Sharpshooter (czempion)",
           "points": 6,
           "options": [
             {
@@ -6351,6 +6679,7 @@
               "name_de": "Bündelmuskete",
               "name_fr": "Arquebuse à répétition",
               "name_es": "Mosquete de repetición",
+              "name_pl": "Powtarzalny muszkiet",
               "points": 0,
               "exclusive": true,
               "active": true
@@ -6361,6 +6690,7 @@
               "name_de": "Pistolenpaar",
               "name_fr": "Plusieurs pistolets",
               "name_es": "Ristra de pistolas",
+              "name_pl": "Para pistoletów",
               "points": 0,
               "exclusive": true
             },
@@ -6370,6 +6700,7 @@
               "name_de": "Granatenbüchse",
               "name_fr": "Tromblon à grenades",
               "name_es": "Trabuco lanzagranadas",
+              "name_pl": "Garłacz z wyrzutnią granatów",
               "points": 10,
               "exclusive": true
             },
@@ -6379,6 +6710,7 @@
               "name_de": "Bündelpistole",
               "name_fr": "Pistolet à répétition",
               "name_es": "Pistola de repetición",
+              "name_pl": "Powtarzalny pistolet",
               "points": 0,
               "exclusive": true
             }
@@ -6390,6 +6722,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -6413,6 +6746,7 @@
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "name_es": "Armadura pesada",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -6427,14 +6761,16 @@
         "name_cn": "快速骑兵, 游击, 开放阵型, 散兵, 快速行进, 先锋",
         "name_de": "Wendige Kavallerie, Schießen und Verschwinden, Offene Ränge, Plänkler, Schnelle Bewegung, Vorhut",
         "name_fr": "Cavalerie Rapide, Tir & Fuite, Ordre Dispersé, Tirailleurs, Rapide, Avant-garde",
-        "name_es": "Caballería Rápida, Disparar y Huir, Formación Abierta, Hostigadores, Zancada Veloz, Vanguardia"
+        "name_es": "Caballería Rápida, Disparar y Huir, Formación Abierta, Hostigadores, Zancada Veloz, Vanguardia",
+        "name_pl": "Szybka Kawaleria, Ogień I Odwrót, Luźny Szyk, Harcownicy, Szybki Krok, Awangarda"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -6460,7 +6796,8 @@
             "name_cn": "每1000分0-1巨型加农炮或臼炮可作为特殊选择",
             "name_de": "0-1 Großkanone oder Mörser pro 1.000 Punkte kann als Eliteauswahl gewählt werden",
             "name_fr": "0-1 Grand Canon ou Mortier peut être pris comme choix Spécial par tranche de 1000 points",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 Wielki Cannon lub Mortar może be taken jako a Specjalny choice na 1000 punktów"
           }
         }
       },
@@ -6501,7 +6838,8 @@
             "name_cn": "每1000分0-1战争机器",
             "name_de": "0-1 Kriegsmaschine pro 1.000 Punkte",
             "name_fr": "0-1 machine de guerre par tranche de 1000 points",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 machina wojenna na 1000 punktów"
           },
           "name_pl": "Weteran, Awangarda"
         }
@@ -6512,14 +6850,16 @@
         "name_cn": "散兵",
         "name_de": "Plänkler",
         "name_fr": "Tirailleurs",
-        "name_es": "Hostigadores"
+        "name_es": "Hostigadores",
+        "name_pl": "Harcownicy"
       },
       "notes": {
         "name_en": "0-3 war machines chosen from the following list per 1000 points: Great Cannon, Mortar",
         "name_cn": "每1000分从以下列表中选择0-3台战争机器： 巨型加农炮, 臼炮",
         "name_de": "0-3 Kriegsmaschine aus der folgende Liste pro 1.000 Punkte: Großkanone, Mörser",
         "name_fr": "0-3 machines de guerre choisies dans la liste suivante par tranche de 1000 points: Grand Canon, Mortier",
-        "name_es": "0-3 máquinas de guerra de la siguiente lista por cada 1.000 puntos: Gran Cañón, Mortero"
+        "name_es": "0-3 máquinas de guerra de la siguiente lista por cada 1.000 puntos: Gran Cañón, Mortero",
+        "name_pl": "0-3 machiny wojenne chosen z the following list na 1000 punktów: Wielki Cannon, Mortar"
       }
     },
     {
@@ -6545,7 +6885,8 @@
             "name_cn": "每1000分0-1巨型加农炮或臼炮可作为特殊选择",
             "name_de": "0-1 Großkanone oder Mörser pro 1.000 Punkte kann als Eliteauswahl gewählt werden",
             "name_fr": "0-1 Grand Canon ou Mortier peut être pris comme choix Spécial par tranche de 1000 points",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 Wielki Cannon lub Mortar może be taken jako a Specjalny choice na 1000 punktów"
           }
         }
       },
@@ -6587,7 +6928,8 @@
             "name_cn": "每1000分0-1战争机器",
             "name_de": "0-1 Kriegsmaschine pro 1.000 Punkte",
             "name_fr": "0-1 machine de guerre par tranche de 1000 points",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 machina wojenna na 1000 punktów"
           },
           "name_pl": "Weteran, Awangarda"
         }
@@ -6598,14 +6940,16 @@
         "name_cn": "散兵",
         "name_de": "Plänkler",
         "name_fr": "Tirailleurs",
-        "name_es": "Hostigadores"
+        "name_es": "Hostigadores",
+        "name_pl": "Harcownicy"
       },
       "notes": {
         "name_en": "0-3 war machines chosen from the following list per 1000 points: Great Cannon, Mortar",
         "name_cn": "每1000分从以下列表中选择0-3台战争机器： 巨型加农炮, 臼炮",
         "name_de": "0-3 Kriegesmaschinen können pro 1.000 Punkte aus der folgenden Liste ausgewählt werden: Großkanone, Mörser",
         "name_fr": "0-3 machines de guerre choisies dans la liste suivante par tranche de 1000 points: Grand Canon, Mortier",
-        "name_es": "0-3 máquinas de guerra de la siguiente lista por cada 1.000 puntos: Gran Cañón, Mortero"
+        "name_es": "0-3 máquinas de guerra de la siguiente lista por cada 1.000 puntos: Gran Cañón, Mortero",
+        "name_pl": "0-3 machiny wojenne chosen z the following list na 1000 punktów: Wielki Cannon, Mortar"
       }
     },
     {
@@ -6625,7 +6969,8 @@
             "name_cn": "每1000分0-1",
             "name_de": "0-1 pro 1.000 Punkte",
             "name_fr": "0-1 par tranche de 1000 points",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 na 1000 punktów"
           }
         },
         "city-state-of-nuln": {
@@ -6653,6 +6998,7 @@
           "name_de": "3+",
           "name_fr": "3+",
           "name_es": "3+",
+          "name_pl": "3+",
           "points": 0,
           "active": true
         }
@@ -6666,14 +7012,16 @@
         "name_cn": "紧密阵型, 沉重碾压, 撞击(D6+1 - War Wagon only), 大型目标, 稳定射击阵地, 践踏攻击(D3+1)",
         "name_de": "Geschlossene Ränge, Schwergewichtig, Aufpralltreffer (W6+1 - nur Kriegswagen), Großes Ziel, Stabile Feuerplattform, Stampfattacken (W3+1)",
         "name_fr": "Ordre Serré, Poids Écrasant, Touches d'Impact (D6+1 - Chariot de Guerre uniquement), Grande Cible, Plate-Forme de Tir Stable, Attaques de Piétinement (D3+1)",
-        "name_es": "Close Order, Crushing Weight, Impact Hits (D6+1 - War Wagon only), Large Target, Stable Firing Platform, Stomp Attacks (D3+1)"
+        "name_es": "Close Order, Crushing Weight, Impact Hits (D6+1 - War Wagon only), Large Target, Stable Firing Platform, Stomp Attacks (D3+1)",
+        "name_pl": "Zwarty Szyk, Crushing Weight, Uderzenia Impetu (D6+1 - War Wagon only), Duży Cel, Stable Firing Platform, Zdeptanie (D3+1)"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -6699,6 +7047,7 @@
           "name_de": "Rittmeister des Inneren Zirkels (Champion)",
           "name_fr": "Précepteur du Cercle Intérieur (champion)",
           "name_es": "Preceptor del Círculo Interior (campeón)",
+          "name_pl": "Inner Circle Preceptor (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -6717,6 +7066,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "types": [
@@ -6731,6 +7081,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -6774,6 +7125,7 @@
           "name_de": "Plattenrüstung, Rossharnische",
           "name_fr": "Armure de plate complète, Caparaçon",
           "name_es": "Armadura completa, Barding",
+          "name_pl": "Pełna zbroja płytowa, Kapparison",
           "points": 0,
           "perModel": true,
           "active": true
@@ -6801,14 +7153,16 @@
         "name_cn": "紧密阵型, 反制冲锋, 受训, 先行冲锋, 内环, 快速行进, 老兵",
         "name_de": "Geschlossene Ränge, Gegenangriff, Gut ausgebildet, Erster Angriff, Innerer Zirkel, Schnelle Bewegung, Veteranen",
         "name_fr": "Ordre Serré, Contre-charge, Bien Entraînés, Première Charge, Cercle Intérieur, Rapide, Vétérans",
-        "name_es": "Formación Cerrada, Contracarga, Entrenado, Primera Carga, Círculo Interior, Zancada Veloz, Veterano"
+        "name_es": "Formación Cerrada, Contracarga, Entrenado, Primera Carga, Círculo Interior, Zancada Veloz, Veterano",
+        "name_pl": "Zwarty Szyk, Przeciwnatarcie, Drilled, Pierwsza Szarża, Inner Circle, Szybki Krok, Veteran"
       },
       "notes": {
         "name_en": "0-1 unit of Inner Circle Knights per 1000 points",
         "name_cn": "每1000分0-1个单位的内环骑士",
         "name_de": "0-1 Einheit Ritter des Inneren Zirkels pro 1.000 Punkte",
         "name_fr": "0-1 unité de Chevaliers du Cercle Intérieur par tranche de 1000 points",
-        "name_es": "0-1 unidades de Caballeros del Círculo Interior por cada 1.000 puntos"
+        "name_es": "0-1 unidades de Caballeros del Círculo Interior por cada 1.000 puntos",
+        "name_pl": "0-1 jednostka of Inner Circle Rycerze na 1000 punktów"
       }
     },
     {
@@ -6837,6 +7191,7 @@
           "name_de": "Rittmeister des Inneren Zirkels (Champion)",
           "name_fr": "Précepteur du Cercle Intérieur (champion)",
           "name_es": "Preceptor del Círculo Interior (campeón)",
+          "name_pl": "Inner Circle Preceptor (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -6855,6 +7210,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "types": [
@@ -6869,6 +7225,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -6892,6 +7249,7 @@
           "name_de": "Plattenrüstung, Rossharnische",
           "name_fr": "Armure de plate complète, Caparaçon",
           "name_es": "Armadura completa, Barding",
+          "name_pl": "Pełna zbroja płytowa, Kapparison",
           "points": 0,
           "perModel": true,
           "active": true
@@ -6919,14 +7277,16 @@
         "name_cn": "猎豹骑士团, 紧密阵型, 反制冲锋, 受训, 先行冲锋, 内环, 快速行进, 老兵, 仇恨(混沌勇士 + 野兽人嘶叫兽群 + 恶魔模型), 魔法抗性(-1)",
         "name_de": "Orden der Pantherritter, Geschlossene Ränge, Gegenangriff, Gut ausgebildet, Erster Angriff, Innerer Zirkel, Schnelle Bewegung, Veteranen, IHass (Krieger des Chaos, Tiermenschen und Dämonen), Magieresistenz (-1)",
         "name_fr": "Ordre des Chevaliers Panthères, Ordre Serré, Contre-charge, Bien Entraînés, Première Charge, Cercle Intérieur, Rapide, Vétérans, Haine (figurines des Guerriers du Chaos, des Braillehardes Hommes-Bêtes et Démoniaques), Résistance à la Magie (-1)",
-        "name_es": "Order of the Knights Panther, Formación Cerrada, Contracarga, Entrenado, Primera Carga, Círculo Interior, Zancada Veloz, Veterano, Hatred (Warriors of Chaos + Beastmen Brayherds + Daemonic models), Magic Resistance (-1)"
+        "name_es": "Order of the Knights Panther, Formación Cerrada, Contracarga, Entrenado, Primera Carga, Círculo Interior, Zancada Veloz, Veterano, Hatred (Warriors of Chaos + Beastmen Brayherds + Daemonic models), Magic Resistance (-1)",
+        "name_pl": "Zakon Rycerzy Pantery, Zwarty Szyk, Przeciwnatarcie, Drilled, Pierwsza Szarża, Inner Circle, Szybki Krok, Veteran, Nienawiść (Wojownicy of Chaos + Stada Zwierzoludzi + Daemonic modele), Odporność Na Magię (-1)"
       },
       "notes": {
         "name_en": "0-1 unit of Inner Circle Knights Panther",
         "name_cn": "0-1个单位的猎豹内环骑士",
         "name_de": "0-1 Einheit Ritter des inneren Zirkels der Pantherritter",
         "name_fr": "0-1 unité de Chevaliers Panthères du Cercle Intérieur",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": "0-1 jednostka of Inner Circle Rycerze Panther"
       }
     },
     {
@@ -6951,7 +7311,8 @@
             "name_cn": "属于白狼骑士团的0-1个单位的帝国骑士或内环骑士",
             "name_de": "0-1 Einheit Ritter des Imperiums oder Ritter des Inneren Zirkels der Ordens des Weißen Wolfs",
             "name_fr": "0-1 unité de Chevaliers de l'Empire ou de Chevaliers du Cercle Intérieur appartenant à l'Ordre du Loup Blanc",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of Empire Rycerze lub Inner Circle Rycerze belonging do the Zakon Białego Wilka"
           }
         }
       },
@@ -6964,6 +7325,7 @@
           "name_de": "Rittmeister des Inneren Zirkels (Champion)",
           "name_fr": "Précepteur du Cercle Intérieur (champion)",
           "name_es": "Preceptor del Círculo Interior (campeón)",
+          "name_pl": "Inner Circle Preceptor (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -6982,6 +7344,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "types": [
@@ -6996,6 +7359,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -7049,6 +7413,7 @@
           "name_de": "Plattenrüstung, Rossharnische",
           "name_fr": "Armure de plate complète, Caparaçon",
           "name_es": "Armadura completa, Barding",
+          "name_pl": "Pełna zbroja płytowa, Kapparison",
           "points": 0,
           "perModel": true,
           "active": true
@@ -7076,14 +7441,16 @@
         "name_cn": "白狼骑士团, 紧密阵型, 反制冲锋, 受训, 先行冲锋, 内环, 快速行进, 老兵, 狂怒冲锋",
         "name_de": "Orden des Weißen Wolfs, Geschlossene Ränge, Gegenangriff, Gut ausgebildet, Erster Angriff, Innerer Zirkel, Schnelle Bewegung, Veteranen, Rasender Angriff",
         "name_fr": "Ordre du Loup Blanc, Ordre Serré, Contre-charge, Bien Entraînés, Première Charge, Cercle Intérieur, Rapide, Vétérans, Charge Dévastatrice",
-        "name_es": "Order of the White Wolf, Formación Cerrada, Contracarga, Entrenado, Primera Carga, Círculo Interior, Zancada Veloz, Veterano, Furious Charge"
+        "name_es": "Order of the White Wolf, Formación Cerrada, Contracarga, Entrenado, Primera Carga, Círculo Interior, Zancada Veloz, Veterano, Furious Charge",
+        "name_pl": "Zakon Białego Wilka, Zwarty Szyk, Przeciwnatarcie, Drilled, Pierwsza Szarża, Inner Circle, Szybki Krok, Veteran, Wściekła Szarża"
       },
       "notes": {
         "name_en": "0-1 unit of Inner Circle Knights of the White Wolf",
         "name_cn": "0-1个单位的白狼内环骑士",
         "name_de": "0-1 Einheit Innerer Zirkel der Ritter des Weißen Wolfs",
         "name_fr": "0-1 unité de Chevaliers du Loup Blanc du Cercle Intérieur",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": "0-1 jednostka of Inner Circle Rycerze of the Biały Wilk"
       }
     },
     {
@@ -7112,6 +7479,7 @@
           "name_de": "Rittmeister des Inneren Zirkels (Champion)",
           "name_fr": "Précepteur du Cercle Intérieur (champion)",
           "name_es": "Preceptor del Círculo Interior (campeón)",
+          "name_pl": "Inner Circle Preceptor (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -7130,6 +7498,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "types": [
@@ -7144,6 +7513,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -7187,6 +7557,7 @@
           "name_de": "Plattenrüstung, Rossharnische",
           "name_fr": "Armure de plate complète, Caparaçon",
           "name_es": "Armadura completa, Barding",
+          "name_pl": "Pełna zbroja płytowa, Kapparison",
           "points": 0,
           "perModel": true,
           "active": true
@@ -7214,14 +7585,16 @@
         "name_cn": "焰阳骑士团, 紧密阵型, 反制冲锋, 受训, 先行冲锋, 内环, 快速行进, 老兵, 闪避, 火焰攻击",
         "name_de": "Sonnenorden, Geschlossene Ränge, Gegenangriff, Gut ausgebildet, Erster Angriff, Innerer Zirkel, Schnelle Bewegung, Veteranen, Ausweichen, Flammenattacken",
         "name_fr": "Ordre du Soleil, Ordre Serré, Contre-charge, Bien Entraînés, Première Charge, Cercle Intérieur, Rapide, Vétérans, Esquiveur, Attaques Enflammées",
-        "name_es": "Order of the Blazing Sun, Formación Cerrada, Contracarga, Entrenado, Primera Carga, Círculo Interior, Zancada Veloz, Veterano, Evasive, Flaming Attacks"
+        "name_es": "Order of the Blazing Sun, Formación Cerrada, Contracarga, Entrenado, Primera Carga, Círculo Interior, Zancada Veloz, Veterano, Evasive, Flaming Attacks",
+        "name_pl": "Zakon Płonącego Słońca, Zwarty Szyk, Przeciwnatarcie, Drilled, Pierwsza Szarża, Inner Circle, Szybki Krok, Veteran, Evasive, Flaming Attacks"
       },
       "notes": {
         "name_en": "0-1 unit of Inner Circle Knights of the Blazing Sun",
         "name_cn": "0-1个单位的焰阳内环骑士",
         "name_de": "0-1 Einheit Ritter des Inneren Zirkels des Sonnenordens",
         "name_fr": "0-1 unité de Chevaliers du Soleil du Cercle Intérieur",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": "0-1 jednostka of Inner Circle Rycerze of the Blazing Słoneczny"
       }
     },
     {
@@ -7250,6 +7623,7 @@
           "name_de": "Rittmeister des Inneren Zirkels (Champion)",
           "name_fr": "Précepteur du Cercle Intérieur (champion)",
           "name_es": "Preceptor del Círculo Interior (campeón)",
+          "name_pl": "Inner Circle Preceptor (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -7268,6 +7642,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "types": [
@@ -7282,6 +7657,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -7325,6 +7701,7 @@
           "name_de": "Plattenrüstung, Rossharnische",
           "name_fr": "Armure de plate complète, Caparaçon",
           "name_es": "Armadura completa, Barding",
+          "name_pl": "Pełna zbroja płytowa, Kapparison",
           "points": 0,
           "perModel": true,
           "active": true
@@ -7352,14 +7729,16 @@
         "name_cn": "莫尔骑士团, 紧密阵型, 反制冲锋, 受训, 先行冲锋, 内环, 快速行进, 老兵, 仇恨(亡灵模型), 恐惧, 魔法攻击",
         "name_de": "Orden der Ritter des Morr, Geschlossene Ränge, Gegenangriff, Gut ausgebildet, Erster Angriff, Innerer Zirkel, Schnelle Bewegung, Veteranen, Hass (Untote), Angst, Magische Attacken",
         "name_fr": "Ordre des Chevaliers de Morr, Ordre Serré, Contre-charge, Bien Entraînés, Première Charge, Cercle Intérieur, Rapide, Vétérans, Haine (figurines Mortes-vivantes)), Peur, Attaques Magiques",
-        "name_es": "Order of the Knights of Morr, Formación Cerrada, Contracarga, Entrenado, Primera Carga, Círculo Interior, Zancada Veloz, Veterano, Hatred (Undead models), Fear, Magical Attacks"
+        "name_es": "Order of the Knights of Morr, Formación Cerrada, Contracarga, Entrenado, Primera Carga, Círculo Interior, Zancada Veloz, Veterano, Hatred (Undead models), Fear, Magical Attacks",
+        "name_pl": "Zakon Rycerzy Morra, Zwarty Szyk, Przeciwnatarcie, Drilled, Pierwsza Szarża, Inner Circle, Szybki Krok, Veteran, Nienawiść (Undead modele), Strach, Magiczne Ataki"
       },
       "notes": {
         "name_en": "0-1 unit of Inner Circle Knights of Morr",
         "name_cn": "0-1个单位的莫尔内环骑士",
         "name_de": "0-1 Einheit Ritter des Inneren Zirkels des Sonnenordens",
         "name_fr": "0-1 unité de Chevaliers de Morr du Cercle Intérieur",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": "0-1 jednostka of Inner Circle Rycerze of Morr"
       }
     },
     {
@@ -7388,6 +7767,7 @@
           "name_de": "Rittmeister des Inneren Zirkels (Champion)",
           "name_fr": "Précepteur du Cercle Intérieur (champion)",
           "name_es": "Preceptor del Círculo Interior (campeón)",
+          "name_pl": "Inner Circle Preceptor (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -7406,6 +7786,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "types": [
@@ -7420,6 +7801,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -7463,6 +7845,7 @@
           "name_de": "Plattenrüstung, Rossharnische",
           "name_fr": "Armure de plate complète, Caparaçon",
           "name_es": "Armadura completa, Barding",
+          "name_pl": "Pełna zbroja płytowa, Kapparison",
           "points": 0,
           "perModel": true,
           "active": true
@@ -7490,14 +7873,16 @@
         "name_cn": "燃烧之心骑士团, 紧密阵型, 反制冲锋, 受训, 先行冲锋, 内环, 快速行进, 老兵, 仇恨(敌方法师 + 兽人 & 地精)",
         "name_de": "Orden der Flammenden Herzens, Geschlossene Ränge, Gegenangriff, Gut ausgebildet, Erster Angriff, Innerer Zirkel, Schnelle Bewegung, Veteranen, Hass (feindliche Zauberer und Orks & Goblins)",
         "name_fr": "Ordre du Cœur Ardent, Ordre Serré, Contre-charge, Bien Entraînés, Première Charge, Cercle Intérieur, Rapide, Vétérans, Haine (Sorciers ennemis, Orques & Gobelins)",
-        "name_es": "Order of the Fiery Heart, Formación Cerrada, Contracarga, Entrenado, Primera Carga, Círculo Interior, Zancada Veloz, Veterano, Hatred (enemy Wizards + Orcs & Goblins)"
+        "name_es": "Order of the Fiery Heart, Formación Cerrada, Contracarga, Entrenado, Primera Carga, Círculo Interior, Zancada Veloz, Veterano, Hatred (enemy Wizards + Orcs & Goblins)",
+        "name_pl": "Zakon Ognistego Serca, Zwarty Szyk, Przeciwnatarcie, Drilled, Pierwsza Szarża, Inner Circle, Szybki Krok, Veteran, Nienawiść (enemy Wizards + Orki & Gobliny)"
       },
       "notes": {
         "name_en": "0-1 unit of Inner Circle Knights of the Fiery Heart",
         "name_cn": "0-1个单位的燃烧之心内环骑士",
         "name_de": "0-1 Einheit Ritter des Inneren Zirkels des Flammenden Herzens",
         "name_fr": "0-1 unité de Chevaliers du Cœur Ardent du Cercle Intérieur",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": "0-1 jednostka of Inner Circle Rycerze of the Fiery Heart"
       }
     },
     {
@@ -7523,6 +7908,7 @@
           "name_de": "Demigreifen-Rittmeister (Champion)",
           "name_fr": "Précepteur Demigriffon (champion)",
           "name_es": "Preceptor en Semigrifos (campeón)",
+          "name_pl": "Demigryph Preceptor (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -7541,6 +7927,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "types": [
@@ -7555,6 +7942,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -7588,6 +7976,7 @@
           "name_de": "Schwere Rüstung, Rossharnische",
           "name_fr": "Armure lourde, Caparaçon",
           "name_es": "Armadura pesada, Barding",
+          "name_pl": "Ciężka zbroja, Kapparison",
           "points": 0,
           "perModel": true,
           "active": true
@@ -7598,6 +7987,7 @@
           "name_de": "Plattenrüstung, Rossharnische",
           "name_fr": "Armure de plate complète, Caparaçon",
           "name_es": "Armadura completa, Barding",
+          "name_pl": "Pełna zbroja płytowa, Kapparison",
           "points": 5,
           "perModel": true
         }
@@ -7611,7 +8001,8 @@
         "name_cn": "紧密阵型, 反制冲锋, 先行冲锋, 恐惧, 快速行进",
         "name_de": "Geschlossene Ränge, Gegenangriff, Erster Angriff, Angst, Schnelle Bewegung",
         "name_fr": "Ordre Serré, Contre-charge, Première Charge, Peur, Rapide",
-        "name_es": "Formación Cerrada, Contracarga, Primera Carga, Miedo, Zancada Veloz"
+        "name_es": "Formación Cerrada, Contracarga, Primera Carga, Miedo, Zancada Veloz",
+        "name_pl": "Zwarty Szyk, Przeciwnatarcie, Pierwsza Szarża, Strach, Szybki Krok"
       }
     },
     {
@@ -7631,7 +8022,8 @@
             "name_cn": "0-1个单位的猎豹半狮鹫骑士",
             "name_de": "0-1 Einheit Demigreifen-Pantherritter",
             "name_fr": "0-1 unité de Chevaliers Panthères Demigriffon",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of Demigryph Rycerze Panther"
           }
         },
         "knightly-order-panther": {
@@ -7647,6 +8039,7 @@
           "name_de": "Demigreifen-Rittmeister (Champion)",
           "name_fr": "Précepteur Demigriffon (champion)",
           "name_es": "Preceptor en Semigrifos (campeón)",
+          "name_pl": "Demigryph Preceptor (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -7665,6 +8058,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "types": [
@@ -7679,6 +8073,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -7702,6 +8097,7 @@
           "name_de": "Schwere Rüstung, Rossharnische",
           "name_fr": "Armure lourde, Caparaçon",
           "name_es": "Armadura pesada, Barding",
+          "name_pl": "Ciężka zbroja, Kapparison",
           "points": 0,
           "perModel": true,
           "active": true
@@ -7712,6 +8108,7 @@
           "name_de": "Plattenrüstung, Rossharnische",
           "name_fr": "Armure de plate complète, Caparaçon",
           "name_es": "Armadura completa, Barding",
+          "name_pl": "Pełna zbroja płytowa, Kapparison",
           "points": 5,
           "perModel": true
         }
@@ -7725,7 +8122,8 @@
         "name_cn": "猎豹骑士团, 紧密阵型, 反制冲锋, 先行冲锋, 恐惧, 快速行进, 仇恨(混沌勇士 + 野兽人嘶叫兽群 + 恶魔模型)",
         "name_de": "Orden der Pantherritter, Geschlossene Ränge, Gegenangriff, Erster Angriff, Angst, Schnelle Bewegung, IHass (Krieger des Chaos, Tiermenschen und Dämonen)",
         "name_fr": "Ordre des Chevaliers Panthères, Ordre Serré, Contre-charge, Première Charge, Peur, Rapide, Haine (figurines des Guerriers du Chaos, des Braillehardes Hommes-Bêtes et Démoniaques)",
-        "name_es": "Order of the Knights Panther, Formación Cerrada, Contracarga, Primera Carga, Miedo, Zancada Veloz, Hatred (Warriors of Chaos + Beastmen Brayherds + Daemonic models)"
+        "name_es": "Order of the Knights Panther, Formación Cerrada, Contracarga, Primera Carga, Miedo, Zancada Veloz, Hatred (Warriors of Chaos + Beastmen Brayherds + Daemonic models)",
+        "name_pl": "Zakon Rycerzy Pantery, Zwarty Szyk, Przeciwnatarcie, Pierwsza Szarża, Strach, Szybki Krok, Nienawiść (Wojownicy of Chaos + Stada Zwierzoludzi + Daemonic modele)"
       }
     },
     {
@@ -7745,7 +8143,8 @@
             "name_cn": "0-1个单位的白狼半狮鹫骑士",
             "name_de": "0-1 Einheit Demigreifenritter des Weißen Wolfs\"",
             "name_fr": "0-1 unité de Chevaliers du Loup Blanc Demigriffon",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of Demigryph Rycerze of the Biały Wilk"
           }
         },
         "knightly-order-white-wolf": {
@@ -7761,6 +8160,7 @@
           "name_de": "Demigreifen-Rittmeister (Champion)",
           "name_fr": "Précepteur Demigriffon (champion)",
           "name_es": "Preceptor en Semigrifos (campeón)",
+          "name_pl": "Demigryph Preceptor (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -7779,6 +8179,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "types": [
@@ -7793,6 +8194,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -7826,6 +8228,7 @@
           "name_de": "Schwere Rüstung, Rossharnische",
           "name_fr": "Armure lourde, Caparaçon",
           "name_es": "Armadura pesada, Barding",
+          "name_pl": "Ciężka zbroja, Kapparison",
           "points": 0,
           "perModel": true,
           "active": true
@@ -7836,6 +8239,7 @@
           "name_de": "Plattenrüstung, Rossharnische",
           "name_fr": "Armure de plate complète, Caparaçon",
           "name_es": "Armadura completa, Barding",
+          "name_pl": "Pełna zbroja płytowa, Kapparison",
           "points": 5,
           "perModel": true
         }
@@ -7849,7 +8253,8 @@
         "name_cn": "白狼骑士团, 紧密阵型, 反制冲锋, 先行冲锋, 恐惧, 快速行进, 狂怒冲锋",
         "name_de": "Orden des Weißen Wolfs, Geschlossene Ränge, Gegenangriff, Erster Angriff, Angst, Schnelle Bewegung, Rasender Angriff",
         "name_fr": "Ordre du Loup Blanc, Ordre Serré, Contre-charge, Première Charge, Peur, Rapide, Charge Dévastatrice",
-        "name_es": "Order of the White Wolf, Formación Cerrada, Contracarga, Primera Carga, Miedo, Zancada Veloz, Furious Charge"
+        "name_es": "Order of the White Wolf, Formación Cerrada, Contracarga, Primera Carga, Miedo, Zancada Veloz, Furious Charge",
+        "name_pl": "Zakon Białego Wilka, Zwarty Szyk, Przeciwnatarcie, Pierwsza Szarża, Strach, Szybki Krok, Wściekła Szarża"
       }
     },
     {
@@ -7869,7 +8274,8 @@
             "name_cn": "0-1个单位的焰阳半狮鹫骑士",
             "name_de": "0-1 Einheit Demigreifenritter des Sonnenordens",
             "name_fr": "0-1 unité de Chevaliers du Soleil Demigriffon",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of Demigryph Rycerze of the Blazing Słoneczny"
           }
         },
         "knightly-order-blazing-sun": {
@@ -7885,6 +8291,7 @@
           "name_de": "Demigreifen-Rittmeister (Champion)",
           "name_fr": "Précepteur Demigriffon (champion)",
           "name_es": "Preceptor en Semigrifos (campeón)",
+          "name_pl": "Demigryph Preceptor (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -7903,6 +8310,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "types": [
@@ -7917,6 +8325,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -7950,6 +8359,7 @@
           "name_de": "Schwere Rüstung, Rossharnische",
           "name_fr": "Armure lourde, Caparaçon",
           "name_es": "Armadura pesada, Barding",
+          "name_pl": "Ciężka zbroja, Kapparison",
           "points": 0,
           "perModel": true,
           "active": true
@@ -7960,6 +8370,7 @@
           "name_de": "Plattenrüstung, Rossharnische",
           "name_fr": "Armure de plate complète, Caparaçon",
           "name_es": "Armadura completa, Barding",
+          "name_pl": "Pełna zbroja płytowa, Kapparison",
           "points": 5,
           "perModel": true
         }
@@ -7973,7 +8384,8 @@
         "name_cn": "焰阳骑士团, 紧密阵型, 反制冲锋, 先行冲锋, 恐惧, 快速行进, 闪避, 火焰攻击",
         "name_de": "Sonnenorden, Geschlossene Ränge, Gegenangriff, Erster Angriff, Angst, Schnelle Bewegung, Ausweichen, Flammenattacken",
         "name_fr": "Ordre du Soleil, Ordre Serré, Contre-charge, Première Charge, Peur, Rapide, Esquiveur, Attaques Enflammées",
-        "name_es": "Order of the Blazing Sun, Formación Cerrada, Contracarga, Primera Carga, Miedo, Zancada Veloz, Evasive, Flaming Attacks"
+        "name_es": "Order of the Blazing Sun, Formación Cerrada, Contracarga, Primera Carga, Miedo, Zancada Veloz, Evasive, Flaming Attacks",
+        "name_pl": "Zakon Płonącego Słońca, Zwarty Szyk, Przeciwnatarcie, Pierwsza Szarża, Strach, Szybki Krok, Evasive, Flaming Attacks"
       }
     },
     {
@@ -7993,7 +8405,8 @@
             "name_cn": "0-1个单位的莫尔半狮鹫骑士",
             "name_de": "0-1 Einheit Demigreifenritter des Morr",
             "name_fr": "0-1 unité de Chevaliers de Morr Demigriffon",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of Demigryph Rycerze of Morr"
           }
         },
         "knightly-order-morr": {
@@ -8009,6 +8422,7 @@
           "name_de": "Demigreifen-Rittmeister (Champion)",
           "name_fr": "Précepteur Demigriffon (champion)",
           "name_es": "Preceptor en Semigrifos (campeón)",
+          "name_pl": "Demigryph Preceptor (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -8027,6 +8441,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "types": [
@@ -8041,6 +8456,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -8074,6 +8490,7 @@
           "name_de": "Schwere Rüstung, Rossharnische",
           "name_fr": "Armure lourde, Caparaçon",
           "name_es": "Armadura pesada, Barding",
+          "name_pl": "Ciężka zbroja, Kapparison",
           "points": 0,
           "perModel": true,
           "active": true
@@ -8084,6 +8501,7 @@
           "name_de": "Plattenrüstung, Rossharnische",
           "name_fr": "Armure de plate complète, Caparaçon",
           "name_es": "Armadura completa, Barding",
+          "name_pl": "Pełna zbroja płytowa, Kapparison",
           "points": 5,
           "perModel": true
         }
@@ -8097,7 +8515,8 @@
         "name_cn": "莫尔骑士团, 紧密阵型, 反制冲锋, 先行冲锋, 恐惧, 快速行进, 仇恨(亡灵模型)",
         "name_de": "Orden der Ritter des Morr, Geschlossene Ränge, Gegenangriff, Erster Angriff, Angst, Schnelle Bewegung, Hass (Untote)",
         "name_fr": "Ordre des Chevaliers de Morr, Ordre Serré, Contre-charge, Première Charge, Peur, Rapide, Haine (figurines Mortes-vivantes))",
-        "name_es": "Order of the Knights of Morr, Formación Cerrada, Contracarga, Primera Carga, Miedo, Zancada Veloz, Hatred (Undead models)"
+        "name_es": "Order of the Knights of Morr, Formación Cerrada, Contracarga, Primera Carga, Miedo, Zancada Veloz, Hatred (Undead models)",
+        "name_pl": "Zakon Rycerzy Morra, Zwarty Szyk, Przeciwnatarcie, Pierwsza Szarża, Strach, Szybki Krok, Nienawiść (Undead modele)"
       }
     },
     {
@@ -8117,7 +8536,8 @@
             "name_cn": "0-1个单位的猎豹半狮鹫骑士",
             "name_de": "0-1 Einheit Demigreifenritter des Flammenden Herzens",
             "name_fr": "0-1 unité de Chevaliers Panthères Demigriffon",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka of Demigryph Rycerze Panther"
           }
         },
         "knightly-order-fiery-heart": {
@@ -8133,6 +8553,7 @@
           "name_de": "Demigreifen-Rittmeister (Champion)",
           "name_fr": "Précepteur Demigriffon (champion)",
           "name_es": "Preceptor en Semigrifos (campeón)",
+          "name_pl": "Demigryph Preceptor (czempion)",
           "points": 7,
           "magic": {
             "types": [
@@ -8151,6 +8572,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
             "types": [
@@ -8165,6 +8587,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 7
         }
       ],
@@ -8198,6 +8621,7 @@
           "name_de": "Schwere Rüstung, Rossharnische",
           "name_fr": "Armure lourde, Caparaçon",
           "name_es": "Armadura pesada, Barding",
+          "name_pl": "Ciężka zbroja, Kapparison",
           "points": 0,
           "perModel": true,
           "active": true
@@ -8208,6 +8632,7 @@
           "name_de": "Plattenrüstung, Rossharnische",
           "name_fr": "Armure de plate complète, Caparaçon",
           "name_es": "Armadura completa, Barding",
+          "name_pl": "Pełna zbroja płytowa, Kapparison",
           "points": 5,
           "perModel": true
         }
@@ -8221,7 +8646,8 @@
         "name_cn": "燃烧之心骑士团, 紧密阵型, 反制冲锋, 先行冲锋, 恐惧, 快速行进, 仇恨(敌方法师 + 兽人 & 地精)",
         "name_de": "Orden der Flammenden Herzens, Geschlossene Ränge, Gegenangriff, Erster Angriff, Angst, Schnelle Bewegung, Hass (feindliche Zauberer und Orks & Goblins)",
         "name_fr": "Ordre du Cœur Ardent, Ordre Serré, Contre-charge, Première Charge, Peur, Rapide, Haine (Sorciers ennemis, Orques & Gobelins)",
-        "name_es": "Order of the Fiery Heart, Formación Cerrada, Contracarga, Primera Carga, Miedo, Zancada Veloz, Hatred (enemy Wizards + Orcs & Goblins)"
+        "name_es": "Order of the Fiery Heart, Formación Cerrada, Contracarga, Primera Carga, Miedo, Zancada Veloz, Hatred (enemy Wizards + Orcs & Goblins)",
+        "name_pl": "Zakon Ognistego Serca, Zwarty Szyk, Przeciwnatarcie, Pierwsza Szarża, Strach, Szybki Krok, Nienawiść (enemy Wizards + Orki & Gobliny)"
       }
     }
   ],
@@ -8243,7 +8669,8 @@
             "name_cn": "每1000分0-1 单位",
             "name_de": "0-1 Einheit pro 1.000 Punkte",
             "name_fr": "0-1 unité par tranche de 1000 points",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 jednostka na 1000 punktów"
           }
         },
         "city-state-of-nuln": {
@@ -8259,13 +8686,15 @@
           "name_de": "Hauptmann (Champion)",
           "name_fr": "Capitaine (champion)",
           "name_es": "Captain (campeón)",
+          "name_pl": "Kapitan (czempion)",
           "points": 6,
           "notes": {
             "name_en": "Brace of pistols are included in the cost if the unit is armed with them",
             "name_cn": "Brace of pistols are included in the cost if the unit is armed with them",
             "name_de": "Brace of pistols are included in the cost if the unit is armed with them",
             "name_fr": "Avoir Plusieurs pistolets est inclus dans le coût de l'unité si elle en est équipée",
-            "name_es": "Brace of pistols are included in the cost if the unit is armed with them"
+            "name_es": "Brace of pistols are included in the cost if the unit is armed with them",
+            "name_pl": "Brace of pistols are zawiera w the cost jeśli the jednostka is armed z them"
           },
           "options": [
             {
@@ -8274,6 +8703,7 @@
               "name_de": "Armbrust",
               "name_fr": "Arbalète",
               "name_es": "Ballesta",
+              "name_pl": "Kusza",
               "points": 0,
               "exclusive": true,
               "active": true
@@ -8284,6 +8714,7 @@
               "name_de": "Pistolenpaar",
               "name_fr": "Plusieurs pistolets",
               "name_es": "Ristra de pistolas",
+              "name_pl": "Para pistoletów",
               "points": 2,
               "exclusive": true
             },
@@ -8293,6 +8724,7 @@
               "name_de": "Bündelpistole",
               "name_fr": "Pistolet à répétition",
               "name_es": "Pistola de repetición",
+              "name_pl": "Powtarzalny pistolet",
               "points": 2,
               "exclusive": true
             }
@@ -8304,6 +8736,7 @@
           "name_de": "Musiker",
           "name_fr": "Musicien",
           "name_es": "Músico",
+          "name_pl": "Muzyk",
           "points": 6
         }
       ],
@@ -8337,6 +8770,7 @@
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "name_es": "Armadura pesada",
+          "name_pl": "Ciężka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -8396,14 +8830,16 @@
         "name_cn": "快速骑兵, 游击, 开放阵型, 散兵, 快速行进",
         "name_de": "Wendige Kavallerie, Schießen und Verschwinden, Offene Ränge, Plänkler, Schnelle Bewegung",
         "name_fr": "Cavalerie Rapide, Tir & Fuite, Ordre Dispersé, Tirailleurs, Rapide",
-        "name_es": "Fast Cavalry, Fire & Flee, Open Order, Skirmishers, Swiftstride"
+        "name_es": "Fast Cavalry, Fire & Flee, Open Order, Skirmishers, Swiftstride",
+        "name_pl": "Szybka Kawaleria, Ogień I Odwrót, Luźny Szyk, Harcownicy, Szybki Krok"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -8426,7 +8862,8 @@
             "name_cn": "每1000分从以下列表中选择0-2台战争机器： 地狱连环炮, 地狱风暴火箭炮, 每1000分0-1蒸汽坦克",
             "name_de": "0-2 Kriegsmaschine pro 1.000 Punkte aus der folgenden Liste: Höllenfeuer-Salvenkanone, Höllensturm-Raketenlafette, 0-1 Dampfpanzer pro 1.000 Punkte",
             "name_fr": "0-2 machines de guerre choisies dans la liste suivante par tranche de 1000 points: Canon à Répétition Feu d'Enfer, Batterie Tonnerre de Feu, 0-1 Tank à Vapeur par tranche de 1000 points",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-2 machiny wojenne chosen z the following list na 1000 punktów: Helblaster Volley Gun, Helstorm Rocket Battery, 0-1 Steam Tank na 1000 punktów"
           }
         }
       },
@@ -8440,7 +8877,7 @@
           "name_es": "Cañón de vapor, Arma de vapor",
           "points": 0,
           "active": true,
-          "name_pl": "Parowa Armata, Parowe działo {imperium}"
+          "name_pl": "Parowa Armata, Parowe działo {empire}"
         }
       ],
       "armor": [],
@@ -8484,14 +8921,16 @@
         "name_cn": "紧密阵型, 碾碎车轮, 心理免疫, 撞击(D6+1), 大型目标, 蒸汽动力, 践踏攻击(D3+1), 极不稳定, 惊骇, 永不战败",
         "name_de": "Geschlossene Ränge, Mahlende Räder, Immung gegen Psychologie, Aufpralltreffer (W6+1), Großes Ziel, Dampfkraft, Stampfattacken (W3+1), Launisch, Entsetzen, Unerschütterlich",
         "name_fr": "Ordre Serré, Roues Broyeuses, Immunisé à la Psychologie, Touches d'Impact (D6+1), Grande Cible, Propulsion à Vapeur, Attaques de Piétinement (D3+1), Susceptible, Terreur, Indémoralisable",
-        "name_es": "Formación Cerrada, Machacar Bajo Ruedas, Inmune a la Psicología, Impactos por Carga (D6+1), Objetivo Grande, Potencia de Vapor, Golpetazo (D3+1), Temperamental, Terror, Indesmoralizable"
+        "name_es": "Formación Cerrada, Machacar Bajo Ruedas, Inmune a la Psicología, Impactos por Carga (D6+1), Objetivo Grande, Potencia de Vapor, Golpetazo (D3+1), Temperamental, Terror, Indesmoralizable",
+        "name_pl": "Zwarty Szyk, Grinding Wheels, Odporność Na Psychologię, Uderzenia Impetu (D6+1), Duży Cel, Steam Power, Zdeptanie (D3+1), Temperamental, Terror, Niezłomni"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -8520,6 +8959,7 @@
           "name_de": "Untergangsprophet (Champion)",
           "name_fr": "Prophète (champion)",
           "name_es": "Profeta de la Perdión (campeón)",
+          "name_pl": "Prophet Doom (champion)",
           "points": 7
         },
         {
@@ -8528,6 +8968,7 @@
           "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "name_es": "Portaestandarte",
+          "name_pl": "Sztandarowy",
           "points": 7
         }
       ],
@@ -8554,14 +8995,16 @@
         "name_cn": "紧密阵型, 狂热激情, 不觉疼痛, 狂怒冲锋, 心理免疫, 鲁莽, 仇恨(所有敌人), 永不战败",
         "name_de": "Geschlossene Ränge, Fanatischer Eifer, Verletzungen ignorieren, Rasender Angriff, Immung gegen Psychologie, Ungestüm, Hass (alle Feinde), Unerschütterlich",
         "name_fr": "Ordre Serré, Zèle Fanatique, Insensibles à la Douleur, Charge Dévastatrice, Immunisé à la Psychologie, Impétueux, Haine (Tous les ennemis), Indémoralisable",
-        "name_es": "Formación Cerrada, Fervor Fanático, No Hay Dolor, Carga Devastadora, Inmune a la Psicología, Impetuoso, Odio (a todos los enemigos), Indesmoralizable"
+        "name_es": "Formación Cerrada, Fervor Fanático, No Hay Dolor, Carga Devastadora, Inmune a la Psicología, Impetuoso, Odio (a todos los enemigos), Indesmoralizable",
+        "name_pl": "Zwarty Szyk, Fanatical Zeal, Feel No Pain, Wściekła Szarża, Odporność Na Psychologię, Impet, Nienawiść (all enemies), Niezłomni"
       },
       "notes": {
         "name_en": "",
         "name_cn": "",
         "name_de": "",
         "name_fr": "",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": ""
       }
     },
     {
@@ -8584,7 +9027,8 @@
             "name_cn": "每1000分从以下列表中选择0-2台战争机器： 地狱连环炮, 地狱风暴火箭炮, 每1000分0-1蒸汽坦克",
             "name_de": "0-2 Kriegsmaschine pro 1.000 Punkte aus der folgenden Liste: Höllenfeuer-Salvenkanone, Höllensturm-Raketenlafette, 0-1 Dampfpanzer pro 1.000 Punkte",
             "name_fr": "0-2 machines de guerre choisies dans la liste suivante par tranche de 1000 points: Canon à Répétition Feu d'Enfer, Batterie Tonnerre de Feu, 0-1 Tank à Vapeur par tranche de 1000 points",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-2 machiny wojenne chosen z the following list na 1000 punktów: Helblaster Volley Gun, Helstorm Rocket Battery, 0-1 Steam Tank na 1000 punktów"
           }
         }
       },
@@ -8598,7 +9042,7 @@
           "name_es": "Helblaster Volley Gun, Armas de mano",
           "points": 0,
           "active": true,
-          "name_pl": "Helblaster Salwowe Działo {broń}, Broń ręczna"
+          "name_pl": "Helblaster Salwowe Działo {weapon}, Broń ręczna"
         }
       ],
       "armor": [],
@@ -8616,7 +9060,8 @@
             "name_cn": "每1000分0-1 war machine",
             "name_de": "0-1 Kriegsmaschine pro 1.000 Punkte",
             "name_fr": "0-1 machine de guerre par tranche de 1000 points",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 machina wojenna na 1000 punktów"
           },
           "name_pl": "Weteran, Awangarda"
         }
@@ -8627,14 +9072,16 @@
         "name_cn": "散兵",
         "name_de": "Plänkler",
         "name_fr": "Tirailleurs",
-        "name_es": "Hostigadores"
+        "name_es": "Hostigadores",
+        "name_pl": "Harcownicy"
       },
       "notes": {
         "name_en": "0-1 war machine chosen from the following list per 1000 points: Helblaster Volley Gun, Helstorm Rocket Battery",
         "name_cn": "每1000分从以下列表中选择0-1台战争机器： 地狱连环炮, 地狱风暴火箭炮",
         "name_de": "0-1 Kriegsmaschine pro 1.000 Punkte aus der folgenden Liste: Höllenfeuer-Salvenkanone, Höllensturm-Raketenlafette",
         "name_fr": "0-1 machine de guerre choisie dans la liste suivante par tranche de 1000 points: Canon à Répétition Feu d'Enfer, Batterie Tonnerre de Feu",
-        "name_es": "0-1 máquinas de guerra de la siguiente lista por cada 1.000 puntos: Cañón de Salvas Helblaster, Batería de Cohetes HelStorm"
+        "name_es": "0-1 máquinas de guerra de la siguiente lista por cada 1.000 puntos: Cañón de Salvas Helblaster, Batería de Cohetes HelStorm",
+        "name_pl": "0-1 machina wojenna chosen z the following list na 1000 punktów: Helblaster Volley Gun, Helstorm Rocket Battery"
       }
     },
     {
@@ -8657,7 +9104,8 @@
             "name_cn": "每1000分从以下列表中选择0-2台战争机器： 地狱连环炮, 地狱风暴火箭炮, 每1000分0-1蒸汽坦克",
             "name_de": "0-2 Kriegsmaschine pro 1.000 Punkte aus der folgenden Liste: Höllenfeuer-Salvenkanone, Höllensturm-Raketenlafette, 0-1 Dampfpanzer pro 1.000 Punkte",
             "name_fr": "0-2 machines de guerre choisies dans la liste suivante par tranche de 1000 points: Canon à Répétition Feu d'Enfer, Batterie Tonnerre de Feu, 0-1 Tank à Vapeur par tranche de 1000 points",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-2 machiny wojenne chosen z the following list na 1000 punktów: Helblaster Volley Gun, Helstorm Rocket Battery, 0-1 Steam Tank na 1000 punktów"
           }
         }
       },
@@ -8671,7 +9119,7 @@
           "name_es": "Helstorm Rocket Battery, Armas de mano",
           "points": 0,
           "active": true,
-          "name_pl": "Helstorm Bateria Rakiet {broń}, Broń ręczna"
+          "name_pl": "Helstorm Bateria Rakiet {weapon}, Broń ręczna"
         }
       ],
       "armor": [],
@@ -8689,7 +9137,8 @@
             "name_cn": "每1000分0-1战争机器",
             "name_de": "0-1 Kriegsmaschine pro 1.000 Punkte",
             "name_fr": "0-1 machine de guerre par tranche de 1000 points",
-            "name_es": ""
+            "name_es": "",
+            "name_pl": "0-1 machina wojenna na 1000 punktów"
           },
           "name_pl": "Weteran, Awangarda"
         }
@@ -8700,14 +9149,16 @@
         "name_cn": "散兵",
         "name_de": "Plänkler",
         "name_fr": "Tirailleurs",
-        "name_es": "Hostigadores"
+        "name_es": "Hostigadores",
+        "name_pl": "Harcownicy"
       },
       "notes": {
         "name_en": "0-1 war machine chosen from the following list per 1000 points: Helblaster Volley Gun, Helstorm Rocket Battery",
         "name_cn": "每1000分从以下列表中选择0-1台战争机器： 地狱连环炮, 地狱风暴火箭炮",
         "name_de": "0-1 Kriegsmaschine pro 1.000 Punkte aus der folgenden Liste: Höllenfeuer-Salvenkanone, Höllensturm-Raketenlafette",
         "name_fr": "0-1 machine de guerre choisie dans la liste suivante par tranche de 1000 points: Canon à Répétition Feu d'Enfer, Batterie Tonnerre de Feu",
-        "name_es": "0-1 máquinas de guerra de la siguiente lista por cada 1.000 puntos: Cañón de Salvas Helblaster, Batería de Cohetes HelStorm"
+        "name_es": "0-1 máquinas de guerra de la siguiente lista por cada 1.000 puntos: Cañón de Salvas Helblaster, Batería de Cohetes HelStorm",
+        "name_pl": "0-1 machina wojenna chosen z the following list na 1000 punktów: Helblaster Volley Gun, Helstorm Rocket Battery"
       }
     }
   ],
@@ -8718,6 +9169,7 @@
       "name_de": "Imperiale Oger",
       "name_fr": "Ogres Impériaux",
       "name_es": "Imperial Ogres",
+      "name_pl": "Imperial Ogry",
       "id": "imperial-ogres",
       "points": 31,
       "minimum": 3,
@@ -8729,6 +9181,7 @@
           "name_de": "Oger-Hauptmann (Champion)",
           "name_fr": "Capitaine (champion)",
           "name_es": "Captain (campeón)",
+          "name_pl": "Kapitan (czempion)",
           "points": 7
         }
       ],
@@ -8739,6 +9192,7 @@
           "name_de": "Handwaffen",
           "name_fr": "Armes de base",
           "name_es": "Armas de mano",
+          "name_pl": "Broń Ręczna",
           "points": 0,
           "perModel": true,
           "active": true
@@ -8751,6 +9205,7 @@
           "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "name_es": "Armadura ligera",
+          "name_pl": "Lekka Zbroja",
           "points": 0,
           "perModel": true,
           "active": true
@@ -8761,6 +9216,7 @@
           "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "name_es": "Armadura pesada",
+          "name_pl": "Ciężka Zbroja",
           "points": 3,
           "perModel": true
         }
@@ -8771,6 +9227,7 @@
           "name_cn": "重型武器",
           "name_de": "Zweihandwaffen",
           "name_fr": "Armes lourdes",
+          "name_pl": "Broń Wielka",
           "points": 4,
           "stackable": true
         },
@@ -8779,6 +9236,7 @@
           "name_cn": "晨星锤",
           "name_de": "Morgensterne",
           "name_fr": "Morgenstern",
+          "name_pl": "Gwiazdy poranne",
           "points": 2,
           "stackable": true
         },
@@ -8787,6 +9245,7 @@
           "name_en": "Light cannons",
           "name_cn": "轻型加农炮",
           "name_fr": "Canons légers",
+          "name_pl": "Lekkie armaty",
           "points": 8,
           "stackable": true
         },
@@ -8795,6 +9254,7 @@
           "name_en": "Ogre pistols",
           "name_cn": "食人魔手枪",
           "name_fr": "Pistolets Ogres",
+          "name_pl": "Ogr pistols",
           "points": 5,
           "stackable": true
         }
@@ -8807,14 +9267,16 @@
         "name_cn": "碎甲攻击(1), 紧密阵型, 恐惧, 撞击(1), 佣兵, 散兵游勇, 食人魔冲锋",
         "name_de": "Rüstungsfluch (1), Geschlossene Ränge, Angst, Aufpralltreffer (1), Söldner, Zusammengewürfelter Haufen, Ogerangriff",
         "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Touches d'Impact (1), Mercenaires, Bande Hétéroclite, Charge Ogre",
-        "name_es": "Armour Bane (1), Close Order, Fear, Impact Hits (1), Mercenaries, Motley Crew, Ogre Charge"
+        "name_es": "Armour Bane (1), Close Order, Fear, Impact Hits (1), Mercenaries, Motley Crew, Ogre Charge",
+        "name_pl": "Przebicie Zbroi (1), Zwarty Szyk, Strach, Uderzenia Impetu (1), Mercenaries, Zbieranina, Ogr Charge"
       },
       "notes": {
         "name_en": "0-1 unit of Imperial Ogres may be taken as Mercenaries",
         "name_cn": "0-1个单位的帝国食人魔可作为佣兵选择",
         "name_de": "0-1 Einheit Imperiale Oger können als Söldner gewählt werden",
         "name_fr": "0-1 unité de Ogres Impériaux peuvent être pris comme Mercenaires",
-        "name_es": ""
+        "name_es": "",
+        "name_pl": "0-1 jednostka of Imperial Ogry może be taken jako Mercenaries"
       }
     }
   ],
