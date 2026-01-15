@@ -378,6 +378,28 @@ const TRANSLATIONS = {
   "Kong Ming Sky Lantern": "Latarnia Nieba Kong Ming",
   "Terracotta Sentinel (Sword)": "Terakotowy Wartownik (Miecz)",
 
+  // ===== WOOD ELF REALMS (Additional units) =====
+  "Deepwood Hound": "Pies z Głębokiego Lasu",
+  "Forest Cat": "Leśny Kot",
+  "Sylvan Boar": "Leśny Dzik",
+  "Bear of Loren": "Niedźwiedź Lorenu",
+
+  // ===== RENEGADE CROWNS =====
+  "Renegade Prince": "Książę Renegat",
+  "Renegade Captain": "Kapitan Renegat",
+  "Outcast Wizard": "Czarodziej Wyrzutek",
+  "Sellsword Infantry": "Najemna Piechota",
+  "Veteran Sellswords": "Weterani Najemni",
+  "Freeblade Knights": "Rycerze Wolnego Ostrza",
+  "Hireling Outriders": "Najemni Zwiadowcy",
+  "Free Company Militia": "Milicja Wolnej Kompanii",
+  "Empire Archers": "Łucznicy Imperium",
+  "Veteran Freeblades": "Weterani Wolnego Ostrza",
+  "Border Princes Mortar": "Moździerz Książąt Pogranicza",
+  "Border Princes Brigands": "Bandyci Książąt Pogranicza",
+  "Border Princes Organ Gun": "Armata Organowa Książąt Pogranicza",
+  "Border Princes Bombard": "Bombarda Książąt Pogranicza",
+
   // Common terms across armies
   "General": "Generał",
   "Battle Standard Bearer": "Nosiciel Sztandaru Bitewnego",

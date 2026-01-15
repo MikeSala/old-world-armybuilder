@@ -208,7 +208,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_pl": "Magiczne przedmioty",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100
         },
@@ -218,7 +223,9 @@
           "name_de": "Naturgeister",
           "name_fr": "Fiel-follets des Forêts",
           "name_pl": "Leśne duchy",
-          "types": ["forest-spite"],
+          "types": [
+            "forest-spite"
+          ],
           "selected": [],
           "maxPoints": 50
         },
@@ -228,7 +235,9 @@
           "name_de": "Kindreds",
           "name_fr": "Clans",
           "name_pl": "Kindreds",
-          "types": ["kindred"],
+          "types": [
+            "kindred"
+          ],
           "selected": []
         }
       ],
@@ -267,7 +276,9 @@
           "name_pl": "Chorąży",
           "points": 25,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           }
         }
@@ -441,7 +452,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_pl": "Magiczne przedmioty",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         },
@@ -451,7 +467,9 @@
           "name_de": "Naturgeister",
           "name_fr": "Fiel-follets des Forêts",
           "name_pl": "Leśne duchy",
-          "types": ["forest-spite"],
+          "types": [
+            "forest-spite"
+          ],
           "selected": [],
           "maxPoints": 50
         },
@@ -461,7 +479,9 @@
           "name_de": "Kindreds",
           "name_fr": "Clans",
           "name_pl": "Kindreds",
-          "types": ["kindred"],
+          "types": [
+            "kindred"
+          ],
           "selected": []
         }
       ],
@@ -606,7 +626,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_pl": "Magiczne przedmioty",
-          "types": ["weapon", "talisman", "arcane-item", "enchanted-item"],
+          "types": [
+            "weapon",
+            "talisman",
+            "arcane-item",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100
         },
@@ -616,7 +641,9 @@
           "name_de": "Naturgeister",
           "name_fr": "Fiel-follets des Forêts",
           "name_pl": "Leśne duchy",
-          "types": ["forest-spite"],
+          "types": [
+            "forest-spite"
+          ],
           "selected": [],
           "maxPoints": 50
         },
@@ -626,7 +653,9 @@
           "name_de": "Kindreds",
           "name_fr": "Clans",
           "name_pl": "Kindreds",
-          "types": ["kindred"],
+          "types": [
+            "kindred"
+          ],
           "selected": []
         }
       ],
@@ -781,7 +810,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_pl": "Magiczne przedmioty",
-          "types": ["weapon", "talisman", "arcane-item", "enchanted-item"],
+          "types": [
+            "weapon",
+            "talisman",
+            "arcane-item",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         },
@@ -791,7 +825,9 @@
           "name_de": "Naturgeister",
           "name_fr": "Fiel-follets des Forêts",
           "name_pl": "Leśne duchy",
-          "types": ["forest-spite"],
+          "types": [
+            "forest-spite"
+          ],
           "selected": [],
           "maxPoints": 50
         },
@@ -801,7 +837,9 @@
           "name_de": "Kindreds",
           "name_fr": "Clans",
           "name_pl": "Kindreds",
-          "types": ["kindred"],
+          "types": [
+            "kindred"
+          ],
           "selected": []
         }
       ],
@@ -871,7 +909,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_pl": "Magiczne przedmioty",
-          "types": ["weapon", "talisman", "arcane-item", "enchanted-item"],
+          "types": [
+            "weapon",
+            "talisman",
+            "arcane-item",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         },
@@ -881,12 +924,18 @@
           "name_de": "Naturgeister",
           "name_fr": "Fiel-follets des Forêts",
           "name_pl": "Leśne duchy",
-          "types": ["forest-spite"],
+          "types": [
+            "forest-spite"
+          ],
           "selected": [],
           "maxPoints": 50
         }
       ],
-      "lores": ["battle-magic", "illusion", "lore-of-the-wilds"],
+      "lores": [
+        "battle-magic",
+        "illusion",
+        "lore-of-the-wilds"
+      ],
       "specialRules": {
         "name_en": "Evasive, Furious Charge, Immune to Psychology, Loner, Move Through Cover, Strike First, Talismanic Tattoos, Troubadour of Loec",
         "name_cn": "闪避, 狂怒冲锋, 心理免疫, 独行, 穿行掩体, 先攻, 护身纹身, 洛伊克赞颂者",
@@ -1018,7 +1067,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_pl": "Magiczne przedmioty",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50
         },
@@ -1028,13 +1082,20 @@
           "name_de": "Naturgeister",
           "name_fr": "Fiel-follets des Forêts",
           "name_pl": "Leśne duchy",
-          "types": ["forest-spite"],
+          "types": [
+            "forest-spite"
+          ],
           "selected": [],
           "maxPoints": 50
         }
       ],
       "magic": {
-        "types": ["weapon", "armor", "talisman", "enchanted-item"],
+        "types": [
+          "weapon",
+          "armor",
+          "talisman",
+          "enchanted-item"
+        ],
         "maxPoints": 100
       },
       "specialRules": {
@@ -1060,7 +1121,11 @@
         },
         "host-of-talsyn": {
           "category": "characters",
-          "lores": ["battle-magic", "elementalism", "lore-of-the-wilds"]
+          "lores": [
+            "battle-magic",
+            "elementalism",
+            "lore-of-the-wilds"
+          ]
         }
       },
       "command": [
@@ -1106,7 +1171,10 @@
         }
       ],
       "mounts": [],
-      "lores": ["battle-magic", "elementalism"],
+      "lores": [
+        "battle-magic",
+        "elementalism"
+      ],
       "items": [
         {
           "name_en": "Forest Spites",
@@ -1114,7 +1182,9 @@
           "name_de": "Naturgeister",
           "name_fr": "Fiel-follets des Forêts",
           "name_pl": "Leśne duchy",
-          "types": ["forest-spite"],
+          "types": [
+            "forest-spite"
+          ],
           "selected": [],
           "maxPoints": 100
         }
@@ -1237,7 +1307,11 @@
         }
       ],
       "mounts": [],
-      "lores": ["battle-magic", "elementalism", "illusion"],
+      "lores": [
+        "battle-magic",
+        "elementalism",
+        "illusion"
+      ],
       "items": [
         {
           "name_en": "Forest Spites",
@@ -1245,7 +1319,9 @@
           "name_de": "Naturgeister",
           "name_fr": "Fiel-follets des Forêts",
           "name_pl": "Leśne duchy",
-          "types": ["forest-spite"],
+          "types": [
+            "forest-spite"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -1383,7 +1459,9 @@
           "name_pl": "Chorąży",
           "points": 25,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           }
         }
@@ -1443,7 +1521,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_pl": "Magiczne przedmioty",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 75
         }
@@ -1486,7 +1569,11 @@
           "name_pl": "Łucznicy",
           "points": 6,
           "magic": {
-            "types": ["weapon", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -1498,7 +1585,9 @@
           "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -1632,7 +1721,11 @@
           "name_pl": "Łucznicy",
           "points": 6,
           "magic": {
-            "types": ["weapon", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -1756,7 +1849,12 @@
           "name_pl": "Wieczna Straż (champion)",
           "points": 5,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 50
           }
         },
@@ -1768,7 +1866,9 @@
           "name_pl": "Sztandarowy",
           "points": 5,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -1872,7 +1972,9 @@
           "name_pl": "Nimfa",
           "points": 5,
           "magic": {
-            "types": ["forest-spite"],
+            "types": [
+              "forest-spite"
+            ],
             "maxPoints": 25
           }
         }
@@ -1951,7 +2053,12 @@
           "name_pl": "Rycerz Polany",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -1963,7 +2070,9 @@
           "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           },
           "notes": {
@@ -2147,7 +2256,12 @@
           "name_pl": "Dziki Łowca",
           "points": 7,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -2159,7 +2273,9 @@
           "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -2257,7 +2373,12 @@
           "name_pl": "Łucznicy",
           "points": 6,
           "magic": {
-            "types": ["weapon", "talisman", "enchanted-item", "armor"],
+            "types": [
+              "weapon",
+              "talisman",
+              "enchanted-item",
+              "armor"
+            ],
             "maxPoints": 25
           }
         },
@@ -2269,7 +2390,9 @@
           "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -2388,7 +2511,12 @@
           "name_pl": "Strażnik Dzikiego Lasu",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 50
           }
         },
@@ -2400,7 +2528,9 @@
           "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -2488,7 +2618,11 @@
           "name_pl": "Pieśniarz Klingi",
           "points": 6,
           "magic": {
-            "types": ["weapon", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -2500,7 +2634,9 @@
           "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -2576,7 +2712,11 @@
           "name_pl": "Służka Ciernia",
           "points": 8,
           "magic": {
-            "types": ["weapon", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -2588,7 +2728,9 @@
           "name_pl": "Sztandarowy",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -2653,7 +2795,12 @@
           "name_pl": "Dziki Łowca",
           "points": 7,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         },
@@ -2665,7 +2812,9 @@
           "name_pl": "Sztandarowy",
           "points": 7,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -2751,7 +2900,11 @@
           "name_pl": "Jeźdzcy Wiatru",
           "points": 8,
           "magic": {
-            "types": ["weapon", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         }
@@ -2875,7 +3028,9 @@
           "name_pl": "Starszy",
           "points": 7,
           "magic": {
-            "types": ["forest-spite"],
+            "types": [
+              "forest-spite"
+            ],
             "maxPoints": 25
           }
         }
@@ -2951,7 +3106,12 @@
           "name_pl": "Watchmaster (Champion)",
           "points": 6,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 50
           }
         },
@@ -2963,7 +3123,9 @@
           "name_pl": "Sztandarowy",
           "points": 5,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -3051,7 +3213,11 @@
           "name_pl": "Wartownik",
           "points": 6,
           "magic": {
-            "types": ["weapon", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 25
           }
         }
@@ -3219,7 +3385,9 @@
           "name_de": "Naturgeister",
           "name_fr": "Fiel-follets des Forêts",
           "name_pl": "Leśne duchy",
-          "types": ["forest-spite"],
+          "types": [
+            "forest-spite"
+          ],
           "selected": [],
           "maxPoints": 50
         }
@@ -3291,6 +3459,7 @@
     },
     {
       "name_en": "Deepwood Hound",
+      "name_pl": "Pies z Głębokiego Lasu",
       "name_cn": "深林猎犬",
       "name_de": "Deepwood Hound",
       "name_es": "Deepwood Hound",
@@ -3333,6 +3502,7 @@
     },
     {
       "name_en": "Forest Cat",
+      "name_pl": "Leśny Kot",
       "name_cn": "森林猫类",
       "name_de": "Forest Cat",
       "name_es": "Forest Cat",
@@ -3375,6 +3545,7 @@
     },
     {
       "name_en": "Sylvan Boar",
+      "name_pl": "Leśny Dzik",
       "name_cn": "丛林野猪",
       "name_de": "Sylvan Boar",
       "name_es": "Sylvan Boar",
@@ -3417,6 +3588,7 @@
     },
     {
       "name_en": "Bear of Loren",
+      "name_pl": "Niedźwiedź Lorenu",
       "name_cn": "洛伦熊",
       "name_de": "Bear of Loren",
       "name_es": "Bear of Loren",

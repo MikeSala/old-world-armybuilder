@@ -2,6 +2,7 @@
   "characters": [
     {
       "name_en": "Renegade Prince",
+      "name_pl": "Książę Renegat",
       "name_cn": "变节亲王",
       "name_de": "Renegade Prince",
       "name_fr": "Renegade Prince",
@@ -340,7 +341,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100,
           "notes": {
@@ -354,7 +360,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100,
           "magicItemsArmy": "kingdom-of-bretonnia",
@@ -369,7 +380,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 100,
           "magicItemsArmy": "empire-of-man",
@@ -396,6 +412,7 @@
     },
     {
       "name_en": "Renegade Captain",
+      "name_pl": "Kapitan Renegat",
       "name_cn": "变节队长",
       "name_de": "Renegade Captain",
       "name_fr": "Renegade Captain",
@@ -429,7 +446,9 @@
             "name_cn": "若为变节骑士或强盗贵族恶名起源则忽略"
           },
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0
           }
         },
@@ -446,7 +465,9 @@
             "name_cn": "仅限变节骑士恶名起源"
           },
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0,
             "magicItemsArmy": "kingdom-of-bretonnia"
           }
@@ -464,7 +485,9 @@
             "name_cn": "仅限强盗贵族恶名起源"
           },
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 0,
             "magicItemsArmy": "empire-of-man"
           }
@@ -791,7 +814,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50,
           "notes": {
@@ -805,7 +833,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50,
           "magicItemsArmy": "kingdom-of-bretonnia",
@@ -819,7 +852,12 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_es": "Objetos Mágicos",
-          "types": ["weapon", "armor", "talisman", "enchanted-item"],
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item"
+          ],
           "selected": [],
           "maxPoints": 50,
           "magicItemsArmy": "empire-of-man",
@@ -839,6 +877,7 @@
     },
     {
       "name_en": "Outcast Wizard",
+      "name_pl": "Czarodziej Wyrzutek",
       "name_cn": "流亡法师",
       "name_de": "Ausgestoßene Zauberer",
       "name_es": "Outcast Wizard",
@@ -1174,6 +1213,7 @@
     {
       "name_de": "Sellsword Infantry",
       "name_en": "Sellsword Infantry",
+      "name_pl": "Najemna Piechota",
       "name_cn": "雇佣步兵",
       "name_fr": "Sellsword Infantry",
       "id": "sellsword-infantry",
@@ -1317,6 +1357,7 @@
     {
       "name_de": "Veteran Sellswords",
       "name_en": "Veteran Sellswords",
+      "name_pl": "Weterani Najemni",
       "name_cn": "资深雇佣步兵",
       "name_fr": "Veteran Sellswords",
       "id": "veteran-sellswords",
@@ -1357,7 +1398,9 @@
           "name_fr": "Porte-étendard",
           "points": 5,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -1498,6 +1541,7 @@
     },
     {
       "name_en": "Freeblade Knights",
+      "name_pl": "Rycerze Wolnego Ostrza",
       "name_cn": "雇佣骑士",
       "name_de": "Freeblade Knights",
       "name_fr": "Freeblade Knights",
@@ -1621,6 +1665,7 @@
     },
     {
       "name_en": "Hireling Outriders",
+      "name_pl": "Najemni Zwiadowcy",
       "name_cn": "受雇先驱骑兵",
       "name_de": "Hireling Outriders",
       "name_fr": "Hireling Outriders",
@@ -1646,7 +1691,9 @@
           "name_es": "Portaestandarte",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -1814,6 +1861,7 @@
     },
     {
       "name_en": "Free Company Militia",
+      "name_pl": "Milicja Wolnej Kompanii",
       "name_cn": "自由联队民兵",
       "name_de": "Freischärler",
       "name_fr": "Milice des Franches Compagnies",
@@ -1876,6 +1924,7 @@
     },
     {
       "name_en": "Empire Archers",
+      "name_pl": "Łucznicy Imperium",
       "name_cn": "帝国弓箭手",
       "name_de": "Imperiale Bogenschützen",
       "name_fr": "Archers de l'Empire",
@@ -1962,6 +2011,7 @@
   "special": [
     {
       "name_en": "Veteran Freeblades",
+      "name_pl": "Weterani Wolnego Ostrza",
       "name_cn": "资深雇佣骑士",
       "name_de": "Veteran Freeblades",
       "name_fr": "Veteran Freeblades",
@@ -1987,7 +2037,9 @@
           "name_es": "Portaestandarte",
           "points": 6,
           "magic": {
-            "types": ["banner"],
+            "types": [
+              "banner"
+            ],
             "maxPoints": 50
           }
         },
@@ -2098,6 +2150,7 @@
     },
     {
       "name_en": "Border Princes Mortar",
+      "name_pl": "Moździerz Książąt Pogranicza",
       "name_cn": "边境亲王领臼炮",
       "name_it": "Border Princes Mortar",
       "name_de": "Border Princes Mortar",
@@ -2136,6 +2189,7 @@
   "rare": [
     {
       "name_en": "Border Princes Brigands",
+      "name_pl": "Bandyci Książąt Pogranicza",
       "name_cn": "边境亲王领盗贼",
       "name_de": "Briganten der Grenzgrafschaften",
       "name_es": "Border Princes Brigands",
@@ -2154,7 +2208,12 @@
           "name_fr": "Desperado (champion)",
           "points": 7,
           "magic": {
-            "types": ["weapon", "armor", "talisman", "enchanted-item"],
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
             "maxPoints": 50
           }
         },
@@ -2350,6 +2409,7 @@
     },
     {
       "name_en": "Border Princes Organ Gun",
+      "name_pl": "Armata Organowa Książąt Pogranicza",
       "name_cn": "边境亲王领风琴炮",
       "name_it": "Border Princes Organ Gun",
       "name_de": "Border Princes Organ Gun",
@@ -2382,6 +2442,7 @@
     },
     {
       "name_en": "Border Princes Bombard",
+      "name_pl": "Bombarda Książąt Pogranicza",
       "name_cn": "边境亲王领轰击炮",
       "name_de": "Bombarde der Grenzgrafschaften",
       "name_es": "Border Princes Bombard",
