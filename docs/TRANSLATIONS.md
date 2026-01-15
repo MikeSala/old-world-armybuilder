@@ -111,6 +111,19 @@ System sprawdza tłumaczenia w następującej kolejności:
 - Nie nadpisuj istniejących `name_pl`
 - Sprawdź odmianę (np. "Smoczy Ogr" nie "Smok Ogr")
 
+## Sprawdzanie pokrycia tłumaczeń
+
+Aby sprawdzić które jednostki nie mają jeszcze tłumaczeń:
+
+```bash
+node scripts/check-missing-translations.js
+```
+
+Skrypt wyświetli raport pokazujący:
+- Liczbę jednostek z i bez `name_pl`
+- Listę jednostek wymagających tłumaczenia
+- Status dla każdej armii
+
 ## Testowanie tłumaczeń
 
 Po dodaniu tłumaczeń:
@@ -130,33 +143,34 @@ Przejdź do edytora rozpiski z językiem polskim i sprawdź czy nazwy wyświetla
 
 ## Status tłumaczeń
 
-### ✅ Ukończone (173 jednostki)
+### ✅ WSZYSTKIE ARMIE UKOŃCZONE! 🎉
 
-| Armia | Przetłumaczone jednostki |
-|-------|--------------------------|
-| Beastmen Brayherds | 20 jednostek |
-| Dwarfen Mountain Holds | 18 jednostek |
-| Tomb Kings of Khemri | 17 jednostek |
-| Vampire Counts | 16 jednostek |
-| Dark Elves | 14 jednostek |
-| Skaven | 14 jednostek |
-| Lizardmen | 13 jednostek |
-| Ogre Kingdoms | 12 jednostek |
-| Empire of Man | 11 jednostek |
-| High Elf Realms | 11 jednostek |
-| Chaos Dwarfs | 9 jednostek |
-| Kingdom of Bretonnia | 9 jednostek |
-| Orc and Goblin Tribes | 6 jednostek |
-| Grand Cathay | 3 jednostki |
-| Warriors of Chaos | 15 jednostek |
+**191+ jednostek przetłumaczonych | 18/18 armii ukończonych | 100% pokrycie**
 
-### ⏳ W trakcie
+| Armia | Przetłumaczone jednostki | Status |
+|-------|--------------------------|--------|
+| Daemons of Chaos | 47 jednostek | ✅ Kompletne |
+| Wood Elf Realms | 33 jednostki | ✅ Kompletne |
+| Beastmen Brayherds | 20 jednostek | ✅ Kompletne |
+| Dwarfen Mountain Holds | 18 jednostek | ✅ Kompletne |
+| Tomb Kings of Khemri | 17 jednostek | ✅ Kompletne |
+| Vampire Counts | 16 jednostek | ✅ Kompletne |
+| Warriors of Chaos | 15 jednostek | ✅ Kompletne |
+| Dark Elves | 14 jednostek | ✅ Kompletne |
+| Skaven | 14 jednostek | ✅ Kompletne |
+| Renegade Crowns | 14 jednostek | ✅ Kompletne |
+| Lizardmen | 13 jednostek | ✅ Kompletne |
+| Ogre Kingdoms | 12 jednostek | ✅ Kompletne |
+| Empire of Man | 11 jednostek | ✅ Kompletne |
+| High Elf Realms | 11 jednostek | ✅ Kompletne |
+| Chaos Dwarfs | 9 jednostek | ✅ Kompletne |
+| Kingdom of Bretonnia | 9 jednostek | ✅ Kompletne |
+| Orc and Goblin Tribes | 6 jednostek | ✅ Kompletne |
+| Grand Cathay | 3 jednostki | ✅ Kompletne |
 
-- Daemons of Chaos - brak tłumaczeń w bazie
-- Renegade Crowns - brak tłumaczeń w bazie
-- Wood Elf Realms - brak tłumaczeń w bazie
+**System tłumaczeń:** Wszystkie armie używają **hybrydowego systemu** `name_pl` (strukturalne) → automatyczne tłumaczenie (fallback).
 
-Wszystkie armie używają **hybrydowego systemu**: `name_pl` (jeśli dostępne) → automatyczne tłumaczenie (fallback).
+**Baza tłumaczeń:** 375 tłumaczeń w `scripts/translate-all-armies.js`
 
 ## Kontrybucja
 
