@@ -4,7 +4,7 @@ import {
   type UnitStatLine,
   normalizeUnitStatKey,
 } from "./index";
-import { translateEnNameToPl, translateEnTextToPl } from "@/lib/i18n/translateEnToPl";
+import { translateEnTextToPl } from "@/lib/i18n/translateEnToPl";
 import type { DataKey } from "@/lib/i18n/data";
 
 export type UnitSearchResult = {
@@ -64,23 +64,24 @@ const createTokens = (line: UnitStatLine): string[] => {
       .forEach((part) => tokens.add(part));
   };
 
-  const pushTranslated = (value: string | null | undefined, mode: "name" | "text") => {
+  const pushTranslated = (value: string | null | undefined) => {
     if (!value) return;
     push(value);
-    const translated = mode === "name" ? translateEnNameToPl(value) : translateEnTextToPl(value);
+    const translated = translateEnTextToPl(value);
     if (translated && translated !== value) {
       push(translated);
     }
   };
 
-  pushTranslated(line.name ?? line.unit ?? null, "name");
-  pushTranslated(line.unit, "name");
-  pushTranslated(line.type ?? null, "text");
-  pushTranslated(line.troopType ?? null, "text");
-  pushTranslated(line.unitCategory ?? null, "text");
+  push(line.name_pl ?? null);
+  push(line.name ?? line.unit ?? null);
+  push(line.unit);
+  pushTranslated(line.type ?? null);
+  pushTranslated(line.troopType ?? null);
+  pushTranslated(line.unitCategory ?? null);
 
   if (Array.isArray(line.aliases)) {
-    line.aliases.forEach((alias) => pushTranslated(alias, "name"));
+    line.aliases.forEach((alias) => push(alias));
   }
 
   return Array.from(tokens);

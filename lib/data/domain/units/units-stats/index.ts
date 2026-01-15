@@ -15,7 +15,6 @@ import tombKings from "./tomb-kings-of-khemri-stats.json";
 import vampireCounts from "./vampire-counts-stats.json";
 import warriorsOfChaos from "./warriors-of-chaos-stats.json";
 import woodElves from "./wood-elves-stats.json";
-import { translateEnNameToPl } from "@/lib/i18n/translateEnToPl";
 
 type StatValue = number | string | null;
 
@@ -82,6 +81,7 @@ export type UnitStatLine = {
   id?: string;
   unit?: string;
   name?: string;
+  name_pl?: string;
   type?: string | null;
   aliases?: string[];
   unitCategory?: string | null;
@@ -140,6 +140,9 @@ const normalizeLine = (value: unknown): UnitStatLine | null => {
     equipment: normalizeStringArray(value.equipment),
     specialRules: normalizeStringArray(value.specialRules),
   };
+
+  const namePl = toOptionalString(value.name_pl);
+  if (namePl) line.name_pl = namePl;
 
   const idValue = toOptionalString(value.id);
   if (idValue) line.id = idValue;
@@ -249,11 +252,6 @@ const registerNames = (
     if (!name) return;
     const key = normalizeUnitStatKey(name);
     if (key) registerKey(map, key, line);
-    const translated = translateEnNameToPl(name);
-    if (translated && translated !== name) {
-      const translatedKey = normalizeUnitStatKey(translated);
-      if (translatedKey) registerKey(map, translatedKey, line);
-    }
   });
 };
 
@@ -265,6 +263,7 @@ export const buildUnitStatIndex = (stats: UnitStatLine[] | undefined) => {
     registerNames(map, line, [
       typeof line.unit === "string" ? line.unit : line.name,
       line.name,
+      line.name_pl,
       line.id,
       ...(line.aliases ?? []),
     ]);
