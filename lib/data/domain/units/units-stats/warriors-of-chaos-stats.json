@@ -4,12 +4,16 @@
   "units": [
     {
       "name": "Aspiring Champion",
+      "name_pl": "Aspirujący Czempion",
       "unitCategory": "Character",
       "troopType": "Heavy Infantry, Character",
       "baseSize": "30 x 30 mm",
       "unitSize": "1",
       "armourValue": "—",
-      "equipment": ["Hand weapon", "Heavy armour"],
+      "equipment": [
+        "Hand weapon",
+        "Heavy armour"
+      ],
       "specialRules": [
         "Chaos Armour (5+)",
         "Ensorcelled Weapons",
@@ -41,6 +45,7 @@
     },
     {
       "name": "Chaos Chariot",
+      "name_pl": "Rydwan Chaosu",
       "unitCategory": "Chariot",
       "troopType": "Heavy Chariot",
       "baseSize": "60 x 100 mm",
@@ -99,6 +104,7 @@
     },
     {
       "name": "Chaos Dragon",
+      "name_pl": "Smok Chaosu",
       "unitCategory": "Monster",
       "troopType": "Behemoth",
       "baseSize": "60 x 100 mm",
@@ -138,6 +144,7 @@
     },
     {
       "name": "Chaos Knights",
+      "name_pl": "Rycerze Chaosu",
       "unitCategory": "Cavalry",
       "troopType": "Heavy Cavalry",
       "baseSize": "30 x 60 mm",
@@ -196,12 +203,16 @@
     },
     {
       "name": "Chaos Lord",
+      "name_pl": "Władca Chaosu",
       "unitCategory": "Character",
       "troopType": "Heavy Infantry, Character",
       "baseSize": "30 x 30 mm",
       "unitSize": "1",
       "armourValue": "—",
-      "equipment": ["Hand weapon", "Full plate armour"],
+      "equipment": [
+        "Hand weapon",
+        "Full plate armour"
+      ],
       "specialRules": [
         "Chaos Armour (5+)",
         "Ensorcelled Weapons",
@@ -235,13 +246,21 @@
     },
     {
       "name": "Chaos Marauders",
+      "name_pl": "Maruderzy Chaosu",
       "unitCategory": "Infantry",
       "troopType": "Regular Infantry",
       "baseSize": "25 x 25 mm",
       "unitSize": "5+",
       "armourValue": "—",
-      "equipment": ["Hand weapon"],
-      "specialRules": ["Close Order", "Mark of Chaos Undivided", "Shieldwall", "Warband"],
+      "equipment": [
+        "Hand weapon"
+      ],
+      "specialRules": [
+        "Close Order",
+        "Mark of Chaos Undivided",
+        "Shieldwall",
+        "Warband"
+      ],
       "profiles": [
         {
           "label": "Chaos Marauder",
@@ -271,12 +290,16 @@
     },
     {
       "name": "Chaos Ogres",
+      "name_pl": "Ogry Chaosu",
       "unitCategory": "Infantry",
       "troopType": "Monstrous Infantry",
       "baseSize": "40 x 40 mm",
       "unitSize": "3-15",
       "armourValue": "—",
-      "equipment": ["Hand weapons", "Heavy armour"],
+      "equipment": [
+        "Hand weapons",
+        "Heavy armour"
+      ],
       "specialRules": [
         "Armour Bane (1)",
         "Close Order",
@@ -314,6 +337,7 @@
     },
     {
       "name": "Chaos Spawn",
+      "name_pl": "Pomiot Chaosu",
       "unitCategory": "Infantry",
       "troopType": "Monstrous Infantry",
       "baseSize": "50 x 50 mm",
@@ -350,13 +374,21 @@
     },
     {
       "name": "Chaos Steed",
+      "name_pl": "Rumak Chaosu",
       "unitCategory": "Mount",
       "troopType": "Heavy Cavalry",
       "baseSize": "30 x 60 mm",
       "unitSize": "1",
       "armourValue": "—",
-      "equipment": ["Iron-shod hooves (counts as a hand weapon)", "Barding"],
-      "specialRules": ["Counter Charge", "First Charge", "Swiftstride"],
+      "equipment": [
+        "Iron-shod hooves (counts as a hand weapon)",
+        "Barding"
+      ],
+      "specialRules": [
+        "Counter Charge",
+        "First Charge",
+        "Swiftstride"
+      ],
       "profiles": [
         {
           "label": "Chaos Steed",
@@ -375,12 +407,17 @@
     },
     {
       "name": "Chaos Trolls",
+      "name_pl": "Trolle Chaosu",
       "unitCategory": "Infantry",
       "troopType": "Monstrous Infantry",
       "baseSize": "40 x 40 mm",
       "unitSize": "1-9",
       "armourValue": "—",
-      "equipment": ["Hand weapons", "Troll vomit", "Calloused hides (counts as light armour)"],
+      "equipment": [
+        "Hand weapons",
+        "Troll vomit",
+        "Calloused hides (counts as light armour)"
+      ],
       "specialRules": [
         "Armour Bane (1)",
         "Close Order",
@@ -407,12 +444,16 @@
     },
     {
       "name": "Chaos Warhound Handler",
+      "name_pl": "Chaos Warhound Handler",
       "unitCategory": "Cavalry",
       "troopType": "Regular Infantry, Character",
       "baseSize": "30 x 30 mm",
       "unitSize": "1",
       "armourValue": "—",
-      "equipment": ["Hand weapon", "Heavy armour"],
+      "equipment": [
+        "Hand weapon",
+        "Heavy armour"
+      ],
       "specialRules": [
         "Handler",
         "Loner",
@@ -437,13 +478,21 @@
     },
     {
       "name": "Chaos Warhounds",
+      "name_pl": "Bojowe Psy Chaosu",
       "unitCategory": "Cavalry",
       "troopType": "War Beast",
       "baseSize": "25 x 50 mm",
       "unitSize": "5+",
       "armourValue": "—",
-      "equipment": ["Claws and fangs (counts as a hand weapon)"],
-      "specialRules": ["Loner", "Move Through Cover", "Open Order", "Swiftstride"],
+      "equipment": [
+        "Claws and fangs (counts as a hand weapon)"
+      ],
+      "specialRules": [
+        "Loner",
+        "Move Through Cover",
+        "Open Order",
+        "Swiftstride"
+      ],
       "profiles": [
         {
           "label": "Chaos Warhound",
@@ -461,13 +510,21 @@
     },
     {
       "name": "Chaos Warriors",
+      "name_pl": "Wojownicy Chaosu",
       "unitCategory": "Infantry",
       "troopType": "Heavy Infantry",
       "baseSize": "30 x 30 mm",
       "unitSize": "5+",
       "armourValue": "—",
-      "equipment": ["Hand weapons", "Heavy armour"],
-      "specialRules": ["Close Order", "Ensorcelled Weapons", "Mark of Chaos Undivided"],
+      "equipment": [
+        "Hand weapons",
+        "Heavy armour"
+      ],
+      "specialRules": [
+        "Close Order",
+        "Ensorcelled Weapons",
+        "Mark of Chaos Undivided"
+      ],
       "profiles": [
         {
           "label": "Chaos Warrior",
@@ -497,6 +554,7 @@
     },
     {
       "name": "Chimera",
+      "name_pl": "Chimera",
       "unitCategory": "Monster",
       "troopType": "Monstrous Creature",
       "baseSize": "60 x 100 mm",
@@ -532,6 +590,7 @@
     },
     {
       "name": "Chosen Chaos Chariot",
+      "name_pl": "Rydwan Wybrańców Chaosu",
       "unitCategory": "Chariot",
       "troopType": "Heavy Chariot",
       "baseSize": "60 x 100 mm",
@@ -591,6 +650,7 @@
     },
     {
       "name": "Chosen Chaos Knights",
+      "name_pl": "Wybrani Rycerze Chaosu",
       "unitCategory": "Cavalry",
       "troopType": "Heavy Cavalry",
       "baseSize": "30 x 60 mm",
@@ -651,12 +711,16 @@
     },
     {
       "name": "Chosen Chaos Warriors",
+      "name_pl": "Wybrani Wojownicy Chaosu",
       "unitCategory": "Infantry",
       "troopType": "Heavy Infantry",
       "baseSize": "30 x 30 mm",
       "unitSize": "5+",
       "armourValue": "—",
-      "equipment": ["Hand weapon", "Heavy armour"],
+      "equipment": [
+        "Hand weapon",
+        "Heavy armour"
+      ],
       "specialRules": [
         "Chaos Armour (6+)",
         "Close Order",
@@ -693,12 +757,16 @@
     },
     {
       "name": "Daemon Prince",
+      "name_pl": "Książę Demonów",
       "unitCategory": "Character",
       "troopType": "Monstrous Infantry, Character",
       "baseSize": "50 x 50 mm",
       "unitSize": "1",
       "armourValue": "—",
-      "equipment": ["Hand weapon", "Light armour"],
+      "equipment": [
+        "Hand weapon",
+        "Light armour"
+      ],
       "specialRules": [
         "Chaos Armour (4+)",
         "Ensorcelled Weapons",
@@ -712,7 +780,11 @@
         "Unstable",
         "Warp-spawned"
       ],
-      "magicLores": ["Battle Magic", "Daemonology", "Dark Magic"],
+      "magicLores": [
+        "Battle Magic",
+        "Daemonology",
+        "Dark Magic"
+      ],
       "profiles": [
         {
           "label": "Daemon Prince",
@@ -730,12 +802,15 @@
     },
     {
       "name": "Daemonic Mount",
+      "name_pl": "Demoniczny wierzchowiec",
       "unitCategory": "Mount",
       "troopType": "Monstrous Cavalry",
       "baseSize": "40 x 60 mm (min), 50 x 75 mm (max)",
       "unitSize": "1",
       "armourValue": "—",
-      "equipment": ["Daemonic hooves (counts as a hand weapon)"],
+      "equipment": [
+        "Daemonic hooves (counts as a hand weapon)"
+      ],
       "specialRules": [
         "Armour Bane (1, Daemonic Mount only)",
         "Fear",
@@ -762,12 +837,16 @@
     },
     {
       "name": "Exalted Champion",
+      "name_pl": "Wywyższony Czempion",
       "unitCategory": "Character",
       "troopType": "Heavy Infantry, Character",
       "baseSize": "30 x 30 mm",
       "unitSize": "1",
       "armourValue": "—",
-      "equipment": ["Hand weapon", "Heavy armour"],
+      "equipment": [
+        "Hand weapon",
+        "Heavy armour"
+      ],
       "specialRules": [
         "Chaos Armour (5+)",
         "Ensorcelled Weapons",
@@ -801,12 +880,16 @@
     },
     {
       "name": "Exalted Sorcerer",
+      "name_pl": "Wywyższony Czarnoksiężnik",
       "unitCategory": "Character",
       "troopType": "Heavy Infantry, Character",
       "baseSize": "30 x 30 mm",
       "unitSize": "1",
       "armourValue": "—",
-      "equipment": ["Hand weapon", "Light armour"],
+      "equipment": [
+        "Hand weapon",
+        "Light armour"
+      ],
       "specialRules": [
         "Chaos Armour (5+)",
         "Ensorcelled Weapons",
@@ -814,7 +897,11 @@
         "Lore of Chaos",
         "Mark of Chaos Undivided"
       ],
-      "magicLores": ["Battle Magic", "Daemonology", "Dark Magic"],
+      "magicLores": [
+        "Battle Magic",
+        "Daemonology",
+        "Dark Magic"
+      ],
       "profiles": [
         {
           "label": "Exalted Sorcerer",
@@ -829,16 +916,24 @@
           "Ld": 8
         }
       ],
-      "mountIds": ["chaos-steed", "daemonic-mount", "chaos-chariot"]
+      "mountIds": [
+        "chaos-steed",
+        "daemonic-mount",
+        "chaos-chariot"
+      ]
     },
     {
       "name": "Forsaken",
+      "name_pl": "Opuszczeni",
       "unitCategory": "Infantry",
       "troopType": "Heavy Infantry",
       "baseSize": "30 x 30 mm",
       "unitSize": "5+",
       "armourValue": "—",
-      "equipment": ["Mutated weapons (counts as hand weapons)", "Heavy armour"],
+      "equipment": [
+        "Mutated weapons (counts as hand weapons)",
+        "Heavy armour"
+      ],
       "specialRules": [
         "Chaos Armour (5+)",
         "Ensorcelled Weapons",
@@ -868,12 +963,18 @@
     },
     {
       "name": "Frydaal The Chainmaker",
+      "name_pl": "Frydaal Zakuwacz Łańcuchów",
       "unitCategory": "Named Character",
       "troopType": "Heavy Infantry, Named Character",
       "baseSize": "30 x 30 mm",
       "unitSize": "1",
       "armourValue": "—",
-      "equipment": ["Hand weapon", "Storm's Wrath", "Full plate armour", "Shield"],
+      "equipment": [
+        "Hand weapon",
+        "Storm's Wrath",
+        "Full plate armour",
+        "Shield"
+      ],
       "specialRules": [
         "Ambushers",
         "Chainmaker",
@@ -903,6 +1004,7 @@
     },
     {
       "name": "Galrauch",
+      "name_pl": "Galrauch",
       "unitCategory": "Named Character",
       "troopType": "Behemoth, Named Character",
       "baseSize": "60 x 100 mm",
@@ -928,7 +1030,9 @@
         "Terror",
         "Two-headed Dragon"
       ],
-      "magicLores": ["Dark Magic"],
+      "magicLores": [
+        "Dark Magic"
+      ],
       "profiles": [
         {
           "label": "Galrauch",
@@ -946,12 +1050,17 @@
     },
     {
       "name": "Gigantic Spawn of Chaos",
+      "name_pl": "Gigantyczny Pomiot Chaosu",
       "unitCategory": "Monster",
       "troopType": "Behemoth",
       "baseSize": "60 x 100 mm",
       "unitSize": "1",
       "armourValue": "—",
-      "equipment": ["Slashing talons", "Gnashing maws", "Scaly skin (counts as heavy armour)"],
+      "equipment": [
+        "Slashing talons",
+        "Gnashing maws",
+        "Scaly skin (counts as heavy armour)"
+      ],
       "specialRules": [
         "Armour Bane (2)",
         "Close Order",
@@ -982,6 +1091,7 @@
     },
     {
       "name": "Gorebeast Chariot",
+      "name_pl": "Rydwan Bestii Rzeźnej",
       "unitCategory": "Chariot",
       "troopType": "Heavy Chariot",
       "baseSize": "60 x 100 mm",
@@ -1042,12 +1152,16 @@
     },
     {
       "name": "Hellcannon",
+      "name_pl": "Piekielna Armata",
       "unitCategory": "Monster",
       "troopType": "Behemoth",
       "baseSize": "100 x 150 mm (Hellcannon), 25 x 25 mm (Chaos Dwarf Handlers)",
       "unitSize": "1",
       "armourValue": "—",
-      "equipment": ["Hellcannon: Doomfire, Hand weapons", "Chaos Dwarf Handlers: Hand weapons"],
+      "equipment": [
+        "Hellcannon: Doomfire, Hand weapons",
+        "Chaos Dwarf Handlers: Hand weapons"
+      ],
       "specialRules": [
         "Armour Bane (1)",
         "Caged Fury",
@@ -1091,12 +1205,16 @@
     },
     {
       "name": "Manticore",
+      "name_pl": "Mantykora",
       "unitCategory": "Monster",
       "troopType": "Monstrous Creature",
       "baseSize": "60 x 100 mm",
       "unitSize": "1",
       "armourValue": "—",
-      "equipment": ["Wicked claws", "Scaly skin (counts as heavy armour)"],
+      "equipment": [
+        "Wicked claws",
+        "Scaly skin (counts as heavy armour)"
+      ],
       "specialRules": [
         "Close Order",
         "Fly (9)",
@@ -1124,6 +1242,7 @@
     },
     {
       "name": "Marauder Horsemen",
+      "name_pl": "Konni Maruderzy",
       "unitCategory": "Cavalry",
       "troopType": "Light Cavalry",
       "baseSize": "30 x 60 mm",
@@ -1183,12 +1302,16 @@
     },
     {
       "name": "Marauder Tribe Berserkers",
+      "name_pl": "Berserkerzy Plemienia Maruderów",
       "unitCategory": "Infantry",
       "troopType": "Regular Infantry",
       "baseSize": "25 x 25 mm",
       "unitSize": "5+",
       "armourValue": "—",
-      "equipment": ["Hand weapons", "Light armour"],
+      "equipment": [
+        "Hand weapons",
+        "Light armour"
+      ],
       "specialRules": [
         "Frenzy",
         "Mark of Chaos Undivided",
@@ -1227,12 +1350,16 @@
     },
     {
       "name": "Marauder Tribe Chieftain",
+      "name_pl": "Wódz Plemienia Maruderów",
       "unitCategory": "Character",
       "troopType": "Regular Infantry, Character",
       "baseSize": "25 x 25 mm",
       "unitSize": "1",
       "armourValue": "—",
-      "equipment": ["Hand weapon", "Light armour"],
+      "equipment": [
+        "Hand weapon",
+        "Light armour"
+      ],
       "specialRules": [
         "Ambushers",
         "Chaos Armour (6+)",
@@ -1255,10 +1382,13 @@
           "Ld": 8
         }
       ],
-      "mountIds": ["warhorse-warriors-of-chaos"]
+      "mountIds": [
+        "warhorse-warriors-of-chaos"
+      ]
     },
     {
       "name": "Marauder Tribe Huscarls",
+      "name_pl": "Huskarlowie Plemienia Maruderów",
       "unitCategory": "Cavalry",
       "troopType": "Light Cavalry",
       "baseSize": "30 x 60 mm",
@@ -1317,12 +1447,15 @@
     },
     {
       "name": "Skin Wolves",
+      "name_pl": "Skórne Wilki",
       "unitCategory": "Infantry",
       "troopType": "Monstrous Infantry",
       "baseSize": "50 x 50 mm",
       "unitSize": "2+",
       "armourValue": "—",
-      "equipment": ["Claws and fangs (counts as hand weapon)"],
+      "equipment": [
+        "Claws and fangs (counts as hand weapon)"
+      ],
       "specialRules": [
         "Blood Rage",
         "Fear",
@@ -1363,12 +1496,16 @@
     },
     {
       "name": "Sorcerer Lord",
+      "name_pl": "Władca Czarnoksiężników",
       "unitCategory": "Character",
       "troopType": "Heavy Infantry, Character",
       "baseSize": "30 x 30 mm",
       "unitSize": "1",
       "armourValue": "—",
-      "equipment": ["Hand weapon", "Heavy armour"],
+      "equipment": [
+        "Hand weapon",
+        "Heavy armour"
+      ],
       "specialRules": [
         "Chaos Armour (5+)",
         "Ensorcelled Weapons",
@@ -1376,7 +1513,11 @@
         "Lore of Chaos",
         "Mark of Chaos Undivided"
       ],
-      "magicLores": ["Battle Magic", "Daemonology", "Dark Magic"],
+      "magicLores": [
+        "Battle Magic",
+        "Daemonology",
+        "Dark Magic"
+      ],
       "profiles": [
         {
           "label": "Sorcerer Lord",
@@ -1391,17 +1532,30 @@
           "Ld": 8
         }
       ],
-      "mountIds": ["chaos-steed", "daemonic-mount", "chaos-chariot", "manticore", "chaos-dragon"]
+      "mountIds": [
+        "chaos-steed",
+        "daemonic-mount",
+        "chaos-chariot",
+        "manticore",
+        "chaos-dragon"
+      ]
     },
     {
       "name": "Warhorse (Warriors of Chaos)",
+      "name_pl": "Rumak Bojowy (Wojownicy Chaos)",
       "unitCategory": "Mount",
       "troopType": "Light Cavalry",
       "baseSize": "30 x 60 mm",
       "unitSize": "1",
       "armourValue": "—",
-      "equipment": ["Iron-shod hooves (counts as a hand weapon)"],
-      "specialRules": ["Counter Charge", "Fast Cavalry", "Swiftstride"],
+      "equipment": [
+        "Iron-shod hooves (counts as a hand weapon)"
+      ],
+      "specialRules": [
+        "Counter Charge",
+        "Fast Cavalry",
+        "Swiftstride"
+      ],
       "profiles": [
         {
           "label": "Warhorse",
@@ -1420,6 +1574,7 @@
     },
     {
       "name": "Warpfire Dragon",
+      "name_pl": "Smok Osnowego Ognia",
       "unitCategory": "Monster",
       "troopType": "Behemoth",
       "baseSize": "60 x 100 mm",
@@ -1446,7 +1601,11 @@
         "Terror",
         "Warpfire Aura"
       ],
-      "magicLores": ["Battle Magic", "Daemonology", "Dark Magic"],
+      "magicLores": [
+        "Battle Magic",
+        "Daemonology",
+        "Dark Magic"
+      ],
       "profiles": [
         {
           "label": "Warpfire Dragon",

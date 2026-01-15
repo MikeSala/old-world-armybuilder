@@ -3,6 +3,7 @@
   "units": [
     {
       "name": "Arachnarok Spider",
+      "name_pl": "Arachnarok Pająk",
       "unitCategory": "Monster",
       "troopType": "Behemoth",
       "baseSize": "100 x 150 mm",
@@ -66,6 +67,7 @@
     },
     {
       "name": "Badlands Ogre Bulls",
+      "name_pl": "Badlands Ogr Bulls",
       "unitCategory": "Infantry",
       "troopType": "Monstrous Infantry",
       "baseSize": "40 x 40 mm",
@@ -113,6 +115,7 @@
     },
     {
       "name": "Black Orc Bigboss",
+      "name_pl": "Wielki Szef Czarnych Orków",
       "unitCategory": "Character",
       "troopType": "Heavy Infantry, Character",
       "baseSize": "30 x 30 mm",
@@ -148,6 +151,7 @@
     },
     {
       "name": "Black Orc Boar Chariot",
+      "name_pl": "Czarny Ork Boar Rydwan",
       "unitCategory": "Chariot",
       "troopType": "Heavy Chariot",
       "baseSize": "50 x 100 mm",
@@ -215,6 +219,7 @@
     },
     {
       "name": "Black Orc Mob",
+      "name_pl": "Tłum Czarnych Orków",
       "unitCategory": "Infantry",
       "troopType": "Heavy Infantry",
       "baseSize": "30 x 30 mm",
@@ -262,6 +267,7 @@
     },
     {
       "name": "Black Orc Warboss",
+      "name_pl": "Wódz Wojenny Czarnych Orków",
       "unitCategory": "Character",
       "troopType": "Heavy Infantry, Character",
       "baseSize": "30 x 30 mm",
@@ -297,6 +303,7 @@
     },
     {
       "name": "Bonegrinder Giant",
+      "name_pl": "Bonegrinder Olbrzym",
       "unitCategory": "Monster",
       "troopType": "Behemoth",
       "baseSize": "50 x 100 mm (min) 100 x 150 mm (max)",
@@ -334,6 +341,7 @@
     },
     {
       "name": "Common Troll Mob",
+      "name_pl": "Tłum Zwykłych Trolli",
       "unitCategory": "Infantry",
       "troopType": "Monstrous Infantry",
       "baseSize": "40 x 40 mm",
@@ -370,6 +378,7 @@
     },
     {
       "name": "Doom Diver Catapult",
+      "name_pl": "Katapulta Nurków Zagłady",
       "unitCategory": "War Machine",
       "troopType": "War Machine",
       "baseSize": "50 x 75 mm (war machine), 25 x 25 mm (crew)",
@@ -418,6 +427,7 @@
     },
     {
       "name": "Fanatic",
+      "name_pl": "Fanatic",
       "unitCategory": "Infantry",
       "troopType": "Regular Infantry",
       "baseSize": "25 mm (round base)",
@@ -447,6 +457,7 @@
     },
     {
       "name": "Giant",
+      "name_pl": "Olbrzym",
       "unitCategory": "Monster",
       "troopType": "Behemoth",
       "baseSize": "50 x 50 mm (min), 50 x 75 mm (max)",
@@ -484,6 +495,7 @@
     },
     {
       "name": "Giant Cave Squig (Mount)",
+      "name_pl": "Olbrzym Cave Squig (Wierzchowiec)",
       "unitCategory": "Mount",
       "troopType": "Monstrous Cavalry",
       "baseSize": "50 x 50 mm",
@@ -516,6 +528,7 @@
     },
     {
       "name": "Giant Wolf (Mount)",
+      "name_pl": "Olbrzym Wilk (Wierzchowiec)",
       "unitCategory": "Mount",
       "troopType": "Light Cavalry",
       "baseSize": "25 x 50 mm",
@@ -547,6 +560,7 @@
     },
     {
       "name": "Gigantic Spider (Mount)",
+      "name_pl": "Gigantic Spider (Wierzchowiec)",
       "unitCategory": "Mount",
       "troopType": "Light Cavalry",
       "baseSize": "50 x 50 mm",
@@ -579,6 +593,7 @@
     },
     {
       "name": "Goblin Bigboss",
+      "name_pl": "Wielki Szef Goblinów",
       "unitCategory": "Character",
       "troopType": "Regular Infantry, Character",
       "baseSize": "25 x 25 mm",
@@ -610,6 +625,7 @@
     },
     {
       "name": "Goblin Bolt Throwa",
+      "name_pl": "Balista Goblinów",
       "unitCategory": "War Machine",
       "troopType": "War Machine",
       "baseSize": "50 x 50 mm (war machine), 25 x 25 mm (crew)",
@@ -657,6 +673,7 @@
     },
     {
       "name": "Goblin Mob",
+      "name_pl": "Tłum Goblinów",
       "unitCategory": "Infantry",
       "troopType": "Regular Infantry",
       "baseSize": "25 x 25 mm",
@@ -702,6 +719,7 @@
     },
     {
       "name": "Goblin Oddgit",
+      "name_pl": "Dziwak Goblinów",
       "unitCategory": "Character",
       "troopType": "Regular Infantry, Character",
       "baseSize": "25 x 25 mm",
@@ -736,6 +754,7 @@
     },
     {
       "name": "Goblin Oddnob",
+      "name_pl": "Dziwniak Goblinów",
       "unitCategory": "Character",
       "troopType": "Regular Infantry, Character",
       "baseSize": "25 x 25 mm",
@@ -770,6 +789,7 @@
     },
     {
       "name": "Goblin Rock Lobber",
+      "name_pl": "Gobliński Ciskacz Głazów",
       "unitCategory": "War Machine",
       "troopType": "War Machine",
       "baseSize": "60 x 100 mm (war machine), 25 x 25 mm (crew)",
@@ -817,6 +837,7 @@
     },
     {
       "name": "Goblin Spider Rider Mob",
+      "name_pl": "Tłum Pająkojazdy Goblinów",
       "unitCategory": "Cavalry",
       "troopType": "Light Cavalry",
       "baseSize": "25 x 50 mm",
@@ -878,6 +899,7 @@
     },
     {
       "name": "Goblin Warboss",
+      "name_pl": "Wódz Wojenny Goblinów",
       "unitCategory": "Character",
       "troopType": "Regular Infantry, Character",
       "baseSize": "25 x 25 mm",
@@ -909,6 +931,7 @@
     },
     {
       "name": "Goblin Wolf Chariot",
+      "name_pl": "Goblin Wilk Rydwan",
       "unitCategory": "Chariot",
       "troopType": "Light Chariot",
       "baseSize": "50 x 100 mm (two wolves), 60 x 100 mm (three wolves)",
@@ -977,6 +1000,7 @@
     },
     {
       "name": "Goblin Wolf Rider Mob",
+      "name_pl": "Tłum Wilkojazdy Goblinów",
       "unitCategory": "Cavalry",
       "troopType": "Light Cavalry",
       "baseSize": "25 x 50 mm",
@@ -1038,6 +1062,7 @@
     },
     {
       "name": "Kiknik Toofsnatcha",
+      "name_pl": "Kiknik Toofsnatcha",
       "unitCategory": "Named Character",
       "troopType": "Light Cavalry, Named Character",
       "baseSize": "25 x 50 mm",
@@ -1098,6 +1123,7 @@
     },
     {
       "name": "Mangler Squigs",
+      "name_pl": "Squigi Miażdżyciele",
       "unitCategory": "Monster",
       "troopType": "Behemoth",
       "baseSize": "50 x 75 mm",
@@ -1137,6 +1163,7 @@
     },
     {
       "name": "Nasty Skulker",
+      "name_pl": "Nasty Skulker",
       "unitCategory": "Infantry",
       "troopType": "Regular Infantry",
       "baseSize": "25 x 25 mm",
@@ -1170,6 +1197,7 @@
     },
     {
       "name": "Night Goblin Bigboss",
+      "name_pl": "Wielki Szef Nocnych Goblinów",
       "unitCategory": "Character",
       "troopType": "Regular Infantry, Character",
       "baseSize": "25 x 25 mm",
@@ -1201,6 +1229,7 @@
     },
     {
       "name": "Night Goblin Mob",
+      "name_pl": "Tłum Nocnych Goblinów",
       "unitCategory": "Infantry",
       "troopType": "Regular Infantry",
       "baseSize": "25 x 25 mm",
@@ -1246,6 +1275,7 @@
     },
     {
       "name": "Night Goblin Oddgit",
+      "name_pl": "Dziwak Nocnych Goblinów",
       "unitCategory": "Character",
       "troopType": "Regular Infantry, Character",
       "baseSize": "25 x 25 mm",
@@ -1281,6 +1311,7 @@
     },
     {
       "name": "Night Goblin Oddnob",
+      "name_pl": "Dziwniak Nocnych Goblinów",
       "unitCategory": "Character",
       "troopType": "Regular Infantry, Character",
       "baseSize": "25 x 25 mm",
@@ -1316,6 +1347,7 @@
     },
     {
       "name": "Night Goblin Squig Herd",
+      "name_pl": "Stado Squigów Nocnych Goblinów",
       "unitCategory": "Infantry",
       "troopType": "Regular Infantry",
       "baseSize": "25 x 25 mm",
@@ -1365,6 +1397,7 @@
     },
     {
       "name": "Night Goblin Squig Hopper Mob",
+      "name_pl": "Tłum Skakaczów na Squigach Nocnych Goblinów",
       "unitCategory": "Cavalry",
       "troopType": "Light Cavalry",
       "baseSize": "25 x 25 mm",
@@ -1425,6 +1458,7 @@
     },
     {
       "name": "Night Goblin Warboss",
+      "name_pl": "Wódz Wojenny Nocnych Goblinów",
       "unitCategory": "Character",
       "troopType": "Regular Infantry, Character",
       "baseSize": "25 x 25 mm",
@@ -1456,6 +1490,7 @@
     },
     {
       "name": "Ogdruz Swampdigga",
+      "name_pl": "Ogdruz Swampdigga",
       "unitCategory": "Named Character",
       "troopType": "Regular Infantry, Named Character",
       "baseSize": "30 x 30 mm",
@@ -1495,6 +1530,7 @@
     },
     {
       "name": "Orc Bigboss",
+      "name_pl": "Wielki Szef Orków",
       "unitCategory": "Character",
       "troopType": "Regular Infantry, Character",
       "baseSize": "30 x 30 mm",
@@ -1530,6 +1566,7 @@
     },
     {
       "name": "Orc Boar Boy Mob",
+      "name_pl": "Tłum Dzikowych Orców",
       "unitCategory": "Cavalry",
       "troopType": "Heavy Cavalry",
       "baseSize": "30 x 60 mm",
@@ -1593,6 +1630,7 @@
     },
     {
       "name": "Orc Boar Chariot",
+      "name_pl": "Rydwan Dzików Orków",
       "unitCategory": "Chariot",
       "troopType": "Heavy Chariot",
       "baseSize": "50 x 100 mm",
@@ -1662,6 +1700,7 @@
     },
     {
       "name": "Orc Bully",
+      "name_pl": "Ork Bully",
       "unitCategory": "War Machine",
       "troopType": "Regular Infantry",
       "baseSize": "30 x 30 mm",
@@ -1692,6 +1731,7 @@
     },
     {
       "name": "Orc Mob",
+      "name_pl": "Tłum Orków",
       "unitCategory": "Infantry",
       "troopType": "Regular Infantry",
       "baseSize": "30 x 30 mm",
@@ -1737,6 +1777,7 @@
     },
     {
       "name": "Orc Warboss",
+      "name_pl": "Wódz Wojenny Orków",
       "unitCategory": "Character",
       "troopType": "Regular Infantry, Character",
       "baseSize": "30 x 30 mm",
@@ -1772,6 +1813,7 @@
     },
     {
       "name": "Orc Weirdboy",
+      "name_pl": "Dziwochłop Orków",
       "unitCategory": "Character",
       "troopType": "Regular Infantry, Character",
       "baseSize": "30 x 30 mm",
@@ -1809,6 +1851,7 @@
     },
     {
       "name": "Orc Weirdnob",
+      "name_pl": "Dziwobok Orków",
       "unitCategory": "Character",
       "troopType": "Regular Infantry, Character",
       "baseSize": "30 x 30 mm",
@@ -1846,6 +1889,7 @@
     },
     {
       "name": "River Troll Mob",
+      "name_pl": "Tłum Rzecznych Trolli",
       "unitCategory": "Infantry",
       "troopType": "Monstrous Infantry",
       "baseSize": "40 x 40 mm",
@@ -1882,6 +1926,7 @@
     },
     {
       "name": "Snotling Mob",
+      "name_pl": "Tłum Snotlingów",
       "unitCategory": "Infantry",
       "troopType": "Swarm",
       "baseSize": "40 x 40 mm",
@@ -1917,6 +1962,7 @@
     },
     {
       "name": "Snotling Pump Wagon",
+      "name_pl": "Snotling Pump Wagon",
       "unitCategory": "Chariot",
       "troopType": "Light Chariot",
       "baseSize": "50 x 75 mm (min), 50 x 100 mm (max)",
@@ -1968,6 +2014,7 @@
     },
     {
       "name": "Stone Troll Mob",
+      "name_pl": "Tłum Kamiennych Trolli",
       "unitCategory": "Infantry",
       "troopType": "Monstrous Infantry",
       "baseSize": "40 x 40 mm",
@@ -2006,6 +2053,7 @@
     },
     {
       "name": "Troll Hag",
+      "name_pl": "Wiedźma Trolli",
       "unitCategory": "Character",
       "troopType": "Behemoth, Character",
       "baseSize": "60 x 100 mm",
@@ -2053,6 +2101,7 @@
     },
     {
       "name": "War Boar (Mount)",
+      "name_pl": "War Boar (Wierzchowiec)",
       "unitCategory": "Mount",
       "troopType": "Heavy Cavalry",
       "baseSize": "30 x 60 mm",
@@ -2084,6 +2133,7 @@
     },
     {
       "name": "Wyvern",
+      "name_pl": "Wywerna",
       "unitCategory": "Monster",
       "troopType": "Monstrous Creature",
       "baseSize": "50 x 100 mm",

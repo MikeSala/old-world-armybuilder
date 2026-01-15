@@ -1,6 +1,7 @@
 [
   {
     "name": "Clanrats",
+    "name_pl": "Szczury Klanowe",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
@@ -44,6 +45,7 @@
   },
   {
     "name": "Doomwheel",
+    "name_pl": "Koło Zagłady",
     "unitCategory": "Chariot",
     "troopType": "Heavy Chariot",
     "baseSize": "50 x 100 mm",
@@ -103,6 +105,7 @@
   },
   {
     "name": "Giant Rats",
+    "name_pl": "Olbrzymie Szczury",
     "unitCategory": "Cavalry",
     "troopType": "War Beast",
     "baseSize": "25 x 25 mm",
@@ -135,6 +138,7 @@
   },
   {
     "name": "Grey Seer",
+    "name_pl": "Szary Prorok",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -177,6 +181,7 @@
   },
   {
     "name": "Gutter Runners",
+    "name_pl": "Biegnące Ściekami",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
@@ -223,6 +228,7 @@
   {
     "id": "hell-pit-abomination",
     "name": "Hell Pit Abomination",
+    "name_pl": "Obrzydliwość z Piekielnej Jamy",
     "aliases": [
       "Hell Pit Abomination {renegade}"
     ],
@@ -265,6 +271,7 @@
   },
   {
     "name": "Master Assassin",
+    "name_pl": "Mistrz Skrytobójca",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -304,6 +311,7 @@
   },
   {
     "name": "Master Moulder",
+    "name_pl": "Mistrz Moulder",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
@@ -338,6 +346,7 @@
   },
   {
     "name": "Night Runners",
+    "name_pl": "Nocni Biegacze",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
@@ -380,6 +389,7 @@
   },
   {
     "name": "Packmaster",
+    "name_pl": "Packmaster",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
@@ -414,6 +424,7 @@
   },
   {
     "name": "Plague Censer Bearers",
+    "name_pl": "Niosący Kadzidła Zarazy",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
@@ -447,6 +458,7 @@
   },
   {
     "name": "Plague Furnace",
+    "name_pl": "Palenisko Zarazy",
     "unitCategory": "Chariot",
     "troopType": "Heavy Chariot",
     "baseSize": "60 x 100 mm",
@@ -496,6 +508,7 @@
   },
   {
     "name": "Plague Monks",
+    "name_pl": "Mnisi Zarazy",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
@@ -539,6 +552,7 @@
   },
   {
     "name": "Plague Priest",
+    "name_pl": "Kapłan Zarazy",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -579,6 +593,7 @@
   },
   {
     "name": "Plagueclaw Catapult",
+    "name_pl": "Katapulta Zarazowego Szponu",
     "unitCategory": "War Machine",
     "troopType": "War Machine",
     "baseSize": "50 x 100 mm",
@@ -622,6 +637,7 @@
   },
   {
     "name": "Poisoned Wind Globadiers",
+    "name_pl": "Globadziści Zatrułych Wiatrów",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
@@ -654,6 +670,7 @@
   },
   {
     "name": "Rat Ogres",
+    "name_pl": "Szczurze Ogry",
     "unitCategory": "Infantry",
     "troopType": "Monstrous Infantry",
     "baseSize": "50 x 50 mm",
@@ -690,6 +707,7 @@
   },
   {
     "name": "Rat Swarms",
+    "name_pl": "Roje Szczurów",
     "unitCategory": "Infantry",
     "troopType": "Swarm",
     "baseSize": "40 x 40 mm",
@@ -722,6 +740,7 @@
   },
   {
     "name": "Screaming Bell",
+    "name_pl": "Skrzeczący Dzwon",
     "unitCategory": "Chariot",
     "troopType": "Heavy Chariot",
     "baseSize": "60 x 100 mm",
@@ -770,6 +789,7 @@
   },
   {
     "name": "Skaven Chieftain",
+    "name_pl": "Wódz Plemienny Skavenów",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -802,6 +822,7 @@
   },
   {
     "name": "Skaven Warlord",
+    "name_pl": "Watażka Skavenów",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -834,6 +855,7 @@
   },
   {
     "name": "Stormvermin",
+    "name_pl": "Szturmoszczury",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
@@ -879,6 +901,7 @@
   },
   {
     "name": "Warlock Engineer",
+    "name_pl": "Inżynier Czarnoksiężnik",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -917,6 +940,7 @@
   },
   {
     "name": "Warp Lightning Cannon",
+    "name_pl": "Armata Błyskawicy Osnowy",
     "unitCategory": "War Machine",
     "troopType": "War Machine",
     "baseSize": "50 x 100 mm",
@@ -958,6 +982,7 @@
   },
   {
     "name": "Warplock Jezzails",
+    "name_pl": "Jezzaile Osnowego Zamka",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 50 mm",
@@ -990,6 +1015,7 @@
   },
   {
     "name": "Weapon Team",
+    "name_pl": "Zespół Broni",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 50 mm",

@@ -1,6 +1,7 @@
 [
   {
     "name": "Black Ark Corsairs",
+    "name_pl": "Korsarze Czarnej Arki",
     "stats": {
       "M": 5,
       "WS": 4,
@@ -48,6 +49,7 @@
   },
   {
     "name": "Black Dragon",
+    "name_pl": "Czarny Smok",
     "stats": {
       "M": 6,
       "WS": 6,
@@ -83,6 +85,7 @@
   },
   {
     "name": "Black Guard of Naggarond",
+    "name_pl": "Czarna Gwardia Naggarondu",
     "stats": {
       "M": 5,
       "WS": 5,
@@ -133,6 +136,7 @@
   },
   {
     "name": "Bloodwrack Medusa",
+    "name_pl": "Bloodwrack Medusa",
     "stats": {
       "M": 7,
       "WS": 5,
@@ -169,6 +173,7 @@
   },
   {
     "name": "Bloodwrack Shrine",
+    "name_pl": "Bloodwrack Shrine",
     "stats": {
       "M": 2,
       "WS": "-",
@@ -238,6 +243,7 @@
   },
   {
     "name": "Cauldron of Blood",
+    "name_pl": "Cauldron Blood",
     "stats": {
       "M": 2,
       "WS": "-",
@@ -291,6 +297,7 @@
   },
   {
     "name": "Cold One (Dark Elves)",
+    "name_pl": "Cold One (Mroczne Elfy)",
     "stats": {
       "M": 7,
       "WS": 3,
@@ -322,6 +329,7 @@
   },
   {
     "name": "Cold One Chariot",
+    "name_pl": "Cold One Rydwan",
     "stats": {
       "M": "-",
       "WS": "-",
@@ -388,6 +396,7 @@
   },
   {
     "name": "Cold One Knights",
+    "name_pl": "Rycerze na Zimnych",
     "stats": {
       "M": "-",
       "WS": 5,
@@ -456,6 +465,7 @@
   },
   {
     "name": "Dark Elf Dreadlord",
+    "name_pl": "Pan Grozy Mrocznych Elfów",
     "stats": {
       "M": 5,
       "WS": 7,
@@ -486,6 +496,7 @@
   },
   {
     "name": "Dark Elf Master",
+    "name_pl": "Mistrz Mrocznych Elfów",
     "stats": {
       "M": 5,
       "WS": 6,
@@ -516,6 +527,7 @@
   },
   {
     "name": "Dark Elf Shades",
+    "name_pl": "Cienie Mrocznych Elfów",
     "stats": {
       "M": 5,
       "WS": 5,
@@ -564,6 +576,7 @@
   },
   {
     "name": "Dark Elf Warriors",
+    "name_pl": "Wojownicy Mrocznych Elfów",
     "stats": {
       "M": 5,
       "WS": 4,
@@ -611,6 +624,7 @@
   },
   {
     "name": "Dark Pegasus",
+    "name_pl": "Mroczny Pegasus",
     "stats": {
       "M": 8,
       "WS": 3,
@@ -641,6 +655,7 @@
   },
   {
     "name": "Dark Riders",
+    "name_pl": "Mroczni Jeźdźcy",
     "stats": {
       "M": "-",
       "WS": 4,
@@ -705,6 +720,7 @@
   },
   {
     "name": "Dark Steed",
+    "name_pl": "Mroczny Steed",
     "stats": {
       "M": 9,
       "WS": 3,
@@ -732,6 +748,7 @@
   },
   {
     "name": "Death Hag",
+    "name_pl": "Wiedźma Śmierci",
     "stats": {
       "M": 5,
       "WS": 6,
@@ -764,6 +781,7 @@
   },
   {
     "name": "Doomfire Warlocks",
+    "name_pl": "Czarnoksiężnicy Ognia Zagłady",
     "stats": {
       "M": "-",
       "WS": 4,
@@ -828,6 +846,7 @@
   },
   {
     "name": "Har Ganeth Executioners",
+    "name_pl": "Kaci z Har Ganeth",
     "stats": {
       "M": 5,
       "WS": 5,
@@ -876,6 +895,7 @@
   },
   {
     "name": "Harpies",
+    "name_pl": "Harpie",
     "stats": {
       "M": 5,
       "WS": 3,
@@ -906,6 +926,7 @@
   },
   {
     "name": "High Beastmaster",
+    "name_pl": "Wysoki Mistrz Bestii",
     "stats": {
       "M": "-",
       "WS": 7,
@@ -938,6 +959,7 @@
   },
   {
     "name": "Khainite Assassin",
+    "name_pl": "Skrytobójca Khaine'a",
     "stats": {
       "M": 5,
       "WS": 8,
@@ -970,6 +992,7 @@
   },
   {
     "name": "Kharibdyss",
+    "name_pl": "Kharibdyss",
     "stats": {
       "M": 6,
       "WS": 5,
@@ -1019,6 +1042,7 @@
   },
   {
     "name": "Manticore (Dark Elves)",
+    "name_pl": "Manticore (Mroczne Elfy)",
     "stats": {
       "M": 6,
       "WS": 5,
@@ -1052,6 +1076,7 @@
   },
   {
     "name": "Reaper Bolt Thrower",
+    "name_pl": "Balista Żniwiarza",
     "stats": {
       "M": "-",
       "WS": "-",
@@ -1098,6 +1123,7 @@
   },
   {
     "name": "Repeater Crossbowmen",
+    "name_pl": "Kusznicy z Powtarzalną Kuszą",
     "stats": {
       "M": 5,
       "WS": 4,
@@ -1145,6 +1171,7 @@
   },
   {
     "name": "Scourgerunner Chariot",
+    "name_pl": "Scourgerunner Rydwan",
     "stats": {
       "M": "-",
       "WS": "-",
@@ -1210,6 +1237,7 @@
   },
   {
     "name": "Sisters of Slaughter",
+    "name_pl": "Siostry Rzezi",
     "stats": {
       "M": 5,
       "WS": 5,
@@ -1259,6 +1287,7 @@
   },
   {
     "name": "Sorceress",
+    "name_pl": "Czarodziejka",
     "stats": {
       "M": 5,
       "WS": 4,
@@ -1297,6 +1326,7 @@
   },
   {
     "name": "Supreme Sorceress",
+    "name_pl": "Najwyższa Czarodziejka",
     "stats": {
       "M": 5,
       "WS": 4,
@@ -1335,6 +1365,7 @@
   },
   {
     "name": "War Hydra",
+    "name_pl": "Wojenna Hydra",
     "stats": {
       "M": 6,
       "WS": 4,
@@ -1386,6 +1417,7 @@
   },
   {
     "name": "Witch Elves",
+    "name_pl": "Wiedźmie Elfy",
     "stats": {
       "M": 5,
       "WS": 4,

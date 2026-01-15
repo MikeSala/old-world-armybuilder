@@ -1,6 +1,7 @@
 [
   {
     "name": "Anvil of Doom",
+    "name_pl": "Kowadło Zagłady",
     "M": null,
     "WS": null,
     "BS": null,
@@ -38,6 +39,7 @@
   },
   {
     "name": "Forgefather & Anvil Guard",
+    "name_pl": "Forgefather & Anvil Straż",
     "M": 3,
     "WS": 6,
     "BS": 4,
@@ -58,6 +60,7 @@
   },
   {
     "name": "Bolt Thrower",
+    "name_pl": "Balista",
     "M": null,
     "WS": null,
     "BS": null,
@@ -87,6 +90,7 @@
   },
   {
     "name": "Dwarf Crew (Bolt Thrower)",
+    "name_pl": "Krasnolud Załoga (Bolt Thrower)",
     "M": 3,
     "WS": 3,
     "BS": 3,
@@ -107,6 +111,7 @@
   },
   {
     "name": "Burlok Damminson",
+    "name_pl": "Burlok Damminson",
     "M": 3,
     "WS": 5,
     "BS": 5,
@@ -141,6 +146,7 @@
   },
   {
     "name": "Cannon",
+    "name_pl": "Armata",
     "M": null,
     "WS": null,
     "BS": null,
@@ -170,6 +176,7 @@
   },
   {
     "name": "Dwarf Crew (Cannon)",
+    "name_pl": "Krasnolud Załoga (Cannon)",
     "M": 3,
     "WS": 3,
     "BS": 3,
@@ -190,6 +197,7 @@
   },
   {
     "name": "Daemon Slayer",
+    "name_pl": "Pogromca Demonów",
     "M": 3,
     "WS": 7,
     "BS": 3,
@@ -224,6 +232,7 @@
   },
   {
     "name": "Doomseeker",
+    "name_pl": "Szukający Zagłady",
     "M": 3,
     "WS": 5,
     "BS": 0,
@@ -261,6 +270,7 @@
   },
   {
     "name": "Dragon Slayer",
+    "name_pl": "Pogromca Smoków",
     "M": 3,
     "WS": 6,
     "BS": 3,
@@ -295,6 +305,7 @@
   },
   {
     "name": "Dwarf Cart",
+    "name_pl": "Wóz Krasnoludzki",
     "M": null,
     "WS": null,
     "BS": null,
@@ -324,6 +335,7 @@
   },
   {
     "name": "Dwarf Crew (Cart)",
+    "name_pl": "Krasnolud Załoga (Cart)",
     "M": null,
     "WS": 4,
     "BS": 4,
@@ -344,6 +356,7 @@
   },
   {
     "name": "Draft Pony",
+    "name_pl": "Draft Pony",
     "M": 6,
     "WS": 3,
     "BS": null,
@@ -364,6 +377,7 @@
   },
   {
     "name": "Dwarf Warrior",
+    "name_pl": "Krasnolud Wojownik",
     "M": 3,
     "WS": 4,
     "BS": 3,
@@ -393,6 +407,7 @@
   },
   {
     "name": "Veteran (Dwarf Warriors)",
+    "name_pl": "Veteran (Krasnolud Wojownicy)",
     "M": 3,
     "WS": 4,
     "BS": 3,
@@ -413,6 +428,7 @@
   },
   {
     "name": "Engineer",
+    "name_pl": "Inżynier",
     "M": 3,
     "WS": 4,
     "BS": 5,
@@ -446,6 +462,7 @@
   },
   {
     "name": "Engineer Sapper",
+    "name_pl": "Inżynier Saper",
     "M": 3,
     "WS": 4,
     "BS": 5,
@@ -478,6 +495,7 @@
   },
   {
     "name": "Flame Cannon",
+    "name_pl": "Armata Płomieni",
     "M": null,
     "WS": null,
     "BS": null,
@@ -507,6 +525,7 @@
   },
   {
     "name": "Dwarf Crew (Flame Cannon)",
+    "name_pl": "Krasnolud Załoga (Płomienny Cannon)",
     "M": 3,
     "WS": 3,
     "BS": 3,

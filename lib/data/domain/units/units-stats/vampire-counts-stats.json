@@ -1,6 +1,7 @@
 [
   {
     "name": "Abyssal Terror",
+    "name_pl": "Otchłanne Przerażenie",
     "unitCategory": "Monster",
     "troopType": "Monstrous Creature",
     "baseSize": "50 x 100 mm",
@@ -38,6 +39,7 @@
   },
   {
     "name": "Bat Swarms",
+    "name_pl": "Roje Nietoperzy",
     "unitCategory": "Infantry",
     "troopType": "Swarm",
     "baseSize": "40 x 40 mm",
@@ -70,6 +72,7 @@
   },
   {
     "name": "Black Coach",
+    "name_pl": "Czarny Powóz",
     "unitCategory": "Chariot",
     "troopType": "Heavy Chariot",
     "baseSize": "50 x 100 mm",
@@ -146,6 +149,7 @@
   },
   {
     "name": "Black Knights",
+    "name_pl": "Czarni Rycerze",
     "unitCategory": "Cavalry",
     "troopType": "Heavy Cavalry",
     "baseSize": "30 x 60 mm",
@@ -222,6 +226,7 @@
   },
   {
     "name": "Blood Knights",
+    "name_pl": "Krwawe Rycerze",
     "unitCategory": "Cavalry",
     "troopType": "Heavy Cavalry",
     "baseSize": "30 x 60 mm",
@@ -305,6 +310,7 @@
   },
   {
     "name": "Cairn Wraith",
+    "name_pl": "Widmo z Kurhanu",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -338,6 +344,7 @@
   },
   {
     "name": "Corpse Cart",
+    "name_pl": "Wóz Zwłok",
     "unitCategory": "Chariot",
     "troopType": "Heavy Chariot",
     "baseSize": "50 x 100 mm",
@@ -417,6 +424,7 @@
   },
   {
     "name": "Coven Throne",
+    "name_pl": "Tron Sabatu",
     "unitCategory": "Chariot",
     "troopType": "Heavy Chariot",
     "baseSize": "50 x 100 mm",
@@ -496,6 +504,7 @@
   },
   {
     "name": "Crypt Ghouls",
+    "name_pl": "Ghule z Krypt",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
@@ -550,6 +559,7 @@
   },
   {
     "name": "Crypt Horrors",
+    "name_pl": "Koszmary z Krypt",
     "unitCategory": "Infantry",
     "troopType": "Monstrous Infantry",
     "baseSize": "40 x 40 mm",
@@ -603,6 +613,7 @@
   },
   {
     "name": "Dire Wolves",
+    "name_pl": "Wilki Zagłady",
     "unitCategory": "Cavalry",
     "troopType": "War Beast",
     "baseSize": "25 x 50 mm",
@@ -657,6 +668,7 @@
   },
   {
     "name": "Fell Bats",
+    "name_pl": "Nietoperze",
     "unitCategory": "Infantry",
     "troopType": "Monstrous Infantry",
     "baseSize": "40 x 40 mm",
@@ -690,6 +702,7 @@
   },
   {
     "name": "Grave Guard",
+    "name_pl": "Straż Grobów",
     "unitCategory": "Infantry",
     "troopType": "Heavy Infantry",
     "baseSize": "25 x 25 mm",
@@ -744,6 +757,7 @@
   },
   {
     "name": "Hexwraiths",
+    "name_pl": "Wiedźmogonów",
     "unitCategory": "Cavalry",
     "troopType": "Light Cavalry",
     "baseSize": "30 x 60 mm",
@@ -823,6 +837,7 @@
   },
   {
     "name": "Master Necromancer",
+    "name_pl": "Mistrz Nekromanta",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -862,6 +877,7 @@
   },
   {
     "name": "Mortis Engine",
+    "name_pl": "Silnik Śmierci",
     "unitCategory": "Chariot",
     "troopType": "Heavy Chariot",
     "baseSize": "50 x 100 mm",
@@ -942,6 +958,7 @@
   },
   {
     "name": "Necromantic Acolyte",
+    "name_pl": "Nekromantyczny Akolita",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -981,6 +998,7 @@
   },
   {
     "name": "Nightmare",
+    "name_pl": "Koszmar",
     "unitCategory": "Mount",
     "troopType": "Heavy Cavalry",
     "baseSize": "30 x 60 mm",
@@ -1014,6 +1032,7 @@
   },
   {
     "name": "Skeletal Steed (Vampire Counts)",
+    "name_pl": "Skeletal Steed (Hrabowie Wampirów)",
     "unitCategory": "Mount",
     "troopType": "Heavy Cavalry",
     "baseSize": "30 x 60 mm",
@@ -1046,6 +1065,7 @@
   },
   {
     "name": "Skeleton Warriors (Vampire Counts)",
+    "name_pl": "Skeleton Wojownicy (Hrabowie Wampirów)",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
@@ -1099,6 +1119,7 @@
   },
   {
     "name": "Spirit Hosts",
+    "name_pl": "Zastępy Duchów",
     "unitCategory": "Infantry",
     "troopType": "Swarm",
     "baseSize": "40 x 40 mm",
@@ -1134,6 +1155,7 @@
   },
   {
     "name": "Strigoi Ghoul King",
+    "name_pl": "Król Ghuli Strigoi",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -1176,6 +1198,7 @@
   },
   {
     "name": "Terrorgheist",
+    "name_pl": "Terrorgheist",
     "unitCategory": "Monster",
     "troopType": "Behemoth",
     "baseSize": "100 x 150 mm",
@@ -1217,6 +1240,7 @@
   },
   {
     "name": "Terrorgheist (Mount)",
+    "name_pl": "Terrorgheist (Wierzchowiec)",
     "unitCategory": "Mount",
     "troopType": "Behemoth",
     "baseSize": "100 x 150 mm",
@@ -1258,6 +1282,7 @@
   },
   {
     "name": "Tomb Banshee",
+    "name_pl": "Grobowa Banshee",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -1293,6 +1318,7 @@
   },
   {
     "name": "Vampire Count",
+    "name_pl": "Hrabia Wampir",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -1332,6 +1358,7 @@
   },
   {
     "name": "Vampire Thrall",
+    "name_pl": "Sługa Wampir",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -1372,6 +1399,7 @@
   },
   {
     "name": "Vargheists",
+    "name_pl": "Vargheisty",
     "unitCategory": "Infantry",
     "troopType": "Monstrous Infantry",
     "baseSize": "40 x 40 mm",
@@ -1428,6 +1456,7 @@
   },
   {
     "name": "Varghulf",
+    "name_pl": "Wargulf",
     "unitCategory": "Monster",
     "troopType": "Monstrous Creature",
     "baseSize": "50 x 50 mm",
@@ -1468,6 +1497,7 @@
   },
   {
     "name": "Wight King",
+    "name_pl": "Król Upiorów",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -1501,6 +1531,7 @@
   },
   {
     "name": "Wight Lord",
+    "name_pl": "Pan Upiorów",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -1534,6 +1565,7 @@
   },
   {
     "name": "Zombie Dragon",
+    "name_pl": "Zombie Smok",
     "unitCategory": "Monster",
     "troopType": "Behemoth",
     "baseSize": "100 x 150 mm",
@@ -1572,6 +1604,7 @@
   },
   {
     "name": "Zombies",
+    "name_pl": "Zombie",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",

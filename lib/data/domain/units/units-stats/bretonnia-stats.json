@@ -1,6 +1,7 @@
 [
   {
     "name": "Knights of the Realm",
+    "name_pl": "Rycerze Realm",
     "M": 4,
     "WS": 4,
     "BS": 2,
@@ -72,6 +73,7 @@
   },
   {
     "name": "Knights Errant",
+    "name_pl": "Rycerze Wędrowni",
     "M": 4,
     "WS": 3,
     "BS": 2,
@@ -145,6 +147,7 @@
   },
   {
     "name": "Men-at-Arms",
+    "name_pl": "Zbrojni",
     "M": 4,
     "WS": 2,
     "BS": 2,
@@ -196,6 +199,7 @@
   },
   {
     "name": "Peasant Bowmen",
+    "name_pl": "Chłopscy Łucznicy",
     "M": 4,
     "WS": 2,
     "BS": 3,
@@ -245,6 +249,7 @@
   },
   {
     "name": "Grail Knights",
+    "name_pl": "Rycerze Graala",
     "M": 4,
     "WS": 6,
     "BS": 2,
@@ -320,6 +325,7 @@
   },
   {
     "name": "Questing Knights",
+    "name_pl": "Rycerze Poszukujący",
     "M": 4,
     "WS": 5,
     "BS": 2,
@@ -389,6 +395,7 @@
   },
   {
     "name": "Pegasus Knights",
+    "name_pl": "Rycerze Pegazów",
     "M": 4,
     "WS": 4,
     "BS": 2,
@@ -462,6 +469,7 @@
   },
   {
     "name": "Mounted Yeomen",
+    "name_pl": "Konni Jegomościowie",
     "M": 4,
     "WS": 3,
     "BS": 3,
@@ -533,6 +541,7 @@
   },
   {
     "name": "Battle Pilgrims",
+    "name_pl": "Pielgrzymi Bitewni",
     "M": 4,
     "WS": 2,
     "BS": 2,
@@ -582,6 +591,7 @@
   },
   {
     "name": "Field Trebuchet",
+    "name_pl": "Trebusz Polowy",
     "M": 0,
     "WS": 0,
     "BS": 0,
@@ -628,6 +638,7 @@
   },
   {
     "name": "Grail Reliquae",
+    "name_pl": "Relikwiarz Graala",
     "M": 4,
     "WS": 2,
     "BS": 2,
@@ -678,6 +689,7 @@
   },
   {
     "name": "Damsel",
+    "name_pl": "Dama",
     "M": 4,
     "WS": 3,
     "BS": 3,
@@ -709,6 +721,7 @@
   },
   {
     "name": "Prophetess of the Lady",
+    "name_pl": "Prophetess Lady",
     "M": 4,
     "WS": 4,
     "BS": 3,
@@ -740,6 +753,7 @@
   },
   {
     "name": "Paladin",
+    "name_pl": "Palladyn",
     "M": 4,
     "WS": 6,
     "BS": 3,
@@ -769,6 +783,7 @@
   },
   {
     "name": "Duke",
+    "name_pl": "Książę",
     "M": 4,
     "WS": 7,
     "BS": 3,
@@ -798,6 +813,7 @@
   },
   {
     "name": "The Green Knight",
+    "name_pl": "Zielony Rycerz",
     "M": 4,
     "WS": 7,
     "BS": 3,

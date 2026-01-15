@@ -1,6 +1,7 @@
 [
   {
     "name": "Arch Necrotect",
+    "name_pl": "Arcynekrotekt",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -38,6 +39,7 @@
   },
   {
     "name": "Carrion",
+    "name_pl": "Padlinożercy",
     "unitCategory": "Infantry",
     "troopType": "Monstrous Infantry",
     "baseSize": "40 x 40 mm",
@@ -71,6 +73,7 @@
   },
   {
     "name": "Casket of Souls",
+    "name_pl": "Skrzynia Dusz",
     "unitCategory": "War Machine",
     "troopType": "War Machine",
     "baseSize": "N/A",
@@ -123,6 +126,7 @@
   },
   {
     "name": "High Priest",
+    "name_pl": "Wysoki Kapłan",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -164,6 +168,7 @@
   },
   {
     "name": "Khemrian Warsphinx",
+    "name_pl": "Khemryjski Sfinks Wojenny",
     "unitCategory": "Monster",
     "troopType": "Behemoth",
     "baseSize": "60 x 100 mm",
@@ -218,6 +223,7 @@
   },
   {
     "name": "Mortuary Priest",
+    "name_pl": "Kapłan Grobowy",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -259,6 +265,7 @@
   },
   {
     "name": "Necrolith Bone Dragon",
+    "name_pl": "Necrolith Bone Smok",
     "unitCategory": "Monster",
     "troopType": "Behemoth",
     "baseSize": "100 x 150 mm",
@@ -299,6 +306,7 @@
   },
   {
     "name": "Necrolith Colossus",
+    "name_pl": "Kolos Nekrolitowy",
     "unitCategory": "Monster",
     "troopType": "Behemoth",
     "baseSize": "50 x 50 mm",
@@ -337,6 +345,7 @@
   },
   {
     "name": "Necropolis Knights",
+    "name_pl": "Rycerze Nekropolii",
     "unitCategory": "Cavalry",
     "troopType": "Monstrous Cavalry",
     "baseSize": "50 x 100 mm",
@@ -403,6 +412,7 @@
   },
   {
     "name": "Necroserpents",
+    "name_pl": "Nekrowęże",
     "unitCategory": "Cavalry",
     "troopType": "Monstrous Cavalry",
     "baseSize": "50 x 100 mm",
@@ -441,6 +451,7 @@
   },
   {
     "name": "Necrosphinx",
+    "name_pl": "Nekrosfinks",
     "unitCategory": "Monster",
     "troopType": "Behemoth",
     "baseSize": "60 x 100 mm",
@@ -481,6 +492,7 @@
   },
   {
     "name": "Necrotect",
+    "name_pl": "Nekrotekt",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -517,6 +529,7 @@
   },
   {
     "name": "Nekaph",
+    "name_pl": "Nekaph",
     "unitCategory": "Named Character",
     "troopType": "Regular Infantry, Named Character",
     "baseSize": "25 x 25 mm",
@@ -555,6 +568,7 @@
   },
   {
     "name": "Prince Apophas",
+    "name_pl": "Książę Apophas",
     "unitCategory": "Named Character",
     "troopType": "Regular Infantry, Named Character",
     "baseSize": "25 x 25 mm",
@@ -595,6 +609,7 @@
   },
   {
     "name": "Royal Herald",
+    "name_pl": "Królewski Herold",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -632,6 +647,7 @@
   },
   {
     "name": "Screaming Skull Catapult",
+    "name_pl": "Katapulta Krzyczących Czaszek",
     "unitCategory": "War Machine",
     "troopType": "War Machine",
     "baseSize": "60 x 100 mm (war machine), 25 x 25 mm (crew)",
@@ -679,6 +695,7 @@
   },
   {
     "name": "Sepulchral Stalkers",
+    "name_pl": "Grobowe Tropy",
     "unitCategory": "Cavalry",
     "troopType": "Monstrous Cavalry",
     "baseSize": "50 x 100 mm",
@@ -716,6 +733,7 @@
   },
   {
     "name": "Settra the Imperishable",
+    "name_pl": "Settra Niezniszczalny",
     "unitCategory": "Named Character",
     "troopType": "Heavy Chariot, Named Character",
     "baseSize": "100 x 150 mm",
@@ -787,6 +805,7 @@
   },
   {
     "name": "Skeletal Steed (Tomb Kings)",
+    "name_pl": "Skeletal Steed (Tomb Kings)",
     "unitCategory": "Mount",
     "troopType": "Heavy Cavalry",
     "baseSize": "25 x 50 mm",
@@ -818,6 +837,7 @@
   },
   {
     "name": "Skeleton Archers",
+    "name_pl": "Szkieletowi Łucznicy",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
@@ -864,6 +884,7 @@
   },
   {
     "name": "Skeleton Cavalry Cohort",
+    "name_pl": "Kohorta Szkieletowej Kawalerii",
     "unitCategory": "Cavalry",
     "troopType": "Heavy Cavalry",
     "baseSize": "25 x 50 mm",
@@ -944,6 +965,7 @@
   },
   {
     "name": "Skeleton Chariot",
+    "name_pl": "Skeleton Rydwan",
     "unitCategory": "Mount",
     "troopType": "Light Chariot",
     "baseSize": "50 x 100 mm",
@@ -990,6 +1012,7 @@
   },
   {
     "name": "Skeleton Chariots",
+    "name_pl": "Szkieletowe Rydwany",
     "unitCategory": "Chariot",
     "troopType": "Light Chariot",
     "baseSize": "50 x 100 mm",
@@ -1066,6 +1089,7 @@
   },
   {
     "name": "Skeleton Horse Archers",
+    "name_pl": "Szkieletowi Konni Łucznicy",
     "unitCategory": "Cavalry",
     "troopType": "Light Cavalry",
     "baseSize": "25 x 50 mm",
@@ -1128,6 +1152,7 @@
   },
   {
     "name": "Skeleton Horsemen",
+    "name_pl": "Szkieletowi Konni",
     "unitCategory": "Cavalry",
     "troopType": "Heavy Cavalry",
     "baseSize": "25 x 50 mm",
@@ -1188,6 +1213,7 @@
   },
   {
     "name": "Skeleton Infantry Cohort",
+    "name_pl": "Kohorta Szkieletowej Piechoty",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
@@ -1254,6 +1280,7 @@
   },
   {
     "name": "Skeleton Skirmishers",
+    "name_pl": "Szkieletowi Harownicy",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
@@ -1288,6 +1315,7 @@
   },
   {
     "name": "Skeleton Warriors (Tomb Kings)",
+    "name_pl": "Skeleton Wojownicy (Tomb Kings)",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
@@ -1334,6 +1362,7 @@
   },
   {
     "name": "Tomb Guard",
+    "name_pl": "Straż Grobowców",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
@@ -1383,6 +1412,7 @@
   },
   {
     "name": "Tomb Guard Chariots",
+    "name_pl": "Rydwany Straży Grobowców",
     "unitCategory": "Chariot",
     "troopType": "Light Chariot",
     "baseSize": "50 x 100 mm",
@@ -1460,6 +1490,7 @@
   },
   {
     "name": "Tomb King",
+    "name_pl": "Król Grobowców",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -1497,6 +1528,7 @@
   },
   {
     "name": "Tomb Prince",
+    "name_pl": "Książę Grobowców",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -1534,6 +1566,7 @@
   },
   {
     "name": "Tomb Scorpion",
+    "name_pl": "Skorpion Grobowców",
     "unitCategory": "Monster",
     "troopType": "Monstrous Creature",
     "baseSize": "75 x 50 mm",
@@ -1572,6 +1605,7 @@
   },
   {
     "name": "Tomb Swarms",
+    "name_pl": "Roje Grobowców",
     "unitCategory": "Infantry",
     "troopType": "Swarm",
     "baseSize": "40 x 40 mm",
@@ -1605,6 +1639,7 @@
   },
   {
     "name": "Ushabti",
+    "name_pl": "Ushabti",
     "unitCategory": "Infantry",
     "troopType": "Monstrous Infantry",
     "baseSize": "40 x 40 mm",
@@ -1653,6 +1688,7 @@
   },
   {
     "name": "Venerable Ushabti",
+    "name_pl": "Czcigodni Ushabti",
     "unitCategory": "Infantry",
     "troopType": "Monstrous Infantry",
     "baseSize": "40 x 40 mm",

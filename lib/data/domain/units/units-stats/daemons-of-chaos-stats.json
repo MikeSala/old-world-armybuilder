@@ -1,6 +1,7 @@
 [
   {
     "name": "Bloodthirster of Khorne",
+    "name_pl": "Bloodthirster Khorne",
     "M": "10",
     "WS": "2+",
     "BS": null,
@@ -30,6 +31,7 @@
   },
   {
     "name": "Bloodletters of Khorne",
+    "name_pl": "Bloodletters Khorne",
     "M": "8",
     "WS": "3+",
     "BS": "3+",
@@ -56,6 +58,7 @@
   },
   {
     "name": "Flesh Hounds of Khorne",
+    "name_pl": "Flesh Hounds Khorne",
     "M": "14",
     "WS": "3+",
     "BS": null,
@@ -83,6 +86,7 @@
   },
   {
     "name": "Skull Cannon",
+    "name_pl": "Skull Cannon",
     "M": "8",
     "WS": null,
     "BS": "4+",
@@ -110,6 +114,7 @@
   },
   {
     "name": "Herald of Khorne",
+    "name_pl": "Herald Khorne",
     "M": "8",
     "WS": "3+",
     "BS": "3+",
@@ -138,6 +143,7 @@
   },
   {
     "name": "Bloodthirster of Khorne (on Juggernaut)",
+    "name_pl": "Bloodthirster Khorne (on Juggernaut)",
     "M": "14",
     "WS": "2+",
     "BS": null,
@@ -169,6 +175,7 @@
   },
   {
     "name": "Daemon Prince of Chaos (Khorne)",
+    "name_pl": "Demon Książę Chaos (Khorne)",
     "M": "10",
     "WS": "2+",
     "BS": "3+",
@@ -198,6 +205,7 @@
   },
   {
     "name": "Daemon Prince of Chaos (Khorne) (with wings)",
+    "name_pl": "Demon Książę Chaos (Khorne) (with wings)",
     "M": "14",
     "WS": "2+",
     "BS": "3+",
@@ -228,6 +236,7 @@
   },
   {
     "name": "Herald of Khorne (on Juggernaut)",
+    "name_pl": "Herald Khorne (on Juggernaut)",
     "M": "14",
     "WS": "3+",
     "BS": "3+",

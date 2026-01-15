@@ -1,6 +1,7 @@
 [
   {
     "name": "Barded Warhorse",
+    "name_pl": "Opancerzony rumak",
     "M": 7,
     "WS": 3,
     "BS": null,
@@ -28,6 +29,7 @@
   },
   {
     "name": "Captain of the Empire",
+    "name_pl": "Kapitan Imperium",
     "M": 4,
     "WS": 5,
     "BS": 5,
@@ -54,6 +56,7 @@
   },
   {
     "name": "Chapter Master",
+    "name_pl": "Mistrz Kapituły",
     "M": null,
     "WS": 5,
     "BS": 3,
@@ -86,6 +89,7 @@
   },
   {
     "name": "Demigryph",
+    "name_pl": "Demigryf",
     "M": 7,
     "WS": 4,
     "BS": null,
@@ -114,6 +118,7 @@
   },
   {
     "name": "Demigryph Knights",
+    "name_pl": "Rycerze na Demigryfach",
     "M": null,
     "WS": 4,
     "BS": 3,
@@ -169,6 +174,7 @@
   },
   {
     "name": "Empire Archers",
+    "name_pl": "Łucznicy Imperium",
     "M": 4,
     "WS": 3,
     "BS": 3,
@@ -212,6 +218,7 @@
   },
   {
     "name": "Empire Engineer",
+    "name_pl": "Inżynier Imperium",
     "M": 4,
     "WS": 3,
     "BS": 4,
@@ -237,6 +244,7 @@
   },
   {
     "name": "Empire Greatswords",
+    "name_pl": "Wielcy Mieczownicy Imperium",
     "M": 4,
     "WS": 4,
     "BS": 3,
@@ -279,6 +287,7 @@
   },
   {
     "name": "Empire Knights",
+    "name_pl": "Rycerze Imperium",
     "M": null,
     "WS": 4,
     "BS": 3,
@@ -333,6 +342,7 @@
   },
   {
     "name": "Empire Road Wardens",
+    "name_pl": "Strażnicy Dróg Imperium",
     "M": null,
     "WS": 3,
     "BS": 4,
@@ -389,6 +399,7 @@
   },
   {
     "name": "Empire Steam Tank",
+    "name_pl": "Empire Steam Tank",
     "M": 4,
     "WS": null,
     "BS": null,
@@ -438,6 +449,7 @@
   },
   {
     "name": "Empire War Wagon",
+    "name_pl": "Wóz wojenny Imperium",
     "M": null,
     "WS": null,
     "BS": null,
@@ -494,6 +506,7 @@
   },
   {
     "name": "Empire Warhorse",
+    "name_pl": "Empire rumak bojowy",
     "M": 8,
     "WS": 3,
     "BS": null,
@@ -519,6 +532,7 @@
   },
   {
     "name": "Flagellants",
+    "name_pl": "Flagelanci",
     "M": 4,
     "WS": 3,
     "BS": 2,
@@ -565,6 +579,7 @@
   },
   {
     "name": "Free Company Militia",
+    "name_pl": "Milicja Wolnej Kompanii",
     "M": 4,
     "WS": 3,
     "BS": 3,
@@ -608,6 +623,7 @@
   },
   {
     "name": "General Hans von Löwenhacke",
+    "name_pl": "Generał Hans von Löwenhacke",
     "M": 4,
     "WS": 6,
     "BS": 5,
@@ -639,6 +655,7 @@
   },
   {
     "name": "General of the Empire",
+    "name_pl": "Generał Imperium",
     "M": 4,
     "WS": 5,
     "BS": 5,
@@ -665,6 +682,7 @@
   },
   {
     "name": "Grand Master",
+    "name_pl": "Wielki Mistrz",
     "M": null,
     "WS": 6,
     "BS": 3,
@@ -697,6 +715,7 @@
   },
   {
     "name": "Great Cannon",
+    "name_pl": "Wielka Armata",
     "M": null,
     "WS": null,
     "BS": null,
@@ -736,6 +755,7 @@
   },
   {
     "name": "Griffon (Empire)",
+    "name_pl": "Griffon (Empire)",
     "M": 6,
     "WS": 5,
     "BS": null,
@@ -767,6 +787,7 @@
   },
   {
     "name": "Harald Gemunsen",
+    "name_pl": "Harald Gemunsen",
     "M": null,
     "WS": 7,
     "BS": 3,
@@ -819,6 +840,7 @@
   },
   {
     "name": "Harbinger of Doom",
+    "name_pl": "Zwiastun Zagłady",
     "M": 4,
     "WS": 5,
     "BS": 2,
@@ -850,6 +872,7 @@
   },
   {
     "name": "Helblaster Volley Gun",
+    "name_pl": "Helblaster",
     "M": null,
     "WS": null,
     "BS": null,
@@ -889,6 +912,7 @@
   },
   {
     "name": "Helstorm Rocket Battery",
+    "name_pl": "Wyrzutnia Rakiet Helstorm",
     "M": null,
     "WS": null,
     "BS": null,
@@ -928,6 +952,7 @@
   },
   {
     "name": "High Priest of Ulric",
+    "name_pl": "Wysoki Kapłan Ulryka",
     "M": 4,
     "WS": 5,
     "BS": 3,
@@ -955,6 +980,7 @@
   },
   {
     "name": "Imperial Griffon",
+    "name_pl": "Imperial Gryf",
     "M": 6,
     "WS": 5,
     "BS": null,
@@ -986,6 +1012,7 @@
   },
   {
     "name": "Imperial Ogres",
+    "name_pl": "Imperial Ogry",
     "M": 6,
     "WS": 3,
     "BS": 3,
@@ -1031,6 +1058,7 @@
   },
   {
     "name": "Inner Circle Knights",
+    "name_pl": "Rycerze Wewnętrznego Kręgu",
     "M": null,
     "WS": 4,
     "BS": 3,
@@ -1088,6 +1116,7 @@
   },
   {
     "name": "Lector of Sigmar",
+    "name_pl": "Lektor Sigmara",
     "M": 4,
     "WS": 5,
     "BS": 3,
@@ -1115,6 +1144,7 @@
   },
   {
     "name": "Master Mage",
+    "name_pl": "Mistrz Magii",
     "M": 4,
     "WS": 3,
     "BS": 3,
@@ -1148,6 +1178,7 @@
   },
   {
     "name": "Mortar",
+    "name_pl": "Moździerz",
     "M": null,
     "WS": null,
     "BS": null,
@@ -1187,6 +1218,7 @@
   },
   {
     "name": "Nuln State Missile Troops",
+    "name_pl": "Nuln State Missile Troops",
     "M": 4,
     "WS": 3,
     "BS": 3,
@@ -1228,6 +1260,7 @@
   },
   {
     "name": "Nuln State Troops",
+    "name_pl": "Wojska Stanowe Nulnu",
     "M": 4,
     "WS": 3,
     "BS": 3,
@@ -1271,6 +1304,7 @@
   },
   {
     "name": "Nuln Swordsmen",
+    "name_pl": "Nuln Miecznicy",
     "M": 4,
     "WS": 3,
     "BS": 3,
@@ -1314,6 +1348,7 @@
   },
   {
     "name": "Nuln Veteran State Troops",
+    "name_pl": "Weterani Wojsk Stanowych Nulnu",
     "M": 4,
     "WS": 4,
     "BS": 3,
@@ -1358,6 +1393,7 @@
   },
   {
     "name": "Outriders",
+    "name_pl": "Zwiadowcy",
     "M": null,
     "WS": 3,
     "BS": 4,
@@ -1414,6 +1450,7 @@
   },
   {
     "name": "Pegasus",
+    "name_pl": "Pegaz",
     "M": 8,
     "WS": 3,
     "BS": null,
@@ -1441,6 +1478,7 @@
   },
   {
     "name": "Pistoliers",
+    "name_pl": "Pistoletnicy",
     "M": null,
     "WS": 3,
     "BS": 3,
@@ -1498,6 +1536,7 @@
   },
   {
     "name": "Priest of Sigmar",
+    "name_pl": "Kapłan Sigmara",
     "M": 4,
     "WS": 4,
     "BS": 3,
@@ -1525,6 +1564,7 @@
   },
   {
     "name": "Priest of Ulric",
+    "name_pl": "Kapłan Ulryka",
     "M": 4,
     "WS": 4,
     "BS": 3,
@@ -1552,6 +1592,7 @@
   },
   {
     "name": "State Missile Troops",
+    "name_pl": "Wojska Strzeleckie Stanowe",
     "M": 4,
     "WS": 3,
     "BS": 3,
@@ -1593,6 +1634,7 @@
   },
   {
     "name": "State Troops",
+    "name_pl": "Wojska Stanowe",
     "M": 4,
     "WS": 3,
     "BS": 3,
@@ -1635,6 +1677,7 @@
   },
   {
     "name": "Teutogen Guard",
+    "name_pl": "Gwardia Teutogenów",
     "M": 4,
     "WS": 4,
     "BS": 3,
@@ -1679,6 +1722,7 @@
   },
   {
     "name": "Veteran State Troops",
+    "name_pl": "Weterani Wojsk Stanowych",
     "M": 4,
     "WS": 4,
     "BS": 3,
@@ -1722,6 +1766,7 @@
   },
   {
     "name": "War Altar of Sigmar",
+    "name_pl": "War Altar Sigmar",
     "M": null,
     "WS": null,
     "BS": null,
@@ -1769,6 +1814,7 @@
   },
   {
     "name": "Witch Hunter",
+    "name_pl": "Łowca Czarownic",
     "M": 4,
     "WS": 4,
     "BS": 4,
@@ -1796,6 +1842,7 @@
   },
   {
     "name": "Wizard Lord",
+    "name_pl": "Władca Czarodziejów",
     "M": 4,
     "WS": 4,
     "BS": 3,

@@ -1,6 +1,7 @@
 [
   {
     "name": "Cathayan Grand Cannon",
+    "name_pl": "Wielka Armata Cathay",
     "unitCategory": "War Machine",
     "troopType": "War Machine",
     "baseSize": "60 x 100 mm (war machine), 25 x 25 mm (crew)",
@@ -44,6 +45,7 @@
   },
   {
     "name": "Cathayan Sentinel",
+    "name_pl": "Wartownik Cathay",
     "unitCategory": "Monster",
     "troopType": "Behemoth",
     "baseSize": "100 x 150 mm",
@@ -82,6 +84,7 @@
   },
   {
     "name": "Cathayan Warhorse",
+    "name_pl": "Cathayan Rumak Bojowy",
     "unitCategory": "Mount",
     "troopType": "Heavy Cavalry",
     "baseSize": "30 x 60 mm",
@@ -115,6 +118,7 @@
   },
   {
     "name": "Fire Rain Rocket Battery",
+    "name_pl": "Bateria Rakiet Ognia Deszczu",
     "unitCategory": "War Machine",
     "troopType": "War Machine",
     "baseSize": "60 x 100 mm (war machine), 25 x 25 mm (crew)",
@@ -158,6 +162,7 @@
   },
   {
     "name": "Gate Keeper",
+    "name_pl": "Strażnik Bramy",
     "unitCategory": "Character",
     "troopType": "Heavy Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -190,6 +195,7 @@
   },
   {
     "name": "Gate Master",
+    "name_pl": "Mistrz Bramy",
     "unitCategory": "Character",
     "troopType": "Heavy Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -222,6 +228,7 @@
   },
   {
     "name": "Jade Lancers",
+    "name_pl": "Jadeitowi Lansjerzy",
     "unitCategory": "Cavalry",
     "troopType": "Heavy Cavalry",
     "baseSize": "30 x 60 mm",
@@ -285,6 +292,7 @@
   },
   {
     "name": "Jade Warriors",
+    "name_pl": "Jadeitowi Wojownicy",
     "unitCategory": "Infantry",
     "troopType": "Heavy Infantry",
     "baseSize": "25 x 25 mm",
@@ -331,6 +339,7 @@
   },
   {
     "name": "Lord Magistrate",
+    "name_pl": "Lord Magistrat",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -363,6 +372,7 @@
   },
   {
     "name": "Miao Ying",
+    "name_pl": "Miao Ying",
     "unitCategory": "Named Character",
     "troopType": "Heavy Infantry, Behemoth, Named Character",
     "baseSize": "50 x 50 mm (Human form), 100 x 150 mm (Dragon form)",
@@ -429,6 +439,7 @@
   },
   {
     "name": "Ogre Loader",
+    "name_pl": "Ładowniczy Ogr",
     "unitCategory": "War Machine",
     "troopType": "Monstrous Infantry, Character",
     "baseSize": "40 x 40 mm",
@@ -460,6 +471,7 @@
   },
   {
     "name": "Shugengan General",
+    "name_pl": "Generał Shugengan",
     "unitCategory": "Character",
     "troopType": "Monstrous Creature, Character",
     "baseSize": "60 x 100 mm",
@@ -516,6 +528,7 @@
   },
   {
     "name": "Shugengan Lord",
+    "name_pl": "Władca Shugengan",
     "unitCategory": "Character",
     "troopType": "Monstrous Creature, Character",
     "baseSize": "60 x 100 mm",
@@ -572,6 +585,7 @@
   },
   {
     "name": "Sky Lantern",
+    "name_pl": "Niebiańska Latarnia",
     "unitCategory": "Chariot",
     "troopType": "Heavy Chariot",
     "baseSize": "100 x 100 mm",
@@ -637,6 +651,7 @@
   },
   {
     "name": "Strategist",
+    "name_pl": "Strateg",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",

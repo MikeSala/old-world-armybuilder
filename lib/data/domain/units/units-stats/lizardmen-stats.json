@@ -1,6 +1,7 @@
 [
   {
     "name": "Ancient Stegadon",
+    "name_pl": "Starożytny Stegadon",
     "unitCategory": "Monster",
     "troopType": "Behemoth",
     "baseSize": "60 x 100 mm",
@@ -66,6 +67,7 @@
   },
   {
     "name": "Bastiladon",
+    "name_pl": "Bastiladon",
     "unitCategory": "Monster",
     "troopType": "Monstrous Creature",
     "baseSize": "60 x 100 mm",
@@ -129,6 +131,7 @@
   },
   {
     "name": "Carnosaur",
+    "name_pl": "Karnosaur",
     "unitCategory": "Monster",
     "troopType": "Behemoth",
     "baseSize": "50 x 100 mm",
@@ -165,6 +168,7 @@
   },
   {
     "name": "Chameleon Skinks",
+    "name_pl": "Kameleon Skinków",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
@@ -212,6 +216,7 @@
   },
   {
     "name": "Cold One (Lizardmen)",
+    "name_pl": "Cold One (Jaszczury)",
     "unitCategory": "Mount",
     "troopType": "Heavy Cavalry",
     "baseSize": "30 x 60 mm",
@@ -245,6 +250,7 @@
   },
   {
     "name": "Cold One Riders",
+    "name_pl": "Jeźdźcy na Zimnych",
     "unitCategory": "Cavalry",
     "troopType": "Heavy Cavalry",
     "baseSize": "30 x 60 mm",
@@ -307,6 +313,7 @@
   },
   {
     "name": "Jungle Swarms",
+    "name_pl": "Roje Dżungli",
     "unitCategory": "Infantry",
     "troopType": "Swarm",
     "baseSize": "40 x 40 mm",
@@ -343,6 +350,7 @@
   },
   {
     "name": "Kroxigor",
+    "name_pl": "Kroxigor",
     "unitCategory": "Infantry",
     "troopType": "Monstrous Infantry",
     "baseSize": "40 x 40 mm",
@@ -389,6 +397,7 @@
   },
   {
     "name": "Razordon Pack",
+    "name_pl": "Sfora Razordonów",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry, War Beast",
     "baseSize": "25 x 25 mm (Skink Handlers), 50 x 75 mm (Razordons)",
@@ -435,6 +444,7 @@
   },
   {
     "name": "Ripperdactyl",
+    "name_pl": "Ripperdaktyl",
     "unitCategory": "Mount",
     "troopType": "Monstrous Cavalry",
     "baseSize": "40 x 40 mm",
@@ -471,6 +481,7 @@
   },
   {
     "name": "Ripperdactyl Riders",
+    "name_pl": "Jeźdźcy Ripperdaktyli",
     "unitCategory": "Cavalry",
     "troopType": "Monstrous Cavalry",
     "baseSize": "40 x 40 mm",
@@ -535,6 +546,7 @@
   },
   {
     "name": "Salamander Pack",
+    "name_pl": "Sfora Salamander",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry, War Beast",
     "baseSize": "25 x 25 mm (Skink Handlers), 50 x 75 mm (Salamanders)",
@@ -581,6 +593,7 @@
   },
   {
     "name": "Saurus Oldblood",
+    "name_pl": "Stara Krew Saurusów",
     "unitCategory": "Character",
     "troopType": "Heavy Infantry, Character",
     "baseSize": "30 x 30 mm",
@@ -614,6 +627,7 @@
   },
   {
     "name": "Saurus Scar-Veteran",
+    "name_pl": "Weteran Blizn Saurusów",
     "unitCategory": "Character",
     "troopType": "Heavy Infantry, Character",
     "baseSize": "30 x 30 mm",
@@ -647,6 +661,7 @@
   },
   {
     "name": "Saurus Warriors",
+    "name_pl": "Wojownicy Saurusów",
     "unitCategory": "Infantry",
     "troopType": "Heavy Infantry",
     "baseSize": "30 x 30 mm",
@@ -692,6 +707,7 @@
   },
   {
     "name": "Skink Chief",
+    "name_pl": "Wódz Skinków",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -724,6 +740,7 @@
   },
   {
     "name": "Skink Priest",
+    "name_pl": "Kapłan Skinków",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -762,6 +779,7 @@
   },
   {
     "name": "Skink Skirmishers",
+    "name_pl": "Harownicy Skinków",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
@@ -807,6 +825,7 @@
   },
   {
     "name": "Slann Mage-Priest",
+    "name_pl": "Magik-Kapłan Slannów",
     "unitCategory": "Character",
     "troopType": "Monstrous Creature, Character",
     "baseSize": "50 x 50 mm",
@@ -848,6 +867,7 @@
   },
   {
     "name": "Stegadon",
+    "name_pl": "Stegadon",
     "unitCategory": "Monster",
     "troopType": "Behemoth",
     "baseSize": "60 x 100 mm",
@@ -911,6 +931,7 @@
   },
   {
     "name": "Temple Guard",
+    "name_pl": "Straż Świątynna",
     "unitCategory": "Infantry",
     "troopType": "Heavy Infantry",
     "baseSize": "30 x 30 mm",
@@ -960,6 +981,7 @@
   },
   {
     "name": "Terradon",
+    "name_pl": "Terradon",
     "unitCategory": "Mount",
     "troopType": "Monstrous Cavalry",
     "baseSize": "40 x 40 mm",
@@ -993,6 +1015,7 @@
   },
   {
     "name": "Terradon Riders",
+    "name_pl": "Jeźdźcy Terradonów",
     "unitCategory": "Cavalry",
     "troopType": "Monstrous Cavalry",
     "baseSize": "40 x 40 mm",
@@ -1055,6 +1078,7 @@
   },
   {
     "name": "Troglodon",
+    "name_pl": "Troglodon",
     "unitCategory": "Monster",
     "troopType": "Monstrous Creature",
     "baseSize": "50 x 100 mm",

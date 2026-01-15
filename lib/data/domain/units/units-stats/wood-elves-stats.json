@@ -1,6 +1,7 @@
 [
   {
     "name": "Araloth, Lord of Talsyn",
+    "name_pl": "Araloth, Władca Talsyn",
     "unitCategory": "Named Character",
     "troopType": "Regular Infantry, Named Character",
     "baseSize": "25 x 25 mm",
@@ -36,6 +37,7 @@
   },
   {
     "name": "Bear of Loren",
+    "name_pl": "Niedźwiedź Lorenu",
     "unitCategory": "Infantry",
     "troopType": "War Beast",
     "baseSize": "25 x 50 mm",
@@ -67,6 +69,7 @@
   },
   {
     "name": "Beast Keeper",
+    "name_pl": "Bestia Keeper",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
@@ -98,6 +101,7 @@
   },
   {
     "name": "Branchwraith",
+    "name_pl": "Upiór Konaru",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "30 x 30 mm",
@@ -137,6 +141,7 @@
   },
   {
     "name": "Deepwood Hound",
+    "name_pl": "Pies z Głębokiego Lasu",
     "unitCategory": "Infantry",
     "troopType": "War Beast",
     "baseSize": "25 x 50 mm",
@@ -166,6 +171,7 @@
   },
   {
     "name": "Deepwood Scouts",
+    "name_pl": "Zwiadowcy z Głębokiego Lasu",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
@@ -215,6 +221,7 @@
   },
   {
     "name": "Dryads",
+    "name_pl": "Driady",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "30 x 30 mm",
@@ -267,6 +274,7 @@
   },
   {
     "name": "Elven Steed",
+    "name_pl": "Elficki rumak",
     "unitCategory": "Mount",
     "troopType": "Light Cavalry",
     "baseSize": "30 x 60 mm",
@@ -294,6 +302,7 @@
   },
   {
     "name": "Eternal Guard",
+    "name_pl": "Wieczna Straż",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
@@ -342,6 +351,7 @@
   },
   {
     "name": "Forest Cat",
+    "name_pl": "Leśny Kot",
     "unitCategory": "Infantry",
     "troopType": "War Beast",
     "baseSize": "25 x 50 mm",
@@ -371,6 +381,7 @@
   },
   {
     "name": "Forest Dragon",
+    "name_pl": "Leśny smok",
     "unitCategory": "Monster",
     "troopType": "Behemoth",
     "baseSize": "60 x 100 mm",
@@ -405,6 +416,7 @@
   },
   {
     "name": "Glade Captain",
+    "name_pl": "Kapitan Polany",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -439,6 +451,7 @@
   },
   {
     "name": "Glade Guard",
+    "name_pl": "Strażnik Polany",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
@@ -484,6 +497,7 @@
   },
   {
     "name": "Glade Lord",
+    "name_pl": "Władca Polan",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -518,6 +532,7 @@
   },
   {
     "name": "Glade Riders",
+    "name_pl": "Jeźdzcy Polany",
     "unitCategory": "Cavalry",
     "troopType": "Light Cavalry",
     "baseSize": "30 x 60 mm",
@@ -584,6 +599,7 @@
   },
   {
     "name": "Great Eagle",
+    "name_pl": "Wielki orzeł",
     "unitCategory": "Monster",
     "troopType": "Monstrous Creature",
     "baseSize": "50 x 50 mm",
@@ -615,6 +631,7 @@
   },
   {
     "name": "Great Eagle (Mount)",
+    "name_pl": "Wielki Eagle (Wierzchowiec)",
     "unitCategory": "Mount",
     "troopType": "Monstrous Creature",
     "baseSize": "50 x 50 mm",
@@ -646,6 +663,7 @@
   },
   {
     "name": "Great Stag",
+    "name_pl": "Wielki jeleń",
     "unitCategory": "Mount",
     "troopType": "Monstrous Cavalry",
     "baseSize": "50 x 50 mm",
@@ -679,6 +697,7 @@
   },
   {
     "name": "Guardians of Talsyn",
+    "name_pl": "Guardians Talsyn",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
@@ -730,6 +749,7 @@
   },
   {
     "name": "Orion, the King in the Woods",
+    "name_pl": "Orion, Król in Woods",
     "unitCategory": "Named Character",
     "troopType": "Monstrous Infantry, Named Character",
     "baseSize": "50 x 50 mm (Orion), 25 x 50mm (Hounds of Orion)",
@@ -768,6 +788,7 @@
   },
   {
     "name": "Shadowdancer",
+    "name_pl": "Tancerz Cienia",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -805,6 +826,7 @@
   },
   {
     "name": "Sisters of the Thorn",
+    "name_pl": "Siostry Ciernia",
     "unitCategory": "Cavalry",
     "troopType": "Light Cavalry",
     "baseSize": "30 x 60 mm",
@@ -873,6 +895,7 @@
   },
   {
     "name": "Spellsinger",
+    "name_pl": "Pieśniarz Zaklęć",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -908,6 +931,7 @@
   },
   {
     "name": "Spellweaver",
+    "name_pl": "Tkacz Uroków",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -943,6 +967,7 @@
   },
   {
     "name": "Sylvan Boar",
+    "name_pl": "Leśny Dzik",
     "unitCategory": "Infantry",
     "troopType": "War Beast",
     "baseSize": "25 x 50 mm",
@@ -973,6 +998,7 @@
   },
   {
     "name": "Tree Kin",
+    "name_pl": "Drzewne Bractwo",
     "unitCategory": "Infantry",
     "troopType": "Monstrous Infantry",
     "baseSize": "50 x 50 mm",
@@ -1027,6 +1053,7 @@
   },
   {
     "name": "Treeman",
+    "name_pl": "Drzewiec",
     "unitCategory": "Monster",
     "troopType": "Behemoth",
     "baseSize": "50 x 50 mm (min), 50 x 75 mm (max)",
@@ -1068,6 +1095,7 @@
   },
   {
     "name": "Treeman Ancient",
+    "name_pl": "Starożytny Drzewiec",
     "unitCategory": "Character",
     "troopType": "Behemoth, Character",
     "baseSize": "50 x 50 mm (min), 50 x 75 mm (max)",
@@ -1113,6 +1141,7 @@
   },
   {
     "name": "Unicorn",
+    "name_pl": "Jednorożec",
     "unitCategory": "Mount",
     "troopType": "Monstrous Cavalry",
     "baseSize": "40 x 60 mm",
@@ -1145,6 +1174,7 @@
   },
   {
     "name": "Wardancers",
+    "name_pl": "Tancerze Wojny",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
@@ -1197,6 +1227,7 @@
   },
   {
     "name": "Warden of Talsyn",
+    "name_pl": "Warden Talsyn",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -1233,6 +1264,7 @@
   },
   {
     "name": "Warhawk",
+    "name_pl": "Jastrząb bojowy",
     "unitCategory": "Mount",
     "troopType": "Monstrous Cavalry",
     "baseSize": "50 x 50 mm",
@@ -1263,6 +1295,7 @@
   },
   {
     "name": "Warhawk Riders",
+    "name_pl": "Jeźdzcy Jastrzębi",
     "unitCategory": "Cavalry",
     "troopType": "Monstrous Cavalry",
     "baseSize": "50 x 50 mm",
@@ -1331,6 +1364,7 @@
   },
   {
     "name": "Waystalker",
+    "name_pl": "Czatownik",
     "unitCategory": "Character",
     "troopType": "Regular Infantry, Character",
     "baseSize": "25 x 25 mm",
@@ -1365,6 +1399,7 @@
   },
   {
     "name": "Waywatchers",
+    "name_pl": "Strażnicy Ścieżek",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",
@@ -1415,6 +1450,7 @@
   },
   {
     "name": "Wild Riders",
+    "name_pl": "Dzicy Jeźdzcy",
     "unitCategory": "Cavalry",
     "troopType": "Light Cavalry",
     "baseSize": "30 x 60 mm",
@@ -1485,6 +1521,7 @@
   },
   {
     "name": "Wildwood Rangers",
+    "name_pl": "Zwiadowcy z Dzikiego Lasu",
     "unitCategory": "Infantry",
     "troopType": "Regular Infantry",
     "baseSize": "25 x 25 mm",

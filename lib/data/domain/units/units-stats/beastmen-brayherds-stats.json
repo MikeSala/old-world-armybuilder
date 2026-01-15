@@ -1,6 +1,7 @@
 [
   {
     "name": "Beastlord",
+    "name_pl": "Pan Bestii",
     "M": 5,
     "WS": 6,
     "BS": 3,
@@ -32,6 +33,7 @@
   },
   {
     "name": "Bestigor",
+    "name_pl": "Bestigor",
     "M": 5,
     "WS": 4,
     "BS": 3,
@@ -63,6 +65,7 @@
   },
   {
     "name": "Gourge-horn",
+    "name_pl": "Gourge-horn",
     "M": 5,
     "WS": 4,
     "BS": 3,
@@ -84,6 +87,7 @@
   },
   {
     "name": "Bray-Shaman",
+    "name_pl": "Braillechaman",
     "M": 5,
     "WS": 4,
     "BS": 3,
@@ -117,6 +121,7 @@
   },
   {
     "name": "Centigor",
+    "name_pl": "Centigor",
     "M": 8,
     "WS": 4,
     "BS": 3,
@@ -153,6 +158,7 @@
   },
   {
     "name": "Gorehoof",
+    "name_pl": "Krwawokopyt",
     "M": 8,
     "WS": 4,
     "BS": 3,
@@ -174,6 +180,7 @@
   },
   {
     "name": "Giant",
+    "name_pl": "Olbrzym",
     "M": 6,
     "WS": 3,
     "BS": 1,
@@ -208,6 +215,7 @@
   },
   {
     "name": "Chaos Warhound",
+    "name_pl": "Chaos Warhound",
     "M": 7,
     "WS": 4,
     "BS": 0,
@@ -236,6 +244,7 @@
   },
   {
     "name": "Cockatrice",
+    "name_pl": "Kokatrys",
     "M": 4,
     "WS": 4,
     "BS": 5,
@@ -269,6 +278,7 @@
   },
   {
     "name": "Cygor",
+    "name_pl": "Cygor",
     "M": 7,
     "WS": 2,
     "BS": 1,
@@ -304,6 +314,7 @@
   },
   {
     "name": "Doombull",
+    "name_pl": "Byk Zagłady",
     "M": 6,
     "WS": 6,
     "BS": 3,
@@ -340,6 +351,7 @@
   },
   {
     "name": "Shaggoth",
+    "name_pl": "Shaggoth",
     "M": 7,
     "WS": 6,
     "BS": 2,
@@ -375,6 +387,7 @@
   },
   {
     "name": "Dragon Ogre",
+    "name_pl": "Smok Ogr",
     "M": 7,
     "WS": 4,
     "BS": 2,
@@ -408,6 +421,7 @@
   },
   {
     "name": "Shartak",
+    "name_pl": "Shartak",
     "M": 7,
     "WS": 4,
     "BS": 2,
@@ -429,6 +443,7 @@
   },
   {
     "name": "Ghorgon",
+    "name_pl": "Ghorgon",
     "M": 7,
     "WS": 4,
     "BS": 0,
@@ -465,6 +480,7 @@
   },
   {
     "name": "Ghorros Warhoof",
+    "name_pl": "Ghorros Warhoof",
     "M": 8,
     "WS": 5,
     "BS": 3,
@@ -501,6 +517,7 @@
   },
   {
     "name": "Gor",
+    "name_pl": "Gor",
     "M": 5,
     "WS": 4,
     "BS": 2,
@@ -534,6 +551,7 @@
   },
   {
     "name": "True-horn",
+    "name_pl": "Prawdziwy Róg",
     "M": 5,
     "WS": 4,
     "BS": 2,
@@ -555,6 +573,7 @@
   },
   {
     "name": "Gorebull",
+    "name_pl": "Krwawy Byk",
     "M": 6,
     "WS": 5,
     "BS": 3,
@@ -591,6 +610,7 @@
   },
   {
     "name": "Great Bray-Shaman",
+    "name_pl": "Wielki Braillechaman",
     "M": 5,
     "WS": 5,
     "BS": 3,
@@ -624,6 +644,7 @@
   },
   {
     "name": "Harpy",
+    "name_pl": "Harpy",
     "M": 5,
     "WS": 3,
     "BS": 0,
@@ -653,6 +674,7 @@
   },
   {
     "name": "Herdstone",
+    "name_pl": "Kamień Stada",
     "M": null,
     "WS": null,
     "BS": null,
@@ -676,6 +698,7 @@
   },
   {
     "name": "Jabberslythe",
+    "name_pl": "Jabberslythe",
     "M": 6,
     "WS": 4,
     "BS": 4,
@@ -711,6 +734,7 @@
   },
   {
     "name": "Kralmaw, the Prophet of Ruin",
+    "name_pl": "Kralmaw, Prophet Ruin",
     "M": 5,
     "WS": 3,
     "BS": 3,
@@ -746,6 +770,7 @@
   },
   {
     "name": "Minotaur",
+    "name_pl": "Minotaur",
     "M": 6,
     "WS": 4,
     "BS": 3,
@@ -782,6 +807,7 @@
   },
   {
     "name": "Bloodkine",
+    "name_pl": "Krwiokrewny",
     "M": 6,
     "WS": 4,
     "BS": 3,
@@ -803,6 +829,7 @@
   },
   {
     "name": "Preyton",
+    "name_pl": "Preyton",
     "M": 6,
     "WS": 5,
     "BS": 0,
@@ -836,6 +863,7 @@
   },
   {
     "name": "Primal Warherd – Gor",
+    "name_pl": "Primal Warherd – Gor",
     "M": 5,
     "WS": 4,
     "BS": 2,
@@ -872,6 +900,7 @@
   },
   {
     "name": "Primal Warherd – Ungor",
+    "name_pl": "Primal Warherd – Ungor",
     "M": 5,
     "WS": 3,
     "BS": 3,
@@ -893,6 +922,7 @@
   },
   {
     "name": "Primal Warherd – Foe-render",
+    "name_pl": "Primal Warherd – Foe-render",
     "M": 5,
     "WS": 4,
     "BS": 2,
@@ -914,6 +944,7 @@
   },
   {
     "name": "Primal Warhound",
+    "name_pl": "Primal Warhound",
     "M": 7,
     "WS": 4,
     "BS": 0,
@@ -944,6 +975,7 @@
   },
   {
     "name": "Razorgor Chariot",
+    "name_pl": "Razorgor Rydwan",
     "M": null,
     "WS": null,
     "BS": null,
@@ -979,6 +1011,7 @@
   },
   {
     "name": "Bestigor Crew (x1)",
+    "name_pl": "Bestigor Załoga (x1)",
     "M": null,
     "WS": 4,
     "BS": 3,
@@ -1000,6 +1033,7 @@
   },
   {
     "name": "Gor Crew (x1)",
+    "name_pl": "Gor Załoga (x1)",
     "M": null,
     "WS": 4,
     "BS": 3,
@@ -1021,6 +1055,7 @@
   },
   {
     "name": "Razorgor (x1)",
+    "name_pl": "Razorgor (x1)",
     "M": 7,
     "WS": 3,
     "BS": null,
@@ -1042,6 +1077,7 @@
   },
   {
     "name": "Razorgor",
+    "name_pl": "Razorgor",
     "M": 7,
     "WS": 3,
     "BS": 0,
@@ -1076,6 +1112,7 @@
   },
   {
     "name": "Tuskgor Chariot",
+    "name_pl": "Tuskgor Rydwan",
     "M": null,
     "WS": null,
     "BS": null,
@@ -1109,6 +1146,7 @@
   },
   {
     "name": "Tuskgor (x2)",
+    "name_pl": "Tuskgor (x2)",
     "M": 7,
     "WS": 3,
     "BS": null,
@@ -1130,6 +1168,7 @@
   },
   {
     "name": "Ungor",
+    "name_pl": "Ungor",
     "M": 5,
     "WS": 3,
     "BS": 3,
@@ -1163,6 +1202,7 @@
   },
   {
     "name": "Half-horn",
+    "name_pl": "Półróg",
     "M": 5,
     "WS": 3,
     "BS": 3,
@@ -1184,6 +1224,7 @@
   },
   {
     "name": "Ungor Ravager",
+    "name_pl": "Ungor Ravager",
     "M": 7,
     "WS": 3,
     "BS": 3,
@@ -1217,6 +1258,7 @@
   },
   {
     "name": "Wargor",
+    "name_pl": "Wargor",
     "M": 5,
     "WS": 5,
     "BS": 3,
@@ -1248,6 +1290,7 @@
   },
   {
     "name": "Warhoof",
+    "name_pl": "Wojenkopiyt",
     "M": 8,
     "WS": 5,
     "BS": 3,
@@ -1281,6 +1324,7 @@
   },
   {
     "name": "Warped Gor",
+    "name_pl": "Warped Gor",
     "M": 5,
     "WS": 4,
     "BS": 2,
@@ -1315,6 +1359,7 @@
   },
   {
     "name": "Splice-horn",
+    "name_pl": "Splice-horn",
     "M": 5,
     "WS": 4,
     "BS": 2,
