@@ -35,7 +35,23 @@
       "Swiftstride",
       "Terror"
     ],
-    "id": "abyssal-terror"
+    "id": "abyssal-terror",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Monstrualne Stworzenie",
+    "equipment_pl": [
+      "Złowrogie Szpony",
+      "Poisonous tail",
+      "Scaly skin (counts jako ciężka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Lot (9)",
+      "Duży Cel",
+      "Nekromantyczni Nieumarli",
+      "Zdeptanie (D3)",
+      "Szybki Krok",
+      "Groza"
+    ]
   },
   {
     "name": "Bat Swarms",
@@ -68,7 +84,18 @@
       "Regeneration (6+)",
       "Skirmishers"
     ],
-    "id": "bat-swarms"
+    "id": "bat-swarms",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Rój",
+    "equipment_pl": [
+      "Claws i fangs (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Lot (7)",
+      "Nekromantyczni Nieumarli",
+      "Regeneracja (6+)",
+      "Harcownicy"
+    ]
   },
   {
     "name": "Black Coach",
@@ -145,7 +172,24 @@
       "Spectral Coach",
       "Terror"
     ],
-    "id": "black-coach"
+    "id": "black-coach",
+    "unitCategory_pl": "Rydwan",
+    "troopType_pl": "Ciężki Rydwan",
+    "equipment_pl": [
+      "Wraith: Spectral scythe",
+      "Nightmares: Iron-shod hooves (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Pierwsza Szarża",
+      "Uderzenia Impetu (D6+2)",
+      "Nieustępliwy (1)",
+      "Magiczne Ataki",
+      "Nekromantyczni Nieumarli",
+      "Regeneracja (6+)",
+      "Spectral Coach",
+      "Groza"
+    ]
   },
   {
     "name": "Black Knights",
@@ -222,7 +266,23 @@
       "Regeneration (6+)",
       "Swiftstride"
     ],
-    "id": "black-knights"
+    "id": "black-knights",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Ciężka Kawaleria",
+    "equipment_pl": [
+      "Czarny Rycerze: Broń Ręczna",
+      "Czarny Rycerze: Ciężka Zbroja",
+      "Czarny Rycerze: Shields",
+      "Skeletal Steeds: Skeletal hooves (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Cleaving Blow (Jeźdźcy only)",
+      "Zwarty Szyk",
+      "Pierwsza Szarża",
+      "Nekromantyczni Nieumarli",
+      "Regeneracja (6+)",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Blood Knights",
@@ -306,7 +366,30 @@
       "Regeneration (6+)",
       "Swiftstride"
     ],
-    "id": "blood-knights"
+    "id": "blood-knights",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Ciężka Kawaleria",
+    "equipment_pl": [
+      "Krwawy Rycerze: Broń Ręczna",
+      "Krwawy Rycerze: Lances",
+      "Krwawy Rycerze: Ciężka Zbroja",
+      "Krwawy Rycerze: Shields",
+      "Nightmares: Iron-shod hooves (counts jako broń ręczna)",
+      "Nightmares: Barding"
+    ],
+    "specialRules_pl": [
+      "Accursed Broń",
+      "Zwarty Szyk",
+      "Przeciwnatarcie",
+      "Mroczny Vitality",
+      "Pierwsza Szarża",
+      "Łatwopalny",
+      "Nieustępliwy (1)",
+      "Martial Pride",
+      "Nekromantyczni Nieumarli",
+      "Regeneracja (6+)",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Cairn Wraith",
@@ -340,7 +423,19 @@
       "Regeneration (6+)",
       "Terror"
     ],
-    "id": "cairn-wraith"
+    "id": "cairn-wraith",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Spectral scythe"
+    ],
+    "specialRules_pl": [
+      "Eteryczny",
+      "Nieustępliwy (1)",
+      "Nekromantyczni Nieumarli",
+      "Regeneracja (6+)",
+      "Groza"
+    ]
   },
   {
     "name": "Corpse Cart",
@@ -420,7 +515,24 @@
       "Random Attacks (The Restless Dead only)",
       "Regeneration (6+)"
     ],
-    "id": "corpse-cart"
+    "id": "corpse-cart",
+    "unitCategory_pl": "Rydwan",
+    "troopType_pl": "Ciężki Rydwan",
+    "equipment_pl": [
+      "Corpsemaster: Broń Ręczna",
+      "The Restless Dead: Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Mroczny Vitality",
+      "Pierwsza Szarża",
+      "Uderzenia Impetu (D3+1)",
+      "Nieustępliwy (1)",
+      "Lore of Undeath",
+      "Nekromantyczni Nieumarli",
+      "Random Attacks (The Restless Dead only)",
+      "Regeneracja (6+)"
+    ]
   },
   {
     "name": "Coven Throne",
@@ -500,7 +612,27 @@
       "Regeneration (6+)",
       "Scrying Pool"
     ],
-    "id": "coven-throne"
+    "id": "coven-throne",
+    "unitCategory_pl": "Rydwan",
+    "troopType_pl": "Ciężki Rydwan",
+    "equipment_pl": [
+      "Pallid Handmaidens: Broń Ręczna",
+      "Spirit Horda: Broń Ręczna",
+      "Spirit Horda: Lances"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Mroczny Vitality",
+      "Pierwsza Szarża",
+      "Lot (8)",
+      "Ghoulish Glamour",
+      "Uderzenia Impetu (D6+1)",
+      "Duży Cel",
+      "Nekromantyczni Nieumarli",
+      "Random Attacks (Spirit Horda only)",
+      "Regeneracja (6+)",
+      "Scrying Pool"
+    ]
   },
   {
     "name": "Crypt Ghouls",
@@ -555,7 +687,21 @@
       "Reserve Move",
       "Skirmishers"
     ],
-    "id": "crypt-ghouls"
+    "id": "crypt-ghouls",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Przechodzenie Przez Zasłony",
+      "Nekromantyczni Nieumarli",
+      "Luźny Szyk",
+      "Trujące Ataki",
+      "Regeneracja (6+)",
+      "Reserve Move",
+      "Harcownicy"
+    ]
   },
   {
     "name": "Crypt Horrors",
@@ -609,7 +755,20 @@
       "Regeneration (6+)",
       "Stomp Attacks (1)"
     ],
-    "id": "crypt-horrors"
+    "id": "crypt-horrors",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Monstrualna Piechota",
+    "equipment_pl": [
+      "Filth-encrusted claws"
+    ],
+    "specialRules_pl": [
+      "Nieustępliwy (1)",
+      "Przechodzenie Przez Zasłony",
+      "Nekromantyczni Nieumarli",
+      "Luźny Szyk",
+      "Regeneracja (6+)",
+      "Zdeptanie (1)"
+    ]
   },
   {
     "name": "Dire Wolves",
@@ -664,7 +823,21 @@
       "Swiftstride",
       "Vanguard"
     ],
-    "id": "dire-wolves"
+    "id": "dire-wolves",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Bestia Wojenna",
+    "equipment_pl": [
+      "Claws i fangs (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Nekromantyczni Nieumarli",
+      "Luźny Szyk",
+      "Regeneracja (6+)",
+      "Reserve Move",
+      "Slavering Charge",
+      "Szybki Krok",
+      "Awangarda"
+    ]
   },
   {
     "name": "Fell Bats",
@@ -698,7 +871,19 @@
       "Skirmishers",
       "Swiftstride"
     ],
-    "id": "fell-bats"
+    "id": "fell-bats",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Monstrualna Piechota",
+    "equipment_pl": [
+      "Claws i fangs (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Lot (10)",
+      "Nekromantyczni Nieumarli",
+      "Regeneracja (6+)",
+      "Harcownicy",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Grave Guard",
@@ -753,7 +938,21 @@
       "Necromantic Undead",
       "Regeneration (6+)"
     ],
-    "id": "grave-guard"
+    "id": "grave-guard",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Ciężka Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Ciężka Zbroja",
+      "Tarcze"
+    ],
+    "specialRules_pl": [
+      "Cleaving Blow",
+      "Zwarty Szyk",
+      "Nieustępliwy (1)",
+      "Nekromantyczni Nieumarli",
+      "Regeneracja (6+)"
+    ]
   },
   {
     "name": "Hexwraiths",
@@ -833,7 +1032,26 @@
       "Swiftstride",
       "Terror"
     ],
-    "id": "hexwraiths"
+    "id": "hexwraiths",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Lekka Kawaleria",
+    "equipment_pl": [
+      "Hexwraiths: Broń Ręczna",
+      "Hexwraiths: Broń Wielka",
+      "Spectral Steeds: Skeletal hooves (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Eteryczny",
+      "Flaming Attacks",
+      "Lot (8)",
+      "Magiczne Ataki",
+      "Nekromantyczni Nieumarli",
+      "Luźny Szyk",
+      "Regeneracja (6+)",
+      "Spectral Reapers",
+      "Szybki Krok",
+      "Groza"
+    ]
   },
   {
     "name": "Master Necromancer",
@@ -873,7 +1091,20 @@
       "Necromantic Undead",
       "Regeneration (5+)"
     ],
-    "id": "master-necromancer"
+    "id": "master-necromancer",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Mroczny Vitality",
+      "Nieustępliwy (1)",
+      "Invocation of Nehek",
+      "Lore of Undeath",
+      "Nekromantyczni Nieumarli",
+      "Regeneracja (5+)"
+    ]
   },
   {
     "name": "Mortis Engine",
@@ -954,7 +1185,28 @@
       "Regeneration (6+)",
       "Wailing Dirge"
     ],
-    "id": "mortis-engine"
+    "id": "mortis-engine",
+    "unitCategory_pl": "Rydwan",
+    "troopType_pl": "Ciężki Rydwan",
+    "equipment_pl": [
+      "Banshees: Broń Ręczna",
+      "Spirit Horda: Broń Ręczna",
+      "Spirit Horda: Lances"
+    ],
+    "specialRules_pl": [
+      "Accursed Reliquary",
+      "Blasphemous Tome",
+      "Zwarty Szyk",
+      "Mroczny Vitality",
+      "Pierwsza Szarża",
+      "Lot (8)",
+      "Uderzenia Impetu (D6+1)",
+      "Duży Cel",
+      "Nekromantyczni Nieumarli",
+      "Random Attacks (Spirit Horda only)",
+      "Regeneracja (6+)",
+      "Wailing Dirge"
+    ]
   },
   {
     "name": "Necromantic Acolyte",
@@ -994,7 +1246,20 @@
       "Necromantic Undead",
       "Regeneration (5+)"
     ],
-    "id": "necromantic-acolyte"
+    "id": "necromantic-acolyte",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Mroczny Vitality",
+      "Nieustępliwy (1)",
+      "Invocation of Nehek",
+      "Lore of Undeath",
+      "Nekromantyczni Nieumarli",
+      "Regeneracja (5+)"
+    ]
   },
   {
     "name": "Nightmare",
@@ -1028,7 +1293,19 @@
       "Necromantic Undead",
       "Swiftstride"
     ],
-    "id": "nightmare"
+    "id": "nightmare",
+    "unitCategory_pl": "Wierzchowiec",
+    "troopType_pl": "Ciężka Kawaleria",
+    "equipment_pl": [
+      "Iron-shod hooves (counts jako a broń ręczna)",
+      "Barding"
+    ],
+    "specialRules_pl": [
+      "Przeciwnatarcie",
+      "Pierwsza Szarża",
+      "Nekromantyczni Nieumarli",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Skeletal Steed (Vampire Counts)",
@@ -1061,7 +1338,18 @@
       "Necromantic Undead",
       "Swiftstride"
     ],
-    "id": "skeletal-steed-vampire-counts-"
+    "id": "skeletal-steed-vampire-counts-",
+    "unitCategory_pl": "Wierzchowiec",
+    "troopType_pl": "Ciężka Kawaleria",
+    "equipment_pl": [
+      "Skeletal hooves (counts jako broń ręczna)",
+      "Barding"
+    ],
+    "specialRules_pl": [
+      "Pierwsza Szarża",
+      "Nekromantyczni Nieumarli",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Skeleton Warriors (Vampire Counts)",
@@ -1115,7 +1403,20 @@
       "Necromantic Undead",
       "Regeneration (6+)"
     ],
-    "id": "skeleton-warriors-vampire-counts-"
+    "id": "skeleton-warriors-vampire-counts-",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Lekka Zbroja",
+      "Tarcze"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Horda",
+      "Nekromantyczni Nieumarli",
+      "Regeneracja (6+)"
+    ]
   },
   {
     "name": "Spirit Hosts",
@@ -1151,7 +1452,21 @@
       "Regeneration (6+)",
       "Reserve Move"
     ],
-    "id": "spirit-hosts"
+    "id": "spirit-hosts",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Rój",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Bound Spirits",
+      "Eteryczny",
+      "Magiczne Ataki",
+      "Nekromantyczni Nieumarli",
+      "Luźny Szyk",
+      "Regeneracja (6+)",
+      "Reserve Move"
+    ]
   },
   {
     "name": "Strigoi Ghoul King",
@@ -1194,7 +1509,23 @@
       "Regeneration (5+)",
       "The Hunger"
     ],
-    "id": "strigoi-ghoul-king"
+    "id": "strigoi-ghoul-king",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Mroczny Vitality",
+      "Łatwopalny",
+      "Nienawiść (all enemies)",
+      "Nieustępliwy (1)",
+      "Lore of Undeath",
+      "Nekromantyczni Nieumarli",
+      "Trujące Ataki",
+      "Regeneracja (5+)",
+      "The Hunger"
+    ]
   },
   {
     "name": "Terrorgheist",
@@ -1236,7 +1567,27 @@
       "Terror",
       "Wailing Dirge"
     ],
-    "id": "terrorgheist"
+    "id": "terrorgheist",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "equipment_pl": [
+      "Filth-encrusted talons",
+      "Rancid maw",
+      "Calloused hide (counts jako lekka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Lot (9)",
+      "Nieustępliwy (1)",
+      "Infested",
+      "Duży Cel",
+      "Nekromantyczni Nieumarli",
+      "Regeneracja (5+)",
+      "Zdeptanie (D6)",
+      "Szybki Krok",
+      "Groza",
+      "Wailing Dirge"
+    ]
   },
   {
     "name": "Terrorgheist (Mount)",
@@ -1278,7 +1629,27 @@
       "Terror",
       "Wailing Dirge"
     ],
-    "id": "terrorgheist-mount-"
+    "id": "terrorgheist-mount-",
+    "unitCategory_pl": "Wierzchowiec",
+    "troopType_pl": "Behemot",
+    "equipment_pl": [
+      "Filth-encrusted talons",
+      "Rancid maw",
+      "Calloused hide (counts jako lekka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Lot (9)",
+      "Nieustępliwy (1)",
+      "Infested",
+      "Duży Cel",
+      "Nekromantyczni Nieumarli",
+      "Regeneracja (5+)",
+      "Zdeptanie (D6)",
+      "Szybki Krok",
+      "Groza",
+      "Wailing Dirge"
+    ]
   },
   {
     "name": "Tomb Banshee",
@@ -1314,7 +1685,21 @@
       "Terror",
       "Wailing Dirge"
     ],
-    "id": "tomb-banshee"
+    "id": "tomb-banshee",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Eteryczny",
+      "Nieustępliwy (1)",
+      "Magiczne Ataki",
+      "Nekromantyczni Nieumarli",
+      "Regeneracja (6+)",
+      "Groza",
+      "Wailing Dirge"
+    ]
   },
   {
     "name": "Vampire Count",
@@ -1354,7 +1739,20 @@
       "Necromantic Undead",
       "Regeneration (5+)"
     ],
-    "id": "vampire-count"
+    "id": "vampire-count",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Mroczny Vitality",
+      "Łatwopalny",
+      "Nieustępliwy (2)",
+      "Lore of Undeath",
+      "Nekromantyczni Nieumarli",
+      "Regeneracja (5+)"
+    ]
   },
   {
     "name": "Vampire Thrall",
@@ -1395,7 +1793,21 @@
       "Necromantic Undead",
       "Regeneration (5+)"
     ],
-    "id": "vampire-thrall"
+    "id": "vampire-thrall",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Banner of the Count",
+      "Mroczny Vitality",
+      "Łatwopalny",
+      "Nieustępliwy (1)",
+      "Lore of Undeath",
+      "Nekromantyczni Nieumarli",
+      "Regeneracja (5+)"
+    ]
   },
   {
     "name": "Vargheists",
@@ -1452,7 +1864,23 @@
       "Regeneration (6+)",
       "Skirmishers"
     ],
-    "id": "vargheists"
+    "id": "vargheists",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Monstrualna Piechota",
+    "equipment_pl": [
+      "Złowrogie Szpony"
+    ],
+    "specialRules_pl": [
+      "Przebicie Zbroi (2)",
+      "Mroczny Vitality",
+      "Łatwopalny",
+      "Lot (9)",
+      "Szał",
+      "Nieustępliwy (1)",
+      "Nekromantyczni Nieumarli",
+      "Regeneracja (6+)",
+      "Harcownicy"
+    ]
   },
   {
     "name": "Varghulf",
@@ -1493,7 +1921,26 @@
       "Swiftstride",
       "Terror"
     ],
-    "id": "varghulf"
+    "id": "varghulf",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Monstrualne Stworzenie",
+    "equipment_pl": [
+      "Złowrogie Szpony",
+      "Calloused hide (counts jako lekka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Bestial Fury",
+      "Zwarty Szyk",
+      "Przeciwnatarcie",
+      "Mroczny Vitality",
+      "Łatwopalny",
+      "Szał",
+      "Nieustępliwy (1)",
+      "Nekromantyczni Nieumarli",
+      "Regeneracja (5+)",
+      "Szybki Krok",
+      "Groza"
+    ]
   },
   {
     "name": "Wight King",
@@ -1527,7 +1974,19 @@
       "Necromantic Undead",
       "Regeneration (5+)"
     ],
-    "id": "wight-king"
+    "id": "wight-king",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Ciężka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Nieustępliwy (1)",
+      "Killing Blow",
+      "Nekromantyczni Nieumarli",
+      "Regeneracja (5+)"
+    ]
   },
   {
     "name": "Wight Lord",
@@ -1561,7 +2020,19 @@
       "Regeneration (6+)",
       "Wight Banner"
     ],
-    "id": "wight-lord"
+    "id": "wight-lord",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Ciężka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Killing Blow",
+      "Nekromantyczni Nieumarli",
+      "Regeneracja (6+)",
+      "Wight Banner"
+    ]
   },
   {
     "name": "Zombie Dragon",
@@ -1600,7 +2071,24 @@
       "Swiftstride",
       "Terror"
     ],
-    "id": "zombie-dragon"
+    "id": "zombie-dragon",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "equipment_pl": [
+      "Złowrogie Szpony",
+      "Pestilential breath",
+      "Draconic scales (counts jako pełna zbroja płytowa)"
+    ],
+    "specialRules_pl": [
+      "Carrion Feeders",
+      "Zwarty Szyk",
+      "Lot (9)",
+      "Duży Cel",
+      "Nekromantyczni Nieumarli",
+      "Zdeptanie (D6)",
+      "Szybki Krok",
+      "Groza"
+    ]
   },
   {
     "name": "Zombies",
@@ -1634,6 +2122,18 @@
       "Regeneration (6+)",
       "The Newly Dead"
     ],
-    "id": "zombies"
+    "id": "zombies",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Horda",
+      "Nekromantyczni Nieumarli",
+      "Regeneracja (6+)",
+      "The Newly Dead"
+    ]
   }
 ]

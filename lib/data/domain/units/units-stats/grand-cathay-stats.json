@@ -41,7 +41,17 @@
         "Ld": 7
       }
     ],
-    "id": "cathayan-grand-cannon"
+    "id": "cathayan-grand-cannon",
+    "unitCategory_pl": "Machina Wojenna",
+    "troopType_pl": "Machina Wojenna",
+    "equipment_pl": [
+      "Wielki cannon",
+      "broń ręczna",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Harcownicy"
+    ]
   },
   {
     "name": "Cathayan Sentinel",
@@ -80,7 +90,24 @@
         "Ld": 10
       }
     ],
-    "id": "cathayan-sentinel"
+    "id": "cathayan-sentinel",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "wielki blade",
+      "terracotta zbroja (counts jako ciężka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Odporność Na Psychologię",
+      "Implacable",
+      "Duży Cel",
+      "Zdeptanie (D3+1)",
+      "Groza",
+      "Dreeeewno!",
+      "Niezłomni"
+    ]
   },
   {
     "name": "Cathayan Warhorse",
@@ -114,7 +141,19 @@
         "Ld": "-"
       }
     ],
-    "id": "cathayan-warhorse"
+    "id": "cathayan-warhorse",
+    "unitCategory_pl": "Wierzchowiec",
+    "troopType_pl": "Ciężka Kawaleria",
+    "equipment_pl": [
+      "Iron-shod hooves (counts jako a broń ręczna)",
+      "barding"
+    ],
+    "specialRules_pl": [
+      "Cathayan Cataphracts",
+      "Przeciwnatarcie",
+      "Pierwsza Szarża",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Fire Rain Rocket Battery",
@@ -158,7 +197,17 @@
         "Ld": 7
       }
     ],
-    "id": "fire-rain-rocket-battery"
+    "id": "fire-rain-rocket-battery",
+    "unitCategory_pl": "Machina Wojenna",
+    "troopType_pl": "Machina Wojenna",
+    "equipment_pl": [
+      "Ognisty rain rocket",
+      "broń ręczna",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Harcownicy"
+    ]
   },
   {
     "name": "Gate Keeper",
@@ -191,7 +240,18 @@
         "Ld": 8
       }
     ],
-    "id": "gate-keeper"
+    "id": "gate-keeper",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Ciężka Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "ciężka zbroja",
+      "shield"
+    ],
+    "specialRules_pl": [
+      "Harmony of Kamienny & Stalowy",
+      "Will of the Smoki"
+    ]
   },
   {
     "name": "Gate Master",
@@ -224,7 +284,18 @@
         "Ld": 9
       }
     ],
-    "id": "gate-master"
+    "id": "gate-master",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Ciężka Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "ciężka zbroja",
+      "shield"
+    ],
+    "specialRules_pl": [
+      "Harmony of Kamienny & Stalowy",
+      "Will of the Smoki"
+    ]
   },
   {
     "name": "Jade Lancers",
@@ -288,7 +359,25 @@
         "Ld": "-"
       }
     ],
-    "id": "jade-lancers"
+    "id": "jade-lancers",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Ciężka Kawaleria",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Cathayan lances",
+      "ciężka zbroja",
+      "tarcze",
+      "Iron-shod hooves (Warhorses)",
+      "barding (Warhorses)"
+    ],
+    "specialRules_pl": [
+      "Cathayan Cataphracts",
+      "Zwarty Szyk",
+      "Przeciwnatarcie",
+      "Horda",
+      "Szybki Krok",
+      "Will of the Smoki"
+    ]
   },
   {
     "name": "Jade Warriors",
@@ -335,7 +424,20 @@
         "Ld": 8
       }
     ],
-    "id": "jade-warriors"
+    "id": "jade-warriors",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Ciężka Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "ciężka zbroja"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Defensive Stance",
+      "Oddział",
+      "Jednostka Regimentowa",
+      "Will of the Smoki"
+    ]
   },
   {
     "name": "Lord Magistrate",
@@ -368,7 +470,18 @@
         "Ld": 9
       }
     ],
-    "id": "lord-magistrate"
+    "id": "lord-magistrate",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Wielki Strategist",
+      "Harmony of Kamienny & Stalowy",
+      "Will of the Smoki"
+    ]
   },
   {
     "name": "Miao Ying",
@@ -435,7 +548,35 @@
         "Ld": 10
       }
     ],
-    "id": "miao-ying"
+    "id": "miao-ying",
+    "unitCategory_pl": "Nazwana Postać",
+    "troopType_pl": "Ciężka Piechota, Behemot, Nazwana Postać",
+    "equipment_pl": [
+      "Human Form: Talons of the Burzowy",
+      "Human Form: ciężka zbroja",
+      "Smok Form: Talons of the Burzowy",
+      "Smok Form: Smok ognisty",
+      "Smok Form: Draconic scales (counts jako pełna zbroja płytowa)"
+    ],
+    "specialRules_pl": [
+      "Celestial Forged Zbroja (5+)",
+      "Disdain of the Smoki",
+      "Nienawiść (Wojownicy of Chaos & Daemonic modele)",
+      "Lot (9) (Smok Form only)",
+      "Duży Cel (Smok Form only)",
+      "Odporność Na Magię (-1)",
+      "Mastery of the Burzowy Winds",
+      "Mastery of the Elemental Winds",
+      "Bojowy Okrzyk (Human Form only)",
+      "Zdeptanie (D6) (Smok Form only)",
+      "Nieugięty",
+      "Supreme Matriarch of Nan-Gau",
+      "Szybki Krok (Smok Form only)",
+      "Terror (Smok Form only)",
+      "Transformation of the Smok",
+      "Will of the Smoki",
+      "Wrath of the Burzowy"
+    ]
   },
   {
     "name": "Ogre Loader",
@@ -467,7 +608,17 @@
         "Ld": 8
       }
     ],
-    "id": "ogre-loader"
+    "id": "ogre-loader",
+    "unitCategory_pl": "Machina Wojenna",
+    "troopType_pl": "Monstrualna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Enough dla Everyone",
+      "Mercenary Załoga"
+    ]
   },
   {
     "name": "Shugengan General",
@@ -524,7 +675,24 @@
         "Ld": "-"
       }
     ],
-    "id": "shugengan-general"
+    "id": "shugengan-general",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Monstrualne Stworzenie, Postać",
+    "equipment_pl": [
+      "Shugengan: Broń Ręczna",
+      "Shugengan: żelazny talons",
+      "Shugengan: lekka zbroja",
+      "Wielki Spirit Longma: Crown of horns"
+    ],
+    "specialRules_pl": [
+      "Przeciwnatarcie",
+      "Strach",
+      "Lot (9)",
+      "Uderzenia Impetu (D3+1)",
+      "Mastery of the Elemental Winds",
+      "Szybki Krok",
+      "Will of the Smoki"
+    ]
   },
   {
     "name": "Shugengan Lord",
@@ -581,7 +749,24 @@
         "Ld": "-"
       }
     ],
-    "id": "shugengan-lord"
+    "id": "shugengan-lord",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Monstrualne Stworzenie, Postać",
+    "equipment_pl": [
+      "Shugengan: Broń Ręczna",
+      "Shugengan: żelazny talons",
+      "Shugengan: lekka zbroja",
+      "Wielki Spirit Longma: Crown of horns"
+    ],
+    "specialRules_pl": [
+      "Przeciwnatarcie",
+      "Strach",
+      "Lot (9)",
+      "Uderzenia Impetu (D3+1)",
+      "Mastery of the Elemental Winds",
+      "Szybki Krok",
+      "Will of the Smoki"
+    ]
   },
   {
     "name": "Sky Lantern",
@@ -647,7 +832,27 @@
         "Ld": 8
       }
     ],
-    "id": "sky-lantern"
+    "id": "sky-lantern",
+    "unitCategory_pl": "Rydwan",
+    "troopType_pl": "Ciężki Rydwan",
+    "equipment_pl": [
+      "Lantern Gunners: Broń Ręczna",
+      "Commander: Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Disengage",
+      "Eye of the Smok",
+      "Feigned Flight",
+      "Ogień I Odwrót",
+      "Lot (8)",
+      "Heavenly Beacon",
+      "Uderzenia Impetu (D3+1, Sky Lantern only)",
+      "Duży Cel",
+      "Reserve Move",
+      "Zwiadowcy",
+      "Niezłomni"
+    ]
   },
   {
     "name": "Strategist",
@@ -680,6 +885,17 @@
         "Ld": 9
       }
     ],
-    "id": "strategist"
+    "id": "strategist",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Wielki Strategist",
+      "Harmony of Kamienny & Stalowy",
+      "Will of the Smoki"
+    ]
   }
 ]

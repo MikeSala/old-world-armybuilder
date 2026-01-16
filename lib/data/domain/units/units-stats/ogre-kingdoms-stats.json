@@ -7,7 +7,9 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "1",
     "armourValue": null,
-    "equipment": "Hand weapon and light armour",
+    "equipment": [
+      "Hand weapon and light armour"
+    ],
     "profiles": [
       {
         "M": 6,
@@ -28,7 +30,19 @@
       "Impact Hits (2)",
       "Ogre Charge"
     ],
-    "id": "bruiser"
+    "id": "bruiser",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Monstrualna Piechota, Postać",
+    "specialRules_pl": [
+      "Przebicie Zbroi (1)",
+      "Bull Charge",
+      "Strach",
+      "Uderzenia Impetu (2)",
+      "Ogr Charge"
+    ],
+    "equipment_pl": [
+      "Broń Ręczna i lekka zbroja"
+    ]
   },
   {
     "name": "Butcher",
@@ -38,7 +52,9 @@
     "baseSize": "40 x 40 mm (50 x 100 mm with Butcher's Cauldron)",
     "unitSize": "1",
     "armourValue": null,
-    "equipment": "Hand weapon",
+    "equipment": [
+      "Hand weapon"
+    ],
     "profiles": [
       {
         "M": 6,
@@ -64,7 +80,19 @@
       "Elementalism",
       "Illusion"
     ],
-    "id": "butcher"
+    "id": "butcher",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Monstrualna Piechota, Postać",
+    "specialRules_pl": [
+      "Przebicie Zbroi (1)",
+      "Strach",
+      "Uderzenia Impetu (2)",
+      "Lore of the Wielki Maw",
+      "Ogr Charge"
+    ],
+    "equipment_pl": [
+      "Broń Ręczna"
+    ]
   },
   {
     "name": "Firebelly",
@@ -74,7 +102,9 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "1",
     "armourValue": null,
-    "equipment": "Hand weapon and flaming breath",
+    "equipment": [
+      "Hand weapon and flaming breath"
+    ],
     "profiles": [
       {
         "M": 6,
@@ -100,7 +130,20 @@
       "Battle Magic",
       "Elementalism"
     ],
-    "id": "firebelly"
+    "id": "firebelly",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Monstrualna Piechota, Postać",
+    "specialRules_pl": [
+      "Przebicie Zbroi (1)",
+      "Blessings of the Volcano God",
+      "Strach",
+      "Flaming Attacks",
+      "Uderzenia Impetu (1)",
+      "Ogr Charge"
+    ],
+    "equipment_pl": [
+      "Broń Ręczna i flaming breath"
+    ]
   },
   {
     "name": "Giant",
@@ -110,7 +153,9 @@
     "baseSize": "50 x 50 mm (min), 50 x 75 mm (max)",
     "unitSize": "1",
     "armourValue": null,
-    "equipment": "Giant's club and calloused hide (counts as light armour)",
+    "equipment": [
+      "Giant's club and calloused hide (counts as light armour)"
+    ],
     "profiles": [
       {
         "M": 6,
@@ -135,7 +180,23 @@
       "Timmm-berrr!",
       "Unbreakable"
     ],
-    "id": "giant"
+    "id": "giant",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Olbrzym Attacks",
+      "Odporność Na Psychologię",
+      "Duży Cel",
+      "Pick Up I…",
+      "Zdeptanie (D6)",
+      "Groza",
+      "Dreeeewno!",
+      "Niezłomni"
+    ],
+    "equipment_pl": [
+      "Giant's club i calloused hide (counts jako lekka zbroja)"
+    ]
   },
   {
     "name": "Gnoblar Fighters",
@@ -145,7 +206,9 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "20+",
     "armourValue": null,
-    "equipment": "Sharp stuff (counts as hand weapons and throwing weapons)",
+    "equipment": [
+      "Sharp stuff (counts as hand weapons and throwing weapons)"
+    ],
     "profiles": [
       {
         "M": 4,
@@ -178,7 +241,17 @@
       "Horde",
       "Largely Insignificant"
     ],
-    "id": "gnoblar-fighters"
+    "id": "gnoblar-fighters",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Horda",
+      "Largely Insignificant"
+    ],
+    "equipment_pl": [
+      "Sharp stuff (counts jako broń ręczna i throwing broń)"
+    ]
   },
   {
     "name": "Gnoblar Scraplauncher",
@@ -188,7 +261,9 @@
     "baseSize": "60 x 100 mm",
     "unitSize": "1",
     "armourValue": "4+",
-    "equipment": "Scraplauncher catapult; Gnoblar Scrapper: Sharp stuff (counts as hand weapon and throwing weapons); Rhinox: Tusks and horns (counts as a hand weapon)",
+    "equipment": [
+      "Scraplauncher catapult; Gnoblar Scrapper: Sharp stuff (counts as hand weapon and throwing weapons); Rhinox: Tusks and horns (counts as a hand weapon)"
+    ],
     "profiles": [
       {
         "M": "-",
@@ -244,7 +319,20 @@
       "Impact Hits (D6+1)",
       "Large Target"
     ],
-    "id": "gnoblar-scraplauncher"
+    "id": "gnoblar-scraplauncher",
+    "unitCategory_pl": "Rydwan",
+    "troopType_pl": "Ciężki Rydwan",
+    "specialRules_pl": [
+      "Przebicie Zbroi (2, Rhinox only)",
+      "Zwarty Szyk",
+      "Strach",
+      "Pierwsza Szarża",
+      "Uderzenia Impetu (D6+1)",
+      "Duży Cel"
+    ],
+    "equipment_pl": [
+      "Scraplauncher catapult; Gnoblar Scrapper: Sharp stuff (counts jako broń ręczna i throwing broń); Rhinox: Tusks i horns (counts jako a broń ręczna)"
+    ]
   },
   {
     "name": "Gnoblar Trappers",
@@ -254,7 +342,9 @@
     "baseSize": "25 x 25 mm",
     "unitSize": "10+",
     "armourValue": null,
-    "equipment": "Sharp stuff (counts as hand weapons and throwing weapons)",
+    "equipment": [
+      "Sharp stuff (counts as hand weapons and throwing weapons)"
+    ],
     "profiles": [
       {
         "M": 4,
@@ -289,7 +379,19 @@
       "Skirmishers",
       "Traps & Snares"
     ],
-    "id": "gnoblar-trappers"
+    "id": "gnoblar-trappers",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "specialRules_pl": [
+      "Largely Insignificant",
+      "Przechodzenie Przez Zasłony",
+      "Zwiadowcy",
+      "Harcownicy",
+      "Traps & Snares"
+    ],
+    "equipment_pl": [
+      "Sharp stuff (counts jako broń ręczna i throwing broń)"
+    ]
   },
   {
     "name": "Gorger",
@@ -299,7 +401,9 @@
     "baseSize": "50 x 50 mm",
     "unitSize": "1",
     "armourValue": null,
-    "equipment": "Wicked claws, distensible jaw and calloused hide (counts as light armour)",
+    "equipment": [
+      "Wicked claws, distensible jaw and calloused hide (counts as light armour)"
+    ],
     "profiles": [
       {
         "M": 6,
@@ -323,7 +427,22 @@
       "Swiftstride",
       "Unbreakable"
     ],
-    "id": "gorger"
+    "id": "gorger",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Monstrualne Stworzenie",
+    "specialRules_pl": [
+      "Zasadzka",
+      "Zwarty Szyk",
+      "Strach",
+      "Szał",
+      "Ravenous Hunger",
+      "Regeneracja (6+)",
+      "Szybki Krok",
+      "Niezłomni"
+    ],
+    "equipment_pl": [
+      "Wicked claws, distensible jaw i calloused hide (counts jako lekka zbroja)"
+    ]
   },
   {
     "name": "Hunter",
@@ -333,7 +452,9 @@
     "baseSize": "50 x 50 mm",
     "unitSize": "1",
     "armourValue": null,
-    "equipment": "Hand weapon, great throwing spear and light armour",
+    "equipment": [
+      "Hand weapon, great throwing spear and light armour"
+    ],
     "profiles": [
       {
         "M": 6,
@@ -356,7 +477,21 @@
       "Ogre Charge",
       "Running with the Pack"
     ],
-    "id": "hunter"
+    "id": "hunter",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Monstrualna Piechota, Postać",
+    "specialRules_pl": [
+      "Przebicie Zbroi (1)",
+      "Strach",
+      "Uderzenia Impetu (1)",
+      "Samotnik",
+      "Przechodzenie Przez Zasłony",
+      "Ogr Charge",
+      "Running z the Pack"
+    ],
+    "equipment_pl": [
+      "Broń Ręczna, wielki throwing spear i lekka zbroja"
+    ]
   },
   {
     "name": "Ironblaster",
@@ -366,7 +501,9 @@
     "baseSize": "60 x 100 mm",
     "unitSize": "1",
     "armourValue": "4+",
-    "equipment": "Ironblaster: Cannon of the Sky-titans; Leadbelcher: Hand weapon; Gnoblar Scrapper: Sharp stuff (counts as hand weapon and throwing weapons); Rhinox: Tusks and horns (counts as a hand weapon)",
+    "equipment": [
+      "Ironblaster: Cannon of the Sky-titans; Leadbelcher: Hand weapon; Gnoblar Scrapper: Sharp stuff (counts as hand weapon and throwing weapons); Rhinox: Tusks and horns (counts as a hand weapon)"
+    ],
     "profiles": [
       {
         "M": "-",
@@ -438,7 +575,20 @@
       "Impact Hits (D6+1)",
       "Large Target"
     ],
-    "id": "ironblaster"
+    "id": "ironblaster",
+    "unitCategory_pl": "Rydwan",
+    "troopType_pl": "Ciężki Rydwan",
+    "specialRules_pl": [
+      "Przebicie Zbroi (2, Rhinox only)",
+      "Zwarty Szyk",
+      "Strach",
+      "Pierwsza Szarża",
+      "Uderzenia Impetu (D6+1)",
+      "Duży Cel"
+    ],
+    "equipment_pl": [
+      "Ironblaster: Cannon of the Sky-titans; Leadbelcher: Broń Ręczna; Gnoblar Scrapper: Sharp stuff (counts jako broń ręczna i throwing broń); Rhinox: Tusks i horns (counts jako a broń ręczna)"
+    ]
   },
   {
     "name": "Ironguts",
@@ -448,7 +598,9 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "3+",
     "armourValue": null,
-    "equipment": "Hand weapons, great weapons and heavy armour",
+    "equipment": [
+      "Hand weapons, great weapons and heavy armour"
+    ],
     "profiles": [
       {
         "M": 6,
@@ -482,7 +634,18 @@
       "Impact Hits (1)",
       "Ogre Charge"
     ],
-    "id": "ironguts"
+    "id": "ironguts",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Monstrualna Piechota",
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Strach",
+      "Uderzenia Impetu (1)",
+      "Ogr Charge"
+    ],
+    "equipment_pl": [
+      "Broń Ręczna, broń wielka i ciężka zbroja"
+    ]
   },
   {
     "name": "Leadbelchers",
@@ -492,7 +655,9 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "2+",
     "armourValue": null,
-    "equipment": "Hand weapons, leadbelcher guns and light armour",
+    "equipment": [
+      "Hand weapons, leadbelcher guns and light armour"
+    ],
     "profiles": [
       {
         "M": 6,
@@ -526,7 +691,18 @@
       "Impact Hits (1)",
       "Ogre Charge"
     ],
-    "id": "leadbelchers"
+    "id": "leadbelchers",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Monstrualna Piechota",
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Strach",
+      "Uderzenia Impetu (1)",
+      "Ogr Charge"
+    ],
+    "equipment_pl": [
+      "Broń Ręczna, leadbelcher guns i lekka zbroja"
+    ]
   },
   {
     "name": "Maneaters",
@@ -536,7 +712,9 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "2+",
     "armourValue": null,
-    "equipment": "Hand weapons and light armour",
+    "equipment": [
+      "Hand weapons and light armour"
+    ],
     "profiles": [
       {
         "M": 6,
@@ -571,7 +749,19 @@
       "Motley Crew",
       "Ogre Charge"
     ],
-    "id": "maneaters"
+    "id": "maneaters",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Monstrualna Piechota",
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Strach",
+      "Uderzenia Impetu (1)",
+      "Zbieranina",
+      "Ogr Charge"
+    ],
+    "equipment_pl": [
+      "Broń Ręczna i lekka zbroja"
+    ]
   },
   {
     "name": "Mournfang Cavalry",
@@ -581,7 +771,9 @@
     "baseSize": "50 x 100 mm",
     "unitSize": "2+",
     "armourValue": null,
-    "equipment": "Ogre: Hand weapons and light armour; Mournfang: Monstrous tusks",
+    "equipment": [
+      "Ogre: Hand weapons and light armour; Mournfang: Monstrous tusks"
+    ],
     "profiles": [
       {
         "M": "-",
@@ -635,7 +827,20 @@
       "Mournfang Charge",
       "Swiftstride"
     ],
-    "id": "mournfang-cavalry"
+    "id": "mournfang-cavalry",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Monstrualna Kawaleria",
+    "specialRules_pl": [
+      "Opancerzona Skóra (1)",
+      "Zwarty Szyk",
+      "Strach",
+      "Uderzenia Impetu (D3)",
+      "Mournfang Charge",
+      "Szybki Krok"
+    ],
+    "equipment_pl": [
+      "Ogr: Broń Ręczna i lekka zbroja; Mournfang: Monstrous tusks"
+    ]
   },
   {
     "name": "Ogre Bulls",
@@ -645,7 +850,9 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "3+",
     "armourValue": null,
-    "equipment": "Hand weapons and light armour",
+    "equipment": [
+      "Hand weapons and light armour"
+    ],
     "profiles": [
       {
         "M": 6,
@@ -680,7 +887,19 @@
       "Impact Hits (1)",
       "Ogre Charge"
     ],
-    "id": "ogre-bulls"
+    "id": "ogre-bulls",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Monstrualna Piechota",
+    "specialRules_pl": [
+      "Przebicie Zbroi (1)",
+      "Zwarty Szyk",
+      "Strach",
+      "Uderzenia Impetu (1)",
+      "Ogr Charge"
+    ],
+    "equipment_pl": [
+      "Broń Ręczna i lekka zbroja"
+    ]
   },
   {
     "name": "Sabretusk Pack",
@@ -690,7 +909,9 @@
     "baseSize": "25 x 50 mm",
     "unitSize": "2-10",
     "armourValue": null,
-    "equipment": "Claws and fangs (counts as hand weapons)",
+    "equipment": [
+      "Claws and fangs (counts as hand weapons)"
+    ],
     "profiles": [
       {
         "M": 8,
@@ -714,7 +935,22 @@
       "Skirmishers",
       "Swiftstride"
     ],
-    "id": "sabretusk-pack"
+    "id": "sabretusk-pack",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Bestia Wojenna",
+    "specialRules_pl": [
+      "Przebicie Zbroi (1)",
+      "Strach",
+      "Impet",
+      "Samotnik",
+      "Przechodzenie Przez Zasłony",
+      "Luźny Szyk",
+      "Harcownicy",
+      "Szybki Krok"
+    ],
+    "equipment_pl": [
+      "Claws i fangs (counts jako broń ręczna)"
+    ]
   },
   {
     "name": "Slaughtermaster",
@@ -724,7 +960,9 @@
     "baseSize": "40 x 40 mm (50 x 100 mm with Butcher's Cauldron)",
     "unitSize": "1",
     "armourValue": null,
-    "equipment": "Hand weapon",
+    "equipment": [
+      "Hand weapon"
+    ],
     "profiles": [
       {
         "M": 6,
@@ -750,7 +988,19 @@
       "Elementalism",
       "Illusion"
     ],
-    "id": "slaughtermaster"
+    "id": "slaughtermaster",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Monstrualna Piechota, Postać",
+    "specialRules_pl": [
+      "Przebicie Zbroi (1)",
+      "Strach",
+      "Uderzenia Impetu (2)",
+      "Lore of the Wielki Maw",
+      "Ogr Charge"
+    ],
+    "equipment_pl": [
+      "Broń Ręczna"
+    ]
   },
   {
     "name": "Stonehorn",
@@ -760,7 +1010,9 @@
     "baseSize": "100 x 150 mm",
     "unitSize": "1",
     "armourValue": null,
-    "equipment": "Horns of stone and petrified flesh (counts as full plate armour)",
+    "equipment": [
+      "Horns of stone and petrified flesh (counts as full plate armour)"
+    ],
     "profiles": [
       {
         "M": 7,
@@ -785,7 +1037,23 @@
       "Terror",
       "Thunderous Charge"
     ],
-    "id": "stonehorn"
+    "id": "stonehorn",
+    "unitCategory_pl": "Wierzchowiec",
+    "troopType_pl": "Behemot",
+    "specialRules_pl": [
+      "Przebicie Zbroi (2, Stonehorn only)",
+      "Zwarty Szyk",
+      "Pierwsza Szarża",
+      "Uderzenia Impetu (D6+1)",
+      "Duży Cel",
+      "Kamienny Skeleton",
+      "Szybki Krok",
+      "Groza",
+      "Thunderous Charge"
+    ],
+    "equipment_pl": [
+      "Horns of kamienny i petrified flesh (counts jako pełna zbroja płytowa)"
+    ]
   },
   {
     "name": "Stonehorn Riders",
@@ -795,7 +1063,9 @@
     "baseSize": "100 x 150 mm",
     "unitSize": "1",
     "armourValue": "4+",
-    "equipment": "Stonehorn: Horns of stone; Ogre Beast Rider: Hand weapon and chaintrap; Ogre Crew: Hand weapon and harpoon launcher",
+    "equipment": [
+      "Stonehorn: Horns of stone; Ogre Beast Rider: Hand weapon and chaintrap; Ogre Crew: Hand weapon and harpoon launcher"
+    ],
     "profiles": [
       {
         "M": 7,
@@ -855,7 +1125,24 @@
       "Terror",
       "Thunderous Charge"
     ],
-    "id": "stonehorn-riders"
+    "id": "stonehorn-riders",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "specialRules_pl": [
+      "Przebicie Zbroi (2, Stonehorn only)",
+      "Zwarty Szyk",
+      "Pierwsza Szarża",
+      "Howdah",
+      "Uderzenia Impetu (D6+1)",
+      "Duży Cel",
+      "Kamienny Skeleton",
+      "Szybki Krok",
+      "Groza",
+      "Thunderous Charge"
+    ],
+    "equipment_pl": [
+      "Stonehorn: Horns of kamienny; Ogr Bestia Jeździec: Broń Ręczna i chaintrap; Ogr Załoga: Broń Ręczna i harpoon launcher"
+    ]
   },
   {
     "name": "Thundertusk",
@@ -865,7 +1152,9 @@
     "baseSize": "100 x 150 mm",
     "unitSize": "1",
     "armourValue": null,
-    "equipment": "Great tusks, chill breath and frozen pelt (counts as heavy armour)",
+    "equipment": [
+      "Great tusks, chill breath and frozen pelt (counts as heavy armour)"
+    ],
     "profiles": [
       {
         "M": 6,
@@ -889,7 +1178,22 @@
       "Swiftstride",
       "Terror"
     ],
-    "id": "thundertusk"
+    "id": "thundertusk",
+    "unitCategory_pl": "Wierzchowiec",
+    "troopType_pl": "Behemot",
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Pierwsza Szarża",
+      "Uderzenia Impetu (D3)",
+      "Duży Cel",
+      "Numbing Chill",
+      "Zdeptanie (3)",
+      "Szybki Krok",
+      "Groza"
+    ],
+    "equipment_pl": [
+      "Wielki tusks, chill breath i frozen pelt (counts jako ciężka zbroja)"
+    ]
   },
   {
     "name": "Thundertusk Riders",
@@ -899,7 +1203,9 @@
     "baseSize": "100 x 150 mm",
     "unitSize": "1",
     "armourValue": "5+",
-    "equipment": "Thundertusk: Great tusks and chill breath; Ogre Beast Rider: Hand weapon and chaintrap; Ogre Crew: Hand weapon and harpoon launcher",
+    "equipment": [
+      "Thundertusk: Great tusks and chill breath; Ogre Beast Rider: Hand weapon and chaintrap; Ogre Crew: Hand weapon and harpoon launcher"
+    ],
     "profiles": [
       {
         "M": 6,
@@ -958,7 +1264,23 @@
       "Swiftstride",
       "Terror"
     ],
-    "id": "thundertusk-riders"
+    "id": "thundertusk-riders",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Pierwsza Szarża",
+      "Howdah",
+      "Uderzenia Impetu (D3)",
+      "Duży Cel",
+      "Numbing Chill",
+      "Zdeptanie (3)",
+      "Szybki Krok",
+      "Groza"
+    ],
+    "equipment_pl": [
+      "Thundertusk: Wielki tusks i chill breath; Ogr Bestia Jeździec: Broń Ręczna i chaintrap; Ogr Załoga: Broń Ręczna i harpoon launcher"
+    ]
   },
   {
     "name": "Tyrant",
@@ -968,7 +1290,9 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "1",
     "armourValue": null,
-    "equipment": "Hand weapon and light armour",
+    "equipment": [
+      "Hand weapon and light armour"
+    ],
     "profiles": [
       {
         "M": 6,
@@ -989,7 +1313,19 @@
       "Impact Hits (2)",
       "Ogre Charge"
     ],
-    "id": "tyrant"
+    "id": "tyrant",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Monstrualna Piechota, Postać",
+    "specialRules_pl": [
+      "Przebicie Zbroi (1)",
+      "Bull Charge",
+      "Strach",
+      "Uderzenia Impetu (2)",
+      "Ogr Charge"
+    ],
+    "equipment_pl": [
+      "Broń Ręczna i lekka zbroja"
+    ]
   },
   {
     "name": "Yhetees",
@@ -999,7 +1335,9 @@
     "baseSize": "40 x 40 mm",
     "unitSize": "3+",
     "armourValue": null,
-    "equipment": "Grimfrost weapons",
+    "equipment": [
+      "Grimfrost weapons"
+    ],
     "profiles": [
       {
         "M": 7,
@@ -1037,6 +1375,21 @@
       "Open Order",
       "Swiftstride"
     ],
-    "id": "yhetees"
+    "id": "yhetees",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Monstrualna Piechota",
+    "specialRules_pl": [
+      "Opancerzona Skóra (1)",
+      "Strach",
+      "Łatwopalny",
+      "Samotnik",
+      "Przechodzenie Przez Zasłony",
+      "Numbing Chill",
+      "Luźny Szyk",
+      "Szybki Krok"
+    ],
+    "equipment_pl": [
+      "Grimfrost broń"
+    ]
   }
 ]

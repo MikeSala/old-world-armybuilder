@@ -35,7 +35,23 @@
         "Ld": 8
       }
     ],
-    "id": "arch-necrotect"
+    "id": "arch-necrotect",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "whip",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Dry jako Dust",
+      "Łatwopalny",
+      "Immortal Overseer",
+      "Khopesh",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (5+)",
+      "Kamienny Shaper"
+    ]
   },
   {
     "name": "Carrion",
@@ -69,7 +85,19 @@
         "Ld": 4
       }
     ],
-    "id": "carrion"
+    "id": "carrion",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Monstrualna Piechota",
+    "equipment_pl": [
+      "Beaks i talons (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Lot (10)",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (6+)",
+      "Harcownicy",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Casket of Souls",
@@ -122,7 +150,26 @@
         "Ld": 8
       }
     ],
-    "id": "casket-of-souls"
+    "id": "casket-of-souls",
+    "unitCategory_pl": "Machina Wojenna",
+    "troopType_pl": "Machina Wojenna",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "broń wielka",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Cleaving Blow",
+      "Covenant of Power",
+      "Dry jako Dust",
+      "Immovable Object",
+      "Nieustępliwy (2)",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (5+)",
+      "Harcownicy",
+      "Unbound Spirits",
+      "Vortex of Souls"
+    ]
   },
   {
     "name": "High Priest",
@@ -164,7 +211,22 @@
         "Ld": 8
       }
     ],
-    "id": "high-priest"
+    "id": "high-priest",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Arise!",
+      "Curse of the Necropolis",
+      "Nieustępliwy (1)",
+      "Khopesh",
+      "Lore of Nehekhara",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (5+)",
+      "Z Beneath the Sands"
+    ]
   },
   {
     "name": "Khemrian Warsphinx",
@@ -219,7 +281,28 @@
         "Ld": 8
       }
     ],
-    "id": "khemrian-warsphinx"
+    "id": "khemrian-warsphinx",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "equipment_pl": [
+      "Khemrian Warsphinx: Wicked claws",
+      "Tomb Straż Załoga: Broń Ręczna",
+      "Tomb Straż Załoga: kawaleria spears",
+      "Tomb Straż Załoga: shortbows"
+    ],
+    "specialRules_pl": [
+      "Arrows of Asaph",
+      "Cleaving Blow (Tomb Straż Załoga only)",
+      "Zwarty Szyk",
+      "Howdah",
+      "Nieustępliwy (2)",
+      "Khopesh (Tomb Straż Załoga only)",
+      "Duży Cel",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (6+)",
+      "Zdeptanie (D3)",
+      "Groza"
+    ]
   },
   {
     "name": "Mortuary Priest",
@@ -261,7 +344,22 @@
         "Ld": 7
       }
     ],
-    "id": "mortuary-priest"
+    "id": "mortuary-priest",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Arise!",
+      "Curse of the Necropolis",
+      "Nieustępliwy (1)",
+      "Khopesh",
+      "Lore of Nehekhara",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (5+)",
+      "Z Beneath the Sands"
+    ]
   },
   {
     "name": "Necrolith Bone Dragon",
@@ -302,7 +400,26 @@
         "Ld": "—"
       }
     ],
-    "id": "necrolith-bone-dragon"
+    "id": "necrolith-bone-dragon",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "equipment_pl": [
+      "Złowrogie Szpony",
+      "breath of desiccation",
+      "draconic bones (counts jako pełna zbroja płytowa)"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Cloud of Dust",
+      "Dry jako Dust",
+      "Lot (9)",
+      "Nieustępliwy (2)",
+      "Duży Cel",
+      "Nehekharijscy Nieumarli",
+      "Zdeptanie (D6)",
+      "Szybki Krok",
+      "Groza"
+    ]
   },
   {
     "name": "Necrolith Colossus",
@@ -341,7 +458,24 @@
         "Ld": 8
       }
     ],
-    "id": "necrolith-colossus"
+    "id": "necrolith-colossus",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "equipment_pl": [
+      "Paired wielki khopeshes",
+      "ciężka zbroja"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Nieustępliwy (2)",
+      "Duży Cel",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (6+)",
+      "Zdeptanie (D3)",
+      "Groza",
+      "Dreeeewno!",
+      "Unstoppable Assault"
+    ]
   },
   {
     "name": "Necropolis Knights",
@@ -408,7 +542,28 @@
         "Ld": "—"
       }
     ],
-    "id": "necropolis-knights"
+    "id": "necropolis-knights",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Monstrualna Kawaleria",
+    "equipment_pl": [
+      "Necropolis Rycerze: Broń Ręczna",
+      "Necropolis Rycerze: kawaleria spears",
+      "Necropolis Rycerze: lekka zbroja",
+      "Necropolis Rycerze: shields",
+      "Necroserpent: Lashing tails (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Opancerzona Skóra (1)",
+      "Cleaving Blow (Jeźdźcy only)",
+      "Zwarty Szyk",
+      "Uderzenia Impetu (1)",
+      "Nieustępliwy (1)",
+      "Khopesh",
+      "Nehekharijscy Nieumarli",
+      "Trujące Ataki (Necroserpent only)",
+      "Regeneracja (6+)",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Necroserpents",
@@ -447,7 +602,24 @@
         "Ld": 7
       }
     ],
-    "id": "necroserpents"
+    "id": "necroserpents",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Monstrualna Kawaleria",
+    "equipment_pl": [
+      "Lashing tails i venomous fangs (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Zasadzka",
+      "Opancerzona Skóra (1)",
+      "Uderzenia Impetu (1)",
+      "Nieustępliwy (1)",
+      "Przechodzenie Przez Zasłony",
+      "Nehekharijscy Nieumarli",
+      "Luźny Szyk",
+      "Trujące Ataki",
+      "Regeneracja (6+)",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Necrosphinx",
@@ -488,7 +660,26 @@
         "Ld": 8
       }
     ],
-    "id": "necrosphinx"
+    "id": "necrosphinx",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "equipment_pl": [
+      "Cleaving blades",
+      "decapitating strike",
+      "ciężka zbroja"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Lot (9)",
+      "Nieustępliwy (2)",
+      "Duży Cel",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (5+)",
+      "Zdeptanie (D3+2)",
+      "Szybki Krok",
+      "Groza",
+      "Soul Reaper"
+    ]
   },
   {
     "name": "Necrotect",
@@ -525,7 +716,22 @@
         "Ld": 7
       }
     ],
-    "id": "necrotect"
+    "id": "necrotect",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "whip",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Dry jako Dust",
+      "Eternal Taskmaster",
+      "Łatwopalny",
+      "Khopesh",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (6+)"
+    ]
   },
   {
     "name": "Nekaph",
@@ -564,7 +770,24 @@
         "Ld": 8
       }
     ],
-    "id": "nekaph"
+    "id": "nekaph",
+    "unitCategory_pl": "Nazwana Postać",
+    "troopType_pl": "Regularna Piechota, Nazwana Postać",
+    "equipment_pl": [
+      "The Flail of Conquered Kings",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Dry jako Dust",
+      "Łatwopalny",
+      "Herald of Despair",
+      "Nieustępliwy (2)",
+      "Killing Blow",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (5+)",
+      "Settra's Czempion",
+      "Sworn Protector"
+    ]
   },
   {
     "name": "Prince Apophas",
@@ -605,7 +828,26 @@
         "Ld": 8
       }
     ],
-    "id": "prince-apophas"
+    "id": "prince-apophas",
+    "unitCategory_pl": "Nazwana Postać",
+    "troopType_pl": "Regularna Piechota, Nazwana Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "swarming mass",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Zasadzka",
+      "Lot (9)",
+      "Nieustępliwy (2)",
+      "Khopesh",
+      "Samotnik",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (5+)",
+      "Scarab Książę",
+      "Usirian's Reaper",
+      "Groza"
+    ]
   },
   {
     "name": "Royal Herald",
@@ -643,7 +885,23 @@
         "Ld": 8
       }
     ],
-    "id": "royal-herald"
+    "id": "royal-herald",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Banner of the Król",
+      "Dry jako Dust",
+      "Łatwopalny",
+      "Nieustępliwy (1)",
+      "Khopesh",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (5+)",
+      "Sworn Protector"
+    ]
   },
   {
     "name": "Screaming Skull Catapult",
@@ -691,7 +949,21 @@
         "Ld": 5
       }
     ],
-    "id": "screaming-skull-catapult"
+    "id": "screaming-skull-catapult",
+    "unitCategory_pl": "Machina Wojenna",
+    "troopType_pl": "Machina Wojenna",
+    "equipment_pl": [
+      "Screaming skull catapult",
+      "broń ręczna",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Dry jako Dust",
+      "Nieustępliwy (1)",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (6+)",
+      "Harcownicy"
+    ]
   },
   {
     "name": "Sepulchral Stalkers",
@@ -729,7 +1001,23 @@
         "Ld": 8
       }
     ],
-    "id": "sepulchral-stalkers"
+    "id": "sepulchral-stalkers",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Monstrualna Kawaleria",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "writhing tails",
+      "halberds",
+      "skamieniające spojrzenie",
+      "ciężka zbroja"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Nieustępliwy (1)",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (6+)",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Settra the Imperishable",
@@ -801,7 +1089,30 @@
         "Ld": "—"
       }
     ],
-    "id": "settra-the-imperishable"
+    "id": "settra-the-imperishable",
+    "unitCategory_pl": "Nazwana Postać",
+    "troopType_pl": "Ciężki Rydwan, Nazwana Postać",
+    "equipment_pl": [
+      "Settra: The Blessed Blade of Ptra",
+      "the Rydwan of the Gods",
+      "the Crown of Nehekhara",
+      "the Scarab Brooch of Usirian",
+      "Skeletal Steed: Skeletal hooves (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Commander of Legions",
+      "Curse of the Necropolis",
+      "Dry jako Dust",
+      "Łatwopalny",
+      "Uderzenia Impetu (2D3)",
+      "Nieustępliwy (3)",
+      "Lore of Nehekhara",
+      "My Will Be Done",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (5+)",
+      "Settra Does Not Kneel!",
+      "Settra the Wielki"
+    ]
   },
   {
     "name": "Skeletal Steed (Tomb Kings)",
@@ -833,7 +1144,17 @@
         "Ld": "—"
       }
     ],
-    "id": "skeletal-steed-tomb-kings-"
+    "id": "skeletal-steed-tomb-kings-",
+    "unitCategory_pl": "Wierzchowiec",
+    "troopType_pl": "Ciężka Kawaleria",
+    "equipment_pl": [
+      "Skeletal hooves (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Nehekharijscy Nieumarli",
+      "Szybki Krok",
+      "Awangarda"
+    ]
   },
   {
     "name": "Skeleton Archers",
@@ -880,7 +1201,20 @@
         "Ld": 5
       }
     ],
-    "id": "skeleton-archers"
+    "id": "skeleton-archers",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "warbows"
+    ],
+    "specialRules_pl": [
+      "Arrows of Asaph",
+      "Oddział",
+      "Nehekharijscy Nieumarli",
+      "Luźny Szyk",
+      "Regeneracja (6+)"
+    ]
   },
   {
     "name": "Skeleton Cavalry Cohort",
@@ -961,7 +1295,30 @@
         "Ld": "—"
       }
     ],
-    "id": "skeleton-cavalry-cohort"
+    "id": "skeleton-cavalry-cohort",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Ciężka Kawaleria",
+    "equipment_pl": [
+      "Royal Host Horseman: Broń Ręczna",
+      "Royal Host Horseman: kawaleria spears",
+      "Royal Host Horseman: lekka zbroja",
+      "Royal Host Horseman: shields",
+      "Royal Host Koń Łucznik: Broń Ręczna",
+      "Royal Host Koń Łucznik: lekka zbroja",
+      "Royal Host Koń Łucznik: warbows",
+      "Skeletal Steed: Skeletal hooves (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Arrows of Asaph",
+      "Zwarty Szyk",
+      "Horda",
+      "Zbieranina",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (6+)",
+      "Steadfast Discipline",
+      "Szybki Krok",
+      "Awangarda"
+    ]
   },
   {
     "name": "Skeleton Chariot",
@@ -1008,7 +1365,20 @@
         "Ld": "—"
       }
     ],
-    "id": "skeleton-chariot"
+    "id": "skeleton-chariot",
+    "unitCategory_pl": "Wierzchowiec",
+    "troopType_pl": "Lekki Rydwan",
+    "equipment_pl": [
+      "Skeletal Steed: Skeletal hooves (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Dry jako Dust",
+      "Uderzenia Impetu (D3)",
+      "Nehekharijscy Nieumarli",
+      "Luźny Szyk",
+      "Reserve Move",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Skeleton Chariots",
@@ -1085,7 +1455,26 @@
         "Ld": "—"
       }
     ],
-    "id": "skeleton-chariots"
+    "id": "skeleton-chariots",
+    "unitCategory_pl": "Rydwan",
+    "troopType_pl": "Lekki Rydwan",
+    "equipment_pl": [
+      "Skeleton Załoga: Broń Ręczna",
+      "Skeleton Załoga: kawaleria spears",
+      "Skeleton Załoga: warbows",
+      "Skeletal Steed: Skeletal hooves (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Arrows of Asaph",
+      "Dry jako Dust",
+      "Horda",
+      "Uderzenia Impetu (D3)",
+      "Nehekharijscy Nieumarli",
+      "Luźny Szyk",
+      "Regeneracja (6+)",
+      "Reserve Move",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Skeleton Horse Archers",
@@ -1148,7 +1537,24 @@
         "Ld": "—"
       }
     ],
-    "id": "skeleton-horse-archers"
+    "id": "skeleton-horse-archers",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Lekka Kawaleria",
+    "equipment_pl": [
+      "Skeleton Horsemen: Broń Ręczna",
+      "Skeleton Horsemen: warbows",
+      "Skeletal Steed: Skeletal hooves (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Arrows of Asaph",
+      "Nehekharijscy Nieumarli",
+      "Luźny Szyk",
+      "Regeneracja (6+)",
+      "Reserve Move",
+      "Zwiadowcy",
+      "Harcownicy",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Skeleton Horsemen",
@@ -1209,7 +1615,22 @@
         "Ld": "—"
       }
     ],
-    "id": "skeleton-horsemen"
+    "id": "skeleton-horsemen",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Ciężka Kawaleria",
+    "equipment_pl": [
+      "Skeleton Horsemen: Broń Ręczna",
+      "Skeleton Horsemen: shields",
+      "Skeletal Steed: Skeletal hooves (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Horda",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (6+)",
+      "Szybki Krok",
+      "Awangarda"
+    ]
   },
   {
     "name": "Skeleton Infantry Cohort",
@@ -1276,7 +1697,28 @@
         "Ld": 5
       }
     ],
-    "id": "skeleton-infantry-cohort"
+    "id": "skeleton-infantry-cohort",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Royal Host Wojownicy: Broń Ręczna",
+      "Royal Host Wojownicy: thrusting spears",
+      "Royal Host Wojownicy: lekka zbroja",
+      "Royal Host Wojownicy: shields",
+      "Royal Host Łucznicy: Broń Ręczna",
+      "Royal Host Łucznicy: lekka zbroja",
+      "Royal Host Łucznicy: warbows"
+    ],
+    "specialRules_pl": [
+      "Arrows of Asaph",
+      "Zwarty Szyk",
+      "Horda",
+      "Zbieranina",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (6+)",
+      "Jednostka Regimentowa",
+      "Steadfast Discipline"
+    ]
   },
   {
     "name": "Skeleton Skirmishers",
@@ -1311,7 +1753,20 @@
         "Ld": 4
       }
     ],
-    "id": "skeleton-skirmishers"
+    "id": "skeleton-skirmishers",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Arrows of Asaph",
+      "Rydwan Runners",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (6+)",
+      "Harcownicy",
+      "Awangarda"
+    ]
   },
   {
     "name": "Skeleton Warriors (Tomb Kings)",
@@ -1358,7 +1813,20 @@
         "Ld": 5
       }
     ],
-    "id": "skeleton-warriors-tomb-kings-"
+    "id": "skeleton-warriors-tomb-kings-",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "tarcze"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Horda",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (6+)",
+      "Jednostka Regimentowa"
+    ]
   },
   {
     "name": "Tomb Guard",
@@ -1408,7 +1876,23 @@
         "Ld": 7
       }
     ],
-    "id": "tomb-guard"
+    "id": "tomb-guard",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "lekka zbroja",
+      "tarcze"
+    ],
+    "specialRules_pl": [
+      "Cleaving Blow",
+      "Zwarty Szyk",
+      "Nieustępliwy (1)",
+      "Khopesh",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (6+)",
+      "Jednostka Regimentowa"
+    ]
   },
   {
     "name": "Tomb Guard Chariots",
@@ -1486,7 +1970,27 @@
         "Ld": "—"
       }
     ],
-    "id": "tomb-guard-chariots"
+    "id": "tomb-guard-chariots",
+    "unitCategory_pl": "Rydwan",
+    "troopType_pl": "Lekki Rydwan",
+    "equipment_pl": [
+      "Tomb Straż Załoga: Broń Ręczna",
+      "Tomb Straż Załoga: halberds",
+      "Tomb Straż Załoga: shields",
+      "Skeletal Steed: Skeletal hooves (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Cleaving Blow (Tomb Straż Załoga only)",
+      "Dry jako Dust",
+      "Uderzenia Impetu (D3+1)",
+      "Nieustępliwy (2)",
+      "Khopesh",
+      "Nehekharijscy Nieumarli",
+      "Luźny Szyk",
+      "Regeneracja (6+)",
+      "Reserve Move",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Tomb King",
@@ -1524,7 +2028,23 @@
         "Ld": 10
       }
     ],
-    "id": "tomb-king"
+    "id": "tomb-king",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "ciężka zbroja"
+    ],
+    "specialRules_pl": [
+      "Curse of the Necropolis",
+      "Dry jako Dust",
+      "Łatwopalny",
+      "Nieustępliwy (2)",
+      "Khopesh",
+      "My Will Be Done",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (5+)"
+    ]
   },
   {
     "name": "Tomb Prince",
@@ -1562,7 +2082,23 @@
         "Ld": 9
       }
     ],
-    "id": "tomb-prince"
+    "id": "tomb-prince",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Curse of the Necropolis",
+      "Dry jako Dust",
+      "Łatwopalny",
+      "Nieustępliwy (2)",
+      "Khopesh",
+      "My Will Be Done",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (5+)"
+    ]
   },
   {
     "name": "Tomb Scorpion",
@@ -1601,7 +2137,24 @@
         "Ld": 8
       }
     ],
-    "id": "tomb-scorpion"
+    "id": "tomb-scorpion",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Monstrualne Stworzenie",
+    "equipment_pl": [
+      "Decapitating claws",
+      "envenomed sting",
+      "bone carapace (counts jako ciężka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Nieustępliwy (1)",
+      "Odporność Na Magię (-1)",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (6+)",
+      "Zdeptanie (D3)",
+      "Szybki Krok",
+      "Awangarda"
+    ]
   },
   {
     "name": "Tomb Swarms",
@@ -1635,7 +2188,19 @@
         "Ld": 10
       }
     ],
-    "id": "tomb-swarms"
+    "id": "tomb-swarms",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Rój",
+    "equipment_pl": [
+      "Venomous bites i stings (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Dry jako Dust",
+      "Nehekharijscy Nieumarli",
+      "Trujące Ataki",
+      "Regeneracja (6+)",
+      "Harcownicy"
+    ]
   },
   {
     "name": "Ushabti",
@@ -1684,7 +2249,22 @@
         "Ld": 8
       }
     ],
-    "id": "ushabti"
+    "id": "ushabti",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Monstrualna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "ritual blades",
+      "ciężka zbroja"
+    ],
+    "specialRules_pl": [
+      "Arrows of Asaph",
+      "Zwarty Szyk",
+      "Nieustępliwy (1)",
+      "Khopesh",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (6+)"
+    ]
   },
   {
     "name": "Venerable Ushabti",
@@ -1733,6 +2313,21 @@
         "Ld": 8
       }
     ],
-    "id": "venerable-ushabti"
+    "id": "venerable-ushabti",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Monstrualna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "ritual blades",
+      "ciężka zbroja"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Nieustępliwy (1)",
+      "Khopesh",
+      "Odporność Na Magię (-2)",
+      "Nehekharijscy Nieumarli",
+      "Regeneracja (6+)"
+    ]
   }
 ]

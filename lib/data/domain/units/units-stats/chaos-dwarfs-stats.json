@@ -35,7 +35,23 @@
         "Ld": "—"
       }
     ],
-    "id": "bale-taurus"
+    "id": "bale-taurus",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "equipment_pl": [
+      "Trampling hooves i goring horns"
+    ],
+    "specialRules_pl": [
+      "Blazing Body",
+      "Born of Ognisty",
+      "Zwarty Szyk",
+      "Lot (9)",
+      "Wściekła Szarża",
+      "Duży Cel",
+      "Zdeptanie (D3+1)",
+      "Szybki Krok",
+      "Groza"
+    ]
   },
   {
     "name": "Bull Centaur Renders",
@@ -88,7 +104,26 @@
         "Ld": 8
       }
     ],
-    "id": "bull-centaur-renders"
+    "id": "bull-centaur-renders",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Monstrualna Kawaleria",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Opancerzona Skóra (1)",
+      "Blackshard Zbroja",
+      "Zwarty Szyk",
+      "Zaklęta Broń",
+      "Strach",
+      "Pierwsza Szarża",
+      "Uderzenia Impetu (D3)",
+      "Samotnik",
+      "Stampede",
+      "Nieugięty",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Bull Centaur Taur'ruk",
@@ -129,7 +164,26 @@
         "Ld": 9
       }
     ],
-    "id": "bull-centaur-taur-ruk"
+    "id": "bull-centaur-taur-ruk",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Monstrualna Kawaleria, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "ciężka zbroja"
+    ],
+    "specialRules_pl": [
+      "Przebicie Zbroi (1)",
+      "Opancerzona Skóra (1)",
+      "Blackshard Zbroja",
+      "Zaklęta Broń",
+      "Strach",
+      "Pierwsza Szarża",
+      "Uderzenia Impetu (D3+1)",
+      "Samotnik",
+      "Stampede",
+      "Nieugięty",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Daemonsmith Sorcerer",
@@ -171,7 +225,22 @@
         "Ld": 9
       }
     ],
-    "id": "daemonsmith-sorcerer"
+    "id": "daemonsmith-sorcerer",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Ciężka Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "ciężka zbroja"
+    ],
+    "specialRules_pl": [
+      "Blackshard Zbroja",
+      "Zaklęta Broń",
+      "Infernal Inżynier",
+      "Lore of Hashut",
+      "Resolute",
+      "Sorcerer's Curse",
+      "Nieugięty"
+    ]
   },
   {
     "name": "Deathshrieker Rocket Launcher",
@@ -217,7 +286,19 @@
         "Ld": 9
       }
     ],
-    "id": "deathshrieker-rocket-launcher"
+    "id": "deathshrieker-rocket-launcher",
+    "unitCategory_pl": "Machina Wojenna",
+    "troopType_pl": "Machina Wojenna",
+    "equipment_pl": [
+      "Demolition Rockets",
+      "Infernal Incendiaries",
+      "broń ręczna",
+      "ciężka zbroja"
+    ],
+    "specialRules_pl": [
+      "Blackshard Zbroja",
+      "Harcownicy"
+    ]
   },
   {
     "name": "Dreadquake Mortar",
@@ -274,7 +355,18 @@
         "Ld": "—"
       }
     ],
-    "id": "dreadquake-mortar"
+    "id": "dreadquake-mortar",
+    "unitCategory_pl": "Machina Wojenna",
+    "troopType_pl": "Machina Wojenna",
+    "equipment_pl": [
+      "Dreadquake Mortar",
+      "broń ręczna",
+      "ciężka zbroja"
+    ],
+    "specialRules_pl": [
+      "Blackshard Zbroja",
+      "Harcownicy"
+    ]
   },
   {
     "name": "Giant Wolf",
@@ -307,7 +399,18 @@
         "Ld": "—"
       }
     ],
-    "id": "giant-wolf"
+    "id": "giant-wolf",
+    "unitCategory_pl": "Wierzchowiec",
+    "troopType_pl": "Lekka Kawaleria",
+    "equipment_pl": [
+      "Claws i fangs (counts jako a broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Rydwan Runners",
+      "Szybka Kawaleria",
+      "Ogień I Odwrót",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Great Taurus",
@@ -345,7 +448,23 @@
         "Ld": "—"
       }
     ],
-    "id": "great-taurus"
+    "id": "great-taurus",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "equipment_pl": [
+      "Trampling hooves i goring horns"
+    ],
+    "specialRules_pl": [
+      "Blazing Body",
+      "Born of Ognisty",
+      "Zwarty Szyk",
+      "Lot (9)",
+      "Wściekła Szarża",
+      "Duży Cel",
+      "Zdeptanie (D3)",
+      "Szybki Krok",
+      "Groza"
+    ]
   },
   {
     "name": "Hobgoblin Bolt Thrower",
@@ -390,7 +509,18 @@
         "Ld": 6
       }
     ],
-    "id": "hobgoblin-bolt-thrower"
+    "id": "hobgoblin-bolt-thrower",
+    "unitCategory_pl": "Machina Wojenna",
+    "troopType_pl": "Machina Wojenna",
+    "equipment_pl": [
+      "Bolt thrower",
+      "broń ręczna",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Levies",
+      "Harcownicy"
+    ]
   },
   {
     "name": "Hobgoblin Cutthroats",
@@ -437,7 +567,20 @@
         "Ld": 5
       }
     ],
-    "id": "hobgoblin-cutthroats"
+    "id": "hobgoblin-cutthroats",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "tarcze"
+    ],
+    "specialRules_pl": [
+      "Backstab",
+      "Zwarty Szyk",
+      "Horda",
+      "Levies",
+      "Gromada"
+    ]
   },
   {
     "name": "Hobgoblin Khan",
@@ -471,7 +614,19 @@
         "Ld": 7
       }
     ],
-    "id": "hobgoblin-khan"
+    "id": "hobgoblin-khan",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "throwing broń"
+    ],
+    "specialRules_pl": [
+      "Backstab",
+      "Evasive",
+      "Levies",
+      "Gromada"
+    ]
   },
   {
     "name": "Hobgoblin Wolf Riders",
@@ -535,7 +690,25 @@
         "Ld": "—"
       }
     ],
-    "id": "hobgoblin-wolf-riders"
+    "id": "hobgoblin-wolf-riders",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Lekka Kawaleria",
+    "equipment_pl": [
+      "Hobgoblin Wilk Jeźdźcy: Broń Ręczna",
+      "lekka zbroja",
+      "tarcze",
+      "Olbrzym Wilki: Claws i fangs (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Backstab",
+      "Evasive",
+      "Szybka Kawaleria",
+      "Ogień I Odwrót",
+      "Levies",
+      "Luźny Szyk",
+      "Harcownicy",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Infernal Castellan",
@@ -570,7 +743,20 @@
         "Ld": 10
       }
     ],
-    "id": "infernal-castellan"
+    "id": "infernal-castellan",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Ciężka Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "ciężka zbroja"
+    ],
+    "specialRules_pl": [
+      "Blackshard Zbroja",
+      "Zaklęta Broń",
+      "Bojowy Okrzyk",
+      "Resolute",
+      "Nieugięty"
+    ]
   },
   {
     "name": "Infernal Guard",
@@ -618,7 +804,21 @@
         "Ld": 9
       }
     ],
-    "id": "infernal-guard"
+    "id": "infernal-guard",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Ciężka Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "ciężka zbroja"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Oddział",
+      "Jednostka Regimentowa",
+      "Resolute",
+      "Shieldwall",
+      "Nieugięty"
+    ]
   },
   {
     "name": "Infernal Ironsworn",
@@ -670,7 +870,25 @@
         "Ld": 9
       }
     ],
-    "id": "infernal-ironsworn"
+    "id": "infernal-ironsworn",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Ciężka Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "pełna zbroja płytowa"
+    ],
+    "specialRules_pl": [
+      "Blackshard Zbroja",
+      "Zwarty Szyk",
+      "Drilled",
+      "Zaklęta Broń",
+      "Quell Panic",
+      "Jednostka Regimentowa",
+      "Resolute",
+      "Shieldwall",
+      "Nieugięty",
+      "Veteran"
+    ]
   },
   {
     "name": "Infernal Seneschal",
@@ -705,7 +923,20 @@
         "Ld": 9
       }
     ],
-    "id": "infernal-seneschal"
+    "id": "infernal-seneschal",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Ciężka Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "ciężka zbroja"
+    ],
+    "specialRules_pl": [
+      "Blackshard Zbroja",
+      "Zaklęta Broń",
+      "Bojowy Okrzyk",
+      "Resolute",
+      "Nieugięty"
+    ]
   },
   {
     "name": "Iron Daemon",
@@ -757,7 +988,25 @@
         "Ld": 9
       }
     ],
-    "id": "iron-daemon"
+    "id": "iron-daemon",
+    "unitCategory_pl": "Rydwan",
+    "troopType_pl": "Ciężki Rydwan",
+    "equipment_pl": [
+      "Żelazny Demon: Steam Cannonade",
+      "Chaos Krasnolud Załoga: Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Carriage Hauler",
+      "Zwarty Szyk",
+      "Strach",
+      "Grinding Wheels",
+      "Odporność Na Psychologię",
+      "Uderzenia Impetu (D6+1)",
+      "Duży Cel",
+      "Lumbering Destruction",
+      "Zdeptanie (D3+1)",
+      "Niezłomni"
+    ]
   },
   {
     "name": "K'daai Fireborn",
@@ -808,7 +1057,24 @@
         "Ld": 8
       }
     ],
-    "id": "k-daai-fireborn"
+    "id": "k-daai-fireborn",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Monstrualna Piechota",
+    "equipment_pl": [
+      "Rage i hellfire (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Blazing Body",
+      "Zwarty Szyk",
+      "Zaklęta Broń",
+      "Strach",
+      "Flaming Attacks",
+      "Odporność Na Psychologię",
+      "Regeneracja (5+)",
+      "Niezłomni",
+      "Unstable",
+      "Warp-spawned"
+    ]
   },
   {
     "name": "Lammasu",
@@ -847,7 +1113,24 @@
         "Ld": "—"
       }
     ],
-    "id": "lammasu"
+    "id": "lammasu",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Monstrualne Stworzenie",
+    "equipment_pl": [
+      "Claws i fangs (counts jako a broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Przebicie Zbroi (2)",
+      "Zwarty Szyk",
+      "Lot (9)",
+      "Wściekła Szarża",
+      "Duży Cel",
+      "Odporność Na Magię (-3)",
+      "Sorcerous Miasma",
+      "Zdeptanie (D3)",
+      "Szybki Krok",
+      "Groza"
+    ]
   },
   {
     "name": "Magma Cannon",
@@ -892,7 +1175,18 @@
         "Ld": 9
       }
     ],
-    "id": "magma-cannon"
+    "id": "magma-cannon",
+    "unitCategory_pl": "Machina Wojenna",
+    "troopType_pl": "Machina Wojenna",
+    "equipment_pl": [
+      "Ognisty thrower",
+      "broń ręczna",
+      "ciężka zbroja"
+    ],
+    "specialRules_pl": [
+      "Blackshard Zbroja",
+      "Harcownicy"
+    ]
   },
   {
     "name": "Sneaky Gits",
@@ -940,7 +1234,21 @@
         "Ld": 5
       }
     ],
-    "id": "sneaky-gits"
+    "id": "sneaky-gits",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Two broń ręczna",
+      "throwing broń"
+    ],
+    "specialRules_pl": [
+      "Zasadzka",
+      "Backstab",
+      "Evasive",
+      "Levies",
+      "Przechodzenie Przez Zasłony",
+      "Harcownicy"
+    ]
   },
   {
     "name": "Sorcerer-Prophet",
@@ -982,6 +1290,21 @@
         "Ld": 10
       }
     ],
-    "id": "sorcerer-prophet"
+    "id": "sorcerer-prophet",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Ciężka Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "ciężka zbroja"
+    ],
+    "specialRules_pl": [
+      "Blackshard Zbroja",
+      "Zaklęta Broń",
+      "Infernal Inżynier",
+      "Lore of Hashut",
+      "Resolute",
+      "Sorcerer's Curse",
+      "Nieugięty"
+    ]
   }
 ]

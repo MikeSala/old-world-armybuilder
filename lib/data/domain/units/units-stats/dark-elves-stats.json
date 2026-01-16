@@ -45,7 +45,20 @@
         }
       }
     ],
-    "id": "black-ark-corsairs"
+    "id": "black-ark-corsairs",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Elfie Refleksy",
+      "Nienawiść (Wysoki Elfy)",
+      "Przechodzenie Przez Zasłony",
+      "Luźny Szyk",
+      "Morski Smok Cloak"
+    ]
   },
   {
     "name": "Black Dragon",
@@ -81,7 +94,24 @@
       "Swiftstride",
       "Terror"
     ],
-    "id": "black-dragon"
+    "id": "black-dragon",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "equipment_pl": [
+      "Złowrogie Szpony",
+      "Serrated maw",
+      "Noxious breath",
+      "Draconic scales (pełna zbroja płytowa)"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Lot (10)",
+      "Nienawiść (Wysoki Elfy)",
+      "Duży Cel",
+      "Zdeptanie (D6)",
+      "Szybki Krok",
+      "Groza"
+    ]
   },
   {
     "name": "Black Guard of Naggarond",
@@ -132,7 +162,23 @@
         }
       }
     ],
-    "id": "black-guard-of-naggarond"
+    "id": "black-guard-of-naggarond",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Dread halberds",
+      "Pełna Zbroja Płytowa"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Elfie Refleksy",
+      "Eternal Nienawiść",
+      "Nienawiść (Wysoki Elfy)",
+      "Odporność Na Psychologię",
+      "Martial Prowess",
+      "Nieugięty"
+    ]
   },
   {
     "name": "Bloodwrack Medusa",
@@ -169,7 +215,25 @@
       "Poisoned Attacks",
       "Stony Stare"
     ],
-    "id": "bloodwrack-medusa"
+    "id": "bloodwrack-medusa",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Monstrualne Stworzenie",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Skamieniające Spojrzenie",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Elfie Refleksy",
+      "Strach",
+      "Szał",
+      "Nienawiść (Wysoki Elfy)",
+      "Odporność Na Magię (-1)",
+      "Murderous",
+      "Trujące Ataki",
+      "Kamienne Spojrzenie"
+    ]
   },
   {
     "name": "Bloodwrack Shrine",
@@ -239,7 +303,28 @@
         }
       }
     ],
-    "id": "bloodwrack-shrine"
+    "id": "bloodwrack-shrine",
+    "unitCategory_pl": "Rydwan",
+    "troopType_pl": "Ciężki Rydwan",
+    "equipment_pl": [
+      "Shrinekeepers: Kawaleria spears",
+      "Bloodwrack Medusa: Włócznia Kawaleryjska",
+      "Skamieniające Spojrzenie"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Dragged Along",
+      "Elfie Refleksy",
+      "Szał",
+      "Nienawiść (Wysoki Elfy)",
+      "Uderzenia Impetu (D6+1)",
+      "Duży Cel",
+      "Odporność Na Magię (-1)",
+      "Murderous",
+      "Trujące Ataki",
+      "Kamienne Spojrzenie",
+      "Groza"
+    ]
   },
   {
     "name": "Cauldron of Blood",
@@ -293,7 +378,26 @@
         }
       }
     ],
-    "id": "cauldron-of-blood"
+    "id": "cauldron-of-blood",
+    "unitCategory_pl": "Rydwan",
+    "troopType_pl": "Ciężki Rydwan",
+    "equipment_pl": [
+      "Witch Elf Załoga: Two broń ręczna"
+    ],
+    "specialRules_pl": [
+      "Blessings of Khaine",
+      "Zwarty Szyk",
+      "Dragged Along",
+      "Elfie Refleksy",
+      "Szał",
+      "Nienawiść (Wysoki Elfy)",
+      "Uderzenia Impetu (D6+1)",
+      "Duży Cel",
+      "Odporność Na Magię (-1)",
+      "Murderous",
+      "Trujące Ataki",
+      "Groza"
+    ]
   },
   {
     "name": "Cold One (Dark Elves)",
@@ -325,7 +429,20 @@
       "Stupidity",
       "Swiftstride"
     ],
-    "id": "cold-one-dark-elves-"
+    "id": "cold-one-dark-elves-",
+    "unitCategory_pl": "Wierzchowiec",
+    "troopType_pl": "Ciężka Kawaleria",
+    "equipment_pl": [
+      "Claws i teeth (broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Przebicie Zbroi (1, Cold One only)",
+      "Opancerzona Skóra (1)",
+      "Strach",
+      "Pierwsza Szarża",
+      "Stupidity",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Cold One Chariot",
@@ -392,7 +509,25 @@
         }
       }
     ],
-    "id": "cold-one-chariot"
+    "id": "cold-one-chariot",
+    "unitCategory_pl": "Rydwan",
+    "troopType_pl": "Ciężki Rydwan",
+    "equipment_pl": [
+      "Rycerz Charioteers: Broń Ręczna",
+      "Kawaleria spears",
+      "Repeater crossbows",
+      "Cold Ones: Claws i teeth"
+    ],
+    "specialRules_pl": [
+      "Przebicie Zbroi (1, Cold One only)",
+      "Zwarty Szyk",
+      "Elfie Refleksy",
+      "Strach",
+      "Pierwsza Szarża",
+      "Nienawiść (Wysoki Elfy)",
+      "Uderzenia Impetu (D6+1)",
+      "Stupidity"
+    ]
   },
   {
     "name": "Cold One Knights",
@@ -461,7 +596,27 @@
         }
       }
     ],
-    "id": "cold-one-knights"
+    "id": "cold-one-knights",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Ciężka Kawaleria",
+    "equipment_pl": [
+      "Rycerze: Broń Ręczna",
+      "Lances",
+      "Ciężka Zbroja",
+      "Tarcze",
+      "Cold Ones: Claws i teeth"
+    ],
+    "specialRules_pl": [
+      "Przebicie Zbroi (1, Cold One only)",
+      "Opancerzona Skóra (1)",
+      "Zwarty Szyk",
+      "Elfie Refleksy",
+      "Strach",
+      "Pierwsza Szarża",
+      "Nienawiść (Wysoki Elfy)",
+      "Stupidity",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Dark Elf Dreadlord",
@@ -492,7 +647,19 @@
       "Murderous",
       "Strike First"
     ],
-    "id": "dark-elf-dreadlord"
+    "id": "dark-elf-dreadlord",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Eternal Nienawiść",
+      "Nienawiść (Wysoki Elfy)",
+      "Murderous",
+      "Strike First"
+    ]
   },
   {
     "name": "Dark Elf Master",
@@ -523,7 +690,19 @@
       "Murderous",
       "Strike First"
     ],
-    "id": "dark-elf-master"
+    "id": "dark-elf-master",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Eternal Nienawiść",
+      "Nienawiść (Wysoki Elfy)",
+      "Murderous",
+      "Strike First"
+    ]
   },
   {
     "name": "Dark Elf Shades",
@@ -572,7 +751,21 @@
         }
       }
     ],
-    "id": "dark-elf-shades"
+    "id": "dark-elf-shades",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Repeater crossbows"
+    ],
+    "specialRules_pl": [
+      "Elfie Refleksy",
+      "Evasive",
+      "Nienawiść (Wysoki Elfy)",
+      "Przechodzenie Przez Zasłony",
+      "Zwiadowcy",
+      "Harcownicy"
+    ]
   },
   {
     "name": "Dark Elf Warriors",
@@ -620,7 +813,20 @@
         }
       }
     ],
-    "id": "dark-elf-warriors"
+    "id": "dark-elf-warriors",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Lekka Zbroja",
+      "Tarcze"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Elfie Refleksy",
+      "Nienawiść (Wysoki Elfy)",
+      "Martial Prowess"
+    ]
   },
   {
     "name": "Dark Pegasus",
@@ -651,7 +857,19 @@
       "Fly (10)",
       "Swiftstride"
     ],
-    "id": "dark-pegasus"
+    "id": "dark-pegasus",
+    "unitCategory_pl": "Wierzchowiec",
+    "troopType_pl": "Monstrualna Kawaleria",
+    "equipment_pl": [
+      "Hooves (broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Przebicie Zbroi (1, Mroczny Pegasus only)",
+      "Przeciwnatarcie",
+      "Pierwsza Szarża",
+      "Lot (10)",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Dark Riders",
@@ -716,7 +934,23 @@
         }
       }
     ],
-    "id": "dark-riders"
+    "id": "dark-riders",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Lekka Kawaleria",
+    "equipment_pl": [
+      "Jeźdźcy: Broń Ręczna",
+      "Kawaleria spears",
+      "Lekka Zbroja",
+      "Mroczny Steeds: Hooves"
+    ],
+    "specialRules_pl": [
+      "Elfie Refleksy",
+      "Szybka Kawaleria",
+      "Nienawiść (Wysoki Elfy)",
+      "Luźny Szyk",
+      "Harcownicy",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Dark Steed",
@@ -744,7 +978,16 @@
       "Fast Cavalry",
       "Swiftstride"
     ],
-    "id": "dark-steed"
+    "id": "dark-steed",
+    "unitCategory_pl": "Wierzchowiec",
+    "troopType_pl": "Lekka Kawaleria",
+    "equipment_pl": [
+      "Hooves (broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Szybka Kawaleria",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Death Hag",
@@ -777,7 +1020,21 @@
       "Poisoned Attacks",
       "Strike First"
     ],
-    "id": "death-hag"
+    "id": "death-hag",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Two broń ręczna"
+    ],
+    "specialRules_pl": [
+      "Eternal Nienawiść",
+      "Szał",
+      "Nienawiść (all enemies)",
+      "Samotnik",
+      "Murderous",
+      "Trujące Ataki",
+      "Strike First"
+    ]
   },
   {
     "name": "Doomfire Warlocks",
@@ -842,7 +1099,23 @@
         }
       }
     ],
-    "id": "doomfire-warlocks"
+    "id": "doomfire-warlocks",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Lekka Kawaleria",
+    "equipment_pl": [
+      "Warlocks: Broń Ręczna",
+      "Mroczny Steeds: Hooves"
+    ],
+    "specialRules_pl": [
+      "Cursed Coven",
+      "Mroczny Runes",
+      "Elfie Refleksy",
+      "Szybka Kawaleria",
+      "Nienawiść (Wysoki Elfy)",
+      "Luźny Szyk",
+      "Trujące Ataki (Jeźdźcy only)",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Har Ganeth Executioners",
@@ -891,7 +1164,21 @@
         }
       }
     ],
-    "id": "har-ganeth-executioners"
+    "id": "har-ganeth-executioners",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Har Ganeth greatswords",
+      "Ciężka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Elfie Refleksy",
+      "Nienawiść (Wysoki Elfy)",
+      "Murderous",
+      "Veteran"
+    ]
   },
   {
     "name": "Harpies",
@@ -922,7 +1209,19 @@
       "Skirmishers",
       "Swiftstride"
     ],
-    "id": "harpies"
+    "id": "harpies",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Claws (broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Lot (10)",
+      "Przechodzenie Przez Zasłony",
+      "Zwiadowcy",
+      "Harcownicy",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "High Beastmaster",
@@ -955,7 +1254,21 @@
       "Murderous",
       "Strike First"
     ],
-    "id": "high-beastmaster"
+    "id": "high-beastmaster",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Whip",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Eternal Nienawiść",
+      "Goad Bestia",
+      "Nienawiść (Wysoki Elfy)",
+      "Murderous",
+      "Strike First"
+    ]
   },
   {
     "name": "Khainite Assassin",
@@ -988,7 +1301,21 @@
       "Murderous",
       "Strike First"
     ],
-    "id": "khainite-assassin"
+    "id": "khainite-assassin",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Throwing broń"
+    ],
+    "specialRules_pl": [
+      "Eternal Nienawiść",
+      "Nienawiść (all enemies)",
+      "Hidden",
+      "Odporność Na Psychologię",
+      "Murderous",
+      "Strike First"
+    ]
   },
   {
     "name": "Kharibdyss",
@@ -1038,7 +1365,22 @@
         }
       }
     ],
-    "id": "kharibdyss"
+    "id": "kharibdyss",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "equipment_pl": [
+      "Cavernous maw",
+      "Writhing tentacles"
+    ],
+    "specialRules_pl": [
+      "Abyssal Howl",
+      "Zwarty Szyk",
+      "Odporność Na Psychologię",
+      "Duży Cel",
+      "Potwór Handlers",
+      "Zdeptanie (D3+1)",
+      "Groza"
+    ]
   },
   {
     "name": "Manticore (Dark Elves)",
@@ -1072,7 +1414,22 @@
       "Terror",
       "Wilful Beast"
     ],
-    "id": "manticore-dark-elves-"
+    "id": "manticore-dark-elves-",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Monstrualne Stworzenie",
+    "equipment_pl": [
+      "Złowrogie Szpony",
+      "Scaly skin (ciężka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Lot (9)",
+      "Duży Cel",
+      "Zdeptanie (D3)",
+      "Szybki Krok",
+      "Groza",
+      "Wilful Bestia"
+    ]
   },
   {
     "name": "Reaper Bolt Thrower",
@@ -1119,7 +1476,19 @@
         }
       }
     ],
-    "id": "reaper-bolt-thrower"
+    "id": "reaper-bolt-thrower",
+    "unitCategory_pl": "Machina Wojenna",
+    "troopType_pl": "Machina Wojenna",
+    "equipment_pl": [
+      "Repeater bolt thrower",
+      "Broń Ręczna",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Elfie Refleksy",
+      "Nienawiść (Wysoki Elfy)",
+      "Harcownicy"
+    ]
   },
   {
     "name": "Repeater Crossbowmen",
@@ -1167,7 +1536,20 @@
         }
       }
     ],
-    "id": "repeater-crossbowmen"
+    "id": "repeater-crossbowmen",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Repeater crossbows",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Elfie Refleksy",
+      "Nienawiść (Wysoki Elfy)",
+      "Martial Prowess"
+    ]
   },
   {
     "name": "Scourgerunner Chariot",
@@ -1233,7 +1615,24 @@
         }
       }
     ],
-    "id": "scourgerunner-chariot"
+    "id": "scourgerunner-chariot",
+    "unitCategory_pl": "Rydwan",
+    "troopType_pl": "Lekki Rydwan",
+    "equipment_pl": [
+      "Rydwan: Ravager harpoon",
+      "Beastmaster Załoga: Broń Ręczna",
+      "Kawaleria spears",
+      "Repeater crossbows",
+      "Mroczny Steeds: Hooves"
+    ],
+    "specialRules_pl": [
+      "Elfie Refleksy",
+      "Nienawiść (Wysoki Elfy)",
+      "Uderzenia Impetu (D6)",
+      "Luźny Szyk",
+      "Morski Smok Cloak",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Sisters of Slaughter",
@@ -1283,7 +1682,22 @@
         }
       }
     ],
-    "id": "sisters-of-slaughter"
+    "id": "sisters-of-slaughter",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Lash & buckler"
+    ],
+    "specialRules_pl": [
+      "Dance of Death",
+      "Elfie Refleksy",
+      "Nienawiść (Wysoki Elfy)",
+      "Impet",
+      "Samotnik",
+      "Murderous",
+      "Luźny Szyk"
+    ]
   },
   {
     "name": "Sorceress",
@@ -1322,7 +1736,20 @@
       "Elementalism",
       "Illusion"
     ],
-    "id": "sorceress"
+    "id": "sorceress",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Elfie Refleksy",
+      "Eternal Nienawiść",
+      "Nienawiść (Wysoki Elfy)",
+      "Hekarti's Blessing",
+      "Lore of Naggaroth",
+      "Murderous"
+    ]
   },
   {
     "name": "Supreme Sorceress",
@@ -1361,7 +1788,20 @@
       "Elementalism",
       "Illusion"
     ],
-    "id": "supreme-sorceress"
+    "id": "supreme-sorceress",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Elfie Refleksy",
+      "Eternal Nienawiść",
+      "Nienawiść (Wysoki Elfy)",
+      "Hekarti's Blessing",
+      "Lore of Naggaroth",
+      "Murderous"
+    ]
   },
   {
     "name": "War Hydra",
@@ -1413,7 +1853,24 @@
         }
       }
     ],
-    "id": "war-hydra"
+    "id": "war-hydra",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "equipment_pl": [
+      "Złowrogie Szpony",
+      "Serrated maws",
+      "Fiery breath"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Extra Attacks (+remaining Wounds)",
+      "Odporność Na Psychologię",
+      "Duży Cel",
+      "Potwór Handlers",
+      "Regeneracja (5+)",
+      "Zdeptanie (D3)",
+      "Groza"
+    ]
   },
   {
     "name": "Witch Elves",
@@ -1463,6 +1920,21 @@
         }
       }
     ],
-    "id": "witch-elves"
+    "id": "witch-elves",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Two broń ręczna"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Elfie Refleksy",
+      "Szał",
+      "Nienawiść (Wysoki Elfy)",
+      "Horda",
+      "Samotnik",
+      "Murderous",
+      "Trujące Ataki"
+    ]
   }
 ]

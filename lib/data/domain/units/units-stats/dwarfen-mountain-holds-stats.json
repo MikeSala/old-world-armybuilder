@@ -35,7 +35,28 @@
       "Strike the Runes",
       "Unbreakable"
     ],
-    "id": "anvil-of-doom"
+    "id": "anvil-of-doom",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Machina Wojenna, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "ciężka zbroja",
+      "tarcze"
+    ],
+    "specialRules_pl": [
+      "Ancestral Shield",
+      "Gromril Zbroja",
+      "Gromril Broń",
+      "Nienawiść (Orki & Gobliny)",
+      "Odporność Na Psychologię",
+      "Immovable Object",
+      "Odporność Na Magię (-3)",
+      "Resolute",
+      "Rune Lore",
+      "Harcownicy",
+      "Strike the Runes",
+      "Niezłomni"
+    ]
   },
   {
     "name": "Forgefather & Anvil Guard",
@@ -56,7 +77,10 @@
     "armourValue": null,
     "equipment": [],
     "specialRules": [],
-    "id": "forgefather-anvil-guard"
+    "id": "forgefather-anvil-guard",
+    "unitCategory_pl": "Załoga",
+    "equipment_pl": [],
+    "specialRules_pl": []
   },
   {
     "name": "Bolt Thrower",
@@ -86,7 +110,20 @@
       "Skirmishers",
       "Stubborn"
     ],
-    "id": "bolt-thrower"
+    "id": "bolt-thrower",
+    "unitCategory_pl": "Machina Wojenna",
+    "troopType_pl": "Machina Wojenna",
+    "equipment_pl": [
+      "Bolt thrower",
+      "broń ręczna",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Nienawiść (Orki & Gobliny)",
+      "Odporność Na Magię (-1)",
+      "Harcownicy",
+      "Nieugięty"
+    ]
   },
   {
     "name": "Dwarf Crew (Bolt Thrower)",
@@ -107,7 +144,10 @@
     "armourValue": null,
     "equipment": [],
     "specialRules": [],
-    "id": "dwarf-crew-bolt-thrower-"
+    "id": "dwarf-crew-bolt-thrower-",
+    "unitCategory_pl": "Załoga",
+    "equipment_pl": [],
+    "specialRules_pl": []
   },
   {
     "name": "Burlok Damminson",
@@ -142,7 +182,25 @@
       "\"Stand Back Chief\"",
       "Stubborn"
     ],
-    "id": "burlok-damminson"
+    "id": "burlok-damminson",
+    "unitCategory_pl": "Nazwana Postać",
+    "troopType_pl": "Ciężka Piechota, Nazwana Postać",
+    "equipment_pl": [
+      "Furnace hammer",
+      "rivet gun",
+      "ciężka zbroja"
+    ],
+    "specialRules_pl": [
+      "Krasnolud Crafted",
+      "Gromril Zbroja",
+      "Nienawiść (Orki & Gobliny)",
+      "Odporność Na Magię (-1)",
+      "Prepared Positions",
+      "Range Finding Optics",
+      "Resolute",
+      "\"Stand Back Wódz\"",
+      "Nieugięty"
+    ]
   },
   {
     "name": "Cannon",
@@ -172,7 +230,20 @@
       "Skirmishers",
       "Stubborn"
     ],
-    "id": "cannon"
+    "id": "cannon",
+    "unitCategory_pl": "Machina Wojenna",
+    "troopType_pl": "Machina Wojenna",
+    "equipment_pl": [
+      "Cannon",
+      "broń ręczna",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Nienawiść (Orki & Gobliny)",
+      "Odporność Na Magię (-1)",
+      "Harcownicy",
+      "Nieugięty"
+    ]
   },
   {
     "name": "Dwarf Crew (Cannon)",
@@ -193,7 +264,10 @@
     "armourValue": null,
     "equipment": [],
     "specialRules": [],
-    "id": "dwarf-crew-cannon-"
+    "id": "dwarf-crew-cannon-",
+    "unitCategory_pl": "Załoga",
+    "equipment_pl": [],
+    "specialRules_pl": []
   },
   {
     "name": "Daemon Slayer",
@@ -228,7 +302,25 @@
       "Unbreakable",
       "Vanguard"
     ],
-    "id": "daemon-slayer"
+    "id": "daemon-slayer",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Ciężka Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Deathblow",
+      "Gromril Broń",
+      "Nienawiść (Orki & Gobliny)",
+      "Odporność Na Psychologię",
+      "Killing Blow",
+      "Samotnik",
+      "Odporność Na Magię (-2)",
+      "Resolute",
+      "Zabójca of Demony",
+      "Niezłomni",
+      "Awangarda"
+    ]
   },
   {
     "name": "Doomseeker",
@@ -266,7 +358,28 @@
       "Vanguard",
       "Whirlwind of Death"
     ],
-    "id": "doomseeker"
+    "id": "doomseeker",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Ciężka Piechota, Postać",
+    "equipment_pl": [
+      "Whirling blades of death (counts jako a broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Deathblow",
+      "Doomseeker",
+      "First do the Fray",
+      "Gromril Broń",
+      "Nienawiść (Orki & Gobliny)",
+      "Odporność Na Psychologię",
+      "Uderzenia Impetu (D3+1)",
+      "Samotnik",
+      "Odporność Na Magię (-2)",
+      "Losowe Ataki",
+      "Resolute",
+      "Niezłomni",
+      "Awangarda",
+      "Whirlwind of Death"
+    ]
   },
   {
     "name": "Dragon Slayer",
@@ -301,7 +414,25 @@
       "Unbreakable",
       "Vanguard"
     ],
-    "id": "dragon-slayer"
+    "id": "dragon-slayer",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Ciężka Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Deathblow",
+      "Gromril Broń",
+      "Nienawiść (Orki & Gobliny)",
+      "Odporność Na Psychologię",
+      "Killing Blow",
+      "Samotnik",
+      "Odporność Na Magię (-2)",
+      "Resolute",
+      "Zabójca of Smoki",
+      "Niezłomni",
+      "Awangarda"
+    ]
   },
   {
     "name": "Dwarf Cart",
@@ -331,7 +462,20 @@
       "Open Order",
       "Resolute"
     ],
-    "id": "dwarf-cart"
+    "id": "dwarf-cart",
+    "unitCategory_pl": "Rydwan",
+    "troopType_pl": "Lekki Rydwan",
+    "equipment_pl": [
+      "Krasnolud Załoga: Broń Ręczna",
+      "Draft Pony: Iron-shod hooves (counts jako a broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Nienawiść (Orki & Gobliny)",
+      "Uderzenia Impetu (D3)",
+      "Odporność Na Magię (-1)",
+      "Luźny Szyk",
+      "Resolute"
+    ]
   },
   {
     "name": "Dwarf Crew (Cart)",
@@ -352,7 +496,10 @@
     "armourValue": null,
     "equipment": [],
     "specialRules": [],
-    "id": "dwarf-crew-cart-"
+    "id": "dwarf-crew-cart-",
+    "unitCategory_pl": "Załoga",
+    "equipment_pl": [],
+    "specialRules_pl": []
   },
   {
     "name": "Draft Pony",
@@ -373,7 +520,10 @@
     "armourValue": null,
     "equipment": [],
     "specialRules": [],
-    "id": "draft-pony"
+    "id": "draft-pony",
+    "unitCategory_pl": "Wierzchowiec",
+    "equipment_pl": [],
+    "specialRules_pl": []
   },
   {
     "name": "Dwarf Warrior",
@@ -403,7 +553,20 @@
       "Resolute",
       "Shieldwall"
     ],
-    "id": "dwarf-warrior"
+    "id": "dwarf-warrior",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Ciężka Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "ciężka zbroja"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Nienawiść (Orki & Gobliny)",
+      "Odporność Na Magię (-1)",
+      "Resolute",
+      "Shieldwall"
+    ]
   },
   {
     "name": "Veteran (Dwarf Warriors)",
@@ -424,7 +587,10 @@
     "armourValue": null,
     "equipment": [],
     "specialRules": [],
-    "id": "veteran-dwarf-warriors-"
+    "id": "veteran-dwarf-warriors-",
+    "unitCategory_pl": "Czempion",
+    "equipment_pl": [],
+    "specialRules_pl": []
   },
   {
     "name": "Engineer",
@@ -458,7 +624,24 @@
       "\"Stand Back Chief\"",
       "Stubborn"
     ],
-    "id": "engineer"
+    "id": "engineer",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Ciężka Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "ciężka zbroja"
+    ],
+    "specialRules_pl": [
+      "Artillery Mistrz",
+      "Krasnolud Crafted",
+      "Entrenchment",
+      "Gromril Zbroja",
+      "Nienawiść (Orki & Gobliny)",
+      "Odporność Na Magię (-1)",
+      "Resolute",
+      "\"Stand Back Wódz\"",
+      "Nieugięty"
+    ]
   },
   {
     "name": "Engineer Sapper",
@@ -491,7 +674,23 @@
       "Resolute",
       "Stubborn"
     ],
-    "id": "engineer-sapper"
+    "id": "engineer-sapper",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Ciężka Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "ciężka zbroja"
+    ],
+    "specialRules_pl": [
+      "\"Dig W!\"",
+      "Krasnolud Crafted",
+      "Gromril Zbroja",
+      "Nienawiść (Orki & Gobliny)",
+      "Hostile Terrain",
+      "Odporność Na Magię (-1)",
+      "Resolute",
+      "Nieugięty"
+    ]
   },
   {
     "name": "Flame Cannon",
@@ -521,7 +720,20 @@
       "Skirmishers",
       "Stubborn"
     ],
-    "id": "flame-cannon"
+    "id": "flame-cannon",
+    "unitCategory_pl": "Machina Wojenna",
+    "troopType_pl": "Machina Wojenna",
+    "equipment_pl": [
+      "Ognisty thrower",
+      "broń ręczna",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Nienawiść (Orki & Gobliny)",
+      "Odporność Na Magię (-1)",
+      "Harcownicy",
+      "Nieugięty"
+    ]
   },
   {
     "name": "Dwarf Crew (Flame Cannon)",
@@ -542,6 +754,9 @@
     "armourValue": null,
     "equipment": [],
     "specialRules": [],
-    "id": "dwarf-crew-flame-cannon-"
+    "id": "dwarf-crew-flame-cannon-",
+    "unitCategory_pl": "Załoga",
+    "equipment_pl": [],
+    "specialRules_pl": []
   }
 ]

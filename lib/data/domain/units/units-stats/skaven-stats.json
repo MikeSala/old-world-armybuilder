@@ -41,7 +41,19 @@
         "Ld": 5
       }
     },
-    "id": "clanrats"
+    "id": "clanrats",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Horda",
+      "Umknij",
+      "Gromada"
+    ]
   },
   {
     "name": "Doomwheel",
@@ -101,7 +113,24 @@
         "Ld": 5
       }
     },
-    "id": "doomwheel"
+    "id": "doomwheel",
+    "unitCategory_pl": "Rydwan",
+    "troopType_pl": "Ciężki Rydwan",
+    "equipment_pl": [
+      "Czarownik: Broń Ręczna",
+      "Rats: Claws i fangs (counts jako a broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Crushing Bulk",
+      "Odporność Na Psychologię",
+      "Uderzenia Impetu (D3+1)",
+      "Duży Cel",
+      "Random Attacks (Rats only)",
+      "Random Movement",
+      "Zdeptanie (2)",
+      "Zzzzap!"
+    ]
   },
   {
     "name": "Giant Rats",
@@ -134,7 +163,19 @@
         "Ld": 3
       }
     },
-    "id": "giant-rats"
+    "id": "giant-rats",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Bestia Wojenna",
+    "equipment_pl": [
+      "Claws i teeth (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Fight w Extra Rank",
+      "Horda",
+      "Umknij",
+      "Gromada"
+    ]
   },
   {
     "name": "Grey Seer",
@@ -177,7 +218,22 @@
         "Ld": 7
       }
     },
-    "id": "grey-seer"
+    "id": "grey-seer",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "D3 Warpstone Tokens"
+    ],
+    "specialRules_pl": [
+      "Lore of the Horned Rat",
+      "Magiczne Ataki",
+      "Odporność Na Magię (-1)",
+      "Umknij",
+      "Verminous Valour",
+      "Gromada",
+      "Warpstone Broń"
+    ]
   },
   {
     "name": "Gutter Runners",
@@ -223,7 +279,21 @@
         "Ld": 7
       }
     },
-    "id": "gutter-runners"
+    "id": "gutter-runners",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Two broń ręczna"
+    ],
+    "specialRules_pl": [
+      "Evasive",
+      "Feigned Flight",
+      "Ogień I Odwrót",
+      "Przechodzenie Przez Zasłony",
+      "Zwiadowcy",
+      "Umknij",
+      "Harcownicy"
+    ]
   },
   {
     "id": "hell-pit-abomination",
@@ -267,7 +337,27 @@
         "A": "D6+1",
         "Ld": 8
       }
-    }
+    },
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "equipment_pl": [
+      "Warpstone claws"
+    ],
+    "specialRules_pl": [
+      "Abominable Attacks",
+      "Zwarty Szyk",
+      "Odporność Na Psychologię",
+      "Duży Cel",
+      "Odporność Na Magię (-1)",
+      "Losowe Ataki",
+      "Random Movement",
+      "Regeneracja (5+)",
+      "Zdeptanie (D3+1)",
+      "Groza",
+      "Dreeeewno!",
+      "Too Horrible do Die",
+      "Niezłomni"
+    ]
   },
   {
     "name": "Master Assassin",
@@ -307,7 +397,26 @@
         "Ld": 7
       }
     },
-    "id": "master-assassin"
+    "id": "master-assassin",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Two broń ręczna",
+      "throwing broń"
+    ],
+    "specialRules_pl": [
+      "Zasadzka",
+      "Eshin Infiltration",
+      "Evasive",
+      "Feigned Flight",
+      "Ogień I Odwrót",
+      "Hidden",
+      "Przechodzenie Przez Zasłony",
+      "Trujące Ataki",
+      "Umknij",
+      "Verminous Valour",
+      "Warpstone Broń"
+    ]
   },
   {
     "name": "Master Moulder",
@@ -342,7 +451,21 @@
         "Ld": 7
       }
     },
-    "id": "master-moulder"
+    "id": "master-moulder",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Horda",
+      "Przywódca Stada",
+      "Zbieranina",
+      "Umknij",
+      "Gromada"
+    ]
   },
   {
     "name": "Night Runners",
@@ -385,7 +508,18 @@
         "Ld": 5
       }
     },
-    "id": "night-runners"
+    "id": "night-runners",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Evasive",
+      "Ogień I Odwrót",
+      "Umknij",
+      "Harcownicy"
+    ]
   },
   {
     "name": "Packmaster",
@@ -420,7 +554,21 @@
         "Ld": 6
       }
     },
-    "id": "packmaster"
+    "id": "packmaster",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Horda",
+      "Przywódca Stada",
+      "Zbieranina",
+      "Umknij",
+      "Gromada"
+    ]
   },
   {
     "name": "Plague Censer Bearers",
@@ -454,7 +602,20 @@
         "Ld": 5
       }
     },
-    "id": "plague-censer-bearers"
+    "id": "plague-censer-bearers",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "plague censers"
+    ],
+    "specialRules_pl": [
+      "Szał",
+      "Umknij",
+      "Harcownicy",
+      "Nieugięty",
+      "Gromada"
+    ]
   },
   {
     "name": "Plague Furnace",
@@ -504,7 +665,25 @@
         "Ld": 5
       }
     },
-    "id": "plague-furnace"
+    "id": "plague-furnace",
+    "unitCategory_pl": "Rydwan",
+    "troopType_pl": "Ciężki Rydwan",
+    "equipment_pl": [
+      "Plague Furnace: Billowing Death",
+      "Plague Monk Załoga: Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Dragged Along",
+      "Strach",
+      "Szał",
+      "Wielki Censer",
+      "Uderzenia Impetu (D3+1)",
+      "Duży Cel",
+      "Odporność Na Magię (-1)",
+      "Trujące Ataki",
+      "Scurrying Masses",
+      "Zdeptanie (D3+1)"
+    ]
   },
   {
     "name": "Plague Monks",
@@ -548,7 +727,19 @@
         "Ld": 5
       }
     },
-    "id": "plague-monks"
+    "id": "plague-monks",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Szał",
+      "Horda",
+      "Umknij",
+      "Gromada"
+    ]
   },
   {
     "name": "Plague Priest",
@@ -589,7 +780,22 @@
         "Ld": 6
       }
     },
-    "id": "plague-priest"
+    "id": "plague-priest",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Cloud of Flies",
+      "Szał",
+      "Lore of the Horned Rat",
+      "Magiczne Ataki",
+      "Umknij",
+      "Verminous Valour",
+      "Gromada",
+      "Warpstone Broń"
+    ]
   },
   {
     "name": "Plagueclaw Catapult",
@@ -633,7 +839,19 @@
         "Ld": 6
       }
     },
-    "id": "plagueclaw-catapult"
+    "id": "plagueclaw-catapult",
+    "unitCategory_pl": "Machina Wojenna",
+    "troopType_pl": "Machina Wojenna",
+    "equipment_pl": [
+      "Plagueclaw Catapult",
+      "broń ręczna",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Losowe Ataki",
+      "Harcownicy",
+      "Nieugięty"
+    ]
   },
   {
     "name": "Poisoned Wind Globadiers",
@@ -666,7 +884,19 @@
         "Ld": 5
       }
     },
-    "id": "poisoned-wind-globadiers"
+    "id": "poisoned-wind-globadiers",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Poisoned Wind globes",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Umknij",
+      "Harcownicy",
+      "Gromada"
+    ]
   },
   {
     "name": "Rat Ogres",
@@ -703,7 +933,23 @@
         "Ld": 5
       }
     },
-    "id": "rat-ogres"
+    "id": "rat-ogres",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Monstrualna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "mutated hides (counts jako ciężka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Przebicie Zbroi (2)",
+      "Zwarty Szyk",
+      "Strach",
+      "Szał",
+      "Horda",
+      "Safe z Harm",
+      "Umknij",
+      "Gromada"
+    ]
   },
   {
     "name": "Rat Swarms",
@@ -736,7 +982,19 @@
         "Ld": 4
       }
     },
-    "id": "rat-swarms"
+    "id": "rat-swarms",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Rój",
+    "equipment_pl": [
+      "Claws i fangs (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Odporność Na Psychologię",
+      "Samotnik",
+      "Harcownicy",
+      "Niezłomni",
+      "Awangarda"
+    ]
   },
   {
     "name": "Screaming Bell",
@@ -785,7 +1043,24 @@
         "Ld": 5
       }
     },
-    "id": "screaming-bell"
+    "id": "screaming-bell",
+    "unitCategory_pl": "Rydwan",
+    "troopType_pl": "Ciężki Rydwan",
+    "equipment_pl": [
+      "Rat Ogr Załoga: Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Przebicie Zbroi (2, Rat Ogr only)",
+      "Blessings of the Horned Rat",
+      "Dragged Along",
+      "Uderzenia Impetu (D6+1)",
+      "Duży Cel",
+      "Odporność Na Magię (-3)",
+      "Scurrying Masses",
+      "Nieugięty",
+      "Groza",
+      "Tolling the Bell"
+    ]
   },
   {
     "name": "Skaven Chieftain",
@@ -818,7 +1093,19 @@
         "Ld": 6
       }
     },
-    "id": "skaven-chieftain"
+    "id": "skaven-chieftain",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Umknij",
+      "Verminous Valour",
+      "Gromada",
+      "Warpstone Broń"
+    ]
   },
   {
     "name": "Skaven Warlord",
@@ -851,7 +1138,19 @@
         "Ld": 7
       }
     },
-    "id": "skaven-warlord"
+    "id": "skaven-warlord",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Umknij",
+      "Verminous Valour",
+      "Gromada",
+      "Warpstone Broń"
+    ]
   },
   {
     "name": "Stormvermin",
@@ -897,7 +1196,21 @@
         "Ld": 6
       }
     },
-    "id": "stormvermin"
+    "id": "stormvermin",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "halberds",
+      "ciężka zbroja"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Horda",
+      "Umknij",
+      "Gromada",
+      "Warpstone Broń"
+    ]
   },
   {
     "name": "Warlock Engineer",
@@ -936,7 +1249,21 @@
         "Ld": 5
       }
     },
-    "id": "warlock-engineer"
+    "id": "warlock-engineer",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "D3 Warpstone Tokens"
+    ],
+    "specialRules_pl": [
+      "Lore of the Horned Rat",
+      "Magiczne Ataki",
+      "Umknij",
+      "Verminous Valour",
+      "Gromada",
+      "Warpstone Broń"
+    ]
   },
   {
     "name": "Warp Lightning Cannon",
@@ -978,7 +1305,17 @@
         "Ld": 6
       }
     },
-    "id": "warp-lightning-cannon"
+    "id": "warp-lightning-cannon",
+    "unitCategory_pl": "Machina Wojenna",
+    "troopType_pl": "Machina Wojenna",
+    "equipment_pl": [
+      "Warp Lightning Cannon",
+      "broń ręczna",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Harcownicy"
+    ]
   },
   {
     "name": "Warplock Jezzails",
@@ -1011,7 +1348,19 @@
         "Ld": 5
       }
     },
-    "id": "warplock-jezzails"
+    "id": "warplock-jezzails",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "warplock jezzails",
+      "pavise"
+    ],
+    "specialRules_pl": [
+      "Luźny Szyk",
+      "Umknij",
+      "Gromada"
+    ]
   },
   {
     "name": "Weapon Team",
@@ -1046,6 +1395,20 @@
         "Ld": 4
       }
     },
-    "id": "weapon-team"
+    "id": "weapon-team",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Samotnik",
+      "Luźny Szyk",
+      "Umknij",
+      "Deploying Broń Teams",
+      "Broń Team Leadership",
+      "Targeting Broń Teams"
+    ]
   }
 ]

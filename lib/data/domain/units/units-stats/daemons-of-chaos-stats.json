@@ -27,7 +27,19 @@
       "Regeneration"
     ],
     "magicLores": [],
-    "id": "bloodthirster-of-khorne"
+    "id": "bloodthirster-of-khorne",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Demon",
+    "equipment_pl": [
+      "Goreaxe",
+      "Whip of Torment"
+    ],
+    "specialRules_pl": [
+      "Daemonic",
+      "Strach",
+      "Nienawiść",
+      "Regeneracja"
+    ]
   },
   {
     "name": "Bloodletters of Khorne",
@@ -54,7 +66,16 @@
       "Hatred"
     ],
     "magicLores": [],
-    "id": "bloodletters-of-khorne"
+    "id": "bloodletters-of-khorne",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Demon",
+    "equipment_pl": [
+      "Hellblade"
+    ],
+    "specialRules_pl": [
+      "Daemonic",
+      "Nienawiść"
+    ]
   },
   {
     "name": "Flesh Hounds of Khorne",
@@ -82,7 +103,17 @@
       "Fear"
     ],
     "magicLores": [],
-    "id": "flesh-hounds-of-khorne"
+    "id": "flesh-hounds-of-khorne",
+    "unitCategory_pl": "Bestia",
+    "troopType_pl": "Demon",
+    "equipment_pl": [
+      "Teeth i Claws"
+    ],
+    "specialRules_pl": [
+      "Daemonic",
+      "Nienawiść",
+      "Strach"
+    ]
   },
   {
     "name": "Skull Cannon",
@@ -110,7 +141,17 @@
       "Blast"
     ],
     "magicLores": [],
-    "id": "skull-cannon"
+    "id": "skull-cannon",
+    "unitCategory_pl": "Machina Wojenna",
+    "troopType_pl": "Demon",
+    "equipment_pl": [
+      "Skull Cannon"
+    ],
+    "specialRules_pl": [
+      "Daemonic",
+      "Strach",
+      "Blast"
+    ]
   },
   {
     "name": "Herald of Khorne",
@@ -139,7 +180,18 @@
       "Fear"
     ],
     "magicLores": [],
-    "id": "herald-of-khorne"
+    "id": "herald-of-khorne",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Demon",
+    "equipment_pl": [
+      "Hellblade",
+      "Mark of Khorne"
+    ],
+    "specialRules_pl": [
+      "Daemonic",
+      "Nienawiść",
+      "Strach"
+    ]
   },
   {
     "name": "Bloodthirster of Khorne (on Juggernaut)",
@@ -171,7 +223,21 @@
       "Juggernaut"
     ],
     "magicLores": [],
-    "id": "bloodthirster-of-khorne-on-juggernaut-"
+    "id": "bloodthirster-of-khorne-on-juggernaut-",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Demon",
+    "equipment_pl": [
+      "Goreaxe",
+      "Whip of Torment",
+      "Juggernaut Wierzchowiec"
+    ],
+    "specialRules_pl": [
+      "Daemonic",
+      "Strach",
+      "Nienawiść",
+      "Regeneracja",
+      "Juggernaut"
+    ]
   },
   {
     "name": "Daemon Prince of Chaos (Khorne)",
@@ -201,7 +267,19 @@
       "Fly"
     ],
     "magicLores": [],
-    "id": "daemon-prince-of-chaos-khorne-"
+    "id": "daemon-prince-of-chaos-khorne-",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Demon",
+    "equipment_pl": [
+      "Demon Broń",
+      "Mark of Khorne"
+    ],
+    "specialRules_pl": [
+      "Daemonic",
+      "Strach",
+      "Nienawiść",
+      "Lot"
+    ]
   },
   {
     "name": "Daemon Prince of Chaos (Khorne) (with wings)",
@@ -232,7 +310,20 @@
       "Fly"
     ],
     "magicLores": [],
-    "id": "daemon-prince-of-chaos-khorne-with-wings-"
+    "id": "daemon-prince-of-chaos-khorne-with-wings-",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Demon",
+    "equipment_pl": [
+      "Demon Broń",
+      "Mark of Khorne",
+      "Wings"
+    ],
+    "specialRules_pl": [
+      "Daemonic",
+      "Strach",
+      "Nienawiść",
+      "Lot"
+    ]
   },
   {
     "name": "Herald of Khorne (on Juggernaut)",
@@ -263,6 +354,19 @@
       "Juggernaut"
     ],
     "magicLores": [],
-    "id": "herald-of-khorne-on-juggernaut-"
+    "id": "herald-of-khorne-on-juggernaut-",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Demon",
+    "equipment_pl": [
+      "Hellblade",
+      "Mark of Khorne",
+      "Juggernaut Wierzchowiec"
+    ],
+    "specialRules_pl": [
+      "Daemonic",
+      "Nienawiść",
+      "Strach",
+      "Juggernaut"
+    ]
   }
 ]

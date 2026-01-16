@@ -33,7 +33,24 @@
       "A": 4,
       "Ld": 10
     },
-    "id": "araloth-lord-of-talsyn"
+    "id": "araloth-lord-of-talsyn",
+    "unitCategory_pl": "Nazwana Postać",
+    "troopType_pl": "Regularna Piechota, Nazwana Postać",
+    "equipment_pl": [
+      "Ciężka Zbroja",
+      "Tarcza",
+      "Spear of Talsyn"
+    ],
+    "specialRules_pl": [
+      "Boldest of the Bold",
+      "Evasive",
+      "Favour of the Goddess",
+      "Przechodzenie Przez Zasłony",
+      "Bojowy Okrzyk",
+      "Skaryn the Eye Thief",
+      "Strike First",
+      "Nieugięty"
+    ]
   },
   {
     "name": "Bear of Loren",
@@ -65,7 +82,20 @@
       "A": 2,
       "Ld": 6
     },
-    "id": "bear-of-loren"
+    "id": "bear-of-loren",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Bestia Wojenna",
+    "equipment_pl": [
+      "Claws, fangs, tusks i teeth (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Opancerzona Skóra (1)",
+      "Cleaving Blow",
+      "Strach",
+      "Zbieranina",
+      "Run z the Pack",
+      "Harcownicy"
+    ]
   },
   {
     "name": "Beast Keeper",
@@ -97,7 +127,20 @@
       "A": 1,
       "Ld": 8
     },
-    "id": "beast-keeper"
+    "id": "beast-keeper",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Elfie Refleksy",
+      "Zbieranina",
+      "Przechodzenie Przez Zasłony",
+      "Run z the Pack",
+      "Harcownicy"
+    ]
   },
   {
     "name": "Branchwraith",
@@ -137,7 +180,23 @@
       "A": 2,
       "Ld": 8
     },
-    "id": "branchwraith"
+    "id": "branchwraith",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Sapwood flesh (counts jako lekka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Strach",
+      "Łatwopalny",
+      "Odporność Na Psychologię",
+      "Lore of Athel Loren",
+      "Magiczne Ataki",
+      "Przechodzenie Przez Zasłony",
+      "Regeneracja (6+)",
+      "Tree Spirit"
+    ]
   },
   {
     "name": "Deepwood Hound",
@@ -167,7 +226,18 @@
       "A": 1,
       "Ld": 5
     },
-    "id": "deepwood-hound"
+    "id": "deepwood-hound",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Bestia Wojenna",
+    "equipment_pl": [
+      "Claws, fangs, tusks i teeth (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Zbieranina",
+      "Run z the Pack",
+      "Harcownicy",
+      "Gromada"
+    ]
   },
   {
     "name": "Deepwood Scouts",
@@ -217,7 +287,22 @@
         }
       }
     ],
-    "id": "deepwood-scouts"
+    "id": "deepwood-scouts",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Asrai longbows"
+    ],
+    "specialRules_pl": [
+      "Elfie Refleksy",
+      "Evasive",
+      "Ogień I Odwrót",
+      "Przechodzenie Przez Zasłony",
+      "Luźny Szyk",
+      "Zwiadowcy",
+      "Harcownicy"
+    ]
   },
   {
     "name": "Dryads",
@@ -270,7 +355,25 @@
         }
       }
     ],
-    "id": "dryads"
+    "id": "dryads",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Sapwood flesh (counts jako lekka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Strach",
+      "Łatwopalny",
+      "Odporność Na Psychologię",
+      "Magiczne Ataki",
+      "Przechodzenie Przez Zasłony",
+      "Luźny Szyk",
+      "Regeneracja (6+)",
+      "Harcownicy",
+      "Nieugięty",
+      "Tree Spirit"
+    ]
   },
   {
     "name": "Elven Steed",
@@ -298,7 +401,16 @@
       "A": 1,
       "Ld": 0
     },
-    "id": "elven-steed"
+    "id": "elven-steed",
+    "unitCategory_pl": "Wierzchowiec",
+    "troopType_pl": "Lekka Kawaleria",
+    "equipment_pl": [
+      "Hooves (counts jako a broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Szybka Kawaleria",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Eternal Guard",
@@ -347,7 +459,21 @@
         }
       }
     ],
-    "id": "eternal-guard"
+    "id": "eternal-guard",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Asrai spears",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Elfie Refleksy",
+      "Martial Prowess",
+      "Przechodzenie Przez Zasłony",
+      "Nieugięty"
+    ]
   },
   {
     "name": "Forest Cat",
@@ -377,7 +503,18 @@
       "A": 1,
       "Ld": 5
     },
-    "id": "forest-cat"
+    "id": "forest-cat",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Bestia Wojenna",
+    "equipment_pl": [
+      "Claws, fangs, tusks i teeth (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Przebicie Zbroi (1)",
+      "Zbieranina",
+      "Run z the Pack",
+      "Harcownicy"
+    ]
   },
   {
     "name": "Forest Dragon",
@@ -412,7 +549,23 @@
       "A": 6,
       "Ld": 0
     },
-    "id": "forest-dragon"
+    "id": "forest-dragon",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "equipment_pl": [
+      "Złowrogie Szpony",
+      "Serrated maw",
+      "Soporific breath",
+      "Draconic scales (counts jako pełna zbroja płytowa)"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Lot (10)",
+      "Duży Cel",
+      "Zdeptanie (D6)",
+      "Szybki Krok",
+      "Groza"
+    ]
   },
   {
     "name": "Glade Captain",
@@ -447,7 +600,23 @@
       "A": 3,
       "Ld": 9
     },
-    "id": "glade-captain"
+    "id": "glade-captain",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Asrai longbow",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "The Arrow of Kurnous",
+      "Evasive",
+      "Ogień I Odwrót",
+      "Ignores Cover",
+      "Przechodzenie Przez Zasłony",
+      "Bojowy Okrzyk",
+      "Strike First"
+    ]
   },
   {
     "name": "Glade Guard",
@@ -493,7 +662,18 @@
         }
       }
     ],
-    "id": "glade-guard"
+    "id": "glade-guard",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Asrai longbows"
+    ],
+    "specialRules_pl": [
+      "Elfie Refleksy",
+      "Przechodzenie Przez Zasłony",
+      "Luźny Szyk"
+    ]
   },
   {
     "name": "Glade Lord",
@@ -528,7 +708,23 @@
       "A": 4,
       "Ld": 10
     },
-    "id": "glade-lord"
+    "id": "glade-lord",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Asrai longbow",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "The Arrow of Kurnous",
+      "Evasive",
+      "Ogień I Odwrót",
+      "Ignores Cover",
+      "Przechodzenie Przez Zasłony",
+      "Bojowy Okrzyk",
+      "Strike First"
+    ]
   },
   {
     "name": "Glade Riders",
@@ -595,7 +791,22 @@
         }
       }
     ],
-    "id": "glade-riders"
+    "id": "glade-riders",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Lekka Kawaleria",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Kawaleria spears",
+      "Asrai longbows"
+    ],
+    "specialRules_pl": [
+      "Elfie Refleksy",
+      "Szybka Kawaleria",
+      "Ogień I Odwrót",
+      "Luźny Szyk",
+      "Harcownicy",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Great Eagle",
@@ -627,7 +838,20 @@
       "A": 3,
       "Ld": 6
     },
-    "id": "great-eagle"
+    "id": "great-eagle",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Monstrualne Stworzenie",
+    "equipment_pl": [
+      "Złowrogie Szpony",
+      "Serrated maw"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Strach",
+      "Lot (10)",
+      "Zdeptanie (1)",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Great Eagle (Mount)",
@@ -659,7 +883,20 @@
       "A": 3,
       "Ld": 0
     },
-    "id": "great-eagle-mount-"
+    "id": "great-eagle-mount-",
+    "unitCategory_pl": "Wierzchowiec",
+    "troopType_pl": "Monstrualne Stworzenie",
+    "equipment_pl": [
+      "Złowrogie Szpony",
+      "Serrated maw"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Strach",
+      "Lot (10)",
+      "Zdeptanie (1)",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Great Stag",
@@ -693,7 +930,22 @@
       "A": 2,
       "Ld": 0
     },
-    "id": "great-stag"
+    "id": "great-stag",
+    "unitCategory_pl": "Wierzchowiec",
+    "troopType_pl": "Monstrualna Kawaleria",
+    "equipment_pl": [
+      "Mighty antlers"
+    ],
+    "specialRules_pl": [
+      "Opancerzona Skóra (2)",
+      "Korona Z Rogów",
+      "Strach",
+      "Pierwsza Szarża",
+      "Uderzenia Impetu (1)",
+      "Przechodzenie Przez Zasłony",
+      "Zdeptanie (1)",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Guardians of Talsyn",
@@ -745,7 +997,24 @@
         }
       }
     ],
-    "id": "guardians-of-talsyn"
+    "id": "guardians-of-talsyn",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Asrai spear",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Drilled",
+      "Elfie Refleksy",
+      "Martial Prowess",
+      "Przechodzenie Przez Zasłony",
+      "Parry",
+      "Nieugięty",
+      "Veteran"
+    ]
   },
   {
     "name": "Orion, the King in the Woods",
@@ -784,7 +1053,27 @@
       "A": 5,
       "Ld": 10
     },
-    "id": "orion-the-king-in-the-woods"
+    "id": "orion-the-king-in-the-woods",
+    "unitCategory_pl": "Nazwana Postać",
+    "troopType_pl": "Monstrualna Piechota, Nazwana Postać",
+    "equipment_pl": [
+      "Cloak of Isha",
+      "Hawks Talon",
+      "Horn of the Dziki Hunt",
+      "Spear of Kurnous"
+    ],
+    "specialRules_pl": [
+      "Strach",
+      "Szał",
+      "Odporność Na Psychologię",
+      "Odporność Na Magię (-2)",
+      "Przechodzenie Przez Zasłony",
+      "Luźny Szyk*",
+      "Zdeptanie (D3+2)",
+      "Strike First",
+      "Groza",
+      "Niezłomni"
+    ]
   },
   {
     "name": "Shadowdancer",
@@ -822,7 +1111,22 @@
       "A": 3,
       "Ld": 8
     },
-    "id": "shadowdancer"
+    "id": "shadowdancer",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Evasive",
+      "Wściekła Szarża",
+      "Odporność Na Psychologię",
+      "Samotnik",
+      "Przechodzenie Przez Zasłony",
+      "Strike First",
+      "Talismanic Tattoos",
+      "Troubadour of Loec"
+    ]
   },
   {
     "name": "Sisters of the Thorn",
@@ -891,7 +1195,24 @@
         }
       }
     ],
-    "id": "sisters-of-the-thorn"
+    "id": "sisters-of-the-thorn",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Lekka Kawaleria",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Blackbriar oszczepy"
+    ],
+    "specialRules_pl": [
+      "Daughters of Eternity",
+      "Deepwood Coven",
+      "Elfie Refleksy",
+      "Szybka Kawaleria",
+      "Ogień I Odwrót",
+      "Przechodzenie Przez Zasłony",
+      "Luźny Szyk",
+      "Trujące Ataki",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Spellsinger",
@@ -927,7 +1248,18 @@
       "A": 1,
       "Ld": 8
     },
-    "id": "spellsinger"
+    "id": "spellsinger",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Elfie Refleksy",
+      "Lore of Athel Loren",
+      "Magiczne Ataki",
+      "Przechodzenie Przez Zasłony"
+    ]
   },
   {
     "name": "Spellweaver",
@@ -963,7 +1295,18 @@
       "A": 2,
       "Ld": 8
     },
-    "id": "spellweaver"
+    "id": "spellweaver",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Elfie Refleksy",
+      "Lore of Athel Loren",
+      "Magiczne Ataki",
+      "Przechodzenie Przez Zasłony"
+    ]
   },
   {
     "name": "Sylvan Boar",
@@ -994,7 +1337,19 @@
       "A": 1,
       "Ld": 5
     },
-    "id": "sylvan-boar"
+    "id": "sylvan-boar",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Bestia Wojenna",
+    "equipment_pl": [
+      "Claws, fangs, tusks i teeth (counts jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Wściekła Szarża",
+      "Zbieranina",
+      "Ostre Kły",
+      "Run z the Pack",
+      "Harcownicy"
+    ]
   },
   {
     "name": "Tree Kin",
@@ -1049,7 +1404,27 @@
         }
       }
     ],
-    "id": "tree-kin"
+    "id": "tree-kin",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Monstrualna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Hardwood flesh (counts jako ciężka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Przebicie Zbroi (2)",
+      "Zwarty Szyk",
+      "Strach",
+      "Łatwopalny",
+      "Odporność Na Psychologię",
+      "Magiczne Ataki",
+      "Przechodzenie Przez Zasłony",
+      "Regeneracja (5+)",
+      "Zdeptanie (1)",
+      "Nieugięty",
+      "Tree Spirit",
+      "Tree Whack"
+    ]
   },
   {
     "name": "Treeman",
@@ -1091,7 +1466,30 @@
       "A": 5,
       "Ld": 9
     },
-    "id": "treeman"
+    "id": "treeman",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "equipment_pl": [
+      "Oaken fists",
+      "Strangleroots",
+      "Arboreal zbroja (counts jako pełna zbroja płytowa)"
+    ],
+    "specialRules_pl": [
+      "Przebicie Zbroi (1)",
+      "Zwarty Szyk",
+      "Łatwopalny",
+      "Odporność Na Psychologię",
+      "Duży Cel",
+      "Magiczne Ataki",
+      "Przechodzenie Przez Zasłony",
+      "Regeneracja (5+)",
+      "Zdeptanie (D3)",
+      "Nieugięty",
+      "Groza",
+      "Dreeeewno!",
+      "Tree Spirit",
+      "Tree Whack"
+    ]
   },
   {
     "name": "Treeman Ancient",
@@ -1137,7 +1535,30 @@
       "A": 3,
       "Ld": 10
     },
-    "id": "treeman-ancient"
+    "id": "treeman-ancient",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Behemot, Postać",
+    "equipment_pl": [
+      "Oaken fists",
+      "Strangleroots",
+      "Arboreal zbroja (counts jako pełna zbroja płytowa)"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Łatwopalny",
+      "Odporność Na Psychologię",
+      "Duży Cel",
+      "Lore of Athel Loren",
+      "Magiczne Ataki",
+      "Przechodzenie Przez Zasłony",
+      "Regeneracja (5+)",
+      "Zdeptanie (D3)",
+      "Nieugięty",
+      "Groza",
+      "Dreeeewno!",
+      "Tree Spirit",
+      "Tree Whack"
+    ]
   },
   {
     "name": "Unicorn",
@@ -1170,7 +1591,21 @@
       "A": 2,
       "Ld": 0
     },
-    "id": "unicorn"
+    "id": "unicorn",
+    "unitCategory_pl": "Wierzchowiec",
+    "troopType_pl": "Monstrualna Kawaleria",
+    "equipment_pl": [
+      "Hooves i horn (counts jako a broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Przebicie Zbroi (2, Unicorn only)",
+      "Opancerzona Skóra (1)",
+      "Beguiling Aura",
+      "Przeciwnatarcie",
+      "Magiczne Ataki",
+      "Zdeptanie (1)",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Wardancers",
@@ -1223,7 +1658,25 @@
         }
       }
     ],
-    "id": "wardancers"
+    "id": "wardancers",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Dances of Loec",
+      "Evasive",
+      "Wściekła Szarża",
+      "Odporność Na Psychologię",
+      "Samotnik",
+      "Zbieranina",
+      "Przechodzenie Przez Zasłony",
+      "Luźny Szyk",
+      "Harcownicy",
+      "Strike First",
+      "Talismanic Tattoos"
+    ]
   },
   {
     "name": "Warden of Talsyn",
@@ -1260,7 +1713,25 @@
       "A": 4,
       "Ld": 9
     },
-    "id": "warden-of-talsyn"
+    "id": "warden-of-talsyn",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Asrai spear",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Courage Beyond Compare",
+      "Drilled",
+      "Elfie Refleksy",
+      "Odporność Na Psychologię",
+      "Przechodzenie Przez Zasłony",
+      "Parry",
+      "Strike First",
+      "Nieugięty"
+    ]
   },
   {
     "name": "Warhawk",
@@ -1291,7 +1762,19 @@
       "A": 2,
       "Ld": 0
     },
-    "id": "warhawk"
+    "id": "warhawk",
+    "unitCategory_pl": "Wierzchowiec",
+    "troopType_pl": "Monstrualna Kawaleria",
+    "equipment_pl": [
+      "Złowrogie Szpony"
+    ],
+    "specialRules_pl": [
+      "Evasive",
+      "Strach",
+      "Feigned Flight",
+      "Lot (10)",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Warhawk Riders",
@@ -1360,7 +1843,24 @@
         }
       }
     ],
-    "id": "warhawk-riders"
+    "id": "warhawk-riders",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Monstrualna Kawaleria",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Kawaleria spears",
+      "Asrai longbows"
+    ],
+    "specialRules_pl": [
+      "Elfie Refleksy",
+      "Evasive",
+      "Strach",
+      "Feigned Flight",
+      "Ogień I Odwrót",
+      "Lot (10)",
+      "Harcownicy",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Waystalker",
@@ -1395,7 +1895,23 @@
       "A": 2,
       "Ld": 8
     },
-    "id": "waystalker"
+    "id": "waystalker",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Asrai longbow"
+    ],
+    "specialRules_pl": [
+      "Elfie Refleksy",
+      "Evasive",
+      "Feigned Flight",
+      "Ogień I Odwrót",
+      "Hawk-eyed Łucznik",
+      "Ignores Cover",
+      "Przechodzenie Przez Zasłony",
+      "Zwiadowcy"
+    ]
   },
   {
     "name": "Waywatchers",
@@ -1446,7 +1962,23 @@
         }
       }
     ],
-    "id": "waywatchers"
+    "id": "waywatchers",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Asrai longbows"
+    ],
+    "specialRules_pl": [
+      "Elfie Refleksy",
+      "Evasive",
+      "Feigned Flight",
+      "Ogień I Odwrót",
+      "Ignores Cover",
+      "Przechodzenie Przez Zasłony",
+      "Zwiadowcy",
+      "Harcownicy"
+    ]
   },
   {
     "name": "Wild Riders",
@@ -1517,7 +2049,26 @@
         }
       }
     ],
-    "id": "wild-riders"
+    "id": "wild-riders",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Lekka Kawaleria",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Hunting spears",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Przeciwnatarcie",
+      "Elfie Refleksy",
+      "Szybka Kawaleria",
+      "Strach",
+      "Szał",
+      "Wściekła Szarża (Jeźdźcy only)",
+      "Przechodzenie Przez Zasłony",
+      "Luźny Szyk",
+      "Szybki Krok",
+      "Talismanic Tattoos"
+    ]
   },
   {
     "name": "Wildwood Rangers",
@@ -1566,6 +2117,20 @@
         }
       }
     ],
-    "id": "wildwood-rangers"
+    "id": "wildwood-rangers",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Ranger's glaives",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Elfie Refleksy",
+      "Guardians of the Wildwood",
+      "Odporność Na Psychologię",
+      "Przechodzenie Przez Zasłony"
+    ]
   }
 ]

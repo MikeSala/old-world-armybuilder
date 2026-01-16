@@ -69,7 +69,21 @@
         "specialRules": []
       }
     ],
-    "id": "knights-of-the-realm"
+    "id": "knights-of-the-realm",
+    "unitCategory_pl": "Podstawowy",
+    "troopType_pl": "Kawaleria",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Lanca",
+      "Tarcza",
+      "Ciężka Zbroja",
+      "Barded Bretonnian Rumak Bojowy"
+    ],
+    "specialRules_pl": [
+      "The Lance Formation",
+      "Błogosławieństwo Pani",
+      "Oath of Duty"
+    ]
   },
   {
     "name": "Knights Errant",
@@ -143,7 +157,22 @@
         "specialRules": []
       }
     ],
-    "id": "knights-errant"
+    "id": "knights-errant",
+    "unitCategory_pl": "Podstawowy",
+    "troopType_pl": "Kawaleria",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Kawaleria Lance",
+      "Tarcza",
+      "Ciężka Zbroja",
+      "Barded Bretonnian Rumak Bojowy"
+    ],
+    "specialRules_pl": [
+      "The Lance Formation",
+      "Błogosławieństwo Pani",
+      "Impulsive",
+      "Oath of Knightly Vow"
+    ]
   },
   {
     "name": "Men-at-Arms",
@@ -195,7 +224,18 @@
         ]
       }
     ],
-    "id": "men-at-arms"
+    "id": "men-at-arms",
+    "unitCategory_pl": "Podstawowy",
+    "troopType_pl": "Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Halberd",
+      "Lekka Zbroja",
+      "Tarcza"
+    ],
+    "specialRules_pl": [
+      "Peasant's Duty"
+    ]
   },
   {
     "name": "Peasant Bowmen",
@@ -245,7 +285,17 @@
         ]
       }
     ],
-    "id": "peasant-bowmen"
+    "id": "peasant-bowmen",
+    "unitCategory_pl": "Podstawowy",
+    "troopType_pl": "Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Longbow"
+    ],
+    "specialRules_pl": [
+      "Peasant's Duty",
+      "Defensive Stakes"
+    ]
   },
   {
     "name": "Grail Knights",
@@ -321,7 +371,23 @@
         "specialRules": []
       }
     ],
-    "id": "grail-knights"
+    "id": "grail-knights",
+    "unitCategory_pl": "Specjalny",
+    "troopType_pl": "Kawaleria",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Grail Lance",
+      "Tarcza",
+      "Grail Zbroja",
+      "Barded Bretonnian Rumak Bojowy"
+    ],
+    "specialRules_pl": [
+      "The Lance Formation",
+      "Błogosławieństwo Pani",
+      "Odporność Na Psychologię",
+      "Grail Vow",
+      "Magiczne Ataki"
+    ]
   },
   {
     "name": "Questing Knights",
@@ -391,7 +457,20 @@
         "specialRules": []
       }
     ],
-    "id": "questing-knights"
+    "id": "questing-knights",
+    "unitCategory_pl": "Specjalny",
+    "troopType_pl": "Kawaleria",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Broń Wielka",
+      "Ciężka Zbroja",
+      "Barded Bretonnian Rumak Bojowy"
+    ],
+    "specialRules_pl": [
+      "The Lance Formation",
+      "Błogosławieństwo Pani",
+      "Questing Vow"
+    ]
   },
   {
     "name": "Pegasus Knights",
@@ -465,7 +544,21 @@
         ]
       }
     ],
-    "id": "pegasus-knights"
+    "id": "pegasus-knights",
+    "unitCategory_pl": "Specjalny",
+    "troopType_pl": "Monstrualna Kawaleria",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Lanca",
+      "Tarcza",
+      "Ciężka Zbroja",
+      "Barded Pegasus"
+    ],
+    "specialRules_pl": [
+      "Błogosławieństwo Pani",
+      "Lot",
+      "Awangarda"
+    ]
   },
   {
     "name": "Mounted Yeomen",
@@ -537,7 +630,21 @@
         "specialRules": []
       }
     ],
-    "id": "mounted-yeomen"
+    "id": "mounted-yeomen",
+    "unitCategory_pl": "Specjalny",
+    "troopType_pl": "Kawaleria",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Spear",
+      "Łuk",
+      "Lekka Zbroja",
+      "Rumak Bojowy"
+    ],
+    "specialRules_pl": [
+      "Szybka Kawaleria",
+      "Peasant's Duty",
+      "Awangarda"
+    ]
   },
   {
     "name": "Battle Pilgrims",
@@ -587,7 +694,17 @@
         ]
       }
     ],
-    "id": "battle-pilgrims"
+    "id": "battle-pilgrims",
+    "unitCategory_pl": "Specjalny",
+    "troopType_pl": "Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Tarcza"
+    ],
+    "specialRules_pl": [
+      "Devout",
+      "Nieugięty"
+    ]
   },
   {
     "name": "Field Trebuchet",
@@ -634,7 +751,16 @@
         ]
       }
     ],
-    "id": "field-trebuchet"
+    "id": "field-trebuchet",
+    "unitCategory_pl": "Rzadki",
+    "troopType_pl": "Machina Wojenna",
+    "equipment_pl": [
+      "Kamienny Thrower"
+    ],
+    "specialRules_pl": [
+      "Duży Cel",
+      "Crewed"
+    ]
   },
   {
     "name": "Grail Reliquae",
@@ -685,7 +811,18 @@
         ]
       }
     ],
-    "id": "grail-reliquae"
+    "id": "grail-reliquae",
+    "unitCategory_pl": "Rzadki",
+    "troopType_pl": "Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Relic Shield"
+    ],
+    "specialRules_pl": [
+      "Devout",
+      "Nieugięty",
+      "Relic"
+    ]
   },
   {
     "name": "Damsel",
@@ -717,7 +854,16 @@
       "Lore of Heavens"
     ],
     "profiles": [],
-    "id": "damsel"
+    "id": "damsel",
+    "unitCategory_pl": "Bohater",
+    "troopType_pl": "Piechota (Postać)",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Błogosławieństwo Pani",
+      "Czarodziej (Level 1)"
+    ]
   },
   {
     "name": "Prophetess of the Lady",
@@ -749,7 +895,16 @@
       "Lore of Heavens"
     ],
     "profiles": [],
-    "id": "prophetess-of-the-lady"
+    "id": "prophetess-of-the-lady",
+    "unitCategory_pl": "Władca",
+    "troopType_pl": "Piechota (Postać)",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Błogosławieństwo Pani",
+      "Czarodziej (Level 3)"
+    ]
   },
   {
     "name": "Paladin",
@@ -779,7 +934,18 @@
     ],
     "magicLores": [],
     "profiles": [],
-    "id": "paladin"
+    "id": "paladin",
+    "unitCategory_pl": "Bohater",
+    "troopType_pl": "Piechota (Postać)",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Ciężka Zbroja",
+      "Tarcza"
+    ],
+    "specialRules_pl": [
+      "Błogosławieństwo Pani",
+      "Oath of Duty"
+    ]
   },
   {
     "name": "Duke",
@@ -809,7 +975,18 @@
     ],
     "magicLores": [],
     "profiles": [],
-    "id": "duke"
+    "id": "duke",
+    "unitCategory_pl": "Władca",
+    "troopType_pl": "Piechota (Postać)",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Ciężka Zbroja",
+      "Tarcza"
+    ],
+    "specialRules_pl": [
+      "Błogosławieństwo Pani",
+      "Oath of Duty"
+    ]
   },
   {
     "name": "The Green Knight",
@@ -842,6 +1019,20 @@
     ],
     "magicLores": [],
     "profiles": [],
-    "id": "the-green-knight"
+    "id": "the-green-knight",
+    "unitCategory_pl": "Legendarny Władca",
+    "troopType_pl": "Kawaleria (Ethereal)",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Tarcza",
+      "The Dolorous Blade"
+    ],
+    "specialRules_pl": [
+      "Eteryczny",
+      "Błogosławieństwo Pani",
+      "The Zielony Rycerz",
+      "Groza",
+      "Niezłomni"
+    ]
   }
 ]

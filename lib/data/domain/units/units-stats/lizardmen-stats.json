@@ -63,7 +63,25 @@
       "Stubborn",
       "Terror"
     ],
-    "id": "ancient-stegadon"
+    "id": "ancient-stegadon",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "equipment_pl": [
+      "Wielki horns",
+      "Olbrzym bow"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Zimnokrwisty",
+      "Howdah",
+      "Odporność Na Psychologię",
+      "Uderzenia Impetu (D3+1)",
+      "Duży Cel",
+      "Trujące Ataki (oszczepy only)",
+      "Zdeptanie (D3+2)",
+      "Nieugięty",
+      "Groza"
+    ]
   },
   {
     "name": "Bastiladon",
@@ -127,7 +145,25 @@
       "Stubborn",
       "Terror"
     ],
-    "id": "bastiladon"
+    "id": "bastiladon",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Monstrualne Stworzenie",
+    "equipment_pl": [
+      "Thunderous bludgeon",
+      "Ark of Sotek"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Zimnokrwisty",
+      "Odporność Na Psychologię",
+      "Uderzenia Impetu (D3)",
+      "Impervious Defence",
+      "Duży Cel",
+      "Trujące Ataki (oszczepy only)",
+      "Zdeptanie (D3+1)",
+      "Nieugięty",
+      "Groza"
+    ]
   },
   {
     "name": "Carnosaur",
@@ -164,7 +200,22 @@
       "Swiftstride",
       "Terror"
     ],
-    "id": "carnosaur"
+    "id": "carnosaur",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "equipment_pl": [
+      "Slashing talons",
+      "Scaly skin (counts jako ciężka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Krwawy Frenzy",
+      "Zwarty Szyk",
+      "Zimnokrwisty",
+      "Duży Cel",
+      "Zdeptanie (2)",
+      "Szybki Krok",
+      "Groza"
+    ]
   },
   {
     "name": "Chameleon Skinks",
@@ -212,7 +263,21 @@
       "Scouts",
       "Skirmishers"
     ],
-    "id": "chameleon-skinks"
+    "id": "chameleon-skinks",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Blowpipes",
+      "Calloused hides (lekka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Zimnokrwisty",
+      "Evasive",
+      "Przechodzenie Przez Zasłony",
+      "Zwiadowcy",
+      "Harcownicy"
+    ]
   },
   {
     "name": "Cold One (Lizardmen)",
@@ -246,7 +311,19 @@
       "Stupidity",
       "Swiftstride"
     ],
-    "id": "cold-one-lizardmen-"
+    "id": "cold-one-lizardmen-",
+    "unitCategory_pl": "Wierzchowiec",
+    "troopType_pl": "Ciężka Kawaleria",
+    "equipment_pl": [
+      "Claws i teeth (counts jako a broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Przebicie Zbroi (1, Cold One only)",
+      "Opancerzona Skóra (1)",
+      "Strach",
+      "Stupidity",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Cold One Riders",
@@ -309,7 +386,24 @@
       "Stupidity",
       "Swiftstride"
     ],
-    "id": "cold-one-riders"
+    "id": "cold-one-riders",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Ciężka Kawaleria",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Scaly skin (ciężka zbroja)",
+      "Tarcze"
+    ],
+    "specialRules_pl": [
+      "Przebicie Zbroi (1, Cold One only)",
+      "Opancerzona Skóra (1)",
+      "Zwarty Szyk",
+      "Zimnokrwisty",
+      "Strach",
+      "Obsidian Blades",
+      "Stupidity",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Jungle Swarms",
@@ -346,7 +440,22 @@
       "Unbreakable",
       "Vanguard"
     ],
-    "id": "jungle-swarms"
+    "id": "jungle-swarms",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Rój",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Zimnokrwisty",
+      "Odporność Na Psychologię",
+      "Samotnik",
+      "Przechodzenie Przez Zasłony",
+      "Trujące Ataki",
+      "Harcownicy",
+      "Niezłomni",
+      "Awangarda"
+    ]
   },
   {
     "name": "Kroxigor",
@@ -393,7 +502,20 @@
       "Fear",
       "Skirmish Screen"
     ],
-    "id": "kroxigor"
+    "id": "kroxigor",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Monstrualna Piechota",
+    "equipment_pl": [
+      "Broń Wielka",
+      "Scaly skin (ciężka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Aquatic",
+      "Zwarty Szyk",
+      "Zimnokrwisty",
+      "Strach",
+      "Skirmish Screen"
+    ]
   },
   {
     "name": "Razordon Pack",
@@ -440,7 +562,20 @@
       "Fear",
       "Skirmishers"
     ],
-    "id": "razordon-pack"
+    "id": "razordon-pack",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota, Bestia Wojenna",
+    "equipment_pl": [
+      "Skink Handlers: Broń Ręczna, Calloused hides (lekka zbroja)",
+      "Razordons: Wicked claws, Razor barbs, Scaly skin (ciężka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Aquatic",
+      "Bestia Handlers",
+      "Zimnokrwisty",
+      "Strach",
+      "Harcownicy"
+    ]
   },
   {
     "name": "Ripperdactyl",
@@ -477,7 +612,22 @@
       "Swiftstride",
       "Toad Rage"
     ],
-    "id": "ripperdactyl"
+    "id": "ripperdactyl",
+    "unitCategory_pl": "Wierzchowiec",
+    "troopType_pl": "Monstrualna Kawaleria",
+    "equipment_pl": [
+      "Claws i teeth (counts jako a broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Opancerzona Skóra (1)",
+      "Cleaving Blow (Ripperdactyl only)",
+      "Strach",
+      "Lot (9)",
+      "Wściekła Szarża (Ripperdactyl only)",
+      "Impet",
+      "Szybki Krok",
+      "Toad Rage"
+    ]
   },
   {
     "name": "Ripperdactyl Riders",
@@ -542,7 +692,26 @@
       "Swiftstride",
       "Toad Rage"
     ],
-    "id": "ripperdactyl-riders"
+    "id": "ripperdactyl-riders",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Monstrualna Kawaleria",
+    "equipment_pl": [
+      "Kawaleria spears",
+      "Calloused hides (lekka zbroja)",
+      "Tarcze"
+    ],
+    "specialRules_pl": [
+      "Opancerzona Skóra (1)",
+      "Cleaving Blow (Ripperdactyl only)",
+      "Zimnokrwisty",
+      "Strach",
+      "Lot (9)",
+      "Wściekła Szarża (Ripperdactyl only)",
+      "Impet",
+      "Harcownicy",
+      "Szybki Krok",
+      "Toad Rage"
+    ]
   },
   {
     "name": "Salamander Pack",
@@ -589,7 +758,20 @@
       "Fear",
       "Skirmishers"
     ],
-    "id": "salamander-pack"
+    "id": "salamander-pack",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota, Bestia Wojenna",
+    "equipment_pl": [
+      "Skink Handlers: Broń Ręczna, Calloused hides (lekka zbroja)",
+      "Salamanders: Wicked claws, Fiery breath, Scaly skin (ciężka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Aquatic",
+      "Bestia Handlers",
+      "Zimnokrwisty",
+      "Strach",
+      "Harcownicy"
+    ]
   },
   {
     "name": "Saurus Oldblood",
@@ -623,7 +805,19 @@
       "Obsidian Blades",
       "Rallying Cry"
     ],
-    "id": "saurus-oldblood"
+    "id": "saurus-oldblood",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Ciężka Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Scaly skin (ciężka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Zimnokrwisty",
+      "Wściekła Szarża",
+      "Obsidian Blades",
+      "Bojowy Okrzyk"
+    ]
   },
   {
     "name": "Saurus Scar-Veteran",
@@ -657,7 +851,19 @@
       "Obsidian Blades",
       "Rallying Cry"
     ],
-    "id": "saurus-scar-veteran"
+    "id": "saurus-scar-veteran",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Ciężka Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Scaly skin (ciężka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Zimnokrwisty",
+      "Wściekła Szarża",
+      "Obsidian Blades",
+      "Bojowy Okrzyk"
+    ]
   },
   {
     "name": "Saurus Warriors",
@@ -703,7 +909,19 @@
       "Cold Blooded",
       "Obsidian Blades"
     ],
-    "id": "saurus-warriors"
+    "id": "saurus-warriors",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Ciężka Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Scaly skin (ciężka zbroja)",
+      "Tarcze"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Zimnokrwisty",
+      "Obsidian Blades"
+    ]
   },
   {
     "name": "Skink Chief",
@@ -736,7 +954,18 @@
       "Cold Blooded",
       "Poisoned Attacks"
     ],
-    "id": "skink-chief"
+    "id": "skink-chief",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Calloused hide (lekka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Aquatic",
+      "Zimnokrwisty",
+      "Trujące Ataki"
+    ]
   },
   {
     "name": "Skink Priest",
@@ -775,7 +1004,19 @@
       "Elementalism",
       "Illusion"
     ],
-    "id": "skink-priest"
+    "id": "skink-priest",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Calloused hide (lekka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Arcane Vassal",
+      "Aquatic",
+      "Zimnokrwisty",
+      "Lore of Lustria"
+    ]
   },
   {
     "name": "Skink Skirmishers",
@@ -821,7 +1062,19 @@
       "Poisoned Attacks (javelins only)",
       "Skirmishers"
     ],
-    "id": "skink-skirmishers"
+    "id": "skink-skirmishers",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Calloused hides (lekka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Zimnokrwisty",
+      "Przechodzenie Przez Zasłony",
+      "Trujące Ataki (oszczepy only)",
+      "Harcownicy"
+    ]
   },
   {
     "name": "Slann Mage-Priest",
@@ -863,7 +1116,20 @@
       "Illusion",
       "Necromancy"
     ],
-    "id": "slann-mage-priest"
+    "id": "slann-mage-priest",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Monstrualne Stworzenie, Postać",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Arcane Shield",
+      "Zwarty Szyk",
+      "Zimnokrwisty",
+      "Lot (8)",
+      "Duży Cel",
+      "Lore of Lustria"
+    ]
   },
   {
     "name": "Stegadon",
@@ -927,7 +1193,25 @@
       "Stubborn",
       "Terror"
     ],
-    "id": "stegadon"
+    "id": "stegadon",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "equipment_pl": [
+      "Wielki horns",
+      "Olbrzym bow"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Zimnokrwisty",
+      "Howdah",
+      "Odporność Na Psychologię",
+      "Uderzenia Impetu (D3+1)",
+      "Duży Cel",
+      "Trujące Ataki (oszczepy only)",
+      "Zdeptanie (D3+2)",
+      "Nieugięty",
+      "Groza"
+    ]
   },
   {
     "name": "Temple Guard",
@@ -977,7 +1261,23 @@
       "Shieldwall",
       "Stubborn"
     ],
-    "id": "temple-guard"
+    "id": "temple-guard",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Ciężka Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Halberds",
+      "Scaly skin (ciężka zbroja)",
+      "Tarcze"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Zimnokrwisty",
+      "Guardians",
+      "Obsidian Blades",
+      "Shieldwall",
+      "Nieugięty"
+    ]
   },
   {
     "name": "Terradon",
@@ -1011,7 +1311,19 @@
       "Fly (10)",
       "Swiftstride"
     ],
-    "id": "terradon"
+    "id": "terradon",
+    "unitCategory_pl": "Wierzchowiec",
+    "troopType_pl": "Monstrualna Kawaleria",
+    "equipment_pl": [
+      "Claws i teeth (counts jako a broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Opancerzona Skóra (1)",
+      "Drop Rocks",
+      "Strach",
+      "Lot (10)",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Terradon Riders",
@@ -1074,7 +1386,24 @@
       "Skirmishers",
       "Swiftstride"
     ],
-    "id": "terradon-riders"
+    "id": "terradon-riders",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Monstrualna Kawaleria",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Calloused hide (lekka zbroja)",
+      "Oszczepy"
+    ],
+    "specialRules_pl": [
+      "Opancerzona Skóra (1)",
+      "Zimnokrwisty",
+      "Drop Rocks",
+      "Strach",
+      "Lot (10)",
+      "Trujące Ataki (oszczepy only)",
+      "Harcownicy",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Troglodon",
@@ -1142,6 +1471,26 @@
       "Battle Magic",
       "Illusion"
     ],
-    "id": "troglodon"
+    "id": "troglodon",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Monstrualne Stworzenie",
+    "equipment_pl": [
+      "Venomous talons",
+      "Venom spray",
+      "Scaly skin (ciężka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Arcane Vassal",
+      "Aquatic",
+      "Zwarty Szyk",
+      "Zimnokrwisty",
+      "Odporność Na Psychologię",
+      "Duży Cel",
+      "Lore of Lustria",
+      "Primeval Roar",
+      "Zdeptanie (2)",
+      "Nieugięty",
+      "Groza"
+    ]
   }
 ]

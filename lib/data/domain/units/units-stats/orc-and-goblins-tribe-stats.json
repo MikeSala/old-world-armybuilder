@@ -63,6 +63,27 @@
             "Shortbows"
           ]
         }
+      ],
+      "unitCategory_pl": "Potwór",
+      "troopType_pl": "Behemot",
+      "equipment_pl": [
+        "Poisonous fangs (counts jako a broń ręczna)",
+        "Venom surge",
+        "Broń Ręczna (załoga)",
+        "Kawaleria spears (załoga)",
+        "Shortbows (załoga)"
+      ],
+      "specialRules_pl": [
+        "Zwarty Szyk",
+        "Howdah",
+        "Odporność Na Psychologię",
+        "Duży Cel",
+        "Przechodzenie Przez Zasłony",
+        "Trujące Ataki",
+        "Zdeptanie (D6)",
+        "Nieugięty",
+        "Szybki Krok",
+        "Groza"
       ]
     },
     {
@@ -111,6 +132,21 @@
         "Mercenaries",
         "Motley Crew",
         "Ogre Charge"
+      ],
+      "unitCategory_pl": "Piechota",
+      "troopType_pl": "Monstrualna Piechota",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Lekka Zbroja"
+      ],
+      "specialRules_pl": [
+        "Przebicie Zbroi (1)",
+        "Zwarty Szyk",
+        "Strach",
+        "Uderzenia Impetu (1)",
+        "Mercenaries",
+        "Zbieranina",
+        "Ogr Charge"
       ]
     },
     {
@@ -146,6 +182,21 @@
         "Ignore Panic",
         "Quell Impetuosity",
         "Rallying Cry",
+        "Waaagh!"
+      ],
+      "unitCategory_pl": "Postać",
+      "troopType_pl": "Ciężka Piechota, Postać",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Pełna Zbroja Płytowa"
+      ],
+      "specialRules_pl": [
+        "Choppas",
+        "Da Boyz",
+        "Wściekła Szarża",
+        "Ignore Panic",
+        "Quell Impetuosity",
+        "Bojowy Okrzyk",
         "Waaagh!"
       ]
     },
@@ -215,6 +266,21 @@
             "Ld": null
           }
         }
+      ],
+      "unitCategory_pl": "Rydwan",
+      "troopType_pl": "Ciężki Rydwan",
+      "equipment_pl": [
+        "Broń Ręczna (załoga)",
+        "Tusks (War Boars)"
+      ],
+      "specialRules_pl": [
+        "Choppas",
+        "Zwarty Szyk",
+        "Pierwsza Szarża",
+        "Wściekła Szarża (Czarny Ork Załoga only)",
+        "Ignore Panic",
+        "Uderzenia Impetu (D6+1)",
+        "Tusker Charge"
       ]
     },
     {
@@ -263,6 +329,21 @@
         "Ignore Panic",
         "Motley Crew",
         "Quell Impetuosity"
+      ],
+      "unitCategory_pl": "Piechota",
+      "troopType_pl": "Ciężka Piechota",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Pełna Zbroja Płytowa"
+      ],
+      "specialRules_pl": [
+        "Choppas",
+        "Zwarty Szyk",
+        "Da Boyz",
+        "Wściekła Szarża",
+        "Ignore Panic",
+        "Zbieranina",
+        "Quell Impetuosity"
       ]
     },
     {
@@ -298,6 +379,21 @@
         "Ignore Panic",
         "Quell Impetuosity",
         "Rallying Cry",
+        "Waaagh!"
+      ],
+      "unitCategory_pl": "Postać",
+      "troopType_pl": "Ciężka Piechota, Postać",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Pełna Zbroja Płytowa"
+      ],
+      "specialRules_pl": [
+        "Choppas",
+        "Da Boyz",
+        "Wściekła Szarża",
+        "Ignore Panic",
+        "Quell Impetuosity",
+        "Bojowy Okrzyk",
         "Waaagh!"
       ]
     },
@@ -337,6 +433,23 @@
         "Terror",
         "Timmm-berrr!",
         "Unbreakable"
+      ],
+      "unitCategory_pl": "Potwór",
+      "troopType_pl": "Behemot",
+      "equipment_pl": [
+        "Bonegrinder Giant's club",
+        "Calloused hide (counts jako lekka zbroja)"
+      ],
+      "specialRules_pl": [
+        "Bonegrinder Olbrzym Attacks",
+        "Zwarty Szyk",
+        "Odporność Na Psychologię",
+        "Duży Cel",
+        "Mercenaries",
+        "Zdeptanie (D6+1)",
+        "Groza",
+        "Dreeeewno!",
+        "Niezłomni"
       ]
     },
     {
@@ -373,6 +486,22 @@
         "Flammable",
         "Motley Crew",
         "Regeneration (5+)",
+        "Stupidity"
+      ],
+      "unitCategory_pl": "Piechota",
+      "troopType_pl": "Monstrualna Piechota",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Troll vomit",
+        "Calloused hides (counts jako lekka zbroja)"
+      ],
+      "specialRules_pl": [
+        "Przebicie Zbroi (1)",
+        "Zwarty Szyk",
+        "Strach",
+        "Łatwopalny",
+        "Zbieranina",
+        "Regeneracja (5+)",
         "Stupidity"
       ]
     },
@@ -423,6 +552,17 @@
             "Ld": 4
           }
         }
+      ],
+      "unitCategory_pl": "Machina Wojenna",
+      "troopType_pl": "Machina Wojenna",
+      "equipment_pl": [
+        "Doom Diver catapult (kamienny thrower)",
+        "Broń Ręczna (załoga)"
+      ],
+      "specialRules_pl": [
+        "Doom Diver",
+        "Strach of Elfy",
+        "Harcownicy"
       ]
     },
     {
@@ -452,6 +592,15 @@
       ],
       "specialRules": [
         "Immune to Psychology",
+        "Release the Fanatics!"
+      ],
+      "unitCategory_pl": "Piechota",
+      "troopType_pl": "Regularna Piechota",
+      "equipment_pl": [
+        "Fanatic ball & chain"
+      ],
+      "specialRules_pl": [
+        "Odporność Na Psychologię",
         "Release the Fanatics!"
       ]
     },
@@ -491,6 +640,23 @@
         "Terror",
         "Timmm-berrr!",
         "Unbreakable"
+      ],
+      "unitCategory_pl": "Potwór",
+      "troopType_pl": "Behemot",
+      "equipment_pl": [
+        "Maczuga Olbrzyma",
+        "Calloused hide (counts jako lekka zbroja)"
+      ],
+      "specialRules_pl": [
+        "Zwarty Szyk",
+        "Olbrzym Attacks",
+        "Odporność Na Psychologię",
+        "Duży Cel",
+        "Pick Up I…",
+        "Zdeptanie (D6)",
+        "Groza",
+        "Dreeeewno!",
+        "Niezłomni"
       ]
     },
     {
@@ -524,6 +690,18 @@
         "Impact Hits (D3)",
         "Loner",
         "Random Movement"
+      ],
+      "unitCategory_pl": "Wierzchowiec",
+      "troopType_pl": "Monstrualna Kawaleria",
+      "equipment_pl": [
+        "Massive Gob"
+      ],
+      "specialRules_pl": [
+        "Opancerzona Skóra (1)",
+        "Nienawiść (Krasnoludy)",
+        "Uderzenia Impetu (D3)",
+        "Samotnik",
+        "Random Movement"
       ]
     },
     {
@@ -556,6 +734,17 @@
         "Fast Cavalry",
         "Fire & Flee",
         "Swiftstride"
+      ],
+      "unitCategory_pl": "Wierzchowiec",
+      "troopType_pl": "Lekka Kawaleria",
+      "equipment_pl": [
+        "Claws i fangs (counts jako a broń ręczna)"
+      ],
+      "specialRules_pl": [
+        "Rydwan Runners",
+        "Szybka Kawaleria",
+        "Ogień I Odwrót",
+        "Szybki Krok"
       ]
     },
     {
@@ -589,6 +778,18 @@
         "Move Through Cover",
         "Poisoned Attacks",
         "Swiftstride"
+      ],
+      "unitCategory_pl": "Wierzchowiec",
+      "troopType_pl": "Lekka Kawaleria",
+      "equipment_pl": [
+        "Claws i fangs (counts jako a broń ręczna)"
+      ],
+      "specialRules_pl": [
+        "Opancerzona Skóra (1)",
+        "Szybka Kawaleria",
+        "Przechodzenie Przez Zasłony",
+        "Trujące Ataki",
+        "Szybki Krok"
       ]
     },
     {
@@ -621,6 +822,17 @@
         "Impetuous",
         "Rallying Cry",
         "Warband"
+      ],
+      "unitCategory_pl": "Postać",
+      "troopType_pl": "Regularna Piechota, Postać",
+      "equipment_pl": [
+        "Broń Ręczna"
+      ],
+      "specialRules_pl": [
+        "Strach of Elfy",
+        "Impet",
+        "Bojowy Okrzyk",
+        "Gromada"
       ]
     },
     {
@@ -669,6 +881,16 @@
             "Ld": 4
           }
         }
+      ],
+      "unitCategory_pl": "Machina Wojenna",
+      "troopType_pl": "Machina Wojenna",
+      "equipment_pl": [
+        "Bolt thrower",
+        "Broń Ręczna (załoga)"
+      ],
+      "specialRules_pl": [
+        "Strach of Elfy",
+        "Harcownicy"
       ]
     },
     {
@@ -715,6 +937,19 @@
         "Horde",
         "Impetuous",
         "Warband"
+      ],
+      "unitCategory_pl": "Piechota",
+      "troopType_pl": "Regularna Piechota",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Tarcze"
+      ],
+      "specialRules_pl": [
+        "Zwarty Szyk",
+        "Strach of Elfy",
+        "Horda",
+        "Impet",
+        "Gromada"
       ]
     },
     {
@@ -750,6 +985,16 @@
       "magicLores": [
         "Elementalism",
         "Waaagh! Magic"
+      ],
+      "unitCategory_pl": "Postać",
+      "troopType_pl": "Regularna Piechota, Postać",
+      "equipment_pl": [
+        "Broń Ręczna"
+      ],
+      "specialRules_pl": [
+        "Strach of Elfy",
+        "Lore of Mork",
+        "Gromada"
       ]
     },
     {
@@ -785,6 +1030,16 @@
       "magicLores": [
         "Elementalism",
         "Waaagh! Magic"
+      ],
+      "unitCategory_pl": "Postać",
+      "troopType_pl": "Regularna Piechota, Postać",
+      "equipment_pl": [
+        "Broń Ręczna"
+      ],
+      "specialRules_pl": [
+        "Strach of Elfy",
+        "Lore of Mork",
+        "Gromada"
       ]
     },
     {
@@ -833,6 +1088,16 @@
             "Ld": 4
           }
         }
+      ],
+      "unitCategory_pl": "Machina Wojenna",
+      "troopType_pl": "Machina Wojenna",
+      "equipment_pl": [
+        "Kamienny thrower",
+        "Broń Ręczna (załoga)"
+      ],
+      "specialRules_pl": [
+        "Strach of Elfy",
+        "Harcownicy"
       ]
     },
     {
@@ -895,6 +1160,23 @@
         "Poisoned Attacks",
         "Swiftstride",
         "Warband"
+      ],
+      "unitCategory_pl": "Kawaleria",
+      "troopType_pl": "Lekka Kawaleria",
+      "equipment_pl": [
+        "Broń Ręczna (jeźdźcy)",
+        "Shields (jeźdźcy)",
+        "Poisonous fangs (wierzchowiec)"
+      ],
+      "specialRules_pl": [
+        "Szybka Kawaleria",
+        "Strach of Elfy",
+        "Impet",
+        "Przechodzenie Przez Zasłony",
+        "Luźny Szyk",
+        "Trujące Ataki",
+        "Szybki Krok",
+        "Gromada"
       ]
     },
     {
@@ -927,6 +1209,17 @@
         "Impetuous",
         "Rallying Cry",
         "Warband"
+      ],
+      "unitCategory_pl": "Postać",
+      "troopType_pl": "Regularna Piechota, Postać",
+      "equipment_pl": [
+        "Broń Ręczna"
+      ],
+      "specialRules_pl": [
+        "Strach of Elfy",
+        "Impet",
+        "Bojowy Okrzyk",
+        "Gromada"
       ]
     },
     {
@@ -996,6 +1289,22 @@
             "Ld": null
           }
         }
+      ],
+      "unitCategory_pl": "Rydwan",
+      "troopType_pl": "Lekki Rydwan",
+      "equipment_pl": [
+        "Broń Ręczna (załoga)",
+        "Kawaleria spears (załoga)",
+        "Shortbows (załoga)",
+        "Claws & fangs (wilki)"
+      ],
+      "specialRules_pl": [
+        "Strach of Elfy",
+        "Uderzenia Impetu (D3+1)",
+        "Impet",
+        "Luźny Szyk",
+        "Szybki Krok",
+        "Gromada"
       ]
     },
     {
@@ -1058,6 +1367,23 @@
         "Skirmishers",
         "Swiftstride",
         "Warband"
+      ],
+      "unitCategory_pl": "Kawaleria",
+      "troopType_pl": "Lekka Kawaleria",
+      "equipment_pl": [
+        "Broń Ręczna (jeźdźcy)",
+        "Shields (jeźdźcy)"
+      ],
+      "specialRules_pl": [
+        "Rydwan Runners",
+        "Szybka Kawaleria",
+        "Strach of Elfy",
+        "Ogień I Odwrót",
+        "Impet",
+        "Luźny Szyk",
+        "Harcownicy",
+        "Szybki Krok",
+        "Gromada"
       ]
     },
     {
@@ -1119,6 +1445,29 @@
             "Ld": null
           }
         }
+      ],
+      "unitCategory_pl": "Nazwana Postać",
+      "troopType_pl": "Lekka Kawaleria, Nazwana Postać",
+      "equipment_pl": [
+        "Da Boss's Trophy Rack",
+        "Da Skull Smasha",
+        "Włócznia Kawaleryjska",
+        "Tarcza",
+        "Lekka Zbroja"
+      ],
+      "specialRules_pl": [
+        "All Sneaky Like",
+        "Zasadzka",
+        "Przebicie Zbroi (1, Chompa only)",
+        "Opancerzona Skóra (1)",
+        "Rydwan Runners",
+        "Szybka Kawaleria",
+        "Strach of Elfy",
+        "Impet",
+        "'It & Run",
+        "Bojowy Okrzyk",
+        "Szybki Krok",
+        "Gromada"
       ]
     },
     {
@@ -1159,6 +1508,25 @@
         "Spiked Ball & Chains",
         "Stomp Attacks (D3)",
         "Timmm-berrr!"
+      ],
+      "unitCategory_pl": "Potwór",
+      "troopType_pl": "Behemot",
+      "equipment_pl": [
+        "Colossal fang-filled gob",
+        "Scaly skin (counts jako ciężka zbroja)"
+      ],
+      "specialRules_pl": [
+        "Zwarty Szyk",
+        "Nienawiść (Krasnoludy)",
+        "Odporność Na Psychologię",
+        "Uderzenia Impetu (D6)",
+        "Ker-splat",
+        "Duży Cel",
+        "Losowe Ataki",
+        "Random Movement",
+        "Spiked Ball & Chains",
+        "Zdeptanie (D3)",
+        "Dreeeewno!"
       ]
     },
     {
@@ -1193,6 +1561,19 @@
         "Horde",
         "Skulking Menace",
         "Strike First"
+      ],
+      "unitCategory_pl": "Piechota",
+      "troopType_pl": "Regularna Piechota",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Lekka Zbroja"
+      ],
+      "specialRules_pl": [
+        "Przebicie Zbroi (2)",
+        "Strach of Elfy",
+        "Horda",
+        "Skulking Menace",
+        "Strike First"
       ]
     },
     {
@@ -1225,6 +1606,17 @@
         "Hatred (Dwarfs)",
         "Rallying Cry",
         "Warband"
+      ],
+      "unitCategory_pl": "Postać",
+      "troopType_pl": "Regularna Piechota, Postać",
+      "equipment_pl": [
+        "Broń Ręczna"
+      ],
+      "specialRules_pl": [
+        "Strach of Elfy",
+        "Nienawiść (Krasnoludy)",
+        "Bojowy Okrzyk",
+        "Gromada"
       ]
     },
     {
@@ -1271,6 +1663,19 @@
         "Hatred (Dwarfs)",
         "Horde",
         "Warband"
+      ],
+      "unitCategory_pl": "Piechota",
+      "troopType_pl": "Regularna Piechota",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Tarcze"
+      ],
+      "specialRules_pl": [
+        "Zwarty Szyk",
+        "Strach of Elfy",
+        "Nienawiść (Krasnoludy)",
+        "Horda",
+        "Gromada"
       ]
     },
     {
@@ -1307,6 +1712,17 @@
       "magicLores": [
         "Illusion",
         "Waaagh! Magic"
+      ],
+      "unitCategory_pl": "Postać",
+      "troopType_pl": "Regularna Piechota, Postać",
+      "equipment_pl": [
+        "Broń Ręczna"
+      ],
+      "specialRules_pl": [
+        "Strach of Elfy",
+        "Nienawiść (Krasnoludy)",
+        "Lore of Mork",
+        "Gromada"
       ]
     },
     {
@@ -1343,6 +1759,17 @@
       "magicLores": [
         "Illusion",
         "Waaagh! Magic"
+      ],
+      "unitCategory_pl": "Postać",
+      "troopType_pl": "Regularna Piechota, Postać",
+      "equipment_pl": [
+        "Broń Ręczna"
+      ],
+      "specialRules_pl": [
+        "Strach of Elfy",
+        "Nienawiść (Krasnoludy)",
+        "Lore of Mork",
+        "Gromada"
       ]
     },
     {
@@ -1393,6 +1820,23 @@
         "Skirmishers",
         "Squigs Go Wild",
         "Warband"
+      ],
+      "unitCategory_pl": "Piechota",
+      "troopType_pl": "Regularna Piechota",
+      "equipment_pl": [
+        "Assorted squig-herding implements (counts jako broń ręczna)",
+        "Huge gobs (Squigs)"
+      ],
+      "specialRules_pl": [
+        "Nienawiść (Krasnoludy)",
+        "Odporność Na Psychologię",
+        "Impet",
+        "Samotnik",
+        "Zbieranina",
+        "Luźny Szyk",
+        "Harcownicy",
+        "Squigs Go Dziki",
+        "Gromada"
       ]
     },
     {
@@ -1454,6 +1898,22 @@
         "Random Movement",
         "Skirmishers",
         "Warband"
+      ],
+      "unitCategory_pl": "Kawaleria",
+      "troopType_pl": "Lekka Kawaleria",
+      "equipment_pl": [
+        "Broń Ręczna (hoppers)",
+        "Huge gobs (squigs)"
+      ],
+      "specialRules_pl": [
+        "Nienawiść (Krasnoludy)",
+        "Odporność Na Psychologię",
+        "Uderzenia Impetu (1)",
+        "Samotnik",
+        "Luźny Szyk",
+        "Random Movement",
+        "Harcownicy",
+        "Gromada"
       ]
     },
     {
@@ -1486,6 +1946,17 @@
         "Hatred (Dwarfs)",
         "Rallying Cry",
         "Warband"
+      ],
+      "unitCategory_pl": "Postać",
+      "troopType_pl": "Regularna Piechota, Postać",
+      "equipment_pl": [
+        "Broń Ręczna"
+      ],
+      "specialRules_pl": [
+        "Strach of Elfy",
+        "Nienawiść (Krasnoludy)",
+        "Bojowy Okrzyk",
+        "Gromada"
       ]
     },
     {
@@ -1526,6 +1997,21 @@
       "magicLores": [
         "Elementalism",
         "Lore of Troll Magic"
+      ],
+      "unitCategory_pl": "Nazwana Postać",
+      "troopType_pl": "Regularna Piechota, Nazwana Postać",
+      "equipment_pl": [
+        "Bog-wood Staff",
+        "Trollhide Shawl",
+        "Lore Familiar"
+      ],
+      "specialRules_pl": [
+        "Choppas",
+        "Da Troll Calla",
+        "Ignore Goblin Panic",
+        "Protect Da Boss",
+        "Syphoned Strength",
+        "Gromada"
       ]
     },
     {
@@ -1562,6 +2048,21 @@
         "Rallying Cry",
         "Waaagh!",
         "Warband"
+      ],
+      "unitCategory_pl": "Postać",
+      "troopType_pl": "Regularna Piechota, Postać",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Lekka Zbroja"
+      ],
+      "specialRules_pl": [
+        "Choppas",
+        "Wściekła Szarża",
+        "Ignore Goblin Panic",
+        "Impet",
+        "Bojowy Okrzyk",
+        "Waaagh!",
+        "Gromada"
       ]
     },
     {
@@ -1626,6 +2127,25 @@
         "Swiftstride",
         "Tusker Charge",
         "Warband"
+      ],
+      "unitCategory_pl": "Kawaleria",
+      "troopType_pl": "Ciężka Kawaleria",
+      "equipment_pl": [
+        "Broń Ręczna (jeźdźcy)",
+        "Lekka Zbroja (jeźdźcy)",
+        "Tusks (boars)"
+      ],
+      "specialRules_pl": [
+        "Opancerzona Skóra (1)",
+        "Choppas",
+        "Zwarty Szyk",
+        "Przeciwnatarcie",
+        "Wściekła Szarża (Jeźdźcy only)",
+        "Ignore Goblin Panic",
+        "Impet",
+        "Szybki Krok",
+        "Tusker Charge",
+        "Gromada"
       ]
     },
     {
@@ -1696,6 +2216,23 @@
             "Ld": null
           }
         }
+      ],
+      "unitCategory_pl": "Rydwan",
+      "troopType_pl": "Ciężki Rydwan",
+      "equipment_pl": [
+        "Broń Ręczna (załoga)",
+        "Kawaleria spears (załoga)",
+        "Tusks (boars)"
+      ],
+      "specialRules_pl": [
+        "Choppas",
+        "Zwarty Szyk",
+        "Pierwsza Szarża",
+        "Ignore Goblin Panic",
+        "Uderzenia Impetu (D6+1)",
+        "Impet",
+        "Tusker Charge",
+        "Gromada"
       ]
     },
     {
@@ -1725,6 +2262,16 @@
         "Whip"
       ],
       "specialRules": [
+        "Bully",
+        "Choppas"
+      ],
+      "unitCategory_pl": "Machina Wojenna",
+      "troopType_pl": "Regularna Piechota",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Whip"
+      ],
+      "specialRules_pl": [
         "Bully",
         "Choppas"
       ]
@@ -1773,6 +2320,19 @@
         "Ignore Goblin Panic",
         "Impetuous",
         "Warband"
+      ],
+      "unitCategory_pl": "Piechota",
+      "troopType_pl": "Regularna Piechota",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Lekka Zbroja"
+      ],
+      "specialRules_pl": [
+        "Choppas",
+        "Zwarty Szyk",
+        "Ignore Goblin Panic",
+        "Impet",
+        "Gromada"
       ]
     },
     {
@@ -1809,6 +2369,21 @@
         "Rallying Cry",
         "Waaagh!",
         "Warband"
+      ],
+      "unitCategory_pl": "Postać",
+      "troopType_pl": "Regularna Piechota, Postać",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Lekka Zbroja"
+      ],
+      "specialRules_pl": [
+        "Choppas",
+        "Wściekła Szarża",
+        "Ignore Goblin Panic",
+        "Impet",
+        "Bojowy Okrzyk",
+        "Waaagh!",
+        "Gromada"
       ]
     },
     {
@@ -1847,6 +2422,18 @@
         "Battle Magic",
         "Elementalism",
         "Waaagh! Magic"
+      ],
+      "unitCategory_pl": "Postać",
+      "troopType_pl": "Regularna Piechota, Postać",
+      "equipment_pl": [
+        "Broń Ręczna"
+      ],
+      "specialRules_pl": [
+        "Choppas",
+        "Ignore Goblin Panic",
+        "Lore of Gork",
+        "Mob Rule",
+        "Gromada"
       ]
     },
     {
@@ -1885,6 +2472,18 @@
         "Battle Magic",
         "Elementalism",
         "Waaagh! Magic"
+      ],
+      "unitCategory_pl": "Postać",
+      "troopType_pl": "Regularna Piechota, Postać",
+      "equipment_pl": [
+        "Broń Ręczna"
+      ],
+      "specialRules_pl": [
+        "Choppas",
+        "Ignore Goblin Panic",
+        "Lore of Gork",
+        "Mob Rule",
+        "Gromada"
       ]
     },
     {
@@ -1922,6 +2521,22 @@
         "Motley Crew",
         "Regeneration (5+)",
         "Stupidity"
+      ],
+      "unitCategory_pl": "Piechota",
+      "troopType_pl": "Monstrualna Piechota",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Troll vomit",
+        "Calloused hides (counts jako lekka zbroja)"
+      ],
+      "specialRules_pl": [
+        "Przebicie Zbroi (1)",
+        "Zwarty Szyk",
+        "Strach",
+        "Łatwopalny",
+        "Zbieranina",
+        "Regeneracja (5+)",
+        "Stupidity"
       ]
     },
     {
@@ -1958,6 +2573,21 @@
         "Skirmishers",
         "Unbreakable",
         "Vanguard"
+      ],
+      "unitCategory_pl": "Piechota",
+      "troopType_pl": "Rój",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Throwing broń"
+      ],
+      "specialRules_pl": [
+        "Odporność Na Psychologię",
+        "Impet",
+        "Samotnik",
+        "Luźny Szyk",
+        "Harcownicy",
+        "Niezłomni",
+        "Awangarda"
       ]
     },
     {
@@ -2010,6 +2640,20 @@
             "Ld": 4
           }
         }
+      ],
+      "unitCategory_pl": "Rydwan",
+      "troopType_pl": "Lekki Rydwan",
+      "equipment_pl": [
+        "Broń Ręczna (załoga)",
+        "Throwing broń (załoga)"
+      ],
+      "specialRules_pl": [
+        "Przebicie Zbroi (3, Pump Wagon Uderzenia Impetu only)",
+        "Odporność Na Psychologię",
+        "Uderzenia Impetu (D3+1)",
+        "Samotnik",
+        "Luźny Szyk",
+        "Random Movement"
       ]
     },
     {
@@ -2048,6 +2692,24 @@
         "Magic Resistance (-1)",
         "Motley Crew",
         "Regeneration (5+)",
+        "Stupidity"
+      ],
+      "unitCategory_pl": "Piechota",
+      "troopType_pl": "Monstrualna Piechota",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Troll vomit",
+        "Calloused hides (counts jako lekka zbroja)"
+      ],
+      "specialRules_pl": [
+        "Przebicie Zbroi (1)",
+        "Opancerzona Skóra (1)",
+        "Zwarty Szyk",
+        "Strach",
+        "Łatwopalny",
+        "Odporność Na Magię (-1)",
+        "Zbieranina",
+        "Regeneracja (5+)",
         "Stupidity"
       ]
     },
@@ -2097,6 +2759,29 @@
       "magicLores": [
         "Battle Magic",
         "Lore of Troll Magic"
+      ],
+      "unitCategory_pl": "Postać",
+      "troopType_pl": "Behemot, Postać",
+      "equipment_pl": [
+        "Gnarled stump (counts jako a broń ręczna)",
+        "Troll vomit",
+        "Swamp breath",
+        "Scaly skin (counts jako ciężka zbroja)"
+      ],
+      "specialRules_pl": [
+        "Zwarty Szyk",
+        "Łatwopalny",
+        "Odporność Na Psychologię",
+        "Indiscriminate Hunger",
+        "Duży Cel",
+        "Motherly Love",
+        "Regeneracja (5+)",
+        "Slimy Shanks",
+        "Zdeptanie (D6)",
+        "Stupidity",
+        "Groza",
+        "Dreeeewno!",
+        "Niezłomni"
       ]
     },
     {
@@ -2128,6 +2813,17 @@
         "Armoured Hide (1)",
         "Counter Charge",
         "Swiftstride",
+        "Tusker Charge"
+      ],
+      "unitCategory_pl": "Wierzchowiec",
+      "troopType_pl": "Ciężka Kawaleria",
+      "equipment_pl": [
+        "Tusks (counts jako a broń ręczna)"
+      ],
+      "specialRules_pl": [
+        "Opancerzona Skóra (1)",
+        "Przeciwnatarcie",
+        "Szybki Krok",
         "Tusker Charge"
       ]
     },
@@ -2165,6 +2861,21 @@
         "Stomp Attacks (D3)",
         "Swiftstride",
         "Terror"
+      ],
+      "unitCategory_pl": "Potwór",
+      "troopType_pl": "Monstrualne Stworzenie",
+      "equipment_pl": [
+        "Złowrogie Szpony",
+        "Venomous tail",
+        "Scaly skin (counts jako ciężka zbroja)"
+      ],
+      "specialRules_pl": [
+        "Zwarty Szyk",
+        "Lot (9)",
+        "Duży Cel",
+        "Zdeptanie (D3)",
+        "Szybki Krok",
+        "Groza"
       ]
     }
   ]

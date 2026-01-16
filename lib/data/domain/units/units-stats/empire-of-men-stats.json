@@ -25,7 +25,18 @@
       "First Charge",
       "Swiftstride"
     ],
-    "id": "barded-warhorse"
+    "id": "barded-warhorse",
+    "unitCategory_pl": "Wierzchowiec",
+    "troopType_pl": "Ciężka Kawaleria",
+    "equipment_pl": [
+      "Iron-shod hooves (counts jako a broń ręczna)",
+      "Barding"
+    ],
+    "specialRules_pl": [
+      "Przeciwnatarcie",
+      "Pierwsza Szarża",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Captain of the Empire",
@@ -52,7 +63,17 @@
       "\"Hold the Line!\"",
       "Rallying Cry"
     ],
-    "id": "captain-of-the-empire"
+    "id": "captain-of-the-empire",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "\"Hold the Line!\"",
+      "Bojowy Okrzyk"
+    ]
   },
   {
     "name": "Chapter Master",
@@ -85,7 +106,23 @@
       "Swiftstride",
       "Veteran"
     ],
-    "id": "chapter-master"
+    "id": "chapter-master",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Ciężka Kawaleria, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Ciężka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Przeciwnatarcie",
+      "Pierwsza Szarża",
+      "Odporność Na Psychologię",
+      "Mistrz of Battle",
+      "Bojowy Okrzyk",
+      "Nieugięty",
+      "Szybki Krok",
+      "Veteran"
+    ]
   },
   {
     "name": "Demigryph",
@@ -114,7 +151,19 @@
       "Fear",
       "Swiftstride"
     ],
-    "id": "demigryph"
+    "id": "demigryph",
+    "unitCategory_pl": "Wierzchowiec",
+    "troopType_pl": "Monstrualna Kawaleria",
+    "equipment_pl": [
+      "Złowrogie Szpony",
+      "Barding"
+    ],
+    "specialRules_pl": [
+      "Przeciwnatarcie",
+      "Pierwsza Szarża",
+      "Strach",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Demigryph Knights",
@@ -170,7 +219,20 @@
         "Ld": null
       }
     ],
-    "id": "demigryph-knights"
+    "id": "demigryph-knights",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Monstrualna Kawaleria",
+    "equipment_pl": [
+      "Demigryph Rycerze: Broń Ręczna, ciężka zbroja i shields",
+      "Demigryph: Wicked claws i barding"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Przeciwnatarcie",
+      "Pierwsza Szarża",
+      "Strach",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Empire Archers",
@@ -214,7 +276,20 @@
         "Ld": 7
       }
     ],
-    "id": "empire-archers"
+    "id": "empire-archers",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Warbows"
+    ],
+    "specialRules_pl": [
+      "Oddział",
+      "Przechodzenie Przez Zasłony",
+      "Luźny Szyk",
+      "Harcownicy",
+      "Awangarda"
+    ]
   },
   {
     "name": "Empire Engineer",
@@ -240,7 +315,16 @@
       "Clouds of Soot & Smoke",
       "Master of Ballistics"
     ],
-    "id": "empire-engineer"
+    "id": "empire-engineer",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Clouds of Soot & Smoke",
+      "Mistrz of Ballistics"
+    ]
   },
   {
     "name": "Empire Greatswords",
@@ -283,7 +367,19 @@
         "Ld": 8
       }
     ],
-    "id": "empire-greatswords"
+    "id": "empire-greatswords",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Broń Wielka",
+      "Pełna Zbroja Płytowa"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Jednostka Regimentowa",
+      "Nieugięty"
+    ]
   },
   {
     "name": "Empire Knights",
@@ -338,7 +434,19 @@
         "Ld": null
       }
     ],
-    "id": "empire-knights"
+    "id": "empire-knights",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Ciężka Kawaleria",
+    "equipment_pl": [
+      "Rycerze: Broń Ręczna, ciężka zbroja i shields",
+      "Opancerzony Rumak: Iron-shod hooves (counts jako a broń ręczna) i barding"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Przeciwnatarcie",
+      "Pierwsza Szarża",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Empire Road Wardens",
@@ -395,7 +503,21 @@
         "Ld": null
       }
     ],
-    "id": "empire-road-wardens"
+    "id": "empire-road-wardens",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Lekka Kawaleria",
+    "equipment_pl": [
+      "Road Wardens: Broń Ręczna, crossbows i ciężka zbroja",
+      "Warhorses: Iron-shod hooves (counts jako a broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Szybka Kawaleria",
+      "Ogień I Odwrót",
+      "Luźny Szyk",
+      "Harcownicy",
+      "Szybki Krok",
+      "Awangarda"
+    ]
   },
   {
     "name": "Empire Steam Tank",
@@ -445,7 +567,26 @@
         "Ld": 8
       }
     ],
-    "id": "empire-steam-tank"
+    "id": "empire-steam-tank",
+    "unitCategory_pl": "Rydwan",
+    "troopType_pl": "Ciężki Rydwan",
+    "equipment_pl": [
+      "Steam Cannon",
+      "Steam gun",
+      "Inżynier Commander: Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Grinding Wheels",
+      "Odporność Na Psychologię",
+      "Uderzenia Impetu (D6+1)",
+      "Duży Cel",
+      "Steam Power",
+      "Zdeptanie (D3+1)",
+      "Temperamental",
+      "Groza",
+      "Niezłomni"
+    ]
   },
   {
     "name": "Empire War Wagon",
@@ -502,7 +643,21 @@
         "Ld": null
       }
     ],
-    "id": "empire-war-wagon"
+    "id": "empire-war-wagon",
+    "unitCategory_pl": "Rydwan",
+    "troopType_pl": "Ciężki Rydwan",
+    "equipment_pl": [
+      "War Wagon Załoga: Broń Ręczna i assorted broń",
+      "Barded Warhorses: Iron-shod hooves (counts jako a broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Crushing Weight",
+      "Uderzenia Impetu (D6+1, War Wagon only)",
+      "Duży Cel",
+      "Stable Firing Platform",
+      "Zdeptanie (D3+1)"
+    ]
   },
   {
     "name": "Empire Warhorse",
@@ -528,7 +683,16 @@
       "Fast Cavalry",
       "Swiftstride"
     ],
-    "id": "empire-warhorse"
+    "id": "empire-warhorse",
+    "unitCategory_pl": "Wierzchowiec",
+    "troopType_pl": "Lekka Kawaleria",
+    "equipment_pl": [
+      "Iron-shod hooves (counts jako a broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Szybka Kawaleria",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Flagellants",
@@ -575,7 +739,23 @@
         "Ld": 5
       }
     ],
-    "id": "flagellants"
+    "id": "flagellants",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Flails"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Fanatical Zeal",
+      "Feel No Pain",
+      "Wściekła Szarża",
+      "Odporność Na Psychologię",
+      "Impet",
+      "Nienawiść (all enemies)",
+      "Niezłomni"
+    ]
   },
   {
     "name": "Free Company Militia",
@@ -619,7 +799,20 @@
         "Ld": 7
       }
     ],
-    "id": "free-company-militia"
+    "id": "free-company-militia",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Mixed broń (counts jako two broń ręczna i throwing broń)"
+    ],
+    "specialRules_pl": [
+      "Oddział",
+      "Horda",
+      "Impet",
+      "Levies",
+      "Luźny Szyk",
+      "Gromada"
+    ]
   },
   {
     "name": "General Hans von Löwenhacke",
@@ -651,7 +844,22 @@
       "Strategic Mastery",
       "Stubborn"
     ],
-    "id": "general-hans-von-lowenhacke"
+    "id": "general-hans-von-lowenhacke",
+    "unitCategory_pl": "Nazwana Postać",
+    "troopType_pl": "Regularna Piechota, Nazwana Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Pełna Zbroja Płytowa",
+      "Judgement",
+      "Griffon Helm"
+    ],
+    "specialRules_pl": [
+      "\"Hold the Line!\"",
+      "Mercenary Commander",
+      "Bojowy Okrzyk",
+      "Strategic Mastery",
+      "Nieugięty"
+    ]
   },
   {
     "name": "General of the Empire",
@@ -678,7 +886,17 @@
       "\"Hold the Line!\"",
       "Rallying Cry"
     ],
-    "id": "general-of-the-empire"
+    "id": "general-of-the-empire",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "\"Hold the Line!\"",
+      "Bojowy Okrzyk"
+    ]
   },
   {
     "name": "Grand Master",
@@ -711,7 +929,23 @@
       "Swiftstride",
       "Veteran"
     ],
-    "id": "grand-master"
+    "id": "grand-master",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Ciężka Kawaleria, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Ciężka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Przeciwnatarcie",
+      "Pierwsza Szarża",
+      "Odporność Na Psychologię",
+      "Mistrz of Battle",
+      "Bojowy Okrzyk",
+      "Nieugięty",
+      "Szybki Krok",
+      "Veteran"
+    ]
   },
   {
     "name": "Great Cannon",
@@ -751,7 +985,16 @@
         "Ld": 7
       }
     ],
-    "id": "great-cannon"
+    "id": "great-cannon",
+    "unitCategory_pl": "Machina Wojenna",
+    "troopType_pl": "Machina Wojenna",
+    "equipment_pl": [
+      "Wielki cannon",
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Harcownicy"
+    ]
   },
   {
     "name": "Griffon (Empire)",
@@ -783,7 +1026,22 @@
       "Swiftstride",
       "Terror"
     ],
-    "id": "griffon-empire-"
+    "id": "griffon-empire-",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Monstrualne Stworzenie",
+    "equipment_pl": [
+      "Złowrogie Szpony",
+      "Serrated maw",
+      "Griffonic pelt (counts jako ciężka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Lot (9)",
+      "Duży Cel",
+      "Zdeptanie (D3)",
+      "Szybki Krok",
+      "Groza"
+    ]
   },
   {
     "name": "Harald Gemunsen",
@@ -836,7 +1094,29 @@
         "Ld": null
       }
     ],
-    "id": "harald-gemunsen"
+    "id": "harald-gemunsen",
+    "unitCategory_pl": "Nazwana Postać",
+    "troopType_pl": "Ciężka Kawaleria, Nazwana Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Bestia Reaver",
+      "Pełna Zbroja Płytowa",
+      "Opancerzony Rumak: Iron-shod hooves (counts jako a broń ręczna) i barding"
+    ],
+    "specialRules_pl": [
+      "Przeciwnatarcie",
+      "Pierwsza Szarża",
+      "Wielki Mistrz of the Rycerze Panther",
+      "Nienawiść (Wojownicy of Chaos, Stada Zwierzoludzi & Daemonic modele)",
+      "Odporność Na Psychologię",
+      "Odporność Na Magię (-1)",
+      "Mistrz of Battle",
+      "Bojowy Okrzyk",
+      "Skilled Duellist",
+      "Nieugięty",
+      "Szybki Krok",
+      "Veteran"
+    ]
   },
   {
     "name": "Harbinger of Doom",
@@ -868,7 +1148,22 @@
       "Unbreakable",
       "Zealot"
     ],
-    "id": "harbinger-of-doom"
+    "id": "harbinger-of-doom",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Feel No Pain",
+      "Wściekła Szarża",
+      "Odporność Na Psychologię",
+      "Impet",
+      "Nienawiść (all enemies)",
+      "Prayer of the Damned",
+      "Niezłomni",
+      "Zealot"
+    ]
   },
   {
     "name": "Helblaster Volley Gun",
@@ -908,7 +1203,16 @@
         "Ld": 7
       }
     ],
-    "id": "helblaster-volley-gun"
+    "id": "helblaster-volley-gun",
+    "unitCategory_pl": "Machina Wojenna",
+    "troopType_pl": "Machina Wojenna",
+    "equipment_pl": [
+      "Helblaster Volley Gun",
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Harcownicy"
+    ]
   },
   {
     "name": "Helstorm Rocket Battery",
@@ -948,7 +1252,16 @@
         "Ld": 7
       }
     ],
-    "id": "helstorm-rocket-battery"
+    "id": "helstorm-rocket-battery",
+    "unitCategory_pl": "Machina Wojenna",
+    "troopType_pl": "Machina Wojenna",
+    "equipment_pl": [
+      "Helstorm Rocket Battery",
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Harcownicy"
+    ]
   },
   {
     "name": "High Priest of Ulric",
@@ -976,7 +1289,18 @@
       "Magic Resistance (-1)",
       "Prayers of Ulric"
     ],
-    "id": "high-priest-of-ulric"
+    "id": "high-priest-of-ulric",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Magiczne Ataki",
+      "Odporność Na Magię (-1)",
+      "Prayers of Ulric"
+    ]
   },
   {
     "name": "Imperial Griffon",
@@ -1008,7 +1332,22 @@
       "Swiftstride",
       "Terror"
     ],
-    "id": "imperial-griffon"
+    "id": "imperial-griffon",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "equipment_pl": [
+      "Złowrogie Szpony",
+      "Serrated maw",
+      "Griffonic pelt (counts jako ciężka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Lot (9)",
+      "Duży Cel",
+      "Zdeptanie (D3+1)",
+      "Szybki Krok",
+      "Groza"
+    ]
   },
   {
     "name": "Imperial Ogres",
@@ -1054,7 +1393,22 @@
         "Ld": 7
       }
     ],
-    "id": "imperial-ogres"
+    "id": "imperial-ogres",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Monstrualna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Przebicie Zbroi (1)",
+      "Zwarty Szyk",
+      "Strach",
+      "Uderzenia Impetu (1)",
+      "Mercenaries",
+      "Zbieranina",
+      "Ogr Charge"
+    ]
   },
   {
     "name": "Inner Circle Knights",
@@ -1112,7 +1466,22 @@
         "Ld": null
       }
     ],
-    "id": "inner-circle-knights"
+    "id": "inner-circle-knights",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Ciężka Kawaleria",
+    "equipment_pl": [
+      "Inner Circle Rycerze: Broń Ręczna, pełna zbroja płytowa i shields",
+      "Opancerzony Rumak: Iron-shod hooves (counts jako a broń ręczna) i barding"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Przeciwnatarcie",
+      "Drilled",
+      "Pierwsza Szarża",
+      "Inner Circle",
+      "Szybki Krok",
+      "Veteran"
+    ]
   },
   {
     "name": "Lector of Sigmar",
@@ -1140,7 +1509,18 @@
       "Magic Resistance (-1)",
       "Prayers of Sigmar"
     ],
-    "id": "lector-of-sigmar"
+    "id": "lector-of-sigmar",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Magiczne Ataki",
+      "Odporność Na Magię (-1)",
+      "Prayers of Sigmar"
+    ]
   },
   {
     "name": "Master Mage",
@@ -1174,7 +1554,16 @@
       "Illusion",
       "Necromancy"
     ],
-    "id": "master-mage"
+    "id": "master-mage",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Magiczne Ataki",
+      "Odporność Na Magię (-1)"
+    ]
   },
   {
     "name": "Mortar",
@@ -1214,7 +1603,16 @@
         "Ld": 7
       }
     ],
-    "id": "mortar"
+    "id": "mortar",
+    "unitCategory_pl": "Machina Wojenna",
+    "troopType_pl": "Machina Wojenna",
+    "equipment_pl": [
+      "Mortar",
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Harcownicy"
+    ]
   },
   {
     "name": "Nuln State Missile Troops",
@@ -1256,7 +1654,18 @@
         "Ld": 7
       }
     ],
-    "id": "nuln-state-missile-troops"
+    "id": "nuln-state-missile-troops",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Handguns"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Oddział",
+      "Nuln State Troops"
+    ]
   },
   {
     "name": "Nuln State Troops",
@@ -1300,7 +1709,20 @@
         "Ld": 7
       }
     ],
-    "id": "nuln-state-troops"
+    "id": "nuln-state-troops",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Halberds",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Horda",
+      "Nuln State Troops",
+      "Jednostka Regimentowa"
+    ]
   },
   {
     "name": "Nuln Swordsmen",
@@ -1344,7 +1766,20 @@
         "Ld": 7
       }
     ],
-    "id": "nuln-swordsmen"
+    "id": "nuln-swordsmen",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Lekka Zbroja",
+      "Tarcze"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Oddział",
+      "Horda",
+      "Nuln State Troops"
+    ]
   },
   {
     "name": "Nuln Veteran State Troops",
@@ -1389,7 +1824,21 @@
         "Ld": 7
       }
     ],
-    "id": "nuln-veteran-state-troops"
+    "id": "nuln-veteran-state-troops",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Halberds",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Horda",
+      "Nuln State Troops",
+      "Jednostka Regimentowa",
+      "Veteran"
+    ]
   },
   {
     "name": "Outriders",
@@ -1446,7 +1895,21 @@
         "Ld": null
       }
     ],
-    "id": "outriders"
+    "id": "outriders",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Lekka Kawaleria",
+    "equipment_pl": [
+      "Outriders: Broń Ręczna, pistols, repeater handguns i ciężka zbroja",
+      "Empire Rumak Bojowy: Iron-shod hooves (counts jako a broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Szybka Kawaleria",
+      "Ogień I Odwrót",
+      "Luźny Szyk",
+      "Harcownicy",
+      "Szybki Krok",
+      "Awangarda"
+    ]
   },
   {
     "name": "Pegasus",
@@ -1474,7 +1937,18 @@
       "Fly (10)",
       "Swiftstride"
     ],
-    "id": "pegasus"
+    "id": "pegasus",
+    "unitCategory_pl": "Wierzchowiec",
+    "troopType_pl": "Monstrualna Kawaleria",
+    "equipment_pl": [
+      "Iron-shod hooves (counts jako a broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Przeciwnatarcie",
+      "Pierwsza Szarża",
+      "Lot (10)",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Pistoliers",
@@ -1532,7 +2006,22 @@
         "Ld": null
       }
     ],
-    "id": "pistoliers"
+    "id": "pistoliers",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Lekka Kawaleria",
+    "equipment_pl": [
+      "Pistoliers: Broń Ręczna, brace of pistols i ciężka zbroja",
+      "Empire Rumak Bojowy: Iron-shod hooves (counts jako a broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Przeciwnatarcie",
+      "Szybka Kawaleria",
+      "Ogień I Odwrót",
+      "Impet",
+      "Luźny Szyk",
+      "Harcownicy",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Priest of Sigmar",
@@ -1560,7 +2049,18 @@
       "Magic Resistance (-1)",
       "Prayers of Sigmar"
     ],
-    "id": "priest-of-sigmar"
+    "id": "priest-of-sigmar",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Magiczne Ataki",
+      "Odporność Na Magię (-1)",
+      "Prayers of Sigmar"
+    ]
   },
   {
     "name": "Priest of Ulric",
@@ -1588,7 +2088,18 @@
       "Magic Resistance (-1)",
       "Prayers of Ulric"
     ],
-    "id": "priest-of-ulric"
+    "id": "priest-of-ulric",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Magiczne Ataki",
+      "Odporność Na Magię (-1)",
+      "Prayers of Ulric"
+    ]
   },
   {
     "name": "State Missile Troops",
@@ -1630,7 +2141,18 @@
         "Ld": 7
       }
     ],
-    "id": "state-missile-troops"
+    "id": "state-missile-troops",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Crossbows"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Oddział",
+      "Jednostka Regimentowa"
+    ]
   },
   {
     "name": "State Troops",
@@ -1673,7 +2195,19 @@
         "Ld": 7
       }
     ],
-    "id": "state-troops"
+    "id": "state-troops",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Oddział",
+      "Horda",
+      "Jednostka Regimentowa"
+    ]
   },
   {
     "name": "Teutogen Guard",
@@ -1718,7 +2252,21 @@
         "Ld": 8
       }
     ],
-    "id": "teutogen-guard"
+    "id": "teutogen-guard",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Ciężka Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Wilk hammers",
+      "Pełna Zbroja Płytowa"
+    ],
+    "specialRules_pl": [
+      "Blessings of Ulric",
+      "Zwarty Szyk",
+      "Drilled",
+      "Nieugięty",
+      "Veteran"
+    ]
   },
   {
     "name": "Veteran State Troops",
@@ -1762,7 +2310,20 @@
         "Ld": 7
       }
     ],
-    "id": "veteran-state-troops"
+    "id": "veteran-state-troops",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Oddział",
+      "Horda",
+      "Jednostka Regimentowa",
+      "Veteran"
+    ]
   },
   {
     "name": "War Altar of Sigmar",
@@ -1810,7 +2371,24 @@
         "Ld": null
       }
     ],
-    "id": "war-altar-of-sigmar"
+    "id": "war-altar-of-sigmar",
+    "unitCategory_pl": "Rydwan",
+    "troopType_pl": "Ciężki Rydwan",
+    "equipment_pl": [
+      "Warhorses: Iron-shod hooves (counts jako a broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Pierwsza Szarża",
+      "Holy Fervour",
+      "Uderzenia Impetu (D6+1)",
+      "Duży Cel",
+      "Odporność Na Magię (-2)",
+      "Nieugięty",
+      "Symbol of Might",
+      "Groza",
+      "Witch Bane"
+    ]
   },
   {
     "name": "Witch Hunter",
@@ -1838,7 +2416,18 @@
       "Killing Blow",
       "Suffer Not..."
     ],
-    "id": "witch-hunter"
+    "id": "witch-hunter",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Odporność Na Psychologię",
+      "Killing Blow",
+      "Suffer Not..."
+    ]
   },
   {
     "name": "Wizard Lord",
@@ -1872,6 +2461,15 @@
       "Illusion",
       "Necromancy"
     ],
-    "id": "wizard-lord"
+    "id": "wizard-lord",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna Piechota, Postać",
+    "equipment_pl": [
+      "Broń Ręczna"
+    ],
+    "specialRules_pl": [
+      "Magiczne Ataki",
+      "Odporność Na Magię (-1)"
+    ]
   }
 ]

@@ -29,7 +29,21 @@
       "Warband"
     ],
     "magicLores": null,
-    "id": "beastlord"
+    "id": "beastlord",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Ciężka piechota, postać",
+    "equipment_pl": [
+      "Broń ręczna"
+    ],
+    "specialRules_pl": [
+      "Krwawy Szał",
+      "Róg Bray (tylko Generał)",
+      "Rozdzieracz Wrogów",
+      "Spojrzenie Bogów",
+      "Znak Chaosu Niepodzielonego",
+      "Pierwotna Furia",
+      "Gromada"
+    ]
   },
   {
     "name": "Bestigor",
@@ -61,7 +75,21 @@
       "Warband"
     ],
     "magicLores": null,
-    "id": "bestigor"
+    "id": "bestigor",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Ciężka piechota",
+    "equipment_pl": [
+      "Broń ręczna",
+      "Broń wielka",
+      "Ciężka zbroja"
+    ],
+    "specialRules_pl": [
+      "Krwawy Szał",
+      "Zwarty Szyk",
+      "Znak Chaosu Niepodzielonego",
+      "Pierwotna Furia",
+      "Gromada"
+    ]
   },
   {
     "name": "Gourge-horn",
@@ -83,7 +111,10 @@
     "equipment": [],
     "specialRules": [],
     "magicLores": null,
-    "id": "gourge-horn"
+    "id": "gourge-horn",
+    "unitCategory_pl": "Czempion",
+    "equipment_pl": [],
+    "specialRules_pl": []
   },
   {
     "name": "Bray-Shaman",
@@ -117,7 +148,19 @@
       "Dark Magic",
       "Elementalism"
     ],
-    "id": "bray-shaman"
+    "id": "bray-shaman",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna piechota, postać",
+    "equipment_pl": [
+      "Kostur Bray"
+    ],
+    "specialRules_pl": [
+      "Spojrzenie Bogów",
+      "Lora Bestii",
+      "Znak Chaosu Niepodzielonego",
+      "Pierwotna Furia",
+      "Gromada"
+    ]
   },
   {
     "name": "Centigor",
@@ -154,7 +197,26 @@
       "Warband"
     ],
     "magicLores": null,
-    "id": "centigor"
+    "id": "centigor",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Lekka Kawaleria",
+    "equipment_pl": [
+      "Broń ręczna",
+      "Tarcze"
+    ],
+    "specialRules_pl": [
+      "Pijaństwo",
+      "Szybka Kawaleria",
+      "Horda",
+      "Znak Chaosu Niepodzielonego",
+      "Przechodzenie przez Zasłony",
+      "Luźny Szyk",
+      "Pierwotna Furia",
+      "Harcownicy",
+      "Zdeptanie (1)",
+      "Szybki Krok",
+      "Gromada"
+    ]
   },
   {
     "name": "Gorehoof",
@@ -176,7 +238,10 @@
     "equipment": [],
     "specialRules": [],
     "magicLores": null,
-    "id": "gorehoof"
+    "id": "gorehoof",
+    "unitCategory_pl": "Czempion",
+    "equipment_pl": [],
+    "specialRules_pl": []
   },
   {
     "name": "Giant",
@@ -211,7 +276,24 @@
       "Unbreakable"
     ],
     "magicLores": null,
-    "id": "giant"
+    "id": "giant",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "equipment_pl": [
+      "Maczuga olbrzyma",
+      "Zrogowaciała skóra (liczona jako lekka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Ataki Olbrzyma",
+      "Odporność na Psychologię",
+      "Duży Cel",
+      "Podnieś i...",
+      "Zdeptanie (D6)",
+      "Groza",
+      "Dreeeewno!",
+      "Niezłomni"
+    ]
   },
   {
     "name": "Chaos Warhound",
@@ -240,7 +322,18 @@
       "Swiftstride"
     ],
     "magicLores": null,
-    "id": "chaos-warhound"
+    "id": "chaos-warhound",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Bestia wojenna",
+    "equipment_pl": [
+      "Szpony i kły (liczone jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Samotnik",
+      "Przechodzenie przez Zasłony",
+      "Luźny Szyk",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Cockatrice",
@@ -274,7 +367,23 @@
       "Terror"
     ],
     "magicLores": null,
-    "id": "cockatrice"
+    "id": "cockatrice",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Monstrualne stworzenie",
+    "equipment_pl": [
+      "Szpony (liczone jako broń ręczna)",
+      "Skamieniające spojrzenie",
+      "Łuskowata skóra (liczona jako ciężka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Lot (10)",
+      "Duży Cel",
+      "Zdeptanie (1)",
+      "Kamienne Spojrzenie",
+      "Szybki Krok",
+      "Groza"
+    ]
   },
   {
     "name": "Cygor",
@@ -310,7 +419,25 @@
       "Timmm-berrr!"
     ],
     "magicLores": null,
-    "id": "cygor"
+    "id": "cygor",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "equipment_pl": [
+      "Szpony (liczone jako broń ręczna)",
+      "Rzut",
+      "Zrogowaciała skóra (liczona jako lekka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Widzenie Duchów",
+      "Odporność na Psychologię",
+      "Duży Cel",
+      "Pożeracz Dusz",
+      "Zdeptanie (D3)",
+      "Nieugięty",
+      "Groza",
+      "Dreeeewno!"
+    ]
   },
   {
     "name": "Doombull",
@@ -347,7 +474,26 @@
       "Warband"
     ],
     "magicLores": null,
-    "id": "doombull"
+    "id": "doombull",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Monstrualna piechota, postać",
+    "equipment_pl": [
+      "Broń ręczna"
+    ],
+    "specialRules_pl": [
+      "Przebicie Zbroi (1)",
+      "Krwawa Chciwość",
+      "Krwawy Szał",
+      "Bykorożce",
+      "Strach",
+      "Rozdzieracz Wrogów",
+      "Spojrzenie Bogów",
+      "Uderzenia Impetu (1)",
+      "Znak Chaosu Niepodzielonego",
+      "Pierwotna Furia",
+      "Wezwanie Rzeźnika",
+      "Gromada"
+    ]
   },
   {
     "name": "Shaggoth",
@@ -383,7 +529,25 @@
       "The Quickening Storm"
     ],
     "magicLores": null,
-    "id": "shaggoth"
+    "id": "shaggoth",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Monstrualne stworzenie",
+    "equipment_pl": [
+      "Broń ręczna",
+      "Lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Przebicie Zbroi (2)",
+      "Opancerzona Skóra (2)",
+      "Zwarty Szyk",
+      "Zaklęta Broń",
+      "Odporność na Psychologię",
+      "Duży Cel",
+      "Zdeptanie (D3+1)",
+      "Zew Burzy",
+      "Groza",
+      "Przyspieszająca Burza"
+    ]
   },
   {
     "name": "Dragon Ogre",
@@ -417,7 +581,23 @@
       "The Quickening Storm"
     ],
     "magicLores": null,
-    "id": "dragon-ogre"
+    "id": "dragon-ogre",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Monstrualna kawaleria",
+    "equipment_pl": [
+      "Broń ręczna",
+      "Lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Przebicie Zbroi (1)",
+      "Opancerzona Skóra (2)",
+      "Zwarty Szyk",
+      "Strach",
+      "Zaklęta Broń",
+      "Odporność na Psychologię",
+      "Zdeptanie (2)",
+      "Przyspieszająca Burza"
+    ]
   },
   {
     "name": "Shartak",
@@ -439,7 +619,10 @@
     "equipment": [],
     "specialRules": [],
     "magicLores": null,
-    "id": "shartak"
+    "id": "shartak",
+    "unitCategory_pl": "Czempion",
+    "equipment_pl": [],
+    "specialRules_pl": []
   },
   {
     "name": "Ghorgon",
@@ -476,7 +659,26 @@
       "Timmm-berrr!"
     ],
     "magicLores": null,
-    "id": "ghorgon"
+    "id": "ghorgon",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "equipment_pl": [
+      "Rąbiące kończyny",
+      "Zrogowaciała skóra (liczona jako lekka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Krwawa Chciwość",
+      "Zwarty Szyk",
+      "Szał",
+      "Duży Cel",
+      "Pierwotna Furia",
+      "Regeneracja (6+)",
+      "Zdeptanie (D3)",
+      "Nieugięty",
+      "Połknięcie Całości",
+      "Groza",
+      "Dreeeewno!"
+    ]
   },
   {
     "name": "Ghorros Warhoof",
@@ -513,7 +715,26 @@
       "Warband"
     ],
     "magicLores": null,
-    "id": "ghorros-warhoof"
+    "id": "ghorros-warhoof",
+    "unitCategory_pl": "Nazwana postać",
+    "troopType_pl": "Ciężka Kawaleria, Nazwana postać",
+    "equipment_pl": [
+      "Broń ręczna",
+      "Miażdżyciel Ludzi",
+      "Czaszka Pana Jednorożca"
+    ],
+    "specialRules_pl": [
+      "Pijaństwo",
+      "Ojciec Bestii",
+      "Spojrzenie Bogów",
+      "Znak Chaosu Niepodzielonego",
+      "Przechodzenie przez Zasłony",
+      "Pierwotna Furia",
+      "Zdeptanie (D3)",
+      "Szybki Krok",
+      "Synowie Ghorrosa",
+      "Gromada"
+    ]
   },
   {
     "name": "Gor",
@@ -547,7 +768,23 @@
       "Warband"
     ],
     "magicLores": null,
-    "id": "gor"
+    "id": "gor",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna piechota",
+    "equipment_pl": [
+      "Broń ręczna"
+    ],
+    "specialRules_pl": [
+      "Bestialska Szarża",
+      "Krwawy Szał",
+      "Horda",
+      "Znak Chaosu Niepodzielonego",
+      "Przechodzenie przez Zasłony",
+      "Luźny Szyk",
+      "Pierwotna Furia",
+      "Harcownicy",
+      "Gromada"
+    ]
   },
   {
     "name": "True-horn",
@@ -569,7 +806,10 @@
     "equipment": [],
     "specialRules": [],
     "magicLores": null,
-    "id": "true-horn"
+    "id": "true-horn",
+    "unitCategory_pl": "Czempion",
+    "equipment_pl": [],
+    "specialRules_pl": []
   },
   {
     "name": "Gorebull",
@@ -606,7 +846,26 @@
       "Warband"
     ],
     "magicLores": null,
-    "id": "gorebull"
+    "id": "gorebull",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Monstrualna piechota, postać",
+    "equipment_pl": [
+      "Broń ręczna"
+    ],
+    "specialRules_pl": [
+      "Przebicie Zbroi (1)",
+      "Krwawa Chciwość",
+      "Krwawy Szał",
+      "Bykorożce",
+      "Strach",
+      "Rozdzieracz Wrogów",
+      "Spojrzenie Bogów",
+      "Uderzenia Impetu (1)",
+      "Znak Chaosu Niepodzielonego",
+      "Pierwotna Furia",
+      "Wezwanie Rzeźnika",
+      "Gromada"
+    ]
   },
   {
     "name": "Great Bray-Shaman",
@@ -640,7 +899,19 @@
       "Dark Magic",
       "Elementalism"
     ],
-    "id": "great-bray-shaman"
+    "id": "great-bray-shaman",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Regularna piechota, postać",
+    "equipment_pl": [
+      "Kostur Bray"
+    ],
+    "specialRules_pl": [
+      "Spojrzenie Bogów",
+      "Lora Bestii",
+      "Znak Chaosu Niepodzielonego",
+      "Pierwotna Furia",
+      "Gromada"
+    ]
   },
   {
     "name": "Harpy",
@@ -670,7 +941,19 @@
       "Swiftstride"
     ],
     "magicLores": null,
-    "id": "harpy"
+    "id": "harpy",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna piechota",
+    "equipment_pl": [
+      "Szpony (liczone jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Lot (10)",
+      "Przechodzenie przez Zasłony",
+      "Zwiadowcy",
+      "Harcownicy",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Herdstone",
@@ -694,7 +977,11 @@
     ],
     "specialRules": [],
     "magicLores": null,
-    "id": "herdstone"
+    "id": "herdstone",
+    "equipment_pl": [
+      "Kamienie Stada"
+    ],
+    "specialRules_pl": []
   },
   {
     "name": "Jabberslythe",
@@ -730,7 +1017,25 @@
       "Terror"
     ],
     "magicLores": null,
-    "id": "jabberslythe"
+    "id": "jabberslythe",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Monstrualne stworzenie",
+    "equipment_pl": [
+      "Złowrogie szpony",
+      "Śliski jęzor",
+      "Łuskowata skóra (liczona jako ciężka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Lot (9)",
+      "Duży Cel",
+      "Obłędna Aura",
+      "Trujące Ataki",
+      "Tryskająca Żółć Krwi",
+      "Zdeptanie (D3)",
+      "Szybki Krok",
+      "Groza"
+    ]
   },
   {
     "name": "Kralmaw, the Prophet of Ruin",
@@ -766,7 +1071,22 @@
       "Dark Magic",
       "Lore of Primal Magic"
     ],
-    "id": "kralmaw-the-prophet-of-ruin"
+    "id": "kralmaw-the-prophet-of-ruin",
+    "unitCategory_pl": "Nazwana postać",
+    "troopType_pl": "Regularna piechota, Nazwana postać",
+    "equipment_pl": [
+      "Broń ręczna",
+      "Ponury Totem (Kostur Bray)"
+    ],
+    "specialRules_pl": [
+      "Wgląd w Przyszłość",
+      "Spojrzenie Bogów",
+      "Szyderczy Duch",
+      "Lora Bestii",
+      "Znak Chaosu Niepodzielonego",
+      "Pierwotna Furia",
+      "Gromada"
+    ]
   },
   {
     "name": "Minotaur",
@@ -803,7 +1123,26 @@
       "Warband"
     ],
     "magicLores": null,
-    "id": "minotaur"
+    "id": "minotaur",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Monstrualna piechota",
+    "equipment_pl": [
+      "Broń ręczna",
+      "Lekka zbroja"
+    ],
+    "specialRules_pl": [
+      "Krwawa Chciwość",
+      "Krwawy Szał",
+      "Bykorożce",
+      "Zwarty Szyk",
+      "Strach",
+      "Rozdzieracz Wrogów",
+      "Uderzenia Impetu (1)",
+      "Znak Chaosu Niepodzielonego",
+      "Zbieranina",
+      "Pierwotna Furia",
+      "Gromada"
+    ]
   },
   {
     "name": "Bloodkine",
@@ -825,7 +1164,10 @@
     "equipment": [],
     "specialRules": [],
     "magicLores": null,
-    "id": "bloodkine"
+    "id": "bloodkine",
+    "unitCategory_pl": "Czempion",
+    "equipment_pl": [],
+    "specialRules_pl": []
   },
   {
     "name": "Preyton",
@@ -859,7 +1201,23 @@
       "Terror"
     ],
     "magicLores": null,
-    "id": "preyton"
+    "id": "preyton",
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Monstrualne stworzenie",
+    "equipment_pl": [
+      "Szpony i kły (liczone jako broń ręczna)",
+      "Skręcone poroże",
+      "Łuskowata skóra (liczona jako ciężka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Korona z Rogów",
+      "Niekończąca się Złośliwość",
+      "Lot (10)",
+      "Uderzenia Impetu (D3)",
+      "Duży Cel",
+      "Groza"
+    ]
   },
   {
     "name": "Primal Warherd – Gor",
@@ -896,7 +1254,26 @@
       "Warband"
     ],
     "magicLores": null,
-    "id": "primal-warherd-gor"
+    "id": "primal-warherd-gor",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna piechota",
+    "equipment_pl": [
+      "Gory: broń ręczna",
+      "Ungory: broń ręczna i tarcze"
+    ],
+    "specialRules_pl": [
+      "Bestialska Szarża (tylko Gors)",
+      "Krwawy Szał",
+      "Zwarty Szyk",
+      "Horda",
+      "Impet",
+      "Znak Chaosu Niepodzielonego",
+      "Mieszana Jednostka",
+      "Zbieranina*",
+      "Przechodzenie przez Zasłony",
+      "Pierwotna Furia",
+      "Gromada"
+    ]
   },
   {
     "name": "Primal Warherd – Ungor",
@@ -918,7 +1295,11 @@
     "equipment": [],
     "specialRules": [],
     "magicLores": null,
-    "id": "primal-warherd-ungor"
+    "id": "primal-warherd-ungor",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna piechota",
+    "equipment_pl": [],
+    "specialRules_pl": []
   },
   {
     "name": "Primal Warherd – Foe-render",
@@ -940,7 +1321,10 @@
     "equipment": [],
     "specialRules": [],
     "magicLores": null,
-    "id": "primal-warherd-foe-render"
+    "id": "primal-warherd-foe-render",
+    "unitCategory_pl": "Czempion",
+    "equipment_pl": [],
+    "specialRules_pl": []
   },
   {
     "name": "Primal Warhound",
@@ -971,7 +1355,20 @@
       "Warband"
     ],
     "magicLores": null,
-    "id": "primal-warhound"
+    "id": "primal-warhound",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Bestia wojenna",
+    "equipment_pl": [
+      "Szpony i kły (liczone jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Horda",
+      "Zbieranina",
+      "Przechodzenie przez Zasłony",
+      "Szybki Krok",
+      "Gromada"
+    ]
   },
   {
     "name": "Razorgor Chariot",
@@ -1007,7 +1404,25 @@
       "Razor Tusks"
     ],
     "magicLores": null,
-    "id": "razorgor-chariot"
+    "id": "razorgor-chariot",
+    "unitCategory_pl": "Rydwan",
+    "troopType_pl": "Ciężki rydwan",
+    "equipment_pl": [
+      "Załoga Bestigorów: broń ręczna i broń wielka",
+      "Załoga Gorów: broń ręczna i włócznia kawaleryjska",
+      "Razorgor: kły (liczone jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Przebicie Zbroi (1 tylko Razorgor)",
+      "Zwarty Szyk",
+      "Strach",
+      "Pierwsza Szarża",
+      "Rozdzieracz Wrogów (tylko Razorgor)",
+      "Uderzenia Impetu (D6+2)",
+      "Znak Chaosu Niepodzielonego",
+      "Pierwotna Furia",
+      "Ostre Kły"
+    ]
   },
   {
     "name": "Bestigor Crew (x1)",
@@ -1029,7 +1444,10 @@
     "equipment": [],
     "specialRules": [],
     "magicLores": null,
-    "id": "bestigor-crew-x1-"
+    "id": "bestigor-crew-x1-",
+    "unitCategory_pl": "Załoga",
+    "equipment_pl": [],
+    "specialRules_pl": []
   },
   {
     "name": "Gor Crew (x1)",
@@ -1051,7 +1469,10 @@
     "equipment": [],
     "specialRules": [],
     "magicLores": null,
-    "id": "gor-crew-x1-"
+    "id": "gor-crew-x1-",
+    "unitCategory_pl": "Załoga",
+    "equipment_pl": [],
+    "specialRules_pl": []
   },
   {
     "name": "Razorgor (x1)",
@@ -1073,7 +1494,10 @@
     "equipment": [],
     "specialRules": [],
     "magicLores": null,
-    "id": "razorgor-x1-"
+    "id": "razorgor-x1-",
+    "unitCategory_pl": "Bestia",
+    "equipment_pl": [],
+    "specialRules_pl": []
   },
   {
     "name": "Razorgor",
@@ -1108,7 +1532,24 @@
       "Swiftstride"
     ],
     "magicLores": null,
-    "id": "razorgor"
+    "id": "razorgor",
+    "unitCategory_pl": "Kawaleria",
+    "troopType_pl": "Bestia wojenna",
+    "equipment_pl": [
+      "Kły (liczone jako broń ręczna)",
+      "Zrogowaciała skóra (liczona jako lekka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Przebicie Zbroi (1)",
+      "Strach",
+      "Rozdzieracz Wrogów",
+      "Uderzenia Impetu (D3)",
+      "Samotnik",
+      "Luźny Szyk",
+      "Pierwotna Furia",
+      "Ostre Kły",
+      "Szybki Krok"
+    ]
   },
   {
     "name": "Tuskgor Chariot",
@@ -1142,7 +1583,23 @@
       "Warband"
     ],
     "magicLores": null,
-    "id": "tuskgor-chariot"
+    "id": "tuskgor-chariot",
+    "unitCategory_pl": "Rydwan",
+    "troopType_pl": "Ciężki rydwan",
+    "equipment_pl": [
+      "Załoga Bestigorów: broń ręczna i broń wielka",
+      "Załoga Gorów: broń ręczna i włócznia kawaleryjska",
+      "Tuskgory: kły (liczone jako broń ręczna)"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Pierwsza Szarża",
+      "Uderzenia Impetu (D6+1)",
+      "Znak Chaosu Niepodzielonego",
+      "Pierwotna Furia",
+      "Ostre Kły",
+      "Gromada"
+    ]
   },
   {
     "name": "Tuskgor (x2)",
@@ -1164,7 +1621,10 @@
     "equipment": [],
     "specialRules": [],
     "magicLores": null,
-    "id": "tuskgor-x2-"
+    "id": "tuskgor-x2-",
+    "unitCategory_pl": "Bestia",
+    "equipment_pl": [],
+    "specialRules_pl": []
   },
   {
     "name": "Ungor",
@@ -1198,7 +1658,23 @@
       "Warband"
     ],
     "magicLores": null,
-    "id": "ungor"
+    "id": "ungor",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna piechota",
+    "equipment_pl": [
+      "Broń ręczna",
+      "Tarcze"
+    ],
+    "specialRules_pl": [
+      "Biegacze rydwanów",
+      "Horda",
+      "Znak Chaosu Niepodzielonego",
+      "Przechodzenie przez Zasłony",
+      "Luźny Szyk",
+      "Pierwotna Furia",
+      "Harcownicy",
+      "Gromada"
+    ]
   },
   {
     "name": "Half-horn",
@@ -1220,7 +1696,10 @@
     "equipment": [],
     "specialRules": [],
     "magicLores": null,
-    "id": "half-horn"
+    "id": "half-horn",
+    "unitCategory_pl": "Czempion",
+    "equipment_pl": [],
+    "specialRules_pl": []
   },
   {
     "name": "Ungor Ravager",
@@ -1254,7 +1733,23 @@
       "Warband"
     ],
     "magicLores": null,
-    "id": "ungor-ravager"
+    "id": "ungor-ravager",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna piechota",
+    "equipment_pl": [
+      "Broń ręczna",
+      "Oszczepy do rzucania",
+      "Tarcze"
+    ],
+    "specialRules_pl": [
+      "Zwarty Szyk",
+      "Horda",
+      "Przywódca Stada",
+      "Przechodzenie przez Zasłony",
+      "Pierwotna Furia",
+      "Szybki Krok",
+      "Gromada"
+    ]
   },
   {
     "name": "Wargor",
@@ -1286,7 +1781,21 @@
       "Warband"
     ],
     "magicLores": null,
-    "id": "wargor"
+    "id": "wargor",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Ciężka piechota, postać",
+    "equipment_pl": [
+      "Broń ręczna"
+    ],
+    "specialRules_pl": [
+      "Krwawy Szał",
+      "Róg Bray (tylko Generał)",
+      "Rozdzieracz Wrogów",
+      "Spojrzenie Bogów",
+      "Znak Chaosu Niepodzielonego",
+      "Pierwotna Furia",
+      "Gromada"
+    ]
   },
   {
     "name": "Warhoof",
@@ -1320,7 +1829,23 @@
       "Warband"
     ],
     "magicLores": null,
-    "id": "warhoof"
+    "id": "warhoof",
+    "unitCategory_pl": "Postać",
+    "troopType_pl": "Lekka Kawaleria, postać",
+    "equipment_pl": [
+      "Broń ręczna"
+    ],
+    "specialRules_pl": [
+      "Pijaństwo",
+      "Szybka Kawaleria",
+      "Spojrzenie Bogów",
+      "Znak Chaosu Niepodzielonego",
+      "Przechodzenie przez Zasłony",
+      "Pierwotna Furia",
+      "Zdeptanie (1)",
+      "Szybki Krok",
+      "Gromada"
+    ]
   },
   {
     "name": "Warped Gor",
@@ -1355,7 +1880,24 @@
       "Warband"
     ],
     "magicLores": null,
-    "id": "warped-gor"
+    "id": "warped-gor",
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Regularna piechota",
+    "equipment_pl": [
+      "Broń ręczna"
+    ],
+    "specialRules_pl": [
+      "Opancerzona Skóra (1)",
+      "Błogosławieństwo Chaosu",
+      "Krwawy Szał",
+      "Znak Chaosu Niepodzielonego",
+      "Przechodzenie przez Zasłony",
+      "Luźny Szyk",
+      "Pierwotna Furia",
+      "Losowe Ataki",
+      "Nieugięty",
+      "Gromada"
+    ]
   },
   {
     "name": "Splice-horn",
@@ -1377,6 +1919,9 @@
     "equipment": [],
     "specialRules": [],
     "magicLores": null,
-    "id": "splice-horn"
+    "id": "splice-horn",
+    "unitCategory_pl": "Czempion",
+    "equipment_pl": [],
+    "specialRules_pl": []
   }
 ]

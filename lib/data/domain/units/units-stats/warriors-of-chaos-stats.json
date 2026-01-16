@@ -41,6 +41,19 @@
         "chaos-chariot",
         "gorebeast-chariot",
         "chosen-chaos-chariot"
+      ],
+      "unitCategory_pl": "Postać",
+      "troopType_pl": "Ciężka Piechota, Postać",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Ciężka Zbroja"
+      ],
+      "specialRules_pl": [
+        "Zbroja Chaosu (5+)",
+        "Zaklęta Broń",
+        "Spojrzenie Bogów",
+        "Znak Chaosu Niepodzielonego",
+        "Bojowy Okrzyk"
       ]
     },
     {
@@ -100,7 +113,20 @@
           "Ld": null
         }
       ],
-      "id": "chaos-chariot"
+      "id": "chaos-chariot",
+      "unitCategory_pl": "Rydwan",
+      "troopType_pl": "Ciężki Rydwan",
+      "equipment_pl": [
+        "Chaos Charioteers: Broń Ręczna, halberds",
+        "Chaos Steeds: Iron-shod hooves (counts jako a broń ręczna)"
+      ],
+      "specialRules_pl": [
+        "Zwarty Szyk",
+        "Zaklęta Broń",
+        "Pierwsza Szarża",
+        "Uderzenia Impetu (D6+1)",
+        "Znak Chaosu Niepodzielonego"
+      ]
     },
     {
       "name": "Chaos Dragon",
@@ -140,7 +166,25 @@
           "Ld": null
         }
       ],
-      "id": "chaos-dragon"
+      "id": "chaos-dragon",
+      "unitCategory_pl": "Potwór",
+      "troopType_pl": "Behemot",
+      "equipment_pl": [
+        "Złowrogie Szpony",
+        "Mroczny Ognisty of Chaos",
+        "Fumes of Contagion",
+        "Draconic scales (counts jako pełna zbroja płytowa)"
+      ],
+      "specialRules_pl": [
+        "Zwarty Szyk",
+        "Lot (10)",
+        "Impet",
+        "Duży Cel",
+        "Zdeptanie (D6)",
+        "Szybki Krok",
+        "Groza",
+        "Two-headed Smok"
+      ]
     },
     {
       "name": "Chaos Knights",
@@ -199,6 +243,20 @@
           "A": 1,
           "Ld": null
         }
+      ],
+      "unitCategory_pl": "Kawaleria",
+      "troopType_pl": "Ciężka Kawaleria",
+      "equipment_pl": [
+        "Chaos Rycerze: Broń Ręczna, ciężka zbroja, shields",
+        "Barded Chaos Steed: Iron-shod hooves (counts jako a broń ręczna)"
+      ],
+      "specialRules_pl": [
+        "Zwarty Szyk",
+        "Przeciwnatarcie",
+        "Zaklęta Broń",
+        "Pierwsza Szarża",
+        "Znak Chaosu Niepodzielonego",
+        "Szybki Krok"
       ]
     },
     {
@@ -242,6 +300,19 @@
         "gorebeast-chariot",
         "chosen-chaos-chariot",
         "chaos-dragon"
+      ],
+      "unitCategory_pl": "Postać",
+      "troopType_pl": "Ciężka Piechota, Postać",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Pełna Zbroja Płytowa"
+      ],
+      "specialRules_pl": [
+        "Zbroja Chaosu (5+)",
+        "Zaklęta Broń",
+        "Spojrzenie Bogów",
+        "Znak Chaosu Niepodzielonego",
+        "Bojowy Okrzyk"
       ]
     },
     {
@@ -286,6 +357,17 @@
           "A": 2,
           "Ld": 7
         }
+      ],
+      "unitCategory_pl": "Piechota",
+      "troopType_pl": "Regularna Piechota",
+      "equipment_pl": [
+        "Broń Ręczna"
+      ],
+      "specialRules_pl": [
+        "Zwarty Szyk",
+        "Znak Chaosu Niepodzielonego",
+        "Shieldwall",
+        "Gromada"
       ]
     },
     {
@@ -333,6 +415,20 @@
           "A": 4,
           "Ld": 7
         }
+      ],
+      "unitCategory_pl": "Piechota",
+      "troopType_pl": "Monstrualna Piechota",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Ciężka Zbroja"
+      ],
+      "specialRules_pl": [
+        "Przebicie Zbroi (1)",
+        "Zwarty Szyk",
+        "Strach",
+        "Uderzenia Impetu (1)",
+        "Znak Chaosu Niepodzielonego",
+        "Ogr Charge"
       ]
     },
     {
@@ -370,6 +466,22 @@
           "A": "D6",
           "Ld": 10
         }
+      ],
+      "unitCategory_pl": "Piechota",
+      "troopType_pl": "Monstrualna Piechota",
+      "equipment_pl": [
+        "Flailing appendages (counts jako broń ręczna)",
+        "Scaly skin (counts jako ciężka zbroja)"
+      ],
+      "specialRules_pl": [
+        "Przebicie Zbroi (2)",
+        "Strach",
+        "Odporność Na Psychologię",
+        "Luźny Szyk",
+        "Losowe Ataki",
+        "Random Movement",
+        "Zdeptanie (1)",
+        "Niezłomni"
       ]
     },
     {
@@ -403,7 +515,18 @@
           "Ld": null
         }
       ],
-      "id": "chaos-steed"
+      "id": "chaos-steed",
+      "unitCategory_pl": "Wierzchowiec",
+      "troopType_pl": "Ciężka Kawaleria",
+      "equipment_pl": [
+        "Iron-shod hooves (counts jako a broń ręczna)",
+        "Barding"
+      ],
+      "specialRules_pl": [
+        "Przeciwnatarcie",
+        "Pierwsza Szarża",
+        "Szybki Krok"
+      ]
     },
     {
       "name": "Chaos Trolls",
@@ -440,6 +563,22 @@
           "A": 3,
           "Ld": 4
         }
+      ],
+      "unitCategory_pl": "Piechota",
+      "troopType_pl": "Monstrualna Piechota",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Troll vomit",
+        "Calloused hides (counts jako lekka zbroja)"
+      ],
+      "specialRules_pl": [
+        "Przebicie Zbroi (1)",
+        "Zwarty Szyk",
+        "Strach",
+        "Łatwopalny",
+        "Zbieranina",
+        "Regeneracja (5+)",
+        "Stupidity"
       ]
     },
     {
@@ -474,6 +613,19 @@
           "A": 1,
           "Ld": 8
         }
+      ],
+      "unitCategory_pl": "Kawaleria",
+      "troopType_pl": "Regularna Piechota, Postać",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Ciężka Zbroja"
+      ],
+      "specialRules_pl": [
+        "Handler",
+        "Samotnik",
+        "Znak Chaosu Niepodzielonego",
+        "Przechodzenie Przez Zasłony",
+        "Awangarda"
       ]
     },
     {
@@ -506,6 +658,17 @@
           "A": 1,
           "Ld": 6
         }
+      ],
+      "unitCategory_pl": "Kawaleria",
+      "troopType_pl": "Bestia Wojenna",
+      "equipment_pl": [
+        "Claws i fangs (counts jako a broń ręczna)"
+      ],
+      "specialRules_pl": [
+        "Samotnik",
+        "Przechodzenie Przez Zasłony",
+        "Luźny Szyk",
+        "Szybki Krok"
       ]
     },
     {
@@ -550,6 +713,17 @@
           "A": 2,
           "Ld": 8
         }
+      ],
+      "unitCategory_pl": "Piechota",
+      "troopType_pl": "Ciężka Piechota",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Ciężka Zbroja"
+      ],
+      "specialRules_pl": [
+        "Zwarty Szyk",
+        "Zaklęta Broń",
+        "Znak Chaosu Niepodzielonego"
       ]
     },
     {
@@ -586,6 +760,21 @@
           "A": 6,
           "Ld": 5
         }
+      ],
+      "unitCategory_pl": "Potwór",
+      "troopType_pl": "Monstrualne Stworzenie",
+      "equipment_pl": [
+        "Claws i fangs (counts jako a broń ręczna)",
+        "Scaly skin (counts jako ciężka zbroja)"
+      ],
+      "specialRules_pl": [
+        "Przebicie Zbroi (2, claws i fangs only)",
+        "Zwarty Szyk",
+        "Lot (10)",
+        "Duży Cel",
+        "Zdeptanie (1)",
+        "Szybki Krok",
+        "Groza"
       ]
     },
     {
@@ -646,7 +835,21 @@
           "Ld": null
         }
       ],
-      "id": "chosen-chaos-chariot"
+      "id": "chosen-chaos-chariot",
+      "unitCategory_pl": "Rydwan",
+      "troopType_pl": "Ciężki Rydwan",
+      "equipment_pl": [
+        "Chosen Charioteers: Broń Ręczna, halberds",
+        "Chaos Steeds: Iron-shod hooves (counts jako broń ręczna)"
+      ],
+      "specialRules_pl": [
+        "Zwarty Szyk",
+        "Przeciwnatarcie",
+        "Zaklęta Broń",
+        "Pierwsza Szarża",
+        "Uderzenia Impetu (D6+1, Rydwan only)",
+        "Znak Chaosu Niepodzielonego"
+      ]
     },
     {
       "name": "Chosen Chaos Knights",
@@ -707,6 +910,22 @@
           "A": 1,
           "Ld": null
         }
+      ],
+      "unitCategory_pl": "Kawaleria",
+      "troopType_pl": "Ciężka Kawaleria",
+      "equipment_pl": [
+        "Chaos Rycerze: Broń Ręczna, ciężka zbroja, shields",
+        "Barded Chaos Steed: Iron-shod hooves (counts jako a broń ręczna)"
+      ],
+      "specialRules_pl": [
+        "Zbroja Chaosu (6+)",
+        "Zwarty Szyk",
+        "Przeciwnatarcie",
+        "Zaklęta Broń",
+        "Pierwsza Szarża",
+        "Znak Chaosu Niepodzielonego",
+        "Nieugięty",
+        "Szybki Krok"
       ]
     },
     {
@@ -753,6 +972,19 @@
           "A": 3,
           "Ld": 9
         }
+      ],
+      "unitCategory_pl": "Piechota",
+      "troopType_pl": "Ciężka Piechota",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Ciężka Zbroja"
+      ],
+      "specialRules_pl": [
+        "Zbroja Chaosu (6+)",
+        "Zwarty Szyk",
+        "Zaklęta Broń",
+        "Znak Chaosu Niepodzielonego",
+        "Nieugięty"
       ]
     },
     {
@@ -798,6 +1030,25 @@
           "A": 5,
           "Ld": 9
         }
+      ],
+      "unitCategory_pl": "Postać",
+      "troopType_pl": "Monstrualna Piechota, Postać",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Lekka Zbroja"
+      ],
+      "specialRules_pl": [
+        "Zbroja Chaosu (4+)",
+        "Zaklęta Broń",
+        "Strach",
+        "Spojrzenie Bogów",
+        "Odporność Na Psychologię",
+        "Lore of Chaos",
+        "Znak Chaosu Niepodzielonego",
+        "Regeneracja (5+)",
+        "Niezłomni",
+        "Unstable",
+        "Warp-spawned"
       ]
     },
     {
@@ -833,7 +1084,20 @@
           "Ld": null
         }
       ],
-      "id": "daemonic-mount"
+      "id": "daemonic-mount",
+      "unitCategory_pl": "Wierzchowiec",
+      "troopType_pl": "Monstrualna Kawaleria",
+      "equipment_pl": [
+        "Daemonic hooves (counts jako a broń ręczna)"
+      ],
+      "specialRules_pl": [
+        "Przebicie Zbroi (1, Daemonic Wierzchowiec only)",
+        "Strach",
+        "Magiczne Ataki",
+        "Znak Chaosu (jako jeździec)",
+        "Zdeptanie (1)",
+        "Szybki Krok"
+      ]
     },
     {
       "name": "Exalted Champion",
@@ -876,6 +1140,19 @@
         "gorebeast-chariot",
         "chosen-chaos-chariot",
         "chaos-dragon"
+      ],
+      "unitCategory_pl": "Postać",
+      "troopType_pl": "Ciężka Piechota, Postać",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Ciężka Zbroja"
+      ],
+      "specialRules_pl": [
+        "Zbroja Chaosu (5+)",
+        "Zaklęta Broń",
+        "Spojrzenie Bogów",
+        "Znak Chaosu Niepodzielonego",
+        "Bojowy Okrzyk"
       ]
     },
     {
@@ -920,6 +1197,19 @@
         "chaos-steed",
         "daemonic-mount",
         "chaos-chariot"
+      ],
+      "unitCategory_pl": "Postać",
+      "troopType_pl": "Ciężka Piechota, Postać",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Lekka Zbroja"
+      ],
+      "specialRules_pl": [
+        "Zbroja Chaosu (5+)",
+        "Zaklęta Broń",
+        "Spojrzenie Bogów",
+        "Lore of Chaos",
+        "Znak Chaosu Niepodzielonego"
       ]
     },
     {
@@ -959,6 +1249,24 @@
           "A": "D3",
           "Ld": 8
         }
+      ],
+      "unitCategory_pl": "Piechota",
+      "troopType_pl": "Ciężka Piechota",
+      "equipment_pl": [
+        "Mutated broń (counts jako broń ręczna)",
+        "Ciężka Zbroja"
+      ],
+      "specialRules_pl": [
+        "Zbroja Chaosu (5+)",
+        "Zaklęta Broń",
+        "Wściekła Szarża",
+        "Odporność Na Psychologię",
+        "Impet",
+        "Samotnik",
+        "Luźny Szyk",
+        "Rampant Mutation",
+        "Losowe Ataki",
+        "Nieugięty"
       ]
     },
     {
@@ -1000,6 +1308,26 @@
           "A": 4,
           "Ld": 9
         }
+      ],
+      "unitCategory_pl": "Nazwana Postać",
+      "troopType_pl": "Ciężka Piechota, Nazwana Postać",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Storm's Wrath",
+        "Pełna Zbroja Płytowa",
+        "Tarcza"
+      ],
+      "specialRules_pl": [
+        "Zasadzka",
+        "Chainmaker",
+        "Zbroja Chaosu (5+)",
+        "Commander & Kapitan",
+        "Zaklęta Broń",
+        "Spojrzenie Bogów",
+        "Uderzenia Impetu (1)",
+        "Znak Chaosu Niepodzielonego",
+        "Peerless Raider",
+        "Bojowy Okrzyk"
       ]
     },
     {
@@ -1046,6 +1374,28 @@
           "A": 6,
           "Ld": 9
         }
+      ],
+      "unitCategory_pl": "Nazwana Postać",
+      "troopType_pl": "Behemot, Nazwana Postać",
+      "equipment_pl": [
+        "Złowrogie Szpony",
+        "Mroczny Ognisty of Chaos",
+        "Fumes of Contagion",
+        "Draconic scales (counts jako pełna zbroja płytowa)"
+      ],
+      "specialRules_pl": [
+        "Opancerzona Skóra (1)",
+        "Breath of Change",
+        "Zwarty Szyk",
+        "Lot (10)",
+        "Duży Cel",
+        "Mark of Tzeentch",
+        "Regeneracja (5+)",
+        "Spirit of Galrauch",
+        "Zdeptanie (D6)",
+        "Szybki Krok",
+        "Groza",
+        "Two-headed Smok"
       ]
     },
     {
@@ -1087,6 +1437,26 @@
           "A": "D6+1",
           "Ld": 10
         }
+      ],
+      "unitCategory_pl": "Potwór",
+      "troopType_pl": "Behemot",
+      "equipment_pl": [
+        "Slashing talons",
+        "Gnashing maws",
+        "Scaly skin (counts jako ciężka zbroja)"
+      ],
+      "specialRules_pl": [
+        "Przebicie Zbroi (2)",
+        "Zwarty Szyk",
+        "Pierwsza Szarża",
+        "Odporność Na Psychologię",
+        "Duży Cel",
+        "Losowe Ataki",
+        "Random Movement",
+        "Zdeptanie (D6)",
+        "Groza",
+        "Dreeeewno!",
+        "Niezłomni"
       ]
     },
     {
@@ -1148,7 +1518,22 @@
           "Ld": null
         }
       ],
-      "id": "gorebeast-chariot"
+      "id": "gorebeast-chariot",
+      "unitCategory_pl": "Rydwan",
+      "troopType_pl": "Ciężki Rydwan",
+      "equipment_pl": [
+        "Chaos Charioteers: Broń Ręczna, halberds",
+        "Gorebeast: Goring horns (counts jako a broń ręczna)"
+      ],
+      "specialRules_pl": [
+        "Przebicie Zbroi (1, Gorebeast only)",
+        "Zwarty Szyk",
+        "Zaklęta Broń",
+        "Pierwsza Szarża",
+        "Uderzenia Impetu (D6+2)",
+        "Killing Blow (Gorebeast only)",
+        "Znak Chaosu Niepodzielonego"
+      ]
     },
     {
       "name": "Hellcannon",
@@ -1201,6 +1586,26 @@
           "A": 1,
           "Ld": 9
         }
+      ],
+      "unitCategory_pl": "Potwór",
+      "troopType_pl": "Behemot",
+      "equipment_pl": [
+        "Hellcannon: Doomfire, Broń Ręczna",
+        "Chaos Krasnolud Handlers: Broń Ręczna"
+      ],
+      "specialRules_pl": [
+        "Przebicie Zbroi (1)",
+        "Caged Fury",
+        "Zwarty Szyk",
+        "Zaklęta Broń",
+        "Odporność Na Psychologię",
+        "Uderzenia Impetu (D6)",
+        "Duży Cel",
+        "Potwór Handlers",
+        "Regeneracja (6+)",
+        "Groza",
+        "Niezłomni",
+        "Warp-spawned"
       ]
     },
     {
@@ -1238,7 +1643,22 @@
           "Ld": null
         }
       ],
-      "id": "manticore"
+      "id": "manticore",
+      "unitCategory_pl": "Potwór",
+      "troopType_pl": "Monstrualne Stworzenie",
+      "equipment_pl": [
+        "Złowrogie Szpony",
+        "Scaly skin (counts jako ciężka zbroja)"
+      ],
+      "specialRules_pl": [
+        "Zwarty Szyk",
+        "Lot (9)",
+        "Duży Cel",
+        "Zdeptanie (D3)",
+        "Szybki Krok",
+        "Groza",
+        "Wilful Bestia"
+      ]
     },
     {
       "name": "Marauder Horsemen",
@@ -1298,6 +1718,21 @@
           "A": 1,
           "Ld": null
         }
+      ],
+      "unitCategory_pl": "Kawaleria",
+      "troopType_pl": "Lekka Kawaleria",
+      "equipment_pl": [
+        "Marauder Horsemen: Broń Ręczna, lekka zbroja",
+        "Rumak Bojowy: Iron-shod hooves (counts jako a broń ręczna)"
+      ],
+      "specialRules_pl": [
+        "Szybka Kawaleria",
+        "Ogień I Odwrót",
+        "Znak Chaosu Niepodzielonego",
+        "Luźny Szyk",
+        "Harcownicy",
+        "Szybki Krok",
+        "Gromada"
       ]
     },
     {
@@ -1346,6 +1781,21 @@
           "A": 2,
           "Ld": 8
         }
+      ],
+      "unitCategory_pl": "Piechota",
+      "troopType_pl": "Regularna Piechota",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Lekka Zbroja"
+      ],
+      "specialRules_pl": [
+        "Szał",
+        "Znak Chaosu Niepodzielonego",
+        "Przechodzenie Przez Zasłony",
+        "Luźny Szyk",
+        "Relentless Wojownicy",
+        "Harcownicy",
+        "Gromada"
       ]
     },
     {
@@ -1384,6 +1834,20 @@
       ],
       "mountIds": [
         "warhorse-warriors-of-chaos"
+      ],
+      "unitCategory_pl": "Postać",
+      "troopType_pl": "Regularna Piechota, Postać",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Lekka Zbroja"
+      ],
+      "specialRules_pl": [
+        "Zasadzka",
+        "Zbroja Chaosu (6+)",
+        "Spojrzenie Bogów",
+        "Znak Chaosu Niepodzielonego",
+        "Bojowy Okrzyk",
+        "Gromada"
       ]
     },
     {
@@ -1443,6 +1907,20 @@
           "A": 1,
           "Ld": null
         }
+      ],
+      "unitCategory_pl": "Kawaleria",
+      "troopType_pl": "Lekka Kawaleria",
+      "equipment_pl": [
+        "Chaos Rycerze: Broń Ręczna, lekka zbroja",
+        "Rumak Bojowy: Iron-shod hooves (counts jako broń ręczna)"
+      ],
+      "specialRules_pl": [
+        "Zwarty Szyk",
+        "Przeciwnatarcie",
+        "Wściekła Szarża",
+        "Znak Chaosu Niepodzielonego",
+        "Szybki Krok",
+        "Gromada"
       ]
     },
     {
@@ -1492,6 +1970,22 @@
           "A": 4,
           "Ld": 7
         }
+      ],
+      "unitCategory_pl": "Piechota",
+      "troopType_pl": "Monstrualna Piechota",
+      "equipment_pl": [
+        "Claws i fangs (counts jako broń ręczna)"
+      ],
+      "specialRules_pl": [
+        "Krwawy Rage",
+        "Strach",
+        "Znak Chaosu Niepodzielonego",
+        "Luźny Szyk",
+        "Pierwotna Furia",
+        "Regeneracja (5+)",
+        "Harcownicy",
+        "Szybki Krok",
+        "Warped Form"
       ]
     },
     {
@@ -1538,6 +2032,19 @@
         "chaos-chariot",
         "manticore",
         "chaos-dragon"
+      ],
+      "unitCategory_pl": "Postać",
+      "troopType_pl": "Ciężka Piechota, Postać",
+      "equipment_pl": [
+        "Broń Ręczna",
+        "Ciężka Zbroja"
+      ],
+      "specialRules_pl": [
+        "Zbroja Chaosu (5+)",
+        "Zaklęta Broń",
+        "Spojrzenie Bogów",
+        "Lore of Chaos",
+        "Znak Chaosu Niepodzielonego"
       ]
     },
     {
@@ -1570,7 +2077,17 @@
           "Ld": null
         }
       ],
-      "id": "warhorse-warriors-of-chaos"
+      "id": "warhorse-warriors-of-chaos",
+      "unitCategory_pl": "Wierzchowiec",
+      "troopType_pl": "Lekka Kawaleria",
+      "equipment_pl": [
+        "Iron-shod hooves (counts jako a broń ręczna)"
+      ],
+      "specialRules_pl": [
+        "Przeciwnatarcie",
+        "Szybka Kawaleria",
+        "Szybki Krok"
+      ]
     },
     {
       "name": "Warpfire Dragon",
@@ -1619,6 +2136,29 @@
           "A": 5,
           "Ld": 8
         }
+      ],
+      "unitCategory_pl": "Potwór",
+      "troopType_pl": "Behemot",
+      "equipment_pl": [
+        "Złowrogie Szpony",
+        "Warpfire Blast",
+        "Draconic scales (counts jako pełna zbroja płytowa)"
+      ],
+      "specialRules_pl": [
+        "Zwarty Szyk",
+        "Explosive Demise",
+        "Ognisty & Chaos",
+        "Lot (10)",
+        "Duży Cel",
+        "Lore of Chaos",
+        "Magiczne Ataki",
+        "Odporność Na Magię (-2)",
+        "Znak Chaosu Niepodzielonego",
+        "Regeneracja (5+)",
+        "Zdeptanie (D6)",
+        "Szybki Krok",
+        "Groza",
+        "Warpfire Aura"
       ]
     }
   ]

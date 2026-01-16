@@ -7,7 +7,9 @@
     "baseSize": "25mm",
     "unitSize": 1,
     "armourValue": 3,
-    "equipment": "Staff, Robes",
+    "equipment": [
+      "Staff, Robes"
+    ],
     "specialRules": [
       "Wizard",
       "Magic Resistance"
@@ -18,7 +20,16 @@
       "Life"
     ],
     "profiles": [],
-    "id": "archmage"
+    "id": "archmage",
+    "unitCategory_pl": "Bohater",
+    "troopType_pl": "Piechota",
+    "specialRules_pl": [
+      "Czarodziej",
+      "Odporność Na Magię"
+    ],
+    "equipment_pl": [
+      "Staff, Robes"
+    ]
   },
   {
     "name": "Prince",
@@ -28,13 +39,24 @@
     "baseSize": "25mm",
     "unitSize": 1,
     "armourValue": 4,
-    "equipment": "Sword, Shield, Armour",
+    "equipment": [
+      "Sword, Shield, Armour"
+    ],
     "specialRules": [
       "Leadership +1",
       "Inspiring"
     ],
     "profiles": [],
-    "id": "prince"
+    "id": "prince",
+    "unitCategory_pl": "Bohater",
+    "troopType_pl": "Piechota",
+    "specialRules_pl": [
+      "Leadership +1",
+      "Inspiring"
+    ],
+    "equipment_pl": [
+      "Sword, Shield, Zbroja"
+    ]
   },
   {
     "name": "Silver Helms",
@@ -44,13 +66,24 @@
     "baseSize": "25mm",
     "unitSize": 10,
     "armourValue": 5,
-    "equipment": "Lances, Swords, Armour",
+    "equipment": [
+      "Lances, Swords, Armour"
+    ],
     "specialRules": [
       "Swiftstride",
       "Shield"
     ],
     "profiles": [],
-    "id": "silver-helms"
+    "id": "silver-helms",
+    "unitCategory_pl": "Podstawowy",
+    "troopType_pl": "Kawaleria",
+    "specialRules_pl": [
+      "Szybki Krok",
+      "Tarcza"
+    ],
+    "equipment_pl": [
+      "Lances, Swords, Zbroja"
+    ]
   },
   {
     "name": "Spearmen",
@@ -60,12 +93,22 @@
     "baseSize": "25mm",
     "unitSize": 20,
     "armourValue": 3,
-    "equipment": "Spears, Shields",
+    "equipment": [
+      "Spears, Shields"
+    ],
     "specialRules": [
       "Shieldwall"
     ],
     "profiles": [],
-    "id": "spearmen"
+    "id": "spearmen",
+    "unitCategory_pl": "Podstawowy",
+    "troopType_pl": "Piechota",
+    "specialRules_pl": [
+      "Shieldwall"
+    ],
+    "equipment_pl": [
+      "Spears, Shields"
+    ]
   },
   {
     "name": "Swordmasters of Hoeth",
@@ -75,13 +118,24 @@
     "baseSize": "25mm",
     "unitSize": 10,
     "armourValue": 4,
-    "equipment": "Swords, Armour",
+    "equipment": [
+      "Swords, Armour"
+    ],
     "specialRules": [
       "Swiftstride",
       "Parry"
     ],
     "profiles": [],
-    "id": "swordmasters-of-hoeth"
+    "id": "swordmasters-of-hoeth",
+    "unitCategory_pl": "Specjalny",
+    "troopType_pl": "Piechota",
+    "specialRules_pl": [
+      "Szybki Krok",
+      "Parry"
+    ],
+    "equipment_pl": [
+      "Swords, Zbroja"
+    ]
   },
   {
     "name": "Phoenix Guard",
@@ -91,13 +145,24 @@
     "baseSize": "25mm",
     "unitSize": 10,
     "armourValue": 5,
-    "equipment": "Halberds, Armour",
+    "equipment": [
+      "Halberds, Armour"
+    ],
     "specialRules": [
       "Shieldwall",
       "Fearless"
     ],
     "profiles": [],
-    "id": "phoenix-guard"
+    "id": "phoenix-guard",
+    "unitCategory_pl": "Specjalny",
+    "troopType_pl": "Piechota",
+    "specialRules_pl": [
+      "Shieldwall",
+      "Fearless"
+    ],
+    "equipment_pl": [
+      "Halberds, Zbroja"
+    ]
   },
   {
     "name": "Dragon Princes",
@@ -107,13 +172,24 @@
     "baseSize": "25mm",
     "unitSize": 10,
     "armourValue": 5,
-    "equipment": "Lances, Swords, Armour",
+    "equipment": [
+      "Lances, Swords, Armour"
+    ],
     "specialRules": [
       "Swiftstride",
       "Fearless"
     ],
     "profiles": [],
-    "id": "dragon-princes"
+    "id": "dragon-princes",
+    "unitCategory_pl": "Specjalny",
+    "troopType_pl": "Kawaleria",
+    "specialRules_pl": [
+      "Szybki Krok",
+      "Fearless"
+    ],
+    "equipment_pl": [
+      "Lances, Swords, Zbroja"
+    ]
   },
   {
     "name": "Ellyrian Reavers",
@@ -123,13 +199,24 @@
     "baseSize": "25mm",
     "unitSize": 10,
     "armourValue": 3,
-    "equipment": "Bows, Swords, Light Armour",
+    "equipment": [
+      "Bows, Swords, Light Armour"
+    ],
     "specialRules": [
       "Skirmish",
       "Swiftstride"
     ],
     "profiles": [],
-    "id": "ellyrian-reavers"
+    "id": "ellyrian-reavers",
+    "unitCategory_pl": "Specjalny",
+    "troopType_pl": "Kawaleria",
+    "specialRules_pl": [
+      "Skirmish",
+      "Szybki Krok"
+    ],
+    "equipment_pl": [
+      "Bows, Swords, Lekka Zbroja"
+    ]
   },
   {
     "name": "Highborn",
@@ -139,13 +226,24 @@
     "baseSize": "25mm",
     "unitSize": 10,
     "armourValue": 4,
-    "equipment": "Swords, Shields, Armour",
+    "equipment": [
+      "Swords, Shields, Armour"
+    ],
     "specialRules": [
       "Fearless",
       "Inspiring"
     ],
     "profiles": [],
-    "id": "highborn"
+    "id": "highborn",
+    "unitCategory_pl": "Rzadki",
+    "troopType_pl": "Piechota",
+    "specialRules_pl": [
+      "Fearless",
+      "Inspiring"
+    ],
+    "equipment_pl": [
+      "Swords, Shields, Zbroja"
+    ]
   },
   {
     "name": "White Lions of Chrace",
@@ -155,13 +253,25 @@
     "baseSize": "25mm",
     "unitSize": 10,
     "armourValue": 5,
-    "equipment": "Greatswords, Armour",
+    "equipment": [
+      "Greatswords, Armour"
+    ],
     "specialRules": [
       "Fearless",
       "Swiftstride",
       "Parry"
     ],
     "profiles": [],
-    "id": "white-lions-of-chrace"
+    "id": "white-lions-of-chrace",
+    "unitCategory_pl": "Rzadki",
+    "troopType_pl": "Piechota",
+    "specialRules_pl": [
+      "Fearless",
+      "Szybki Krok",
+      "Parry"
+    ],
+    "equipment_pl": [
+      "Greatswords, Zbroja"
+    ]
   }
 ]
