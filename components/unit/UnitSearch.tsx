@@ -141,23 +141,44 @@ const UnitSearchResultBody = ({
   result: UnitSearchResult;
 }) => {
   const { line } = result;
-  const equipment = Array.isArray(line.equipment) ? line.equipment : [];
-  const rules = Array.isArray(line.specialRules) ? line.specialRules : [];
-  const translatedEquipment = equipment.map((item) => translateTextForDict(item, dict));
-  const translatedRules = rules.map((item) => translateTextForDict(item, dict));
+  const isPolish = isPolishLocale(dict);
+  const equipment = isPolish && Array.isArray(line.equipment_pl)
+    ? line.equipment_pl
+    : Array.isArray(line.equipment)
+      ? line.equipment
+      : [];
+  const rules = isPolish && Array.isArray(line.specialRules_pl)
+    ? line.specialRules_pl
+    : Array.isArray(line.specialRules)
+      ? line.specialRules
+      : [];
+  const translatedEquipment = isPolish && Array.isArray(line.equipment_pl)
+    ? equipment
+    : equipment.map((item) => translateTextForDict(item, dict));
+  const translatedRules = isPolish && Array.isArray(line.specialRules_pl)
+    ? rules
+    : rules.map((item) => translateTextForDict(item, dict));
 
   const infoRows: Array<{ label: string; value: string }> = [];
 
-  if (line.unitCategory) {
+  if (line.unitCategory || line.unitCategory_pl) {
     infoRows.push({
       label: dict.unitSearchUnitCategoryLabel,
-      value: translateTextForDict(line.unitCategory, dict),
+      value: isPolish && line.unitCategory_pl
+        ? line.unitCategory_pl
+        : line.unitCategory
+          ? translateTextForDict(line.unitCategory, dict)
+          : "",
     });
   }
-  if (line.troopType) {
+  if (line.troopType || line.troopType_pl) {
     infoRows.push({
       label: dict.unitSearchTroopTypeLabel,
-      value: translateTextForDict(line.troopType, dict),
+      value: isPolish && line.troopType_pl
+        ? line.troopType_pl
+        : line.troopType
+          ? translateTextForDict(line.troopType, dict)
+          : "",
     });
   }
   if (line.baseSize) {

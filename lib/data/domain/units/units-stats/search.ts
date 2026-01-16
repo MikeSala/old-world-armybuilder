@@ -4,7 +4,6 @@ import {
   type UnitStatLine,
   normalizeUnitStatKey,
 } from "./index";
-import { translateEnTextToPl } from "@/lib/i18n/translateEnToPl";
 import type { DataKey } from "@/lib/i18n/data";
 
 export type UnitSearchResult = {
@@ -64,21 +63,14 @@ const createTokens = (line: UnitStatLine): string[] => {
       .forEach((part) => tokens.add(part));
   };
 
-  const pushTranslated = (value: string | null | undefined) => {
-    if (!value) return;
-    push(value);
-    const translated = translateEnTextToPl(value);
-    if (translated && translated !== value) {
-      push(translated);
-    }
-  };
-
   push(line.name_pl ?? null);
   push(line.name ?? line.unit ?? null);
   push(line.unit);
-  pushTranslated(line.type ?? null);
-  pushTranslated(line.troopType ?? null);
-  pushTranslated(line.unitCategory ?? null);
+  push(line.type ?? null);
+  push(line.troopType_pl ?? null);
+  push(line.troopType ?? null);
+  push(line.unitCategory_pl ?? null);
+  push(line.unitCategory ?? null);
 
   if (Array.isArray(line.aliases)) {
     line.aliases.forEach((alias) => push(alias));

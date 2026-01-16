@@ -24,7 +24,7 @@ import {
   buildCategoryLabels,
   formatPointsValue,
 } from "@/lib/utils/rosterFormatting";
-import { translateNameForDict, translateTextForDict } from "@/lib/i18n/translateLocale";
+import { isPolishLocale, translateNameForDict, translateTextForDict } from "@/lib/i18n/translateLocale";
 import { TAILWIND_CARDS, TAILWIND_TEXT } from "@/lib/styles/tailwindConstants";
 
 type Props = {
@@ -83,6 +83,7 @@ type SidebarPanelProps = {
   rules: string[];
   meta: RosterUnitMetaRow[];
   dict: DetailDict;
+  translateRules?: boolean;
 };
 
 
@@ -307,8 +308,16 @@ function UnitDetailCard({
     (unit.name && unit.name.trim().length > 0
       ? translateNameForDict(unit.name, dict)
       : dict.rosterDetailUnnamedUnit);
-  const unitRole = unit.unitRole ? translateTextForDict(unit.unitRole, dict) : null;
+  const isPolish = isPolishLocale(dict);
+  const unitRole =
+    isPolish && unit.unitRolePl
+      ? unit.unitRolePl
+      : unit.unitRole
+        ? translateTextForDict(unit.unitRole, dict)
+        : null;
   const unitNotes = unit.notes ? translateTextForDict(unit.notes, dict) : null;
+  const usePolishRules = isPolish && unit.sidebarRulesPl?.length;
+  const rules = usePolishRules ? unit.sidebarRulesPl ?? [] : unit.sidebarRules;
 
   return (
     <article className={`space-y-3 ${TAILWIND_CARDS.DETAIL_CARD} print:space-y-2 print:border-gray-300 print:bg-white print:p-3 print:shadow-none print-avoid-break`}>
@@ -351,7 +360,12 @@ function UnitDetailCard({
           />
           <StatsTable dict={dict} rows={unit.statRows} />
         </div>
-        <SidebarPanel dict={dict} rules={unit.sidebarRules} meta={unit.sidebarMeta} />
+        <SidebarPanel
+          dict={dict}
+          rules={rules}
+          meta={unit.sidebarMeta}
+          translateRules={!usePolishRules}
+        />
       </div>
     </article>
   );
@@ -390,7 +404,7 @@ function OptionSummaryList({
   );
 }
 
-function SidebarPanel({ rules, meta, dict }: SidebarPanelProps) {
+function SidebarPanel({ rules, meta, dict, translateRules = true }: SidebarPanelProps) {
   const hasContent = rules.length > 0 || meta.length > 0;
   if (!hasContent) return null;
 
@@ -404,7 +418,7 @@ function SidebarPanel({ rules, meta, dict }: SidebarPanelProps) {
           <ul className="mt-1 list-disc space-y-1 pl-5 text-amber-100 print:text-gray-900 print:space-y-0.5">
             {rules.map((rule) => (
               <li key={rule} className="print:text-xs">
-                {translateTextForDict(rule, dict)}
+                {translateRules ? translateTextForDict(rule, dict) : rule}
               </li>
             ))}
           </ul>

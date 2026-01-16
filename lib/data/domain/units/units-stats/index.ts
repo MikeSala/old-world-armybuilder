@@ -85,12 +85,16 @@ export type UnitStatLine = {
   type?: string | null;
   aliases?: string[];
   unitCategory?: string | null;
+  unitCategory_pl?: string | null;
   troopType?: string | null;
+  troopType_pl?: string | null;
   baseSize?: string | null;
   unitSize?: StatValue;
   armourValue?: StatValue;
   equipment?: string[];
+  equipment_pl?: string[];
   specialRules?: string[];
+  specialRules_pl?: string[];
   profiles?: UnitStatProfile[];
   mountIds?: string[];
 } & Record<StatKey, StatValue>;
@@ -133,12 +137,16 @@ const normalizeLine = (value: unknown): UnitStatLine | null => {
     name: primaryName,
     type: toOptionalString(value.type) ?? null,
     unitCategory: toOptionalString(value.unitCategory) ?? null,
+    unitCategory_pl: toOptionalString(value.unitCategory_pl) ?? null,
     troopType: toOptionalString(value.troopType) ?? null,
+    troopType_pl: toOptionalString(value.troopType_pl) ?? null,
     baseSize: toOptionalString(value.baseSize) ?? null,
     unitSize: normalizeStatValue(value.unitSize),
     armourValue: normalizeStatValue(value.armourValue),
     equipment: normalizeStringArray(value.equipment),
+    equipment_pl: normalizeStringArray(value.equipment_pl),
     specialRules: normalizeStringArray(value.specialRules),
+    specialRules_pl: normalizeStringArray(value.specialRules_pl),
   };
 
   const namePl = toOptionalString(value.name_pl);

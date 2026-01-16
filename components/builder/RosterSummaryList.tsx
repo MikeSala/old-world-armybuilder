@@ -14,7 +14,7 @@ import {
 import { TAILWIND_TEXT } from "@/lib/styles/tailwindConstants";
 import type { RosterEntry } from "@/lib/roster/normalizeEntry";
 import type { RosterUnitDetail } from "@/lib/store/selectors/rosterDetails";
-import { translateNameForDict, translateTextForDict } from "@/lib/i18n/translateLocale";
+import { isPolishLocale, translateNameForDict, translateTextForDict } from "@/lib/i18n/translateLocale";
 
 type Dict = LocaleDictionary;
 
@@ -104,8 +104,14 @@ export function RosterSummaryList({
                 const optionMap = optionLabelByUnitId?.get(entry.unitId);
                 const isExpanded = expandedEntryIds.includes(entry.id);
                 const statsRows = detail?.statRows ?? [];
-                const specialRules = detail?.sidebarRules ?? [];
-                const translatedRules = specialRules.map((rule) => translateTextForDict(rule, dict));
+                const isPolish = isPolishLocale(dict);
+                const usePolishRules = isPolish && detail?.sidebarRulesPl?.length;
+                const specialRules = usePolishRules
+                  ? detail?.sidebarRulesPl ?? []
+                  : detail?.sidebarRules ?? [];
+                const translatedRules = usePolishRules
+                  ? specialRules
+                  : specialRules.map((rule) => translateTextForDict(rule, dict));
                 const metaEntries = detail
                   ? detail.sidebarMeta.map((item) => ({
                       label: localizeMetaLabel(item.label, dict),
