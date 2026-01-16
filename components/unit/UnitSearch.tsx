@@ -8,7 +8,14 @@ import type { UnitStatProfile, UnitStatLine } from "@/lib/data/domain/units/unit
 import { searchUnitStats, type UnitSearchResult } from "@/lib/data/domain/units/units-stats/search";
 import type { LocaleDictionary } from "@/lib/i18n/dictionaries";
 import { tDataMaybe } from "@/lib/i18n/data";
-import { isPolishLocale, translateNameForDict, translateTextForDict } from "@/lib/i18n/translateLocale";
+import {
+  isItalianLocale,
+  isFrenchLocale,
+  isGermanLocale,
+  isPolishLocale,
+  translateNameForDict,
+  translateTextForDict,
+} from "@/lib/i18n/translateLocale";
 import {
   ROSTER_STAT_FIELDS,
   ROSTER_STAT_TOOLTIP_KEYS,
@@ -65,9 +72,23 @@ const statsEqual = (
 
 const UnitStatsTable = ({ dict, unit }: { dict: LocaleDictionary; unit: UnitStatLine }) => {
   const preferPolishName = isPolishLocale(dict) && typeof unit.name_pl === "string";
+  const preferGermanName = isGermanLocale(dict) && typeof unit.name_de === "string";
+  const preferFrenchName = isFrenchLocale(dict) && typeof unit.name_fr === "string";
+  const preferItalianName = isItalianLocale(dict) && typeof unit.name_it === "string";
   const baseLabelRaw =
-    preferPolishName && unit.name_pl ? unit.name_pl : unit.name ?? unit.unit ?? dict.rosterDetailUnnamedUnit;
-  const baseLabel = preferPolishName ? baseLabelRaw : translateNameForDict(baseLabelRaw, dict);
+    preferItalianName && unit.name_it
+      ? unit.name_it
+      : preferFrenchName && unit.name_fr
+        ? unit.name_fr
+        : preferGermanName && unit.name_de
+          ? unit.name_de
+          : preferPolishName && unit.name_pl
+            ? unit.name_pl
+            : unit.name ?? unit.unit ?? dict.rosterDetailUnnamedUnit;
+  const baseLabel =
+    preferPolishName || preferGermanName || preferFrenchName || preferItalianName
+      ? baseLabelRaw
+      : translateNameForDict(baseLabelRaw, dict);
   const profileRows = extractProfileRows(unit);
   const hasProfileMatchingBase = profileRows.some(
     ({ profile, label }) =>
@@ -142,43 +163,90 @@ const UnitSearchResultBody = ({
 }) => {
   const { line } = result;
   const isPolish = isPolishLocale(dict);
+  const isGerman = isGermanLocale(dict);
+  const isFrench = isFrenchLocale(dict);
+  const isItalian = isItalianLocale(dict);
   const equipment = isPolish && Array.isArray(line.equipment_pl)
     ? line.equipment_pl
-    : Array.isArray(line.equipment)
-      ? line.equipment
-      : [];
+    : isGerman && Array.isArray(line.equipment_de)
+      ? line.equipment_de
+      : isFrench && Array.isArray(line.equipment_fr)
+        ? line.equipment_fr
+        : isItalian && Array.isArray(line.equipment_it)
+          ? line.equipment_it
+        : Array.isArray(line.equipment)
+          ? line.equipment
+          : [];
   const rules = isPolish && Array.isArray(line.specialRules_pl)
     ? line.specialRules_pl
-    : Array.isArray(line.specialRules)
-      ? line.specialRules
-      : [];
-  const translatedEquipment = isPolish && Array.isArray(line.equipment_pl)
-    ? equipment
-    : equipment.map((item) => translateTextForDict(item, dict));
-  const translatedRules = isPolish && Array.isArray(line.specialRules_pl)
-    ? rules
-    : rules.map((item) => translateTextForDict(item, dict));
+    : isGerman && Array.isArray(line.specialRules_de)
+      ? line.specialRules_de
+      : isFrench && Array.isArray(line.specialRules_fr)
+        ? line.specialRules_fr
+        : isItalian && Array.isArray(line.specialRules_it)
+          ? line.specialRules_it
+        : Array.isArray(line.specialRules)
+          ? line.specialRules
+          : [];
+  const translatedEquipment =
+    (isPolish && Array.isArray(line.equipment_pl)) ||
+    (isGerman && Array.isArray(line.equipment_de)) ||
+    (isFrench && Array.isArray(line.equipment_fr)) ||
+    (isItalian && Array.isArray(line.equipment_it))
+      ? equipment
+      : equipment.map((item) => translateTextForDict(item, dict));
+  const translatedRules =
+    (isPolish && Array.isArray(line.specialRules_pl)) ||
+    (isGerman && Array.isArray(line.specialRules_de)) ||
+    (isFrench && Array.isArray(line.specialRules_fr)) ||
+    (isItalian && Array.isArray(line.specialRules_it))
+      ? rules
+      : rules.map((item) => translateTextForDict(item, dict));
 
   const infoRows: Array<{ label: string; value: string }> = [];
 
-  if (line.unitCategory || line.unitCategory_pl) {
+  if (
+    line.unitCategory ||
+    line.unitCategory_pl ||
+    line.unitCategory_de ||
+    line.unitCategory_fr ||
+    line.unitCategory_it
+  ) {
     infoRows.push({
       label: dict.unitSearchUnitCategoryLabel,
       value: isPolish && line.unitCategory_pl
         ? line.unitCategory_pl
-        : line.unitCategory
-          ? translateTextForDict(line.unitCategory, dict)
-          : "",
+        : isGerman && line.unitCategory_de
+          ? line.unitCategory_de
+          : isFrench && line.unitCategory_fr
+            ? line.unitCategory_fr
+            : isItalian && line.unitCategory_it
+              ? line.unitCategory_it
+              : line.unitCategory
+                ? translateTextForDict(line.unitCategory, dict)
+                : "",
     });
   }
-  if (line.troopType || line.troopType_pl) {
+  if (
+    line.troopType ||
+    line.troopType_pl ||
+    line.troopType_de ||
+    line.troopType_fr ||
+    line.troopType_it
+  ) {
     infoRows.push({
       label: dict.unitSearchTroopTypeLabel,
       value: isPolish && line.troopType_pl
         ? line.troopType_pl
-        : line.troopType
-          ? translateTextForDict(line.troopType, dict)
-          : "",
+        : isGerman && line.troopType_de
+          ? line.troopType_de
+          : isFrench && line.troopType_fr
+            ? line.troopType_fr
+            : isItalian && line.troopType_it
+              ? line.troopType_it
+              : line.troopType
+                ? translateTextForDict(line.troopType, dict)
+                : "",
     });
   }
   if (line.baseSize) {
@@ -247,9 +315,21 @@ const UnitSearchResultAccordionItem = ({
 }) => {
   const { line, armyNameKey, armyNameFallback } = result;
   const preferPolishName = isPolishLocale(dict) && typeof line.name_pl === "string";
-  const titleSource = preferPolishName && line.name_pl ? line.name_pl : line.name ?? line.unit ?? null;
+  const preferGermanName = isGermanLocale(dict) && typeof line.name_de === "string";
+  const preferFrenchName = isFrenchLocale(dict) && typeof line.name_fr === "string";
+  const preferItalianName = isItalianLocale(dict) && typeof line.name_it === "string";
+  const titleSource =
+    preferItalianName && line.name_it
+      ? line.name_it
+      : preferFrenchName && line.name_fr
+        ? line.name_fr
+        : preferGermanName && line.name_de
+          ? line.name_de
+          : preferPolishName && line.name_pl
+            ? line.name_pl
+            : line.name ?? line.unit ?? null;
   const title = titleSource
-    ? preferPolishName
+    ? preferPolishName || preferGermanName || preferFrenchName || preferItalianName
       ? titleSource
       : translateNameForDict(titleSource, dict)
     : dict.rosterDetailUnnamedUnit;

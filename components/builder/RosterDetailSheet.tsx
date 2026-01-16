@@ -24,7 +24,14 @@ import {
   buildCategoryLabels,
   formatPointsValue,
 } from "@/lib/utils/rosterFormatting";
-import { isPolishLocale, translateNameForDict, translateTextForDict } from "@/lib/i18n/translateLocale";
+import {
+  isItalianLocale,
+  isFrenchLocale,
+  isGermanLocale,
+  isPolishLocale,
+  translateNameForDict,
+  translateTextForDict,
+} from "@/lib/i18n/translateLocale";
 import { TAILWIND_CARDS, TAILWIND_TEXT } from "@/lib/styles/tailwindConstants";
 
 type Props = {
@@ -309,15 +316,35 @@ function UnitDetailCard({
       ? translateNameForDict(unit.name, dict)
       : dict.rosterDetailUnnamedUnit);
   const isPolish = isPolishLocale(dict);
+  const isGerman = isGermanLocale(dict);
+  const isFrench = isFrenchLocale(dict);
+  const isItalian = isItalianLocale(dict);
   const unitRole =
     isPolish && unit.unitRolePl
       ? unit.unitRolePl
-      : unit.unitRole
-        ? translateTextForDict(unit.unitRole, dict)
-        : null;
+      : isGerman && unit.unitRoleDe
+        ? unit.unitRoleDe
+        : isFrench && unit.unitRoleFr
+          ? unit.unitRoleFr
+          : isItalian && unit.unitRoleIt
+            ? unit.unitRoleIt
+          : unit.unitRole
+            ? translateTextForDict(unit.unitRole, dict)
+            : null;
   const unitNotes = unit.notes ? translateTextForDict(unit.notes, dict) : null;
   const usePolishRules = isPolish && unit.sidebarRulesPl?.length;
-  const rules = usePolishRules ? unit.sidebarRulesPl ?? [] : unit.sidebarRules;
+  const useGermanRules = isGerman && unit.sidebarRulesDe?.length;
+  const useFrenchRules = isFrench && unit.sidebarRulesFr?.length;
+  const useItalianRules = isItalian && unit.sidebarRulesIt?.length;
+  const rules = usePolishRules
+    ? unit.sidebarRulesPl ?? []
+    : useGermanRules
+      ? unit.sidebarRulesDe ?? []
+      : useFrenchRules
+        ? unit.sidebarRulesFr ?? []
+        : useItalianRules
+          ? unit.sidebarRulesIt ?? []
+        : unit.sidebarRules;
 
   return (
     <article className={`space-y-3 ${TAILWIND_CARDS.DETAIL_CARD} print:space-y-2 print:border-gray-300 print:bg-white print:p-3 print:shadow-none print-avoid-break`}>
@@ -364,7 +391,7 @@ function UnitDetailCard({
           dict={dict}
           rules={rules}
           meta={unit.sidebarMeta}
-          translateRules={!usePolishRules}
+          translateRules={!usePolishRules && !useGermanRules && !useFrenchRules && !useItalianRules}
         />
       </div>
     </article>

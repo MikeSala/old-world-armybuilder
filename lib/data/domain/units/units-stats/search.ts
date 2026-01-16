@@ -64,12 +64,21 @@ const createTokens = (line: UnitStatLine): string[] => {
   };
 
   push(line.name_pl ?? null);
+  push(line.name_de ?? null);
+  push(line.name_fr ?? null);
+  push(line.name_it ?? null);
   push(line.name ?? line.unit ?? null);
   push(line.unit);
   push(line.type ?? null);
   push(line.troopType_pl ?? null);
+  push(line.troopType_de ?? null);
+  push(line.troopType_fr ?? null);
+  push(line.troopType_it ?? null);
   push(line.troopType ?? null);
   push(line.unitCategory_pl ?? null);
+  push(line.unitCategory_de ?? null);
+  push(line.unitCategory_fr ?? null);
+  push(line.unitCategory_it ?? null);
   push(line.unitCategory ?? null);
 
   if (Array.isArray(line.aliases)) {

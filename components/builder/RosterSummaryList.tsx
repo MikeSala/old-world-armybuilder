@@ -14,7 +14,14 @@ import {
 import { TAILWIND_TEXT } from "@/lib/styles/tailwindConstants";
 import type { RosterEntry } from "@/lib/roster/normalizeEntry";
 import type { RosterUnitDetail } from "@/lib/store/selectors/rosterDetails";
-import { isPolishLocale, translateNameForDict, translateTextForDict } from "@/lib/i18n/translateLocale";
+import {
+  isItalianLocale,
+  isFrenchLocale,
+  isGermanLocale,
+  isPolishLocale,
+  translateNameForDict,
+  translateTextForDict,
+} from "@/lib/i18n/translateLocale";
 
 type Dict = LocaleDictionary;
 
@@ -105,11 +112,24 @@ export function RosterSummaryList({
                 const isExpanded = expandedEntryIds.includes(entry.id);
                 const statsRows = detail?.statRows ?? [];
                 const isPolish = isPolishLocale(dict);
+                const isGerman = isGermanLocale(dict);
+                const isFrench = isFrenchLocale(dict);
+                const isItalian = isItalianLocale(dict);
                 const usePolishRules = isPolish && detail?.sidebarRulesPl?.length;
+                const useGermanRules = isGerman && detail?.sidebarRulesDe?.length;
+                const useFrenchRules = isFrench && detail?.sidebarRulesFr?.length;
+                const useItalianRules = isItalian && detail?.sidebarRulesIt?.length;
                 const specialRules = usePolishRules
                   ? detail?.sidebarRulesPl ?? []
-                  : detail?.sidebarRules ?? [];
-                const translatedRules = usePolishRules
+                  : useGermanRules
+                    ? detail?.sidebarRulesDe ?? []
+                    : useFrenchRules
+                      ? detail?.sidebarRulesFr ?? []
+                      : useItalianRules
+                        ? detail?.sidebarRulesIt ?? []
+                      : detail?.sidebarRules ?? [];
+                const translatedRules =
+                  usePolishRules || useGermanRules || useFrenchRules || useItalianRules
                   ? specialRules
                   : specialRules.map((rule) => translateTextForDict(rule, dict));
                 const metaEntries = detail

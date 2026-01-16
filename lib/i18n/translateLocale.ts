@@ -11,15 +11,25 @@ type LocalizedName = {
   name_de?: string;
   name_fr?: string;
   name_es?: string;
+  name_it?: string;
   name_cn?: string;
 };
 
 export const isPolishLocale = (dict?: LocaleHint | null): boolean =>
   dict?.localeName?.toLowerCase() === "pl";
 
+export const isGermanLocale = (dict?: LocaleHint | null): boolean =>
+  dict?.localeName?.toLowerCase() === "de";
+
+export const isFrenchLocale = (dict?: LocaleHint | null): boolean =>
+  dict?.localeName?.toLowerCase() === "fr";
+
+export const isItalianLocale = (dict?: LocaleHint | null): boolean =>
+  dict?.localeName?.toLowerCase() === "it";
+
 /**
  * Gets the localized name from an object with name_* fields.
- * Falls back to English if name_pl is not available.
+ * Falls back to English if localized name is not available.
  *
  * @param source - Object containing name_en and optionally name_pl
  * @param dict - Dictionary to determine locale
@@ -31,6 +41,18 @@ export const getLocalizedName = (source: LocalizedName | null | undefined, dict:
   if (isPolishLocale(dict)) {
     // Prefer name_pl if available, otherwise keep English
     return source.name_pl || source.name_en;
+  }
+
+  if (isGermanLocale(dict)) {
+    return source.name_de || source.name_en;
+  }
+
+  if (isFrenchLocale(dict)) {
+    return source.name_fr || source.name_en;
+  }
+
+  if (isItalianLocale(dict)) {
+    return source.name_it || source.name_en;
   }
 
   // For other locales, return English name (extend in future for other languages)

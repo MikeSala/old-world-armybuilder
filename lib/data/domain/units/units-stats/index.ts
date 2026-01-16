@@ -82,19 +82,34 @@ export type UnitStatLine = {
   unit?: string;
   name?: string;
   name_pl?: string;
+  name_de?: string;
+  name_fr?: string;
+  name_it?: string;
   type?: string | null;
   aliases?: string[];
   unitCategory?: string | null;
   unitCategory_pl?: string | null;
+  unitCategory_de?: string | null;
+  unitCategory_fr?: string | null;
+  unitCategory_it?: string | null;
   troopType?: string | null;
   troopType_pl?: string | null;
+  troopType_de?: string | null;
+  troopType_fr?: string | null;
+  troopType_it?: string | null;
   baseSize?: string | null;
   unitSize?: StatValue;
   armourValue?: StatValue;
   equipment?: string[];
   equipment_pl?: string[];
+  equipment_de?: string[];
+  equipment_fr?: string[];
+  equipment_it?: string[];
   specialRules?: string[];
   specialRules_pl?: string[];
+  specialRules_de?: string[];
+  specialRules_fr?: string[];
+  specialRules_it?: string[];
   profiles?: UnitStatProfile[];
   mountIds?: string[];
 } & Record<StatKey, StatValue>;
@@ -138,19 +153,37 @@ const normalizeLine = (value: unknown): UnitStatLine | null => {
     type: toOptionalString(value.type) ?? null,
     unitCategory: toOptionalString(value.unitCategory) ?? null,
     unitCategory_pl: toOptionalString(value.unitCategory_pl) ?? null,
+    unitCategory_de: toOptionalString(value.unitCategory_de) ?? null,
+    unitCategory_fr: toOptionalString(value.unitCategory_fr) ?? null,
+    unitCategory_it: toOptionalString(value.unitCategory_it) ?? null,
     troopType: toOptionalString(value.troopType) ?? null,
     troopType_pl: toOptionalString(value.troopType_pl) ?? null,
+    troopType_de: toOptionalString(value.troopType_de) ?? null,
+    troopType_fr: toOptionalString(value.troopType_fr) ?? null,
+    troopType_it: toOptionalString(value.troopType_it) ?? null,
     baseSize: toOptionalString(value.baseSize) ?? null,
     unitSize: normalizeStatValue(value.unitSize),
     armourValue: normalizeStatValue(value.armourValue),
     equipment: normalizeStringArray(value.equipment),
     equipment_pl: normalizeStringArray(value.equipment_pl),
+    equipment_de: normalizeStringArray(value.equipment_de),
+    equipment_fr: normalizeStringArray(value.equipment_fr),
+    equipment_it: normalizeStringArray(value.equipment_it),
     specialRules: normalizeStringArray(value.specialRules),
     specialRules_pl: normalizeStringArray(value.specialRules_pl),
+    specialRules_de: normalizeStringArray(value.specialRules_de),
+    specialRules_fr: normalizeStringArray(value.specialRules_fr),
+    specialRules_it: normalizeStringArray(value.specialRules_it),
   };
 
   const namePl = toOptionalString(value.name_pl);
   if (namePl) line.name_pl = namePl;
+  const nameDe = toOptionalString(value.name_de);
+  if (nameDe) line.name_de = nameDe;
+  const nameFr = toOptionalString(value.name_fr);
+  if (nameFr) line.name_fr = nameFr;
+  const nameIt = toOptionalString(value.name_it);
+  if (nameIt) line.name_it = nameIt;
 
   const idValue = toOptionalString(value.id);
   if (idValue) line.id = idValue;

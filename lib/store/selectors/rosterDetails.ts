@@ -94,9 +94,15 @@ export type RosterUnitDetail = {
   optionSummaries: RosterUnitOptionSummary[];
   sidebarRules: string[];
   sidebarRulesPl?: string[];
+  sidebarRulesDe?: string[];
+  sidebarRulesFr?: string[];
+  sidebarRulesIt?: string[];
   sidebarMeta: RosterUnitMetaRow[];
   unitRole: string | null;
   unitRolePl?: string | null;
+  unitRoleDe?: string | null;
+  unitRoleFr?: string | null;
+  unitRoleIt?: string | null;
 };
 
 const buildOptionSummaries = (entry: NormalizedRosterEntry): RosterUnitOptionSummary[] => {
@@ -131,13 +137,25 @@ const buildSidebarRules = (stats: UnitStatLine | null, mountStats: UnitStatLine[
   const mountRules = mountStats.flatMap((mount) => formatArray(mount.specialRules) ?? []);
   const baseRulesPl = formatArray(stats?.specialRules_pl) ?? [];
   const mountRulesPl = mountStats.flatMap((mount) => formatArray(mount.specialRules_pl) ?? []);
+  const baseRulesDe = formatArray(stats?.specialRules_de) ?? [];
+  const mountRulesDe = mountStats.flatMap((mount) => formatArray(mount.specialRules_de) ?? []);
+  const baseRulesFr = formatArray(stats?.specialRules_fr) ?? [];
+  const mountRulesFr = mountStats.flatMap((mount) => formatArray(mount.specialRules_fr) ?? []);
+  const baseRulesIt = formatArray(stats?.specialRules_it) ?? [];
+  const mountRulesIt = mountStats.flatMap((mount) => formatArray(mount.specialRules_it) ?? []);
 
   const rules = Array.from(new Set([...baseRules, ...mountRules]));
   const rulesPl = Array.from(new Set([...baseRulesPl, ...mountRulesPl]));
+  const rulesDe = Array.from(new Set([...baseRulesDe, ...mountRulesDe]));
+  const rulesFr = Array.from(new Set([...baseRulesFr, ...mountRulesFr]));
+  const rulesIt = Array.from(new Set([...baseRulesIt, ...mountRulesIt]));
 
   return {
     rules,
     rulesPl: rulesPl.length ? rulesPl : undefined,
+    rulesDe: rulesDe.length ? rulesDe : undefined,
+    rulesFr: rulesFr.length ? rulesFr : undefined,
+    rulesIt: rulesIt.length ? rulesIt : undefined,
   };
 };
 
@@ -263,16 +281,52 @@ const buildUnitRolePl = (stats: UnitStatLine | null): string | null => {
   return role.length ? role : null;
 };
 
+const buildUnitRoleDe = (stats: UnitStatLine | null): string | null => {
+  const unitCategory = typeof stats?.unitCategory_de === "string" ? stats.unitCategory_de : undefined;
+  const troopType = typeof stats?.troopType_de === "string" ? stats.troopType_de : undefined;
+  const role = [unitCategory, troopType]
+    .filter((value): value is string => Boolean(value && value.trim().length > 0))
+    .join(", ");
+  return role.length ? role : null;
+};
+
+const buildUnitRoleFr = (stats: UnitStatLine | null): string | null => {
+  const unitCategory = typeof stats?.unitCategory_fr === "string" ? stats.unitCategory_fr : undefined;
+  const troopType = typeof stats?.troopType_fr === "string" ? stats.troopType_fr : undefined;
+  const role = [unitCategory, troopType]
+    .filter((value): value is string => Boolean(value && value.trim().length > 0))
+    .join(", ");
+  return role.length ? role : null;
+};
+
+const buildUnitRoleIt = (stats: UnitStatLine | null): string | null => {
+  const unitCategory = typeof stats?.unitCategory_it === "string" ? stats.unitCategory_it : undefined;
+  const troopType = typeof stats?.troopType_it === "string" ? stats.troopType_it : undefined;
+  const role = [unitCategory, troopType]
+    .filter((value): value is string => Boolean(value && value.trim().length > 0))
+    .join(", ");
+  return role.length ? role : null;
+};
+
 const buildUnitDetail = (entry: RosterEntryWithStats): RosterUnitDetail => {
   const statRows = buildStatRows(entry, entry.stats, entry.mountStats);
   const optionSummaries = buildOptionSummaries(entry);
-  const { rules: sidebarRules, rulesPl: sidebarRulesPl } = buildSidebarRules(
+  const {
+    rules: sidebarRules,
+    rulesPl: sidebarRulesPl,
+    rulesDe: sidebarRulesDe,
+    rulesFr: sidebarRulesFr,
+    rulesIt: sidebarRulesIt,
+  } = buildSidebarRules(
     entry.stats,
     entry.mountStats
   );
   const sidebarMeta = buildSidebarMeta(entry.stats, entry.mountStats);
   const unitRole = buildUnitRole(entry.stats);
   const unitRolePl = buildUnitRolePl(entry.stats);
+  const unitRoleDe = buildUnitRoleDe(entry.stats);
+  const unitRoleFr = buildUnitRoleFr(entry.stats);
+  const unitRoleIt = buildUnitRoleIt(entry.stats);
 
   return {
     id: entry.id,
@@ -288,9 +342,15 @@ const buildUnitDetail = (entry: RosterEntryWithStats): RosterUnitDetail => {
     optionSummaries,
     sidebarRules,
     sidebarRulesPl,
+    sidebarRulesDe,
+    sidebarRulesFr,
+    sidebarRulesIt,
     sidebarMeta,
     unitRole,
     unitRolePl,
+    unitRoleDe,
+    unitRoleFr,
+    unitRoleIt,
   };
 };
 
