@@ -1,0 +1,806 @@
+Nieprzetłumaczone wpisy PL w units-stats (EN == PL)
+file | unit | field | value
+--------------------------------------------------------------------------------
+beastmen-brayherds-stats.json | Cockatrice | specialRules_pl | Groza
+beastmen-brayherds-stats.json | Cygor | specialRules_pl | Groza
+beastmen-brayherds-stats.json | Ghorgon | specialRules_pl | Groza
+beastmen-brayherds-stats.json | Giant | specialRules_pl | Groza
+beastmen-brayherds-stats.json | Jabberslythe | specialRules_pl | Groza
+beastmen-brayherds-stats.json | Preyton | specialRules_pl | Groza
+beastmen-brayherds-stats.json | Shaggoth | specialRules_pl | Groza
+bretonnia-stats.json | Battle Pilgrims | equipment_pl | Tarcza
+bretonnia-stats.json | Battle Pilgrims | specialRules_pl | Pobożni
+bretonnia-stats.json | Damsel | specialRules_pl | Błogosławieństwo Pani
+bretonnia-stats.json | Duke | equipment_pl | Tarcza
+bretonnia-stats.json | Duke | specialRules_pl | Przysięga obowiązku
+bretonnia-stats.json | Duke | specialRules_pl | Błogosławieństwo Pani
+bretonnia-stats.json | Field Trebuchet | specialRules_pl | Obsługiwany
+bretonnia-stats.json | Grail Knights | equipment_pl | Lanca Graala
+bretonnia-stats.json | Grail Knights | equipment_pl | Tarcza
+bretonnia-stats.json | Grail Knights | specialRules_pl | Przysięga Graala
+bretonnia-stats.json | Grail Knights | specialRules_pl | Błogosławieństwo Pani
+bretonnia-stats.json | Grail Knights | specialRules_pl | Formacja lancy
+bretonnia-stats.json | Grail Reliquae | equipment_pl | Tarcza relikwii
+bretonnia-stats.json | Grail Reliquae | specialRules_pl | Pobożni
+bretonnia-stats.json | Grail Reliquae | specialRules_pl | Relikwia
+bretonnia-stats.json | Knights Errant | equipment_pl | Tarcza
+bretonnia-stats.json | Knights Errant | specialRules_pl | Impulsywni
+bretonnia-stats.json | Knights Errant | specialRules_pl | Przysięga rycerska
+bretonnia-stats.json | Knights Errant | specialRules_pl | Błogosławieństwo Pani
+bretonnia-stats.json | Knights Errant | specialRules_pl | Formacja lancy
+bretonnia-stats.json | Knights of the Realm | equipment_pl | Lanca
+bretonnia-stats.json | Knights of the Realm | equipment_pl | Tarcza
+bretonnia-stats.json | Knights of the Realm | specialRules_pl | Przysięga obowiązku
+bretonnia-stats.json | Knights of the Realm | specialRules_pl | Błogosławieństwo Pani
+bretonnia-stats.json | Knights of the Realm | specialRules_pl | Formacja lancy
+bretonnia-stats.json | Men-at-Arms | equipment_pl | Halabarda
+bretonnia-stats.json | Men-at-Arms | equipment_pl | Tarcza
+bretonnia-stats.json | Men-at-Arms | specialRules_pl | Chłopski obowiązek
+bretonnia-stats.json | Mounted Yeomen | equipment_pl | Łuk
+bretonnia-stats.json | Mounted Yeomen | equipment_pl | Włócznia
+bretonnia-stats.json | Mounted Yeomen | specialRules_pl | Chłopski obowiązek
+bretonnia-stats.json | Paladin | equipment_pl | Tarcza
+bretonnia-stats.json | Paladin | specialRules_pl | Przysięga obowiązku
+bretonnia-stats.json | Paladin | specialRules_pl | Błogosławieństwo Pani
+bretonnia-stats.json | Peasant Bowmen | equipment_pl | Długi łuk
+bretonnia-stats.json | Peasant Bowmen | specialRules_pl | Palisada obronna
+bretonnia-stats.json | Peasant Bowmen | specialRules_pl | Chłopski obowiązek
+bretonnia-stats.json | Pegasus Knights | equipment_pl | Opancerzony pegaz
+bretonnia-stats.json | Pegasus Knights | equipment_pl | Lanca
+bretonnia-stats.json | Pegasus Knights | equipment_pl | Tarcza
+bretonnia-stats.json | Pegasus Knights | specialRules_pl | Błogosławieństwo Pani
+bretonnia-stats.json | Prophetess of the Lady | specialRules_pl | Błogosławieństwo Pani
+bretonnia-stats.json | Questing Knights | specialRules_pl | Przysięga wyprawy
+bretonnia-stats.json | Questing Knights | specialRules_pl | Błogosławieństwo Pani
+bretonnia-stats.json | Questing Knights | specialRules_pl | Formacja lancy
+bretonnia-stats.json | The Green Knight | equipment_pl | Tarcza
+bretonnia-stats.json | The Green Knight | equipment_pl | Bolesny Miecz
+bretonnia-stats.json | The Green Knight | specialRules_pl | Eteryczny
+bretonnia-stats.json | The Green Knight | specialRules_pl | Groza
+bretonnia-stats.json | The Green Knight | specialRules_pl | Błogosławieństwo Pani
+chaos-dwarfs-stats.json | Bale Taurus | specialRules_pl | Płonące ciało
+chaos-dwarfs-stats.json | Bale Taurus | specialRules_pl | Groza
+chaos-dwarfs-stats.json | Bull Centaur Renders | specialRules_pl | Tratowanie
+chaos-dwarfs-stats.json | Bull Centaur Taur'ruk | specialRules_pl | Tratowanie
+chaos-dwarfs-stats.json | Daemonsmith Sorcerer | specialRules_pl | Wiedza Hashuta
+chaos-dwarfs-stats.json | Daemonsmith Sorcerer | specialRules_pl | Niezłomni
+chaos-dwarfs-stats.json | Daemonsmith Sorcerer | specialRules_pl | Klątwa czarownika
+chaos-dwarfs-stats.json | Deathshrieker Rocket Launcher | equipment_pl | Rakiety burzące
+chaos-dwarfs-stats.json | Deathshrieker Rocket Launcher | equipment_pl | Piekielne zapalniki
+chaos-dwarfs-stats.json | Dreadquake Mortar | equipment_pl | Moździerz Dreadquake
+chaos-dwarfs-stats.json | Great Taurus | specialRules_pl | Płonące ciało
+chaos-dwarfs-stats.json | Great Taurus | specialRules_pl | Groza
+chaos-dwarfs-stats.json | Hobgoblin Bolt Thrower | equipment_pl | Balista
+chaos-dwarfs-stats.json | Hobgoblin Bolt Thrower | specialRules_pl | Pospolite ruszenie
+chaos-dwarfs-stats.json | Hobgoblin Cutthroats | specialRules_pl | Cios w plecy
+chaos-dwarfs-stats.json | Hobgoblin Cutthroats | specialRules_pl | Pospolite ruszenie
+chaos-dwarfs-stats.json | Hobgoblin Khan | specialRules_pl | Cios w plecy
+chaos-dwarfs-stats.json | Hobgoblin Khan | specialRules_pl | Zwrotni
+chaos-dwarfs-stats.json | Hobgoblin Khan | specialRules_pl | Pospolite ruszenie
+chaos-dwarfs-stats.json | Hobgoblin Wolf Riders | specialRules_pl | Cios w plecy
+chaos-dwarfs-stats.json | Hobgoblin Wolf Riders | specialRules_pl | Zwrotni
+chaos-dwarfs-stats.json | Hobgoblin Wolf Riders | specialRules_pl | Pospolite ruszenie
+chaos-dwarfs-stats.json | Infernal Castellan | specialRules_pl | Niezłomni
+chaos-dwarfs-stats.json | Infernal Guard | specialRules_pl | Niezłomni
+chaos-dwarfs-stats.json | Infernal Guard | specialRules_pl | Ściana tarcz
+chaos-dwarfs-stats.json | Infernal Ironsworn | specialRules_pl | Wyszkoleni
+chaos-dwarfs-stats.json | Infernal Ironsworn | specialRules_pl | Tłumienie paniki
+chaos-dwarfs-stats.json | Infernal Ironsworn | specialRules_pl | Niezłomni
+chaos-dwarfs-stats.json | Infernal Ironsworn | specialRules_pl | Ściana tarcz
+chaos-dwarfs-stats.json | Infernal Ironsworn | specialRules_pl | Weterani
+chaos-dwarfs-stats.json | Infernal Seneschal | specialRules_pl | Niezłomni
+chaos-dwarfs-stats.json | Iron Daemon | specialRules_pl | Holownik
+chaos-dwarfs-stats.json | Iron Daemon | specialRules_pl | Miażdżące koła
+chaos-dwarfs-stats.json | Iron Daemon | specialRules_pl | Ociężała destrukcja
+chaos-dwarfs-stats.json | K'daai Fireborn | specialRules_pl | Płonące ciało
+chaos-dwarfs-stats.json | K'daai Fireborn | specialRules_pl | Płonące ataki
+chaos-dwarfs-stats.json | K'daai Fireborn | specialRules_pl | Niestabilny
+chaos-dwarfs-stats.json | K'daai Fireborn | specialRules_pl | Zrodzony z Osnowy
+chaos-dwarfs-stats.json | Lammasu | specialRules_pl | Czarodziejska miazma
+chaos-dwarfs-stats.json | Lammasu | specialRules_pl | Groza
+chaos-dwarfs-stats.json | Sneaky Gits | specialRules_pl | Cios w plecy
+chaos-dwarfs-stats.json | Sneaky Gits | specialRules_pl | Zwrotni
+chaos-dwarfs-stats.json | Sneaky Gits | specialRules_pl | Pospolite ruszenie
+chaos-dwarfs-stats.json | Sorcerer-Prophet | specialRules_pl | Wiedza Hashuta
+chaos-dwarfs-stats.json | Sorcerer-Prophet | specialRules_pl | Niezłomni
+chaos-dwarfs-stats.json | Sorcerer-Prophet | specialRules_pl | Klątwa czarownika
+daemons-of-chaos-stats.json | Bloodletters of Khorne | equipment_pl | Piekielne ostrze
+daemons-of-chaos-stats.json | Bloodletters of Khorne | specialRules_pl | Demoniczny
+daemons-of-chaos-stats.json | Bloodthirster of Khorne | equipment_pl | Topór Rzezi
+daemons-of-chaos-stats.json | Bloodthirster of Khorne | equipment_pl | Bicz Udręki
+daemons-of-chaos-stats.json | Bloodthirster of Khorne | specialRules_pl | Demoniczny
+daemons-of-chaos-stats.json | Bloodthirster of Khorne (on Juggernaut) | equipment_pl | Topór Rzezi
+daemons-of-chaos-stats.json | Bloodthirster of Khorne (on Juggernaut) | equipment_pl | Bicz Udręki
+daemons-of-chaos-stats.json | Bloodthirster of Khorne (on Juggernaut) | specialRules_pl | Demoniczny
+daemons-of-chaos-stats.json | Bloodthirster of Khorne (on Juggernaut) | specialRules_pl | Juggernaut
+daemons-of-chaos-stats.json | Daemon Prince of Chaos (Khorne) | equipment_pl | Znak Khorna
+daemons-of-chaos-stats.json | Daemon Prince of Chaos (Khorne) | specialRules_pl | Demoniczny
+daemons-of-chaos-stats.json | Daemon Prince of Chaos (Khorne) (with wings) | equipment_pl | Znak Khorna
+daemons-of-chaos-stats.json | Daemon Prince of Chaos (Khorne) (with wings) | equipment_pl | Skrzydła
+daemons-of-chaos-stats.json | Daemon Prince of Chaos (Khorne) (with wings) | specialRules_pl | Demoniczny
+daemons-of-chaos-stats.json | Flesh Hounds of Khorne | specialRules_pl | Demoniczny
+daemons-of-chaos-stats.json | Herald of Khorne | equipment_pl | Piekielne ostrze
+daemons-of-chaos-stats.json | Herald of Khorne | equipment_pl | Znak Khorna
+daemons-of-chaos-stats.json | Herald of Khorne | specialRules_pl | Demoniczny
+daemons-of-chaos-stats.json | Herald of Khorne (on Juggernaut) | equipment_pl | Piekielne ostrze
+daemons-of-chaos-stats.json | Herald of Khorne (on Juggernaut) | equipment_pl | Znak Khorna
+daemons-of-chaos-stats.json | Herald of Khorne (on Juggernaut) | specialRules_pl | Demoniczny
+daemons-of-chaos-stats.json | Herald of Khorne (on Juggernaut) | specialRules_pl | Juggernaut
+daemons-of-chaos-stats.json | Skull Cannon | equipment_pl | Armata Czaszek
+daemons-of-chaos-stats.json | Skull Cannon | specialRules_pl | Wybuch
+daemons-of-chaos-stats.json | Skull Cannon | specialRules_pl | Demoniczny
+dark-elves-stats.json | Black Dragon | equipment_pl | Trujący oddech
+dark-elves-stats.json | Black Dragon | equipment_pl | Zębata paszcza
+dark-elves-stats.json | Black Dragon | specialRules_pl | Groza
+dark-elves-stats.json | Black Guard of Naggarond | equipment_pl | Halabardy grozy
+dark-elves-stats.json | Black Guard of Naggarond | specialRules_pl | Wojenne mistrzostwo
+dark-elves-stats.json | Bloodwrack Medusa | specialRules_pl | Morderczy
+dark-elves-stats.json | Bloodwrack Shrine | specialRules_pl | Ciągnięty
+dark-elves-stats.json | Bloodwrack Shrine | specialRules_pl | Morderczy
+dark-elves-stats.json | Bloodwrack Shrine | specialRules_pl | Groza
+dark-elves-stats.json | Cauldron of Blood | specialRules_pl | Błogosławieństwa Khaine'a
+dark-elves-stats.json | Cauldron of Blood | specialRules_pl | Ciągnięty
+dark-elves-stats.json | Cauldron of Blood | specialRules_pl | Morderczy
+dark-elves-stats.json | Cauldron of Blood | specialRules_pl | Groza
+dark-elves-stats.json | Cold One (Dark Elves) | specialRules_pl | Głupota
+dark-elves-stats.json | Cold One Chariot | equipment_pl | Powtarzalne kusze
+dark-elves-stats.json | Cold One Chariot | specialRules_pl | Głupota
+dark-elves-stats.json | Cold One Knights | equipment_pl | Lanca
+dark-elves-stats.json | Cold One Knights | specialRules_pl | Głupota
+dark-elves-stats.json | Dark Elf Dreadlord | specialRules_pl | Morderczy
+dark-elves-stats.json | Dark Elf Dreadlord | specialRules_pl | Uderza pierwszy
+dark-elves-stats.json | Dark Elf Master | specialRules_pl | Morderczy
+dark-elves-stats.json | Dark Elf Master | specialRules_pl | Uderza pierwszy
+dark-elves-stats.json | Dark Elf Shades | equipment_pl | Powtarzalne kusze
+dark-elves-stats.json | Dark Elf Shades | specialRules_pl | Zwrotni
+dark-elves-stats.json | Dark Elf Warriors | specialRules_pl | Wojenne mistrzostwo
+dark-elves-stats.json | Death Hag | specialRules_pl | Morderczy
+dark-elves-stats.json | Death Hag | specialRules_pl | Uderza pierwszy
+dark-elves-stats.json | Doomfire Warlocks | specialRules_pl | Przeklęty sabat
+dark-elves-stats.json | Har Ganeth Executioners | equipment_pl | Wielkie miecze Har Ganeth
+dark-elves-stats.json | Har Ganeth Executioners | specialRules_pl | Morderczy
+dark-elves-stats.json | Har Ganeth Executioners | specialRules_pl | Weterani
+dark-elves-stats.json | High Beastmaster | equipment_pl | Bicz
+dark-elves-stats.json | High Beastmaster | specialRules_pl | Morderczy
+dark-elves-stats.json | High Beastmaster | specialRules_pl | Uderza pierwszy
+dark-elves-stats.json | Khainite Assassin | specialRules_pl | Ukryty
+dark-elves-stats.json | Khainite Assassin | specialRules_pl | Morderczy
+dark-elves-stats.json | Khainite Assassin | specialRules_pl | Uderza pierwszy
+dark-elves-stats.json | Kharibdyss | equipment_pl | Przepastna paszcza
+dark-elves-stats.json | Kharibdyss | equipment_pl | Wijące się macki
+dark-elves-stats.json | Kharibdyss | specialRules_pl | Otchłanny skowyt
+dark-elves-stats.json | Kharibdyss | specialRules_pl | Groza
+dark-elves-stats.json | Manticore (Dark Elves) | specialRules_pl | Groza
+dark-elves-stats.json | Reaper Bolt Thrower | equipment_pl | Powtarzalna balista
+dark-elves-stats.json | Repeater Crossbowmen | equipment_pl | Powtarzalne kusze
+dark-elves-stats.json | Repeater Crossbowmen | specialRules_pl | Wojenne mistrzostwo
+dark-elves-stats.json | Scourgerunner Chariot | equipment_pl | Powtarzalne kusze
+dark-elves-stats.json | Sisters of Slaughter | equipment_pl | Bicz i puklerz
+dark-elves-stats.json | Sisters of Slaughter | specialRules_pl | Taniec śmierci
+dark-elves-stats.json | Sisters of Slaughter | specialRules_pl | Morderczy
+dark-elves-stats.json | Sorceress | specialRules_pl | Błogosławieństwo Hekarti
+dark-elves-stats.json | Sorceress | specialRules_pl | Wiedza Naggaroth
+dark-elves-stats.json | Sorceress | specialRules_pl | Morderczy
+dark-elves-stats.json | Supreme Sorceress | specialRules_pl | Błogosławieństwo Hekarti
+dark-elves-stats.json | Supreme Sorceress | specialRules_pl | Wiedza Naggaroth
+dark-elves-stats.json | Supreme Sorceress | specialRules_pl | Morderczy
+dark-elves-stats.json | War Hydra | equipment_pl | Ognisty oddech
+dark-elves-stats.json | War Hydra | equipment_pl | Zębate paszcze
+dark-elves-stats.json | War Hydra | specialRules_pl | Dodatkowe ataki (+pozostałe Rany)
+dark-elves-stats.json | War Hydra | specialRules_pl | Groza
+dark-elves-stats.json | Witch Elves | specialRules_pl | Morderczy
+dwarfen-mountain-holds-stats.json | Anvil of Doom | specialRules_pl | Tarcza Przodków
+dwarfen-mountain-holds-stats.json | Anvil of Doom | specialRules_pl | Nieruchomy Obiekt
+dwarfen-mountain-holds-stats.json | Anvil of Doom | specialRules_pl | Niezłomni
+dwarfen-mountain-holds-stats.json | Anvil of Doom | specialRules_pl | Wiedza o Runach
+dwarfen-mountain-holds-stats.json | Anvil of Doom | specialRules_pl | Uderz Runy
+dwarfen-mountain-holds-stats.json | Bolt Thrower | equipment_pl | Balista
+dwarfen-mountain-holds-stats.json | Burlok Damminson | equipment_pl | Młot piecowy
+dwarfen-mountain-holds-stats.json | Burlok Damminson | equipment_pl | Pistolet nitujący
+dwarfen-mountain-holds-stats.json | Burlok Damminson | specialRules_pl | Przygotowane Pozycje
+dwarfen-mountain-holds-stats.json | Burlok Damminson | specialRules_pl | Optyka Namierzająca
+dwarfen-mountain-holds-stats.json | Burlok Damminson | specialRules_pl | Niezłomni
+dwarfen-mountain-holds-stats.json | Cannon | equipment_pl | Armata
+dwarfen-mountain-holds-stats.json | Daemon Slayer | specialRules_pl | Cios Śmierci
+dwarfen-mountain-holds-stats.json | Daemon Slayer | specialRules_pl | Zabójczy Cios
+dwarfen-mountain-holds-stats.json | Daemon Slayer | specialRules_pl | Niezłomni
+dwarfen-mountain-holds-stats.json | Doomseeker | specialRules_pl | Cios Śmierci
+dwarfen-mountain-holds-stats.json | Doomseeker | specialRules_pl | Poszukiwacz Zagłady
+dwarfen-mountain-holds-stats.json | Doomseeker | specialRules_pl | Niezłomni
+dwarfen-mountain-holds-stats.json | Doomseeker | specialRules_pl | Wirująca Śmierć
+dwarfen-mountain-holds-stats.json | Dragon Slayer | specialRules_pl | Cios Śmierci
+dwarfen-mountain-holds-stats.json | Dragon Slayer | specialRules_pl | Zabójczy Cios
+dwarfen-mountain-holds-stats.json | Dragon Slayer | specialRules_pl | Niezłomni
+dwarfen-mountain-holds-stats.json | Dwarf Cart | specialRules_pl | Niezłomni
+dwarfen-mountain-holds-stats.json | Dwarf Warrior | specialRules_pl | Niezłomni
+dwarfen-mountain-holds-stats.json | Dwarf Warrior | specialRules_pl | Ściana Tarcz
+dwarfen-mountain-holds-stats.json | Engineer | specialRules_pl | Umocnienia
+dwarfen-mountain-holds-stats.json | Engineer | specialRules_pl | Niezłomni
+dwarfen-mountain-holds-stats.json | Engineer Sapper | specialRules_pl | Wroga Strefa
+dwarfen-mountain-holds-stats.json | Engineer Sapper | specialRules_pl | Niezłomni
+empire-of-men-stats.json | Barded Warhorse | equipment_pl | Napierśnik
+empire-of-men-stats.json | Captain of the Empire | specialRules_pl | "Utrzymać pozycje!"
+empire-of-men-stats.json | Chapter Master | specialRules_pl | Weteran
+empire-of-men-stats.json | Demigryph | equipment_pl | Napierśnik
+empire-of-men-stats.json | Empire Archers | equipment_pl | Długie łuki
+empire-of-men-stats.json | Empire Engineer | specialRules_pl | Chmury sadzy i dymu
+empire-of-men-stats.json | Empire Steam Tank | equipment_pl | Działo parowe
+empire-of-men-stats.json | Empire Steam Tank | equipment_pl | Karabin parowy
+empire-of-men-stats.json | Empire Steam Tank | specialRules_pl | Miażdżące koła
+empire-of-men-stats.json | Empire Steam Tank | specialRules_pl | Moc pary
+empire-of-men-stats.json | Empire Steam Tank | specialRules_pl | Kapryśny
+empire-of-men-stats.json | Empire Steam Tank | specialRules_pl | Groza
+empire-of-men-stats.json | Empire War Wagon | specialRules_pl | Miażdżąca masa
+empire-of-men-stats.json | Empire War Wagon | specialRules_pl | Stabilna platforma strzelecka
+empire-of-men-stats.json | Flagellants | equipment_pl | Cepy
+empire-of-men-stats.json | Flagellants | specialRules_pl | Fanatyczny zapał
+empire-of-men-stats.json | Flagellants | specialRules_pl | Nieczuli na ból
+empire-of-men-stats.json | Free Company Militia | specialRules_pl | Pospolite ruszenie
+empire-of-men-stats.json | General Hans von Löwenhacke | equipment_pl | Hełm Gryfa
+empire-of-men-stats.json | General Hans von Löwenhacke | equipment_pl | Sąd
+empire-of-men-stats.json | General Hans von Löwenhacke | specialRules_pl | "Utrzymać pozycje!"
+empire-of-men-stats.json | General Hans von Löwenhacke | specialRules_pl | Dowódca najemników
+empire-of-men-stats.json | General Hans von Löwenhacke | specialRules_pl | Mistrz strategii
+empire-of-men-stats.json | General of the Empire | specialRules_pl | "Utrzymać pozycje!"
+empire-of-men-stats.json | Grand Master | specialRules_pl | Weteran
+empire-of-men-stats.json | Griffon (Empire) | equipment_pl | Zębata paszcza
+empire-of-men-stats.json | Griffon (Empire) | specialRules_pl | Groza
+empire-of-men-stats.json | Harald Gemunsen | specialRules_pl | Utalentowany pojedynkowicz
+empire-of-men-stats.json | Harald Gemunsen | specialRules_pl | Weteran
+empire-of-men-stats.json | Harbinger of Doom | specialRules_pl | Nieczuli na ból
+empire-of-men-stats.json | Harbinger of Doom | specialRules_pl | Modlitwa potępionych
+empire-of-men-stats.json | Harbinger of Doom | specialRules_pl | Fanatyk
+empire-of-men-stats.json | Helblaster Volley Gun | equipment_pl | Salwa Helblaster
+empire-of-men-stats.json | Helstorm Rocket Battery | equipment_pl | Rakietnica Helstorm
+empire-of-men-stats.json | High Priest of Ulric | specialRules_pl | Modlitwy Ulryka
+empire-of-men-stats.json | Imperial Griffon | equipment_pl | Zębata paszcza
+empire-of-men-stats.json | Imperial Griffon | specialRules_pl | Groza
+empire-of-men-stats.json | Imperial Ogres | specialRules_pl | Najemnicy
+empire-of-men-stats.json | Inner Circle Knights | specialRules_pl | Wyszkoleni
+empire-of-men-stats.json | Inner Circle Knights | specialRules_pl | Wewnętrzny Krąg
+empire-of-men-stats.json | Inner Circle Knights | specialRules_pl | Weteran
+empire-of-men-stats.json | Lector of Sigmar | specialRules_pl | Modlitwy Sigmara
+empire-of-men-stats.json | Mortar | equipment_pl | Moździerz
+empire-of-men-stats.json | Nuln State Missile Troops | equipment_pl | Arkebuzery
+empire-of-men-stats.json | Nuln State Missile Troops | specialRules_pl | Oddziały Nuln
+empire-of-men-stats.json | Nuln State Troops | equipment_pl | Halabardy
+empire-of-men-stats.json | Nuln State Troops | specialRules_pl | Oddziały Nuln
+empire-of-men-stats.json | Nuln Swordsmen | specialRules_pl | Oddziały Nuln
+empire-of-men-stats.json | Nuln Veteran State Troops | equipment_pl | Halabardy
+empire-of-men-stats.json | Nuln Veteran State Troops | specialRules_pl | Oddziały Nuln
+empire-of-men-stats.json | Nuln Veteran State Troops | specialRules_pl | Weteran
+empire-of-men-stats.json | Priest of Sigmar | specialRules_pl | Modlitwy Sigmara
+empire-of-men-stats.json | Priest of Ulric | specialRules_pl | Modlitwy Ulryka
+empire-of-men-stats.json | State Missile Troops | equipment_pl | Kusze
+empire-of-men-stats.json | Teutogen Guard | specialRules_pl | Błogosławieństwa Ulryka
+empire-of-men-stats.json | Teutogen Guard | specialRules_pl | Wyszkoleni
+empire-of-men-stats.json | Teutogen Guard | specialRules_pl | Weteran
+empire-of-men-stats.json | Veteran State Troops | specialRules_pl | Weteran
+empire-of-men-stats.json | War Altar of Sigmar | specialRules_pl | Święty zapał
+empire-of-men-stats.json | War Altar of Sigmar | specialRules_pl | Symbol Mocy
+empire-of-men-stats.json | War Altar of Sigmar | specialRules_pl | Groza
+empire-of-men-stats.json | War Altar of Sigmar | specialRules_pl | Zguba czarownic
+empire-of-men-stats.json | Witch Hunter | specialRules_pl | Zabójczy Cios
+empire-of-men-stats.json | Witch Hunter | specialRules_pl | Niech nie cierpi...
+grand-cathay-stats.json | Cathayan Sentinel | specialRules_pl | Nieustępliwy
+grand-cathay-stats.json | Cathayan Sentinel | specialRules_pl | Groza
+grand-cathay-stats.json | Cathayan Warhorse | equipment_pl | Napierśnik
+grand-cathay-stats.json | Cathayan Warhorse | specialRules_pl | Katafrakci Katajscy
+grand-cathay-stats.json | Gate Keeper | equipment_pl | Tarcza
+grand-cathay-stats.json | Gate Master | equipment_pl | Tarcza
+grand-cathay-stats.json | Jade Lancers | equipment_pl | Katajskie lance
+grand-cathay-stats.json | Jade Lancers | equipment_pl | Żelazne kopyta (Konie)
+grand-cathay-stats.json | Jade Lancers | equipment_pl | Napierśnik (Konie)
+grand-cathay-stats.json | Jade Lancers | specialRules_pl | Katafrakci Katajscy
+grand-cathay-stats.json | Jade Warriors | specialRules_pl | Postawa Obronna
+grand-cathay-stats.json | Miao Ying | specialRules_pl | Mistrzyni Żywiołów
+grand-cathay-stats.json | Miao Ying | specialRules_pl | Najwyższa Matrona Nan-Gau
+grand-cathay-stats.json | Shugengan General | specialRules_pl | Mistrz Żywiołów
+grand-cathay-stats.json | Shugengan Lord | specialRules_pl | Mistrz Żywiołów
+grand-cathay-stats.json | Sky Lantern | specialRules_pl | Odwrót
+grand-cathay-stats.json | Sky Lantern | specialRules_pl | Udawana ucieczka
+grand-cathay-stats.json | Sky Lantern | specialRules_pl | Niebiańska Latarnia
+grand-cathay-stats.json | Sky Lantern | specialRules_pl | Ruch Rezerwowy
+high-elfs-realms-stats.json | Archmage | equipment_pl | Kostur, Szaty
+high-elfs-realms-stats.json | Dragon Princes | specialRules_pl | Nieustraszeni
+high-elfs-realms-stats.json | Ellyrian Reavers | specialRules_pl | Harcownicy
+high-elfs-realms-stats.json | Highborn | specialRules_pl | Nieustraszeni
+high-elfs-realms-stats.json | Highborn | specialRules_pl | Inspirujący
+high-elfs-realms-stats.json | Phoenix Guard | specialRules_pl | Nieustraszeni
+high-elfs-realms-stats.json | Phoenix Guard | specialRules_pl | Ściana Tarcz
+high-elfs-realms-stats.json | Prince | specialRules_pl | Inspirujący
+high-elfs-realms-stats.json | Prince | specialRules_pl | Przywództwo +1
+high-elfs-realms-stats.json | Silver Helms | specialRules_pl | Tarcza
+high-elfs-realms-stats.json | Spearmen | equipment_pl | Włócznie, Tarcze
+high-elfs-realms-stats.json | Spearmen | specialRules_pl | Ściana Tarcz
+high-elfs-realms-stats.json | Swordmasters of Hoeth | specialRules_pl | Parowanie
+high-elfs-realms-stats.json | White Lions of Chrace | specialRules_pl | Nieustraszeni
+high-elfs-realms-stats.json | White Lions of Chrace | specialRules_pl | Parowanie
+lizardmen-stats.json | Ancient Stegadon | specialRules_pl | Howdah
+lizardmen-stats.json | Ancient Stegadon | specialRules_pl | Groza
+lizardmen-stats.json | Bastiladon | equipment_pl | Arka Soteka
+lizardmen-stats.json | Bastiladon | equipment_pl | Grzmiąca maczuga
+lizardmen-stats.json | Bastiladon | specialRules_pl | Nieprzenikniona Obrona
+lizardmen-stats.json | Bastiladon | specialRules_pl | Groza
+lizardmen-stats.json | Carnosaur | equipment_pl | Tnące szpony
+lizardmen-stats.json | Carnosaur | specialRules_pl | Groza
+lizardmen-stats.json | Chameleon Skinks | equipment_pl | Dmuchawki
+lizardmen-stats.json | Chameleon Skinks | specialRules_pl | Zwrotni
+lizardmen-stats.json | Cold One (Lizardmen) | specialRules_pl | Głupota
+lizardmen-stats.json | Cold One Riders | specialRules_pl | Obsydianowe Ostrza
+lizardmen-stats.json | Cold One Riders | specialRules_pl | Głupota
+lizardmen-stats.json | Kroxigor | specialRules_pl | Wodny
+lizardmen-stats.json | Kroxigor | specialRules_pl | Osłona Harcowników
+lizardmen-stats.json | Razordon Pack | specialRules_pl | Wodny
+lizardmen-stats.json | Ripperdactyl | specialRules_pl | Miażdżący Cios (tylko Ripperdactyl)
+lizardmen-stats.json | Ripperdactyl | specialRules_pl | Ropuszy Szał
+lizardmen-stats.json | Ripperdactyl Riders | specialRules_pl | Miażdżący Cios (tylko Ripperdactyl)
+lizardmen-stats.json | Ripperdactyl Riders | specialRules_pl | Ropuszy Szał
+lizardmen-stats.json | Salamander Pack | specialRules_pl | Wodny
+lizardmen-stats.json | Saurus Oldblood | specialRules_pl | Obsydianowe Ostrza
+lizardmen-stats.json | Saurus Scar-Veteran | specialRules_pl | Obsydianowe Ostrza
+lizardmen-stats.json | Saurus Warriors | specialRules_pl | Obsydianowe Ostrza
+lizardmen-stats.json | Skink Chief | specialRules_pl | Wodny
+lizardmen-stats.json | Skink Priest | specialRules_pl | Wodny
+lizardmen-stats.json | Skink Priest | specialRules_pl | Tajemniczy Wassal
+lizardmen-stats.json | Skink Priest | specialRules_pl | Wiedza Lustrii
+lizardmen-stats.json | Slann Mage-Priest | specialRules_pl | Tajemnicza Tarcza
+lizardmen-stats.json | Slann Mage-Priest | specialRules_pl | Wiedza Lustrii
+lizardmen-stats.json | Stegadon | specialRules_pl | Howdah
+lizardmen-stats.json | Stegadon | specialRules_pl | Groza
+lizardmen-stats.json | Temple Guard | equipment_pl | Halabardy
+lizardmen-stats.json | Temple Guard | specialRules_pl | Strażnicy
+lizardmen-stats.json | Temple Guard | specialRules_pl | Obsydianowe Ostrza
+lizardmen-stats.json | Temple Guard | specialRules_pl | Ściana Tarcz
+lizardmen-stats.json | Terradon | specialRules_pl | Zrzucanie Kamieni
+lizardmen-stats.json | Terradon Riders | specialRules_pl | Zrzucanie Kamieni
+lizardmen-stats.json | Troglodon | equipment_pl | Trujący oddech
+lizardmen-stats.json | Troglodon | equipment_pl | Jadowite szpony
+lizardmen-stats.json | Troglodon | specialRules_pl | Wodny
+lizardmen-stats.json | Troglodon | specialRules_pl | Tajemniczy Wassal
+lizardmen-stats.json | Troglodon | specialRules_pl | Wiedza Lustrii
+lizardmen-stats.json | Troglodon | specialRules_pl | Pierwotny Ryk
+lizardmen-stats.json | Troglodon | specialRules_pl | Groza
+ogre-kingdoms-stats.json | Bruiser | specialRules_pl | Szarża Byka
+ogre-kingdoms-stats.json | Firebelly | specialRules_pl | Błogosławieństwa Boga Wulkanu
+ogre-kingdoms-stats.json | Firebelly | specialRules_pl | Płonące Ataki
+ogre-kingdoms-stats.json | Giant | specialRules_pl | Groza
+ogre-kingdoms-stats.json | Gnoblar Fighters | specialRules_pl | W Dużej Mierze Nieistotni
+ogre-kingdoms-stats.json | Gnoblar Trappers | specialRules_pl | W Dużej Mierze Nieistotni
+ogre-kingdoms-stats.json | Gnoblar Trappers | specialRules_pl | Pułapki i Sidła
+ogre-kingdoms-stats.json | Gorger | specialRules_pl | Nienasycony Głód
+ogre-kingdoms-stats.json | Mournfang Cavalry | specialRules_pl | Szarża Mournfanga
+ogre-kingdoms-stats.json | Stonehorn | specialRules_pl | Groza
+ogre-kingdoms-stats.json | Stonehorn | specialRules_pl | Grzmiąca Szarża
+ogre-kingdoms-stats.json | Stonehorn Riders | specialRules_pl | Howdah
+ogre-kingdoms-stats.json | Stonehorn Riders | specialRules_pl | Groza
+ogre-kingdoms-stats.json | Stonehorn Riders | specialRules_pl | Grzmiąca Szarża
+ogre-kingdoms-stats.json | Thundertusk | specialRules_pl | Drętwiejący Chłód
+ogre-kingdoms-stats.json | Thundertusk | specialRules_pl | Groza
+ogre-kingdoms-stats.json | Thundertusk Riders | specialRules_pl | Howdah
+ogre-kingdoms-stats.json | Thundertusk Riders | specialRules_pl | Drętwiejący Chłód
+ogre-kingdoms-stats.json | Thundertusk Riders | specialRules_pl | Groza
+ogre-kingdoms-stats.json | Tyrant | specialRules_pl | Szarża Byka
+ogre-kingdoms-stats.json | Yhetees | specialRules_pl | Drętwiejący Chłód
+orc-and-goblins-tribe-stats.json | Arachnarok Spider | equipment_pl | Trujący wytrysk
+orc-and-goblins-tribe-stats.json | Arachnarok Spider | specialRules_pl | Howdah
+orc-and-goblins-tribe-stats.json | Arachnarok Spider | specialRules_pl | Groza
+orc-and-goblins-tribe-stats.json | Badlands Ogre Bulls | specialRules_pl | Najemnicy
+orc-and-goblins-tribe-stats.json | Black Orc Bigboss | specialRules_pl | Tasaki
+orc-and-goblins-tribe-stats.json | Black Orc Bigboss | specialRules_pl | Chłopaki
+orc-and-goblins-tribe-stats.json | Black Orc Bigboss | specialRules_pl | Ignoruje Panikę
+orc-and-goblins-tribe-stats.json | Black Orc Bigboss | specialRules_pl | Tłumi Impulsywność
+orc-and-goblins-tribe-stats.json | Black Orc Bigboss | specialRules_pl | Waaagh!
+orc-and-goblins-tribe-stats.json | Black Orc Boar Chariot | equipment_pl | Kły (Dziki Bojowe)
+orc-and-goblins-tribe-stats.json | Black Orc Boar Chariot | specialRules_pl | Tasaki
+orc-and-goblins-tribe-stats.json | Black Orc Boar Chariot | specialRules_pl | Ignoruje Panikę
+orc-and-goblins-tribe-stats.json | Black Orc Boar Chariot | specialRules_pl | Szarża Knura
+orc-and-goblins-tribe-stats.json | Black Orc Mob | specialRules_pl | Tasaki
+orc-and-goblins-tribe-stats.json | Black Orc Mob | specialRules_pl | Chłopaki
+orc-and-goblins-tribe-stats.json | Black Orc Mob | specialRules_pl | Ignoruje Panikę
+orc-and-goblins-tribe-stats.json | Black Orc Mob | specialRules_pl | Tłumi Impulsywność
+orc-and-goblins-tribe-stats.json | Black Orc Warboss | specialRules_pl | Tasaki
+orc-and-goblins-tribe-stats.json | Black Orc Warboss | specialRules_pl | Chłopaki
+orc-and-goblins-tribe-stats.json | Black Orc Warboss | specialRules_pl | Ignoruje Panikę
+orc-and-goblins-tribe-stats.json | Black Orc Warboss | specialRules_pl | Tłumi Impulsywność
+orc-and-goblins-tribe-stats.json | Black Orc Warboss | specialRules_pl | Waaagh!
+orc-and-goblins-tribe-stats.json | Bonegrinder Giant | equipment_pl | Maczuga Kościomiela
+orc-and-goblins-tribe-stats.json | Bonegrinder Giant | specialRules_pl | Najemnicy
+orc-and-goblins-tribe-stats.json | Bonegrinder Giant | specialRules_pl | Groza
+orc-and-goblins-tribe-stats.json | Common Troll Mob | equipment_pl | Wymiociny trolla
+orc-and-goblins-tribe-stats.json | Common Troll Mob | specialRules_pl | Głupota
+orc-and-goblins-tribe-stats.json | Doom Diver Catapult | specialRules_pl | Nurek Zagłady
+orc-and-goblins-tribe-stats.json | Fanatic | equipment_pl | Kula i łańcuch fanatyka
+orc-and-goblins-tribe-stats.json | Fanatic | specialRules_pl | Wypuść Fanatyków!
+orc-and-goblins-tribe-stats.json | Giant | specialRules_pl | Groza
+orc-and-goblins-tribe-stats.json | Giant Cave Squig (Mount) | equipment_pl | Olbrzymia paszcza
+orc-and-goblins-tribe-stats.json | Giant Cave Squig (Mount) | specialRules_pl | Losowy Ruch
+orc-and-goblins-tribe-stats.json | Goblin Bolt Throwa | equipment_pl | Balista
+orc-and-goblins-tribe-stats.json | Goblin Oddgit | specialRules_pl | Wiedza Morka
+orc-and-goblins-tribe-stats.json | Goblin Oddnob | specialRules_pl | Wiedza Morka
+orc-and-goblins-tribe-stats.json | Kiknik Toofsnatcha | equipment_pl | Stojak na Trofea Bossa
+orc-and-goblins-tribe-stats.json | Kiknik Toofsnatcha | equipment_pl | Czachomiażdża
+orc-and-goblins-tribe-stats.json | Kiknik Toofsnatcha | equipment_pl | Tarcza
+orc-and-goblins-tribe-stats.json | Kiknik Toofsnatcha | specialRules_pl | Wal i Uciekaj
+orc-and-goblins-tribe-stats.json | Kiknik Toofsnatcha | specialRules_pl | Skradanie się
+orc-and-goblins-tribe-stats.json | Mangler Squigs | equipment_pl | Kolosalna paszcza pełna kłów
+orc-and-goblins-tribe-stats.json | Mangler Squigs | specialRules_pl | Ker-splat
+orc-and-goblins-tribe-stats.json | Mangler Squigs | specialRules_pl | Losowy Ruch
+orc-and-goblins-tribe-stats.json | Mangler Squigs | specialRules_pl | Kolczaste Kule i Łańcuchy
+orc-and-goblins-tribe-stats.json | Nasty Skulker | specialRules_pl | Skradający się Drań
+orc-and-goblins-tribe-stats.json | Nasty Skulker | specialRules_pl | Uderza Pierwszy
+orc-and-goblins-tribe-stats.json | Night Goblin Oddgit | specialRules_pl | Wiedza Morka
+orc-and-goblins-tribe-stats.json | Night Goblin Oddnob | specialRules_pl | Wiedza Morka
+orc-and-goblins-tribe-stats.json | Night Goblin Squig Herd | equipment_pl | Ogromne paszcze (Squigi)
+orc-and-goblins-tribe-stats.json | Night Goblin Squig Hopper Mob | equipment_pl | Ogromne paszcze (Squigi)
+orc-and-goblins-tribe-stats.json | Night Goblin Squig Hopper Mob | specialRules_pl | Losowy Ruch
+orc-and-goblins-tribe-stats.json | Ogdruz Swampdigga | equipment_pl | Kostur z Bagiennego Drewna
+orc-and-goblins-tribe-stats.json | Ogdruz Swampdigga | equipment_pl | Chochlik Wiedzy
+orc-and-goblins-tribe-stats.json | Ogdruz Swampdigga | equipment_pl | Szal z Trollowej Skóry
+orc-and-goblins-tribe-stats.json | Ogdruz Swampdigga | specialRules_pl | Tasaki
+orc-and-goblins-tribe-stats.json | Ogdruz Swampdigga | specialRules_pl | Przywoływacz Trolli
+orc-and-goblins-tribe-stats.json | Ogdruz Swampdigga | specialRules_pl | Ignoruje Panikę Goblinów
+orc-and-goblins-tribe-stats.json | Ogdruz Swampdigga | specialRules_pl | Chroń Bossa
+orc-and-goblins-tribe-stats.json | Ogdruz Swampdigga | specialRules_pl | Wysysanie Siły
+orc-and-goblins-tribe-stats.json | Orc Bigboss | specialRules_pl | Tasaki
+orc-and-goblins-tribe-stats.json | Orc Bigboss | specialRules_pl | Ignoruje Panikę Goblinów
+orc-and-goblins-tribe-stats.json | Orc Bigboss | specialRules_pl | Waaagh!
+orc-and-goblins-tribe-stats.json | Orc Boar Boy Mob | equipment_pl | Kły (dziki)
+orc-and-goblins-tribe-stats.json | Orc Boar Boy Mob | specialRules_pl | Tasaki
+orc-and-goblins-tribe-stats.json | Orc Boar Boy Mob | specialRules_pl | Ignoruje Panikę Goblinów
+orc-and-goblins-tribe-stats.json | Orc Boar Boy Mob | specialRules_pl | Szarża Knura
+orc-and-goblins-tribe-stats.json | Orc Boar Chariot | equipment_pl | Kły (dziki)
+orc-and-goblins-tribe-stats.json | Orc Boar Chariot | specialRules_pl | Tasaki
+orc-and-goblins-tribe-stats.json | Orc Boar Chariot | specialRules_pl | Ignoruje Panikę Goblinów
+orc-and-goblins-tribe-stats.json | Orc Boar Chariot | specialRules_pl | Szarża Knura
+orc-and-goblins-tribe-stats.json | Orc Bully | equipment_pl | Bicz
+orc-and-goblins-tribe-stats.json | Orc Bully | specialRules_pl | Zastraszanie
+orc-and-goblins-tribe-stats.json | Orc Bully | specialRules_pl | Tasaki
+orc-and-goblins-tribe-stats.json | Orc Mob | specialRules_pl | Tasaki
+orc-and-goblins-tribe-stats.json | Orc Mob | specialRules_pl | Ignoruje Panikę Goblinów
+orc-and-goblins-tribe-stats.json | Orc Warboss | specialRules_pl | Tasaki
+orc-and-goblins-tribe-stats.json | Orc Warboss | specialRules_pl | Ignoruje Panikę Goblinów
+orc-and-goblins-tribe-stats.json | Orc Warboss | specialRules_pl | Waaagh!
+orc-and-goblins-tribe-stats.json | Orc Weirdboy | specialRules_pl | Tasaki
+orc-and-goblins-tribe-stats.json | Orc Weirdboy | specialRules_pl | Ignoruje Panikę Goblinów
+orc-and-goblins-tribe-stats.json | Orc Weirdboy | specialRules_pl | Wiedza Gorka
+orc-and-goblins-tribe-stats.json | Orc Weirdboy | specialRules_pl | Władza Tłumu
+orc-and-goblins-tribe-stats.json | Orc Weirdnob | specialRules_pl | Tasaki
+orc-and-goblins-tribe-stats.json | Orc Weirdnob | specialRules_pl | Ignoruje Panikę Goblinów
+orc-and-goblins-tribe-stats.json | Orc Weirdnob | specialRules_pl | Wiedza Gorka
+orc-and-goblins-tribe-stats.json | Orc Weirdnob | specialRules_pl | Władza Tłumu
+orc-and-goblins-tribe-stats.json | River Troll Mob | equipment_pl | Wymiociny trolla
+orc-and-goblins-tribe-stats.json | River Troll Mob | specialRules_pl | Głupota
+orc-and-goblins-tribe-stats.json | Snotling Pump Wagon | specialRules_pl | Losowy Ruch
+orc-and-goblins-tribe-stats.json | Stone Troll Mob | equipment_pl | Wymiociny trolla
+orc-and-goblins-tribe-stats.json | Stone Troll Mob | specialRules_pl | Głupota
+orc-and-goblins-tribe-stats.json | Troll Hag | equipment_pl | Bagienny oddech
+orc-and-goblins-tribe-stats.json | Troll Hag | equipment_pl | Wymiociny trolla
+orc-and-goblins-tribe-stats.json | Troll Hag | specialRules_pl | Niewybredny Głód
+orc-and-goblins-tribe-stats.json | Troll Hag | specialRules_pl | Macierzyńska Miłość
+orc-and-goblins-tribe-stats.json | Troll Hag | specialRules_pl | Śliskie Nogi
+orc-and-goblins-tribe-stats.json | Troll Hag | specialRules_pl | Głupota
+orc-and-goblins-tribe-stats.json | Troll Hag | specialRules_pl | Groza
+orc-and-goblins-tribe-stats.json | War Boar (Mount) | specialRules_pl | Szarża Knura
+orc-and-goblins-tribe-stats.json | Wyvern | equipment_pl | Jadowity ogon
+orc-and-goblins-tribe-stats.json | Wyvern | specialRules_pl | Groza
+skaven-stats.json | Doomwheel | specialRules_pl | Miażdżąca Masa
+skaven-stats.json | Doomwheel | specialRules_pl | Losowe Ataki (tylko Szczury)
+skaven-stats.json | Doomwheel | specialRules_pl | Losowy Ruch
+skaven-stats.json | Doomwheel | specialRules_pl | Zzzzap!
+skaven-stats.json | Grey Seer | equipment_pl | K3 Żetonów Osnowokamienia
+skaven-stats.json | Grey Seer | specialRules_pl | Wiedza Rogatego Szczura
+skaven-stats.json | Grey Seer | specialRules_pl | Szczurza Odwaga
+skaven-stats.json | Gutter Runners | specialRules_pl | Zwrotni
+skaven-stats.json | Gutter Runners | specialRules_pl | Udawana Ucieczka
+skaven-stats.json | Hell Pit Abomination | equipment_pl | Osnowokamienne szpony
+skaven-stats.json | Hell Pit Abomination | specialRules_pl | Obrzydliwe Ataki
+skaven-stats.json | Hell Pit Abomination | specialRules_pl | Losowy Ruch
+skaven-stats.json | Hell Pit Abomination | specialRules_pl | Groza
+skaven-stats.json | Master Assassin | specialRules_pl | Infiltracja Eshina
+skaven-stats.json | Master Assassin | specialRules_pl | Zwrotni
+skaven-stats.json | Master Assassin | specialRules_pl | Udawana Ucieczka
+skaven-stats.json | Master Assassin | specialRules_pl | Ukryty
+skaven-stats.json | Master Assassin | specialRules_pl | Szczurza Odwaga
+skaven-stats.json | Night Runners | specialRules_pl | Zwrotni
+skaven-stats.json | Plague Censer Bearers | equipment_pl | Kadzielnice zarazy
+skaven-stats.json | Plague Furnace | equipment_pl | Piec Zarazy: Obłoki Śmierci
+skaven-stats.json | Plague Furnace | specialRules_pl | Ciągnięty
+skaven-stats.json | Plague Furnace | specialRules_pl | Rojące się Masy
+skaven-stats.json | Plague Priest | specialRules_pl | Chmura Much
+skaven-stats.json | Plague Priest | specialRules_pl | Wiedza Rogatego Szczura
+skaven-stats.json | Plague Priest | specialRules_pl | Szczurza Odwaga
+skaven-stats.json | Plagueclaw Catapult | equipment_pl | Katapulta Szponów Zarazy
+skaven-stats.json | Poisoned Wind Globadiers | equipment_pl | Kule Trującego Wiatru
+skaven-stats.json | Screaming Bell | specialRules_pl | Błogosławieństwa Rogatego Szczura
+skaven-stats.json | Screaming Bell | specialRules_pl | Ciągnięty
+skaven-stats.json | Screaming Bell | specialRules_pl | Rojące się Masy
+skaven-stats.json | Screaming Bell | specialRules_pl | Groza
+skaven-stats.json | Screaming Bell | specialRules_pl | Uderzanie w Dzwon
+skaven-stats.json | Skaven Chieftain | specialRules_pl | Szczurza Odwaga
+skaven-stats.json | Skaven Warlord | specialRules_pl | Szczurza Odwaga
+skaven-stats.json | Stormvermin | equipment_pl | Halabardy
+skaven-stats.json | Warlock Engineer | equipment_pl | K3 Żetonów Osnowokamienia
+skaven-stats.json | Warlock Engineer | specialRules_pl | Wiedza Rogatego Szczura
+skaven-stats.json | Warlock Engineer | specialRules_pl | Szczurza Odwaga
+skaven-stats.json | Warp Lightning Cannon | equipment_pl | Armata Osnowowych Błyskawic
+skaven-stats.json | Warplock Jezzails | equipment_pl | Pawiąż
+skaven-stats.json | Warplock Jezzails | equipment_pl | Osnowowe jezaile
+tomb-kings-of-khemri-stats.json | Arch Necrotect | equipment_pl | Bicz
+tomb-kings-of-khemri-stats.json | Arch Necrotect | specialRules_pl | Nieśmiertelny Nadzorca
+tomb-kings-of-khemri-stats.json | Arch Necrotect | specialRules_pl | Khopesz
+tomb-kings-of-khemri-stats.json | Casket of Souls | specialRules_pl | Miażdżący Cios
+tomb-kings-of-khemri-stats.json | Casket of Souls | specialRules_pl | Przymierze Mocy
+tomb-kings-of-khemri-stats.json | Casket of Souls | specialRules_pl | Nieruchomy Obiekt
+tomb-kings-of-khemri-stats.json | Casket of Souls | specialRules_pl | Uwolnione Duchy
+tomb-kings-of-khemri-stats.json | Casket of Souls | specialRules_pl | Wir Dusz
+tomb-kings-of-khemri-stats.json | High Priest | specialRules_pl | Powstań!
+tomb-kings-of-khemri-stats.json | High Priest | specialRules_pl | Klątwa Nekropoli
+tomb-kings-of-khemri-stats.json | High Priest | specialRules_pl | Khopesz
+tomb-kings-of-khemri-stats.json | High Priest | specialRules_pl | Wiedza Nehekhary
+tomb-kings-of-khemri-stats.json | Khemrian Warsphinx | equipment_pl | Sfinks Wojenny: Złowrogie szpony
+tomb-kings-of-khemri-stats.json | Khemrian Warsphinx | specialRules_pl | Strzały Asaph
+tomb-kings-of-khemri-stats.json | Khemrian Warsphinx | specialRules_pl | Howdah
+tomb-kings-of-khemri-stats.json | Khemrian Warsphinx | specialRules_pl | Groza
+tomb-kings-of-khemri-stats.json | Mortuary Priest | specialRules_pl | Powstań!
+tomb-kings-of-khemri-stats.json | Mortuary Priest | specialRules_pl | Klątwa Nekropoli
+tomb-kings-of-khemri-stats.json | Mortuary Priest | specialRules_pl | Khopesz
+tomb-kings-of-khemri-stats.json | Mortuary Priest | specialRules_pl | Wiedza Nehekhary
+tomb-kings-of-khemri-stats.json | Necrolith Bone Dragon | equipment_pl | Oddech wysuszenia
+tomb-kings-of-khemri-stats.json | Necrolith Bone Dragon | specialRules_pl | Obłok Pyłu
+tomb-kings-of-khemri-stats.json | Necrolith Bone Dragon | specialRules_pl | Groza
+tomb-kings-of-khemri-stats.json | Necrolith Colossus | specialRules_pl | Groza
+tomb-kings-of-khemri-stats.json | Necrolith Colossus | specialRules_pl | Niepohamowany Szturm
+tomb-kings-of-khemri-stats.json | Necropolis Knights | specialRules_pl | Khopesz
+tomb-kings-of-khemri-stats.json | Necrosphinx | equipment_pl | Rozszczepujące ostrza
+tomb-kings-of-khemri-stats.json | Necrosphinx | equipment_pl | Dekapitujący cios
+tomb-kings-of-khemri-stats.json | Necrosphinx | specialRules_pl | Żniwiarz Dusz
+tomb-kings-of-khemri-stats.json | Necrosphinx | specialRules_pl | Groza
+tomb-kings-of-khemri-stats.json | Necrotect | equipment_pl | Bicz
+tomb-kings-of-khemri-stats.json | Necrotect | specialRules_pl | Wieczny Nadzorca
+tomb-kings-of-khemri-stats.json | Necrotect | specialRules_pl | Khopesz
+tomb-kings-of-khemri-stats.json | Nekaph | equipment_pl | Cep Podbitych Królów
+tomb-kings-of-khemri-stats.json | Nekaph | specialRules_pl | Herold Rozpaczy
+tomb-kings-of-khemri-stats.json | Nekaph | specialRules_pl | Zabójczy Cios
+tomb-kings-of-khemri-stats.json | Nekaph | specialRules_pl | Zaprzysiężony Obrońca
+tomb-kings-of-khemri-stats.json | Prince Apophas | equipment_pl | Rojąca się masa
+tomb-kings-of-khemri-stats.json | Prince Apophas | specialRules_pl | Khopesz
+tomb-kings-of-khemri-stats.json | Prince Apophas | specialRules_pl | Groza
+tomb-kings-of-khemri-stats.json | Prince Apophas | specialRules_pl | Żniwiarz Usiriana
+tomb-kings-of-khemri-stats.json | Royal Herald | specialRules_pl | Khopesz
+tomb-kings-of-khemri-stats.json | Royal Herald | specialRules_pl | Zaprzysiężony Obrońca
+tomb-kings-of-khemri-stats.json | Screaming Skull Catapult | equipment_pl | Katapulta wyjących czaszek
+tomb-kings-of-khemri-stats.json | Sepulchral Stalkers | equipment_pl | Halabardy
+tomb-kings-of-khemri-stats.json | Sepulchral Stalkers | equipment_pl | Wijące się ogony
+tomb-kings-of-khemri-stats.json | Settra the Imperishable | equipment_pl | Settra: Błogosławione Ostrze Ptry
+tomb-kings-of-khemri-stats.json | Settra the Imperishable | equipment_pl | Korona Nehekhary
+tomb-kings-of-khemri-stats.json | Settra the Imperishable | equipment_pl | Skarabeuszowa Broszka Usiriana
+tomb-kings-of-khemri-stats.json | Settra the Imperishable | specialRules_pl | Dowódca Legionów
+tomb-kings-of-khemri-stats.json | Settra the Imperishable | specialRules_pl | Klątwa Nekropoli
+tomb-kings-of-khemri-stats.json | Settra the Imperishable | specialRules_pl | Wiedza Nehekhary
+tomb-kings-of-khemri-stats.json | Settra the Imperishable | specialRules_pl | Moja Wola Zostanie Spełniona
+tomb-kings-of-khemri-stats.json | Settra the Imperishable | specialRules_pl | Settra Nie Klęka!
+tomb-kings-of-khemri-stats.json | Skeleton Archers | equipment_pl | Łuki wojenne
+tomb-kings-of-khemri-stats.json | Skeleton Archers | specialRules_pl | Strzały Asaph
+tomb-kings-of-khemri-stats.json | Skeleton Cavalry Cohort | equipment_pl | Jeździec Królewskiego Zastępu: tarcze
+tomb-kings-of-khemri-stats.json | Skeleton Cavalry Cohort | specialRules_pl | Strzały Asaph
+tomb-kings-of-khemri-stats.json | Skeleton Cavalry Cohort | specialRules_pl | Niewzruszona Dyscyplina
+tomb-kings-of-khemri-stats.json | Skeleton Chariot | specialRules_pl | Ruch Rezerwowy
+tomb-kings-of-khemri-stats.json | Skeleton Chariots | specialRules_pl | Strzały Asaph
+tomb-kings-of-khemri-stats.json | Skeleton Chariots | specialRules_pl | Ruch Rezerwowy
+tomb-kings-of-khemri-stats.json | Skeleton Horse Archers | equipment_pl | Szkieletowi Jeźdźcy: łuki wojenne
+tomb-kings-of-khemri-stats.json | Skeleton Horse Archers | specialRules_pl | Strzały Asaph
+tomb-kings-of-khemri-stats.json | Skeleton Horse Archers | specialRules_pl | Ruch Rezerwowy
+tomb-kings-of-khemri-stats.json | Skeleton Horsemen | equipment_pl | Szkieletowi Jeźdźcy: tarcze
+tomb-kings-of-khemri-stats.json | Skeleton Infantry Cohort | specialRules_pl | Strzały Asaph
+tomb-kings-of-khemri-stats.json | Skeleton Infantry Cohort | specialRules_pl | Niewzruszona Dyscyplina
+tomb-kings-of-khemri-stats.json | Skeleton Skirmishers | specialRules_pl | Strzały Asaph
+tomb-kings-of-khemri-stats.json | Tomb Guard | specialRules_pl | Miażdżący Cios
+tomb-kings-of-khemri-stats.json | Tomb Guard | specialRules_pl | Khopesz
+tomb-kings-of-khemri-stats.json | Tomb Guard Chariots | specialRules_pl | Khopesz
+tomb-kings-of-khemri-stats.json | Tomb Guard Chariots | specialRules_pl | Ruch Rezerwowy
+tomb-kings-of-khemri-stats.json | Tomb King | specialRules_pl | Klątwa Nekropoli
+tomb-kings-of-khemri-stats.json | Tomb King | specialRules_pl | Khopesz
+tomb-kings-of-khemri-stats.json | Tomb King | specialRules_pl | Moja Wola Zostanie Spełniona
+tomb-kings-of-khemri-stats.json | Tomb Prince | specialRules_pl | Klątwa Nekropoli
+tomb-kings-of-khemri-stats.json | Tomb Prince | specialRules_pl | Khopesz
+tomb-kings-of-khemri-stats.json | Tomb Prince | specialRules_pl | Moja Wola Zostanie Spełniona
+tomb-kings-of-khemri-stats.json | Tomb Scorpion | equipment_pl | Dekapitujące szczypce
+tomb-kings-of-khemri-stats.json | Tomb Scorpion | equipment_pl | Jadowite żądło
+tomb-kings-of-khemri-stats.json | Ushabti | equipment_pl | Rytualne ostrza
+tomb-kings-of-khemri-stats.json | Ushabti | specialRules_pl | Strzały Asaph
+tomb-kings-of-khemri-stats.json | Ushabti | specialRules_pl | Khopesz
+tomb-kings-of-khemri-stats.json | Venerable Ushabti | equipment_pl | Rytualne ostrza
+tomb-kings-of-khemri-stats.json | Venerable Ushabti | specialRules_pl | Khopesz
+vampire-counts-stats.json | Abyssal Terror | equipment_pl | Jadowity ogon
+vampire-counts-stats.json | Abyssal Terror | specialRules_pl | Groza
+vampire-counts-stats.json | Black Coach | equipment_pl | Upiór: Widmowa kosa
+vampire-counts-stats.json | Black Coach | specialRules_pl | Widmowy Powóz
+vampire-counts-stats.json | Black Coach | specialRules_pl | Groza
+vampire-counts-stats.json | Blood Knights | equipment_pl | Zmory: Napierśnik
+vampire-counts-stats.json | Blood Knights | specialRules_pl | Wojenna Duma
+vampire-counts-stats.json | Cairn Wraith | equipment_pl | Widmowa kosa
+vampire-counts-stats.json | Cairn Wraith | specialRules_pl | Eteryczny
+vampire-counts-stats.json | Cairn Wraith | specialRules_pl | Groza
+vampire-counts-stats.json | Corpse Cart | specialRules_pl | Wiedza Nieumarłych
+vampire-counts-stats.json | Corpse Cart | specialRules_pl | Losowe Ataki (tylko Niespokojni Zmarli)
+vampire-counts-stats.json | Coven Throne | specialRules_pl | Upiorny Urok
+vampire-counts-stats.json | Coven Throne | specialRules_pl | Kryształowa Kula
+vampire-counts-stats.json | Crypt Ghouls | specialRules_pl | Ruch Rezerwowy
+vampire-counts-stats.json | Crypt Horrors | equipment_pl | Brudne szpony
+vampire-counts-stats.json | Dire Wolves | specialRules_pl | Ruch Rezerwowy
+vampire-counts-stats.json | Dire Wolves | specialRules_pl | Rozszalała Szarża
+vampire-counts-stats.json | Grave Guard | specialRules_pl | Miażdżący Cios
+vampire-counts-stats.json | Hexwraiths | specialRules_pl | Eteryczny
+vampire-counts-stats.json | Hexwraiths | specialRules_pl | Płonące Ataki
+vampire-counts-stats.json | Hexwraiths | specialRules_pl | Widmowi Żniwiarze
+vampire-counts-stats.json | Hexwraiths | specialRules_pl | Groza
+vampire-counts-stats.json | Master Necromancer | specialRules_pl | Inwokacja Neheka
+vampire-counts-stats.json | Master Necromancer | specialRules_pl | Wiedza Nieumarłych
+vampire-counts-stats.json | Mortis Engine | specialRules_pl | Przeklęty Relikwiarz
+vampire-counts-stats.json | Mortis Engine | specialRules_pl | Bluźnierczy Tom
+vampire-counts-stats.json | Mortis Engine | specialRules_pl | Żałobny Lament
+vampire-counts-stats.json | Necromantic Acolyte | specialRules_pl | Inwokacja Neheka
+vampire-counts-stats.json | Necromantic Acolyte | specialRules_pl | Wiedza Nieumarłych
+vampire-counts-stats.json | Nightmare | equipment_pl | Napierśnik
+vampire-counts-stats.json | Skeletal Steed (Vampire Counts) | equipment_pl | Napierśnik
+vampire-counts-stats.json | Spirit Hosts | specialRules_pl | Związane Duchy
+vampire-counts-stats.json | Spirit Hosts | specialRules_pl | Eteryczny
+vampire-counts-stats.json | Spirit Hosts | specialRules_pl | Ruch Rezerwowy
+vampire-counts-stats.json | Strigoi Ghoul King | specialRules_pl | Wiedza Nieumarłych
+vampire-counts-stats.json | Strigoi Ghoul King | specialRules_pl | Głód
+vampire-counts-stats.json | Terrorgheist | equipment_pl | Brudne szpony
+vampire-counts-stats.json | Terrorgheist | equipment_pl | Zgnita paszcza
+vampire-counts-stats.json | Terrorgheist | specialRules_pl | Zarażony
+vampire-counts-stats.json | Terrorgheist | specialRules_pl | Groza
+vampire-counts-stats.json | Terrorgheist | specialRules_pl | Żałobny Lament
+vampire-counts-stats.json | Terrorgheist (Mount) | equipment_pl | Brudne szpony
+vampire-counts-stats.json | Terrorgheist (Mount) | equipment_pl | Zgnita paszcza
+vampire-counts-stats.json | Terrorgheist (Mount) | specialRules_pl | Zarażony
+vampire-counts-stats.json | Terrorgheist (Mount) | specialRules_pl | Groza
+vampire-counts-stats.json | Terrorgheist (Mount) | specialRules_pl | Żałobny Lament
+vampire-counts-stats.json | Tomb Banshee | specialRules_pl | Eteryczny
+vampire-counts-stats.json | Tomb Banshee | specialRules_pl | Groza
+vampire-counts-stats.json | Tomb Banshee | specialRules_pl | Żałobny Lament
+vampire-counts-stats.json | Vampire Count | specialRules_pl | Wiedza Nieumarłych
+vampire-counts-stats.json | Vampire Thrall | specialRules_pl | Sztandar Hrabiego
+vampire-counts-stats.json | Vampire Thrall | specialRules_pl | Wiedza Nieumarłych
+vampire-counts-stats.json | Varghulf | specialRules_pl | Bestialska Furia
+vampire-counts-stats.json | Varghulf | specialRules_pl | Groza
+vampire-counts-stats.json | Wight King | specialRules_pl | Zabójczy Cios
+vampire-counts-stats.json | Wight Lord | specialRules_pl | Zabójczy Cios
+vampire-counts-stats.json | Wight Lord | specialRules_pl | Sztandar Upiora
+vampire-counts-stats.json | Zombie Dragon | equipment_pl | Zarażony oddech
+vampire-counts-stats.json | Zombie Dragon | specialRules_pl | Padlinożercy
+vampire-counts-stats.json | Zombie Dragon | specialRules_pl | Groza
+vampire-counts-stats.json | Zombies | specialRules_pl | Świeżo Zmarli
+warriors-of-chaos-stats.json | Chaos Dragon | equipment_pl | Opary Zarazy
+warriors-of-chaos-stats.json | Chaos Dragon | specialRules_pl | Groza
+warriors-of-chaos-stats.json | Chaos Marauders | specialRules_pl | Ściana Tarcz
+warriors-of-chaos-stats.json | Chaos Spawn | specialRules_pl | Losowy Ruch
+warriors-of-chaos-stats.json | Chaos Steed | equipment_pl | Napierśnik
+warriors-of-chaos-stats.json | Chaos Trolls | equipment_pl | Wymiociny trolla
+warriors-of-chaos-stats.json | Chaos Trolls | specialRules_pl | Głupota
+warriors-of-chaos-stats.json | Chaos Warhound Handler | specialRules_pl | Opiekun
+warriors-of-chaos-stats.json | Chimera | specialRules_pl | Groza
+warriors-of-chaos-stats.json | Daemon Prince | specialRules_pl | Wiedza Chaosu
+warriors-of-chaos-stats.json | Daemon Prince | specialRules_pl | Niestabilny
+warriors-of-chaos-stats.json | Daemon Prince | specialRules_pl | Zrodzony z Osnowy
+warriors-of-chaos-stats.json | Exalted Sorcerer | specialRules_pl | Wiedza Chaosu
+warriors-of-chaos-stats.json | Forsaken | specialRules_pl | Szalejąca Mutacja
+warriors-of-chaos-stats.json | Frydaal The Chainmaker | equipment_pl | Tarcza
+warriors-of-chaos-stats.json | Frydaal The Chainmaker | equipment_pl | Gniew Burzy
+warriors-of-chaos-stats.json | Frydaal The Chainmaker | specialRules_pl | Łańcuchnik
+warriors-of-chaos-stats.json | Frydaal The Chainmaker | specialRules_pl | Niezrównany Łupieżca
+warriors-of-chaos-stats.json | Galrauch | equipment_pl | Opary Zarazy
+warriors-of-chaos-stats.json | Galrauch | specialRules_pl | Oddech Przemiany
+warriors-of-chaos-stats.json | Galrauch | specialRules_pl | Znak Tzeentcha
+warriors-of-chaos-stats.json | Galrauch | specialRules_pl | Duch Galraucha
+warriors-of-chaos-stats.json | Galrauch | specialRules_pl | Groza
+warriors-of-chaos-stats.json | Gigantic Spawn of Chaos | equipment_pl | Zgrzytające paszcze
+warriors-of-chaos-stats.json | Gigantic Spawn of Chaos | equipment_pl | Rozszarpujące szpony
+warriors-of-chaos-stats.json | Gigantic Spawn of Chaos | specialRules_pl | Losowy Ruch
+warriors-of-chaos-stats.json | Gigantic Spawn of Chaos | specialRules_pl | Groza
+warriors-of-chaos-stats.json | Gorebeast Chariot | specialRules_pl | Zabójczy Cios (tylko Gorebeast)
+warriors-of-chaos-stats.json | Hellcannon | specialRules_pl | Uwięziona Furia
+warriors-of-chaos-stats.json | Hellcannon | specialRules_pl | Groza
+warriors-of-chaos-stats.json | Hellcannon | specialRules_pl | Zrodzony z Osnowy
+warriors-of-chaos-stats.json | Manticore | specialRules_pl | Groza
+warriors-of-chaos-stats.json | Skin Wolves | specialRules_pl | Wypaczona Forma
+warriors-of-chaos-stats.json | Sorcerer Lord | specialRules_pl | Wiedza Chaosu
+warriors-of-chaos-stats.json | Warpfire Dragon | equipment_pl | Podmuch Osnowowego Ognia
+warriors-of-chaos-stats.json | Warpfire Dragon | specialRules_pl | Wybuchowy Zgon
+warriors-of-chaos-stats.json | Warpfire Dragon | specialRules_pl | Wiedza Chaosu
+warriors-of-chaos-stats.json | Warpfire Dragon | specialRules_pl | Groza
+warriors-of-chaos-stats.json | Warpfire Dragon | specialRules_pl | Aura Osnowowego Ognia
+wood-elves-stats.json | Araloth, Lord of Talsyn | equipment_pl | Tarcza
+wood-elves-stats.json | Araloth, Lord of Talsyn | equipment_pl | Włócznia Talsyn
+wood-elves-stats.json | Araloth, Lord of Talsyn | specialRules_pl | Najodważniejszy z Odważnych
+wood-elves-stats.json | Araloth, Lord of Talsyn | specialRules_pl | Zwrotni
+wood-elves-stats.json | Araloth, Lord of Talsyn | specialRules_pl | Łaska Bogini
+wood-elves-stats.json | Araloth, Lord of Talsyn | specialRules_pl | Skaryn Złodziej Oczu
+wood-elves-stats.json | Araloth, Lord of Talsyn | specialRules_pl | Uderza Pierwszy
+wood-elves-stats.json | Bear of Loren | specialRules_pl | Miażdżący Cios
+wood-elves-stats.json | Branchwraith | specialRules_pl | Wiedza Athel Loren
+wood-elves-stats.json | Branchwraith | specialRules_pl | Duch Drzewa
+wood-elves-stats.json | Deepwood Scouts | equipment_pl | Długie łuki Asrai
+wood-elves-stats.json | Deepwood Scouts | specialRules_pl | Zwrotni
+wood-elves-stats.json | Dryads | specialRules_pl | Duch Drzewa
+wood-elves-stats.json | Eternal Guard | equipment_pl | Włócznie Asrai
+wood-elves-stats.json | Eternal Guard | specialRules_pl | Wojenna Biegłość
+wood-elves-stats.json | Forest Dragon | equipment_pl | Ząbkowana paszcza
+wood-elves-stats.json | Forest Dragon | equipment_pl | Usypiający oddech
+wood-elves-stats.json | Forest Dragon | specialRules_pl | Groza
+wood-elves-stats.json | Glade Captain | equipment_pl | Długi łuk Asrai
+wood-elves-stats.json | Glade Captain | specialRules_pl | Zwrotni
+wood-elves-stats.json | Glade Captain | specialRules_pl | Ignoruje Osłonę
+wood-elves-stats.json | Glade Captain | specialRules_pl | Uderza Pierwszy
+wood-elves-stats.json | Glade Captain | specialRules_pl | Strzała Kurnousa
+wood-elves-stats.json | Glade Guard | equipment_pl | Długie łuki Asrai
+wood-elves-stats.json | Glade Lord | equipment_pl | Długi łuk Asrai
+wood-elves-stats.json | Glade Lord | specialRules_pl | Zwrotni
+wood-elves-stats.json | Glade Lord | specialRules_pl | Ignoruje Osłonę
+wood-elves-stats.json | Glade Lord | specialRules_pl | Uderza Pierwszy
+wood-elves-stats.json | Glade Lord | specialRules_pl | Strzała Kurnousa
+wood-elves-stats.json | Glade Riders | equipment_pl | Długie łuki Asrai
+wood-elves-stats.json | Great Eagle | equipment_pl | Ząbkowana paszcza
+wood-elves-stats.json | Great Eagle (Mount) | equipment_pl | Ząbkowana paszcza
+wood-elves-stats.json | Great Stag | equipment_pl | Potężne poroże
+wood-elves-stats.json | Guardians of Talsyn | equipment_pl | Włócznia Asrai
+wood-elves-stats.json | Guardians of Talsyn | specialRules_pl | Wyszkoleni
+wood-elves-stats.json | Guardians of Talsyn | specialRules_pl | Wojenna Biegłość
+wood-elves-stats.json | Guardians of Talsyn | specialRules_pl | Parowanie
+wood-elves-stats.json | Guardians of Talsyn | specialRules_pl | Weteran
+wood-elves-stats.json | Orion, the King in the Woods | equipment_pl | Płaszcz Ishy
+wood-elves-stats.json | Orion, the King in the Woods | equipment_pl | Szpon Jastrzębia
+wood-elves-stats.json | Orion, the King in the Woods | equipment_pl | Włócznia Kurnousa
+wood-elves-stats.json | Orion, the King in the Woods | specialRules_pl | Uderza Pierwszy
+wood-elves-stats.json | Orion, the King in the Woods | specialRules_pl | Groza
+wood-elves-stats.json | Shadowdancer | specialRules_pl | Zwrotni
+wood-elves-stats.json | Shadowdancer | specialRules_pl | Uderza Pierwszy
+wood-elves-stats.json | Shadowdancer | specialRules_pl | Talizmaniczne Tatuaże
+wood-elves-stats.json | Shadowdancer | specialRules_pl | Trubadur Loeca
+wood-elves-stats.json | Sisters of the Thorn | specialRules_pl | Córki Wieczności
+wood-elves-stats.json | Sisters of the Thorn | specialRules_pl | Sabat Głębokiego Lasu
+wood-elves-stats.json | Spellsinger | specialRules_pl | Wiedza Athel Loren
+wood-elves-stats.json | Spellweaver | specialRules_pl | Wiedza Athel Loren
+wood-elves-stats.json | Tree Kin | specialRules_pl | Duch Drzewa
+wood-elves-stats.json | Tree Kin | specialRules_pl | Uderzenie Drzewa
+wood-elves-stats.json | Treeman | equipment_pl | Dębowe pięści
+wood-elves-stats.json | Treeman | equipment_pl | Duszące korzenie
+wood-elves-stats.json | Treeman | specialRules_pl | Groza
+wood-elves-stats.json | Treeman | specialRules_pl | Duch Drzewa
+wood-elves-stats.json | Treeman | specialRules_pl | Uderzenie Drzewa
+wood-elves-stats.json | Treeman Ancient | equipment_pl | Dębowe pięści
+wood-elves-stats.json | Treeman Ancient | equipment_pl | Duszące korzenie
+wood-elves-stats.json | Treeman Ancient | specialRules_pl | Wiedza Athel Loren
+wood-elves-stats.json | Treeman Ancient | specialRules_pl | Groza
+wood-elves-stats.json | Treeman Ancient | specialRules_pl | Duch Drzewa
+wood-elves-stats.json | Treeman Ancient | specialRules_pl | Uderzenie Drzewa
+wood-elves-stats.json | Unicorn | specialRules_pl | Urzekająca Aura
+wood-elves-stats.json | Wardancers | specialRules_pl | Tańce Loeca
+wood-elves-stats.json | Wardancers | specialRules_pl | Zwrotni
+wood-elves-stats.json | Wardancers | specialRules_pl | Uderza Pierwszy
+wood-elves-stats.json | Wardancers | specialRules_pl | Talizmaniczne Tatuaże
+wood-elves-stats.json | Warden of Talsyn | equipment_pl | Włócznia Asrai
+wood-elves-stats.json | Warden of Talsyn | specialRules_pl | Odwaga Bez Granic
+wood-elves-stats.json | Warden of Talsyn | specialRules_pl | Wyszkoleni
+wood-elves-stats.json | Warden of Talsyn | specialRules_pl | Parowanie
+wood-elves-stats.json | Warden of Talsyn | specialRules_pl | Uderza Pierwszy
+wood-elves-stats.json | Warhawk | specialRules_pl | Zwrotni
+wood-elves-stats.json | Warhawk | specialRules_pl | Udawana Ucieczka
+wood-elves-stats.json | Warhawk Riders | equipment_pl | Długie łuki Asrai
+wood-elves-stats.json | Warhawk Riders | specialRules_pl | Zwrotni
+wood-elves-stats.json | Warhawk Riders | specialRules_pl | Udawana Ucieczka
+wood-elves-stats.json | Waystalker | equipment_pl | Długi łuk Asrai
+wood-elves-stats.json | Waystalker | specialRules_pl | Zwrotni
+wood-elves-stats.json | Waystalker | specialRules_pl | Udawana Ucieczka
+wood-elves-stats.json | Waystalker | specialRules_pl | Ignoruje Osłonę
+wood-elves-stats.json | Waywatchers | equipment_pl | Długie łuki Asrai
+wood-elves-stats.json | Waywatchers | specialRules_pl | Zwrotni
+wood-elves-stats.json | Waywatchers | specialRules_pl | Udawana Ucieczka
+wood-elves-stats.json | Waywatchers | specialRules_pl | Ignoruje Osłonę
+wood-elves-stats.json | Wild Riders | equipment_pl | Włócznie myśliwskie
+wood-elves-stats.json | Wild Riders | specialRules_pl | Talizmaniczne Tatuaże
+wood-elves-stats.json | Wildwood Rangers | equipment_pl | Glewia leśniczego
+wood-elves-stats.json | Wildwood Rangers | specialRules_pl | Strażnicy Dzikiego Lasu
