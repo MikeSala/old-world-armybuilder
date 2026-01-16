@@ -1,5 +1,4 @@
 import type { LocaleDictionary } from "./dictionaries";
-import { translateEnNameToPl, translateEnTextToPl } from "./translateEnToPl";
 
 type LocaleHint = Pick<LocaleDictionary, "localeName">;
 
@@ -20,7 +19,7 @@ export const isPolishLocale = (dict?: LocaleHint | null): boolean =>
 
 /**
  * Gets the localized name from an object with name_* fields.
- * Falls back to automatic translation if name_pl is not available.
+ * Falls back to English if name_pl is not available.
  *
  * @param source - Object containing name_en and optionally name_pl
  * @param dict - Dictionary to determine locale
@@ -30,8 +29,8 @@ export const getLocalizedName = (source: LocalizedName | null | undefined, dict:
   if (!source?.name_en) return "";
 
   if (isPolishLocale(dict)) {
-    // Prefer name_pl if available, otherwise auto-translate
-    return source.name_pl || translateEnNameToPl(source.name_en);
+    // Prefer name_pl if available, otherwise keep English
+    return source.name_pl || source.name_en;
   }
 
   // For other locales, return English name (extend in future for other languages)
@@ -43,10 +42,10 @@ export const getLocalizedName = (source: LocalizedName | null | undefined, dict:
  * For unit data with name_pl, use getLocalizedName instead.
  */
 export const translateNameForDict = (value: string, dict: LocaleHint): string =>
-  isPolishLocale(dict) ? translateEnNameToPl(value) : value;
+  isPolishLocale(dict) ? value : value;
 
 export const translateTextForDict = (value: string, dict: LocaleHint): string =>
-  isPolishLocale(dict) ? translateEnTextToPl(value) : value;
+  isPolishLocale(dict) ? value : value;
 
 export const translateNameMaybe = (
   value: string | null | undefined,
