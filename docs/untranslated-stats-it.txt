@@ -1,0 +1,591 @@
+Untranslated IT entries in units-stats (EN == IT)
+file | unit | field | value
+--------------------------------------------------------------------------------
+beastmen-brayherds-stats.json | Beastlord | specialRules_it | Blood Rage
+beastmen-brayherds-stats.json | Beastlord | specialRules_it | Foe Render
+beastmen-brayherds-stats.json | Beastlord | specialRules_it | Primal Fury
+beastmen-brayherds-stats.json | Beastlord | specialRules_it | Warband
+beastmen-brayherds-stats.json | Bestigor | specialRules_it | Blood Rage
+beastmen-brayherds-stats.json | Bestigor | specialRules_it | Primal Fury
+beastmen-brayherds-stats.json | Bestigor | specialRules_it | Warband
+beastmen-brayherds-stats.json | Bray-Shaman | specialRules_it | Primal Fury
+beastmen-brayherds-stats.json | Bray-Shaman | specialRules_it | Warband
+beastmen-brayherds-stats.json | Centigor | specialRules_it | Drunken
+beastmen-brayherds-stats.json | Centigor | specialRules_it | Primal Fury
+beastmen-brayherds-stats.json | Centigor | specialRules_it | Warband
+beastmen-brayherds-stats.json | Cockatrice | specialRules_it | Stony Stare
+beastmen-brayherds-stats.json | Cygor | equipment_it | hurl attack
+beastmen-brayherds-stats.json | Cygor | specialRules_it | Ghostsight
+beastmen-brayherds-stats.json | Cygor | specialRules_it | Soul-eater
+beastmen-brayherds-stats.json | Doombull | specialRules_it | Blood Greed
+beastmen-brayherds-stats.json | Doombull | specialRules_it | Blood Rage
+beastmen-brayherds-stats.json | Doombull | specialRules_it | Bull-gors
+beastmen-brayherds-stats.json | Doombull | specialRules_it | Foe Render
+beastmen-brayherds-stats.json | Doombull | specialRules_it | Primal Fury
+beastmen-brayherds-stats.json | Doombull | specialRules_it | Slaughterer's Call
+beastmen-brayherds-stats.json | Doombull | specialRules_it | Warband
+beastmen-brayherds-stats.json | Ghorgon | equipment_it | Cleaver-limbs
+beastmen-brayherds-stats.json | Ghorgon | specialRules_it | Blood Greed
+beastmen-brayherds-stats.json | Ghorgon | specialRules_it | Frenzy
+beastmen-brayherds-stats.json | Ghorgon | specialRules_it | Primal Fury
+beastmen-brayherds-stats.json | Ghorgon | specialRules_it | Swallow Whole
+beastmen-brayherds-stats.json | Ghorros Warhoof | equipment_it | Mansmasher
+beastmen-brayherds-stats.json | Ghorros Warhoof | specialRules_it | Drunken
+beastmen-brayherds-stats.json | Ghorros Warhoof | specialRules_it | Primal Fury
+beastmen-brayherds-stats.json | Ghorros Warhoof | specialRules_it | Warband
+beastmen-brayherds-stats.json | Giant | equipment_it | Giant's club
+beastmen-brayherds-stats.json | Giant | specialRules_it | Pick Up And…
+beastmen-brayherds-stats.json | Gor | specialRules_it | Blood Rage
+beastmen-brayherds-stats.json | Gor | specialRules_it | Primal Fury
+beastmen-brayherds-stats.json | Gor | specialRules_it | Warband
+beastmen-brayherds-stats.json | Gorebull | specialRules_it | Blood Greed
+beastmen-brayherds-stats.json | Gorebull | specialRules_it | Blood Rage
+beastmen-brayherds-stats.json | Gorebull | specialRules_it | Bull-gors
+beastmen-brayherds-stats.json | Gorebull | specialRules_it | Foe Render
+beastmen-brayherds-stats.json | Gorebull | specialRules_it | Primal Fury
+beastmen-brayherds-stats.json | Gorebull | specialRules_it | Slaughterer's Call
+beastmen-brayherds-stats.json | Gorebull | specialRules_it | Warband
+beastmen-brayherds-stats.json | Great Bray-Shaman | specialRules_it | Primal Fury
+beastmen-brayherds-stats.json | Great Bray-Shaman | specialRules_it | Warband
+beastmen-brayherds-stats.json | Jabberslythe | equipment_it | slythey tongue
+beastmen-brayherds-stats.json | Jabberslythe | specialRules_it | Maddening Aura
+beastmen-brayherds-stats.json | Jabberslythe | specialRules_it | Spurting Bile Blood
+beastmen-brayherds-stats.json | Kralmaw, the Prophet of Ruin | equipment_it | Grisly Totem (Braystaff)
+beastmen-brayherds-stats.json | Kralmaw, the Prophet of Ruin | specialRules_it | Future Sight
+beastmen-brayherds-stats.json | Kralmaw, the Prophet of Ruin | specialRules_it | Leering Spirit
+beastmen-brayherds-stats.json | Kralmaw, the Prophet of Ruin | specialRules_it | Primal Fury
+beastmen-brayherds-stats.json | Kralmaw, the Prophet of Ruin | specialRules_it | Warband
+beastmen-brayherds-stats.json | Minotaur | specialRules_it | Blood Greed
+beastmen-brayherds-stats.json | Minotaur | specialRules_it | Blood Rage
+beastmen-brayherds-stats.json | Minotaur | specialRules_it | Bull-gors
+beastmen-brayherds-stats.json | Minotaur | specialRules_it | Foe Render
+beastmen-brayherds-stats.json | Minotaur | specialRules_it | Primal Fury
+beastmen-brayherds-stats.json | Minotaur | specialRules_it | Warband
+beastmen-brayherds-stats.json | Preyton | equipment_it | twisted antlers
+beastmen-brayherds-stats.json | Preyton | specialRules_it | Endless Malice
+beastmen-brayherds-stats.json | Primal Warherd – Gor | specialRules_it | Blood Rage
+beastmen-brayherds-stats.json | Primal Warherd – Gor | specialRules_it | Primal Fury
+beastmen-brayherds-stats.json | Primal Warherd – Gor | specialRules_it | Warband
+beastmen-brayherds-stats.json | Primal Warhound | specialRules_it | Warband
+beastmen-brayherds-stats.json | Razorgor | specialRules_it | Foe Render
+beastmen-brayherds-stats.json | Razorgor | specialRules_it | Primal Fury
+beastmen-brayherds-stats.json | Razorgor | specialRules_it | Razor Tusks
+beastmen-brayherds-stats.json | Razorgor Chariot | specialRules_it | Foe Render (Razorgor only)
+beastmen-brayherds-stats.json | Razorgor Chariot | specialRules_it | Primal Fury
+beastmen-brayherds-stats.json | Razorgor Chariot | specialRules_it | Razor Tusks
+beastmen-brayherds-stats.json | Shaggoth | specialRules_it | Storm Call
+beastmen-brayherds-stats.json | Tuskgor Chariot | specialRules_it | Primal Fury
+beastmen-brayherds-stats.json | Tuskgor Chariot | specialRules_it | Razor Tusks
+beastmen-brayherds-stats.json | Tuskgor Chariot | specialRules_it | Warband
+beastmen-brayherds-stats.json | Ungor | specialRules_it | Primal Fury
+beastmen-brayherds-stats.json | Ungor | specialRules_it | Warband
+beastmen-brayherds-stats.json | Ungor Ravager | specialRules_it | Primal Fury
+beastmen-brayherds-stats.json | Ungor Ravager | specialRules_it | Warband
+beastmen-brayherds-stats.json | Wargor | specialRules_it | Blood Rage
+beastmen-brayherds-stats.json | Wargor | specialRules_it | Foe Render
+beastmen-brayherds-stats.json | Wargor | specialRules_it | Primal Fury
+beastmen-brayherds-stats.json | Wargor | specialRules_it | Warband
+beastmen-brayherds-stats.json | Warhoof | specialRules_it | Drunken
+beastmen-brayherds-stats.json | Warhoof | specialRules_it | Primal Fury
+beastmen-brayherds-stats.json | Warhoof | specialRules_it | Warband
+beastmen-brayherds-stats.json | Warped Gor | specialRules_it | Blood Rage
+beastmen-brayherds-stats.json | Warped Gor | specialRules_it | Primal Fury
+beastmen-brayherds-stats.json | Warped Gor | specialRules_it | Warband
+bretonnia-stats.json | Battle Pilgrims | specialRules_it | Devout
+bretonnia-stats.json | Damsel | specialRules_it | Wizard (Level 1)
+bretonnia-stats.json | Field Trebuchet | specialRules_it | Crewed
+bretonnia-stats.json | Grail Knights | equipment_it | Grail Lance
+bretonnia-stats.json | Grail Knights | specialRules_it | Grail Vow
+bretonnia-stats.json | Grail Reliquae | specialRules_it | Devout
+bretonnia-stats.json | Grail Reliquae | specialRules_it | Relic
+bretonnia-stats.json | Knights Errant | specialRules_it | Impulsive
+bretonnia-stats.json | Mounted Yeomen | equipment_it | Warhorse
+bretonnia-stats.json | Mounted Yeomen | specialRules_it | Peasant's Duty
+bretonnia-stats.json | Prophetess of the Lady | specialRules_it | Wizard (Level 3)
+bretonnia-stats.json | Questing Knights | specialRules_it | Questing Vow
+bretonnia-stats.json | The Green Knight | specialRules_it | Ethereal
+chaos-dwarfs-stats.json | Bale Taurus | specialRules_it | Blazing Body
+chaos-dwarfs-stats.json | Bull Centaur Renders | specialRules_it | Stampede
+chaos-dwarfs-stats.json | Bull Centaur Taur'ruk | specialRules_it | Stampede
+chaos-dwarfs-stats.json | Daemonsmith Sorcerer | specialRules_it | Sorcerer's Curse
+chaos-dwarfs-stats.json | Deathshrieker Rocket Launcher | equipment_it | Demolition Rockets
+chaos-dwarfs-stats.json | Deathshrieker Rocket Launcher | equipment_it | Infernal Incendiaries
+chaos-dwarfs-stats.json | Dreadquake Mortar | equipment_it | Dreadquake Mortar
+chaos-dwarfs-stats.json | Great Taurus | specialRules_it | Blazing Body
+chaos-dwarfs-stats.json | Hobgoblin Bolt Thrower | specialRules_it | Levies
+chaos-dwarfs-stats.json | Hobgoblin Cutthroats | specialRules_it | Backstab
+chaos-dwarfs-stats.json | Hobgoblin Cutthroats | specialRules_it | Levies
+chaos-dwarfs-stats.json | Hobgoblin Cutthroats | specialRules_it | Warband
+chaos-dwarfs-stats.json | Hobgoblin Khan | specialRules_it | Backstab
+chaos-dwarfs-stats.json | Hobgoblin Khan | specialRules_it | Levies
+chaos-dwarfs-stats.json | Hobgoblin Khan | specialRules_it | Warband
+chaos-dwarfs-stats.json | Hobgoblin Wolf Riders | specialRules_it | Backstab
+chaos-dwarfs-stats.json | Hobgoblin Wolf Riders | specialRules_it | Levies
+chaos-dwarfs-stats.json | Infernal Ironsworn | specialRules_it | Quell Panic
+chaos-dwarfs-stats.json | Iron Daemon | specialRules_it | Carriage Hauler
+chaos-dwarfs-stats.json | Iron Daemon | specialRules_it | Grinding Wheels
+chaos-dwarfs-stats.json | Iron Daemon | specialRules_it | Lumbering Destruction
+chaos-dwarfs-stats.json | K'daai Fireborn | specialRules_it | Blazing Body
+chaos-dwarfs-stats.json | K'daai Fireborn | specialRules_it | Instabile
+chaos-dwarfs-stats.json | K'daai Fireborn | specialRules_it | Generato dal Warp
+chaos-dwarfs-stats.json | Lammasu | specialRules_it | Sorcerous Miasma
+chaos-dwarfs-stats.json | Sneaky Gits | specialRules_it | Backstab
+chaos-dwarfs-stats.json | Sneaky Gits | specialRules_it | Levies
+chaos-dwarfs-stats.json | Sorcerer-Prophet | specialRules_it | Sorcerer's Curse
+daemons-of-chaos-stats.json | Bloodletters of Khorne | specialRules_it | Daemonic
+daemons-of-chaos-stats.json | Bloodthirster of Khorne | equipment_it | Goreaxe
+daemons-of-chaos-stats.json | Bloodthirster of Khorne | specialRules_it | Daemonic
+daemons-of-chaos-stats.json | Bloodthirster of Khorne (on Juggernaut) | equipment_it | Goreaxe
+daemons-of-chaos-stats.json | Bloodthirster of Khorne (on Juggernaut) | equipment_it | Juggernaut Mount
+daemons-of-chaos-stats.json | Bloodthirster of Khorne (on Juggernaut) | specialRules_it | Daemonic
+daemons-of-chaos-stats.json | Bloodthirster of Khorne (on Juggernaut) | specialRules_it | Juggernaut
+daemons-of-chaos-stats.json | Daemon Prince of Chaos (Khorne) | specialRules_it | Daemonic
+daemons-of-chaos-stats.json | Daemon Prince of Chaos (Khorne) (with wings) | equipment_it | Wings
+daemons-of-chaos-stats.json | Daemon Prince of Chaos (Khorne) (with wings) | specialRules_it | Daemonic
+daemons-of-chaos-stats.json | Flesh Hounds of Khorne | specialRules_it | Daemonic
+daemons-of-chaos-stats.json | Herald of Khorne | equipment_it | Hellblade
+daemons-of-chaos-stats.json | Herald of Khorne | specialRules_it | Daemonic
+daemons-of-chaos-stats.json | Herald of Khorne (on Juggernaut) | equipment_it | Hellblade
+daemons-of-chaos-stats.json | Herald of Khorne (on Juggernaut) | equipment_it | Juggernaut Mount
+daemons-of-chaos-stats.json | Herald of Khorne (on Juggernaut) | specialRules_it | Daemonic
+daemons-of-chaos-stats.json | Herald of Khorne (on Juggernaut) | specialRules_it | Juggernaut
+daemons-of-chaos-stats.json | Skull Cannon | specialRules_it | Blast
+daemons-of-chaos-stats.json | Skull Cannon | specialRules_it | Daemonic
+dark-elves-stats.json | Black Dragon | equipment_it | Noxious breath
+dark-elves-stats.json | Black Dragon | equipment_it | Fauce seghettata
+dark-elves-stats.json | Black Guard of Naggarond | specialRules_it | Perizia marziale
+dark-elves-stats.json | Bloodwrack Medusa | specialRules_it | Frenzy
+dark-elves-stats.json | Bloodwrack Medusa | specialRules_it | Murderous
+dark-elves-stats.json | Bloodwrack Medusa | specialRules_it | Stony Stare
+dark-elves-stats.json | Bloodwrack Shrine | specialRules_it | Trascinato
+dark-elves-stats.json | Bloodwrack Shrine | specialRules_it | Frenzy
+dark-elves-stats.json | Bloodwrack Shrine | specialRules_it | Murderous
+dark-elves-stats.json | Bloodwrack Shrine | specialRules_it | Stony Stare
+dark-elves-stats.json | Cauldron of Blood | specialRules_it | Trascinato
+dark-elves-stats.json | Cauldron of Blood | specialRules_it | Frenzy
+dark-elves-stats.json | Cauldron of Blood | specialRules_it | Murderous
+dark-elves-stats.json | Cold One (Dark Elves) | specialRules_it | Stupidità
+dark-elves-stats.json | Cold One Chariot | specialRules_it | Stupidità
+dark-elves-stats.json | Cold One Knights | specialRules_it | Stupidità
+dark-elves-stats.json | Dark Elf Dreadlord | specialRules_it | Murderous
+dark-elves-stats.json | Dark Elf Master | specialRules_it | Murderous
+dark-elves-stats.json | Dark Elf Warriors | specialRules_it | Perizia marziale
+dark-elves-stats.json | Dark Riders | equipment_it | Dark Steeds: Hooves
+dark-elves-stats.json | Death Hag | specialRules_it | Frenzy
+dark-elves-stats.json | Death Hag | specialRules_it | Murderous
+dark-elves-stats.json | Doomfire Warlocks | equipment_it | Dark Steeds: Hooves
+dark-elves-stats.json | Doomfire Warlocks | specialRules_it | Cursed Coven
+dark-elves-stats.json | Har Ganeth Executioners | equipment_it | Har Ganeth greatswords
+dark-elves-stats.json | Har Ganeth Executioners | specialRules_it | Murderous
+dark-elves-stats.json | High Beastmaster | specialRules_it | Goad Beast
+dark-elves-stats.json | High Beastmaster | specialRules_it | Murderous
+dark-elves-stats.json | Khainite Assassin | specialRules_it | Nascosto
+dark-elves-stats.json | Khainite Assassin | specialRules_it | Murderous
+dark-elves-stats.json | Kharibdyss | equipment_it | Cavernous maw
+dark-elves-stats.json | Kharibdyss | specialRules_it | Abyssal Howl
+dark-elves-stats.json | Kharibdyss | specialRules_it | Monster Handlers
+dark-elves-stats.json | Manticore (Dark Elves) | specialRules_it | Wilful Beast
+dark-elves-stats.json | Repeater Crossbowmen | specialRules_it | Perizia marziale
+dark-elves-stats.json | Scourgerunner Chariot | equipment_it | Dark Steeds: Hooves
+dark-elves-stats.json | Sisters of Slaughter | equipment_it | Lash & buckler
+dark-elves-stats.json | Sisters of Slaughter | specialRules_it | Murderous
+dark-elves-stats.json | Sorceress | specialRules_it | Hekarti's Blessing
+dark-elves-stats.json | Sorceress | specialRules_it | Murderous
+dark-elves-stats.json | Supreme Sorceress | specialRules_it | Hekarti's Blessing
+dark-elves-stats.json | Supreme Sorceress | specialRules_it | Murderous
+dark-elves-stats.json | War Hydra | equipment_it | Serrated maws
+dark-elves-stats.json | War Hydra | specialRules_it | Monster Handlers
+dark-elves-stats.json | Witch Elves | specialRules_it | Frenzy
+dark-elves-stats.json | Witch Elves | specialRules_it | Murderous
+dwarfen-mountain-holds-stats.json | Anvil of Doom | specialRules_it | Immovable Object
+dwarfen-mountain-holds-stats.json | Burlok Damminson | equipment_it | Furnace hammer
+dwarfen-mountain-holds-stats.json | Burlok Damminson | specialRules_it | Prepared Positions
+dwarfen-mountain-holds-stats.json | Burlok Damminson | specialRules_it | Range Finding Optics
+dwarfen-mountain-holds-stats.json | Doomseeker | specialRules_it | Doomseeker
+dwarfen-mountain-holds-stats.json | Engineer Sapper | specialRules_it | "Dig In!"
+dwarfen-mountain-holds-stats.json | Engineer Sapper | specialRules_it | Hostile Terrain
+empire-of-men-stats.json | Empire Steam Tank | specialRules_it | Grinding Wheels
+empire-of-men-stats.json | Empire Steam Tank | specialRules_it | Temperamental
+empire-of-men-stats.json | Empire War Wagon | specialRules_it | Crushing Weight
+empire-of-men-stats.json | Empire War Wagon | specialRules_it | Stable Firing Platform
+empire-of-men-stats.json | Flagellants | equipment_it | Flails
+empire-of-men-stats.json | Flagellants | specialRules_it | Fanatical Zeal
+empire-of-men-stats.json | Free Company Militia | specialRules_it | Levies
+empire-of-men-stats.json | Free Company Militia | specialRules_it | Warband
+empire-of-men-stats.json | General Hans von Löwenhacke | equipment_it | Judgement
+empire-of-men-stats.json | General Hans von Löwenhacke | specialRules_it | Strategic Mastery
+empire-of-men-stats.json | Griffon (Empire) | equipment_it | Fauce seghettata
+empire-of-men-stats.json | Harald Gemunsen | equipment_it | Beast Reaver
+empire-of-men-stats.json | Harald Gemunsen | specialRules_it | Skilled Duellist
+empire-of-men-stats.json | Harbinger of Doom | specialRules_it | Zealot
+empire-of-men-stats.json | Helstorm Rocket Battery | equipment_it | Helstorm Rocket Battery
+empire-of-men-stats.json | Imperial Griffon | equipment_it | Fauce seghettata
+empire-of-men-stats.json | Inner Circle Knights | specialRules_it | Inner Circle
+empire-of-men-stats.json | Mortar | equipment_it | Mortar
+empire-of-men-stats.json | Nuln State Missile Troops | specialRules_it | Nuln State Troops
+empire-of-men-stats.json | Nuln State Troops | specialRules_it | Nuln State Troops
+empire-of-men-stats.json | Nuln Swordsmen | specialRules_it | Nuln State Troops
+empire-of-men-stats.json | Nuln Veteran State Troops | specialRules_it | Nuln State Troops
+empire-of-men-stats.json | War Altar of Sigmar | specialRules_it | Holy Fervour
+grand-cathay-stats.json | Cathayan Sentinel | specialRules_it | Implacable
+grand-cathay-stats.json | Cathayan Warhorse | specialRules_it | Cathayan Cataphracts
+grand-cathay-stats.json | Jade Lancers | equipment_it | Cathayan lances
+grand-cathay-stats.json | Jade Lancers | equipment_it | Iron-shod hooves (Warhorses)
+grand-cathay-stats.json | Jade Lancers | specialRules_it | Cathayan Cataphracts
+grand-cathay-stats.json | Jade Warriors | specialRules_it | Defensive Stance
+grand-cathay-stats.json | Lord Magistrate | specialRules_it | Grand Strategist
+grand-cathay-stats.json | Miao Ying | specialRules_it | Rallying Cry (Human Form only)
+grand-cathay-stats.json | Shugengan General | equipment_it | Shugengan: iron talons
+grand-cathay-stats.json | Shugengan Lord | equipment_it | Shugengan: iron talons
+grand-cathay-stats.json | Sky Lantern | specialRules_it | Disengage
+grand-cathay-stats.json | Sky Lantern | specialRules_it | Fuga simulata
+grand-cathay-stats.json | Sky Lantern | specialRules_it | Heavenly Beacon
+grand-cathay-stats.json | Strategist | specialRules_it | Grand Strategist
+high-elfs-realms-stats.json | Archmage | specialRules_it | Wizard
+high-elfs-realms-stats.json | Dragon Princes | specialRules_it | Impavido
+high-elfs-realms-stats.json | Ellyrian Reavers | specialRules_it | Schermaglia
+high-elfs-realms-stats.json | Phoenix Guard | specialRules_it | Impavido
+high-elfs-realms-stats.json | Swordmasters of Hoeth | specialRules_it | Parata
+high-elfs-realms-stats.json | White Lions of Chrace | specialRules_it | Impavido
+high-elfs-realms-stats.json | White Lions of Chrace | specialRules_it | Parata
+lizardmen-stats.json | Ancient Stegadon | specialRules_it | Cold Blooded
+lizardmen-stats.json | Bastiladon | equipment_it | Mazza tonante
+lizardmen-stats.json | Bastiladon | specialRules_it | Cold Blooded
+lizardmen-stats.json | Bastiladon | specialRules_it | Impervious Defence
+lizardmen-stats.json | Carnosaur | equipment_it | Artigli fendenti
+lizardmen-stats.json | Carnosaur | specialRules_it | Blood Frenzy
+lizardmen-stats.json | Carnosaur | specialRules_it | Cold Blooded
+lizardmen-stats.json | Chameleon Skinks | equipment_it | Cerbottane
+lizardmen-stats.json | Chameleon Skinks | specialRules_it | Cold Blooded
+lizardmen-stats.json | Cold One (Lizardmen) | specialRules_it | Stupidità
+lizardmen-stats.json | Cold One Riders | specialRules_it | Cold Blooded
+lizardmen-stats.json | Cold One Riders | specialRules_it | Stupidità
+lizardmen-stats.json | Jungle Swarms | specialRules_it | Cold Blooded
+lizardmen-stats.json | Kroxigor | specialRules_it | Acquatico
+lizardmen-stats.json | Kroxigor | specialRules_it | Cold Blooded
+lizardmen-stats.json | Kroxigor | specialRules_it | Schermo di schermagliatori
+lizardmen-stats.json | Razordon Pack | specialRules_it | Acquatico
+lizardmen-stats.json | Razordon Pack | specialRules_it | Beast Handlers
+lizardmen-stats.json | Razordon Pack | specialRules_it | Cold Blooded
+lizardmen-stats.json | Ripperdactyl | specialRules_it | Furia del rospo
+lizardmen-stats.json | Ripperdactyl Riders | specialRules_it | Cold Blooded
+lizardmen-stats.json | Ripperdactyl Riders | specialRules_it | Furia del rospo
+lizardmen-stats.json | Salamander Pack | specialRules_it | Acquatico
+lizardmen-stats.json | Salamander Pack | specialRules_it | Beast Handlers
+lizardmen-stats.json | Salamander Pack | specialRules_it | Cold Blooded
+lizardmen-stats.json | Saurus Oldblood | specialRules_it | Cold Blooded
+lizardmen-stats.json | Saurus Scar-Veteran | specialRules_it | Cold Blooded
+lizardmen-stats.json | Saurus Warriors | specialRules_it | Cold Blooded
+lizardmen-stats.json | Skink Chief | specialRules_it | Acquatico
+lizardmen-stats.json | Skink Chief | specialRules_it | Cold Blooded
+lizardmen-stats.json | Skink Priest | specialRules_it | Acquatico
+lizardmen-stats.json | Skink Priest | specialRules_it | Vassallo arcano
+lizardmen-stats.json | Skink Priest | specialRules_it | Cold Blooded
+lizardmen-stats.json | Skink Skirmishers | specialRules_it | Cold Blooded
+lizardmen-stats.json | Slann Mage-Priest | specialRules_it | Cold Blooded
+lizardmen-stats.json | Stegadon | specialRules_it | Cold Blooded
+lizardmen-stats.json | Temple Guard | specialRules_it | Cold Blooded
+lizardmen-stats.json | Temple Guard | specialRules_it | Guardiani
+lizardmen-stats.json | Terradon | specialRules_it | Lascia cadere rocce
+lizardmen-stats.json | Terradon Riders | equipment_it | Javelins
+lizardmen-stats.json | Terradon Riders | specialRules_it | Cold Blooded
+lizardmen-stats.json | Terradon Riders | specialRules_it | Lascia cadere rocce
+lizardmen-stats.json | Troglodon | equipment_it | Spruzzo di veleno
+lizardmen-stats.json | Troglodon | equipment_it | Artigli velenosi
+lizardmen-stats.json | Troglodon | specialRules_it | Acquatico
+lizardmen-stats.json | Troglodon | specialRules_it | Vassallo arcano
+lizardmen-stats.json | Troglodon | specialRules_it | Cold Blooded
+ogre-kingdoms-stats.json | Giant | specialRules_it | Pick Up And…
+ogre-kingdoms-stats.json | Gnoblar Fighters | specialRules_it | In gran parte insignificante
+ogre-kingdoms-stats.json | Gnoblar Trappers | specialRules_it | In gran parte insignificante
+ogre-kingdoms-stats.json | Gnoblar Trappers | specialRules_it | Trappole e lacci
+ogre-kingdoms-stats.json | Gorger | specialRules_it | Frenzy
+ogre-kingdoms-stats.json | Gorger | specialRules_it | Fame vorace
+ogre-kingdoms-stats.json | Thundertusk | specialRules_it | Freddo intorpidante
+ogre-kingdoms-stats.json | Thundertusk Riders | specialRules_it | Freddo intorpidante
+ogre-kingdoms-stats.json | Yhetees | specialRules_it | Freddo intorpidante
+orc-and-goblins-tribe-stats.json | Arachnarok Spider | equipment_it | Shortbows (crew)
+orc-and-goblins-tribe-stats.json | Arachnarok Spider | equipment_it | Impeto di veleno
+orc-and-goblins-tribe-stats.json | Black Orc Bigboss | specialRules_it | Choppas
+orc-and-goblins-tribe-stats.json | Black Orc Bigboss | specialRules_it | I Ragazzi
+orc-and-goblins-tribe-stats.json | Black Orc Bigboss | specialRules_it | Ignora il panico
+orc-and-goblins-tribe-stats.json | Black Orc Bigboss | specialRules_it | Reprimere l’impetuosità
+orc-and-goblins-tribe-stats.json | Black Orc Bigboss | specialRules_it | Waaagh!
+orc-and-goblins-tribe-stats.json | Black Orc Boar Chariot | equipment_it | Zanne (Cinghiali da guerra)
+orc-and-goblins-tribe-stats.json | Black Orc Boar Chariot | specialRules_it | Choppas
+orc-and-goblins-tribe-stats.json | Black Orc Boar Chariot | specialRules_it | Ignora il panico
+orc-and-goblins-tribe-stats.json | Black Orc Mob | specialRules_it | Choppas
+orc-and-goblins-tribe-stats.json | Black Orc Mob | specialRules_it | I Ragazzi
+orc-and-goblins-tribe-stats.json | Black Orc Mob | specialRules_it | Ignora il panico
+orc-and-goblins-tribe-stats.json | Black Orc Mob | specialRules_it | Reprimere l’impetuosità
+orc-and-goblins-tribe-stats.json | Black Orc Warboss | specialRules_it | Choppas
+orc-and-goblins-tribe-stats.json | Black Orc Warboss | specialRules_it | I Ragazzi
+orc-and-goblins-tribe-stats.json | Black Orc Warboss | specialRules_it | Ignora il panico
+orc-and-goblins-tribe-stats.json | Black Orc Warboss | specialRules_it | Reprimere l’impetuosità
+orc-and-goblins-tribe-stats.json | Black Orc Warboss | specialRules_it | Waaagh!
+orc-and-goblins-tribe-stats.json | Bonegrinder Giant | equipment_it | Bonegrinder Giant's club
+orc-and-goblins-tribe-stats.json | Common Troll Mob | equipment_it | Vomito di troll
+orc-and-goblins-tribe-stats.json | Common Troll Mob | specialRules_it | Stupidità
+orc-and-goblins-tribe-stats.json | Giant | equipment_it | Giant's club
+orc-and-goblins-tribe-stats.json | Giant | specialRules_it | Pick Up And…
+orc-and-goblins-tribe-stats.json | Giant Cave Squig (Mount) | specialRules_it | Movimento casuale
+orc-and-goblins-tribe-stats.json | Goblin Bigboss | specialRules_it | Warband
+orc-and-goblins-tribe-stats.json | Goblin Mob | specialRules_it | Warband
+orc-and-goblins-tribe-stats.json | Goblin Oddgit | specialRules_it | Warband
+orc-and-goblins-tribe-stats.json | Goblin Oddnob | specialRules_it | Warband
+orc-and-goblins-tribe-stats.json | Goblin Spider Rider Mob | equipment_it | Poisonous fangs (mount)
+orc-and-goblins-tribe-stats.json | Goblin Spider Rider Mob | specialRules_it | Warband
+orc-and-goblins-tribe-stats.json | Goblin Warboss | specialRules_it | Warband
+orc-and-goblins-tribe-stats.json | Goblin Wolf Chariot | equipment_it | Shortbows (crew)
+orc-and-goblins-tribe-stats.json | Goblin Wolf Chariot | specialRules_it | Warband
+orc-and-goblins-tribe-stats.json | Goblin Wolf Rider Mob | specialRules_it | Warband
+orc-and-goblins-tribe-stats.json | Kiknik Toofsnatcha | equipment_it | Da Boss's Trophy Rack
+orc-and-goblins-tribe-stats.json | Kiknik Toofsnatcha | equipment_it | Spaccateschi
+orc-and-goblins-tribe-stats.json | Kiknik Toofsnatcha | specialRules_it | 'It & Run
+orc-and-goblins-tribe-stats.json | Kiknik Toofsnatcha | specialRules_it | Proprio furtivo
+orc-and-goblins-tribe-stats.json | Kiknik Toofsnatcha | specialRules_it | Warband
+orc-and-goblins-tribe-stats.json | Mangler Squigs | equipment_it | Fauce colossale piena di zanne
+orc-and-goblins-tribe-stats.json | Mangler Squigs | specialRules_it | Ker-splat
+orc-and-goblins-tribe-stats.json | Mangler Squigs | specialRules_it | Movimento casuale
+orc-and-goblins-tribe-stats.json | Mangler Squigs | specialRules_it | Palle chiodate e catene
+orc-and-goblins-tribe-stats.json | Nasty Skulker | specialRules_it | Minaccia furtiva
+orc-and-goblins-tribe-stats.json | Night Goblin Bigboss | specialRules_it | Warband
+orc-and-goblins-tribe-stats.json | Night Goblin Mob | specialRules_it | Warband
+orc-and-goblins-tribe-stats.json | Night Goblin Oddgit | specialRules_it | Warband
+orc-and-goblins-tribe-stats.json | Night Goblin Oddnob | specialRules_it | Warband
+orc-and-goblins-tribe-stats.json | Night Goblin Squig Herd | equipment_it | Fauci enormi (Squig)
+orc-and-goblins-tribe-stats.json | Night Goblin Squig Herd | specialRules_it | Squigs Go Wild
+orc-and-goblins-tribe-stats.json | Night Goblin Squig Herd | specialRules_it | Warband
+orc-and-goblins-tribe-stats.json | Night Goblin Squig Hopper Mob | equipment_it | Fauci enormi (Squig)
+orc-and-goblins-tribe-stats.json | Night Goblin Squig Hopper Mob | specialRules_it | Movimento casuale
+orc-and-goblins-tribe-stats.json | Night Goblin Squig Hopper Mob | specialRules_it | Warband
+orc-and-goblins-tribe-stats.json | Night Goblin Warboss | specialRules_it | Warband
+orc-and-goblins-tribe-stats.json | Orc Bigboss | specialRules_it | Choppas
+orc-and-goblins-tribe-stats.json | Orc Bigboss | specialRules_it | Ignora il panico dei goblin
+orc-and-goblins-tribe-stats.json | Orc Bigboss | specialRules_it | Waaagh!
+orc-and-goblins-tribe-stats.json | Orc Bigboss | specialRules_it | Warband
+orc-and-goblins-tribe-stats.json | Orc Boar Boy Mob | equipment_it | Zanne (cinghiali)
+orc-and-goblins-tribe-stats.json | Orc Boar Boy Mob | specialRules_it | Choppas
+orc-and-goblins-tribe-stats.json | Orc Boar Boy Mob | specialRules_it | Ignora il panico dei goblin
+orc-and-goblins-tribe-stats.json | Orc Boar Boy Mob | specialRules_it | Warband
+orc-and-goblins-tribe-stats.json | Orc Boar Chariot | equipment_it | Zanne (cinghiali)
+orc-and-goblins-tribe-stats.json | Orc Boar Chariot | specialRules_it | Choppas
+orc-and-goblins-tribe-stats.json | Orc Boar Chariot | specialRules_it | Ignora il panico dei goblin
+orc-and-goblins-tribe-stats.json | Orc Boar Chariot | specialRules_it | Warband
+orc-and-goblins-tribe-stats.json | Orc Mob | specialRules_it | Choppas
+orc-and-goblins-tribe-stats.json | Orc Mob | specialRules_it | Ignora il panico dei goblin
+orc-and-goblins-tribe-stats.json | Orc Mob | specialRules_it | Warband
+orc-and-goblins-tribe-stats.json | Orc Warboss | specialRules_it | Choppas
+orc-and-goblins-tribe-stats.json | Orc Warboss | specialRules_it | Ignora il panico dei goblin
+orc-and-goblins-tribe-stats.json | Orc Warboss | specialRules_it | Waaagh!
+orc-and-goblins-tribe-stats.json | Orc Warboss | specialRules_it | Warband
+orc-and-goblins-tribe-stats.json | Orc Weirdboy | specialRules_it | Choppas
+orc-and-goblins-tribe-stats.json | Orc Weirdboy | specialRules_it | Ignora il panico dei goblin
+orc-and-goblins-tribe-stats.json | Orc Weirdboy | specialRules_it | Warband
+orc-and-goblins-tribe-stats.json | Orc Weirdnob | specialRules_it | Choppas
+orc-and-goblins-tribe-stats.json | Orc Weirdnob | specialRules_it | Ignora il panico dei goblin
+orc-and-goblins-tribe-stats.json | Orc Weirdnob | specialRules_it | Warband
+orc-and-goblins-tribe-stats.json | River Troll Mob | equipment_it | Vomito di troll
+orc-and-goblins-tribe-stats.json | River Troll Mob | specialRules_it | Stupidità
+orc-and-goblins-tribe-stats.json | Snotling Pump Wagon | specialRules_it | Movimento casuale
+orc-and-goblins-tribe-stats.json | Stone Troll Mob | equipment_it | Vomito di troll
+orc-and-goblins-tribe-stats.json | Stone Troll Mob | specialRules_it | Stupidità
+orc-and-goblins-tribe-stats.json | Troll Hag | equipment_it | Soffio di palude
+orc-and-goblins-tribe-stats.json | Troll Hag | equipment_it | Vomito di troll
+orc-and-goblins-tribe-stats.json | Troll Hag | specialRules_it | Fame indiscriminata
+orc-and-goblins-tribe-stats.json | Troll Hag | specialRules_it | Amore materno
+orc-and-goblins-tribe-stats.json | Troll Hag | specialRules_it | Stinchi viscidi
+orc-and-goblins-tribe-stats.json | Troll Hag | specialRules_it | Stupidità
+skaven-stats.json | Clanrats | specialRules_it | Scurry Away
+skaven-stats.json | Clanrats | specialRules_it | Warband
+skaven-stats.json | Doomwheel | specialRules_it | Massa schiacciante
+skaven-stats.json | Doomwheel | specialRules_it | Movimento casuale
+skaven-stats.json | Doomwheel | specialRules_it | Zzzzap!
+skaven-stats.json | Giant Rats | specialRules_it | Fight in Extra Rank
+skaven-stats.json | Giant Rats | specialRules_it | Scurry Away
+skaven-stats.json | Giant Rats | specialRules_it | Warband
+skaven-stats.json | Grey Seer | equipment_it | D3 Warpstone Tokens
+skaven-stats.json | Grey Seer | specialRules_it | Scurry Away
+skaven-stats.json | Grey Seer | specialRules_it | Warband
+skaven-stats.json | Gutter Runners | specialRules_it | Fuga simulata
+skaven-stats.json | Gutter Runners | specialRules_it | Scurry Away
+skaven-stats.json | Hell Pit Abomination | specialRules_it | Movimento casuale
+skaven-stats.json | Master Assassin | specialRules_it | Infiltrazione Eshin
+skaven-stats.json | Master Assassin | specialRules_it | Fuga simulata
+skaven-stats.json | Master Assassin | specialRules_it | Nascosto
+skaven-stats.json | Master Assassin | specialRules_it | Scurry Away
+skaven-stats.json | Master Moulder | specialRules_it | Scurry Away
+skaven-stats.json | Master Moulder | specialRules_it | Warband
+skaven-stats.json | Night Runners | specialRules_it | Scurry Away
+skaven-stats.json | Packmaster | specialRules_it | Scurry Away
+skaven-stats.json | Packmaster | specialRules_it | Warband
+skaven-stats.json | Plague Censer Bearers | equipment_it | turiboli della peste
+skaven-stats.json | Plague Censer Bearers | specialRules_it | Frenzy
+skaven-stats.json | Plague Censer Bearers | specialRules_it | Scurry Away
+skaven-stats.json | Plague Censer Bearers | specialRules_it | Warband
+skaven-stats.json | Plague Furnace | equipment_it | Fornace della Peste: Morte ribollente
+skaven-stats.json | Plague Furnace | specialRules_it | Trascinato
+skaven-stats.json | Plague Furnace | specialRules_it | Frenzy
+skaven-stats.json | Plague Furnace | specialRules_it | Masse guizzanti
+skaven-stats.json | Plague Monks | specialRules_it | Frenzy
+skaven-stats.json | Plague Monks | specialRules_it | Scurry Away
+skaven-stats.json | Plague Monks | specialRules_it | Warband
+skaven-stats.json | Plague Priest | specialRules_it | Frenzy
+skaven-stats.json | Plague Priest | specialRules_it | Scurry Away
+skaven-stats.json | Plague Priest | specialRules_it | Warband
+skaven-stats.json | Plagueclaw Catapult | equipment_it | Catapulta Artigliodipeste
+skaven-stats.json | Poisoned Wind Globadiers | specialRules_it | Scurry Away
+skaven-stats.json | Poisoned Wind Globadiers | specialRules_it | Warband
+skaven-stats.json | Rat Ogres | specialRules_it | Frenzy
+skaven-stats.json | Rat Ogres | specialRules_it | Scurry Away
+skaven-stats.json | Rat Ogres | specialRules_it | Warband
+skaven-stats.json | Screaming Bell | specialRules_it | Trascinato
+skaven-stats.json | Screaming Bell | specialRules_it | Masse guizzanti
+skaven-stats.json | Skaven Chieftain | specialRules_it | Scurry Away
+skaven-stats.json | Skaven Chieftain | specialRules_it | Warband
+skaven-stats.json | Skaven Warlord | specialRules_it | Scurry Away
+skaven-stats.json | Skaven Warlord | specialRules_it | Warband
+skaven-stats.json | Stormvermin | specialRules_it | Scurry Away
+skaven-stats.json | Stormvermin | specialRules_it | Warband
+skaven-stats.json | Warlock Engineer | equipment_it | D3 Warpstone Tokens
+skaven-stats.json | Warlock Engineer | specialRules_it | Scurry Away
+skaven-stats.json | Warlock Engineer | specialRules_it | Warband
+skaven-stats.json | Warplock Jezzails | equipment_it | pavese
+skaven-stats.json | Warplock Jezzails | equipment_it | jezzail warplock
+skaven-stats.json | Warplock Jezzails | specialRules_it | Scurry Away
+skaven-stats.json | Warplock Jezzails | specialRules_it | Warband
+skaven-stats.json | Weapon Team | specialRules_it | Scurry Away
+tomb-kings-of-khemri-stats.json | Arch Necrotect | specialRules_it | Khopesh
+tomb-kings-of-khemri-stats.json | Casket of Souls | specialRules_it | Immovable Object
+tomb-kings-of-khemri-stats.json | Casket of Souls | specialRules_it | Unbound Spirits
+tomb-kings-of-khemri-stats.json | High Priest | specialRules_it | Khopesh
+tomb-kings-of-khemri-stats.json | Mortuary Priest | specialRules_it | Khopesh
+tomb-kings-of-khemri-stats.json | Necropolis Knights | specialRules_it | Khopesh
+tomb-kings-of-khemri-stats.json | Necrosphinx | specialRules_it | Mietitore d’anime
+tomb-kings-of-khemri-stats.json | Necrotect | specialRules_it | Khopesh
+tomb-kings-of-khemri-stats.json | Prince Apophas | equipment_it | Massa brulicante
+tomb-kings-of-khemri-stats.json | Prince Apophas | specialRules_it | Khopesh
+tomb-kings-of-khemri-stats.json | Royal Herald | specialRules_it | Khopesh
+tomb-kings-of-khemri-stats.json | Screaming Skull Catapult | equipment_it | Catapulta dei Teschi Urlanti
+tomb-kings-of-khemri-stats.json | Tomb Guard | specialRules_it | Khopesh
+tomb-kings-of-khemri-stats.json | Tomb Guard Chariots | specialRules_it | Khopesh
+tomb-kings-of-khemri-stats.json | Tomb King | specialRules_it | Khopesh
+tomb-kings-of-khemri-stats.json | Tomb Prince | specialRules_it | Khopesh
+tomb-kings-of-khemri-stats.json | Ushabti | specialRules_it | Khopesh
+tomb-kings-of-khemri-stats.json | Venerable Ushabti | specialRules_it | Khopesh
+vampire-counts-stats.json | Black Coach | equipment_it | Wraith: Spectral scythe
+vampire-counts-stats.json | Black Coach | specialRules_it | Carrozza spettrale
+vampire-counts-stats.json | Blood Knights | equipment_it | Blood Knights: Lances
+vampire-counts-stats.json | Blood Knights | specialRules_it | Dark Vitality
+vampire-counts-stats.json | Blood Knights | specialRules_it | Orgoglio marziale
+vampire-counts-stats.json | Cairn Wraith | specialRules_it | Ethereal
+vampire-counts-stats.json | Corpse Cart | specialRules_it | Dark Vitality
+vampire-counts-stats.json | Coven Throne | specialRules_it | Dark Vitality
+vampire-counts-stats.json | Coven Throne | specialRules_it | Fascino macabro
+vampire-counts-stats.json | Coven Throne | specialRules_it | Pozza di scrutamento
+vampire-counts-stats.json | Hexwraiths | specialRules_it | Ethereal
+vampire-counts-stats.json | Hexwraiths | specialRules_it | Mietitori spettrali
+vampire-counts-stats.json | Master Necromancer | specialRules_it | Dark Vitality
+vampire-counts-stats.json | Mortis Engine | specialRules_it | Reliquiario maledetto
+vampire-counts-stats.json | Mortis Engine | specialRules_it | Tomo blasfemo
+vampire-counts-stats.json | Mortis Engine | specialRules_it | Dark Vitality
+vampire-counts-stats.json | Mortis Engine | specialRules_it | Lamento straziante
+vampire-counts-stats.json | Necromantic Acolyte | specialRules_it | Dark Vitality
+vampire-counts-stats.json | Spirit Hosts | specialRules_it | Spiriti vincolati
+vampire-counts-stats.json | Spirit Hosts | specialRules_it | Ethereal
+vampire-counts-stats.json | Strigoi Ghoul King | specialRules_it | Dark Vitality
+vampire-counts-stats.json | Terrorgheist | equipment_it | Artigli incrostati di lordura
+vampire-counts-stats.json | Terrorgheist | equipment_it | Fauce rancida
+vampire-counts-stats.json | Terrorgheist | specialRules_it | Infested
+vampire-counts-stats.json | Terrorgheist | specialRules_it | Lamento straziante
+vampire-counts-stats.json | Terrorgheist (Mount) | equipment_it | Artigli incrostati di lordura
+vampire-counts-stats.json | Terrorgheist (Mount) | equipment_it | Fauce rancida
+vampire-counts-stats.json | Terrorgheist (Mount) | specialRules_it | Infested
+vampire-counts-stats.json | Terrorgheist (Mount) | specialRules_it | Lamento straziante
+vampire-counts-stats.json | Tomb Banshee | specialRules_it | Ethereal
+vampire-counts-stats.json | Tomb Banshee | specialRules_it | Lamento straziante
+vampire-counts-stats.json | Vampire Count | specialRules_it | Dark Vitality
+vampire-counts-stats.json | Vampire Thrall | specialRules_it | Dark Vitality
+vampire-counts-stats.json | Vargheists | specialRules_it | Dark Vitality
+vampire-counts-stats.json | Vargheists | specialRules_it | Frenzy
+vampire-counts-stats.json | Varghulf | specialRules_it | Furia bestiale
+vampire-counts-stats.json | Varghulf | specialRules_it | Dark Vitality
+vampire-counts-stats.json | Varghulf | specialRules_it | Frenzy
+vampire-counts-stats.json | Wight Lord | specialRules_it | Stendardo dei Wight
+vampire-counts-stats.json | Zombie Dragon | equipment_it | Soffio pestilenziale
+warriors-of-chaos-stats.json | Chaos Marauders | specialRules_it | Warband
+warriors-of-chaos-stats.json | Chaos Spawn | specialRules_it | Movimento casuale
+warriors-of-chaos-stats.json | Chaos Trolls | equipment_it | Vomito di troll
+warriors-of-chaos-stats.json | Chaos Trolls | specialRules_it | Stupidità
+warriors-of-chaos-stats.json | Chaos Warhound Handler | specialRules_it | Addestratore
+warriors-of-chaos-stats.json | Daemon Prince | specialRules_it | Instabile
+warriors-of-chaos-stats.json | Daemon Prince | specialRules_it | Generato dal Warp
+warriors-of-chaos-stats.json | Forsaken | specialRules_it | Mutazione incontrollata
+warriors-of-chaos-stats.json | Frydaal The Chainmaker | equipment_it | Storm's Wrath
+warriors-of-chaos-stats.json | Frydaal The Chainmaker | specialRules_it | Forgiacatene
+warriors-of-chaos-stats.json | Frydaal The Chainmaker | specialRules_it | Razziatore impareggiabile
+warriors-of-chaos-stats.json | Gigantic Spawn of Chaos | equipment_it | Fauci digrignanti
+warriors-of-chaos-stats.json | Gigantic Spawn of Chaos | equipment_it | Artigli fendenti
+warriors-of-chaos-stats.json | Gigantic Spawn of Chaos | specialRules_it | Movimento casuale
+warriors-of-chaos-stats.json | Hellcannon | specialRules_it | Furia incatenata
+warriors-of-chaos-stats.json | Hellcannon | specialRules_it | Monster Handlers
+warriors-of-chaos-stats.json | Hellcannon | specialRules_it | Generato dal Warp
+warriors-of-chaos-stats.json | Manticore | specialRules_it | Wilful Beast
+warriors-of-chaos-stats.json | Marauder Horsemen | specialRules_it | Warband
+warriors-of-chaos-stats.json | Marauder Tribe Berserkers | specialRules_it | Frenzy
+warriors-of-chaos-stats.json | Marauder Tribe Berserkers | specialRules_it | Warband
+warriors-of-chaos-stats.json | Marauder Tribe Chieftain | specialRules_it | Warband
+warriors-of-chaos-stats.json | Marauder Tribe Huscarls | specialRules_it | Warband
+warriors-of-chaos-stats.json | Skin Wolves | specialRules_it | Blood Rage
+warriors-of-chaos-stats.json | Skin Wolves | specialRules_it | Primal Fury
+warriors-of-chaos-stats.json | Skin Wolves | specialRules_it | Warped Form
+warriors-of-chaos-stats.json | Warpfire Dragon | equipment_it | Esplosione di fuoco warp
+warriors-of-chaos-stats.json | Warpfire Dragon | specialRules_it | Fine esplosiva
+warriors-of-chaos-stats.json | Warpfire Dragon | specialRules_it | Aura di fuoco warp
+wood-elves-stats.json | Branchwraith | specialRules_it | Spirito arboreo
+wood-elves-stats.json | Deepwood Hound | specialRules_it | Warband
+wood-elves-stats.json | Deepwood Scouts | equipment_it | Archi lunghi Asrai
+wood-elves-stats.json | Dryads | specialRules_it | Spirito arboreo
+wood-elves-stats.json | Eternal Guard | specialRules_it | Perizia marziale
+wood-elves-stats.json | Forest Dragon | equipment_it | Fauce seghettata
+wood-elves-stats.json | Forest Dragon | equipment_it | Soffio soporifero
+wood-elves-stats.json | Glade Captain | equipment_it | Arco lungo Asrai
+wood-elves-stats.json | Glade Captain | specialRules_it | Ignora la copertura
+wood-elves-stats.json | Glade Guard | equipment_it | Archi lunghi Asrai
+wood-elves-stats.json | Glade Lord | equipment_it | Arco lungo Asrai
+wood-elves-stats.json | Glade Lord | specialRules_it | Ignora la copertura
+wood-elves-stats.json | Glade Riders | equipment_it | Archi lunghi Asrai
+wood-elves-stats.json | Great Eagle | equipment_it | Fauce seghettata
+wood-elves-stats.json | Great Eagle (Mount) | equipment_it | Fauce seghettata
+wood-elves-stats.json | Guardians of Talsyn | specialRules_it | Perizia marziale
+wood-elves-stats.json | Guardians of Talsyn | specialRules_it | Parata
+wood-elves-stats.json | Orion, the King in the Woods | equipment_it | Artiglio di Falco
+wood-elves-stats.json | Orion, the King in the Woods | specialRules_it | Frenzy
+wood-elves-stats.json | Sisters of the Thorn | equipment_it | Blackbriar javelins
+wood-elves-stats.json | Sisters of the Thorn | specialRules_it | Congrega del Bosco Profondo
+wood-elves-stats.json | Sylvan Boar | specialRules_it | Razor Tusks
+wood-elves-stats.json | Tree Kin | specialRules_it | Spirito arboreo
+wood-elves-stats.json | Tree Kin | specialRules_it | Randellata arborea
+wood-elves-stats.json | Treeman | equipment_it | Pugni di quercia
+wood-elves-stats.json | Treeman | equipment_it | Radici strangolatrici
+wood-elves-stats.json | Treeman | specialRules_it | Spirito arboreo
+wood-elves-stats.json | Treeman | specialRules_it | Randellata arborea
+wood-elves-stats.json | Treeman Ancient | equipment_it | Pugni di quercia
+wood-elves-stats.json | Treeman Ancient | equipment_it | Radici strangolatrici
+wood-elves-stats.json | Treeman Ancient | specialRules_it | Spirito arboreo
+wood-elves-stats.json | Treeman Ancient | specialRules_it | Randellata arborea
+wood-elves-stats.json | Unicorn | specialRules_it | Aura ammaliante
+wood-elves-stats.json | Warden of Talsyn | specialRules_it | Coraggio senza pari
+wood-elves-stats.json | Warden of Talsyn | specialRules_it | Parata
+wood-elves-stats.json | Warhawk | specialRules_it | Fuga simulata
+wood-elves-stats.json | Warhawk Riders | equipment_it | Archi lunghi Asrai
+wood-elves-stats.json | Warhawk Riders | specialRules_it | Fuga simulata
+wood-elves-stats.json | Waystalker | equipment_it | Arco lungo Asrai
+wood-elves-stats.json | Waystalker | specialRules_it | Fuga simulata
+wood-elves-stats.json | Waystalker | specialRules_it | Hawk-eyed Archer
+wood-elves-stats.json | Waystalker | specialRules_it | Ignora la copertura
+wood-elves-stats.json | Waywatchers | equipment_it | Archi lunghi Asrai
+wood-elves-stats.json | Waywatchers | specialRules_it | Fuga simulata
+wood-elves-stats.json | Waywatchers | specialRules_it | Ignora la copertura
+wood-elves-stats.json | Wild Riders | specialRules_it | Frenzy
+wood-elves-stats.json | Wildwood Rangers | equipment_it | Ranger's glaives

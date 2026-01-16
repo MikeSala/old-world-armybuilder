@@ -1,0 +1,119 @@
+Untranslated FR entries in units-stats (EN == FR)
+file | unit | field | value
+--------------------------------------------------------------------------------
+beastmen-brayherds-stats.json | Centigor | specialRules_fr | Horde
+beastmen-brayherds-stats.json | Cygor | specialRules_fr | Timmm-berrr!
+beastmen-brayherds-stats.json | Ghorgon | specialRules_fr | Timmm-berrr!
+beastmen-brayherds-stats.json | Giant | specialRules_fr | Timmm-berrr!
+beastmen-brayherds-stats.json | Gor | specialRules_fr | Horde
+beastmen-brayherds-stats.json | Primal Warherd – Gor | specialRules_fr | Horde
+beastmen-brayherds-stats.json | Primal Warhound | specialRules_fr | Horde
+beastmen-brayherds-stats.json | Ungor | specialRules_fr | Horde
+beastmen-brayherds-stats.json | Ungor Ravager | specialRules_fr | Horde
+bretonnia-stats.json | Battle Pilgrims | specialRules_fr | Devout
+bretonnia-stats.json | Field Trebuchet | specialRules_fr | Crewed
+bretonnia-stats.json | Grail Reliquae | specialRules_fr | Devout
+bretonnia-stats.json | Grail Reliquae | specialRules_fr | Relic
+bretonnia-stats.json | Knights Errant | specialRules_fr | Impulsive
+chaos-dwarfs-stats.json | Hobgoblin Cutthroats | specialRules_fr | Horde
+daemons-of-chaos-stats.json | Bloodthirster of Khorne | equipment_fr | Goreaxe
+daemons-of-chaos-stats.json | Bloodthirster of Khorne (on Juggernaut) | equipment_fr | Goreaxe
+daemons-of-chaos-stats.json | Bloodthirster of Khorne (on Juggernaut) | specialRules_fr | Juggernaut
+daemons-of-chaos-stats.json | Daemon Prince of Chaos (Khorne) (with wings) | equipment_fr | Wings
+daemons-of-chaos-stats.json | Herald of Khorne (on Juggernaut) | specialRules_fr | Juggernaut
+daemons-of-chaos-stats.json | Skull Cannon | specialRules_fr | Blast
+dark-elves-stats.json | Bloodwrack Medusa | specialRules_fr | Murderous
+dark-elves-stats.json | Bloodwrack Shrine | specialRules_fr | Murderous
+dark-elves-stats.json | Cauldron of Blood | specialRules_fr | Murderous
+dark-elves-stats.json | Dark Elf Dreadlord | specialRules_fr | Murderous
+dark-elves-stats.json | Dark Elf Master | specialRules_fr | Murderous
+dark-elves-stats.json | Death Hag | specialRules_fr | Murderous
+dark-elves-stats.json | Har Ganeth Executioners | specialRules_fr | Murderous
+dark-elves-stats.json | High Beastmaster | specialRules_fr | Murderous
+dark-elves-stats.json | Khainite Assassin | specialRules_fr | Hidden
+dark-elves-stats.json | Khainite Assassin | specialRules_fr | Murderous
+dark-elves-stats.json | Sisters of Slaughter | specialRules_fr | Murderous
+dark-elves-stats.json | Sorceress | specialRules_fr | Murderous
+dark-elves-stats.json | Supreme Sorceress | specialRules_fr | Murderous
+dark-elves-stats.json | Witch Elves | specialRules_fr | Horde
+dark-elves-stats.json | Witch Elves | specialRules_fr | Murderous
+dwarfen-mountain-holds-stats.json | Engineer Sapper | specialRules_fr | Hostile Terrain
+empire-of-men-stats.json | Free Company Militia | specialRules_fr | Horde
+empire-of-men-stats.json | Harald Gemunsen | specialRules_fr | Skilled Duellist
+empire-of-men-stats.json | Nuln State Troops | specialRules_fr | Horde
+empire-of-men-stats.json | Nuln Swordsmen | specialRules_fr | Horde
+empire-of-men-stats.json | Nuln Veteran State Troops | specialRules_fr | Horde
+empire-of-men-stats.json | State Troops | specialRules_fr | Horde
+empire-of-men-stats.json | Veteran State Troops | specialRules_fr | Horde
+empire-of-men-stats.json | War Altar of Sigmar | specialRules_fr | Holy Fervour
+grand-cathay-stats.json | Cathayan Sentinel | specialRules_fr | Implacable
+grand-cathay-stats.json | Cathayan Sentinel | specialRules_fr | Timmm-berrr!
+grand-cathay-stats.json | Jade Lancers | specialRules_fr | Horde
+high-elfs-realms-stats.json | Dragon Princes | specialRules_fr | Fearless
+high-elfs-realms-stats.json | Phoenix Guard | specialRules_fr | Fearless
+high-elfs-realms-stats.json | White Lions of Chrace | specialRules_fr | Fearless
+ogre-kingdoms-stats.json | Giant | specialRules_fr | Timmm-berrr!
+ogre-kingdoms-stats.json | Gnoblar Fighters | specialRules_fr | Horde
+orc-and-goblins-tribe-stats.json | Black Orc Bigboss | specialRules_fr | Waaagh!
+orc-and-goblins-tribe-stats.json | Black Orc Warboss | specialRules_fr | Waaagh!
+orc-and-goblins-tribe-stats.json | Bonegrinder Giant | equipment_fr | Bonegrinder Giant's club
+orc-and-goblins-tribe-stats.json | Bonegrinder Giant | specialRules_fr | Timmm-berrr!
+orc-and-goblins-tribe-stats.json | Giant | specialRules_fr | Timmm-berrr!
+orc-and-goblins-tribe-stats.json | Goblin Mob | specialRules_fr | Horde
+orc-and-goblins-tribe-stats.json | Mangler Squigs | specialRules_fr | Timmm-berrr!
+orc-and-goblins-tribe-stats.json | Nasty Skulker | specialRules_fr | Horde
+orc-and-goblins-tribe-stats.json | Nasty Skulker | specialRules_fr | Skulking Menace
+orc-and-goblins-tribe-stats.json | Night Goblin Mob | specialRules_fr | Horde
+orc-and-goblins-tribe-stats.json | Ogdruz Swampdigga | equipment_fr | Trollhide Shawl
+orc-and-goblins-tribe-stats.json | Orc Bigboss | specialRules_fr | Waaagh!
+orc-and-goblins-tribe-stats.json | Orc Warboss | specialRules_fr | Waaagh!
+orc-and-goblins-tribe-stats.json | Troll Hag | specialRules_fr | Timmm-berrr!
+skaven-stats.json | Clanrats | specialRules_fr | Horde
+skaven-stats.json | Doomwheel | specialRules_fr | Zzzzap!
+skaven-stats.json | Giant Rats | specialRules_fr | Horde
+skaven-stats.json | Grey Seer | equipment_fr | D3 Warpstone Tokens
+skaven-stats.json | Hell Pit Abomination | specialRules_fr | Timmm-berrr!
+skaven-stats.json | Master Assassin | specialRules_fr | Hidden
+skaven-stats.json | Master Moulder | specialRules_fr | Horde
+skaven-stats.json | Packmaster | specialRules_fr | Horde
+skaven-stats.json | Plague Furnace | specialRules_fr | Scurrying Masses
+skaven-stats.json | Plague Monks | specialRules_fr | Horde
+skaven-stats.json | Rat Ogres | specialRules_fr | Horde
+skaven-stats.json | Screaming Bell | specialRules_fr | Scurrying Masses
+skaven-stats.json | Stormvermin | specialRules_fr | Horde
+skaven-stats.json | Warlock Engineer | equipment_fr | D3 Warpstone Tokens
+skaven-stats.json | Warplock Jezzails | equipment_fr | warplock jezzails
+tomb-kings-of-khemri-stats.json | Arch Necrotect | specialRules_fr | Khopesh
+tomb-kings-of-khemri-stats.json | High Priest | specialRules_fr | Khopesh
+tomb-kings-of-khemri-stats.json | Mortuary Priest | specialRules_fr | Khopesh
+tomb-kings-of-khemri-stats.json | Necrolith Colossus | specialRules_fr | Timmm-berrr!
+tomb-kings-of-khemri-stats.json | Necropolis Knights | specialRules_fr | Khopesh
+tomb-kings-of-khemri-stats.json | Necrotect | specialRules_fr | Khopesh
+tomb-kings-of-khemri-stats.json | Prince Apophas | specialRules_fr | Khopesh
+tomb-kings-of-khemri-stats.json | Royal Herald | specialRules_fr | Khopesh
+tomb-kings-of-khemri-stats.json | Skeleton Archers | equipment_fr | warbows
+tomb-kings-of-khemri-stats.json | Skeleton Cavalry Cohort | specialRules_fr | Horde
+tomb-kings-of-khemri-stats.json | Skeleton Chariots | specialRules_fr | Horde
+tomb-kings-of-khemri-stats.json | Skeleton Horsemen | specialRules_fr | Horde
+tomb-kings-of-khemri-stats.json | Skeleton Infantry Cohort | specialRules_fr | Horde
+tomb-kings-of-khemri-stats.json | Skeleton Warriors (Tomb Kings) | specialRules_fr | Horde
+tomb-kings-of-khemri-stats.json | Tomb Guard | specialRules_fr | Khopesh
+tomb-kings-of-khemri-stats.json | Tomb Guard Chariots | specialRules_fr | Khopesh
+tomb-kings-of-khemri-stats.json | Tomb King | specialRules_fr | Khopesh
+tomb-kings-of-khemri-stats.json | Tomb Prince | specialRules_fr | Khopesh
+tomb-kings-of-khemri-stats.json | Ushabti | specialRules_fr | Khopesh
+tomb-kings-of-khemri-stats.json | Venerable Ushabti | specialRules_fr | Khopesh
+vampire-counts-stats.json | Coven Throne | specialRules_fr | Ghoulish Glamour
+vampire-counts-stats.json | Coven Throne | specialRules_fr | Scrying Pool
+vampire-counts-stats.json | Mortis Engine | specialRules_fr | Blasphemous Tome
+vampire-counts-stats.json | Skeleton Warriors (Vampire Counts) | specialRules_fr | Horde
+vampire-counts-stats.json | Zombies | specialRules_fr | Horde
+warriors-of-chaos-stats.json | Gigantic Spawn of Chaos | specialRules_fr | Timmm-berrr!
+wood-elves-stats.json | Orion, the King in the Woods | equipment_fr | Hawks Talon
+wood-elves-stats.json | Treeman | equipment_fr | Oaken fists
+wood-elves-stats.json | Treeman | equipment_fr | Strangleroots
+wood-elves-stats.json | Treeman | specialRules_fr | Timmm-berrr!
+wood-elves-stats.json | Treeman Ancient | equipment_fr | Oaken fists
+wood-elves-stats.json | Treeman Ancient | equipment_fr | Strangleroots
+wood-elves-stats.json | Treeman Ancient | specialRules_fr | Timmm-berrr!
+wood-elves-stats.json | Wildwood Rangers | equipment_fr | Ranger's glaives

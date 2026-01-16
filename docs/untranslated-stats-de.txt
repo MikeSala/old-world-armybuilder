@@ -1,0 +1,653 @@
+Untranslated DE entries in units-stats (EN == DE)
+file | unit | field | value
+--------------------------------------------------------------------------------
+beastmen-brayherds-stats.json | Beastlord | name_de | Beastlord
+beastmen-brayherds-stats.json | Beastlord | specialRules_de | Foe Render
+beastmen-brayherds-stats.json | Beastlord | specialRules_de | Primal Fury
+beastmen-brayherds-stats.json | Bestigor | specialRules_de | Primal Fury
+beastmen-brayherds-stats.json | Bloodkine | name_de | Bloodkine
+beastmen-brayherds-stats.json | Bloodkine | unitCategory_de | Champion
+beastmen-brayherds-stats.json | Bray-Shaman | equipment_de | Braystaff
+beastmen-brayherds-stats.json | Bray-Shaman | name_de | Bray-Shaman
+beastmen-brayherds-stats.json | Bray-Shaman | specialRules_de | Primal Fury
+beastmen-brayherds-stats.json | Centigor | specialRules_de | Drunken
+beastmen-brayherds-stats.json | Centigor | specialRules_de | Primal Fury
+beastmen-brayherds-stats.json | Cockatrice | name_de | Cockatrice
+beastmen-brayherds-stats.json | Cockatrice | specialRules_de | Stony Stare
+beastmen-brayherds-stats.json | Cockatrice | unitCategory_de | Monster
+beastmen-brayherds-stats.json | Cygor | equipment_de | hurl attack
+beastmen-brayherds-stats.json | Cygor | name_de | Cygor
+beastmen-brayherds-stats.json | Cygor | specialRules_de | Ghostsight
+beastmen-brayherds-stats.json | Cygor | specialRules_de | Soul-eater
+beastmen-brayherds-stats.json | Cygor | troopType_de | Behemoth
+beastmen-brayherds-stats.json | Cygor | unitCategory_de | Monster
+beastmen-brayherds-stats.json | Doombull | name_de | Doombull
+beastmen-brayherds-stats.json | Doombull | specialRules_de | Bull-gors
+beastmen-brayherds-stats.json | Doombull | specialRules_de | Foe Render
+beastmen-brayherds-stats.json | Doombull | specialRules_de | Primal Fury
+beastmen-brayherds-stats.json | Doombull | specialRules_de | Slaughterer's Call
+beastmen-brayherds-stats.json | Ghorgon | equipment_de | Cleaver-limbs
+beastmen-brayherds-stats.json | Ghorgon | name_de | Ghorgon
+beastmen-brayherds-stats.json | Ghorgon | specialRules_de | Primal Fury
+beastmen-brayherds-stats.json | Ghorgon | specialRules_de | Regeneration (6+)
+beastmen-brayherds-stats.json | Ghorgon | specialRules_de | Swallow Whole
+beastmen-brayherds-stats.json | Ghorgon | troopType_de | Behemoth
+beastmen-brayherds-stats.json | Ghorgon | unitCategory_de | Monster
+beastmen-brayherds-stats.json | Ghorros Warhoof | equipment_de | Mansmasher
+beastmen-brayherds-stats.json | Ghorros Warhoof | specialRules_de | Drunken
+beastmen-brayherds-stats.json | Ghorros Warhoof | specialRules_de | Primal Fury
+beastmen-brayherds-stats.json | Giant | troopType_de | Behemoth
+beastmen-brayherds-stats.json | Giant | unitCategory_de | Monster
+beastmen-brayherds-stats.json | Gor | specialRules_de | Primal Fury
+beastmen-brayherds-stats.json | Gorebull | name_de | Gorebull
+beastmen-brayherds-stats.json | Gorebull | specialRules_de | Bull-gors
+beastmen-brayherds-stats.json | Gorebull | specialRules_de | Foe Render
+beastmen-brayherds-stats.json | Gorebull | specialRules_de | Primal Fury
+beastmen-brayherds-stats.json | Gorebull | specialRules_de | Slaughterer's Call
+beastmen-brayherds-stats.json | Gorehoof | name_de | Gorehoof
+beastmen-brayherds-stats.json | Gorehoof | unitCategory_de | Champion
+beastmen-brayherds-stats.json | Gourge-horn | unitCategory_de | Champion
+beastmen-brayherds-stats.json | Great Bray-Shaman | equipment_de | Braystaff
+beastmen-brayherds-stats.json | Great Bray-Shaman | specialRules_de | Primal Fury
+beastmen-brayherds-stats.json | Half-horn | name_de | Half-horn
+beastmen-brayherds-stats.json | Half-horn | unitCategory_de | Champion
+beastmen-brayherds-stats.json | Herdstone | equipment_de | Herdstones
+beastmen-brayherds-stats.json | Herdstone | name_de | Herdstone
+beastmen-brayherds-stats.json | Jabberslythe | equipment_de | slythey tongue
+beastmen-brayherds-stats.json | Jabberslythe | name_de | Jabberslythe
+beastmen-brayherds-stats.json | Jabberslythe | specialRules_de | Maddening Aura
+beastmen-brayherds-stats.json | Jabberslythe | unitCategory_de | Monster
+beastmen-brayherds-stats.json | Kralmaw, the Prophet of Ruin | equipment_de | Grisly Totem (Braystaff)
+beastmen-brayherds-stats.json | Kralmaw, the Prophet of Ruin | specialRules_de | Future Sight
+beastmen-brayherds-stats.json | Kralmaw, the Prophet of Ruin | specialRules_de | Leering Spirit
+beastmen-brayherds-stats.json | Kralmaw, the Prophet of Ruin | specialRules_de | Primal Fury
+beastmen-brayherds-stats.json | Minotaur | specialRules_de | Bull-gors
+beastmen-brayherds-stats.json | Minotaur | specialRules_de | Foe Render
+beastmen-brayherds-stats.json | Minotaur | specialRules_de | Primal Fury
+beastmen-brayherds-stats.json | Preyton | equipment_de | twisted antlers
+beastmen-brayherds-stats.json | Preyton | name_de | Preyton
+beastmen-brayherds-stats.json | Preyton | specialRules_de | Endless Malice
+beastmen-brayherds-stats.json | Preyton | unitCategory_de | Monster
+beastmen-brayherds-stats.json | Primal Warherd – Foe-render | unitCategory_de | Champion
+beastmen-brayherds-stats.json | Primal Warherd – Gor | specialRules_de | Primal Fury
+beastmen-brayherds-stats.json | Razorgor | specialRules_de | Foe Render
+beastmen-brayherds-stats.json | Razorgor | specialRules_de | Primal Fury
+beastmen-brayherds-stats.json | Razorgor Chariot | specialRules_de | Primal Fury
+beastmen-brayherds-stats.json | Shaggoth | specialRules_de | Storm Call
+beastmen-brayherds-stats.json | Shaggoth | unitCategory_de | Monster
+beastmen-brayherds-stats.json | Shartak | name_de | Shartak
+beastmen-brayherds-stats.json | Shartak | unitCategory_de | Champion
+beastmen-brayherds-stats.json | Splice-horn | unitCategory_de | Champion
+beastmen-brayherds-stats.json | True-horn | name_de | True-horn
+beastmen-brayherds-stats.json | True-horn | unitCategory_de | Champion
+beastmen-brayherds-stats.json | Tuskgor Chariot | specialRules_de | Primal Fury
+beastmen-brayherds-stats.json | Ungor | specialRules_de | Primal Fury
+beastmen-brayherds-stats.json | Ungor Ravager | specialRules_de | Primal Fury
+beastmen-brayherds-stats.json | Wargor | name_de | Wargor
+beastmen-brayherds-stats.json | Wargor | specialRules_de | Foe Render
+beastmen-brayherds-stats.json | Wargor | specialRules_de | Primal Fury
+beastmen-brayherds-stats.json | Warhoof | name_de | Warhoof
+beastmen-brayherds-stats.json | Warhoof | specialRules_de | Drunken
+beastmen-brayherds-stats.json | Warhoof | specialRules_de | Primal Fury
+beastmen-brayherds-stats.json | Warped Gor | specialRules_de | Primal Fury
+bretonnia-stats.json | Battle Pilgrims | equipment_de | Hand Weapon
+bretonnia-stats.json | Battle Pilgrims | specialRules_de | Devout
+bretonnia-stats.json | Battle Pilgrims | unitCategory_de | Special
+bretonnia-stats.json | Damsel | equipment_de | Hand Weapon
+bretonnia-stats.json | Damsel | unitCategory_de | Hero
+bretonnia-stats.json | Duke | equipment_de | Hand Weapon
+bretonnia-stats.json | Duke | unitCategory_de | Lord
+bretonnia-stats.json | Field Trebuchet | specialRules_de | Crewed
+bretonnia-stats.json | Field Trebuchet | unitCategory_de | Rare
+bretonnia-stats.json | Grail Knights | equipment_de | Hand Weapon
+bretonnia-stats.json | Grail Knights | specialRules_de | Grail Vow
+bretonnia-stats.json | Grail Knights | unitCategory_de | Special
+bretonnia-stats.json | Grail Reliquae | equipment_de | Hand Weapon
+bretonnia-stats.json | Grail Reliquae | specialRules_de | Devout
+bretonnia-stats.json | Grail Reliquae | specialRules_de | Relic
+bretonnia-stats.json | Grail Reliquae | unitCategory_de | Rare
+bretonnia-stats.json | Knights Errant | equipment_de | Hand Weapon
+bretonnia-stats.json | Knights Errant | specialRules_de | Impulsive
+bretonnia-stats.json | Knights Errant | unitCategory_de | Core
+bretonnia-stats.json | Knights of the Realm | equipment_de | Hand Weapon
+bretonnia-stats.json | Knights of the Realm | unitCategory_de | Core
+bretonnia-stats.json | Men-at-Arms | equipment_de | Hand Weapon
+bretonnia-stats.json | Men-at-Arms | unitCategory_de | Core
+bretonnia-stats.json | Mounted Yeomen | equipment_de | Hand Weapon
+bretonnia-stats.json | Mounted Yeomen | unitCategory_de | Special
+bretonnia-stats.json | Paladin | equipment_de | Hand Weapon
+bretonnia-stats.json | Paladin | name_de | Paladin
+bretonnia-stats.json | Paladin | unitCategory_de | Hero
+bretonnia-stats.json | Peasant Bowmen | equipment_de | Hand Weapon
+bretonnia-stats.json | Peasant Bowmen | unitCategory_de | Core
+bretonnia-stats.json | Pegasus Knights | equipment_de | Hand Weapon
+bretonnia-stats.json | Pegasus Knights | unitCategory_de | Special
+bretonnia-stats.json | Prophetess of the Lady | equipment_de | Hand Weapon
+bretonnia-stats.json | Prophetess of the Lady | unitCategory_de | Lord
+bretonnia-stats.json | Questing Knights | equipment_de | Hand Weapon
+bretonnia-stats.json | Questing Knights | specialRules_de | Questing Vow
+bretonnia-stats.json | Questing Knights | unitCategory_de | Special
+bretonnia-stats.json | The Green Knight | equipment_de | Hand Weapon
+bretonnia-stats.json | The Green Knight | unitCategory_de | Legendary Lord
+chaos-dwarfs-stats.json | Bale Taurus | name_de | Bale Taurus
+chaos-dwarfs-stats.json | Bale Taurus | specialRules_de | Blazing Body
+chaos-dwarfs-stats.json | Bale Taurus | troopType_de | Behemoth
+chaos-dwarfs-stats.json | Bale Taurus | unitCategory_de | Monster
+chaos-dwarfs-stats.json | Bull Centaur Renders | name_de | Bull Centaur Renders
+chaos-dwarfs-stats.json | Bull Centaur Renders | specialRules_de | Stampede
+chaos-dwarfs-stats.json | Bull Centaur Taur'ruk | name_de | Bull Centaur Taur'ruk
+chaos-dwarfs-stats.json | Bull Centaur Taur'ruk | specialRules_de | Stampede
+chaos-dwarfs-stats.json | Daemonsmith Sorcerer | name_de | Daemonsmith Sorcerer
+chaos-dwarfs-stats.json | Daemonsmith Sorcerer | specialRules_de | Sorcerer's Curse
+chaos-dwarfs-stats.json | Deathshrieker Rocket Launcher | equipment_de | Demolition Rockets
+chaos-dwarfs-stats.json | Deathshrieker Rocket Launcher | equipment_de | Infernal Incendiaries
+chaos-dwarfs-stats.json | Deathshrieker Rocket Launcher | name_de | Deathshrieker Rocket Launcher
+chaos-dwarfs-stats.json | Deathshrieker Rocket Launcher | unitCategory_de | War Machine
+chaos-dwarfs-stats.json | Dreadquake Mortar | unitCategory_de | War Machine
+chaos-dwarfs-stats.json | Giant Wolf | unitCategory_de | Mount
+chaos-dwarfs-stats.json | Great Taurus | specialRules_de | Blazing Body
+chaos-dwarfs-stats.json | Great Taurus | troopType_de | Behemoth
+chaos-dwarfs-stats.json | Great Taurus | unitCategory_de | Monster
+chaos-dwarfs-stats.json | Hobgoblin Bolt Thrower | name_de | Hobgoblin Bolt Thrower
+chaos-dwarfs-stats.json | Hobgoblin Bolt Thrower | unitCategory_de | War Machine
+chaos-dwarfs-stats.json | Hobgoblin Cutthroats | name_de | Hobgoblin Cutthroats
+chaos-dwarfs-stats.json | Hobgoblin Cutthroats | specialRules_de | Backstab
+chaos-dwarfs-stats.json | Hobgoblin Khan | name_de | Hobgoblin Khan
+chaos-dwarfs-stats.json | Hobgoblin Khan | specialRules_de | Backstab
+chaos-dwarfs-stats.json | Hobgoblin Wolf Riders | specialRules_de | Backstab
+chaos-dwarfs-stats.json | Infernal Castellan | name_de | Infernal Castellan
+chaos-dwarfs-stats.json | Infernal Ironsworn | name_de | Infernal Ironsworn
+chaos-dwarfs-stats.json | Iron Daemon | specialRules_de | Carriage Hauler
+chaos-dwarfs-stats.json | Iron Daemon | specialRules_de | Lumbering Destruction
+chaos-dwarfs-stats.json | K'daai Fireborn | specialRules_de | Blazing Body
+chaos-dwarfs-stats.json | K'daai Fireborn | specialRules_de | Regeneration (5+)
+chaos-dwarfs-stats.json | K'daai Fireborn | specialRules_de | Warp-spawned
+chaos-dwarfs-stats.json | Lammasu | name_de | Lammasu
+chaos-dwarfs-stats.json | Lammasu | specialRules_de | Sorcerous Miasma
+chaos-dwarfs-stats.json | Lammasu | unitCategory_de | Monster
+chaos-dwarfs-stats.json | Magma Cannon | unitCategory_de | War Machine
+chaos-dwarfs-stats.json | Sneaky Gits | name_de | Sneaky Gits
+chaos-dwarfs-stats.json | Sneaky Gits | specialRules_de | Backstab
+chaos-dwarfs-stats.json | Sorcerer-Prophet | name_de | Sorcerer-Prophet
+chaos-dwarfs-stats.json | Sorcerer-Prophet | specialRules_de | Sorcerer's Curse
+daemons-of-chaos-stats.json | Bloodletters of Khorne | equipment_de | Hellblade
+daemons-of-chaos-stats.json | Bloodletters of Khorne | specialRules_de | Daemonic
+daemons-of-chaos-stats.json | Bloodthirster of Khorne | equipment_de | Goreaxe
+daemons-of-chaos-stats.json | Bloodthirster of Khorne | specialRules_de | Daemonic
+daemons-of-chaos-stats.json | Bloodthirster of Khorne | specialRules_de | Regeneration
+daemons-of-chaos-stats.json | Bloodthirster of Khorne | unitCategory_de | Monster
+daemons-of-chaos-stats.json | Bloodthirster of Khorne (on Juggernaut) | equipment_de | Goreaxe
+daemons-of-chaos-stats.json | Bloodthirster of Khorne (on Juggernaut) | equipment_de | Juggernaut Mount
+daemons-of-chaos-stats.json | Bloodthirster of Khorne (on Juggernaut) | specialRules_de | Daemonic
+daemons-of-chaos-stats.json | Bloodthirster of Khorne (on Juggernaut) | specialRules_de | Juggernaut
+daemons-of-chaos-stats.json | Bloodthirster of Khorne (on Juggernaut) | specialRules_de | Regeneration
+daemons-of-chaos-stats.json | Bloodthirster of Khorne (on Juggernaut) | unitCategory_de | Monster
+daemons-of-chaos-stats.json | Daemon Prince of Chaos (Khorne) | specialRules_de | Daemonic
+daemons-of-chaos-stats.json | Daemon Prince of Chaos (Khorne) (with wings) | equipment_de | Wings
+daemons-of-chaos-stats.json | Daemon Prince of Chaos (Khorne) (with wings) | specialRules_de | Daemonic
+daemons-of-chaos-stats.json | Flesh Hounds of Khorne | specialRules_de | Daemonic
+daemons-of-chaos-stats.json | Herald of Khorne | equipment_de | Hellblade
+daemons-of-chaos-stats.json | Herald of Khorne | specialRules_de | Daemonic
+daemons-of-chaos-stats.json | Herald of Khorne (on Juggernaut) | equipment_de | Hellblade
+daemons-of-chaos-stats.json | Herald of Khorne (on Juggernaut) | equipment_de | Juggernaut Mount
+daemons-of-chaos-stats.json | Herald of Khorne (on Juggernaut) | specialRules_de | Daemonic
+daemons-of-chaos-stats.json | Herald of Khorne (on Juggernaut) | specialRules_de | Juggernaut
+daemons-of-chaos-stats.json | Skull Cannon | specialRules_de | Blast
+daemons-of-chaos-stats.json | Skull Cannon | specialRules_de | Daemonic
+daemons-of-chaos-stats.json | Skull Cannon | unitCategory_de | Warmachine
+dark-elves-stats.json | Black Dragon | troopType_de | Behemoth
+dark-elves-stats.json | Black Dragon | unitCategory_de | Monster
+dark-elves-stats.json | Bloodwrack Medusa | specialRules_de | Murderous
+dark-elves-stats.json | Bloodwrack Medusa | specialRules_de | Stony Stare
+dark-elves-stats.json | Bloodwrack Medusa | unitCategory_de | Monster
+dark-elves-stats.json | Bloodwrack Shrine | specialRules_de | Dragged Along
+dark-elves-stats.json | Bloodwrack Shrine | specialRules_de | Murderous
+dark-elves-stats.json | Bloodwrack Shrine | specialRules_de | Stony Stare
+dark-elves-stats.json | Cauldron of Blood | specialRules_de | Dragged Along
+dark-elves-stats.json | Cauldron of Blood | specialRules_de | Murderous
+dark-elves-stats.json | Cold One (Dark Elves) | unitCategory_de | Mount
+dark-elves-stats.json | Dark Elf Dreadlord | name_de | Dark Elf Dreadlord
+dark-elves-stats.json | Dark Elf Dreadlord | specialRules_de | Murderous
+dark-elves-stats.json | Dark Elf Master | specialRules_de | Murderous
+dark-elves-stats.json | Dark Elf Shades | name_de | Dark Elf Shades
+dark-elves-stats.json | Dark Pegasus | name_de | Dark Pegasus
+dark-elves-stats.json | Dark Pegasus | unitCategory_de | Mount
+dark-elves-stats.json | Dark Steed | unitCategory_de | Mount
+dark-elves-stats.json | Death Hag | specialRules_de | Murderous
+dark-elves-stats.json | Doomfire Warlocks | name_de | Doomfire Warlocks
+dark-elves-stats.json | Doomfire Warlocks | specialRules_de | Cursed Coven
+dark-elves-stats.json | Har Ganeth Executioners | name_de | Har Ganeth Executioners
+dark-elves-stats.json | Har Ganeth Executioners | specialRules_de | Murderous
+dark-elves-stats.json | Harpies | name_de | Harpies
+dark-elves-stats.json | High Beastmaster | specialRules_de | Murderous
+dark-elves-stats.json | Khainite Assassin | specialRules_de | Hidden
+dark-elves-stats.json | Khainite Assassin | specialRules_de | Murderous
+dark-elves-stats.json | Kharibdyss | name_de | Kharibdyss
+dark-elves-stats.json | Kharibdyss | specialRules_de | Abyssal Howl
+dark-elves-stats.json | Kharibdyss | specialRules_de | Monster Handlers
+dark-elves-stats.json | Kharibdyss | troopType_de | Behemoth
+dark-elves-stats.json | Kharibdyss | unitCategory_de | Monster
+dark-elves-stats.json | Manticore (Dark Elves) | unitCategory_de | Monster
+dark-elves-stats.json | Reaper Bolt Thrower | equipment_de | Repeater bolt thrower
+dark-elves-stats.json | Reaper Bolt Thrower | name_de | Reaper Bolt Thrower
+dark-elves-stats.json | Reaper Bolt Thrower | unitCategory_de | War Machine
+dark-elves-stats.json | Repeater Crossbowmen | name_de | Repeater Crossbowmen
+dark-elves-stats.json | Sisters of Slaughter | equipment_de | Lash & buckler
+dark-elves-stats.json | Sisters of Slaughter | specialRules_de | Murderous
+dark-elves-stats.json | Sorceress | name_de | Sorceress
+dark-elves-stats.json | Sorceress | specialRules_de | Murderous
+dark-elves-stats.json | Supreme Sorceress | name_de | Supreme Sorceress
+dark-elves-stats.json | Supreme Sorceress | specialRules_de | Murderous
+dark-elves-stats.json | War Hydra | equipment_de | Serrated maws
+dark-elves-stats.json | War Hydra | specialRules_de | Monster Handlers
+dark-elves-stats.json | War Hydra | specialRules_de | Regeneration (5+)
+dark-elves-stats.json | War Hydra | troopType_de | Behemoth
+dark-elves-stats.json | War Hydra | unitCategory_de | Monster
+dark-elves-stats.json | Witch Elves | specialRules_de | Murderous
+dwarfen-mountain-holds-stats.json | Bolt Thrower | unitCategory_de | War Machine
+dwarfen-mountain-holds-stats.json | Burlok Damminson | name_de | Burlok Damminson
+dwarfen-mountain-holds-stats.json | Cannon | unitCategory_de | War Machine
+dwarfen-mountain-holds-stats.json | Draft Pony | unitCategory_de | Mount
+dwarfen-mountain-holds-stats.json | Engineer | specialRules_de | Entrenchment
+dwarfen-mountain-holds-stats.json | Engineer Sapper | specialRules_de | Hostile Terrain
+dwarfen-mountain-holds-stats.json | Flame Cannon | unitCategory_de | War Machine
+dwarfen-mountain-holds-stats.json | Veteran (Dwarf Warriors) | unitCategory_de | Champion
+empire-of-men-stats.json | Barded Warhorse | unitCategory_de | Mount
+empire-of-men-stats.json | Demigryph | unitCategory_de | Mount
+empire-of-men-stats.json | Empire Warhorse | unitCategory_de | Mount
+empire-of-men-stats.json | General Hans von Löwenhacke | name_de | General Hans von Löwenhacke
+empire-of-men-stats.json | Great Cannon | unitCategory_de | War Machine
+empire-of-men-stats.json | Griffon (Empire) | unitCategory_de | Monster
+empire-of-men-stats.json | Harald Gemunsen | name_de | Harald Gemunsen
+empire-of-men-stats.json | Harald Gemunsen | specialRules_de | Skilled Duellist
+empire-of-men-stats.json | Helblaster Volley Gun | unitCategory_de | War Machine
+empire-of-men-stats.json | Helstorm Rocket Battery | unitCategory_de | War Machine
+empire-of-men-stats.json | Imperial Griffon | troopType_de | Behemoth
+empire-of-men-stats.json | Imperial Griffon | unitCategory_de | Monster
+empire-of-men-stats.json | Mortar | unitCategory_de | War Machine
+empire-of-men-stats.json | Pegasus | name_de | Pegasus
+empire-of-men-stats.json | Pegasus | unitCategory_de | Mount
+empire-of-men-stats.json | War Altar of Sigmar | specialRules_de | Holy Fervour
+grand-cathay-stats.json | Cathayan Grand Cannon | unitCategory_de | War Machine
+grand-cathay-stats.json | Cathayan Sentinel | troopType_de | Behemoth
+grand-cathay-stats.json | Cathayan Sentinel | unitCategory_de | Monster
+grand-cathay-stats.json | Cathayan Warhorse | specialRules_de | Cathayan Cataphracts
+grand-cathay-stats.json | Cathayan Warhorse | unitCategory_de | Mount
+grand-cathay-stats.json | Fire Rain Rocket Battery | unitCategory_de | War Machine
+grand-cathay-stats.json | Gate Keeper | name_de | Gate Keeper
+grand-cathay-stats.json | Jade Lancers | name_de | Jade Lancers
+grand-cathay-stats.json | Jade Lancers | specialRules_de | Cathayan Cataphracts
+grand-cathay-stats.json | Jade Warriors | specialRules_de | Defensive Stance
+grand-cathay-stats.json | Lord Magistrate | name_de | Lord Magistrate
+grand-cathay-stats.json | Lord Magistrate | specialRules_de | Grand Strategist
+grand-cathay-stats.json | Miao Ying | name_de | Miao Ying
+grand-cathay-stats.json | Ogre Loader | name_de | Ogre Loader
+grand-cathay-stats.json | Ogre Loader | unitCategory_de | War Machine
+grand-cathay-stats.json | Shugengan General | equipment_de | Shugengan: Hand weapon
+grand-cathay-stats.json | Shugengan General | name_de | Shugengan General
+grand-cathay-stats.json | Shugengan Lord | equipment_de | Shugengan: Hand weapon
+grand-cathay-stats.json | Shugengan Lord | name_de | Shugengan Lord
+grand-cathay-stats.json | Sky Lantern | name_de | Sky Lantern
+grand-cathay-stats.json | Sky Lantern | specialRules_de | Disengage
+grand-cathay-stats.json | Sky Lantern | specialRules_de | Heavenly Beacon
+grand-cathay-stats.json | Strategist | name_de | Strategist
+grand-cathay-stats.json | Strategist | specialRules_de | Grand Strategist
+high-elfs-realms-stats.json | Archmage | equipment_de | Staff, Robes
+high-elfs-realms-stats.json | Archmage | unitCategory_de | Hero
+high-elfs-realms-stats.json | Dragon Princes | specialRules_de | Fearless
+high-elfs-realms-stats.json | Dragon Princes | unitCategory_de | Special
+high-elfs-realms-stats.json | Ellyrian Reavers | specialRules_de | Skirmish
+high-elfs-realms-stats.json | Ellyrian Reavers | unitCategory_de | Special
+high-elfs-realms-stats.json | Highborn | specialRules_de | Fearless
+high-elfs-realms-stats.json | Highborn | specialRules_de | Inspiring
+high-elfs-realms-stats.json | Highborn | unitCategory_de | Rare
+high-elfs-realms-stats.json | Phoenix Guard | specialRules_de | Fearless
+high-elfs-realms-stats.json | Phoenix Guard | unitCategory_de | Special
+high-elfs-realms-stats.json | Prince | specialRules_de | Inspiring
+high-elfs-realms-stats.json | Prince | specialRules_de | Leadership +1
+high-elfs-realms-stats.json | Prince | unitCategory_de | Hero
+high-elfs-realms-stats.json | Silver Helms | unitCategory_de | Core
+high-elfs-realms-stats.json | Spearmen | unitCategory_de | Core
+high-elfs-realms-stats.json | Swordmasters of Hoeth | specialRules_de | Parry
+high-elfs-realms-stats.json | Swordmasters of Hoeth | unitCategory_de | Special
+high-elfs-realms-stats.json | White Lions of Chrace | specialRules_de | Fearless
+high-elfs-realms-stats.json | White Lions of Chrace | specialRules_de | Parry
+high-elfs-realms-stats.json | White Lions of Chrace | unitCategory_de | Rare
+lizardmen-stats.json | Ancient Stegadon | specialRules_de | Cold Blooded
+lizardmen-stats.json | Ancient Stegadon | troopType_de | Behemoth
+lizardmen-stats.json | Ancient Stegadon | unitCategory_de | Monster
+lizardmen-stats.json | Bastiladon | name_de | Bastiladon
+lizardmen-stats.json | Bastiladon | specialRules_de | Cold Blooded
+lizardmen-stats.json | Bastiladon | unitCategory_de | Monster
+lizardmen-stats.json | Carnosaur | name_de | Carnosaur
+lizardmen-stats.json | Carnosaur | specialRules_de | Cold Blooded
+lizardmen-stats.json | Carnosaur | troopType_de | Behemoth
+lizardmen-stats.json | Carnosaur | unitCategory_de | Monster
+lizardmen-stats.json | Chameleon Skinks | equipment_de | Blowpipes
+lizardmen-stats.json | Chameleon Skinks | name_de | Chameleon Skinks
+lizardmen-stats.json | Chameleon Skinks | specialRules_de | Cold Blooded
+lizardmen-stats.json | Cold One (Lizardmen) | unitCategory_de | Mount
+lizardmen-stats.json | Cold One Riders | specialRules_de | Cold Blooded
+lizardmen-stats.json | Jungle Swarms | name_de | Jungle Swarms
+lizardmen-stats.json | Jungle Swarms | specialRules_de | Cold Blooded
+lizardmen-stats.json | Kroxigor | specialRules_de | Aquatic
+lizardmen-stats.json | Kroxigor | specialRules_de | Cold Blooded
+lizardmen-stats.json | Kroxigor | specialRules_de | Skirmish Screen
+lizardmen-stats.json | Razordon Pack | name_de | Razordon Pack
+lizardmen-stats.json | Razordon Pack | specialRules_de | Aquatic
+lizardmen-stats.json | Razordon Pack | specialRules_de | Cold Blooded
+lizardmen-stats.json | Ripperdactyl | name_de | Ripperdactyl
+lizardmen-stats.json | Ripperdactyl | specialRules_de | Toad Rage
+lizardmen-stats.json | Ripperdactyl | unitCategory_de | Mount
+lizardmen-stats.json | Ripperdactyl Riders | specialRules_de | Cold Blooded
+lizardmen-stats.json | Ripperdactyl Riders | specialRules_de | Toad Rage
+lizardmen-stats.json | Salamander Pack | name_de | Salamander Pack
+lizardmen-stats.json | Salamander Pack | specialRules_de | Aquatic
+lizardmen-stats.json | Salamander Pack | specialRules_de | Cold Blooded
+lizardmen-stats.json | Saurus Oldblood | name_de | Saurus Oldblood
+lizardmen-stats.json | Saurus Oldblood | specialRules_de | Cold Blooded
+lizardmen-stats.json | Saurus Scar-Veteran | name_de | Saurus Scar-Veteran
+lizardmen-stats.json | Saurus Scar-Veteran | specialRules_de | Cold Blooded
+lizardmen-stats.json | Saurus Warriors | specialRules_de | Cold Blooded
+lizardmen-stats.json | Skink Chief | name_de | Skink Chief
+lizardmen-stats.json | Skink Chief | specialRules_de | Aquatic
+lizardmen-stats.json | Skink Chief | specialRules_de | Cold Blooded
+lizardmen-stats.json | Skink Priest | specialRules_de | Aquatic
+lizardmen-stats.json | Skink Priest | specialRules_de | Cold Blooded
+lizardmen-stats.json | Skink Skirmishers | specialRules_de | Cold Blooded
+lizardmen-stats.json | Slann Mage-Priest | specialRules_de | Cold Blooded
+lizardmen-stats.json | Stegadon | name_de | Stegadon
+lizardmen-stats.json | Stegadon | specialRules_de | Cold Blooded
+lizardmen-stats.json | Stegadon | troopType_de | Behemoth
+lizardmen-stats.json | Stegadon | unitCategory_de | Monster
+lizardmen-stats.json | Temple Guard | specialRules_de | Cold Blooded
+lizardmen-stats.json | Temple Guard | specialRules_de | Guardians
+lizardmen-stats.json | Terradon | name_de | Terradon
+lizardmen-stats.json | Terradon | specialRules_de | Drop Rocks
+lizardmen-stats.json | Terradon | unitCategory_de | Mount
+lizardmen-stats.json | Terradon Riders | equipment_de | Javelins
+lizardmen-stats.json | Terradon Riders | specialRules_de | Cold Blooded
+lizardmen-stats.json | Terradon Riders | specialRules_de | Drop Rocks
+lizardmen-stats.json | Troglodon | equipment_de | Venom spray
+lizardmen-stats.json | Troglodon | name_de | Troglodon
+lizardmen-stats.json | Troglodon | specialRules_de | Aquatic
+lizardmen-stats.json | Troglodon | specialRules_de | Cold Blooded
+lizardmen-stats.json | Troglodon | unitCategory_de | Monster
+ogre-kingdoms-stats.json | Giant | troopType_de | Behemoth
+ogre-kingdoms-stats.json | Giant | unitCategory_de | Monster
+ogre-kingdoms-stats.json | Gorger | specialRules_de | Regeneration (6+)
+ogre-kingdoms-stats.json | Gorger | unitCategory_de | Monster
+ogre-kingdoms-stats.json | Stonehorn | troopType_de | Behemoth
+ogre-kingdoms-stats.json | Stonehorn | unitCategory_de | Mount
+ogre-kingdoms-stats.json | Stonehorn Riders | troopType_de | Behemoth
+ogre-kingdoms-stats.json | Stonehorn Riders | unitCategory_de | Monster
+ogre-kingdoms-stats.json | Thundertusk | troopType_de | Behemoth
+ogre-kingdoms-stats.json | Thundertusk | unitCategory_de | Mount
+ogre-kingdoms-stats.json | Thundertusk Riders | troopType_de | Behemoth
+ogre-kingdoms-stats.json | Thundertusk Riders | unitCategory_de | Monster
+orc-and-goblins-tribe-stats.json | Arachnarok Spider | troopType_de | Behemoth
+orc-and-goblins-tribe-stats.json | Arachnarok Spider | unitCategory_de | Monster
+orc-and-goblins-tribe-stats.json | Black Orc Bigboss | specialRules_de | Waaagh!
+orc-and-goblins-tribe-stats.json | Black Orc Warboss | specialRules_de | Waaagh!
+orc-and-goblins-tribe-stats.json | Bonegrinder Giant | equipment_de | Bonegrinder Giant's club
+orc-and-goblins-tribe-stats.json | Bonegrinder Giant | troopType_de | Behemoth
+orc-and-goblins-tribe-stats.json | Bonegrinder Giant | unitCategory_de | Monster
+orc-and-goblins-tribe-stats.json | Common Troll Mob | specialRules_de | Regeneration (5+)
+orc-and-goblins-tribe-stats.json | Doom Diver Catapult | unitCategory_de | War Machine
+orc-and-goblins-tribe-stats.json | Giant | troopType_de | Behemoth
+orc-and-goblins-tribe-stats.json | Giant | unitCategory_de | Monster
+orc-and-goblins-tribe-stats.json | Giant Cave Squig (Mount) | equipment_de | Massive Gob
+orc-and-goblins-tribe-stats.json | Giant Cave Squig (Mount) | unitCategory_de | Mount
+orc-and-goblins-tribe-stats.json | Giant Wolf (Mount) | unitCategory_de | Mount
+orc-and-goblins-tribe-stats.json | Gigantic Spider (Mount) | unitCategory_de | Mount
+orc-and-goblins-tribe-stats.json | Goblin Bolt Throwa | unitCategory_de | War Machine
+orc-and-goblins-tribe-stats.json | Goblin Rock Lobber | unitCategory_de | War Machine
+orc-and-goblins-tribe-stats.json | Goblin Spider Rider Mob | equipment_de | Poisonous fangs (mount)
+orc-and-goblins-tribe-stats.json | Kiknik Toofsnatcha | specialRules_de | All Sneaky Like
+orc-and-goblins-tribe-stats.json | Mangler Squigs | troopType_de | Behemoth
+orc-and-goblins-tribe-stats.json | Mangler Squigs | unitCategory_de | Monster
+orc-and-goblins-tribe-stats.json | Nasty Skulker | specialRules_de | Skulking Menace
+orc-and-goblins-tribe-stats.json | Night Goblin Squig Herd | equipment_de | Huge gobs (Squigs)
+orc-and-goblins-tribe-stats.json | Night Goblin Squig Hopper Mob | equipment_de | Huge gobs (squigs)
+orc-and-goblins-tribe-stats.json | Ogdruz Swampdigga | equipment_de | Bog-wood Staff
+orc-and-goblins-tribe-stats.json | Ogdruz Swampdigga | equipment_de | Trollhide Shawl
+orc-and-goblins-tribe-stats.json | Orc Bigboss | specialRules_de | Waaagh!
+orc-and-goblins-tribe-stats.json | Orc Bully | specialRules_de | Bully
+orc-and-goblins-tribe-stats.json | Orc Bully | unitCategory_de | War Machine
+orc-and-goblins-tribe-stats.json | Orc Warboss | specialRules_de | Waaagh!
+orc-and-goblins-tribe-stats.json | River Troll Mob | specialRules_de | Regeneration (5+)
+orc-and-goblins-tribe-stats.json | Stone Troll Mob | specialRules_de | Regeneration (5+)
+orc-and-goblins-tribe-stats.json | Troll Hag | specialRules_de | Regeneration (5+)
+orc-and-goblins-tribe-stats.json | War Boar (Mount) | unitCategory_de | Mount
+orc-and-goblins-tribe-stats.json | Wyvern | unitCategory_de | Monster
+skaven-stats.json | Clanrats | specialRules_de | Scurry Away
+skaven-stats.json | Doomwheel | equipment_de | Warlock: Hand weapon
+skaven-stats.json | Doomwheel | specialRules_de | Crushing Bulk
+skaven-stats.json | Doomwheel | specialRules_de | Zzzzap!
+skaven-stats.json | Giant Rats | specialRules_de | Fight in Extra Rank
+skaven-stats.json | Giant Rats | specialRules_de | Scurry Away
+skaven-stats.json | Grey Seer | specialRules_de | Scurry Away
+skaven-stats.json | Gutter Runners | specialRules_de | Scurry Away
+skaven-stats.json | Hell Pit Abomination | specialRules_de | Regeneration (5+)
+skaven-stats.json | Hell Pit Abomination | troopType_de | Behemoth
+skaven-stats.json | Hell Pit Abomination | unitCategory_de | Monster
+skaven-stats.json | Master Assassin | specialRules_de | Eshin Infiltration
+skaven-stats.json | Master Assassin | specialRules_de | Hidden
+skaven-stats.json | Master Assassin | specialRules_de | Scurry Away
+skaven-stats.json | Master Moulder | specialRules_de | Scurry Away
+skaven-stats.json | Night Runners | specialRules_de | Scurry Away
+skaven-stats.json | Packmaster | specialRules_de | Scurry Away
+skaven-stats.json | Plague Censer Bearers | equipment_de | plague censers
+skaven-stats.json | Plague Censer Bearers | specialRules_de | Scurry Away
+skaven-stats.json | Plague Furnace | specialRules_de | Dragged Along
+skaven-stats.json | Plague Furnace | specialRules_de | Scurrying Masses
+skaven-stats.json | Plague Monks | specialRules_de | Scurry Away
+skaven-stats.json | Plague Priest | specialRules_de | Scurry Away
+skaven-stats.json | Plagueclaw Catapult | unitCategory_de | War Machine
+skaven-stats.json | Poisoned Wind Globadiers | specialRules_de | Scurry Away
+skaven-stats.json | Rat Ogres | specialRules_de | Scurry Away
+skaven-stats.json | Screaming Bell | specialRules_de | Dragged Along
+skaven-stats.json | Screaming Bell | specialRules_de | Scurrying Masses
+skaven-stats.json | Skaven Chieftain | specialRules_de | Scurry Away
+skaven-stats.json | Skaven Warlord | specialRules_de | Scurry Away
+skaven-stats.json | Stormvermin | specialRules_de | Scurry Away
+skaven-stats.json | Warlock Engineer | specialRules_de | Scurry Away
+skaven-stats.json | Warp Lightning Cannon | unitCategory_de | War Machine
+skaven-stats.json | Warplock Jezzails | specialRules_de | Scurry Away
+skaven-stats.json | Weapon Team | specialRules_de | Deploying Weapon Teams
+skaven-stats.json | Weapon Team | specialRules_de | Scurry Away
+skaven-stats.json | Weapon Team | specialRules_de | Targeting Weapon Teams
+skaven-stats.json | Weapon Team | specialRules_de | Weapon Team Leadership
+tomb-kings-of-khemri-stats.json | Arch Necrotect | specialRules_de | Regeneration (5+)
+tomb-kings-of-khemri-stats.json | Carrion | specialRules_de | Regeneration (6+)
+tomb-kings-of-khemri-stats.json | Casket of Souls | specialRules_de | Regeneration (5+)
+tomb-kings-of-khemri-stats.json | Casket of Souls | unitCategory_de | War Machine
+tomb-kings-of-khemri-stats.json | High Priest | specialRules_de | Regeneration (5+)
+tomb-kings-of-khemri-stats.json | Khemrian Warsphinx | specialRules_de | Regeneration (6+)
+tomb-kings-of-khemri-stats.json | Khemrian Warsphinx | troopType_de | Behemoth
+tomb-kings-of-khemri-stats.json | Khemrian Warsphinx | unitCategory_de | Monster
+tomb-kings-of-khemri-stats.json | Mortuary Priest | specialRules_de | Regeneration (5+)
+tomb-kings-of-khemri-stats.json | Necrolith Bone Dragon | troopType_de | Behemoth
+tomb-kings-of-khemri-stats.json | Necrolith Bone Dragon | unitCategory_de | Monster
+tomb-kings-of-khemri-stats.json | Necrolith Colossus | specialRules_de | Regeneration (6+)
+tomb-kings-of-khemri-stats.json | Necrolith Colossus | troopType_de | Behemoth
+tomb-kings-of-khemri-stats.json | Necrolith Colossus | unitCategory_de | Monster
+tomb-kings-of-khemri-stats.json | Necropolis Knights | specialRules_de | Regeneration (6+)
+tomb-kings-of-khemri-stats.json | Necroserpents | specialRules_de | Regeneration (6+)
+tomb-kings-of-khemri-stats.json | Necrosphinx | specialRules_de | Regeneration (5+)
+tomb-kings-of-khemri-stats.json | Necrosphinx | specialRules_de | Soul Reaper
+tomb-kings-of-khemri-stats.json | Necrosphinx | troopType_de | Behemoth
+tomb-kings-of-khemri-stats.json | Necrosphinx | unitCategory_de | Monster
+tomb-kings-of-khemri-stats.json | Necrotect | specialRules_de | Regeneration (6+)
+tomb-kings-of-khemri-stats.json | Nekaph | name_de | Nekaph
+tomb-kings-of-khemri-stats.json | Nekaph | specialRules_de | Regeneration (5+)
+tomb-kings-of-khemri-stats.json | Prince Apophas | specialRules_de | Regeneration (5+)
+tomb-kings-of-khemri-stats.json | Royal Herald | specialRules_de | Regeneration (5+)
+tomb-kings-of-khemri-stats.json | Screaming Skull Catapult | specialRules_de | Regeneration (6+)
+tomb-kings-of-khemri-stats.json | Screaming Skull Catapult | unitCategory_de | War Machine
+tomb-kings-of-khemri-stats.json | Sepulchral Stalkers | specialRules_de | Regeneration (6+)
+tomb-kings-of-khemri-stats.json | Settra the Imperishable | specialRules_de | Regeneration (5+)
+tomb-kings-of-khemri-stats.json | Skeletal Steed (Tomb Kings) | unitCategory_de | Mount
+tomb-kings-of-khemri-stats.json | Skeleton Archers | specialRules_de | Regeneration (6+)
+tomb-kings-of-khemri-stats.json | Skeleton Cavalry Cohort | specialRules_de | Regeneration (6+)
+tomb-kings-of-khemri-stats.json | Skeleton Chariot | unitCategory_de | Mount
+tomb-kings-of-khemri-stats.json | Skeleton Chariots | specialRules_de | Regeneration (6+)
+tomb-kings-of-khemri-stats.json | Skeleton Horse Archers | specialRules_de | Regeneration (6+)
+tomb-kings-of-khemri-stats.json | Skeleton Horsemen | specialRules_de | Regeneration (6+)
+tomb-kings-of-khemri-stats.json | Skeleton Infantry Cohort | specialRules_de | Regeneration (6+)
+tomb-kings-of-khemri-stats.json | Skeleton Skirmishers | specialRules_de | Regeneration (6+)
+tomb-kings-of-khemri-stats.json | Skeleton Warriors (Tomb Kings) | specialRules_de | Regeneration (6+)
+tomb-kings-of-khemri-stats.json | Tomb Guard | specialRules_de | Regeneration (6+)
+tomb-kings-of-khemri-stats.json | Tomb Guard Chariots | specialRules_de | Regeneration (6+)
+tomb-kings-of-khemri-stats.json | Tomb King | specialRules_de | Regeneration (5+)
+tomb-kings-of-khemri-stats.json | Tomb Prince | specialRules_de | Regeneration (5+)
+tomb-kings-of-khemri-stats.json | Tomb Scorpion | equipment_de | envenomed sting
+tomb-kings-of-khemri-stats.json | Tomb Scorpion | specialRules_de | Regeneration (6+)
+tomb-kings-of-khemri-stats.json | Tomb Scorpion | unitCategory_de | Monster
+tomb-kings-of-khemri-stats.json | Tomb Swarms | specialRules_de | Regeneration (6+)
+tomb-kings-of-khemri-stats.json | Ushabti | name_de | Ushabti
+tomb-kings-of-khemri-stats.json | Ushabti | specialRules_de | Regeneration (6+)
+tomb-kings-of-khemri-stats.json | Venerable Ushabti | specialRules_de | Regeneration (6+)
+vampire-counts-stats.json | Abyssal Terror | unitCategory_de | Monster
+vampire-counts-stats.json | Bat Swarms | specialRules_de | Regeneration (6+)
+vampire-counts-stats.json | Black Coach | specialRules_de | Regeneration (6+)
+vampire-counts-stats.json | Black Knights | specialRules_de | Regeneration (6+)
+vampire-counts-stats.json | Blood Knights | specialRules_de | Dark Vitality
+vampire-counts-stats.json | Blood Knights | specialRules_de | Regeneration (6+)
+vampire-counts-stats.json | Cairn Wraith | specialRules_de | Regeneration (6+)
+vampire-counts-stats.json | Corpse Cart | specialRules_de | Dark Vitality
+vampire-counts-stats.json | Corpse Cart | specialRules_de | Regeneration (6+)
+vampire-counts-stats.json | Coven Throne | specialRules_de | Dark Vitality
+vampire-counts-stats.json | Coven Throne | specialRules_de | Ghoulish Glamour
+vampire-counts-stats.json | Coven Throne | specialRules_de | Regeneration (6+)
+vampire-counts-stats.json | Coven Throne | specialRules_de | Scrying Pool
+vampire-counts-stats.json | Crypt Ghouls | specialRules_de | Regeneration (6+)
+vampire-counts-stats.json | Crypt Horrors | specialRules_de | Regeneration (6+)
+vampire-counts-stats.json | Dire Wolves | specialRules_de | Regeneration (6+)
+vampire-counts-stats.json | Fell Bats | specialRules_de | Regeneration (6+)
+vampire-counts-stats.json | Grave Guard | specialRules_de | Regeneration (6+)
+vampire-counts-stats.json | Hexwraiths | specialRules_de | Regeneration (6+)
+vampire-counts-stats.json | Master Necromancer | specialRules_de | Dark Vitality
+vampire-counts-stats.json | Master Necromancer | specialRules_de | Regeneration (5+)
+vampire-counts-stats.json | Mortis Engine | specialRules_de | Blasphemous Tome
+vampire-counts-stats.json | Mortis Engine | specialRules_de | Dark Vitality
+vampire-counts-stats.json | Mortis Engine | specialRules_de | Regeneration (6+)
+vampire-counts-stats.json | Mortis Engine | specialRules_de | Wailing Dirge
+vampire-counts-stats.json | Necromantic Acolyte | specialRules_de | Dark Vitality
+vampire-counts-stats.json | Necromantic Acolyte | specialRules_de | Regeneration (5+)
+vampire-counts-stats.json | Nightmare | unitCategory_de | Mount
+vampire-counts-stats.json | Skeletal Steed (Vampire Counts) | unitCategory_de | Mount
+vampire-counts-stats.json | Skeleton Warriors (Vampire Counts) | specialRules_de | Regeneration (6+)
+vampire-counts-stats.json | Spirit Hosts | specialRules_de | Regeneration (6+)
+vampire-counts-stats.json | Strigoi Ghoul King | specialRules_de | Dark Vitality
+vampire-counts-stats.json | Strigoi Ghoul King | specialRules_de | Regeneration (5+)
+vampire-counts-stats.json | Terrorgheist | specialRules_de | Regeneration (5+)
+vampire-counts-stats.json | Terrorgheist | specialRules_de | Wailing Dirge
+vampire-counts-stats.json | Terrorgheist | troopType_de | Behemoth
+vampire-counts-stats.json | Terrorgheist | unitCategory_de | Monster
+vampire-counts-stats.json | Terrorgheist (Mount) | specialRules_de | Regeneration (5+)
+vampire-counts-stats.json | Terrorgheist (Mount) | specialRules_de | Wailing Dirge
+vampire-counts-stats.json | Terrorgheist (Mount) | troopType_de | Behemoth
+vampire-counts-stats.json | Terrorgheist (Mount) | unitCategory_de | Mount
+vampire-counts-stats.json | Tomb Banshee | specialRules_de | Regeneration (6+)
+vampire-counts-stats.json | Tomb Banshee | specialRules_de | Wailing Dirge
+vampire-counts-stats.json | Vampire Count | specialRules_de | Dark Vitality
+vampire-counts-stats.json | Vampire Count | specialRules_de | Regeneration (5+)
+vampire-counts-stats.json | Vampire Thrall | specialRules_de | Dark Vitality
+vampire-counts-stats.json | Vampire Thrall | specialRules_de | Regeneration (5+)
+vampire-counts-stats.json | Vargheists | name_de | Vargheists
+vampire-counts-stats.json | Vargheists | specialRules_de | Dark Vitality
+vampire-counts-stats.json | Vargheists | specialRules_de | Regeneration (6+)
+vampire-counts-stats.json | Varghulf | name_de | Varghulf
+vampire-counts-stats.json | Varghulf | specialRules_de | Dark Vitality
+vampire-counts-stats.json | Varghulf | specialRules_de | Regeneration (5+)
+vampire-counts-stats.json | Varghulf | unitCategory_de | Monster
+vampire-counts-stats.json | Wight King | specialRules_de | Regeneration (5+)
+vampire-counts-stats.json | Wight Lord | specialRules_de | Regeneration (6+)
+vampire-counts-stats.json | Zombie Dragon | troopType_de | Behemoth
+vampire-counts-stats.json | Zombie Dragon | unitCategory_de | Monster
+vampire-counts-stats.json | Zombies | name_de | Zombies
+vampire-counts-stats.json | Zombies | specialRules_de | Regeneration (6+)
+warriors-of-chaos-stats.json | Chaos Dragon | name_de | Chaos Dragon
+warriors-of-chaos-stats.json | Chaos Dragon | specialRules_de | Two-headed Dragon
+warriors-of-chaos-stats.json | Chaos Dragon | troopType_de | Behemoth
+warriors-of-chaos-stats.json | Chaos Dragon | unitCategory_de | Monster
+warriors-of-chaos-stats.json | Chaos Lord | name_de | Chaos Lord
+warriors-of-chaos-stats.json | Chaos Marauders | name_de | Chaos Marauders
+warriors-of-chaos-stats.json | Chaos Spawn | name_de | Chaos Spawn
+warriors-of-chaos-stats.json | Chaos Steed | unitCategory_de | Mount
+warriors-of-chaos-stats.json | Chaos Trolls | name_de | Chaos Trolls
+warriors-of-chaos-stats.json | Chaos Trolls | specialRules_de | Regeneration (5+)
+warriors-of-chaos-stats.json | Chaos Warhound Handler | specialRules_de | Handler
+warriors-of-chaos-stats.json | Chaos Warhounds | name_de | Chaos Warhounds
+warriors-of-chaos-stats.json | Chimera | name_de | Chimera
+warriors-of-chaos-stats.json | Chimera | unitCategory_de | Monster
+warriors-of-chaos-stats.json | Daemon Prince | specialRules_de | Regeneration (5+)
+warriors-of-chaos-stats.json | Daemon Prince | specialRules_de | Warp-spawned
+warriors-of-chaos-stats.json | Daemonic Mount | name_de | Daemonic Mount
+warriors-of-chaos-stats.json | Daemonic Mount | unitCategory_de | Mount
+warriors-of-chaos-stats.json | Exalted Sorcerer | name_de | Exalted Sorcerer
+warriors-of-chaos-stats.json | Forsaken | name_de | Forsaken
+warriors-of-chaos-stats.json | Forsaken | specialRules_de | Rampant Mutation
+warriors-of-chaos-stats.json | Frydaal The Chainmaker | equipment_de | Storm's Wrath
+warriors-of-chaos-stats.json | Frydaal The Chainmaker | specialRules_de | Chainmaker
+warriors-of-chaos-stats.json | Frydaal The Chainmaker | specialRules_de | Peerless Raider
+warriors-of-chaos-stats.json | Galrauch | name_de | Galrauch
+warriors-of-chaos-stats.json | Galrauch | specialRules_de | Regeneration (5+)
+warriors-of-chaos-stats.json | Galrauch | specialRules_de | Two-headed Dragon
+warriors-of-chaos-stats.json | Gigantic Spawn of Chaos | equipment_de | Gnashing maws
+warriors-of-chaos-stats.json | Gigantic Spawn of Chaos | troopType_de | Behemoth
+warriors-of-chaos-stats.json | Gigantic Spawn of Chaos | unitCategory_de | Monster
+warriors-of-chaos-stats.json | Hellcannon | name_de | Hellcannon
+warriors-of-chaos-stats.json | Hellcannon | specialRules_de | Caged Fury
+warriors-of-chaos-stats.json | Hellcannon | specialRules_de | Monster Handlers
+warriors-of-chaos-stats.json | Hellcannon | specialRules_de | Regeneration (6+)
+warriors-of-chaos-stats.json | Hellcannon | specialRules_de | Warp-spawned
+warriors-of-chaos-stats.json | Hellcannon | troopType_de | Behemoth
+warriors-of-chaos-stats.json | Hellcannon | unitCategory_de | Monster
+warriors-of-chaos-stats.json | Manticore | unitCategory_de | Monster
+warriors-of-chaos-stats.json | Marauder Horsemen | name_de | Marauder Horsemen
+warriors-of-chaos-stats.json | Marauder Tribe Berserkers | name_de | Marauder Tribe Berserkers
+warriors-of-chaos-stats.json | Marauder Tribe Chieftain | name_de | Marauder Tribe Chieftain
+warriors-of-chaos-stats.json | Marauder Tribe Huscarls | name_de | Marauder Tribe Huscarls
+warriors-of-chaos-stats.json | Skin Wolves | name_de | Skin Wolves
+warriors-of-chaos-stats.json | Skin Wolves | specialRules_de | Primal Fury
+warriors-of-chaos-stats.json | Skin Wolves | specialRules_de | Regeneration (5+)
+warriors-of-chaos-stats.json | Sorcerer Lord | name_de | Sorcerer Lord
+warriors-of-chaos-stats.json | Warhorse (Warriors of Chaos) | unitCategory_de | Mount
+warriors-of-chaos-stats.json | Warpfire Dragon | equipment_de | Warpfire Blast
+warriors-of-chaos-stats.json | Warpfire Dragon | name_de | Warpfire Dragon
+warriors-of-chaos-stats.json | Warpfire Dragon | specialRules_de | Explosive Demise
+warriors-of-chaos-stats.json | Warpfire Dragon | specialRules_de | Regeneration (5+)
+warriors-of-chaos-stats.json | Warpfire Dragon | specialRules_de | Warpfire Aura
+warriors-of-chaos-stats.json | Warpfire Dragon | troopType_de | Behemoth
+warriors-of-chaos-stats.json | Warpfire Dragon | unitCategory_de | Monster
+wood-elves-stats.json | Branchwraith | specialRules_de | Regeneration (6+)
+wood-elves-stats.json | Deepwood Hound | name_de | Deepwood Hound
+wood-elves-stats.json | Dryads | specialRules_de | Regeneration (6+)
+wood-elves-stats.json | Elven Steed | unitCategory_de | Mount
+wood-elves-stats.json | Forest Cat | name_de | Forest Cat
+wood-elves-stats.json | Forest Dragon | troopType_de | Behemoth
+wood-elves-stats.json | Forest Dragon | unitCategory_de | Monster
+wood-elves-stats.json | Great Eagle | unitCategory_de | Monster
+wood-elves-stats.json | Great Eagle (Mount) | unitCategory_de | Mount
+wood-elves-stats.json | Great Stag | equipment_de | Mighty antlers
+wood-elves-stats.json | Great Stag | unitCategory_de | Mount
+wood-elves-stats.json | Guardians of Talsyn | specialRules_de | Parry
+wood-elves-stats.json | Orion, the King in the Woods | equipment_de | Hawks Talon
+wood-elves-stats.json | Sylvan Boar | name_de | Sylvan Boar
+wood-elves-stats.json | Tree Kin | specialRules_de | Regeneration (5+)
+wood-elves-stats.json | Treeman | equipment_de | Oaken fists
+wood-elves-stats.json | Treeman | equipment_de | Strangleroots
+wood-elves-stats.json | Treeman | specialRules_de | Regeneration (5+)
+wood-elves-stats.json | Treeman | troopType_de | Behemoth
+wood-elves-stats.json | Treeman | unitCategory_de | Monster
+wood-elves-stats.json | Treeman Ancient | equipment_de | Oaken fists
+wood-elves-stats.json | Treeman Ancient | equipment_de | Strangleroots
+wood-elves-stats.json | Treeman Ancient | specialRules_de | Regeneration (5+)
+wood-elves-stats.json | Unicorn | specialRules_de | Beguiling Aura
+wood-elves-stats.json | Unicorn | unitCategory_de | Mount
+wood-elves-stats.json | Warden of Talsyn | specialRules_de | Courage Beyond Compare
+wood-elves-stats.json | Warden of Talsyn | specialRules_de | Parry
+wood-elves-stats.json | Warhawk | unitCategory_de | Mount
+wood-elves-stats.json | Wildwood Rangers | equipment_de | Ranger's glaives
