@@ -43,6 +43,50 @@
       "Znak Chaosu Niepodzielonego",
       "Pierwotna Furia",
       "Gromada"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Schwere Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Die Rage",
+      "Brayhorn (General leichenmeister)",
+      "Foe Render",
+      "Blick des der Gods",
+      "Mark des Chaos Undivided",
+      "Primal Fury",
+      "Kriegerschar"
+    ],
+    "name_de": "Beastlord",
+    "name_fr": "Seigneur des Bêtes",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Lourde, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Rage Sanguinaire",
+      "Braillecorne (Général uniquement)",
+      "Déchiqueteur",
+      "Regard des Dieux",
+      "Marque du Chaos Universel",
+      "Fureur Primale",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Pesante, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Blood Rage",
+      "Brayhorn (Generale only)",
+      "Foe Render",
+      "Pietrificante di le Gods",
+      "Mark di Chaos Undivided",
+      "Primal Fury",
+      "Warband"
     ]
   },
   {
@@ -89,6 +133,48 @@
       "Znak Chaosu Niepodzielonego",
       "Pierwotna Furia",
       "Gromada"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Schwere Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "chepesh waffen",
+      "schwere rüstung"
+    ],
+    "specialRules_de": [
+      "Die Rage",
+      "Geschlossene Ränge",
+      "Mark des Chaos Undivided",
+      "Primal Fury",
+      "Kriegerschar"
+    ],
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Lourde",
+    "equipment_fr": [
+      "Armes de base",
+      "armes lourdes",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Rage Sanguinaire",
+      "Ordre Serré",
+      "Marque du Chaos Universel",
+      "Fureur Primale",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Pesante",
+    "equipment_it": [
+      "Armi Bianche",
+      "grandi bianche",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Blood Rage",
+      "Formazione Serrata",
+      "Mark di Chaos Undivided",
+      "Primal Fury",
+      "Warband"
     ]
   },
   {
@@ -114,7 +200,11 @@
     "id": "gourge-horn",
     "unitCategory_pl": "Czempion",
     "equipment_pl": [],
-    "specialRules_pl": []
+    "specialRules_pl": [],
+    "unitCategory_de": "Champion",
+    "equipment_de": [],
+    "specialRules_de": [],
+    "unitCategory_it": "Campione"
   },
   {
     "name": "Bray-Shaman",
@@ -160,6 +250,41 @@
       "Znak Chaosu Niepodzielonego",
       "Pierwotna Furia",
       "Gromada"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Braystaff"
+    ],
+    "specialRules_de": [
+      "Blick des der Gods",
+      "Lehre des Beasts",
+      "Mark des Chaos Undivided",
+      "Primal Fury",
+      "Kriegerschar"
+    ],
+    "name_de": "Bray-Shaman",
+    "name_fr": "Braillechamane",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Braillesceptre"
+    ],
+    "specialRules_fr": [
+      "Regard des Dieux",
+      "Domaine des Bêtes",
+      "Marque du Chaos Universel",
+      "Fureur Primale",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "specialRules_it": [
+      "Pietrificante di le Gods",
+      "Lore di Beasts",
+      "Mark di Chaos Undivided",
+      "Primal Fury",
+      "Warband"
     ]
   },
   {
@@ -216,6 +341,63 @@
       "Zdeptanie (1)",
       "Szybki Krok",
       "Gromada"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Leichte Kavallerie",
+    "equipment_de": [
+      "Handwaffen",
+      "schilde"
+    ],
+    "specialRules_de": [
+      "Drunken",
+      "Wendige Kavallerie",
+      "Geschlossene Ränge",
+      "Mark des Chaos Undivided",
+      "Durch Deckung bewegen",
+      "Offene Ränge",
+      "Primal Fury",
+      "Plänkler",
+      "Stampfattacken (1)",
+      "Schnelle Bewegung",
+      "Kriegerschar"
+    ],
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Légère",
+    "equipment_fr": [
+      "Armes de base",
+      "boucliers"
+    ],
+    "specialRules_fr": [
+      "Ivres",
+      "Cavalerie Rapide",
+      "Horde",
+      "Marque du Chaos Universel",
+      "Mouvement à Couvert",
+      "Ordre Dispersé",
+      "Fureur Primale",
+      "Tirailleurs",
+      "Attaques de Piétinement (1)",
+      "Rapide",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Leggera",
+    "equipment_it": [
+      "Armi Bianche",
+      "scudi"
+    ],
+    "specialRules_it": [
+      "Drunken",
+      "Cavalleria Veloce",
+      "Orda",
+      "Mark di Chaos Undivided",
+      "Viaggiatore",
+      "Formazione Aperta",
+      "Primal Fury",
+      "Schermagliatori",
+      "Calpestamento (1)",
+      "Passo Rapido",
+      "Warband"
     ]
   },
   {
@@ -241,7 +423,13 @@
     "id": "gorehoof",
     "unitCategory_pl": "Czempion",
     "equipment_pl": [],
-    "specialRules_pl": []
+    "specialRules_pl": [],
+    "unitCategory_de": "Champion",
+    "equipment_de": [],
+    "specialRules_de": [],
+    "name_de": "Gorehoof",
+    "name_fr": "Éventreur",
+    "unitCategory_it": "Campione"
   },
   {
     "name": "Giant",
@@ -293,6 +481,58 @@
       "Groza",
       "Dreeeewno!",
       "Niezłomni"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Riesenkeule",
+      "schwielige haut (counts as leichte rüstung)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Riesenattacken",
+      "Immung gegen Psychologie",
+      "Großes Ziel",
+      "Pick Bis Prinz…",
+      "Stampfattacken (W6)",
+      "Entsetzen",
+      "Baum fällt!",
+      "Unerschütterlich"
+    ],
+    "name_de": "Riese",
+    "name_fr": "Géants",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Massue de Géant",
+      "peau blindée (counts comme armure légère)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Attaques de Géant",
+      "Immunisé à la Psychologie",
+      "Grande Cible",
+      "Pick Jusqu'à Et…",
+      "Attaques de Piétinement (D6)",
+      "Terreur",
+      "Timmm-berrr!",
+      "Indémoralisable"
+    ],
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Giant's club",
+      "calloused hide (counts come armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Giant Venefici",
+      "Immune alla Psicologia",
+      "Bersaglio Grande",
+      "Pick Up And…",
+      "Calpestamento (D6)",
+      "Terrore",
+      "Assalto Inarrestabile",
+      "Irriducibile"
     ]
   },
   {
@@ -333,6 +573,39 @@
       "Przechodzenie przez Zasłony",
       "Luźny Szyk",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Kriegstier",
+    "equipment_de": [
+      "Klauen prinz fangs (counts as ein hand weapon)"
+    ],
+    "specialRules_de": [
+      "Einzelgänger",
+      "Durch Deckung bewegen",
+      "Offene Ränge",
+      "Schnelle Bewegung"
+    ],
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Bête de Guerre",
+    "equipment_fr": [
+      "Mortelles et crocs (counts comme un de lourde)"
+    ],
+    "specialRules_fr": [
+      "Solitaire",
+      "Mouvement à Couvert",
+      "Ordre Dispersé",
+      "Rapide"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Bestia da Guerra",
+    "equipment_it": [
+      "Decapitanti and fangs (counts come scelti armi bianca)"
+    ],
+    "specialRules_it": [
+      "Solitario",
+      "Viaggiatore",
+      "Formazione Aperta",
+      "Passo Rapido"
     ]
   },
   {
@@ -383,6 +656,55 @@
       "Kamienne Spojrzenie",
       "Szybki Krok",
       "Groza"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Monströse Kreatur",
+    "equipment_de": [
+      "Klauen (counts as ein hand weapon)",
+      "versteinender blick",
+      "scaly skin (counts as schwere rüstung)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Fliegen (10)",
+      "Großes Ziel",
+      "Stampfattacken (1)",
+      "Stony Stare",
+      "Schnelle Bewegung",
+      "Entsetzen"
+    ],
+    "name_de": "Cockatrice",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Créature Monstrueuse",
+    "equipment_fr": [
+      "Mortelles (counts comme un de lourde)",
+      "regard pétrificateur",
+      "peau écailleuse (counts comme armure légère)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Vol (10)",
+      "Grande Cible",
+      "Attaques de Piétinement (1)",
+      "Regard de Pierre",
+      "Rapide",
+      "Terreur"
+    ],
+    "unitCategory_it": "Mostro",
+    "troopType_it": "Creatura Mostruosa",
+    "equipment_it": [
+      "Decapitanti (counts come scelti armi bianca)",
+      "sguardo pietrificante",
+      "scaly skin (counts come armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Volo (10)",
+      "Bersaglio Grande",
+      "Calpestamento (1)",
+      "Stony Stare",
+      "Passo Rapido",
+      "Terrore"
     ]
   },
   {
@@ -437,6 +759,60 @@
       "Nieugięty",
       "Groza",
       "Dreeeewno!"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Klauen (counts as ein hand weapon)",
+      "hurl attack",
+      "schwielige haut (counts as leichte rüstung)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Ghostsight",
+      "Immung gegen Psychologie",
+      "Großes Ziel",
+      "Soul-eater",
+      "Stampfattacken (W3)",
+      "Unnachgiebig",
+      "Entsetzen",
+      "Baum fällt!"
+    ],
+    "name_de": "Cygor",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Mortelles (counts comme un de lourde)",
+      "hurl passage",
+      "peau blindée (counts comme armure légère)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Vue Spirituelle",
+      "Immunisé à la Psychologie",
+      "Grande Cible",
+      "Mangeur d'Âmes",
+      "Attaques de Piétinement (D3)",
+      "Obstiné",
+      "Terreur",
+      "Timmm-berrr!"
+    ],
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Decapitanti (counts come scelti armi bianca)",
+      "hurl attack",
+      "calloused hide (counts come armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Ghostsight",
+      "Immune alla Psicologia",
+      "Bersaglio Grande",
+      "Soul-eater",
+      "Calpestamento (D3)",
+      "Determinato",
+      "Terrore",
+      "Assalto Inarrestabile"
     ]
   },
   {
@@ -493,6 +869,64 @@
       "Pierwotna Furia",
       "Wezwanie Rzeźnika",
       "Gromada"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Monströse Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Rüstungsfluch (1)",
+      "Die Greed",
+      "Die Rage",
+      "Bull-gors",
+      "Angst",
+      "Foe Render",
+      "Blick des der Gods",
+      "Aufpralltreffer (1)",
+      "Mark des Chaos Undivided",
+      "Primal Fury",
+      "Slaughterer's Call",
+      "Kriegerschar"
+    ],
+    "name_de": "Doombull",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Monstrueuse, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Arme Perforante (1)",
+      "Soif de Sang",
+      "Rage Sanguinaire",
+      "Taurogors",
+      "Peur",
+      "Déchiqueteur",
+      "Regard des Dieux",
+      "Touches d'Impact (1)",
+      "Marque du Chaos Universel",
+      "Fureur Primale",
+      "Appel du Massacreur",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Mostruosa, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Rottura dell’Armatura (1)",
+      "Blood Greed",
+      "Blood Rage",
+      "Bull-gors",
+      "Paura",
+      "Foe Render",
+      "Pietrificante di le Gods",
+      "Colpi da Impatto (1)",
+      "Mark di Chaos Undivided",
+      "Primal Fury",
+      "Slaughterer's Call",
+      "Warband"
     ]
   },
   {
@@ -547,11 +981,66 @@
       "Zew Burzy",
       "Groza",
       "Przyspieszająca Burza"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Monströse Kreatur",
+    "equipment_de": [
+      "Handwaffen",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Rüstungsfluch (2)",
+      "Zähe Haut (2)",
+      "Geschlossene Ränge",
+      "Ensorcelled Waffen",
+      "Immung gegen Psychologie",
+      "Großes Ziel",
+      "Stampfattacken (W3+1)",
+      "Storm Call",
+      "Entsetzen",
+      "Der Quickening Storm"
+    ],
+    "name_fr": "Ogre",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Créature Monstrueuse",
+    "equipment_fr": [
+      "Armes de base",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Arme Perforante (2)",
+      "Peau Blindée (2)",
+      "Ordre Serré",
+      "Armes Ensorcelées",
+      "Immunisé à la Psychologie",
+      "Grande Cible",
+      "Attaques de Piétinement (D3+1)",
+      "Appeler La",
+      "Terreur",
+      "Orage Revitalisant"
+    ],
+    "unitCategory_it": "Mostro",
+    "troopType_it": "Creatura Mostruosa",
+    "equipment_it": [
+      "Armi Bianche",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Pesante Dell’Armatura (2)",
+      "Fusoliera Hide (2)",
+      "Formazione Serrata",
+      "Ensorcelled Bianche",
+      "Immune alla Psicologia",
+      "Bersaglio Grande",
+      "Calpestamento Venefici (D3+1)",
+      "Storm Call",
+      "Terrore",
+      "Le Quickening Storm"
     ]
   },
   {
     "name": "Dragon Ogre",
-    "name_pl": "Smok Ogr",
+    "name_pl": "Smoczy Ogr",
     "M": 7,
     "WS": 4,
     "BS": 2,
@@ -597,6 +1086,56 @@
       "Odporność na Psychologię",
       "Zdeptanie (2)",
       "Przyspieszająca Burza"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Monströse Kavallerie",
+    "equipment_de": [
+      "Handwaffen",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Rüstungsfluch (1)",
+      "Zähe Haut (2)",
+      "Geschlossene Ränge",
+      "Angst",
+      "Ensorcelled Waffen",
+      "Immung gegen Psychologie",
+      "Stampfattacken (2)",
+      "Der Quickening Storm"
+    ],
+    "name_fr": "Solaire Charge",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Monstrueuse",
+    "equipment_fr": [
+      "Armes de base",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Arme Perforante (1)",
+      "Peau Blindée (2)",
+      "Ordre Serré",
+      "Peur",
+      "Armes Ensorcelées",
+      "Immunisé à la Psychologie",
+      "Attaques de Piétinement (2)",
+      "Orage Revitalisant"
+    ],
+    "name_it": "Necrolitico Ogre",
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Mostruosa",
+    "equipment_it": [
+      "Armi Bianche",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Rottura dell’Armatura (1)",
+      "Fusoliera Hide (2)",
+      "Formazione Serrata",
+      "Paura",
+      "Ensorcelled Bianche",
+      "Immune alla Psicologia",
+      "Calpestamento (2)",
+      "Le Quickening Storm"
     ]
   },
   {
@@ -622,7 +1161,12 @@
     "id": "shartak",
     "unitCategory_pl": "Czempion",
     "equipment_pl": [],
-    "specialRules_pl": []
+    "specialRules_pl": [],
+    "unitCategory_de": "Champion",
+    "equipment_de": [],
+    "specialRules_de": [],
+    "name_de": "Shartak",
+    "unitCategory_it": "Campione"
   },
   {
     "name": "Ghorgon",
@@ -678,6 +1222,63 @@
       "Połknięcie Całości",
       "Groza",
       "Dreeeewno!"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Cleaver-limbs",
+      "schwielige haut (counts as leichte rüstung)"
+    ],
+    "specialRules_de": [
+      "Die Greed",
+      "Geschlossene Ränge",
+      "Raserei",
+      "Großes Ziel",
+      "Primal Fury",
+      "Regeneration (6+)",
+      "Stampfattacken (W3)",
+      "Unnachgiebig",
+      "Swallow Whole",
+      "Entsetzen",
+      "Baum fällt!"
+    ],
+    "name_de": "Ghorgon",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Membres-hachoirs",
+      "peau blindée (counts comme armure légère)"
+    ],
+    "specialRules_fr": [
+      "Soif de Sang",
+      "Ordre Serré",
+      "Frénésie",
+      "Grande Cible",
+      "Fureur Primale",
+      "Régénération (6+)",
+      "Attaques de Piétinement (D3)",
+      "Obstiné",
+      "Avaler Tout Rond",
+      "Terreur",
+      "Timmm-berrr!"
+    ],
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Cleaver-limbs",
+      "calloused hide (counts come armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Blood Greed",
+      "Formazione Serrata",
+      "Frenzy",
+      "Bersaglio Grande",
+      "Primal Fury",
+      "Rigenerazione (6+)",
+      "Calpestamento (D3)",
+      "Determinato",
+      "Swallow Whole",
+      "Terrore",
+      "Assalto Inarrestabile"
     ]
   },
   {
@@ -734,6 +1335,64 @@
       "Szybki Krok",
       "Synowie Ghorrosa",
       "Gromada"
+    ],
+    "unitCategory_de": "Benannter Charakter",
+    "troopType_de": "Schwere Kavallerie, Benannter Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Mansmasher",
+      "der Skull des der Einhorn Lord"
+    ],
+    "specialRules_de": [
+      "Drunken",
+      "Father des Beasts",
+      "Blick des der Gods",
+      "Mark des Chaos Undivided",
+      "Durch Deckung bewegen",
+      "Primal Fury",
+      "Stampfattacken (W3)",
+      "Schnelle Bewegung",
+      "Der Sons des Ghorros",
+      "Kriegerschar"
+    ],
+    "name_fr": "Ghorros Sabot-guerrier",
+    "unitCategory_fr": "Personnage nommé",
+    "troopType_fr": "Cavalerie Lourde, Personnage nommé",
+    "equipment_fr": [
+      "Arme de base",
+      "Écrase-Hommes",
+      "la Le de la Licorne Sorcier"
+    ],
+    "specialRules_fr": [
+      "Ivres",
+      "Père des Bêtes",
+      "Regard des Dieux",
+      "Marque du Chaos Universel",
+      "Mouvement à Couvert",
+      "Fureur Primale",
+      "Attaques de Piétinement (D3)",
+      "Rapide",
+      "Les Fils de Ghorros",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Personaggio nominato",
+    "troopType_it": "Cavalleria Pesante, Personaggio nominato",
+    "equipment_it": [
+      "Arma Bianca",
+      "Mansmasher",
+      "le Skull di le Unicorn Lord"
+    ],
+    "specialRules_it": [
+      "Drunken",
+      "Father di Beasts",
+      "Pietrificante di le Gods",
+      "Mark di Chaos Undivided",
+      "Viaggiatore",
+      "Primal Fury",
+      "Calpestamento (D3)",
+      "Passo Rapido",
+      "Le Sons di Ghorros",
+      "Warband"
     ]
   },
   {
@@ -784,6 +1443,54 @@
       "Pierwotna Furia",
       "Harcownicy",
       "Gromada"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen"
+    ],
+    "specialRules_de": [
+      "Bestial Angriff",
+      "Die Rage",
+      "Geschlossene Ränge",
+      "Mark des Chaos Undivided",
+      "Durch Deckung bewegen",
+      "Offene Ränge",
+      "Primal Fury",
+      "Plänkler",
+      "Kriegerschar"
+    ],
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base"
+    ],
+    "specialRules_fr": [
+      "Charge Bestiale",
+      "Rage Sanguinaire",
+      "Horde",
+      "Marque du Chaos Universel",
+      "Mouvement à Couvert",
+      "Ordre Dispersé",
+      "Fureur Primale",
+      "Tirailleurs",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche"
+    ],
+    "specialRules_it": [
+      "Bestial Carica",
+      "Blood Rage",
+      "Orda",
+      "Mark di Chaos Undivided",
+      "Viaggiatore",
+      "Formazione Aperta",
+      "Primal Fury",
+      "Schermagliatori",
+      "Warband"
     ]
   },
   {
@@ -809,7 +1516,13 @@
     "id": "true-horn",
     "unitCategory_pl": "Czempion",
     "equipment_pl": [],
-    "specialRules_pl": []
+    "specialRules_pl": [],
+    "unitCategory_de": "Champion",
+    "equipment_de": [],
+    "specialRules_de": [],
+    "name_de": "True-horn",
+    "name_fr": "Pure-corne",
+    "unitCategory_it": "Campione"
   },
   {
     "name": "Gorebull",
@@ -865,6 +1578,64 @@
       "Pierwotna Furia",
       "Wezwanie Rzeźnika",
       "Gromada"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Monströse Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Rüstungsfluch (1)",
+      "Die Greed",
+      "Die Rage",
+      "Bull-gors",
+      "Angst",
+      "Foe Render",
+      "Blick des der Gods",
+      "Aufpralltreffer (1)",
+      "Mark des Chaos Undivided",
+      "Primal Fury",
+      "Slaughterer's Call",
+      "Kriegerschar"
+    ],
+    "name_de": "Gorebull",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Monstrueuse, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Arme Perforante (1)",
+      "Soif de Sang",
+      "Rage Sanguinaire",
+      "Taurogors",
+      "Peur",
+      "Déchiqueteur",
+      "Regard des Dieux",
+      "Touches d'Impact (1)",
+      "Marque du Chaos Universel",
+      "Fureur Primale",
+      "Appel du Massacreur",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Mostruosa, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Rottura dell’Armatura (1)",
+      "Blood Greed",
+      "Blood Rage",
+      "Bull-gors",
+      "Paura",
+      "Foe Render",
+      "Pietrificante di le Gods",
+      "Colpi da Impatto (1)",
+      "Mark di Chaos Undivided",
+      "Primal Fury",
+      "Slaughterer's Call",
+      "Warband"
     ]
   },
   {
@@ -911,6 +1682,42 @@
       "Znak Chaosu Niepodzielonego",
       "Pierwotna Furia",
       "Gromada"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Braystaff"
+    ],
+    "specialRules_de": [
+      "Blick des der Gods",
+      "Lehre des Beasts",
+      "Mark des Chaos Undivided",
+      "Primal Fury",
+      "Kriegerschar"
+    ],
+    "name_de": "Chepesh Bray-Shaman",
+    "name_fr": "Grand Braillechamane",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Braillesceptre"
+    ],
+    "specialRules_fr": [
+      "Regard des Dieux",
+      "Domaine des Bêtes",
+      "Marque du Chaos Universel",
+      "Fureur Primale",
+      "Bande de Guerre"
+    ],
+    "name_it": "Grandi Bray-Shaman",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "specialRules_it": [
+      "Pietrificante di le Gods",
+      "Lore di Beasts",
+      "Mark di Chaos Undivided",
+      "Primal Fury",
+      "Warband"
     ]
   },
   {
@@ -953,6 +1760,42 @@
       "Zwiadowcy",
       "Harcownicy",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Klauen (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Fliegen (10)",
+      "Durch Deckung bewegen",
+      "Kundschafter",
+      "Plänkler",
+      "Schnelle Bewegung"
+    ],
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Mortelles (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Vol (10)",
+      "Mouvement à Couvert",
+      "Éclaireurs",
+      "Tirailleurs",
+      "Rapide"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Decapitanti (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Volo (10)",
+      "Viaggiatore",
+      "Esploratori",
+      "Schermagliatori",
+      "Passo Rapido"
     ]
   },
   {
@@ -981,7 +1824,13 @@
     "equipment_pl": [
       "Kamienie Stada"
     ],
-    "specialRules_pl": []
+    "specialRules_pl": [],
+    "equipment_de": [
+      "Herdstones"
+    ],
+    "specialRules_de": [],
+    "name_de": "Herdstone",
+    "name_fr": "Pierre de Harde"
   },
   {
     "name": "Jabberslythe",
@@ -1035,6 +1884,61 @@
       "Zdeptanie (D3)",
       "Szybki Krok",
       "Groza"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Monströse Kreatur",
+    "equipment_de": [
+      "Boshafte Klauen",
+      "slythey tongue",
+      "scaly skin (counts as schwere rüstung)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Fliegen (9)",
+      "Großes Ziel",
+      "Maddening Aura",
+      "Giftattacken",
+      "Spurting Bile Die",
+      "Stampfattacken (W3)",
+      "Schnelle Bewegung",
+      "Entsetzen"
+    ],
+    "name_de": "Jabberslythe",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Créature Monstrueuse",
+    "equipment_fr": [
+      "Griffes mortelles",
+      "langue protractile",
+      "peau écailleuse (counts comme armure légère)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Vol (9)",
+      "Grande Cible",
+      "Aura de Démence",
+      "Attaques Empoisonnées",
+      "Giclée de Sang Bilieux",
+      "Attaques de Piétinement (D3)",
+      "Rapide",
+      "Terreur"
+    ],
+    "unitCategory_it": "Mostro",
+    "troopType_it": "Creatura Mostruosa",
+    "equipment_it": [
+      "Wicked decapitanti",
+      "slythey tongue",
+      "scaly skin (counts come armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Volo (9)",
+      "Bersaglio Grande",
+      "Maddening Aura",
+      "Arido come Polvere",
+      "Spurting Bile Blood",
+      "Calpestamento (D3)",
+      "Passo Rapido",
+      "Terrore"
     ]
   },
   {
@@ -1086,6 +1990,54 @@
       "Znak Chaosu Niepodzielonego",
       "Pierwotna Furia",
       "Gromada"
+    ],
+    "unitCategory_de": "Benannter Charakter",
+    "troopType_de": "Reguläre Infanterie, Benannter Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Grisly Totem (Braystaff)"
+    ],
+    "specialRules_de": [
+      "Future Sight",
+      "Blick des der Gods",
+      "Leering Spirit",
+      "Lehre des Beasts",
+      "Mark des Chaos Undivided",
+      "Primal Fury",
+      "Kriegerschar"
+    ],
+    "name_de": "Kralmaw, der Prophet des Ruin",
+    "name_fr": "Kralmaw, la Prophet de Ruin",
+    "unitCategory_fr": "Personnage nommé",
+    "troopType_fr": "Infanterie Régulière, Personnage nommé",
+    "equipment_fr": [
+      "Arme de base",
+      "Totem D’Épouvante (Braillesceptre)"
+    ],
+    "specialRules_fr": [
+      "Vision du Futur",
+      "Regard des Dieux",
+      "Esprit Malin",
+      "Domaine des Bêtes",
+      "Marque du Chaos Universel",
+      "Fureur Primale",
+      "Bande de Guerre"
+    ],
+    "name_it": "Kralmaw, le Prophet di Ruin",
+    "unitCategory_it": "Personaggio nominato",
+    "troopType_it": "Fanteria Regolare, Personaggio nominato",
+    "equipment_it": [
+      "Arma Bianca",
+      "Grisly Totem (Braystaff)"
+    ],
+    "specialRules_it": [
+      "Future Sight",
+      "Pietrificante di le Gods",
+      "Leering Spirit",
+      "Lore di Beasts",
+      "Mark di Chaos Undivided",
+      "Primal Fury",
+      "Warband"
     ]
   },
   {
@@ -1142,6 +2094,63 @@
       "Zbieranina",
       "Pierwotna Furia",
       "Gromada"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Monströse Infanterie",
+    "equipment_de": [
+      "Handwaffe",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Die Greed",
+      "Die Rage",
+      "Bull-gors",
+      "Geschlossene Ränge",
+      "Angst",
+      "Foe Render",
+      "Aufpralltreffer (1)",
+      "Mark des Chaos Undivided",
+      "Zusammengewürfelter Haufen",
+      "Primal Fury",
+      "Kriegerschar"
+    ],
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Monstrueuse",
+    "equipment_fr": [
+      "Arme de base",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Soif de Sang",
+      "Rage Sanguinaire",
+      "Taurogors",
+      "Ordre Serré",
+      "Peur",
+      "Déchiqueteur",
+      "Touches d'Impact (1)",
+      "Marque du Chaos Universel",
+      "Bande Hétéroclite",
+      "Fureur Primale",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Mostruosa",
+    "equipment_it": [
+      "Arma Bianca",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Blood Greed",
+      "Blood Rage",
+      "Bull-gors",
+      "Formazione Serrata",
+      "Paura",
+      "Foe Render",
+      "Colpi da Impatto (1)",
+      "Mark di Chaos Undivided",
+      "Equipaggiamento Eterogeneo",
+      "Primal Fury",
+      "Warband"
     ]
   },
   {
@@ -1167,7 +2176,13 @@
     "id": "bloodkine",
     "unitCategory_pl": "Czempion",
     "equipment_pl": [],
-    "specialRules_pl": []
+    "specialRules_pl": [],
+    "unitCategory_de": "Champion",
+    "equipment_de": [],
+    "specialRules_de": [],
+    "name_de": "Bloodkine",
+    "name_fr": "Sangor",
+    "unitCategory_it": "Campione"
   },
   {
     "name": "Preyton",
@@ -1217,6 +2232,55 @@
       "Uderzenia Impetu (D3)",
       "Duży Cel",
       "Groza"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Monströse Kreatur",
+    "equipment_de": [
+      "Klauen prinz fangs (counts as ein hand weapon)",
+      "twisted antlers",
+      "scaly skin (counts as schwere rüstung)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Crown des Antlers",
+      "Endless Malice",
+      "Fliegen (10)",
+      "Aufpralltreffer (W3)",
+      "Großes Ziel",
+      "Entsetzen"
+    ],
+    "name_de": "Preyton",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Créature Monstrueuse",
+    "equipment_fr": [
+      "Mortelles et crocs (counts comme un de lourde)",
+      "ramure difforme",
+      "peau écailleuse (counts comme armure légère)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Couronne de Difforme",
+      "Malice Infinie",
+      "Vol (10)",
+      "Touches d'Impact (D3)",
+      "Grande Cible",
+      "Terreur"
+    ],
+    "unitCategory_it": "Mostro",
+    "troopType_it": "Creatura Mostruosa",
+    "equipment_it": [
+      "Decapitanti and fangs (counts come scelti armi bianca)",
+      "twisted antlers",
+      "scaly skin (counts come armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Corona di Antlers",
+      "Endless Malice",
+      "Volo (10)",
+      "Frecce di Asaph",
+      "Bersaglio Grande",
+      "Terrore"
     ]
   },
   {
@@ -1273,6 +2337,64 @@
       "Przechodzenie przez Zasłony",
       "Pierwotna Furia",
       "Gromada"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Gors: Hand waffen",
+      "Ungors: Hand waffen prinz schilde"
+    ],
+    "specialRules_de": [
+      "Bestial Angriff (Gors leichenmeister)",
+      "Die Rage",
+      "Geschlossene Ränge",
+      "Geschlossene Ränge",
+      "Ungestüm",
+      "Mark des Chaos Undivided",
+      "Mixed Einheit",
+      "Zusammengewüfelter Haufen*",
+      "Durch Deckung bewegen",
+      "Primal Fury",
+      "Kriegerschar"
+    ],
+    "name_fr": "Fureur Warherd – Gor",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Gors: De lourdes",
+      "Ungors: De lourdes et boucliers"
+    ],
+    "specialRules_fr": [
+      "Charge Bestiale (Gors uniquement)",
+      "Rage Sanguinaire",
+      "Ordre Serré",
+      "Horde",
+      "Impétueux",
+      "Marque du Chaos Universel",
+      "Unité Mixte",
+      "Bande Hétéroclite*",
+      "Mouvement à Couvert",
+      "Fureur Primale",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Gors: Armi bianche",
+      "Ungors: Armi bianche and scudi"
+    ],
+    "specialRules_it": [
+      "Bestial Carica (Gors only)",
+      "Blood Rage",
+      "Formazione Serrata",
+      "Orda",
+      "Impetuosi",
+      "Mark di Chaos Undivided",
+      "Mixed Madre",
+      "Rigenerazione (6+)",
+      "Viaggiatore",
+      "Primal Fury",
+      "Warband"
     ]
   },
   {
@@ -1299,7 +2421,16 @@
     "unitCategory_pl": "Piechota",
     "troopType_pl": "Regularna piechota",
     "equipment_pl": [],
-    "specialRules_pl": []
+    "specialRules_pl": [],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [],
+    "specialRules_de": [],
+    "name_fr": "Fureur Warherd – Harde",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare"
   },
   {
     "name": "Primal Warherd – Foe-render",
@@ -1324,7 +2455,12 @@
     "id": "primal-warherd-foe-render",
     "unitCategory_pl": "Czempion",
     "equipment_pl": [],
-    "specialRules_pl": []
+    "specialRules_pl": [],
+    "unitCategory_de": "Champion",
+    "equipment_de": [],
+    "specialRules_de": [],
+    "name_fr": "Fureur Warherd – Déchiqueteur",
+    "unitCategory_it": "Campione"
   },
   {
     "name": "Primal Warhound",
@@ -1368,6 +2504,46 @@
       "Przechodzenie przez Zasłony",
       "Szybki Krok",
       "Gromada"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Kriegstier",
+    "equipment_de": [
+      "Klauen prinz fangs (counts as ein hand weapon)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Geschlossene Ränge",
+      "Zusammengewürfelter Haufen",
+      "Durch Deckung bewegen",
+      "Schnelle Bewegung",
+      "Kriegerschar"
+    ],
+    "name_fr": "Fureur Warhound",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Bête de Guerre",
+    "equipment_fr": [
+      "Mortelles et crocs (counts comme un de lourde)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Horde",
+      "Bande Hétéroclite",
+      "Mouvement à Couvert",
+      "Rapide",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Bestia da Guerra",
+    "equipment_it": [
+      "Decapitanti and fangs (counts come scelti armi bianca)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Orda",
+      "Equipaggiamento Eterogeneo",
+      "Viaggiatore",
+      "Passo Rapido",
+      "Warband"
     ]
   },
   {
@@ -1422,6 +2598,63 @@
       "Znak Chaosu Niepodzielonego",
       "Pierwotna Furia",
       "Ostre Kły"
+    ],
+    "unitCategory_de": "Streitwagen",
+    "troopType_de": "Schwerer Streitwagen",
+    "equipment_de": [
+      "Bestigor Haufen: Hand weapon prinz chepesh weapon",
+      "Gor Haufen: Hand weapon prinz kavallerie speer",
+      "Razorgor: Hauer (counts as hand weapon)"
+    ],
+    "specialRules_de": [
+      "Rüstung Bane (1 Razorgor leichenmeister)",
+      "Geschlossene Ränge",
+      "Angst",
+      "Erster Angriff",
+      "Foe Render (Razorgor leichenmeister)",
+      "Aufpralltreffer (W6+2)",
+      "Mark des Chaos Undivided",
+      "Primal Fury",
+      "Razor Hauer"
+    ],
+    "name_de": "Razorgor Streitwagen",
+    "name_fr": "Char à Razorgors",
+    "unitCategory_fr": "Char",
+    "troopType_fr": "Char Lourd",
+    "equipment_fr": [
+      "Bestigor Hétéroclite: De lourde et armes lourde",
+      "Gor Hétéroclite: De lourde et rapide lance",
+      "Razorgor: Défenses (counts comme de lourde)"
+    ],
+    "specialRules_fr": [
+      "Légère Perforante (1 Razorgor uniquement)",
+      "Ordre Serré",
+      "Peur",
+      "Première Charge",
+      "Déchiqueteur (Razorgor seulement)",
+      "Touches d'Impact (D6+2)",
+      "Marque du Chaos Universel",
+      "Fureur Primale",
+      "Défenses Acérées"
+    ],
+    "name_it": "Razorgor Scheletrico",
+    "unitCategory_it": "Carro",
+    "troopType_it": "Carro Pesante",
+    "equipment_it": [
+      "Bestigor Crew: Armi bianca and grandi bianca",
+      "Gor Crew: Armi bianca and lancia leggera",
+      "Razorgor: Tusks (counts come armi bianca)"
+    ],
+    "specialRules_it": [
+      "Pesante Dell’Armatura (1 Razorgor only)",
+      "Formazione Serrata",
+      "Paura",
+      "Prima Carica",
+      "Foe Render (Razorgor only)",
+      "Frecce Di (D6+2)",
+      "Mark di Chaos Undivided",
+      "Primal Fury",
+      "Razor Tusks"
     ]
   },
   {
@@ -1447,7 +2680,14 @@
     "id": "bestigor-crew-x1-",
     "unitCategory_pl": "Załoga",
     "equipment_pl": [],
-    "specialRules_pl": []
+    "specialRules_pl": [],
+    "unitCategory_de": "Besatzung",
+    "equipment_de": [],
+    "specialRules_de": [],
+    "name_de": "Bestigor Haufen (x1)",
+    "name_fr": "Bestigor Hétéroclite (x1)",
+    "unitCategory_fr": "Équipage",
+    "unitCategory_it": "Equipaggio"
   },
   {
     "name": "Gor Crew (x1)",
@@ -1472,7 +2712,14 @@
     "id": "gor-crew-x1-",
     "unitCategory_pl": "Załoga",
     "equipment_pl": [],
-    "specialRules_pl": []
+    "specialRules_pl": [],
+    "unitCategory_de": "Besatzung",
+    "equipment_de": [],
+    "specialRules_de": [],
+    "name_de": "Gor Haufen (x1)",
+    "name_fr": "Gor Hétéroclite (x1)",
+    "unitCategory_fr": "Équipage",
+    "unitCategory_it": "Equipaggio"
   },
   {
     "name": "Razorgor (x1)",
@@ -1497,7 +2744,12 @@
     "id": "razorgor-x1-",
     "unitCategory_pl": "Bestia",
     "equipment_pl": [],
-    "specialRules_pl": []
+    "specialRules_pl": [],
+    "unitCategory_de": "Bestie",
+    "equipment_de": [],
+    "specialRules_de": [],
+    "unitCategory_fr": "Bête",
+    "unitCategory_it": "Bestia"
   },
   {
     "name": "Razorgor",
@@ -1549,6 +2801,57 @@
       "Pierwotna Furia",
       "Ostre Kły",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Kriegstier",
+    "equipment_de": [
+      "Hauer (counts as ein hand weapon)",
+      "schwielige haut (counts as leichte rüstung)"
+    ],
+    "specialRules_de": [
+      "Rüstungsfluch (1)",
+      "Angst",
+      "Foe Render",
+      "Aufpralltreffer (W3)",
+      "Einzelgänger",
+      "Offene Ränge",
+      "Primal Fury",
+      "Razor Hauer",
+      "Schnelle Bewegung"
+    ],
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Bête de Guerre",
+    "equipment_fr": [
+      "Défenses (counts comme un de lourde)",
+      "peau blindée (counts comme armure légère)"
+    ],
+    "specialRules_fr": [
+      "Arme Perforante (1)",
+      "Peur",
+      "Déchiqueteur",
+      "Touches d'Impact (D3)",
+      "Solitaire",
+      "Ordre Dispersé",
+      "Fureur Primale",
+      "Défenses Acérées",
+      "Rapide"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Bestia da Guerra",
+    "equipment_it": [
+      "Tusks (counts come scelti armi bianca)",
+      "calloused hide (counts come armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Rottura dell’Armatura (1)",
+      "Paura",
+      "Foe Render",
+      "Frecce di Asaph",
+      "Solitario",
+      "Formazione Aperta",
+      "Primal Fury",
+      "Razor Tusks",
+      "Passo Rapido"
     ]
   },
   {
@@ -1599,6 +2902,57 @@
       "Pierwotna Furia",
       "Ostre Kły",
       "Gromada"
+    ],
+    "unitCategory_de": "Streitwagen",
+    "troopType_de": "Schwerer Streitwagen",
+    "equipment_de": [
+      "Bestigor Haufen: Hand weapon prinz chepesh weapon",
+      "Gor Haufen: Hand weapon prinz kavallerie speer",
+      "Tuskgors: Hauer (counts as hand weapon)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Erster Angriff",
+      "Aufpralltreffer (W6+1)",
+      "Mark des Chaos Undivided",
+      "Primal Fury",
+      "Razor Hauer",
+      "Kriegerschar"
+    ],
+    "name_de": "Tuskgor Streitwagen",
+    "name_fr": "Char à Sangleboucs",
+    "unitCategory_fr": "Char",
+    "troopType_fr": "Char Lourd",
+    "equipment_fr": [
+      "Bestigor Hétéroclite: De lourde et armes lourde",
+      "Gor Hétéroclite: De lourde et rapide lance",
+      "Tuskgors: Défenses (counts comme de lourde)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Première Charge",
+      "Touches d'Impact (D6+1)",
+      "Marque du Chaos Universel",
+      "Fureur Primale",
+      "Défenses Acérées",
+      "Bande de Guerre"
+    ],
+    "name_it": "Tuskgor Scheletrico",
+    "unitCategory_it": "Carro",
+    "troopType_it": "Carro Pesante",
+    "equipment_it": [
+      "Bestigor Crew: Armi bianca and grandi bianca",
+      "Gor Crew: Armi bianca and lancia leggera",
+      "Tuskgors: Tusks (counts come armi bianca)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Prima Carica",
+      "Frecce Di (D6+1)",
+      "Mark di Chaos Undivided",
+      "Primal Fury",
+      "Razor Tusks",
+      "Warband"
     ]
   },
   {
@@ -1624,7 +2978,12 @@
     "id": "tuskgor-x2-",
     "unitCategory_pl": "Bestia",
     "equipment_pl": [],
-    "specialRules_pl": []
+    "specialRules_pl": [],
+    "unitCategory_de": "Bestie",
+    "equipment_de": [],
+    "specialRules_de": [],
+    "unitCategory_fr": "Bête",
+    "unitCategory_it": "Bestia"
   },
   {
     "name": "Ungor",
@@ -1674,6 +3033,55 @@
       "Pierwotna Furia",
       "Harcownicy",
       "Gromada"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "schilde"
+    ],
+    "specialRules_de": [
+      "Streitwagengarde",
+      "Geschlossene Ränge",
+      "Mark des Chaos Undivided",
+      "Durch Deckung bewegen",
+      "Offene Ränge",
+      "Primal Fury",
+      "Plänkler",
+      "Kriegerschar"
+    ],
+    "name_fr": "Harde",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "boucliers"
+    ],
+    "specialRules_fr": [
+      "Escorteurs de Chars",
+      "Horde",
+      "Marque du Chaos Universel",
+      "Mouvement à Couvert",
+      "Ordre Dispersé",
+      "Fureur Primale",
+      "Tirailleurs",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "scudi"
+    ],
+    "specialRules_it": [
+      "Scorta ai Carri",
+      "Orda",
+      "Mark di Chaos Undivided",
+      "Viaggiatore",
+      "Formazione Aperta",
+      "Primal Fury",
+      "Schermagliatori",
+      "Warband"
     ]
   },
   {
@@ -1699,7 +3107,13 @@
     "id": "half-horn",
     "unitCategory_pl": "Czempion",
     "equipment_pl": [],
-    "specialRules_pl": []
+    "specialRules_pl": [],
+    "unitCategory_de": "Champion",
+    "equipment_de": [],
+    "specialRules_de": [],
+    "name_de": "Half-horn",
+    "name_fr": "Mi-corne",
+    "unitCategory_it": "Campione"
   },
   {
     "name": "Ungor Ravager",
@@ -1749,6 +3163,55 @@
       "Pierwotna Furia",
       "Szybki Krok",
       "Gromada"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "throwing spear",
+      "schilde"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Geschlossene Ränge",
+      "Leader des der Pack",
+      "Durch Deckung bewegen",
+      "Primal Fury",
+      "Schnelle Bewegung",
+      "Kriegerschar"
+    ],
+    "name_fr": "Harde Harpon",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "throwing d'infanterie",
+      "boucliers"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Horde",
+      "Céleste de la Meute",
+      "Mouvement à Couvert",
+      "Fureur Primale",
+      "Rapide",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "throwing leggera",
+      "scudi"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Orda",
+      "Leader di le Pack",
+      "Viaggiatore",
+      "Primal Fury",
+      "Passo Rapido",
+      "Warband"
     ]
   },
   {
@@ -1795,6 +3258,49 @@
       "Znak Chaosu Niepodzielonego",
       "Pierwotna Furia",
       "Gromada"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Schwere Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Die Rage",
+      "Brayhorn (General leichenmeister)",
+      "Foe Render",
+      "Blick des der Gods",
+      "Mark des Chaos Undivided",
+      "Primal Fury",
+      "Kriegerschar"
+    ],
+    "name_de": "Wargor",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Lourde, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Rage Sanguinaire",
+      "Braillecorne (Général uniquement)",
+      "Déchiqueteur",
+      "Regard des Dieux",
+      "Marque du Chaos Universel",
+      "Fureur Primale",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Pesante, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Blood Rage",
+      "Brayhorn (Generale only)",
+      "Foe Render",
+      "Pietrificante di le Gods",
+      "Mark di Chaos Undivided",
+      "Primal Fury",
+      "Warband"
     ]
   },
   {
@@ -1845,6 +3351,56 @@
       "Zdeptanie (1)",
       "Szybki Krok",
       "Gromada"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Leichte Kavallerie, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Drunken",
+      "Wendige Kavallerie",
+      "Blick des der Gods",
+      "Mark des Chaos Undivided",
+      "Durch Deckung bewegen",
+      "Primal Fury",
+      "Stampfattacken (1)",
+      "Schnelle Bewegung",
+      "Kriegerschar"
+    ],
+    "name_de": "Warhoof",
+    "name_fr": "Sabot-guerrier",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Cavalerie Légère, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Ivres",
+      "Cavalerie Rapide",
+      "Regard des Dieux",
+      "Marque du Chaos Universel",
+      "Mouvement à Couvert",
+      "Fureur Primale",
+      "Attaques de Piétinement (1)",
+      "Rapide",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Cavalleria Leggera, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Drunken",
+      "Cavalleria Veloce",
+      "Pietrificante di le Gods",
+      "Mark di Chaos Undivided",
+      "Viaggiatore",
+      "Primal Fury",
+      "Calpestamento (1)",
+      "Passo Rapido",
+      "Warband"
     ]
   },
   {
@@ -1897,6 +3453,59 @@
       "Losowe Ataki",
       "Nieugięty",
       "Gromada"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen"
+    ],
+    "specialRules_de": [
+      "Zähe Haut (1)",
+      "Segen des Chaos",
+      "Die Rage",
+      "Mark des Chaos Undivided",
+      "Durch Deckung bewegen",
+      "Offene Ränge",
+      "Primal Fury",
+      "Zufällige Attacken",
+      "Unnachgiebig",
+      "Kriegerschar"
+    ],
+    "name_de": "Unheiliger Gor",
+    "name_fr": "Tintinnabulation Gor",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base"
+    ],
+    "specialRules_fr": [
+      "Peau Blindée (1)",
+      "Bénédictions du Chaos",
+      "Rage Sanguinaire",
+      "Marque du Chaos Universel",
+      "Mouvement à Couvert",
+      "Ordre Dispersé",
+      "Fureur Primale",
+      "Attaques Aléatoires",
+      "Obstiné",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche"
+    ],
+    "specialRules_it": [
+      "Pelle a Scaglie (1)",
+      "Blessing di Chaos",
+      "Blood Rage",
+      "Mark di Chaos Undivided",
+      "Viaggiatore",
+      "Formazione Aperta",
+      "Primal Fury",
+      "Random Venefici",
+      "Determinato",
+      "Warband"
     ]
   },
   {
@@ -1922,6 +3531,11 @@
     "id": "splice-horn",
     "unitCategory_pl": "Czempion",
     "equipment_pl": [],
-    "specialRules_pl": []
+    "specialRules_pl": [],
+    "unitCategory_de": "Champion",
+    "equipment_de": [],
+    "specialRules_de": [],
+    "name_fr": "Impure-corne",
+    "unitCategory_it": "Campione"
   }
 ]

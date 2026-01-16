@@ -39,6 +39,44 @@
       "Strach",
       "Nienawiść",
       "Regeneracja"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Dämon",
+    "equipment_de": [
+      "Goreaxe",
+      "Peitsche des Torment"
+    ],
+    "specialRules_de": [
+      "Daemonic",
+      "Angst",
+      "Hass",
+      "Regeneration"
+    ],
+    "name_de": "Bloodthirster des Khorne",
+    "name_fr": "Bloodthirster de Khorne",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Démon",
+    "equipment_fr": [
+      "Goreaxe",
+      "Fouet de Torment"
+    ],
+    "specialRules_fr": [
+      "Démoniaque",
+      "Peur",
+      "Haine",
+      "Régénération"
+    ],
+    "name_it": "Bloodthirster di Khorne",
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Goreaxe",
+      "Frusta di Torment"
+    ],
+    "specialRules_it": [
+      "Daemonic",
+      "Paura",
+      "Odio",
+      "Rigenerazione"
     ]
   },
   {
@@ -75,6 +113,32 @@
     "specialRules_pl": [
       "Daemonic",
       "Nienawiść"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Dämon",
+    "equipment_de": [
+      "Hellblade"
+    ],
+    "specialRules_de": [
+      "Daemonic",
+      "Hass"
+    ],
+    "name_de": "Bloodletters des Khorne",
+    "name_fr": "Sanguinaires de Khorne",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Démon",
+    "equipment_fr": [
+      "Lame Infernale"
+    ],
+    "specialRules_fr": [
+      "Démoniaque",
+      "Haine"
+    ],
+    "name_it": "Bloodletters di Khorne",
+    "unitCategory_it": "Fanteria",
+    "specialRules_it": [
+      "Daemonic",
+      "Odio"
     ]
   },
   {
@@ -113,6 +177,38 @@
       "Daemonic",
       "Nienawiść",
       "Strach"
+    ],
+    "unitCategory_de": "Bestie",
+    "troopType_de": "Dämon",
+    "equipment_de": [
+      "Teeth prinz Klauen"
+    ],
+    "specialRules_de": [
+      "Daemonic",
+      "Hass",
+      "Angst"
+    ],
+    "name_de": "Flesh Hounds des Khorne",
+    "name_fr": "Chiens de Khorne",
+    "unitCategory_fr": "Bête",
+    "troopType_fr": "Démon",
+    "equipment_fr": [
+      "Teeth et Mortelles"
+    ],
+    "specialRules_fr": [
+      "Démoniaque",
+      "Haine",
+      "Peur"
+    ],
+    "name_it": "Flesh Hounds di Khorne",
+    "unitCategory_it": "Bestia",
+    "equipment_it": [
+      "Teeth and Decapitanti"
+    ],
+    "specialRules_it": [
+      "Daemonic",
+      "Odio",
+      "Paura"
     ]
   },
   {
@@ -150,6 +246,36 @@
     "specialRules_pl": [
       "Daemonic",
       "Strach",
+      "Blast"
+    ],
+    "unitCategory_de": "Warmachine",
+    "troopType_de": "Dämon",
+    "equipment_de": [
+      "Skull Großkanone"
+    ],
+    "specialRules_de": [
+      "Daemonic",
+      "Angst",
+      "Blast"
+    ],
+    "name_de": "Skull Großkanone",
+    "name_fr": "Le Canon",
+    "troopType_fr": "Démon",
+    "equipment_fr": [
+      "Le Canon"
+    ],
+    "specialRules_fr": [
+      "Démoniaque",
+      "Peur",
+      "Blast"
+    ],
+    "name_it": "Skull Cannone",
+    "equipment_it": [
+      "Skull Cannone"
+    ],
+    "specialRules_it": [
+      "Daemonic",
+      "Paura",
       "Blast"
     ]
   },
@@ -191,6 +317,41 @@
       "Daemonic",
       "Nienawiść",
       "Strach"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Dämon",
+    "equipment_de": [
+      "Hellblade",
+      "Mark des Khorne"
+    ],
+    "specialRules_de": [
+      "Daemonic",
+      "Hass",
+      "Angst"
+    ],
+    "name_de": "Herold des Khorne",
+    "name_fr": "Démoniaque de Khorne",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Démon",
+    "equipment_fr": [
+      "Lame Infernale",
+      "Marque de Khorne"
+    ],
+    "specialRules_fr": [
+      "Démoniaque",
+      "Haine",
+      "Peur"
+    ],
+    "name_it": "Reale di Khorne",
+    "unitCategory_it": "Personaggio",
+    "equipment_it": [
+      "Hellblade",
+      "Mark di Khorne"
+    ],
+    "specialRules_it": [
+      "Daemonic",
+      "Odio",
+      "Paura"
     ]
   },
   {
@@ -237,6 +398,50 @@
       "Nienawiść",
       "Regeneracja",
       "Juggernaut"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Dämon",
+    "equipment_de": [
+      "Goreaxe",
+      "Peitsche des Torment",
+      "Juggernaut Mount"
+    ],
+    "specialRules_de": [
+      "Daemonic",
+      "Angst",
+      "Hass",
+      "Regeneration",
+      "Juggernaut"
+    ],
+    "name_de": "Bloodthirster des Khorne (zu Juggernaut)",
+    "name_fr": "Bloodthirster de Khorne (à Juggernaut)",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Démon",
+    "equipment_fr": [
+      "Goreaxe",
+      "Fouet de Torment",
+      "Juggernaut Démoniaque"
+    ],
+    "specialRules_fr": [
+      "Démoniaque",
+      "Peur",
+      "Haine",
+      "Régénération",
+      "Juggernaut"
+    ],
+    "name_it": "Bloodthirster di Khorne (a Juggernaut)",
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Goreaxe",
+      "Frusta di Torment",
+      "Juggernaut Mount"
+    ],
+    "specialRules_it": [
+      "Daemonic",
+      "Paura",
+      "Odio",
+      "Rigenerazione",
+      "Juggernaut"
     ]
   },
   {
@@ -279,6 +484,44 @@
       "Strach",
       "Nienawiść",
       "Lot"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Dämon",
+    "equipment_de": [
+      "Dämon Weapon",
+      "Mark des Khorne"
+    ],
+    "specialRules_de": [
+      "Daemonic",
+      "Angst",
+      "Hass",
+      "Fliegen"
+    ],
+    "name_de": "Dämon Prinz des Chaos (Khorne)",
+    "name_fr": "Démon Démon de Chaos (Khorne)",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Démon",
+    "equipment_fr": [
+      "Démon Lourde",
+      "Marque de Khorne"
+    ],
+    "specialRules_fr": [
+      "Démoniaque",
+      "Peur",
+      "Haine",
+      "Vol"
+    ],
+    "name_it": "Daemon Principe di Chaos (Khorne)",
+    "unitCategory_it": "Personaggio",
+    "equipment_it": [
+      "Daemon Bianca",
+      "Mark di Khorne"
+    ],
+    "specialRules_it": [
+      "Daemonic",
+      "Paura",
+      "Odio",
+      "Volo"
     ]
   },
   {
@@ -323,6 +566,47 @@
       "Strach",
       "Nienawiść",
       "Lot"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Dämon",
+    "equipment_de": [
+      "Dämon Weapon",
+      "Mark des Khorne",
+      "Wings"
+    ],
+    "specialRules_de": [
+      "Daemonic",
+      "Angst",
+      "Hass",
+      "Fliegen"
+    ],
+    "name_de": "Dämon Prinz des Chaos (Khorne) (mit wings)",
+    "name_fr": "Démon Démon de Chaos (Khorne) (avec wings)",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Démon",
+    "equipment_fr": [
+      "Démon Lourde",
+      "Marque de Khorne",
+      "Wings"
+    ],
+    "specialRules_fr": [
+      "Démoniaque",
+      "Peur",
+      "Haine",
+      "Vol"
+    ],
+    "name_it": "Daemon Principe di Chaos (Khorne) (with wings)",
+    "unitCategory_it": "Personaggio",
+    "equipment_it": [
+      "Daemon Bianca",
+      "Mark di Khorne",
+      "Wings"
+    ],
+    "specialRules_it": [
+      "Daemonic",
+      "Paura",
+      "Odio",
+      "Volo"
     ]
   },
   {
@@ -366,6 +650,47 @@
       "Daemonic",
       "Nienawiść",
       "Strach",
+      "Juggernaut"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Dämon",
+    "equipment_de": [
+      "Hellblade",
+      "Mark des Khorne",
+      "Juggernaut Mount"
+    ],
+    "specialRules_de": [
+      "Daemonic",
+      "Hass",
+      "Angst",
+      "Juggernaut"
+    ],
+    "name_de": "Herold des Khorne (zu Juggernaut)",
+    "name_fr": "Démoniaque de Khorne (à Juggernaut)",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Démon",
+    "equipment_fr": [
+      "Lame Infernale",
+      "Marque de Khorne",
+      "Juggernaut Démoniaque"
+    ],
+    "specialRules_fr": [
+      "Démoniaque",
+      "Haine",
+      "Peur",
+      "Juggernaut"
+    ],
+    "name_it": "Reale di Khorne (a Juggernaut)",
+    "unitCategory_it": "Personaggio",
+    "equipment_it": [
+      "Hellblade",
+      "Mark di Khorne",
+      "Juggernaut Mount"
+    ],
+    "specialRules_it": [
+      "Daemonic",
+      "Odio",
+      "Paura",
       "Juggernaut"
     ]
   }

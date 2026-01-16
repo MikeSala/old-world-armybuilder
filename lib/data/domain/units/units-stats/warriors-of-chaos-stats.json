@@ -54,6 +54,48 @@
         "Spojrzenie Bogów",
         "Znak Chaosu Niepodzielonego",
         "Bojowy Okrzyk"
+      ],
+      "unitCategory_de": "Charakter",
+      "troopType_de": "Schwere Infanterie, Charakter",
+      "equipment_de": [
+        "Handwaffe",
+        "Schwere Rüstung"
+      ],
+      "specialRules_de": [
+        "Chaos Rüstung (5+)",
+        "Ensorcelled Waffen",
+        "Blick des der Gods",
+        "Mark des Chaos Undivided",
+        "Sammelruf"
+      ],
+      "name_de": "Aspiring Schiedskämpfer",
+      "name_fr": "Aspirant Champion",
+      "unitCategory_fr": "Personnage",
+      "troopType_fr": "Infanterie Lourde, Personnage",
+      "equipment_fr": [
+        "Arme de base",
+        "Armure lourde"
+      ],
+      "specialRules_fr": [
+        "Chaos Légère (5+)",
+        "Armes Ensorcelées",
+        "Regard des Dieux",
+        "Marque du Chaos Universel",
+        "Cri de Ralliement"
+      ],
+      "name_it": "Aspiring Campione",
+      "unitCategory_it": "Personaggio",
+      "troopType_it": "Fanteria Pesante, Personaggio",
+      "equipment_it": [
+        "Arma Bianca",
+        "Armatura Pesante"
+      ],
+      "specialRules_it": [
+        "Chaos Pesante (5+)",
+        "Ensorcelled Bianche",
+        "Pietrificante di le Gods",
+        "Mark di Chaos Undivided",
+        "Grido di Battaglia"
       ]
     },
     {
@@ -126,6 +168,48 @@
         "Pierwsza Szarża",
         "Uderzenia Impetu (D6+1)",
         "Znak Chaosu Niepodzielonego"
+      ],
+      "unitCategory_de": "Streitwagen",
+      "troopType_de": "Schwerer Streitwagen",
+      "equipment_de": [
+        "Chaos Charioteers: Hand waffen, hellebarden",
+        "Chaos Steeds: Eisenbeschlagene hufe (counts as ein hand weapon)"
+      ],
+      "specialRules_de": [
+        "Geschlossene Ränge",
+        "Ensorcelled Waffen",
+        "Erster Angriff",
+        "Aufpralltreffer (W6+1)",
+        "Mark des Chaos Undivided"
+      ],
+      "name_de": "Chaos Streitwagen",
+      "name_fr": "Char du Chaos",
+      "unitCategory_fr": "Char",
+      "troopType_fr": "Char Lourd",
+      "equipment_fr": [
+        "Chaos Charioteers: De lourdes, hallebardes",
+        "Chaos Steeds: Sabots squelettiques (counts comme un de lourde)"
+      ],
+      "specialRules_fr": [
+        "Ordre Serré",
+        "Armes Ensorcelées",
+        "Première Charge",
+        "Touches d'Impact (D6+1)",
+        "Marque du Chaos Universel"
+      ],
+      "name_it": "Chaos Scheletrico",
+      "unitCategory_it": "Carro",
+      "troopType_it": "Carro Pesante",
+      "equipment_it": [
+        "Chaos Charioteers: Armi bianche, alabarde",
+        "Chaos Steeds: Iron-shod hooves (counts come scelti armi bianca)"
+      ],
+      "specialRules_it": [
+        "Formazione Serrata",
+        "Ensorcelled Bianche",
+        "Prima Carica",
+        "Frecce Di (D6+1)",
+        "Mark di Chaos Undivided"
       ]
     },
     {
@@ -184,6 +268,62 @@
         "Szybki Krok",
         "Groza",
         "Two-headed Smok"
+      ],
+      "unitCategory_de": "Monster",
+      "troopType_de": "Behemoth",
+      "equipment_de": [
+        "Boshafte Klauen",
+        "Dark Schießen des Chaos",
+        "Fumes des Contagion",
+        "Draconic scales (counts as full plate rüstung)"
+      ],
+      "specialRules_de": [
+        "Geschlossene Ränge",
+        "Fliegen (10)",
+        "Ungestüm",
+        "Großes Ziel",
+        "Stampfattacken (W6)",
+        "Schnelle Bewegung",
+        "Entsetzen",
+        "Two-headed Dragon"
+      ],
+      "name_de": "Chaos Dragon",
+      "name_fr": "Dragon du Chaos",
+      "unitCategory_fr": "Monstre",
+      "troopType_fr": "Béhémoth",
+      "equipment_fr": [
+        "Griffes mortelles",
+        "Feu Sombre du Chaos",
+        "Vapeurs de Contagion",
+        "Draconic scales (counts comme full plate légère)"
+      ],
+      "specialRules_fr": [
+        "Ordre Serré",
+        "Vol (10)",
+        "Impétueux",
+        "Grande Cible",
+        "Attaques de Piétinement (D6)",
+        "Rapide",
+        "Terreur",
+        "Dragon Bicéphale"
+      ],
+      "name_it": "Chaos Necrolitico",
+      "unitCategory_it": "Mostro",
+      "equipment_it": [
+        "Wicked decapitanti",
+        "Dark Tirare di Chaos",
+        "Fumes di Contagion",
+        "Draconic scales (counts come full plate pesante)"
+      ],
+      "specialRules_it": [
+        "Formazione Serrata",
+        "Volo (10)",
+        "Impetuosi",
+        "Bersaglio Grande",
+        "Calpestamento (D6)",
+        "Passo Rapido",
+        "Terrore",
+        "Two-headed Necrolitico"
       ]
     },
     {
@@ -257,6 +397,50 @@
         "Pierwsza Szarża",
         "Znak Chaosu Niepodzielonego",
         "Szybki Krok"
+      ],
+      "unitCategory_de": "Kavallerie",
+      "troopType_de": "Schwere Kavallerie",
+      "equipment_de": [
+        "Chaos Inneren: Hand waffen, schwere rüstung, schilde",
+        "Elfenross Chaos Rossharnisch: Eisenbeschlagene hufe (counts as ein hand weapon)"
+      ],
+      "specialRules_de": [
+        "Geschlossene Ränge",
+        "Gegenangriff",
+        "Ensorcelled Waffen",
+        "Erster Angriff",
+        "Mark des Chaos Undivided",
+        "Schnelle Bewegung"
+      ],
+      "name_de": "Chaos Inneren",
+      "name_fr": "Chevaliers du Chaos",
+      "unitCategory_fr": "Cavalerie",
+      "troopType_fr": "Cavalerie Lourde",
+      "equipment_fr": [
+        "Chaos Loup: De lourdes, armure légère, boucliers",
+        "Destrier Chaos Monture: Sabots squelettiques (counts comme un de lourde)"
+      ],
+      "specialRules_fr": [
+        "Ordre Serré",
+        "Contre-charge",
+        "Armes Ensorcelées",
+        "Première Charge",
+        "Marque du Chaos Universel",
+        "Rapide"
+      ],
+      "unitCategory_it": "Cavalleria",
+      "troopType_it": "Cavalleria Pesante",
+      "equipment_it": [
+        "Chaos Knights: Armi bianche, armatura pesante, scudi",
+        "Cavallo Chaos Elfico: Iron-shod hooves (counts come scelti armi bianca)"
+      ],
+      "specialRules_it": [
+        "Formazione Serrata",
+        "Controcarica",
+        "Ensorcelled Bianche",
+        "Prima Carica",
+        "Mark di Chaos Undivided",
+        "Passo Rapido"
       ]
     },
     {
@@ -313,6 +497,47 @@
         "Spojrzenie Bogów",
         "Znak Chaosu Niepodzielonego",
         "Bojowy Okrzyk"
+      ],
+      "unitCategory_de": "Charakter",
+      "troopType_de": "Schwere Infanterie, Charakter",
+      "equipment_de": [
+        "Handwaffe",
+        "Plattenrüstung"
+      ],
+      "specialRules_de": [
+        "Chaos Rüstung (5+)",
+        "Ensorcelled Waffen",
+        "Blick des der Gods",
+        "Mark des Chaos Undivided",
+        "Sammelruf"
+      ],
+      "name_de": "Chaos Lord",
+      "name_fr": "Seigneur du Chaos",
+      "unitCategory_fr": "Personnage",
+      "troopType_fr": "Infanterie Lourde, Personnage",
+      "equipment_fr": [
+        "Arme de base",
+        "Armure de plate complète"
+      ],
+      "specialRules_fr": [
+        "Chaos Légère (5+)",
+        "Armes Ensorcelées",
+        "Regard des Dieux",
+        "Marque du Chaos Universel",
+        "Cri de Ralliement"
+      ],
+      "unitCategory_it": "Personaggio",
+      "troopType_it": "Fanteria Pesante, Personaggio",
+      "equipment_it": [
+        "Arma Bianca",
+        "Armatura Completa"
+      ],
+      "specialRules_it": [
+        "Chaos Pesante (5+)",
+        "Ensorcelled Bianche",
+        "Pietrificante di le Gods",
+        "Mark di Chaos Undivided",
+        "Grido di Battaglia"
       ]
     },
     {
@@ -368,6 +593,41 @@
         "Znak Chaosu Niepodzielonego",
         "Shieldwall",
         "Gromada"
+      ],
+      "unitCategory_de": "Infanterie",
+      "troopType_de": "Reguläre Infanterie",
+      "equipment_de": [
+        "Handwaffe"
+      ],
+      "specialRules_de": [
+        "Geschlossene Ränge",
+        "Mark des Chaos Undivided",
+        "Schildwall",
+        "Kriegerschar"
+      ],
+      "name_de": "Chaos Marauders",
+      "name_fr": "Maraudeurs du Chaos",
+      "unitCategory_fr": "Infanterie",
+      "troopType_fr": "Infanterie Régulière",
+      "equipment_fr": [
+        "Arme de base"
+      ],
+      "specialRules_fr": [
+        "Ordre Serré",
+        "Marque du Chaos Universel",
+        "Mur de Boucliers",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Fanteria",
+      "troopType_it": "Fanteria Regolare",
+      "equipment_it": [
+        "Arma Bianca"
+      ],
+      "specialRules_it": [
+        "Formazione Serrata",
+        "Mark di Chaos Undivided",
+        "Muro di Scudi",
+        "Warband"
       ]
     },
     {
@@ -429,6 +689,50 @@
         "Uderzenia Impetu (1)",
         "Znak Chaosu Niepodzielonego",
         "Ogr Charge"
+      ],
+      "unitCategory_de": "Infanterie",
+      "troopType_de": "Monströse Infanterie",
+      "equipment_de": [
+        "Handwaffen",
+        "Schwere Rüstung"
+      ],
+      "specialRules_de": [
+        "Rüstungsfluch (1)",
+        "Geschlossene Ränge",
+        "Angst",
+        "Aufpralltreffer (1)",
+        "Mark des Chaos Undivided",
+        "Ogerangriff"
+      ],
+      "name_de": "Chaos Oger",
+      "name_fr": "Ogres du Chaos",
+      "unitCategory_fr": "Infanterie",
+      "troopType_fr": "Infanterie Monstrueuse",
+      "equipment_fr": [
+        "Armes de base",
+        "Armure lourde"
+      ],
+      "specialRules_fr": [
+        "Arme Perforante (1)",
+        "Ordre Serré",
+        "Peur",
+        "Touches d'Impact (1)",
+        "Marque du Chaos Universel",
+        "Charge Ogre"
+      ],
+      "unitCategory_it": "Fanteria",
+      "troopType_it": "Fanteria Mostruosa",
+      "equipment_it": [
+        "Armi Bianche",
+        "Armatura Pesante"
+      ],
+      "specialRules_it": [
+        "Rottura dell’Armatura (1)",
+        "Formazione Serrata",
+        "Paura",
+        "Colpi da Impatto (1)",
+        "Mark di Chaos Undivided",
+        "Ogre Carica"
       ]
     },
     {
@@ -482,6 +786,56 @@
         "Random Movement",
         "Zdeptanie (1)",
         "Niezłomni"
+      ],
+      "unitCategory_de": "Infanterie",
+      "troopType_de": "Monströse Infanterie",
+      "equipment_de": [
+        "Flailing appendages (counts as hand waffen)",
+        "Scaly skin (counts as schwere rüstung)"
+      ],
+      "specialRules_de": [
+        "Rüstungsfluch (2)",
+        "Angst",
+        "Immung gegen Psychologie",
+        "Offene Ränge",
+        "Zufällige Attacken",
+        "Zufällige Bewegung",
+        "Stampfattacken (1)",
+        "Unerschütterlich"
+      ],
+      "name_de": "Chaos Spawn",
+      "name_fr": "Rejetons du Chaos",
+      "unitCategory_fr": "Infanterie",
+      "troopType_fr": "Infanterie Monstrueuse",
+      "equipment_fr": [
+        "Flailing appendages (counts comme de lourdes)",
+        "Peau écailleuse (counts comme armure légère)"
+      ],
+      "specialRules_fr": [
+        "Arme Perforante (2)",
+        "Peur",
+        "Immunisé à la Psychologie",
+        "Ordre Dispersé",
+        "Attaques Aléatoires",
+        "Mouvement Aléatoire",
+        "Attaques de Piétinement (1)",
+        "Indémoralisable"
+      ],
+      "unitCategory_it": "Fanteria",
+      "troopType_it": "Fanteria Mostruosa",
+      "equipment_it": [
+        "Flailing appendages (counts come armi bianche)",
+        "Scaly skin (counts come armatura pesante)"
+      ],
+      "specialRules_it": [
+        "Pesante Dell’Armatura (2)",
+        "Paura",
+        "Immune alla Psicologia",
+        "Formazione Aperta",
+        "Random Venefici",
+        "Random Movement",
+        "Calpestamento (1)",
+        "Irriducibile"
       ]
     },
     {
@@ -526,6 +880,40 @@
         "Przeciwnatarcie",
         "Pierwsza Szarża",
         "Szybki Krok"
+      ],
+      "unitCategory_de": "Mount",
+      "troopType_de": "Schwere Kavallerie",
+      "equipment_de": [
+        "Eisenbeschlagene hufe (counts as ein hand weapon)",
+        "Rossharnisch"
+      ],
+      "specialRules_de": [
+        "Gegenangriff",
+        "Erster Angriff",
+        "Schnelle Bewegung"
+      ],
+      "name_de": "Chaos Rossharnisch",
+      "name_fr": "Destrier du Chaos",
+      "troopType_fr": "Cavalerie Lourde",
+      "equipment_fr": [
+        "Sabots squelettiques (counts comme un de lourde)",
+        "Caparaçon"
+      ],
+      "specialRules_fr": [
+        "Contre-charge",
+        "Première Charge",
+        "Rapide"
+      ],
+      "name_it": "Chaos Elfico",
+      "troopType_it": "Cavalleria Pesante",
+      "equipment_it": [
+        "Iron-shod hooves (counts come scelti armi bianca)",
+        "Bardatura"
+      ],
+      "specialRules_it": [
+        "Controcarica",
+        "Prima Carica",
+        "Passo Rapido"
       ]
     },
     {
@@ -579,6 +967,56 @@
         "Zbieranina",
         "Regeneracja (5+)",
         "Stupidity"
+      ],
+      "unitCategory_de": "Infanterie",
+      "troopType_de": "Monströse Infanterie",
+      "equipment_de": [
+        "Handwaffen",
+        "Trollkotze",
+        "Schwielige hides (counts as leichte rüstung)"
+      ],
+      "specialRules_de": [
+        "Rüstungsfluch (1)",
+        "Geschlossene Ränge",
+        "Angst",
+        "Brennbar",
+        "Zusammengewürfelter Haufen",
+        "Regeneration (5+)",
+        "Blödheit"
+      ],
+      "name_de": "Chaos Trolls",
+      "name_fr": "Trolls du Chaos",
+      "unitCategory_fr": "Infanterie",
+      "troopType_fr": "Infanterie Monstrueuse",
+      "equipment_fr": [
+        "Armes de base",
+        "Vomi de troll",
+        "Peau calleuses (counts comme armure légère)"
+      ],
+      "specialRules_fr": [
+        "Arme Perforante (1)",
+        "Ordre Serré",
+        "Peur",
+        "Inflammable",
+        "Bande Hétéroclite",
+        "Régénération (5+)",
+        "Stupidité"
+      ],
+      "unitCategory_it": "Fanteria",
+      "troopType_it": "Fanteria Mostruosa",
+      "equipment_it": [
+        "Armi Bianche",
+        "Troll vomit",
+        "Calloused hides (counts come armatura pesante)"
+      ],
+      "specialRules_it": [
+        "Rottura dell’Armatura (1)",
+        "Formazione Serrata",
+        "Paura",
+        "Suscettibile al Fuoco",
+        "Equipaggiamento Eterogeneo",
+        "Rigenerazione (5+)",
+        "Stupidity"
       ]
     },
     {
@@ -626,6 +1064,46 @@
         "Znak Chaosu Niepodzielonego",
         "Przechodzenie Przez Zasłony",
         "Awangarda"
+      ],
+      "unitCategory_de": "Kavallerie",
+      "troopType_de": "Reguläre Infanterie, Charakter",
+      "equipment_de": [
+        "Handwaffe",
+        "Schwere Rüstung"
+      ],
+      "specialRules_de": [
+        "Handler",
+        "Einzelgänger",
+        "Mark des Chaos Undivided",
+        "Durch Deckung bewegen",
+        "Vorhut"
+      ],
+      "name_fr": "Chaos Warhound Dresseur",
+      "unitCategory_fr": "Cavalerie",
+      "troopType_fr": "Infanterie Régulière, Personnage",
+      "equipment_fr": [
+        "Arme de base",
+        "Armure lourde"
+      ],
+      "specialRules_fr": [
+        "Dresseur",
+        "Solitaire",
+        "Marque du Chaos Universel",
+        "Mouvement à Couvert",
+        "Avant-garde"
+      ],
+      "unitCategory_it": "Cavalleria",
+      "troopType_it": "Fanteria Regolare, Personaggio",
+      "equipment_it": [
+        "Arma Bianca",
+        "Armatura Pesante"
+      ],
+      "specialRules_it": [
+        "Handler",
+        "Solitario",
+        "Mark di Chaos Undivided",
+        "Viaggiatore",
+        "Avanguardia"
       ]
     },
     {
@@ -669,6 +1147,41 @@
         "Przechodzenie Przez Zasłony",
         "Luźny Szyk",
         "Szybki Krok"
+      ],
+      "unitCategory_de": "Kavallerie",
+      "troopType_de": "Kriegstier",
+      "equipment_de": [
+        "Klauen prinz fangs (counts as ein hand weapon)"
+      ],
+      "specialRules_de": [
+        "Einzelgänger",
+        "Durch Deckung bewegen",
+        "Offene Ränge",
+        "Schnelle Bewegung"
+      ],
+      "name_de": "Chaos Warhounds",
+      "name_fr": "Chiens du Chaos",
+      "unitCategory_fr": "Cavalerie",
+      "troopType_fr": "Bête de Guerre",
+      "equipment_fr": [
+        "Mortelles et crocs (counts comme un de lourde)"
+      ],
+      "specialRules_fr": [
+        "Solitaire",
+        "Mouvement à Couvert",
+        "Ordre Dispersé",
+        "Rapide"
+      ],
+      "unitCategory_it": "Cavalleria",
+      "troopType_it": "Bestia da Guerra",
+      "equipment_it": [
+        "Decapitanti and fangs (counts come scelti armi bianca)"
+      ],
+      "specialRules_it": [
+        "Solitario",
+        "Viaggiatore",
+        "Formazione Aperta",
+        "Passo Rapido"
       ]
     },
     {
@@ -724,6 +1237,42 @@
         "Zwarty Szyk",
         "Zaklęta Broń",
         "Znak Chaosu Niepodzielonego"
+      ],
+      "unitCategory_de": "Infanterie",
+      "troopType_de": "Schwere Infanterie",
+      "equipment_de": [
+        "Handwaffen",
+        "Schwere Rüstung"
+      ],
+      "specialRules_de": [
+        "Geschlossene Ränge",
+        "Ensorcelled Waffen",
+        "Mark des Chaos Undivided"
+      ],
+      "name_de": "Chaos Krieger",
+      "name_fr": "Guerriers du Chaos",
+      "unitCategory_fr": "Infanterie",
+      "troopType_fr": "Infanterie Lourde",
+      "equipment_fr": [
+        "Armes de base",
+        "Armure lourde"
+      ],
+      "specialRules_fr": [
+        "Ordre Serré",
+        "Armes Ensorcelées",
+        "Marque du Chaos Universel"
+      ],
+      "name_it": "Chaos Scheletri",
+      "unitCategory_it": "Fanteria",
+      "troopType_it": "Fanteria Pesante",
+      "equipment_it": [
+        "Armi Bianche",
+        "Armatura Pesante"
+      ],
+      "specialRules_it": [
+        "Formazione Serrata",
+        "Ensorcelled Bianche",
+        "Mark di Chaos Undivided"
       ]
     },
     {
@@ -775,6 +1324,53 @@
         "Zdeptanie (1)",
         "Szybki Krok",
         "Groza"
+      ],
+      "unitCategory_de": "Monster",
+      "troopType_de": "Monströse Kreatur",
+      "equipment_de": [
+        "Klauen prinz fangs (counts as ein hand weapon)",
+        "Scaly skin (counts as schwere rüstung)"
+      ],
+      "specialRules_de": [
+        "Rüstung Bane (2, klauen prinz fangs leichenmeister)",
+        "Geschlossene Ränge",
+        "Fliegen (10)",
+        "Großes Ziel",
+        "Stampfattacken (1)",
+        "Schnelle Bewegung",
+        "Entsetzen"
+      ],
+      "name_de": "Chimera",
+      "name_fr": "Chimère",
+      "unitCategory_fr": "Monstre",
+      "troopType_fr": "Créature Monstrueuse",
+      "equipment_fr": [
+        "Mortelles et crocs (counts comme un de lourde)",
+        "Peau écailleuse (counts comme armure légère)"
+      ],
+      "specialRules_fr": [
+        "Légère Perforante (2, mortelles et crocs uniquement)",
+        "Ordre Serré",
+        "Vol (10)",
+        "Grande Cible",
+        "Attaques de Piétinement (1)",
+        "Rapide",
+        "Terreur"
+      ],
+      "unitCategory_it": "Mostro",
+      "troopType_it": "Creatura Mostruosa",
+      "equipment_it": [
+        "Decapitanti and fangs (counts come scelti armi bianca)",
+        "Scaly skin (counts come armatura pesante)"
+      ],
+      "specialRules_it": [
+        "Pesante Dell’Armatura (2, decapitanti and fangs only)",
+        "Formazione Serrata",
+        "Volo (10)",
+        "Bersaglio Grande",
+        "Calpestamento (1)",
+        "Passo Rapido",
+        "Terrore"
       ]
     },
     {
@@ -849,6 +1445,51 @@
         "Pierwsza Szarża",
         "Uderzenia Impetu (D6+1, Rydwan only)",
         "Znak Chaosu Niepodzielonego"
+      ],
+      "unitCategory_de": "Streitwagen",
+      "troopType_de": "Schwerer Streitwagen",
+      "equipment_de": [
+        "Pro Charioteers: Hand waffen, hellebarden",
+        "Chaos Steeds: Eisenbeschlagene hufe (counts as hand waffen)"
+      ],
+      "specialRules_de": [
+        "Geschlossene Ränge",
+        "Gegenangriff",
+        "Ensorcelled Waffen",
+        "Erster Angriff",
+        "Aufpralltreffer Hits (D6+1, Streitwagen leichenmeister)",
+        "Mark des Chaos Undivided"
+      ],
+      "name_de": "Pro Chaos Streitwagen",
+      "name_fr": "Char du Chaos Élu",
+      "unitCategory_fr": "Char",
+      "troopType_fr": "Char Lourd",
+      "equipment_fr": [
+        "Chosen Charioteers: De lourdes, hallebardes",
+        "Chaos Steeds: Sabots squelettiques (counts comme de lourdes)"
+      ],
+      "specialRules_fr": [
+        "Ordre Serré",
+        "Contre-charge",
+        "Armes Ensorcelées",
+        "Première Charge",
+        "Touches D'Impact (D6+1, Éventreur uniquement)",
+        "Marque du Chaos Universel"
+      ],
+      "name_it": "Chosen Chaos Scheletrico",
+      "unitCategory_it": "Carro",
+      "troopType_it": "Carro Pesante",
+      "equipment_it": [
+        "Chosen Charioteers: Armi bianche, alabarde",
+        "Chaos Steeds: Iron-shod hooves (counts come armi bianche)"
+      ],
+      "specialRules_it": [
+        "Formazione Serrata",
+        "Controcarica",
+        "Ensorcelled Bianche",
+        "Prima Carica",
+        "Frecce Di (D6+1, Scheletrico only)",
+        "Mark di Chaos Undivided"
       ]
     },
     {
@@ -926,6 +1567,56 @@
         "Znak Chaosu Niepodzielonego",
         "Nieugięty",
         "Szybki Krok"
+      ],
+      "unitCategory_de": "Kavallerie",
+      "troopType_de": "Schwere Kavallerie",
+      "equipment_de": [
+        "Chaos Inneren: Hand waffen, schwere rüstung, schilde",
+        "Elfenross Chaos Rossharnisch: Eisenbeschlagene hufe (counts as ein hand weapon)"
+      ],
+      "specialRules_de": [
+        "Chaos Rüstung (6+)",
+        "Geschlossene Ränge",
+        "Gegenangriff",
+        "Ensorcelled Waffen",
+        "Erster Angriff",
+        "Mark des Chaos Undivided",
+        "Unnachgiebig",
+        "Schnelle Bewegung"
+      ],
+      "name_de": "Pro Chaos Inneren",
+      "name_fr": "Chevaliers du Chaos Élus",
+      "unitCategory_fr": "Cavalerie",
+      "troopType_fr": "Cavalerie Lourde",
+      "equipment_fr": [
+        "Chaos Loup: De lourdes, armure légère, boucliers",
+        "Destrier Chaos Monture: Sabots squelettiques (counts comme un de lourde)"
+      ],
+      "specialRules_fr": [
+        "Chaos Légère (6+)",
+        "Ordre Serré",
+        "Contre-charge",
+        "Armes Ensorcelées",
+        "Première Charge",
+        "Marque du Chaos Universel",
+        "Obstiné",
+        "Rapide"
+      ],
+      "unitCategory_it": "Cavalleria",
+      "troopType_it": "Cavalleria Pesante",
+      "equipment_it": [
+        "Chaos Knights: Armi bianche, armatura pesante, scudi",
+        "Cavallo Chaos Elfico: Iron-shod hooves (counts come scelti armi bianca)"
+      ],
+      "specialRules_it": [
+        "Chaos Pesante (6+)",
+        "Formazione Serrata",
+        "Controcarica",
+        "Ensorcelled Bianche",
+        "Prima Carica",
+        "Mark di Chaos Undivided",
+        "Determinato",
+        "Passo Rapido"
       ]
     },
     {
@@ -985,6 +1676,48 @@
         "Zaklęta Broń",
         "Znak Chaosu Niepodzielonego",
         "Nieugięty"
+      ],
+      "unitCategory_de": "Infanterie",
+      "troopType_de": "Schwere Infanterie",
+      "equipment_de": [
+        "Handwaffe",
+        "Schwere Rüstung"
+      ],
+      "specialRules_de": [
+        "Chaos Rüstung (6+)",
+        "Geschlossene Ränge",
+        "Ensorcelled Waffen",
+        "Mark des Chaos Undivided",
+        "Unnachgiebig"
+      ],
+      "name_de": "Pro Chaos Krieger",
+      "name_fr": "Guerriers du Chaos Élus",
+      "unitCategory_fr": "Infanterie",
+      "troopType_fr": "Infanterie Lourde",
+      "equipment_fr": [
+        "Arme de base",
+        "Armure lourde"
+      ],
+      "specialRules_fr": [
+        "Chaos Légère (6+)",
+        "Ordre Serré",
+        "Armes Ensorcelées",
+        "Marque du Chaos Universel",
+        "Obstiné"
+      ],
+      "name_it": "Chosen Chaos Scheletri",
+      "unitCategory_it": "Fanteria",
+      "troopType_it": "Fanteria Pesante",
+      "equipment_it": [
+        "Arma Bianca",
+        "Armatura Pesante"
+      ],
+      "specialRules_it": [
+        "Chaos Pesante (6+)",
+        "Formazione Serrata",
+        "Ensorcelled Bianche",
+        "Mark di Chaos Undivided",
+        "Determinato"
       ]
     },
     {
@@ -1049,6 +1782,66 @@
         "Niezłomni",
         "Unstable",
         "Warp-spawned"
+      ],
+      "unitCategory_de": "Charakter",
+      "troopType_de": "Monströse Infanterie, Charakter",
+      "equipment_de": [
+        "Handwaffe",
+        "Leichte Rüstung"
+      ],
+      "specialRules_de": [
+        "Chaos Rüstung (4+)",
+        "Ensorcelled Waffen",
+        "Angst",
+        "Blick des der Gods",
+        "Immung gegen Psychologie",
+        "Lehre des Chaos",
+        "Mark des Chaos Undivided",
+        "Regeneration (5+)",
+        "Unerschütterlich",
+        "Instabil",
+        "Warp-spawned"
+      ],
+      "name_de": "Dämon Prinz",
+      "name_fr": "Démon Démon",
+      "unitCategory_fr": "Personnage",
+      "troopType_fr": "Infanterie Monstrueuse, Personnage",
+      "equipment_fr": [
+        "Arme de base",
+        "Armure légère"
+      ],
+      "specialRules_fr": [
+        "Chaos Légère (4+)",
+        "Armes Ensorcelées",
+        "Peur",
+        "Regard des Dieux",
+        "Immunisé à la Psychologie",
+        "Domaine du Chaos",
+        "Marque du Chaos Universel",
+        "Régénération (5+)",
+        "Indémoralisable",
+        "Instables",
+        "Engeance du Warp"
+      ],
+      "name_it": "Daemon Principe",
+      "unitCategory_it": "Personaggio",
+      "troopType_it": "Fanteria Mostruosa, Personaggio",
+      "equipment_it": [
+        "Arma Bianca",
+        "Armatura Leggera"
+      ],
+      "specialRules_it": [
+        "Chaos Pesante (4+)",
+        "Ensorcelled Bianche",
+        "Paura",
+        "Pietrificante di le Gods",
+        "Immune alla Psicologia",
+        "Lore di Chaos",
+        "Mark di Chaos Undivided",
+        "Rigenerazione (5+)",
+        "Irriducibile",
+        "Unstable",
+        "Warp-spawned"
       ]
     },
     {
@@ -1097,6 +1890,45 @@
         "Znak Chaosu (jako jeździec)",
         "Zdeptanie (1)",
         "Szybki Krok"
+      ],
+      "unitCategory_de": "Mount",
+      "troopType_de": "Monströse Kavallerie",
+      "equipment_de": [
+        "Daemonic hufe (counts as ein hand weapon)"
+      ],
+      "specialRules_de": [
+        "Rüstung Bane (1, Daemonic Mount leichenmeister)",
+        "Angst",
+        "Magische Attacken",
+        "Mark des Chaos (as rider)",
+        "Stampfattacken (1)",
+        "Schnelle Bewegung"
+      ],
+      "name_de": "Daemonic Mount",
+      "name_fr": "Monture Démoniaque",
+      "troopType_fr": "Cavalerie Monstrueuse",
+      "equipment_fr": [
+        "Dons squelettiques (counts comme un de lourde)"
+      ],
+      "specialRules_fr": [
+        "Légère Perforante (1, Dons Démoniaque uniquement)",
+        "Peur",
+        "Attaques Magiques",
+        "Marque de Chaos (comme gobelins)",
+        "Attaques de Piétinement (1)",
+        "Rapide"
+      ],
+      "troopType_it": "Cavalleria Mostruosa",
+      "equipment_it": [
+        "Daemonic hooves (counts come scelti armi bianca)"
+      ],
+      "specialRules_it": [
+        "Pesante Dell’Armatura (1, Daemonic Mount only)",
+        "Paura",
+        "Magical Venefici",
+        "Mark di Chaos (come rider)",
+        "Calpestamento (1)",
+        "Passo Rapido"
       ]
     },
     {
@@ -1153,6 +1985,48 @@
         "Spojrzenie Bogów",
         "Znak Chaosu Niepodzielonego",
         "Bojowy Okrzyk"
+      ],
+      "unitCategory_de": "Charakter",
+      "troopType_de": "Schwere Infanterie, Charakter",
+      "equipment_de": [
+        "Handwaffe",
+        "Schwere Rüstung"
+      ],
+      "specialRules_de": [
+        "Chaos Rüstung (5+)",
+        "Ensorcelled Waffen",
+        "Blick des der Gods",
+        "Mark des Chaos Undivided",
+        "Sammelruf"
+      ],
+      "name_de": "Exalted Schiedskämpfer",
+      "name_fr": "Champion Exalté",
+      "unitCategory_fr": "Personnage",
+      "troopType_fr": "Infanterie Lourde, Personnage",
+      "equipment_fr": [
+        "Arme de base",
+        "Armure lourde"
+      ],
+      "specialRules_fr": [
+        "Chaos Légère (5+)",
+        "Armes Ensorcelées",
+        "Regard des Dieux",
+        "Marque du Chaos Universel",
+        "Cri de Ralliement"
+      ],
+      "name_it": "Exalted Campione",
+      "unitCategory_it": "Personaggio",
+      "troopType_it": "Fanteria Pesante, Personaggio",
+      "equipment_it": [
+        "Arma Bianca",
+        "Armatura Pesante"
+      ],
+      "specialRules_it": [
+        "Chaos Pesante (5+)",
+        "Ensorcelled Bianche",
+        "Pietrificante di le Gods",
+        "Mark di Chaos Undivided",
+        "Grido di Battaglia"
       ]
     },
     {
@@ -1210,6 +2084,47 @@
         "Spojrzenie Bogów",
         "Lore of Chaos",
         "Znak Chaosu Niepodzielonego"
+      ],
+      "unitCategory_de": "Charakter",
+      "troopType_de": "Schwere Infanterie, Charakter",
+      "equipment_de": [
+        "Handwaffe",
+        "Leichte Rüstung"
+      ],
+      "specialRules_de": [
+        "Chaos Rüstung (5+)",
+        "Ensorcelled Waffen",
+        "Blick des der Gods",
+        "Lehre des Chaos",
+        "Mark des Chaos Undivided"
+      ],
+      "name_de": "Exalted Sorcerer",
+      "name_fr": "Sorcier Exalté",
+      "unitCategory_fr": "Personnage",
+      "troopType_fr": "Infanterie Lourde, Personnage",
+      "equipment_fr": [
+        "Arme de base",
+        "Armure légère"
+      ],
+      "specialRules_fr": [
+        "Chaos Légère (5+)",
+        "Armes Ensorcelées",
+        "Regard des Dieux",
+        "Domaine du Chaos",
+        "Marque du Chaos Universel"
+      ],
+      "unitCategory_it": "Personaggio",
+      "troopType_it": "Fanteria Pesante, Personaggio",
+      "equipment_it": [
+        "Arma Bianca",
+        "Armatura Leggera"
+      ],
+      "specialRules_it": [
+        "Chaos Pesante (5+)",
+        "Ensorcelled Bianche",
+        "Pietrificante di le Gods",
+        "Lore di Chaos",
+        "Mark di Chaos Undivided"
       ]
     },
     {
@@ -1267,6 +2182,62 @@
         "Rampant Mutation",
         "Losowe Ataki",
         "Nieugięty"
+      ],
+      "unitCategory_de": "Infanterie",
+      "troopType_de": "Schwere Infanterie",
+      "equipment_de": [
+        "Mutated waffen (counts as hand waffen)",
+        "Schwere Rüstung"
+      ],
+      "specialRules_de": [
+        "Chaos Rüstung (5+)",
+        "Ensorcelled Waffen",
+        "Rasender Angriff",
+        "Immung gegen Psychologie",
+        "Ungestüm",
+        "Einzelgänger",
+        "Offene Ränge",
+        "Rampant Mutation",
+        "Zufällige Attacken",
+        "Unnachgiebig"
+      ],
+      "name_de": "Forsaken",
+      "name_fr": "Déchus",
+      "unitCategory_fr": "Infanterie",
+      "troopType_fr": "Infanterie Lourde",
+      "equipment_fr": [
+        "Mutated lourdes (counts comme de lourdes)",
+        "Armure lourde"
+      ],
+      "specialRules_fr": [
+        "Chaos Légère (5+)",
+        "Armes Ensorcelées",
+        "Charge Dévastatrice",
+        "Immunisé à la Psychologie",
+        "Impétueux",
+        "Solitaire",
+        "Ordre Dispersé",
+        "Mutations Étranges",
+        "Attaques Aléatoires",
+        "Obstiné"
+      ],
+      "unitCategory_it": "Fanteria",
+      "troopType_it": "Fanteria Pesante",
+      "equipment_it": [
+        "Mutated bianche (counts come armi bianche)",
+        "Armatura Pesante"
+      ],
+      "specialRules_it": [
+        "Chaos Pesante (5+)",
+        "Ensorcelled Bianche",
+        "Furious Carica",
+        "Immune alla Psicologia",
+        "Impetuosi",
+        "Solitario",
+        "Formazione Aperta",
+        "Rampant Mutation",
+        "Random Venefici",
+        "Determinato"
       ]
     },
     {
@@ -1328,6 +2299,69 @@
         "Znak Chaosu Niepodzielonego",
         "Peerless Raider",
         "Bojowy Okrzyk"
+      ],
+      "unitCategory_de": "Benannter Charakter",
+      "troopType_de": "Schwere Infanterie, Benannter Charakter",
+      "equipment_de": [
+        "Handwaffe",
+        "Storm's Wrath",
+        "Plattenrüstung",
+        "Schild"
+      ],
+      "specialRules_de": [
+        "Überfall",
+        "Chainmaker",
+        "Chaos Rüstung (5+)",
+        "Herrscher & Hauptmann",
+        "Ensorcelled Waffen",
+        "Blick des der Gods",
+        "Aufpralltreffer (1)",
+        "Mark des Chaos Undivided",
+        "Peerless Raider",
+        "Sammelruf"
+      ],
+      "name_de": "Frydaal Der Chainmaker",
+      "name_fr": "Frydaal La Forgechaîne",
+      "unitCategory_fr": "Personnage nommé",
+      "troopType_fr": "Infanterie Lourde, Personnage nommé",
+      "equipment_fr": [
+        "Arme de base",
+        "Courroux de la Tempête",
+        "Armure de plate complète",
+        "Bouclier"
+      ],
+      "specialRules_fr": [
+        "Embusqueurs",
+        "Forgechaîne",
+        "Chaos Légère (5+)",
+        "Commandante & Capitaine",
+        "Armes Ensorcelées",
+        "Regard des Dieux",
+        "Touches d'Impact (1)",
+        "Marque du Chaos Universel",
+        "Pillarde Inégalée",
+        "Cri de Ralliement"
+      ],
+      "name_it": "Frydaal Le Chainmaker",
+      "unitCategory_it": "Personaggio nominato",
+      "troopType_it": "Fanteria Pesante, Personaggio nominato",
+      "equipment_it": [
+        "Arma Bianca",
+        "Storm's Wrath",
+        "Armatura Completa",
+        "Scudo"
+      ],
+      "specialRules_it": [
+        "Agguato",
+        "Chainmaker",
+        "Chaos Pesante (5+)",
+        "Comandante & Captain",
+        "Ensorcelled Bianche",
+        "Pietrificante di le Gods",
+        "Colpi da Impatto (1)",
+        "Mark di Chaos Undivided",
+        "Peerless Raider",
+        "Grido di Battaglia"
       ]
     },
     {
@@ -1396,6 +2430,74 @@
         "Szybki Krok",
         "Groza",
         "Two-headed Smok"
+      ],
+      "unitCategory_de": "Benannter Charakter",
+      "troopType_de": "Behemoth, Benannter Charakter",
+      "equipment_de": [
+        "Boshafte Klauen",
+        "Dark Schießen des Chaos",
+        "Fumes des Contagion",
+        "Draconic scales (counts as full plate rüstung)"
+      ],
+      "specialRules_de": [
+        "Zähe Haut (1)",
+        "Atem des Change",
+        "Geschlossene Ränge",
+        "Fliegen (10)",
+        "Großes Ziel",
+        "Mark des Tzeentch",
+        "Regeneration (5+)",
+        "Spirit des Galrauch",
+        "Stampfattacken (W6)",
+        "Schnelle Bewegung",
+        "Entsetzen",
+        "Two-headed Dragon"
+      ],
+      "name_de": "Galrauch",
+      "name_fr": "Galrauch, Le Grand Dragon",
+      "unitCategory_fr": "Personnage nommé",
+      "troopType_fr": "Béhémoth, Personnage nommé",
+      "equipment_fr": [
+        "Griffes mortelles",
+        "Feu Sombre du Chaos",
+        "Vapeurs de Contagion",
+        "Draconic scales (counts comme full plate légère)"
+      ],
+      "specialRules_fr": [
+        "Peau Blindée (1)",
+        "Souffle du Changement",
+        "Ordre Serré",
+        "Vol (10)",
+        "Grande Cible",
+        "Marque de Tzeentch",
+        "Régénération (5+)",
+        "Esprit de Galrauch",
+        "Attaques de Piétinement (D6)",
+        "Rapide",
+        "Terreur",
+        "Dragon Bicéphale"
+      ],
+      "unitCategory_it": "Personaggio nominato",
+      "troopType_it": "Behemoth, Personaggio nominato",
+      "equipment_it": [
+        "Wicked decapitanti",
+        "Dark Tirare di Chaos",
+        "Fumes di Contagion",
+        "Draconic scales (counts come full plate pesante)"
+      ],
+      "specialRules_it": [
+        "Pelle a Scaglie (1)",
+        "Breath di Change",
+        "Formazione Serrata",
+        "Volo (10)",
+        "Bersaglio Grande",
+        "Mark di Tzeentch",
+        "Rigenerazione (5+)",
+        "Spirit di Galrauch",
+        "Calpestamento (D6)",
+        "Passo Rapido",
+        "Terrore",
+        "Two-headed Necrolitico"
       ]
     },
     {
@@ -1457,6 +2559,68 @@
         "Groza",
         "Dreeeewno!",
         "Niezłomni"
+      ],
+      "unitCategory_de": "Monster",
+      "troopType_de": "Behemoth",
+      "equipment_de": [
+        "Slashing klauen",
+        "Gnashing maws",
+        "Scaly skin (counts as schwere rüstung)"
+      ],
+      "specialRules_de": [
+        "Rüstungsfluch (2)",
+        "Geschlossene Ränge",
+        "Erster Angriff",
+        "Immung gegen Psychologie",
+        "Großes Ziel",
+        "Zufällige Attacken",
+        "Zufällige Bewegung",
+        "Stampfattacken (W6)",
+        "Entsetzen",
+        "Baum fällt!",
+        "Unerschütterlich"
+      ],
+      "name_de": "Gigantic Spawn des Chaos",
+      "name_fr": "Rejeton Gigantesque du Chaos",
+      "unitCategory_fr": "Monstre",
+      "troopType_fr": "Béhémoth",
+      "equipment_fr": [
+        "Au crasseuses",
+        "Gueules avides",
+        "Peau écailleuse (counts comme armure légère)"
+      ],
+      "specialRules_fr": [
+        "Arme Perforante (2)",
+        "Ordre Serré",
+        "Première Charge",
+        "Immunisé à la Psychologie",
+        "Grande Cible",
+        "Attaques Aléatoires",
+        "Mouvement Aléatoire",
+        "Attaques de Piétinement (D6)",
+        "Terreur",
+        "Timmm-berrr!",
+        "Indémoralisable"
+      ],
+      "name_it": "Gigantic Spawn di Chaos",
+      "unitCategory_it": "Mostro",
+      "equipment_it": [
+        "Slashing talons",
+        "Gnashing maws",
+        "Scaly skin (counts come armatura pesante)"
+      ],
+      "specialRules_it": [
+        "Pesante Dell’Armatura (2)",
+        "Formazione Serrata",
+        "Prima Carica",
+        "Immune alla Psicologia",
+        "Bersaglio Grande",
+        "Random Venefici",
+        "Random Movement",
+        "Calpestamento (D6)",
+        "Terrore",
+        "Assalto Inarrestabile",
+        "Irriducibile"
       ]
     },
     {
@@ -1533,6 +2697,54 @@
         "Uderzenia Impetu (D6+2)",
         "Killing Blow (Gorebeast only)",
         "Znak Chaosu Niepodzielonego"
+      ],
+      "unitCategory_de": "Streitwagen",
+      "troopType_de": "Schwerer Streitwagen",
+      "equipment_de": [
+        "Chaos Charioteers: Hand waffen, hellebarden",
+        "Gorebeast: Goring horns (counts as ein hand weapon)"
+      ],
+      "specialRules_de": [
+        "Rüstung Bane (1, Gorebeast leichenmeister)",
+        "Geschlossene Ränge",
+        "Ensorcelled Waffen",
+        "Erster Angriff",
+        "Aufpralltreffer (W6+2)",
+        "Killing Hieb (Gorebeast leichenmeister)",
+        "Mark des Chaos Undivided"
+      ],
+      "name_de": "Gorebeast Streitwagen",
+      "name_fr": "Char Éventreur",
+      "unitCategory_fr": "Char",
+      "troopType_fr": "Char Lourd",
+      "equipment_fr": [
+        "Chaos Charioteers: De lourdes, hallebardes",
+        "Char: Goring cornes (counts comme un de lourde)"
+      ],
+      "specialRules_fr": [
+        "Légère Perforante (1, Char uniquement)",
+        "Ordre Serré",
+        "Armes Ensorcelées",
+        "Première Charge",
+        "Touches d'Impact (D6+2)",
+        "Coup Fatal (Éventreur uniquement)",
+        "Marque du Chaos Universel"
+      ],
+      "name_it": "Gorebeast Scheletrico",
+      "unitCategory_it": "Carro",
+      "troopType_it": "Carro Pesante",
+      "equipment_it": [
+        "Chaos Charioteers: Armi bianche, alabarde",
+        "Gorebeast: Goring horns (counts come scelti armi bianca)"
+      ],
+      "specialRules_it": [
+        "Pesante Dell’Armatura (1, Gorebeast only)",
+        "Formazione Serrata",
+        "Ensorcelled Bianche",
+        "Prima Carica",
+        "Frecce Di (D6+2)",
+        "Colpo Mortale (Gorebeast only)",
+        "Mark di Chaos Undivided"
       ]
     },
     {
@@ -1606,6 +2818,67 @@
         "Groza",
         "Niezłomni",
         "Warp-spawned"
+      ],
+      "unitCategory_de": "Monster",
+      "troopType_de": "Behemoth",
+      "equipment_de": [
+        "Hellcannon: Doomfire, Hand waffen",
+        "Chaos Dwarf Handlers: Hand waffen"
+      ],
+      "specialRules_de": [
+        "Rüstungsfluch (1)",
+        "Caged Fury",
+        "Geschlossene Ränge",
+        "Ensorcelled Waffen",
+        "Immung gegen Psychologie",
+        "Aufpralltreffer (W6)",
+        "Großes Ziel",
+        "Monster Handlers",
+        "Regeneration (6+)",
+        "Entsetzen",
+        "Unerschütterlich",
+        "Warp-spawned"
+      ],
+      "name_de": "Hellcannon",
+      "name_fr": "Canon Apocalypse",
+      "unitCategory_fr": "Monstre",
+      "troopType_fr": "Béhémoth",
+      "equipment_fr": [
+        "Hellcannon: Doomfire, De lourdes",
+        "Chaos Facture Handlers: De lourdes"
+      ],
+      "specialRules_fr": [
+        "Arme Perforante (1)",
+        "Fureur Entravée",
+        "Ordre Serré",
+        "Armes Ensorcelées",
+        "Immunisé à la Psychologie",
+        "Touches d'Impact (D6)",
+        "Grande Cible",
+        "Dresseurs de Monstres",
+        "Régénération (6+)",
+        "Terreur",
+        "Indémoralisable",
+        "Engeance du Warp"
+      ],
+      "unitCategory_it": "Mostro",
+      "equipment_it": [
+        "Hellcannon: Doomfire, Armi bianche",
+        "Chaos Fattura Handlers: Armi bianche"
+      ],
+      "specialRules_it": [
+        "Rottura dell’Armatura (1)",
+        "Caged Fury",
+        "Formazione Serrata",
+        "Ensorcelled Bianche",
+        "Immune alla Psicologia",
+        "Colpi da Impatto (D6)",
+        "Bersaglio Grande",
+        "Monster Handlers",
+        "Rigenerazione (6+)",
+        "Terrore",
+        "Irriducibile",
+        "Warp-spawned"
       ]
     },
     {
@@ -1658,6 +2931,51 @@
         "Szybki Krok",
         "Groza",
         "Wilful Bestia"
+      ],
+      "unitCategory_de": "Monster",
+      "troopType_de": "Monströse Kreatur",
+      "equipment_de": [
+        "Boshafte Klauen",
+        "Scaly skin (counts as schwere rüstung)"
+      ],
+      "specialRules_de": [
+        "Geschlossene Ränge",
+        "Fliegen (9)",
+        "Großes Ziel",
+        "Stampfattacken (W3)",
+        "Schnelle Bewegung",
+        "Entsetzen",
+        "Wilful Bestie"
+      ],
+      "unitCategory_fr": "Monstre",
+      "troopType_fr": "Créature Monstrueuse",
+      "equipment_fr": [
+        "Griffes mortelles",
+        "Peau écailleuse (counts comme armure légère)"
+      ],
+      "specialRules_fr": [
+        "Ordre Serré",
+        "Vol (9)",
+        "Grande Cible",
+        "Attaques de Piétinement (D3)",
+        "Rapide",
+        "Terreur",
+        "Wilful Maître"
+      ],
+      "unitCategory_it": "Mostro",
+      "troopType_it": "Creatura Mostruosa",
+      "equipment_it": [
+        "Wicked decapitanti",
+        "Scaly skin (counts come armatura pesante)"
+      ],
+      "specialRules_it": [
+        "Formazione Serrata",
+        "Volo (9)",
+        "Bersaglio Grande",
+        "Calpestamento (D3)",
+        "Passo Rapido",
+        "Terrore",
+        "Wilful Beast"
       ]
     },
     {
@@ -1733,6 +3051,54 @@
         "Harcownicy",
         "Szybki Krok",
         "Gromada"
+      ],
+      "unitCategory_de": "Kavallerie",
+      "troopType_de": "Leichte Kavallerie",
+      "equipment_de": [
+        "Marauder Horsemen: Hand waffen, leichte rüstung",
+        "Schlachtross: Eisenbeschlagene hufe (counts as ein hand weapon)"
+      ],
+      "specialRules_de": [
+        "Wendige Kavallerie",
+        "Schießen und Verschwinden",
+        "Mark des Chaos Undivided",
+        "Offene Ränge",
+        "Plänkler",
+        "Schnelle Bewegung",
+        "Kriegerschar"
+      ],
+      "name_de": "Marauder Horsemen",
+      "name_fr": "Cavaliers Maraudeurs",
+      "unitCategory_fr": "Cavalerie",
+      "troopType_fr": "Cavalerie Légère",
+      "equipment_fr": [
+        "Chef Squelettes: De lourdes, armure légère",
+        "Caparaçonné: Sabots squelettiques (counts comme un de lourde)"
+      ],
+      "specialRules_fr": [
+        "Cavalerie Rapide",
+        "Tir & Fuite",
+        "Marque du Chaos Universel",
+        "Ordre Dispersé",
+        "Tirailleurs",
+        "Rapide",
+        "Bande de Guerre"
+      ],
+      "name_it": "Marauder Scheletrici",
+      "unitCategory_it": "Cavalleria",
+      "troopType_it": "Cavalleria Leggera",
+      "equipment_it": [
+        "Marauder Scheletrici: Armi bianche, armatura pesante",
+        "Warhorse: Iron-shod hooves (counts come scelti armi bianca)"
+      ],
+      "specialRules_it": [
+        "Cavalleria Veloce",
+        "Tirare e Fuggire",
+        "Mark di Chaos Undivided",
+        "Formazione Aperta",
+        "Schermagliatori",
+        "Passo Rapido",
+        "Warband"
       ]
     },
     {
@@ -1796,6 +3162,53 @@
         "Relentless Wojownicy",
         "Harcownicy",
         "Gromada"
+      ],
+      "unitCategory_de": "Infanterie",
+      "troopType_de": "Reguläre Infanterie",
+      "equipment_de": [
+        "Handwaffen",
+        "Leichte Rüstung"
+      ],
+      "specialRules_de": [
+        "Raserei",
+        "Mark des Chaos Undivided",
+        "Durch Deckung bewegen",
+        "Offene Ränge",
+        "Relentless Krieger",
+        "Plänkler",
+        "Kriegerschar"
+      ],
+      "name_de": "Marauder Tribe Berserkers",
+      "name_fr": "Berserkers Maraudeurs",
+      "unitCategory_fr": "Infanterie",
+      "troopType_fr": "Infanterie Régulière",
+      "equipment_fr": [
+        "Armes de base",
+        "Armure légère"
+      ],
+      "specialRules_fr": [
+        "Frénésie",
+        "Marque du Chaos Universel",
+        "Mouvement à Couvert",
+        "Ordre Dispersé",
+        "Implacables Guerriers",
+        "Tirailleurs",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Fanteria",
+      "troopType_it": "Fanteria Regolare",
+      "equipment_it": [
+        "Armi Bianche",
+        "Armatura Leggera"
+      ],
+      "specialRules_it": [
+        "Frenzy",
+        "Mark di Chaos Undivided",
+        "Viaggiatore",
+        "Formazione Aperta",
+        "Relentless Scheletri",
+        "Schermagliatori",
+        "Warband"
       ]
     },
     {
@@ -1848,6 +3261,50 @@
         "Znak Chaosu Niepodzielonego",
         "Bojowy Okrzyk",
         "Gromada"
+      ],
+      "unitCategory_de": "Charakter",
+      "troopType_de": "Reguläre Infanterie, Charakter",
+      "equipment_de": [
+        "Handwaffe",
+        "Leichte Rüstung"
+      ],
+      "specialRules_de": [
+        "Überfall",
+        "Chaos Rüstung (6+)",
+        "Blick des der Gods",
+        "Mark des Chaos Undivided",
+        "Sammelruf",
+        "Kriegerschar"
+      ],
+      "name_de": "Marauder Tribe Chieftain",
+      "name_fr": "Chef de Tribu Maraudeur",
+      "unitCategory_fr": "Personnage",
+      "troopType_fr": "Infanterie Régulière, Personnage",
+      "equipment_fr": [
+        "Arme de base",
+        "Armure légère"
+      ],
+      "specialRules_fr": [
+        "Embusqueurs",
+        "Chaos Légère (6+)",
+        "Regard des Dieux",
+        "Marque du Chaos Universel",
+        "Cri de Ralliement",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Personaggio",
+      "troopType_it": "Fanteria Regolare, Personaggio",
+      "equipment_it": [
+        "Arma Bianca",
+        "Armatura Leggera"
+      ],
+      "specialRules_it": [
+        "Agguato",
+        "Chaos Pesante (6+)",
+        "Pietrificante di le Gods",
+        "Mark di Chaos Undivided",
+        "Grido di Battaglia",
+        "Warband"
       ]
     },
     {
@@ -1921,6 +3378,50 @@
         "Znak Chaosu Niepodzielonego",
         "Szybki Krok",
         "Gromada"
+      ],
+      "unitCategory_de": "Kavallerie",
+      "troopType_de": "Leichte Kavallerie",
+      "equipment_de": [
+        "Chaos Inneren: Hand waffen, leichte rüstung",
+        "Schlachtross: Eisenbeschlagene hufe (counts as hand waffen)"
+      ],
+      "specialRules_de": [
+        "Geschlossene Ränge",
+        "Gegenangriff",
+        "Rasender Angriff",
+        "Mark des Chaos Undivided",
+        "Schnelle Bewegung",
+        "Kriegerschar"
+      ],
+      "name_de": "Marauder Tribe Huscarls",
+      "name_fr": "Housecarls de Tribu Maraudeurs",
+      "unitCategory_fr": "Cavalerie",
+      "troopType_fr": "Cavalerie Légère",
+      "equipment_fr": [
+        "Chaos Loup: De lourdes, armure légère",
+        "Caparaçonné: Sabots squelettiques (counts comme de lourdes)"
+      ],
+      "specialRules_fr": [
+        "Ordre Serré",
+        "Contre-charge",
+        "Charge Dévastatrice",
+        "Marque du Chaos Universel",
+        "Rapide",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Cavalleria",
+      "troopType_it": "Cavalleria Leggera",
+      "equipment_it": [
+        "Chaos Knights: Armi bianche, armatura pesante",
+        "Warhorse: Iron-shod hooves (counts come armi bianche)"
+      ],
+      "specialRules_it": [
+        "Formazione Serrata",
+        "Controcarica",
+        "Furious Carica",
+        "Mark di Chaos Undivided",
+        "Passo Rapido",
+        "Warband"
       ]
     },
     {
@@ -1986,6 +3487,56 @@
         "Harcownicy",
         "Szybki Krok",
         "Warped Form"
+      ],
+      "unitCategory_de": "Infanterie",
+      "troopType_de": "Monströse Infanterie",
+      "equipment_de": [
+        "Klauen prinz fangs (counts as hand weapon)"
+      ],
+      "specialRules_de": [
+        "Die Rage",
+        "Angst",
+        "Mark des Chaos Undivided",
+        "Offene Ränge",
+        "Primal Fury",
+        "Regeneration (5+)",
+        "Plänkler",
+        "Schnelle Bewegung",
+        "Unheiliger Form"
+      ],
+      "name_de": "Skin Wolves",
+      "name_fr": "Loups Écorcheurs",
+      "unitCategory_fr": "Infanterie",
+      "troopType_fr": "Infanterie Monstrueuse",
+      "equipment_fr": [
+        "Mortelles et crocs (counts comme de lourde)"
+      ],
+      "specialRules_fr": [
+        "Rage Sanguinaire",
+        "Peur",
+        "Marque du Chaos Universel",
+        "Ordre Dispersé",
+        "Fureur Primale",
+        "Régénération (5+)",
+        "Tirailleurs",
+        "Rapide",
+        "Forme Pervertie"
+      ],
+      "unitCategory_it": "Fanteria",
+      "troopType_it": "Fanteria Mostruosa",
+      "equipment_it": [
+        "Decapitanti and fangs (counts come armi bianca)"
+      ],
+      "specialRules_it": [
+        "Blood Rage",
+        "Paura",
+        "Mark di Chaos Undivided",
+        "Formazione Aperta",
+        "Primal Fury",
+        "Rigenerazione (5+)",
+        "Schermagliatori",
+        "Passo Rapido",
+        "Warped Form"
       ]
     },
     {
@@ -2045,6 +3596,47 @@
         "Spojrzenie Bogów",
         "Lore of Chaos",
         "Znak Chaosu Niepodzielonego"
+      ],
+      "unitCategory_de": "Charakter",
+      "troopType_de": "Schwere Infanterie, Charakter",
+      "equipment_de": [
+        "Handwaffe",
+        "Schwere Rüstung"
+      ],
+      "specialRules_de": [
+        "Chaos Rüstung (5+)",
+        "Ensorcelled Waffen",
+        "Blick des der Gods",
+        "Lehre des Chaos",
+        "Mark des Chaos Undivided"
+      ],
+      "name_de": "Sorcerer Lord",
+      "name_fr": "Seigneur Sorcier",
+      "unitCategory_fr": "Personnage",
+      "troopType_fr": "Infanterie Lourde, Personnage",
+      "equipment_fr": [
+        "Arme de base",
+        "Armure lourde"
+      ],
+      "specialRules_fr": [
+        "Chaos Légère (5+)",
+        "Armes Ensorcelées",
+        "Regard des Dieux",
+        "Domaine du Chaos",
+        "Marque du Chaos Universel"
+      ],
+      "unitCategory_it": "Personaggio",
+      "troopType_it": "Fanteria Pesante, Personaggio",
+      "equipment_it": [
+        "Arma Bianca",
+        "Armatura Pesante"
+      ],
+      "specialRules_it": [
+        "Chaos Pesante (5+)",
+        "Ensorcelled Bianche",
+        "Pietrificante di le Gods",
+        "Lore di Chaos",
+        "Mark di Chaos Undivided"
       ]
     },
     {
@@ -2087,6 +3679,37 @@
         "Przeciwnatarcie",
         "Szybka Kawaleria",
         "Szybki Krok"
+      ],
+      "unitCategory_de": "Mount",
+      "troopType_de": "Leichte Kavallerie",
+      "equipment_de": [
+        "Eisenbeschlagene hufe (counts as ein hand weapon)"
+      ],
+      "specialRules_de": [
+        "Gegenangriff",
+        "Wendige Kavallerie",
+        "Schnelle Bewegung"
+      ],
+      "name_de": "Schlachtross (Krieger des Chaos)",
+      "name_fr": "Caparaçonné (Guerriers de Chaos)",
+      "troopType_fr": "Cavalerie Légère",
+      "equipment_fr": [
+        "Sabots squelettiques (counts comme un de lourde)"
+      ],
+      "specialRules_fr": [
+        "Contre-charge",
+        "Cavalerie Rapide",
+        "Rapide"
+      ],
+      "name_it": "Warhorse (Scheletri di Chaos)",
+      "troopType_it": "Cavalleria Leggera",
+      "equipment_it": [
+        "Iron-shod hooves (counts come scelti armi bianca)"
+      ],
+      "specialRules_it": [
+        "Controcarica",
+        "Cavalleria Veloce",
+        "Passo Rapido"
       ]
     },
     {
@@ -2158,6 +3781,77 @@
         "Zdeptanie (D6)",
         "Szybki Krok",
         "Groza",
+        "Warpfire Aura"
+      ],
+      "unitCategory_de": "Monster",
+      "troopType_de": "Behemoth",
+      "equipment_de": [
+        "Boshafte Klauen",
+        "Warpfire Blast",
+        "Draconic scales (counts as full plate rüstung)"
+      ],
+      "specialRules_de": [
+        "Geschlossene Ränge",
+        "Explosive Demise",
+        "Schießen & Chaos",
+        "Fliegen (10)",
+        "Großes Ziel",
+        "Lehre des Chaos",
+        "Magische Attacken",
+        "Magieresistenz (-2)",
+        "Mark des Chaos Undivided",
+        "Regeneration (5+)",
+        "Stampfattacken (W6)",
+        "Schnelle Bewegung",
+        "Entsetzen",
+        "Warpfire Aura"
+      ],
+      "name_de": "Warpfire Dragon",
+      "name_fr": "Dragon de Maleflamme",
+      "unitCategory_fr": "Monstre",
+      "troopType_fr": "Béhémoth",
+      "equipment_fr": [
+        "Griffes mortelles",
+        "Explosion de Maleflamme",
+        "Draconic scales (counts comme full plate légère)"
+      ],
+      "specialRules_fr": [
+        "Ordre Serré",
+        "Fin Explosive",
+        "Feu & Chaos",
+        "Vol (10)",
+        "Grande Cible",
+        "Domaine du Chaos",
+        "Attaques Magiques",
+        "Résistance à la Magie (-2)",
+        "Marque du Chaos Universel",
+        "Régénération (5+)",
+        "Attaques de Piétinement (D6)",
+        "Rapide",
+        "Terreur",
+        "Aura de Maleflamme"
+      ],
+      "name_it": "Warpfire Necrolitico",
+      "unitCategory_it": "Mostro",
+      "equipment_it": [
+        "Wicked decapitanti",
+        "Warpfire Blast",
+        "Draconic scales (counts come full plate pesante)"
+      ],
+      "specialRules_it": [
+        "Formazione Serrata",
+        "Explosive Demise",
+        "Tirare & Chaos",
+        "Volo (10)",
+        "Bersaglio Grande",
+        "Lore di Chaos",
+        "Magical Venefici",
+        "Resistenza alla Magia (-2)",
+        "Mark di Chaos Undivided",
+        "Rigenerazione (5+)",
+        "Calpestamento (D6)",
+        "Passo Rapido",
+        "Terrore",
         "Warpfire Aura"
       ]
     }

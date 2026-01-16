@@ -83,6 +83,49 @@
       "The Lance Formation",
       "Błogosławieństwo Pani",
       "Oath of Duty"
+    ],
+    "unitCategory_de": "Core",
+    "troopType_de": "Kavallerie",
+    "equipment_de": [
+      "Hand Weapon",
+      "Lanze",
+      "Schild",
+      "Schwere Rüstung",
+      "Elfenross Bretonisches Schlachtross"
+    ],
+    "specialRules_de": [
+      "Der Lanze Formation",
+      "Der Segen des der Lady",
+      "Oath des Duty"
+    ],
+    "name_de": "Inneren des der Realm",
+    "name_fr": "Loup de la Realm",
+    "troopType_fr": "Cavalerie",
+    "equipment_fr": [
+      "De Lourde",
+      "Lance de joute",
+      "Bouclier",
+      "Armure Légère",
+      "Destrier Destrier Caparaçonné"
+    ],
+    "specialRules_fr": [
+      "La Cathayennes Étendue",
+      "La D'Hekarti de la Dame",
+      "Oath de Duty"
+    ],
+    "name_it": "Knights di le Realm",
+    "troopType_it": "Cavalleria",
+    "equipment_it": [
+      "Armi Bianca",
+      "Lancia Pesante",
+      "Scudo",
+      "Armatura Pesante",
+      "Cavallo Bretonnian Warhorse"
+    ],
+    "specialRules_it": [
+      "Le Lance Formation",
+      "Le Blessing di le Lady",
+      "Oath di Duty"
     ]
   },
   {
@@ -172,6 +215,51 @@
       "Błogosławieństwo Pani",
       "Impulsive",
       "Oath of Knightly Vow"
+    ],
+    "unitCategory_de": "Core",
+    "troopType_de": "Kavallerie",
+    "equipment_de": [
+      "Hand Weapon",
+      "Kavallerie Lanze",
+      "Schild",
+      "Schwere Rüstung",
+      "Elfenross Bretonisches Schlachtross"
+    ],
+    "specialRules_de": [
+      "Der Lanze Formation",
+      "Der Segen des der Lady",
+      "Impulsive",
+      "Oath des Für Vow"
+    ],
+    "name_de": "Fahrende Ritter",
+    "name_fr": "Chevaliers Errants",
+    "troopType_fr": "Cavalerie",
+    "equipment_fr": [
+      "De Lourde",
+      "Rapide Cathayennes",
+      "Bouclier",
+      "Armure Légère",
+      "Destrier Destrier Caparaçonné"
+    ],
+    "specialRules_fr": [
+      "La Cathayennes Étendue",
+      "La D'Hekarti de la Dame",
+      "Impulsive",
+      "Oath de Vertus Chevalier"
+    ],
+    "troopType_it": "Cavalleria",
+    "equipment_it": [
+      "Armi Bianca",
+      "Lancia Lance",
+      "Scudo",
+      "Armatura Pesante",
+      "Cavallo Bretonnian Warhorse"
+    ],
+    "specialRules_it": [
+      "Le Lance Formation",
+      "Le Blessing di le Lady",
+      "Impulsive",
+      "Oath di Knightly Vow"
     ]
   },
   {
@@ -235,6 +323,36 @@
     ],
     "specialRules_pl": [
       "Peasant's Duty"
+    ],
+    "unitCategory_de": "Core",
+    "troopType_de": "Infanterie",
+    "equipment_de": [
+      "Hand Weapon",
+      "Hellebarde",
+      "Leichte Rüstung",
+      "Schild"
+    ],
+    "specialRules_de": [
+      "Des Bauern Pflicht"
+    ],
+    "name_de": "Landsknechte",
+    "name_fr": "Hommes d'Armes",
+    "troopType_fr": "Infanterie",
+    "equipment_fr": [
+      "De Lourde",
+      "Hallebarde",
+      "Armure Légère",
+      "Bouclier"
+    ],
+    "specialRules_fr": [
+      "Devoir du Paysan"
+    ],
+    "troopType_it": "Fanteria",
+    "equipment_it": [
+      "Armi Bianca",
+      "Alabarda",
+      "Armatura Pesante",
+      "Scudo"
     ]
   },
   {
@@ -295,6 +413,32 @@
     "specialRules_pl": [
       "Peasant's Duty",
       "Defensive Stakes"
+    ],
+    "unitCategory_de": "Core",
+    "troopType_de": "Infanterie",
+    "equipment_de": [
+      "Hand Weapon",
+      "Langbogen"
+    ],
+    "specialRules_de": [
+      "Des Bauern Pflicht",
+      "Pfähle"
+    ],
+    "name_de": "Bogenschützen",
+    "name_fr": "Paysans Archers",
+    "troopType_fr": "Infanterie",
+    "equipment_fr": [
+      "De Lourde",
+      "Arc long"
+    ],
+    "specialRules_fr": [
+      "Devoir du Paysan",
+      "Pieux de Défense"
+    ],
+    "troopType_it": "Fanteria",
+    "equipment_it": [
+      "Armi Bianca",
+      "Arco Lungo"
     ]
   },
   {
@@ -387,6 +531,54 @@
       "Odporność Na Psychologię",
       "Grail Vow",
       "Magiczne Ataki"
+    ],
+    "unitCategory_de": "Special",
+    "troopType_de": "Kavallerie",
+    "equipment_de": [
+      "Hand Weapon",
+      "Grail Lanze",
+      "Schild",
+      "Grail Rüstung",
+      "Elfenross Bretonisches Schlachtross"
+    ],
+    "specialRules_de": [
+      "Der Lanze Formation",
+      "Der Segen des der Lady",
+      "Immung gegen Psychologie",
+      "Grail Vow",
+      "Magische Attacken"
+    ],
+    "name_de": "Gralsritter",
+    "name_fr": "Chevaliers du Graal",
+    "troopType_fr": "Cavalerie",
+    "equipment_fr": [
+      "De Lourde",
+      "Grail Cathayennes",
+      "Bouclier",
+      "Grail Légère",
+      "Destrier Destrier Caparaçonné"
+    ],
+    "specialRules_fr": [
+      "La Cathayennes Étendue",
+      "La D'Hekarti de la Dame",
+      "Immunisé à la Psychologie",
+      "Grail Chevalier",
+      "Attaques Magiques"
+    ],
+    "troopType_it": "Cavalleria",
+    "equipment_it": [
+      "Armi Bianca",
+      "Grail Lance",
+      "Scudo",
+      "Grail Pesante",
+      "Cavallo Bretonnian Warhorse"
+    ],
+    "specialRules_it": [
+      "Le Lance Formation",
+      "Le Blessing di le Lady",
+      "Immune alla Psicologia",
+      "Grail Vow",
+      "Magical Venefici"
     ]
   },
   {
@@ -469,6 +661,45 @@
     "specialRules_pl": [
       "The Lance Formation",
       "Błogosławieństwo Pani",
+      "Questing Vow"
+    ],
+    "unitCategory_de": "Special",
+    "troopType_de": "Kavallerie",
+    "equipment_de": [
+      "Hand Weapon",
+      "Chepesh Weapon",
+      "Schwere Rüstung",
+      "Elfenross Bretonisches Schlachtross"
+    ],
+    "specialRules_de": [
+      "Der Lanze Formation",
+      "Der Segen des der Lady",
+      "Questing Vow"
+    ],
+    "name_de": "Questritter",
+    "name_fr": "Chevaliers de la Quête",
+    "troopType_fr": "Cavalerie",
+    "equipment_fr": [
+      "De Lourde",
+      "Armes Lourde",
+      "Armure Légère",
+      "Destrier Destrier Caparaçonné"
+    ],
+    "specialRules_fr": [
+      "La Cathayennes Étendue",
+      "La D'Hekarti de la Dame",
+      "Questing Chevalier"
+    ],
+    "troopType_it": "Cavalleria",
+    "equipment_it": [
+      "Armi Bianca",
+      "Grandi Bianca",
+      "Armatura Pesante",
+      "Cavallo Bretonnian Warhorse"
+    ],
+    "specialRules_it": [
+      "Le Lance Formation",
+      "Le Blessing di le Lady",
       "Questing Vow"
     ]
   },
@@ -558,6 +789,48 @@
       "Błogosławieństwo Pani",
       "Lot",
       "Awangarda"
+    ],
+    "unitCategory_de": "Special",
+    "troopType_de": "Monströse Kavallerie",
+    "equipment_de": [
+      "Hand Weapon",
+      "Lanze",
+      "Schild",
+      "Schwere Rüstung",
+      "Pegasus mit Rossharnisch"
+    ],
+    "specialRules_de": [
+      "Der Segen des der Lady",
+      "Fliegen",
+      "Vorhut"
+    ],
+    "name_de": "Pegasusritter",
+    "name_fr": "Chevaliers Pégases",
+    "troopType_fr": "Cavalerie Monstrueuse",
+    "equipment_fr": [
+      "De Lourde",
+      "Lance de joute",
+      "Bouclier",
+      "Armure Légère",
+      "Pégase Caparaçonné"
+    ],
+    "specialRules_fr": [
+      "La D'Hekarti de la Dame",
+      "Vol",
+      "Avant-garde"
+    ],
+    "troopType_it": "Cavalleria Mostruosa",
+    "equipment_it": [
+      "Armi Bianca",
+      "Lancia Pesante",
+      "Scudo",
+      "Armatura Pesante",
+      "Cavallo Pegasus"
+    ],
+    "specialRules_it": [
+      "Le Blessing di le Lady",
+      "Volo",
+      "Avanguardia"
     ]
   },
   {
@@ -644,6 +917,48 @@
       "Szybka Kawaleria",
       "Peasant's Duty",
       "Awangarda"
+    ],
+    "unitCategory_de": "Special",
+    "troopType_de": "Kavallerie",
+    "equipment_de": [
+      "Hand Weapon",
+      "Speer",
+      "Bogen",
+      "Leichte Rüstung",
+      "Schlachtross"
+    ],
+    "specialRules_de": [
+      "Wendige Kavallerie",
+      "Des Bauern Pflicht",
+      "Vorhut"
+    ],
+    "name_de": "Berittene Freisassen",
+    "name_fr": "Sergents montés",
+    "troopType_fr": "Cavalerie",
+    "equipment_fr": [
+      "De Lourde",
+      "Lance",
+      "Géant",
+      "Armure Légère",
+      "Caparaçonné"
+    ],
+    "specialRules_fr": [
+      "Cavalerie Rapide",
+      "Devoir du Paysan",
+      "Avant-garde"
+    ],
+    "troopType_it": "Cavalleria",
+    "equipment_it": [
+      "Armi Bianca",
+      "Leggera",
+      "Arco",
+      "Armatura Pesante",
+      "Warhorse"
+    ],
+    "specialRules_it": [
+      "Cavalleria Veloce",
+      "Peasant's Duty",
+      "Avanguardia"
     ]
   },
   {
@@ -704,6 +1019,37 @@
     "specialRules_pl": [
       "Devout",
       "Nieugięty"
+    ],
+    "unitCategory_de": "Special",
+    "troopType_de": "Infanterie",
+    "equipment_de": [
+      "Hand Weapon",
+      "Schild"
+    ],
+    "specialRules_de": [
+      "Devout",
+      "Unnachgiebig"
+    ],
+    "name_de": "Gralspilger",
+    "name_fr": "Pélerins du Graal",
+    "troopType_fr": "Infanterie",
+    "equipment_fr": [
+      "De Lourde",
+      "Bouclier"
+    ],
+    "specialRules_fr": [
+      "Devout",
+      "Obstiné"
+    ],
+    "name_it": "Stendardo Pilgrims",
+    "troopType_it": "Fanteria",
+    "equipment_it": [
+      "Armi Bianca",
+      "Scudo"
+    ],
+    "specialRules_it": [
+      "Devout",
+      "Determinato"
     ]
   },
   {
@@ -759,6 +1105,33 @@
     ],
     "specialRules_pl": [
       "Duży Cel",
+      "Crewed"
+    ],
+    "unitCategory_de": "Rare",
+    "troopType_de": "Kriegsmaschine",
+    "equipment_de": [
+      "Steinernes Thrower"
+    ],
+    "specialRules_de": [
+      "Großes Ziel",
+      "Crewed"
+    ],
+    "name_de": "Feldtrebuchet",
+    "name_fr": "Trébuchet de Campagne",
+    "troopType_fr": "Machine de Guerre",
+    "equipment_fr": [
+      "Pierre D'Aigle"
+    ],
+    "specialRules_fr": [
+      "Grande Cible",
+      "Crewed"
+    ],
+    "troopType_it": "Macchina da Guerra",
+    "equipment_it": [
+      "Stone Rancori"
+    ],
+    "specialRules_it": [
+      "Bersaglio Grande",
       "Crewed"
     ]
   },
@@ -822,6 +1195,39 @@
       "Devout",
       "Nieugięty",
       "Relic"
+    ],
+    "unitCategory_de": "Rare",
+    "troopType_de": "Infanterie",
+    "equipment_de": [
+      "Hand Weapon",
+      "Relic Schild"
+    ],
+    "specialRules_de": [
+      "Devout",
+      "Unnachgiebig",
+      "Relic"
+    ],
+    "name_de": "Gralsreliquie",
+    "name_fr": "Reliquaire du Graal",
+    "troopType_fr": "Infanterie",
+    "equipment_fr": [
+      "De Lourde",
+      "Relic Bouclier"
+    ],
+    "specialRules_fr": [
+      "Devout",
+      "Obstiné",
+      "Relic"
+    ],
+    "troopType_it": "Fanteria",
+    "equipment_it": [
+      "Armi Bianca",
+      "Relic Scudo"
+    ],
+    "specialRules_it": [
+      "Devout",
+      "Determinato",
+      "Relic"
     ]
   },
   {
@@ -863,6 +1269,33 @@
     "specialRules_pl": [
       "Błogosławieństwo Pani",
       "Czarodziej (Level 1)"
+    ],
+    "unitCategory_de": "Hero",
+    "troopType_de": "Infanterie (Charakter)",
+    "equipment_de": [
+      "Hand Weapon"
+    ],
+    "specialRules_de": [
+      "Der Segen des der Lady",
+      "Zauberer (Stufe 1)"
+    ],
+    "name_de": "Maid",
+    "name_fr": "Damoiselle",
+    "troopType_fr": "Infanterie (Personnage)",
+    "equipment_fr": [
+      "De Lourde"
+    ],
+    "specialRules_fr": [
+      "La D'Hekarti de la Dame",
+      "Sorcier (Sorcier 1)"
+    ],
+    "troopType_it": "Fanteria (Personaggio)",
+    "equipment_it": [
+      "Armi Bianca"
+    ],
+    "specialRules_it": [
+      "Le Blessing di le Lady",
+      "Wizard (Level 1)"
     ]
   },
   {
@@ -904,6 +1337,34 @@
     "specialRules_pl": [
       "Błogosławieństwo Pani",
       "Czarodziej (Level 3)"
+    ],
+    "unitCategory_de": "Lord",
+    "troopType_de": "Infanterie (Charakter)",
+    "equipment_de": [
+      "Hand Weapon"
+    ],
+    "specialRules_de": [
+      "Der Segen des der Lady",
+      "Zauberer (Stufe 3)"
+    ],
+    "name_de": "Dame des der Lady",
+    "name_fr": "Prophétesse de la Dame",
+    "troopType_fr": "Infanterie (Personnage)",
+    "equipment_fr": [
+      "De Lourde"
+    ],
+    "specialRules_fr": [
+      "La D'Hekarti de la Dame",
+      "Sorcier (Sorcier 3)"
+    ],
+    "name_it": "Prophetess di le Lady",
+    "troopType_it": "Fanteria (Personaggio)",
+    "equipment_it": [
+      "Armi Bianca"
+    ],
+    "specialRules_it": [
+      "Le Blessing di le Lady",
+      "Wizard (Level 3)"
     ]
   },
   {
@@ -945,6 +1406,38 @@
     "specialRules_pl": [
       "Błogosławieństwo Pani",
       "Oath of Duty"
+    ],
+    "unitCategory_de": "Hero",
+    "troopType_de": "Infanterie (Charakter)",
+    "equipment_de": [
+      "Hand Weapon",
+      "Schwere Rüstung",
+      "Schild"
+    ],
+    "specialRules_de": [
+      "Der Segen des der Lady",
+      "Oath des Duty"
+    ],
+    "name_de": "Paladin",
+    "troopType_fr": "Infanterie (Personnage)",
+    "equipment_fr": [
+      "De Lourde",
+      "Armure Légère",
+      "Bouclier"
+    ],
+    "specialRules_fr": [
+      "La D'Hekarti de la Dame",
+      "Oath de Duty"
+    ],
+    "troopType_it": "Fanteria (Personaggio)",
+    "equipment_it": [
+      "Armi Bianca",
+      "Armatura Pesante",
+      "Scudo"
+    ],
+    "specialRules_it": [
+      "Le Blessing di le Lady",
+      "Oath di Duty"
     ]
   },
   {
@@ -986,6 +1479,39 @@
     "specialRules_pl": [
       "Błogosławieństwo Pani",
       "Oath of Duty"
+    ],
+    "unitCategory_de": "Lord",
+    "troopType_de": "Infanterie (Charakter)",
+    "equipment_de": [
+      "Hand Weapon",
+      "Schwere Rüstung",
+      "Schild"
+    ],
+    "specialRules_de": [
+      "Der Segen des der Lady",
+      "Oath des Duty"
+    ],
+    "name_de": "Herzog",
+    "name_fr": "Duc",
+    "troopType_fr": "Infanterie (Personnage)",
+    "equipment_fr": [
+      "De Lourde",
+      "Armure Légère",
+      "Bouclier"
+    ],
+    "specialRules_fr": [
+      "La D'Hekarti de la Dame",
+      "Oath de Duty"
+    ],
+    "troopType_it": "Fanteria (Personaggio)",
+    "equipment_it": [
+      "Armi Bianca",
+      "Armatura Pesante",
+      "Scudo"
+    ],
+    "specialRules_it": [
+      "Le Blessing di le Lady",
+      "Oath di Duty"
     ]
   },
   {
@@ -1033,6 +1559,49 @@
       "The Zielony Rycerz",
       "Groza",
       "Niezłomni"
+    ],
+    "unitCategory_de": "Legendary Lord",
+    "troopType_de": "Kavallerie (Ethereal)",
+    "equipment_de": [
+      "Hand Weapon",
+      "Schild",
+      "Die Klinge des Leids"
+    ],
+    "specialRules_de": [
+      "Körperlos",
+      "Der Segen des der Lady",
+      "Der Grüne Ritter",
+      "Entsetzen",
+      "Unerschütterlich"
+    ],
+    "name_de": "Der Grüne Ritter",
+    "name_fr": "Le Chevalier de Sinople",
+    "troopType_fr": "Cavalerie (Ethereal)",
+    "equipment_fr": [
+      "De Lourde",
+      "Bouclier",
+      "La Lame de Douleur"
+    ],
+    "specialRules_fr": [
+      "Ethéré",
+      "La D'Hekarti de la Dame",
+      "Le Chevalier de Sinople",
+      "Terreur",
+      "Indémoralisable"
+    ],
+    "name_it": "Le Green Knight",
+    "troopType_it": "Cavalleria (Ethereal)",
+    "equipment_it": [
+      "Armi Bianca",
+      "Scudo",
+      "Le Dolorous Benedetta"
+    ],
+    "specialRules_it": [
+      "Ethereal",
+      "Le Blessing di le Lady",
+      "Le Green Knight",
+      "Terrore",
+      "Irriducibile"
     ]
   }
 ]

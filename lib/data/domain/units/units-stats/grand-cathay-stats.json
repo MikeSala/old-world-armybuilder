@@ -51,6 +51,37 @@
     ],
     "specialRules_pl": [
       "Harcownicy"
+    ],
+    "unitCategory_de": "War Machine",
+    "troopType_de": "Kriegsmaschine",
+    "equipment_de": [
+      "Grand großkanone",
+      "hand waffen",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Plänkler"
+    ],
+    "name_de": "Cathayan Grand Großkanone",
+    "name_fr": "Grand Canon Cathayen",
+    "troopType_fr": "Machine de Guerre",
+    "equipment_fr": [
+      "Grand canon",
+      "de lourdes",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Tirailleurs"
+    ],
+    "name_it": "Cathayan Grand Cannone",
+    "troopType_it": "Macchina da Guerra",
+    "equipment_it": [
+      "Grand cannone",
+      "armi bianche",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Schermagliatori"
     ]
   },
   {
@@ -107,6 +138,58 @@
       "Groza",
       "Dreeeewno!",
       "Niezłomni"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Handwaffe",
+      "chepesh klinge",
+      "terracotta rüstung (counts as schwere rüstung)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Immung gegen Psychologie",
+      "Unerbittliche",
+      "Großes Ziel",
+      "Stampfattacken (W3+1)",
+      "Entsetzen",
+      "Baum fällt!",
+      "Unerschütterlich"
+    ],
+    "name_de": "Cathayan Wächter",
+    "name_fr": "Sentinelle Cathayenne",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Arme de base",
+      "armes céleste",
+      "terracotta légère (counts comme armure légère)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Immunisé à la Psychologie",
+      "Implacable",
+      "Grande Cible",
+      "Attaques de Piétinement (D3+1)",
+      "Terreur",
+      "Timmm-berrr!",
+      "Indémoralisable"
+    ],
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Arma Bianca",
+      "grandi benedetta",
+      "terracotta pesante (counts come armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Immune alla Psicologia",
+      "Implacable",
+      "Bersaglio Grande",
+      "Calpestamento Venefici (D3+1)",
+      "Terrore",
+      "Assalto Inarrestabile",
+      "Irriducibile"
     ]
   },
   {
@@ -153,6 +236,42 @@
       "Przeciwnatarcie",
       "Pierwsza Szarża",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Mount",
+    "troopType_de": "Schwere Kavallerie",
+    "equipment_de": [
+      "Eisenbeschlagene hufe (counts as ein hand weapon)",
+      "rossharnische"
+    ],
+    "specialRules_de": [
+      "Cathayan Cataphracts",
+      "Gegenangriff",
+      "Erster Angriff",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Cathayan Schlachtross",
+    "name_fr": "Destrier Cathayen",
+    "troopType_fr": "Cavalerie Lourde",
+    "equipment_fr": [
+      "Sabots squelettiques (counts comme un de lourde)",
+      "caparaçon"
+    ],
+    "specialRules_fr": [
+      "Cataphractaires Cathayens",
+      "Contre-charge",
+      "Première Charge",
+      "Rapide"
+    ],
+    "troopType_it": "Cavalleria Pesante",
+    "equipment_it": [
+      "Iron-shod hooves (counts come scelti armi bianca)",
+      "bardatura"
+    ],
+    "specialRules_it": [
+      "Cathayan Cataphracts",
+      "Controcarica",
+      "Prima Carica",
+      "Passo Rapido"
     ]
   },
   {
@@ -207,6 +326,37 @@
     ],
     "specialRules_pl": [
       "Harcownicy"
+    ],
+    "unitCategory_de": "War Machine",
+    "troopType_de": "Kriegsmaschine",
+    "equipment_de": [
+      "Schießen rain rocket",
+      "hand waffen",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Plänkler"
+    ],
+    "name_de": "Schießen Rain Rocket Battery",
+    "name_fr": "Batterie de Fusées Pluie de Feu",
+    "troopType_fr": "Machine de Guerre",
+    "equipment_fr": [
+      "Batterie Pluie de Feu",
+      "de lourdes",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Tirailleurs"
+    ],
+    "name_it": "Tirare Rain Rocket Battery",
+    "troopType_it": "Macchina da Guerra",
+    "equipment_it": [
+      "Tirare rain rocket",
+      "armi bianche",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Schermagliatori"
     ]
   },
   {
@@ -251,6 +401,41 @@
     "specialRules_pl": [
       "Harmony of Kamienny & Stalowy",
       "Will of the Smoki"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Schwere Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "schwere rüstung",
+      "schild"
+    ],
+    "specialRules_de": [
+      "Harmony des Steinernes & Steel",
+      "Will des der Dragons"
+    ],
+    "name_de": "Gate Keeper",
+    "name_fr": "Gardien des Portes",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Lourde, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "armure légère",
+      "bouclier"
+    ],
+    "specialRules_fr": [
+      "Harmonie de la Pierre & de l'Acier",
+      "Volonté des Dragons"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Pesante, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "armatura pesante",
+      "scudo"
+    ],
+    "specialRules_it": [
+      "Harmony di Stone & Steel",
+      "Will di le Dragons"
     ]
   },
   {
@@ -295,6 +480,42 @@
     "specialRules_pl": [
       "Harmony of Kamienny & Stalowy",
       "Will of the Smoki"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Schwere Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "schwere rüstung",
+      "schild"
+    ],
+    "specialRules_de": [
+      "Harmony des Steinernes & Steel",
+      "Will des der Dragons"
+    ],
+    "name_de": "Gate Meister",
+    "name_fr": "Maître des Portes",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Lourde, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "armure légère",
+      "bouclier"
+    ],
+    "specialRules_fr": [
+      "Harmonie de la Pierre & de l'Acier",
+      "Volonté des Dragons"
+    ],
+    "name_it": "Gate Signore",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Pesante, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "armatura pesante",
+      "scudo"
+    ],
+    "specialRules_it": [
+      "Harmony di Stone & Steel",
+      "Will di le Dragons"
     ]
   },
   {
@@ -377,6 +598,62 @@
       "Horda",
       "Szybki Krok",
       "Will of the Smoki"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Schwere Kavallerie",
+    "equipment_de": [
+      "Handwaffen",
+      "Cathayan lanzen",
+      "schwere rüstung",
+      "schilde",
+      "Eisenbeschlagene hufe (Warhorses)",
+      "rossharnische (Warhorses)"
+    ],
+    "specialRules_de": [
+      "Cathayan Cataphracts",
+      "Geschlossene Ränge",
+      "Gegenangriff",
+      "Geschlossene Ränge",
+      "Schnelle Bewegung",
+      "Will des der Dragons"
+    ],
+    "name_de": "Jade Lancers",
+    "name_fr": "Lanciers de Jade",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Lourde",
+    "equipment_fr": [
+      "Armes de base",
+      "Lances cathayennes",
+      "armure légère",
+      "boucliers",
+      "Sabots squelettiques (Supérieurs)",
+      "caparaçon (Supérieurs)"
+    ],
+    "specialRules_fr": [
+      "Cataphractaires Cathayens",
+      "Ordre Serré",
+      "Contre-charge",
+      "Horde",
+      "Rapide",
+      "Volonté des Dragons"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Pesante",
+    "equipment_it": [
+      "Armi Bianche",
+      "Cathayan lances",
+      "armatura pesante",
+      "scudi",
+      "Iron-shod hooves (Warhorses)",
+      "bardatura (Warhorses)"
+    ],
+    "specialRules_it": [
+      "Cathayan Cataphracts",
+      "Formazione Serrata",
+      "Controcarica",
+      "Orda",
+      "Passo Rapido",
+      "Will di le Dragons"
     ]
   },
   {
@@ -437,6 +714,48 @@
       "Oddział",
       "Jednostka Regimentowa",
       "Will of the Smoki"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Schwere Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "schwere rüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Defensive Stance",
+      "Abteilung",
+      "Hauptregiment",
+      "Will des der Dragons"
+    ],
+    "name_de": "Jade Krieger",
+    "name_fr": "Guerriers de Jade",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Lourde",
+    "equipment_fr": [
+      "Armes de base",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Posture Défensive",
+      "Détachement",
+      "Unité Régimentaire",
+      "Volonté des Dragons"
+    ],
+    "name_it": "Jade Scheletri",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Pesante",
+    "equipment_it": [
+      "Armi Bianche",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Defensive Stance",
+      "Distaccamento",
+      "Unità Madre",
+      "Will di le Dragons"
     ]
   },
   {
@@ -481,6 +800,41 @@
       "Wielki Strategist",
       "Harmony of Kamienny & Stalowy",
       "Will of the Smoki"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Grand Strategist",
+      "Harmony des Steinernes & Steel",
+      "Will des der Dragons"
+    ],
+    "name_de": "Lord Magistrate",
+    "name_fr": "Seigneur Magistrat",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Stratège",
+      "Harmonie de la Pierre & de l'Acier",
+      "Volonté des Dragons"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Grand Strategist",
+      "Harmony di Stone & Steel",
+      "Will di le Dragons"
     ]
   },
   {
@@ -576,6 +930,91 @@
       "Transformation of the Smok",
       "Will of the Smoki",
       "Wrath of the Burzowy"
+    ],
+    "unitCategory_de": "Benannter Charakter",
+    "troopType_de": "Schwere Infanterie, Behemoth, Benannter Charakter",
+    "equipment_de": [
+      "Human Form: Klauen des der Storm",
+      "Human Form: schwere rüstung",
+      "Dragon Form: Klauen des der Storm",
+      "Dragon Form: Dragon schießen",
+      "Dragon Form: Draconic scales (counts as full plate rüstung)"
+    ],
+    "specialRules_de": [
+      "Celestial Forged Rüstung (5+)",
+      "Disdain des der Dragons",
+      "Hass (Krieger des Chaos & Daemonic models)",
+      "Fliegen (9) (Dragon Form leichenmeister)",
+      "Großes Ziel (Dragon Form leichenmeister)",
+      "Magieresistenz (-1)",
+      "Stratege des der Storm Winds",
+      "Stratege des der Elemental Winds",
+      "Rallying Cry (Human Form leichenmeister)",
+      "Stampfattacken Attacken (D6) (Dragon Form leichenmeister)",
+      "Unnachgiebig",
+      "Supreme Matriarch des Nan-Gau",
+      "Bewegung (Dragon Form leichenmeister)",
+      "Entsetzen (Dragon Form leichenmeister)",
+      "Transformation des der Dragon",
+      "Will des der Dragons",
+      "Wrath des der Storm"
+    ],
+    "name_de": "Miao Ying",
+    "unitCategory_fr": "Personnage nommé",
+    "troopType_fr": "Infanterie Lourde, Béhémoth, Personnage nommé",
+    "equipment_fr": [
+      "Human Pervertie: Crasseuses de la Appeler",
+      "Human Pervertie: armure légère",
+      "Solaire Pervertie: Crasseuses de la Appeler",
+      "Solaire Pervertie: Solaire tir",
+      "Solaire Pervertie: Draconic scales (counts comme full plate légère)"
+    ],
+    "specialRules_fr": [
+      "Armure Céleste (5+)",
+      "Dédain des Dragons",
+      "Haine (Guerriers du Chaos & figurines Démoniaques)",
+      "Vol (9) (Solaire Pervertie uniquement)",
+      "Grande Cible (Solaire Pervertie uniquement)",
+      "Résistance à la Magie (-1)",
+      "Maîtrise des Vents de la Tempête",
+      "Maîtrise des Vents Élémentaires",
+      "De Ralliement (Human Pervertie uniquement)",
+      "De Empoisonnées (D6) (Solaire Pervertie uniquement)",
+      "Obstiné",
+      "Matriarche Suprême de Nan-Gau",
+      "Rapide (Solaire Pervertie uniquement)",
+      "Terreur (Solaire Pervertie uniquement)",
+      "Transformation du Dragon",
+      "Volonté des Dragons",
+      "Courroux de la Tempête"
+    ],
+    "unitCategory_it": "Personaggio nominato",
+    "troopType_it": "Fanteria Pesante, Behemoth, Personaggio nominato",
+    "equipment_it": [
+      "Human Form: Talons di le Storm",
+      "Human Form: armatura pesante",
+      "Necrolitico Form: Talons di le Storm",
+      "Necrolitico Form: Necrolitico tirare",
+      "Necrolitico Form: Draconic scales (counts come full plate pesante)"
+    ],
+    "specialRules_it": [
+      "Celestial Forged Pesante (5+)",
+      "Disdain di le Dragons",
+      "Odio (Scheletri di Chaos & Daemonic models)",
+      "Volo (9) (Necrolitico Form only)",
+      "Bersaglio Grande (Necrolitico Form only)",
+      "Resistenza alla Magia (-1)",
+      "Mastery di le Storm Winds",
+      "Mastery di le Elemental Winds",
+      "Rallying Cry (Human Form only)",
+      "Calpestamento Venefici (D6) (Necrolitico Form only)",
+      "Determinato",
+      "Supreme Matriarch di Nan-Gau",
+      "Rapido (Necrolitico Form only)",
+      "Terrore (Necrolitico Form only)",
+      "Transformation di le Necrolitico",
+      "Will di le Dragons",
+      "Wrath di le Storm"
     ]
   },
   {
@@ -618,6 +1057,32 @@
     "specialRules_pl": [
       "Enough dla Everyone",
       "Mercenary Załoga"
+    ],
+    "unitCategory_de": "War Machine",
+    "troopType_de": "Monströse Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Enough für Everyone",
+      "Mercenary Haufen"
+    ],
+    "name_de": "Ogre Loader",
+    "name_fr": "Chargeur Ogre",
+    "troopType_fr": "Infanterie Monstrueuse, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Enough les Everyone",
+      "Commandant Hétéroclite"
+    ],
+    "troopType_it": "Fanteria Mostruosa, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "armatura pesante"
     ]
   },
   {
@@ -692,6 +1157,60 @@
       "Mastery of the Elemental Winds",
       "Szybki Krok",
       "Will of the Smoki"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Monströse Kreatur, Charakter",
+    "equipment_de": [
+      "Shugengan: Hand weapon",
+      "Shugengan: iron klauen",
+      "Shugengan: leichte rüstung",
+      "Chepesh Spirit Longma: Crown des horns"
+    ],
+    "specialRules_de": [
+      "Gegenangriff",
+      "Angst",
+      "Fliegen (9)",
+      "Aufpralltreffer (W3+1)",
+      "Stratege des der Elemental Winds",
+      "Schnelle Bewegung",
+      "Will des der Dragons"
+    ],
+    "name_de": "Shugengan General",
+    "name_fr": "Général Shugengan",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Créature Monstrueuse, Personnage",
+    "equipment_fr": [
+      "Seigneur: De lourde",
+      "Seigneur: démon crasseuses",
+      "Seigneur: armure légère",
+      "Armes Esprit Longma: Couronne de cornes"
+    ],
+    "specialRules_fr": [
+      "Contre-charge",
+      "Peur",
+      "Vol (9)",
+      "Touches d'Impact (D3+1)",
+      "Maîtrise des Vents Élémentaires",
+      "Rapide",
+      "Volonté des Dragons"
+    ],
+    "name_it": "Shugengan Generale",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Creatura Mostruosa, Personaggio",
+    "equipment_it": [
+      "Shugengan: Armi bianca",
+      "Shugengan: iron talons",
+      "Shugengan: armatura pesante",
+      "Grandi Spirit Longma: Corona di horns"
+    ],
+    "specialRules_it": [
+      "Controcarica",
+      "Paura",
+      "Volo (9)",
+      "Colpi da Impatto (D3+1)",
+      "Mastery di le Elemental Winds",
+      "Passo Rapido",
+      "Will di le Dragons"
     ]
   },
   {
@@ -766,6 +1285,59 @@
       "Mastery of the Elemental Winds",
       "Szybki Krok",
       "Will of the Smoki"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Monströse Kreatur, Charakter",
+    "equipment_de": [
+      "Shugengan: Hand weapon",
+      "Shugengan: iron klauen",
+      "Shugengan: leichte rüstung",
+      "Chepesh Spirit Longma: Crown des horns"
+    ],
+    "specialRules_de": [
+      "Gegenangriff",
+      "Angst",
+      "Fliegen (9)",
+      "Aufpralltreffer (W3+1)",
+      "Stratege des der Elemental Winds",
+      "Schnelle Bewegung",
+      "Will des der Dragons"
+    ],
+    "name_de": "Shugengan Lord",
+    "name_fr": "Seigneur Shugengan",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Créature Monstrueuse, Personnage",
+    "equipment_fr": [
+      "Seigneur: De lourde",
+      "Seigneur: démon crasseuses",
+      "Seigneur: armure légère",
+      "Armes Esprit Longma: Couronne de cornes"
+    ],
+    "specialRules_fr": [
+      "Contre-charge",
+      "Peur",
+      "Vol (9)",
+      "Touches d'Impact (D3+1)",
+      "Maîtrise des Vents Élémentaires",
+      "Rapide",
+      "Volonté des Dragons"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Creatura Mostruosa, Personaggio",
+    "equipment_it": [
+      "Shugengan: Armi bianca",
+      "Shugengan: iron talons",
+      "Shugengan: armatura pesante",
+      "Grandi Spirit Longma: Corona di horns"
+    ],
+    "specialRules_it": [
+      "Controcarica",
+      "Paura",
+      "Volo (9)",
+      "Colpi da Impatto (D3+1)",
+      "Mastery di le Elemental Winds",
+      "Passo Rapido",
+      "Will di le Dragons"
     ]
   },
   {
@@ -852,6 +1424,68 @@
       "Reserve Move",
       "Zwiadowcy",
       "Niezłomni"
+    ],
+    "unitCategory_de": "Streitwagen",
+    "troopType_de": "Schwerer Streitwagen",
+    "equipment_de": [
+      "Lantern Gunners: Hand waffen",
+      "Herrscher: Hand weapon"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Disengage",
+      "Eye des der Dragon",
+      "Vorgetäuschte Flucht",
+      "Schießen und Verschwinden",
+      "Fliegen (8)",
+      "Heavenly Beacon",
+      "Aufpralltreffer Hits (D3+1, Sky Lantern leichenmeister)",
+      "Großes Ziel",
+      "Reservebewegung",
+      "Kundschafter",
+      "Unerschütterlich"
+    ],
+    "name_de": "Sky Lantern",
+    "name_fr": "Lanterne Céleste",
+    "unitCategory_fr": "Char",
+    "troopType_fr": "Char Lourd",
+    "equipment_fr": [
+      "Céleste Gunners: De lourdes",
+      "Commandeur: De lourde"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Désengagement",
+      "Œil du Dragon",
+      "Fuite Feinte",
+      "Tir & Fuite",
+      "Vol (8)",
+      "Fanal Céleste",
+      "Touches D'Impact (D3+1, Lanterne Céleste uniquement)",
+      "Grande Cible",
+      "Mouvement de Réserve",
+      "Éclaireurs",
+      "Indémoralisable"
+    ],
+    "unitCategory_it": "Carro",
+    "troopType_it": "Carro Pesante",
+    "equipment_it": [
+      "Lantern Gunners: Armi bianche",
+      "Comandante: Armi bianca"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Disengage",
+      "Eye di le Necrolitico",
+      "Feigned Flight",
+      "Tirare e Fuggire",
+      "Volo (8)",
+      "Heavenly Beacon",
+      "Frecce Di (D3+1, Sky Lantern only)",
+      "Bersaglio Grande",
+      "Movimento Tattico",
+      "Esploratori",
+      "Irriducibile"
     ]
   },
   {
@@ -896,6 +1530,41 @@
       "Wielki Strategist",
       "Harmony of Kamienny & Stalowy",
       "Will of the Smoki"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Grand Strategist",
+      "Harmony des Steinernes & Steel",
+      "Will des der Dragons"
+    ],
+    "name_de": "Strategist",
+    "name_fr": "Stratège",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Stratège",
+      "Harmonie de la Pierre & de l'Acier",
+      "Volonté des Dragons"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Grand Strategist",
+      "Harmony di Stone & Steel",
+      "Will di le Dragons"
     ]
   }
 ]

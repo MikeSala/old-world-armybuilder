@@ -51,6 +51,57 @@
       "Zdeptanie (D3)",
       "Szybki Krok",
       "Groza"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Monströse Kreatur",
+    "equipment_de": [
+      "Boshafte Klauen",
+      "Poisonous schwänze",
+      "Scaly skin (counts as schwere rüstung)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Fliegen (9)",
+      "Großes Ziel",
+      "Nekromantische Untote",
+      "Stampfattacken (W3)",
+      "Schnelle Bewegung",
+      "Entsetzen"
+    ],
+    "name_de": "Schrecken der Unterwelt",
+    "name_fr": "Terreur des Abysses",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Créature Monstrueuse",
+    "equipment_fr": [
+      "Griffes mortelles",
+      "Poisonous venimeuse",
+      "Peau écailleuse (counts comme armure légère)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Vol (9)",
+      "Grande Cible",
+      "Mort-vivant Nécromantique",
+      "Attaques de Piétinement (D3)",
+      "Rapide",
+      "Terreur"
+    ],
+    "name_it": "Abyssal Terrore",
+    "unitCategory_it": "Mostro",
+    "troopType_it": "Creatura Mostruosa",
+    "equipment_it": [
+      "Wicked decapitanti",
+      "Poisonous contorte",
+      "Scaly skin (counts come armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Volo (9)",
+      "Bersaglio Grande",
+      "Necromantic Venefici",
+      "Calpestamento (D3)",
+      "Passo Rapido",
+      "Terrore"
     ]
   },
   {
@@ -95,6 +146,41 @@
       "Nekromantyczni Nieumarli",
       "Regeneracja (6+)",
       "Harcownicy"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Schwarm",
+    "equipment_de": [
+      "Klauen prinz fangs (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Fliegen (7)",
+      "Nekromantische Untote",
+      "Regeneration (6+)",
+      "Plänkler"
+    ],
+    "name_de": "Fledermausschwarm",
+    "name_fr": "Nuées de Chauves-souris",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Essaim",
+    "equipment_fr": [
+      "Mortelles et crocs (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Vol (7)",
+      "Mort-vivant Nécromantique",
+      "Régénération (6+)",
+      "Tirailleurs"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Sciame",
+    "equipment_it": [
+      "Decapitanti and fangs (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Volo (7)",
+      "Necromantic Venefici",
+      "Rigenerazione (6+)",
+      "Schermagliatori"
     ]
   },
   {
@@ -189,6 +275,59 @@
       "Regeneracja (6+)",
       "Spectral Coach",
       "Groza"
+    ],
+    "unitCategory_de": "Streitwagen",
+    "troopType_de": "Schwerer Streitwagen",
+    "equipment_de": [
+      "Wraith: Spektraler scythe",
+      "Nightmares: Eisenbeschlagene hufe (counts as hand weapon)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Erster Angriff",
+      "Aufpralltreffer (W6+2)",
+      "Unverwüstlich (1)",
+      "Magische Attacken",
+      "Nekromantische Untote",
+      "Regeneration (6+)",
+      "Spektraler Kutschwagen",
+      "Entsetzen"
+    ],
+    "name_de": "Schwarze Kutsche",
+    "name_fr": "Carrosse Noir",
+    "unitCategory_fr": "Char",
+    "troopType_fr": "Char Lourd",
+    "equipment_fr": [
+      "Des: Faucheurs scythe",
+      "Nightmares: Sabots squelettiques (counts comme de lourde)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Première Charge",
+      "Touches d'Impact (D6+2)",
+      "Indomptable (1)",
+      "Attaques Magiques",
+      "Mort-vivant Nécromantique",
+      "Régénération (6+)",
+      "Spectre",
+      "Terreur"
+    ],
+    "unitCategory_it": "Carro",
+    "troopType_it": "Carro Pesante",
+    "equipment_it": [
+      "Wraith: Spectral scythe",
+      "Nightmares: Iron-shod hooves (counts come armi bianca)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Prima Carica",
+      "Frecce Di (D6+2)",
+      "Costrutto (1)",
+      "Magical Venefici",
+      "Necromantic Venefici",
+      "Rigenerazione (6+)",
+      "Spectral Coach",
+      "Terrore"
     ]
   },
   {
@@ -282,6 +421,56 @@
       "Nekromantyczni Nieumarli",
       "Regeneracja (6+)",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Schwere Kavallerie",
+    "equipment_de": [
+      "Schwarze Inneren: Hand waffen",
+      "Schwarze Inneren: Schwere rüstung",
+      "Schwarze Inneren: Schilde",
+      "Skeletal Steeds: Skeletal hufe (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Spaltender Hieb (Jagd leichenmeister)",
+      "Geschlossene Ränge",
+      "Erster Angriff",
+      "Nekromantische Untote",
+      "Regeneration (6+)",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Fluchritter",
+    "name_fr": "Chevaliers Noirs",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Lourde",
+    "equipment_fr": [
+      "Bande Loup: De lourdes",
+      "Bande Loup: Armure légère",
+      "Bande Loup: Boucliers",
+      "Sabots Steeds: Sabots squelettiques (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Lames Fatal (Sylvains uniquement)",
+      "Ordre Serré",
+      "Première Charge",
+      "Mort-vivant Nécromantique",
+      "Régénération (6+)",
+      "Rapide"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Pesante",
+    "equipment_it": [
+      "Black Knights: Armi bianche",
+      "Black Knights: Armatura pesante",
+      "Black Knights: Scudi",
+      "Skeletal Steeds: Skeletal hooves (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Lame Mortale (Riders only)",
+      "Formazione Serrata",
+      "Prima Carica",
+      "Necromantic Venefici",
+      "Rigenerazione (6+)",
+      "Passo Rapido"
     ]
   },
   {
@@ -389,6 +578,77 @@
       "Nekromantyczni Nieumarli",
       "Regeneracja (6+)",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Schwere Kavallerie",
+    "equipment_de": [
+      "Die Inneren: Hand waffen",
+      "Die Inneren: Lanzen",
+      "Die Inneren: Schwere rüstung",
+      "Die Inneren: Schilde",
+      "Nightmares: Eisenbeschlagene hufe (counts as hand waffen)",
+      "Nightmares: Rossharnische"
+    ],
+    "specialRules_de": [
+      "Verfluchte Waffen",
+      "Geschlossene Ränge",
+      "Gegenangriff",
+      "Dark Vitality",
+      "Erster Angriff",
+      "Brennbar",
+      "Unverwüstlich (1)",
+      "Kriegerstolz",
+      "Nekromantische Untote",
+      "Regeneration (6+)",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Blutritter",
+    "name_fr": "Chevaliers de Sang",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Lourde",
+    "equipment_fr": [
+      "Rage Loup: De lourdes",
+      "Rage Loup: Cathayennes",
+      "Rage Loup: Armure légère",
+      "Rage Loup: Boucliers",
+      "Nightmares: Sabots squelettiques (counts comme de lourdes)",
+      "Nightmares: Caparaçon"
+    ],
+    "specialRules_fr": [
+      "Armes Maudites",
+      "Ordre Serré",
+      "Contre-charge",
+      "Magie Sombre",
+      "Première Charge",
+      "Inflammable",
+      "Indomptable (1)",
+      "Fierté Martiale",
+      "Mort-vivant Nécromantique",
+      "Régénération (6+)",
+      "Rapide"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Pesante",
+    "equipment_it": [
+      "Blood Knights: Armi bianche",
+      "Blood Knights: Lances",
+      "Blood Knights: Armatura pesante",
+      "Blood Knights: Scudi",
+      "Nightmares: Iron-shod hooves (counts come armi bianche)",
+      "Nightmares: Bardatura"
+    ],
+    "specialRules_it": [
+      "Accursed Bianche",
+      "Formazione Serrata",
+      "Controcarica",
+      "Dark Vitality",
+      "Prima Carica",
+      "Suscettibile al Fuoco",
+      "Costrutto (1)",
+      "Martial Pride",
+      "Necromantic Venefici",
+      "Rigenerazione (6+)",
+      "Passo Rapido"
     ]
   },
   {
@@ -435,6 +695,41 @@
       "Nekromantyczni Nieumarli",
       "Regeneracja (6+)",
       "Groza"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Spektraler scythe"
+    ],
+    "specialRules_de": [
+      "Körperlos",
+      "Unverwüstlich (1)",
+      "Nekromantische Untote",
+      "Regeneration (6+)",
+      "Entsetzen"
+    ],
+    "name_de": "Gespenst",
+    "name_fr": "Spectres des Cairns",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Faucheurs scythe"
+    ],
+    "specialRules_fr": [
+      "Ethéré",
+      "Indomptable (1)",
+      "Mort-vivant Nécromantique",
+      "Régénération (6+)",
+      "Terreur"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "specialRules_it": [
+      "Ethereal",
+      "Costrutto (1)",
+      "Necromantic Venefici",
+      "Rigenerazione (6+)",
+      "Terrore"
     ]
   },
   {
@@ -532,6 +827,59 @@
       "Nekromantyczni Nieumarli",
       "Random Attacks (The Restless Dead only)",
       "Regeneracja (6+)"
+    ],
+    "unitCategory_de": "Streitwagen",
+    "troopType_de": "Schwerer Streitwagen",
+    "equipment_de": [
+      "Nur: Hand weapon",
+      "Der Die Verstorbenen: Hand waffen"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Dark Vitality",
+      "Erster Angriff",
+      "Aufpralltreffer (W3+1)",
+      "Unverwüstlich (1)",
+      "Lehre des Untodes",
+      "Nekromantische Untote",
+      "Zufällige Attacken (nur Die Rastlosen Toten)",
+      "Regeneration (6+)"
+    ],
+    "name_de": "Leichenkarren",
+    "name_fr": "Charrette Macabre",
+    "unitCategory_fr": "Char",
+    "troopType_fr": "Char Lourd",
+    "equipment_fr": [
+      "Croque-mort: De lourde",
+      "La Restless Inapaisé: De lourdes"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Magie Sombre",
+      "Première Charge",
+      "Touches d'Impact (D3+1)",
+      "Indomptable (1)",
+      "Domaine de la Non-vie",
+      "Mort-vivant Nécromantique",
+      "Attaques Aléatoires (Cortège Inapaisé uniquement)",
+      "Régénération (6+)"
+    ],
+    "unitCategory_it": "Carro",
+    "troopType_it": "Carro Pesante",
+    "equipment_it": [
+      "Corpsemaster: Armi bianca",
+      "Le Restless Dead: Armi bianche"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Dark Vitality",
+      "Prima Carica",
+      "Colpi da Impatto (D3+1)",
+      "Costrutto (1)",
+      "Lore di Undeath",
+      "Necromantic Venefici",
+      "Random Venefici (Le Restless Dead only)",
+      "Rigenerazione (6+)"
     ]
   },
   {
@@ -632,6 +980,68 @@
       "Random Attacks (Spirit Horda only)",
       "Regeneracja (6+)",
       "Scrying Pool"
+    ],
+    "unitCategory_de": "Streitwagen",
+    "troopType_de": "Schwerer Streitwagen",
+    "equipment_de": [
+      "Pallid Handmaidens: Hand waffen",
+      "Spirit Horde: Hand waffen",
+      "Spirit Horde: Lanzen"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Dark Vitality",
+      "Erster Angriff",
+      "Fliegen (8)",
+      "Ghoulish Glamour",
+      "Aufpralltreffer (W6+1)",
+      "Großes Ziel",
+      "Nekromantische Untote",
+      "Zufällige Attacken (Spirit Horde leichenmeister)",
+      "Regeneration (6+)",
+      "Scrying Pool"
+    ],
+    "name_de": "Hexenthron",
+    "name_fr": "Trône de Sabbat",
+    "unitCategory_fr": "Char",
+    "troopType_fr": "Char Lourd",
+    "equipment_fr": [
+      "Pallid Handmaidens: De lourdes",
+      "Esprit Horde: De lourdes",
+      "Esprit Horde: Cathayennes"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Magie Sombre",
+      "Première Charge",
+      "Vol (8)",
+      "Ghoulish Glamour",
+      "Touches d'Impact (D6+1)",
+      "Grande Cible",
+      "Mort-vivant Nécromantique",
+      "Attaques Empoisonnées (Esprit Horde uniquement)",
+      "Régénération (6+)",
+      "Scrying Pool"
+    ],
+    "unitCategory_it": "Carro",
+    "troopType_it": "Carro Pesante",
+    "equipment_it": [
+      "Pallid Handmaidens: Armi bianche",
+      "Spirit Orda: Armi bianche",
+      "Spirit Orda: Lances"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Dark Vitality",
+      "Prima Carica",
+      "Volo (8)",
+      "Ghoulish Glamour",
+      "Frecce Di (D6+1)",
+      "Bersaglio Grande",
+      "Necromantic Venefici",
+      "Random Venefici (Spirit Orda only)",
+      "Rigenerazione (6+)",
+      "Scrying Pool"
     ]
   },
   {
@@ -701,6 +1111,50 @@
       "Regeneracja (6+)",
       "Reserve Move",
       "Harcownicy"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen"
+    ],
+    "specialRules_de": [
+      "Durch Deckung bewegen",
+      "Nekromantische Untote",
+      "Offene Ränge",
+      "Giftattacken",
+      "Regeneration (6+)",
+      "Reservebewegung",
+      "Plänkler"
+    ],
+    "name_de": "Gruftghule",
+    "name_fr": "Goules",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base"
+    ],
+    "specialRules_fr": [
+      "Mouvement à Couvert",
+      "Mort-vivant Nécromantique",
+      "Ordre Dispersé",
+      "Attaques Empoisonnées",
+      "Régénération (6+)",
+      "Mouvement de Réserve",
+      "Tirailleurs"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche"
+    ],
+    "specialRules_it": [
+      "Viaggiatore",
+      "Necromantic Venefici",
+      "Formazione Aperta",
+      "Arido come Polvere",
+      "Rigenerazione (6+)",
+      "Movimento Tattico",
+      "Schermagliatori"
     ]
   },
   {
@@ -768,6 +1222,47 @@
       "Luźny Szyk",
       "Regeneracja (6+)",
       "Zdeptanie (1)"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Monströse Infanterie",
+    "equipment_de": [
+      "Schmutzverkrustete Klauen"
+    ],
+    "specialRules_de": [
+      "Unverwüstlich (1)",
+      "Durch Deckung bewegen",
+      "Nekromantische Untote",
+      "Offene Ränge",
+      "Regeneration (6+)",
+      "Stampfattacken (1)"
+    ],
+    "name_de": "Gruftschrecken",
+    "name_fr": "Horreurs des Cryptes",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Monstrueuse",
+    "equipment_fr": [
+      "Griffes crasseuses"
+    ],
+    "specialRules_fr": [
+      "Indomptable (1)",
+      "Mouvement à Couvert",
+      "Mort-vivant Nécromantique",
+      "Ordre Dispersé",
+      "Régénération (6+)",
+      "Attaques de Piétinement (1)"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Mostruosa",
+    "equipment_it": [
+      "Filth-encrusted decapitanti"
+    ],
+    "specialRules_it": [
+      "Costrutto (1)",
+      "Viaggiatore",
+      "Necromantic Venefici",
+      "Formazione Aperta",
+      "Rigenerazione (6+)",
+      "Calpestamento (1)"
     ]
   },
   {
@@ -837,6 +1332,50 @@
       "Slavering Charge",
       "Szybki Krok",
       "Awangarda"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Kriegstier",
+    "equipment_de": [
+      "Klauen prinz fangs (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Nekromantische Untote",
+      "Offene Ränge",
+      "Regeneration (6+)",
+      "Reservebewegung",
+      "Geifernder Angriff",
+      "Schnelle Bewegung",
+      "Vorhut"
+    ],
+    "name_de": "Todeswölfe",
+    "name_fr": "Loup Funeste",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Bête de Guerre",
+    "equipment_fr": [
+      "Mortelles et crocs (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Mort-vivant Nécromantique",
+      "Ordre Dispersé",
+      "Régénération (6+)",
+      "Mouvement de Réserve",
+      "Charge Écumante",
+      "Rapide",
+      "Avant-garde"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Bestia da Guerra",
+    "equipment_it": [
+      "Decapitanti and fangs (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Necromantic Venefici",
+      "Formazione Aperta",
+      "Rigenerazione (6+)",
+      "Movimento Tattico",
+      "Slavering Carica",
+      "Passo Rapido",
+      "Avanguardia"
     ]
   },
   {
@@ -883,6 +1422,44 @@
       "Regeneracja (6+)",
       "Harcownicy",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Monströse Infanterie",
+    "equipment_de": [
+      "Klauen prinz fangs (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Fliegen (10)",
+      "Nekromantische Untote",
+      "Regeneration (6+)",
+      "Plänkler",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Vampirfledermäuse",
+    "name_fr": "Chauves-Souris Géantes",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Monstrueuse",
+    "equipment_fr": [
+      "Mortelles et crocs (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Vol (10)",
+      "Mort-vivant Nécromantique",
+      "Régénération (6+)",
+      "Tirailleurs",
+      "Rapide"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Mostruosa",
+    "equipment_it": [
+      "Decapitanti and fangs (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Volo (10)",
+      "Necromantic Venefici",
+      "Rigenerazione (6+)",
+      "Schermagliatori",
+      "Passo Rapido"
     ]
   },
   {
@@ -952,6 +1529,50 @@
       "Nieustępliwy (1)",
       "Nekromantyczni Nieumarli",
       "Regeneracja (6+)"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Schwere Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Schwere Rüstung",
+      "Schilde"
+    ],
+    "specialRules_de": [
+      "Spaltender Hieb",
+      "Geschlossene Ränge",
+      "Unverwüstlich (1)",
+      "Nekromantische Untote",
+      "Regeneration (6+)"
+    ],
+    "name_de": "Verfluchte",
+    "name_fr": "Garde des Cryptes",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Lourde",
+    "equipment_fr": [
+      "Armes de base",
+      "Armure lourde",
+      "Boucliers"
+    ],
+    "specialRules_fr": [
+      "Coup de Fendoir",
+      "Ordre Serré",
+      "Indomptable (1)",
+      "Mort-vivant Nécromantique",
+      "Régénération (6+)"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Pesante",
+    "equipment_it": [
+      "Armi Bianche",
+      "Armatura Pesante",
+      "Scudi"
+    ],
+    "specialRules_it": [
+      "Colpo di Grazia",
+      "Formazione Serrata",
+      "Costrutto (1)",
+      "Necromantic Venefici",
+      "Rigenerazione (6+)"
     ]
   },
   {
@@ -1051,6 +1672,65 @@
       "Spectral Reapers",
       "Szybki Krok",
       "Groza"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Leichte Kavallerie",
+    "equipment_de": [
+      "Sensenreiter: Hand waffen",
+      "Sensenreiter: Chepesh waffen",
+      "Spektraler Steeds: Skeletal hufe (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Körperlos",
+      "Flammenattacken",
+      "Fliegen (8)",
+      "Magische Attacken",
+      "Nekromantische Untote",
+      "Offene Ränge",
+      "Regeneration (6+)",
+      "Spektrale Schnitter",
+      "Schnelle Bewegung",
+      "Entsetzen"
+    ],
+    "name_de": "Sensenreiter",
+    "name_fr": "Émissaires d’Outre-tombe",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Légère",
+    "equipment_fr": [
+      "Hexwraiths: De lourdes",
+      "Hexwraiths: Armes lourdes",
+      "Faucheurs Steeds: Sabots squelettiques (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Ethéré",
+      "Attaques Enflammées",
+      "Vol (8)",
+      "Attaques Magiques",
+      "Mort-vivant Nécromantique",
+      "Ordre Dispersé",
+      "Régénération (6+)",
+      "Faucheurs Spectraux",
+      "Rapide",
+      "Terreur"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Leggera",
+    "equipment_it": [
+      "Hexwraiths: Armi bianche",
+      "Hexwraiths: Grandi bianche",
+      "Spectral Steeds: Skeletal hooves (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Ethereal",
+      "Attacchi a Base di Fuoco",
+      "Volo (8)",
+      "Magical Venefici",
+      "Necromantic Venefici",
+      "Formazione Aperta",
+      "Rigenerazione (6+)",
+      "Spectral Reapers",
+      "Passo Rapido",
+      "Terrore"
     ]
   },
   {
@@ -1104,6 +1784,48 @@
       "Lore of Undeath",
       "Nekromantyczni Nieumarli",
       "Regeneracja (5+)"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Dark Vitality",
+      "Unverwüstlich (1)",
+      "Anrufung von Nehek",
+      "Lehre des Untodes",
+      "Nekromantische Untote",
+      "Regeneration (5+)"
+    ],
+    "name_de": "Meisternekromant",
+    "name_fr": "Maître Nécromancien",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Magie Sombre",
+      "Indomptable (1)",
+      "Invocation de Nehek",
+      "Domaine de la Non-vie",
+      "Mort-vivant Nécromantique",
+      "Régénération (5+)"
+    ],
+    "name_it": "Signore Necromancer",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Dark Vitality",
+      "Costrutto (1)",
+      "Invocation di Nehek",
+      "Lore di Undeath",
+      "Necromantic Venefici",
+      "Rigenerazione (5+)"
     ]
   },
   {
@@ -1206,6 +1928,71 @@
       "Random Attacks (Spirit Horda only)",
       "Regeneracja (6+)",
       "Wailing Dirge"
+    ],
+    "unitCategory_de": "Streitwagen",
+    "troopType_de": "Schwerer Streitwagen",
+    "equipment_de": [
+      "Banshees: Hand waffen",
+      "Spirit Horde: Hand waffen",
+      "Spirit Horde: Lanzen"
+    ],
+    "specialRules_de": [
+      "Verfluchte Reliquary",
+      "Blasphemous Tome",
+      "Geschlossene Ränge",
+      "Dark Vitality",
+      "Erster Angriff",
+      "Fliegen (8)",
+      "Aufpralltreffer (W6+1)",
+      "Großes Ziel",
+      "Nekromantische Untote",
+      "Zufällige Attacken (Spirit Horde leichenmeister)",
+      "Regeneration (6+)",
+      "Wailing Dirge"
+    ],
+    "name_de": "Mortisschrein",
+    "name_fr": "Machine Mortis",
+    "unitCategory_fr": "Char",
+    "troopType_fr": "Char Lourd",
+    "equipment_fr": [
+      "Banshees: De lourdes",
+      "Esprit Horde: De lourdes",
+      "Esprit Horde: Cathayennes"
+    ],
+    "specialRules_fr": [
+      "Armes Reliquary",
+      "Blasphemous Tome",
+      "Ordre Serré",
+      "Magie Sombre",
+      "Première Charge",
+      "Vol (8)",
+      "Touches d'Impact (D6+1)",
+      "Grande Cible",
+      "Mort-vivant Nécromantique",
+      "Attaques Empoisonnées (Esprit Horde uniquement)",
+      "Régénération (6+)",
+      "Wailing Gémissement"
+    ],
+    "unitCategory_it": "Carro",
+    "troopType_it": "Carro Pesante",
+    "equipment_it": [
+      "Banshees: Armi bianche",
+      "Spirit Orda: Armi bianche",
+      "Spirit Orda: Lances"
+    ],
+    "specialRules_it": [
+      "Accursed Reliquary",
+      "Blasphemous Tome",
+      "Formazione Serrata",
+      "Dark Vitality",
+      "Prima Carica",
+      "Volo (8)",
+      "Frecce Di (D6+1)",
+      "Bersaglio Grande",
+      "Necromantic Venefici",
+      "Random Venefici (Spirit Orda only)",
+      "Rigenerazione (6+)",
+      "Wailing Dirge"
     ]
   },
   {
@@ -1259,6 +2046,47 @@
       "Lore of Undeath",
       "Nekromantyczni Nieumarli",
       "Regeneracja (5+)"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Dark Vitality",
+      "Unverwüstlich (1)",
+      "Anrufung von Nehek",
+      "Lehre des Untodes",
+      "Nekromantische Untote",
+      "Regeneration (5+)"
+    ],
+    "name_de": "Nekromant",
+    "name_fr": "Acolyte Nécromantique",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Magie Sombre",
+      "Indomptable (1)",
+      "Invocation de Nehek",
+      "Domaine de la Non-vie",
+      "Mort-vivant Nécromantique",
+      "Régénération (5+)"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Dark Vitality",
+      "Costrutto (1)",
+      "Invocation di Nehek",
+      "Lore di Undeath",
+      "Necromantic Venefici",
+      "Rigenerazione (5+)"
     ]
   },
   {
@@ -1305,6 +2133,42 @@
       "Pierwsza Szarża",
       "Nekromantyczni Nieumarli",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Mount",
+    "troopType_de": "Schwere Kavallerie",
+    "equipment_de": [
+      "Eisenbeschlagene hufe (counts as ein hand weapon)",
+      "Rossharnisch"
+    ],
+    "specialRules_de": [
+      "Gegenangriff",
+      "Erster Angriff",
+      "Nekromantische Untote",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Nachtmahr",
+    "name_fr": "Cauchemar",
+    "troopType_fr": "Cavalerie Lourde",
+    "equipment_fr": [
+      "Sabots squelettiques (counts comme un de lourde)",
+      "Caparaçon"
+    ],
+    "specialRules_fr": [
+      "Contre-charge",
+      "Première Charge",
+      "Mort-vivant Nécromantique",
+      "Rapide"
+    ],
+    "troopType_it": "Cavalleria Pesante",
+    "equipment_it": [
+      "Iron-shod hooves (counts come scelti armi bianca)",
+      "Bardatura"
+    ],
+    "specialRules_it": [
+      "Controcarica",
+      "Prima Carica",
+      "Necromantic Venefici",
+      "Passo Rapido"
     ]
   },
   {
@@ -1349,6 +2213,40 @@
       "Pierwsza Szarża",
       "Nekromantyczni Nieumarli",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Mount",
+    "troopType_de": "Schwere Kavallerie",
+    "equipment_de": [
+      "Skeletal hufe (counts as hand weapon)",
+      "Rossharnisch"
+    ],
+    "specialRules_de": [
+      "Erster Angriff",
+      "Nekromantische Untote",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Skeletal Rossharnisch (Vampire Counts)",
+    "name_fr": "Sabots Monture (Vampires Counts)",
+    "troopType_fr": "Cavalerie Lourde",
+    "equipment_fr": [
+      "Sabots squelettiques (counts comme de lourde)",
+      "Caparaçon"
+    ],
+    "specialRules_fr": [
+      "Première Charge",
+      "Mort-vivant Nécromantique",
+      "Rapide"
+    ],
+    "name_it": "Skeletal Elfico (Vampire Counts)",
+    "troopType_it": "Cavalleria Pesante",
+    "equipment_it": [
+      "Skeletal hooves (counts come armi bianca)",
+      "Bardatura"
+    ],
+    "specialRules_it": [
+      "Prima Carica",
+      "Necromantic Venefici",
+      "Passo Rapido"
     ]
   },
   {
@@ -1416,6 +2314,48 @@
       "Horda",
       "Nekromantyczni Nieumarli",
       "Regeneracja (6+)"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Leichte Rüstung",
+      "Schilde"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Geschlossene Ränge",
+      "Nekromantische Untote",
+      "Regeneration (6+)"
+    ],
+    "name_de": "Skelett Krieger (Vampire Counts)",
+    "name_fr": "Char Guerriers (Vampires Counts)",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Armure légère",
+      "Boucliers"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Horde",
+      "Mort-vivant Nécromantique",
+      "Régénération (6+)"
+    ],
+    "name_it": "Carro Scheletri (Vampire Counts)",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Armatura Leggera",
+      "Scudi"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Orda",
+      "Necromantic Venefici",
+      "Rigenerazione (6+)"
     ]
   },
   {
@@ -1466,6 +2406,50 @@
       "Luźny Szyk",
       "Regeneracja (6+)",
       "Reserve Move"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Schwarm",
+    "equipment_de": [
+      "Handwaffen"
+    ],
+    "specialRules_de": [
+      "Gebundene Geister",
+      "Körperlos",
+      "Magische Attacken",
+      "Nekromantische Untote",
+      "Offene Ränge",
+      "Regeneration (6+)",
+      "Reservebewegung"
+    ],
+    "name_de": "Geisterschar",
+    "name_fr": "Nuée d’Esprits",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Essaim",
+    "equipment_fr": [
+      "Armes de base"
+    ],
+    "specialRules_fr": [
+      "Esprits Liés",
+      "Ethéré",
+      "Attaques Magiques",
+      "Mort-vivant Nécromantique",
+      "Ordre Dispersé",
+      "Régénération (6+)",
+      "Mouvement de Réserve"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Sciame",
+    "equipment_it": [
+      "Armi Bianche"
+    ],
+    "specialRules_it": [
+      "Bound Spirits",
+      "Ethereal",
+      "Magical Venefici",
+      "Necromantic Venefici",
+      "Formazione Aperta",
+      "Rigenerazione (6+)",
+      "Movimento Tattico"
     ]
   },
   {
@@ -1525,6 +2509,57 @@
       "Trujące Ataki",
       "Regeneracja (5+)",
       "The Hunger"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Dark Vitality",
+      "Brennbar",
+      "Hass (alle Feinde)",
+      "Unverwüstlich (1)",
+      "Lehre des Untodes",
+      "Nekromantische Untote",
+      "Giftattacken",
+      "Regeneration (5+)",
+      "Der Hunger"
+    ],
+    "name_de": "Strigoi-Ghulkönig",
+    "name_fr": "Roi Goule",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Magie Sombre",
+      "Inflammable",
+      "Haine (Tous les ennemis)",
+      "Indomptable (1)",
+      "Domaine de la Non-vie",
+      "Mort-vivant Nécromantique",
+      "Attaques Empoisonnées",
+      "Régénération (5+)",
+      "La Dévorante"
+    ],
+    "name_it": "Strigoi Ghoul Re",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Dark Vitality",
+      "Suscettibile al Fuoco",
+      "Odio (all enemies)",
+      "Costrutto (1)",
+      "Lore di Undeath",
+      "Necromantic Venefici",
+      "Arido come Polvere",
+      "Rigenerazione (5+)",
+      "Le Hunger"
     ]
   },
   {
@@ -1586,6 +2621,67 @@
       "Zdeptanie (D6)",
       "Szybki Krok",
       "Groza",
+      "Wailing Dirge"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Schmutzverkrustete Klauen",
+      "Fauliges Maul",
+      "Schwielige haut (counts as leichte rüstung)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Fliegen (9)",
+      "Unverwüstlich (1)",
+      "Fledermausbefall",
+      "Großes Ziel",
+      "Nekromantische Untote",
+      "Regeneration (5+)",
+      "Stampfattacken (W6)",
+      "Schnelle Bewegung",
+      "Entsetzen",
+      "Wailing Dirge"
+    ],
+    "name_de": "Flederbestie",
+    "name_fr": "Terreurgheist",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Serres crasseuses",
+      "Gueule pourrie",
+      "Peau blindée (counts comme armure légère)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Vol (9)",
+      "Indomptable (1)",
+      "Infesté",
+      "Grande Cible",
+      "Mort-vivant Nécromantique",
+      "Régénération (5+)",
+      "Attaques de Piétinement (D6)",
+      "Rapide",
+      "Terreur",
+      "Wailing Gémissement"
+    ],
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Filth-encrusted talons",
+      "Rancid maw",
+      "Calloused hide (counts come armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Volo (9)",
+      "Costrutto (1)",
+      "Infested",
+      "Bersaglio Grande",
+      "Necromantic Venefici",
+      "Rigenerazione (5+)",
+      "Calpestamento (D6)",
+      "Passo Rapido",
+      "Terrore",
       "Wailing Dirge"
     ]
   },
@@ -1649,6 +2745,65 @@
       "Szybki Krok",
       "Groza",
       "Wailing Dirge"
+    ],
+    "unitCategory_de": "Mount",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Schmutzverkrustete Klauen",
+      "Fauliges Maul",
+      "Schwielige haut (counts as leichte rüstung)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Fliegen (9)",
+      "Unverwüstlich (1)",
+      "Fledermausbefall",
+      "Großes Ziel",
+      "Nekromantische Untote",
+      "Regeneration (5+)",
+      "Stampfattacken (W6)",
+      "Schnelle Bewegung",
+      "Entsetzen",
+      "Wailing Dirge"
+    ],
+    "name_de": "Flederbestie (Mount)",
+    "name_fr": "Terreurgheist (Démoniaque)",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Serres crasseuses",
+      "Gueule pourrie",
+      "Peau blindée (counts comme armure légère)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Vol (9)",
+      "Indomptable (1)",
+      "Infesté",
+      "Grande Cible",
+      "Mort-vivant Nécromantique",
+      "Régénération (5+)",
+      "Attaques de Piétinement (D6)",
+      "Rapide",
+      "Terreur",
+      "Wailing Gémissement"
+    ],
+    "equipment_it": [
+      "Filth-encrusted talons",
+      "Rancid maw",
+      "Calloused hide (counts come armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Volo (9)",
+      "Costrutto (1)",
+      "Infested",
+      "Bersaglio Grande",
+      "Necromantic Venefici",
+      "Rigenerazione (5+)",
+      "Calpestamento (D6)",
+      "Passo Rapido",
+      "Terrore",
+      "Wailing Dirge"
     ]
   },
   {
@@ -1698,6 +2853,51 @@
       "Nekromantyczni Nieumarli",
       "Regeneracja (6+)",
       "Groza",
+      "Wailing Dirge"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Körperlos",
+      "Unverwüstlich (1)",
+      "Magische Attacken",
+      "Nekromantische Untote",
+      "Regeneration (6+)",
+      "Entsetzen",
+      "Wailing Dirge"
+    ],
+    "name_de": "Banshee",
+    "name_fr": "Banshee",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Ethéré",
+      "Indomptable (1)",
+      "Attaques Magiques",
+      "Mort-vivant Nécromantique",
+      "Régénération (6+)",
+      "Terreur",
+      "Wailing Gémissement"
+    ],
+    "name_it": "Del Banshee",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Ethereal",
+      "Costrutto (1)",
+      "Magical Venefici",
+      "Necromantic Venefici",
+      "Rigenerazione (6+)",
+      "Terrore",
       "Wailing Dirge"
     ]
   },
@@ -1752,6 +2952,46 @@
       "Lore of Undeath",
       "Nekromantyczni Nieumarli",
       "Regeneracja (5+)"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Dark Vitality",
+      "Brennbar",
+      "Unverwüstlich (2)",
+      "Lehre des Untodes",
+      "Nekromantische Untote",
+      "Regeneration (5+)"
+    ],
+    "name_fr": "Vampires Count",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Magie Sombre",
+      "Inflammable",
+      "Indomptable (2)",
+      "Domaine de la Non-vie",
+      "Mort-vivant Nécromantique",
+      "Régénération (5+)"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Dark Vitality",
+      "Suscettibile al Fuoco",
+      "Costrutto (2)",
+      "Lore di Undeath",
+      "Necromantic Venefici",
+      "Rigenerazione (5+)"
     ]
   },
   {
@@ -1807,6 +3047,50 @@
       "Lore of Undeath",
       "Nekromantyczni Nieumarli",
       "Regeneracja (5+)"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Banner des Grafen",
+      "Dark Vitality",
+      "Brennbar",
+      "Unverwüstlich (1)",
+      "Lehre des Untodes",
+      "Nekromantische Untote",
+      "Regeneration (5+)"
+    ],
+    "name_de": "Vampir",
+    "name_fr": "Vampires Nouveau-né",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Bannière du Comte",
+      "Magie Sombre",
+      "Inflammable",
+      "Indomptable (1)",
+      "Domaine de la Non-vie",
+      "Mort-vivant Nécromantique",
+      "Régénération (5+)"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Banner di le Count",
+      "Dark Vitality",
+      "Suscettibile al Fuoco",
+      "Costrutto (1)",
+      "Lore di Undeath",
+      "Necromantic Venefici",
+      "Rigenerazione (5+)"
     ]
   },
   {
@@ -1880,6 +3164,55 @@
       "Nekromantyczni Nieumarli",
       "Regeneracja (6+)",
       "Harcownicy"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Monströse Infanterie",
+    "equipment_de": [
+      "Boshafte Klauen"
+    ],
+    "specialRules_de": [
+      "Rüstungsfluch (2)",
+      "Dark Vitality",
+      "Brennbar",
+      "Fliegen (9)",
+      "Raserei",
+      "Unverwüstlich (1)",
+      "Nekromantische Untote",
+      "Regeneration (6+)",
+      "Plänkler"
+    ],
+    "name_de": "Vargheists",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Monstrueuse",
+    "equipment_fr": [
+      "Griffes mortelles"
+    ],
+    "specialRules_fr": [
+      "Arme Perforante (2)",
+      "Magie Sombre",
+      "Inflammable",
+      "Vol (9)",
+      "Frénésie",
+      "Indomptable (1)",
+      "Mort-vivant Nécromantique",
+      "Régénération (6+)",
+      "Tirailleurs"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Mostruosa",
+    "equipment_it": [
+      "Wicked decapitanti"
+    ],
+    "specialRules_it": [
+      "Pesante Dell’Armatura (2)",
+      "Dark Vitality",
+      "Suscettibile al Fuoco",
+      "Volo (9)",
+      "Frenzy",
+      "Costrutto (1)",
+      "Necromantic Venefici",
+      "Rigenerazione (6+)",
+      "Schermagliatori"
     ]
   },
   {
@@ -1940,6 +3273,64 @@
       "Regeneracja (5+)",
       "Szybki Krok",
       "Groza"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Monströse Kreatur",
+    "equipment_de": [
+      "Boshafte Klauen",
+      "Schwielige haut (counts as leichte rüstung)"
+    ],
+    "specialRules_de": [
+      "Bestienwut",
+      "Geschlossene Ränge",
+      "Gegenangriff",
+      "Dark Vitality",
+      "Brennbar",
+      "Raserei",
+      "Unverwüstlich (1)",
+      "Nekromantische Untote",
+      "Regeneration (5+)",
+      "Schnelle Bewegung",
+      "Entsetzen"
+    ],
+    "name_de": "Varghulf",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Créature Monstrueuse",
+    "equipment_fr": [
+      "Griffes mortelles",
+      "Peau blindée (counts comme armure légère)"
+    ],
+    "specialRules_fr": [
+      "Furie Bestiale",
+      "Ordre Serré",
+      "Contre-charge",
+      "Magie Sombre",
+      "Inflammable",
+      "Frénésie",
+      "Indomptable (1)",
+      "Mort-vivant Nécromantique",
+      "Régénération (5+)",
+      "Rapide",
+      "Terreur"
+    ],
+    "unitCategory_it": "Mostro",
+    "troopType_it": "Creatura Mostruosa",
+    "equipment_it": [
+      "Wicked decapitanti",
+      "Calloused hide (counts come armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Bestial Fury",
+      "Formazione Serrata",
+      "Controcarica",
+      "Dark Vitality",
+      "Suscettibile al Fuoco",
+      "Frenzy",
+      "Costrutto (1)",
+      "Necromantic Venefici",
+      "Rigenerazione (5+)",
+      "Passo Rapido",
+      "Terrore"
     ]
   },
   {
@@ -1986,6 +3377,45 @@
       "Killing Blow",
       "Nekromantyczni Nieumarli",
       "Regeneracja (5+)"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Schwere Rüstung"
+    ],
+    "specialRules_de": [
+      "Unverwüstlich (1)",
+      "Todesstoss",
+      "Nekromantische Untote",
+      "Regeneration (5+)"
+    ],
+    "name_de": "Fluchfürst",
+    "name_fr": "Roi Revenant",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "Armure lourde"
+    ],
+    "specialRules_fr": [
+      "Indomptable (1)",
+      "Coup Fatal",
+      "Mort-vivant Nécromantique",
+      "Régénération (5+)"
+    ],
+    "name_it": "Wight Re",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "Armatura Pesante"
+    ],
+    "specialRules_it": [
+      "Costrutto (1)",
+      "Colpo Mortale",
+      "Necromantic Venefici",
+      "Rigenerazione (5+)"
     ]
   },
   {
@@ -2031,6 +3461,44 @@
       "Killing Blow",
       "Nekromantyczni Nieumarli",
       "Regeneracja (6+)",
+      "Wight Banner"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Schwere Rüstung"
+    ],
+    "specialRules_de": [
+      "Todesstoss",
+      "Nekromantische Untote",
+      "Regeneration (6+)",
+      "Fluchbanner"
+    ],
+    "name_de": "Fluchherr",
+    "name_fr": "Seigneur Revenant",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "Armure lourde"
+    ],
+    "specialRules_fr": [
+      "Coup Fatal",
+      "Mort-vivant Nécromantique",
+      "Régénération (6+)",
+      "Bannière du Revenant"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "Armatura Pesante"
+    ],
+    "specialRules_it": [
+      "Colpo Mortale",
+      "Necromantic Venefici",
+      "Rigenerazione (6+)",
       "Wight Banner"
     ]
   },
@@ -2088,6 +3556,59 @@
       "Zdeptanie (D6)",
       "Szybki Krok",
       "Groza"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Boshafte Klauen",
+      "Pestilential atem",
+      "Draconic scales (counts as full plate rüstung)"
+    ],
+    "specialRules_de": [
+      "Todesgeier Feeders",
+      "Geschlossene Ränge",
+      "Fliegen (9)",
+      "Großes Ziel",
+      "Nekromantische Untote",
+      "Stampfattacken (W6)",
+      "Schnelle Bewegung",
+      "Entsetzen"
+    ],
+    "name_de": "Zombiedrache",
+    "name_fr": "Dragon Zombie",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Griffes mortelles",
+      "Pestilential glacial",
+      "Draconic scales (counts comme full plate légère)"
+    ],
+    "specialRules_fr": [
+      "Charognards Feeders",
+      "Ordre Serré",
+      "Vol (9)",
+      "Grande Cible",
+      "Mort-vivant Nécromantique",
+      "Attaques de Piétinement (D6)",
+      "Rapide",
+      "Terreur"
+    ],
+    "name_it": "Zombie Necrolitico",
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Wicked decapitanti",
+      "Pestilential breath",
+      "Draconic scales (counts come full plate pesante)"
+    ],
+    "specialRules_it": [
+      "Carogne Feeders",
+      "Formazione Serrata",
+      "Volo (9)",
+      "Bersaglio Grande",
+      "Necromantic Venefici",
+      "Calpestamento (D6)",
+      "Passo Rapido",
+      "Terrore"
     ]
   },
   {
@@ -2134,6 +3655,43 @@
       "Nekromantyczni Nieumarli",
       "Regeneracja (6+)",
       "The Newly Dead"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Geschlossene Ränge",
+      "Nekromantische Untote",
+      "Regeneration (6+)",
+      "Der Kürzlich Verstorbenen"
+    ],
+    "name_de": "Zombies",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Horde",
+      "Mort-vivant Nécromantique",
+      "Régénération (6+)",
+      "La Newly Inapaisé"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Orda",
+      "Necromantic Venefici",
+      "Rigenerazione (6+)",
+      "Le Newly Dead"
     ]
   }
 ]

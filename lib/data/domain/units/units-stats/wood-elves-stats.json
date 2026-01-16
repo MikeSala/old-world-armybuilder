@@ -50,6 +50,60 @@
       "Skaryn the Eye Thief",
       "Strike First",
       "Nieugięty"
+    ],
+    "unitCategory_de": "Benannter Charakter",
+    "troopType_de": "Reguläre Infanterie, Benannter Charakter",
+    "equipment_de": [
+      "Schwere Rüstung",
+      "Schild",
+      "Speer des Talsyn"
+    ],
+    "specialRules_de": [
+      "Boldest des der Bold",
+      "Ausweichen",
+      "Favour des der Goddess",
+      "Durch Deckung bewegen",
+      "Sammelruf",
+      "Skaryn der Eye Thief",
+      "Schlägt zuerst zu",
+      "Unnachgiebig"
+    ],
+    "name_de": "Araloth, Lord des Talsyn",
+    "name_fr": "Araloth, Sorcier de Talsyn",
+    "unitCategory_fr": "Personnage nommé",
+    "troopType_fr": "Infanterie Régulière, Personnage nommé",
+    "equipment_fr": [
+      "Armure lourde",
+      "Bouclier",
+      "Lance de Talsyn"
+    ],
+    "specialRules_fr": [
+      "Intrépide Entre Tous",
+      "Esquiveur",
+      "Faveur de la Déesse",
+      "Mouvement à Couvert",
+      "Cri de Ralliement",
+      "Skaryn le Voleur d’Yeux",
+      "Frappe En Premier",
+      "Obstiné"
+    ],
+    "name_it": "Araloth, Lord di Talsyn",
+    "unitCategory_it": "Personaggio nominato",
+    "troopType_it": "Fanteria Regolare, Personaggio nominato",
+    "equipment_it": [
+      "Armatura Pesante",
+      "Scudo",
+      "Leggera di Talsyn"
+    ],
+    "specialRules_it": [
+      "Boldest di le Bold",
+      "Evasione",
+      "Favour di le Goddess",
+      "Viaggiatore",
+      "Grido di Battaglia",
+      "Skaryn le Eye Thief",
+      "Attacca Per Primo",
+      "Determinato"
     ]
   },
   {
@@ -95,6 +149,48 @@
       "Zbieranina",
       "Run z the Pack",
       "Harcownicy"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Kriegstier",
+    "equipment_de": [
+      "Klauen, fangs, hauer prinz teeth (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Zähe Haut (1)",
+      "Spaltender Hieb",
+      "Angst",
+      "Zusammengewürfelter Haufen",
+      "Verschwinden mit der Pack",
+      "Plänkler"
+    ],
+    "name_de": "Bear des Loren",
+    "name_fr": "Ours de Loren",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Bête de Guerre",
+    "equipment_fr": [
+      "Mortelles, crocs, défenses et teeth (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Peau Blindée (1)",
+      "Coup de Fendoir",
+      "Peur",
+      "Bande Hétéroclite",
+      "Courir avec la Meute",
+      "Tirailleurs"
+    ],
+    "name_it": "Bear di Loren",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Bestia da Guerra",
+    "equipment_it": [
+      "Decapitanti, fangs, tusks and teeth (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Pelle a Scaglie (1)",
+      "Colpo di Grazia",
+      "Paura",
+      "Equipaggiamento Eterogeneo",
+      "Run with le Pack",
+      "Schermagliatori"
     ]
   },
   {
@@ -140,6 +236,47 @@
       "Przechodzenie Przez Zasłony",
       "Run z the Pack",
       "Harcownicy"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffe",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Elfenreflexe",
+      "Zusammengewürfelter Haufen",
+      "Durch Deckung bewegen",
+      "Verschwinden mit der Pack",
+      "Plänkler"
+    ],
+    "name_de": "Bestie Keeper",
+    "name_fr": "Maître Gardien",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Arme de base",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "Réflexes Elfiques",
+      "Bande Hétéroclite",
+      "Mouvement à Couvert",
+      "Courir avec la Meute",
+      "Tirailleurs"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Arma Bianca",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Riflessi Elfici",
+      "Equipaggiamento Eterogeneo",
+      "Viaggiatore",
+      "Run with le Pack",
+      "Schermagliatori"
     ]
   },
   {
@@ -196,6 +333,56 @@
       "Przechodzenie Przez Zasłony",
       "Regeneracja (6+)",
       "Tree Spirit"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Sapwood flesh (counts as leichte rüstung)"
+    ],
+    "specialRules_de": [
+      "Angst",
+      "Brennbar",
+      "Immung gegen Psychologie",
+      "Lehre Athel Lorens",
+      "Magische Attacken",
+      "Durch Deckung bewegen",
+      "Regeneration (6+)",
+      "Baumgeist"
+    ],
+    "name_de": "Zweigpriesterin",
+    "name_fr": "Branchimère",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "Sapwood flesh (counts comme armure légère)"
+    ],
+    "specialRules_fr": [
+      "Peur",
+      "Inflammable",
+      "Immunisé à la Psychologie",
+      "Domaine d'Athel Loren",
+      "Attaques Magiques",
+      "Mouvement à Couvert",
+      "Régénération (6+)",
+      "Esprit des Forêts"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "Sapwood flesh (counts come armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Paura",
+      "Suscettibile al Fuoco",
+      "Immune alla Psicologia",
+      "Lore di Athel Loren",
+      "Magical Venefici",
+      "Viaggiatore",
+      "Rigenerazione (6+)",
+      "Tree Spirit"
     ]
   },
   {
@@ -237,6 +424,41 @@
       "Run z the Pack",
       "Harcownicy",
       "Gromada"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Kriegstier",
+    "equipment_de": [
+      "Klauen, fangs, hauer prinz teeth (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Zusammengewürfelter Haufen",
+      "Verschwinden mit der Pack",
+      "Plänkler",
+      "Kriegerschar"
+    ],
+    "name_de": "Deepwood Hound",
+    "name_fr": "Chien du Grand-bois",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Bête de Guerre",
+    "equipment_fr": [
+      "Mortelles, crocs, défenses et teeth (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Bande Hétéroclite",
+      "Courir avec la Meute",
+      "Tirailleurs",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Bestia da Guerra",
+    "equipment_it": [
+      "Decapitanti, fangs, tusks and teeth (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Equipaggiamento Eterogeneo",
+      "Run with le Pack",
+      "Schermagliatori",
+      "Warband"
     ]
   },
   {
@@ -302,6 +524,54 @@
       "Luźny Szyk",
       "Zwiadowcy",
       "Harcownicy"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Asrai-Langbogen"
+    ],
+    "specialRules_de": [
+      "Elfenreflexe",
+      "Ausweichen",
+      "Schießen und Verschwinden",
+      "Durch Deckung bewegen",
+      "Offene Ränge",
+      "Kundschafter",
+      "Plänkler"
+    ],
+    "name_de": "Waldelfenkundschafter",
+    "name_fr": "Éclaireurs du Grand-bois",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Arcs longs Asrai"
+    ],
+    "specialRules_fr": [
+      "Réflexes Elfiques",
+      "Esquiveur",
+      "Tir & Fuite",
+      "Mouvement à Couvert",
+      "Ordre Dispersé",
+      "Éclaireurs",
+      "Tirailleurs"
+    ],
+    "name_it": "Deepwood Esploratori",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Asrai longbows"
+    ],
+    "specialRules_it": [
+      "Riflessi Elfici",
+      "Evasione",
+      "Tirare e Fuggire",
+      "Viaggiatore",
+      "Formazione Aperta",
+      "Esploratori",
+      "Schermagliatori"
     ]
   },
   {
@@ -373,6 +643,62 @@
       "Harcownicy",
       "Nieugięty",
       "Tree Spirit"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Sapwood flesh (counts as leichte rüstung)"
+    ],
+    "specialRules_de": [
+      "Angst",
+      "Brennbar",
+      "Immung gegen Psychologie",
+      "Magische Attacken",
+      "Durch Deckung bewegen",
+      "Offene Ränge",
+      "Regeneration (6+)",
+      "Plänkler",
+      "Unnachgiebig",
+      "Baumgeist"
+    ],
+    "name_de": "Dryaden",
+    "name_fr": "Dryades",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Sapwood flesh (counts comme armure légère)"
+    ],
+    "specialRules_fr": [
+      "Peur",
+      "Inflammable",
+      "Immunisé à la Psychologie",
+      "Attaques Magiques",
+      "Mouvement à Couvert",
+      "Ordre Dispersé",
+      "Régénération (6+)",
+      "Tirailleurs",
+      "Obstiné",
+      "Esprit des Forêts"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Sapwood flesh (counts come armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Paura",
+      "Suscettibile al Fuoco",
+      "Immune alla Psicologia",
+      "Magical Venefici",
+      "Viaggiatore",
+      "Formazione Aperta",
+      "Rigenerazione (6+)",
+      "Schermagliatori",
+      "Determinato",
+      "Tree Spirit"
     ]
   },
   {
@@ -410,6 +736,34 @@
     "specialRules_pl": [
       "Szybka Kawaleria",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Mount",
+    "troopType_de": "Leichte Kavallerie",
+    "equipment_de": [
+      "Hufe (counts as ein hand weapon)"
+    ],
+    "specialRules_de": [
+      "Wendige Kavallerie",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Elfenross",
+    "name_fr": "Coursier Elfique",
+    "troopType_fr": "Cavalerie Légère",
+    "equipment_fr": [
+      "Squelettiques (counts comme un de lourde)"
+    ],
+    "specialRules_fr": [
+      "Cavalerie Rapide",
+      "Rapide"
+    ],
+    "name_it": "Cavallo Elfico",
+    "troopType_it": "Cavalleria Leggera",
+    "equipment_it": [
+      "Hooves (counts come scelti armi bianca)"
+    ],
+    "specialRules_it": [
+      "Cavalleria Veloce",
+      "Passo Rapido"
     ]
   },
   {
@@ -473,6 +827,51 @@
       "Martial Prowess",
       "Przechodzenie Przez Zasłony",
       "Nieugięty"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Asrai-Speere",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Elfenreflexe",
+      "Kriegerisches Können",
+      "Durch Deckung bewegen",
+      "Unnachgiebig"
+    ],
+    "name_de": "Ewige Wache",
+    "name_fr": "Garde Éternelle",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Lances Asrai",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Réflexes Elfiques",
+      "Prouesses Martiales",
+      "Mouvement à Couvert",
+      "Obstiné"
+    ],
+    "name_it": "Eterno Guard",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Asrai leggera",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Riflessi Elfici",
+      "Martial Prowess",
+      "Viaggiatore",
+      "Determinato"
     ]
   },
   {
@@ -514,6 +913,41 @@
       "Zbieranina",
       "Run z the Pack",
       "Harcownicy"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Kriegstier",
+    "equipment_de": [
+      "Klauen, fangs, hauer prinz teeth (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Rüstungsfluch (1)",
+      "Zusammengewürfelter Haufen",
+      "Verschwinden mit der Pack",
+      "Plänkler"
+    ],
+    "name_de": "Forest Cat",
+    "name_fr": "Chat des Forêts",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Bête de Guerre",
+    "equipment_fr": [
+      "Mortelles, crocs, défenses et teeth (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Arme Perforante (1)",
+      "Bande Hétéroclite",
+      "Courir avec la Meute",
+      "Tirailleurs"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Bestia da Guerra",
+    "equipment_it": [
+      "Decapitanti, fangs, tusks and teeth (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Rottura dell’Armatura (1)",
+      "Equipaggiamento Eterogeneo",
+      "Run with le Pack",
+      "Schermagliatori"
     ]
   },
   {
@@ -565,6 +999,56 @@
       "Zdeptanie (D6)",
       "Szybki Krok",
       "Groza"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Boshafte Klauen",
+      "Serrated maul",
+      "Soporific atem",
+      "Draconic scales (counts as full plate rüstung)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Fliegen (10)",
+      "Großes Ziel",
+      "Stampfattacken (W6)",
+      "Schnelle Bewegung",
+      "Entsetzen"
+    ],
+    "name_de": "Walddrache",
+    "name_fr": "Dragon des Forêts",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Griffes mortelles",
+      "Serrated pourrie",
+      "Musc glacial",
+      "Draconic scales (counts comme full plate légère)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Vol (10)",
+      "Grande Cible",
+      "Attaques de Piétinement (D6)",
+      "Rapide",
+      "Terreur"
+    ],
+    "name_it": "Forest Necrolitico",
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Wicked decapitanti",
+      "Serrated maw",
+      "Soporific breath",
+      "Draconic scales (counts come full plate pesante)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Volo (10)",
+      "Bersaglio Grande",
+      "Calpestamento (D6)",
+      "Passo Rapido",
+      "Terrore"
     ]
   },
   {
@@ -616,6 +1100,56 @@
       "Przechodzenie Przez Zasłony",
       "Bojowy Okrzyk",
       "Strike First"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Asrai-Langbogen",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Der Pfeil des Kurnous",
+      "Ausweichen",
+      "Schießen und Verschwinden",
+      "Deckung ignorieren",
+      "Durch Deckung bewegen",
+      "Sammelruf",
+      "Schlägt zuerst zu"
+    ],
+    "name_de": "Lichtungshauptmann",
+    "name_fr": "Capitaine Sylvain",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "Arc long Asrai",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "La Flèche de Kurnous",
+      "Esquiveur",
+      "Tir & Fuite",
+      "Ignore les Couverts",
+      "Mouvement à Couvert",
+      "Cri de Ralliement",
+      "Frappe En Premier"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "Asrai longbow",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Le Arrow di Kurnous",
+      "Evasione",
+      "Tirare e Fuggire",
+      "Ignores Cover",
+      "Viaggiatore",
+      "Grido di Battaglia",
+      "Attacca Per Primo"
     ]
   },
   {
@@ -673,6 +1207,41 @@
       "Elfie Refleksy",
       "Przechodzenie Przez Zasłony",
       "Luźny Szyk"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Asrai-Langbogen"
+    ],
+    "specialRules_de": [
+      "Elfenreflexe",
+      "Durch Deckung bewegen",
+      "Offene Ränge"
+    ],
+    "name_de": "Waldelfenkrieger",
+    "name_fr": "Gardes Sylvains",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Arcs longs Asrai"
+    ],
+    "specialRules_fr": [
+      "Réflexes Elfiques",
+      "Mouvement à Couvert",
+      "Ordre Dispersé"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Asrai longbows"
+    ],
+    "specialRules_it": [
+      "Riflessi Elfici",
+      "Viaggiatore",
+      "Formazione Aperta"
     ]
   },
   {
@@ -724,6 +1293,56 @@
       "Przechodzenie Przez Zasłony",
       "Bojowy Okrzyk",
       "Strike First"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Asrai-Langbogen",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Der Pfeil des Kurnous",
+      "Ausweichen",
+      "Schießen und Verschwinden",
+      "Deckung ignorieren",
+      "Durch Deckung bewegen",
+      "Sammelruf",
+      "Schlägt zuerst zu"
+    ],
+    "name_de": "Lichtungsfürst",
+    "name_fr": "Seigneur Sylvain",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "Arc long Asrai",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "La Flèche de Kurnous",
+      "Esquiveur",
+      "Tir & Fuite",
+      "Ignore les Couverts",
+      "Mouvement à Couvert",
+      "Cri de Ralliement",
+      "Frappe En Premier"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "Asrai longbow",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Le Arrow di Kurnous",
+      "Evasione",
+      "Tirare e Fuggire",
+      "Ignores Cover",
+      "Viaggiatore",
+      "Grido di Battaglia",
+      "Attacca Per Primo"
     ]
   },
   {
@@ -806,6 +1425,53 @@
       "Luźny Szyk",
       "Harcownicy",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Leichte Kavallerie",
+    "equipment_de": [
+      "Handwaffen",
+      "Kavalleriespeere",
+      "Asrai-Langbogen"
+    ],
+    "specialRules_de": [
+      "Elfenreflexe",
+      "Wendige Kavallerie",
+      "Schießen und Verschwinden",
+      "Offene Ränge",
+      "Plänkler",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Waldreiter",
+    "name_fr": "Cavaliers Sylvains",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Légère",
+    "equipment_fr": [
+      "Armes de base",
+      "Lances de cavalerie",
+      "Arcs longs Asrai"
+    ],
+    "specialRules_fr": [
+      "Réflexes Elfiques",
+      "Cavalerie Rapide",
+      "Tir & Fuite",
+      "Ordre Dispersé",
+      "Tirailleurs",
+      "Rapide"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Leggera",
+    "equipment_it": [
+      "Armi Bianche",
+      "Lancia Leggera",
+      "Asrai longbows"
+    ],
+    "specialRules_it": [
+      "Riflessi Elfici",
+      "Cavalleria Veloce",
+      "Tirare e Fuggire",
+      "Formazione Aperta",
+      "Schermagliatori",
+      "Passo Rapido"
     ]
   },
   {
@@ -851,6 +1517,48 @@
       "Lot (10)",
       "Zdeptanie (1)",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Monströse Kreatur",
+    "equipment_de": [
+      "Boshafte Klauen",
+      "Serrated maul"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Angst",
+      "Fliegen (10)",
+      "Stampfattacken (1)",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Riesenadler",
+    "name_fr": "Grand Aigle",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Créature Monstrueuse",
+    "equipment_fr": [
+      "Griffes mortelles",
+      "Serrated pourrie"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Peur",
+      "Vol (10)",
+      "Attaques de Piétinement (1)",
+      "Rapide"
+    ],
+    "name_it": "Grandi Aquile",
+    "unitCategory_it": "Mostro",
+    "troopType_it": "Creatura Mostruosa",
+    "equipment_it": [
+      "Wicked decapitanti",
+      "Serrated maw"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Paura",
+      "Volo (10)",
+      "Calpestamento (1)",
+      "Passo Rapido"
     ]
   },
   {
@@ -896,6 +1604,46 @@
       "Lot (10)",
       "Zdeptanie (1)",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Mount",
+    "troopType_de": "Monströse Kreatur",
+    "equipment_de": [
+      "Boshafte Klauen",
+      "Serrated maul"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Angst",
+      "Fliegen (10)",
+      "Stampfattacken (1)",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Chepesh Eagle (Mount)",
+    "name_fr": "Armes Aigle (Démoniaque)",
+    "troopType_fr": "Créature Monstrueuse",
+    "equipment_fr": [
+      "Griffes mortelles",
+      "Serrated pourrie"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Peur",
+      "Vol (10)",
+      "Attaques de Piétinement (1)",
+      "Rapide"
+    ],
+    "name_it": "Grandi Aquile (Mount)",
+    "troopType_it": "Creatura Mostruosa",
+    "equipment_it": [
+      "Wicked decapitanti",
+      "Serrated maw"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Paura",
+      "Volo (10)",
+      "Calpestamento (1)",
+      "Passo Rapido"
     ]
   },
   {
@@ -945,6 +1693,49 @@
       "Przechodzenie Przez Zasłony",
       "Zdeptanie (1)",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Mount",
+    "troopType_de": "Monströse Kavallerie",
+    "equipment_de": [
+      "Mighty antlers"
+    ],
+    "specialRules_de": [
+      "Zähe Haut (2)",
+      "Crown des Antlers",
+      "Angst",
+      "Erster Angriff",
+      "Aufpralltreffer (1)",
+      "Durch Deckung bewegen",
+      "Stampfattacken (1)",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Riesenhirsch",
+    "name_fr": "Grand Cerf",
+    "troopType_fr": "Cavalerie Monstrueuse",
+    "equipment_fr": [
+      "Puissante difforme"
+    ],
+    "specialRules_fr": [
+      "Peau Blindée (2)",
+      "Couronne de Difforme",
+      "Peur",
+      "Première Charge",
+      "Touches d'Impact (1)",
+      "Mouvement à Couvert",
+      "Attaques de Piétinement (1)",
+      "Rapide"
+    ],
+    "name_it": "Grandi Stag",
+    "troopType_it": "Cavalleria Mostruosa",
+    "specialRules_it": [
+      "Fusoliera Hide (2)",
+      "Corona di Antlers",
+      "Paura",
+      "Prima Carica",
+      "Colpi da Impatto (1)",
+      "Viaggiatore",
+      "Calpestamento (1)",
+      "Passo Rapido"
     ]
   },
   {
@@ -1014,6 +1805,60 @@
       "Parry",
       "Nieugięty",
       "Veteran"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffe",
+      "Asrai speer",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Gut ausgebildet",
+      "Elfenreflexe",
+      "Kriegerisches Können",
+      "Durch Deckung bewegen",
+      "Parry",
+      "Unnachgiebig",
+      "Veteranen"
+    ],
+    "name_de": "Guardians des Talsyn",
+    "name_fr": "Gardiens de Talsyn",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Arme de base",
+      "Lance Asrai",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Bien Entraînés",
+      "Réflexes Elfiques",
+      "Prouesses Martiales",
+      "Mouvement à Couvert",
+      "Parade",
+      "Obstiné",
+      "Vétérans"
+    ],
+    "name_it": "Guardians di Talsyn",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Arma Bianca",
+      "Asrai leggera",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Addestrati",
+      "Riflessi Elfici",
+      "Martial Prowess",
+      "Viaggiatore",
+      "Parry",
+      "Determinato",
+      "Veterani"
     ]
   },
   {
@@ -1073,6 +1918,69 @@
       "Strike First",
       "Groza",
       "Niezłomni"
+    ],
+    "unitCategory_de": "Benannter Charakter",
+    "troopType_de": "Monströse Infanterie, Benannter Charakter",
+    "equipment_de": [
+      "Cloak des Isha",
+      "Hawks Talon",
+      "Horn des der Wilde Hunt",
+      "Speer des Kurnous"
+    ],
+    "specialRules_de": [
+      "Angst",
+      "Raserei",
+      "Immung gegen Psychologie",
+      "Magieresistenz (-2)",
+      "Durch Deckung bewegen",
+      "Offene Ränge*",
+      "Stampfattacken (W3+2)",
+      "Schlägt zuerst zu",
+      "Entsetzen",
+      "Unerschütterlich"
+    ],
+    "name_de": "Orion, der König in der Woods",
+    "name_fr": "Orion, la Roi dans la Woods",
+    "unitCategory_fr": "Personnage nommé",
+    "troopType_fr": "Infanterie Monstrueuse, Personnage nommé",
+    "equipment_fr": [
+      "Cape d'Isha",
+      "Hawks Talon",
+      "Cor de la Chasse Sauvage",
+      "Lance de Kurnous"
+    ],
+    "specialRules_fr": [
+      "Peur",
+      "Frénésie",
+      "Immunisé à la Psychologie",
+      "Résistance à la Magie (-2)",
+      "Mouvement à Couvert",
+      "Ordre Serré*",
+      "Attaques de Piétinement (D3+2)",
+      "Frappe En Premier",
+      "Terreur",
+      "Indémoralisable"
+    ],
+    "name_it": "Orion, le Re in le Woods",
+    "unitCategory_it": "Personaggio nominato",
+    "troopType_it": "Fanteria Mostruosa, Personaggio nominato",
+    "equipment_it": [
+      "Cloak di Isha",
+      "Hawks Talon",
+      "Corno di le Wild Hunt",
+      "Leggera di Kurnous"
+    ],
+    "specialRules_it": [
+      "Paura",
+      "Frenzy",
+      "Immune alla Psicologia",
+      "Resistenza alla Magia (-2)",
+      "Viaggiatore",
+      "Formazione Serrata*",
+      "Non morto di Nehekharan",
+      "Attacca Per Primo",
+      "Terrore",
+      "Irriducibile"
     ]
   },
   {
@@ -1126,6 +2034,53 @@
       "Strike First",
       "Talismanic Tattoos",
       "Troubadour of Loec"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Ausweichen",
+      "Rasender Angriff",
+      "Immung gegen Psychologie",
+      "Einzelgänger",
+      "Durch Deckung bewegen",
+      "Schlägt zuerst zu",
+      "Schützende Tätowierungen",
+      "Loecs Troubadour"
+    ],
+    "name_de": "Schattentänzer",
+    "name_fr": "Danseur des Ombres",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Esquiveur",
+      "Charge Dévastatrice",
+      "Immunisé à la Psychologie",
+      "Solitaire",
+      "Mouvement à Couvert",
+      "Frappe En Premier",
+      "Tatouages Talismaniques",
+      "Troubadour de Loec"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Evasione",
+      "Furious Carica",
+      "Immune alla Psicologia",
+      "Solitario",
+      "Viaggiatore",
+      "Attacca Per Primo",
+      "Talismani Tattoos",
+      "Troubadour di Loec"
     ]
   },
   {
@@ -1212,6 +2167,60 @@
       "Luźny Szyk",
       "Trujące Ataki",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Leichte Kavallerie",
+    "equipment_de": [
+      "Handwaffen",
+      "Schwarzdorn-Wurfspeere"
+    ],
+    "specialRules_de": [
+      "Töchter der Ewigkeit",
+      "Zirkel des tiefen Waldes",
+      "Elfenreflexe",
+      "Wendige Kavallerie",
+      "Schießen und Verschwinden",
+      "Durch Deckung bewegen",
+      "Offene Ränge",
+      "Giftattacken",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Schwestern der Dornen",
+    "name_fr": "Sœurs de l'Épine",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Légère",
+    "equipment_fr": [
+      "Armes de base",
+      "Javelines de bruyère noire"
+    ],
+    "specialRules_fr": [
+      "Filles de l'Éternité",
+      "Sabbat du Grand-bois",
+      "Réflexes Elfiques",
+      "Cavalerie Rapide",
+      "Tir & Fuite",
+      "Mouvement à Couvert",
+      "Ordre Dispersé",
+      "Attaques Empoisonnées",
+      "Rapide"
+    ],
+    "name_it": "Sorelle di le Thorn",
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Leggera",
+    "equipment_it": [
+      "Armi Bianche",
+      "Blackbriar javelins"
+    ],
+    "specialRules_it": [
+      "Daughters di Eternity",
+      "Deepwood Coven",
+      "Riflessi Elfici",
+      "Cavalleria Veloce",
+      "Tirare e Fuggire",
+      "Viaggiatore",
+      "Formazione Aperta",
+      "Arido come Polvere",
+      "Passo Rapido"
     ]
   },
   {
@@ -1259,6 +2268,41 @@
       "Lore of Athel Loren",
       "Magiczne Ataki",
       "Przechodzenie Przez Zasłony"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Elfenreflexe",
+      "Lehre Athel Lorens",
+      "Magische Attacken",
+      "Durch Deckung bewegen"
+    ],
+    "name_de": "Zaubersänger",
+    "name_fr": "Chanteur de Sorts",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Réflexes Elfiques",
+      "Domaine d'Athel Loren",
+      "Attaques Magiques",
+      "Mouvement à Couvert"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Riflessi Elfici",
+      "Lore di Athel Loren",
+      "Magical Venefici",
+      "Viaggiatore"
     ]
   },
   {
@@ -1306,6 +2350,41 @@
       "Lore of Athel Loren",
       "Magiczne Ataki",
       "Przechodzenie Przez Zasłony"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Elfenreflexe",
+      "Lehre Athel Lorens",
+      "Magische Attacken",
+      "Durch Deckung bewegen"
+    ],
+    "name_de": "Zauberweber",
+    "name_fr": "Tisseur de Charmes",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Réflexes Elfiques",
+      "Domaine d'Athel Loren",
+      "Attaques Magiques",
+      "Mouvement à Couvert"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Riflessi Elfici",
+      "Lore di Athel Loren",
+      "Magical Venefici",
+      "Viaggiatore"
     ]
   },
   {
@@ -1349,6 +2428,44 @@
       "Ostre Kły",
       "Run z the Pack",
       "Harcownicy"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Kriegstier",
+    "equipment_de": [
+      "Klauen, fangs, hauer prinz teeth (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Rasender Angriff",
+      "Zusammengewürfelter Haufen",
+      "Razor Hauer",
+      "Verschwinden mit der Pack",
+      "Plänkler"
+    ],
+    "name_de": "Sylvan Boar",
+    "name_fr": "Sanglier Sylvain",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Bête de Guerre",
+    "equipment_fr": [
+      "Mortelles, crocs, défenses et teeth (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Charge Dévastatrice",
+      "Bande Hétéroclite",
+      "Défenses Acérées",
+      "Courir avec la Meute",
+      "Tirailleurs"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Bestia da Guerra",
+    "equipment_it": [
+      "Decapitanti, fangs, tusks and teeth (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Furious Carica",
+      "Equipaggiamento Eterogeneo",
+      "Razor Tusks",
+      "Run with le Pack",
+      "Schermagliatori"
     ]
   },
   {
@@ -1424,6 +2541,68 @@
       "Nieugięty",
       "Tree Spirit",
       "Tree Whack"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Monströse Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Hardwood flesh (counts as schwere rüstung)"
+    ],
+    "specialRules_de": [
+      "Rüstungsfluch (2)",
+      "Geschlossene Ränge",
+      "Angst",
+      "Brennbar",
+      "Immung gegen Psychologie",
+      "Magische Attacken",
+      "Durch Deckung bewegen",
+      "Regeneration (5+)",
+      "Stampfattacken (1)",
+      "Unnachgiebig",
+      "Baumgeist",
+      "Baumprügel"
+    ],
+    "name_de": "Baumschrate",
+    "name_fr": "Lémures",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Monstrueuse",
+    "equipment_fr": [
+      "Armes de base",
+      "Hardwood flesh (counts comme armure légère)"
+    ],
+    "specialRules_fr": [
+      "Arme Perforante (2)",
+      "Ordre Serré",
+      "Peur",
+      "Inflammable",
+      "Immunisé à la Psychologie",
+      "Attaques Magiques",
+      "Mouvement à Couvert",
+      "Régénération (5+)",
+      "Attaques de Piétinement (1)",
+      "Obstiné",
+      "Esprit des Forêts",
+      "Abattage"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Mostruosa",
+    "equipment_it": [
+      "Armi Bianche",
+      "Hardwood flesh (counts come armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Pesante Dell’Armatura (2)",
+      "Formazione Serrata",
+      "Paura",
+      "Suscettibile al Fuoco",
+      "Immune alla Psicologia",
+      "Magical Venefici",
+      "Viaggiatore",
+      "Rigenerazione (5+)",
+      "Calpestamento (1)",
+      "Determinato",
+      "Tree Spirit",
+      "Tree Whack"
     ]
   },
   {
@@ -1487,6 +2666,76 @@
       "Nieugięty",
       "Groza",
       "Dreeeewno!",
+      "Tree Spirit",
+      "Tree Whack"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Oaken fists",
+      "Strangleroots",
+      "Arboreal rüstung (counts as full plate rüstung)"
+    ],
+    "specialRules_de": [
+      "Rüstungsfluch (1)",
+      "Geschlossene Ränge",
+      "Brennbar",
+      "Immung gegen Psychologie",
+      "Großes Ziel",
+      "Magische Attacken",
+      "Durch Deckung bewegen",
+      "Regeneration (5+)",
+      "Stampfattacken (W3)",
+      "Unnachgiebig",
+      "Entsetzen",
+      "Baum fällt!",
+      "Baumgeist",
+      "Baumprügel"
+    ],
+    "name_de": "Baummensch",
+    "name_fr": "Homme-arbre",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Oaken fists",
+      "Strangleroots",
+      "Arboreal légère (counts comme full plate légère)"
+    ],
+    "specialRules_fr": [
+      "Arme Perforante (1)",
+      "Ordre Serré",
+      "Inflammable",
+      "Immunisé à la Psychologie",
+      "Grande Cible",
+      "Attaques Magiques",
+      "Mouvement à Couvert",
+      "Régénération (5+)",
+      "Attaques de Piétinement (D3)",
+      "Obstiné",
+      "Terreur",
+      "Timmm-berrr!",
+      "Esprit des Forêts",
+      "Abattage"
+    ],
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Oaken fists",
+      "Strangleroots",
+      "Arboreal pesante (counts come full plate pesante)"
+    ],
+    "specialRules_it": [
+      "Rottura dell’Armatura (1)",
+      "Formazione Serrata",
+      "Suscettibile al Fuoco",
+      "Immune alla Psicologia",
+      "Bersaglio Grande",
+      "Magical Venefici",
+      "Viaggiatore",
+      "Rigenerazione (5+)",
+      "Calpestamento (D3)",
+      "Determinato",
+      "Terrore",
+      "Assalto Inarrestabile",
       "Tree Spirit",
       "Tree Whack"
     ]
@@ -1558,6 +2807,78 @@
       "Dreeeewno!",
       "Tree Spirit",
       "Tree Whack"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Behemoth, Charakter",
+    "equipment_de": [
+      "Oaken fists",
+      "Strangleroots",
+      "Arboreal rüstung (counts as full plate rüstung)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Brennbar",
+      "Immung gegen Psychologie",
+      "Großes Ziel",
+      "Lehre Athel Lorens",
+      "Magische Attacken",
+      "Durch Deckung bewegen",
+      "Regeneration (5+)",
+      "Stampfattacken (W3)",
+      "Unnachgiebig",
+      "Entsetzen",
+      "Baum fällt!",
+      "Baumgeist",
+      "Baumprügel"
+    ],
+    "name_de": "Baummenschenälteste",
+    "name_fr": "Homme-arbre Vénérable",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Béhémoth, Personnage",
+    "equipment_fr": [
+      "Oaken fists",
+      "Strangleroots",
+      "Arboreal légère (counts comme full plate légère)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Inflammable",
+      "Immunisé à la Psychologie",
+      "Grande Cible",
+      "Domaine d'Athel Loren",
+      "Attaques Magiques",
+      "Mouvement à Couvert",
+      "Régénération (5+)",
+      "Attaques de Piétinement (D3)",
+      "Obstiné",
+      "Terreur",
+      "Timmm-berrr!",
+      "Esprit des Forêts",
+      "Abattage"
+    ],
+    "name_it": "Treeman Antico",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Behemoth, Personaggio",
+    "equipment_it": [
+      "Oaken fists",
+      "Strangleroots",
+      "Arboreal pesante (counts come full plate pesante)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Suscettibile al Fuoco",
+      "Immune alla Psicologia",
+      "Bersaglio Grande",
+      "Lore di Athel Loren",
+      "Magical Venefici",
+      "Viaggiatore",
+      "Rigenerazione (5+)",
+      "Calpestamento (D3)",
+      "Determinato",
+      "Terrore",
+      "Assalto Inarrestabile",
+      "Tree Spirit",
+      "Tree Whack"
     ]
   },
   {
@@ -1605,6 +2926,48 @@
       "Magiczne Ataki",
       "Zdeptanie (1)",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Mount",
+    "troopType_de": "Monströse Kavallerie",
+    "equipment_de": [
+      "Hufe prinz horn (counts as ein hand weapon)"
+    ],
+    "specialRules_de": [
+      "Rüstung Bane (2, Einhorn leichenmeister)",
+      "Zähe Haut (1)",
+      "Beguiling Aura",
+      "Gegenangriff",
+      "Magische Attacken",
+      "Stampfattacken (1)",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Einhorn",
+    "name_fr": "Licorne",
+    "troopType_fr": "Cavalerie Monstrueuse",
+    "equipment_fr": [
+      "Squelettiques et cor (counts comme un de lourde)"
+    ],
+    "specialRules_fr": [
+      "Légère Perforante (2, Licorne uniquement)",
+      "Peau Blindée (1)",
+      "Aura Envoûtante",
+      "Contre-charge",
+      "Attaques Magiques",
+      "Attaques de Piétinement (1)",
+      "Rapide"
+    ],
+    "troopType_it": "Cavalleria Mostruosa",
+    "equipment_it": [
+      "Hooves and corno (counts come scelti armi bianca)"
+    ],
+    "specialRules_it": [
+      "Pesante Dell’Armatura (2, Unicorn only)",
+      "Pelle a Scaglie (1)",
+      "Beguiling Aura",
+      "Controcarica",
+      "Magical Venefici",
+      "Calpestamento (1)",
+      "Passo Rapido"
     ]
   },
   {
@@ -1676,6 +3039,62 @@
       "Harcownicy",
       "Strike First",
       "Talismanic Tattoos"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen"
+    ],
+    "specialRules_de": [
+      "Tänze des Loec",
+      "Ausweichen",
+      "Rasender Angriff",
+      "Immung gegen Psychologie",
+      "Einzelgänger",
+      "Zusammengewürfelter Haufen",
+      "Durch Deckung bewegen",
+      "Offene Ränge",
+      "Plänkler",
+      "Schlägt zuerst zu",
+      "Schützende Tätowierungen"
+    ],
+    "name_de": "Kampftänzer",
+    "name_fr": "Danseurs de Guerre",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base"
+    ],
+    "specialRules_fr": [
+      "Danses de Loec",
+      "Esquiveur",
+      "Charge Dévastatrice",
+      "Immunisé à la Psychologie",
+      "Solitaire",
+      "Bande Hétéroclite",
+      "Mouvement à Couvert",
+      "Ordre Dispersé",
+      "Tirailleurs",
+      "Frappe En Premier",
+      "Tatouages Talismaniques"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche"
+    ],
+    "specialRules_it": [
+      "Dances di Loec",
+      "Evasione",
+      "Furious Carica",
+      "Immune alla Psicologia",
+      "Solitario",
+      "Equipaggiamento Eterogeneo",
+      "Viaggiatore",
+      "Formazione Aperta",
+      "Schermagliatori",
+      "Attacca Per Primo",
+      "Talismani Tattoos"
     ]
   },
   {
@@ -1731,6 +3150,63 @@
       "Parry",
       "Strike First",
       "Nieugięty"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Asrai speer",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Courage Beyond Compare",
+      "Gut ausgebildet",
+      "Elfenreflexe",
+      "Immung gegen Psychologie",
+      "Durch Deckung bewegen",
+      "Parry",
+      "Schlägt zuerst zu",
+      "Unnachgiebig"
+    ],
+    "name_de": "Die des Talsyn",
+    "name_fr": "L'Honneur de Talsyn",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "Lance Asrai",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Incomparable Courage",
+      "Bien Entraînés",
+      "Réflexes Elfiques",
+      "Immunisé à la Psychologie",
+      "Mouvement à Couvert",
+      "Parade",
+      "Frappe En Premier",
+      "Obstiné"
+    ],
+    "name_it": "Warden di Talsyn",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "Asrai leggera",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Courage Beyond Compare",
+      "Addestrati",
+      "Riflessi Elfici",
+      "Immune alla Psicologia",
+      "Viaggiatore",
+      "Parry",
+      "Attacca Per Primo",
+      "Determinato"
     ]
   },
   {
@@ -1774,6 +3250,42 @@
       "Feigned Flight",
       "Lot (10)",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Mount",
+    "troopType_de": "Monströse Kavallerie",
+    "equipment_de": [
+      "Boshafte Klauen"
+    ],
+    "specialRules_de": [
+      "Ausweichen",
+      "Angst",
+      "Vorgetäuschte Flucht",
+      "Fliegen (10)",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Kriegsfalke",
+    "name_fr": "Faucon de Guerre",
+    "troopType_fr": "Cavalerie Monstrueuse",
+    "equipment_fr": [
+      "Griffes mortelles"
+    ],
+    "specialRules_fr": [
+      "Esquiveur",
+      "Peur",
+      "Fuite Feinte",
+      "Vol (10)",
+      "Rapide"
+    ],
+    "troopType_it": "Cavalleria Mostruosa",
+    "equipment_it": [
+      "Wicked decapitanti"
+    ],
+    "specialRules_it": [
+      "Evasione",
+      "Paura",
+      "Feigned Flight",
+      "Volo (10)",
+      "Passo Rapido"
     ]
   },
   {
@@ -1860,6 +3372,59 @@
       "Lot (10)",
       "Harcownicy",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Monströse Kavallerie",
+    "equipment_de": [
+      "Handwaffen",
+      "Kavalleriespeere",
+      "Asrai-Langbogen"
+    ],
+    "specialRules_de": [
+      "Elfenreflexe",
+      "Ausweichen",
+      "Angst",
+      "Vorgetäuschte Flucht",
+      "Schießen und Verschwinden",
+      "Fliegen (10)",
+      "Plänkler",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Kriegsfalkenreiter",
+    "name_fr": "Guerriers Faucons",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Monstrueuse",
+    "equipment_fr": [
+      "Armes de base",
+      "Lances de cavalerie",
+      "Arcs longs Asrai"
+    ],
+    "specialRules_fr": [
+      "Réflexes Elfiques",
+      "Esquiveur",
+      "Peur",
+      "Fuite Feinte",
+      "Tir & Fuite",
+      "Vol (10)",
+      "Tirailleurs",
+      "Rapide"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Mostruosa",
+    "equipment_it": [
+      "Armi Bianche",
+      "Lancia Leggera",
+      "Asrai longbows"
+    ],
+    "specialRules_it": [
+      "Riflessi Elfici",
+      "Evasione",
+      "Paura",
+      "Feigned Flight",
+      "Tirare e Fuggire",
+      "Volo (10)",
+      "Schermagliatori",
+      "Passo Rapido"
     ]
   },
   {
@@ -1911,6 +3476,56 @@
       "Ignores Cover",
       "Przechodzenie Przez Zasłony",
       "Zwiadowcy"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Asrai-Langbogen"
+    ],
+    "specialRules_de": [
+      "Elfenreflexe",
+      "Ausweichen",
+      "Vorgetäuschte Flucht",
+      "Schießen und Verschwinden",
+      "Falkenäugiger Schütze",
+      "Deckung ignorieren",
+      "Durch Deckung bewegen",
+      "Kundschafter"
+    ],
+    "name_de": "Waldpirscher",
+    "name_fr": "Rôdeur Sylvain",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "Arc long Asrai"
+    ],
+    "specialRules_fr": [
+      "Réflexes Elfiques",
+      "Esquiveur",
+      "Fuite Feinte",
+      "Tir & Fuite",
+      "Archer à l'Œil de Faucon",
+      "Ignore les Couverts",
+      "Mouvement à Couvert",
+      "Éclaireurs"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "Asrai longbow"
+    ],
+    "specialRules_it": [
+      "Riflessi Elfici",
+      "Evasione",
+      "Feigned Flight",
+      "Tirare e Fuggire",
+      "Hawk-eyed Archer",
+      "Ignores Cover",
+      "Viaggiatore",
+      "Esploratori"
     ]
   },
   {
@@ -1978,6 +3593,56 @@
       "Przechodzenie Przez Zasłony",
       "Zwiadowcy",
       "Harcownicy"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Asrai-Langbogen"
+    ],
+    "specialRules_de": [
+      "Elfenreflexe",
+      "Ausweichen",
+      "Vorgetäuschte Flucht",
+      "Schießen und Verschwinden",
+      "Deckung ignorieren",
+      "Durch Deckung bewegen",
+      "Kundschafter",
+      "Plänkler"
+    ],
+    "name_de": "Waldläufer",
+    "name_fr": "Forestiers",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Arcs longs Asrai"
+    ],
+    "specialRules_fr": [
+      "Réflexes Elfiques",
+      "Esquiveur",
+      "Fuite Feinte",
+      "Tir & Fuite",
+      "Ignore les Couverts",
+      "Mouvement à Couvert",
+      "Éclaireurs",
+      "Tirailleurs"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Asrai longbows"
+    ],
+    "specialRules_it": [
+      "Riflessi Elfici",
+      "Evasione",
+      "Feigned Flight",
+      "Tirare e Fuggire",
+      "Ignores Cover",
+      "Viaggiatore",
+      "Esploratori",
+      "Schermagliatori"
     ]
   },
   {
@@ -2068,6 +3733,65 @@
       "Luźny Szyk",
       "Szybki Krok",
       "Talismanic Tattoos"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Leichte Kavallerie",
+    "equipment_de": [
+      "Handwaffen",
+      "Hunting spear",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Gegenangriff",
+      "Elfenreflexe",
+      "Wendige Kavallerie",
+      "Angst",
+      "Raserei",
+      "Rasender Angriff (Jagd leichenmeister)",
+      "Durch Deckung bewegen",
+      "Offene Ränge",
+      "Schnelle Bewegung",
+      "Schützende Tätowierungen"
+    ],
+    "name_de": "Wilde Jagd",
+    "name_fr": "Cavaliers Sauvages",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Légère",
+    "equipment_fr": [
+      "Armes de base",
+      "Hunting d'infanterie",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "Contre-charge",
+      "Réflexes Elfiques",
+      "Cavalerie Rapide",
+      "Peur",
+      "Frénésie",
+      "Charge Charge (Sylvains uniquement)",
+      "Mouvement à Couvert",
+      "Ordre Dispersé",
+      "Rapide",
+      "Tatouages Talismaniques"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Leggera",
+    "equipment_it": [
+      "Armi Bianche",
+      "Hunting leggera",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Controcarica",
+      "Riflessi Elfici",
+      "Cavalleria Veloce",
+      "Paura",
+      "Frenzy",
+      "Furious Carica (Riders only)",
+      "Viaggiatore",
+      "Formazione Aperta",
+      "Passo Rapido",
+      "Talismani Tattoos"
     ]
   },
   {
@@ -2131,6 +3855,51 @@
       "Guardians of the Wildwood",
       "Odporność Na Psychologię",
       "Przechodzenie Przez Zasłony"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Ranger's glaives",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Elfenreflexe",
+      "Wächter des Bannwalds",
+      "Immung gegen Psychologie",
+      "Durch Deckung bewegen"
+    ],
+    "name_de": "Bannwaldhüter",
+    "name_fr": "Patrouilleurs du Bois Sauvage",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Ranger's glaives",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Réflexes Elfiques",
+      "Gardiens du Bois Sauvage",
+      "Immunisé à la Psychologie",
+      "Mouvement à Couvert"
+    ],
+    "name_it": "Wildwood Ranger",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Ranger's glaives",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Riflessi Elfici",
+      "Guardians di le Wildwood",
+      "Immune alla Psicologia",
+      "Viaggiatore"
     ]
   }
 ]

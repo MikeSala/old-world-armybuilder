@@ -51,6 +51,52 @@
       "Zdeptanie (D3+1)",
       "Szybki Krok",
       "Groza"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Trampling hufe prinz goring horns"
+    ],
+    "specialRules_de": [
+      "Blazing Body",
+      "Born des Schießen",
+      "Geschlossene Ränge",
+      "Fliegen (9)",
+      "Rasender Angriff",
+      "Großes Ziel",
+      "Stampfattacken (W3+1)",
+      "Schnelle Bewegung",
+      "Entsetzen"
+    ],
+    "name_de": "Bale Taurus",
+    "name_fr": "Sombre Taurus",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Trampling squelettiques et goring cornes"
+    ],
+    "specialRules_fr": [
+      "Corps Embrasé",
+      "Born de Tir",
+      "Ordre Serré",
+      "Vol (9)",
+      "Charge Dévastatrice",
+      "Grande Cible",
+      "Attaques de Piétinement (D3+1)",
+      "Rapide",
+      "Terreur"
+    ],
+    "unitCategory_it": "Mostro",
+    "specialRules_it": [
+      "Blazing Body",
+      "Born di Tirare",
+      "Formazione Serrata",
+      "Volo (9)",
+      "Furious Carica",
+      "Bersaglio Grande",
+      "Calpestamento Venefici (D3+1)",
+      "Passo Rapido",
+      "Terrore"
     ]
   },
   {
@@ -123,6 +169,65 @@
       "Stampede",
       "Nieugięty",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Monströse Kavallerie",
+    "equipment_de": [
+      "Handwaffen",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Zähe Haut (1)",
+      "Blackshard Rüstung",
+      "Geschlossene Ränge",
+      "Ensorcelled Waffen",
+      "Angst",
+      "Erster Angriff",
+      "Aufpralltreffer (W3)",
+      "Einzelgänger",
+      "Stampede",
+      "Unnachgiebig",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Bull Centaur Renders",
+    "name_fr": "Hacheurs Centaures-Taureaux",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Monstrueuse",
+    "equipment_fr": [
+      "Armes de base",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Peau Blindée (1)",
+      "Armure Sombréclat",
+      "Ordre Serré",
+      "Armes Ensorcelées",
+      "Peur",
+      "Première Charge",
+      "Touches d'Impact (D3)",
+      "Solitaire",
+      "Ruée",
+      "Obstiné",
+      "Rapide"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Mostruosa",
+    "equipment_it": [
+      "Armi Bianche",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Pelle a Scaglie (1)",
+      "Blackshard Pesante",
+      "Formazione Serrata",
+      "Ensorcelled Bianche",
+      "Paura",
+      "Prima Carica",
+      "Frecce di Asaph",
+      "Solitario",
+      "Stampede",
+      "Determinato",
+      "Passo Rapido"
     ]
   },
   {
@@ -183,6 +288,65 @@
       "Stampede",
       "Nieugięty",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Monströse Kavallerie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "schwere rüstung"
+    ],
+    "specialRules_de": [
+      "Rüstungsfluch (1)",
+      "Zähe Haut (1)",
+      "Blackshard Rüstung",
+      "Ensorcelled Waffen",
+      "Angst",
+      "Erster Angriff",
+      "Aufpralltreffer (W3+1)",
+      "Einzelgänger",
+      "Stampede",
+      "Unnachgiebig",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Bull Centaur Taur'ruk",
+    "name_fr": "Taur’ruk Centaure-Taureau",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Cavalerie Monstrueuse, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Arme Perforante (1)",
+      "Peau Blindée (1)",
+      "Armure Sombréclat",
+      "Armes Ensorcelées",
+      "Peur",
+      "Première Charge",
+      "Touches d'Impact (D3+1)",
+      "Solitaire",
+      "Ruée",
+      "Obstiné",
+      "Rapide"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Cavalleria Mostruosa, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Rottura dell’Armatura (1)",
+      "Pelle a Scaglie (1)",
+      "Blackshard Pesante",
+      "Ensorcelled Bianche",
+      "Paura",
+      "Prima Carica",
+      "Colpi da Impatto (D3+1)",
+      "Solitario",
+      "Stampede",
+      "Determinato",
+      "Passo Rapido"
     ]
   },
   {
@@ -240,6 +404,53 @@
       "Resolute",
       "Sorcerer's Curse",
       "Nieugięty"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Schwere Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "schwere rüstung"
+    ],
+    "specialRules_de": [
+      "Blackshard Rüstung",
+      "Ensorcelled Waffen",
+      "Infernal Maschinist",
+      "Lehre des Hashut",
+      "Resolut",
+      "Sorcerer's Curse",
+      "Unnachgiebig"
+    ],
+    "name_de": "Daemonsmith Sorcerer",
+    "name_fr": "Forgeron-Démoniste",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Lourde, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Armure Sombréclat",
+      "Armes Ensorcelées",
+      "Ingénieur Infernal",
+      "Domaine d’Hashut",
+      "Résolu",
+      "Malédiction du Sorcier",
+      "Obstiné"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Pesante, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Blackshard Pesante",
+      "Ensorcelled Bianche",
+      "Infernal Ingegnere",
+      "Lore di Hashut",
+      "Risoluti",
+      "Sorcerer's Curse",
+      "Determinato"
     ]
   },
   {
@@ -298,6 +509,42 @@
     "specialRules_pl": [
       "Blackshard Zbroja",
       "Harcownicy"
+    ],
+    "unitCategory_de": "War Machine",
+    "troopType_de": "Kriegsmaschine",
+    "equipment_de": [
+      "Demolition Rockets",
+      "Infernal Incendiaries",
+      "hand waffen",
+      "schwere rüstung"
+    ],
+    "specialRules_de": [
+      "Blackshard Rüstung",
+      "Plänkler"
+    ],
+    "name_de": "Deathshrieker Rocket Launcher",
+    "name_fr": "Lance-Fusées Hurlemort",
+    "troopType_fr": "Machine de Guerre",
+    "equipment_fr": [
+      "Fusées de Démolition",
+      "Fusées Incendiaires Infernales",
+      "de lourdes",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Armure Sombréclat",
+      "Tirailleurs"
+    ],
+    "troopType_it": "Macchina da Guerra",
+    "equipment_it": [
+      "Demolition Rockets",
+      "Infernal Incendiaries",
+      "armi bianche",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Blackshard Pesante",
+      "Schermagliatori"
     ]
   },
   {
@@ -366,6 +613,39 @@
     "specialRules_pl": [
       "Blackshard Zbroja",
       "Harcownicy"
+    ],
+    "unitCategory_de": "War Machine",
+    "troopType_de": "Kriegsmaschine",
+    "equipment_de": [
+      "Dreadquake Mörser",
+      "hand waffen",
+      "schwere rüstung"
+    ],
+    "specialRules_de": [
+      "Blackshard Rüstung",
+      "Plänkler"
+    ],
+    "name_de": "Dreadquake Mörser",
+    "name_fr": "Mortier Trembleffroi",
+    "troopType_fr": "Machine de Guerre",
+    "equipment_fr": [
+      "Mortier Trembleffroi",
+      "de lourdes",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Armure Sombréclat",
+      "Tirailleurs"
+    ],
+    "troopType_it": "Macchina da Guerra",
+    "equipment_it": [
+      "Dreadquake Mortar",
+      "armi bianche",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Blackshard Pesante",
+      "Schermagliatori"
     ]
   },
   {
@@ -410,6 +690,39 @@
       "Szybka Kawaleria",
       "Ogień I Odwrót",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Mount",
+    "troopType_de": "Leichte Kavallerie",
+    "equipment_de": [
+      "Klauen prinz fangs (counts as ein hand weapon)"
+    ],
+    "specialRules_de": [
+      "Streitwagengarde",
+      "Wendige Kavallerie",
+      "Schießen und Verschwinden",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Riesenwolf",
+    "name_fr": "Loup Géant",
+    "troopType_fr": "Cavalerie Légère",
+    "equipment_fr": [
+      "Mortelles et crocs (counts comme un de lourde)"
+    ],
+    "specialRules_fr": [
+      "Escorteurs de Chars",
+      "Cavalerie Rapide",
+      "Tir & Fuite",
+      "Rapide"
+    ],
+    "troopType_it": "Cavalleria Leggera",
+    "equipment_it": [
+      "Decapitanti and fangs (counts come scelti armi bianca)"
+    ],
+    "specialRules_it": [
+      "Scorta ai Carri",
+      "Cavalleria Veloce",
+      "Tirare e Fuggire",
+      "Passo Rapido"
     ]
   },
   {
@@ -464,6 +777,53 @@
       "Zdeptanie (D3)",
       "Szybki Krok",
       "Groza"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Trampling hufe prinz goring horns"
+    ],
+    "specialRules_de": [
+      "Blazing Body",
+      "Born des Schießen",
+      "Geschlossene Ränge",
+      "Fliegen (9)",
+      "Rasender Angriff",
+      "Großes Ziel",
+      "Stampfattacken (W3)",
+      "Schnelle Bewegung",
+      "Entsetzen"
+    ],
+    "name_de": "Chepesh Taurus",
+    "name_fr": "Grand Taurus",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Trampling squelettiques et goring cornes"
+    ],
+    "specialRules_fr": [
+      "Corps Embrasé",
+      "Born de Tir",
+      "Ordre Serré",
+      "Vol (9)",
+      "Charge Dévastatrice",
+      "Grande Cible",
+      "Attaques de Piétinement (D3)",
+      "Rapide",
+      "Terreur"
+    ],
+    "name_it": "Grandi Taurus",
+    "unitCategory_it": "Mostro",
+    "specialRules_it": [
+      "Blazing Body",
+      "Born di Tirare",
+      "Formazione Serrata",
+      "Volo (9)",
+      "Furious Carica",
+      "Bersaglio Grande",
+      "Calpestamento (D3)",
+      "Passo Rapido",
+      "Terrore"
     ]
   },
   {
@@ -520,6 +880,40 @@
     "specialRules_pl": [
       "Levies",
       "Harcownicy"
+    ],
+    "unitCategory_de": "War Machine",
+    "troopType_de": "Kriegsmaschine",
+    "equipment_de": [
+      "Speerschleuder",
+      "hand waffen",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Gesindel",
+      "Plänkler"
+    ],
+    "name_de": "Hobgoblin Bolt Thrower",
+    "name_fr": "Baliste Hobgobeline",
+    "troopType_fr": "Machine de Guerre",
+    "equipment_fr": [
+      "Baliste",
+      "de lourdes",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Conscrits",
+      "Tirailleurs"
+    ],
+    "name_it": "Hobgoblin Bolt Rancori",
+    "troopType_it": "Macchina da Guerra",
+    "equipment_it": [
+      "Balista",
+      "armi bianche",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Levies",
+      "Schermagliatori"
     ]
   },
   {
@@ -580,6 +974,47 @@
       "Horda",
       "Levies",
       "Gromada"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "schilde"
+    ],
+    "specialRules_de": [
+      "Backstab",
+      "Geschlossene Ränge",
+      "Geschlossene Ränge",
+      "Gesindel",
+      "Kriegerschar"
+    ],
+    "name_de": "Hobgoblin Cutthroats",
+    "name_fr": "Coupe-jarrets Hobgobelins",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "boucliers"
+    ],
+    "specialRules_fr": [
+      "Coup en Traître",
+      "Ordre Serré",
+      "Horde",
+      "Conscrits",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "scudi"
+    ],
+    "specialRules_it": [
+      "Backstab",
+      "Formazione Serrata",
+      "Orda",
+      "Levies",
+      "Warband"
     ]
   },
   {
@@ -626,6 +1061,44 @@
       "Evasive",
       "Levies",
       "Gromada"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "throwing waffen"
+    ],
+    "specialRules_de": [
+      "Backstab",
+      "Ausweichen",
+      "Gesindel",
+      "Kriegerschar"
+    ],
+    "name_de": "Hobgoblin Khan",
+    "name_fr": "Khan Hobgobelin",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "throwing lourdes"
+    ],
+    "specialRules_fr": [
+      "Coup en Traître",
+      "Esquiveur",
+      "Conscrits",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "throwing bianche"
+    ],
+    "specialRules_it": [
+      "Backstab",
+      "Evasione",
+      "Levies",
+      "Warband"
     ]
   },
   {
@@ -708,6 +1181,62 @@
       "Luźny Szyk",
       "Harcownicy",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Leichte Kavallerie",
+    "equipment_de": [
+      "Hobgoblin Wolfs Jagd: Hand waffen",
+      "leichte rüstung",
+      "schilde",
+      "Riese Wolves: Klauen prinz fangs (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Backstab",
+      "Ausweichen",
+      "Wendige Kavallerie",
+      "Schießen und Verschwinden",
+      "Gesindel",
+      "Offene Ränge",
+      "Plänkler",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Hobgoblin Wolfs Jagd",
+    "name_fr": "Chevaucheurs de Loups Hobgobelins",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Légère",
+    "equipment_fr": [
+      "Khan Géant Sylvains: De lourdes",
+      "armure légère",
+      "boucliers",
+      "Loup Funeste: Mortelles et crocs (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Coup en Traître",
+      "Esquiveur",
+      "Cavalerie Rapide",
+      "Tir & Fuite",
+      "Conscrits",
+      "Ordre Dispersé",
+      "Tirailleurs",
+      "Rapide"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Leggera",
+    "equipment_it": [
+      "Hobgoblin Wolf Riders: Armi bianche",
+      "armatura pesante",
+      "scudi",
+      "Giant Wolves: Decapitanti and fangs (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Backstab",
+      "Evasione",
+      "Cavalleria Veloce",
+      "Tirare e Fuggire",
+      "Levies",
+      "Formazione Aperta",
+      "Schermagliatori",
+      "Passo Rapido"
     ]
   },
   {
@@ -756,6 +1285,47 @@
       "Bojowy Okrzyk",
       "Resolute",
       "Nieugięty"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Schwere Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "schwere rüstung"
+    ],
+    "specialRules_de": [
+      "Blackshard Rüstung",
+      "Ensorcelled Waffen",
+      "Sammelruf",
+      "Resolut",
+      "Unnachgiebig"
+    ],
+    "name_de": "Infernal Castellan",
+    "name_fr": "Châtelain Infernal",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Lourde, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Armure Sombréclat",
+      "Armes Ensorcelées",
+      "Cri de Ralliement",
+      "Résolu",
+      "Obstiné"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Pesante, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Blackshard Pesante",
+      "Ensorcelled Bianche",
+      "Grido di Battaglia",
+      "Risoluti",
+      "Determinato"
     ]
   },
   {
@@ -818,6 +1388,50 @@
       "Resolute",
       "Shieldwall",
       "Nieugięty"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Schwere Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "schwere rüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Abteilung",
+      "Hauptregiment",
+      "Resolut",
+      "Schildwall",
+      "Unnachgiebig"
+    ],
+    "name_de": "Infernal Der",
+    "name_fr": "Garde Infernale",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Lourde",
+    "equipment_fr": [
+      "Armes de base",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Détachement",
+      "Unité Régimentaire",
+      "Résolu",
+      "Mur de Boucliers",
+      "Obstiné"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Pesante",
+    "equipment_it": [
+      "Armi Bianche",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Distaccamento",
+      "Unità Madre",
+      "Risoluti",
+      "Muro di Scudi",
+      "Determinato"
     ]
   },
   {
@@ -888,6 +1502,62 @@
       "Shieldwall",
       "Nieugięty",
       "Veteran"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Schwere Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "full plate rüstung"
+    ],
+    "specialRules_de": [
+      "Blackshard Rüstung",
+      "Geschlossene Ränge",
+      "Gut ausgebildet",
+      "Ensorcelled Waffen",
+      "Ungestüm Ignorieren",
+      "Hauptregiment",
+      "Resolut",
+      "Schildwall",
+      "Unnachgiebig",
+      "Veteranen"
+    ],
+    "name_de": "Infernal Ironsworn",
+    "name_fr": "Jurefers Infernaux",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Lourde",
+    "equipment_fr": [
+      "Armes de base",
+      "full plate légère"
+    ],
+    "specialRules_fr": [
+      "Armure Sombréclat",
+      "Ordre Serré",
+      "Bien Entraînés",
+      "Armes Ensorcelées",
+      "Calme la Panique",
+      "Unité Régimentaire",
+      "Résolu",
+      "Mur de Boucliers",
+      "Obstiné",
+      "Vétérans"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Pesante",
+    "equipment_it": [
+      "Armi Bianche",
+      "full plate pesante"
+    ],
+    "specialRules_it": [
+      "Blackshard Pesante",
+      "Formazione Serrata",
+      "Addestrati",
+      "Ensorcelled Bianche",
+      "Quell Panic",
+      "Unità Madre",
+      "Risoluti",
+      "Muro di Scudi",
+      "Determinato",
+      "Veterani"
     ]
   },
   {
@@ -936,6 +1606,47 @@
       "Bojowy Okrzyk",
       "Resolute",
       "Nieugięty"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Schwere Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "schwere rüstung"
+    ],
+    "specialRules_de": [
+      "Blackshard Rüstung",
+      "Ensorcelled Waffen",
+      "Sammelruf",
+      "Resolut",
+      "Unnachgiebig"
+    ],
+    "name_de": "Infernal Seneschall",
+    "name_fr": "Sénéchal Infernal",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Lourde, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Armure Sombréclat",
+      "Armes Ensorcelées",
+      "Cri de Ralliement",
+      "Résolu",
+      "Obstiné"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Pesante, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Blackshard Pesante",
+      "Ensorcelled Bianche",
+      "Grido di Battaglia",
+      "Risoluti",
+      "Determinato"
     ]
   },
   {
@@ -1006,6 +1717,62 @@
       "Lumbering Destruction",
       "Zdeptanie (D3+1)",
       "Niezłomni"
+    ],
+    "unitCategory_de": "Streitwagen",
+    "troopType_de": "Schwerer Streitwagen",
+    "equipment_de": [
+      "Iron Dämon: Steam Cannonade",
+      "Chaos Dwarf Haufen: Hand waffen"
+    ],
+    "specialRules_de": [
+      "Carriage Hauler",
+      "Geschlossene Ränge",
+      "Angst",
+      "Mahlende Räder",
+      "Immung gegen Psychologie",
+      "Aufpralltreffer (W6+1)",
+      "Großes Ziel",
+      "Lumbering Destruction",
+      "Stampfattacken (W3+1)",
+      "Unerschütterlich"
+    ],
+    "name_de": "Iron Dämon",
+    "name_fr": "Démon d’Acier",
+    "unitCategory_fr": "Char",
+    "troopType_fr": "Char Lourd",
+    "equipment_fr": [
+      "Démon Démon: Canon Cannonade",
+      "Chaos Facture Hétéroclite: De lourdes"
+    ],
+    "specialRules_fr": [
+      "Train d’Artillerie",
+      "Ordre Serré",
+      "Peur",
+      "Roues Broyeuses",
+      "Immunisé à la Psychologie",
+      "Touches d'Impact (D6+1)",
+      "Grande Cible",
+      "Destruction Inexorable",
+      "Attaques de Piétinement (D3+1)",
+      "Indémoralisable"
+    ],
+    "unitCategory_it": "Carro",
+    "troopType_it": "Carro Pesante",
+    "equipment_it": [
+      "Iron Daemon: Cannone Cannonade",
+      "Chaos Fattura Crew: Armi bianche"
+    ],
+    "specialRules_it": [
+      "Carriage Hauler",
+      "Formazione Serrata",
+      "Paura",
+      "Grinding Wheels",
+      "Immune alla Psicologia",
+      "Frecce Di (D6+1)",
+      "Bersaglio Grande",
+      "Lumbering Destruction",
+      "Calpestamento Venefici (D3+1)",
+      "Irriducibile"
     ]
   },
   {
@@ -1074,6 +1841,57 @@
       "Niezłomni",
       "Unstable",
       "Warp-spawned"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Monströse Infanterie",
+    "equipment_de": [
+      "Rage prinz hellfire (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Blazing Body",
+      "Geschlossene Ränge",
+      "Ensorcelled Waffen",
+      "Angst",
+      "Flammenattacken",
+      "Immung gegen Psychologie",
+      "Regeneration (5+)",
+      "Unerschütterlich",
+      "Instabil",
+      "Warp-spawned"
+    ],
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Monstrueuse",
+    "equipment_fr": [
+      "Sanguinaire et hellfire (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Corps Embrasé",
+      "Ordre Serré",
+      "Armes Ensorcelées",
+      "Peur",
+      "Attaques Enflammées",
+      "Immunisé à la Psychologie",
+      "Régénération (5+)",
+      "Indémoralisable",
+      "Instables",
+      "Engeance du Warp"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Mostruosa",
+    "equipment_it": [
+      "Rage and hellfire (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Blazing Body",
+      "Formazione Serrata",
+      "Ensorcelled Bianche",
+      "Paura",
+      "Attacchi a Base di Fuoco",
+      "Immune alla Psicologia",
+      "Rigenerazione (5+)",
+      "Irriducibile",
+      "Unstable",
+      "Warp-spawned"
     ]
   },
   {
@@ -1130,6 +1948,58 @@
       "Zdeptanie (D3)",
       "Szybki Krok",
       "Groza"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Monströse Kreatur",
+    "equipment_de": [
+      "Klauen prinz fangs (counts as ein hand weapon)"
+    ],
+    "specialRules_de": [
+      "Rüstungsfluch (2)",
+      "Geschlossene Ränge",
+      "Fliegen (9)",
+      "Rasender Angriff",
+      "Großes Ziel",
+      "Magieresistenz (-3)",
+      "Sorcerous Miasma",
+      "Stampfattacken (W3)",
+      "Schnelle Bewegung",
+      "Entsetzen"
+    ],
+    "name_de": "Lammasu",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Créature Monstrueuse",
+    "equipment_fr": [
+      "Mortelles et crocs (counts comme un de lourde)"
+    ],
+    "specialRules_fr": [
+      "Arme Perforante (2)",
+      "Ordre Serré",
+      "Vol (9)",
+      "Charge Dévastatrice",
+      "Grande Cible",
+      "Résistance à la Magie (-3)",
+      "Exhalaison Miasma",
+      "Attaques de Piétinement (D3)",
+      "Rapide",
+      "Terreur"
+    ],
+    "unitCategory_it": "Mostro",
+    "troopType_it": "Creatura Mostruosa",
+    "equipment_it": [
+      "Decapitanti and fangs (counts come scelti armi bianca)"
+    ],
+    "specialRules_it": [
+      "Pesante Dell’Armatura (2)",
+      "Formazione Serrata",
+      "Volo (9)",
+      "Furious Carica",
+      "Bersaglio Grande",
+      "Oggetti Resistance (-3)",
+      "Sorcerous Miasma",
+      "Calpestamento (D3)",
+      "Passo Rapido",
+      "Terrore"
     ]
   },
   {
@@ -1186,6 +2056,40 @@
     "specialRules_pl": [
       "Blackshard Zbroja",
       "Harcownicy"
+    ],
+    "unitCategory_de": "War Machine",
+    "troopType_de": "Kriegsmaschine",
+    "equipment_de": [
+      "Flammenwerfer",
+      "hand waffen",
+      "schwere rüstung"
+    ],
+    "specialRules_de": [
+      "Blackshard Rüstung",
+      "Plänkler"
+    ],
+    "name_de": "Magma Großkanone",
+    "name_fr": "Canon à Magma",
+    "troopType_fr": "Machine de Guerre",
+    "equipment_fr": [
+      "Lance-flammes",
+      "de lourdes",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Armure Sombréclat",
+      "Tirailleurs"
+    ],
+    "name_it": "Magma Cannone",
+    "troopType_it": "Macchina da Guerra",
+    "equipment_it": [
+      "Cannone Lanciafiamme",
+      "armi bianche",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Blackshard Pesante",
+      "Schermagliatori"
     ]
   },
   {
@@ -1248,6 +2152,50 @@
       "Levies",
       "Przechodzenie Przez Zasłony",
       "Harcownicy"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Zwei Handwaffen",
+      "throwing waffen"
+    ],
+    "specialRules_de": [
+      "Überfall",
+      "Backstab",
+      "Ausweichen",
+      "Gesindel",
+      "Durch Deckung bewegen",
+      "Plänkler"
+    ],
+    "name_de": "Sneaky Gits",
+    "name_fr": "Assassins Hobgobelins",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Deux armes de base",
+      "throwing lourdes"
+    ],
+    "specialRules_fr": [
+      "Embusqueurs",
+      "Coup en Traître",
+      "Esquiveur",
+      "Conscrits",
+      "Mouvement à Couvert",
+      "Tirailleurs"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Two armi bianche",
+      "throwing bianche"
+    ],
+    "specialRules_it": [
+      "Agguato",
+      "Backstab",
+      "Evasione",
+      "Levies",
+      "Viaggiatore",
+      "Schermagliatori"
     ]
   },
   {
@@ -1305,6 +2253,53 @@
       "Resolute",
       "Sorcerer's Curse",
       "Nieugięty"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Schwere Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "schwere rüstung"
+    ],
+    "specialRules_de": [
+      "Blackshard Rüstung",
+      "Ensorcelled Waffen",
+      "Infernal Maschinist",
+      "Lehre des Hashut",
+      "Resolut",
+      "Sorcerer's Curse",
+      "Unnachgiebig"
+    ],
+    "name_de": "Sorcerer-Prophet",
+    "name_fr": "Sorcier-Prophète",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Lourde, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Armure Sombréclat",
+      "Armes Ensorcelées",
+      "Ingénieur Infernal",
+      "Domaine d’Hashut",
+      "Résolu",
+      "Malédiction du Sorcier",
+      "Obstiné"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Pesante, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Blackshard Pesante",
+      "Ensorcelled Bianche",
+      "Infernal Ingegnere",
+      "Lore di Hashut",
+      "Risoluti",
+      "Sorcerer's Curse",
+      "Determinato"
     ]
   }
 ]

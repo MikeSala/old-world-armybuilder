@@ -42,6 +42,44 @@
     ],
     "equipment_pl": [
       "Broń Ręczna i lekka zbroja"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Monströse Infanterie, Charakter",
+    "equipment_de": [
+      "Hand weapon prinz leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Rüstungsfluch (1)",
+      "Walze",
+      "Angst",
+      "Aufpralltreffer (2)",
+      "Ogerangriff"
+    ],
+    "name_de": "Brecher",
+    "name_fr": "Cogneur",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Monstrueuse, Personnage",
+    "equipment_fr": [
+      "De lourde et armure légère"
+    ],
+    "specialRules_fr": [
+      "Arme Perforante (1)",
+      "Charge Buffle",
+      "Peur",
+      "Touches d'Impact (2)",
+      "Charge Ogre"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Mostruosa, Personaggio",
+    "equipment_it": [
+      "Armi bianca and armatura pesante"
+    ],
+    "specialRules_it": [
+      "Rottura dell’Armatura (1)",
+      "Bull Carica",
+      "Paura",
+      "Frecce Di (2)",
+      "Ogre Carica"
     ]
   },
   {
@@ -92,6 +130,44 @@
     ],
     "equipment_pl": [
       "Broń Ręczna"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Monströse Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Rüstungsfluch (1)",
+      "Angst",
+      "Aufpralltreffer (2)",
+      "Lehre des Großen Schlundes",
+      "Ogerangriff"
+    ],
+    "name_de": "Fleischer",
+    "name_fr": "Boucher",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Monstrueuse, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Arme Perforante (1)",
+      "Peur",
+      "Touches d'Impact (2)",
+      "Domaine de La Gueule",
+      "Charge Ogre"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Mostruosa, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Rottura dell’Armatura (1)",
+      "Paura",
+      "Frecce Di (2)",
+      "Lore di le Grandi Maw",
+      "Ogre Carica"
     ]
   },
   {
@@ -143,6 +219,47 @@
     ],
     "equipment_pl": [
       "Broń Ręczna i flaming breath"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Monströse Infanterie, Charakter",
+    "equipment_de": [
+      "Hand weapon prinz flaming atem"
+    ],
+    "specialRules_de": [
+      "Rüstungsfluch (1)",
+      "Segen des Vulkangottes",
+      "Angst",
+      "Flammenattacken",
+      "Aufpralltreffer (1)",
+      "Ogerangriff"
+    ],
+    "name_de": "Feuerbauch",
+    "name_fr": "Ventre-feu",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Monstrueuse, Personnage",
+    "equipment_fr": [
+      "De lourde et attaques glacial"
+    ],
+    "specialRules_fr": [
+      "Arme Perforante (1)",
+      "Bénédictions du Dieu Volcan",
+      "Peur",
+      "Attaques Enflammées",
+      "Touches d'Impact (1)",
+      "Charge Ogre"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Mostruosa, Personaggio",
+    "equipment_it": [
+      "Armi bianca and flaming breath"
+    ],
+    "specialRules_it": [
+      "Rottura dell’Armatura (1)",
+      "Blessings di le Volcano God",
+      "Paura",
+      "Attacchi a Base di Fuoco",
+      "Colpi da Impatto (1)",
+      "Ogre Carica"
     ]
   },
   {
@@ -196,6 +313,55 @@
     ],
     "equipment_pl": [
       "Giant's club i calloused hide (counts jako lekka zbroja)"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Giant's club prinz schwielige haut (counts as leichte rüstung)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Riesenattacken",
+      "Immung gegen Psychologie",
+      "Großes Ziel",
+      "Pick Bis Prinz…",
+      "Stampfattacken (W6)",
+      "Entsetzen",
+      "Baum fällt!",
+      "Unerschütterlich"
+    ],
+    "name_de": "Riese",
+    "name_fr": "Géants",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Giant's club et peau blindée (counts comme armure légère)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Attaques de Géant",
+      "Immunisé à la Psychologie",
+      "Grande Cible",
+      "Pick Jusqu'à Et…",
+      "Attaques de Piétinement (D6)",
+      "Terreur",
+      "Timmm-berrr!",
+      "Indémoralisable"
+    ],
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Giant's club and calloused hide (counts come armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Giant Venefici",
+      "Immune alla Psicologia",
+      "Bersaglio Grande",
+      "Pick Up And…",
+      "Calpestamento (D6)",
+      "Terrore",
+      "Assalto Inarrestabile",
+      "Irriducibile"
     ]
   },
   {
@@ -251,6 +417,38 @@
     ],
     "equipment_pl": [
       "Sharp stuff (counts jako broń ręczna i throwing broń)"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Sharp stuff (counts as hand waffen prinz throwing waffen)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Geschlossene Ränge",
+      "Völlig Unbedeutend"
+    ],
+    "name_de": "Gnoblarkrieger",
+    "name_fr": "Guerriers Gnoblars",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Sharp stuff (counts comme de lourdes et throwing lourdes)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Horde",
+      "Complètement Insignifiant"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Sharp stuff (counts come armi bianche and throwing bianche)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Orda",
+      "Largely Insignificant"
     ]
   },
   {
@@ -332,6 +530,47 @@
     ],
     "equipment_pl": [
       "Scraplauncher catapult; Gnoblar Scrapper: Sharp stuff (counts jako broń ręczna i throwing broń); Rhinox: Tusks i horns (counts jako a broń ręczna)"
+    ],
+    "unitCategory_de": "Streitwagen",
+    "troopType_de": "Schwerer Streitwagen",
+    "equipment_de": [
+      "Scraplauncher katapult; Gnoblar Scrapper: Sharp stuff (counts as hand weapon prinz throwing waffen); Rhinox: Hauer prinz horns (counts as ein hand weapon)"
+    ],
+    "specialRules_de": [
+      "Rüstung Bane (2, Rhinox leichenmeister)",
+      "Geschlossene Ränge",
+      "Angst",
+      "Erster Angriff",
+      "Aufpralltreffer (W6+1)",
+      "Großes Ziel"
+    ],
+    "name_de": "Gnoblar-Schrottschleuder",
+    "name_fr": "Lance-ferraille Gnoblar",
+    "unitCategory_fr": "Char",
+    "troopType_fr": "Char Lourd",
+    "equipment_fr": [
+      "Gnoblar lance-ferraille; Longue-vue Scrapper: Sharp stuff (counts comme de lourde et throwing lourdes); Rhinox: Défenses et cornes (counts comme un de lourde)"
+    ],
+    "specialRules_fr": [
+      "Légère Perforante (2, Rhinox uniquement)",
+      "Ordre Serré",
+      "Peur",
+      "Première Charge",
+      "Touches d'Impact (D6+1)",
+      "Grande Cible"
+    ],
+    "unitCategory_it": "Carro",
+    "troopType_it": "Carro Pesante",
+    "equipment_it": [
+      "Scraplauncher catapult; Gnoblar Scrapper: Sharp stuff (counts come armi bianca and throwing bianche); Rhinox: Tusks and horns (counts come scelti armi bianca)"
+    ],
+    "specialRules_it": [
+      "Pesante Dell’Armatura (2, Rhinox only)",
+      "Formazione Serrata",
+      "Paura",
+      "Prima Carica",
+      "Frecce Di (D6+1)",
+      "Bersaglio Grande"
     ]
   },
   {
@@ -391,6 +630,44 @@
     ],
     "equipment_pl": [
       "Sharp stuff (counts jako broń ręczna i throwing broń)"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Sharp stuff (counts as hand waffen prinz throwing waffen)"
+    ],
+    "specialRules_de": [
+      "Völlig Unbedeutend",
+      "Durch Deckung bewegen",
+      "Kundschafter",
+      "Plänkler",
+      "Fallen & Schlingen"
+    ],
+    "name_de": "Gnoblar-Fallensteller",
+    "name_fr": "Trappeurs Gnoblars",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Sharp stuff (counts comme de lourdes et throwing lourdes)"
+    ],
+    "specialRules_fr": [
+      "Complètement Insignifiant",
+      "Mouvement à Couvert",
+      "Éclaireurs",
+      "Tirailleurs",
+      "Pièges & Collets"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Sharp stuff (counts come armi bianche and throwing bianche)"
+    ],
+    "specialRules_it": [
+      "Largely Insignificant",
+      "Viaggiatore",
+      "Esploratori",
+      "Schermagliatori",
+      "Traps & Snares"
     ]
   },
   {
@@ -442,6 +719,53 @@
     ],
     "equipment_pl": [
       "Wicked claws, distensible jaw i calloused hide (counts jako lekka zbroja)"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Monströse Kreatur",
+    "equipment_de": [
+      "Boshafte klauen, gewaltiges maul prinz schwielige haut (counts as leichte rüstung)"
+    ],
+    "specialRules_de": [
+      "Überfall",
+      "Geschlossene Ränge",
+      "Angst",
+      "Raserei",
+      "Ausgehungert",
+      "Regeneration (6+)",
+      "Schnelle Bewegung",
+      "Unerschütterlich"
+    ],
+    "name_de": "Verschlinger",
+    "name_fr": "Cannibale",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Créature Monstrueuse",
+    "equipment_fr": [
+      "Griffes mortelles, mâchoire extensible et peau blindée (counts comme armure légère)"
+    ],
+    "specialRules_fr": [
+      "Embusqueurs",
+      "Ordre Serré",
+      "Peur",
+      "Frénésie",
+      "Faim Dévorante",
+      "Régénération (6+)",
+      "Rapide",
+      "Indémoralisable"
+    ],
+    "unitCategory_it": "Mostro",
+    "troopType_it": "Creatura Mostruosa",
+    "equipment_it": [
+      "Wicked decapitanti, distensible jaw and calloused hide (counts come armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Agguato",
+      "Formazione Serrata",
+      "Paura",
+      "Frenzy",
+      "Ravenous Hunger",
+      "Rigenerazione (6+)",
+      "Passo Rapido",
+      "Irriducibile"
     ]
   },
   {
@@ -491,6 +815,50 @@
     ],
     "equipment_pl": [
       "Broń Ręczna, wielki throwing spear i lekka zbroja"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Monströse Infanterie, Charakter",
+    "equipment_de": [
+      "Hand weapon, chepesh throwing speer prinz leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Rüstungsfluch (1)",
+      "Angst",
+      "Aufpralltreffer (1)",
+      "Einzelgänger",
+      "Durch Deckung bewegen",
+      "Ogerangriff",
+      "Running mit der Pack"
+    ],
+    "name_de": "Jäger",
+    "name_fr": "Chasseur",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Monstrueuse, Personnage",
+    "equipment_fr": [
+      "De lourde, armes throwing lance et armure légère"
+    ],
+    "specialRules_fr": [
+      "Arme Perforante (1)",
+      "Peur",
+      "Touches d'Impact (1)",
+      "Solitaire",
+      "Mouvement à Couvert",
+      "Charge Ogre",
+      "Running avec la Meute"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Mostruosa, Personaggio",
+    "equipment_it": [
+      "Armi bianca, grandi throwing leggera and armatura pesante"
+    ],
+    "specialRules_it": [
+      "Rottura dell’Armatura (1)",
+      "Paura",
+      "Colpi da Impatto (1)",
+      "Solitario",
+      "Viaggiatore",
+      "Ogre Carica",
+      "Running with le Pack"
     ]
   },
   {
@@ -588,6 +956,47 @@
     ],
     "equipment_pl": [
       "Ironblaster: Cannon of the Sky-titans; Leadbelcher: Broń Ręczna; Gnoblar Scrapper: Sharp stuff (counts jako broń ręczna i throwing broń); Rhinox: Tusks i horns (counts jako a broń ręczna)"
+    ],
+    "unitCategory_de": "Streitwagen",
+    "troopType_de": "Schwerer Streitwagen",
+    "equipment_de": [
+      "Eisenspeier: Großkanone des der Sky-titans; Leadbelcher: Hand weapon; Gnoblar Scrapper: Sharp stuff (counts as hand weapon prinz throwing waffen); Rhinox: Hauer prinz horns (counts as ein hand weapon)"
+    ],
+    "specialRules_de": [
+      "Rüstung Bane (2, Rhinox leichenmeister)",
+      "Geschlossene Ränge",
+      "Angst",
+      "Erster Angriff",
+      "Aufpralltreffer (W6+1)",
+      "Großes Ziel"
+    ],
+    "name_de": "Eisenspeier",
+    "name_fr": "Boute-fer",
+    "unitCategory_fr": "Char",
+    "troopType_fr": "Char Lourd",
+    "equipment_fr": [
+      "Boute-fer: Canon de la Sky-titans; Leadbelcher: De lourde; Longue-vue Scrapper: Sharp stuff (counts comme de lourde et throwing lourdes); Rhinox: Défenses et cornes (counts comme un de lourde)"
+    ],
+    "specialRules_fr": [
+      "Légère Perforante (2, Rhinox uniquement)",
+      "Ordre Serré",
+      "Peur",
+      "Première Charge",
+      "Touches d'Impact (D6+1)",
+      "Grande Cible"
+    ],
+    "unitCategory_it": "Carro",
+    "troopType_it": "Carro Pesante",
+    "equipment_it": [
+      "Ironblaster: Cannone di le Sky-titans; Leadbelcher: Armi bianca; Gnoblar Scrapper: Sharp stuff (counts come armi bianca and throwing bianche); Rhinox: Tusks and horns (counts come scelti armi bianca)"
+    ],
+    "specialRules_it": [
+      "Pesante Dell’Armatura (2, Rhinox only)",
+      "Formazione Serrata",
+      "Paura",
+      "Prima Carica",
+      "Frecce Di (D6+1)",
+      "Bersaglio Grande"
     ]
   },
   {
@@ -645,6 +1054,41 @@
     ],
     "equipment_pl": [
       "Broń Ręczna, broń wielka i ciężka zbroja"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Monströse Infanterie",
+    "equipment_de": [
+      "Hand waffen, chepesh waffen prinz schwere rüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Angst",
+      "Aufpralltreffer (1)",
+      "Ogerangriff"
+    ],
+    "name_de": "Eisenwänste",
+    "name_fr": "Ventres-durs",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Monstrueuse",
+    "equipment_fr": [
+      "De lourdes, armes lourdes et armure légère"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Peur",
+      "Touches d'Impact (1)",
+      "Charge Ogre"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Mostruosa",
+    "equipment_it": [
+      "Armi bianche, grandi bianche and armatura pesante"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Paura",
+      "Colpi da Impatto (1)",
+      "Ogre Carica"
     ]
   },
   {
@@ -702,6 +1146,41 @@
     ],
     "equipment_pl": [
       "Broń Ręczna, leadbelcher guns i lekka zbroja"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Monströse Infanterie",
+    "equipment_de": [
+      "Hand waffen, leadbelcher guns prinz leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Angst",
+      "Aufpralltreffer (1)",
+      "Ogerangriff"
+    ],
+    "name_de": "Bleispucker",
+    "name_fr": "Crache-plomb",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Monstrueuse",
+    "equipment_fr": [
+      "De lourdes, leadbelcher guns et armure légère"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Peur",
+      "Touches d'Impact (1)",
+      "Charge Ogre"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Mostruosa",
+    "equipment_it": [
+      "Armi bianche, leadbelcher guns and armatura pesante"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Paura",
+      "Colpi da Impatto (1)",
+      "Ogre Carica"
     ]
   },
   {
@@ -761,6 +1240,44 @@
     ],
     "equipment_pl": [
       "Broń Ręczna i lekka zbroja"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Monströse Infanterie",
+    "equipment_de": [
+      "Hand waffen prinz leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Angst",
+      "Aufpralltreffer (1)",
+      "Zusammengewürfelter Haufen",
+      "Ogerangriff"
+    ],
+    "name_de": "Vielfraße",
+    "name_fr": "Mangeurs d'Hommes",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Monstrueuse",
+    "equipment_fr": [
+      "De lourdes et armure légère"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Peur",
+      "Touches d'Impact (1)",
+      "Bande Hétéroclite",
+      "Charge Ogre"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Mostruosa",
+    "equipment_it": [
+      "Armi bianche and armatura pesante"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Paura",
+      "Colpi da Impatto (1)",
+      "Equipaggiamento Eterogeneo",
+      "Ogre Carica"
     ]
   },
   {
@@ -840,6 +1357,48 @@
     ],
     "equipment_pl": [
       "Ogr: Broń Ręczna i lekka zbroja; Mournfang: Monstrous tusks"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Monströse Kavallerie",
+    "equipment_de": [
+      "Ogre: Hand waffen prinz leichte rüstung; Mournfang: Monströse hauer"
+    ],
+    "specialRules_de": [
+      "Zähe Haut (1)",
+      "Geschlossene Ränge",
+      "Angst",
+      "Aufpralltreffer (W3)",
+      "Trauerfangangriff",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Trauerfangkavallerie",
+    "name_fr": "Cavalerie Férox",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Monstrueuse",
+    "equipment_fr": [
+      "Charge: De lourdes et armure légère; Charge: Monstrous défenses"
+    ],
+    "specialRules_fr": [
+      "Peau Blindée (1)",
+      "Ordre Serré",
+      "Peur",
+      "Touches d'Impact (D3)",
+      "Charge Férox",
+      "Rapide"
+    ],
+    "name_it": "Mournfang Lancia",
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Mostruosa",
+    "equipment_it": [
+      "Ogre: Armi bianche and armatura pesante; Mournfang: Monstrous tusks"
+    ],
+    "specialRules_it": [
+      "Pelle a Scaglie (1)",
+      "Formazione Serrata",
+      "Paura",
+      "Frecce di Asaph",
+      "Mournfang Carica",
+      "Passo Rapido"
     ]
   },
   {
@@ -899,6 +1458,44 @@
     ],
     "equipment_pl": [
       "Broń Ręczna i lekka zbroja"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Monströse Infanterie",
+    "equipment_de": [
+      "Hand waffen prinz leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Rüstungsfluch (1)",
+      "Geschlossene Ränge",
+      "Angst",
+      "Aufpralltreffer (1)",
+      "Ogerangriff"
+    ],
+    "name_de": "Ogerbullen",
+    "name_fr": "Buffles Ogres",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Monstrueuse",
+    "equipment_fr": [
+      "De lourdes et armure légère"
+    ],
+    "specialRules_fr": [
+      "Arme Perforante (1)",
+      "Ordre Serré",
+      "Peur",
+      "Touches d'Impact (1)",
+      "Charge Ogre"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Mostruosa",
+    "equipment_it": [
+      "Armi bianche and armatura pesante"
+    ],
+    "specialRules_it": [
+      "Rottura dell’Armatura (1)",
+      "Formazione Serrata",
+      "Paura",
+      "Colpi da Impatto (1)",
+      "Ogre Carica"
     ]
   },
   {
@@ -950,6 +1547,53 @@
     ],
     "equipment_pl": [
       "Claws i fangs (counts jako broń ręczna)"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Kriegstier",
+    "equipment_de": [
+      "Klauen prinz fangs (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Rüstungsfluch (1)",
+      "Angst",
+      "Ungestüm",
+      "Einzelgänger",
+      "Durch Deckung bewegen",
+      "Offene Ränge",
+      "Plänkler",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Säbelzahnrudel",
+    "name_fr": "Meutes de Crocs de Sabre",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Bête de Guerre",
+    "equipment_fr": [
+      "Mortelles et crocs (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Arme Perforante (1)",
+      "Peur",
+      "Impétueux",
+      "Solitaire",
+      "Mouvement à Couvert",
+      "Ordre Dispersé",
+      "Tirailleurs",
+      "Rapide"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Bestia da Guerra",
+    "equipment_it": [
+      "Decapitanti and fangs (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Rottura dell’Armatura (1)",
+      "Paura",
+      "Impetuosi",
+      "Solitario",
+      "Viaggiatore",
+      "Formazione Aperta",
+      "Schermagliatori",
+      "Passo Rapido"
     ]
   },
   {
@@ -1000,6 +1644,44 @@
     ],
     "equipment_pl": [
       "Broń Ręczna"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Monströse Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Rüstungsfluch (1)",
+      "Angst",
+      "Aufpralltreffer (2)",
+      "Lehre des Großen Schlundes",
+      "Ogerangriff"
+    ],
+    "name_de": "Fleischermeister",
+    "name_fr": "Désosseur",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Monstrueuse, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Arme Perforante (1)",
+      "Peur",
+      "Touches d'Impact (2)",
+      "Domaine de La Gueule",
+      "Charge Ogre"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Mostruosa, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Rottura dell’Armatura (1)",
+      "Paura",
+      "Frecce Di (2)",
+      "Lore di le Grandi Maw",
+      "Ogre Carica"
     ]
   },
   {
@@ -1053,6 +1735,53 @@
     ],
     "equipment_pl": [
       "Horns of kamienny i petrified flesh (counts jako pełna zbroja płytowa)"
+    ],
+    "unitCategory_de": "Mount",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Horns des steinernes prinz petrified flesh (counts as full plate rüstung)"
+    ],
+    "specialRules_de": [
+      "Rüstung Bane (2, Steinyak leichenmeister)",
+      "Geschlossene Ränge",
+      "Erster Angriff",
+      "Aufpralltreffer (W6+1)",
+      "Großes Ziel",
+      "Steinernes Skelett",
+      "Schnelle Bewegung",
+      "Entsetzen",
+      "Donnernder Angriff"
+    ],
+    "name_de": "Steinyak",
+    "name_fr": "Mastauroc",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Cornes de pierre et petrified flesh (counts comme full plate légère)"
+    ],
+    "specialRules_fr": [
+      "Légère Perforante (2, Mastauroc uniquement)",
+      "Ordre Serré",
+      "Première Charge",
+      "Touches d'Impact (D6+1)",
+      "Grande Cible",
+      "Squelette de Pierre",
+      "Rapide",
+      "Terreur",
+      "Charge Tonnerre"
+    ],
+    "equipment_it": [
+      "Horns di stone and petrified flesh (counts come full plate pesante)"
+    ],
+    "specialRules_it": [
+      "Pesante Dell’Armatura (2, Stonehorn only)",
+      "Formazione Serrata",
+      "Prima Carica",
+      "Frecce Di (D6+1)",
+      "Bersaglio Grande",
+      "Stone Carro",
+      "Passo Rapido",
+      "Terrore",
+      "Thunderous Carica"
     ]
   },
   {
@@ -1142,6 +1871,58 @@
     ],
     "equipment_pl": [
       "Stonehorn: Horns of kamienny; Ogr Bestia Jeździec: Broń Ręczna i chaintrap; Ogr Załoga: Broń Ręczna i harpoon launcher"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Steinyak: Horns des steinernes; Ogre Bestie Rider: Hand weapon prinz chaintrap; Ogre Haufen: Hand weapon prinz harpoon launcher"
+    ],
+    "specialRules_de": [
+      "Rüstung Bane (2, Steinyak leichenmeister)",
+      "Geschlossene Ränge",
+      "Erster Angriff",
+      "Sänfte",
+      "Aufpralltreffer (W6+1)",
+      "Großes Ziel",
+      "Steinernes Skelett",
+      "Schnelle Bewegung",
+      "Entsetzen",
+      "Donnernder Angriff"
+    ],
+    "name_de": "Steinyakreiter",
+    "name_fr": "Chevaucheurs de Mastauroc",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Mastauroc: Cornes de pierre; Charge Maître Gobelins: De lourde et chaintrap; Charge Hétéroclite: De lourde et harpoon lance-harpon"
+    ],
+    "specialRules_fr": [
+      "Légère Perforante (2, Mastauroc uniquement)",
+      "Ordre Serré",
+      "Première Charge",
+      "Immunisé",
+      "Touches d'Impact (D6+1)",
+      "Grande Cible",
+      "Squelette de Pierre",
+      "Rapide",
+      "Terreur",
+      "Charge Tonnerre"
+    ],
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Stonehorn: Horns di stone; Ogre Beast Rider: Armi bianca and chaintrap; Ogre Crew: Armi bianca and harpoon launcher"
+    ],
+    "specialRules_it": [
+      "Pesante Dell’Armatura (2, Stonehorn only)",
+      "Formazione Serrata",
+      "Prima Carica",
+      "Costrutto (2)",
+      "Frecce Di (D6+1)",
+      "Bersaglio Grande",
+      "Stone Carro",
+      "Passo Rapido",
+      "Terrore",
+      "Thunderous Carica"
     ]
   },
   {
@@ -1193,6 +1974,50 @@
     ],
     "equipment_pl": [
       "Wielki tusks, chill breath i frozen pelt (counts jako ciężka zbroja)"
+    ],
+    "unitCategory_de": "Mount",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Chepesh hauer, kälte atem prinz frozen pelt (counts as schwere rüstung)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Erster Angriff",
+      "Aufpralltreffer (W3)",
+      "Großes Ziel",
+      "Lähmende Kälte",
+      "Stampfattacken (3)",
+      "Schnelle Bewegung",
+      "Entsetzen"
+    ],
+    "name_de": "Donnerhorn",
+    "name_fr": "Mégastodonte",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Armes défenses, paralysant glacial et frozen pelt (counts comme armure légère)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Première Charge",
+      "Touches d'Impact (D3)",
+      "Grande Cible",
+      "Frisson Paralysant",
+      "Attaques de Piétinement (3)",
+      "Rapide",
+      "Terreur"
+    ],
+    "equipment_it": [
+      "Grandi tusks, chill breath and frozen pelt (counts come armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Prima Carica",
+      "Frecce di Asaph",
+      "Bersaglio Grande",
+      "Numbing Chill",
+      "Calpestamento Venefici (3)",
+      "Passo Rapido",
+      "Terrore"
     ]
   },
   {
@@ -1280,6 +2105,55 @@
     ],
     "equipment_pl": [
       "Thundertusk: Wielki tusks i chill breath; Ogr Bestia Jeździec: Broń Ręczna i chaintrap; Ogr Załoga: Broń Ręczna i harpoon launcher"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Donnerhorn: Chepesh hauer prinz kälte atem; Ogre Bestie Rider: Hand weapon prinz chaintrap; Ogre Haufen: Hand weapon prinz harpoon launcher"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Erster Angriff",
+      "Sänfte",
+      "Aufpralltreffer (W3)",
+      "Großes Ziel",
+      "Lähmende Kälte",
+      "Stampfattacken (3)",
+      "Schnelle Bewegung",
+      "Entsetzen"
+    ],
+    "name_de": "Donnerhornreiter",
+    "name_fr": "Chevaucheurs de Mégastodonte",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Mégastodonte: Armes défenses et paralysant glacial; Charge Maître Gobelins: De lourde et chaintrap; Charge Hétéroclite: De lourde et harpoon lance-harpon"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Première Charge",
+      "Immunisé",
+      "Touches d'Impact (D3)",
+      "Grande Cible",
+      "Frisson Paralysant",
+      "Attaques de Piétinement (3)",
+      "Rapide",
+      "Terreur"
+    ],
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Thundertusk: Grandi tusks and chill breath; Ogre Beast Rider: Armi bianca and chaintrap; Ogre Crew: Armi bianca and harpoon launcher"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Prima Carica",
+      "Costrutto (2)",
+      "Frecce di Asaph",
+      "Bersaglio Grande",
+      "Numbing Chill",
+      "Calpestamento Venefici (3)",
+      "Passo Rapido",
+      "Terrore"
     ]
   },
   {
@@ -1325,6 +2199,44 @@
     ],
     "equipment_pl": [
       "Broń Ręczna i lekka zbroja"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Monströse Infanterie, Charakter",
+    "equipment_de": [
+      "Hand weapon prinz leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Rüstungsfluch (1)",
+      "Walze",
+      "Angst",
+      "Aufpralltreffer (2)",
+      "Ogerangriff"
+    ],
+    "name_de": "Tyrann",
+    "name_fr": "Tyran",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Monstrueuse, Personnage",
+    "equipment_fr": [
+      "De lourde et armure légère"
+    ],
+    "specialRules_fr": [
+      "Arme Perforante (1)",
+      "Charge Buffle",
+      "Peur",
+      "Touches d'Impact (2)",
+      "Charge Ogre"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Mostruosa, Personaggio",
+    "equipment_it": [
+      "Armi bianca and armatura pesante"
+    ],
+    "specialRules_it": [
+      "Rottura dell’Armatura (1)",
+      "Bull Carica",
+      "Paura",
+      "Frecce Di (2)",
+      "Ogre Carica"
     ]
   },
   {
@@ -1390,6 +2302,53 @@
     ],
     "equipment_pl": [
       "Grimfrost broń"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Monströse Infanterie",
+    "equipment_de": [
+      "Eiswaffen"
+    ],
+    "specialRules_de": [
+      "Zähe Haut (1)",
+      "Angst",
+      "Brennbar",
+      "Einzelgänger",
+      "Durch Deckung bewegen",
+      "Lähmende Kälte",
+      "Offene Ränge",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Yhetis",
+    "name_fr": "Yétis",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Monstrueuse",
+    "equipment_fr": [
+      "Arme de Sinistregivre"
+    ],
+    "specialRules_fr": [
+      "Peau Blindée (1)",
+      "Peur",
+      "Inflammable",
+      "Solitaire",
+      "Mouvement à Couvert",
+      "Frisson Paralysant",
+      "Ordre Dispersé",
+      "Rapide"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Mostruosa",
+    "equipment_it": [
+      "Grimfrost bianche"
+    ],
+    "specialRules_it": [
+      "Pelle a Scaglie (1)",
+      "Paura",
+      "Suscettibile al Fuoco",
+      "Solitario",
+      "Viaggiatore",
+      "Numbing Chill",
+      "Formazione Aperta",
+      "Passo Rapido"
     ]
   }
 ]

@@ -51,6 +51,57 @@
       "Nehekharijscy Nieumarli",
       "Regeneracja (5+)",
       "Kamienny Shaper"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "peitsche",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Staubtrocken",
+      "Brennbar",
+      "Unsterblicher Aufseher",
+      "Chepesh",
+      "Untote von Nehekhara",
+      "Regeneration (5+)",
+      "Steinformer"
+    ],
+    "name_de": "Erznekrotekt",
+    "name_fr": "Archi-Nécrotecte",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "fouet",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Desséchés",
+      "Inflammable",
+      "Contremaître Immortel",
+      "Khopesh",
+      "Morts-vivants de Nehekhara",
+      "Régénération (5+)",
+      "Tailleur de Pierre"
+    ],
+    "name_it": "Gran Necrotetto",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "frusta",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Arido come Polvere",
+      "Suscettibile al Fuoco",
+      "Infiammabile",
+      "Khopesh",
+      "Non morto di Nehekharan",
+      "Rigenerazione (5+)",
+      "Plasmatore di pietre"
     ]
   },
   {
@@ -97,6 +148,45 @@
       "Regeneracja (6+)",
       "Harcownicy",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Monströse Infanterie",
+    "equipment_de": [
+      "Beaks prinz klauen (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Fliegen (10)",
+      "Untote von Nehekhara",
+      "Regeneration (6+)",
+      "Plänkler",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Todesgeier",
+    "name_fr": "Charognards",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Monstrueuse",
+    "equipment_fr": [
+      "Beaks et crasseuses (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Vol (10)",
+      "Morts-vivants de Nehekhara",
+      "Régénération (6+)",
+      "Tirailleurs",
+      "Rapide"
+    ],
+    "name_it": "Carogne",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Mostruosa",
+    "equipment_it": [
+      "Beaks and talons (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Volo (10)",
+      "Non morto di Nehekharan",
+      "Rigenerazione (6+)",
+      "Schermagliatori",
+      "Passo Rapido"
     ]
   },
   {
@@ -169,6 +259,64 @@
       "Harcownicy",
       "Unbound Spirits",
       "Vortex of Souls"
+    ],
+    "unitCategory_de": "War Machine",
+    "troopType_de": "Kriegsmaschine",
+    "equipment_de": [
+      "Handwaffen",
+      "chepesh waffen",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Spaltender Hieb",
+      "Bund der Macht",
+      "Staubtrocken",
+      "Unbewegliches Objekt",
+      "Unverwüstlich (2)",
+      "Untote von Nehekhara",
+      "Regeneration (5+)",
+      "Plänkler",
+      "Entfesselte Geister",
+      "Seelenwirbel"
+    ],
+    "name_de": "Lade der Verdammten Seelen",
+    "name_fr": "Arche des Âmes Damnées",
+    "troopType_fr": "Machine de Guerre",
+    "equipment_fr": [
+      "Armes de base",
+      "armes lourdes",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Coup de Fendoir",
+      "Alliance de Pouvoir",
+      "Desséchés",
+      "Objet Inébranlable",
+      "Indomptable (2)",
+      "Morts-vivants de Nehekhara",
+      "Régénération (5+)",
+      "Tirailleurs",
+      "Esprits Déchaînés",
+      "Vortex des Âmes"
+    ],
+    "name_it": "Arca delle Anime",
+    "troopType_it": "Macchina da Guerra",
+    "equipment_it": [
+      "Armi Bianche",
+      "grandi bianche",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Colpo di Grazia",
+      "Covenant di Power",
+      "Arido come Polvere",
+      "Immovable Object",
+      "Costrutto (2)",
+      "Non morto di Nehekharan",
+      "Rigenerazione (5+)",
+      "Schermagliatori",
+      "Unbound Spirits",
+      "Vortex di Anime"
     ]
   },
   {
@@ -226,6 +374,54 @@
       "Nehekharijscy Nieumarli",
       "Regeneracja (5+)",
       "Z Beneath the Sands"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Erhebt euch!",
+      "Fluch der Nekropole",
+      "Unverwüstlich (1)",
+      "Chepesh",
+      "Lehre von Nehekhara",
+      "Untote von Nehekhara",
+      "Regeneration (5+)",
+      "Aus dem Sand"
+    ],
+    "name_de": "Hohepriester",
+    "name_fr": "Grand Prêtre",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Levez-vous!",
+      "Malédiction de la Nécropole",
+      "Indomptable (1)",
+      "Khopesh",
+      "Domaine de Nehekhara",
+      "Morts-vivants de Nehekhara",
+      "Régénération (5+)",
+      "Surgis de Sous les Sables"
+    ],
+    "name_it": "Sommo Sacerdote Liche",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Risorgi!",
+      "Maledizione della Necropoli",
+      "Costrutto (1)",
+      "Khopesh",
+      "Saperi di Nehekhara",
+      "Non morto di Nehekharan",
+      "Rigenerazione (5+)",
+      "Da sotto le sabbie"
     ]
   },
   {
@@ -302,6 +498,71 @@
       "Regeneracja (6+)",
       "Zdeptanie (D3)",
       "Groza"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Khemrische Kriegssphinx: Boshafte klauen",
+      "Streitwagen Der Haufen: Hand waffen",
+      "Streitwagen Der Haufen: kavallerie spear",
+      "Streitwagen Der Haufen: kurzbögen"
+    ],
+    "specialRules_de": [
+      "Pfeile der Asaph",
+      "Spaltender Hieb (nur Gruftwächterbesatzung)",
+      "Geschlossene Ränge",
+      "Sänfte",
+      "Unverwüstlich (2)",
+      "Chepesh (nur Gruftwächter",
+      "Großes Ziel",
+      "Untote von Nehekhara",
+      "Regeneration (6+)",
+      "Stampfattacken (W3)",
+      "Entsetzen"
+    ],
+    "name_de": "Khemrische Kriegssphinx",
+    "name_fr": "Sphinx de Guerre de Khemri",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Khemrian Warsphinx: Griffes mortelles",
+      "Des Elfique Hétéroclite: De lourdes",
+      "Des Elfique Hétéroclite: rapide d'infanterie",
+      "Des Elfique Hétéroclite: shortbows"
+    ],
+    "specialRules_fr": [
+      "Flèches d'Asaph",
+      "Coup de Fendoir (Aurige Gardien des Tombes uniquement)",
+      "Ordre Serré",
+      "Immunisé",
+      "Indomptable (2)",
+      "Khopesh (Aurige Gardien des Tombes uniquement)",
+      "Grande Cible",
+      "Morts-vivants de Nehekhara",
+      "Régénération (6+)",
+      "Attaques de Piétinement (D3)",
+      "Terreur"
+    ],
+    "name_it": "Sfinge da Guerra Khemriana",
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Khemrian Warsphinx: Wicked decapitanti",
+      "Del Guard Crew: Armi bianche",
+      "Del Guard Crew: lancia leggera",
+      "Del Guard Crew: shortbows"
+    ],
+    "specialRules_it": [
+      "Freccie di Asaph",
+      "Colpo di Grazia (solo Eq. Guardie dei Sepolcri)",
+      "Formazione Serrata",
+      "Costrutto (2)",
+      "Costrutto (2)",
+      "Rigenerazione (6+)",
+      "Bersaglio Grande",
+      "Non morto di Nehekharan",
+      "Rigenerazione (6+)",
+      "Calpestamento (D3)",
+      "Terrore"
     ]
   },
   {
@@ -359,6 +620,54 @@
       "Nehekharijscy Nieumarli",
       "Regeneracja (5+)",
       "Z Beneath the Sands"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Erhebt euch!",
+      "Fluch der Nekropole",
+      "Unverwüstlich (1)",
+      "Chepesh",
+      "Lehre von Nehekhara",
+      "Untote von Nehekhara",
+      "Regeneration (5+)",
+      "Aus dem Sand"
+    ],
+    "name_de": "Priester des Totenkults",
+    "name_fr": "Prêtre Mortuaire",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Levez-vous!",
+      "Malédiction de la Nécropole",
+      "Indomptable (1)",
+      "Khopesh",
+      "Domaine de Nehekhara",
+      "Morts-vivants de Nehekhara",
+      "Régénération (5+)",
+      "Surgis de Sous les Sables"
+    ],
+    "name_it": "Sacerdote Liche",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Risorgi!",
+      "Maledizione della Necropoli",
+      "Costrutto (1)",
+      "Khopesh",
+      "Saperi di Nehekhara",
+      "Non morto di Nehekharan",
+      "Rigenerazione (5+)",
+      "Da sotto le sabbie"
     ]
   },
   {
@@ -419,6 +728,65 @@
       "Zdeptanie (D6)",
       "Szybki Krok",
       "Groza"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Boshafte Klauen",
+      "atem des desiccation",
+      "draconic bones (counts as full plate rüstung)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Cloud des Dust",
+      "Staubtrocken",
+      "Fliegen (9)",
+      "Unverwüstlich (2)",
+      "Großes Ziel",
+      "Untote von Nehekhara",
+      "Stampfattacken (W6)",
+      "Schnelle Bewegung",
+      "Entsetzen"
+    ],
+    "name_de": "Nekrolith Knochendrache",
+    "name_fr": "Dragon d'Os Nécrolithe",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Griffes mortelles",
+      "glacial de desiccation",
+      "draconic bones (counts comme full plate légère)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Nuage de Dust",
+      "Desséchés",
+      "Vol (9)",
+      "Indomptable (2)",
+      "Grande Cible",
+      "Morts-vivants de Nehekhara",
+      "Attaques de Piétinement (D6)",
+      "Rapide",
+      "Terreur"
+    ],
+    "name_it": "Drago Scheletrico Necrolitico",
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Wicked decapitanti",
+      "breath di desiccation",
+      "draconic bones (counts come full plate pesante)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Cloud di Polvere",
+      "Arido come Polvere",
+      "Volo (9)",
+      "Costrutto (2)",
+      "Bersaglio Grande",
+      "Non morto di Nehekharan",
+      "Calpestamento (D6)",
+      "Passo Rapido",
+      "Terrore"
     ]
   },
   {
@@ -475,6 +843,59 @@
       "Groza",
       "Dreeeewno!",
       "Unstoppable Assault"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Riesiges Chepesh Paar",
+      "schwere rüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Unverwüstlich (2)",
+      "Großes Ziel",
+      "Untote von Nehekhara",
+      "Regeneration (6+)",
+      "Stampfattacken (W3)",
+      "Entsetzen",
+      "Baum fällt!",
+      "Unaufhaltsamer Angriff"
+    ],
+    "name_de": "Nekrolith-Koloss",
+    "name_fr": "Colosse Nécrolithe",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Paire de grands khopeshs",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Indomptable (2)",
+      "Grande Cible",
+      "Morts-vivants de Nehekhara",
+      "Régénération (6+)",
+      "Attaques de Piétinement (D3)",
+      "Terreur",
+      "Timmm-berrr!",
+      "Assaut Inexorable"
+    ],
+    "name_it": "Colosso Necrolitico",
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Grandi Khopesh Gemelle",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Costrutto (2)",
+      "Bersaglio Grande",
+      "Non morto di Nehekharan",
+      "Rigenerazione (6+)",
+      "Calpestamento (D3)",
+      "Terrore",
+      "Assalto Inarrestabile",
+      "Non morto di Nehekharan"
     ]
   },
   {
@@ -563,6 +984,72 @@
       "Trujące Ataki (Necroserpent only)",
       "Regeneracja (6+)",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Monströse Kavallerie",
+    "equipment_de": [
+      "Necropolis Inneren: Hand waffen",
+      "Necropolis Inneren: kavallerie spear",
+      "Necropolis Inneren: leichte rüstung",
+      "Necropolis Inneren: schilde",
+      "Necroserpent: Lashing schwänze (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Zähe Haut (1)",
+      "Spaltender Hieb (Jagd leichenmeister)",
+      "Geschlossene Ränge",
+      "Aufpralltreffer (1)",
+      "Unverwüstlich (1)",
+      "Chepesh",
+      "Untote von Nehekhara",
+      "Poisoned Attacken (Necroserpent leichenmeister)",
+      "Regeneration (6+)",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Nekropolenritter",
+    "name_fr": "Chevaliers de la Nécropole",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Monstrueuse",
+    "equipment_fr": [
+      "Nécropole Loup: De lourdes",
+      "Nécropole Loup: rapide d'infanterie",
+      "Nécropole Loup: armure légère",
+      "Nécropole Loup: boucliers",
+      "Necroserpent: Serres sinueuses (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Peau Blindée (1)",
+      "Lames Fatal (Sylvains uniquement)",
+      "Ordre Serré",
+      "Touches d'Impact (1)",
+      "Indomptable (1)",
+      "Khopesh",
+      "Morts-vivants de Nehekhara",
+      "Attaques Empoisonnées (Necroserpent uniquement)",
+      "Régénération (6+)",
+      "Rapide"
+    ],
+    "name_it": "Cavalieri della Necropoli",
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Mostruosa",
+    "equipment_it": [
+      "Necropolis Knights: Armi bianche",
+      "Necropolis Knights: lancia leggera",
+      "Necropolis Knights: armatura pesante",
+      "Necropolis Knights: scudi",
+      "Necroserpent: Lashing contorte (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Pelle a Scaglie (1)",
+      "Lame Mortale (Riders only)",
+      "Formazione Serrata",
+      "Colpi da Impatto (1)",
+      "Costrutto (1)",
+      "Khopesh",
+      "Non morto di Nehekharan",
+      "Attacchi Venefici (Necroserpent only)",
+      "Rigenerazione (6+)",
+      "Passo Rapido"
     ]
   },
   {
@@ -619,6 +1106,60 @@
       "Trujące Ataki",
       "Regeneracja (6+)",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Monströse Kavallerie",
+    "equipment_de": [
+      "Lashing schwänze prinz venomous fangs (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Überfall",
+      "Zähe Haut (1)",
+      "Aufpralltreffer (1)",
+      "Unverwüstlich (1)",
+      "Durch Deckung bewegen",
+      "Untote von Nehekhara",
+      "Offene Ränge",
+      "Giftattacken",
+      "Regeneration (6+)",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Wächterschlangen",
+    "name_fr": "Nécroserpents",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Monstrueuse",
+    "equipment_fr": [
+      "Serres sinueuses et queue crocs (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Embusqueurs",
+      "Peau Blindée (1)",
+      "Touches d'Impact (1)",
+      "Indomptable (1)",
+      "Mouvement à Couvert",
+      "Morts-vivants de Nehekhara",
+      "Ordre Dispersé",
+      "Attaques Empoisonnées",
+      "Régénération (6+)",
+      "Rapide"
+    ],
+    "name_it": "Necroserpenti",
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Mostruosa",
+    "equipment_it": [
+      "Lashing contorte and venomous fangs (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Agguato",
+      "Pelle a Scaglie (1)",
+      "Colpi da Impatto (1)",
+      "Costrutto (1)",
+      "Viaggiatore",
+      "Non morto di Nehekharan",
+      "Formazione Aperta",
+      "Arido come Polvere",
+      "Rigenerazione (6+)",
+      "Passo Rapido"
     ]
   },
   {
@@ -679,6 +1220,65 @@
       "Szybki Krok",
       "Groza",
       "Soul Reaper"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Spaltende Klingen",
+      "enthauptender zuerst",
+      "schwere rüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Fliegen (9)",
+      "Unverwüstlich (2)",
+      "Großes Ziel",
+      "Untote von Nehekhara",
+      "Regeneration (5+)",
+      "Stampfattacken (W3+2)",
+      "Schnelle Bewegung",
+      "Entsetzen",
+      "Soul Reaper"
+    ],
+    "name_de": "Nekrosphinx",
+    "name_fr": "Nécrosphinx",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Lames fendoirs",
+      "pinces en",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Vol (9)",
+      "Indomptable (2)",
+      "Grande Cible",
+      "Morts-vivants de Nehekhara",
+      "Régénération (5+)",
+      "Attaques de Piétinement (D3+2)",
+      "Rapide",
+      "Terreur",
+      "Broyeur D'Usirian"
+    ],
+    "name_it": "Necrosfinge",
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Lame Falcianti",
+      "attacco decapitante",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Volo (9)",
+      "Costrutto (2)",
+      "Bersaglio Grande",
+      "Non morto di Nehekharan",
+      "Rigenerazione (5+)",
+      "Non morto di Nehekharan",
+      "Passo Rapido",
+      "Terrore",
+      "Soul Reaper"
     ]
   },
   {
@@ -731,6 +1331,54 @@
       "Khopesh",
       "Nehekharijscy Nieumarli",
       "Regeneracja (6+)"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "peitsche",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Staubtrocken",
+      "Ewiger Antreiber",
+      "Brennbar",
+      "Chepesh",
+      "Untote von Nehekhara",
+      "Regeneration (6+)"
+    ],
+    "name_de": "Nekrotekt",
+    "name_fr": "Nécrotecte",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "fouet",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Desséchés",
+      "Éternel Contremaître",
+      "Inflammable",
+      "Khopesh",
+      "Morts-vivants de Nehekhara",
+      "Régénération (6+)"
+    ],
+    "name_it": "Necrotetto",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "frusta",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Arido come Polvere",
+      "Eterno Dominatore",
+      "Suscettibile al Fuoco",
+      "Khopesh",
+      "Non morto di Nehekharan",
+      "Rigenerazione (6+)"
     ]
   },
   {
@@ -787,6 +1435,58 @@
       "Regeneracja (5+)",
       "Settra's Czempion",
       "Sworn Protector"
+    ],
+    "unitCategory_de": "Benannter Charakter",
+    "troopType_de": "Reguläre Infanterie, Benannter Charakter",
+    "equipment_de": [
+      "Der Flegel besiegter Könige",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Staubtrocken",
+      "Brennbar",
+      "Bote der Verzweiflung",
+      "Unverwüstlich (2)",
+      "Todesstoss",
+      "Untote von Nehekhara",
+      "Regeneration (5+)",
+      "Settras Schiedskämpfer",
+      "Eingeschworener Leibwächter"
+    ],
+    "name_de": "Nekaph",
+    "unitCategory_fr": "Personnage nommé",
+    "troopType_fr": "Infanterie Régulière, Personnage nommé",
+    "equipment_fr": [
+      "Le Fléau des Rois Conquis",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Desséchés",
+      "Inflammable",
+      "Héraut du Désespoir",
+      "Indomptable (2)",
+      "Coup Fatal",
+      "Morts-vivants de Nehekhara",
+      "Régénération (5+)",
+      "Champion de Settra",
+      "Protecteur Assermenté"
+    ],
+    "unitCategory_it": "Personaggio nominato",
+    "troopType_it": "Fanteria Regolare, Personaggio nominato",
+    "equipment_it": [
+      "Il Flagello dei Re Conquistati",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Arido come Polvere",
+      "Suscettibile al Fuoco",
+      "Araldo Della Disperazione",
+      "Costrutto (2)",
+      "Colpo Mortale",
+      "Non morto di Nehekharan",
+      "Rigenerazione (5+)",
+      "Campione di Settra",
+      "Protettore Giurato"
     ]
   },
   {
@@ -847,6 +1547,66 @@
       "Scarab Książę",
       "Usirian's Reaper",
       "Groza"
+    ],
+    "unitCategory_de": "Benannter Charakter",
+    "troopType_de": "Reguläre Infanterie, Benannter Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "wimmelnde gestalt",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Überfall",
+      "Fliegen (9)",
+      "Unverwüstlich (2)",
+      "Chepesh",
+      "Einzelgänger",
+      "Untote von Nehekhara",
+      "Regeneration (5+)",
+      "Skarabäenprinz",
+      "Schnitter des Usirian",
+      "Entsetzen"
+    ],
+    "name_de": "Prinz Apophas",
+    "name_fr": "Démon Apophas",
+    "unitCategory_fr": "Personnage nommé",
+    "troopType_fr": "Infanterie Régulière, Personnage nommé",
+    "equipment_fr": [
+      "Arme de base",
+      "masse grouillante",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Embusqueurs",
+      "Vol (9)",
+      "Indomptable (2)",
+      "Khopesh",
+      "Solitaire",
+      "Morts-vivants de Nehekhara",
+      "Régénération (5+)",
+      "Prince Scarabée",
+      "Faucheur d'Usirian",
+      "Terreur"
+    ],
+    "name_it": "Principe Apophas",
+    "unitCategory_it": "Personaggio nominato",
+    "troopType_it": "Fanteria Regolare, Personaggio nominato",
+    "equipment_it": [
+      "Arma Bianca",
+      "swarming mass",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Agguato",
+      "Volo (9)",
+      "Costrutto (2)",
+      "Khopesh",
+      "Solitario",
+      "Non morto di Nehekharan",
+      "Rigenerazione (5+)",
+      "Principe degli Scarabei",
+      "Mietitore di Usirian",
+      "Terrore"
     ]
   },
   {
@@ -901,6 +1661,57 @@
       "Nehekharijscy Nieumarli",
       "Regeneracja (5+)",
       "Sworn Protector"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Banner des Königs",
+      "Staubtrocken",
+      "Brennbar",
+      "Unverwüstlich (1)",
+      "Chepesh",
+      "Untote von Nehekhara",
+      "Regeneration (5+)",
+      "Eingeschworener Leibwächter"
+    ],
+    "name_de": "Königlicher Herold",
+    "name_fr": "Héraut Royal",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Bannière du Roi",
+      "Desséchés",
+      "Inflammable",
+      "Indomptable (1)",
+      "Khopesh",
+      "Morts-vivants de Nehekhara",
+      "Régénération (5+)",
+      "Protecteur Assermenté"
+    ],
+    "name_it": "Araldo Reale",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Stendardo del Re",
+      "Arido come Polvere",
+      "Suscettibile al Fuoco",
+      "Costrutto (1)",
+      "Khopesh",
+      "Non morto di Nehekharan",
+      "Rigenerazione (5+)",
+      "Protettore Giurato"
     ]
   },
   {
@@ -963,6 +1774,49 @@
       "Nehekharijscy Nieumarli",
       "Regeneracja (6+)",
       "Harcownicy"
+    ],
+    "unitCategory_de": "War Machine",
+    "troopType_de": "Kriegsmaschine",
+    "equipment_de": [
+      "Screaming skull katapult",
+      "hand waffen",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Staubtrocken",
+      "Unverwüstlich (1)",
+      "Untote von Nehekhara",
+      "Regeneration (6+)",
+      "Plänkler"
+    ],
+    "name_de": "Schädelkatapult",
+    "name_fr": "Catapulte à Crânes Hurlants",
+    "troopType_fr": "Machine de Guerre",
+    "equipment_fr": [
+      "Screaming le lance-ferraille",
+      "de lourdes",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Desséchés",
+      "Indomptable (1)",
+      "Morts-vivants de Nehekhara",
+      "Régénération (6+)",
+      "Tirailleurs"
+    ],
+    "name_it": "Gettateschi Urlanti",
+    "troopType_it": "Macchina da Guerra",
+    "equipment_it": [
+      "Screaming skull catapult",
+      "armi bianche",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Arido come Polvere",
+      "Costrutto (1)",
+      "Non morto di Nehekharan",
+      "Rigenerazione (6+)",
+      "Schermagliatori"
     ]
   },
   {
@@ -1017,6 +1871,57 @@
       "Nehekharijscy Nieumarli",
       "Regeneracja (6+)",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Monströse Kavallerie",
+    "equipment_de": [
+      "Handwaffen",
+      "windende schwänze",
+      "hellebarden",
+      "versteinender blick",
+      "schwere rüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Unverwüstlich (1)",
+      "Untote von Nehekhara",
+      "Regeneration (6+)",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Grabjäger",
+    "name_fr": "Rôdeurs Sépulcraux",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Monstrueuse",
+    "equipment_fr": [
+      "Armes de base",
+      "queue sinueuses",
+      "hallebardes",
+      "regard pétrificateur",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Indomptable (1)",
+      "Morts-vivants de Nehekhara",
+      "Régénération (6+)",
+      "Rapide"
+    ],
+    "name_it": "Cacciatore dei Sepolcri",
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Mostruosa",
+    "equipment_it": [
+      "Armi Bianche",
+      "code contorte",
+      "alabarde",
+      "sguardo pietrificante",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Costrutto (1)",
+      "Non morto di Nehekharan",
+      "Rigenerazione (6+)",
+      "Passo Rapido"
     ]
   },
   {
@@ -1112,6 +2017,78 @@
       "Regeneracja (5+)",
       "Settra Does Not Kneel!",
       "Settra the Wielki"
+    ],
+    "unitCategory_de": "Benannter Charakter",
+    "troopType_de": "Schwerer Streitwagen, Benannter Charakter",
+    "equipment_de": [
+      "Settra: Der Heiliges Klinge des Ptra",
+      "der Streitwagen des der Gods",
+      "der Crown des Nehekhara",
+      "der Scarab Brooch des Usirian",
+      "Skeletal Rossharnisch: Skeletal hufe (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Herrscher über Legionen",
+      "Fluch der Nekropole",
+      "Staubtrocken",
+      "Brennbar",
+      "Aufpralltreffer (2W3)",
+      "Unverwüstlich (3)",
+      "Lehre von Nehekhara",
+      "Mein Wille geschehe",
+      "Untote von Nehekhara",
+      "Regeneration (5+)",
+      "Settra kniet nicht!",
+      "Settra der Große"
+    ],
+    "name_de": "Settra der Unvergängliche",
+    "name_fr": "Settra l'Impérissable",
+    "unitCategory_fr": "Personnage nommé",
+    "troopType_fr": "Char Lourd, Personnage nommé",
+    "equipment_fr": [
+      "Settra: La Triptyque Céleste de Ptra",
+      "la Éventreur de la Dieux",
+      "la Couronne de Nehekhara",
+      "la Prince Brooch de Usirian",
+      "Sabots Monture: Sabots squelettiques (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Commandeur des Légions",
+      "Malédiction de la Nécropole",
+      "Desséchés",
+      "Inflammable",
+      "Touches d'Impact (2D3)",
+      "Indomptable (3)",
+      "Domaine de Nehekhara",
+      "Que Ma Volonté Soit Faite",
+      "Morts-vivants de Nehekhara",
+      "Régénération (5+)",
+      "Settra Ne s'Agenouille Pas!",
+      "Settra le Grand"
+    ],
+    "name_it": "Settra l'Imperituro",
+    "unitCategory_it": "Personaggio nominato",
+    "troopType_it": "Carro Pesante, Personaggio nominato",
+    "equipment_it": [
+      "Settra: Le Lama Benedetta di Ptra",
+      "le Scheletrico di le Gods",
+      "le Corona di Nehekhara",
+      "le Scarab Brooch di Usirian",
+      "Skeletal Elfico: Skeletal hooves (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Comandante delle Legioni",
+      "Maledizione della Necropoli",
+      "Arido come Polvere",
+      "Suscettibile al Fuoco",
+      "Colpi da impatto (2D3)",
+      "Costrutto (3)",
+      "Saperi di Nehekhara",
+      "Sia Fatta la Mia Volontà",
+      "Non morto di Nehekharan",
+      "Rigenerazione (5+)",
+      "Settra non si inginocchia!",
+      "Settra il Grande"
     ]
   },
   {
@@ -1154,6 +2131,37 @@
       "Nehekharijscy Nieumarli",
       "Szybki Krok",
       "Awangarda"
+    ],
+    "unitCategory_de": "Mount",
+    "troopType_de": "Schwere Kavallerie",
+    "equipment_de": [
+      "Skeletal hufe (counts as hand weapon)"
+    ],
+    "specialRules_de": [
+      "Untote von Nehekhara",
+      "Schnelle Bewegung",
+      "Vorhut"
+    ],
+    "name_de": "Skeletal Rossharnisch (Streitwagen Kings)",
+    "name_fr": "Sabots Monture (Des Conquis)",
+    "troopType_fr": "Cavalerie Lourde",
+    "equipment_fr": [
+      "Sabots squelettiques (counts comme de lourde)"
+    ],
+    "specialRules_fr": [
+      "Morts-vivants de Nehekhara",
+      "Rapide",
+      "Avant-garde"
+    ],
+    "name_it": "Skeletal Elfico (Del Conquistati)",
+    "troopType_it": "Cavalleria Pesante",
+    "equipment_it": [
+      "Skeletal hooves (counts come armi bianca)"
+    ],
+    "specialRules_it": [
+      "Non morto di Nehekharan",
+      "Passo Rapido",
+      "Avanguardia"
     ]
   },
   {
@@ -1214,6 +2222,48 @@
       "Nehekharijscy Nieumarli",
       "Luźny Szyk",
       "Regeneracja (6+)"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "kriegsbögen"
+    ],
+    "specialRules_de": [
+      "Pfeile der Asaph",
+      "Abteilung",
+      "Untote von Nehekhara",
+      "Offene Ränge",
+      "Regeneration (6+)"
+    ],
+    "name_de": "Skelettbogenschützen",
+    "name_fr": "Archers Squelettes",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "warbows"
+    ],
+    "specialRules_fr": [
+      "Flèches d'Asaph",
+      "Détachement",
+      "Morts-vivants de Nehekhara",
+      "Ordre Dispersé",
+      "Régénération (6+)"
+    ],
+    "name_it": "Scheletri Arcieri",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "guerra"
+    ],
+    "specialRules_it": [
+      "Freccie di Asaph",
+      "Distaccamento",
+      "Non morto di Nehekharan",
+      "Formazione Aperta",
+      "Rigenerazione (6+)"
     ]
   },
   {
@@ -1318,6 +2368,78 @@
       "Steadfast Discipline",
       "Szybki Krok",
       "Awangarda"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Schwere Kavallerie",
+    "equipment_de": [
+      "Königlicher Des Horseman: Hand waffen",
+      "Königlicher Des Horseman: kavallerie spear",
+      "Königlicher Des Horseman: leichte rüstung",
+      "Königlicher Des Horseman: schilde",
+      "Königlicher Des Reiter Schütze: Hand waffen",
+      "Königlicher Des Reiter Schütze: leichte rüstung",
+      "Königlicher Des Reiter Schütze: kriegsbögen",
+      "Skeletal Rossharnisch: Skeletal hufe (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Pfeile der Asaph",
+      "Geschlossene Ränge",
+      "Geschlossene Ränge",
+      "Zusammengewürfelter Haufen",
+      "Untote von Nehekhara",
+      "Regeneration (6+)",
+      "Unerschütterliche Disziplin",
+      "Schnelle Bewegung",
+      "Vorhut"
+    ],
+    "name_de": "Skelett-Kavalleriekohorte",
+    "name_fr": "Cohorte de Cavalerie Squelette",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Lourde",
+    "equipment_fr": [
+      "Pégase Host Horseman: De lourdes",
+      "Pégase Host Horseman: rapide d'infanterie",
+      "Pégase Host Horseman: armure légère",
+      "Pégase Host Horseman: boucliers",
+      "Pégase Host Chevaux Archer: De lourdes",
+      "Pégase Host Chevaux Archer: armure légère",
+      "Pégase Host Chevaux Archer: warbows",
+      "Sabots Monture: Sabots squelettiques (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Flèches d'Asaph",
+      "Ordre Serré",
+      "Horde",
+      "Bande Hétéroclite",
+      "Morts-vivants de Nehekhara",
+      "Régénération (6+)",
+      "Discipline Inébranlable",
+      "Rapide",
+      "Avant-garde"
+    ],
+    "name_it": "Coorti Reali di Cavalleria Scheletrica",
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Pesante",
+    "equipment_it": [
+      "Araldo Dell'Armata Horseman: Armi bianche",
+      "Araldo Dell'Armata Horseman: lancia leggera",
+      "Araldo Dell'Armata Horseman: armatura pesante",
+      "Araldo Dell'Armata Horseman: scudi",
+      "Araldo Dell'Armata Cavalli Archer: Armi bianche",
+      "Araldo Dell'Armata Cavalli Archer: armatura pesante",
+      "Araldo Dell'Armata Cavalli Archer: guerra",
+      "Skeletal Elfico: Skeletal hooves (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Freccie di Asaph",
+      "Formazione Serrata",
+      "Orda",
+      "Equipaggiamento Eterogeneo",
+      "Non morto di Nehekharan",
+      "Rigenerazione (6+)",
+      "Disciplina Ferrea",
+      "Passo Rapido",
+      "Avanguardia"
     ]
   },
   {
@@ -1378,6 +2500,46 @@
       "Luźny Szyk",
       "Reserve Move",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Mount",
+    "troopType_de": "Leichter Streitwagen",
+    "equipment_de": [
+      "Skeletal Rossharnisch: Skeletal hufe (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Staubtrocken",
+      "Aufpralltreffer (W3)",
+      "Untote von Nehekhara",
+      "Offene Ränge",
+      "Reservebewegung",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Skelettstreitwagen",
+    "name_fr": "Char Squelette",
+    "troopType_fr": "Char Léger",
+    "equipment_fr": [
+      "Sabots Monture: Sabots squelettiques (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Desséchés",
+      "Touches d'Impact (D3)",
+      "Morts-vivants de Nehekhara",
+      "Ordre Dispersé",
+      "Mouvement de Réserve",
+      "Rapide"
+    ],
+    "name_it": "Carro Scheletrico",
+    "troopType_it": "Carro Leggero",
+    "equipment_it": [
+      "Skeletal Elfico: Skeletal hooves (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Arido come Polvere",
+      "Frecce di Asaph",
+      "Non morto di Nehekharan",
+      "Formazione Aperta",
+      "Movimento Tattico",
+      "Passo Rapido"
     ]
   },
   {
@@ -1474,6 +2636,66 @@
       "Regeneracja (6+)",
       "Reserve Move",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Streitwagen",
+    "troopType_de": "Leichter Streitwagen",
+    "equipment_de": [
+      "Skelett Haufen: Hand waffen",
+      "Skelett Haufen: kavallerie spear",
+      "Skelett Haufen: kriegsbögen",
+      "Skeletal Rossharnisch: Skeletal hufe (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Pfeile der Asaph",
+      "Staubtrocken",
+      "Geschlossene Ränge",
+      "Aufpralltreffer (W3)",
+      "Untote von Nehekhara",
+      "Offene Ränge",
+      "Regeneration (6+)",
+      "Reservebewegung",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Skelettstreitwagen",
+    "name_fr": "Chars Squelettes",
+    "unitCategory_fr": "Char",
+    "troopType_fr": "Char Léger",
+    "equipment_fr": [
+      "Char Hétéroclite: De lourdes",
+      "Char Hétéroclite: rapide d'infanterie",
+      "Char Hétéroclite: warbows",
+      "Sabots Monture: Sabots squelettiques (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Flèches d'Asaph",
+      "Desséchés",
+      "Horde",
+      "Touches d'Impact (D3)",
+      "Morts-vivants de Nehekhara",
+      "Ordre Dispersé",
+      "Régénération (6+)",
+      "Mouvement de Réserve",
+      "Rapide"
+    ],
+    "name_it": "Carri Scheletrici",
+    "unitCategory_it": "Carro",
+    "troopType_it": "Carro Leggero",
+    "equipment_it": [
+      "Carro Crew: Armi bianche",
+      "Carro Crew: lancia leggera",
+      "Carro Crew: guerra",
+      "Skeletal Elfico: Skeletal hooves (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Freccie di Asaph",
+      "Arido come Polvere",
+      "Orda",
+      "Frecce di Asaph",
+      "Non morto di Nehekharan",
+      "Formazione Aperta",
+      "Rigenerazione (6+)",
+      "Movimento Tattico",
+      "Passo Rapido"
     ]
   },
   {
@@ -1554,6 +2776,60 @@
       "Zwiadowcy",
       "Harcownicy",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Leichte Kavallerie",
+    "equipment_de": [
+      "Skelett Horsemen: Hand waffen",
+      "Skelett Horsemen: kriegsbögen",
+      "Skeletal Rossharnisch: Skeletal hufe (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Pfeile der Asaph",
+      "Untote von Nehekhara",
+      "Offene Ränge",
+      "Regeneration (6+)",
+      "Reservebewegung",
+      "Kundschafter",
+      "Plänkler",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Skelettbogenreiter",
+    "name_fr": "Archers Squelettes à Cheval",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Légère",
+    "equipment_fr": [
+      "Char Squelettes: De lourdes",
+      "Char Squelettes: warbows",
+      "Sabots Monture: Sabots squelettiques (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Flèches d'Asaph",
+      "Morts-vivants de Nehekhara",
+      "Ordre Dispersé",
+      "Régénération (6+)",
+      "Mouvement de Réserve",
+      "Éclaireurs",
+      "Tirailleurs",
+      "Rapide"
+    ],
+    "name_it": "Arcieri a Cavallo Scheletrici",
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Leggera",
+    "equipment_it": [
+      "Carro Scheletrici: Armi bianche",
+      "Carro Scheletrici: guerra",
+      "Skeletal Elfico: Skeletal hooves (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Freccie di Asaph",
+      "Non morto di Nehekharan",
+      "Formazione Aperta",
+      "Rigenerazione (6+)",
+      "Movimento Tattico",
+      "Esploratori",
+      "Schermagliatori",
+      "Passo Rapido"
     ]
   },
   {
@@ -1630,6 +2906,54 @@
       "Regeneracja (6+)",
       "Szybki Krok",
       "Awangarda"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Schwere Kavallerie",
+    "equipment_de": [
+      "Skelett Horsemen: Hand waffen",
+      "Skelett Horsemen: schilde",
+      "Skeletal Rossharnisch: Skeletal hufe (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Geschlossene Ränge",
+      "Untote von Nehekhara",
+      "Regeneration (6+)",
+      "Schnelle Bewegung",
+      "Vorhut"
+    ],
+    "name_de": "Skelettreiter",
+    "name_fr": "Cavaliers Squelettes",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Lourde",
+    "equipment_fr": [
+      "Char Squelettes: De lourdes",
+      "Char Squelettes: boucliers",
+      "Sabots Monture: Sabots squelettiques (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Horde",
+      "Morts-vivants de Nehekhara",
+      "Régénération (6+)",
+      "Rapide",
+      "Avant-garde"
+    ],
+    "name_it": "Cavalieri Scheletrici",
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Pesante",
+    "equipment_it": [
+      "Carro Scheletrici: Armi bianche",
+      "Carro Scheletrici: scudi",
+      "Skeletal Elfico: Skeletal hooves (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Orda",
+      "Non morto di Nehekharan",
+      "Rigenerazione (6+)",
+      "Passo Rapido",
+      "Avanguardia"
     ]
   },
   {
@@ -1718,6 +3042,72 @@
       "Regeneracja (6+)",
       "Jednostka Regimentowa",
       "Steadfast Discipline"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Königlicher Des Krieger: Hand waffen",
+      "Königlicher Des Krieger: thrusting spear",
+      "Königlicher Des Krieger: leichte rüstung",
+      "Königlicher Des Krieger: schilde",
+      "Königlicher Des Bogenschützen: Hand waffen",
+      "Königlicher Des Bogenschützen: leichte rüstung",
+      "Königlicher Des Bogenschützen: kriegsbögen"
+    ],
+    "specialRules_de": [
+      "Pfeile der Asaph",
+      "Geschlossene Ränge",
+      "Geschlossene Ränge",
+      "Zusammengewürfelter Haufen",
+      "Untote von Nehekhara",
+      "Regeneration (6+)",
+      "Hauptregiment",
+      "Unerschütterliche Disziplin"
+    ],
+    "name_de": "Skelett-Infanteriekohorte",
+    "name_fr": "Cohorte d'Infanterie Squelette",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Pégase Host Guerriers: De lourdes",
+      "Pégase Host Guerriers: lances d'infanterie",
+      "Pégase Host Guerriers: armure légère",
+      "Pégase Host Guerriers: boucliers",
+      "Pégase Host Squelettes: De lourdes",
+      "Pégase Host Squelettes: armure légère",
+      "Pégase Host Squelettes: warbows"
+    ],
+    "specialRules_fr": [
+      "Flèches d'Asaph",
+      "Ordre Serré",
+      "Horde",
+      "Bande Hétéroclite",
+      "Morts-vivants de Nehekhara",
+      "Régénération (6+)",
+      "Unité Régimentaire",
+      "Discipline Inébranlable"
+    ],
+    "name_it": "Coorti Reali di Fanteria Scheletrica",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Araldo Dell'Armata Scheletri: Armi bianche",
+      "Araldo Dell'Armata Scheletri: thrusting leggera",
+      "Araldo Dell'Armata Scheletri: armatura pesante",
+      "Araldo Dell'Armata Scheletri: scudi",
+      "Araldo Dell'Armata Scheletri: Armi bianche",
+      "Araldo Dell'Armata Scheletri: armatura pesante",
+      "Araldo Dell'Armata Scheletri: guerra"
+    ],
+    "specialRules_it": [
+      "Freccie di Asaph",
+      "Formazione Serrata",
+      "Orda",
+      "Equipaggiamento Eterogeneo",
+      "Non morto di Nehekharan",
+      "Rigenerazione (6+)",
+      "Unità Madre",
+      "Disciplina Ferrea"
     ]
   },
   {
@@ -1766,6 +3156,48 @@
       "Regeneracja (6+)",
       "Harcownicy",
       "Awangarda"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen"
+    ],
+    "specialRules_de": [
+      "Pfeile der Asaph",
+      "Streitwagengarde",
+      "Untote von Nehekhara",
+      "Regeneration (6+)",
+      "Plänkler",
+      "Vorhut"
+    ],
+    "name_de": "Skelettplänkler",
+    "name_fr": "Tirailleurs Squelettes",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base"
+    ],
+    "specialRules_fr": [
+      "Flèches d'Asaph",
+      "Escorteurs de Chars",
+      "Morts-vivants de Nehekhara",
+      "Régénération (6+)",
+      "Tirailleurs",
+      "Avant-garde"
+    ],
+    "name_it": "Scheletri Schermagliatori",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche"
+    ],
+    "specialRules_it": [
+      "Freccie di Asaph",
+      "Scorta ai Carri",
+      "Non morto di Nehekharan",
+      "Rigenerazione (6+)",
+      "Schermagliatori",
+      "Avanguardia"
     ]
   },
   {
@@ -1826,6 +3258,48 @@
       "Nehekharijscy Nieumarli",
       "Regeneracja (6+)",
       "Jednostka Regimentowa"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "schilde"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Geschlossene Ränge",
+      "Untote von Nehekhara",
+      "Regeneration (6+)",
+      "Hauptregiment"
+    ],
+    "name_de": "Skelett Krieger (Streitwagen Kings)",
+    "name_fr": "Char Guerriers (Des Conquis)",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "boucliers"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Horde",
+      "Morts-vivants de Nehekhara",
+      "Régénération (6+)",
+      "Unité Régimentaire"
+    ],
+    "name_it": "Carro Scheletri (Del Conquistati)",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "scudi"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Orda",
+      "Non morto di Nehekharan",
+      "Rigenerazione (6+)",
+      "Unità Madre"
     ]
   },
   {
@@ -1892,6 +3366,57 @@
       "Nehekharijscy Nieumarli",
       "Regeneracja (6+)",
       "Jednostka Regimentowa"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "leichte rüstung",
+      "schilde"
+    ],
+    "specialRules_de": [
+      "Spaltender Hieb",
+      "Geschlossene Ränge",
+      "Unverwüstlich (1)",
+      "Chepesh",
+      "Untote von Nehekhara",
+      "Regeneration (6+)",
+      "Hauptregiment"
+    ],
+    "name_de": "Gruftwächter",
+    "name_fr": "Gardien des Tombes",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "armure légère",
+      "boucliers"
+    ],
+    "specialRules_fr": [
+      "Coup de Fendoir",
+      "Ordre Serré",
+      "Indomptable (1)",
+      "Khopesh",
+      "Morts-vivants de Nehekhara",
+      "Régénération (6+)",
+      "Unité Régimentaire"
+    ],
+    "name_it": "Guardia dei Sepolcri",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "armatura pesante",
+      "scudi"
+    ],
+    "specialRules_it": [
+      "Colpo di Grazia",
+      "Formazione Serrata",
+      "Costrutto (1)",
+      "Khopesh",
+      "Non morto di Nehekharan",
+      "Rigenerazione (6+)",
+      "Unità Madre"
     ]
   },
   {
@@ -1990,6 +3515,69 @@
       "Regeneracja (6+)",
       "Reserve Move",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Streitwagen",
+    "troopType_de": "Leichter Streitwagen",
+    "equipment_de": [
+      "Streitwagen Der Haufen: Hand waffen",
+      "Streitwagen Der Haufen: hellebarden",
+      "Streitwagen Der Haufen: schilde",
+      "Skeletal Rossharnisch: Skeletal hufe (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Spaltender Hieb (nur Gruftwächterbesatzung)",
+      "Staubtrocken",
+      "Aufpralltreffer (W3+1)",
+      "Unverwüstlich (2)",
+      "Chepesh",
+      "Untote von Nehekhara",
+      "Offene Ränge",
+      "Regeneration (6+)",
+      "Reservebewegung",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Streitwagen der Gruftwächter",
+    "name_fr": "Chars Gardien des Tombes",
+    "unitCategory_fr": "Char",
+    "troopType_fr": "Char Léger",
+    "equipment_fr": [
+      "Des Elfique Hétéroclite: De lourdes",
+      "Des Elfique Hétéroclite: hallebardes",
+      "Des Elfique Hétéroclite: boucliers",
+      "Sabots Monture: Sabots squelettiques (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Coup de Fendoir (Aurige Gardien des Tombes uniquement)",
+      "Desséchés",
+      "Touches d'Impact (D3+1)",
+      "Indomptable (2)",
+      "Khopesh",
+      "Morts-vivants de Nehekhara",
+      "Ordre Dispersé",
+      "Régénération (6+)",
+      "Mouvement de Réserve",
+      "Rapide"
+    ],
+    "name_it": "Carri della Guardia del Sepolcro",
+    "unitCategory_it": "Carro",
+    "troopType_it": "Carro Leggero",
+    "equipment_it": [
+      "Del Guard Crew: Armi bianche",
+      "Del Guard Crew: alabarde",
+      "Del Guard Crew: scudi",
+      "Skeletal Elfico: Skeletal hooves (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Colpo di Grazia (solo Eq. Guardie dei Sepolcri)",
+      "Arido come Polvere",
+      "Colpi da Impatto (D3+1)",
+      "Costrutto (2)",
+      "Khopesh",
+      "Non morto di Nehekharan",
+      "Formazione Aperta",
+      "Rigenerazione (6+)",
+      "Movimento Tattico",
+      "Passo Rapido"
     ]
   },
   {
@@ -2044,6 +3632,57 @@
       "My Will Be Done",
       "Nehekharijscy Nieumarli",
       "Regeneracja (5+)"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "schwere rüstung"
+    ],
+    "specialRules_de": [
+      "Fluch der Nekropole",
+      "Staubtrocken",
+      "Brennbar",
+      "Unverwüstlich (2)",
+      "Chepesh",
+      "Mein Wille geschehe",
+      "Untote von Nehekhara",
+      "Regeneration (5+)"
+    ],
+    "name_de": "Gruftkönig",
+    "name_fr": "Roi des Tombes",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Malédiction de la Nécropole",
+      "Desséchés",
+      "Inflammable",
+      "Indomptable (2)",
+      "Khopesh",
+      "Que Ma Volonté Soit Faite",
+      "Morts-vivants de Nehekhara",
+      "Régénération (5+)"
+    ],
+    "name_it": "Re dei Sepolcri",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Maledizione della Necropoli",
+      "Arido come Polvere",
+      "Suscettibile al Fuoco",
+      "Costrutto (2)",
+      "Khopesh",
+      "Sia Fatta la Mia Volontà",
+      "Non morto di Nehekharan",
+      "Rigenerazione (5+)"
     ]
   },
   {
@@ -2098,6 +3737,57 @@
       "My Will Be Done",
       "Nehekharijscy Nieumarli",
       "Regeneracja (5+)"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Fluch der Nekropole",
+      "Staubtrocken",
+      "Brennbar",
+      "Unverwüstlich (2)",
+      "Chepesh",
+      "Mein Wille geschehe",
+      "Untote von Nehekhara",
+      "Regeneration (5+)"
+    ],
+    "name_de": "Gruftprinz",
+    "name_fr": "Prince des Tombes",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Malédiction de la Nécropole",
+      "Desséchés",
+      "Inflammable",
+      "Indomptable (2)",
+      "Khopesh",
+      "Que Ma Volonté Soit Faite",
+      "Morts-vivants de Nehekhara",
+      "Régénération (5+)"
+    ],
+    "name_it": "Principe dei Sepolcri",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Maledizione della Necropoli",
+      "Arido come Polvere",
+      "Suscettibile al Fuoco",
+      "Costrutto (2)",
+      "Khopesh",
+      "Sia Fatta la Mia Volontà",
+      "Non morto di Nehekharan",
+      "Rigenerazione (5+)"
     ]
   },
   {
@@ -2154,6 +3844,60 @@
       "Zdeptanie (D3)",
       "Szybki Krok",
       "Awangarda"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Monströse Kreatur",
+    "equipment_de": [
+      "Enthauptende Klauen",
+      "envenomed sting",
+      "bone carapace (counts as schwere rüstung)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Unverwüstlich (1)",
+      "Magieresistenz (-1)",
+      "Untote von Nehekhara",
+      "Regeneration (6+)",
+      "Stampfattacken (W3)",
+      "Schnelle Bewegung",
+      "Vorhut"
+    ],
+    "name_de": "Gruftskorpion",
+    "name_fr": "Scorpion des Tombes",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Créature Monstrueuse",
+    "equipment_fr": [
+      "Pinces décapitantes",
+      "dard venimeux",
+      "d'os carapace (counts comme armure légère)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Indomptable (1)",
+      "Résistance à la Magie (-1)",
+      "Morts-vivants de Nehekhara",
+      "Régénération (6+)",
+      "Attaques de Piétinement (D3)",
+      "Rapide",
+      "Avant-garde"
+    ],
+    "name_it": "Scorpione dei Sepolcri",
+    "unitCategory_it": "Mostro",
+    "troopType_it": "Creatura Mostruosa",
+    "equipment_it": [
+      "Chele Decapitanti",
+      "pungiglione velenoso",
+      "scheletrico carapace (counts come armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Costrutto (1)",
+      "Resistenza alla Magia (-1)",
+      "Non morto di Nehekharan",
+      "Rigenerazione (6+)",
+      "Calpestamento (D3)",
+      "Passo Rapido",
+      "Avanguardia"
     ]
   },
   {
@@ -2200,6 +3944,45 @@
       "Trujące Ataki",
       "Regeneracja (6+)",
       "Harcownicy"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Schwarm",
+    "equipment_de": [
+      "Venomous bites prinz stings (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Staubtrocken",
+      "Untote von Nehekhara",
+      "Giftattacken",
+      "Regeneration (6+)",
+      "Plänkler"
+    ],
+    "name_de": "Gruftschwärme",
+    "name_fr": "Nuées des Tombes",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Essaim",
+    "equipment_fr": [
+      "Queue bites et stings (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Desséchés",
+      "Morts-vivants de Nehekhara",
+      "Attaques Empoisonnées",
+      "Régénération (6+)",
+      "Tirailleurs"
+    ],
+    "name_it": "Sciami dei Sepolcri",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Sciame",
+    "equipment_it": [
+      "Venomous bites and stings (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Arido come Polvere",
+      "Non morto di Nehekharan",
+      "Arido come Polvere",
+      "Rigenerazione (6+)",
+      "Schermagliatori"
     ]
   },
   {
@@ -2264,6 +4047,53 @@
       "Khopesh",
       "Nehekharijscy Nieumarli",
       "Regeneracja (6+)"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Monströse Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "rituelle klingen",
+      "schwere rüstung"
+    ],
+    "specialRules_de": [
+      "Pfeile der Asaph",
+      "Geschlossene Ränge",
+      "Unverwüstlich (1)",
+      "Chepesh",
+      "Untote von Nehekhara",
+      "Regeneration (6+)"
+    ],
+    "name_de": "Ushabti",
+    "name_fr": "Vénérables",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Monstrueuse",
+    "equipment_fr": [
+      "Armes de base",
+      "lames d'obsidienne",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Flèches d'Asaph",
+      "Ordre Serré",
+      "Indomptable (1)",
+      "Khopesh",
+      "Morts-vivants de Nehekhara",
+      "Régénération (6+)"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Mostruosa",
+    "equipment_it": [
+      "Armi Bianche",
+      "lame rituali",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Freccie di Asaph",
+      "Formazione Serrata",
+      "Costrutto (1)",
+      "Khopesh",
+      "Non morto di Nehekharan",
+      "Rigenerazione (6+)"
     ]
   },
   {
@@ -2328,6 +4158,54 @@
       "Odporność Na Magię (-2)",
       "Nehekharijscy Nieumarli",
       "Regeneracja (6+)"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Monströse Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "rituelle klingen",
+      "schwere rüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Unverwüstlich (1)",
+      "Chepesh",
+      "Magieresistenz (-2)",
+      "Untote von Nehekhara",
+      "Regeneration (6+)"
+    ],
+    "name_de": "Altgediente Ushabti",
+    "name_fr": "Ushabti Vénérables",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Monstrueuse",
+    "equipment_fr": [
+      "Armes de base",
+      "lames d'obsidienne",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Indomptable (1)",
+      "Khopesh",
+      "Résistance à la Magie (-2)",
+      "Morts-vivants de Nehekhara",
+      "Régénération (6+)"
+    ],
+    "name_it": "Venerabile Ushabti",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Mostruosa",
+    "equipment_it": [
+      "Armi Bianche",
+      "lame rituali",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Costrutto (1)",
+      "Khopesh",
+      "Resistenza alla Magia (-2)",
+      "Non morto di Nehekharan",
+      "Rigenerazione (6+)"
     ]
   }
 ]

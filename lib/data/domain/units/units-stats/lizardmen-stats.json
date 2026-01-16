@@ -81,6 +81,62 @@
       "Zdeptanie (D3+2)",
       "Nieugięty",
       "Groza"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Chepesh horns",
+      "Riese bogen"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Cold Blooded",
+      "Sänfte",
+      "Immung gegen Psychologie",
+      "Aufpralltreffer (W3+1)",
+      "Großes Ziel",
+      "Poisoned Attacken (javelins leichenmeister)",
+      "Stampfattacken (W3+2)",
+      "Unnachgiebig",
+      "Entsetzen"
+    ],
+    "name_de": "Ehrwürdiger Stegadon",
+    "name_fr": "Stégadon Ancestral",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Grandes cornes",
+      "Arc géant"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Sang Sang",
+      "Immunisé",
+      "Immunisé à la Psychologie",
+      "Touches d'Impact (D3+1)",
+      "Grande Cible",
+      "Attaques Empoisonnées (javelines uniquement)",
+      "Attaques de Piétinement (D3+2)",
+      "Obstiné",
+      "Terreur"
+    ],
+    "name_it": "Antico Stegadon",
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Grandi horns",
+      "Giant arco"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Cold Blooded",
+      "Costrutto (2)",
+      "Immune alla Psicologia",
+      "Colpi da Impatto (D3+1)",
+      "Bersaglio Grande",
+      "Attacchi Venefici (javelins only)",
+      "Non morto di Nehekharan",
+      "Determinato",
+      "Terrore"
     ]
   },
   {
@@ -163,6 +219,61 @@
       "Zdeptanie (D3+1)",
       "Nieugięty",
       "Groza"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Monströse Kreatur",
+    "equipment_de": [
+      "Donnernder bludgeon",
+      "Ark des Sotek"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Cold Blooded",
+      "Immung gegen Psychologie",
+      "Aufpralltreffer (W3)",
+      "Impervious Verteidigung",
+      "Großes Ziel",
+      "Poisoned Attacken (javelins leichenmeister)",
+      "Stampfattacken (W3+1)",
+      "Unnachgiebig",
+      "Entsetzen"
+    ],
+    "name_de": "Bastiladon",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Créature Monstrueuse",
+    "equipment_fr": [
+      "Balayage furieux",
+      "Arche de Sotek"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Sang Sang",
+      "Immunisé à la Psychologie",
+      "Touches d'Impact (D3)",
+      "Défense Impénétrable",
+      "Grande Cible",
+      "Attaques Empoisonnées (javelines uniquement)",
+      "Attaques de Piétinement (D3+1)",
+      "Obstiné",
+      "Terreur"
+    ],
+    "unitCategory_it": "Mostro",
+    "troopType_it": "Creatura Mostruosa",
+    "equipment_it": [
+      "Thunderous bludgeon",
+      "Ark di Sotek"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Cold Blooded",
+      "Immune alla Psicologia",
+      "Frecce di Asaph",
+      "Impervious Defence",
+      "Bersaglio Grande",
+      "Attacchi Venefici (javelins only)",
+      "Calpestamento Venefici (D3+1)",
+      "Determinato",
+      "Terrore"
     ]
   },
   {
@@ -215,6 +326,52 @@
       "Zdeptanie (2)",
       "Szybki Krok",
       "Groza"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Slashing klauen",
+      "Scaly skin (counts as schwere rüstung)"
+    ],
+    "specialRules_de": [
+      "Die Raserei",
+      "Geschlossene Ränge",
+      "Cold Blooded",
+      "Großes Ziel",
+      "Stampfattacken (2)",
+      "Schnelle Bewegung",
+      "Entsetzen"
+    ],
+    "name_de": "Carnosaur",
+    "name_fr": "Carnosaure",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Au crasseuses",
+      "Peau écailleuse (counts comme armure légère)"
+    ],
+    "specialRules_fr": [
+      "Rage Frénésie",
+      "Ordre Serré",
+      "Sang Sang",
+      "Grande Cible",
+      "Attaques de Piétinement (2)",
+      "Rapide",
+      "Terreur"
+    ],
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Slashing talons",
+      "Scaly skin (counts come armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Blood Frenzy",
+      "Formazione Serrata",
+      "Cold Blooded",
+      "Bersaglio Grande",
+      "Calpestamento (2)",
+      "Passo Rapido",
+      "Terrore"
     ]
   },
   {
@@ -277,6 +434,50 @@
       "Przechodzenie Przez Zasłony",
       "Zwiadowcy",
       "Harcownicy"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Blowpipes",
+      "Schwielige hides (leichte rüstung)"
+    ],
+    "specialRules_de": [
+      "Cold Blooded",
+      "Ausweichen",
+      "Durch Deckung bewegen",
+      "Kundschafter",
+      "Plänkler"
+    ],
+    "name_de": "Chameleon Skinks",
+    "name_fr": "Skinks Caméléons",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Sarbacanes",
+      "Peau calleuses (armure légère)"
+    ],
+    "specialRules_fr": [
+      "Sang Sang",
+      "Esquiveur",
+      "Mouvement à Couvert",
+      "Éclaireurs",
+      "Tirailleurs"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Blowpipes",
+      "Calloused hides (armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Cold Blooded",
+      "Evasione",
+      "Viaggiatore",
+      "Esploratori",
+      "Schermagliatori"
     ]
   },
   {
@@ -323,6 +524,42 @@
       "Strach",
       "Stupidity",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Mount",
+    "troopType_de": "Schwere Kavallerie",
+    "equipment_de": [
+      "Klauen prinz teeth (counts as ein hand weapon)"
+    ],
+    "specialRules_de": [
+      "Rüstung Bane (1, Cold Oder leichenmeister)",
+      "Zähe Haut (1)",
+      "Angst",
+      "Blödheit",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Cold Oder (Lizardmen)",
+    "name_fr": "Sang Un (Lizardmen)",
+    "troopType_fr": "Cavalerie Lourde",
+    "equipment_fr": [
+      "Mortelles et teeth (counts comme un de lourde)"
+    ],
+    "specialRules_fr": [
+      "Légère Perforante (1, Sang Un uniquement)",
+      "Peau Blindée (1)",
+      "Peur",
+      "Stupidité",
+      "Rapide"
+    ],
+    "troopType_it": "Cavalleria Pesante",
+    "equipment_it": [
+      "Decapitanti and teeth (counts come scelti armi bianca)"
+    ],
+    "specialRules_it": [
+      "Pesante Dell’Armatura (1, Cold One only)",
+      "Pelle a Scaglie (1)",
+      "Paura",
+      "Stupidity",
+      "Passo Rapido"
     ]
   },
   {
@@ -403,6 +640,59 @@
       "Obsidian Blades",
       "Stupidity",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Schwere Kavallerie",
+    "equipment_de": [
+      "Handwaffen",
+      "Scaly skin (schwere rüstung)",
+      "Schilde"
+    ],
+    "specialRules_de": [
+      "Rüstung Bane (1, Cold Oder leichenmeister)",
+      "Zähe Haut (1)",
+      "Geschlossene Ränge",
+      "Cold Blooded",
+      "Angst",
+      "Obsidian Klingen",
+      "Blödheit",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Cold Oder Jagd",
+    "name_fr": "Monteurs de Sang-froid",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Lourde",
+    "equipment_fr": [
+      "Armes de base",
+      "Peau écailleuse (armure légère)",
+      "Boucliers"
+    ],
+    "specialRules_fr": [
+      "Légère Perforante (1, Sang Un uniquement)",
+      "Peau Blindée (1)",
+      "Ordre Serré",
+      "Sang Sang",
+      "Peur",
+      "Lames d'Obsidienne",
+      "Stupidité",
+      "Rapide"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Pesante",
+    "equipment_it": [
+      "Armi Bianche",
+      "Scaly skin (armatura pesante)",
+      "Scudi"
+    ],
+    "specialRules_it": [
+      "Pesante Dell’Armatura (1, Cold One only)",
+      "Pelle a Scaglie (1)",
+      "Formazione Serrata",
+      "Cold Blooded",
+      "Paura",
+      "Obsidian Rituali",
+      "Stupidity",
+      "Passo Rapido"
     ]
   },
   {
@@ -455,6 +745,53 @@
       "Harcownicy",
       "Niezłomni",
       "Awangarda"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Schwarm",
+    "equipment_de": [
+      "Handwaffen"
+    ],
+    "specialRules_de": [
+      "Cold Blooded",
+      "Immung gegen Psychologie",
+      "Einzelgänger",
+      "Durch Deckung bewegen",
+      "Giftattacken",
+      "Plänkler",
+      "Unerschütterlich",
+      "Vorhut"
+    ],
+    "name_de": "Jungle Swarms",
+    "name_fr": "Nuées de la Jungle",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Essaim",
+    "equipment_fr": [
+      "Armes de base"
+    ],
+    "specialRules_fr": [
+      "Sang Sang",
+      "Immunisé à la Psychologie",
+      "Solitaire",
+      "Mouvement à Couvert",
+      "Attaques Empoisonnées",
+      "Tirailleurs",
+      "Indémoralisable",
+      "Avant-garde"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Sciame",
+    "equipment_it": [
+      "Armi Bianche"
+    ],
+    "specialRules_it": [
+      "Cold Blooded",
+      "Immune alla Psicologia",
+      "Solitario",
+      "Viaggiatore",
+      "Arido come Polvere",
+      "Schermagliatori",
+      "Irriducibile",
+      "Avanguardia"
     ]
   },
   {
@@ -514,6 +851,45 @@
       "Zwarty Szyk",
       "Zimnokrwisty",
       "Strach",
+      "Skirmish Screen"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Monströse Infanterie",
+    "equipment_de": [
+      "Zweihandwaffen",
+      "Scaly skin (schwere rüstung)"
+    ],
+    "specialRules_de": [
+      "Aquatic",
+      "Geschlossene Ränge",
+      "Cold Blooded",
+      "Angst",
+      "Skirmish Screen"
+    ],
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Monstrueuse",
+    "equipment_fr": [
+      "Armes lourdes",
+      "Peau écailleuse (armure légère)"
+    ],
+    "specialRules_fr": [
+      "Aquatique",
+      "Ordre Serré",
+      "Sang Sang",
+      "Peur",
+      "Écran de Tirailleurs"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Mostruosa",
+    "equipment_it": [
+      "Grandi Armi",
+      "Scaly skin (armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Aquatic",
+      "Formazione Serrata",
+      "Cold Blooded",
+      "Paura",
       "Skirmish Screen"
     ]
   },
@@ -575,6 +951,47 @@
       "Zimnokrwisty",
       "Strach",
       "Harcownicy"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie, Kriegstier",
+    "equipment_de": [
+      "Skink Handlers: Hand waffen, Schwielige hides (leichte rüstung)",
+      "Razordons: Boshafte klauen, Razor barbs, Scaly skin (schwere rüstung)"
+    ],
+    "specialRules_de": [
+      "Aquatic",
+      "Bestie Handlers",
+      "Cold Blooded",
+      "Angst",
+      "Plänkler"
+    ],
+    "name_de": "Razordon Pack",
+    "name_fr": "Meute de Razordons",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière, Bête de Guerre",
+    "equipment_fr": [
+      "Prêtre Handlers: De lourdes, Peau calleuses (armure légère)",
+      "Razordons: Griffes mortelles, Défenses acérées, Peau écailleuse (armure légère)"
+    ],
+    "specialRules_fr": [
+      "Aquatique",
+      "Maître des Bêtes",
+      "Sang Sang",
+      "Peur",
+      "Tirailleurs"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare, Bestia da Guerra",
+    "equipment_it": [
+      "Skink Handlers: Armi bianche, Calloused hides (armatura pesante)",
+      "Razordons: Wicked decapitanti, Razor barbs, Scaly skin (armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Aquatic",
+      "Beast Handlers",
+      "Cold Blooded",
+      "Paura",
+      "Schermagliatori"
     ]
   },
   {
@@ -626,6 +1043,51 @@
       "Wściekła Szarża (Ripperdactyl only)",
       "Impet",
       "Szybki Krok",
+      "Toad Rage"
+    ],
+    "unitCategory_de": "Mount",
+    "troopType_de": "Monströse Kavallerie",
+    "equipment_de": [
+      "Klauen prinz teeth (counts as ein hand weapon)"
+    ],
+    "specialRules_de": [
+      "Zähe Haut (1)",
+      "Spaltender Hieb (Ripperdactyl leichenmeister)",
+      "Angst",
+      "Fliegen (9)",
+      "Rasender Angriff (Ripperdactyl leichenmeister)",
+      "Ungestüm",
+      "Schnelle Bewegung",
+      "Toad Rage"
+    ],
+    "name_de": "Ripperdactyl",
+    "name_fr": "Entérodactyle",
+    "troopType_fr": "Cavalerie Monstrueuse",
+    "equipment_fr": [
+      "Mortelles et teeth (counts comme un de lourde)"
+    ],
+    "specialRules_fr": [
+      "Peau Blindée (1)",
+      "Coup de Fendoir (Entérodactyle uniquement)",
+      "Peur",
+      "Vol (9)",
+      "Charge Dévastatrice (Entérodactyle uniquement)",
+      "Impétueux",
+      "Rapide",
+      "Crapauds"
+    ],
+    "troopType_it": "Cavalleria Mostruosa",
+    "equipment_it": [
+      "Decapitanti and teeth (counts come scelti armi bianca)"
+    ],
+    "specialRules_it": [
+      "Pelle a Scaglie (1)",
+      "Lame Mortale (Ripperdactyl only)",
+      "Paura",
+      "Volo (9)",
+      "Furious Carica (Ripperdactyl only)",
+      "Impetuosi",
+      "Passo Rapido",
       "Toad Rage"
     ]
   },
@@ -711,6 +1173,65 @@
       "Harcownicy",
       "Szybki Krok",
       "Toad Rage"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Monströse Kavallerie",
+    "equipment_de": [
+      "Kavalleriespeere",
+      "Schwielige hides (leichte rüstung)",
+      "Schilde"
+    ],
+    "specialRules_de": [
+      "Zähe Haut (1)",
+      "Spaltender Hieb (Ripperdactyl leichenmeister)",
+      "Cold Blooded",
+      "Angst",
+      "Fliegen (9)",
+      "Rasender Angriff (Ripperdactyl leichenmeister)",
+      "Ungestüm",
+      "Plänkler",
+      "Schnelle Bewegung",
+      "Toad Rage"
+    ],
+    "name_de": "Ripperdactyl Jagd",
+    "name_fr": "Monteurs d'Entérodactyle",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Monstrueuse",
+    "equipment_fr": [
+      "Lances de cavalerie",
+      "Peau calleuses (armure légère)",
+      "Boucliers"
+    ],
+    "specialRules_fr": [
+      "Peau Blindée (1)",
+      "Coup de Fendoir (Entérodactyle uniquement)",
+      "Sang Sang",
+      "Peur",
+      "Vol (9)",
+      "Charge Dévastatrice (Entérodactyle uniquement)",
+      "Impétueux",
+      "Tirailleurs",
+      "Rapide",
+      "Crapauds"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Mostruosa",
+    "equipment_it": [
+      "Lancia Leggera",
+      "Calloused hides (armatura pesante)",
+      "Scudi"
+    ],
+    "specialRules_it": [
+      "Pelle a Scaglie (1)",
+      "Lame Mortale (Ripperdactyl only)",
+      "Cold Blooded",
+      "Paura",
+      "Volo (9)",
+      "Furious Carica (Ripperdactyl only)",
+      "Impetuosi",
+      "Schermagliatori",
+      "Passo Rapido",
+      "Toad Rage"
     ]
   },
   {
@@ -771,6 +1292,47 @@
       "Zimnokrwisty",
       "Strach",
       "Harcownicy"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie, Kriegstier",
+    "equipment_de": [
+      "Skink Handlers: Hand waffen, Schwielige hides (leichte rüstung)",
+      "Salamanders: Boshafte klauen, Flammenden atem, Scaly skin (schwere rüstung)"
+    ],
+    "specialRules_de": [
+      "Aquatic",
+      "Bestie Handlers",
+      "Cold Blooded",
+      "Angst",
+      "Plänkler"
+    ],
+    "name_de": "Salamander Pack",
+    "name_fr": "Meute de Salamandres",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière, Bête de Guerre",
+    "equipment_fr": [
+      "Prêtre Handlers: De lourdes, Peau calleuses (armure légère)",
+      "Salamanders: Griffes mortelles, Cercle glacial, Peau écailleuse (armure légère)"
+    ],
+    "specialRules_fr": [
+      "Aquatique",
+      "Maître des Bêtes",
+      "Sang Sang",
+      "Peur",
+      "Tirailleurs"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare, Bestia da Guerra",
+    "equipment_it": [
+      "Skink Handlers: Armi bianche, Calloused hides (armatura pesante)",
+      "Salamanders: Wicked decapitanti, Ruggito breath, Scaly skin (armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Aquatic",
+      "Beast Handlers",
+      "Cold Blooded",
+      "Paura",
+      "Schermagliatori"
     ]
   },
   {
@@ -817,6 +1379,44 @@
       "Wściekła Szarża",
       "Obsidian Blades",
       "Bojowy Okrzyk"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Schwere Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Scaly skin (schwere rüstung)"
+    ],
+    "specialRules_de": [
+      "Cold Blooded",
+      "Rasender Angriff",
+      "Obsidian Klingen",
+      "Sammelruf"
+    ],
+    "name_de": "Saurus Oldblood",
+    "name_fr": "Sang Ancien Saurus",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Lourde, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "Peau écailleuse (armure légère)"
+    ],
+    "specialRules_fr": [
+      "Sang Sang",
+      "Charge Dévastatrice",
+      "Lames d'Obsidienne",
+      "Cri de Ralliement"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Pesante, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "Scaly skin (armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Cold Blooded",
+      "Furious Carica",
+      "Obsidian Rituali",
+      "Grido di Battaglia"
     ]
   },
   {
@@ -863,6 +1463,44 @@
       "Wściekła Szarża",
       "Obsidian Blades",
       "Bojowy Okrzyk"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Schwere Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Scaly skin (schwere rüstung)"
+    ],
+    "specialRules_de": [
+      "Cold Blooded",
+      "Rasender Angriff",
+      "Obsidian Klingen",
+      "Sammelruf"
+    ],
+    "name_de": "Saurus Scar-Veteran",
+    "name_fr": "Vétéran Scarifié Saurus",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Lourde, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "Peau écailleuse (armure légère)"
+    ],
+    "specialRules_fr": [
+      "Sang Sang",
+      "Charge Dévastatrice",
+      "Lames d'Obsidienne",
+      "Cri de Ralliement"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Pesante, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "Scaly skin (armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Cold Blooded",
+      "Furious Carica",
+      "Obsidian Rituali",
+      "Grido di Battaglia"
     ]
   },
   {
@@ -921,6 +1559,45 @@
       "Zwarty Szyk",
       "Zimnokrwisty",
       "Obsidian Blades"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Schwere Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Scaly skin (schwere rüstung)",
+      "Schilde"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Cold Blooded",
+      "Obsidian Klingen"
+    ],
+    "name_de": "Saurus Krieger",
+    "name_fr": "Guerriers Saurus",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Lourde",
+    "equipment_fr": [
+      "Armes de base",
+      "Peau écailleuse (armure légère)",
+      "Boucliers"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Sang Sang",
+      "Lames d'Obsidienne"
+    ],
+    "name_it": "Saurus Scheletri",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Pesante",
+    "equipment_it": [
+      "Armi Bianche",
+      "Scaly skin (armatura pesante)",
+      "Scudi"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Cold Blooded",
+      "Obsidian Rituali"
     ]
   },
   {
@@ -965,6 +1642,41 @@
       "Aquatic",
       "Zimnokrwisty",
       "Trujące Ataki"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Modrige Lederhaut (Leichte Rüstung)"
+    ],
+    "specialRules_de": [
+      "Aquatic",
+      "Cold Blooded",
+      "Giftattacken"
+    ],
+    "name_de": "Skink Chief",
+    "name_fr": "Chef Skink",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "Peau calleuse (Armure légère)"
+    ],
+    "specialRules_fr": [
+      "Aquatique",
+      "Sang Sang",
+      "Attaques Empoisonnées"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "Calloused hide (armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Aquatic",
+      "Cold Blooded",
+      "Arido come Polvere"
     ]
   },
   {
@@ -1016,6 +1728,45 @@
       "Aquatic",
       "Zimnokrwisty",
       "Lore of Lustria"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Modrige Lederhaut (Leichte Rüstung)"
+    ],
+    "specialRules_de": [
+      "Arkane Vassal",
+      "Aquatic",
+      "Cold Blooded",
+      "Lehre des Lustria"
+    ],
+    "name_de": "Skink Priester",
+    "name_fr": "Prêtre Skink",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "Peau calleuse (Armure légère)"
+    ],
+    "specialRules_fr": [
+      "Vassal Magique",
+      "Aquatique",
+      "Sang Sang",
+      "Domaine de Lustrie"
+    ],
+    "name_it": "Skink Liche",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "Calloused hide (armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Arcane Vassal",
+      "Aquatic",
+      "Cold Blooded",
+      "Lore di Lustria"
     ]
   },
   {
@@ -1074,6 +1825,45 @@
       "Przechodzenie Przez Zasłony",
       "Trujące Ataki (oszczepy only)",
       "Harcownicy"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Schwielige hides (leichte rüstung)"
+    ],
+    "specialRules_de": [
+      "Cold Blooded",
+      "Durch Deckung bewegen",
+      "Poisoned Attacken (javelins leichenmeister)",
+      "Plänkler"
+    ],
+    "name_de": "Skink Plänkler",
+    "name_fr": "Tirailleurs Skinks",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Peau calleuses (armure légère)"
+    ],
+    "specialRules_fr": [
+      "Sang Sang",
+      "Mouvement à Couvert",
+      "Attaques Empoisonnées (javelines uniquement)",
+      "Tirailleurs"
+    ],
+    "name_it": "Skink Schermagliatori",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Calloused hides (armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Cold Blooded",
+      "Viaggiatore",
+      "Attacchi Venefici (javelins only)",
+      "Schermagliatori"
     ]
   },
   {
@@ -1129,6 +1919,45 @@
       "Lot (8)",
       "Duży Cel",
       "Lore of Lustria"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Monströse Kreatur, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Arkane Schild",
+      "Geschlossene Ränge",
+      "Cold Blooded",
+      "Fliegen (8)",
+      "Großes Ziel",
+      "Lehre des Lustria"
+    ],
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Créature Monstrueuse, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Bouclier Arcanique",
+      "Ordre Serré",
+      "Sang Sang",
+      "Vol (8)",
+      "Grande Cible",
+      "Domaine de Lustrie"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Creatura Mostruosa, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Arcane Scudo",
+      "Formazione Serrata",
+      "Cold Blooded",
+      "Volo (8)",
+      "Bersaglio Grande",
+      "Lore di Lustria"
     ]
   },
   {
@@ -1211,6 +2040,61 @@
       "Zdeptanie (D3+2)",
       "Nieugięty",
       "Groza"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Chepesh horns",
+      "Riese bogen"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Cold Blooded",
+      "Sänfte",
+      "Immung gegen Psychologie",
+      "Aufpralltreffer (W3+1)",
+      "Großes Ziel",
+      "Poisoned Attacken (javelins leichenmeister)",
+      "Stampfattacken (W3+2)",
+      "Unnachgiebig",
+      "Entsetzen"
+    ],
+    "name_de": "Stegadon",
+    "name_fr": "Stégadon",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Grandes cornes",
+      "Arc géant"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Sang Sang",
+      "Immunisé",
+      "Immunisé à la Psychologie",
+      "Touches d'Impact (D3+1)",
+      "Grande Cible",
+      "Attaques Empoisonnées (javelines uniquement)",
+      "Attaques de Piétinement (D3+2)",
+      "Obstiné",
+      "Terreur"
+    ],
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Grandi horns",
+      "Giant arco"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Cold Blooded",
+      "Costrutto (2)",
+      "Immune alla Psicologia",
+      "Colpi da Impatto (D3+1)",
+      "Bersaglio Grande",
+      "Attacchi Venefici (javelins only)",
+      "Non morto di Nehekharan",
+      "Determinato",
+      "Terrore"
     ]
   },
   {
@@ -1277,6 +2161,56 @@
       "Obsidian Blades",
       "Shieldwall",
       "Nieugięty"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Schwere Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Hellebarden",
+      "Scaly skin (schwere rüstung)",
+      "Schilde"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Cold Blooded",
+      "Guardians",
+      "Obsidian Klingen",
+      "Schildwall",
+      "Unnachgiebig"
+    ],
+    "name_de": "Temple Der",
+    "name_fr": "Gardien Elfique",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Lourde",
+    "equipment_fr": [
+      "Armes de base",
+      "Hallebardes",
+      "Peau écailleuse (armure légère)",
+      "Boucliers"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Sang Sang",
+      "Gardiens",
+      "Lames d'Obsidienne",
+      "Mur de Boucliers",
+      "Obstiné"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Pesante",
+    "equipment_it": [
+      "Armi Bianche",
+      "Alabarde",
+      "Scaly skin (armatura pesante)",
+      "Scudi"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Cold Blooded",
+      "Guardians",
+      "Obsidian Rituali",
+      "Muro di Scudi",
+      "Determinato"
     ]
   },
   {
@@ -1323,6 +2257,42 @@
       "Strach",
       "Lot (10)",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Mount",
+    "troopType_de": "Monströse Kavallerie",
+    "equipment_de": [
+      "Klauen prinz teeth (counts as ein hand weapon)"
+    ],
+    "specialRules_de": [
+      "Zähe Haut (1)",
+      "Drop Rocks",
+      "Angst",
+      "Fliegen (10)",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Terradon",
+    "name_fr": "Téradon",
+    "troopType_fr": "Cavalerie Monstrueuse",
+    "equipment_fr": [
+      "Mortelles et teeth (counts comme un de lourde)"
+    ],
+    "specialRules_fr": [
+      "Peau Blindée (1)",
+      "Rochers",
+      "Peur",
+      "Vol (10)",
+      "Rapide"
+    ],
+    "troopType_it": "Cavalleria Mostruosa",
+    "equipment_it": [
+      "Decapitanti and teeth (counts come scelti armi bianca)"
+    ],
+    "specialRules_it": [
+      "Pelle a Scaglie (1)",
+      "Drop Rocks",
+      "Paura",
+      "Volo (10)",
+      "Passo Rapido"
     ]
   },
   {
@@ -1403,6 +2373,59 @@
       "Trujące Ataki (oszczepy only)",
       "Harcownicy",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Monströse Kavallerie",
+    "equipment_de": [
+      "Handwaffen",
+      "Modrige Lederhaut (Leichte Rüstung)",
+      "Javelins"
+    ],
+    "specialRules_de": [
+      "Zähe Haut (1)",
+      "Cold Blooded",
+      "Drop Rocks",
+      "Angst",
+      "Fliegen (10)",
+      "Poisoned Attacken (javelins leichenmeister)",
+      "Plänkler",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Terradon Jagd",
+    "name_fr": "Monteurs de Téradon",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Monstrueuse",
+    "equipment_fr": [
+      "Armes de base",
+      "Peau calleuse (Armure légère)",
+      "Javelines"
+    ],
+    "specialRules_fr": [
+      "Peau Blindée (1)",
+      "Sang Sang",
+      "Rochers",
+      "Peur",
+      "Vol (10)",
+      "Attaques Empoisonnées (javelines uniquement)",
+      "Tirailleurs",
+      "Rapide"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Mostruosa",
+    "equipment_it": [
+      "Armi Bianche",
+      "Calloused hide (armatura pesante)",
+      "Javelins"
+    ],
+    "specialRules_it": [
+      "Pelle a Scaglie (1)",
+      "Cold Blooded",
+      "Drop Rocks",
+      "Paura",
+      "Volo (10)",
+      "Attacchi Venefici (javelins only)",
+      "Schermagliatori",
+      "Passo Rapido"
     ]
   },
   {
@@ -1491,6 +2514,67 @@
       "Zdeptanie (2)",
       "Nieugięty",
       "Groza"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Monströse Kreatur",
+    "equipment_de": [
+      "Venomous klauen",
+      "Venom spray",
+      "Scaly skin (schwere rüstung)"
+    ],
+    "specialRules_de": [
+      "Arkane Vassal",
+      "Aquatic",
+      "Geschlossene Ränge",
+      "Cold Blooded",
+      "Immung gegen Psychologie",
+      "Großes Ziel",
+      "Lehre des Lustria",
+      "Primeval Brüllen",
+      "Stampfattacken (2)",
+      "Unnachgiebig",
+      "Entsetzen"
+    ],
+    "name_de": "Troglodon",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Créature Monstrueuse",
+    "equipment_fr": [
+      "Serres venimeuses",
+      "Crachat de venin",
+      "Peau écailleuse (armure légère)"
+    ],
+    "specialRules_fr": [
+      "Vassal Magique",
+      "Aquatique",
+      "Ordre Serré",
+      "Sang Sang",
+      "Immunisé à la Psychologie",
+      "Grande Cible",
+      "Domaine de Lustrie",
+      "Rugissement Primal",
+      "Attaques de Piétinement (2)",
+      "Obstiné",
+      "Terreur"
+    ],
+    "unitCategory_it": "Mostro",
+    "troopType_it": "Creatura Mostruosa",
+    "equipment_it": [
+      "Venomous talons",
+      "Venom spray",
+      "Scaly skin (armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Arcane Vassal",
+      "Aquatic",
+      "Formazione Serrata",
+      "Cold Blooded",
+      "Immune alla Psicologia",
+      "Bersaglio Grande",
+      "Lore di Lustria",
+      "Primeval Infuocato",
+      "Calpestamento (2)",
+      "Determinato",
+      "Terrore"
     ]
   }
 ]

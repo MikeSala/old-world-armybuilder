@@ -53,6 +53,44 @@
       "Horda",
       "Umknij",
       "Gromada"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Geschlossene Ränge",
+      "Scurry Away",
+      "Kriegerschar"
+    ],
+    "name_de": "Klanratten",
+    "name_fr": "Guerriers des clans",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Horde",
+      "Sauve qui Peut!",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Orda",
+      "Scurry Away",
+      "Warband"
     ]
   },
   {
@@ -130,6 +168,59 @@
       "Random Movement",
       "Zdeptanie (2)",
       "Zzzzap!"
+    ],
+    "unitCategory_de": "Streitwagen",
+    "troopType_de": "Schwerer Streitwagen",
+    "equipment_de": [
+      "Warlock: Hand weapon",
+      "Rats: Klauen prinz fangs (counts as ein hand weapon)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Crushing Bulk",
+      "Immung gegen Psychologie",
+      "Aufpralltreffer (W3+1)",
+      "Großes Ziel",
+      "Zufällige Attacken (Rats leichenmeister)",
+      "Zufällige Bewegung",
+      "Stampfattacken (2)",
+      "Zzzzap!"
+    ],
+    "name_de": "Todesrad",
+    "name_fr": "Roue Infernale",
+    "unitCategory_fr": "Char",
+    "troopType_fr": "Char Lourd",
+    "equipment_fr": [
+      "Clan: De lourde",
+      "Géants: Mortelles et crocs (counts comme un de lourde)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Écrasement",
+      "Immunisé à la Psychologie",
+      "Touches d'Impact (D3+1)",
+      "Grande Cible",
+      "Attaques Aléatoires (Rats uniquement)",
+      "Mouvement Aléatoire",
+      "Attaques de Piétinement (2)",
+      "Zzzzap!"
+    ],
+    "unitCategory_it": "Carro",
+    "troopType_it": "Carro Pesante",
+    "equipment_it": [
+      "Warlock: Armi bianca",
+      "Rats: Decapitanti and fangs (counts come scelti armi bianca)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Crushing Bulk",
+      "Immune alla Psicologia",
+      "Colpi da Impatto (D3+1)",
+      "Bersaglio Grande",
+      "Random Venefici (Rats only)",
+      "Random Movement",
+      "Calpestamento (2)",
+      "Zzzzap!"
     ]
   },
   {
@@ -175,6 +266,44 @@
       "Horda",
       "Umknij",
       "Gromada"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Kriegstier",
+    "equipment_de": [
+      "Klauen prinz teeth (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Fight in Extra Rank",
+      "Geschlossene Ränge",
+      "Scurry Away",
+      "Kriegerschar"
+    ],
+    "name_de": "Riesenratten",
+    "name_fr": "Rats Géants",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Bête de Guerre",
+    "equipment_fr": [
+      "Mortelles et teeth (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Combat Sur Plusieurs Rangs",
+      "Horde",
+      "Sauve qui Peut!",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Bestia da Guerra",
+    "equipment_it": [
+      "Decapitanti and teeth (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Fight in Extra Rank",
+      "Orda",
+      "Scurry Away",
+      "Warband"
     ]
   },
   {
@@ -233,6 +362,53 @@
       "Verminous Valour",
       "Gromada",
       "Warpstone Broń"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "D3 Warpstein Tokens"
+    ],
+    "specialRules_de": [
+      "Lehre des der Horned Rat",
+      "Magische Attacken",
+      "Magieresistenz (-1)",
+      "Scurry Away",
+      "Verminous Mut",
+      "Kriegerschar",
+      "Warpstein Waffen"
+    ],
+    "name_de": "Grauer Prophet",
+    "name_fr": "Prophète Gris",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "D3 Warpstone Tokens"
+    ],
+    "specialRules_fr": [
+      "Domaine du Rat Cornu",
+      "Attaques Magiques",
+      "Résistance à la Magie (-1)",
+      "Sauve qui Peut!",
+      "Courageux mais pas Téméraire",
+      "Bande de Guerre",
+      "Armes à base de Malepierre"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "D3 Warpstone Tokens"
+    ],
+    "specialRules_it": [
+      "Lore di le Horned Rat",
+      "Magical Venefici",
+      "Resistenza alla Magia (-1)",
+      "Scurry Away",
+      "Verminous Valore",
+      "Warband",
+      "Warpstone Bianche"
     ]
   },
   {
@@ -293,6 +469,50 @@
       "Zwiadowcy",
       "Umknij",
       "Harcownicy"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Zwei Handwaffen"
+    ],
+    "specialRules_de": [
+      "Ausweichen",
+      "Vorgetäuschte Flucht",
+      "Schießen und Verschwinden",
+      "Durch Deckung bewegen",
+      "Kundschafter",
+      "Scurry Away",
+      "Plänkler"
+    ],
+    "name_de": "Gossenläufer",
+    "name_fr": "Coureurs d'Égouts",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Deux armes de base"
+    ],
+    "specialRules_fr": [
+      "Esquiveur",
+      "Fuite Feinte",
+      "Tir & Fuite",
+      "Mouvement à Couvert",
+      "Éclaireurs",
+      "Sauve qui Peut!",
+      "Tirailleurs"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Two armi bianche"
+    ],
+    "specialRules_it": [
+      "Evasione",
+      "Feigned Flight",
+      "Tirare e Fuggire",
+      "Viaggiatore",
+      "Esploratori",
+      "Scurry Away",
+      "Schermagliatori"
     ]
   },
   {
@@ -357,6 +577,66 @@
       "Dreeeewno!",
       "Too Horrible do Die",
       "Niezłomni"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Warpstein Klauen"
+    ],
+    "specialRules_de": [
+      "Abominable Attacken",
+      "Geschlossene Ränge",
+      "Immung gegen Psychologie",
+      "Großes Ziel",
+      "Magieresistenz (-1)",
+      "Zufällige Attacken",
+      "Zufällige Bewegung",
+      "Regeneration (5+)",
+      "Stampfattacken (W3+1)",
+      "Entsetzen",
+      "Baum fällt!",
+      "Too Horrible gegen Die",
+      "Unerschütterlich"
+    ],
+    "name_fr": "Chevalier Pit Abomination",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Griffes de Malepierre"
+    ],
+    "specialRules_fr": [
+      "Attaques Abominables",
+      "Ordre Serré",
+      "Immunisé à la Psychologie",
+      "Grande Cible",
+      "Résistance à la Magie (-1)",
+      "Attaques Aléatoires",
+      "Mouvement Aléatoire",
+      "Régénération (5+)",
+      "Attaques de Piétinement (D3+1)",
+      "Terreur",
+      "Timmm-berrr!",
+      "Trop Horrible pour Mourir",
+      "Indémoralisable"
+    ],
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Warpstone decapitanti"
+    ],
+    "specialRules_it": [
+      "Abominable Venefici",
+      "Formazione Serrata",
+      "Immune alla Psicologia",
+      "Bersaglio Grande",
+      "Resistenza alla Magia (-1)",
+      "Random Venefici",
+      "Random Movement",
+      "Rigenerazione (5+)",
+      "Calpestamento Venefici (D3+1)",
+      "Terrore",
+      "Assalto Inarrestabile",
+      "Too Horrible alla Die",
+      "Irriducibile"
     ]
   },
   {
@@ -416,6 +696,66 @@
       "Umknij",
       "Verminous Valour",
       "Warpstone Broń"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Zwei Handwaffen",
+      "throwing waffen"
+    ],
+    "specialRules_de": [
+      "Überfall",
+      "Eshin Infiltration",
+      "Ausweichen",
+      "Vorgetäuschte Flucht",
+      "Schießen und Verschwinden",
+      "Hidden",
+      "Durch Deckung bewegen",
+      "Giftattacken",
+      "Scurry Away",
+      "Verminous Mut",
+      "Warpstein Waffen"
+    ],
+    "name_de": "Meisterassassine",
+    "name_fr": "Maître Assassin",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Deux armes de base",
+      "throwing lourdes"
+    ],
+    "specialRules_fr": [
+      "Embusqueurs",
+      "Infiltration Eshin",
+      "Esquiveur",
+      "Fuite Feinte",
+      "Tir & Fuite",
+      "Hidden",
+      "Mouvement à Couvert",
+      "Attaques Empoisonnées",
+      "Sauve qui Peut!",
+      "Courageux mais pas Téméraire",
+      "Armes à base de Malepierre"
+    ],
+    "name_it": "Signore Assassin",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Two armi bianche",
+      "throwing bianche"
+    ],
+    "specialRules_it": [
+      "Agguato",
+      "Eshin Infiltration",
+      "Evasione",
+      "Feigned Flight",
+      "Tirare e Fuggire",
+      "Hidden",
+      "Viaggiatore",
+      "Arido come Polvere",
+      "Scurry Away",
+      "Verminous Valore",
+      "Warpstone Bianche"
     ]
   },
   {
@@ -465,6 +805,51 @@
       "Zbieranina",
       "Umknij",
       "Gromada"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffe",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Geschlossene Ränge",
+      "Leader des der Pack",
+      "Zusammengewürfelter Haufen",
+      "Scurry Away",
+      "Kriegerschar"
+    ],
+    "name_de": "Meister Moulder",
+    "name_fr": "Maître Corrupteur",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Arme de base",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Horde",
+      "Céleste de la Meute",
+      "Bande Hétéroclite",
+      "Sauve qui Peut!",
+      "Bande de Guerre"
+    ],
+    "name_it": "Signore Moulder",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Arma Bianca",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Orda",
+      "Leader di le Pack",
+      "Equipaggiamento Eterogeneo",
+      "Scurry Away",
+      "Warband"
     ]
   },
   {
@@ -519,6 +904,41 @@
       "Ogień I Odwrót",
       "Umknij",
       "Harcownicy"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen"
+    ],
+    "specialRules_de": [
+      "Ausweichen",
+      "Schießen und Verschwinden",
+      "Scurry Away",
+      "Plänkler"
+    ],
+    "name_de": "Schattenläufer",
+    "name_fr": "Coureurs Nocturnes",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base"
+    ],
+    "specialRules_fr": [
+      "Esquiveur",
+      "Tir & Fuite",
+      "Sauve qui Peut!",
+      "Tirailleurs"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche"
+    ],
+    "specialRules_it": [
+      "Evasione",
+      "Tirare e Fuggire",
+      "Scurry Away",
+      "Schermagliatori"
     ]
   },
   {
@@ -568,6 +988,50 @@
       "Zbieranina",
       "Umknij",
       "Gromada"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffe",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Geschlossene Ränge",
+      "Leader des der Pack",
+      "Zusammengewürfelter Haufen",
+      "Scurry Away",
+      "Kriegerschar"
+    ],
+    "name_de": "Meutenbändiger",
+    "name_fr": "Chef de meute",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Arme de base",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Horde",
+      "Céleste de la Meute",
+      "Bande Hétéroclite",
+      "Sauve qui Peut!",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Arma Bianca",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Orda",
+      "Leader di le Pack",
+      "Equipaggiamento Eterogeneo",
+      "Scurry Away",
+      "Warband"
     ]
   },
   {
@@ -615,6 +1079,47 @@
       "Harcownicy",
       "Nieugięty",
       "Gromada"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "plague censers"
+    ],
+    "specialRules_de": [
+      "Raserei",
+      "Scurry Away",
+      "Plänkler",
+      "Unnachgiebig",
+      "Kriegerschar"
+    ],
+    "name_de": "Seuchenschleuderer",
+    "name_fr": "Encenseurs à Peste",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "encenseurs censers"
+    ],
+    "specialRules_fr": [
+      "Frénésie",
+      "Sauve qui Peut!",
+      "Tirailleurs",
+      "Obstiné",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "plague censers"
+    ],
+    "specialRules_it": [
+      "Frenzy",
+      "Scurry Away",
+      "Schermagliatori",
+      "Determinato",
+      "Warband"
     ]
   },
   {
@@ -683,6 +1188,62 @@
       "Trujące Ataki",
       "Scurrying Masses",
       "Zdeptanie (D3+1)"
+    ],
+    "unitCategory_de": "Streitwagen",
+    "troopType_de": "Schwerer Streitwagen",
+    "equipment_de": [
+      "Plague Hammer: Billowing Todes",
+      "Plague Monk Haufen: Hand weapon"
+    ],
+    "specialRules_de": [
+      "Dragged Along",
+      "Angst",
+      "Raserei",
+      "Chepesh Censer",
+      "Aufpralltreffer (W3+1)",
+      "Großes Ziel",
+      "Magieresistenz (-1)",
+      "Giftattacken",
+      "Scurrying Masses",
+      "Stampfattacken (W3+1)"
+    ],
+    "name_de": "Plague Hammer",
+    "name_fr": "Encenseurs Marteau",
+    "unitCategory_fr": "Char",
+    "troopType_fr": "Char Lourd",
+    "equipment_fr": [
+      "Encenseurs Marteau: Billowing Mort",
+      "Encenseurs Monk Hétéroclite: De lourde"
+    ],
+    "specialRules_fr": [
+      "Tracté",
+      "Peur",
+      "Frénésie",
+      "Armes À",
+      "Touches d'Impact (D3+1)",
+      "Grande Cible",
+      "Résistance à la Magie (-1)",
+      "Attaques Empoisonnées",
+      "Scurrying Masses",
+      "Attaques de Piétinement (D3+1)"
+    ],
+    "unitCategory_it": "Carro",
+    "troopType_it": "Carro Pesante",
+    "equipment_it": [
+      "Plague Furnace: Billowing Death",
+      "Plague Monk Crew: Armi bianca"
+    ],
+    "specialRules_it": [
+      "Dragged Along",
+      "Paura",
+      "Frenzy",
+      "Grandi Censer",
+      "Colpi da Impatto (D3+1)",
+      "Bersaglio Grande",
+      "Resistenza alla Magia (-1)",
+      "Arido come Polvere",
+      "Scurrying Masses",
+      "Calpestamento Venefici (D3+1)"
     ]
   },
   {
@@ -739,6 +1300,44 @@
       "Horda",
       "Umknij",
       "Gromada"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Raserei",
+      "Geschlossene Ränge",
+      "Scurry Away",
+      "Kriegerschar"
+    ],
+    "name_de": "Seuchenmönche",
+    "name_fr": "Moines de la Peste",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Frénésie",
+      "Horde",
+      "Sauve qui Peut!",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Frenzy",
+      "Orda",
+      "Scurry Away",
+      "Warband"
     ]
   },
   {
@@ -795,6 +1394,54 @@
       "Verminous Valour",
       "Gromada",
       "Warpstone Broń"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Cloud des Flies",
+      "Raserei",
+      "Lehre des der Horned Rat",
+      "Magische Attacken",
+      "Scurry Away",
+      "Verminous Mut",
+      "Kriegerschar",
+      "Warpstein Waffen"
+    ],
+    "name_de": "Seuchenpriester",
+    "name_fr": "Prêtre de la Peste",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Nuage de Mouches",
+      "Frénésie",
+      "Domaine du Rat Cornu",
+      "Attaques Magiques",
+      "Sauve qui Peut!",
+      "Courageux mais pas Téméraire",
+      "Bande de Guerre",
+      "Armes à base de Malepierre"
+    ],
+    "name_it": "Plague Liche",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Cloud di Flies",
+      "Frenzy",
+      "Lore di le Horned Rat",
+      "Magical Venefici",
+      "Scurry Away",
+      "Verminous Valore",
+      "Warband",
+      "Warpstone Bianche"
     ]
   },
   {
@@ -851,6 +1498,42 @@
       "Losowe Ataki",
       "Harcownicy",
       "Nieugięty"
+    ],
+    "unitCategory_de": "War Machine",
+    "troopType_de": "Kriegsmaschine",
+    "equipment_de": [
+      "Seuchenklauen Katapult",
+      "hand waffen",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Zufällige Attacken",
+      "Plänkler",
+      "Unnachgiebig"
+    ],
+    "name_de": "Seuchenklauen Katapult",
+    "name_fr": "Catapulte de la Peste",
+    "troopType_fr": "Machine de Guerre",
+    "equipment_fr": [
+      "Catapulte de la Peste",
+      "de lourdes",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Attaques Aléatoires",
+      "Tirailleurs",
+      "Obstiné"
+    ],
+    "troopType_it": "Macchina da Guerra",
+    "equipment_it": [
+      "Plagueclaw Catapult",
+      "armi bianche",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Random Venefici",
+      "Schermagliatori",
+      "Determinato"
     ]
   },
   {
@@ -896,6 +1579,45 @@
       "Umknij",
       "Harcownicy",
       "Gromada"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Giftwindkugeln",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Scurry Away",
+      "Plänkler",
+      "Kriegerschar"
+    ],
+    "name_de": "Giftwindkrieger",
+    "name_fr": "Globadiers",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Globes de Vent Empoisonné",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Sauve qui Peut!",
+      "Tirailleurs",
+      "Bande de Guerre"
+    ],
+    "name_it": "Attacchi Wind Globadiers",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Attacchi Wind globes",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Scurry Away",
+      "Schermagliatori",
+      "Warband"
     ]
   },
   {
@@ -949,6 +1671,56 @@
       "Safe z Harm",
       "Umknij",
       "Gromada"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Monströse Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "mutated hides (counts as schwere rüstung)"
+    ],
+    "specialRules_de": [
+      "Rüstungsfluch (2)",
+      "Geschlossene Ränge",
+      "Angst",
+      "Raserei",
+      "Geschlossene Ränge",
+      "Safe aus Harm",
+      "Scurry Away",
+      "Kriegerschar"
+    ],
+    "name_de": "Rattenoger",
+    "name_fr": "Rat-ogres",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Monstrueuse",
+    "equipment_fr": [
+      "Armes de base",
+      "mutated calleuses (counts comme armure légère)"
+    ],
+    "specialRules_fr": [
+      "Arme Perforante (2)",
+      "Ordre Serré",
+      "Peur",
+      "Frénésie",
+      "Horde",
+      "À l'Abri du Danger",
+      "Sauve qui Peut!",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Mostruosa",
+    "equipment_it": [
+      "Armi Bianche",
+      "mutated hides (counts come armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Pesante Dell’Armatura (2)",
+      "Formazione Serrata",
+      "Paura",
+      "Frenzy",
+      "Orda",
+      "Safe da Harm",
+      "Scurry Away",
+      "Warband"
     ]
   },
   {
@@ -994,6 +1766,44 @@
       "Harcownicy",
       "Niezłomni",
       "Awangarda"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Schwarm",
+    "equipment_de": [
+      "Klauen prinz fangs (counts as hand waffen)"
+    ],
+    "specialRules_de": [
+      "Immung gegen Psychologie",
+      "Einzelgänger",
+      "Plänkler",
+      "Unerschütterlich",
+      "Vorhut"
+    ],
+    "name_de": "Rattenschwarm",
+    "name_fr": "Nuées de rats",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Essaim",
+    "equipment_fr": [
+      "Mortelles et crocs (counts comme de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Immunisé à la Psychologie",
+      "Solitaire",
+      "Tirailleurs",
+      "Indémoralisable",
+      "Avant-garde"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Sciame",
+    "equipment_it": [
+      "Decapitanti and fangs (counts come armi bianche)"
+    ],
+    "specialRules_it": [
+      "Immune alla Psicologia",
+      "Solitario",
+      "Schermagliatori",
+      "Irriducibile",
+      "Avanguardia"
     ]
   },
   {
@@ -1060,6 +1870,57 @@
       "Nieugięty",
       "Groza",
       "Tolling the Bell"
+    ],
+    "unitCategory_de": "Streitwagen",
+    "troopType_de": "Schwerer Streitwagen",
+    "equipment_de": [
+      "Rat Ogre Haufen: Hand weapon"
+    ],
+    "specialRules_de": [
+      "Rüstung Bane (2, Rat Ogre leichenmeister)",
+      "Segnungen des der Horned Rat",
+      "Dragged Along",
+      "Aufpralltreffer (W6+1)",
+      "Großes Ziel",
+      "Magieresistenz (-3)",
+      "Scurrying Masses",
+      "Unnachgiebig",
+      "Entsetzen",
+      "Tolling der Bell"
+    ],
+    "unitCategory_fr": "Char",
+    "troopType_fr": "Char Lourd",
+    "equipment_fr": [
+      "Rat Charge Hétéroclite: De lourde"
+    ],
+    "specialRules_fr": [
+      "Légère Perforante (2, Rat Charge uniquement)",
+      "Bénédiction de la Horned Rat",
+      "Tracté",
+      "Touches d'Impact (D6+1)",
+      "Grande Cible",
+      "Résistance à la Magie (-3)",
+      "Scurrying Masses",
+      "Obstiné",
+      "Terreur",
+      "Tolling la Bell"
+    ],
+    "unitCategory_it": "Carro",
+    "troopType_it": "Carro Pesante",
+    "equipment_it": [
+      "Rat Ogre Crew: Armi bianca"
+    ],
+    "specialRules_it": [
+      "Pesante Dell’Armatura (2, Rat Ogre only)",
+      "Blessings di le Horned Rat",
+      "Dragged Along",
+      "Frecce Di (D6+1)",
+      "Bersaglio Grande",
+      "Oggetti Resistance (-3)",
+      "Scurrying Masses",
+      "Determinato",
+      "Terrore",
+      "Tolling le Bell"
     ]
   },
   {
@@ -1105,6 +1966,44 @@
       "Verminous Valour",
       "Gromada",
       "Warpstone Broń"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Scurry Away",
+      "Verminous Mut",
+      "Kriegerschar",
+      "Warpstein Waffen"
+    ],
+    "name_de": "Häuptling der Skaven",
+    "name_fr": "Chef Skaven",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Sauve qui Peut!",
+      "Courageux mais pas Téméraire",
+      "Bande de Guerre",
+      "Armes à base de Malepierre"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Scurry Away",
+      "Verminous Valore",
+      "Warband",
+      "Warpstone Bianche"
     ]
   },
   {
@@ -1150,6 +2049,44 @@
       "Verminous Valour",
       "Gromada",
       "Warpstone Broń"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Scurry Away",
+      "Verminous Mut",
+      "Kriegerschar",
+      "Warpstein Waffen"
+    ],
+    "name_de": "Kriegsherr der Skaven",
+    "name_fr": "Seigneur de Guerre",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Sauve qui Peut!",
+      "Courageux mais pas Téméraire",
+      "Bande de Guerre",
+      "Armes à base de Malepierre"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Scurry Away",
+      "Verminous Valore",
+      "Warband",
+      "Warpstone Bianche"
     ]
   },
   {
@@ -1210,6 +2147,50 @@
       "Umknij",
       "Gromada",
       "Warpstone Broń"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "hellebarden",
+      "schwere rüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Geschlossene Ränge",
+      "Scurry Away",
+      "Kriegerschar",
+      "Warpstein Waffen"
+    ],
+    "name_de": "Sturmratten",
+    "name_fr": "Vermines de choc",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "hallebardes",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Horde",
+      "Sauve qui Peut!",
+      "Bande de Guerre",
+      "Armes à base de Malepierre"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "alabarde",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Orda",
+      "Scurry Away",
+      "Warband",
+      "Warpstone Bianche"
     ]
   },
   {
@@ -1263,6 +2244,51 @@
       "Verminous Valour",
       "Gromada",
       "Warpstone Broń"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "D3 Warpstein Tokens"
+    ],
+    "specialRules_de": [
+      "Lehre des der Horned Rat",
+      "Magische Attacken",
+      "Scurry Away",
+      "Verminous Mut",
+      "Kriegerschar",
+      "Warpstein Waffen"
+    ],
+    "name_de": "Warlocktechniker",
+    "name_fr": "Technomage",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "D3 Warpstone Tokens"
+    ],
+    "specialRules_fr": [
+      "Domaine du Rat Cornu",
+      "Attaques Magiques",
+      "Sauve qui Peut!",
+      "Courageux mais pas Téméraire",
+      "Bande de Guerre",
+      "Armes à base de Malepierre"
+    ],
+    "name_it": "Warlock Ingegnere",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "D3 Warpstone Tokens"
+    ],
+    "specialRules_it": [
+      "Lore di le Horned Rat",
+      "Magical Venefici",
+      "Scurry Away",
+      "Verminous Valore",
+      "Warband",
+      "Warpstone Bianche"
     ]
   },
   {
@@ -1315,6 +2341,37 @@
     ],
     "specialRules_pl": [
       "Harcownicy"
+    ],
+    "unitCategory_de": "War Machine",
+    "troopType_de": "Kriegsmaschine",
+    "equipment_de": [
+      "Warpblitzkanone",
+      "hand waffen",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Plänkler"
+    ],
+    "name_de": "Warpblitzkanone",
+    "name_fr": "Canon à Malefoudre",
+    "troopType_fr": "Machine de Guerre",
+    "equipment_fr": [
+      "Canon à Malefoudre",
+      "de lourdes",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Tirailleurs"
+    ],
+    "name_it": "Warp Lightning Cannone",
+    "troopType_it": "Macchina da Guerra",
+    "equipment_it": [
+      "Warp Lightning Cannone",
+      "armi bianche",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Schermagliatori"
     ]
   },
   {
@@ -1360,6 +2417,44 @@
       "Luźny Szyk",
       "Umknij",
       "Gromada"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "warpschloss jezzails",
+      "pavese"
+    ],
+    "specialRules_de": [
+      "Offene Ränge",
+      "Scurry Away",
+      "Kriegerschar"
+    ],
+    "name_de": "Warpschloss Jezzails",
+    "name_fr": "Jezzails",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "warplock jezzails",
+      "pavois"
+    ],
+    "specialRules_fr": [
+      "Ordre Dispersé",
+      "Sauve qui Peut!",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "warplock jezzails",
+      "pavise"
+    ],
+    "specialRules_it": [
+      "Formazione Aperta",
+      "Scurry Away",
+      "Warband"
     ]
   },
   {
@@ -1409,6 +2504,51 @@
       "Deploying Broń Teams",
       "Broń Team Leadership",
       "Targeting Broń Teams"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "leichte rüstung"
+    ],
+    "specialRules_de": [
+      "Einzelgänger",
+      "Offene Ränge",
+      "Scurry Away",
+      "Deploying Weapon Teams",
+      "Weapon Team Leadership",
+      "Targeting Weapon Teams"
+    ],
+    "name_de": "Waffenteam",
+    "name_fr": "Équipes d'armes",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "armure légère"
+    ],
+    "specialRules_fr": [
+      "Solitaire",
+      "Ordre Dispersé",
+      "Sauve qui Peut!",
+      "Deploying Lourde Teams",
+      "Lourde D'armes Leadership",
+      "Targeting Lourde Teams"
+    ],
+    "name_it": "Bianca Team",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "armatura pesante"
+    ],
+    "specialRules_it": [
+      "Solitario",
+      "Formazione Aperta",
+      "Scurry Away",
+      "Deploying Bianca Teams",
+      "Bianca Team Leadership",
+      "Targeting Bianca Teams"
     ]
   }
 ]

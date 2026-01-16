@@ -84,6 +84,70 @@
         "Nieugięty",
         "Szybki Krok",
         "Groza"
+      ],
+      "unitCategory_de": "Monster",
+      "troopType_de": "Behemoth",
+      "equipment_de": [
+        "Poisonous fangs (counts as ein hand weapon)",
+        "Giftstoß",
+        "Hand waffen (haufen)",
+        "Kavallerie spear (haufen)",
+        "Kurzbögen (haufen)"
+      ],
+      "specialRules_de": [
+        "Geschlossene Ränge",
+        "Sänfte",
+        "Immung gegen Psychologie",
+        "Großes Ziel",
+        "Durch Deckung bewegen",
+        "Giftattacken",
+        "Stampfattacken (W6)",
+        "Unnachgiebig",
+        "Schnelle Bewegung",
+        "Entsetzen"
+      ],
+      "name_de": "Arachnarok-Spinne",
+      "name_fr": "Arachnarok",
+      "unitCategory_fr": "Monstre",
+      "troopType_fr": "Béhémoth",
+      "equipment_fr": [
+        "Poisonous crocs (counts comme un de lourde)",
+        "Injection de venin",
+        "De lourdes (hétéroclite)",
+        "Rapide d'infanterie (hétéroclite)",
+        "Shortbows (hétéroclite)"
+      ],
+      "specialRules_fr": [
+        "Ordre Serré",
+        "Immunisé",
+        "Immunisé à la Psychologie",
+        "Grande Cible",
+        "Mouvement à Couvert",
+        "Attaques Empoisonnées",
+        "Attaques de Piétinement (D6)",
+        "Obstiné",
+        "Rapide",
+        "Terreur"
+      ],
+      "unitCategory_it": "Mostro",
+      "equipment_it": [
+        "Poisonous fangs (counts come scelti armi bianca)",
+        "Venom surge",
+        "Armi bianche (crew)",
+        "Lancia leggera (crew)",
+        "Shortbows (crew)"
+      ],
+      "specialRules_it": [
+        "Formazione Serrata",
+        "Costrutto (2)",
+        "Immune alla Psicologia",
+        "Bersaglio Grande",
+        "Viaggiatore",
+        "Arido come Polvere",
+        "Calpestamento (D6)",
+        "Determinato",
+        "Passo Rapido",
+        "Terrore"
       ]
     },
     {
@@ -147,6 +211,53 @@
         "Mercenaries",
         "Zbieranina",
         "Ogr Charge"
+      ],
+      "unitCategory_de": "Infanterie",
+      "troopType_de": "Monströse Infanterie",
+      "equipment_de": [
+        "Handwaffen",
+        "Leichte Rüstung"
+      ],
+      "specialRules_de": [
+        "Rüstungsfluch (1)",
+        "Geschlossene Ränge",
+        "Angst",
+        "Aufpralltreffer (1)",
+        "Söldner",
+        "Zusammengewürfelter Haufen",
+        "Ogerangriff"
+      ],
+      "name_de": "Düsterlande-Ogerbullen",
+      "name_fr": "Buffles Ogres des Terres Arides",
+      "unitCategory_fr": "Infanterie",
+      "troopType_fr": "Infanterie Monstrueuse",
+      "equipment_fr": [
+        "Armes de base",
+        "Armure légère"
+      ],
+      "specialRules_fr": [
+        "Arme Perforante (1)",
+        "Ordre Serré",
+        "Peur",
+        "Touches d'Impact (1)",
+        "Mercenaires",
+        "Bande Hétéroclite",
+        "Charge Ogre"
+      ],
+      "unitCategory_it": "Fanteria",
+      "troopType_it": "Fanteria Mostruosa",
+      "equipment_it": [
+        "Armi Bianche",
+        "Armatura Leggera"
+      ],
+      "specialRules_it": [
+        "Rottura dell’Armatura (1)",
+        "Formazione Serrata",
+        "Paura",
+        "Colpi da Impatto (1)",
+        "Può",
+        "Equipaggiamento Eterogeneo",
+        "Ogre Carica"
       ]
     },
     {
@@ -197,6 +308,53 @@
         "Ignore Panic",
         "Quell Impetuosity",
         "Bojowy Okrzyk",
+        "Waaagh!"
+      ],
+      "unitCategory_de": "Charakter",
+      "troopType_de": "Schwere Infanterie, Charakter",
+      "equipment_de": [
+        "Handwaffe",
+        "Plattenrüstung"
+      ],
+      "specialRules_de": [
+        "Spaltas",
+        "Da Jungs",
+        "Rasender Angriff",
+        "Panik ignorieren",
+        "Ungestüm unterdrücken",
+        "Sammelruf",
+        "Waaagh!"
+      ],
+      "name_de": "Schwarzork-Gargboss",
+      "name_fr": "Grand Chef Orque Noir",
+      "unitCategory_fr": "Personnage",
+      "troopType_fr": "Infanterie Lourde, Personnage",
+      "equipment_fr": [
+        "Arme de base",
+        "Armure de plate complète"
+      ],
+      "specialRules_fr": [
+        "Kikoup'",
+        "Lé Boyz",
+        "Charge Dévastatrice",
+        "Ignore la Panique",
+        "Calme l'Impétuosité",
+        "Cri de Ralliement",
+        "Waaagh!"
+      ],
+      "unitCategory_it": "Personaggio",
+      "troopType_it": "Fanteria Pesante, Personaggio",
+      "equipment_it": [
+        "Arma Bianca",
+        "Armatura Completa"
+      ],
+      "specialRules_it": [
+        "Choppas",
+        "Da Boyz",
+        "Furious Carica",
+        "Ignore Panic",
+        "Quell Impetuosity",
+        "Grido di Battaglia",
         "Waaagh!"
       ]
     },
@@ -281,6 +439,54 @@
         "Ignore Panic",
         "Uderzenia Impetu (D6+1)",
         "Tusker Charge"
+      ],
+      "unitCategory_de": "Streitwagen",
+      "troopType_de": "Schwerer Streitwagen",
+      "equipment_de": [
+        "Hand waffen (haufen)",
+        "Hauer (Kriegesmaschinen Boars)"
+      ],
+      "specialRules_de": [
+        "Spaltas",
+        "Geschlossene Ränge",
+        "Erster Angriff",
+        "Rasender Angriff (nur Schwarzork-Besatzung)",
+        "Panik ignorieren",
+        "Aufpralltreffer (W6+1)",
+        "Hauerangriff"
+      ],
+      "name_de": "Schwarzork-Wildschweinstreitwagen",
+      "name_fr": "Char à Sangliers Orque Noir",
+      "unitCategory_fr": "Char",
+      "troopType_fr": "Char Lourd",
+      "equipment_fr": [
+        "De lourdes (hétéroclite)",
+        "Défenses (War Sylvains)"
+      ],
+      "specialRules_fr": [
+        "Kikoup'",
+        "Ordre Serré",
+        "Première Charge",
+        "Charge Dévastatrice (Auriges Orques Noirs uniquement)",
+        "Ignore la Panique",
+        "Touches d'Impact (D6+1)",
+        "Charge de Sanglier"
+      ],
+      "name_it": "Black Orc Boar Scheletrico",
+      "unitCategory_it": "Carro",
+      "troopType_it": "Carro Pesante",
+      "equipment_it": [
+        "Armi bianche (crew)",
+        "Tusks (War Boars)"
+      ],
+      "specialRules_it": [
+        "Choppas",
+        "Formazione Serrata",
+        "Prima Carica",
+        "Furious Carica (Black Orc Crew only)",
+        "Ignore Panic",
+        "Frecce Di (D6+1)",
+        "Tusker Carica"
       ]
     },
     {
@@ -344,6 +550,53 @@
         "Ignore Panic",
         "Zbieranina",
         "Quell Impetuosity"
+      ],
+      "unitCategory_de": "Infanterie",
+      "troopType_de": "Schwere Infanterie",
+      "equipment_de": [
+        "Handwaffen",
+        "Plattenrüstung"
+      ],
+      "specialRules_de": [
+        "Spaltas",
+        "Geschlossene Ränge",
+        "Da Jungs",
+        "Rasender Angriff",
+        "Panik ignorieren",
+        "Zusammengewürfelter Haufen",
+        "Ungestüm unterdrücken"
+      ],
+      "name_de": "Schwarzork-Mob",
+      "name_fr": "Bande d'Orques Noirs",
+      "unitCategory_fr": "Infanterie",
+      "troopType_fr": "Infanterie Lourde",
+      "equipment_fr": [
+        "Armes de base",
+        "Armure de plate complète"
+      ],
+      "specialRules_fr": [
+        "Kikoup'",
+        "Ordre Serré",
+        "Lé Boyz",
+        "Charge Dévastatrice",
+        "Ignore la Panique",
+        "Bande Hétéroclite",
+        "Calme l'Impétuosité"
+      ],
+      "unitCategory_it": "Fanteria",
+      "troopType_it": "Fanteria Pesante",
+      "equipment_it": [
+        "Armi Bianche",
+        "Armatura Completa"
+      ],
+      "specialRules_it": [
+        "Choppas",
+        "Formazione Serrata",
+        "Da Boyz",
+        "Furious Carica",
+        "Ignore Panic",
+        "Equipaggiamento Eterogeneo",
+        "Quell Impetuosity"
       ]
     },
     {
@@ -394,6 +647,53 @@
         "Ignore Panic",
         "Quell Impetuosity",
         "Bojowy Okrzyk",
+        "Waaagh!"
+      ],
+      "unitCategory_de": "Charakter",
+      "troopType_de": "Schwere Infanterie, Charakter",
+      "equipment_de": [
+        "Handwaffe",
+        "Plattenrüstung"
+      ],
+      "specialRules_de": [
+        "Spaltas",
+        "Da Jungs",
+        "Rasender Angriff",
+        "Panik ignorieren",
+        "Ungestüm unterdrücken",
+        "Sammelruf",
+        "Waaagh!"
+      ],
+      "name_de": "Schwarzork-Waaaghboss",
+      "name_fr": "Chef de Guerre Orque Noir",
+      "unitCategory_fr": "Personnage",
+      "troopType_fr": "Infanterie Lourde, Personnage",
+      "equipment_fr": [
+        "Arme de base",
+        "Armure de plate complète"
+      ],
+      "specialRules_fr": [
+        "Kikoup'",
+        "Lé Boyz",
+        "Charge Dévastatrice",
+        "Ignore la Panique",
+        "Calme l'Impétuosité",
+        "Cri de Ralliement",
+        "Waaagh!"
+      ],
+      "unitCategory_it": "Personaggio",
+      "troopType_it": "Fanteria Pesante, Personaggio",
+      "equipment_it": [
+        "Arma Bianca",
+        "Armatura Completa"
+      ],
+      "specialRules_it": [
+        "Choppas",
+        "Da Boyz",
+        "Furious Carica",
+        "Ignore Panic",
+        "Quell Impetuosity",
+        "Grido di Battaglia",
         "Waaagh!"
       ]
     },
@@ -450,6 +750,58 @@
         "Groza",
         "Dreeeewno!",
         "Niezłomni"
+      ],
+      "unitCategory_de": "Monster",
+      "troopType_de": "Behemoth",
+      "equipment_de": [
+        "Bonegrinder Giant's club",
+        "Schwielige haut (counts as leichte rüstung)"
+      ],
+      "specialRules_de": [
+        "Knochenmalmer-Riesenattacken",
+        "Geschlossene Ränge",
+        "Immung gegen Psychologie",
+        "Großes Ziel",
+        "Söldner",
+        "Stampfattacken (W6+1)",
+        "Entsetzen",
+        "Baum fällt!",
+        "Unerschütterlich"
+      ],
+      "name_de": "Knochenmalmer-Riese",
+      "name_fr": "Géant Broyeur d'Os",
+      "unitCategory_fr": "Monstre",
+      "troopType_fr": "Béhémoth",
+      "equipment_fr": [
+        "Bonegrinder Giant's club",
+        "Peau blindée (counts comme armure légère)"
+      ],
+      "specialRules_fr": [
+        "Attaques de Géant Broyeur d'Os",
+        "Ordre Serré",
+        "Immunisé à la Psychologie",
+        "Grande Cible",
+        "Mercenaires",
+        "Attaques de Piétinement (D6+1)",
+        "Terreur",
+        "Timmm-berrr!",
+        "Indémoralisable"
+      ],
+      "unitCategory_it": "Mostro",
+      "equipment_it": [
+        "Bonegrinder Giant's club",
+        "Calloused hide (counts come armatura pesante)"
+      ],
+      "specialRules_it": [
+        "Bonegrinder Giant Venefici",
+        "Formazione Serrata",
+        "Immune alla Psicologia",
+        "Bersaglio Grande",
+        "Può",
+        "Calpestamento Venefici (D6+1)",
+        "Terrore",
+        "Assalto Inarrestabile",
+        "Irriducibile"
       ]
     },
     {
@@ -502,6 +854,56 @@
         "Łatwopalny",
         "Zbieranina",
         "Regeneracja (5+)",
+        "Stupidity"
+      ],
+      "unitCategory_de": "Infanterie",
+      "troopType_de": "Monströse Infanterie",
+      "equipment_de": [
+        "Handwaffen",
+        "Trollkotze",
+        "Schwielige hides (counts as leichte rüstung)"
+      ],
+      "specialRules_de": [
+        "Rüstungsfluch (1)",
+        "Geschlossene Ränge",
+        "Angst",
+        "Brennbar",
+        "Zusammengewürfelter Haufen",
+        "Regeneration (5+)",
+        "Blödheit"
+      ],
+      "name_de": "Gewöhnlicher Troll-Mob",
+      "name_fr": "Bande de Trolls",
+      "unitCategory_fr": "Infanterie",
+      "troopType_fr": "Infanterie Monstrueuse",
+      "equipment_fr": [
+        "Armes de base",
+        "Vomi de troll",
+        "Peau calleuses (counts comme armure légère)"
+      ],
+      "specialRules_fr": [
+        "Arme Perforante (1)",
+        "Ordre Serré",
+        "Peur",
+        "Inflammable",
+        "Bande Hétéroclite",
+        "Régénération (5+)",
+        "Stupidité"
+      ],
+      "unitCategory_it": "Fanteria",
+      "troopType_it": "Fanteria Mostruosa",
+      "equipment_it": [
+        "Armi Bianche",
+        "Troll vomit",
+        "Calloused hides (counts come armatura pesante)"
+      ],
+      "specialRules_it": [
+        "Rottura dell’Armatura (1)",
+        "Formazione Serrata",
+        "Paura",
+        "Suscettibile al Fuoco",
+        "Equipaggiamento Eterogeneo",
+        "Rigenerazione (5+)",
         "Stupidity"
       ]
     },
@@ -563,6 +965,40 @@
         "Doom Diver",
         "Strach of Elfy",
         "Harcownicy"
+      ],
+      "unitCategory_de": "War Machine",
+      "troopType_de": "Kriegsmaschine",
+      "equipment_de": [
+        "Untergangs Diver katapult (steinernes thrower)",
+        "Hand waffen (haufen)"
+      ],
+      "specialRules_de": [
+        "Kamikazegoblin",
+        "Angst vor Elfen",
+        "Plänkler"
+      ],
+      "name_de": "Kamikazekatapult",
+      "name_fr": "Catapulte à Plongeurs de la Mort",
+      "troopType_fr": "Machine de Guerre",
+      "equipment_fr": [
+        "Destin Diver lance-ferraille (pierre d'aigle)",
+        "De lourdes (hétéroclite)"
+      ],
+      "specialRules_fr": [
+        "Plongeur de la Mort",
+        "Peur des Elfes",
+        "Tirailleurs"
+      ],
+      "name_it": "Destino Diver Catapult",
+      "troopType_it": "Macchina da Guerra",
+      "equipment_it": [
+        "Destino Diver catapult (stone rancori)",
+        "Armi bianche (crew)"
+      ],
+      "specialRules_it": [
+        "Destino Diver",
+        "Paura di Elves",
+        "Schermagliatori"
       ]
     },
     {
@@ -602,6 +1038,30 @@
       "specialRules_pl": [
         "Odporność Na Psychologię",
         "Release the Fanatics!"
+      ],
+      "unitCategory_de": "Infanterie",
+      "troopType_de": "Reguläre Infanterie",
+      "equipment_de": [
+        "Fanatic-Kugelkette"
+      ],
+      "specialRules_de": [
+        "Immung gegen Psychologie",
+        "Fanatics loslassen!"
+      ],
+      "unitCategory_fr": "Infanterie",
+      "troopType_fr": "Infanterie Régulière",
+      "equipment_fr": [
+        "Chaînes & Boulets de Fanatique"
+      ],
+      "specialRules_fr": [
+        "Immunisé à la Psychologie",
+        "Lâchez les Fanatiques!"
+      ],
+      "unitCategory_it": "Fanteria",
+      "troopType_it": "Fanteria Regolare",
+      "specialRules_it": [
+        "Immune alla Psicologia",
+        "Release le Fanatics!"
       ]
     },
     {
@@ -657,6 +1117,58 @@
         "Groza",
         "Dreeeewno!",
         "Niezłomni"
+      ],
+      "unitCategory_de": "Monster",
+      "troopType_de": "Behemoth",
+      "equipment_de": [
+        "Riesenkeule",
+        "Schwielige haut (counts as leichte rüstung)"
+      ],
+      "specialRules_de": [
+        "Geschlossene Ränge",
+        "Riesenattacken",
+        "Immung gegen Psychologie",
+        "Großes Ziel",
+        "Pick Bis Prinz…",
+        "Stampfattacken (W6)",
+        "Entsetzen",
+        "Baum fällt!",
+        "Unerschütterlich"
+      ],
+      "name_de": "Riese",
+      "name_fr": "Géants",
+      "unitCategory_fr": "Monstre",
+      "troopType_fr": "Béhémoth",
+      "equipment_fr": [
+        "Massue de Géant",
+        "Peau blindée (counts comme armure légère)"
+      ],
+      "specialRules_fr": [
+        "Ordre Serré",
+        "Attaques de Géant",
+        "Immunisé à la Psychologie",
+        "Grande Cible",
+        "Pick Jusqu'à Et…",
+        "Attaques de Piétinement (D6)",
+        "Terreur",
+        "Timmm-berrr!",
+        "Indémoralisable"
+      ],
+      "unitCategory_it": "Mostro",
+      "equipment_it": [
+        "Giant's club",
+        "Calloused hide (counts come armatura pesante)"
+      ],
+      "specialRules_it": [
+        "Formazione Serrata",
+        "Giant Venefici",
+        "Immune alla Psicologia",
+        "Bersaglio Grande",
+        "Pick Up And…",
+        "Calpestamento (D6)",
+        "Terrore",
+        "Assalto Inarrestabile",
+        "Irriducibile"
       ]
     },
     {
@@ -702,6 +1214,36 @@
         "Uderzenia Impetu (D3)",
         "Samotnik",
         "Random Movement"
+      ],
+      "unitCategory_de": "Mount",
+      "troopType_de": "Monströse Kavallerie",
+      "equipment_de": [
+        "Massive Gob"
+      ],
+      "specialRules_de": [
+        "Zähe Haut (1)",
+        "Hass (Zwerge)",
+        "Aufpralltreffer (W3)",
+        "Einzelgänger",
+        "Zufällige Bewegung"
+      ],
+      "name_de": "Riese Cave Squig (Mount)",
+      "name_fr": "Loup Cave Squig (Démoniaque)",
+      "troopType_fr": "Cavalerie Monstrueuse",
+      "specialRules_fr": [
+        "Peau Blindée (1)",
+        "Haine (Nains)",
+        "Touches d'Impact (D3)",
+        "Solitaire",
+        "Mouvement Aléatoire"
+      ],
+      "troopType_it": "Cavalleria Mostruosa",
+      "specialRules_it": [
+        "Pelle a Scaglie (1)",
+        "Odio (Dwarfs)",
+        "Frecce di Asaph",
+        "Solitario",
+        "Random Movement"
       ]
     },
     {
@@ -745,6 +1287,39 @@
         "Szybka Kawaleria",
         "Ogień I Odwrót",
         "Szybki Krok"
+      ],
+      "unitCategory_de": "Mount",
+      "troopType_de": "Leichte Kavallerie",
+      "equipment_de": [
+        "Klauen prinz fangs (counts as ein hand weapon)"
+      ],
+      "specialRules_de": [
+        "Streitwagengarde",
+        "Wendige Kavallerie",
+        "Schießen und Verschwinden",
+        "Schnelle Bewegung"
+      ],
+      "name_de": "Riese Wolfs (Mount)",
+      "name_fr": "Loup Géant (Démoniaque)",
+      "troopType_fr": "Cavalerie Légère",
+      "equipment_fr": [
+        "Mortelles et crocs (counts comme un de lourde)"
+      ],
+      "specialRules_fr": [
+        "Escorteurs de Chars",
+        "Cavalerie Rapide",
+        "Tir & Fuite",
+        "Rapide"
+      ],
+      "troopType_it": "Cavalleria Leggera",
+      "equipment_it": [
+        "Decapitanti and fangs (counts come scelti armi bianca)"
+      ],
+      "specialRules_it": [
+        "Scorta ai Carri",
+        "Cavalleria Veloce",
+        "Tirare e Fuggire",
+        "Passo Rapido"
       ]
     },
     {
@@ -790,6 +1365,41 @@
         "Przechodzenie Przez Zasłony",
         "Trujące Ataki",
         "Szybki Krok"
+      ],
+      "unitCategory_de": "Mount",
+      "troopType_de": "Leichte Kavallerie",
+      "equipment_de": [
+        "Klauen prinz fangs (counts as ein hand weapon)"
+      ],
+      "specialRules_de": [
+        "Zähe Haut (1)",
+        "Wendige Kavallerie",
+        "Durch Deckung bewegen",
+        "Giftattacken",
+        "Schnelle Bewegung"
+      ],
+      "name_fr": "Rejeton Géante (Démoniaque)",
+      "troopType_fr": "Cavalerie Légère",
+      "equipment_fr": [
+        "Mortelles et crocs (counts comme un de lourde)"
+      ],
+      "specialRules_fr": [
+        "Peau Blindée (1)",
+        "Cavalerie Rapide",
+        "Mouvement à Couvert",
+        "Attaques Empoisonnées",
+        "Rapide"
+      ],
+      "troopType_it": "Cavalleria Leggera",
+      "equipment_it": [
+        "Decapitanti and fangs (counts come scelti armi bianca)"
+      ],
+      "specialRules_it": [
+        "Pelle a Scaglie (1)",
+        "Cavalleria Veloce",
+        "Viaggiatore",
+        "Arido come Polvere",
+        "Passo Rapido"
       ]
     },
     {
@@ -833,6 +1443,41 @@
         "Impet",
         "Bojowy Okrzyk",
         "Gromada"
+      ],
+      "unitCategory_de": "Charakter",
+      "troopType_de": "Reguläre Infanterie, Charakter",
+      "equipment_de": [
+        "Handwaffe"
+      ],
+      "specialRules_de": [
+        "Angst vor Elfen",
+        "Ungestüm",
+        "Sammelruf",
+        "Kriegerschar"
+      ],
+      "name_de": "Goblin-Gargboss",
+      "name_fr": "Grand Chef Gobelin",
+      "unitCategory_fr": "Personnage",
+      "troopType_fr": "Infanterie Régulière, Personnage",
+      "equipment_fr": [
+        "Arme de base"
+      ],
+      "specialRules_fr": [
+        "Peur des Elfes",
+        "Impétueux",
+        "Cri de Ralliement",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Personaggio",
+      "troopType_it": "Fanteria Regolare, Personaggio",
+      "equipment_it": [
+        "Arma Bianca"
+      ],
+      "specialRules_it": [
+        "Paura di Elves",
+        "Impetuosi",
+        "Grido di Battaglia",
+        "Warband"
       ]
     },
     {
@@ -891,6 +1536,36 @@
       "specialRules_pl": [
         "Strach of Elfy",
         "Harcownicy"
+      ],
+      "unitCategory_de": "War Machine",
+      "troopType_de": "Kriegsmaschine",
+      "equipment_de": [
+        "Speerschleuder",
+        "Hand waffen (haufen)"
+      ],
+      "specialRules_de": [
+        "Angst vor Elfen",
+        "Plänkler"
+      ],
+      "name_de": "Goblin-Speerschleuda",
+      "name_fr": "Baliste Gobeline",
+      "troopType_fr": "Machine de Guerre",
+      "equipment_fr": [
+        "Baliste",
+        "De lourdes (hétéroclite)"
+      ],
+      "specialRules_fr": [
+        "Peur des Elfes",
+        "Tirailleurs"
+      ],
+      "troopType_it": "Macchina da Guerra",
+      "equipment_it": [
+        "Balista",
+        "Armi bianche (crew)"
+      ],
+      "specialRules_it": [
+        "Paura di Elves",
+        "Schermagliatori"
       ]
     },
     {
@@ -950,6 +1625,47 @@
         "Horda",
         "Impet",
         "Gromada"
+      ],
+      "unitCategory_de": "Infanterie",
+      "troopType_de": "Reguläre Infanterie",
+      "equipment_de": [
+        "Handwaffen",
+        "Schilde"
+      ],
+      "specialRules_de": [
+        "Geschlossene Ränge",
+        "Angst vor Elfen",
+        "Geschlossene Ränge",
+        "Ungestüm",
+        "Kriegerschar"
+      ],
+      "name_de": "Goblin-Mob",
+      "name_fr": "Bande de Gobelins",
+      "unitCategory_fr": "Infanterie",
+      "troopType_fr": "Infanterie Régulière",
+      "equipment_fr": [
+        "Armes de base",
+        "Boucliers"
+      ],
+      "specialRules_fr": [
+        "Ordre Serré",
+        "Peur des Elfes",
+        "Horde",
+        "Impétueux",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Fanteria",
+      "troopType_it": "Fanteria Regolare",
+      "equipment_it": [
+        "Armi Bianche",
+        "Scudi"
+      ],
+      "specialRules_it": [
+        "Formazione Serrata",
+        "Paura di Elves",
+        "Orda",
+        "Impetuosi",
+        "Warband"
       ]
     },
     {
@@ -995,6 +1711,38 @@
         "Strach of Elfy",
         "Lore of Mork",
         "Gromada"
+      ],
+      "unitCategory_de": "Charakter",
+      "troopType_de": "Reguläre Infanterie, Charakter",
+      "equipment_de": [
+        "Handwaffe"
+      ],
+      "specialRules_de": [
+        "Angst vor Elfen",
+        "Lehre des Mork",
+        "Kriegerschar"
+      ],
+      "name_de": "Goblin-Oddgit",
+      "name_fr": "Zarbzig Gobelin",
+      "unitCategory_fr": "Personnage",
+      "troopType_fr": "Infanterie Régulière, Personnage",
+      "equipment_fr": [
+        "Arme de base"
+      ],
+      "specialRules_fr": [
+        "Peur des Elfes",
+        "Domaine de Mork",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Personaggio",
+      "troopType_it": "Fanteria Regolare, Personaggio",
+      "equipment_it": [
+        "Arma Bianca"
+      ],
+      "specialRules_it": [
+        "Paura di Elves",
+        "Lore di Mork",
+        "Warband"
       ]
     },
     {
@@ -1040,6 +1788,38 @@
         "Strach of Elfy",
         "Lore of Mork",
         "Gromada"
+      ],
+      "unitCategory_de": "Charakter",
+      "troopType_de": "Reguläre Infanterie, Charakter",
+      "equipment_de": [
+        "Handwaffe"
+      ],
+      "specialRules_de": [
+        "Angst vor Elfen",
+        "Lehre des Mork",
+        "Kriegerschar"
+      ],
+      "name_de": "Goblin-Oddboss",
+      "name_fr": "Zarbnob Gobelin",
+      "unitCategory_fr": "Personnage",
+      "troopType_fr": "Infanterie Régulière, Personnage",
+      "equipment_fr": [
+        "Arme de base"
+      ],
+      "specialRules_fr": [
+        "Peur des Elfes",
+        "Domaine de Mork",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Personaggio",
+      "troopType_it": "Fanteria Regolare, Personaggio",
+      "equipment_it": [
+        "Arma Bianca"
+      ],
+      "specialRules_it": [
+        "Paura di Elves",
+        "Lore di Mork",
+        "Warband"
       ]
     },
     {
@@ -1098,6 +1878,36 @@
       "specialRules_pl": [
         "Strach of Elfy",
         "Harcownicy"
+      ],
+      "unitCategory_de": "War Machine",
+      "troopType_de": "Kriegsmaschine",
+      "equipment_de": [
+        "Steinschleuder",
+        "Hand waffen (haufen)"
+      ],
+      "specialRules_de": [
+        "Angst vor Elfen",
+        "Plänkler"
+      ],
+      "name_de": "Goblin-Steinschleuda",
+      "name_fr": "Lance-rocs Gobelin",
+      "troopType_fr": "Machine de Guerre",
+      "equipment_fr": [
+        "Catapulte",
+        "De lourdes (hétéroclite)"
+      ],
+      "specialRules_fr": [
+        "Peur des Elfes",
+        "Tirailleurs"
+      ],
+      "troopType_it": "Macchina da Guerra",
+      "equipment_it": [
+        "Stone rancori",
+        "Armi bianche (crew)"
+      ],
+      "specialRules_it": [
+        "Paura di Elves",
+        "Schermagliatori"
       ]
     },
     {
@@ -1177,6 +1987,59 @@
         "Trujące Ataki",
         "Szybki Krok",
         "Gromada"
+      ],
+      "unitCategory_de": "Kavallerie",
+      "troopType_de": "Leichte Kavallerie",
+      "equipment_de": [
+        "Hand waffen (jagd)",
+        "Schilde (jagd)",
+        "Poisonous fangs (mount)"
+      ],
+      "specialRules_de": [
+        "Wendige Kavallerie",
+        "Angst vor Elfen",
+        "Ungestüm",
+        "Durch Deckung bewegen",
+        "Offene Ränge",
+        "Giftattacken",
+        "Schnelle Bewegung",
+        "Kriegerschar"
+      ],
+      "name_de": "Goblin-Spinnenreiter-Mob",
+      "name_fr": "Bande de Gobelins sur Araignées",
+      "unitCategory_fr": "Cavalerie",
+      "troopType_fr": "Cavalerie Légère",
+      "equipment_fr": [
+        "De lourdes (sylvains)",
+        "Boucliers (sylvains)",
+        "Poisonous crocs (démoniaque)"
+      ],
+      "specialRules_fr": [
+        "Cavalerie Rapide",
+        "Peur des Elfes",
+        "Impétueux",
+        "Mouvement à Couvert",
+        "Ordre Dispersé",
+        "Attaques Empoisonnées",
+        "Rapide",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Cavalleria",
+      "troopType_it": "Cavalleria Leggera",
+      "equipment_it": [
+        "Armi bianche (riders)",
+        "Scudi (riders)",
+        "Poisonous fangs (mount)"
+      ],
+      "specialRules_it": [
+        "Cavalleria Veloce",
+        "Paura di Elves",
+        "Impetuosi",
+        "Viaggiatore",
+        "Formazione Aperta",
+        "Arido come Polvere",
+        "Passo Rapido",
+        "Warband"
       ]
     },
     {
@@ -1220,6 +2083,41 @@
         "Impet",
         "Bojowy Okrzyk",
         "Gromada"
+      ],
+      "unitCategory_de": "Charakter",
+      "troopType_de": "Reguläre Infanterie, Charakter",
+      "equipment_de": [
+        "Handwaffe"
+      ],
+      "specialRules_de": [
+        "Angst vor Elfen",
+        "Ungestüm",
+        "Sammelruf",
+        "Kriegerschar"
+      ],
+      "name_de": "Goblin-Waaaghboss",
+      "name_fr": "Chef de Guerre Gobelin",
+      "unitCategory_fr": "Personnage",
+      "troopType_fr": "Infanterie Régulière, Personnage",
+      "equipment_fr": [
+        "Arme de base"
+      ],
+      "specialRules_fr": [
+        "Peur des Elfes",
+        "Impétueux",
+        "Cri de Ralliement",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Personaggio",
+      "troopType_it": "Fanteria Regolare, Personaggio",
+      "equipment_it": [
+        "Arma Bianca"
+      ],
+      "specialRules_it": [
+        "Paura di Elves",
+        "Impetuosi",
+        "Grido di Battaglia",
+        "Warband"
       ]
     },
     {
@@ -1305,6 +2203,57 @@
         "Luźny Szyk",
         "Szybki Krok",
         "Gromada"
+      ],
+      "unitCategory_de": "Streitwagen",
+      "troopType_de": "Leichter Streitwagen",
+      "equipment_de": [
+        "Hand waffen (haufen)",
+        "Kavallerie spear (haufen)",
+        "Kurzbögen (haufen)",
+        "Klauen & fangs (wolves)"
+      ],
+      "specialRules_de": [
+        "Angst vor Elfen",
+        "Aufpralltreffer (W3+1)",
+        "Ungestüm",
+        "Offene Ränge",
+        "Schnelle Bewegung",
+        "Kriegerschar"
+      ],
+      "name_de": "Pro Wolfs Streitwagen",
+      "name_fr": "Zarbnob Géant Éventreur",
+      "unitCategory_fr": "Char",
+      "troopType_fr": "Char Léger",
+      "equipment_fr": [
+        "De lourdes (hétéroclite)",
+        "Rapide d'infanterie (hétéroclite)",
+        "Shortbows (hétéroclite)",
+        "Mortelles & crocs (funeste)"
+      ],
+      "specialRules_fr": [
+        "Peur des Elfes",
+        "Touches d'Impact (D3+1)",
+        "Impétueux",
+        "Ordre Dispersé",
+        "Rapide",
+        "Bande de Guerre"
+      ],
+      "name_it": "Goblin Wolf Scheletrico",
+      "unitCategory_it": "Carro",
+      "troopType_it": "Carro Leggero",
+      "equipment_it": [
+        "Armi bianche (crew)",
+        "Lancia leggera (crew)",
+        "Shortbows (crew)",
+        "Decapitanti & fangs (wolves)"
+      ],
+      "specialRules_it": [
+        "Paura di Elves",
+        "Colpi da Impatto (D3+1)",
+        "Impetuosi",
+        "Formazione Aperta",
+        "Passo Rapido",
+        "Warband"
       ]
     },
     {
@@ -1384,6 +2333,59 @@
         "Harcownicy",
         "Szybki Krok",
         "Gromada"
+      ],
+      "unitCategory_de": "Kavallerie",
+      "troopType_de": "Leichte Kavallerie",
+      "equipment_de": [
+        "Hand waffen (jagd)",
+        "Schilde (jagd)"
+      ],
+      "specialRules_de": [
+        "Streitwagengarde",
+        "Wendige Kavallerie",
+        "Angst vor Elfen",
+        "Schießen und Verschwinden",
+        "Ungestüm",
+        "Offene Ränge",
+        "Plänkler",
+        "Schnelle Bewegung",
+        "Kriegerschar"
+      ],
+      "name_de": "Goblin-Wolfsreiter-Mob",
+      "name_fr": "Bande de Gobelins sur Loups",
+      "unitCategory_fr": "Cavalerie",
+      "troopType_fr": "Cavalerie Légère",
+      "equipment_fr": [
+        "De lourdes (sylvains)",
+        "Boucliers (sylvains)"
+      ],
+      "specialRules_fr": [
+        "Escorteurs de Chars",
+        "Cavalerie Rapide",
+        "Peur des Elfes",
+        "Tir & Fuite",
+        "Impétueux",
+        "Ordre Dispersé",
+        "Tirailleurs",
+        "Rapide",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Cavalleria",
+      "troopType_it": "Cavalleria Leggera",
+      "equipment_it": [
+        "Armi bianche (riders)",
+        "Scudi (riders)"
+      ],
+      "specialRules_it": [
+        "Scorta ai Carri",
+        "Cavalleria Veloce",
+        "Paura di Elves",
+        "Tirare e Fuggire",
+        "Impetuosi",
+        "Formazione Aperta",
+        "Schermagliatori",
+        "Passo Rapido",
+        "Warband"
       ]
     },
     {
@@ -1468,6 +2470,77 @@
         "Bojowy Okrzyk",
         "Szybki Krok",
         "Gromada"
+      ],
+      "unitCategory_de": "Benannter Charakter",
+      "troopType_de": "Leichte Kavallerie, Benannter Charakter",
+      "equipment_de": [
+        "Da Trophäenstange vom Boss",
+        "Da Schäd'lknacker",
+        "Kavalleriespeer",
+        "Schild",
+        "Leichte Rüstung"
+      ],
+      "specialRules_de": [
+        "All Sneaky Like",
+        "Überfall",
+        "Rüstung Bane (1, Beißer leichenmeister)",
+        "Zähe Haut (1)",
+        "Streitwagengarde",
+        "Wendige Kavallerie",
+        "Angst vor Elfen",
+        "Ungestüm",
+        "'It & Verschwinden",
+        "Sammelruf",
+        "Schnelle Bewegung",
+        "Kriegerschar"
+      ],
+      "name_de": "Kiknik Zahnklaua",
+      "name_fr": "Si Toofsnatcha",
+      "unitCategory_fr": "Personnage nommé",
+      "troopType_fr": "Cavalerie Légère, Personnage nommé",
+      "equipment_fr": [
+        "Râtelier à Trophées du Chef",
+        "Frakass' Crânes",
+        "Lance de cavalerie",
+        "Bouclier",
+        "Armure légère"
+      ],
+      "specialRules_fr": [
+        "En Tapinois",
+        "Embusqueurs",
+        "Légère Perforante (1, Mâchoir' uniquement)",
+        "Peau Blindée (1)",
+        "Escorteurs de Chars",
+        "Cavalerie Rapide",
+        "Peur des Elfes",
+        "Impétueux",
+        "’Arrcèlement",
+        "Cri de Ralliement",
+        "Rapide",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Personaggio nominato",
+      "troopType_it": "Cavalleria Leggera, Personaggio nominato",
+      "equipment_it": [
+        "Da Boss's Trophy Rack",
+        "Da Skull Smasha",
+        "Lancia Leggera",
+        "Scudo",
+        "Armatura Leggera"
+      ],
+      "specialRules_it": [
+        "All Sneaky Like",
+        "Agguato",
+        "Pesante Dell’Armatura (1, Chompa only)",
+        "Pelle a Scaglie (1)",
+        "Scorta ai Carri",
+        "Cavalleria Veloce",
+        "Paura di Elves",
+        "Impetuosi",
+        "'It & Run",
+        "Grido di Battaglia",
+        "Passo Rapido",
+        "Warband"
       ]
     },
     {
@@ -1527,6 +2600,64 @@
         "Spiked Ball & Chains",
         "Zdeptanie (D3)",
         "Dreeeewno!"
+      ],
+      "unitCategory_de": "Monster",
+      "troopType_de": "Behemoth",
+      "equipment_de": [
+        "Kolossales Reißzahnmaul",
+        "Scaly skin (counts as schwere rüstung)"
+      ],
+      "specialRules_de": [
+        "Geschlossene Ränge",
+        "Hass (Zwerge)",
+        "Immung gegen Psychologie",
+        "Aufpralltreffer (W6)",
+        "Garg-Matsch",
+        "Großes Ziel",
+        "Zufällige Attacken",
+        "Zufällige Bewegung",
+        "Stachelige Kugelkette",
+        "Stampfattacken (W3)",
+        "Baum fällt!"
+      ],
+      "name_de": "Kettensquigs",
+      "name_fr": "Squigs Broyeurs",
+      "unitCategory_fr": "Monstre",
+      "troopType_fr": "Béhémoth",
+      "equipment_fr": [
+        "Colossale gueule garnie de crocs",
+        "Peau écailleuse (counts comme armure légère)"
+      ],
+      "specialRules_fr": [
+        "Ordre Serré",
+        "Haine (Nains)",
+        "Immunisé à la Psychologie",
+        "Touches d'Impact (D6)",
+        "Sproutch",
+        "Grande Cible",
+        "Attaques Aléatoires",
+        "Mouvement Aléatoire",
+        "Chaînes & Boulets",
+        "Attaques de Piétinement (D3)",
+        "Timmm-berrr!"
+      ],
+      "unitCategory_it": "Mostro",
+      "equipment_it": [
+        "Colossal fang-filled gob",
+        "Scaly skin (counts come armatura pesante)"
+      ],
+      "specialRules_it": [
+        "Formazione Serrata",
+        "Odio (Dwarfs)",
+        "Immune alla Psicologia",
+        "Colpi da Impatto (D6)",
+        "Ker-splat",
+        "Bersaglio Grande",
+        "Random Venefici",
+        "Random Movement",
+        "Spiked Ball & Chains",
+        "Calpestamento (D3)",
+        "Assalto Inarrestabile"
       ]
     },
     {
@@ -1574,6 +2705,46 @@
         "Horda",
         "Skulking Menace",
         "Strike First"
+      ],
+      "unitCategory_de": "Infanterie",
+      "troopType_de": "Reguläre Infanterie",
+      "equipment_de": [
+        "Handwaffe",
+        "Leichte Rüstung"
+      ],
+      "specialRules_de": [
+        "Rüstungsfluch (2)",
+        "Angst vor Elfen",
+        "Geschlossene Ränge",
+        "Skulking Menace",
+        "Schlägt zuerst zu"
+      ],
+      "name_de": "Fiese Skulker",
+      "unitCategory_fr": "Infanterie",
+      "troopType_fr": "Infanterie Régulière",
+      "equipment_fr": [
+        "Arme de base",
+        "Armure légère"
+      ],
+      "specialRules_fr": [
+        "Arme Perforante (2)",
+        "Peur des Elfes",
+        "Horde",
+        "Skulking Menace",
+        "Frappe En Premier"
+      ],
+      "unitCategory_it": "Fanteria",
+      "troopType_it": "Fanteria Regolare",
+      "equipment_it": [
+        "Arma Bianca",
+        "Armatura Leggera"
+      ],
+      "specialRules_it": [
+        "Pesante Dell’Armatura (2)",
+        "Paura di Elves",
+        "Orda",
+        "Skulking Menace",
+        "Attacca Per Primo"
       ]
     },
     {
@@ -1617,6 +2788,41 @@
         "Nienawiść (Krasnoludy)",
         "Bojowy Okrzyk",
         "Gromada"
+      ],
+      "unitCategory_de": "Charakter",
+      "troopType_de": "Reguläre Infanterie, Charakter",
+      "equipment_de": [
+        "Handwaffe"
+      ],
+      "specialRules_de": [
+        "Angst vor Elfen",
+        "Hass (Zwerge)",
+        "Sammelruf",
+        "Kriegerschar"
+      ],
+      "name_de": "Nachtgoblin-Gargboss",
+      "name_fr": "Grand Chef Gobelin de la Nuit",
+      "unitCategory_fr": "Personnage",
+      "troopType_fr": "Infanterie Régulière, Personnage",
+      "equipment_fr": [
+        "Arme de base"
+      ],
+      "specialRules_fr": [
+        "Peur des Elfes",
+        "Haine (Nains)",
+        "Cri de Ralliement",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Personaggio",
+      "troopType_it": "Fanteria Regolare, Personaggio",
+      "equipment_it": [
+        "Arma Bianca"
+      ],
+      "specialRules_it": [
+        "Paura di Elves",
+        "Odio (Dwarfs)",
+        "Grido di Battaglia",
+        "Warband"
       ]
     },
     {
@@ -1676,6 +2882,47 @@
         "Nienawiść (Krasnoludy)",
         "Horda",
         "Gromada"
+      ],
+      "unitCategory_de": "Infanterie",
+      "troopType_de": "Reguläre Infanterie",
+      "equipment_de": [
+        "Handwaffen",
+        "Schilde"
+      ],
+      "specialRules_de": [
+        "Geschlossene Ränge",
+        "Angst vor Elfen",
+        "Hass (Zwerge)",
+        "Geschlossene Ränge",
+        "Kriegerschar"
+      ],
+      "name_de": "Nachtgoblin-Mob",
+      "name_fr": "Bande de Gobelins de la Nuit",
+      "unitCategory_fr": "Infanterie",
+      "troopType_fr": "Infanterie Régulière",
+      "equipment_fr": [
+        "Armes de base",
+        "Boucliers"
+      ],
+      "specialRules_fr": [
+        "Ordre Serré",
+        "Peur des Elfes",
+        "Haine (Nains)",
+        "Horde",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Fanteria",
+      "troopType_it": "Fanteria Regolare",
+      "equipment_it": [
+        "Armi Bianche",
+        "Scudi"
+      ],
+      "specialRules_it": [
+        "Formazione Serrata",
+        "Paura di Elves",
+        "Odio (Dwarfs)",
+        "Orda",
+        "Warband"
       ]
     },
     {
@@ -1723,6 +2970,41 @@
         "Nienawiść (Krasnoludy)",
         "Lore of Mork",
         "Gromada"
+      ],
+      "unitCategory_de": "Charakter",
+      "troopType_de": "Reguläre Infanterie, Charakter",
+      "equipment_de": [
+        "Handwaffe"
+      ],
+      "specialRules_de": [
+        "Angst vor Elfen",
+        "Hass (Zwerge)",
+        "Lehre des Mork",
+        "Kriegerschar"
+      ],
+      "name_de": "Nachtgoblin-Oddgit",
+      "name_fr": "Zarbzig Gobelin de la Nuit",
+      "unitCategory_fr": "Personnage",
+      "troopType_fr": "Infanterie Régulière, Personnage",
+      "equipment_fr": [
+        "Arme de base"
+      ],
+      "specialRules_fr": [
+        "Peur des Elfes",
+        "Haine (Nains)",
+        "Domaine de Mork",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Personaggio",
+      "troopType_it": "Fanteria Regolare, Personaggio",
+      "equipment_it": [
+        "Arma Bianca"
+      ],
+      "specialRules_it": [
+        "Paura di Elves",
+        "Odio (Dwarfs)",
+        "Lore di Mork",
+        "Warband"
       ]
     },
     {
@@ -1770,6 +3052,41 @@
         "Nienawiść (Krasnoludy)",
         "Lore of Mork",
         "Gromada"
+      ],
+      "unitCategory_de": "Charakter",
+      "troopType_de": "Reguläre Infanterie, Charakter",
+      "equipment_de": [
+        "Handwaffe"
+      ],
+      "specialRules_de": [
+        "Angst vor Elfen",
+        "Hass (Zwerge)",
+        "Lehre des Mork",
+        "Kriegerschar"
+      ],
+      "name_de": "Nachtgoblin-Oddnboss",
+      "name_fr": "Zarbnob Gobelin de la Nuit",
+      "unitCategory_fr": "Personnage",
+      "troopType_fr": "Infanterie Régulière, Personnage",
+      "equipment_fr": [
+        "Arme de base"
+      ],
+      "specialRules_fr": [
+        "Peur des Elfes",
+        "Haine (Nains)",
+        "Domaine de Mork",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Personaggio",
+      "troopType_it": "Fanteria Regolare, Personaggio",
+      "equipment_it": [
+        "Arma Bianca"
+      ],
+      "specialRules_it": [
+        "Paura di Elves",
+        "Odio (Dwarfs)",
+        "Lore di Mork",
+        "Warband"
       ]
     },
     {
@@ -1837,6 +3154,59 @@
         "Harcownicy",
         "Squigs Go Dziki",
         "Gromada"
+      ],
+      "unitCategory_de": "Infanterie",
+      "troopType_de": "Reguläre Infanterie",
+      "equipment_de": [
+        "Verschiedene squig-herding implements (counts as hand waffen)",
+        "Huge gobs (Squigs)"
+      ],
+      "specialRules_de": [
+        "Hass (Zwerge)",
+        "Immung gegen Psychologie",
+        "Ungestüm",
+        "Einzelgänger",
+        "Zusammengewürfelter Haufen",
+        "Offene Ränge",
+        "Plänkler",
+        "Squig-Amok",
+        "Kriegerschar"
+      ],
+      "name_de": "Nachtgoblin-Squigherde",
+      "name_fr": "Troupeau de Squigs Gobelins de la Nuit",
+      "unitCategory_fr": "Infanterie",
+      "troopType_fr": "Infanterie Régulière",
+      "equipment_fr": [
+        "Assortiment squig-herding implements (counts comme de lourdes)",
+        "Huge gobs (Broyeurs)"
+      ],
+      "specialRules_fr": [
+        "Haine (Nains)",
+        "Immunisé à la Psychologie",
+        "Impétueux",
+        "Solitaire",
+        "Bande Hétéroclite",
+        "Ordre Dispersé",
+        "Tirailleurs",
+        "Squigs Sauvages",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Fanteria",
+      "troopType_it": "Fanteria Regolare",
+      "equipment_it": [
+        "Assorted squig-herding implements (counts come armi bianche)",
+        "Huge gobs (Squigs)"
+      ],
+      "specialRules_it": [
+        "Odio (Dwarfs)",
+        "Immune alla Psicologia",
+        "Impetuosi",
+        "Solitario",
+        "Equipaggiamento Eterogeneo",
+        "Formazione Aperta",
+        "Schermagliatori",
+        "Squigs Go Wild",
+        "Warband"
       ]
     },
     {
@@ -1914,6 +3284,56 @@
         "Random Movement",
         "Harcownicy",
         "Gromada"
+      ],
+      "unitCategory_de": "Kavallerie",
+      "troopType_de": "Leichte Kavallerie",
+      "equipment_de": [
+        "Hand waffen (hoppers)",
+        "Huge gobs (squigs)"
+      ],
+      "specialRules_de": [
+        "Hass (Zwerge)",
+        "Immung gegen Psychologie",
+        "Aufpralltreffer (1)",
+        "Einzelgänger",
+        "Offene Ränge",
+        "Zufällige Bewegung",
+        "Plänkler",
+        "Kriegerschar"
+      ],
+      "name_de": "Nachtgoblin-Squighoppa-Mob",
+      "name_fr": "Bande de Gobelins de la Nuit sur Squigs",
+      "unitCategory_fr": "Cavalerie",
+      "troopType_fr": "Cavalerie Légère",
+      "equipment_fr": [
+        "De lourdes (hoppers)",
+        "Huge gobs (broyeurs)"
+      ],
+      "specialRules_fr": [
+        "Haine (Nains)",
+        "Immunisé à la Psychologie",
+        "Touches d'Impact (1)",
+        "Solitaire",
+        "Ordre Dispersé",
+        "Mouvement Aléatoire",
+        "Tirailleurs",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Cavalleria",
+      "troopType_it": "Cavalleria Leggera",
+      "equipment_it": [
+        "Armi bianche (hoppers)",
+        "Huge gobs (squigs)"
+      ],
+      "specialRules_it": [
+        "Odio (Dwarfs)",
+        "Immune alla Psicologia",
+        "Colpi da Impatto (1)",
+        "Solitario",
+        "Formazione Aperta",
+        "Random Movement",
+        "Schermagliatori",
+        "Warband"
       ]
     },
     {
@@ -1957,6 +3377,41 @@
         "Nienawiść (Krasnoludy)",
         "Bojowy Okrzyk",
         "Gromada"
+      ],
+      "unitCategory_de": "Charakter",
+      "troopType_de": "Reguläre Infanterie, Charakter",
+      "equipment_de": [
+        "Handwaffe"
+      ],
+      "specialRules_de": [
+        "Angst vor Elfen",
+        "Hass (Zwerge)",
+        "Sammelruf",
+        "Kriegerschar"
+      ],
+      "name_de": "Nachtgoblin-Waaaghboss",
+      "name_fr": "Chef de Guerre Gobelin de la Nuit",
+      "unitCategory_fr": "Personnage",
+      "troopType_fr": "Infanterie Régulière, Personnage",
+      "equipment_fr": [
+        "Arme de base"
+      ],
+      "specialRules_fr": [
+        "Peur des Elfes",
+        "Haine (Nains)",
+        "Cri de Ralliement",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Personaggio",
+      "troopType_it": "Fanteria Regolare, Personaggio",
+      "equipment_it": [
+        "Arma Bianca"
+      ],
+      "specialRules_it": [
+        "Paura di Elves",
+        "Odio (Dwarfs)",
+        "Grido di Battaglia",
+        "Warband"
       ]
     },
     {
@@ -2012,7 +3467,40 @@
         "Protect Da Boss",
         "Syphoned Strength",
         "Gromada"
-      ]
+      ],
+      "unitCategory_de": "Benannter Charakter",
+      "troopType_de": "Reguläre Infanterie, Benannter Charakter",
+      "equipment_de": [
+        "Bog-wood Staff",
+        "Trollhide Shawl",
+        "Gelehrsamer Homunkulus"
+      ],
+      "specialRules_de": [
+        "Spaltas",
+        "Da Trollrufa",
+        "Goblin-Panik ignorieren",
+        "Beschützt den Boss",
+        "Angezapfte Kraft",
+        "Kriegerschar"
+      ],
+      "name_de": "Ogdruz Sumpfgräber",
+      "unitCategory_fr": "Personnage nommé",
+      "troopType_fr": "Infanterie Régulière, Personnage nommé",
+      "equipment_fr": [
+        "Bog-wood Le",
+        "Trollhide Shawl",
+        "Familier de Savoir"
+      ],
+      "specialRules_fr": [
+        "Kikoup'",
+        "Eul' Maître des Trolls",
+        "Ignore la Panique des Gobelins",
+        "Protégez l'Chef",
+        "Drain de Force",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Personaggio nominato",
+      "troopType_it": "Fanteria Regolare, Personaggio nominato"
     },
     {
       "name": "Orc Bigboss",
@@ -2063,6 +3551,53 @@
         "Bojowy Okrzyk",
         "Waaagh!",
         "Gromada"
+      ],
+      "unitCategory_de": "Charakter",
+      "troopType_de": "Reguläre Infanterie, Charakter",
+      "equipment_de": [
+        "Handwaffe",
+        "Leichte Rüstung"
+      ],
+      "specialRules_de": [
+        "Spaltas",
+        "Rasender Angriff",
+        "Goblin-Panik ignorieren",
+        "Ungestüm",
+        "Sammelruf",
+        "Waaagh!",
+        "Kriegerschar"
+      ],
+      "name_de": "Ork-Gargboss",
+      "name_fr": "Grand Chef Orque",
+      "unitCategory_fr": "Personnage",
+      "troopType_fr": "Infanterie Régulière, Personnage",
+      "equipment_fr": [
+        "Arme de base",
+        "Armure légère"
+      ],
+      "specialRules_fr": [
+        "Kikoup'",
+        "Charge Dévastatrice",
+        "Ignore la Panique des Gobelins",
+        "Impétueux",
+        "Cri de Ralliement",
+        "Waaagh!",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Personaggio",
+      "troopType_it": "Fanteria Regolare, Personaggio",
+      "equipment_it": [
+        "Arma Bianca",
+        "Armatura Leggera"
+      ],
+      "specialRules_it": [
+        "Choppas",
+        "Furious Carica",
+        "Ignore Goblin Panic",
+        "Impetuosi",
+        "Grido di Battaglia",
+        "Waaagh!",
+        "Warband"
       ]
     },
     {
@@ -2146,6 +3681,65 @@
         "Szybki Krok",
         "Tusker Charge",
         "Gromada"
+      ],
+      "unitCategory_de": "Kavallerie",
+      "troopType_de": "Schwere Kavallerie",
+      "equipment_de": [
+        "Hand waffen (jagd)",
+        "Leichte rüstung (jagd)",
+        "Hauer (boars)"
+      ],
+      "specialRules_de": [
+        "Zähe Haut (1)",
+        "Spaltas",
+        "Geschlossene Ränge",
+        "Gegenangriff",
+        "Rasender Angriff (Jagd leichenmeister)",
+        "Goblin-Panik ignorieren",
+        "Ungestüm",
+        "Schnelle Bewegung",
+        "Hauerangriff",
+        "Kriegerschar"
+      ],
+      "name_de": "Ork-Wilschweinreiter-Mob",
+      "name_fr": "Bande d'Orques sur Sangliers",
+      "unitCategory_fr": "Cavalerie",
+      "troopType_fr": "Cavalerie Lourde",
+      "equipment_fr": [
+        "De lourdes (sylvains)",
+        "Armure légère (sylvains)",
+        "Défenses (sylvains)"
+      ],
+      "specialRules_fr": [
+        "Peau Blindée (1)",
+        "Kikoup'",
+        "Ordre Serré",
+        "Contre-charge",
+        "Charge Charge (Sylvains uniquement)",
+        "Ignore la Panique des Gobelins",
+        "Impétueux",
+        "Rapide",
+        "Charge de Sanglier",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Cavalleria",
+      "troopType_it": "Cavalleria Pesante",
+      "equipment_it": [
+        "Armi bianche (riders)",
+        "Armatura pesante (riders)",
+        "Tusks (boars)"
+      ],
+      "specialRules_it": [
+        "Pelle a Scaglie (1)",
+        "Choppas",
+        "Formazione Serrata",
+        "Controcarica",
+        "Furious Carica (Riders only)",
+        "Ignore Goblin Panic",
+        "Impetuosi",
+        "Passo Rapido",
+        "Tusker Carica",
+        "Warband"
       ]
     },
     {
@@ -2233,6 +3827,60 @@
         "Impet",
         "Tusker Charge",
         "Gromada"
+      ],
+      "unitCategory_de": "Streitwagen",
+      "troopType_de": "Schwerer Streitwagen",
+      "equipment_de": [
+        "Hand waffen (haufen)",
+        "Kavallerie spear (haufen)",
+        "Hauer (boars)"
+      ],
+      "specialRules_de": [
+        "Spaltas",
+        "Geschlossene Ränge",
+        "Erster Angriff",
+        "Goblin-Panik ignorieren",
+        "Aufpralltreffer (W6+1)",
+        "Ungestüm",
+        "Hauerangriff",
+        "Kriegerschar"
+      ],
+      "name_de": "Ork-Mob Boar Streitwagen",
+      "name_fr": "Char à Sangliers Orque",
+      "unitCategory_fr": "Char",
+      "troopType_fr": "Char Lourd",
+      "equipment_fr": [
+        "De lourdes (hétéroclite)",
+        "Rapide d'infanterie (hétéroclite)",
+        "Défenses (sylvains)"
+      ],
+      "specialRules_fr": [
+        "Kikoup'",
+        "Ordre Serré",
+        "Première Charge",
+        "Ignore la Panique des Gobelins",
+        "Touches d'Impact (D6+1)",
+        "Impétueux",
+        "Charge de Sanglier",
+        "Bande de Guerre"
+      ],
+      "name_it": "Orc Boar Scheletrico",
+      "unitCategory_it": "Carro",
+      "troopType_it": "Carro Pesante",
+      "equipment_it": [
+        "Armi bianche (crew)",
+        "Lancia leggera (crew)",
+        "Tusks (boars)"
+      ],
+      "specialRules_it": [
+        "Choppas",
+        "Formazione Serrata",
+        "Prima Carica",
+        "Ignore Goblin Panic",
+        "Frecce Di (D6+1)",
+        "Impetuosi",
+        "Tusker Carica",
+        "Warband"
       ]
     },
     {
@@ -2274,6 +3922,32 @@
       "specialRules_pl": [
         "Bully",
         "Choppas"
+      ],
+      "unitCategory_de": "War Machine",
+      "troopType_de": "Reguläre Infanterie",
+      "equipment_de": [
+        "Handwaffe",
+        "Peitsche"
+      ],
+      "specialRules_de": [
+        "Bully",
+        "Spaltas"
+      ],
+      "name_de": "Orktreiba",
+      "name_fr": "Brute Orque",
+      "troopType_fr": "Infanterie Régulière",
+      "equipment_fr": [
+        "Arme de base",
+        "Fouet"
+      ],
+      "specialRules_fr": [
+        "Orque",
+        "Kikoup'"
+      ],
+      "troopType_it": "Fanteria Regolare",
+      "equipment_it": [
+        "Arma Bianca",
+        "Frusta"
       ]
     },
     {
@@ -2333,6 +4007,47 @@
         "Ignore Goblin Panic",
         "Impet",
         "Gromada"
+      ],
+      "unitCategory_de": "Infanterie",
+      "troopType_de": "Reguläre Infanterie",
+      "equipment_de": [
+        "Handwaffen",
+        "Leichte Rüstung"
+      ],
+      "specialRules_de": [
+        "Spaltas",
+        "Geschlossene Ränge",
+        "Goblin-Panik ignorieren",
+        "Ungestüm",
+        "Kriegerschar"
+      ],
+      "name_de": "Ork-Mob",
+      "name_fr": "Bande d'Orques",
+      "unitCategory_fr": "Infanterie",
+      "troopType_fr": "Infanterie Régulière",
+      "equipment_fr": [
+        "Armes de base",
+        "Armure légère"
+      ],
+      "specialRules_fr": [
+        "Kikoup'",
+        "Ordre Serré",
+        "Ignore la Panique des Gobelins",
+        "Impétueux",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Fanteria",
+      "troopType_it": "Fanteria Regolare",
+      "equipment_it": [
+        "Armi Bianche",
+        "Armatura Leggera"
+      ],
+      "specialRules_it": [
+        "Choppas",
+        "Formazione Serrata",
+        "Ignore Goblin Panic",
+        "Impetuosi",
+        "Warband"
       ]
     },
     {
@@ -2384,6 +4099,53 @@
         "Bojowy Okrzyk",
         "Waaagh!",
         "Gromada"
+      ],
+      "unitCategory_de": "Charakter",
+      "troopType_de": "Reguläre Infanterie, Charakter",
+      "equipment_de": [
+        "Handwaffe",
+        "Leichte Rüstung"
+      ],
+      "specialRules_de": [
+        "Spaltas",
+        "Rasender Angriff",
+        "Goblin-Panik ignorieren",
+        "Ungestüm",
+        "Sammelruf",
+        "Waaagh!",
+        "Kriegerschar"
+      ],
+      "name_de": "Ork-Waaaghboss",
+      "name_fr": "Chef de Guerre Orque",
+      "unitCategory_fr": "Personnage",
+      "troopType_fr": "Infanterie Régulière, Personnage",
+      "equipment_fr": [
+        "Arme de base",
+        "Armure légère"
+      ],
+      "specialRules_fr": [
+        "Kikoup'",
+        "Charge Dévastatrice",
+        "Ignore la Panique des Gobelins",
+        "Impétueux",
+        "Cri de Ralliement",
+        "Waaagh!",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Personaggio",
+      "troopType_it": "Fanteria Regolare, Personaggio",
+      "equipment_it": [
+        "Arma Bianca",
+        "Armatura Leggera"
+      ],
+      "specialRules_it": [
+        "Choppas",
+        "Furious Carica",
+        "Ignore Goblin Panic",
+        "Impetuosi",
+        "Grido di Battaglia",
+        "Waaagh!",
+        "Warband"
       ]
     },
     {
@@ -2434,6 +4196,44 @@
         "Lore of Gork",
         "Mob Rule",
         "Gromada"
+      ],
+      "unitCategory_de": "Charakter",
+      "troopType_de": "Reguläre Infanterie, Charakter",
+      "equipment_de": [
+        "Handwaffe"
+      ],
+      "specialRules_de": [
+        "Spaltas",
+        "Goblin-Panik ignorieren",
+        "Lehre des Gork",
+        "Grüner Mob",
+        "Kriegerschar"
+      ],
+      "name_de": "Ork-Wirrkopp",
+      "name_fr": "Bizarboy Orque",
+      "unitCategory_fr": "Personnage",
+      "troopType_fr": "Infanterie Régulière, Personnage",
+      "equipment_fr": [
+        "Arme de base"
+      ],
+      "specialRules_fr": [
+        "Kikoup'",
+        "Ignore la Panique des Gobelins",
+        "Domaine de Gork",
+        "La Loi du Nombre",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Personaggio",
+      "troopType_it": "Fanteria Regolare, Personaggio",
+      "equipment_it": [
+        "Arma Bianca"
+      ],
+      "specialRules_it": [
+        "Choppas",
+        "Ignore Goblin Panic",
+        "Lore di Gork",
+        "Mob Serrata",
+        "Warband"
       ]
     },
     {
@@ -2484,6 +4284,44 @@
         "Lore of Gork",
         "Mob Rule",
         "Gromada"
+      ],
+      "unitCategory_de": "Charakter",
+      "troopType_de": "Reguläre Infanterie, Charakter",
+      "equipment_de": [
+        "Handwaffe"
+      ],
+      "specialRules_de": [
+        "Spaltas",
+        "Goblin-Panik ignorieren",
+        "Lehre des Gork",
+        "Grüner Mob",
+        "Kriegerschar"
+      ],
+      "name_de": "Ork-Obawirrkopp",
+      "name_fr": "Bizarnob Orque",
+      "unitCategory_fr": "Personnage",
+      "troopType_fr": "Infanterie Régulière, Personnage",
+      "equipment_fr": [
+        "Arme de base"
+      ],
+      "specialRules_fr": [
+        "Kikoup'",
+        "Ignore la Panique des Gobelins",
+        "Domaine de Gork",
+        "La Loi du Nombre",
+        "Bande de Guerre"
+      ],
+      "unitCategory_it": "Personaggio",
+      "troopType_it": "Fanteria Regolare, Personaggio",
+      "equipment_it": [
+        "Arma Bianca"
+      ],
+      "specialRules_it": [
+        "Choppas",
+        "Ignore Goblin Panic",
+        "Lore di Gork",
+        "Mob Serrata",
+        "Warband"
       ]
     },
     {
@@ -2537,6 +4375,56 @@
         "Zbieranina",
         "Regeneracja (5+)",
         "Stupidity"
+      ],
+      "unitCategory_de": "Infanterie",
+      "troopType_de": "Monströse Infanterie",
+      "equipment_de": [
+        "Handwaffen",
+        "Trollkotze",
+        "Schwielige hides (counts as leichte rüstung)"
+      ],
+      "specialRules_de": [
+        "Rüstungsfluch (1)",
+        "Geschlossene Ränge",
+        "Angst",
+        "Brennbar",
+        "Zusammengewürfelter Haufen",
+        "Regeneration (5+)",
+        "Blödheit"
+      ],
+      "name_de": "Flusstroll-Mob",
+      "name_fr": "Bande de Trolls d'Eau",
+      "unitCategory_fr": "Infanterie",
+      "troopType_fr": "Infanterie Monstrueuse",
+      "equipment_fr": [
+        "Armes de base",
+        "Vomi de troll",
+        "Peau calleuses (counts comme armure légère)"
+      ],
+      "specialRules_fr": [
+        "Arme Perforante (1)",
+        "Ordre Serré",
+        "Peur",
+        "Inflammable",
+        "Bande Hétéroclite",
+        "Régénération (5+)",
+        "Stupidité"
+      ],
+      "unitCategory_it": "Fanteria",
+      "troopType_it": "Fanteria Mostruosa",
+      "equipment_it": [
+        "Armi Bianche",
+        "Troll vomit",
+        "Calloused hides (counts come armatura pesante)"
+      ],
+      "specialRules_it": [
+        "Rottura dell’Armatura (1)",
+        "Formazione Serrata",
+        "Paura",
+        "Suscettibile al Fuoco",
+        "Equipaggiamento Eterogeneo",
+        "Rigenerazione (5+)",
+        "Stupidity"
       ]
     },
     {
@@ -2588,6 +4476,53 @@
         "Harcownicy",
         "Niezłomni",
         "Awangarda"
+      ],
+      "unitCategory_de": "Infanterie",
+      "troopType_de": "Schwarm",
+      "equipment_de": [
+        "Handwaffen",
+        "Wurfwaffen"
+      ],
+      "specialRules_de": [
+        "Immung gegen Psychologie",
+        "Ungestüm",
+        "Einzelgänger",
+        "Offene Ränge",
+        "Plänkler",
+        "Unerschütterlich",
+        "Vorhut"
+      ],
+      "name_de": "Snotling-Mob",
+      "name_fr": "Bande de Snotlings",
+      "unitCategory_fr": "Infanterie",
+      "troopType_fr": "Essaim",
+      "equipment_fr": [
+        "Armes de base",
+        "Armes de lancer"
+      ],
+      "specialRules_fr": [
+        "Immunisé à la Psychologie",
+        "Impétueux",
+        "Solitaire",
+        "Ordre Dispersé",
+        "Tirailleurs",
+        "Indémoralisable",
+        "Avant-garde"
+      ],
+      "unitCategory_it": "Fanteria",
+      "troopType_it": "Sciame",
+      "equipment_it": [
+        "Armi Bianche",
+        "Throwing bianche"
+      ],
+      "specialRules_it": [
+        "Immune alla Psicologia",
+        "Impetuosi",
+        "Solitario",
+        "Formazione Aperta",
+        "Schermagliatori",
+        "Irriducibile",
+        "Avanguardia"
       ]
     },
     {
@@ -2654,6 +4589,48 @@
         "Samotnik",
         "Luźny Szyk",
         "Random Movement"
+      ],
+      "unitCategory_de": "Streitwagen",
+      "troopType_de": "Leichter Streitwagen",
+      "equipment_de": [
+        "Hand waffen (haufen)",
+        "Throwing waffen (haufen)"
+      ],
+      "specialRules_de": [
+        "Rüstung Bane (3, Pump Wagon Aufpralltreffer Hits leichenmeister)",
+        "Immung gegen Psychologie",
+        "Aufpralltreffer (W3+1)",
+        "Einzelgänger",
+        "Offene Ränge",
+        "Zufällige Bewegung"
+      ],
+      "unitCategory_fr": "Char",
+      "troopType_fr": "Char Léger",
+      "equipment_fr": [
+        "De lourdes (hétéroclite)",
+        "Throwing lourdes (hétéroclite)"
+      ],
+      "specialRules_fr": [
+        "Légère Perforante (3, Pump Wagon Touches D'Impact uniquement)",
+        "Immunisé à la Psychologie",
+        "Touches d'Impact (D3+1)",
+        "Solitaire",
+        "Ordre Dispersé",
+        "Mouvement Aléatoire"
+      ],
+      "unitCategory_it": "Carro",
+      "troopType_it": "Carro Leggero",
+      "equipment_it": [
+        "Armi bianche (crew)",
+        "Throwing bianche (crew)"
+      ],
+      "specialRules_it": [
+        "Pesante Dell’Armatura (3, Pump Wagon Frecce Di only)",
+        "Immune alla Psicologia",
+        "Colpi da Impatto (D3+1)",
+        "Solitario",
+        "Formazione Aperta",
+        "Random Movement"
       ]
     },
     {
@@ -2710,6 +4687,62 @@
         "Odporność Na Magię (-1)",
         "Zbieranina",
         "Regeneracja (5+)",
+        "Stupidity"
+      ],
+      "unitCategory_de": "Infanterie",
+      "troopType_de": "Monströse Infanterie",
+      "equipment_de": [
+        "Handwaffen",
+        "Trollkotze",
+        "Schwielige hides (counts as leichte rüstung)"
+      ],
+      "specialRules_de": [
+        "Rüstungsfluch (1)",
+        "Zähe Haut (1)",
+        "Geschlossene Ränge",
+        "Angst",
+        "Brennbar",
+        "Magieresistenz (-1)",
+        "Zusammengewürfelter Haufen",
+        "Regeneration (5+)",
+        "Blödheit"
+      ],
+      "name_de": "Steintroll-Mob",
+      "name_fr": "Bande de Trolls de Pierre",
+      "unitCategory_fr": "Infanterie",
+      "troopType_fr": "Infanterie Monstrueuse",
+      "equipment_fr": [
+        "Armes de base",
+        "Vomi de troll",
+        "Peau calleuses (counts comme armure légère)"
+      ],
+      "specialRules_fr": [
+        "Arme Perforante (1)",
+        "Peau Blindée (1)",
+        "Ordre Serré",
+        "Peur",
+        "Inflammable",
+        "Résistance à la Magie (-1)",
+        "Bande Hétéroclite",
+        "Régénération (5+)",
+        "Stupidité"
+      ],
+      "unitCategory_it": "Fanteria",
+      "troopType_it": "Fanteria Mostruosa",
+      "equipment_it": [
+        "Armi Bianche",
+        "Troll vomit",
+        "Calloused hides (counts come armatura pesante)"
+      ],
+      "specialRules_it": [
+        "Rottura dell’Armatura (1)",
+        "Pelle a Scaglie (1)",
+        "Formazione Serrata",
+        "Paura",
+        "Suscettibile al Fuoco",
+        "Resistenza alla Magia (-1)",
+        "Equipaggiamento Eterogeneo",
+        "Rigenerazione (5+)",
         "Stupidity"
       ]
     },
@@ -2782,6 +4815,77 @@
         "Groza",
         "Dreeeewno!",
         "Niezłomni"
+      ],
+      "unitCategory_de": "Charakter",
+      "troopType_de": "Behemoth, Charakter",
+      "equipment_de": [
+        "Gnarled stump (counts as ein hand weapon)",
+        "Trollkotze",
+        "Sumpfatem",
+        "Scaly skin (counts as schwere rüstung)"
+      ],
+      "specialRules_de": [
+        "Geschlossene Ränge",
+        "Brennbar",
+        "Immung gegen Psychologie",
+        "Ungezügelter Hunger",
+        "Großes Ziel",
+        "Mütterliche Liebe",
+        "Regeneration (5+)",
+        "Schleimige Schenkel",
+        "Stampfattacken (W6)",
+        "Blödheit",
+        "Entsetzen",
+        "Baum fällt!",
+        "Unerschütterlich"
+      ],
+      "name_de": "Trollhexe",
+      "name_fr": "Mégère Trollesse",
+      "unitCategory_fr": "Personnage",
+      "troopType_fr": "Béhémoth, Personnage",
+      "equipment_fr": [
+        "Gnarled stump (counts comme un de lourde)",
+        "Vomi de troll",
+        "Souffle marécageux",
+        "Peau écailleuse (counts comme armure légère)"
+      ],
+      "specialRules_fr": [
+        "Ordre Serré",
+        "Inflammable",
+        "Immunisé à la Psychologie",
+        "Faim Aveugle",
+        "Grande Cible",
+        "Amour Maternel",
+        "Régénération (5+)",
+        "Jarrets Visqueux",
+        "Attaques de Piétinement (D6)",
+        "Stupidité",
+        "Terreur",
+        "Timmm-berrr!",
+        "Indémoralisable"
+      ],
+      "unitCategory_it": "Personaggio",
+      "troopType_it": "Behemoth, Personaggio",
+      "equipment_it": [
+        "Gnarled stump (counts come scelti armi bianca)",
+        "Troll vomit",
+        "Swamp breath",
+        "Scaly skin (counts come armatura pesante)"
+      ],
+      "specialRules_it": [
+        "Formazione Serrata",
+        "Suscettibile al Fuoco",
+        "Immune alla Psicologia",
+        "Indiscriminate Hunger",
+        "Bersaglio Grande",
+        "Motherly Love",
+        "Rigenerazione (5+)",
+        "Slimy Shanks",
+        "Calpestamento (D6)",
+        "Stupidity",
+        "Terrore",
+        "Assalto Inarrestabile",
+        "Irriducibile"
       ]
     },
     {
@@ -2825,6 +4929,39 @@
         "Przeciwnatarcie",
         "Szybki Krok",
         "Tusker Charge"
+      ],
+      "unitCategory_de": "Mount",
+      "troopType_de": "Schwere Kavallerie",
+      "equipment_de": [
+        "Hauer (counts as ein hand weapon)"
+      ],
+      "specialRules_de": [
+        "Zähe Haut (1)",
+        "Gegenangriff",
+        "Schnelle Bewegung",
+        "Hauerangriff"
+      ],
+      "name_de": "Kriegesmaschinen Boar (Mount)",
+      "name_fr": "War D'Orques (Démoniaque)",
+      "troopType_fr": "Cavalerie Lourde",
+      "equipment_fr": [
+        "Défenses (counts comme un de lourde)"
+      ],
+      "specialRules_fr": [
+        "Peau Blindée (1)",
+        "Contre-charge",
+        "Rapide",
+        "Charge de Sanglier"
+      ],
+      "troopType_it": "Cavalleria Pesante",
+      "equipment_it": [
+        "Tusks (counts come scelti armi bianca)"
+      ],
+      "specialRules_it": [
+        "Pelle a Scaglie (1)",
+        "Controcarica",
+        "Passo Rapido",
+        "Tusker Carica"
       ]
     },
     {
@@ -2876,6 +5013,53 @@
         "Zdeptanie (D3)",
         "Szybki Krok",
         "Groza"
+      ],
+      "unitCategory_de": "Monster",
+      "troopType_de": "Monströse Kreatur",
+      "equipment_de": [
+        "Boshafte Klauen",
+        "Venomous schwänze",
+        "Scaly skin (counts as schwere rüstung)"
+      ],
+      "specialRules_de": [
+        "Geschlossene Ränge",
+        "Fliegen (9)",
+        "Großes Ziel",
+        "Stampfattacken (W3)",
+        "Schnelle Bewegung",
+        "Entsetzen"
+      ],
+      "name_de": "Lindwurm",
+      "name_fr": "Vouivre",
+      "unitCategory_fr": "Monstre",
+      "troopType_fr": "Créature Monstrueuse",
+      "equipment_fr": [
+        "Griffes mortelles",
+        "Queue venimeuse",
+        "Peau écailleuse (counts comme armure légère)"
+      ],
+      "specialRules_fr": [
+        "Ordre Serré",
+        "Vol (9)",
+        "Grande Cible",
+        "Attaques de Piétinement (D3)",
+        "Rapide",
+        "Terreur"
+      ],
+      "unitCategory_it": "Mostro",
+      "troopType_it": "Creatura Mostruosa",
+      "equipment_it": [
+        "Wicked decapitanti",
+        "Venomous contorte",
+        "Scaly skin (counts come armatura pesante)"
+      ],
+      "specialRules_it": [
+        "Formazione Serrata",
+        "Volo (9)",
+        "Bersaglio Grande",
+        "Calpestamento (D3)",
+        "Passo Rapido",
+        "Terrore"
       ]
     }
   ]

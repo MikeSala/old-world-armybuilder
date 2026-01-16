@@ -58,6 +58,47 @@
       "Przechodzenie Przez Zasłony",
       "Luźny Szyk",
       "Morski Smok Cloak"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Elfenreflexe",
+      "Hass (Hohepriester Elfen)",
+      "Durch Deckung bewegen",
+      "Offene Ränge",
+      "Von Dragon Cloak"
+    ],
+    "name_de": "Schwarze Ark Corsairs",
+    "name_fr": "Corsaires des Arches Noires",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "Réflexes Elfiques",
+      "Haine (Hauts Elfes)",
+      "Mouvement à Couvert",
+      "Ordre Dispersé",
+      "Cape en peau de Dragon des Mers"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Riflessi Elfici",
+      "Odio (High Elves)",
+      "Viaggiatore",
+      "Formazione Aperta",
+      "Sea Necrolitico Cloak"
     ]
   },
   {
@@ -111,6 +152,59 @@
       "Zdeptanie (D6)",
       "Szybki Krok",
       "Groza"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Boshafte Klauen",
+      "Serrated maul",
+      "Noxious atem",
+      "Draconic scales (full plate rüstung)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Fliegen (10)",
+      "Hass (Hohepriester Elfen)",
+      "Großes Ziel",
+      "Stampfattacken (W6)",
+      "Schnelle Bewegung",
+      "Entsetzen"
+    ],
+    "name_de": "Schwarze Dragon",
+    "name_fr": "Dragon Noir",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Griffes mortelles",
+      "Serrated pourrie",
+      "Noxious glacial",
+      "Draconic scales (full plate légère)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Vol (10)",
+      "Haine (Hauts Elfes)",
+      "Grande Cible",
+      "Attaques de Piétinement (D6)",
+      "Rapide",
+      "Terreur"
+    ],
+    "name_it": "Black Necrolitico",
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Wicked decapitanti",
+      "Serrated maw",
+      "Noxious breath",
+      "Draconic scales (full plate pesante)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Volo (10)",
+      "Odio (High Elves)",
+      "Bersaglio Grande",
+      "Calpestamento (D6)",
+      "Passo Rapido",
+      "Terrore"
     ]
   },
   {
@@ -178,6 +272,57 @@
       "Odporność Na Psychologię",
       "Martial Prowess",
       "Nieugięty"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Dread hellebarden",
+      "Plattenrüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Elfenreflexe",
+      "Ewiger Hass",
+      "Hass (Hohepriester Elfen)",
+      "Immung gegen Psychologie",
+      "Kriegerisches Können",
+      "Unnachgiebig"
+    ],
+    "name_de": "Schwarze Der des Naggarond",
+    "name_fr": "Garde Noire de Naggarond",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Hallebardes d'effroi",
+      "Armure de plate complète"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Réflexes Elfiques",
+      "Haine Éternelle",
+      "Haine (Hauts Elfes)",
+      "Immunisé à la Psychologie",
+      "Prouesses Martiales",
+      "Obstiné"
+    ],
+    "name_it": "Black Guard di Naggarond",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Dread alabarde",
+      "Armatura Completa"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Riflessi Elfici",
+      "Eterno Odio",
+      "Odio (High Elves)",
+      "Immune alla Psicologia",
+      "Martial Prowess",
+      "Determinato"
     ]
   },
   {
@@ -233,6 +378,61 @@
       "Murderous",
       "Trujące Ataki",
       "Kamienne Spojrzenie"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Monströse Kreatur",
+    "equipment_de": [
+      "Handwaffe",
+      "Versteinender Blick",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Elfenreflexe",
+      "Angst",
+      "Raserei",
+      "Hass (Hohepriester Elfen)",
+      "Magieresistenz (-1)",
+      "Murderous",
+      "Giftattacken",
+      "Stony Stare"
+    ],
+    "name_fr": "Sanctuaires Medusa",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Créature Monstrueuse",
+    "equipment_fr": [
+      "Arme de base",
+      "Regard pétrificateur",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Réflexes Elfiques",
+      "Peur",
+      "Frénésie",
+      "Haine (Hauts Elfes)",
+      "Résistance à la Magie (-1)",
+      "Murderous",
+      "Attaques Empoisonnées",
+      "Regard de Pierre"
+    ],
+    "unitCategory_it": "Mostro",
+    "troopType_it": "Creatura Mostruosa",
+    "equipment_it": [
+      "Arma Bianca",
+      "Sguardo Pietrificante",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Riflessi Elfici",
+      "Paura",
+      "Frenzy",
+      "Odio (High Elves)",
+      "Resistenza alla Magia (-1)",
+      "Murderous",
+      "Arido come Polvere",
+      "Stony Stare"
     ]
   },
   {
@@ -324,6 +524,70 @@
       "Trujące Ataki",
       "Kamienne Spojrzenie",
       "Groza"
+    ],
+    "unitCategory_de": "Streitwagen",
+    "troopType_de": "Schwerer Streitwagen",
+    "equipment_de": [
+      "Shrinekeepers: Kavallerie spear",
+      "Bloodwrack Medusa: Kavallerie speer",
+      "Versteinender Blick"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Dragged Along",
+      "Elfenreflexe",
+      "Raserei",
+      "Hass (Hohepriester Elfen)",
+      "Aufpralltreffer (W6+1)",
+      "Großes Ziel",
+      "Magieresistenz (-1)",
+      "Murderous",
+      "Giftattacken",
+      "Stony Stare",
+      "Entsetzen"
+    ],
+    "name_fr": "Sanctuaires Shrine",
+    "unitCategory_fr": "Char",
+    "troopType_fr": "Char Lourd",
+    "equipment_fr": [
+      "Shrinekeepers: Rapide d'infanterie",
+      "Sanctuaires Medusa: Rapide lance",
+      "Regard pétrificateur"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Tracté",
+      "Réflexes Elfiques",
+      "Frénésie",
+      "Haine (Hauts Elfes)",
+      "Touches d'Impact (D6+1)",
+      "Grande Cible",
+      "Résistance à la Magie (-1)",
+      "Murderous",
+      "Attaques Empoisonnées",
+      "Regard de Pierre",
+      "Terreur"
+    ],
+    "unitCategory_it": "Carro",
+    "troopType_it": "Carro Pesante",
+    "equipment_it": [
+      "Shrinekeepers: Lancia leggera",
+      "Bloodwrack Medusa: Lancia leggera",
+      "Sguardo Pietrificante"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Dragged Along",
+      "Riflessi Elfici",
+      "Frenzy",
+      "Odio (High Elves)",
+      "Frecce Di (D6+1)",
+      "Bersaglio Grande",
+      "Resistenza alla Magia (-1)",
+      "Murderous",
+      "Arido come Polvere",
+      "Stony Stare",
+      "Terrore"
     ]
   },
   {
@@ -397,6 +661,66 @@
       "Murderous",
       "Trujące Ataki",
       "Groza"
+    ],
+    "unitCategory_de": "Streitwagen",
+    "troopType_de": "Schwerer Streitwagen",
+    "equipment_de": [
+      "Hexe Elf Haufen: Two hand waffen"
+    ],
+    "specialRules_de": [
+      "Segnungen des Khaine",
+      "Geschlossene Ränge",
+      "Dragged Along",
+      "Elfenreflexe",
+      "Raserei",
+      "Hass (Hohepriester Elfen)",
+      "Aufpralltreffer (W6+1)",
+      "Großes Ziel",
+      "Magieresistenz (-1)",
+      "Murderous",
+      "Giftattacken",
+      "Entsetzen"
+    ],
+    "name_de": "Cauldron des Die",
+    "name_fr": "Chaudron de Rage",
+    "unitCategory_fr": "Char",
+    "troopType_fr": "Char Lourd",
+    "equipment_fr": [
+      "Sorcières Elfe Hétéroclite: Two de lourdes"
+    ],
+    "specialRules_fr": [
+      "Bénédiction de Khaine",
+      "Ordre Serré",
+      "Tracté",
+      "Réflexes Elfiques",
+      "Frénésie",
+      "Haine (Hauts Elfes)",
+      "Touches d'Impact (D6+1)",
+      "Grande Cible",
+      "Résistance à la Magie (-1)",
+      "Murderous",
+      "Attaques Empoisonnées",
+      "Terreur"
+    ],
+    "name_it": "Cauldron di Blood",
+    "unitCategory_it": "Carro",
+    "troopType_it": "Carro Pesante",
+    "equipment_it": [
+      "Witch Elf Crew: Two armi bianche"
+    ],
+    "specialRules_it": [
+      "Blessings di Khaine",
+      "Formazione Serrata",
+      "Dragged Along",
+      "Riflessi Elfici",
+      "Frenzy",
+      "Odio (High Elves)",
+      "Frecce Di (D6+1)",
+      "Bersaglio Grande",
+      "Resistenza alla Magia (-1)",
+      "Murderous",
+      "Arido come Polvere",
+      "Terrore"
     ]
   },
   {
@@ -442,6 +766,45 @@
       "Pierwsza Szarża",
       "Stupidity",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Mount",
+    "troopType_de": "Schwere Kavallerie",
+    "equipment_de": [
+      "Klauen prinz teeth (hand weapon)"
+    ],
+    "specialRules_de": [
+      "Rüstung Bane (1, Cold Oder leichenmeister)",
+      "Zähe Haut (1)",
+      "Angst",
+      "Erster Angriff",
+      "Blödheit",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Cold Oder (Dark Elfen)",
+    "name_fr": "Sang Un (Magie Elfes)",
+    "troopType_fr": "Cavalerie Lourde",
+    "equipment_fr": [
+      "Mortelles et teeth (de lourde)"
+    ],
+    "specialRules_fr": [
+      "Légère Perforante (1, Sang Un uniquement)",
+      "Peau Blindée (1)",
+      "Peur",
+      "Première Charge",
+      "Stupidité",
+      "Rapide"
+    ],
+    "troopType_it": "Cavalleria Pesante",
+    "equipment_it": [
+      "Decapitanti and teeth (armi bianca)"
+    ],
+    "specialRules_it": [
+      "Pesante Dell’Armatura (1, Cold One only)",
+      "Pelle a Scaglie (1)",
+      "Paura",
+      "Prima Carica",
+      "Stupidity",
+      "Passo Rapido"
     ]
   },
   {
@@ -526,6 +889,63 @@
       "Pierwsza Szarża",
       "Nienawiść (Wysoki Elfy)",
       "Uderzenia Impetu (D6+1)",
+      "Stupidity"
+    ],
+    "unitCategory_de": "Streitwagen",
+    "troopType_de": "Schwerer Streitwagen",
+    "equipment_de": [
+      "Ritter Charioteers: Hand waffen",
+      "Kavalleriespeere",
+      "Repeater armbrüste",
+      "Cold Ones: Klauen prinz teeth"
+    ],
+    "specialRules_de": [
+      "Rüstung Bane (1, Cold Oder leichenmeister)",
+      "Geschlossene Ränge",
+      "Elfenreflexe",
+      "Angst",
+      "Erster Angriff",
+      "Hass (Hohepriester Elfen)",
+      "Aufpralltreffer (W6+1)",
+      "Blödheit"
+    ],
+    "name_de": "Cold Oder Streitwagen",
+    "name_fr": "Char à Sang-froid",
+    "unitCategory_fr": "Char",
+    "troopType_fr": "Char Lourd",
+    "equipment_fr": [
+      "Infernal Charioteers: De lourdes",
+      "Lances de cavalerie",
+      "Arbalètes à répétition",
+      "Sang Ones: Mortelles et teeth"
+    ],
+    "specialRules_fr": [
+      "Légère Perforante (1, Sang Un uniquement)",
+      "Ordre Serré",
+      "Réflexes Elfiques",
+      "Peur",
+      "Première Charge",
+      "Haine (Hauts Elfes)",
+      "Touches d'Impact (D6+1)",
+      "Stupidité"
+    ],
+    "name_it": "Cold One Scheletrico",
+    "unitCategory_it": "Carro",
+    "troopType_it": "Carro Pesante",
+    "equipment_it": [
+      "Knight Charioteers: Armi bianche",
+      "Lancia Leggera",
+      "Repeater balestra",
+      "Cold Ones: Decapitanti and teeth"
+    ],
+    "specialRules_it": [
+      "Pesante Dell’Armatura (1, Cold One only)",
+      "Formazione Serrata",
+      "Riflessi Elfici",
+      "Paura",
+      "Prima Carica",
+      "Odio (High Elves)",
+      "Frecce Di (D6+1)",
       "Stupidity"
     ]
   },
@@ -616,6 +1036,68 @@
       "Nienawiść (Wysoki Elfy)",
       "Stupidity",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Schwere Kavallerie",
+    "equipment_de": [
+      "Inneren: Hand waffen",
+      "Lanzen",
+      "Schwere Rüstung",
+      "Schilde",
+      "Cold Ones: Klauen prinz teeth"
+    ],
+    "specialRules_de": [
+      "Rüstung Bane (1, Cold Oder leichenmeister)",
+      "Zähe Haut (1)",
+      "Geschlossene Ränge",
+      "Elfenreflexe",
+      "Angst",
+      "Erster Angriff",
+      "Hass (Hohepriester Elfen)",
+      "Blödheit",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Cold Oder Inneren",
+    "name_fr": "Chevaliers sur Sang-froid",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Lourde",
+    "equipment_fr": [
+      "Loup: De lourdes",
+      "Lances de joute",
+      "Armure lourde",
+      "Boucliers",
+      "Sang Ones: Mortelles et teeth"
+    ],
+    "specialRules_fr": [
+      "Légère Perforante (1, Sang Un uniquement)",
+      "Peau Blindée (1)",
+      "Ordre Serré",
+      "Réflexes Elfiques",
+      "Peur",
+      "Première Charge",
+      "Haine (Hauts Elfes)",
+      "Stupidité",
+      "Rapide"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Pesante",
+    "equipment_it": [
+      "Knights: Armi bianche",
+      "Lancie Pesanti",
+      "Armatura Pesante",
+      "Scudi",
+      "Cold Ones: Decapitanti and teeth"
+    ],
+    "specialRules_it": [
+      "Pesante Dell’Armatura (1, Cold One only)",
+      "Pelle a Scaglie (1)",
+      "Formazione Serrata",
+      "Riflessi Elfici",
+      "Paura",
+      "Prima Carica",
+      "Odio (High Elves)",
+      "Stupidity",
+      "Passo Rapido"
     ]
   },
   {
@@ -659,6 +1141,44 @@
       "Nienawiść (Wysoki Elfy)",
       "Murderous",
       "Strike First"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Ewiger Hass",
+      "Hass (Hohepriester Elfen)",
+      "Murderous",
+      "Schlägt zuerst zu"
+    ],
+    "name_de": "Dark Elf Dreadlord",
+    "name_fr": "Despote Elfe Noir",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "Haine Éternelle",
+      "Haine (Hauts Elfes)",
+      "Murderous",
+      "Frappe En Premier"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Eterno Odio",
+      "Odio (High Elves)",
+      "Murderous",
+      "Attacca Per Primo"
     ]
   },
   {
@@ -702,6 +1222,45 @@
       "Nienawiść (Wysoki Elfy)",
       "Murderous",
       "Strike First"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Ewiger Hass",
+      "Hass (Hohepriester Elfen)",
+      "Murderous",
+      "Schlägt zuerst zu"
+    ],
+    "name_de": "Dark Elf Meister",
+    "name_fr": "Maître Elfe Noir",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "Haine Éternelle",
+      "Haine (Hauts Elfes)",
+      "Murderous",
+      "Frappe En Premier"
+    ],
+    "name_it": "Dark Elf Signore",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Eterno Odio",
+      "Odio (High Elves)",
+      "Murderous",
+      "Attacca Per Primo"
     ]
   },
   {
@@ -765,6 +1324,50 @@
       "Przechodzenie Przez Zasłony",
       "Zwiadowcy",
       "Harcownicy"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Repeater armbrüste"
+    ],
+    "specialRules_de": [
+      "Elfenreflexe",
+      "Ausweichen",
+      "Hass (Hohepriester Elfen)",
+      "Durch Deckung bewegen",
+      "Kundschafter",
+      "Plänkler"
+    ],
+    "name_de": "Dark Elf Shades",
+    "name_fr": "Ombres Elfes Noirs",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Arbalètes à répétition"
+    ],
+    "specialRules_fr": [
+      "Réflexes Elfiques",
+      "Esquiveur",
+      "Haine (Hauts Elfes)",
+      "Mouvement à Couvert",
+      "Éclaireurs",
+      "Tirailleurs"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Repeater balestra"
+    ],
+    "specialRules_it": [
+      "Riflessi Elfici",
+      "Evasione",
+      "Odio (High Elves)",
+      "Viaggiatore",
+      "Esploratori",
+      "Schermagliatori"
     ]
   },
   {
@@ -826,6 +1429,48 @@
       "Elfie Refleksy",
       "Nienawiść (Wysoki Elfy)",
       "Martial Prowess"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Leichte Rüstung",
+      "Schilde"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Elfenreflexe",
+      "Hass (Hohepriester Elfen)",
+      "Kriegerisches Können"
+    ],
+    "name_de": "Dark Elf Krieger",
+    "name_fr": "Guerriers Elfes Noirs",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Armure légère",
+      "Boucliers"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Réflexes Elfiques",
+      "Haine (Hauts Elfes)",
+      "Prouesses Martiales"
+    ],
+    "name_it": "Dark Elf Scheletri",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Armatura Leggera",
+      "Scudi"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Riflessi Elfici",
+      "Odio (High Elves)",
+      "Martial Prowess"
     ]
   },
   {
@@ -869,6 +1514,42 @@
       "Pierwsza Szarża",
       "Lot (10)",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Mount",
+    "troopType_de": "Monströse Kavallerie",
+    "equipment_de": [
+      "Hufe (hand weapon)"
+    ],
+    "specialRules_de": [
+      "Rüstung Bane (1, Dark Pegasus leichenmeister)",
+      "Gegenangriff",
+      "Erster Angriff",
+      "Fliegen (10)",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Dark Pegasus",
+    "name_fr": "Pégase Noir",
+    "troopType_fr": "Cavalerie Monstrueuse",
+    "equipment_fr": [
+      "Squelettiques (de lourde)"
+    ],
+    "specialRules_fr": [
+      "Légère Perforante (1, Magie Pégase uniquement)",
+      "Contre-charge",
+      "Première Charge",
+      "Vol (10)",
+      "Rapide"
+    ],
+    "troopType_it": "Cavalleria Mostruosa",
+    "equipment_it": [
+      "Hooves (armi bianca)"
+    ],
+    "specialRules_it": [
+      "Pesante Dell’Armatura (1, Dark Pegasus only)",
+      "Controcarica",
+      "Prima Carica",
+      "Volo (10)",
+      "Passo Rapido"
     ]
   },
   {
@@ -950,6 +1631,56 @@
       "Luźny Szyk",
       "Harcownicy",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Leichte Kavallerie",
+    "equipment_de": [
+      "Jagd: Hand waffen",
+      "Kavalleriespeere",
+      "Leichte Rüstung",
+      "Dark Steeds: Hufe"
+    ],
+    "specialRules_de": [
+      "Elfenreflexe",
+      "Wendige Kavallerie",
+      "Hass (Hohepriester Elfen)",
+      "Offene Ränge",
+      "Plänkler",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Dark Jagd",
+    "name_fr": "Cavaliers Noirs",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Légère",
+    "equipment_fr": [
+      "Sylvains: De lourdes",
+      "Lances de cavalerie",
+      "Armure légère",
+      "Magie Steeds: Squelettiques"
+    ],
+    "specialRules_fr": [
+      "Réflexes Elfiques",
+      "Cavalerie Rapide",
+      "Haine (Hauts Elfes)",
+      "Ordre Dispersé",
+      "Tirailleurs",
+      "Rapide"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Leggera",
+    "equipment_it": [
+      "Riders: Armi bianche",
+      "Lancia Leggera",
+      "Armatura Leggera",
+      "Dark Steeds: Hooves"
+    ],
+    "specialRules_it": [
+      "Riflessi Elfici",
+      "Cavalleria Veloce",
+      "Odio (High Elves)",
+      "Formazione Aperta",
+      "Schermagliatori",
+      "Passo Rapido"
     ]
   },
   {
@@ -987,6 +1718,34 @@
     "specialRules_pl": [
       "Szybka Kawaleria",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Mount",
+    "troopType_de": "Leichte Kavallerie",
+    "equipment_de": [
+      "Hufe (hand weapon)"
+    ],
+    "specialRules_de": [
+      "Wendige Kavallerie",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Dark Rossharnisch",
+    "name_fr": "Coursier Noir",
+    "troopType_fr": "Cavalerie Légère",
+    "equipment_fr": [
+      "Squelettiques (de lourde)"
+    ],
+    "specialRules_fr": [
+      "Cavalerie Rapide",
+      "Rapide"
+    ],
+    "name_it": "Dark Elfico",
+    "troopType_it": "Cavalleria Leggera",
+    "equipment_it": [
+      "Hooves (armi bianca)"
+    ],
+    "specialRules_it": [
+      "Cavalleria Veloce",
+      "Passo Rapido"
     ]
   },
   {
@@ -1034,6 +1793,50 @@
       "Murderous",
       "Trujące Ataki",
       "Strike First"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Zwei Handwaffen"
+    ],
+    "specialRules_de": [
+      "Ewiger Hass",
+      "Raserei",
+      "Hass (alle Feinde)",
+      "Einzelgänger",
+      "Murderous",
+      "Giftattacken",
+      "Schlägt zuerst zu"
+    ],
+    "name_de": "Todes Hag",
+    "name_fr": "Matriarche",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Deux armes de base"
+    ],
+    "specialRules_fr": [
+      "Haine Éternelle",
+      "Frénésie",
+      "Haine (Tous les ennemis)",
+      "Solitaire",
+      "Murderous",
+      "Attaques Empoisonnées",
+      "Frappe En Premier"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Two armi bianche"
+    ],
+    "specialRules_it": [
+      "Eterno Odio",
+      "Frenzy",
+      "Odio (all enemies)",
+      "Solitario",
+      "Murderous",
+      "Arido come Polvere",
+      "Attacca Per Primo"
     ]
   },
   {
@@ -1115,6 +1918,56 @@
       "Luźny Szyk",
       "Trujące Ataki (Jeźdźcy only)",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Leichte Kavallerie",
+    "equipment_de": [
+      "Warlocks: Hand waffen",
+      "Dark Steeds: Hufe"
+    ],
+    "specialRules_de": [
+      "Cursed Coven",
+      "Dark Runen",
+      "Elfenreflexe",
+      "Wendige Kavallerie",
+      "Hass (Hohepriester Elfen)",
+      "Offene Ränge",
+      "Poisoned Attacken (Jagd leichenmeister)",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Doomfire Warlocks",
+    "name_fr": "Conjurateurs du Feu Maudit",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Légère",
+    "equipment_fr": [
+      "Warlocks: De lourdes",
+      "Magie Steeds: Squelettiques"
+    ],
+    "specialRules_fr": [
+      "Cabale Maudite",
+      "Runes Sombres",
+      "Réflexes Elfiques",
+      "Cavalerie Rapide",
+      "Haine (Hauts Elfes)",
+      "Ordre Dispersé",
+      "Attaques Empoisonnées (Sylvains uniquement)",
+      "Rapide"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Leggera",
+    "equipment_it": [
+      "Warlocks: Armi bianche",
+      "Dark Steeds: Hooves"
+    ],
+    "specialRules_it": [
+      "Cursed Coven",
+      "Dark Rune",
+      "Riflessi Elfici",
+      "Cavalleria Veloce",
+      "Odio (High Elves)",
+      "Formazione Aperta",
+      "Attacchi Venefici (Riders only)",
+      "Passo Rapido"
     ]
   },
   {
@@ -1178,6 +2031,50 @@
       "Nienawiść (Wysoki Elfy)",
       "Murderous",
       "Veteran"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Har Ganeth bihandkämpfer",
+      "Schwere Rüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Elfenreflexe",
+      "Hass (Hohepriester Elfen)",
+      "Murderous",
+      "Veteranen"
+    ],
+    "name_de": "Har Ganeth Executioners",
+    "name_fr": "Exécuteurs de Har Ganeth",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Grandes épées d’Har Ganeth",
+      "Armure lourde"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Réflexes Elfiques",
+      "Haine (Hauts Elfes)",
+      "Murderous",
+      "Vétérans"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Har Ganeth greatswords",
+      "Armatura Pesante"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Riflessi Elfici",
+      "Odio (High Elves)",
+      "Murderous",
+      "Veterani"
     ]
   },
   {
@@ -1221,6 +2118,43 @@
       "Zwiadowcy",
       "Harcownicy",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Klauen (hand waffen)"
+    ],
+    "specialRules_de": [
+      "Fliegen (10)",
+      "Durch Deckung bewegen",
+      "Kundschafter",
+      "Plänkler",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Harpies",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Mortelles (de lourdes)"
+    ],
+    "specialRules_fr": [
+      "Vol (10)",
+      "Mouvement à Couvert",
+      "Éclaireurs",
+      "Tirailleurs",
+      "Rapide"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Decapitanti (armi bianche)"
+    ],
+    "specialRules_it": [
+      "Volo (10)",
+      "Viaggiatore",
+      "Esploratori",
+      "Schermagliatori",
+      "Passo Rapido"
     ]
   },
   {
@@ -1268,6 +2202,50 @@
       "Nienawiść (Wysoki Elfy)",
       "Murderous",
       "Strike First"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Peitsche",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Ewiger Hass",
+      "Goad Bestie",
+      "Hass (Hohepriester Elfen)",
+      "Murderous",
+      "Schlägt zuerst zu"
+    ],
+    "name_de": "Hohepriester Beastmaster",
+    "name_fr": "Haut Belluaire",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "Fouet",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "Haine Éternelle",
+      "Dompteur",
+      "Haine (Hauts Elfes)",
+      "Murderous",
+      "Frappe En Premier"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "Frusta",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Eterno Odio",
+      "Goad Beast",
+      "Odio (High Elves)",
+      "Murderous",
+      "Attacca Per Primo"
     ]
   },
   {
@@ -1315,6 +2293,50 @@
       "Odporność Na Psychologię",
       "Murderous",
       "Strike First"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Wurfwaffen"
+    ],
+    "specialRules_de": [
+      "Ewiger Hass",
+      "Hass (alle Feinde)",
+      "Hidden",
+      "Immung gegen Psychologie",
+      "Murderous",
+      "Schlägt zuerst zu"
+    ],
+    "name_de": "Khainite Assassine",
+    "name_fr": "Assassin Khainite",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "Armes de lancer"
+    ],
+    "specialRules_fr": [
+      "Haine Éternelle",
+      "Haine (Tous les ennemis)",
+      "Hidden",
+      "Immunisé à la Psychologie",
+      "Murderous",
+      "Frappe En Premier"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "Throwing bianche"
+    ],
+    "specialRules_it": [
+      "Eterno Odio",
+      "Odio (all enemies)",
+      "Hidden",
+      "Immune alla Psicologia",
+      "Murderous",
+      "Attacca Per Primo"
     ]
   },
   {
@@ -1380,6 +2402,51 @@
       "Potwór Handlers",
       "Zdeptanie (D3+1)",
       "Groza"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Cavernous maul",
+      "Windende tentacles"
+    ],
+    "specialRules_de": [
+      "Abyssal Howl",
+      "Geschlossene Ränge",
+      "Immung gegen Psychologie",
+      "Großes Ziel",
+      "Monster Handlers",
+      "Stampfattacken (W3+1)",
+      "Entsetzen"
+    ],
+    "name_de": "Kharibdyss",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Gueule caverneuse",
+      "Queue tentacles"
+    ],
+    "specialRules_fr": [
+      "Hurlement Abyssal",
+      "Ordre Serré",
+      "Immunisé à la Psychologie",
+      "Grande Cible",
+      "Dresseurs de Monstres",
+      "Attaques de Piétinement (D3+1)",
+      "Terreur"
+    ],
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Cavernous maw",
+      "Code tentacles"
+    ],
+    "specialRules_it": [
+      "Abyssal Howl",
+      "Formazione Serrata",
+      "Immune alla Psicologia",
+      "Bersaglio Grande",
+      "Monster Handlers",
+      "Calpestamento Venefici (D3+1)",
+      "Terrore"
     ]
   },
   {
@@ -1429,6 +2496,53 @@
       "Szybki Krok",
       "Groza",
       "Wilful Bestia"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Monströse Kreatur",
+    "equipment_de": [
+      "Boshafte Klauen",
+      "Scaly skin (schwere rüstung)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Fliegen (9)",
+      "Großes Ziel",
+      "Stampfattacken (W3)",
+      "Schnelle Bewegung",
+      "Entsetzen",
+      "Wilful Bestie"
+    ],
+    "name_de": "Manticore (Dark Elfen)",
+    "name_fr": "Manticore (Magie Elfes)",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Créature Monstrueuse",
+    "equipment_fr": [
+      "Griffes mortelles",
+      "Peau écailleuse (armure légère)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Vol (9)",
+      "Grande Cible",
+      "Attaques de Piétinement (D3)",
+      "Rapide",
+      "Terreur",
+      "Wilful Maître"
+    ],
+    "unitCategory_it": "Mostro",
+    "troopType_it": "Creatura Mostruosa",
+    "equipment_it": [
+      "Wicked decapitanti",
+      "Scaly skin (armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Volo (9)",
+      "Bersaglio Grande",
+      "Calpestamento (D3)",
+      "Passo Rapido",
+      "Terrore",
+      "Wilful Beast"
     ]
   },
   {
@@ -1488,6 +2602,43 @@
       "Elfie Refleksy",
       "Nienawiść (Wysoki Elfy)",
       "Harcownicy"
+    ],
+    "unitCategory_de": "War Machine",
+    "troopType_de": "Kriegsmaschine",
+    "equipment_de": [
+      "Repeater bolt thrower",
+      "Handwaffen",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Elfenreflexe",
+      "Hass (Hohepriester Elfen)",
+      "Plänkler"
+    ],
+    "name_de": "Reaper Bolt Thrower",
+    "name_fr": "Baliste Faucheuse",
+    "troopType_fr": "Machine de Guerre",
+    "equipment_fr": [
+      "Baliste à répétition",
+      "Armes de base",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "Réflexes Elfiques",
+      "Haine (Hauts Elfes)",
+      "Tirailleurs"
+    ],
+    "name_it": "Reaper Bolt Rancori",
+    "troopType_it": "Macchina da Guerra",
+    "equipment_it": [
+      "Repeater bolt rancori",
+      "Armi Bianche",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Riflessi Elfici",
+      "Odio (High Elves)",
+      "Schermagliatori"
     ]
   },
   {
@@ -1548,6 +2699,47 @@
       "Zwarty Szyk",
       "Elfie Refleksy",
       "Nienawiść (Wysoki Elfy)",
+      "Martial Prowess"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Repeater armbrüste",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Elfenreflexe",
+      "Hass (Hohepriester Elfen)",
+      "Kriegerisches Können"
+    ],
+    "name_de": "Repeater Crossbowmen",
+    "name_fr": "Arbalétriers Elfes Noirs",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Arbalètes à répétition",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Réflexes Elfiques",
+      "Haine (Hauts Elfes)",
+      "Prouesses Martiales"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Repeater balestra",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Riflessi Elfici",
+      "Odio (High Elves)",
       "Martial Prowess"
     ]
   },
@@ -1632,6 +2824,60 @@
       "Luźny Szyk",
       "Morski Smok Cloak",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Streitwagen",
+    "troopType_de": "Leichter Streitwagen",
+    "equipment_de": [
+      "Streitwagen: Ravager harpoon",
+      "Beastmaster Haufen: Hand waffen",
+      "Kavalleriespeere",
+      "Repeater armbrüste",
+      "Dark Steeds: Hufe"
+    ],
+    "specialRules_de": [
+      "Elfenreflexe",
+      "Hass (Hohepriester Elfen)",
+      "Aufpralltreffer (W6)",
+      "Offene Ränge",
+      "Von Dragon Cloak",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Scourgerunner Streitwagen",
+    "name_fr": "Char à Courre",
+    "unitCategory_fr": "Char",
+    "troopType_fr": "Char Léger",
+    "equipment_fr": [
+      "Éventreur: Harpon harpoon",
+      "Belluaire Hétéroclite: De lourdes",
+      "Lances de cavalerie",
+      "Arbalètes à répétition",
+      "Magie Steeds: Squelettiques"
+    ],
+    "specialRules_fr": [
+      "Réflexes Elfiques",
+      "Haine (Hauts Elfes)",
+      "Touches d'Impact (D6)",
+      "Ordre Dispersé",
+      "Cape en peau de Dragon des Mers",
+      "Rapide"
+    ],
+    "name_it": "Scourgerunner Scheletrico",
+    "unitCategory_it": "Carro",
+    "troopType_it": "Carro Leggero",
+    "equipment_it": [
+      "Scheletrico: Ravager harpoon",
+      "Beastmaster Crew: Armi bianche",
+      "Lancia Leggera",
+      "Repeater balestra",
+      "Dark Steeds: Hooves"
+    ],
+    "specialRules_it": [
+      "Riflessi Elfici",
+      "Odio (High Elves)",
+      "Colpi da Impatto (D6)",
+      "Formazione Aperta",
+      "Sea Necrolitico Cloak",
+      "Passo Rapido"
     ]
   },
   {
@@ -1697,6 +2943,54 @@
       "Samotnik",
       "Murderous",
       "Luźny Szyk"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Lash & buckler"
+    ],
+    "specialRules_de": [
+      "Dance des Todes",
+      "Elfenreflexe",
+      "Hass (Hohepriester Elfen)",
+      "Ungestüm",
+      "Einzelgänger",
+      "Murderous",
+      "Offene Ränge"
+    ],
+    "name_de": "Schwestern des Slaughter",
+    "name_fr": "Sœurs du Massacre",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Lanières & bocle"
+    ],
+    "specialRules_fr": [
+      "Danse de Mort",
+      "Réflexes Elfiques",
+      "Haine (Hauts Elfes)",
+      "Impétueux",
+      "Solitaire",
+      "Murderous",
+      "Ordre Dispersé"
+    ],
+    "name_it": "Sorelle di Slaughter",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Lash & buckler"
+    ],
+    "specialRules_it": [
+      "Dance di Death",
+      "Riflessi Elfici",
+      "Odio (High Elves)",
+      "Impetuosi",
+      "Solitario",
+      "Murderous",
+      "Formazione Aperta"
     ]
   },
   {
@@ -1749,6 +3043,47 @@
       "Hekarti's Blessing",
       "Lore of Naggaroth",
       "Murderous"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Elfenreflexe",
+      "Ewiger Hass",
+      "Hass (Hohepriester Elfen)",
+      "Hekarti's Segen",
+      "Lehre des Naggaroth",
+      "Murderous"
+    ],
+    "name_de": "Sorceress",
+    "name_fr": "Sorcière",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Réflexes Elfiques",
+      "Haine Éternelle",
+      "Haine (Hauts Elfes)",
+      "Bénédiction d'Hekarti",
+      "Domaine de Naggaroth",
+      "Murderous"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Riflessi Elfici",
+      "Eterno Odio",
+      "Odio (High Elves)",
+      "Hekarti's Blessing",
+      "Lore di Naggaroth",
+      "Murderous"
     ]
   },
   {
@@ -1800,6 +3135,47 @@
       "Nienawiść (Wysoki Elfy)",
       "Hekarti's Blessing",
       "Lore of Naggaroth",
+      "Murderous"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Elfenreflexe",
+      "Ewiger Hass",
+      "Hass (Hohepriester Elfen)",
+      "Hekarti's Segen",
+      "Lehre des Naggaroth",
+      "Murderous"
+    ],
+    "name_de": "Supreme Sorceress",
+    "name_fr": "Sorcière Suprême",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Réflexes Elfiques",
+      "Haine Éternelle",
+      "Haine (Hauts Elfes)",
+      "Bénédiction d'Hekarti",
+      "Domaine de Naggaroth",
+      "Murderous"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Riflessi Elfici",
+      "Eterno Odio",
+      "Odio (High Elves)",
+      "Hekarti's Blessing",
+      "Lore di Naggaroth",
       "Murderous"
     ]
   },
@@ -1870,6 +3246,58 @@
       "Regeneracja (5+)",
       "Zdeptanie (D3)",
       "Groza"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Boshafte Klauen",
+      "Serrated maws",
+      "Flammenden atem"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Extra Attacken (+remaining Wounds)",
+      "Immung gegen Psychologie",
+      "Großes Ziel",
+      "Monster Handlers",
+      "Regeneration (5+)",
+      "Stampfattacken (W3)",
+      "Entsetzen"
+    ],
+    "name_de": "Kriegesmaschinen Hydra",
+    "name_fr": "Hydre de Guerre",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Griffes mortelles",
+      "Serrated avides",
+      "Cercle glacial"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Attaques Supplémentaires (+PV restants)",
+      "Immunisé à la Psychologie",
+      "Grande Cible",
+      "Dresseurs de Monstres",
+      "Régénération (5+)",
+      "Attaques de Piétinement (D3)",
+      "Terreur"
+    ],
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Wicked decapitanti",
+      "Serrated maws",
+      "Ruggito breath"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Extra Venefici (+remaining Wounds)",
+      "Immune alla Psicologia",
+      "Bersaglio Grande",
+      "Monster Handlers",
+      "Rigenerazione (5+)",
+      "Calpestamento (D3)",
+      "Terrore"
     ]
   },
   {
@@ -1935,6 +3363,53 @@
       "Samotnik",
       "Murderous",
       "Trujące Ataki"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Zwei Handwaffen"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Elfenreflexe",
+      "Raserei",
+      "Hass (Hohepriester Elfen)",
+      "Geschlossene Ränge",
+      "Einzelgänger",
+      "Murderous",
+      "Giftattacken"
+    ],
+    "name_de": "Hexe Elfen",
+    "name_fr": "Furies",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Deux armes de base"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Réflexes Elfiques",
+      "Frénésie",
+      "Haine (Hauts Elfes)",
+      "Horde",
+      "Solitaire",
+      "Murderous",
+      "Attaques Empoisonnées"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Two armi bianche"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Riflessi Elfici",
+      "Frenzy",
+      "Odio (High Elves)",
+      "Orda",
+      "Solitario",
+      "Murderous",
+      "Arido come Polvere"
     ]
   }
 ]

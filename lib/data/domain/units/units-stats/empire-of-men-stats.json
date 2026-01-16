@@ -36,6 +36,40 @@
       "Przeciwnatarcie",
       "Pierwsza Szarża",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Mount",
+    "troopType_de": "Schwere Kavallerie",
+    "equipment_de": [
+      "Eisenbeschlagene hufe (counts as ein hand weapon)",
+      "Rossharnisch"
+    ],
+    "specialRules_de": [
+      "Gegenangriff",
+      "Erster Angriff",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Schlachtross mit Rossharnisch",
+    "name_fr": "Destrier Caparaçonné",
+    "troopType_fr": "Cavalerie Lourde",
+    "equipment_fr": [
+      "Sabots squelettiques (counts comme un de lourde)",
+      "Caparaçon"
+    ],
+    "specialRules_fr": [
+      "Contre-charge",
+      "Première Charge",
+      "Rapide"
+    ],
+    "name_it": "Cavallo Warhorse",
+    "troopType_it": "Cavalleria Pesante",
+    "equipment_it": [
+      "Iron-shod hooves (counts come scelti armi bianca)",
+      "Bardatura"
+    ],
+    "specialRules_it": [
+      "Controcarica",
+      "Prima Carica",
+      "Passo Rapido"
     ]
   },
   {
@@ -73,6 +107,39 @@
     "specialRules_pl": [
       "\"Hold the Line!\"",
       "Bojowy Okrzyk"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "\"Haltet die Linie!\"",
+      "Sammelruf"
+    ],
+    "name_de": "Hauptmann des Imperiums",
+    "name_fr": "Capitaine de l'Empire",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "\"Tenez la Ligne!\"",
+      "Cri de Ralliement"
+    ],
+    "name_it": "Captain di le Empire",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "\"Hold le Line!\"",
+      "Grido di Battaglia"
     ]
   },
   {
@@ -122,6 +189,57 @@
       "Nieugięty",
       "Szybki Krok",
       "Veteran"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Schwere Kavallerie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Schwere Rüstung"
+    ],
+    "specialRules_de": [
+      "Gegenangriff",
+      "Erster Angriff",
+      "Immung gegen Psychologie",
+      "Meister der Schlachten",
+      "Sammelruf",
+      "Unnachgiebig",
+      "Schnelle Bewegung",
+      "Veteranen"
+    ],
+    "name_de": "Kapitelmeister",
+    "name_fr": "Maître de Chapitre",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Cavalerie Lourde, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "Armure lourde"
+    ],
+    "specialRules_fr": [
+      "Contre-charge",
+      "Première Charge",
+      "Immunisé à la Psychologie",
+      "Maître des Batailles",
+      "Cri de Ralliement",
+      "Obstiné",
+      "Rapide",
+      "Vétérans"
+    ],
+    "name_it": "Chapter Signore",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Cavalleria Pesante, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "Armatura Pesante"
+    ],
+    "specialRules_it": [
+      "Controcarica",
+      "Prima Carica",
+      "Immune alla Psicologia",
+      "Signore di Stendardo",
+      "Grido di Battaglia",
+      "Determinato",
+      "Passo Rapido",
+      "Veterani"
     ]
   },
   {
@@ -163,6 +281,42 @@
       "Pierwsza Szarża",
       "Strach",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Mount",
+    "troopType_de": "Monströse Kavallerie",
+    "equipment_de": [
+      "Boshafte Klauen",
+      "Rossharnisch"
+    ],
+    "specialRules_de": [
+      "Gegenangriff",
+      "Erster Angriff",
+      "Angst",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Demigreif",
+    "name_fr": "Demigriffon",
+    "troopType_fr": "Cavalerie Monstrueuse",
+    "equipment_fr": [
+      "Griffes mortelles",
+      "Caparaçon"
+    ],
+    "specialRules_fr": [
+      "Contre-charge",
+      "Première Charge",
+      "Peur",
+      "Rapide"
+    ],
+    "troopType_it": "Cavalleria Mostruosa",
+    "equipment_it": [
+      "Wicked decapitanti",
+      "Bardatura"
+    ],
+    "specialRules_it": [
+      "Controcarica",
+      "Prima Carica",
+      "Paura",
+      "Passo Rapido"
     ]
   },
   {
@@ -232,6 +386,47 @@
       "Pierwsza Szarża",
       "Strach",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Monströse Kavallerie",
+    "equipment_de": [
+      "Demigreif Inneren: Hand waffen, schwere rüstung prinz schilde",
+      "Demigreif: Boshafte klauen prinz rossharnische"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Gegenangriff",
+      "Erster Angriff",
+      "Angst",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Demigreifenritter",
+    "name_fr": "Chevaliers Demigriffons",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Monstrueuse",
+    "equipment_fr": [
+      "Chevaliers Loup: De lourdes, armure légère et boucliers",
+      "Chevaliers: Griffes mortelles et caparaçon"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Contre-charge",
+      "Première Charge",
+      "Peur",
+      "Rapide"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Mostruosa",
+    "equipment_it": [
+      "Demigryph Knights: Armi bianche, armatura pesante and scudi",
+      "Demigryph: Wicked decapitanti and bardatura"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Controcarica",
+      "Prima Carica",
+      "Paura",
+      "Passo Rapido"
     ]
   },
   {
@@ -289,6 +484,48 @@
       "Luźny Szyk",
       "Harcownicy",
       "Awangarda"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Kriegsbögen"
+    ],
+    "specialRules_de": [
+      "Abteilung",
+      "Durch Deckung bewegen",
+      "Offene Ränge",
+      "Plänkler",
+      "Vorhut"
+    ],
+    "name_de": "Imperiale Bogenschützen",
+    "name_fr": "Archers de l'Empire",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Arcs de guerre"
+    ],
+    "specialRules_fr": [
+      "Détachement",
+      "Mouvement à Couvert",
+      "Ordre Dispersé",
+      "Tirailleurs",
+      "Avant-garde"
+    ],
+    "name_it": "Empire Scheletri",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Archi da Guerra"
+    ],
+    "specialRules_it": [
+      "Distaccamento",
+      "Viaggiatore",
+      "Formazione Aperta",
+      "Schermagliatori",
+      "Avanguardia"
     ]
   },
   {
@@ -324,6 +561,36 @@
     "specialRules_pl": [
       "Clouds of Soot & Smoke",
       "Mistrz of Ballistics"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Wolken aus Ruß und Rauch",
+      "Ballistikexperte"
+    ],
+    "name_de": "Technicus",
+    "name_fr": "Ingénieur de l'Empire",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Nuages de Suie et de Fumée",
+      "Maître en Balistique"
+    ],
+    "name_it": "Empire Ingegnere",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Clouds di Soot & Smoke",
+      "Signore di Ballistics"
     ]
   },
   {
@@ -379,6 +646,44 @@
       "Zwarty Szyk",
       "Jednostka Regimentowa",
       "Nieugięty"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Zweihandwaffen",
+      "Plattenrüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Hauptregiment",
+      "Unnachgiebig"
+    ],
+    "name_de": "Imperiale Bihandkämpfer",
+    "name_fr": "Joueurs d'Épées de l'Empire",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Armes lourdes",
+      "Armure de plate complète"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Unité Régimentaire",
+      "Obstiné"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Grandi Armi",
+      "Armatura Completa"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Unità Madre",
+      "Determinato"
     ]
   },
   {
@@ -446,6 +751,44 @@
       "Przeciwnatarcie",
       "Pierwsza Szarża",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Schwere Kavallerie",
+    "equipment_de": [
+      "Inneren: Hand waffen, schwere rüstung prinz schilde",
+      "Elfenross Schlachtross: Eisenbeschlagene hufe (counts as ein hand weapon) prinz rossharnische"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Gegenangriff",
+      "Erster Angriff",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Ritter des Imperiums",
+    "name_fr": "Chevaliers de l'Empire",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Lourde",
+    "equipment_fr": [
+      "Loup: De lourdes, armure légère et boucliers",
+      "Destrier Caparaçonné: Sabots squelettiques (counts comme un de lourde) et caparaçon"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Contre-charge",
+      "Première Charge",
+      "Rapide"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Pesante",
+    "equipment_it": [
+      "Knights: Armi bianche, armatura pesante and scudi",
+      "Cavallo Warhorse: Iron-shod hooves (counts come scelti armi bianca) and bardatura"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Controcarica",
+      "Prima Carica",
+      "Passo Rapido"
     ]
   },
   {
@@ -517,6 +860,50 @@
       "Harcownicy",
       "Szybki Krok",
       "Awangarda"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Leichte Kavallerie",
+    "equipment_de": [
+      "Road Wardens: Hand waffen, armbrüste prinz schwere rüstung",
+      "Warhorses: Eisenbeschlagene hufe (counts as ein hand weapon)"
+    ],
+    "specialRules_de": [
+      "Wendige Kavallerie",
+      "Schießen und Verschwinden",
+      "Offene Ränge",
+      "Plänkler",
+      "Schnelle Bewegung",
+      "Vorhut"
+    ],
+    "name_de": "Imperiale Straßenwächter",
+    "name_fr": "Patrouilleurs Ruraux de l'Empire",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Légère",
+    "equipment_fr": [
+      "Road Wardens: De lourdes, arbalètes et armure légère",
+      "Supérieurs: Sabots squelettiques (counts comme un de lourde)"
+    ],
+    "specialRules_fr": [
+      "Cavalerie Rapide",
+      "Tir & Fuite",
+      "Ordre Dispersé",
+      "Tirailleurs",
+      "Rapide",
+      "Avant-garde"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Leggera",
+    "equipment_it": [
+      "Road Wardens: Armi bianche, balestra and armatura pesante",
+      "Warhorses: Iron-shod hooves (counts come scelti armi bianca)"
+    ],
+    "specialRules_it": [
+      "Cavalleria Veloce",
+      "Tirare e Fuggire",
+      "Formazione Aperta",
+      "Schermagliatori",
+      "Passo Rapido",
+      "Avanguardia"
     ]
   },
   {
@@ -586,6 +973,66 @@
       "Temperamental",
       "Groza",
       "Niezłomni"
+    ],
+    "unitCategory_de": "Streitwagen",
+    "troopType_de": "Schwerer Streitwagen",
+    "equipment_de": [
+      "Dampfkanone",
+      "Steam nietpistole",
+      "Maschinist Herrscher: Hand weapon"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Mahlende Räder",
+      "Immung gegen Psychologie",
+      "Aufpralltreffer (W6+1)",
+      "Großes Ziel",
+      "Dampfkraft",
+      "Stampfattacken (W3+1)",
+      "Launisch",
+      "Entsetzen",
+      "Unerschütterlich"
+    ],
+    "name_de": "Imperiales Steam Tank",
+    "name_fr": "Empire Canon Tank",
+    "unitCategory_fr": "Char",
+    "troopType_fr": "Char Lourd",
+    "equipment_fr": [
+      "Canon à Vapeur",
+      "Canon à",
+      "Ingénieur Commandeur: De lourde"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Roues Broyeuses",
+      "Immunisé à la Psychologie",
+      "Touches d'Impact (D6+1)",
+      "Grande Cible",
+      "Propulsion à Vapeur",
+      "Attaques de Piétinement (D3+1)",
+      "Susceptible",
+      "Terreur",
+      "Indémoralisable"
+    ],
+    "name_it": "Empire Cannone Tank",
+    "unitCategory_it": "Carro",
+    "troopType_it": "Carro Pesante",
+    "equipment_it": [
+      "Cannone Cannone",
+      "Cannone a",
+      "Ingegnere Comandante: Armi bianca"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Grinding Wheels",
+      "Immune alla Psicologia",
+      "Frecce Di (D6+1)",
+      "Bersaglio Grande",
+      "Cannone Power",
+      "Calpestamento Venefici (D3+1)",
+      "Temperamental",
+      "Terrore",
+      "Irriducibile"
     ]
   },
   {
@@ -657,6 +1104,50 @@
       "Duży Cel",
       "Stable Firing Platform",
       "Zdeptanie (D3+1)"
+    ],
+    "unitCategory_de": "Streitwagen",
+    "troopType_de": "Schwerer Streitwagen",
+    "equipment_de": [
+      "Kriegesmaschinen Wagon Haufen: Hand waffen prinz verschiedene waffen",
+      "Elfenross Warhorses: Eisenbeschlagene hufe (counts as ein hand weapon)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Schwergewichtig",
+      "Aufpralltreffer Hits (D6+1, Kriegesmaschinen Wagon leichenmeister)",
+      "Großes Ziel",
+      "Stabile Feuerplattform",
+      "Stampfattacken (W3+1)"
+    ],
+    "name_de": "Imperialer Kriegswagen",
+    "name_fr": "Chariot de Guerre de l'Empire",
+    "unitCategory_fr": "Char",
+    "troopType_fr": "Char Lourd",
+    "equipment_fr": [
+      "War Wagon Hétéroclite: De lourdes et assortiment lourdes",
+      "Destrier Supérieurs: Sabots squelettiques (counts comme un de lourde)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Poids Écrasant",
+      "Touches D'Impact (D6+1, War Wagon uniquement)",
+      "Grande Cible",
+      "Plate-Forme de Tir Stable",
+      "Attaques de Piétinement (D3+1)"
+    ],
+    "unitCategory_it": "Carro",
+    "troopType_it": "Carro Pesante",
+    "equipment_it": [
+      "War Wagon Crew: Armi bianche and assorted bianche",
+      "Cavallo Warhorses: Iron-shod hooves (counts come scelti armi bianca)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Crushing Weight",
+      "Frecce Di (D6+1, War Wagon only)",
+      "Bersaglio Grande",
+      "Stable Firing Platform",
+      "Calpestamento Venefici (D3+1)"
     ]
   },
   {
@@ -692,6 +1183,33 @@
     "specialRules_pl": [
       "Szybka Kawaleria",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Mount",
+    "troopType_de": "Leichte Kavallerie",
+    "equipment_de": [
+      "Eisenbeschlagene hufe (counts as ein hand weapon)"
+    ],
+    "specialRules_de": [
+      "Wendige Kavallerie",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Imperiales Schlachtross",
+    "name_fr": "Destrier de l'Empire",
+    "troopType_fr": "Cavalerie Légère",
+    "equipment_fr": [
+      "Sabots squelettiques (counts comme un de lourde)"
+    ],
+    "specialRules_fr": [
+      "Cavalerie Rapide",
+      "Rapide"
+    ],
+    "troopType_it": "Cavalleria Leggera",
+    "equipment_it": [
+      "Iron-shod hooves (counts come scelti armi bianca)"
+    ],
+    "specialRules_it": [
+      "Cavalleria Veloce",
+      "Passo Rapido"
     ]
   },
   {
@@ -755,6 +1273,55 @@
       "Impet",
       "Nienawiść (all enemies)",
       "Niezłomni"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Flegel"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Fanatischer Eifer",
+      "Verletzungen ignorieren",
+      "Rasender Angriff",
+      "Immung gegen Psychologie",
+      "Ungestüm",
+      "Hass (alle Feinde)",
+      "Unerschütterlich"
+    ],
+    "name_de": "Flagellanten",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Fléaux"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Zèle Fanatique",
+      "Insensibles à la Douleur",
+      "Charge Dévastatrice",
+      "Immunisé à la Psychologie",
+      "Impétueux",
+      "Haine (Tous les ennemis)",
+      "Indémoralisable"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Flails"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Fanatical Zeal",
+      "Feel Senza Pain",
+      "Furious Carica",
+      "Immune alla Psicologia",
+      "Impetuosi",
+      "Odio (all enemies)",
+      "Irriducibile"
     ]
   },
   {
@@ -812,6 +1379,47 @@
       "Levies",
       "Luźny Szyk",
       "Gromada"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Mixed waffen (counts as two hand waffen prinz throwing waffen)"
+    ],
+    "specialRules_de": [
+      "Abteilung",
+      "Geschlossene Ränge",
+      "Ungestüm",
+      "Gesindel",
+      "Offene Ränge",
+      "Kriegerschar"
+    ],
+    "name_de": "Freischärler",
+    "name_fr": "Milice des Franches Compagnies",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Unité lourdes (counts comme two de lourdes et throwing lourdes)"
+    ],
+    "specialRules_fr": [
+      "Détachement",
+      "Horde",
+      "Impétueux",
+      "Conscrits",
+      "Ordre Dispersé",
+      "Bande de Guerre"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Mixed bianche (counts come two armi bianche and throwing bianche)"
+    ],
+    "specialRules_it": [
+      "Distaccamento",
+      "Orda",
+      "Impetuosi",
+      "Levies",
+      "Formazione Aperta",
+      "Warband"
     ]
   },
   {
@@ -859,6 +1467,54 @@
       "Bojowy Okrzyk",
       "Strategic Mastery",
       "Nieugięty"
+    ],
+    "unitCategory_de": "Benannter Charakter",
+    "troopType_de": "Reguläre Infanterie, Benannter Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Plattenrüstung",
+      "Richtspruch",
+      "Greif Helm"
+    ],
+    "specialRules_de": [
+      "\"Haltet die Linie!\"",
+      "Söldnerkommandant",
+      "Sammelruf",
+      "Meisterlicher Stratege",
+      "Unnachgiebig"
+    ],
+    "name_de": "General Hans von Löwenhacke",
+    "name_fr": "Général Hans von Löwenhacke",
+    "unitCategory_fr": "Personnage nommé",
+    "troopType_fr": "Infanterie Régulière, Personnage nommé",
+    "equipment_fr": [
+      "Arme de base",
+      "Armure de plate complète",
+      "Jugement",
+      "Impérial Griffon"
+    ],
+    "specialRules_fr": [
+      "\"Tenez la Ligne!\"",
+      "Commandant Mercenaire",
+      "Cri de Ralliement",
+      "Maîtrise Stratégique",
+      "Obstiné"
+    ],
+    "name_it": "Generale Hans von Löwenhacke",
+    "unitCategory_it": "Personaggio nominato",
+    "troopType_it": "Fanteria Regolare, Personaggio nominato",
+    "equipment_it": [
+      "Arma Bianca",
+      "Armatura Completa",
+      "Judgement",
+      "Grifone Helm"
+    ],
+    "specialRules_it": [
+      "\"Hold le Line!\"",
+      "Mercenary Comandante",
+      "Grido di Battaglia",
+      "Strategic Mastery",
+      "Determinato"
     ]
   },
   {
@@ -896,6 +1552,39 @@
     "specialRules_pl": [
       "\"Hold the Line!\"",
       "Bojowy Okrzyk"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "\"Haltet die Linie!\"",
+      "Sammelruf"
+    ],
+    "name_de": "General des Imperiums",
+    "name_fr": "Général de l'Empire",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "\"Tenez la Ligne!\"",
+      "Cri de Ralliement"
+    ],
+    "name_it": "Generale di le Empire",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "\"Hold le Line!\"",
+      "Grido di Battaglia"
     ]
   },
   {
@@ -945,6 +1634,57 @@
       "Nieugięty",
       "Szybki Krok",
       "Veteran"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Schwere Kavallerie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Schwere Rüstung"
+    ],
+    "specialRules_de": [
+      "Gegenangriff",
+      "Erster Angriff",
+      "Immung gegen Psychologie",
+      "Meister der Schlachten",
+      "Sammelruf",
+      "Unnachgiebig",
+      "Schnelle Bewegung",
+      "Veteranen"
+    ],
+    "name_de": "Großmeister",
+    "name_fr": "Grand Maître",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Cavalerie Lourde, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "Armure lourde"
+    ],
+    "specialRules_fr": [
+      "Contre-charge",
+      "Première Charge",
+      "Immunisé à la Psychologie",
+      "Maître des Batailles",
+      "Cri de Ralliement",
+      "Obstiné",
+      "Rapide",
+      "Vétérans"
+    ],
+    "name_it": "Grand Signore",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Cavalleria Pesante, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "Armatura Pesante"
+    ],
+    "specialRules_it": [
+      "Controcarica",
+      "Prima Carica",
+      "Immune alla Psicologia",
+      "Signore di Stendardo",
+      "Grido di Battaglia",
+      "Determinato",
+      "Passo Rapido",
+      "Veterani"
     ]
   },
   {
@@ -994,6 +1734,34 @@
     ],
     "specialRules_pl": [
       "Harcownicy"
+    ],
+    "unitCategory_de": "War Machine",
+    "troopType_de": "Kriegsmaschine",
+    "equipment_de": [
+      "Großkanone",
+      "Handwaffen"
+    ],
+    "specialRules_de": [
+      "Plänkler"
+    ],
+    "name_de": "Chepesh Großkanone",
+    "name_fr": "Armes Canon",
+    "troopType_fr": "Machine de Guerre",
+    "equipment_fr": [
+      "Grand canon",
+      "Armes de base"
+    ],
+    "specialRules_fr": [
+      "Tirailleurs"
+    ],
+    "name_it": "Grandi Cannone",
+    "troopType_it": "Macchina da Guerra",
+    "equipment_it": [
+      "Grandi cannone",
+      "Armi Bianche"
+    ],
+    "specialRules_it": [
+      "Schermagliatori"
     ]
   },
   {
@@ -1041,6 +1809,54 @@
       "Zdeptanie (D3)",
       "Szybki Krok",
       "Groza"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Monströse Kreatur",
+    "equipment_de": [
+      "Boshafte Klauen",
+      "Serrated maul",
+      "Griffonic pelt (counts as schwere rüstung)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Fliegen (9)",
+      "Großes Ziel",
+      "Stampfattacken (W3)",
+      "Schnelle Bewegung",
+      "Entsetzen"
+    ],
+    "name_de": "Greif (Imperiales)",
+    "name_fr": "Impérial (Empire)",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Créature Monstrueuse",
+    "equipment_fr": [
+      "Griffes mortelles",
+      "Serrated pourrie",
+      "Griffonic pelt (counts comme armure légère)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Vol (9)",
+      "Grande Cible",
+      "Attaques de Piétinement (D3)",
+      "Rapide",
+      "Terreur"
+    ],
+    "name_it": "Grifone (Empire)",
+    "unitCategory_it": "Mostro",
+    "troopType_it": "Creatura Mostruosa",
+    "equipment_it": [
+      "Wicked decapitanti",
+      "Serrated maw",
+      "Griffonic pelt (counts come armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Volo (9)",
+      "Bersaglio Grande",
+      "Calpestamento (D3)",
+      "Passo Rapido",
+      "Terrore"
     ]
   },
   {
@@ -1116,6 +1932,73 @@
       "Nieugięty",
       "Szybki Krok",
       "Veteran"
+    ],
+    "unitCategory_de": "Benannter Charakter",
+    "troopType_de": "Schwere Kavallerie, Benannter Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Bestienschlächter",
+      "Plattenrüstung",
+      "Elfenross Schlachtross: Eisenbeschlagene hufe (counts as ein hand weapon) prinz rossharnische"
+    ],
+    "specialRules_de": [
+      "Gegenangriff",
+      "Erster Angriff",
+      "Grand Meister des der Inneren Herzens",
+      "Hass (Krieger des Chaos, Beastmen Brayherds & Daemonic models)",
+      "Immung gegen Psychologie",
+      "Magieresistenz (-1)",
+      "Meister der Schlachten",
+      "Sammelruf",
+      "Skilled Duellist",
+      "Unnachgiebig",
+      "Schnelle Bewegung",
+      "Veteranen"
+    ],
+    "name_de": "Harald Gemunsen",
+    "unitCategory_fr": "Personnage nommé",
+    "troopType_fr": "Cavalerie Lourde, Personnage nommé",
+    "equipment_fr": [
+      "Arme de base",
+      "Perce-Bête",
+      "Armure de plate complète",
+      "Destrier Caparaçonné: Sabots squelettiques (counts comme un de lourde) et caparaçon"
+    ],
+    "specialRules_fr": [
+      "Contre-charge",
+      "Première Charge",
+      "Grand Maître de la Loup Demigriffon",
+      "Haine (Guerriers de Chaos, Beastmen Brayherds & Dons models)",
+      "Immunisé à la Psychologie",
+      "Résistance à la Magie (-1)",
+      "Maître des Batailles",
+      "Cri de Ralliement",
+      "Skilled Duellist",
+      "Obstiné",
+      "Rapide",
+      "Vétérans"
+    ],
+    "unitCategory_it": "Personaggio nominato",
+    "troopType_it": "Cavalleria Pesante, Personaggio nominato",
+    "equipment_it": [
+      "Arma Bianca",
+      "Beast Reaver",
+      "Armatura Completa",
+      "Cavallo Warhorse: Iron-shod hooves (counts come scelti armi bianca) and bardatura"
+    ],
+    "specialRules_it": [
+      "Controcarica",
+      "Prima Carica",
+      "Grand Signore di le Knights Panther",
+      "Odio (Scheletri di Chaos, Beastmen Brayherds & Daemonic models)",
+      "Immune alla Psicologia",
+      "Resistenza alla Magia (-1)",
+      "Signore di Stendardo",
+      "Grido di Battaglia",
+      "Skilled Duellist",
+      "Determinato",
+      "Passo Rapido",
+      "Veterani"
     ]
   },
   {
@@ -1162,6 +2045,54 @@
       "Nienawiść (all enemies)",
       "Prayer of the Damned",
       "Niezłomni",
+      "Zealot"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Verletzungen ignorieren",
+      "Rasender Angriff",
+      "Immung gegen Psychologie",
+      "Ungestüm",
+      "Hass (alle Feinde)",
+      "Gebet der Verdammten",
+      "Unerschütterlich",
+      "Eiferer"
+    ],
+    "name_de": "Sendbote des Untergangs",
+    "name_fr": "Émissaire de la Fin",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Insensibles à la Douleur",
+      "Charge Dévastatrice",
+      "Immunisé à la Psychologie",
+      "Impétueux",
+      "Haine (Tous les ennemis)",
+      "Prière des Damnés",
+      "Indémoralisable",
+      "Zélote"
+    ],
+    "name_it": "Harbinger di Destino",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Feel Senza Pain",
+      "Furious Carica",
+      "Immune alla Psicologia",
+      "Impetuosi",
+      "Odio (all enemies)",
+      "Prayer di le Damned",
+      "Irriducibile",
       "Zealot"
     ]
   },
@@ -1212,6 +2143,34 @@
     ],
     "specialRules_pl": [
       "Harcownicy"
+    ],
+    "unitCategory_de": "War Machine",
+    "troopType_de": "Kriegsmaschine",
+    "equipment_de": [
+      "Höllenfeuer-Salvenkanone",
+      "Handwaffen"
+    ],
+    "specialRules_de": [
+      "Plänkler"
+    ],
+    "name_de": "Höllenfeuer-Salvenkanone",
+    "name_fr": "Canon à Répétition Feu d'Enfer",
+    "troopType_fr": "Machine de Guerre",
+    "equipment_fr": [
+      "Canon à Répétition Feu d'Enfer",
+      "Armes de base"
+    ],
+    "specialRules_fr": [
+      "Tirailleurs"
+    ],
+    "name_it": "Helblaster Volley A",
+    "troopType_it": "Macchina da Guerra",
+    "equipment_it": [
+      "Helblaster Volley A",
+      "Armi Bianche"
+    ],
+    "specialRules_it": [
+      "Schermagliatori"
     ]
   },
   {
@@ -1261,6 +2220,33 @@
     ],
     "specialRules_pl": [
       "Harcownicy"
+    ],
+    "unitCategory_de": "War Machine",
+    "troopType_de": "Kriegsmaschine",
+    "equipment_de": [
+      "Höllensturm-Raketenlafette",
+      "Handwaffen"
+    ],
+    "specialRules_de": [
+      "Plänkler"
+    ],
+    "name_de": "Höllensturm-Raketenlafette",
+    "name_fr": "Batterie Tonnerre de Feu",
+    "troopType_fr": "Machine de Guerre",
+    "equipment_fr": [
+      "Batterie Tonnerre de Feu",
+      "Armes de base"
+    ],
+    "specialRules_fr": [
+      "Tirailleurs"
+    ],
+    "troopType_it": "Macchina da Guerra",
+    "equipment_it": [
+      "Helstorm Rocket Battery",
+      "Armi Bianche"
+    ],
+    "specialRules_it": [
+      "Schermagliatori"
     ]
   },
   {
@@ -1300,6 +2286,42 @@
       "Magiczne Ataki",
       "Odporność Na Magię (-1)",
       "Prayers of Ulric"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Magische Attacken",
+      "Magieresistenz (-1)",
+      "Gebete des Ulric"
+    ],
+    "name_de": "Hohepriester des Ulric",
+    "name_fr": "Grand Prêtre d'Ulric",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "Attaques Magiques",
+      "Résistance à la Magie (-1)",
+      "Prières d'Ulric"
+    ],
+    "name_it": "High Liche di Ulric",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Magical Venefici",
+      "Resistenza alla Magia (-1)",
+      "Prayers di Ulric"
     ]
   },
   {
@@ -1347,6 +2369,53 @@
       "Zdeptanie (D3+1)",
       "Szybki Krok",
       "Groza"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Behemoth",
+    "equipment_de": [
+      "Boshafte Klauen",
+      "Serrated maul",
+      "Griffonic pelt (counts as schwere rüstung)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Fliegen (9)",
+      "Großes Ziel",
+      "Stampfattacken (W3+1)",
+      "Schnelle Bewegung",
+      "Entsetzen"
+    ],
+    "name_de": "Imperialer Greif",
+    "name_fr": "Griffon Impérial",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Griffes mortelles",
+      "Serrated pourrie",
+      "Griffonic pelt (counts comme armure légère)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Vol (9)",
+      "Grande Cible",
+      "Attaques de Piétinement (D3+1)",
+      "Rapide",
+      "Terreur"
+    ],
+    "name_it": "Imperial Grifone",
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Wicked decapitanti",
+      "Serrated maw",
+      "Griffonic pelt (counts come armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Volo (9)",
+      "Bersaglio Grande",
+      "Calpestamento Venefici (D3+1)",
+      "Passo Rapido",
+      "Terrore"
     ]
   },
   {
@@ -1408,6 +2477,53 @@
       "Mercenaries",
       "Zbieranina",
       "Ogr Charge"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Monströse Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Rüstungsfluch (1)",
+      "Geschlossene Ränge",
+      "Angst",
+      "Aufpralltreffer (1)",
+      "Söldner",
+      "Zusammengewürfelter Haufen",
+      "Ogerangriff"
+    ],
+    "name_de": "Imperiale Oger",
+    "name_fr": "Ogres Impériaux",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Monstrueuse",
+    "equipment_fr": [
+      "Armes de base",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "Arme Perforante (1)",
+      "Ordre Serré",
+      "Peur",
+      "Touches d'Impact (1)",
+      "Mercenaires",
+      "Bande Hétéroclite",
+      "Charge Ogre"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Mostruosa",
+    "equipment_it": [
+      "Armi Bianche",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Rottura dell’Armatura (1)",
+      "Formazione Serrata",
+      "Paura",
+      "Colpi da Impatto (1)",
+      "Può",
+      "Equipaggiamento Eterogeneo",
+      "Ogre Carica"
     ]
   },
   {
@@ -1481,6 +2597,53 @@
       "Inner Circle",
       "Szybki Krok",
       "Veteran"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Schwere Kavallerie",
+    "equipment_de": [
+      "Innerer Zirkel Inneren: Hand waffen, full plate rüstung prinz schilde",
+      "Elfenross Schlachtross: Eisenbeschlagene hufe (counts as ein hand weapon) prinz rossharnische"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Gegenangriff",
+      "Gut ausgebildet",
+      "Erster Angriff",
+      "Innerer Zirkel",
+      "Schnelle Bewegung",
+      "Veteranen"
+    ],
+    "name_de": "Ritter des Inneren Zirkels",
+    "name_fr": "Chevaliers du Cercle Intérieur",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Lourde",
+    "equipment_fr": [
+      "Cercle Intérieur Loup: De lourdes, full plate légère et boucliers",
+      "Destrier Caparaçonné: Sabots squelettiques (counts comme un de lourde) et caparaçon"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Contre-charge",
+      "Bien Entraînés",
+      "Première Charge",
+      "Cercle Intérieur",
+      "Rapide",
+      "Vétérans"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Pesante",
+    "equipment_it": [
+      "Inner Circle Knights: Armi bianche, full plate pesante and scudi",
+      "Cavallo Warhorse: Iron-shod hooves (counts come scelti armi bianca) and bardatura"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Controcarica",
+      "Addestrati",
+      "Prima Carica",
+      "Inner Circle",
+      "Passo Rapido",
+      "Veterani"
     ]
   },
   {
@@ -1520,6 +2683,42 @@
       "Magiczne Ataki",
       "Odporność Na Magię (-1)",
       "Prayers of Sigmar"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Magische Attacken",
+      "Magieresistenz (-1)",
+      "Gebete des Sigmar"
+    ],
+    "name_de": "Lektor des Sigmar",
+    "name_fr": "Archidiacre de Sigmar",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "Attaques Magiques",
+      "Résistance à la Magie (-1)",
+      "Prières de Sigmar"
+    ],
+    "name_it": "Lector di Sigmar",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Magical Venefici",
+      "Resistenza alla Magia (-1)",
+      "Prayers di Sigmar"
     ]
   },
   {
@@ -1563,6 +2762,36 @@
     "specialRules_pl": [
       "Magiczne Ataki",
       "Odporność Na Magię (-1)"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Magische Attacken",
+      "Magieresistenz (-1)"
+    ],
+    "name_de": "Kampfzauberer",
+    "name_fr": "Maître Mage",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Attaques Magiques",
+      "Résistance à la Magie (-1)"
+    ],
+    "name_it": "Signore Dragone",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Magical Venefici",
+      "Resistenza alla Magia (-1)"
     ]
   },
   {
@@ -1612,6 +2841,33 @@
     ],
     "specialRules_pl": [
       "Harcownicy"
+    ],
+    "unitCategory_de": "War Machine",
+    "troopType_de": "Kriegsmaschine",
+    "equipment_de": [
+      "Mörser",
+      "Handwaffen"
+    ],
+    "specialRules_de": [
+      "Plänkler"
+    ],
+    "name_de": "Mörser",
+    "name_fr": "Mortier",
+    "troopType_fr": "Machine de Guerre",
+    "equipment_fr": [
+      "Mortier",
+      "Armes de base"
+    ],
+    "specialRules_fr": [
+      "Tirailleurs"
+    ],
+    "troopType_it": "Macchina da Guerra",
+    "equipment_it": [
+      "Mortar",
+      "Armi Bianche"
+    ],
+    "specialRules_it": [
+      "Schermagliatori"
     ]
   },
   {
@@ -1664,6 +2920,40 @@
     "specialRules_pl": [
       "Zwarty Szyk",
       "Oddział",
+      "Nuln State Troops"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Musketen"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Abteilung",
+      "Nulner Staatstruppen"
+    ],
+    "name_fr": "Troupes Régulières Missile De",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Arquebuses"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Détachement",
+      "Troupes Régulières de Nuln"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Archibugio"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Distaccamento",
       "Nuln State Troops"
     ]
   },
@@ -1722,6 +3012,47 @@
       "Horda",
       "Nuln State Troops",
       "Jednostka Regimentowa"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Hellebarden",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Geschlossene Ränge",
+      "Nulner Staatstruppen",
+      "Hauptregiment"
+    ],
+    "name_de": "Nulner Staatstruppen",
+    "name_fr": "Troupes Régulières de Nuln",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Hallebardes",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Horde",
+      "Troupes Régulières de Nuln",
+      "Unité Régimentaire"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Alabarde",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Orda",
+      "Nuln State Troops",
+      "Unità Madre"
     ]
   },
   {
@@ -1778,6 +3109,46 @@
       "Zwarty Szyk",
       "Oddział",
       "Horda",
+      "Nuln State Troops"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Leichte Rüstung",
+      "Schilde"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Abteilung",
+      "Geschlossene Ränge",
+      "Nulner Staatstruppen"
+    ],
+    "name_fr": "Troupes Swordsmen",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Armure légère",
+      "Boucliers"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Détachement",
+      "Horde",
+      "Troupes Régulières de Nuln"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Armatura Leggera",
+      "Scudi"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Distaccamento",
+      "Orda",
       "Nuln State Troops"
     ]
   },
@@ -1838,6 +3209,51 @@
       "Nuln State Troops",
       "Jednostka Regimentowa",
       "Veteran"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Hellebarden",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Geschlossene Ränge",
+      "Nulner Staatstruppen",
+      "Hauptregiment",
+      "Veteranen"
+    ],
+    "name_de": "Nulner Staatstruppen-Veteranen",
+    "name_fr": "Vétérans des Troupes Régulières de Nuln",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Hallebardes",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Horde",
+      "Troupes Régulières de Nuln",
+      "Unité Régimentaire",
+      "Vétérans"
+    ],
+    "name_it": "Nuln Veterani State Troops",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Alabarde",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Orda",
+      "Nuln State Troops",
+      "Unità Madre",
+      "Veterani"
     ]
   },
   {
@@ -1909,6 +3325,50 @@
       "Harcownicy",
       "Szybki Krok",
       "Awangarda"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Leichte Kavallerie",
+    "equipment_de": [
+      "Schützenreiter: Hand waffen, pistole, repeater musketen prinz schwere rüstung",
+      "Imperiales Schlachtross: Eisenbeschlagene hufe (counts as ein hand weapon)"
+    ],
+    "specialRules_de": [
+      "Wendige Kavallerie",
+      "Schießen und Verschwinden",
+      "Offene Ränge",
+      "Plänkler",
+      "Schnelle Bewegung",
+      "Vorhut"
+    ],
+    "name_de": "Schützenreiter",
+    "name_fr": "Escorteurs",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Légère",
+    "equipment_fr": [
+      "Escorteurs: De lourdes, ogres, baliste arquebuses et armure légère",
+      "Empire Caparaçonné: Sabots squelettiques (counts comme un de lourde)"
+    ],
+    "specialRules_fr": [
+      "Cavalerie Rapide",
+      "Tir & Fuite",
+      "Ordre Dispersé",
+      "Tirailleurs",
+      "Rapide",
+      "Avant-garde"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Leggera",
+    "equipment_it": [
+      "Outriders: Armi bianche, pistole, repeater archibugio and armatura pesante",
+      "Empire Warhorse: Iron-shod hooves (counts come scelti armi bianca)"
+    ],
+    "specialRules_it": [
+      "Cavalleria Veloce",
+      "Tirare e Fuggire",
+      "Formazione Aperta",
+      "Schermagliatori",
+      "Passo Rapido",
+      "Avanguardia"
     ]
   },
   {
@@ -1948,6 +3408,39 @@
       "Pierwsza Szarża",
       "Lot (10)",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Mount",
+    "troopType_de": "Monströse Kavallerie",
+    "equipment_de": [
+      "Eisenbeschlagene hufe (counts as ein hand weapon)"
+    ],
+    "specialRules_de": [
+      "Gegenangriff",
+      "Erster Angriff",
+      "Fliegen (10)",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Pegasus",
+    "name_fr": "Pégase",
+    "troopType_fr": "Cavalerie Monstrueuse",
+    "equipment_fr": [
+      "Sabots squelettiques (counts comme un de lourde)"
+    ],
+    "specialRules_fr": [
+      "Contre-charge",
+      "Première Charge",
+      "Vol (10)",
+      "Rapide"
+    ],
+    "troopType_it": "Cavalleria Mostruosa",
+    "equipment_it": [
+      "Iron-shod hooves (counts come scelti armi bianca)"
+    ],
+    "specialRules_it": [
+      "Controcarica",
+      "Prima Carica",
+      "Volo (10)",
+      "Passo Rapido"
     ]
   },
   {
@@ -2021,6 +3514,52 @@
       "Luźny Szyk",
       "Harcownicy",
       "Szybki Krok"
+    ],
+    "unitCategory_de": "Kavallerie",
+    "troopType_de": "Leichte Kavallerie",
+    "equipment_de": [
+      "Pistoliere: Hand waffen, brace des pistole prinz schwere rüstung",
+      "Imperiales Schlachtross: Eisenbeschlagene hufe (counts as ein hand weapon)"
+    ],
+    "specialRules_de": [
+      "Gegenangriff",
+      "Wendige Kavallerie",
+      "Schießen und Verschwinden",
+      "Ungestüm",
+      "Offene Ränge",
+      "Plänkler",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Pistoliere",
+    "unitCategory_fr": "Cavalerie",
+    "troopType_fr": "Cavalerie Légère",
+    "equipment_fr": [
+      "Pistoliers: De lourdes, paire de ogres et armure légère",
+      "Empire Caparaçonné: Sabots squelettiques (counts comme un de lourde)"
+    ],
+    "specialRules_fr": [
+      "Contre-charge",
+      "Cavalerie Rapide",
+      "Tir & Fuite",
+      "Impétueux",
+      "Ordre Dispersé",
+      "Tirailleurs",
+      "Rapide"
+    ],
+    "unitCategory_it": "Cavalleria",
+    "troopType_it": "Cavalleria Leggera",
+    "equipment_it": [
+      "Pistoliers: Armi bianche, coppia di pistole and armatura pesante",
+      "Empire Warhorse: Iron-shod hooves (counts come scelti armi bianca)"
+    ],
+    "specialRules_it": [
+      "Controcarica",
+      "Cavalleria Veloce",
+      "Tirare e Fuggire",
+      "Impetuosi",
+      "Formazione Aperta",
+      "Schermagliatori",
+      "Passo Rapido"
     ]
   },
   {
@@ -2060,6 +3599,42 @@
       "Magiczne Ataki",
       "Odporność Na Magię (-1)",
       "Prayers of Sigmar"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Magische Attacken",
+      "Magieresistenz (-1)",
+      "Gebete des Sigmar"
+    ],
+    "name_de": "Priester des Sigmar",
+    "name_fr": "Prêtre de Sigmar",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "Attaques Magiques",
+      "Résistance à la Magie (-1)",
+      "Prières de Sigmar"
+    ],
+    "name_it": "Liche di Sigmar",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Magical Venefici",
+      "Resistenza alla Magia (-1)",
+      "Prayers di Sigmar"
     ]
   },
   {
@@ -2099,6 +3674,42 @@
       "Magiczne Ataki",
       "Odporność Na Magię (-1)",
       "Prayers of Ulric"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Magische Attacken",
+      "Magieresistenz (-1)",
+      "Gebete des Ulric"
+    ],
+    "name_de": "Priester des Ulric",
+    "name_fr": "Prêtre d'Ulric",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "Attaques Magiques",
+      "Résistance à la Magie (-1)",
+      "Prières d'Ulric"
+    ],
+    "name_it": "Liche di Ulric",
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Magical Venefici",
+      "Resistenza alla Magia (-1)",
+      "Prayers di Ulric"
     ]
   },
   {
@@ -2152,6 +3763,41 @@
       "Zwarty Szyk",
       "Oddział",
       "Jednostka Regimentowa"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Armbrust"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Abteilung",
+      "Hauptregiment"
+    ],
+    "name_de": "Staatstruppen-Schützen",
+    "name_fr": "Troupes de Tir de l'Empire",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Arbalètes"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Détachement",
+      "Unité Régimentaire"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Balestra"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Distaccamento",
+      "Unità Madre"
     ]
   },
   {
@@ -2207,6 +3853,44 @@
       "Oddział",
       "Horda",
       "Jednostka Regimentowa"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Abteilung",
+      "Geschlossene Ränge",
+      "Hauptregiment"
+    ],
+    "name_de": "Staatstruppen",
+    "name_fr": "Troupes Régulières",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Détachement",
+      "Horde",
+      "Unité Régimentaire"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Distaccamento",
+      "Orda",
+      "Unità Madre"
     ]
   },
   {
@@ -2266,6 +3950,50 @@
       "Drilled",
       "Nieugięty",
       "Veteran"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Schwere Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Wolfshämmer",
+      "Plattenrüstung"
+    ],
+    "specialRules_de": [
+      "Ulrics Segen",
+      "Geschlossene Ränge",
+      "Gut ausgebildet",
+      "Unnachgiebig",
+      "Veteranen"
+    ],
+    "name_de": "Teutogengarde",
+    "name_fr": "Garde Teutogène",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Lourde",
+    "equipment_fr": [
+      "Armes de base",
+      "Marteaux du loup",
+      "Armure de plate complète"
+    ],
+    "specialRules_fr": [
+      "Bénédiction d'Ulric",
+      "Ordre Serré",
+      "Bien Entraînés",
+      "Obstiné",
+      "Vétérans"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Pesante",
+    "equipment_it": [
+      "Armi Bianche",
+      "Wolf martelli",
+      "Armatura Completa"
+    ],
+    "specialRules_it": [
+      "Blessings di Ulric",
+      "Formazione Serrata",
+      "Addestrati",
+      "Determinato",
+      "Veterani"
     ]
   },
   {
@@ -2323,6 +4051,48 @@
       "Horda",
       "Jednostka Regimentowa",
       "Veteran"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Reguläre Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Abteilung",
+      "Geschlossene Ränge",
+      "Hauptregiment",
+      "Veteranen"
+    ],
+    "name_de": "Staatstruppen-Veteranen",
+    "name_fr": "Vétérans des Troupes Régulières",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Régulière",
+    "equipment_fr": [
+      "Armes de base",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Détachement",
+      "Horde",
+      "Unité Régimentaire",
+      "Vétérans"
+    ],
+    "name_it": "Veterani State Troops",
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Regolare",
+    "equipment_it": [
+      "Armi Bianche",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Distaccamento",
+      "Orda",
+      "Unità Madre",
+      "Veterani"
     ]
   },
   {
@@ -2388,6 +4158,60 @@
       "Symbol of Might",
       "Groza",
       "Witch Bane"
+    ],
+    "unitCategory_de": "Streitwagen",
+    "troopType_de": "Schwerer Streitwagen",
+    "equipment_de": [
+      "Warhorses: Eisenbeschlagene hufe (counts as ein hand weapon)"
+    ],
+    "specialRules_de": [
+      "Geschlossene Ränge",
+      "Erster Angriff",
+      "Holy Fervour",
+      "Aufpralltreffer (W6+1)",
+      "Großes Ziel",
+      "Magieresistenz (-2)",
+      "Unnachgiebig",
+      "Symbol des Might",
+      "Entsetzen",
+      "Hexe Bane"
+    ],
+    "name_de": "Kriegsaltar des Sigmar",
+    "name_fr": "Autel de Guerre de Sigmar",
+    "unitCategory_fr": "Char",
+    "troopType_fr": "Char Lourd",
+    "equipment_fr": [
+      "Supérieurs: Sabots squelettiques (counts comme un de lourde)"
+    ],
+    "specialRules_fr": [
+      "Ordre Serré",
+      "Première Charge",
+      "Holy Fervour",
+      "Touches d'Impact (D6+1)",
+      "Grande Cible",
+      "Résistance à la Magie (-2)",
+      "Obstiné",
+      "Symbol de Might",
+      "Terreur",
+      "Sorcières Perforante"
+    ],
+    "name_it": "War Altar di Sigmar",
+    "unitCategory_it": "Carro",
+    "troopType_it": "Carro Pesante",
+    "equipment_it": [
+      "Warhorses: Iron-shod hooves (counts come scelti armi bianca)"
+    ],
+    "specialRules_it": [
+      "Formazione Serrata",
+      "Prima Carica",
+      "Holy Fervour",
+      "Frecce Di (D6+1)",
+      "Bersaglio Grande",
+      "Resistenza alla Magia (-2)",
+      "Determinato",
+      "Symbol di Might",
+      "Terrore",
+      "Witch Dell’Armatura"
     ]
   },
   {
@@ -2427,6 +4251,41 @@
       "Odporność Na Psychologię",
       "Killing Blow",
       "Suffer Not..."
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Immung gegen Psychologie",
+      "Todesstoss",
+      "Dulde nicht..."
+    ],
+    "name_de": "Hexenjäger",
+    "name_fr": "Répurgateur",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "Immunisé à la Psychologie",
+      "Coup Fatal",
+      "Ne Tolérez Pas..."
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Immune alla Psicologia",
+      "Colpo Mortale",
+      "Suffer Si..."
     ]
   },
   {
@@ -2470,6 +4329,35 @@
     "specialRules_pl": [
       "Magiczne Ataki",
       "Odporność Na Magię (-1)"
+    ],
+    "unitCategory_de": "Charakter",
+    "troopType_de": "Reguläre Infanterie, Charakter",
+    "equipment_de": [
+      "Handwaffe"
+    ],
+    "specialRules_de": [
+      "Magische Attacken",
+      "Magieresistenz (-1)"
+    ],
+    "name_de": "Meistermagier",
+    "name_fr": "Seigneur Sorcier",
+    "unitCategory_fr": "Personnage",
+    "troopType_fr": "Infanterie Régulière, Personnage",
+    "equipment_fr": [
+      "Arme de base"
+    ],
+    "specialRules_fr": [
+      "Attaques Magiques",
+      "Résistance à la Magie (-1)"
+    ],
+    "unitCategory_it": "Personaggio",
+    "troopType_it": "Fanteria Regolare, Personaggio",
+    "equipment_it": [
+      "Arma Bianca"
+    ],
+    "specialRules_it": [
+      "Magical Venefici",
+      "Resistenza alla Magia (-1)"
     ]
   }
 ]

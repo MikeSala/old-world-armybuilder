@@ -29,6 +29,30 @@
     ],
     "equipment_pl": [
       "Staff, Robes"
+    ],
+    "unitCategory_de": "Hero",
+    "troopType_de": "Infanterie",
+    "equipment_de": [
+      "Staff, Robes"
+    ],
+    "specialRules_de": [
+      "Zauberer",
+      "Magische Resistance"
+    ],
+    "name_de": "Erzmagier",
+    "name_fr": "Archimage",
+    "troopType_fr": "Infanterie",
+    "equipment_fr": [
+      "Le, Robes"
+    ],
+    "specialRules_fr": [
+      "Sorcier",
+      "Objets Magie"
+    ],
+    "troopType_it": "Fanteria",
+    "specialRules_it": [
+      "Wizard",
+      "Oggetti Resistance"
     ]
   },
   {
@@ -56,6 +80,26 @@
     ],
     "equipment_pl": [
       "Sword, Shield, Zbroja"
+    ],
+    "unitCategory_de": "Hero",
+    "troopType_de": "Infanterie",
+    "equipment_de": [
+      "Schwert, Schild, Rüstung"
+    ],
+    "specialRules_de": [
+      "Leadership +1",
+      "Inspiring"
+    ],
+    "name_de": "Prinz",
+    "name_fr": "Démon",
+    "troopType_fr": "Infanterie",
+    "equipment_fr": [
+      "Épée, Bouclier, Légère"
+    ],
+    "name_it": "Principe",
+    "troopType_it": "Fanteria",
+    "equipment_it": [
+      "Sword, Scudo, Pesante"
     ]
   },
   {
@@ -83,6 +127,34 @@
     ],
     "equipment_pl": [
       "Lances, Swords, Zbroja"
+    ],
+    "unitCategory_de": "Core",
+    "troopType_de": "Kavallerie",
+    "equipment_de": [
+      "Lanzen, Schwerter, Rüstung"
+    ],
+    "specialRules_de": [
+      "Schnelle Bewegung",
+      "Schild"
+    ],
+    "name_de": "Silberhelme",
+    "name_fr": "Heaumes d'Argent",
+    "troopType_fr": "Cavalerie",
+    "equipment_fr": [
+      "Cathayennes, Épées, Légère"
+    ],
+    "specialRules_fr": [
+      "Rapide",
+      "Bouclier"
+    ],
+    "name_it": "Elmi D'Argento",
+    "troopType_it": "Cavalleria",
+    "equipment_it": [
+      "Lances, Swords, Pesante"
+    ],
+    "specialRules_it": [
+      "Passo Rapido",
+      "Scudo"
     ]
   },
   {
@@ -108,6 +180,30 @@
     ],
     "equipment_pl": [
       "Spears, Shields"
+    ],
+    "unitCategory_de": "Core",
+    "troopType_de": "Infanterie",
+    "equipment_de": [
+      "Spear, Schilde"
+    ],
+    "specialRules_de": [
+      "Schildwall"
+    ],
+    "name_de": "Speerträger",
+    "name_fr": "Elfiques",
+    "troopType_fr": "Infanterie",
+    "equipment_fr": [
+      "D'infanterie, Boucliers"
+    ],
+    "specialRules_fr": [
+      "Mur de Boucliers"
+    ],
+    "troopType_it": "Fanteria",
+    "equipment_it": [
+      "Leggera, Scudi"
+    ],
+    "specialRules_it": [
+      "Muro di Scudi"
     ]
   },
   {
@@ -135,6 +231,34 @@
     ],
     "equipment_pl": [
       "Swords, Zbroja"
+    ],
+    "unitCategory_de": "Special",
+    "troopType_de": "Infanterie",
+    "equipment_de": [
+      "Schwerter, Rüstung"
+    ],
+    "specialRules_de": [
+      "Schnelle Bewegung",
+      "Parry"
+    ],
+    "name_de": "Schwertmeister von Hoeth",
+    "name_fr": "Maîtres des Épées de Hoeth",
+    "troopType_fr": "Infanterie",
+    "equipment_fr": [
+      "Épées, Légère"
+    ],
+    "specialRules_fr": [
+      "Rapide",
+      "Parade"
+    ],
+    "name_it": "Maestri di Spada di Hoeth",
+    "troopType_it": "Fanteria",
+    "equipment_it": [
+      "Swords, Pesante"
+    ],
+    "specialRules_it": [
+      "Passo Rapido",
+      "Parry"
     ]
   },
   {
@@ -162,6 +286,34 @@
     ],
     "equipment_pl": [
       "Halberds, Zbroja"
+    ],
+    "unitCategory_de": "Special",
+    "troopType_de": "Infanterie",
+    "equipment_de": [
+      "Hellebarden, Rüstung"
+    ],
+    "specialRules_de": [
+      "Schildwall",
+      "Fearless"
+    ],
+    "name_de": "Phönixgarde",
+    "name_fr": "Garde Phénix",
+    "troopType_fr": "Infanterie",
+    "equipment_fr": [
+      "Hallebardes, Légère"
+    ],
+    "specialRules_fr": [
+      "Mur de Boucliers",
+      "Fearless"
+    ],
+    "name_it": "Di Guard",
+    "troopType_it": "Fanteria",
+    "equipment_it": [
+      "Alabarde, Pesante"
+    ],
+    "specialRules_it": [
+      "Muro di Scudi",
+      "Fearless"
     ]
   },
   {
@@ -189,6 +341,34 @@
     ],
     "equipment_pl": [
       "Lances, Swords, Zbroja"
+    ],
+    "unitCategory_de": "Special",
+    "troopType_de": "Kavallerie",
+    "equipment_de": [
+      "Lanzen, Schwerter, Rüstung"
+    ],
+    "specialRules_de": [
+      "Schnelle Bewegung",
+      "Fearless"
+    ],
+    "name_de": "Drachenprinzen",
+    "name_fr": "Princes Dragons",
+    "troopType_fr": "Cavalerie",
+    "equipment_fr": [
+      "Cathayennes, Épées, Légère"
+    ],
+    "specialRules_fr": [
+      "Rapide",
+      "Fearless"
+    ],
+    "name_it": "Principi Drago",
+    "troopType_it": "Cavalleria",
+    "equipment_it": [
+      "Lances, Swords, Pesante"
+    ],
+    "specialRules_it": [
+      "Passo Rapido",
+      "Fearless"
     ]
   },
   {
@@ -216,6 +396,33 @@
     ],
     "equipment_pl": [
       "Bows, Swords, Lekka Zbroja"
+    ],
+    "unitCategory_de": "Special",
+    "troopType_de": "Kavallerie",
+    "equipment_de": [
+      "Bögen, Schwerter, Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Skirmish",
+      "Schnelle Bewegung"
+    ],
+    "name_de": "Ellyrianische Grenzreiter",
+    "name_fr": "Patrouilleurs Ellyriens",
+    "troopType_fr": "Cavalerie",
+    "equipment_fr": [
+      "Bows, Épées, Armure Légère"
+    ],
+    "specialRules_fr": [
+      "De",
+      "Rapide"
+    ],
+    "troopType_it": "Cavalleria",
+    "equipment_it": [
+      "Bows, Swords, Armatura Pesante"
+    ],
+    "specialRules_it": [
+      "Skirmish",
+      "Passo Rapido"
     ]
   },
   {
@@ -243,6 +450,23 @@
     ],
     "equipment_pl": [
       "Swords, Shields, Zbroja"
+    ],
+    "unitCategory_de": "Rare",
+    "troopType_de": "Infanterie",
+    "equipment_de": [
+      "Schwerter, Schilde, Rüstung"
+    ],
+    "specialRules_de": [
+      "Fearless",
+      "Inspiring"
+    ],
+    "troopType_fr": "Infanterie",
+    "equipment_fr": [
+      "Épées, Boucliers, Légère"
+    ],
+    "troopType_it": "Fanteria",
+    "equipment_it": [
+      "Swords, Scudi, Pesante"
     ]
   },
   {
@@ -272,6 +496,37 @@
     ],
     "equipment_pl": [
       "Greatswords, Zbroja"
+    ],
+    "unitCategory_de": "Rare",
+    "troopType_de": "Infanterie",
+    "equipment_de": [
+      "Bihandkämpfer, Rüstung"
+    ],
+    "specialRules_de": [
+      "Fearless",
+      "Schnelle Bewegung",
+      "Parry"
+    ],
+    "name_de": "Weiße Löwen von Chrace",
+    "name_fr": "Lions Blancs de Chrace",
+    "troopType_fr": "Infanterie",
+    "equipment_fr": [
+      "Greatswords, Légère"
+    ],
+    "specialRules_fr": [
+      "Fearless",
+      "Rapide",
+      "Parade"
+    ],
+    "name_it": "Leoni Bianchi di Chrace",
+    "troopType_it": "Fanteria",
+    "equipment_it": [
+      "Greatswords, Pesante"
+    ],
+    "specialRules_it": [
+      "Fearless",
+      "Passo Rapido",
+      "Parry"
     ]
   }
 ]
