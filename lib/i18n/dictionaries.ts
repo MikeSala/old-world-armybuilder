@@ -2,6 +2,9 @@
 export type LocaleDictionary = {
   heroTitle: string;
   heroDescription: string;
+  landingTitle: string;
+  landingDescription: string;
+  landingFactionHeading: string;
   rosterButton: string;
   switchLabel: string;
   localeName: string;
@@ -186,6 +189,10 @@ const dictionaries = {
     heroTitle: "Kreator armii Warhammera",
     heroDescription:
       "Witaj! Projekt dopiero startuje — w kolejnych krokach dodamy kreator rozpisek i zapis armii. Na razie rozgość się i sprawdź, co planujemy.",
+    landingTitle: "Warhammer Old World - Wyszukiwarka i Kreator Armii",
+    landingDescription:
+      "Wygodny sposób na wyszukanie statystyk jednostek i stworzenie armii do gry w Warhammer Old World",
+    landingFactionHeading: "Wybierz frakcję",
     rosterButton: "Nowa rozpiska",
     switchLabel: "Przełącz na wersję angielską",
     localeName: "PL",
@@ -364,6 +371,10 @@ const dictionaries = {
     heroTitle: "Warhammer Army Builder",
     heroDescription:
       "Welcome! We're just getting started—soon you'll build and save your army lists. For now, take a look at what's coming.",
+    landingTitle: "Warhammer Old World - Unit Search and Army Builder",
+    landingDescription:
+      "An easy way to find unit stats and build an army for Warhammer Old World",
+    landingFactionHeading: "Choose your faction",
     rosterButton: "Create new roster",
     switchLabel: "Przełącz na polską wersję",
     localeName: "EN",
@@ -541,6 +552,10 @@ const dictionaries = {
     heroTitle: "Warhammer Armee-Builder",
     heroDescription:
       "Willkommen! Wir starten gerade – bald kannst du deine Armeelisten erstellen. Schau dir an, was kommt.",
+    landingTitle: "Warhammer Old World - Einheitensuche und Armee-Builder",
+    landingDescription:
+      "Ein bequemer Weg, Einheitenwerte zu finden und eine Armee für Warhammer Old World zu erstellen",
+    landingFactionHeading: "Wähle deine Fraktion",
     rosterButton: "Neue Armeeliste",
     switchLabel: "Zur deutschen Version wechseln",
     localeName: "DE",
@@ -719,6 +734,10 @@ const dictionaries = {
     heroTitle: "Constructeur d'armée Warhammer",
     heroDescription:
       "Bienvenue ! Nous commençons tout juste — bientôt vous pourrez créer vos listes d'armée. En attendant, découvrez ce qui arrive.",
+    landingTitle: "Warhammer Old World - Recherche d'unités et créateur d'armée",
+    landingDescription:
+      "Un moyen pratique de trouver les statistiques des unités et de créer une armée pour Warhammer Old World",
+    landingFactionHeading: "Choisissez votre faction",
     rosterButton: "Nouvelle liste d'armée",
     switchLabel: "Passer à la version française",
     localeName: "FR",
@@ -898,6 +917,10 @@ const dictionaries = {
     heroTitle: "Constructor de ejércitos Warhammer",
     heroDescription:
       "¡Bienvenido! Estamos empezando—pronto podrás crear y guardar tus listas de ejército. Por ahora, echa un vistazo a lo que viene.",
+    landingTitle: "Warhammer Old World - Buscador de unidades y creador de ejército",
+    landingDescription:
+      "Una forma cómoda de buscar estadísticas de unidades y crear un ejército para Warhammer Old World",
+    landingFactionHeading: "Elige tu facción",
     rosterButton: "Nueva lista de ejército",
     switchLabel: "Cambiar a la versión en español",
     localeName: "ES",
