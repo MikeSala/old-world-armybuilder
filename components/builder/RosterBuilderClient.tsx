@@ -98,7 +98,7 @@ export default function RosterBuilderClient({ dict, className, onSaved }: Props)
           label: tData(c.nameKey, dict),
         })),
       })),
-    [dict.localeName]
+    [dict]
   );
 
   React.useEffect(() => {

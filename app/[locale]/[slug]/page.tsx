@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 
+import { ArmyFromUrlInitializer } from "@/components/builder/ArmyFromUrlInitializer";
 import CategoryBuckets from "@/components/builder/CategoryBucket";
 import RosterBuilderClient from "@/components/builder/RosterBuilderClient";
 import RosterSummary from "@/components/builder/RosterSummary";
@@ -106,6 +108,9 @@ export default async function RosterEditPage({ params }: PageProps) {
 
   return (
     <section className="flex min-h-[calc(100vh-48px)] flex-col gap-6">
+      <Suspense fallback={null}>
+        <ArmyFromUrlInitializer />
+      </Suspense>
       <header className="space-y-2 text-amber-100">
         <h1 className="text-3xl font-bold tracking-tight">{dictionary.editTitle}</h1>
         <p className="text-amber-200/80">{dictionary.editDescription}</p>
