@@ -30,10 +30,10 @@
     "equipment_pl": [
       "Staff, Robes"
     ],
-    "unitCategory_de": "Hero",
+    "unitCategory_de": "Held",
     "troopType_de": "Infanterie",
     "equipment_de": [
-      "Staff, Robes"
+      "Stab, Roben"
     ],
     "specialRules_de": [
       "Zauberer",
@@ -81,14 +81,14 @@
     "equipment_pl": [
       "Sword, Shield, Zbroja"
     ],
-    "unitCategory_de": "Hero",
+    "unitCategory_de": "Held",
     "troopType_de": "Infanterie",
     "equipment_de": [
       "Schwert, Schild, Rüstung"
     ],
     "specialRules_de": [
-      "Leadership +1",
-      "Inspiring"
+      "Führerschaft +1",
+      "Inspirierend"
     ],
     "name_de": "Prinz",
     "name_fr": "Démon",
@@ -128,7 +128,7 @@
     "equipment_pl": [
       "Lances, Swords, Zbroja"
     ],
-    "unitCategory_de": "Core",
+    "unitCategory_de": "Kern",
     "troopType_de": "Kavallerie",
     "equipment_de": [
       "Lanzen, Schwerter, Rüstung"
@@ -181,7 +181,7 @@
     "equipment_pl": [
       "Spears, Shields"
     ],
-    "unitCategory_de": "Core",
+    "unitCategory_de": "Kern",
     "troopType_de": "Infanterie",
     "equipment_de": [
       "Spear, Schilde"
@@ -232,14 +232,14 @@
     "equipment_pl": [
       "Swords, Zbroja"
     ],
-    "unitCategory_de": "Special",
+    "unitCategory_de": "Spezial",
     "troopType_de": "Infanterie",
     "equipment_de": [
       "Schwerter, Rüstung"
     ],
     "specialRules_de": [
       "Schnelle Bewegung",
-      "Parry"
+      "Parieren"
     ],
     "name_de": "Schwertmeister von Hoeth",
     "name_fr": "Maîtres des Épées de Hoeth",
@@ -287,14 +287,14 @@
     "equipment_pl": [
       "Halberds, Zbroja"
     ],
-    "unitCategory_de": "Special",
+    "unitCategory_de": "Spezial",
     "troopType_de": "Infanterie",
     "equipment_de": [
       "Hellebarden, Rüstung"
     ],
     "specialRules_de": [
       "Schildwall",
-      "Fearless"
+      "Furchtlos"
     ],
     "name_de": "Phönixgarde",
     "name_fr": "Garde Phénix",
@@ -342,14 +342,14 @@
     "equipment_pl": [
       "Lances, Swords, Zbroja"
     ],
-    "unitCategory_de": "Special",
+    "unitCategory_de": "Spezial",
     "troopType_de": "Kavallerie",
     "equipment_de": [
       "Lanzen, Schwerter, Rüstung"
     ],
     "specialRules_de": [
       "Schnelle Bewegung",
-      "Fearless"
+      "Furchtlos"
     ],
     "name_de": "Drachenprinzen",
     "name_fr": "Princes Dragons",
@@ -397,13 +397,13 @@
     "equipment_pl": [
       "Bows, Swords, Lekka Zbroja"
     ],
-    "unitCategory_de": "Special",
+    "unitCategory_de": "Spezial",
     "troopType_de": "Kavallerie",
     "equipment_de": [
       "Bögen, Schwerter, Leichte Rüstung"
     ],
     "specialRules_de": [
-      "Skirmish",
+      "Plänkler",
       "Schnelle Bewegung"
     ],
     "name_de": "Ellyrianische Grenzreiter",
@@ -451,14 +451,14 @@
     "equipment_pl": [
       "Swords, Shields, Zbroja"
     ],
-    "unitCategory_de": "Rare",
+    "unitCategory_de": "Selten",
     "troopType_de": "Infanterie",
     "equipment_de": [
       "Schwerter, Schilde, Rüstung"
     ],
     "specialRules_de": [
-      "Fearless",
-      "Inspiring"
+      "Furchtlos",
+      "Inspirierend"
     ],
     "troopType_fr": "Infanterie",
     "equipment_fr": [
@@ -497,15 +497,15 @@
     "equipment_pl": [
       "Greatswords, Zbroja"
     ],
-    "unitCategory_de": "Rare",
+    "unitCategory_de": "Selten",
     "troopType_de": "Infanterie",
     "equipment_de": [
       "Bihandkämpfer, Rüstung"
     ],
     "specialRules_de": [
-      "Fearless",
+      "Furchtlos",
       "Schnelle Bewegung",
-      "Parry"
+      "Parieren"
     ],
     "name_de": "Weiße Löwen von Chrace",
     "name_fr": "Lions Blancs de Chrace",

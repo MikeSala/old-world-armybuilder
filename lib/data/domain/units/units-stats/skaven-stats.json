@@ -63,7 +63,7 @@
     "specialRules_de": [
       "Geschlossene Ränge",
       "Geschlossene Ränge",
-      "Scurry Away",
+      "Husch davon",
       "Kriegerschar"
     ],
     "name_de": "Klanratten",
@@ -172,12 +172,12 @@
     "unitCategory_de": "Streitwagen",
     "troopType_de": "Schwerer Streitwagen",
     "equipment_de": [
-      "Warlock: Hand weapon",
+      "Hexer: Handwaffe",
       "Rats: Klauen prinz fangs (counts as ein hand weapon)"
     ],
     "specialRules_de": [
       "Geschlossene Ränge",
-      "Crushing Bulk",
+      "Zermalmende Masse",
       "Immung gegen Psychologie",
       "Aufpralltreffer (W3+1)",
       "Großes Ziel",
@@ -274,9 +274,9 @@
     ],
     "specialRules_de": [
       "Geschlossene Ränge",
-      "Fight in Extra Rank",
+      "In zusätzlicher Reihe kämpfen",
       "Geschlossene Ränge",
-      "Scurry Away",
+      "Husch davon",
       "Kriegerschar"
     ],
     "name_de": "Riesenratten",
@@ -373,7 +373,7 @@
       "Lehre des der Horned Rat",
       "Magische Attacken",
       "Magieresistenz (-1)",
-      "Scurry Away",
+      "Husch davon",
       "Verminous Mut",
       "Kriegerschar",
       "Warpstein Waffen"
@@ -481,7 +481,7 @@
       "Schießen und Verschwinden",
       "Durch Deckung bewegen",
       "Kundschafter",
-      "Scurry Away",
+      "Husch davon",
       "Plänkler"
     ],
     "name_de": "Gossenläufer",
@@ -579,7 +579,7 @@
       "Niezłomni"
     ],
     "unitCategory_de": "Monster",
-    "troopType_de": "Behemoth",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Warpstein Klauen"
     ],
@@ -705,14 +705,14 @@
     ],
     "specialRules_de": [
       "Überfall",
-      "Eshin Infiltration",
+      "Eshin-Infiltration",
       "Ausweichen",
       "Vorgetäuschte Flucht",
       "Schießen und Verschwinden",
-      "Hidden",
+      "Versteckt",
       "Durch Deckung bewegen",
       "Giftattacken",
-      "Scurry Away",
+      "Husch davon",
       "Verminous Mut",
       "Warpstein Waffen"
     ],
@@ -817,7 +817,7 @@
       "Geschlossene Ränge",
       "Leader des der Pack",
       "Zusammengewürfelter Haufen",
-      "Scurry Away",
+      "Husch davon",
       "Kriegerschar"
     ],
     "name_de": "Meister Moulder",
@@ -913,7 +913,7 @@
     "specialRules_de": [
       "Ausweichen",
       "Schießen und Verschwinden",
-      "Scurry Away",
+      "Husch davon",
       "Plänkler"
     ],
     "name_de": "Schattenläufer",
@@ -1000,7 +1000,7 @@
       "Geschlossene Ränge",
       "Leader des der Pack",
       "Zusammengewürfelter Haufen",
-      "Scurry Away",
+      "Husch davon",
       "Kriegerschar"
     ],
     "name_de": "Meutenbändiger",
@@ -1084,11 +1084,11 @@
     "troopType_de": "Reguläre Infanterie",
     "equipment_de": [
       "Handwaffen",
-      "plague censers"
+      "Seuchenschwenker"
     ],
     "specialRules_de": [
       "Raserei",
-      "Scurry Away",
+      "Husch davon",
       "Plänkler",
       "Unnachgiebig",
       "Kriegerschar"
@@ -1196,7 +1196,7 @@
       "Plague Monk Haufen: Hand weapon"
     ],
     "specialRules_de": [
-      "Dragged Along",
+      "Mitgeschleift",
       "Angst",
       "Raserei",
       "Chepesh Censer",
@@ -1204,7 +1204,7 @@
       "Großes Ziel",
       "Magieresistenz (-1)",
       "Giftattacken",
-      "Scurrying Masses",
+      "Wimmelnde Massen",
       "Stampfattacken (W3+1)"
     ],
     "name_de": "Plague Hammer",
@@ -1310,7 +1310,7 @@
       "Geschlossene Ränge",
       "Raserei",
       "Geschlossene Ränge",
-      "Scurry Away",
+      "Husch davon",
       "Kriegerschar"
     ],
     "name_de": "Seuchenmönche",
@@ -1405,7 +1405,7 @@
       "Raserei",
       "Lehre des der Horned Rat",
       "Magische Attacken",
-      "Scurry Away",
+      "Husch davon",
       "Verminous Mut",
       "Kriegerschar",
       "Warpstein Waffen"
@@ -1499,7 +1499,7 @@
       "Harcownicy",
       "Nieugięty"
     ],
-    "unitCategory_de": "War Machine",
+    "unitCategory_de": "Kriegsmaschine",
     "troopType_de": "Kriegsmaschine",
     "equipment_de": [
       "Seuchenklauen Katapult",
@@ -1588,7 +1588,7 @@
       "leichte rüstung"
     ],
     "specialRules_de": [
-      "Scurry Away",
+      "Husch davon",
       "Plänkler",
       "Kriegerschar"
     ],
@@ -1685,7 +1685,7 @@
       "Raserei",
       "Geschlossene Ränge",
       "Safe aus Harm",
-      "Scurry Away",
+      "Husch davon",
       "Kriegerschar"
     ],
     "name_de": "Rattenoger",
@@ -1879,11 +1879,11 @@
     "specialRules_de": [
       "Rüstung Bane (2, Rat Ogre leichenmeister)",
       "Segnungen des der Horned Rat",
-      "Dragged Along",
+      "Mitgeschleift",
       "Aufpralltreffer (W6+1)",
       "Großes Ziel",
       "Magieresistenz (-3)",
-      "Scurrying Masses",
+      "Wimmelnde Massen",
       "Unnachgiebig",
       "Entsetzen",
       "Tolling der Bell"
@@ -1974,7 +1974,7 @@
       "leichte rüstung"
     ],
     "specialRules_de": [
-      "Scurry Away",
+      "Husch davon",
       "Verminous Mut",
       "Kriegerschar",
       "Warpstein Waffen"
@@ -2057,7 +2057,7 @@
       "leichte rüstung"
     ],
     "specialRules_de": [
-      "Scurry Away",
+      "Husch davon",
       "Verminous Mut",
       "Kriegerschar",
       "Warpstein Waffen"
@@ -2158,7 +2158,7 @@
     "specialRules_de": [
       "Geschlossene Ränge",
       "Geschlossene Ränge",
-      "Scurry Away",
+      "Husch davon",
       "Kriegerschar",
       "Warpstein Waffen"
     ],
@@ -2254,7 +2254,7 @@
     "specialRules_de": [
       "Lehre des der Horned Rat",
       "Magische Attacken",
-      "Scurry Away",
+      "Husch davon",
       "Verminous Mut",
       "Kriegerschar",
       "Warpstein Waffen"
@@ -2342,7 +2342,7 @@
     "specialRules_pl": [
       "Harcownicy"
     ],
-    "unitCategory_de": "War Machine",
+    "unitCategory_de": "Kriegsmaschine",
     "troopType_de": "Kriegsmaschine",
     "equipment_de": [
       "Warpblitzkanone",
@@ -2427,7 +2427,7 @@
     ],
     "specialRules_de": [
       "Offene Ränge",
-      "Scurry Away",
+      "Husch davon",
       "Kriegerschar"
     ],
     "name_de": "Warpschloss Jezzails",
@@ -2514,10 +2514,10 @@
     "specialRules_de": [
       "Einzelgänger",
       "Offene Ränge",
-      "Scurry Away",
-      "Deploying Weapon Teams",
-      "Weapon Team Leadership",
-      "Targeting Weapon Teams"
+      "Husch davon",
+      "Waffenteams einsetzen",
+      "Führerschaft der Waffenteams",
+      "Waffenteams anvisieren"
     ],
     "name_de": "Waffenteam",
     "name_fr": "Équipes d'armes",

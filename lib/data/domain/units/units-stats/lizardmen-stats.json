@@ -83,14 +83,14 @@
       "Groza"
     ],
     "unitCategory_de": "Monster",
-    "troopType_de": "Behemoth",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Chepesh horns",
       "Riese bogen"
     ],
     "specialRules_de": [
       "Geschlossene Ränge",
-      "Cold Blooded",
+      "Kaltblütig",
       "Sänfte",
       "Immung gegen Psychologie",
       "Aufpralltreffer (W3+1)",
@@ -228,7 +228,7 @@
     ],
     "specialRules_de": [
       "Geschlossene Ränge",
-      "Cold Blooded",
+      "Kaltblütig",
       "Immung gegen Psychologie",
       "Aufpralltreffer (W3)",
       "Impervious Verteidigung",
@@ -328,7 +328,7 @@
       "Groza"
     ],
     "unitCategory_de": "Monster",
-    "troopType_de": "Behemoth",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Slashing klauen",
       "Scaly skin (counts as schwere rüstung)"
@@ -336,7 +336,7 @@
     "specialRules_de": [
       "Die Raserei",
       "Geschlossene Ränge",
-      "Cold Blooded",
+      "Kaltblütig",
       "Großes Ziel",
       "Stampfattacken (2)",
       "Schnelle Bewegung",
@@ -439,11 +439,11 @@
     "troopType_de": "Reguläre Infanterie",
     "equipment_de": [
       "Handwaffen",
-      "Blowpipes",
+      "Blasrohre",
       "Schwielige hides (leichte rüstung)"
     ],
     "specialRules_de": [
-      "Cold Blooded",
+      "Kaltblütig",
       "Ausweichen",
       "Durch Deckung bewegen",
       "Kundschafter",
@@ -525,7 +525,7 @@
       "Stupidity",
       "Szybki Krok"
     ],
-    "unitCategory_de": "Mount",
+    "unitCategory_de": "Reittier",
     "troopType_de": "Schwere Kavallerie",
     "equipment_de": [
       "Klauen prinz teeth (counts as ein hand weapon)"
@@ -652,7 +652,7 @@
       "Rüstung Bane (1, Cold Oder leichenmeister)",
       "Zähe Haut (1)",
       "Geschlossene Ränge",
-      "Cold Blooded",
+      "Kaltblütig",
       "Angst",
       "Obsidian Klingen",
       "Blödheit",
@@ -752,7 +752,7 @@
       "Handwaffen"
     ],
     "specialRules_de": [
-      "Cold Blooded",
+      "Kaltblütig",
       "Immung gegen Psychologie",
       "Einzelgänger",
       "Durch Deckung bewegen",
@@ -860,11 +860,11 @@
       "Scaly skin (schwere rüstung)"
     ],
     "specialRules_de": [
-      "Aquatic",
+      "Aquatisch",
       "Geschlossene Ränge",
-      "Cold Blooded",
+      "Kaltblütig",
       "Angst",
-      "Skirmish Screen"
+      "Plänkler-Schirm"
     ],
     "unitCategory_fr": "Infanterie",
     "troopType_fr": "Infanterie Monstrueuse",
@@ -959,9 +959,9 @@
       "Razordons: Boshafte klauen, Razor barbs, Scaly skin (schwere rüstung)"
     ],
     "specialRules_de": [
-      "Aquatic",
+      "Aquatisch",
       "Bestie Handlers",
-      "Cold Blooded",
+      "Kaltblütig",
       "Angst",
       "Plänkler"
     ],
@@ -1045,7 +1045,7 @@
       "Szybki Krok",
       "Toad Rage"
     ],
-    "unitCategory_de": "Mount",
+    "unitCategory_de": "Reittier",
     "troopType_de": "Monströse Kavallerie",
     "equipment_de": [
       "Klauen prinz teeth (counts as ein hand weapon)"
@@ -1058,7 +1058,7 @@
       "Rasender Angriff (Ripperdactyl leichenmeister)",
       "Ungestüm",
       "Schnelle Bewegung",
-      "Toad Rage"
+      "Krötenwut"
     ],
     "name_de": "Ripperdactyl",
     "name_fr": "Entérodactyle",
@@ -1184,14 +1184,14 @@
     "specialRules_de": [
       "Zähe Haut (1)",
       "Spaltender Hieb (Ripperdactyl leichenmeister)",
-      "Cold Blooded",
+      "Kaltblütig",
       "Angst",
       "Fliegen (9)",
       "Rasender Angriff (Ripperdactyl leichenmeister)",
       "Ungestüm",
       "Plänkler",
       "Schnelle Bewegung",
-      "Toad Rage"
+      "Krötenwut"
     ],
     "name_de": "Ripperdactyl Jagd",
     "name_fr": "Monteurs d'Entérodactyle",
@@ -1300,9 +1300,9 @@
       "Salamanders: Boshafte klauen, Flammenden atem, Scaly skin (schwere rüstung)"
     ],
     "specialRules_de": [
-      "Aquatic",
+      "Aquatisch",
       "Bestie Handlers",
-      "Cold Blooded",
+      "Kaltblütig",
       "Angst",
       "Plänkler"
     ],
@@ -1387,7 +1387,7 @@
       "Scaly skin (schwere rüstung)"
     ],
     "specialRules_de": [
-      "Cold Blooded",
+      "Kaltblütig",
       "Rasender Angriff",
       "Obsidian Klingen",
       "Sammelruf"
@@ -1471,7 +1471,7 @@
       "Scaly skin (schwere rüstung)"
     ],
     "specialRules_de": [
-      "Cold Blooded",
+      "Kaltblütig",
       "Rasender Angriff",
       "Obsidian Klingen",
       "Sammelruf"
@@ -1569,7 +1569,7 @@
     ],
     "specialRules_de": [
       "Geschlossene Ränge",
-      "Cold Blooded",
+      "Kaltblütig",
       "Obsidian Klingen"
     ],
     "name_de": "Saurus Krieger",
@@ -1650,8 +1650,8 @@
       "Modrige Lederhaut (Leichte Rüstung)"
     ],
     "specialRules_de": [
-      "Aquatic",
-      "Cold Blooded",
+      "Aquatisch",
+      "Kaltblütig",
       "Giftattacken"
     ],
     "name_de": "Skink Chief",
@@ -1737,8 +1737,8 @@
     ],
     "specialRules_de": [
       "Arkane Vassal",
-      "Aquatic",
-      "Cold Blooded",
+      "Aquatisch",
+      "Kaltblütig",
       "Lehre des Lustria"
     ],
     "name_de": "Skink Priester",
@@ -1833,7 +1833,7 @@
       "Schwielige hides (leichte rüstung)"
     ],
     "specialRules_de": [
-      "Cold Blooded",
+      "Kaltblütig",
       "Durch Deckung bewegen",
       "Poisoned Attacken (javelins leichenmeister)",
       "Plänkler"
@@ -1928,7 +1928,7 @@
     "specialRules_de": [
       "Arkane Schild",
       "Geschlossene Ränge",
-      "Cold Blooded",
+      "Kaltblütig",
       "Fliegen (8)",
       "Großes Ziel",
       "Lehre des Lustria"
@@ -2042,14 +2042,14 @@
       "Groza"
     ],
     "unitCategory_de": "Monster",
-    "troopType_de": "Behemoth",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Chepesh horns",
       "Riese bogen"
     ],
     "specialRules_de": [
       "Geschlossene Ränge",
-      "Cold Blooded",
+      "Kaltblütig",
       "Sänfte",
       "Immung gegen Psychologie",
       "Aufpralltreffer (W3+1)",
@@ -2172,8 +2172,8 @@
     ],
     "specialRules_de": [
       "Geschlossene Ränge",
-      "Cold Blooded",
-      "Guardians",
+      "Kaltblütig",
+      "Wächter",
       "Obsidian Klingen",
       "Schildwall",
       "Unnachgiebig"
@@ -2258,14 +2258,14 @@
       "Lot (10)",
       "Szybki Krok"
     ],
-    "unitCategory_de": "Mount",
+    "unitCategory_de": "Reittier",
     "troopType_de": "Monströse Kavallerie",
     "equipment_de": [
       "Klauen prinz teeth (counts as ein hand weapon)"
     ],
     "specialRules_de": [
       "Zähe Haut (1)",
-      "Drop Rocks",
+      "Felsen abwerfen",
       "Angst",
       "Fliegen (10)",
       "Schnelle Bewegung"
@@ -2379,12 +2379,12 @@
     "equipment_de": [
       "Handwaffen",
       "Modrige Lederhaut (Leichte Rüstung)",
-      "Javelins"
+      "Wurfspieße"
     ],
     "specialRules_de": [
       "Zähe Haut (1)",
-      "Cold Blooded",
-      "Drop Rocks",
+      "Kaltblütig",
+      "Felsen abwerfen",
       "Angst",
       "Fliegen (10)",
       "Poisoned Attacken (javelins leichenmeister)",
@@ -2519,14 +2519,14 @@
     "troopType_de": "Monströse Kreatur",
     "equipment_de": [
       "Venomous klauen",
-      "Venom spray",
+      "Giftsprüher",
       "Scaly skin (schwere rüstung)"
     ],
     "specialRules_de": [
       "Arkane Vassal",
-      "Aquatic",
+      "Aquatisch",
       "Geschlossene Ränge",
-      "Cold Blooded",
+      "Kaltblütig",
       "Immung gegen Psychologie",
       "Großes Ziel",
       "Lehre des Lustria",

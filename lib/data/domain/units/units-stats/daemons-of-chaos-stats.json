@@ -43,11 +43,11 @@
     "unitCategory_de": "Monster",
     "troopType_de": "Dämon",
     "equipment_de": [
-      "Goreaxe",
+      "Blutaxt",
       "Peitsche des Torment"
     ],
     "specialRules_de": [
-      "Daemonic",
+      "Dämonisch",
       "Angst",
       "Hass",
       "Regeneration"
@@ -117,10 +117,10 @@
     "unitCategory_de": "Infanterie",
     "troopType_de": "Dämon",
     "equipment_de": [
-      "Hellblade"
+      "Höllenklinge"
     ],
     "specialRules_de": [
-      "Daemonic",
+      "Dämonisch",
       "Hass"
     ],
     "name_de": "Bloodletters des Khorne",
@@ -184,7 +184,7 @@
       "Teeth prinz Klauen"
     ],
     "specialRules_de": [
-      "Daemonic",
+      "Dämonisch",
       "Hass",
       "Angst"
     ],
@@ -248,15 +248,15 @@
       "Strach",
       "Blast"
     ],
-    "unitCategory_de": "Warmachine",
+    "unitCategory_de": "Kriegsmaschine",
     "troopType_de": "Dämon",
     "equipment_de": [
       "Skull Großkanone"
     ],
     "specialRules_de": [
-      "Daemonic",
+      "Dämonisch",
       "Angst",
-      "Blast"
+      "Explosion"
     ],
     "name_de": "Skull Großkanone",
     "name_fr": "Le Canon",
@@ -321,11 +321,11 @@
     "unitCategory_de": "Charakter",
     "troopType_de": "Dämon",
     "equipment_de": [
-      "Hellblade",
+      "Höllenklinge",
       "Mark des Khorne"
     ],
     "specialRules_de": [
-      "Daemonic",
+      "Dämonisch",
       "Hass",
       "Angst"
     ],
@@ -402,12 +402,12 @@
     "unitCategory_de": "Monster",
     "troopType_de": "Dämon",
     "equipment_de": [
-      "Goreaxe",
+      "Blutaxt",
       "Peitsche des Torment",
-      "Juggernaut Mount"
+      "Juggernaut-Reittier"
     ],
     "specialRules_de": [
-      "Daemonic",
+      "Dämonisch",
       "Angst",
       "Hass",
       "Regeneration",
@@ -492,7 +492,7 @@
       "Mark des Khorne"
     ],
     "specialRules_de": [
-      "Daemonic",
+      "Dämonisch",
       "Angst",
       "Hass",
       "Fliegen"
@@ -572,10 +572,10 @@
     "equipment_de": [
       "Dämon Weapon",
       "Mark des Khorne",
-      "Wings"
+      "Flügel"
     ],
     "specialRules_de": [
-      "Daemonic",
+      "Dämonisch",
       "Angst",
       "Hass",
       "Fliegen"
@@ -655,12 +655,12 @@
     "unitCategory_de": "Charakter",
     "troopType_de": "Dämon",
     "equipment_de": [
-      "Hellblade",
+      "Höllenklinge",
       "Mark des Khorne",
-      "Juggernaut Mount"
+      "Juggernaut-Reittier"
     ],
     "specialRules_de": [
-      "Daemonic",
+      "Dämonisch",
       "Hass",
       "Angst",
       "Juggernaut"

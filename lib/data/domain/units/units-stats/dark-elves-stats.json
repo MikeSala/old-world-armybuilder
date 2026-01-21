@@ -154,7 +154,7 @@
       "Groza"
     ],
     "unitCategory_de": "Monster",
-    "troopType_de": "Behemoth",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Boshafte Klauen",
       "Serrated maul",
@@ -393,9 +393,9 @@
       "Raserei",
       "Hass (Hohepriester Elfen)",
       "Magieresistenz (-1)",
-      "Murderous",
+      "Mörderisch",
       "Giftattacken",
-      "Stony Stare"
+      "Steinerner Blick"
     ],
     "name_fr": "Sanctuaires Medusa",
     "unitCategory_fr": "Monstre",
@@ -534,16 +534,16 @@
     ],
     "specialRules_de": [
       "Geschlossene Ränge",
-      "Dragged Along",
+      "Mitgeschleift",
       "Elfenreflexe",
       "Raserei",
       "Hass (Hohepriester Elfen)",
       "Aufpralltreffer (W6+1)",
       "Großes Ziel",
       "Magieresistenz (-1)",
-      "Murderous",
+      "Mörderisch",
       "Giftattacken",
-      "Stony Stare",
+      "Steinerner Blick",
       "Entsetzen"
     ],
     "name_fr": "Sanctuaires Shrine",
@@ -670,14 +670,14 @@
     "specialRules_de": [
       "Segnungen des Khaine",
       "Geschlossene Ränge",
-      "Dragged Along",
+      "Mitgeschleift",
       "Elfenreflexe",
       "Raserei",
       "Hass (Hohepriester Elfen)",
       "Aufpralltreffer (W6+1)",
       "Großes Ziel",
       "Magieresistenz (-1)",
-      "Murderous",
+      "Mörderisch",
       "Giftattacken",
       "Entsetzen"
     ],
@@ -767,7 +767,7 @@
       "Stupidity",
       "Szybki Krok"
     ],
-    "unitCategory_de": "Mount",
+    "unitCategory_de": "Reittier",
     "troopType_de": "Schwere Kavallerie",
     "equipment_de": [
       "Klauen prinz teeth (hand weapon)"
@@ -1151,7 +1151,7 @@
     "specialRules_de": [
       "Ewiger Hass",
       "Hass (Hohepriester Elfen)",
-      "Murderous",
+      "Mörderisch",
       "Schlägt zuerst zu"
     ],
     "name_de": "Dark Elf Dreadlord",
@@ -1232,7 +1232,7 @@
     "specialRules_de": [
       "Ewiger Hass",
       "Hass (Hohepriester Elfen)",
-      "Murderous",
+      "Mörderisch",
       "Schlägt zuerst zu"
     ],
     "name_de": "Dark Elf Meister",
@@ -1515,7 +1515,7 @@
       "Lot (10)",
       "Szybki Krok"
     ],
-    "unitCategory_de": "Mount",
+    "unitCategory_de": "Reittier",
     "troopType_de": "Monströse Kavallerie",
     "equipment_de": [
       "Hufe (hand weapon)"
@@ -1719,7 +1719,7 @@
       "Szybka Kawaleria",
       "Szybki Krok"
     ],
-    "unitCategory_de": "Mount",
+    "unitCategory_de": "Reittier",
     "troopType_de": "Leichte Kavallerie",
     "equipment_de": [
       "Hufe (hand weapon)"
@@ -1804,7 +1804,7 @@
       "Raserei",
       "Hass (alle Feinde)",
       "Einzelgänger",
-      "Murderous",
+      "Mörderisch",
       "Giftattacken",
       "Schlägt zuerst zu"
     ],
@@ -1926,7 +1926,7 @@
       "Dark Steeds: Hufe"
     ],
     "specialRules_de": [
-      "Cursed Coven",
+      "Verfluchter Zirkel",
       "Dark Runen",
       "Elfenreflexe",
       "Wendige Kavallerie",
@@ -2043,7 +2043,7 @@
       "Geschlossene Ränge",
       "Elfenreflexe",
       "Hass (Hohepriester Elfen)",
-      "Murderous",
+      "Mörderisch",
       "Veteranen"
     ],
     "name_de": "Har Ganeth Executioners",
@@ -2214,7 +2214,7 @@
       "Ewiger Hass",
       "Goad Bestie",
       "Hass (Hohepriester Elfen)",
-      "Murderous",
+      "Mörderisch",
       "Schlägt zuerst zu"
     ],
     "name_de": "Hohepriester Beastmaster",
@@ -2303,9 +2303,9 @@
     "specialRules_de": [
       "Ewiger Hass",
       "Hass (alle Feinde)",
-      "Hidden",
+      "Versteckt",
       "Immung gegen Psychologie",
-      "Murderous",
+      "Mörderisch",
       "Schlägt zuerst zu"
     ],
     "name_de": "Khainite Assassine",
@@ -2404,17 +2404,17 @@
       "Groza"
     ],
     "unitCategory_de": "Monster",
-    "troopType_de": "Behemoth",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Cavernous maul",
       "Windende tentacles"
     ],
     "specialRules_de": [
-      "Abyssal Howl",
+      "Abgründiges Heulen",
       "Geschlossene Ränge",
       "Immung gegen Psychologie",
       "Großes Ziel",
-      "Monster Handlers",
+      "Monsterbändiger",
       "Stampfattacken (W3+1)",
       "Entsetzen"
     ],
@@ -2603,10 +2603,10 @@
       "Nienawiść (Wysoki Elfy)",
       "Harcownicy"
     ],
-    "unitCategory_de": "War Machine",
+    "unitCategory_de": "Kriegsmaschine",
     "troopType_de": "Kriegsmaschine",
     "equipment_de": [
-      "Repeater bolt thrower",
+      "Wiederholer-Bolzenwerfer",
       "Handwaffen",
       "Leichte Rüstung"
     ],
@@ -2948,7 +2948,7 @@
     "troopType_de": "Reguläre Infanterie",
     "equipment_de": [
       "Handwaffen",
-      "Lash & buckler"
+      "Peitsche & Buckler"
     ],
     "specialRules_de": [
       "Dance des Todes",
@@ -2956,7 +2956,7 @@
       "Hass (Hohepriester Elfen)",
       "Ungestüm",
       "Einzelgänger",
-      "Murderous",
+      "Mörderisch",
       "Offene Ränge"
     ],
     "name_de": "Schwestern des Slaughter",
@@ -3055,7 +3055,7 @@
       "Hass (Hohepriester Elfen)",
       "Hekarti's Segen",
       "Lehre des Naggaroth",
-      "Murderous"
+      "Mörderisch"
     ],
     "name_de": "Sorceress",
     "name_fr": "Sorcière",
@@ -3148,7 +3148,7 @@
       "Hass (Hohepriester Elfen)",
       "Hekarti's Segen",
       "Lehre des Naggaroth",
-      "Murderous"
+      "Mörderisch"
     ],
     "name_de": "Supreme Sorceress",
     "name_fr": "Sorcière Suprême",
@@ -3248,10 +3248,10 @@
       "Groza"
     ],
     "unitCategory_de": "Monster",
-    "troopType_de": "Behemoth",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Boshafte Klauen",
-      "Serrated maws",
+      "Gezackte Mäuler",
       "Flammenden atem"
     ],
     "specialRules_de": [
@@ -3259,7 +3259,7 @@
       "Extra Attacken (+remaining Wounds)",
       "Immung gegen Psychologie",
       "Großes Ziel",
-      "Monster Handlers",
+      "Monsterbändiger",
       "Regeneration (5+)",
       "Stampfattacken (W3)",
       "Entsetzen"
@@ -3376,7 +3376,7 @@
       "Hass (Hohepriester Elfen)",
       "Geschlossene Ränge",
       "Einzelgänger",
-      "Murderous",
+      "Mörderisch",
       "Giftattacken"
     ],
     "name_de": "Hexe Elfen",

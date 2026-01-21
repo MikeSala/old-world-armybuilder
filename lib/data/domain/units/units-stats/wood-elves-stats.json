@@ -737,7 +737,7 @@
       "Szybka Kawaleria",
       "Szybki Krok"
     ],
-    "unitCategory_de": "Mount",
+    "unitCategory_de": "Reittier",
     "troopType_de": "Leichte Kavallerie",
     "equipment_de": [
       "Hufe (counts as ein hand weapon)"
@@ -1001,7 +1001,7 @@
       "Groza"
     ],
     "unitCategory_de": "Monster",
-    "troopType_de": "Behemoth",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Boshafte Klauen",
       "Serrated maul",
@@ -1605,7 +1605,7 @@
       "Zdeptanie (1)",
       "Szybki Krok"
     ],
-    "unitCategory_de": "Mount",
+    "unitCategory_de": "Reittier",
     "troopType_de": "Monströse Kreatur",
     "equipment_de": [
       "Boshafte Klauen",
@@ -1694,10 +1694,10 @@
       "Zdeptanie (1)",
       "Szybki Krok"
     ],
-    "unitCategory_de": "Mount",
+    "unitCategory_de": "Reittier",
     "troopType_de": "Monströse Kavallerie",
     "equipment_de": [
-      "Mighty antlers"
+      "Mächtiges Geweih"
     ],
     "specialRules_de": [
       "Zähe Haut (2)",
@@ -1819,7 +1819,7 @@
       "Elfenreflexe",
       "Kriegerisches Können",
       "Durch Deckung bewegen",
-      "Parry",
+      "Parieren",
       "Unnachgiebig",
       "Veteranen"
     ],
@@ -1923,7 +1923,7 @@
     "troopType_de": "Monströse Infanterie, Benannter Charakter",
     "equipment_de": [
       "Cloak des Isha",
-      "Hawks Talon",
+      "Falkenklaue",
       "Horn des der Wilde Hunt",
       "Speer des Kurnous"
     ],
@@ -2670,10 +2670,10 @@
       "Tree Whack"
     ],
     "unitCategory_de": "Monster",
-    "troopType_de": "Behemoth",
+    "troopType_de": "Koloss",
     "equipment_de": [
-      "Oaken fists",
-      "Strangleroots",
+      "Eichenfäuste",
+      "Würgewurzeln",
       "Arboreal rüstung (counts as full plate rüstung)"
     ],
     "specialRules_de": [
@@ -2811,8 +2811,8 @@
     "unitCategory_de": "Charakter",
     "troopType_de": "Behemoth, Charakter",
     "equipment_de": [
-      "Oaken fists",
-      "Strangleroots",
+      "Eichenfäuste",
+      "Würgewurzeln",
       "Arboreal rüstung (counts as full plate rüstung)"
     ],
     "specialRules_de": [
@@ -2927,7 +2927,7 @@
       "Zdeptanie (1)",
       "Szybki Krok"
     ],
-    "unitCategory_de": "Mount",
+    "unitCategory_de": "Reittier",
     "troopType_de": "Monströse Kavallerie",
     "equipment_de": [
       "Hufe prinz horn (counts as ein hand weapon)"
@@ -2935,7 +2935,7 @@
     "specialRules_de": [
       "Rüstung Bane (2, Einhorn leichenmeister)",
       "Zähe Haut (1)",
-      "Beguiling Aura",
+      "Betörende Aura",
       "Gegenangriff",
       "Magische Attacken",
       "Stampfattacken (1)",
@@ -3160,12 +3160,12 @@
     ],
     "specialRules_de": [
       "Geschlossene Ränge",
-      "Courage Beyond Compare",
+      "Mut jenseits aller Grenzen",
       "Gut ausgebildet",
       "Elfenreflexe",
       "Immung gegen Psychologie",
       "Durch Deckung bewegen",
-      "Parry",
+      "Parieren",
       "Schlägt zuerst zu",
       "Unnachgiebig"
     ],
@@ -3251,7 +3251,7 @@
       "Lot (10)",
       "Szybki Krok"
     ],
-    "unitCategory_de": "Mount",
+    "unitCategory_de": "Reittier",
     "troopType_de": "Monströse Kavallerie",
     "equipment_de": [
       "Boshafte Klauen"
@@ -3860,7 +3860,7 @@
     "troopType_de": "Reguläre Infanterie",
     "equipment_de": [
       "Handwaffen",
-      "Ranger's glaives",
+      "Kundschaftergleven",
       "Leichte Rüstung"
     ],
     "specialRules_de": [

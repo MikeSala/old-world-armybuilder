@@ -53,12 +53,12 @@
       "Groza"
     ],
     "unitCategory_de": "Monster",
-    "troopType_de": "Behemoth",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Trampling hufe prinz goring horns"
     ],
     "specialRules_de": [
-      "Blazing Body",
+      "Flammender Körper",
       "Born des Schießen",
       "Geschlossene Ränge",
       "Fliegen (9)",
@@ -185,7 +185,7 @@
       "Erster Angriff",
       "Aufpralltreffer (W3)",
       "Einzelgänger",
-      "Stampede",
+      "Ansturm",
       "Unnachgiebig",
       "Schnelle Bewegung"
     ],
@@ -304,7 +304,7 @@
       "Erster Angriff",
       "Aufpralltreffer (W3+1)",
       "Einzelgänger",
-      "Stampede",
+      "Ansturm",
       "Unnachgiebig",
       "Schnelle Bewegung"
     ],
@@ -417,7 +417,7 @@
       "Infernal Maschinist",
       "Lehre des Hashut",
       "Resolut",
-      "Sorcerer's Curse",
+      "Fluch des Zauberers",
       "Unnachgiebig"
     ],
     "name_de": "Daemonsmith Sorcerer",
@@ -510,11 +510,11 @@
       "Blackshard Zbroja",
       "Harcownicy"
     ],
-    "unitCategory_de": "War Machine",
+    "unitCategory_de": "Kriegsmaschine",
     "troopType_de": "Kriegsmaschine",
     "equipment_de": [
-      "Demolition Rockets",
-      "Infernal Incendiaries",
+      "Sprengraketen",
+      "Höllische Brandgeschosse",
       "hand waffen",
       "schwere rüstung"
     ],
@@ -614,7 +614,7 @@
       "Blackshard Zbroja",
       "Harcownicy"
     ],
-    "unitCategory_de": "War Machine",
+    "unitCategory_de": "Kriegsmaschine",
     "troopType_de": "Kriegsmaschine",
     "equipment_de": [
       "Dreadquake Mörser",
@@ -691,7 +691,7 @@
       "Ogień I Odwrót",
       "Szybki Krok"
     ],
-    "unitCategory_de": "Mount",
+    "unitCategory_de": "Reittier",
     "troopType_de": "Leichte Kavallerie",
     "equipment_de": [
       "Klauen prinz fangs (counts as ein hand weapon)"
@@ -779,12 +779,12 @@
       "Groza"
     ],
     "unitCategory_de": "Monster",
-    "troopType_de": "Behemoth",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Trampling hufe prinz goring horns"
     ],
     "specialRules_de": [
-      "Blazing Body",
+      "Flammender Körper",
       "Born des Schießen",
       "Geschlossene Ränge",
       "Fliegen (9)",
@@ -881,7 +881,7 @@
       "Levies",
       "Harcownicy"
     ],
-    "unitCategory_de": "War Machine",
+    "unitCategory_de": "Kriegsmaschine",
     "troopType_de": "Kriegsmaschine",
     "equipment_de": [
       "Speerschleuder",
@@ -982,7 +982,7 @@
       "schilde"
     ],
     "specialRules_de": [
-      "Backstab",
+      "Hinterhalt",
       "Geschlossene Ränge",
       "Geschlossene Ränge",
       "Gesindel",
@@ -1069,7 +1069,7 @@
       "throwing waffen"
     ],
     "specialRules_de": [
-      "Backstab",
+      "Hinterhalt",
       "Ausweichen",
       "Gesindel",
       "Kriegerschar"
@@ -1191,7 +1191,7 @@
       "Riese Wolves: Klauen prinz fangs (counts as hand waffen)"
     ],
     "specialRules_de": [
-      "Backstab",
+      "Hinterhalt",
       "Ausweichen",
       "Wendige Kavallerie",
       "Schießen und Verschwinden",
@@ -1725,14 +1725,14 @@
       "Chaos Dwarf Haufen: Hand waffen"
     ],
     "specialRules_de": [
-      "Carriage Hauler",
+      "Karrenzieher",
       "Geschlossene Ränge",
       "Angst",
       "Mahlende Räder",
       "Immung gegen Psychologie",
       "Aufpralltreffer (W6+1)",
       "Großes Ziel",
-      "Lumbering Destruction",
+      "Trampelnde Zerstörung",
       "Stampfattacken (W3+1)",
       "Unerschütterlich"
     ],
@@ -1848,7 +1848,7 @@
       "Rage prinz hellfire (counts as hand waffen)"
     ],
     "specialRules_de": [
-      "Blazing Body",
+      "Flammender Körper",
       "Geschlossene Ränge",
       "Ensorcelled Waffen",
       "Angst",
@@ -1857,7 +1857,7 @@
       "Regeneration (5+)",
       "Unerschütterlich",
       "Instabil",
-      "Warp-spawned"
+      "Warpgeboren"
     ],
     "unitCategory_fr": "Infanterie",
     "troopType_fr": "Infanterie Monstrueuse",
@@ -1961,7 +1961,7 @@
       "Rasender Angriff",
       "Großes Ziel",
       "Magieresistenz (-3)",
-      "Sorcerous Miasma",
+      "Zauberhaftes Miasma",
       "Stampfattacken (W3)",
       "Schnelle Bewegung",
       "Entsetzen"
@@ -2057,7 +2057,7 @@
       "Blackshard Zbroja",
       "Harcownicy"
     ],
-    "unitCategory_de": "War Machine",
+    "unitCategory_de": "Kriegsmaschine",
     "troopType_de": "Kriegsmaschine",
     "equipment_de": [
       "Flammenwerfer",
@@ -2161,7 +2161,7 @@
     ],
     "specialRules_de": [
       "Überfall",
-      "Backstab",
+      "Hinterhalt",
       "Ausweichen",
       "Gesindel",
       "Durch Deckung bewegen",
@@ -2266,7 +2266,7 @@
       "Infernal Maschinist",
       "Lehre des Hashut",
       "Resolut",
-      "Sorcerer's Curse",
+      "Fluch des Zauberers",
       "Unnachgiebig"
     ],
     "name_de": "Sorcerer-Prophet",

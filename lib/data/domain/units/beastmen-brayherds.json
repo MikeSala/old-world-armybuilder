@@ -155,12 +155,7 @@
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
           "name_pl": "Przedmioty magiczne",
-          "types": [
-            "enchanted-item",
-            "talisman",
-            "armor",
-            "weapon"
-          ],
+          "types": ["enchanted-item", "talisman", "armor", "weapon"],
           "selected": [],
           "maxPoints": 100,
           "armyComposition": "beastmen-brayherds"
@@ -172,12 +167,7 @@
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
           "name_pl": "Przedmioty magiczne",
-          "types": [
-            "enchanted-item",
-            "talisman",
-            "armor",
-            "weapon"
-          ],
+          "types": ["enchanted-item", "talisman", "armor", "weapon"],
           "selected": [],
           "maxPoints": 125,
           "armyComposition": "wild-herd"
@@ -189,9 +179,7 @@
           "name_es": "Mutaciones del caos",
           "name_fr": "Mutations du Chaos",
           "name_pl": "Mutacje Chaosu",
-          "types": [
-            "chaos-mutation"
-          ],
+          "types": ["chaos-mutation"],
           "selected": [],
           "maxPoints": 50,
           "armyComposition": "beastmen-brayherds"
@@ -203,9 +191,7 @@
           "name_es": "Mutaciones del caos",
           "name_fr": "Mutations du Chaos",
           "name_pl": "Mutacje Chaosu",
-          "types": [
-            "chaos-mutation"
-          ],
+          "types": ["chaos-mutation"],
           "selected": [],
           "maxPoints": 75,
           "armyComposition": "wild-herd"
@@ -245,10 +231,7 @@
           "name_es": "General",
           "name_pl": "Generał",
           "points": 0,
-          "armyComposition": [
-            "beastmen-brayherds",
-            "wild-herd"
-          ]
+          "armyComposition": ["beastmen-brayherds", "wild-herd"]
         },
         {
           "name_en": "Battle Standard Bearer",
@@ -258,9 +241,7 @@
           "name_pl": "Chorąży",
           "points": 25,
           "magic": {
-            "types": [
-              "banner"
-            ],
+            "types": ["banner"],
             "maxPoints": 0
           }
         }
@@ -387,18 +368,10 @@
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
           "name_pl": "Przedmioty magiczne",
-          "types": [
-            "enchanted-item",
-            "talisman",
-            "armor",
-            "weapon"
-          ],
+          "types": ["enchanted-item", "talisman", "armor", "weapon"],
           "selected": [],
           "maxPoints": 50,
-          "armyComposition": [
-            "beastmen-brayherds",
-            "minotaur-blood-herd"
-          ]
+          "armyComposition": ["beastmen-brayherds", "minotaur-blood-herd"]
         },
         {
           "name_en": "Magic Items",
@@ -407,12 +380,7 @@
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
           "name_pl": "Przedmioty magiczne",
-          "types": [
-            "enchanted-item",
-            "talisman",
-            "armor",
-            "weapon"
-          ],
+          "types": ["enchanted-item", "talisman", "armor", "weapon"],
           "selected": [],
           "maxPoints": 75,
           "armyComposition": "wild-herd"
@@ -424,15 +392,10 @@
           "name_es": "Mutaciones del caos",
           "name_fr": "Mutations du Chaos",
           "name_pl": "Mutacje Chaosu",
-          "types": [
-            "chaos-mutation"
-          ],
+          "types": ["chaos-mutation"],
           "selected": [],
           "maxPoints": 50,
-          "armyComposition": [
-            "beastmen-brayherds",
-            "minotaur-blood-herd"
-          ]
+          "armyComposition": ["beastmen-brayherds", "minotaur-blood-herd"]
         },
         {
           "name_en": "Chaos Mutations",
@@ -441,9 +404,7 @@
           "name_es": "Mutaciones del caos",
           "name_fr": "Mutations du Chaos",
           "name_pl": "Mutacje Chaosu",
-          "types": [
-            "chaos-mutation"
-          ],
+          "types": ["chaos-mutation"],
           "selected": [],
           "maxPoints": 75,
           "armyComposition": "wild-herd"
@@ -474,12 +435,7 @@
         },
         "wild-herd": {
           "category": "characters",
-          "lores": [
-            "daemonology",
-            "dark-magic",
-            "elementalism",
-            "primal-magic"
-          ],
+          "lores": ["daemonology", "dark-magic", "elementalism", "primal-magic"],
           "notes": {
             "name_en": "0-1 Beastlord or Great Bray-Shaman per 1000 points",
             "name_fr": "0-1 Seigneur des Bêtes ou Grand Braillechamane par tranche de 1000 points",
@@ -596,13 +552,7 @@
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
           "name_pl": "Przedmioty magiczne",
-          "types": [
-            "enchanted-item",
-            "talisman",
-            "armor-mages",
-            "weapon",
-            "arcane-item"
-          ],
+          "types": ["enchanted-item", "talisman", "armor-mages", "weapon", "arcane-item"],
           "selected": [],
           "maxPoints": 100,
           "armyComposition": "beastmen-brayherds"
@@ -614,13 +564,7 @@
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
           "name_pl": "Przedmioty magiczne",
-          "types": [
-            "enchanted-item",
-            "talisman",
-            "armor-mages",
-            "weapon",
-            "arcane-item"
-          ],
+          "types": ["enchanted-item", "talisman", "armor-mages", "weapon", "arcane-item"],
           "selected": [],
           "maxPoints": 125,
           "armyComposition": "wild-herd"
@@ -632,9 +576,7 @@
           "name_es": "Mutaciones del caos",
           "name_fr": "Mutations du Chaos",
           "name_pl": "Mutacje Chaosu",
-          "types": [
-            "chaos-mutation"
-          ],
+          "types": ["chaos-mutation"],
           "selected": [],
           "maxPoints": 50,
           "armyComposition": "beastmen-brayherds"
@@ -646,19 +588,13 @@
           "name_es": "Mutaciones del caos",
           "name_fr": "Mutations du Chaos",
           "name_pl": "Mutacje Chaosu",
-          "types": [
-            "chaos-mutation"
-          ],
+          "types": ["chaos-mutation"],
           "selected": [],
           "maxPoints": 75,
           "armyComposition": "wild-herd"
         }
       ],
-      "lores": [
-        "daemonology",
-        "dark-magic",
-        "elementalism"
-      ],
+      "lores": ["daemonology", "dark-magic", "elementalism"],
       "specialRules": {
         "name_en": "Braystaff, Gaze of the Gods, Lore of Beasts, Mark of Chaos Undivided, Primal Fury, Warband",
         "name_cn": "嘶叫法杖, 诸神凝视, 野兽法系, 混沌无分之印, 原始狂怒, 战帮",
@@ -697,12 +633,7 @@
         },
         "wild-herd": {
           "category": "characters",
-          "lores": [
-            "daemonology",
-            "dark-magic",
-            "elementalism",
-            "primal-magic"
-          ]
+          "lores": ["daemonology", "dark-magic", "elementalism", "primal-magic"]
         }
       },
       "command": [
@@ -714,10 +645,7 @@
           "name_es": "General",
           "name_pl": "Generał",
           "points": 0,
-          "armyComposition": [
-            "beastmen-brayherds",
-            "wild-herd"
-          ]
+          "armyComposition": ["beastmen-brayherds", "wild-herd"]
         }
       ],
       "equipment": [
@@ -818,19 +746,10 @@
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
           "name_pl": "Przedmioty magiczne",
-          "types": [
-            "enchanted-item",
-            "talisman",
-            "armor-mages",
-            "weapon",
-            "arcane-item"
-          ],
+          "types": ["enchanted-item", "talisman", "armor-mages", "weapon", "arcane-item"],
           "selected": [],
           "maxPoints": 50,
-          "armyComposition": [
-            "beastmen-brayherds",
-            "minotaur-blood-herd"
-          ]
+          "armyComposition": ["beastmen-brayherds", "minotaur-blood-herd"]
         },
         {
           "name_en": "Magic Items",
@@ -839,13 +758,7 @@
           "name_es": "Objetos mágicos",
           "name_fr": "Objets Magiques",
           "name_pl": "Przedmioty magiczne",
-          "types": [
-            "enchanted-item",
-            "talisman",
-            "armor-mages",
-            "weapon",
-            "arcane-item"
-          ],
+          "types": ["enchanted-item", "talisman", "armor-mages", "weapon", "arcane-item"],
           "selected": [],
           "maxPoints": 75,
           "armyComposition": "wild-herd"
@@ -857,15 +770,10 @@
           "name_es": "Mutaciones del caos",
           "name_fr": "Mutations du Chaos",
           "name_pl": "Mutacje Chaosu",
-          "types": [
-            "chaos-mutation"
-          ],
+          "types": ["chaos-mutation"],
           "selected": [],
           "maxPoints": 50,
-          "armyComposition": [
-            "beastmen-brayherds",
-            "minotaur-blood-herd"
-          ]
+          "armyComposition": ["beastmen-brayherds", "minotaur-blood-herd"]
         },
         {
           "name_en": "Chaos Mutations",
@@ -874,19 +782,13 @@
           "name_es": "Mutaciones del caos",
           "name_fr": "Mutations du Chaos",
           "name_pl": "Mutacje Chaosu",
-          "types": [
-            "chaos-mutation"
-          ],
+          "types": ["chaos-mutation"],
           "selected": [],
           "maxPoints": 75,
           "armyComposition": "wild-herd"
         }
       ],
-      "lores": [
-        "daemonology",
-        "dark-magic",
-        "elementalism"
-      ],
+      "lores": ["daemonology", "dark-magic", "elementalism"],
       "specialRules": {
         "name_en": "Braystaff, Gaze of the Gods, Lore of Beasts, Mark of Chaos Undivided, Primal Fury, Warband",
         "name_cn": "嘶叫法杖, 诸神凝视, 野兽法系, 混沌无分之印, 原始狂怒, 战帮",
@@ -925,10 +827,7 @@
             "name_fr": "0-1 Doombull par tranche de 1000 points",
             "name_pl": "0-1 Doombull na 1000 punktów"
           },
-          "lores": [
-            "battle-magic",
-            "dark-magic"
-          ]
+          "lores": ["battle-magic", "dark-magic"]
         }
       },
       "command": [
@@ -1046,12 +945,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_pl": "Przedmioty magiczne",
-          "types": [
-            "enchanted-item",
-            "talisman",
-            "armor",
-            "weapon"
-          ],
+          "types": ["enchanted-item", "talisman", "armor", "weapon"],
           "selected": [],
           "maxPoints": 100,
           "armyComposition": "beastmen-brayherds"
@@ -1062,13 +956,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_pl": "Przedmioty magiczne",
-          "types": [
-            "enchanted-item",
-            "talisman",
-            "armor",
-            "weapon",
-            "arcane-item"
-          ],
+          "types": ["enchanted-item", "talisman", "armor", "weapon", "arcane-item"],
           "selected": [],
           "maxPoints": 100,
           "armyComposition": "minotaur-blood-herd",
@@ -1084,9 +972,7 @@
           "name_de": "Chaos Mutations",
           "name_fr": "Mutations du Chaos",
           "name_pl": "Mutacje Chaosu",
-          "types": [
-            "chaos-mutation"
-          ],
+          "types": ["chaos-mutation"],
           "selected": [],
           "maxPoints": 50,
           "armyComposition": "beastmen-brayherds"
@@ -1097,10 +983,7 @@
           "name_de": "Chaos Mutations / Gifts of Chaos",
           "name_fr": "Mutations du Chaos / Dons du Chaos",
           "name_pl": "Chaos Mutations / Gifts Chaos",
-          "types": [
-            "chaos-mutation",
-            "gift-of-chaos"
-          ],
+          "types": ["chaos-mutation", "gift-of-chaos"],
           "armyComposition": "minotaur-blood-herd",
           "selected": [],
           "maxPoints": 50
@@ -1145,10 +1028,7 @@
             "name_fr": "Arme Perforante (1), Soif de Sang, Rage Sanguinaire, Taurogors, Peur, Déchiqueteur, Regard des Dieux, Touches d'Impact (1), Marque du Chaos Universel, Fureur Primale, Appel du Massacreur, Bande de Guerre, Impétueux",
             "name_pl": "Przebicie Zbroi (1), Krwawy Greed, Krwawy Rage, Bull-gors, Strach, Foe Render, Spojrzenie Bogów, Uderzenia Impetu (1), Znak Chaosu Niepodzielonego, Pierwotna Furia, Slaughterer's Call, Gromada, Impet"
           },
-          "lores": [
-            "battle-magic",
-            "dark-magic"
-          ]
+          "lores": ["battle-magic", "dark-magic"]
         }
       },
       "command": [
@@ -1170,9 +1050,7 @@
           "points": 25,
           "armyComposition": "minotaur-blood-herd",
           "magic": {
-            "types": [
-              "banner"
-            ],
+            "types": ["banner"],
             "maxPoints": 0
           }
         }
@@ -1279,12 +1157,7 @@
           "name_en": "Magic Items",
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
-          "types": [
-            "enchanted-item",
-            "talisman",
-            "armor",
-            "weapon"
-          ],
+          "types": ["enchanted-item", "talisman", "armor", "weapon"],
           "selected": [],
           "maxPoints": 50,
           "name_fr": "Objets Magiques",
@@ -1295,13 +1168,7 @@
           "name_en": "Magic Items",
           "name_cn": "魔法物品",
           "name_de": "Magische Gegenstände",
-          "types": [
-            "enchanted-item",
-            "talisman",
-            "armor",
-            "weapon",
-            "arcane-item"
-          ],
+          "types": ["enchanted-item", "talisman", "armor", "weapon", "arcane-item"],
           "selected": [],
           "maxPoints": 50,
           "name_fr": "Objets Magiques",
@@ -1319,9 +1186,7 @@
           "name_de": "Chaos Mutations",
           "name_fr": "Mutations du Chaos",
           "name_pl": "Mutacje Chaosu",
-          "types": [
-            "chaos-mutation"
-          ],
+          "types": ["chaos-mutation"],
           "selected": [],
           "maxPoints": 50,
           "armyComposition": "beastmen-brayherds"
@@ -1332,10 +1197,7 @@
           "name_de": "Chaos Mutations / Gifts of Chaos",
           "name_fr": "Mutations du Chaos / Dons du Chaos",
           "name_pl": "Chaos Mutations / Gifts Chaos",
-          "types": [
-            "chaos-mutation",
-            "gift-of-chaos"
-          ],
+          "types": ["chaos-mutation", "gift-of-chaos"],
           "selected": [],
           "maxPoints": 50,
           "armyComposition": "minotaur-blood-herd"
@@ -1370,10 +1232,7 @@
           "name_es": "General",
           "name_pl": "Generał",
           "points": 0,
-          "armyComposition": [
-            "beastmen-brayherds",
-            "wild-herd"
-          ]
+          "armyComposition": ["beastmen-brayherds", "wild-herd"]
         }
       ],
       "equipment": [
@@ -1470,18 +1329,10 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_pl": "Przedmioty magiczne",
-          "types": [
-            "enchanted-item",
-            "talisman",
-            "armor",
-            "weapon"
-          ],
+          "types": ["enchanted-item", "talisman", "armor", "weapon"],
           "selected": [],
           "maxPoints": 50,
-          "armyComposition": [
-            "beastmen-brayherds",
-            "minotaur-blood-herd"
-          ]
+          "armyComposition": ["beastmen-brayherds", "minotaur-blood-herd"]
         },
         {
           "name_en": "Magic Items",
@@ -1489,12 +1340,7 @@
           "name_de": "Magische Gegenstände",
           "name_fr": "Objets Magiques",
           "name_pl": "Przedmioty magiczne",
-          "types": [
-            "enchanted-item",
-            "talisman",
-            "armor",
-            "weapon"
-          ],
+          "types": ["enchanted-item", "talisman", "armor", "weapon"],
           "selected": [],
           "maxPoints": 75,
           "armyComposition": "wild-herd"
@@ -1505,15 +1351,10 @@
           "name_de": "Chaos Mutations",
           "name_fr": "Mutations du Chaos",
           "name_pl": "Mutacje Chaosu",
-          "types": [
-            "chaos-mutation"
-          ],
+          "types": ["chaos-mutation"],
           "selected": [],
           "maxPoints": 50,
-          "armyComposition": [
-            "beastmen-brayherds",
-            "minotaur-blood-herd"
-          ]
+          "armyComposition": ["beastmen-brayherds", "minotaur-blood-herd"]
         },
         {
           "name_en": "Chaos Mutations",
@@ -1521,9 +1362,7 @@
           "name_de": "Chaos Mutations",
           "name_fr": "Mutations du Chaos",
           "name_pl": "Mutacje Chaosu",
-          "types": [
-            "chaos-mutation"
-          ],
+          "types": ["chaos-mutation"],
           "selected": [],
           "maxPoints": 75,
           "armyComposition": "wild-herd"
@@ -1566,10 +1405,7 @@
           "name_es": "General",
           "name_pl": "Generał",
           "points": 0,
-          "armyComposition": [
-            "beastmen-brayherds",
-            "wild-herd"
-          ]
+          "armyComposition": ["beastmen-brayherds", "wild-herd"]
         }
       ],
       "equipment": [
@@ -1599,10 +1435,7 @@
       ],
       "mounts": [],
       "items": [],
-      "lores": [
-        "dark-magic",
-        "primal-magic"
-      ],
+      "lores": ["dark-magic", "primal-magic"],
       "specialRules": {
         "name_en": "Braystaff, Future Sight, Gaze of the Gods, Leering Spirit, Lore of Beasts, Mark of Chaos Undivided, Primal Fury, Warband",
         "name_cn": "Braystaff, Future Sight, Gaze of the Gods, Leering Spirit, Lore of Beasts, Mark of Chaos Undivided, Primal Fury, Warband",
@@ -1631,10 +1464,7 @@
           "name_es": "General",
           "name_pl": "Generał",
           "points": 0,
-          "armyComposition": [
-            "beastmen-brayherds",
-            "wild-herd"
-          ]
+          "armyComposition": ["beastmen-brayherds", "wild-herd"]
         }
       ],
       "equipment": [
@@ -1691,12 +1521,7 @@
           "name_pl": "Foe-render (czempion)",
           "points": 7,
           "magic": {
-            "types": [
-              "weapon",
-              "armor",
-              "talisman",
-              "enchanted-item"
-            ],
+            "types": ["weapon", "armor", "talisman", "enchanted-item"],
             "maxPoints": 25
           },
           "options": [
@@ -1719,9 +1544,7 @@
           "name_pl": "Sztandarowy",
           "points": 5,
           "magic": {
-            "types": [
-              "banner"
-            ],
+            "types": ["banner"],
             "maxPoints": 50
           }
         },
@@ -1961,13 +1784,7 @@
             "name_pl": "25 pkt przedmiotów magicznych, 25 pkt mutacji chaosu"
           },
           "magic": {
-            "types": [
-              "enchanted-item",
-              "talisman",
-              "armor",
-              "weapon",
-              "chaos-mutation"
-            ],
+            "types": ["enchanted-item", "talisman", "armor", "weapon", "chaos-mutation"],
             "maxPoints": 50
           },
           "options": [
@@ -1987,9 +1804,7 @@
           "name_de": "Standard bearer",
           "points": 6,
           "magic": {
-            "types": [
-              "banner"
-            ],
+            "types": ["banner"],
             "maxPoints": 50
           },
           "name_es": "Portaesdantarte",
@@ -2100,12 +1915,7 @@
           "name_de": "True-horn",
           "points": 7,
           "magic": {
-            "types": [
-              "weapon",
-              "armor",
-              "talisman",
-              "enchanted-item"
-            ],
+            "types": ["weapon", "armor", "talisman", "enchanted-item"],
             "maxPoints": 25
           },
           "name_es": "Desgarrador",
@@ -2128,9 +1938,7 @@
           "name_de": "Standard bearer",
           "points": 5,
           "magic": {
-            "types": [
-              "banner"
-            ],
+            "types": ["banner"],
             "maxPoints": 50
           },
           "name_es": "Portaestandarte",
@@ -2585,12 +2393,7 @@
           "name_de": "Gorehoof",
           "points": 8,
           "magic": {
-            "types": [
-              "enchanted-item",
-              "talisman",
-              "armor",
-              "weapon"
-            ],
+            "types": ["enchanted-item", "talisman", "armor", "weapon"],
             "maxPoints": 25
           },
           "name_fr": "Éventreur",
@@ -2602,9 +2405,7 @@
           "name_de": "Standard bearer",
           "points": 6,
           "magic": {
-            "types": [
-              "banner"
-            ],
+            "types": ["banner"],
             "maxPoints": 50
           },
           "name_fr": "Porte-étendard",
@@ -2822,12 +2623,7 @@
           "name_pl": "Bloodkine (czempion)",
           "points": 6,
           "magic": {
-            "types": [
-              "enchanted-item",
-              "talisman",
-              "armor",
-              "weapon"
-            ],
+            "types": ["enchanted-item", "talisman", "armor", "weapon"],
             "maxPoints": 25
           }
         },
@@ -2837,9 +2633,7 @@
           "name_de": "Standard bearer",
           "points": 6,
           "magic": {
-            "types": [
-              "banner"
-            ],
+            "types": ["banner"],
             "maxPoints": 50
           },
           "name_fr": "Porte-étendard",
@@ -2923,9 +2717,7 @@
           "name_cn": "混沌变异(血牛)",
           "name_de": "Chaos Mutations (Bloodkine)",
           "points": 0,
-          "types": [
-            "chaos-mutation"
-          ],
+          "types": ["chaos-mutation"],
           "maxPoints": 25,
           "name_fr": "Mutations du Chaos (Sangor)",
           "name_pl": "Mutacje Chaosu (Bloodkine)"
@@ -2975,13 +2767,7 @@
             "name_pl": "25 pkt przedmiotów magicznych, 25 pkt mutacji chaosu"
           },
           "magic": {
-            "types": [
-              "enchanted-item",
-              "talisman",
-              "armor",
-              "weapon",
-              "chaos-mutation"
-            ],
+            "types": ["enchanted-item", "talisman", "armor", "weapon", "chaos-mutation"],
             "maxPoints": 50
           },
           "name_fr": "Encorneur",
@@ -2993,9 +2779,7 @@
           "name_de": "Standard bearer",
           "points": 6,
           "magic": {
-            "types": [
-              "banner"
-            ],
+            "types": ["banner"],
             "maxPoints": 50
           },
           "name_fr": "Porte-étendard",
@@ -3153,12 +2937,7 @@
           "name_de": "Bloodkine",
           "points": 6,
           "magic": {
-            "types": [
-              "enchanted-item",
-              "talisman",
-              "armor",
-              "weapon"
-            ],
+            "types": ["enchanted-item", "talisman", "armor", "weapon"],
             "maxPoints": 25
           },
           "name_fr": "Sangor",
@@ -3170,9 +2949,7 @@
           "name_de": "Standard bearer",
           "points": 6,
           "magic": {
-            "types": [
-              "banner"
-            ],
+            "types": ["banner"],
             "maxPoints": 50
           },
           "name_fr": "Porte-étendard",
@@ -3256,9 +3033,7 @@
           "name_cn": "混沌变异(血牛)",
           "name_de": "Chaos Mutations (Bloodkine)",
           "points": 0,
-          "types": [
-            "chaos-mutation"
-          ],
+          "types": ["chaos-mutation"],
           "maxPoints": 25,
           "name_fr": "Mutations du Chaos (Sangor)",
           "name_pl": "Mutacje Chaosu (Bloodkine)"
@@ -3372,12 +3147,7 @@
           "name_de": "Gorehoof",
           "points": 8,
           "magic": {
-            "types": [
-              "enchanted-item",
-              "talisman",
-              "armor",
-              "weapon"
-            ],
+            "types": ["enchanted-item", "talisman", "armor", "weapon"],
             "maxPoints": 25
           },
           "name_fr": "Éventreur",
@@ -3389,9 +3159,7 @@
           "name_de": "Standard bearer",
           "points": 6,
           "magic": {
-            "types": [
-              "banner"
-            ],
+            "types": ["banner"],
             "maxPoints": 50
           },
           "name_fr": "Porte-étendard",
@@ -3537,7 +3305,7 @@
           "notes": {
             "name_en": "0-1 unit of Dragon Ogres per 1000 points",
             "name_fr": "0-1 unité de Dragons Ogres par tranche de 1000 points",
-            "name_pl": "0-1 jednostka of Smok Ogry na 1000 punktów"
+            "name_pl": "0-1 jednostka of Smoczych Ogrów na 1000 punktów"
           }
         },
         "wild-herd": {
@@ -3545,7 +3313,7 @@
           "notes": {
             "name_en": "0-1 unit of Dragon Ogres",
             "name_fr": "0-1 unité de Dragons Ogres",
-            "name_pl": "0-1 jednostka of Smok Ogry"
+            "name_pl": "0-1 jednostka of Smoczych Ogrów"
           }
         }
       },
@@ -3556,12 +3324,7 @@
           "name_de": "Shartak",
           "points": 7,
           "magic": {
-            "types": [
-              "enchanted-item",
-              "talisman",
-              "armor",
-              "weapon"
-            ],
+            "types": ["enchanted-item", "talisman", "armor", "weapon"],
             "maxPoints": 25
           },
           "name_fr": "Shartak",
@@ -3636,9 +3399,7 @@
           "name_cn": "混沌变异(一个沙塔克)",
           "name_de": "Chaos Mutations (for Shartak)",
           "points": 0,
-          "types": [
-            "chaos-mutation"
-          ],
+          "types": ["chaos-mutation"],
           "maxPoints": 25,
           "name_fr": "Mutations du Chaos (pour Shartak)",
           "name_pl": "Mutacje Chaosu (dla Shartaka)"
@@ -4296,7 +4057,7 @@
           "notes": {
             "name_en": "0-1 Dragon Ogre Shaggoth per 1000 points",
             "name_fr": "0-1 Shaggoth Dragon Ogre par tranche de 1000 points",
-            "name_pl": "0-1 Smok Ogr Shaggoth na 1000 punktów"
+            "name_pl": "0-1 Smoczy Ogr Shaggoth na 1000 punktów"
           }
         },
         "wild-herd": {
@@ -4358,12 +4119,7 @@
           "name_cn": "魔法物品",
           "name_de": "Magic Items",
           "points": 0,
-          "types": [
-            "enchanted-item",
-            "talisman",
-            "armor",
-            "weapon"
-          ],
+          "types": ["enchanted-item", "talisman", "armor", "weapon"],
           "maxPoints": 50,
           "name_fr": "Objets Magiques",
           "name_pl": "Przedmioty magiczne"
@@ -4373,9 +4129,7 @@
           "name_cn": "混沌变异",
           "name_de": "Chaos Mutations",
           "points": 0,
-          "types": [
-            "chaos-mutation"
-          ],
+          "types": ["chaos-mutation"],
           "maxPoints": 50,
           "name_fr": "Mutations du Chaos",
           "name_pl": "Mutacje Chaosu"

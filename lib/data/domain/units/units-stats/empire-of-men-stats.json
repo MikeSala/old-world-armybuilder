@@ -37,7 +37,7 @@
       "Pierwsza Szarża",
       "Szybki Krok"
     ],
-    "unitCategory_de": "Mount",
+    "unitCategory_de": "Reittier",
     "troopType_de": "Schwere Kavallerie",
     "equipment_de": [
       "Eisenbeschlagene hufe (counts as ein hand weapon)",
@@ -282,7 +282,7 @@
       "Strach",
       "Szybki Krok"
     ],
-    "unitCategory_de": "Mount",
+    "unitCategory_de": "Reittier",
     "troopType_de": "Monströse Kavallerie",
     "equipment_de": [
       "Boshafte Klauen",
@@ -1184,7 +1184,7 @@
       "Szybka Kawaleria",
       "Szybki Krok"
     ],
-    "unitCategory_de": "Mount",
+    "unitCategory_de": "Reittier",
     "troopType_de": "Leichte Kavallerie",
     "equipment_de": [
       "Eisenbeschlagene hufe (counts as ein hand weapon)"
@@ -1735,7 +1735,7 @@
     "specialRules_pl": [
       "Harcownicy"
     ],
-    "unitCategory_de": "War Machine",
+    "unitCategory_de": "Kriegsmaschine",
     "troopType_de": "Kriegsmaschine",
     "equipment_de": [
       "Großkanone",
@@ -1950,7 +1950,7 @@
       "Magieresistenz (-1)",
       "Meister der Schlachten",
       "Sammelruf",
-      "Skilled Duellist",
+      "Geschickter Duellant",
       "Unnachgiebig",
       "Schnelle Bewegung",
       "Veteranen"
@@ -2144,7 +2144,7 @@
     "specialRules_pl": [
       "Harcownicy"
     ],
-    "unitCategory_de": "War Machine",
+    "unitCategory_de": "Kriegsmaschine",
     "troopType_de": "Kriegsmaschine",
     "equipment_de": [
       "Höllenfeuer-Salvenkanone",
@@ -2221,7 +2221,7 @@
     "specialRules_pl": [
       "Harcownicy"
     ],
-    "unitCategory_de": "War Machine",
+    "unitCategory_de": "Kriegsmaschine",
     "troopType_de": "Kriegsmaschine",
     "equipment_de": [
       "Höllensturm-Raketenlafette",
@@ -2371,7 +2371,7 @@
       "Groza"
     ],
     "unitCategory_de": "Monster",
-    "troopType_de": "Behemoth",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Boshafte Klauen",
       "Serrated maul",
@@ -2842,7 +2842,7 @@
     "specialRules_pl": [
       "Harcownicy"
     ],
-    "unitCategory_de": "War Machine",
+    "unitCategory_de": "Kriegsmaschine",
     "troopType_de": "Kriegsmaschine",
     "equipment_de": [
       "Mörser",
@@ -3409,7 +3409,7 @@
       "Lot (10)",
       "Szybki Krok"
     ],
-    "unitCategory_de": "Mount",
+    "unitCategory_de": "Reittier",
     "troopType_de": "Monströse Kavallerie",
     "equipment_de": [
       "Eisenbeschlagene hufe (counts as ein hand weapon)"
@@ -4167,7 +4167,7 @@
     "specialRules_de": [
       "Geschlossene Ränge",
       "Erster Angriff",
-      "Holy Fervour",
+      "Heiliger Eifer",
       "Aufpralltreffer (W6+1)",
       "Großes Ziel",
       "Magieresistenz (-2)",

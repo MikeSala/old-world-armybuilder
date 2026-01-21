@@ -593,7 +593,7 @@
       "Verfluchte Waffen",
       "Geschlossene Ränge",
       "Gegenangriff",
-      "Dark Vitality",
+      "Dunkle Vitalität",
       "Erster Angriff",
       "Brennbar",
       "Unverwüstlich (1)",
@@ -836,7 +836,7 @@
     ],
     "specialRules_de": [
       "Geschlossene Ränge",
-      "Dark Vitality",
+      "Dunkle Vitalität",
       "Erster Angriff",
       "Aufpralltreffer (W3+1)",
       "Unverwüstlich (1)",
@@ -990,16 +990,16 @@
     ],
     "specialRules_de": [
       "Geschlossene Ränge",
-      "Dark Vitality",
+      "Dunkle Vitalität",
       "Erster Angriff",
       "Fliegen (8)",
-      "Ghoulish Glamour",
+      "Ghulischer Glamour",
       "Aufpralltreffer (W6+1)",
       "Großes Ziel",
       "Nekromantische Untote",
       "Zufällige Attacken (Spirit Horde leichenmeister)",
       "Regeneration (6+)",
-      "Scrying Pool"
+      "Seherbecken"
     ],
     "name_de": "Hexenthron",
     "name_fr": "Trône de Sabbat",
@@ -1791,7 +1791,7 @@
       "Handwaffe"
     ],
     "specialRules_de": [
-      "Dark Vitality",
+      "Dunkle Vitalität",
       "Unverwüstlich (1)",
       "Anrufung von Nehek",
       "Lehre des Untodes",
@@ -1938,9 +1938,9 @@
     ],
     "specialRules_de": [
       "Verfluchte Reliquary",
-      "Blasphemous Tome",
+      "Gotteslästerliches Buch",
       "Geschlossene Ränge",
-      "Dark Vitality",
+      "Dunkle Vitalität",
       "Erster Angriff",
       "Fliegen (8)",
       "Aufpralltreffer (W6+1)",
@@ -1948,7 +1948,7 @@
       "Nekromantische Untote",
       "Zufällige Attacken (Spirit Horde leichenmeister)",
       "Regeneration (6+)",
-      "Wailing Dirge"
+      "Klagendes Lied"
     ],
     "name_de": "Mortisschrein",
     "name_fr": "Machine Mortis",
@@ -2053,7 +2053,7 @@
       "Handwaffe"
     ],
     "specialRules_de": [
-      "Dark Vitality",
+      "Dunkle Vitalität",
       "Unverwüstlich (1)",
       "Anrufung von Nehek",
       "Lehre des Untodes",
@@ -2134,7 +2134,7 @@
       "Nekromantyczni Nieumarli",
       "Szybki Krok"
     ],
-    "unitCategory_de": "Mount",
+    "unitCategory_de": "Reittier",
     "troopType_de": "Schwere Kavallerie",
     "equipment_de": [
       "Eisenbeschlagene hufe (counts as ein hand weapon)",
@@ -2214,7 +2214,7 @@
       "Nekromantyczni Nieumarli",
       "Szybki Krok"
     ],
-    "unitCategory_de": "Mount",
+    "unitCategory_de": "Reittier",
     "troopType_de": "Schwere Kavallerie",
     "equipment_de": [
       "Skeletal hufe (counts as hand weapon)",
@@ -2516,7 +2516,7 @@
       "Handwaffe"
     ],
     "specialRules_de": [
-      "Dark Vitality",
+      "Dunkle Vitalität",
       "Brennbar",
       "Hass (alle Feinde)",
       "Unverwüstlich (1)",
@@ -2624,7 +2624,7 @@
       "Wailing Dirge"
     ],
     "unitCategory_de": "Monster",
-    "troopType_de": "Behemoth",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Schmutzverkrustete Klauen",
       "Fauliges Maul",
@@ -2641,7 +2641,7 @@
       "Stampfattacken (W6)",
       "Schnelle Bewegung",
       "Entsetzen",
-      "Wailing Dirge"
+      "Klagendes Lied"
     ],
     "name_de": "Flederbestie",
     "name_fr": "Terreurgheist",
@@ -2746,8 +2746,8 @@
       "Groza",
       "Wailing Dirge"
     ],
-    "unitCategory_de": "Mount",
-    "troopType_de": "Behemoth",
+    "unitCategory_de": "Reittier",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Schmutzverkrustete Klauen",
       "Fauliges Maul",
@@ -2764,7 +2764,7 @@
       "Stampfattacken (W6)",
       "Schnelle Bewegung",
       "Entsetzen",
-      "Wailing Dirge"
+      "Klagendes Lied"
     ],
     "name_de": "Flederbestie (Mount)",
     "name_fr": "Terreurgheist (Démoniaque)",
@@ -2867,7 +2867,7 @@
       "Nekromantische Untote",
       "Regeneration (6+)",
       "Entsetzen",
-      "Wailing Dirge"
+      "Klagendes Lied"
     ],
     "name_de": "Banshee",
     "name_fr": "Banshee",
@@ -2959,7 +2959,7 @@
       "Handwaffe"
     ],
     "specialRules_de": [
-      "Dark Vitality",
+      "Dunkle Vitalität",
       "Brennbar",
       "Unverwüstlich (2)",
       "Lehre des Untodes",
@@ -3055,7 +3055,7 @@
     ],
     "specialRules_de": [
       "Banner des Grafen",
-      "Dark Vitality",
+      "Dunkle Vitalität",
       "Brennbar",
       "Unverwüstlich (1)",
       "Lehre des Untodes",
@@ -3172,7 +3172,7 @@
     ],
     "specialRules_de": [
       "Rüstungsfluch (2)",
-      "Dark Vitality",
+      "Dunkle Vitalität",
       "Brennbar",
       "Fliegen (9)",
       "Raserei",
@@ -3284,7 +3284,7 @@
       "Bestienwut",
       "Geschlossene Ränge",
       "Gegenangriff",
-      "Dark Vitality",
+      "Dunkle Vitalität",
       "Brennbar",
       "Raserei",
       "Unverwüstlich (1)",
@@ -3558,7 +3558,7 @@
       "Groza"
     ],
     "unitCategory_de": "Monster",
-    "troopType_de": "Behemoth",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Boshafte Klauen",
       "Pestilential atem",

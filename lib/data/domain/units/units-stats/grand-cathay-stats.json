@@ -52,7 +52,7 @@
     "specialRules_pl": [
       "Harcownicy"
     ],
-    "unitCategory_de": "War Machine",
+    "unitCategory_de": "Kriegsmaschine",
     "troopType_de": "Kriegsmaschine",
     "equipment_de": [
       "Grand großkanone",
@@ -140,7 +140,7 @@
       "Niezłomni"
     ],
     "unitCategory_de": "Monster",
-    "troopType_de": "Behemoth",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Handwaffe",
       "chepesh klinge",
@@ -237,14 +237,14 @@
       "Pierwsza Szarża",
       "Szybki Krok"
     ],
-    "unitCategory_de": "Mount",
+    "unitCategory_de": "Reittier",
     "troopType_de": "Schwere Kavallerie",
     "equipment_de": [
       "Eisenbeschlagene hufe (counts as ein hand weapon)",
       "rossharnische"
     ],
     "specialRules_de": [
-      "Cathayan Cataphracts",
+      "Kathayanische Kataphrakte",
       "Gegenangriff",
       "Erster Angriff",
       "Schnelle Bewegung"
@@ -327,7 +327,7 @@
     "specialRules_pl": [
       "Harcownicy"
     ],
-    "unitCategory_de": "War Machine",
+    "unitCategory_de": "Kriegsmaschine",
     "troopType_de": "Kriegsmaschine",
     "equipment_de": [
       "Schießen rain rocket",
@@ -610,7 +610,7 @@
       "rossharnische (Warhorses)"
     ],
     "specialRules_de": [
-      "Cathayan Cataphracts",
+      "Kathayanische Kataphrakte",
       "Geschlossene Ränge",
       "Gegenangriff",
       "Geschlossene Ränge",
@@ -723,7 +723,7 @@
     ],
     "specialRules_de": [
       "Geschlossene Ränge",
-      "Defensive Stance",
+      "Defensivhaltung",
       "Abteilung",
       "Hauptregiment",
       "Will des der Dragons"
@@ -808,7 +808,7 @@
       "leichte rüstung"
     ],
     "specialRules_de": [
-      "Grand Strategist",
+      "Großstratege",
       "Harmony des Steinernes & Steel",
       "Will des der Dragons"
     ],
@@ -1058,7 +1058,7 @@
       "Enough dla Everyone",
       "Mercenary Załoga"
     ],
-    "unitCategory_de": "War Machine",
+    "unitCategory_de": "Kriegsmaschine",
     "troopType_de": "Monströse Infanterie, Charakter",
     "equipment_de": [
       "Handwaffe",
@@ -1161,7 +1161,7 @@
     "unitCategory_de": "Charakter",
     "troopType_de": "Monströse Kreatur, Charakter",
     "equipment_de": [
-      "Shugengan: Hand weapon",
+      "Shugengan: Handwaffe",
       "Shugengan: iron klauen",
       "Shugengan: leichte rüstung",
       "Chepesh Spirit Longma: Crown des horns"
@@ -1289,7 +1289,7 @@
     "unitCategory_de": "Charakter",
     "troopType_de": "Monströse Kreatur, Charakter",
     "equipment_de": [
-      "Shugengan: Hand weapon",
+      "Shugengan: Handwaffe",
       "Shugengan: iron klauen",
       "Shugengan: leichte rüstung",
       "Chepesh Spirit Longma: Crown des horns"
@@ -1433,12 +1433,12 @@
     ],
     "specialRules_de": [
       "Geschlossene Ränge",
-      "Disengage",
+      "Abkoppeln",
       "Eye des der Dragon",
       "Vorgetäuschte Flucht",
       "Schießen und Verschwinden",
       "Fliegen (8)",
-      "Heavenly Beacon",
+      "Himmlisches Signal",
       "Aufpralltreffer Hits (D3+1, Sky Lantern leichenmeister)",
       "Großes Ziel",
       "Reservebewegung",
@@ -1538,7 +1538,7 @@
       "leichte rüstung"
     ],
     "specialRules_de": [
-      "Grand Strategist",
+      "Großstratege",
       "Harmony des Steinernes & Steel",
       "Will des der Dragons"
     ],

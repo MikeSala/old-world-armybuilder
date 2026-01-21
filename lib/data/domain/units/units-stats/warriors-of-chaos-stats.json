@@ -270,7 +270,7 @@
         "Two-headed Smok"
       ],
       "unitCategory_de": "Monster",
-      "troopType_de": "Behemoth",
+      "troopType_de": "Koloss",
       "equipment_de": [
         "Boshafte Klauen",
         "Dark Schießen des Chaos",
@@ -285,7 +285,7 @@
         "Stampfattacken (W6)",
         "Schnelle Bewegung",
         "Entsetzen",
-        "Two-headed Dragon"
+        "Zweiköpfiger Drache"
       ],
       "name_de": "Chaos Dragon",
       "name_fr": "Dragon du Chaos",
@@ -881,7 +881,7 @@
         "Pierwsza Szarża",
         "Szybki Krok"
       ],
-      "unitCategory_de": "Mount",
+      "unitCategory_de": "Reittier",
       "troopType_de": "Schwere Kavallerie",
       "equipment_de": [
         "Eisenbeschlagene hufe (counts as ein hand weapon)",
@@ -1072,7 +1072,7 @@
         "Schwere Rüstung"
       ],
       "specialRules_de": [
-        "Handler",
+        "Hundeführer",
         "Einzelgänger",
         "Mark des Chaos Undivided",
         "Durch Deckung bewegen",
@@ -1800,7 +1800,7 @@
         "Regeneration (5+)",
         "Unerschütterlich",
         "Instabil",
-        "Warp-spawned"
+        "Warpgeboren"
       ],
       "name_de": "Dämon Prinz",
       "name_fr": "Démon Démon",
@@ -1891,7 +1891,7 @@
         "Zdeptanie (1)",
         "Szybki Krok"
       ],
-      "unitCategory_de": "Mount",
+      "unitCategory_de": "Reittier",
       "troopType_de": "Monströse Kavallerie",
       "equipment_de": [
         "Daemonic hufe (counts as ein hand weapon)"
@@ -2197,7 +2197,7 @@
         "Ungestüm",
         "Einzelgänger",
         "Offene Ränge",
-        "Rampant Mutation",
+        "Ungezügelte Mutation",
         "Zufällige Attacken",
         "Unnachgiebig"
       ],
@@ -2304,20 +2304,20 @@
       "troopType_de": "Schwere Infanterie, Benannter Charakter",
       "equipment_de": [
         "Handwaffe",
-        "Storm's Wrath",
+        "Zorn des Sturms",
         "Plattenrüstung",
         "Schild"
       ],
       "specialRules_de": [
         "Überfall",
-        "Chainmaker",
+        "Kettenmacher",
         "Chaos Rüstung (5+)",
         "Herrscher & Hauptmann",
         "Ensorcelled Waffen",
         "Blick des der Gods",
         "Aufpralltreffer (1)",
         "Mark des Chaos Undivided",
-        "Peerless Raider",
+        "Unvergleichlicher Plünderer",
         "Sammelruf"
       ],
       "name_de": "Frydaal Der Chainmaker",
@@ -2451,7 +2451,7 @@
         "Stampfattacken (W6)",
         "Schnelle Bewegung",
         "Entsetzen",
-        "Two-headed Dragon"
+        "Zweiköpfiger Drache"
       ],
       "name_de": "Galrauch",
       "name_fr": "Galrauch, Le Grand Dragon",
@@ -2561,10 +2561,10 @@
         "Niezłomni"
       ],
       "unitCategory_de": "Monster",
-      "troopType_de": "Behemoth",
+      "troopType_de": "Koloss",
       "equipment_de": [
         "Slashing klauen",
-        "Gnashing maws",
+        "Knirschende Mäuler",
         "Scaly skin (counts as schwere rüstung)"
       ],
       "specialRules_de": [
@@ -2820,24 +2820,24 @@
         "Warp-spawned"
       ],
       "unitCategory_de": "Monster",
-      "troopType_de": "Behemoth",
+      "troopType_de": "Koloss",
       "equipment_de": [
         "Hellcannon: Doomfire, Hand waffen",
         "Chaos Dwarf Handlers: Hand waffen"
       ],
       "specialRules_de": [
         "Rüstungsfluch (1)",
-        "Caged Fury",
+        "Eingesperrte Wut",
         "Geschlossene Ränge",
         "Ensorcelled Waffen",
         "Immung gegen Psychologie",
         "Aufpralltreffer (W6)",
         "Großes Ziel",
-        "Monster Handlers",
+        "Monsterbändiger",
         "Regeneration (6+)",
         "Entsetzen",
         "Unerschütterlich",
-        "Warp-spawned"
+        "Warpgeboren"
       ],
       "name_de": "Hellcannon",
       "name_fr": "Canon Apocalypse",
@@ -3498,7 +3498,7 @@
         "Angst",
         "Mark des Chaos Undivided",
         "Offene Ränge",
-        "Primal Fury",
+        "Urwut",
         "Regeneration (5+)",
         "Plänkler",
         "Schnelle Bewegung",
@@ -3680,7 +3680,7 @@
         "Szybka Kawaleria",
         "Szybki Krok"
       ],
-      "unitCategory_de": "Mount",
+      "unitCategory_de": "Reittier",
       "troopType_de": "Leichte Kavallerie",
       "equipment_de": [
         "Eisenbeschlagene hufe (counts as ein hand weapon)"
@@ -3784,15 +3784,15 @@
         "Warpfire Aura"
       ],
       "unitCategory_de": "Monster",
-      "troopType_de": "Behemoth",
+      "troopType_de": "Koloss",
       "equipment_de": [
         "Boshafte Klauen",
-        "Warpfire Blast",
+        "Warpfeuer-Explosion",
         "Draconic scales (counts as full plate rüstung)"
       ],
       "specialRules_de": [
         "Geschlossene Ränge",
-        "Explosive Demise",
+        "Explosiver Untergang",
         "Schießen & Chaos",
         "Fliegen (10)",
         "Großes Ziel",
@@ -3804,7 +3804,7 @@
         "Stampfattacken (W6)",
         "Schnelle Bewegung",
         "Entsetzen",
-        "Warpfire Aura"
+        "Warpfeuer-Aura"
       ],
       "name_de": "Warpfire Dragon",
       "name_fr": "Dragon de Maleflamme",

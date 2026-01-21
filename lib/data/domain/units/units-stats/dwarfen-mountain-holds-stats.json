@@ -198,7 +198,7 @@
       "Harcownicy",
       "Nieugięty"
     ],
-    "unitCategory_de": "War Machine",
+    "unitCategory_de": "Kriegsmaschine",
     "troopType_de": "Kriegsmaschine",
     "equipment_de": [
       "Speerschleuder",
@@ -420,7 +420,7 @@
       "Harcownicy",
       "Nieugięty"
     ],
-    "unitCategory_de": "War Machine",
+    "unitCategory_de": "Kriegsmaschine",
     "troopType_de": "Kriegsmaschine",
     "equipment_de": [
       "Kanone",
@@ -977,7 +977,7 @@
     "unitCategory_pl": "Wierzchowiec",
     "equipment_pl": [],
     "specialRules_pl": [],
-    "unitCategory_de": "Mount",
+    "unitCategory_de": "Reittier",
     "equipment_de": [],
     "specialRules_de": []
   },
@@ -1155,7 +1155,7 @@
     "specialRules_de": [
       "Artillery Meister",
       "Zwergengefertigt",
-      "Entrenchment",
+      "Verschanzung",
       "Gromrilrüstung",
       "Hass (Orks & Goblins)",
       "Magieresistenz (-1)",
@@ -1260,7 +1260,7 @@
       "Zwergengefertigt",
       "Gromrilrüstung",
       "Hass (Orks & Goblins)",
-      "Hostile Terrain",
+      "Feindliches Gelände",
       "Magieresistenz (-1)",
       "Resolut",
       "Unnachgiebig"
@@ -1343,7 +1343,7 @@
       "Harcownicy",
       "Nieugięty"
     ],
-    "unitCategory_de": "War Machine",
+    "unitCategory_de": "Kriegsmaschine",
     "troopType_de": "Kriegsmaschine",
     "equipment_de": [
       "Flammenwerfer",

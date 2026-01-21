@@ -86,7 +86,7 @@
         "Groza"
       ],
       "unitCategory_de": "Monster",
-      "troopType_de": "Behemoth",
+      "troopType_de": "Koloss",
       "equipment_de": [
         "Poisonous fangs (counts as ein hand weapon)",
         "Giftstoß",
@@ -752,9 +752,9 @@
         "Niezłomni"
       ],
       "unitCategory_de": "Monster",
-      "troopType_de": "Behemoth",
+      "troopType_de": "Koloss",
       "equipment_de": [
-        "Bonegrinder Giant's club",
+        "Keule des Knochenmahler-Riesen",
         "Schwielige haut (counts as leichte rüstung)"
       ],
       "specialRules_de": [
@@ -966,7 +966,7 @@
         "Strach of Elfy",
         "Harcownicy"
       ],
-      "unitCategory_de": "War Machine",
+      "unitCategory_de": "Kriegsmaschine",
       "troopType_de": "Kriegsmaschine",
       "equipment_de": [
         "Untergangs Diver katapult (steinernes thrower)",
@@ -1119,7 +1119,7 @@
         "Niezłomni"
       ],
       "unitCategory_de": "Monster",
-      "troopType_de": "Behemoth",
+      "troopType_de": "Koloss",
       "equipment_de": [
         "Riesenkeule",
         "Schwielige haut (counts as leichte rüstung)"
@@ -1215,10 +1215,10 @@
         "Samotnik",
         "Random Movement"
       ],
-      "unitCategory_de": "Mount",
+      "unitCategory_de": "Reittier",
       "troopType_de": "Monströse Kavallerie",
       "equipment_de": [
-        "Massive Gob"
+        "Riesiges Maul"
       ],
       "specialRules_de": [
         "Zähe Haut (1)",
@@ -1288,7 +1288,7 @@
         "Ogień I Odwrót",
         "Szybki Krok"
       ],
-      "unitCategory_de": "Mount",
+      "unitCategory_de": "Reittier",
       "troopType_de": "Leichte Kavallerie",
       "equipment_de": [
         "Klauen prinz fangs (counts as ein hand weapon)"
@@ -1366,7 +1366,7 @@
         "Trujące Ataki",
         "Szybki Krok"
       ],
-      "unitCategory_de": "Mount",
+      "unitCategory_de": "Reittier",
       "troopType_de": "Leichte Kavallerie",
       "equipment_de": [
         "Klauen prinz fangs (counts as ein hand weapon)"
@@ -1537,7 +1537,7 @@
         "Strach of Elfy",
         "Harcownicy"
       ],
-      "unitCategory_de": "War Machine",
+      "unitCategory_de": "Kriegsmaschine",
       "troopType_de": "Kriegsmaschine",
       "equipment_de": [
         "Speerschleuder",
@@ -1879,7 +1879,7 @@
         "Strach of Elfy",
         "Harcownicy"
       ],
-      "unitCategory_de": "War Machine",
+      "unitCategory_de": "Kriegsmaschine",
       "troopType_de": "Kriegsmaschine",
       "equipment_de": [
         "Steinschleuder",
@@ -1993,7 +1993,7 @@
       "equipment_de": [
         "Hand waffen (jagd)",
         "Schilde (jagd)",
-        "Poisonous fangs (mount)"
+        "Giftige Reißzähne (Reittier)"
       ],
       "specialRules_de": [
         "Wendige Kavallerie",
@@ -2481,7 +2481,7 @@
         "Leichte Rüstung"
       ],
       "specialRules_de": [
-        "All Sneaky Like",
+        "Ganz Heimlich",
         "Überfall",
         "Rüstung Bane (1, Beißer leichenmeister)",
         "Zähe Haut (1)",
@@ -2602,7 +2602,7 @@
         "Dreeeewno!"
       ],
       "unitCategory_de": "Monster",
-      "troopType_de": "Behemoth",
+      "troopType_de": "Koloss",
       "equipment_de": [
         "Kolossales Reißzahnmaul",
         "Scaly skin (counts as schwere rüstung)"
@@ -2716,7 +2716,7 @@
         "Rüstungsfluch (2)",
         "Angst vor Elfen",
         "Geschlossene Ränge",
-        "Skulking Menace",
+        "Schleichende Bedrohung",
         "Schlägt zuerst zu"
       ],
       "name_de": "Fiese Skulker",
@@ -3159,7 +3159,7 @@
       "troopType_de": "Reguläre Infanterie",
       "equipment_de": [
         "Verschiedene squig-herding implements (counts as hand waffen)",
-        "Huge gobs (Squigs)"
+        "Riesige Mäuler (Squigs)"
       ],
       "specialRules_de": [
         "Hass (Zwerge)",
@@ -3289,7 +3289,7 @@
       "troopType_de": "Leichte Kavallerie",
       "equipment_de": [
         "Hand waffen (hoppers)",
-        "Huge gobs (squigs)"
+        "Riesige Mäuler (Squigs)"
       ],
       "specialRules_de": [
         "Hass (Zwerge)",
@@ -3471,8 +3471,8 @@
       "unitCategory_de": "Benannter Charakter",
       "troopType_de": "Reguläre Infanterie, Benannter Charakter",
       "equipment_de": [
-        "Bog-wood Staff",
-        "Trollhide Shawl",
+        "Moorholzstab",
+        "Trollhaut-Schal",
         "Gelehrsamer Homunkulus"
       ],
       "specialRules_de": [
@@ -3923,14 +3923,14 @@
         "Bully",
         "Choppas"
       ],
-      "unitCategory_de": "War Machine",
+      "unitCategory_de": "Kriegsmaschine",
       "troopType_de": "Reguläre Infanterie",
       "equipment_de": [
         "Handwaffe",
         "Peitsche"
       ],
       "specialRules_de": [
-        "Bully",
+        "Schikaneur",
         "Spaltas"
       ],
       "name_de": "Orktreiba",
@@ -4930,7 +4930,7 @@
         "Szybki Krok",
         "Tusker Charge"
       ],
-      "unitCategory_de": "Mount",
+      "unitCategory_de": "Reittier",
       "troopType_de": "Schwere Kavallerie",
       "equipment_de": [
         "Hauer (counts as ein hand weapon)"

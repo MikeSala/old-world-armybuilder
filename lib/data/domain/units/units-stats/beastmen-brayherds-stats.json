@@ -52,10 +52,10 @@
     "specialRules_de": [
       "Die Rage",
       "Brayhorn (General leichenmeister)",
-      "Foe Render",
+      "Feindschinder",
       "Blick des der Gods",
       "Mark des Chaos Undivided",
-      "Primal Fury",
+      "Urwut",
       "Kriegerschar"
     ],
     "name_de": "Beastlord",
@@ -145,7 +145,7 @@
       "Die Rage",
       "Geschlossene Ränge",
       "Mark des Chaos Undivided",
-      "Primal Fury",
+      "Urwut",
       "Kriegerschar"
     ],
     "unitCategory_fr": "Infanterie",
@@ -254,13 +254,13 @@
     "unitCategory_de": "Charakter",
     "troopType_de": "Reguläre Infanterie, Charakter",
     "equipment_de": [
-      "Braystaff"
+      "Braystab"
     ],
     "specialRules_de": [
       "Blick des der Gods",
       "Lehre des Beasts",
       "Mark des Chaos Undivided",
-      "Primal Fury",
+      "Urwut",
       "Kriegerschar"
     ],
     "name_de": "Bray-Shaman",
@@ -349,13 +349,13 @@
       "schilde"
     ],
     "specialRules_de": [
-      "Drunken",
+      "Betrunken",
       "Wendige Kavallerie",
       "Geschlossene Ränge",
       "Mark des Chaos Undivided",
       "Durch Deckung bewegen",
       "Offene Ränge",
-      "Primal Fury",
+      "Urwut",
       "Plänkler",
       "Stampfattacken (1)",
       "Schnelle Bewegung",
@@ -483,7 +483,7 @@
       "Niezłomni"
     ],
     "unitCategory_de": "Monster",
-    "troopType_de": "Behemoth",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Riesenkeule",
       "schwielige haut (counts as leichte rüstung)"
@@ -669,7 +669,7 @@
       "Fliegen (10)",
       "Großes Ziel",
       "Stampfattacken (1)",
-      "Stony Stare",
+      "Steinerner Blick",
       "Schnelle Bewegung",
       "Entsetzen"
     ],
@@ -761,18 +761,18 @@
       "Dreeeewno!"
     ],
     "unitCategory_de": "Monster",
-    "troopType_de": "Behemoth",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Klauen (counts as ein hand weapon)",
-      "hurl attack",
+      "Schleuderangriff",
       "schwielige haut (counts as leichte rüstung)"
     ],
     "specialRules_de": [
       "Geschlossene Ränge",
-      "Ghostsight",
+      "Geistersicht",
       "Immung gegen Psychologie",
       "Großes Ziel",
-      "Soul-eater",
+      "Seelenfresser",
       "Stampfattacken (W3)",
       "Unnachgiebig",
       "Entsetzen",
@@ -879,14 +879,14 @@
       "Rüstungsfluch (1)",
       "Die Greed",
       "Die Rage",
-      "Bull-gors",
+      "Stiergoren",
       "Angst",
-      "Foe Render",
+      "Feindschinder",
       "Blick des der Gods",
       "Aufpralltreffer (1)",
       "Mark des Chaos Undivided",
-      "Primal Fury",
-      "Slaughterer's Call",
+      "Urwut",
+      "Ruf des Schlächters",
       "Kriegerschar"
     ],
     "name_de": "Doombull",
@@ -996,7 +996,7 @@
       "Immung gegen Psychologie",
       "Großes Ziel",
       "Stampfattacken (W3+1)",
-      "Storm Call",
+      "Sturmruf",
       "Entsetzen",
       "Der Quickening Storm"
     ],
@@ -1224,9 +1224,9 @@
       "Dreeeewno!"
     ],
     "unitCategory_de": "Monster",
-    "troopType_de": "Behemoth",
+    "troopType_de": "Koloss",
     "equipment_de": [
-      "Cleaver-limbs",
+      "Hackgliedmaßen",
       "schwielige haut (counts as leichte rüstung)"
     ],
     "specialRules_de": [
@@ -1234,11 +1234,11 @@
       "Geschlossene Ränge",
       "Raserei",
       "Großes Ziel",
-      "Primal Fury",
+      "Urwut",
       "Regeneration (6+)",
       "Stampfattacken (W3)",
       "Unnachgiebig",
-      "Swallow Whole",
+      "Ganz verschlingen",
       "Entsetzen",
       "Baum fällt!"
     ],
@@ -1340,16 +1340,16 @@
     "troopType_de": "Schwere Kavallerie, Benannter Charakter",
     "equipment_de": [
       "Handwaffe",
-      "Mansmasher",
+      "Menschenzerschmetterer",
       "der Skull des der Einhorn Lord"
     ],
     "specialRules_de": [
-      "Drunken",
+      "Betrunken",
       "Father des Beasts",
       "Blick des der Gods",
       "Mark des Chaos Undivided",
       "Durch Deckung bewegen",
-      "Primal Fury",
+      "Urwut",
       "Stampfattacken (W3)",
       "Schnelle Bewegung",
       "Der Sons des Ghorros",
@@ -1456,7 +1456,7 @@
       "Mark des Chaos Undivided",
       "Durch Deckung bewegen",
       "Offene Ränge",
-      "Primal Fury",
+      "Urwut",
       "Plänkler",
       "Kriegerschar"
     ],
@@ -1588,14 +1588,14 @@
       "Rüstungsfluch (1)",
       "Die Greed",
       "Die Rage",
-      "Bull-gors",
+      "Stiergoren",
       "Angst",
-      "Foe Render",
+      "Feindschinder",
       "Blick des der Gods",
       "Aufpralltreffer (1)",
       "Mark des Chaos Undivided",
-      "Primal Fury",
-      "Slaughterer's Call",
+      "Urwut",
+      "Ruf des Schlächters",
       "Kriegerschar"
     ],
     "name_de": "Gorebull",
@@ -1686,13 +1686,13 @@
     "unitCategory_de": "Charakter",
     "troopType_de": "Reguläre Infanterie, Charakter",
     "equipment_de": [
-      "Braystaff"
+      "Braystab"
     ],
     "specialRules_de": [
       "Blick des der Gods",
       "Lehre des Beasts",
       "Mark des Chaos Undivided",
-      "Primal Fury",
+      "Urwut",
       "Kriegerschar"
     ],
     "name_de": "Chepesh Bray-Shaman",
@@ -1826,7 +1826,7 @@
     ],
     "specialRules_pl": [],
     "equipment_de": [
-      "Herdstones"
+      "Herdsteine"
     ],
     "specialRules_de": [],
     "name_de": "Herdstone",
@@ -1889,14 +1889,14 @@
     "troopType_de": "Monströse Kreatur",
     "equipment_de": [
       "Boshafte Klauen",
-      "slythey tongue",
+      "Schlangenzunge",
       "scaly skin (counts as schwere rüstung)"
     ],
     "specialRules_de": [
       "Geschlossene Ränge",
       "Fliegen (9)",
       "Großes Ziel",
-      "Maddening Aura",
+      "Wahnsinnige Aura",
       "Giftattacken",
       "Spurting Bile Die",
       "Stampfattacken (W3)",
@@ -1995,15 +1995,15 @@
     "troopType_de": "Reguläre Infanterie, Benannter Charakter",
     "equipment_de": [
       "Handwaffe",
-      "Grisly Totem (Braystaff)"
+      "Grausiger Totem (Braystab)"
     ],
     "specialRules_de": [
-      "Future Sight",
+      "Blick in die Zukunft",
       "Blick des der Gods",
-      "Leering Spirit",
+      "Höhnischer Geist",
       "Lehre des Beasts",
       "Mark des Chaos Undivided",
-      "Primal Fury",
+      "Urwut",
       "Kriegerschar"
     ],
     "name_de": "Kralmaw, der Prophet des Ruin",
@@ -2104,14 +2104,14 @@
     "specialRules_de": [
       "Die Greed",
       "Die Rage",
-      "Bull-gors",
+      "Stiergoren",
       "Geschlossene Ränge",
       "Angst",
-      "Foe Render",
+      "Feindschinder",
       "Aufpralltreffer (1)",
       "Mark des Chaos Undivided",
       "Zusammengewürfelter Haufen",
-      "Primal Fury",
+      "Urwut",
       "Kriegerschar"
     ],
     "unitCategory_fr": "Infanterie",
@@ -2237,13 +2237,13 @@
     "troopType_de": "Monströse Kreatur",
     "equipment_de": [
       "Klauen prinz fangs (counts as ein hand weapon)",
-      "twisted antlers",
+      "Verdrehte Geweihe",
       "scaly skin (counts as schwere rüstung)"
     ],
     "specialRules_de": [
       "Geschlossene Ränge",
       "Crown des Antlers",
-      "Endless Malice",
+      "Endlose Bosheit",
       "Fliegen (10)",
       "Aufpralltreffer (W3)",
       "Großes Ziel",
@@ -2354,7 +2354,7 @@
       "Mixed Einheit",
       "Zusammengewüfelter Haufen*",
       "Durch Deckung bewegen",
-      "Primal Fury",
+      "Urwut",
       "Kriegerschar"
     ],
     "name_fr": "Fureur Warherd – Gor",
@@ -2614,7 +2614,7 @@
       "Foe Render (Razorgor leichenmeister)",
       "Aufpralltreffer (W6+2)",
       "Mark des Chaos Undivided",
-      "Primal Fury",
+      "Urwut",
       "Razor Hauer"
     ],
     "name_de": "Razorgor Streitwagen",
@@ -2811,11 +2811,11 @@
     "specialRules_de": [
       "Rüstungsfluch (1)",
       "Angst",
-      "Foe Render",
+      "Feindschinder",
       "Aufpralltreffer (W3)",
       "Einzelgänger",
       "Offene Ränge",
-      "Primal Fury",
+      "Urwut",
       "Razor Hauer",
       "Schnelle Bewegung"
     ],
@@ -2915,7 +2915,7 @@
       "Erster Angriff",
       "Aufpralltreffer (W6+1)",
       "Mark des Chaos Undivided",
-      "Primal Fury",
+      "Urwut",
       "Razor Hauer",
       "Kriegerschar"
     ],
@@ -3046,7 +3046,7 @@
       "Mark des Chaos Undivided",
       "Durch Deckung bewegen",
       "Offene Ränge",
-      "Primal Fury",
+      "Urwut",
       "Plänkler",
       "Kriegerschar"
     ],
@@ -3176,7 +3176,7 @@
       "Geschlossene Ränge",
       "Leader des der Pack",
       "Durch Deckung bewegen",
-      "Primal Fury",
+      "Urwut",
       "Schnelle Bewegung",
       "Kriegerschar"
     ],
@@ -3267,10 +3267,10 @@
     "specialRules_de": [
       "Die Rage",
       "Brayhorn (General leichenmeister)",
-      "Foe Render",
+      "Feindschinder",
       "Blick des der Gods",
       "Mark des Chaos Undivided",
-      "Primal Fury",
+      "Urwut",
       "Kriegerschar"
     ],
     "name_de": "Wargor",
@@ -3358,12 +3358,12 @@
       "Handwaffe"
     ],
     "specialRules_de": [
-      "Drunken",
+      "Betrunken",
       "Wendige Kavallerie",
       "Blick des der Gods",
       "Mark des Chaos Undivided",
       "Durch Deckung bewegen",
-      "Primal Fury",
+      "Urwut",
       "Stampfattacken (1)",
       "Schnelle Bewegung",
       "Kriegerschar"
@@ -3466,7 +3466,7 @@
       "Mark des Chaos Undivided",
       "Durch Deckung bewegen",
       "Offene Ränge",
-      "Primal Fury",
+      "Urwut",
       "Zufällige Attacken",
       "Unnachgiebig",
       "Kriegerschar"

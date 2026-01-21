@@ -260,7 +260,7 @@
       "Unbound Spirits",
       "Vortex of Souls"
     ],
-    "unitCategory_de": "War Machine",
+    "unitCategory_de": "Kriegsmaschine",
     "troopType_de": "Kriegsmaschine",
     "equipment_de": [
       "Handwaffen",
@@ -500,7 +500,7 @@
       "Groza"
     ],
     "unitCategory_de": "Monster",
-    "troopType_de": "Behemoth",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Khemrische Kriegssphinx: Boshafte klauen",
       "Streitwagen Der Haufen: Hand waffen",
@@ -730,7 +730,7 @@
       "Groza"
     ],
     "unitCategory_de": "Monster",
-    "troopType_de": "Behemoth",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Boshafte Klauen",
       "atem des desiccation",
@@ -845,7 +845,7 @@
       "Unstoppable Assault"
     ],
     "unitCategory_de": "Monster",
-    "troopType_de": "Behemoth",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Riesiges Chepesh Paar",
       "schwere rüstung"
@@ -1222,7 +1222,7 @@
       "Soul Reaper"
     ],
     "unitCategory_de": "Monster",
-    "troopType_de": "Behemoth",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Spaltende Klingen",
       "enthauptender zuerst",
@@ -1238,7 +1238,7 @@
       "Stampfattacken (W3+2)",
       "Schnelle Bewegung",
       "Entsetzen",
-      "Soul Reaper"
+      "Seelenernter"
     ],
     "name_de": "Nekrosphinx",
     "name_fr": "Nécrosphinx",
@@ -1775,7 +1775,7 @@
       "Regeneracja (6+)",
       "Harcownicy"
     ],
-    "unitCategory_de": "War Machine",
+    "unitCategory_de": "Kriegsmaschine",
     "troopType_de": "Kriegsmaschine",
     "equipment_de": [
       "Screaming skull katapult",
@@ -2132,7 +2132,7 @@
       "Szybki Krok",
       "Awangarda"
     ],
-    "unitCategory_de": "Mount",
+    "unitCategory_de": "Reittier",
     "troopType_de": "Schwere Kavallerie",
     "equipment_de": [
       "Skeletal hufe (counts as hand weapon)"
@@ -2501,7 +2501,7 @@
       "Reserve Move",
       "Szybki Krok"
     ],
-    "unitCategory_de": "Mount",
+    "unitCategory_de": "Reittier",
     "troopType_de": "Leichter Streitwagen",
     "equipment_de": [
       "Skeletal Rossharnisch: Skeletal hufe (counts as hand waffen)"
@@ -3849,7 +3849,7 @@
     "troopType_de": "Monströse Kreatur",
     "equipment_de": [
       "Enthauptende Klauen",
-      "envenomed sting",
+      "Vergifteter Stachel",
       "bone carapace (counts as schwere rüstung)"
     ],
     "specialRules_de": [

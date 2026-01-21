@@ -315,7 +315,7 @@
       "Giant's club i calloused hide (counts jako lekka zbroja)"
     ],
     "unitCategory_de": "Monster",
-    "troopType_de": "Behemoth",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Giant's club prinz schwielige haut (counts as leichte rüstung)"
     ],
@@ -1736,8 +1736,8 @@
     "equipment_pl": [
       "Horns of kamienny i petrified flesh (counts jako pełna zbroja płytowa)"
     ],
-    "unitCategory_de": "Mount",
-    "troopType_de": "Behemoth",
+    "unitCategory_de": "Reittier",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Horns des steinernes prinz petrified flesh (counts as full plate rüstung)"
     ],
@@ -1873,7 +1873,7 @@
       "Stonehorn: Horns of kamienny; Ogr Bestia Jeździec: Broń Ręczna i chaintrap; Ogr Załoga: Broń Ręczna i harpoon launcher"
     ],
     "unitCategory_de": "Monster",
-    "troopType_de": "Behemoth",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Steinyak: Horns des steinernes; Ogre Bestie Rider: Hand weapon prinz chaintrap; Ogre Haufen: Hand weapon prinz harpoon launcher"
     ],
@@ -1975,8 +1975,8 @@
     "equipment_pl": [
       "Wielki tusks, chill breath i frozen pelt (counts jako ciężka zbroja)"
     ],
-    "unitCategory_de": "Mount",
-    "troopType_de": "Behemoth",
+    "unitCategory_de": "Reittier",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Chepesh hauer, kälte atem prinz frozen pelt (counts as schwere rüstung)"
     ],
@@ -2107,7 +2107,7 @@
       "Thundertusk: Wielki tusks i chill breath; Ogr Bestia Jeździec: Broń Ręczna i chaintrap; Ogr Załoga: Broń Ręczna i harpoon launcher"
     ],
     "unitCategory_de": "Monster",
-    "troopType_de": "Behemoth",
+    "troopType_de": "Koloss",
     "equipment_de": [
       "Donnerhorn: Chepesh hauer prinz kälte atem; Ogre Bestie Rider: Hand weapon prinz chaintrap; Ogre Haufen: Hand weapon prinz harpoon launcher"
     ],

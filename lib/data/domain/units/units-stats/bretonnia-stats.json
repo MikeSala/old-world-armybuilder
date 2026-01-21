@@ -84,10 +84,10 @@
       "Błogosławieństwo Pani",
       "Oath of Duty"
     ],
-    "unitCategory_de": "Core",
+    "unitCategory_de": "Kern",
     "troopType_de": "Kavallerie",
     "equipment_de": [
-      "Hand Weapon",
+      "Handwaffe",
       "Lanze",
       "Schild",
       "Schwere Rüstung",
@@ -216,10 +216,10 @@
       "Impulsive",
       "Oath of Knightly Vow"
     ],
-    "unitCategory_de": "Core",
+    "unitCategory_de": "Kern",
     "troopType_de": "Kavallerie",
     "equipment_de": [
-      "Hand Weapon",
+      "Handwaffe",
       "Kavallerie Lanze",
       "Schild",
       "Schwere Rüstung",
@@ -228,7 +228,7 @@
     "specialRules_de": [
       "Der Lanze Formation",
       "Der Segen des der Lady",
-      "Impulsive",
+      "Impulsiv",
       "Oath des Für Vow"
     ],
     "name_de": "Fahrende Ritter",
@@ -324,10 +324,10 @@
     "specialRules_pl": [
       "Peasant's Duty"
     ],
-    "unitCategory_de": "Core",
+    "unitCategory_de": "Kern",
     "troopType_de": "Infanterie",
     "equipment_de": [
-      "Hand Weapon",
+      "Handwaffe",
       "Hellebarde",
       "Leichte Rüstung",
       "Schild"
@@ -414,10 +414,10 @@
       "Peasant's Duty",
       "Defensive Stakes"
     ],
-    "unitCategory_de": "Core",
+    "unitCategory_de": "Kern",
     "troopType_de": "Infanterie",
     "equipment_de": [
-      "Hand Weapon",
+      "Handwaffe",
       "Langbogen"
     ],
     "specialRules_de": [
@@ -532,10 +532,10 @@
       "Grail Vow",
       "Magiczne Ataki"
     ],
-    "unitCategory_de": "Special",
+    "unitCategory_de": "Spezial",
     "troopType_de": "Kavallerie",
     "equipment_de": [
-      "Hand Weapon",
+      "Handwaffe",
       "Grail Lanze",
       "Schild",
       "Grail Rüstung",
@@ -545,7 +545,7 @@
       "Der Lanze Formation",
       "Der Segen des der Lady",
       "Immung gegen Psychologie",
-      "Grail Vow",
+      "Gralsgelübde",
       "Magische Attacken"
     ],
     "name_de": "Gralsritter",
@@ -663,10 +663,10 @@
       "Błogosławieństwo Pani",
       "Questing Vow"
     ],
-    "unitCategory_de": "Special",
+    "unitCategory_de": "Spezial",
     "troopType_de": "Kavallerie",
     "equipment_de": [
-      "Hand Weapon",
+      "Handwaffe",
       "Chepesh Weapon",
       "Schwere Rüstung",
       "Elfenross Bretonisches Schlachtross"
@@ -674,7 +674,7 @@
     "specialRules_de": [
       "Der Lanze Formation",
       "Der Segen des der Lady",
-      "Questing Vow"
+      "Gelübde der Suche"
     ],
     "name_de": "Questritter",
     "name_fr": "Chevaliers de la Quête",
@@ -790,10 +790,10 @@
       "Lot",
       "Awangarda"
     ],
-    "unitCategory_de": "Special",
+    "unitCategory_de": "Spezial",
     "troopType_de": "Monströse Kavallerie",
     "equipment_de": [
-      "Hand Weapon",
+      "Handwaffe",
       "Lanze",
       "Schild",
       "Schwere Rüstung",
@@ -918,10 +918,10 @@
       "Peasant's Duty",
       "Awangarda"
     ],
-    "unitCategory_de": "Special",
+    "unitCategory_de": "Spezial",
     "troopType_de": "Kavallerie",
     "equipment_de": [
-      "Hand Weapon",
+      "Handwaffe",
       "Speer",
       "Bogen",
       "Leichte Rüstung",
@@ -1020,14 +1020,14 @@
       "Devout",
       "Nieugięty"
     ],
-    "unitCategory_de": "Special",
+    "unitCategory_de": "Spezial",
     "troopType_de": "Infanterie",
     "equipment_de": [
-      "Hand Weapon",
+      "Handwaffe",
       "Schild"
     ],
     "specialRules_de": [
-      "Devout",
+      "Fromm",
       "Unnachgiebig"
     ],
     "name_de": "Gralspilger",
@@ -1107,14 +1107,14 @@
       "Duży Cel",
       "Crewed"
     ],
-    "unitCategory_de": "Rare",
+    "unitCategory_de": "Selten",
     "troopType_de": "Kriegsmaschine",
     "equipment_de": [
       "Steinernes Thrower"
     ],
     "specialRules_de": [
       "Großes Ziel",
-      "Crewed"
+      "Besatzung"
     ],
     "name_de": "Feldtrebuchet",
     "name_fr": "Trébuchet de Campagne",
@@ -1196,16 +1196,16 @@
       "Nieugięty",
       "Relic"
     ],
-    "unitCategory_de": "Rare",
+    "unitCategory_de": "Selten",
     "troopType_de": "Infanterie",
     "equipment_de": [
-      "Hand Weapon",
+      "Handwaffe",
       "Relic Schild"
     ],
     "specialRules_de": [
-      "Devout",
+      "Fromm",
       "Unnachgiebig",
-      "Relic"
+      "Reliquie"
     ],
     "name_de": "Gralsreliquie",
     "name_fr": "Reliquaire du Graal",
@@ -1270,10 +1270,10 @@
       "Błogosławieństwo Pani",
       "Czarodziej (Level 1)"
     ],
-    "unitCategory_de": "Hero",
+    "unitCategory_de": "Held",
     "troopType_de": "Infanterie (Charakter)",
     "equipment_de": [
-      "Hand Weapon"
+      "Handwaffe"
     ],
     "specialRules_de": [
       "Der Segen des der Lady",
@@ -1338,10 +1338,10 @@
       "Błogosławieństwo Pani",
       "Czarodziej (Level 3)"
     ],
-    "unitCategory_de": "Lord",
+    "unitCategory_de": "Kommandant",
     "troopType_de": "Infanterie (Charakter)",
     "equipment_de": [
-      "Hand Weapon"
+      "Handwaffe"
     ],
     "specialRules_de": [
       "Der Segen des der Lady",
@@ -1407,10 +1407,10 @@
       "Błogosławieństwo Pani",
       "Oath of Duty"
     ],
-    "unitCategory_de": "Hero",
+    "unitCategory_de": "Held",
     "troopType_de": "Infanterie (Charakter)",
     "equipment_de": [
-      "Hand Weapon",
+      "Handwaffe",
       "Schwere Rüstung",
       "Schild"
     ],
@@ -1480,10 +1480,10 @@
       "Błogosławieństwo Pani",
       "Oath of Duty"
     ],
-    "unitCategory_de": "Lord",
+    "unitCategory_de": "Kommandant",
     "troopType_de": "Infanterie (Charakter)",
     "equipment_de": [
-      "Hand Weapon",
+      "Handwaffe",
       "Schwere Rüstung",
       "Schild"
     ],
@@ -1560,10 +1560,10 @@
       "Groza",
       "Niezłomni"
     ],
-    "unitCategory_de": "Legendary Lord",
+    "unitCategory_de": "Legendärer Kommandant",
     "troopType_de": "Kavallerie (Ethereal)",
     "equipment_de": [
-      "Hand Weapon",
+      "Handwaffe",
       "Schild",
       "Die Klinge des Leids"
     ],
