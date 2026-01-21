@@ -4,11 +4,10 @@ import { clsx } from "clsx";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useMemo, useState, useEffect } from "react";
-import { Swords, ArrowRight } from "lucide-react";
 
 import { LocaleButton } from "@/components/ui/LocaleButton";
 import { LogoIcon } from "@/components/icons/LogoIcon";
-import { Button } from "@/components/ui/Button";
+import BuyMeCoffeeButton from "@/components/support/BuyMeCoffeeButton";
 import { getDictionary, locales, defaultLocale, type Locale } from "@/lib/i18n/dictionaries";
 
 // Button styles
@@ -96,19 +95,10 @@ export default function Header() {
           </span>
         </Link>
 
-        {/* New Roster Button - center */}
-        <Link href={`/${activeLocale}/${dictionary.editSlug}`}>
-          <Button
-            variant="gradient"
-            size="sm"
-            className="shadow-md shadow-amber-500/20 transition-shadow hover:shadow-amber-500/30"
-            leftIcon={<Swords className="h-3.5 w-3.5" />}
-            rightIcon={<ArrowRight className="h-3.5 w-3.5" />}
-          >
-            <span className="hidden xs:inline">{dictionary.rosterButton}</span>
-            <span className="xs:hidden">+</span>
-          </Button>
-        </Link>
+        {/* Support button - center */}
+        <div className="flex flex-1 justify-center">
+          <BuyMeCoffeeButton />
+        </div>
 
         {/* Language switcher */}
         <div className="flex items-center gap-1 sm:gap-1.5">

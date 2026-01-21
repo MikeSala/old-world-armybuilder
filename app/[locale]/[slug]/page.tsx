@@ -7,6 +7,7 @@ import CategoryBuckets from "@/components/builder/CategoryBucket";
 import RosterBuilderClient from "@/components/builder/RosterBuilderClient";
 import RosterSummary from "@/components/builder/RosterSummary";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
+import BuyMeCoffeeWidget from "@/components/support/BuyMeCoffeeWidget";
 import {
   getDictionary,
   locales,
@@ -120,6 +121,7 @@ export default async function RosterEditPage({ params }: PageProps) {
       <div id="summary-print-root" className="w-full">
         <RosterSummary dict={dictionary} />
       </div>
+      <BuyMeCoffeeWidget />
       <ScrollToTopButton className="self-center" label={dictionary.editMoveToTopLabel} />
     </section>
   );
