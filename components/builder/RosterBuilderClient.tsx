@@ -110,6 +110,13 @@ export default function RosterBuilderClient({ dict, className, onSaved }: Props)
     return (army?.children ?? []).map((c) => ({ id: c.id, label: c.label }));
   }, [clientArmies, armyId]);
 
+  // Auto-select first composition when army changes and composition is not set
+  React.useEffect(() => {
+    if (armyId && !compositionId && compositionOptions.length > 0) {
+      dispatch(setComposition(compositionOptions[0].id));
+    }
+  }, [armyId, compositionId, compositionOptions, dispatch]);
+
   const validate = (): boolean => {
     const next: ValidationErrors = {};
     if (!armyId) next.army = dict.validationArmyRequired;

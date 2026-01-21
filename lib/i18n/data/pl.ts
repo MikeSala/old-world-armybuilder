@@ -20,7 +20,7 @@ export const dataPl = {
   "army.orc-goblin-tribes": "Plemiona Orków i Goblinów",
   "army.renegade-crowns": "Renegackie Korony",
   "army.skaven": "Skaveni",
-  "army.tomb-kings-of-khemri": "Królowie Grobowców z Khemri",
+  "army.tomb-kings-of-khemri": "Królowie Grobowców",
   "army.vampire-counts": "Hrabowie Wampirów",
   "army.warriors-of-chaos": "Wojownicy Chaosu",
   "army.wood-elf-realms": "Królestwa Leśnych Elfów",
