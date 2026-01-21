@@ -3,16 +3,13 @@
 import { clsx } from "clsx";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useMemo } from "react";
+import { useMemo, useState, useEffect } from "react";
+import { Swords, ArrowRight } from "lucide-react";
 
 import { LocaleButton } from "@/components/ui/LocaleButton";
+import { LogoIcon } from "@/components/icons/LogoIcon";
+import { Button } from "@/components/ui/Button";
 import { getDictionary, locales, defaultLocale, type Locale } from "@/lib/i18n/dictionaries";
-
-// Layout styles
-const headerClass =
-  "fixed inset-x-0 top-0 z-50 border-b border-amber-300/20 bg-slate-950/80 backdrop-blur";
-const innerClass =
-  "mx-auto flex w-full max-w-5xl items-center justify-between gap-6 px-4 py-3 sm:px-8 lg:px-10";
 
 // Button styles
 const localeBtnBase = "border text-amber-200/80 transition-colors";
@@ -38,6 +35,16 @@ function extractLocaleAndSegments(pathname: string): { locale: Locale; segments:
 
 export default function Header() {
   const pathname = usePathname() ?? "/";
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 20);
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    handleScroll();
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const { activeLocale, restSegments, dictionary } = useMemo(() => {
     const { locale, segments } = extractLocaleAndSegments(pathname);
@@ -67,17 +74,44 @@ export default function Header() {
   };
 
   return (
-    <header className={headerClass}>
-      <div className={innerClass}>
+    <header
+      className={clsx(
+        "fixed inset-x-0 top-0 z-50 border-b transition-all duration-300",
+        scrolled
+          ? "border-amber-400/30 bg-slate-950/95 backdrop-blur-md shadow-lg shadow-slate-950/50"
+          : "border-amber-300/20 bg-slate-950/70 backdrop-blur-sm"
+      )}
+    >
+      <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-3 px-4 py-2.5 sm:gap-4 sm:px-8 sm:py-3 lg:px-10">
+        {/* Logo and brand */}
         <Link
           href={`/${activeLocale}`}
-          className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-200 hover:text-amber-400"
+          className="group flex items-center gap-2 sm:gap-3"
           aria-label={dictionary.headerBrandLabel}
           title={dictionary.headerBrandLabel}
         >
-          {dictionary.headerBrandLabel}
+          <LogoIcon className="h-6 w-6 text-amber-400 transition-transform duration-300 group-hover:scale-110 sm:h-7 sm:w-7" />
+          <span className="hidden text-xs font-semibold uppercase tracking-[0.2em] text-amber-200 transition-colors group-hover:text-amber-400 sm:inline sm:text-sm lg:tracking-[0.3em]">
+            Army Builder
+          </span>
         </Link>
-        <div className="flex items-center gap-2">
+
+        {/* New Roster Button - center */}
+        <Link href={`/${activeLocale}/${dictionary.editSlug}`}>
+          <Button
+            variant="gradient"
+            size="sm"
+            className="shadow-md shadow-amber-500/20 transition-shadow hover:shadow-amber-500/30"
+            leftIcon={<Swords className="h-3.5 w-3.5" />}
+            rightIcon={<ArrowRight className="h-3.5 w-3.5" />}
+          >
+            <span className="hidden xs:inline">{dictionary.rosterButton}</span>
+            <span className="xs:hidden">+</span>
+          </Button>
+        </Link>
+
+        {/* Language switcher */}
+        <div className="flex items-center gap-1 sm:gap-1.5">
           {locales.map((locale) => {
             const isActive = locale === activeLocale;
             return (

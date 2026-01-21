@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
-import { ScrollText, Sword } from "lucide-react";
 
 import { MarginLayout } from "@/components/layout/MarginLayout";
-import { Button } from "@/components/ui/Button";
+import { FactionGrid } from "@/components/home/FactionGrid";
 import UnitSearch from "@/components/unit/UnitSearch";
 import { getDictionary, locales, defaultLocale, type Locale } from "@/lib/i18n/dictionaries";
 
@@ -76,21 +75,30 @@ export default async function LandingPage({ params }: PageProps) {
 
   return (
     <main>
-      <MarginLayout>
-        <form action={`/${locale}/${dictionary.editSlug}`}>
-          <Button
-            className="mb-20"
-            type="submit"
-            variant="primary"
-            size="lg"
-            leftIcon={<ScrollText className="h-5 w-5" />}
-            rightIcon={<Sword className="h-5 w-5" />}
-          >
-            {dictionary.rosterButton}
-          </Button>
-        </form>
-        <UnitSearch dict={dictionary} className="w-full max-w-4xl text-left" />
-      </MarginLayout>
+      {/* Unit Search Section */}
+      <section className="bg-slate-700">
+        <MarginLayout>
+          <UnitSearch dict={dictionary} className="w-full text-left" />
+        </MarginLayout>
+      </section>
+
+      {/* Faction Grid Section */}
+      <section className="bg-slate-600 py-6 sm:py-8">
+        <MarginLayout>
+          <h2 className="mb-4 text-center text-lg font-bold uppercase tracking-wider text-amber-200 sm:mb-5 sm:text-xl">
+            {locale === "pl"
+              ? "Wybierz frakcję"
+              : locale === "de"
+                ? "Wähle deine Fraktion"
+                : locale === "fr"
+                  ? "Choisissez votre faction"
+                  : locale === "es"
+                    ? "Elige tu facción"
+                    : "Choose your faction"}
+          </h2>
+          <FactionGrid locale={locale} editSlug={dictionary.editSlug} />
+        </MarginLayout>
+      </section>
     </main>
   );
 }

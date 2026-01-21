@@ -84,7 +84,7 @@ const UnitStatsTable = ({ dict, unit }: { dict: LocaleDictionary; unit: UnitStat
           ? unit.name_de
           : preferPolishName && unit.name_pl
             ? unit.name_pl
-            : unit.name ?? unit.unit ?? dict.rosterDetailUnnamedUnit;
+            : (unit.name ?? unit.unit ?? dict.rosterDetailUnnamedUnit);
   const baseLabel =
     preferPolishName || preferGermanName || preferFrenchName || preferItalianName
       ? baseLabelRaw
@@ -166,28 +166,30 @@ const UnitSearchResultBody = ({
   const isGerman = isGermanLocale(dict);
   const isFrench = isFrenchLocale(dict);
   const isItalian = isItalianLocale(dict);
-  const equipment = isPolish && Array.isArray(line.equipment_pl)
-    ? line.equipment_pl
-    : isGerman && Array.isArray(line.equipment_de)
-      ? line.equipment_de
-      : isFrench && Array.isArray(line.equipment_fr)
-        ? line.equipment_fr
-        : isItalian && Array.isArray(line.equipment_it)
-          ? line.equipment_it
-        : Array.isArray(line.equipment)
-          ? line.equipment
-          : [];
-  const rules = isPolish && Array.isArray(line.specialRules_pl)
-    ? line.specialRules_pl
-    : isGerman && Array.isArray(line.specialRules_de)
-      ? line.specialRules_de
-      : isFrench && Array.isArray(line.specialRules_fr)
-        ? line.specialRules_fr
-        : isItalian && Array.isArray(line.specialRules_it)
-          ? line.specialRules_it
-        : Array.isArray(line.specialRules)
-          ? line.specialRules
-          : [];
+  const equipment =
+    isPolish && Array.isArray(line.equipment_pl)
+      ? line.equipment_pl
+      : isGerman && Array.isArray(line.equipment_de)
+        ? line.equipment_de
+        : isFrench && Array.isArray(line.equipment_fr)
+          ? line.equipment_fr
+          : isItalian && Array.isArray(line.equipment_it)
+            ? line.equipment_it
+            : Array.isArray(line.equipment)
+              ? line.equipment
+              : [];
+  const rules =
+    isPolish && Array.isArray(line.specialRules_pl)
+      ? line.specialRules_pl
+      : isGerman && Array.isArray(line.specialRules_de)
+        ? line.specialRules_de
+        : isFrench && Array.isArray(line.specialRules_fr)
+          ? line.specialRules_fr
+          : isItalian && Array.isArray(line.specialRules_it)
+            ? line.specialRules_it
+            : Array.isArray(line.specialRules)
+              ? line.specialRules
+              : [];
   const translatedEquipment =
     (isPolish && Array.isArray(line.equipment_pl)) ||
     (isGerman && Array.isArray(line.equipment_de)) ||
@@ -214,17 +216,18 @@ const UnitSearchResultBody = ({
   ) {
     infoRows.push({
       label: dict.unitSearchUnitCategoryLabel,
-      value: isPolish && line.unitCategory_pl
-        ? line.unitCategory_pl
-        : isGerman && line.unitCategory_de
-          ? line.unitCategory_de
-          : isFrench && line.unitCategory_fr
-            ? line.unitCategory_fr
-            : isItalian && line.unitCategory_it
-              ? line.unitCategory_it
-              : line.unitCategory
-                ? translateTextForDict(line.unitCategory, dict)
-                : "",
+      value:
+        isPolish && line.unitCategory_pl
+          ? line.unitCategory_pl
+          : isGerman && line.unitCategory_de
+            ? line.unitCategory_de
+            : isFrench && line.unitCategory_fr
+              ? line.unitCategory_fr
+              : isItalian && line.unitCategory_it
+                ? line.unitCategory_it
+                : line.unitCategory
+                  ? translateTextForDict(line.unitCategory, dict)
+                  : "",
     });
   }
   if (
@@ -236,17 +239,18 @@ const UnitSearchResultBody = ({
   ) {
     infoRows.push({
       label: dict.unitSearchTroopTypeLabel,
-      value: isPolish && line.troopType_pl
-        ? line.troopType_pl
-        : isGerman && line.troopType_de
-          ? line.troopType_de
-          : isFrench && line.troopType_fr
-            ? line.troopType_fr
-            : isItalian && line.troopType_it
-              ? line.troopType_it
-              : line.troopType
-                ? translateTextForDict(line.troopType, dict)
-                : "",
+      value:
+        isPolish && line.troopType_pl
+          ? line.troopType_pl
+          : isGerman && line.troopType_de
+            ? line.troopType_de
+            : isFrench && line.troopType_fr
+              ? line.troopType_fr
+              : isItalian && line.troopType_it
+                ? line.troopType_it
+                : line.troopType
+                  ? translateTextForDict(line.troopType, dict)
+                  : "",
     });
   }
   if (line.baseSize) {
@@ -327,7 +331,7 @@ const UnitSearchResultAccordionItem = ({
           ? line.name_de
           : preferPolishName && line.name_pl
             ? line.name_pl
-            : line.name ?? line.unit ?? null;
+            : (line.name ?? line.unit ?? null);
   const title = titleSource
     ? preferPolishName || preferGermanName || preferFrenchName || preferItalianName
       ? titleSource
@@ -390,7 +394,7 @@ export default function UnitSearch({ dict, className }: Props) {
 
   return (
     <section className={className} aria-labelledby="unit-search-heading">
-      <div className="space-y-6 rounded-3xl border border-amber-300/30 bg-slate-900/80 p-6 text-amber-100 shadow-lg shadow-amber-900/20">
+      <div className="rounded-3xl border border-amber-300/30 bg-slate-900/80 p-6 text-amber-100 shadow-lg shadow-amber-900/20">
         <div className="flex flex-col gap-3">
           <div className="flex items-center justify-between gap-3">
             <h2
