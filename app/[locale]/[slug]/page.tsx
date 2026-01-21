@@ -112,9 +112,8 @@ export default async function RosterEditPage({ params }: PageProps) {
       <Suspense fallback={null}>
         <ArmyFromUrlInitializer />
       </Suspense>
-      <header className="space-y-2 text-amber-100">
+      <header className="text-amber-100">
         <h1 className="text-3xl font-bold tracking-tight">{dictionary.editTitle}</h1>
-        <p className="text-amber-200/80">{dictionary.editDescription}</p>
       </header>
       <RosterBuilderClient dict={dictionary} />
       <CategoryBuckets dict={dictionary} />

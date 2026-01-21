@@ -5,7 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { useDispatch } from "react-redux";
 import { ARMIES } from "@/lib/data/armies/armies";
 import type { AppDispatch } from "@/lib/store";
-import { setArmy } from "@/lib/store/slices/rosterSlice";
+import { setArmy, setSetupCollapsed } from "@/lib/store/slices/rosterSlice";
 
 export function ArmyFromUrlInitializer() {
   const dispatch = useDispatch<AppDispatch>();
@@ -23,6 +23,7 @@ export function ArmyFromUrlInitializer() {
       const armyExists = ARMIES.some((a) => a.id === armyParam);
       if (armyExists) {
         dispatch(setArmy(armyParam));
+        dispatch(setSetupCollapsed(false));
         hasInitialized.current = true;
       }
     }

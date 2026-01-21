@@ -32,11 +32,13 @@ export default async function RootLayout({ params, children }: RootLayoutProps) 
     <html lang={locale} suppressHydrationWarning>
       <body className="bg-slate-600 text-amber-300">
         <ClientProviders>
-          <Header />
-          <main className="pt-20">
-            <MarginLayout>{children}</MarginLayout>
+          <div className="flex min-h-screen flex-col">
+            <Header />
+            <main className="flex-1 pt-20">
+              <MarginLayout>{children}</MarginLayout>
+            </main>
             <Footer />
-          </main>
+          </div>
         </ClientProviders>
         <div id="print-root" />
       </body>

@@ -13,10 +13,13 @@ type PageProps = {
 
 const SITE_URL = "https://army-builder.com";
 
-const landingAlternates = locales.reduce<Record<Locale, string>>((acc, locale) => {
-  acc[locale] = `${SITE_URL}/${locale}/`;
-  return acc;
-}, {} as Record<Locale, string>);
+const landingAlternates = locales.reduce<Record<Locale, string>>(
+  (acc, locale) => {
+    acc[locale] = `${SITE_URL}/${locale}/`;
+    return acc;
+  },
+  {} as Record<Locale, string>
+);
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -49,20 +52,20 @@ export default async function LandingPage({ params }: PageProps) {
 
   return (
     <main>
-      {/* Unit Search Section */}
-      <section className="bg-slate-700">
-        <MarginLayout>
-          <UnitSearch dict={dictionary} className="w-full text-left" />
-        </MarginLayout>
-      </section>
-
       {/* Faction Grid Section */}
-      <section className="bg-slate-600 py-6 sm:py-8">
+      <section className="mb-10 py-6 sm:py-8">
         <MarginLayout>
           <h2 className="mb-4 text-center text-lg font-bold uppercase tracking-wider text-amber-200 sm:mb-5 sm:text-xl">
             {dictionary.landingFactionHeading}
           </h2>
           <FactionGrid locale={locale} editSlug={dictionary.editSlug} />
+        </MarginLayout>
+      </section>
+
+      {/* Unit Search Section */}
+      <section className=" bg-slate-600">
+        <MarginLayout>
+          <UnitSearch dict={dictionary} className="w-full text-left" />
         </MarginLayout>
       </section>
     </main>
