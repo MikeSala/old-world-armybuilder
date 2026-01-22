@@ -1,5 +1,7 @@
 import type { MetadataRoute } from "next";
 
+import { ABOUT_SLUG } from "@/lib/data/about";
+import { CHANGELOG_SLUG } from "@/lib/data/changelog";
 import { getDictionary, locales, type Locale } from "@/lib/i18n/dictionaries";
 
 export const dynamic = "force-static";
@@ -20,6 +22,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${SITE_URL}/${locale}/${editSlugByLocale[locale]}/`,
+      lastModified,
+    },
+    {
+      url: `${SITE_URL}/${locale}/${CHANGELOG_SLUG}/`,
+      lastModified,
+    },
+    {
+      url: `${SITE_URL}/${locale}/${ABOUT_SLUG}/`,
       lastModified,
     },
   ]);

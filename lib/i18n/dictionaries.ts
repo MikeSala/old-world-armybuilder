@@ -173,6 +173,31 @@ export type LocaleDictionary = {
   footerAriaLabel: string;
   footerLegalNotice: string;
   footerCommunityNote: string;
+  footerChangelogLinkLabel: string;
+  aboutTitle: string;
+  aboutDescription: string;
+  landingSeoTitle: string;
+  landingSeoLabel: string;
+  landingSeoIntro: string;
+  landingSeoLore: string;
+  landingSeoPrimaryFactionsTitle: string;
+  landingSeoPrimaryFactions: string[];
+  landingSeoLegacyFactionsTitle: string;
+  landingSeoLegacyFactions: string;
+  landingSeoSearchNote: string;
+  landingSeoSupportNote: string;
+  changelogTitle: string;
+  changelogDescription: string;
+  changelogEmpty: string;
+  footerReportBugButton: string;
+  footerReportBugTitle: string;
+  footerReportBugDescription: string;
+  footerReportBugFieldLabel: string;
+  footerReportBugPlaceholder: string;
+  footerReportBugSubmit: string;
+  footerReportBugCancel: string;
+  footerReportBugValidation: string;
+  footerReportBugSubject: string;
 };
 
 export const locales = ["pl", "en", "de", "fr", "es"] as const;
@@ -368,6 +393,47 @@ const dictionaries = {
     footerLegalNotice:
       "Ta strona ma charakter fanowski i nie jest w żaden sposób powiązana, wspierana ani licencjonowana przez Games Workshop. Wszystkie znaki towarowe, nazwy i materiały związane z Warhammerem są własnością Games Workshop Limited. Celem serwisu jest pomoc nowym graczom w rozpoczęciu przygody ze światem Warhammera. Serio, to wszystko jest naprawdę baaardzo skomplikowane :)",
     footerCommunityNote: "projekt dla społeczności graczy.",
+    footerChangelogLinkLabel: "Ostatnie zmiany",
+    aboutTitle: "O mnie",
+    aboutDescription: "Poznaj twórcę Army Buildera i historię projektu.",
+    landingSeoTitle:
+      "Army Builder – Darmowy kreator armii Warhammer: The Old World | Wszystkie frakcje",
+    landingSeoLabel: "Opis:",
+    landingSeoIntro:
+      "Szukasz wygodnego narzędzia do tworzenia list armii dla Warhammer: The Old World? Army Builder to darmowy kreator online, który pozwala szybko skomponować roster, sprawdzić limity punktowe i wyeksportować gotową listę do PDF, JSON lub CSV.",
+    landingSeoLore:
+      "Warhammer: The Old World to gra bitewna figurkami od Games Workshop, osadzona w mrocznym świecie fantasy — dwa stulecia przed wydarzeniami znanymi z Warhammer Fantasy Battles. Gracze dowodzą armiami ludzi, elfów, krasnoludów, orków, nieumarłych i sił Chaosu, rozgrywając taktyczne starcia na stole.",
+    landingSeoPrimaryFactionsTitle: "Obsługiwane frakcje podstawowe:",
+    landingSeoPrimaryFactions: [
+      "Kingdom of Bretonnia — rycerze i święta kawaleria",
+      "Dwarfen Mountain Holds — krasnoludy i ich machiny wojenne",
+      "Empire of Man — ludzkie imperium z artylerią i magią",
+      "High Elf Realms — starożytne elfy z Ulthuan",
+      "Orc & Goblin Tribes — zielonoskóre hordy",
+      "Tomb Kings of Khemri — nieumarli władcy pustyni",
+      "Warriors of Chaos — wyznawcy mrocznych bogów",
+      "Wood Elf Realms — leśne elfy z Athel Loren",
+      "Beastmen Brayherds — zwierzoludzie Chaosu",
+    ],
+    landingSeoLegacyFactionsTitle: "Obsługiwane frakcje legacy:",
+    landingSeoLegacyFactions:
+      "Chaos Dwarfs • Daemons of Chaos • Dark Elves • Lizardmen • Skaven • Ogre Kingdoms • Vampire Counts",
+    landingSeoSearchNote:
+      "Army Builder oferuje również wyszukiwarkę statystyk jednostek — sprawdź profil dowolnego modelu w kilka sekund, bez przekopywania się przez podręczniki.",
+    landingSeoSupportNote:
+      "Narzędzie stworzone przez gracza dla graczy. Zachęcamy do wspierania Games Workshop i zakupu oficjalnych materiałów.",
+    changelogTitle: "Ostatnie zmiany",
+    changelogDescription: "Zobacz, co ostatnio dodaliśmy lub poprawiliśmy w projekcie.",
+    changelogEmpty: "Brak aktualizacji. Wróć wkrótce.",
+    footerReportBugButton: "Zgłoś błąd",
+    footerReportBugTitle: "Zgłoś błąd",
+    footerReportBugDescription: "Opisz problem, który zauważyłeś. Otworzymy szkic maila.",
+    footerReportBugFieldLabel: "Opis błędu",
+    footerReportBugPlaceholder: "Np. co się stało, gdzie i jak to odtworzyć.",
+    footerReportBugSubmit: "Wyślij email",
+    footerReportBugCancel: "Anuluj",
+    footerReportBugValidation: "Dodaj krótki opis błędu.",
+    footerReportBugSubject: "Zgłoszenie błędu — Old-World Armybuilder",
   },
   en: {
     heroTitle: "Warhammer Army Builder",
@@ -550,6 +616,47 @@ const dictionaries = {
     footerLegalNotice:
       "This is a fan-made site and is in no way affiliated with, endorsed by, or licensed by Games Workshop. All trademarks, names, and materials related to Warhammer are the property of Games Workshop Limited. The goal of this project is to help new players begin their journey into the world of Warhammer. Seriously, the whole thing is really, really complicated :)",
     footerCommunityNote: "a project for the player community.",
+    footerChangelogLinkLabel: "Latest changes",
+    aboutTitle: "About",
+    aboutDescription: "Learn about the creator of Army Builder and the story behind it.",
+    landingSeoTitle:
+      "Army Builder – Free Warhammer: The Old World Army Creator | All Factions",
+    landingSeoLabel: "Description:",
+    landingSeoIntro:
+      "Looking for a convenient tool to create army lists for Warhammer: The Old World? Army Builder is a free online creator that lets you quickly compose a roster, check point limits, and export your finished list to PDF, JSON, or CSV.",
+    landingSeoLore:
+      "Warhammer: The Old World is a miniature wargame by Games Workshop, set in a dark fantasy world — two centuries before the events of Warhammer Fantasy Battles. Players command armies of humans, elves, dwarfs, orcs, undead, and the forces of Chaos, fighting tactical battles on the tabletop.",
+    landingSeoPrimaryFactionsTitle: "Supported core factions:",
+    landingSeoPrimaryFactions: [
+      "Kingdom of Bretonnia — knights and holy cavalry",
+      "Dwarfen Mountain Holds — dwarfs and their war machines",
+      "Empire of Man — human empire with artillery and magic",
+      "High Elf Realms — ancient elves from Ulthuan",
+      "Orc & Goblin Tribes — greenskin hordes",
+      "Tomb Kings of Khemri — undead rulers of the desert",
+      "Warriors of Chaos — followers of the dark gods",
+      "Wood Elf Realms — forest elves of Athel Loren",
+      "Beastmen Brayherds — beast-creatures of Chaos",
+    ],
+    landingSeoLegacyFactionsTitle: "Supported legacy factions:",
+    landingSeoLegacyFactions:
+      "Chaos Dwarfs • Daemons of Chaos • Dark Elves • Lizardmen • Skaven • Ogre Kingdoms • Vampire Counts",
+    landingSeoSearchNote:
+      "Army Builder also features a unit stats search — check the profile of any model in seconds, without flipping through rulebooks.",
+    landingSeoSupportNote:
+      "A tool made by a gamer for gamers. We encourage you to support Games Workshop and purchase official materials.",
+    changelogTitle: "Latest changes",
+    changelogDescription: "See what was recently added or improved in the project.",
+    changelogEmpty: "No updates yet. Check back soon.",
+    footerReportBugButton: "Report a bug",
+    footerReportBugTitle: "Report a bug",
+    footerReportBugDescription: "Describe what went wrong. We'll open a draft email.",
+    footerReportBugFieldLabel: "Bug description",
+    footerReportBugPlaceholder: "E.g. what happened, where, and how to reproduce it.",
+    footerReportBugSubmit: "Send email",
+    footerReportBugCancel: "Cancel",
+    footerReportBugValidation: "Please add a short bug description.",
+    footerReportBugSubject: "Bug report — Old-World Armybuilder",
   },
   de: {
     heroTitle: "Warhammer Armee-Builder",
@@ -733,6 +840,47 @@ const dictionaries = {
     footerLegalNotice:
       "Dies ist eine Fan-Seite und steht in keiner Verbindung zu Games Workshop, wird nicht von ihnen unterstützt oder lizenziert. Alle Marken, Namen und Materialien rund um Warhammer sind Eigentum von Games Workshop Limited. Ziel dieses Projekts ist es, neuen Spielern den Einstieg in die Welt von Warhammer zu erleichtern. Ernsthaft, das Ganze ist wirklich, wirklich kompliziert :)",
     footerCommunityNote: "ein Projekt für die Spielergemeinschaft.",
+    footerChangelogLinkLabel: "Letzte Änderungen",
+    aboutTitle: "Über mich",
+    aboutDescription: "Lerne den Ersteller des Army Builders und die Projektgeschichte kennen.",
+    landingSeoTitle:
+      "Army Builder – Kostenloser Armeeplaner für Warhammer: The Old World | Alle Fraktionen",
+    landingSeoLabel: "Beschreibung:",
+    landingSeoIntro:
+      "Du suchst ein praktisches Tool zur Erstellung von Armeelisten für Warhammer: The Old World? Army Builder ist ein kostenloser Online-Ersteller, mit dem du schnell einen Roster zusammenstellen, Punktelimits überprüfen und deine fertige Liste als PDF, JSON oder CSV exportieren kannst.",
+    landingSeoLore:
+      "Warhammer: The Old World ist ein Tabletop-Spiel von Games Workshop, angesiedelt in einer düsteren Fantasy-Welt — zwei Jahrhunderte vor den Ereignissen von Warhammer Fantasy Battles. Spieler befehligen Armeen aus Menschen, Elfen, Zwergen, Orks, Untoten und den Mächten des Chaos in taktischen Gefechten auf dem Spieltisch.",
+    landingSeoPrimaryFactionsTitle: "Unterstützte Kernfraktionen:",
+    landingSeoPrimaryFactions: [
+      "Kingdom of Bretonnia — Ritter und heilige Kavallerie",
+      "Dwarfen Mountain Holds — Zwerge und ihre Kriegsmaschinen",
+      "Empire of Man — Menschenimperium mit Artillerie und Magie",
+      "High Elf Realms — uralte Elfen aus Ulthuan",
+      "Orc & Goblin Tribes — Grünhäute-Horden",
+      "Tomb Kings of Khemri — untote Herrscher der Wüste",
+      "Warriors of Chaos — Anhänger der dunklen Götter",
+      "Wood Elf Realms — Waldelfen aus Athel Loren",
+      "Beastmen Brayherds — Tiermenschen des Chaos",
+    ],
+    landingSeoLegacyFactionsTitle: "Unterstützte Legacy-Fraktionen:",
+    landingSeoLegacyFactions:
+      "Chaos Dwarfs • Daemons of Chaos • Dark Elves • Lizardmen • Skaven • Ogre Kingdoms • Vampire Counts",
+    landingSeoSearchNote:
+      "Army Builder bietet auch eine Einheitenstatistik-Suche — überprüfe das Profil jedes Modells in Sekunden, ohne in Regelbüchern blättern zu müssen.",
+    landingSeoSupportNote:
+      "Ein Werkzeug von einem Spieler für Spieler. Wir ermutigen dich, Games Workshop zu unterstützen und offizielle Materialien zu kaufen.",
+    changelogTitle: "Letzte Änderungen",
+    changelogDescription: "Sieh dir an, was zuletzt hinzugefügt oder verbessert wurde.",
+    changelogEmpty: "Noch keine Aktualisierungen. Schau bald wieder vorbei.",
+    footerReportBugButton: "Fehler melden",
+    footerReportBugTitle: "Fehler melden",
+    footerReportBugDescription: "Beschreibe das Problem. Wir öffnen einen E-Mail-Entwurf.",
+    footerReportBugFieldLabel: "Fehlerbeschreibung",
+    footerReportBugPlaceholder: "Z. B. was passiert ist, wo und wie man es reproduziert.",
+    footerReportBugSubmit: "E-Mail senden",
+    footerReportBugCancel: "Abbrechen",
+    footerReportBugValidation: "Bitte füge eine kurze Fehlerbeschreibung hinzu.",
+    footerReportBugSubject: "Fehlermeldung — Old-World Armybuilder",
   },
   fr: {
     heroTitle: "Constructeur d'armée Warhammer",
@@ -917,6 +1065,47 @@ const dictionaries = {
     footerLegalNotice:
       "Ce site est créé par des fans et n'est en aucun cas affilié, soutenu ou sous licence de Games Workshop. Toutes les marques, noms et contenus liés à Warhammer sont la propriété de Games Workshop Limited. L'objectif du projet est d'aider les nouveaux joueurs à découvrir l'univers de Warhammer. Sérieusement, c'est vraiment très compliqué :)",
     footerCommunityNote: "un projet pour la communauté de joueurs.",
+    footerChangelogLinkLabel: "Derniers changements",
+    aboutTitle: "À propos",
+    aboutDescription: "Découvrez le créateur d’Army Builder et l’histoire du projet.",
+    landingSeoTitle:
+      "Army Builder – Créateur d'armée gratuit pour Warhammer: The Old World | Toutes les factions",
+    landingSeoLabel: "Description :",
+    landingSeoIntro:
+      "Tu cherches un outil pratique pour créer des listes d'armée pour Warhammer: The Old World ? Army Builder est un créateur en ligne gratuit qui te permet de composer rapidement un roster, de vérifier les limites de points et d'exporter ta liste en PDF, JSON ou CSV.",
+    landingSeoLore:
+      "Warhammer: The Old World est un jeu de figurines de Games Workshop, situé dans un univers fantasy sombre — deux siècles avant les événements de Warhammer Fantasy Battles. Les joueurs commandent des armées d'humains, d'elfes, de nains, d'orques, de morts-vivants et des forces du Chaos dans des batailles tactiques sur table.",
+    landingSeoPrimaryFactionsTitle: "Factions principales supportées :",
+    landingSeoPrimaryFactions: [
+      "Kingdom of Bretonnia — chevaliers et cavalerie sacrée",
+      "Dwarfen Mountain Holds — nains et leurs machines de guerre",
+      "Empire of Man — empire humain avec artillerie et magie",
+      "High Elf Realms — elfes anciens d'Ulthuan",
+      "Orc & Goblin Tribes — hordes de peaux-vertes",
+      "Tomb Kings of Khemri — souverains morts-vivants du désert",
+      "Warriors of Chaos — adeptes des dieux sombres",
+      "Wood Elf Realms — elfes sylvains d'Athel Loren",
+      "Beastmen Brayherds — hommes-bêtes du Chaos",
+    ],
+    landingSeoLegacyFactionsTitle: "Factions legacy supportées :",
+    landingSeoLegacyFactions:
+      "Chaos Dwarfs • Daemons of Chaos • Dark Elves • Lizardmen • Skaven • Ogre Kingdoms • Vampire Counts",
+    landingSeoSearchNote:
+      "Army Builder propose également un moteur de recherche de statistiques d'unités — consulte le profil de n'importe quel modèle en quelques secondes, sans feuilleter les livres de règles.",
+    landingSeoSupportNote:
+      "Un outil créé par un joueur pour les joueurs. Nous t'encourageons à soutenir Games Workshop et à acheter les matériaux officiels.",
+    changelogTitle: "Derniers changements",
+    changelogDescription: "Découvrez ce qui a été ajouté ou amélioré récemment.",
+    changelogEmpty: "Aucune mise à jour pour l’instant. Revenez bientôt.",
+    footerReportBugButton: "Signaler un bug",
+    footerReportBugTitle: "Signaler un bug",
+    footerReportBugDescription: "Décrivez le problème. Nous ouvrirons un brouillon d’e-mail.",
+    footerReportBugFieldLabel: "Description du bug",
+    footerReportBugPlaceholder: "Ex. ce qui s’est passé, où et comment le reproduire.",
+    footerReportBugSubmit: "Envoyer l’e-mail",
+    footerReportBugCancel: "Annuler",
+    footerReportBugValidation: "Ajoutez une courte description du bug.",
+    footerReportBugSubject: "Signalement de bug — Old-World Armybuilder",
   },
   es: {
     heroTitle: "Constructor de ejércitos Warhammer",
@@ -1100,6 +1289,47 @@ const dictionaries = {
     footerLegalNotice:
       "Este sitio es un proyecto de fans y no está afiliado, respaldado ni licenciado por Games Workshop. Todas las marcas, nombres y materiales relacionados con Warhammer son propiedad de Games Workshop Limited. El objetivo de este proyecto es ayudar a los nuevos jugadores a comenzar su aventura en el mundo de Warhammer. En serio, todo esto es realmente muy complicado :)",
     footerCommunityNote: "un proyecto para la comunidad de jugadores.",
+    footerChangelogLinkLabel: "Últimos cambios",
+    aboutTitle: "Sobre mí",
+    aboutDescription: "Conoce al creador de Army Builder y la historia del proyecto.",
+    landingSeoTitle:
+      "Army Builder – Creador de ejércitos gratuito para Warhammer: The Old World | Todas las facciones",
+    landingSeoLabel: "Descripción:",
+    landingSeoIntro:
+      "¿Buscas una herramienta cómoda para crear listas de ejército para Warhammer: The Old World? Army Builder es un creador online gratuito que te permite componer rápidamente un roster, verificar los límites de puntos y exportar tu lista a PDF, JSON o CSV.",
+    landingSeoLore:
+      "Warhammer: The Old World es un juego de miniaturas de Games Workshop, ambientado en un oscuro mundo de fantasía — dos siglos antes de los eventos de Warhammer Fantasy Battles. Los jugadores comandan ejércitos de humanos, elfos, enanos, orcos, no-muertos y las fuerzas del Caos en batallas tácticas sobre la mesa.",
+    landingSeoPrimaryFactionsTitle: "Facciones principales soportadas:",
+    landingSeoPrimaryFactions: [
+      "Kingdom of Bretonnia — caballeros y caballería sagrada",
+      "Dwarfen Mountain Holds — enanos y sus máquinas de guerra",
+      "Empire of Man — imperio humano con artillería y magia",
+      "High Elf Realms — elfos ancestrales de Ulthuan",
+      "Orc & Goblin Tribes — hordas de pieles verdes",
+      "Tomb Kings of Khemri — gobernantes no-muertos del desierto",
+      "Warriors of Chaos — seguidores de los dioses oscuros",
+      "Wood Elf Realms — elfos silvanos de Athel Loren",
+      "Beastmen Brayherds — hombres bestia del Caos",
+    ],
+    landingSeoLegacyFactionsTitle: "Facciones legacy soportadas:",
+    landingSeoLegacyFactions:
+      "Chaos Dwarfs • Daemons of Chaos • Dark Elves • Lizardmen • Skaven • Ogre Kingdoms • Vampire Counts",
+    landingSeoSearchNote:
+      "Army Builder también ofrece un buscador de estadísticas de unidades — consulta el perfil de cualquier modelo en segundos, sin hojear los manuales.",
+    landingSeoSupportNote:
+      "Una herramienta creada por un jugador para jugadores. Te animamos a apoyar a Games Workshop y comprar los materiales oficiales.",
+    changelogTitle: "Últimos cambios",
+    changelogDescription: "Consulta lo que se ha añadido o mejorado recientemente.",
+    changelogEmpty: "Aún no hay actualizaciones. Vuelve pronto.",
+    footerReportBugButton: "Reportar un error",
+    footerReportBugTitle: "Reportar un error",
+    footerReportBugDescription: "Describe el problema. Abriremos un borrador de correo.",
+    footerReportBugFieldLabel: "Descripción del error",
+    footerReportBugPlaceholder: "Por ejemplo: qué pasó, dónde y cómo reproducirlo.",
+    footerReportBugSubmit: "Enviar correo",
+    footerReportBugCancel: "Cancelar",
+    footerReportBugValidation: "Añade una breve descripción del error.",
+    footerReportBugSubject: "Reporte de error — Old-World Armybuilder",
   },
 } satisfies Record<Locale, LocaleDictionary>;
 

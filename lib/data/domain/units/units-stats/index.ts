@@ -67,8 +67,10 @@ const normalizeStringArray = (value: unknown): string[] | undefined => {
 
 const pickStats = (source: Record<string, unknown>): Record<StatKey, StatValue> => {
   const stats = {} as Record<StatKey, StatValue>;
+  const nested = isRecord(source.stats) ? source.stats : null;
   STAT_FIELD_KEYS.forEach((key) => {
-    stats[key] = normalizeStatValue(source[key]);
+    const raw = nested && key in nested ? nested[key] : source[key];
+    stats[key] = normalizeStatValue(raw);
   });
   return stats;
 };
