@@ -122,6 +122,14 @@ export function useCategoryBucketsState({
     [dict, pointsLimit, spent]
   );
 
+  const totalSpent =
+    spent.characters +
+    spent.core +
+    spent.special +
+    spent.rare +
+    spent.mercenaries +
+    spent.allies;
+
   const activeUnits = React.useMemo(
     () => (activeCategory ? unitsByCategory[activeCategory] ?? [] : []),
     [activeCategory, unitsByCategory]
@@ -378,6 +386,8 @@ export function useCategoryBucketsState({
   return {
     isRosterReady,
     sections,
+    totalSpent,
+    pointsLimit,
     entriesByCategory,
     activeCategory,
     onToggleCategory: handleToggleCategory,

@@ -64,6 +64,7 @@ export type CategoryDict = Pick<
   | "categoryCoreLabel"
   | "categoryCorePointsSummary"
   | "categoryCapPointsSummary"
+  | "categoryTotalPointsSummary"
   | "categoryCharactersLabel"
   | "categorySpecialLabel"
   | "categoryRareLabel"

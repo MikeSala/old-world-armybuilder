@@ -27,7 +27,7 @@ export default function Footer() {
       aria-label={dictionary.footerAriaLabel}
       className="mt-20 w-full border-t border-amber-300/20 bg-slate-950/80 text-amber-200/80 backdrop-blur supports-[backdrop-filter]:bg-slate-950/60"
     >
-      <div className="mx-auto max-w-7xl px-4 py-6">
+      <div className="mx-auto max-w-wide px-container py-section-y">
         <p className="text-sm leading-relaxed">{dictionary.footerLegalNotice}</p>
 
         <div className="mt-3 text-xs text-amber-300/70">

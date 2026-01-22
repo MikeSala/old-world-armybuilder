@@ -53,9 +53,9 @@ export default async function LandingPage({ params }: PageProps) {
   return (
     <main>
       {/* Faction Grid Section */}
-      <section className="mb-10 py-6 sm:py-8">
+      <section className="mb-10 py-section-y">
         <MarginLayout>
-          <h2 className="mb-4 text-center text-lg font-bold uppercase tracking-wider text-amber-200 sm:mb-5 sm:text-xl">
+          <h2 className="mb-4 text-center text-heading-section font-bold uppercase tracking-wider text-amber-200 sm:mb-5">
             {dictionary.landingFactionHeading}
           </h2>
           <FactionGrid locale={locale} editSlug={dictionary.editSlug} />

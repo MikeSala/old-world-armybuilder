@@ -6,7 +6,7 @@ type HeroSectionProps = {
 
 export function HeroSection({ dict }: HeroSectionProps) {
   return (
-    <section className="relative flex items-center justify-center overflow-hidden py-6 sm:py-8">
+    <section className="relative flex items-center justify-center overflow-hidden py-section-y">
       {/* Background layers */}
       <div className="pointer-events-none absolute inset-0 bg-slate-900" />
       <div className="pointer-events-none absolute inset-0 bg-hero-radial" />
@@ -16,8 +16,7 @@ export function HeroSection({ dict }: HeroSectionProps) {
         {/* Title */}
         <h1
           className="bg-gradient-to-r from-amber-200 via-amber-400 to-amber-200 bg-clip-text
-                     text-xl font-bold tracking-tight text-transparent
-                     sm:text-2xl md:text-3xl
+                     text-heading-hero font-bold tracking-tight text-transparent
                      animate-fade-in-up"
         >
           {dict.heroTitle}

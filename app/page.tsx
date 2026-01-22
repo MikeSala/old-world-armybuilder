@@ -9,7 +9,7 @@ export default function RootRedirect() {
 
   return (
     <main className="min-h-screen bg-slate-600 text-amber-300">
-      <div className="mx-auto flex max-w-5xl flex-col gap-4 px-4 py-10 sm:px-8 lg:px-10">
+      <div className="mx-auto flex max-w-content flex-col gap-gap-lg px-container py-10">
         <h1 className="text-xl font-semibold text-amber-100">Redirecting…</h1>
         <p className="text-sm text-amber-200/80">
           If you are not redirected, open{" "}

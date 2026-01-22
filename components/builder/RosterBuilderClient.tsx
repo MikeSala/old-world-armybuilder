@@ -6,6 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import ArmyPointsCounter from "@/components/builder/ArmyPointsCounter";
 import ArmyRulesSelectClient from "@/components/builder/ArmyRulesSelectClient";
 import RosterMetaClient from "@/components/builder/RosterMetaClient";
+import { ChevronDownIcon } from "@/components/icons/ChevronDownIcon";
 import { Button } from "@/components/ui/Button";
 import Select, { SelectOption } from "@/components/ui/Select";
 import { ARMIES } from "@/lib/data/armies/armies";
@@ -275,17 +276,11 @@ export default function RosterBuilderClient({ dict, className, onSaved }: Props)
             <h4 className="text-xs font-semibold uppercase tracking-[0.25em] text-amber-300">
               {dict.rosterClipboardHeading} ({clipboardItems.length}/{CLIPBOARD_LIMIT})
             </h4>
-            <svg
+            <ChevronDownIcon
               className={`h-4 w-4 text-amber-300 transition-transform duration-200 ${
                 clipboardOpen ? "rotate-180" : ""
               }`}
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth={2}
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-            </svg>
+            />
           </button>
 
           <div

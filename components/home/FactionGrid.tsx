@@ -4,6 +4,8 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { ARMIES } from "@/lib/data/armies/armies";
 import { FactionCard } from "./FactionCard";
 import type { Locale } from "@/lib/i18n/dictionaries";
+import { ChevronLeftIcon } from "@/components/icons/ChevronLeftIcon";
+import { ChevronRightIcon } from "@/components/icons/ChevronRightIcon";
 
 type FactionGridProps = {
   locale: Locale;
@@ -160,7 +162,7 @@ export function FactionGrid({ locale, editSlug }: FactionGridProps) {
         onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
-        className={`flex gap-3 overflow-x-auto pb-4 scroll-smooth snap-x snap-proximity
+        className={`flex gap-gap-md overflow-x-auto pb-4 scroll-smooth snap-x snap-proximity
                     scrollbar-hide cursor-grab select-none
                     ${isDragging ? "cursor-grabbing scroll-auto" : ""}`}
         style={{
@@ -192,17 +194,7 @@ export function FactionGrid({ locale, editSlug }: FactionGridProps) {
                     active:scale-95
                     ${canScrollLeft ? "opacity-100" : "pointer-events-none opacity-0"}`}
       >
-        <svg
-          viewBox="0 0 24 24"
-          className="h-5 w-5"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2.5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        >
-          <path d="M15 18l-6-6 6-6" />
-        </svg>
+        <ChevronLeftIcon />
       </button>
 
       {/* Right arrow button */}
@@ -218,21 +210,11 @@ export function FactionGrid({ locale, editSlug }: FactionGridProps) {
                     active:scale-95
                     ${canScrollRight ? "opacity-100" : "pointer-events-none opacity-0"}`}
       >
-        <svg
-          viewBox="0 0 24 24"
-          className="h-5 w-5"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2.5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        >
-          <path d="M9 18l6-6-6-6" />
-        </svg>
+        <ChevronRightIcon />
       </button>
 
       {/* Pagination dots */}
-      <div className="flex justify-center gap-2 mt-2">
+      <div className="flex justify-center gap-gap-sm mt-2">
         {Array.from({ length: totalPages }).map((_, index) => (
           <button
             key={index}

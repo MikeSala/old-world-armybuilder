@@ -10,6 +10,8 @@ import type { OptionLabelByUnitId } from "@/lib/builder/unitHelpers";
 
 type Props = {
   sections: CategorySection[];
+  totalSpent: number;
+  pointsLimit: number;
   activeCategory: CategoryKey | null;
   entriesByCategory: EntriesByCategory;
   dict: Dict;
@@ -99,6 +101,8 @@ function CategorySummaryItem({
 
 export function CategorySummaryPanel({
   sections,
+  totalSpent,
+  pointsLimit,
   activeCategory,
   entriesByCategory,
   dict,
@@ -108,8 +112,15 @@ export function CategorySummaryPanel({
   onEntrySelect,
   selectedEntryId,
 }: Props) {
+  const totalSpentText = dict.categoryTotalPointsSummary
+    .replace("{total}", String(totalSpent))
+    .replace("{limit}", String(pointsLimit));
+
   return (
     <section className="space-y-2">
+      <div className="rounded-2xl border border-amber-300/20 bg-slate-900/40 px-4 py-2 text-sm font-medium text-amber-100/80">
+        {totalSpentText}
+      </div>
       {sections.map((section) => (
         <CategorySummaryItem
           key={section.key}

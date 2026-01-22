@@ -1494,7 +1494,7 @@
     },
     {
       "name": "Chosen Chaos Knights",
-      "name_pl": "Wybrani Rycerze Chaosu",
+      "name_pl": "Wybrańcy Rycerze",
       "unitCategory": "Cavalry",
       "troopType": "Heavy Cavalry",
       "baseSize": "30 x 60 mm",
@@ -1621,7 +1621,7 @@
     },
     {
       "name": "Chosen Chaos Warriors",
-      "name_pl": "Wybrani Wojownicy Chaosu",
+      "name_pl": "Wybrańcy Chaosu",
       "unitCategory": "Infantry",
       "troopType": "Heavy Infantry",
       "baseSize": "30 x 30 mm",

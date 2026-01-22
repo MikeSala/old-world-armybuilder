@@ -36,6 +36,7 @@ export type LocaleDictionary = {
   categoryCoreLabel: string;
   categoryCorePointsSummary: string;
   categoryCapPointsSummary: string;
+  categoryTotalPointsSummary: string;
   categorySpecialLabel: string;
   categoryRareLabel: string;
   categoryMercsLabel: string;
@@ -224,6 +225,7 @@ const dictionaries = {
     categoryCoreLabel: "Jednostki podstawowe",
     categoryCorePointsSummary: "aktualnie {current} pkt / min {required} pkt",
     categoryCapPointsSummary: "aktualnie {current} pkt / max {limit} pkt",
+    categoryTotalPointsSummary: "Aktualnie armia ma łącznie {total} pkt na {limit}",
     categorySpecialLabel: "Jednostki specjalne",
     categoryRareLabel: "Jednostki rzadkie",
     categoryMercsLabel: "Najemnicy",
@@ -406,6 +408,7 @@ const dictionaries = {
     categoryCoreLabel: "Core Units",
     categoryCorePointsSummary: "current {current} pts / min {required} pts",
     categoryCapPointsSummary: "current {current} pts / max {limit} pts",
+    categoryTotalPointsSummary: "Army total currently: {total} pts out of {limit}",
     categorySpecialLabel: "Special Units",
     categoryRareLabel: "Rare Units",
     categoryMercsLabel: "Mercenaries",
@@ -587,6 +590,7 @@ const dictionaries = {
     categoryCoreLabel: "Kerneinheiten",
     categoryCorePointsSummary: "aktuell {current} Pkt / min {required} Pkt",
     categoryCapPointsSummary: "aktuell {current} Pkt / max {limit} Pkt",
+    categoryTotalPointsSummary: "Aktuell hat die Armee insgesamt {total} Pkt von {limit}",
     categorySpecialLabel: "Spezialeinheiten",
     categoryRareLabel: "Seltene Einheiten",
     categoryMercsLabel: "Söldner",
@@ -770,6 +774,7 @@ const dictionaries = {
     categoryCoreLabel: "Unités de base",
     categoryCorePointsSummary: "actuel {current} pts / min {required} pts",
     categoryCapPointsSummary: "actuel {current} pts / max {limit} pts",
+    categoryTotalPointsSummary: "Total actuel de l'armée : {total} pts sur {limit}",
     categorySpecialLabel: "Unités spéciales",
     categoryRareLabel: "Unités rares",
     categoryMercsLabel: "Mercenaires",
@@ -952,6 +957,7 @@ const dictionaries = {
     categoryCoreLabel: "Unidades básicas",
     categoryCorePointsSummary: "actual {current} pts / mín {required} pts",
     categoryCapPointsSummary: "actual {current} pts / máx {limit} pts",
+    categoryTotalPointsSummary: "Total actual del ejército: {total} pts de {limit}",
     categorySpecialLabel: "Unidades especiales",
     categoryRareLabel: "Unidades raras",
     categoryMercsLabel: "Mercenarios",

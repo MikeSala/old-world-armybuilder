@@ -5,5 +5,5 @@ type MarginLayoutProps = {
 };
 
 export function MarginLayout({ children }: MarginLayoutProps) {
-  return <div className="mx-auto w-full max-w-5xl">{children}</div>;
+  return <div className="mx-auto w-full max-w-main px-container">{children}</div>;
 }

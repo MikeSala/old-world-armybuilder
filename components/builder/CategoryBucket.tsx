@@ -32,6 +32,8 @@ export default function CategoryBuckets({ totals, onAddClick, dict, className }:
   const {
     isRosterReady,
     sections,
+    totalSpent,
+    pointsLimit,
     entriesByCategory,
     activeCategory,
     onToggleCategory,
@@ -47,6 +49,7 @@ export default function CategoryBuckets({ totals, onAddClick, dict, className }:
 
   const scrollConfiguratorToAnchor = React.useCallback((anchor?: HTMLElement | null) => {
     if (!anchor || !configuratorRef.current || typeof window === "undefined") return;
+    if (window.matchMedia("(min-width: 1024px)").matches) return;
     const delta =
       anchor.getBoundingClientRect().top - configuratorRef.current.getBoundingClientRect().top;
     if (Math.abs(delta) < 4) return;
@@ -72,6 +75,8 @@ export default function CategoryBuckets({ totals, onAddClick, dict, className }:
         <div className={categoryGridClass}>
           <CategorySummaryPanel
             sections={sections}
+            totalSpent={totalSpent}
+            pointsLimit={pointsLimit}
             activeCategory={activeCategory}
             entriesByCategory={entriesByCategory}
             dict={dict}

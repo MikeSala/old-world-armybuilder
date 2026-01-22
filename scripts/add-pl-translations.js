@@ -25,14 +25,14 @@ const translations = {
   "Marauder Horsemen": "Konni Maruderzy",
 
   // Special
-  "Chosen Chaos Warriors": "Wybrani Wojownicy Chaosu",
+  "Chosen Chaos Warriors": "Wybrańcy Chaosu",
   "Chaos Knights": "Rycerze Chaosu",
   "Chaos Trolls": "Trolle Chaosu",
   "Chaos Ogres": "Ogry Chaosu",
   "Gorebeast Chariot": "Rydwan Bestii Krwi",
 
   // Rare
-  "Chosen Chaos Knights": "Wybrani Rycerze Chaosu",
+  "Chosen Chaos Knights": "Wybrańcy Rycerze",
   "Chaos Warshrine": "Świątynia Wojenna Chaosu",
   "Dragon Ogres": "Smocze Ogry",
   "Chaos Spawn": "Pomiot Chaosu",

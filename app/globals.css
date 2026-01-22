@@ -5,6 +5,61 @@
 @layer base {
   :root {
     color-scheme: light;
+
+    /* ========================================
+       RESPONSIVE DESIGN TOKENS
+       ======================================== */
+
+    /* Container Padding */
+    --space-container: 1rem; /* px-4 */
+
+    /* Gap Scale */
+    --space-gap-xs: 0.25rem; /* gap-1 */
+    --space-gap-sm: 0.5rem; /* gap-2 */
+    --space-gap-md: 0.75rem; /* gap-3 */
+    --space-gap-lg: 1rem; /* gap-4 */
+    --space-gap-xl: 1.5rem; /* gap-6 */
+
+    /* Section Spacing */
+    --space-section-y: 1.5rem; /* py-6 */
+
+    /* Container Max-Widths */
+    --container-content: 80rem; /* max-w-5xl (1024px) */
+    --container-main: 90rem; /* max-w-6xl (1152px) */
+    --container-wide: 100rem; /* max-w-7xl (1280px) */
+
+    /* Typography */
+    --text-heading-hero: 1.25rem; /* text-xl */
+    --text-heading-section: 1.125rem; /* text-lg */
+  }
+
+  /* SM BREAKPOINT (640px) */
+  @media (min-width: 640px) {
+    :root {
+      --space-container: 2rem; /* px-8 */
+      --space-gap-sm: 0.75rem; /* gap-3 */
+      --space-gap-md: 1rem; /* gap-4 */
+      --space-gap-lg: 1.5rem; /* gap-6 */
+      --space-section-y: 2rem; /* py-8 */
+      --text-heading-hero: 1.5rem; /* text-2xl */
+      --text-heading-section: 1.25rem; /* text-xl */
+    }
+  }
+
+  /* MD BREAKPOINT (768px) */
+  @media (min-width: 768px) {
+    :root {
+      --text-heading-hero: 1.875rem; /* text-3xl */
+    }
+  }
+
+  /* LG BREAKPOINT (1024px) */
+  @media (min-width: 1024px) {
+    :root {
+      --space-container: 2.5rem; /* px-10 */
+      --space-gap-md: 1.5rem; /* gap-6 */
+      --space-gap-lg: 2rem; /* gap-8 */
+    }
   }
 
   body {

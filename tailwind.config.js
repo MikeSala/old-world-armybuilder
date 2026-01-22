@@ -14,6 +14,24 @@ module.exports = {
       '2xl': '1536px',
     },
     extend: {
+      spacing: {
+        'container': 'var(--space-container)',
+        'gap-xs': 'var(--space-gap-xs)',
+        'gap-sm': 'var(--space-gap-sm)',
+        'gap-md': 'var(--space-gap-md)',
+        'gap-lg': 'var(--space-gap-lg)',
+        'gap-xl': 'var(--space-gap-xl)',
+        'section-y': 'var(--space-section-y)',
+      },
+      maxWidth: {
+        'content': 'var(--container-content)',
+        'main': 'var(--container-main)',
+        'wide': 'var(--container-wide)',
+      },
+      fontSize: {
+        'heading-hero': 'var(--text-heading-hero)',
+        'heading-section': 'var(--text-heading-section)',
+      },
       fontFamily: {
         sans: [
           "Inter",
