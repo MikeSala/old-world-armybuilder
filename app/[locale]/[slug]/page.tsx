@@ -95,10 +95,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function RosterEditPage({ params }: PageProps) {
   const { locale: rawLocale, slug: rawSlug } = await params;
 
-  const locale: Locale =
-    typeof rawLocale === "string" && isLocale(rawLocale)
-      ? (rawLocale as Locale)
-      : null;
+  const locale =
+    typeof rawLocale === "string" && isLocale(rawLocale) ? (rawLocale as Locale) : null;
   if (!locale || locale === defaultLocale) {
     notFound();
   }
