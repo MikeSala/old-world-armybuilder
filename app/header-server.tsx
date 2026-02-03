@@ -9,7 +9,7 @@ import { LocaleButton } from "@/components/ui/LocaleButton";
 import { LogoIcon } from "@/components/icons/LogoIcon";
 import BuyMeCoffeeButton from "@/components/support/BuyMeCoffeeButton";
 import { CHANGELOG_SLUG } from "@/lib/data/changelog";
-import { getDictionary, locales, type Locale } from "@/lib/i18n/dictionaries";
+import { getDictionary, isLocale, locales, type Locale } from "@/lib/i18n/dictionaries";
 import {
   buildLocalePath,
   buildLocalePathWithPrefix,
@@ -52,16 +52,21 @@ export default function Header() {
   }, [pathname]);
 
   const buildHref = (targetLocale: Locale) => {
-    if (restSegments[0] === CHANGELOG_SLUG) {
+    const sanitizedSegments =
+      restSegments.length > 0 && isLocale(restSegments[0])
+        ? restSegments.slice(1)
+        : restSegments;
+
+    if (sanitizedSegments[0] === CHANGELOG_SLUG) {
       return targetLocale === "en"
         ? buildLocalePathWithPrefix("en" as Locale, CHANGELOG_SLUG)
         : buildLocalePath(targetLocale);
     }
 
     const translatedSegments =
-      restSegments.length > 0
+      sanitizedSegments.length > 0
         ? (() => {
-            const next = [...restSegments];
+            const next = [...sanitizedSegments];
             const activeSlug = editSlugByLocale[activeLocale];
             const targetSlug = editSlugByLocale[targetLocale];
             if (next[0] === activeSlug && targetSlug) {
@@ -69,7 +74,7 @@ export default function Header() {
             }
             return next;
           })()
-        : restSegments;
+        : sanitizedSegments;
 
     const normalized = translatedSegments.join("/");
     return buildLocalePath(targetLocale, normalized);
