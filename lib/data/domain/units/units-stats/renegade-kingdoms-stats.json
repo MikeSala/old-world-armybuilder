@@ -1,0 +1,532 @@
+[
+  {
+    "name": "Barded Warhorse",
+    "M": 7,
+    "WS": 3,
+    "BS": null,
+    "S": 3,
+    "T": null,
+    "W": null,
+    "I": 3,
+    "A": 1,
+    "Ld": null,
+    "unitCategory": "Mount",
+    "troopType": "Heavy Cavalry",
+    "baseSize": "30 x 60 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": [
+      "Iron-shod hooves (counts as a hand weapon)",
+      "Barding"
+    ],
+    "specialRules": [
+      "Counter Charge",
+      "First Charge",
+      "Swiftstride"
+    ],
+    "id": "barded-warhorse"
+  },
+  {
+    "name": "Border Princes Mortar",
+    "M": null,
+    "WS": null,
+    "BS": null,
+    "S": null,
+    "T": 7,
+    "W": 3,
+    "I": null,
+    "A": null,
+    "Ld": null,
+    "unitCategory": "War Machine",
+    "troopType": "War Machine",
+    "baseSize": "50 x 75 mm (war machine), 25 x 25 mm (crew)",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": [
+      "Mortar",
+      "Hand weapons"
+    ],
+    "specialRules": [
+      "Levies",
+      "Skirmishers"
+    ],
+    "profiles": [
+      {
+        "name": "Gun Crew",
+        "M": 4,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 3,
+        "I": 3,
+        "A": 3,
+        "Ld": 7
+      }
+    ],
+    "id": "border-princes-mortar"
+  },
+  {
+    "name": "Border Princes Organ Gun",
+    "M": null,
+    "WS": null,
+    "BS": null,
+    "S": null,
+    "T": 7,
+    "W": 3,
+    "I": null,
+    "A": null,
+    "Ld": null,
+    "unitCategory": "War Machine",
+    "troopType": "War Machine",
+    "baseSize": "50 x 50 mm (war machine), 25 x 25 mm (crew)",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": [
+      "Organ gun",
+      "Hand weapons"
+    ],
+    "specialRules": [
+      "Levies",
+      "Skirmishers"
+    ],
+    "profiles": [
+      {
+        "name": "Gun Crew",
+        "M": 4,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 3,
+        "I": 3,
+        "A": 3,
+        "Ld": 7
+      }
+    ],
+    "id": "border-princes-organ-gun"
+  },
+  {
+    "name": "Freeblade Knights",
+    "M": null,
+    "WS": 4,
+    "BS": 3,
+    "S": 3,
+    "T": 3,
+    "W": 1,
+    "I": 3,
+    "A": 1,
+    "Ld": 8,
+    "unitCategory": "Cavalry",
+    "troopType": "Heavy Cavalry",
+    "baseSize": "30 x 60 mm",
+    "unitSize": "5+",
+    "armourValue": "—",
+    "equipment": [
+      "Freeblade Knights: Hand weapons and heavy armour",
+      "Warhorses: Iron-shod hooves (counts as hand weapons)",
+      "Barded Warhorses: Iron-shod hooves (counts as hand weapons) and barding"
+    ],
+    "specialRules": [
+      "Close Order",
+      "Counter Charge",
+      "First Charge",
+      "Swiftstride"
+    ],
+    "profiles": [
+      {
+        "name": "Commander",
+        "M": null,
+        "WS": 4,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 3,
+        "A": 2,
+        "Ld": 8
+      },
+      {
+        "name": "Warhorse",
+        "M": 8,
+        "WS": 3,
+        "BS": null,
+        "S": 3,
+        "T": null,
+        "W": null,
+        "I": 3,
+        "A": 1,
+        "Ld": null
+      },
+      {
+        "name": "Barded Warhorse",
+        "M": 7,
+        "WS": 3,
+        "BS": null,
+        "S": 3,
+        "T": null,
+        "W": null,
+        "I": 3,
+        "A": 1,
+        "Ld": null
+      }
+    ],
+    "id": "freeblade-knights"
+  },
+  {
+    "name": "Hireling Outriders",
+    "M": null,
+    "WS": 3,
+    "BS": 3,
+    "S": 3,
+    "T": 3,
+    "W": 1,
+    "I": 3,
+    "A": 1,
+    "Ld": 7,
+    "unitCategory": "Cavalry",
+    "troopType": "Light Cavalry",
+    "baseSize": "30 x 60 mm",
+    "unitSize": "5+",
+    "armourValue": "—",
+    "equipment": [
+      "Hireling Outriders: Hand weapons",
+      "Warhorses: Iron-shod hooves (counts as hand weapons)"
+    ],
+    "specialRules": [
+      "Fast Cavalry",
+      "Fire & Flee",
+      "Open Order",
+      "Skirmishers",
+      "Swiftstride"
+    ],
+    "profiles": [
+      {
+        "name": "Captain",
+        "M": null,
+        "WS": 4,
+        "BS": 4,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 3,
+        "A": 1,
+        "Ld": 7
+      },
+      {
+        "name": "Warhorse",
+        "M": 8,
+        "WS": 3,
+        "BS": null,
+        "S": 3,
+        "T": null,
+        "W": null,
+        "I": 3,
+        "A": 1,
+        "Ld": null
+      }
+    ],
+    "id": "hireling-outriders"
+  },
+  {
+    "name": "Renegade Captain",
+    "M": 4,
+    "WS": 5,
+    "BS": 4,
+    "S": 4,
+    "T": 4,
+    "W": 2,
+    "I": 4,
+    "A": 2,
+    "Ld": 7,
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": [
+      "Hand weapon and light armour"
+    ],
+    "specialRules": [
+      "Rallying Cry",
+      "Veteran",
+      "Warband"
+    ],
+    "id": "renegade-captain"
+  },
+  {
+    "name": "Renegade Prince",
+    "M": 4,
+    "WS": 6,
+    "BS": 4,
+    "S": 4,
+    "T": 4,
+    "W": 3,
+    "I": 5,
+    "A": 3,
+    "Ld": 8,
+    "unitCategory": "Character",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": [
+      "Hand weapon and light armour"
+    ],
+    "specialRules": [
+      "Rallying Cry",
+      "Veteran",
+      "Warband"
+    ],
+    "id": "renegade-prince"
+  },
+  {
+    "name": "Sellsword Infantry",
+    "M": 4,
+    "WS": 3,
+    "BS": 3,
+    "S": 3,
+    "T": 3,
+    "W": 1,
+    "I": 3,
+    "A": 1,
+    "Ld": 5,
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "5+",
+    "armourValue": "—",
+    "equipment": [
+      "Hand weapons and light armour"
+    ],
+    "specialRules": [
+      "Close Order",
+      "Detachment",
+      "Horde",
+      "Regimental Unit",
+      "Warband"
+    ],
+    "profiles": [
+      {
+        "name": "Officer",
+        "M": 4,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 3,
+        "A": 2,
+        "Ld": 6
+      }
+    ],
+    "id": "sellsword-infantry"
+  },
+  {
+    "name": "Veteran Freeblades",
+    "M": null,
+    "WS": 4,
+    "BS": 3,
+    "S": 4,
+    "T": 3,
+    "W": 1,
+    "I": 3,
+    "A": 1,
+    "Ld": 8,
+    "unitCategory": "Cavalry",
+    "troopType": "Heavy Cavalry",
+    "baseSize": "30 x 60 mm",
+    "unitSize": "5+",
+    "armourValue": "—",
+    "equipment": [
+      "Veteran Freeblades: Hand weapons and heavy armour",
+      "Warhorses: Iron-shod hooves (counts as hand weapons)",
+      "Barded Warhorses: Iron-shod hooves (counts as hand weapons) and barding"
+    ],
+    "specialRules": [
+      "Close Order",
+      "Counter Charge",
+      "First Charge",
+      "Swiftstride",
+      "Veteran"
+    ],
+    "profiles": [
+      {
+        "name": "Commander",
+        "M": null,
+        "WS": 4,
+        "BS": 3,
+        "S": 4,
+        "T": 3,
+        "W": 1,
+        "I": 3,
+        "A": 2,
+        "Ld": 8
+      },
+      {
+        "name": "Warhorse",
+        "M": 8,
+        "WS": 3,
+        "BS": null,
+        "S": 3,
+        "T": null,
+        "W": null,
+        "I": 3,
+        "A": 1,
+        "Ld": null
+      },
+      {
+        "name": "Barded Warhorse",
+        "M": 7,
+        "WS": 3,
+        "BS": null,
+        "S": 3,
+        "T": null,
+        "W": null,
+        "I": 3,
+        "A": 1,
+        "Ld": null
+      }
+    ],
+    "id": "veteran-freeblades"
+  },
+  {
+    "name": "Veteran Sellswords",
+    "M": 4,
+    "WS": 4,
+    "BS": 3,
+    "S": 3,
+    "T": 3,
+    "W": 1,
+    "I": 3,
+    "A": 1,
+    "Ld": 5,
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "5+",
+    "armourValue": "—",
+    "equipment": [
+      "Hand weapons and light armour"
+    ],
+    "specialRules": [
+      "Close Order",
+      "Detachment",
+      "Horde",
+      "Regimental Unit",
+      "Warband",
+      "Veteran"
+    ],
+    "profiles": [
+      {
+        "name": "Veteran Officer",
+        "M": 4,
+        "WS": 4,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 3,
+        "A": 2,
+        "Ld": 6
+      }
+    ],
+    "id": "veteran-sellswords"
+  },
+  {
+    "name": "Warhorse (Realms of Men)",
+    "M": 8,
+    "WS": 3,
+    "BS": null,
+    "S": 3,
+    "T": null,
+    "W": null,
+    "I": 3,
+    "A": 1,
+    "Ld": null,
+    "unitCategory": "Mount",
+    "troopType": "Light Cavalry",
+    "baseSize": "30 x 60 mm",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": [
+      "Iron-shod hooves (counts as a hand weapon)"
+    ],
+    "specialRules": [
+      "Counter Charge",
+      "First Charge",
+      "Swiftstride"
+    ],
+    "id": "warhorse-realms-of-men"
+  },
+  {
+    "name": "Border Princes Brigands",
+    "M": 4,
+    "WS": 3,
+    "BS": 3,
+    "S": 3,
+    "T": 3,
+    "W": 1,
+    "I": 3,
+    "A": 1,
+    "Ld": 5,
+    "unitCategory": "Infantry",
+    "troopType": "Regular Infantry",
+    "baseSize": "25 x 25 mm",
+    "unitSize": "10+",
+    "armourValue": "—",
+    "equipment": [
+      "Hand weapons",
+      "Light armour"
+    ],
+    "specialRules": [
+      "Horde",
+      "Impetuous",
+      "Levies",
+      "Motley Crew",
+      "Open Order",
+      "Warband"
+    ],
+    "id": "border-princes-brigands"
+  },
+  {
+    "name": "Border Princes Bombard",
+    "M": null,
+    "WS": null,
+    "BS": null,
+    "S": null,
+    "T": 7,
+    "W": 3,
+    "I": null,
+    "A": null,
+    "Ld": null,
+    "unitCategory": "War Machine",
+    "troopType": "War Machine",
+    "baseSize": "50 x 75 mm (war machine), 25 x 25 mm (crew)",
+    "unitSize": "1",
+    "armourValue": "—",
+    "equipment": [
+      "Bombard",
+      "Hand weapons"
+    ],
+    "specialRules": [
+      "Levies",
+      "Skirmishers"
+    ],
+    "profiles": [
+      {
+        "name": "Gun Crew",
+        "M": 4,
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 3,
+        "I": 3,
+        "A": 3,
+        "Ld": 7
+      }
+    ],
+    "id": "border-princes-bombard"
+  }
+]

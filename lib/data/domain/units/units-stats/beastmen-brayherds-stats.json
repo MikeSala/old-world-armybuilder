@@ -3537,5 +3537,222 @@
     "specialRules_de": [],
     "name_fr": "Impure-corne",
     "unitCategory_it": "Campione"
+  },
+  {
+    "name": "Badlands Ogre Bulls",
+    "name_pl": "Badlands Ogr Bulls",
+    "unitCategory": "Infantry",
+    "troopType": "Monstrous Infantry",
+    "baseSize": "40 x 40 mm",
+    "unitSize": "3+",
+    "armourValue": null,
+    "profiles": [
+      {
+        "variant": "Ogre",
+        "M": 6,
+        "WS": 3,
+        "BS": 2,
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": 2,
+        "A": 3,
+        "Ld": 7
+      },
+      {
+        "variant": "Crusher",
+        "M": 6,
+        "WS": 3,
+        "BS": 2,
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": 2,
+        "A": 4,
+        "Ld": 7
+      }
+    ],
+    "equipment": [
+      "Hand weapons",
+      "Light armour"
+    ],
+    "specialRules": [
+      "Armour Bane (1)",
+      "Close Order",
+      "Fear",
+      "Impact Hits (1)",
+      "Mercenaries",
+      "Motley Crew",
+      "Ogre Charge"
+    ],
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Monstrualna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Przebicie Zbroi (1)",
+      "Zwarty Szyk",
+      "Strach",
+      "Uderzenia Impetu (1)",
+      "Mercenaries",
+      "Zbieranina",
+      "Ogr Charge"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Monströse Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Rüstungsfluch (1)",
+      "Geschlossene Ränge",
+      "Angst",
+      "Aufpralltreffer (1)",
+      "Söldner",
+      "Zusammengewürfelter Haufen",
+      "Ogerangriff"
+    ],
+    "name_de": "Düsterlande-Ogerbullen",
+    "name_fr": "Buffles Ogres des Terres Arides",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Monstrueuse",
+    "equipment_fr": [
+      "Armes de base",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "Arme Perforante (1)",
+      "Ordre Serré",
+      "Peur",
+      "Touches d'Impact (1)",
+      "Mercenaires",
+      "Bande Hétéroclite",
+      "Charge Ogre"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Mostruosa",
+    "equipment_it": [
+      "Armi Bianche",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Rottura dell’Armatura (1)",
+      "Formazione Serrata",
+      "Paura",
+      "Colpi da Impatto (1)",
+      "Può",
+      "Equipaggiamento Eterogeneo",
+      "Ogre Carica"
+    ]
+  },
+  {
+    "name": "Bonegrinder Giant",
+    "name_pl": "Bonegrinder Olbrzym",
+    "unitCategory": "Monster",
+    "troopType": "Behemoth",
+    "baseSize": "50 x 100 mm (min) 100 x 150 mm (max)",
+    "unitSize": 1,
+    "armourValue": null,
+    "profiles": [
+      {
+        "variant": "Bonegrinder Giant",
+        "M": 6,
+        "WS": 3,
+        "BS": 1,
+        "S": 7,
+        "T": 6,
+        "W": 8,
+        "I": 3,
+        "A": "*",
+        "Ld": 10
+      }
+    ],
+    "equipment": [
+      "Bonegrinder Giant's club",
+      "Calloused hide (counts as light armour)"
+    ],
+    "specialRules": [
+      "Bonegrinder Giant Attacks",
+      "Close Order",
+      "Immune to Psychology",
+      "Large Target",
+      "Mercenaries",
+      "Stomp Attacks (D6+1)",
+      "Terror",
+      "Timmm-berrr!",
+      "Unbreakable"
+    ],
+    "unitCategory_pl": "Potwór",
+    "troopType_pl": "Behemot",
+    "equipment_pl": [
+      "Bonegrinder Giant's club",
+      "Calloused hide (counts jako lekka zbroja)"
+    ],
+    "specialRules_pl": [
+      "Bonegrinder Olbrzym Attacks",
+      "Zwarty Szyk",
+      "Odporność Na Psychologię",
+      "Duży Cel",
+      "Mercenaries",
+      "Zdeptanie (D6+1)",
+      "Groza",
+      "Dreeeewno!",
+      "Niezłomni"
+    ],
+    "unitCategory_de": "Monster",
+    "troopType_de": "Koloss",
+    "equipment_de": [
+      "Keule des Knochenmahler-Riesen",
+      "Schwielige haut (counts as leichte rüstung)"
+    ],
+    "specialRules_de": [
+      "Knochenmalmer-Riesenattacken",
+      "Geschlossene Ränge",
+      "Immung gegen Psychologie",
+      "Großes Ziel",
+      "Söldner",
+      "Stampfattacken (W6+1)",
+      "Entsetzen",
+      "Baum fällt!",
+      "Unerschütterlich"
+    ],
+    "name_de": "Knochenmalmer-Riese",
+    "name_fr": "Géant Broyeur d'Os",
+    "unitCategory_fr": "Monstre",
+    "troopType_fr": "Béhémoth",
+    "equipment_fr": [
+      "Bonegrinder Giant's club",
+      "Peau blindée (counts comme armure légère)"
+    ],
+    "specialRules_fr": [
+      "Attaques de Géant Broyeur d'Os",
+      "Ordre Serré",
+      "Immunisé à la Psychologie",
+      "Grande Cible",
+      "Mercenaires",
+      "Attaques de Piétinement (D6+1)",
+      "Terreur",
+      "Timmm-berrr!",
+      "Indémoralisable"
+    ],
+    "unitCategory_it": "Mostro",
+    "equipment_it": [
+      "Bonegrinder Giant's club",
+      "Calloused hide (counts come armatura pesante)"
+    ],
+    "specialRules_it": [
+      "Bonegrinder Giant Venefici",
+      "Formazione Serrata",
+      "Immune alla Psicologia",
+      "Bersaglio Grande",
+      "Può",
+      "Calpestamento Venefici (D6+1)",
+      "Terrore",
+      "Assalto Inarrestabile",
+      "Irriducibile"
+    ]
   }
 ]
