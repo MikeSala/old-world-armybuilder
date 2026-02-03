@@ -16,7 +16,7 @@ import type { RootState, AppDispatch } from "@/lib/store";
 import type { NormalizedArmyUnit as ArmyUnit } from "@/lib/data/catalog/types";
 import { selectUnitsByCategory } from "@/lib/store/selectors/catalog";
 import { selectSpentByCategory } from "@/lib/store/selectors/points";
-import { rosterInitialState, upsertEntry } from "@/lib/store/slices/rosterSlice";
+import { rosterInitialState, removeEntry, upsertEntry } from "@/lib/store/slices/rosterSlice";
 import type { RosterEntry } from "@/lib/store/slices/rosterSlice";
 
 import type {
@@ -108,6 +108,20 @@ export function useCategoryBucketsState({
     Boolean(rosterMeta.armyId) &&
     pointsLimit > 0;
 
+  const disabledCategories = React.useMemo(() => {
+    const armyId = rosterMeta.armyId ?? null;
+    const disabled = new Set<CategoryKey>();
+    if (!armyId) return disabled;
+    if (armyId === "daemons-of-chaos") {
+      disabled.add("mercenaries");
+      disabled.add("allies");
+    }
+    if (armyId === "vampire-counts") {
+      disabled.add("mercenaries");
+    }
+    return disabled;
+  }, [rosterMeta.armyId]);
+
   const spent: Required<TotalsByCategory> = {
     characters: totals?.characters ?? totalsFromStore.characters ?? 0,
     core: totals?.core ?? totalsFromStore.core ?? 0,
@@ -120,6 +134,11 @@ export function useCategoryBucketsState({
   const sections: CategorySection[] = React.useMemo(
     () => buildCategorySections(dict, spent, pointsLimit),
     [dict, pointsLimit, spent]
+  );
+
+  const visibleSections = React.useMemo(
+    () => sections.filter((section) => !disabledCategories.has(section.key)),
+    [disabledCategories, sections]
   );
 
   const totalSpent =
@@ -178,6 +197,16 @@ export function useCategoryBucketsState({
     return grouped;
   }, [rosterEntries]);
 
+  const visibleEntriesByCategory = React.useMemo<EntriesByCategory>(() => {
+    if (disabledCategories.size === 0) return entriesByCategory;
+    const filtered: EntriesByCategory = {};
+    (Object.keys(entriesByCategory) as CategoryKey[]).forEach((key) => {
+      if (disabledCategories.has(key)) return;
+      filtered[key] = entriesByCategory[key];
+    });
+    return filtered;
+  }, [disabledCategories, entriesByCategory]);
+
   const handleStartEditingEntry = React.useCallback(
     (entryId: string) => {
       const entry = rosterEntries.find((item) => item.id === entryId);
@@ -193,6 +222,7 @@ export function useCategoryBucketsState({
 
   const handleToggleCategory = React.useCallback(
     (category: CategoryKey, _anchor?: HTMLElement | null) => {
+      if (disabledCategories.has(category)) return;
       setEditingEntryId(null);
       optionPrefillEntryRef.current = null;
       unitSizePrefillEntryRef.current = null;
@@ -208,7 +238,7 @@ export function useCategoryBucketsState({
       setActiveCategory(category);
       setSelectedUnitId(firstId);
     },
-    [activeCategory, unitsByCategory]
+    [activeCategory, disabledCategories, unitsByCategory]
   );
 
   const handleOptionToggle = React.useCallback(
@@ -229,6 +259,7 @@ export function useCategoryBucketsState({
 
   const handleConfirmSelection = React.useCallback(() => {
     if (!activeCategory || !activeUnit) return;
+    if (disabledCategories.has(activeCategory)) return;
 
     const entryId =
       editingEntry?.id ??
@@ -281,6 +312,7 @@ export function useCategoryBucketsState({
     activeUnit,
     clampUnitSize,
     dispatch,
+    disabledCategories,
     editingEntry,
     onAddClick,
     optionGroups,
@@ -288,6 +320,25 @@ export function useCategoryBucketsState({
     selectedUnitId,
     unitSize,
   ]);
+
+  React.useEffect(() => {
+    if (!activeCategory) return;
+    if (!disabledCategories.has(activeCategory)) return;
+    setActiveCategory(null);
+    setSelectedUnitId(null);
+    setOptionSelections({});
+    setUnitSize(1);
+    setEditingEntryId(null);
+    optionPrefillEntryRef.current = null;
+    unitSizePrefillEntryRef.current = null;
+  }, [activeCategory, disabledCategories]);
+
+  React.useEffect(() => {
+    if (disabledCategories.size === 0) return;
+    const toRemove = rosterEntries.filter((entry) => disabledCategories.has(entry.category));
+    if (toRemove.length === 0) return;
+    toRemove.forEach((entry) => dispatch(removeEntry(entry.id)));
+  }, [dispatch, disabledCategories, rosterEntries]);
 
   React.useEffect(() => {
     if (!activeCategory) return;
@@ -385,10 +436,10 @@ export function useCategoryBucketsState({
 
   return {
     isRosterReady,
-    sections,
+    sections: visibleSections,
     totalSpent,
     pointsLimit,
-    entriesByCategory,
+    entriesByCategory: visibleEntriesByCategory,
     activeCategory,
     onToggleCategory: handleToggleCategory,
     onEditEntry: handleStartEditingEntry,
