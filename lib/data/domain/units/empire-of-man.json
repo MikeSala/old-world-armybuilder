@@ -9278,6 +9278,577 @@
         "name_es": "",
         "name_pl": "0-1 jednostka of Imperial Ogry może be taken jako Mercenaries"
       }
+    },
+    {
+      "name_en": "Badlands Ogre Bulls",
+      "name_cn": "恶地食人魔蛮牛战士",
+      "name_de": "Düsterlande-Ogerbullen",
+      "name_es": "Badlands Ogre Bulls",
+      "name_fr": "Buffles Ogres des Terres Arides",
+      "name_it": "Badlands Ogre Bulls",
+      "name_pl": "Badlands Ogr Bulls",
+      "id": "badland-ogre-bulls",
+      "army": "orc-and-goblin-tribes",
+      "points": 31,
+      "minimum": 3,
+      "maximum": 0,
+      "command": [
+        {
+          "name_en": "Crusher (champion)",
+          "name_cn": "碾压者(冠军)",
+          "name_de": "Quetscher (Champion)",
+          "name_es": "Crusher (champion)",
+          "name_fr": "Broyeur (champion)",
+          "name_it": "Crusher (champion)",
+          "name_pl": "Crusher (czempion)",
+          "points": 7
+        },
+        {
+          "name_en": "Standard bearer",
+          "name_cn": "旗手",
+          "name_de": "Standartenträger",
+          "name_es": "Standard bearer",
+          "name_fr": "Porte-étendard",
+          "name_it": "Standard bearer",
+          "name_pl": "Sztandarowy",
+          "points": 6,
+          "magic": {
+            "types": [
+              "banner"
+            ],
+            "maxPoints": 50
+          }
+        },
+        {
+          "name_en": "Bellower (musician)",
+          "name_cn": "大嗓门(乐手)",
+          "name_de": "Brüller (Musiker)",
+          "name_es": "Bellower (musician)",
+          "name_fr": "Beugleur (musicien)",
+          "name_it": "Bellower (musician)",
+          "name_pl": "Bellower (muzyk)",
+          "points": 6
+        }
+      ],
+      "equipment": [
+        {
+          "name_en": "Hand weapons",
+          "name_cn": "单手武器",
+          "name_de": "Handwaffen",
+          "name_es": "Hand weapons",
+          "name_fr": "Armes de base",
+          "name_it": "Hand weapons",
+          "name_pl": "Broń Ręczna",
+          "points": 0,
+          "perModel": true,
+          "active": true
+        }
+      ],
+      "armor": [
+        {
+          "name_en": "Light armour",
+          "name_cn": "轻甲",
+          "name_de": "Leichte Rüstung",
+          "name_es": "Light armour",
+          "name_fr": "Armure légère",
+          "name_it": "Light armour",
+          "name_pl": "Lekka Zbroja",
+          "points": 0,
+          "perModel": true,
+          "active": true
+        },
+        {
+          "name_en": "Heavy armour",
+          "name_cn": "重甲",
+          "name_de": "Schwere Rüstung",
+          "name_es": "Heavy armour",
+          "name_fr": "Armure lourde",
+          "name_it": "Heavy armour",
+          "name_pl": "Ciężka Zbroja",
+          "points": 4,
+          "perModel": true,
+          "active": false
+        }
+      ],
+      "options": [
+        {
+          "name_en": "Additional hand weapons",
+          "name_cn": "额外单手武器",
+          "name_de": "Zusätzliche Handwaffen",
+          "name_es": "Additional hand weapons",
+          "name_fr": "Armes de base additionnelles",
+          "name_it": "Additional hand weapons",
+          "name_pl": "Dodatkowa Broń Ręczna",
+          "points": 3,
+          "perModel": true,
+          "stackable": true
+        },
+        {
+          "name_en": "Great weapons",
+          "name_cn": "重型武器",
+          "name_de": "Zweihandwaffen",
+          "name_es": "Great weapons",
+          "name_fr": "Armes lourdes",
+          "name_it": "Great weapons",
+          "name_pl": "Broń Wielka",
+          "points": 4,
+          "perModel": true,
+          "stackable": true
+        },
+        {
+          "name_en": "Ironfists",
+          "name_cn": "铁拳套",
+          "name_de": "Eisenfäuste",
+          "name_es": "Ironfists",
+          "name_fr": "Poings d'Acier",
+          "name_it": "Ironfists",
+          "name_pl": "Żelazne Pięści",
+          "points": 4,
+          "perModel": true,
+          "stackable": true
+        }
+      ],
+      "mounts": [],
+      "items": [],
+      "lores": [],
+      "specialRules": {
+        "name_en": "Armour Bane (1), Close Order, Fear, Impact Hits (1), Mercenaries, Motley Crew, Ogre Charge",
+        "name_cn": "碎甲攻击(1), 紧密阵型, 恐惧, 撞击(1), 佣兵, 散兵游勇, 食人魔冲锋",
+        "name_de": "Rüstungsfluch (1), Geschlossen Ränge, Angst, Aufpralltreffer (1), Söldner, Zusammengewürfelter Haufen, Ogerangriff",
+        "name_es": "Armour Bane (1), Close Order, Fear, Impact Hits (1), Mercenaries, Motley Crew, Ogre Charge",
+        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Touches d'Impact (1), Mercenaires, Bande Hétéroclite, Charge Ogre",
+        "name_it": "Armour Bane (1), Close Order, Fear, Impact Hits (1), Mercenaries, Motley Crew, Ogre Charge",
+        "name_pl": "Przebicie Zbroi (1), Zwarty Szyk, Strach, Uderzenia Impetu (1), Mercenaries, Zbieranina, Ogr Charge"
+      }
+    },
+    {
+      "name_de": "Dammaz Drengi",
+      "name_en": "Doomseeker",
+      "name_cn": "末日追寻者",
+      "name_fr": "Cherche-mort",
+      "name_pl": "Poszukiwacz Zguby",
+      "id": "doomseeker-merc",
+      "army": "dwarfen-mountain-holds",
+      "points": 50,
+      "command": [],
+      "equipment": [
+        {
+          "name_de": "Handwaffe",
+          "name_en": "Hand weapon",
+          "name_cn": "单手武器",
+          "name_fr": "Arme de base",
+          "name_pl": "Broń Ręczna",
+          "points": 0,
+          "active": true,
+          "notes": {
+            "name_de": "Wirbelnde Klingen des Todes",
+            "name_en": "Whirling blades of death",
+            "name_cn": "死亡回旋刃",
+            "name_fr": "Lames de mort tourbillonnantes",
+            "name_pl": "Wirujące ostrza śmierci"
+          }
+        }
+      ],
+      "armor": [],
+      "options": [],
+      "mounts": [],
+      "items": [
+        {
+          "name_en": "Weapon Runes",
+          "name_cn": "武器符文",
+          "name_it": "Armi Runiche",
+          "name_de": "Waffenrunen",
+          "name_fr": "Runes d'Arme",
+          "name_pl": "Broń Runes",
+          "types": [
+            "weapon-runes"
+          ],
+          "selected": [],
+          "maxPoints": 50,
+          "armyComposition": {
+            "royal-clan": {
+              "maxPoints": 75
+            }
+          }
+        },
+        {
+          "name_de": "Runentätowierungen",
+          "name_en": "Runic Tattoos",
+          "name_cn": "符文纹身",
+          "name_fr": "Tatouages Runiques",
+          "name_pl": "Runiczne tatuaże",
+          "types": [
+            "runic-tattoos"
+          ],
+          "selected": [],
+          "maxPoints": 0,
+          "notes": {
+            "name_en": "Maximum 3",
+            "name_cn": "最多3个",
+            "name_fr": "Maximum 3",
+            "name_pl": "Maksymalnie 3"
+          }
+        }
+      ],
+      "specialRules": {
+        "name_de": "Letzter Hieb, Dammaz Drengi, Erster im Getümmel, Gromrilwaffen, Hass (Orks & Goblins), Immun gegen Psychologie, Aufpralltreffer (W3+1), Einzelgänger, Magieresistenz (-2), Zufällige Attacken, Resolut, Unerschütterlich, Vorhut, Wirbelwind des Todes",
+        "name_en": "Deathblow, Doomseeker {dwarfs}, First to the Fray, Gromril Weapons, Hatred (Orcs & Goblins), Immune to Psychology, Impact Hits (D3+1), Loner, Magic Resistance (-2), Random Attacks, Resolute, Unbreakable, Vanguard, Whirlwind of Death",
+        "name_cn": "死亡反击, 末日追寻者（矮人）, 先遣先锋, 陨铁武器, 仇恨(兽人 & 地精), 心理免疫, 撞击(D3+1), 独行, 魔法抗性(-2), 随机攻击, 坚决, 永不战败, 先锋, 死亡旋风",
+        "name_fr": "Ultime Attaque, Cherche-mort, Premier au Combat, Armes en Gromril, Haine (Orques & Gobelins), Immunisé à la Psychologie, Touches d'Impact (D3+1), Solitaire, Résistance à la Magie (-2), Attaques Aléatoires, Résolu, Indémoralisable, Avant-garde, Tourbillon de Mort",
+        "name_pl": "Deathblow, Doomseeker {dwarfs}, First do the Fray, Gromril Broń, Nienawiść (Orki & Gobliny), Odporność Na Psychologię, Uderzenia Impetu (D3+1), Samotnik, Odporność Na Magię (-2), Random Attacks, Resolute, Niezłomni, Awangarda, Whirlwind of Death"
+      },
+      "notes": {
+        "name_de": "0-3 Dammaz Drengi pro Armee",
+        "name_en": "0-3 Doomseeker per army",
+        "name_cn": "每军0-3名末日追寻者",
+        "name_fr": "0-3 Cherche-mort par armée",
+        "name_pl": "0-3 Doomseeker na armia"
+      },
+      "armyComposition": {
+        "dwarfen-mountain-holds": {
+          "category": "mercenaries"
+        },
+        "royal-clan": {
+          "category": "mercenaries",
+          "notes": {
+            "name_de": "0-4 Dammaz Drengi pro Armee",
+            "name_en": "0-4 Doomseeker per army",
+            "name_cn": "每军0-4名末日追寻者",
+            "name_fr": "0-4 Cherche-mort par armée",
+            "name_pl": "0-4 Doomseeker na armia"
+          }
+        },
+        "expeditionary-force": {
+          "category": "mercenaries",
+          "notes": {
+            "name_de": "0-2 Dammaz Drengi pro 1000 Punkte",
+            "name_en": "0-2 Doomseeker per 1000 points",
+            "name_cn": "每1000分0-2 Doomseeker",
+            "name_fr": "0-2 Cherche-mort par tranche de 1000 points",
+            "name_pl": "0-2 Doomseeker na 1000 punktów"
+          }
+        }
+      }
+    },
+    {
+      "name_de": "Imperiale Zwergensöldner",
+      "name_en": "Imperial Dwarf Mercenaries",
+      "name_cn": "帝国矮人佣兵",
+      "name_fr": "Mercenaires Nains Impériaux",
+      "name_pl": "Imperial Krasnolud Mercenaries",
+      "id": "imperial-dwarf-mercenaries",
+      "army": "dwarfen-mountain-holds",
+      "points": 8,
+      "minimum": 5,
+      "maximum": 0,
+      "notes": {
+        "name_en": "0-1 unit of Imperial Dwarf Mercenaries per 1000 points may purchase Standard runes",
+        "name_cn": "0-1个单位的Imperial Dwarf Mercenaries per 1000 points may purchase Standard runes",
+        "name_it": "0-1 unità ogni 1000 punti può avere rune di stendardo per 50 punti",
+        "name_de": "0-1 Einheit Imperiale Zwergensöldner pro 1000 Punkte kann Standartenrunen erwerben",
+        "name_fr": "0-1 unité de Mercenaires Nains Impériaux par tranche de 1000 points peut acheter des runes de Bannière",
+        "name_pl": "0-1 jednostka of Imperial Krasnolud Mercenaries na 1000 punktów może purchase Standard runes"
+      },
+      "command": [
+        {
+          "name_en": "Veteran (champion)",
+          "name_cn": "老兵(冠军)",
+          "name_it": "Veteranio (campione)",
+          "name_de": "Veteran (Champion)",
+          "name_fr": "Vétéran (champion)",
+          "name_pl": "Veteran (czempion)",
+          "points": 5,
+          "magic": {
+            "types": [
+              "weapon-runes"
+            ],
+            "maxPoints": 25
+          }
+        },
+        {
+          "name_en": "Standard bearer",
+          "name_cn": "旗手",
+          "name_it": "Alfiere",
+          "name_de": "Standartenträger",
+          "name_fr": "Porte-étendard",
+          "name_pl": "Sztandarowy",
+          "points": 5,
+          "magic": {
+            "types": [
+              "banner-runes"
+            ],
+            "maxPoints": 50,
+            "armyComposition": {
+              "royal-clan": {
+                "maxPoints": 75
+              }
+            }
+          }
+        },
+        {
+          "name_en": "Musician",
+          "name_cn": "乐手",
+          "name_it": "Musico",
+          "name_de": "Musiker",
+          "name_fr": "Musicien",
+          "name_pl": "Muzyk",
+          "points": 5
+        }
+      ],
+      "equipment": [
+        {
+          "name_en": "Hand weapons",
+          "name_cn": "单手武器",
+          "name_it": "Armi Bianche",
+          "name_de": "Handwaffen",
+          "name_fr": "Armes de base",
+          "name_pl": "Broń Ręczna",
+          "points": 0,
+          "perModel": true,
+          "active": true,
+          "defaultSelected": true
+        },
+        {
+          "name_en": "Great weapons",
+          "name_cn": "重型武器",
+          "name_it": "Grandi Armi",
+          "name_de": "Zweihandwaffen",
+          "name_fr": "Armes lourdes",
+          "name_pl": "Broń Wielka",
+          "points": 2,
+          "perModel": true
+        },
+        {
+          "name_de": "Stoßspeere",
+          "name_en": "Thrusting spears",
+          "name_cn": "刺矛",
+          "name_fr": "Lances d'infanterie",
+          "name_pl": "Włócznie pchające",
+          "points": 1,
+          "perModel": true
+        },
+        {
+          "name_de": "Armbrüste",
+          "name_en": "Crossbows",
+          "name_cn": "十字弩",
+          "name_fr": "Arbalètes",
+          "name_pl": "Kusze",
+          "points": 2,
+          "perModel": true
+        },
+        {
+          "name_de": "Musketen",
+          "name_en": "Handguns",
+          "name_cn": "火枪",
+          "name_fr": "Arquebuses",
+          "name_pl": "Muszkiety",
+          "points": 3,
+          "perModel": true
+        }
+      ],
+      "armor": [
+        {
+          "name_de": "Leichte Rüstung",
+          "name_en": "Light armour",
+          "name_cn": "轻甲",
+          "name_fr": "Armure légère",
+          "name_pl": "Lekka Zbroja",
+          "points": 0,
+          "perModel": true,
+          "active": true
+        },
+        {
+          "name_en": "Heavy armour",
+          "name_cn": "重甲",
+          "name_it": "Armatura Pesante",
+          "name_de": "Schwere Rüstung",
+          "name_fr": "Armure lourde",
+          "name_pl": "Ciężka Zbroja",
+          "points": 1,
+          "perModel": true
+        }
+      ],
+      "options": [
+        {
+          "name_en": "Shields",
+          "name_cn": "盾牌",
+          "name_it": "Scudi",
+          "name_de": "Schilde",
+          "name_fr": "Boucliers",
+          "name_pl": "Tarcze",
+          "points": 1,
+          "perModel": true
+        },
+        {
+          "name_en": "Drilled",
+          "name_cn": "受训",
+          "name_it": "Addestrati",
+          "name_de": "Gut ausgebildet",
+          "name_fr": "Bien Entraînés",
+          "name_pl": "Wyćwiczeni",
+          "points": 1,
+          "perModel": true,
+          "notes": {
+            "name_de": "0-1 Einheit pro 1000 Punkte",
+            "name_en": "0-1 unit per 1000 points",
+            "name_cn": "每1000分0-1单位",
+            "name_fr": "0-1 unité par tranche de 1000 points",
+            "name_it": "0-1 unità ogni 1000p.ti",
+            "name_pl": "0-1 jednostka na 1000 punktów"
+          }
+        },
+        {
+          "name_en": "Veteran",
+          "name_cn": "老兵",
+          "name_it": "Veterani",
+          "name_de": "Veteranen",
+          "name_fr": "Vétérans",
+          "name_pl": "Weteran",
+          "points": 1,
+          "perModel": true,
+          "notes": {
+            "name_de": "0-1 Einheit pro 1000 Punkte",
+            "name_en": "0-1 unit per 1000 points",
+            "name_cn": "每1000分0-1单位",
+            "name_fr": "0-1 unité par tranche de 1000 points",
+            "name_it": "0-1 unità ogni 1000p.ti",
+            "name_pl": "0-1 jednostka na 1000 punktów"
+          }
+        }
+      ],
+      "mounts": [],
+      "specialRules": {
+        "name_en": "Close Order, Hatred (Orcs & Goblins), Magic Resistance (-1), Resolute, Shieldwall",
+        "name_cn": "紧密阵型, 仇恨(兽人 & 地精), 魔法抗性(-1), 坚决, 盾墙",
+        "name_it": "Formazione Serrata, Odio (Orchi & Goblin), Resistenza alla Magia (-1), Risoluti, Muro di Scudi",
+        "name_de": "Geschlossene Ränge, Hass (Orks & Goblins), Magieresistenz (-1), Resolut, Schildwall",
+        "name_es": "Close Order, Hatred (Orcs & Goblins), Magic Resistance (-1), Resolute, Shieldwall",
+        "name_fr": "Ordre Serré, Haine (Orques & Gobelins), Résistance à la Magie (-1), Résolu, Mur de Boucliers",
+        "name_pl": "Zwarty Szyk, Nienawiść (Orki & Gobliny), Odporność Na Magię (-1), Resolute, Shieldwall"
+      }
+    },
+    {
+      "name_en": "Prince Ulther's Dragon Company",
+      "name_cn": "乌瑟王子龙骑兵团",
+      "name_de": "Prinz Ulthers Drachenkompanie",
+      "name_es": "Prince Ulther's Dragon Company",
+      "name_fr": "Compagnie Dragon du Prince Ulther",
+      "name_it": "Prince Ulther's Dragon Company",
+      "name_pl": "Książę Ulther's Smok Company",
+      "id": "prince-ulther's-dragon-company",
+      "points": 115,
+      "command": [
+        {
+          "name_en": "Prince Ulther",
+          "name_cn": "乌瑟王子",
+          "name_de": "Prinz Ulther",
+          "name_es": "Prince Ulther",
+          "name_fr": "Prince Ulther",
+          "name_it": "Prince Ulther",
+          "name_pl": "Książę Ulther",
+          "points": 0,
+          "active": true,
+          "alwaysActive": true
+        },
+        {
+          "name_en": "Borri Forkbeard (champion)",
+          "name_cn": "博伊 分髯(冠军)",
+          "name_de": "Borri Gabelbart (Champion)",
+          "name_es": "Borri Forkbeard (champion)",
+          "name_fr": "Borri Forkbeard (champion)",
+          "name_it": "Borri Forkbeard (champion)",
+          "name_pl": "Borri Forkbeard (czempion)",
+          "points": 0,
+          "active": true,
+          "alwaysActive": true
+        },
+        {
+          "name_en": "Standard bearer",
+          "name_cn": "旗手",
+          "name_de": "Standartenträger",
+          "name_es": "Standard bearer",
+          "name_fr": "Porte-étendard",
+          "name_it": "Standard bearer",
+          "name_pl": "Sztandarowy",
+          "points": 0,
+          "active": true,
+          "alwaysActive": true
+        },
+        {
+          "name_en": "Musician",
+          "name_cn": "乐手",
+          "name_de": "Musiker",
+          "name_es": "Musician",
+          "name_fr": "Musicien",
+          "name_it": "Musician",
+          "name_pl": "Muzyk",
+          "points": 0,
+          "active": true,
+          "alwaysActive": true
+        }
+      ],
+      "equipment": [
+        {
+          "name_en": "Hand weapons, Brace of pistols, Dragonblade (Prince Ulther), Great weapon (Borri Forkbeard)",
+          "name_cn": "单手武器, 成对手枪, Dragonblade(乌瑟王子), 重型武器(博伊 分髯)",
+          "name_de": "Handwaffen, Pistolenpaar, Drachenklinge (Prinz Ulther), Great weapon (Borri Forkbeard)",
+          "name_es": "Hand weapons, Brace of pistols, Dragonblade (Prince Ulther), Great weapon (Borri Forkbeard)",
+          "name_fr": "Armes de base, Plusieurs pistolets, Lame Dragon (Prince Ulther), Arme lourde (Borri Forkbeard)",
+          "name_it": "Hand weapons, Brace of pistols, Dragonblade (Prince Ulther), Great weapon (Borri Forkbeard)",
+          "name_pl": "Hand weapons, Brace pistols, Dragonblade (Prince Ulther), Great weapon (Borri Forkbeard)",
+          "points": 0,
+          "perModel": true,
+          "active": true
+        }
+      ],
+      "armor": [
+        {
+          "name_en": "Light armour, Shields",
+          "name_cn": "轻甲, 盾牌",
+          "name_de": "Leichte Rüstung, Schilde",
+          "name_es": "Light armour, Shields",
+          "name_fr": "Armure légère, Boucliers",
+          "name_it": "Light armour, Shields",
+          "name_pl": "Lekka Zbroja, Shields",
+          "points": 0,
+          "perModel": true,
+          "active": true
+        }
+      ],
+      "options": [
+        {
+          "name_en": "Additional Dragon Company Troopers",
+          "name_cn": "龙骑兵团增援士兵",
+          "name_de": "Additional Dragon Company Troopers",
+          "name_es": "Additional Dragon Company Troopers",
+          "name_fr": "Soldats de la Compagnie Dragon additionnels",
+          "name_it": "Additional Dragon Company Troopers",
+          "name_pl": "Additional Smok Company Troopers",
+          "points": 14,
+          "stackable": true
+        }
+      ],
+      "mounts": [],
+      "items": [],
+      "lores": [],
+      "specialRules": {
+        "name_en": "Close Order, Drilled, Gromril Weapons, Hatred (Orcs & Goblins), Magic Resistance (-1), Resolute, Stubborn",
+        "name_cn": "紧密阵型, 受训, 陨铁武器, 仇恨(兽人 & 地精), 魔法抗性(-1), 坚决, 坚毅",
+        "name_de": "Geschlossene Ränge, Gut ausgebildet, Gromrilwaffen, Hass (Orks und Goblins), Magieresistenz (-1), Resolut, Unnachgiebig",
+        "name_es": "Close Order, Drilled, Gromril Weapons, Hatred (Orcs & Goblins), Magic Resistance (-1), Resolute, Stubborn",
+        "name_fr": "Ordre Serré, Bien Entraînés, Armes en Gromril, Haine (Orques & Gobelins), Résistance à la Magie (-1), Résolu, Obstiné",
+        "name_it": "Close Order, Drilled, Gromril Weapons, Hatred (Orcs & Goblins), Magic Resistance (-1), Resolute, Stubborn",
+        "name_pl": "Zwarty Szyk, Drilled, Gromril Broń, Nienawiść (Orki & Gobliny), Odporność Na Magię (-1), Resolute, Nieugięty"
+      },
+      "notes": {
+        "name_en": "Must include Command Group and Prince Ulther",
+        "name_cn": "必须包含指挥组和乌瑟王子",
+        "name_de": "Muss die Kommandoabteilung und Prinz Ulther enthalten",
+        "name_es": "Must include Command Group and Prince Ulther",
+        "name_fr": "Doit inclure l'État-Major et Prince Ulther",
+        "name_it": "Must include Command Group and Prince Ulther",
+        "name_pl": "Musi zawiera Dowództwo Group i Książę Ulther"
+      }
     }
   ],
   "allies": []

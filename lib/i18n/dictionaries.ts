@@ -198,10 +198,21 @@ export type LocaleDictionary = {
   footerReportBugCancel: string;
   footerReportBugValidation: string;
   footerReportBugSubject: string;
+  shareRosterButton: string;
+  shareRosterLoading: string;
+  shareRosterCopied: string;
+  shareRosterError: string;
+  sharedRosterTitle: string;
+  sharedRosterNotFound: string;
+  sharedRosterError: string;
+  copyToEditor: string;
+  backToHome: string;
+  loading: string;
+  sharedAt: string;
 };
 
 export const locales = ["pl", "en", "de", "fr", "es"] as const;
-export const defaultLocale = "pl";
+export const defaultLocale = "en";
 
 export type Locale = (typeof locales)[number];
 
@@ -434,6 +445,17 @@ const dictionaries = {
     footerReportBugCancel: "Anuluj",
     footerReportBugValidation: "Dodaj krótki opis błędu.",
     footerReportBugSubject: "Zgłoszenie błędu — Old-World Armybuilder",
+    shareRosterButton: "Udostępnij",
+    shareRosterLoading: "Tworzę link...",
+    shareRosterCopied: "Link skopiowany!",
+    shareRosterError: "Nie udało się udostępnić",
+    sharedRosterTitle: "Udostępniona rozpiska",
+    sharedRosterNotFound: "Nie znaleziono rozpiski",
+    sharedRosterError: "Nie udało się załadować rozpiski",
+    copyToEditor: "Skopiuj do edytora",
+    backToHome: "Wróć na stronę główną",
+    loading: "Ładowanie...",
+    sharedAt: "Udostępniono",
   },
   en: {
     heroTitle: "Warhammer Army Builder",
@@ -657,6 +679,17 @@ const dictionaries = {
     footerReportBugCancel: "Cancel",
     footerReportBugValidation: "Please add a short bug description.",
     footerReportBugSubject: "Bug report — Old-World Armybuilder",
+    shareRosterButton: "Share",
+    shareRosterLoading: "Creating link...",
+    shareRosterCopied: "Link copied!",
+    shareRosterError: "Failed to share",
+    sharedRosterTitle: "Shared roster",
+    sharedRosterNotFound: "Roster not found",
+    sharedRosterError: "Failed to load roster",
+    copyToEditor: "Copy to editor",
+    backToHome: "Back to home",
+    loading: "Loading...",
+    sharedAt: "Shared",
   },
   de: {
     heroTitle: "Warhammer Armee-Builder",
@@ -881,6 +914,17 @@ const dictionaries = {
     footerReportBugCancel: "Abbrechen",
     footerReportBugValidation: "Bitte füge eine kurze Fehlerbeschreibung hinzu.",
     footerReportBugSubject: "Fehlermeldung — Old-World Armybuilder",
+    shareRosterButton: "Teilen",
+    shareRosterLoading: "Link wird erstellt...",
+    shareRosterCopied: "Link kopiert!",
+    shareRosterError: "Teilen fehlgeschlagen",
+    sharedRosterTitle: "Geteilte Liste",
+    sharedRosterNotFound: "Liste nicht gefunden",
+    sharedRosterError: "Liste konnte nicht geladen werden",
+    copyToEditor: "In Editor kopieren",
+    backToHome: "Zurück zur Startseite",
+    loading: "Laden...",
+    sharedAt: "Geteilt am",
   },
   fr: {
     heroTitle: "Constructeur d'armée Warhammer",
@@ -1106,6 +1150,17 @@ const dictionaries = {
     footerReportBugCancel: "Annuler",
     footerReportBugValidation: "Ajoutez une courte description du bug.",
     footerReportBugSubject: "Signalement de bug — Old-World Armybuilder",
+    shareRosterButton: "Partager",
+    shareRosterLoading: "Création du lien...",
+    shareRosterCopied: "Lien copié !",
+    shareRosterError: "Échec du partage",
+    sharedRosterTitle: "Liste partagée",
+    sharedRosterNotFound: "Liste non trouvée",
+    sharedRosterError: "Impossible de charger la liste",
+    copyToEditor: "Copier dans l'éditeur",
+    backToHome: "Retour à l'accueil",
+    loading: "Chargement...",
+    sharedAt: "Partagé le",
   },
   es: {
     heroTitle: "Constructor de ejércitos Warhammer",
@@ -1330,6 +1385,17 @@ const dictionaries = {
     footerReportBugCancel: "Cancelar",
     footerReportBugValidation: "Añade una breve descripción del error.",
     footerReportBugSubject: "Reporte de error — Old-World Armybuilder",
+    shareRosterButton: "Compartir",
+    shareRosterLoading: "Creando enlace...",
+    shareRosterCopied: "¡Enlace copiado!",
+    shareRosterError: "Error al compartir",
+    sharedRosterTitle: "Lista compartida",
+    sharedRosterNotFound: "Lista no encontrada",
+    sharedRosterError: "No se pudo cargar la lista",
+    copyToEditor: "Copiar al editor",
+    backToHome: "Volver al inicio",
+    loading: "Cargando...",
+    sharedAt: "Compartido",
   },
 } satisfies Record<Locale, LocaleDictionary>;
 

@@ -10,6 +10,7 @@ import highElfRealms from "./high-elfs-realms-stats.json";
 import lizardmen from "./lizardmen-stats.json";
 import ogreKingdoms from "./ogre-kingdoms-stats.json";
 import orcAndGoblins from "./orc-and-goblins-tribe-stats.json";
+import renegadeKingdoms from "./renegade-kingdoms-stats.json";
 import skaven from "./skaven-stats.json";
 import tombKings from "./tomb-kings-of-khemri-stats.json";
 import vampireCounts from "./vampire-counts-stats.json";
@@ -235,6 +236,8 @@ const RAW_STATS_BY_ARMY: RawStatsByArmy = {
   lizardmen,
   "ogre-kingdoms": ogreKingdoms,
   "orc-and-goblin-tribes": orcAndGoblins,
+  "renegade-crowns": renegadeKingdoms,
+  "renegade-kingdoms": renegadeKingdoms,
   skaven,
   "tomb-kings-of-khemri": tombKings,
   "vampire-counts": vampireCounts,

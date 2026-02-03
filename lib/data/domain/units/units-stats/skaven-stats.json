@@ -2550,5 +2550,115 @@
       "Bianca Team Leadership",
       "Targeting Bianca Teams"
     ]
+  },
+  {
+    "name": "Badlands Ogre Bulls",
+    "name_pl": "Badlands Ogr Bulls",
+    "unitCategory": "Infantry",
+    "troopType": "Monstrous Infantry",
+    "baseSize": "40 x 40 mm",
+    "unitSize": "3+",
+    "armourValue": null,
+    "profiles": [
+      {
+        "variant": "Ogre",
+        "M": 6,
+        "WS": 3,
+        "BS": 2,
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": 2,
+        "A": 3,
+        "Ld": 7
+      },
+      {
+        "variant": "Crusher",
+        "M": 6,
+        "WS": 3,
+        "BS": 2,
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": 2,
+        "A": 4,
+        "Ld": 7
+      }
+    ],
+    "equipment": [
+      "Hand weapons",
+      "Light armour"
+    ],
+    "specialRules": [
+      "Armour Bane (1)",
+      "Close Order",
+      "Fear",
+      "Impact Hits (1)",
+      "Mercenaries",
+      "Motley Crew",
+      "Ogre Charge"
+    ],
+    "unitCategory_pl": "Piechota",
+    "troopType_pl": "Monstrualna Piechota",
+    "equipment_pl": [
+      "Broń Ręczna",
+      "Lekka Zbroja"
+    ],
+    "specialRules_pl": [
+      "Przebicie Zbroi (1)",
+      "Zwarty Szyk",
+      "Strach",
+      "Uderzenia Impetu (1)",
+      "Mercenaries",
+      "Zbieranina",
+      "Ogr Charge"
+    ],
+    "unitCategory_de": "Infanterie",
+    "troopType_de": "Monströse Infanterie",
+    "equipment_de": [
+      "Handwaffen",
+      "Leichte Rüstung"
+    ],
+    "specialRules_de": [
+      "Rüstungsfluch (1)",
+      "Geschlossene Ränge",
+      "Angst",
+      "Aufpralltreffer (1)",
+      "Söldner",
+      "Zusammengewürfelter Haufen",
+      "Ogerangriff"
+    ],
+    "name_de": "Düsterlande-Ogerbullen",
+    "name_fr": "Buffles Ogres des Terres Arides",
+    "unitCategory_fr": "Infanterie",
+    "troopType_fr": "Infanterie Monstrueuse",
+    "equipment_fr": [
+      "Armes de base",
+      "Armure légère"
+    ],
+    "specialRules_fr": [
+      "Arme Perforante (1)",
+      "Ordre Serré",
+      "Peur",
+      "Touches d'Impact (1)",
+      "Mercenaires",
+      "Bande Hétéroclite",
+      "Charge Ogre"
+    ],
+    "unitCategory_it": "Fanteria",
+    "troopType_it": "Fanteria Mostruosa",
+    "equipment_it": [
+      "Armi Bianche",
+      "Armatura Leggera"
+    ],
+    "specialRules_it": [
+      "Rottura dell’Armatura (1)",
+      "Formazione Serrata",
+      "Paura",
+      "Colpi da Impatto (1)",
+      "Può",
+      "Equipaggiamento Eterogeneo",
+      "Ogre Carica"
+    ]
   }
 ]

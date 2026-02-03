@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 
 import { CHANGELOG_SLUG, getChangelogEntries } from "@/lib/data/changelog";
-import { getDictionary, locales, defaultLocale, type Locale } from "@/lib/i18n/dictionaries";
+import { getDictionary, locales, isLocale, type Locale } from "@/lib/i18n/dictionaries";
+import { buildLocaleUrlWithPrefix } from "@/lib/i18n/paths";
 
 type PageProps = {
   params: Promise<{
@@ -11,24 +13,30 @@ type PageProps = {
 
 const SITE_URL = "https://army-builder.com";
 
-const changelogAlternates = locales.reduce<Record<Locale, string>>(
-  (acc, locale) => {
-    acc[locale] = `${SITE_URL}/${locale}/${CHANGELOG_SLUG}/`;
-    return acc;
-  },
-  {} as Record<Locale, string>
+const changelogUrl = buildLocaleUrlWithPrefix(
+  SITE_URL,
+  "en" as Locale,
+  `/${CHANGELOG_SLUG}/`
 );
 
+const changelogAlternates = locales.reduce<Record<Locale, string>>((acc, locale) => {
+  acc[locale] = changelogUrl;
+  return acc;
+}, {} as Record<Locale, string>);
+
 export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
+  return [{ locale: "en" }];
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale: localeParam } = await params;
   const locale =
-    typeof localeParam === "string" && locales.includes(localeParam as Locale)
+    typeof localeParam === "string" && isLocale(localeParam)
       ? (localeParam as Locale)
-      : defaultLocale;
+      : null;
+  if (locale !== "en") {
+    notFound();
+  }
   const dictionary = getDictionary(locale);
   return {
     title: dictionary.changelogTitle,
@@ -43,9 +51,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function ChangelogPage({ params }: PageProps) {
   const { locale: localeParam } = await params;
   const locale =
-    typeof localeParam === "string" && locales.includes(localeParam as Locale)
+    typeof localeParam === "string" && isLocale(localeParam)
       ? (localeParam as Locale)
-      : defaultLocale;
+      : null;
+  if (locale !== "en") {
+    notFound();
+  }
   const dictionary = getDictionary(locale);
   const entries = getChangelogEntries(locale);
 

@@ -2326,6 +2326,149 @@
       }
     }
   ],
-  "mercenaries": [],
+  "mercenaries": [
+    {
+      "name_en": "Badlands Ogre Bulls",
+      "name_cn": "恶地食人魔蛮牛战士",
+      "name_de": "Düsterlande-Ogerbullen",
+      "name_es": "Badlands Ogre Bulls",
+      "name_fr": "Buffles Ogres des Terres Arides",
+      "name_it": "Badlands Ogre Bulls",
+      "name_pl": "Badlands Ogr Bulls",
+      "id": "badland-ogre-bulls",
+      "army": "orc-and-goblin-tribes",
+      "points": 31,
+      "minimum": 3,
+      "maximum": 0,
+      "command": [
+        {
+          "name_en": "Crusher (champion)",
+          "name_cn": "碾压者(冠军)",
+          "name_de": "Quetscher (Champion)",
+          "name_es": "Crusher (champion)",
+          "name_fr": "Broyeur (champion)",
+          "name_it": "Crusher (champion)",
+          "name_pl": "Crusher (czempion)",
+          "points": 7
+        },
+        {
+          "name_en": "Standard bearer",
+          "name_cn": "旗手",
+          "name_de": "Standartenträger",
+          "name_es": "Standard bearer",
+          "name_fr": "Porte-étendard",
+          "name_it": "Standard bearer",
+          "name_pl": "Sztandarowy",
+          "points": 6,
+          "magic": {
+            "types": [
+              "banner"
+            ],
+            "maxPoints": 50
+          }
+        },
+        {
+          "name_en": "Bellower (musician)",
+          "name_cn": "大嗓门(乐手)",
+          "name_de": "Brüller (Musiker)",
+          "name_es": "Bellower (musician)",
+          "name_fr": "Beugleur (musicien)",
+          "name_it": "Bellower (musician)",
+          "name_pl": "Bellower (muzyk)",
+          "points": 6
+        }
+      ],
+      "equipment": [
+        {
+          "name_en": "Hand weapons",
+          "name_cn": "单手武器",
+          "name_de": "Handwaffen",
+          "name_es": "Hand weapons",
+          "name_fr": "Armes de base",
+          "name_it": "Hand weapons",
+          "name_pl": "Broń Ręczna",
+          "points": 0,
+          "perModel": true,
+          "active": true
+        }
+      ],
+      "armor": [
+        {
+          "name_en": "Light armour",
+          "name_cn": "轻甲",
+          "name_de": "Leichte Rüstung",
+          "name_es": "Light armour",
+          "name_fr": "Armure légère",
+          "name_it": "Light armour",
+          "name_pl": "Lekka Zbroja",
+          "points": 0,
+          "perModel": true,
+          "active": true
+        },
+        {
+          "name_en": "Heavy armour",
+          "name_cn": "重甲",
+          "name_de": "Schwere Rüstung",
+          "name_es": "Heavy armour",
+          "name_fr": "Armure lourde",
+          "name_it": "Heavy armour",
+          "name_pl": "Ciężka Zbroja",
+          "points": 4,
+          "perModel": true,
+          "active": false
+        }
+      ],
+      "options": [
+        {
+          "name_en": "Additional hand weapons",
+          "name_cn": "额外单手武器",
+          "name_de": "Zusätzliche Handwaffen",
+          "name_es": "Additional hand weapons",
+          "name_fr": "Armes de base additionnelles",
+          "name_it": "Additional hand weapons",
+          "name_pl": "Dodatkowa Broń Ręczna",
+          "points": 3,
+          "perModel": true,
+          "stackable": true
+        },
+        {
+          "name_en": "Great weapons",
+          "name_cn": "重型武器",
+          "name_de": "Zweihandwaffen",
+          "name_es": "Great weapons",
+          "name_fr": "Armes lourdes",
+          "name_it": "Great weapons",
+          "name_pl": "Broń Wielka",
+          "points": 4,
+          "perModel": true,
+          "stackable": true
+        },
+        {
+          "name_en": "Ironfists",
+          "name_cn": "铁拳套",
+          "name_de": "Eisenfäuste",
+          "name_es": "Ironfists",
+          "name_fr": "Poings d'Acier",
+          "name_it": "Ironfists",
+          "name_pl": "Żelazne Pięści",
+          "points": 4,
+          "perModel": true,
+          "stackable": true
+        }
+      ],
+      "mounts": [],
+      "items": [],
+      "lores": [],
+      "specialRules": {
+        "name_en": "Armour Bane (1), Close Order, Fear, Impact Hits (1), Mercenaries, Motley Crew, Ogre Charge",
+        "name_cn": "碎甲攻击(1), 紧密阵型, 恐惧, 撞击(1), 佣兵, 散兵游勇, 食人魔冲锋",
+        "name_de": "Rüstungsfluch (1), Geschlossen Ränge, Angst, Aufpralltreffer (1), Söldner, Zusammengewürfelter Haufen, Ogerangriff",
+        "name_es": "Armour Bane (1), Close Order, Fear, Impact Hits (1), Mercenaries, Motley Crew, Ogre Charge",
+        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Touches d'Impact (1), Mercenaires, Bande Hétéroclite, Charge Ogre",
+        "name_it": "Armour Bane (1), Close Order, Fear, Impact Hits (1), Mercenaries, Motley Crew, Ogre Charge",
+        "name_pl": "Przebicie Zbroi (1), Zwarty Szyk, Strach, Uderzenia Impetu (1), Mercenaries, Zbieranina, Ogr Charge"
+      }
+    }
+  ],
   "allies": []
 }

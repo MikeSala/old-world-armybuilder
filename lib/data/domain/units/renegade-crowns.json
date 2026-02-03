@@ -2735,5 +2735,332 @@
       }
     }
   ],
-  "mercenaries": []
+  "mercenaries": [
+    {
+      "name_en": "Border Princes Brigands",
+      "name_pl": "Bandyci Książąt Pogranicza",
+      "name_cn": "边境亲王领盗贼",
+      "name_de": "Briganten der Grenzgrafschaften",
+      "name_es": "Border Princes Brigands",
+      "name_fr": "Brigands des Principautés Frontalières",
+      "id": "border-princes-brigands",
+      "magicItemsArmy": "kingdom-of-bretonnia",
+      "points": 4,
+      "minimum": 10,
+      "maximum": 0,
+      "command": [
+        {
+          "name_en": "Desperado (champion)",
+          "name_cn": "匪首(冠军)",
+          "name_de": "Rädelsführer",
+          "name_es": "Desperado (champion)",
+          "name_fr": "Desperado (champion)",
+          "name_pl": "Desperado (czempion)",
+          "points": 7,
+          "magic": {
+            "types": [
+              "weapon",
+              "armor",
+              "talisman",
+              "enchanted-item"
+            ],
+            "maxPoints": 50
+          }
+        },
+        {
+          "name_en": "Standard bearer",
+          "name_cn": "旗手",
+          "name_fr": "Porte-étendard",
+          "name_de": "Standartenträger",
+          "name_es": "Standard bearer",
+          "name_pl": "Sztandarowy",
+          "points": 5
+        },
+        {
+          "name_en": "Musician",
+          "name_cn": "乐手",
+          "name_fr": "Musicien",
+          "name_de": "Musiker",
+          "name_es": "Musician",
+          "name_pl": "Muzyk",
+          "points": 5
+        }
+      ],
+      "equipment": [
+        {
+          "name_en": "Hand weapons",
+          "name_cn": "单手武器",
+          "name_de": "Handwaffen",
+          "name_es": "Hand weapons",
+          "name_fr": "Armes de base",
+          "points": 0,
+          "perModel": true,
+          "active": true,
+          "name_pl": "Broń ręczna"
+        }
+      ],
+      "armor": [
+        {
+          "name_en": "Light armour",
+          "name_cn": "轻甲",
+          "name_de": "Leichte Rüstung",
+          "name_fr": "Armure légère",
+          "name_es": "Light armour",
+          "name_pl": "Lekka Zbroja",
+          "points": 0,
+          "perModel": true,
+          "active": true
+        }
+      ],
+      "options": [
+        {
+          "name_en": "Additional hand weapon",
+          "name_cn": "额外单手武器",
+          "name_de": "zusätzliche Handwaffe",
+          "name_fr": "Arme de base additionnelle",
+          "name_es": "Additional hand weapon",
+          "points": 2,
+          "stackable": true,
+          "name_pl": "Dodatkowa broń ręczna"
+        },
+        {
+          "name_en": "Shields",
+          "name_cn": "盾牌",
+          "name_de": "Schild",
+          "name_fr": "Boucliers",
+          "name_es": "Shields",
+          "points": 1,
+          "stackable": true,
+          "name_pl": "Tarcze"
+        },
+        {
+          "name_en": "Pistols",
+          "name_cn": "手枪",
+          "name_de": "Pistole",
+          "name_es": "Pistols",
+          "name_fr": "Pistolets",
+          "points": 2,
+          "stackable": true,
+          "name_pl": "Pistolety"
+        },
+        {
+          "name_en": "Blunderbusses",
+          "name_cn": "喇叭枪",
+          "name_de": "Donnerbüchse",
+          "name_es": "Blunderbusses",
+          "name_fr": "Tromblons",
+          "points": 4,
+          "stackable": true,
+          "name_pl": "Krótkie garłacze"
+        },
+        {
+          "name_en": "Crossbows",
+          "name_cn": "十字弩",
+          "name_de": "Armbrust",
+          "name_es": "Crossbows",
+          "name_fr": "Arbalètes",
+          "points": 3,
+          "stackable": true,
+          "name_pl": "Kusze"
+        },
+        {
+          "name_en": "Formation",
+          "name_cn": "阵型",
+          "name_de": "Formation",
+          "name_fr": "Formation",
+          "name_es": "Formation",
+          "points": 0,
+          "active": true,
+          "alwaysActive": true,
+          "notes": {
+            "name_en": "0-1 Close Order and 0-1 Skirmishers per 1000 points",
+            "name_cn": "0-1紧密阵型，每1,000分0-1单位的散兵阵型",
+            "name_pl": "0-1 Zwarty Szyk i 0-1 Harcownicy na 1000 punktów"
+          },
+          "options": [
+            {
+              "name_en": "Open Order",
+              "name_cn": "开放阵型",
+              "name_it": "Formazione Aperta",
+              "name_de": "Offene Ränge",
+              "name_fr": "Ordre Dispersé",
+              "points": 0,
+              "active": true,
+              "perModel": true,
+              "exclusive": true,
+              "name_pl": "Szyk Otwarty"
+            },
+            {
+              "name_en": "Close Order",
+              "name_cn": "紧密阵型",
+              "name_it": "Close Order",
+              "name_de": "Close Order",
+              "name_fr": "Close Order",
+              "points": 0,
+              "perModel": true,
+              "exclusive": true,
+              "name_pl": "Zwarty Szyk"
+            },
+            {
+              "name_en": "Skirmishers",
+              "name_cn": "散兵",
+              "name_de": "Plänkler",
+              "name_fr": "Tirailleurs",
+              "points": 0,
+              "perModel": true,
+              "exclusive": true,
+              "name_pl": "Harcownicy"
+            }
+          ],
+          "name_pl": "Formacja"
+        },
+        {
+          "name_en": "Ambushers",
+          "name_cn": "伏击",
+          "name_de": "Überfall",
+          "name_es": "Ambushers",
+          "name_fr": "Embusqueurs",
+          "points": 2,
+          "perModel": true,
+          "notes": {
+            "name_en": "If Skirmishers",
+            "name_cn": "若为散兵",
+            "name_de": "Wenn Plänkler",
+            "name_fr": "Si Tirailleurs",
+            "name_es": "If Skirmishers",
+            "name_pl": "Jeśli Harcownicy"
+          },
+          "name_pl": "Zasadzka"
+        },
+        {
+          "name_en": "Scouts",
+          "name_cn": "侦察",
+          "name_de": "Kundschafter",
+          "name_es": "Scouts",
+          "name_fr": "Éclaireurs",
+          "points": 1,
+          "perModel": true,
+          "notes": {
+            "name_en": "If Skirmishers",
+            "name_cn": "若为散兵",
+            "name_de": "Wenn Plänkler",
+            "name_fr": "Si Tirailleurs",
+            "name_es": "If Skirmishers",
+            "name_pl": "Jeśli Harcownicy"
+          },
+          "name_pl": "Zwiadowcy"
+        },
+        {
+          "name_en": "+1 to Weapon Skill",
+          "name_cn": "+1武器技能",
+          "name_de": "+1 to Weapon Skill",
+          "name_fr": "+1 to Weapon Skill",
+          "name_es": "+1 to Weapon Skill",
+          "points": 2,
+          "perModel": true,
+          "notes": {
+            "name_en": "0-1 unit for each character with the Wandering Duelists Infamous Origin",
+            "name_cn": "每有一个游荡决斗家恶名起源角色则0-1单位",
+            "name_pl": "0-1 jednostka dla każdy postać z the Wandering Duelists Infamous Origin"
+          },
+          "name_pl": "+1 do Umiejętności Walki"
+        }
+      ],
+      "mounts": [],
+      "items": [],
+      "lores": [],
+      "specialRules": {
+        "name_en": "Horde, Impetuous, Levies, Motley Crew, Open Order, Warband",
+        "name_cn": "部群, 鲁莽, 炮灰, 散兵游勇, 开放阵型, 战帮",
+        "name_de": "Horde, Impetuous, Levies, Motley Crew, Open Order, Warband",
+        "name_es": "Horde, Impetuous, Levies, Motley Crew, Open Order, Warband",
+        "name_fr": "Horde, Impétueux, Conscrits, Bande Hétéroclite, Ordre Dispersé, Bande de Guerre",
+        "name_pl": "Horda, Impet, Levies, Zbieranina, Luźny Szyk, Gromada"
+      }
+    },
+    {
+      "name_en": "Border Princes Organ Gun",
+      "name_pl": "Armata Organowa Książąt Pogranicza",
+      "name_cn": "边境亲王领风琴炮",
+      "name_it": "Border Princes Organ Gun",
+      "name_de": "Border Princes Organ Gun",
+      "name_fr": "Border Princes Organ Gun",
+      "id": "border-princes-organ-gun",
+      "points": 125,
+      "command": [],
+      "equipment": [
+        {
+          "name_en": "Organ gun, Hand weapons",
+          "name_cn": "风琴炮, 单手武器",
+          "name_it": "Organ gun, Hand weapons",
+          "name_de": "Orgelkanone, Handwaffen",
+          "name_fr": "Canon-orgue, Armes de base",
+          "points": 0,
+          "active": true,
+          "name_pl": "Organek, Broń ręczna"
+        }
+      ],
+      "armor": [],
+      "options": [],
+      "mounts": [],
+      "specialRules": {
+        "name_en": "Levies, Skirmishers",
+        "name_cn": "炮灰, 散兵",
+        "name_it": "Levies, Schermagliatori",
+        "name_de": "Levies, Plänkler",
+        "name_es": "Levies, Skirmishers",
+        "name_fr": "Levies, Tirailleurs",
+        "name_pl": "Levies, Harcownicy"
+      }
+    },
+    {
+      "name_en": "Border Princes Bombard",
+      "name_pl": "Bombarda Książąt Pogranicza",
+      "name_cn": "边境亲王领轰击炮",
+      "name_de": "Bombarde der Grenzgrafschaften",
+      "name_es": "Border Princes Bombard",
+      "name_fr": "Bombarde des Principautés Frontalières",
+      "id": "border-princes-bombard",
+      "points": 100,
+      "command": [],
+      "equipment": [
+        {
+          "name_en": "Bombard, Hand weapons",
+          "name_cn": "轰击炮, 单手武器",
+          "name_de": "Bombard, Handwaffen",
+          "name_es": "Bombard, Hand weapons",
+          "name_fr": "Bombard, Armes de base",
+          "points": 0,
+          "perModel": true,
+          "active": true,
+          "name_pl": "Bombarda, Broń ręczna"
+        }
+      ],
+      "armor": [
+        {
+          "name_en": "Light armour",
+          "name_cn": "轻甲",
+          "name_de": "Leichte Rüstung",
+          "name_fr": "Armure légère",
+          "name_es": "Light armour",
+          "name_pl": "Lekka Zbroja",
+          "points": 0,
+          "perModel": true,
+          "active": true
+        }
+      ],
+      "options": [],
+      "mounts": [],
+      "items": [],
+      "lores": [],
+      "specialRules": {
+        "name_en": "Levies, Skirmishers",
+        "name_cn": "炮灰, 散兵",
+        "name_de": "Gesindel, Plänkler",
+        "name_es": "Levies, Skirmishers",
+        "name_fr": "Conscrits, Tirailleurs",
+        "name_pl": "Levies, Harcownicy"
+      }
+    }
+  ]
 }
