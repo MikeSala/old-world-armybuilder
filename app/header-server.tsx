@@ -8,7 +8,13 @@ import { useMemo, useState, useEffect } from "react";
 import { LocaleButton } from "@/components/ui/LocaleButton";
 import { LogoIcon } from "@/components/icons/LogoIcon";
 import BuyMeCoffeeButton from "@/components/support/BuyMeCoffeeButton";
-import { getDictionary, locales, defaultLocale, type Locale } from "@/lib/i18n/dictionaries";
+import { CHANGELOG_SLUG } from "@/lib/data/changelog";
+import { getDictionary, locales, type Locale } from "@/lib/i18n/dictionaries";
+import {
+  buildLocalePath,
+  buildLocalePathWithPrefix,
+  resolveLocaleFromPathname,
+} from "@/lib/i18n/paths";
 
 // Button styles
 const localeBtnBase = "border text-amber-200/80 transition-colors";
@@ -22,15 +28,6 @@ const editSlugByLocale: Record<Locale, string> = locales.reduce(
   },
   {} as Record<Locale, string>
 );
-
-function extractLocaleAndSegments(pathname: string): { locale: Locale; segments: string[] } {
-  const segments = pathname.split("/").filter(Boolean);
-  const maybeLocale = segments[0];
-  if (maybeLocale && locales.includes(maybeLocale as Locale)) {
-    return { locale: maybeLocale as Locale, segments: segments.slice(1) };
-  }
-  return { locale: defaultLocale, segments };
-}
 
 export default function Header() {
   const pathname = usePathname() ?? "/";
@@ -46,7 +43,7 @@ export default function Header() {
   }, []);
 
   const { activeLocale, restSegments, dictionary } = useMemo(() => {
-    const { locale, segments } = extractLocaleAndSegments(pathname);
+    const { locale, segments } = resolveLocaleFromPathname(pathname);
     return {
       activeLocale: locale,
       restSegments: segments,
@@ -55,6 +52,12 @@ export default function Header() {
   }, [pathname]);
 
   const buildHref = (targetLocale: Locale) => {
+    if (restSegments[0] === CHANGELOG_SLUG) {
+      return targetLocale === "en"
+        ? buildLocalePathWithPrefix("en" as Locale, CHANGELOG_SLUG)
+        : buildLocalePath(targetLocale);
+    }
+
     const translatedSegments =
       restSegments.length > 0
         ? (() => {
@@ -68,8 +71,8 @@ export default function Header() {
           })()
         : restSegments;
 
-    const normalized = [targetLocale, ...translatedSegments].join("/");
-    return `/${normalized}`;
+    const normalized = translatedSegments.join("/");
+    return buildLocalePath(targetLocale, normalized);
   };
 
   return (
@@ -84,7 +87,7 @@ export default function Header() {
       <div className="mx-auto flex w-full max-w-main items-center justify-between gap-gap-sm px-container py-2.5 sm:py-3">
         {/* Logo and brand */}
         <Link
-          href={`/${activeLocale}`}
+          href={buildLocalePath(activeLocale)}
           className="group flex items-center gap-2 sm:gap-3"
           aria-label={dictionary.headerBrandLabel}
           title={dictionary.headerBrandLabel}

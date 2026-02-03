@@ -1,21 +1,8 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
 
 import { ABOUT_SLUG, getAboutContent } from "@/lib/data/about";
-import {
-  getDictionary,
-  locales,
-  defaultLocale,
-  isLocale,
-  type Locale,
-} from "@/lib/i18n/dictionaries";
+import { getDictionary, locales, defaultLocale, type Locale } from "@/lib/i18n/dictionaries";
 import { buildLocaleUrl } from "@/lib/i18n/paths";
-
-type PageProps = {
-  params: Promise<{
-    locale?: string;
-  }>;
-};
 
 const SITE_URL = "https://army-builder.com";
 
@@ -27,41 +14,21 @@ const aboutAlternates = locales.reduce<Record<Locale, string>>(
   {} as Record<Locale, string>
 );
 
-export function generateStaticParams() {
-  return locales.filter((locale) => locale !== defaultLocale).map((locale) => ({ locale }));
-}
-
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { locale: localeParam } = await params;
-  const locale =
-    typeof localeParam === "string" && isLocale(localeParam)
-      ? (localeParam as Locale)
-      : null;
-  if (!locale || locale === defaultLocale) {
-    notFound();
-  }
-  const dictionary = getDictionary(locale);
+export function generateMetadata(): Metadata {
+  const dictionary = getDictionary(defaultLocale);
   return {
     title: dictionary.aboutTitle,
     description: dictionary.aboutDescription,
     alternates: {
-      canonical: aboutAlternates[locale],
+      canonical: aboutAlternates[defaultLocale],
       languages: aboutAlternates,
     },
   };
 }
 
-export default async function AboutPage({ params }: PageProps) {
-  const { locale: localeParam } = await params;
-  const locale =
-    typeof localeParam === "string" && isLocale(localeParam)
-      ? (localeParam as Locale)
-      : null;
-  if (!locale || locale === defaultLocale) {
-    notFound();
-  }
-  const dictionary = getDictionary(locale);
-  const paragraphs = getAboutContent(locale);
+export default function AboutPage() {
+  const dictionary = getDictionary(defaultLocale);
+  const paragraphs = getAboutContent(defaultLocale);
 
   return (
     <section className="py-section-y text-amber-100">

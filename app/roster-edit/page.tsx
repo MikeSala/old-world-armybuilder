@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
 import { Suspense } from "react";
 
 import { ArmyFromUrlInitializer } from "@/components/builder/ArmyFromUrlInitializer";
@@ -8,13 +7,7 @@ import RosterBuilderClient from "@/components/builder/RosterBuilderClient";
 import RosterSummary from "@/components/builder/RosterSummary";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
 import BuyMeCoffeeWidget from "@/components/support/BuyMeCoffeeWidget";
-import {
-  getDictionary,
-  locales,
-  defaultLocale,
-  isLocale,
-  type Locale,
-} from "@/lib/i18n/dictionaries";
+import { getDictionary, locales, defaultLocale, type Locale } from "@/lib/i18n/dictionaries";
 import { buildLocaleUrl } from "@/lib/i18n/paths";
 
 const SITE_URL = "https://army-builder.com";
@@ -27,13 +20,6 @@ const editSlugByLocale = locales.reduce<Record<Locale, string>>(
   {} as Record<Locale, string>
 );
 
-type PageProps = {
-  params: Promise<{
-    locale?: string;
-    slug?: string | string[];
-  }>;
-};
-
 const metaByLocale: Record<Locale, Metadata> = {
   pl: {
     title: "Warhammer Old World - Edycja Armii",
@@ -42,8 +28,7 @@ const metaByLocale: Record<Locale, Metadata> = {
   },
   en: {
     title: "Warhammer Old World - Army Editor",
-    description:
-      "Warhammer Old World army editor. Create, save, and print your army.",
+    description: "Warhammer Old World army editor. Create, save, and print your army.",
   },
   de: {
     title: "Warhammer Old World - Armee-Editor",
@@ -67,22 +52,8 @@ const editorAlternates = locales.reduce<Record<Locale, string>>((acc, locale) =>
   return acc;
 }, {} as Record<Locale, string>);
 
-export function generateStaticParams() {
-  return locales.filter((locale) => locale !== defaultLocale).map((locale) => ({
-    locale,
-    slug: editSlugByLocale[locale],
-  }));
-}
-
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { locale: rawLocale } = await params;
-  const locale =
-    typeof rawLocale === "string" && isLocale(rawLocale)
-      ? (rawLocale as Locale)
-      : null;
-  if (!locale || locale === defaultLocale) {
-    notFound();
-  }
+export function generateMetadata(): Metadata {
+  const locale = defaultLocale;
   return {
     ...metaByLocale[locale],
     alternates: {
@@ -92,28 +63,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-export default async function RosterEditPage({ params }: PageProps) {
-  const { locale: rawLocale, slug: rawSlug } = await params;
-
-  const locale: Locale =
-    typeof rawLocale === "string" && isLocale(rawLocale)
-      ? (rawLocale as Locale)
-      : null;
-  if (!locale || locale === defaultLocale) {
-    notFound();
-  }
-  const slug =
-    typeof rawSlug === "string"
-      ? rawSlug
-      : Array.isArray(rawSlug)
-      ? String(rawSlug[0] ?? "")
-      : "";
-
-  if (editSlugByLocale[locale] !== slug) {
-    notFound();
-  }
-
-  const dictionary = getDictionary(locale);
+export default function RosterEditPage() {
+  const dictionary = getDictionary(defaultLocale);
 
   return (
     <section className="flex min-h-[calc(100vh-48px)] flex-col gap-6">

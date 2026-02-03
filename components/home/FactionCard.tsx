@@ -3,6 +3,7 @@ import { tData, type DataKey } from "@/lib/i18n/data";
 import type { Army } from "@/lib/data/armies/armies";
 import { getFactionTheme } from "@/lib/data/factions/factionThemes";
 import type { Locale } from "@/lib/i18n/dictionaries";
+import { buildLocalePath } from "@/lib/i18n/paths";
 
 type FactionCardProps = {
   faction: Army;
@@ -25,7 +26,7 @@ export function FactionCard({ faction, locale, editSlug, isDragging = false }: F
 
   return (
     <Link
-      href={`/${locale}/${editSlug}?army=${faction.id}`}
+      href={buildLocalePath(locale, `${editSlug}?army=${faction.id}`)}
       onClick={handleClick}
       draggable={false}
       className={`group relative flex flex-none snap-start items-center justify-center p-4

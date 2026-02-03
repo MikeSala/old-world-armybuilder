@@ -1,24 +1,33 @@
-"use client";
+import type { Metadata } from "next";
 
-import { useEffect } from "react";
+import { LandingPageContent } from "@/components/home/LandingPageContent";
+import { getDictionary, locales, defaultLocale, type Locale } from "@/lib/i18n/dictionaries";
+import { buildLocaleUrl } from "@/lib/i18n/paths";
 
-export default function RootRedirect() {
-  useEffect(() => {
-    window.location.replace("/pl/");
-  }, []);
+const SITE_URL = "https://army-builder.com";
 
-  return (
-    <main className="min-h-screen bg-slate-600 text-amber-300">
-      <div className="mx-auto flex max-w-content flex-col gap-gap-lg px-container py-10">
-        <h1 className="text-xl font-semibold text-amber-100">Redirecting…</h1>
-        <p className="text-sm text-amber-200/80">
-          If you are not redirected, open{" "}
-          <a className="text-amber-100 underline hover:text-amber-200" href="/pl/">
-            /pl/
-          </a>
-          .
-        </p>
-      </div>
-    </main>
-  );
+const landingAlternates = locales.reduce<Record<Locale, string>>(
+  (acc, locale) => {
+    acc[locale] = buildLocaleUrl(SITE_URL, locale, "/");
+    return acc;
+  },
+  {} as Record<Locale, string>
+);
+
+export function generateMetadata(): Metadata {
+  const dictionary = getDictionary(defaultLocale);
+  return {
+    title: dictionary.landingTitle,
+    description: dictionary.landingDescription,
+    alternates: {
+      canonical: landingAlternates[defaultLocale],
+      languages: landingAlternates,
+    },
+  };
+}
+
+export default function HomePage() {
+  const dictionary = getDictionary(defaultLocale);
+
+  return <LandingPageContent dict={dictionary} locale={defaultLocale} />;
 }

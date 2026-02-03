@@ -10,9 +10,10 @@ import TextField from "@/components/builder/TextField";
 import { Button } from "@/components/ui/Button";
 import { ABOUT_SLUG } from "@/lib/data/about";
 import { CHANGELOG_SLUG } from "@/lib/data/changelog";
-import { getDictionary, defaultLocale, isLocale } from "@/lib/i18n/dictionaries";
+import { getDictionary, defaultLocale, isLocale, type Locale } from "@/lib/i18n/dictionaries";
+import { buildLocalePath, buildLocalePathWithPrefix } from "@/lib/i18n/paths";
 
-function resolveLocaleParam(raw: string | string[] | undefined): string {
+function resolveLocaleParam(raw: string | string[] | undefined): Locale {
   if (!raw) return defaultLocale;
   if (Array.isArray(raw)) {
     const [first] = raw;
@@ -29,8 +30,11 @@ export default function Footer() {
   );
   const dictionary = React.useMemo(() => getDictionary(locale), [locale]);
   const year = React.useMemo(() => new Date().getFullYear(), []);
-  const changelogHref = React.useMemo(() => `/${locale}/${CHANGELOG_SLUG}`, [locale]);
-  const aboutHref = React.useMemo(() => `/${locale}/${ABOUT_SLUG}`, [locale]);
+  const changelogHref = React.useMemo(
+    () => buildLocalePathWithPrefix("en" as Locale, CHANGELOG_SLUG),
+    []
+  );
+  const aboutHref = React.useMemo(() => buildLocalePath(locale, ABOUT_SLUG), [locale]);
   const [reportOpen, setReportOpen] = React.useState(false);
   const [reportValue, setReportValue] = React.useState("");
   const [reportError, setReportError] = React.useState<string | null>(null);
