@@ -118,11 +118,11 @@ export default function RosterSummary({ dict, className }: Props) {
         className={clsx("print-summary-content print-bg-white print:text-black", className)}
         aria-labelledby="roster-summary-heading"
       >
-        <div className="rounded-2xl border border-amber-300/30 bg-slate-900/80 p-6 text-amber-100 shadow-lg shadow-amber-900/15 print-bg-white">
+        <div className="rounded-2xl border border-stone-300/30 bg-stone-800/80 p-6 text-stone-100 shadow-lg shadow-stone-900/15 print-bg-white">
           <header className="mb-4">
             <div className="flex items-start justify-between gap-4">
               <div>
-                <p className="text-sm uppercase tracking-[0.3em] text-amber-400 print:text-gray-700">
+                <p className="text-sm uppercase tracking-[0.3em] text-stone-400 print:text-gray-700">
                   {dict.rosterSummaryHeading}
                 </p>
                 <h2
@@ -132,7 +132,7 @@ export default function RosterSummary({ dict, className }: Props) {
                   {name || dict.rosterSummaryDefaultName}
                 </h2>
                 {description ? (
-                  <p className="mt-2 text-sm text-amber-200/70 print:text-gray-700">
+                  <p className="mt-2 text-sm text-stone-200/70 print:text-gray-700">
                     {description}
                   </p>
                 ) : null}
@@ -151,11 +151,11 @@ export default function RosterSummary({ dict, className }: Props) {
                 </div>
               ) : null}
             </div>
-            <div className="mt-3 flex items-center justify-between text-sm text-amber-200 print:text-gray-800">
+            <div className="mt-3 flex items-center justify-between text-sm text-stone-200 print:text-gray-800">
               <span>{dict.rosterPointsLimitLabel}</span>
               <span className="font-semibold">{formatPointsFor(pointsLimit)}</span>
             </div>
-            <div className="flex items-center justify-between text-sm text-amber-200 print:text-gray-800">
+            <div className="flex items-center justify-between text-sm text-stone-200 print:text-gray-800">
               <span>{dict.rosterTotalSpentLabel}</span>
               <span className="font-semibold">{formatPointsFor(totalSpent)}</span>
             </div>
@@ -185,7 +185,7 @@ export default function RosterSummary({ dict, className }: Props) {
       <Dialog.Portal container={printRoot ?? undefined}>
         {showDetailSheet ? (
           <>
-            <Dialog.Overlay className="fixed inset-0 z-40 bg-slate-950/80 data-[state=open]:animate-fade-in" />
+            <Dialog.Overlay className="fixed inset-0 z-40 bg-stone-900/80 data-[state=open]:animate-fade-in" />
             <Dialog.Content className="print-overlay fixed inset-0 z-50 flex items-start justify-center overflow-y-auto p-4 sm:p-8 focus:outline-none">
               <div className="print-overlay__inner relative z-10">
                 <Dialog.Title className="sr-only">{dict.rosterDetailHeading}</Dialog.Title>

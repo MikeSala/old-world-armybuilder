@@ -81,7 +81,7 @@ function CategorySummaryItem({
             <Button
               variant="secondary"
               size="sm"
-              className="w-36 focus-visible:ring-2 focus-visible:ring-amber-400 focus-visible:outline-none"
+              className="w-36 focus-visible:ring-2 focus-visible:ring-stone-400 focus-visible:outline-none"
               onClick={() => onToggleCategory(section.key, cardRef.current)}
               disabled={addDisabled}
               leftIcon={
@@ -118,7 +118,7 @@ export function CategorySummaryPanel({
 
   return (
     <section className="space-y-2">
-      <div className="rounded-2xl border border-amber-300/20 bg-slate-900/40 px-4 py-2 text-sm font-medium text-amber-100/80">
+      <div className="rounded-2xl border border-stone-300/20 bg-stone-800/40 px-4 py-2 text-sm font-medium text-stone-100/80">
         {totalSpentText}
       </div>
       {sections.map((section) => (

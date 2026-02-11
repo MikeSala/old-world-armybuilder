@@ -31,7 +31,7 @@ export default function AboutPage() {
   const paragraphs = getAboutContent(defaultLocale);
 
   return (
-    <section className="py-section-y text-amber-100">
+    <section className="py-section-y text-stone-100">
       <div className="about-text-panel relative overflow-hidden rounded-3xl p-6 sm:p-8">
         <div className="relative z-10">
           <h1 className="text-3xl font-bold tracking-tight">{dictionary.aboutTitle}</h1>
@@ -42,7 +42,7 @@ export default function AboutPage() {
               className="about-inline-image__img"
             />
           </figure>
-          <div className="mt-6 space-y-4 text-sm leading-relaxed text-amber-100/85">
+          <div className="mt-6 space-y-4 text-sm leading-relaxed text-stone-100/85">
             {paragraphs.map((paragraph) => (
               <p key={paragraph}>{paragraph}</p>
             ))}

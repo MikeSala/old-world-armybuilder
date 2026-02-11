@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    color-scheme: light;
+    color-scheme: dark;
 
     /* ========================================
        RESPONSIVE DESIGN TOKENS
@@ -68,17 +68,32 @@
       "rlig" 1,
       "calt" 1;
   }
+
+  html[data-theme="light"] {
+    color-scheme: light;
+    background-color: rgb(245 245 244);
+  }
+
+  html[data-theme="light"] body {
+    filter: invert(1) hue-rotate(180deg);
+  }
+
+  html[data-theme="light"] img,
+  html[data-theme="light"] video,
+  html[data-theme="light"] canvas {
+    filter: invert(1) hue-rotate(180deg);
+  }
 }
 
 @layer components {
   .about-text-panel {
-    border: 1px solid rgba(251, 191, 36, 0.25);
+    border: 1px solid rgba(168, 162, 158, 0.25);
     background:
-      radial-gradient(circle at top left, rgba(251, 191, 36, 0.12), transparent 55%),
-      linear-gradient(135deg, rgba(2, 6, 23, 0.95), rgba(15, 23, 42, 0.85) 60%, rgba(2, 6, 23, 0.8));
+      radial-gradient(circle at top left, rgba(168, 162, 158, 0.14), transparent 55%),
+      linear-gradient(135deg, rgba(68, 64, 60, 0.92), rgba(120, 113, 108, 0.82) 60%, rgba(87, 83, 78, 0.78));
     box-shadow:
-      0 22px 50px -32px rgba(15, 23, 42, 0.8),
-      inset 0 0 0 1px rgba(148, 163, 184, 0.08);
+      0 18px 40px -30px rgba(68, 64, 60, 0.55),
+      inset 0 0 0 1px rgba(168, 162, 158, 0.16);
   }
 
   .about-text-panel::before {
@@ -86,22 +101,22 @@
     position: absolute;
     inset: 0;
     background:
-      radial-gradient(circle at 30% 20%, rgba(148, 163, 184, 0.14), transparent 45%),
-      radial-gradient(circle at 80% 0%, rgba(251, 191, 36, 0.12), transparent 50%);
+      radial-gradient(circle at 30% 20%, rgba(120, 113, 108, 0.16), transparent 45%),
+      radial-gradient(circle at 80% 0%, rgba(168, 162, 158, 0.12), transparent 50%);
     opacity: 0.6;
     pointer-events: none;
   }
 
   .about-hero-frame {
-    border: 1px solid rgba(251, 191, 36, 0.2);
-    box-shadow: 0 24px 60px -35px rgba(2, 6, 23, 0.8);
+    border: 1px solid rgba(168, 162, 158, 0.2);
+    box-shadow: 0 20px 50px -35px rgba(68, 64, 60, 0.55);
   }
 
   .about-hero-frame::after {
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(120deg, rgba(2, 6, 23, 0.65), transparent 55%);
+    background: linear-gradient(120deg, rgba(87, 83, 78, 0.4), transparent 55%);
     pointer-events: none;
   }
 
@@ -114,8 +129,8 @@
     width: 100%;
     height: auto;
     border-radius: 1.25rem;
-    border: 1px solid rgba(251, 191, 36, 0.18);
-    box-shadow: 0 18px 40px -28px rgba(2, 6, 23, 0.8);
+    border: 1px solid rgba(168, 162, 158, 0.18);
+    box-shadow: 0 14px 30px -24px rgba(68, 64, 60, 0.45);
   }
 
   @media (min-width: 768px) {
@@ -128,6 +143,13 @@
 }
 
 @media print {
+  html[data-theme="light"] body,
+  html[data-theme="light"] img,
+  html[data-theme="light"] video,
+  html[data-theme="light"] canvas {
+    filter: none !important;
+  }
+
   /* 1) Base: preserve colors & set global print scale */
   html,
   body {

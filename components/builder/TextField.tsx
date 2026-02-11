@@ -48,11 +48,11 @@ export default function TextField({
   );
 
   return (
-    <div className={clsx("text-slate-100 w-full", className)}>
-      <div className="mb-2 flex items-center gap-3 text-sm font-semibold text-slate-100">
+    <div className={clsx("text-stone-100 w-full", className)}>
+      <div className="mb-2 flex items-center gap-3 text-sm font-semibold text-stone-100">
         <label htmlFor={id} className="flex-1">
-          {label} {optionalHint && <span className="text-slate-400">({optionalHint})</span>}
-          {required && <span className="ml-1 text-amber-300"> *</span>}
+          {label} {optionalHint && <span className="text-stone-400">({optionalHint})</span>}
+          {required && <span className="ml-1 text-stone-300"> *</span>}
         </label>
         {labelAction ? <div className="shrink-0">{labelAction}</div> : null}
       </div>
@@ -70,9 +70,9 @@ export default function TextField({
           disabled={disabled}
           aria-describedby={maxChars ? `${id}-counter` : undefined}
           className={clsx(
-            "w-full rounded-lg border bg-slate-900/70 px-4 py-3 text-sm shadow-sm transition",
-            "border-amber-300/30 text-amber-50 placeholder:text-amber-200/40",
-            "focus:outline-none focus:ring-2 focus:ring-amber-400",
+            "w-full rounded-lg border bg-stone-800/70 px-4 py-3 text-sm shadow-sm transition",
+            "border-stone-300/30 text-stone-50 placeholder:text-stone-200/40",
+            "focus:outline-none focus:ring-2 focus:ring-stone-400",
             "disabled:opacity-60 disabled:cursor-not-allowed",
             "min-h-[110px] resize-y"
           )}
@@ -90,9 +90,9 @@ export default function TextField({
           disabled={disabled}
           aria-describedby={maxChars ? `${id}-counter` : undefined}
           className={clsx(
-            "w-full rounded-lg border bg-slate-900/70 px-4 py-3 text-sm shadow-sm transition",
-            "border-amber-300/30 text-amber-50 placeholder:text-amber-200/40",
-            "focus:outline-none focus:ring-2 focus:ring-amber-400",
+            "w-full rounded-lg border bg-stone-800/70 px-4 py-3 text-sm shadow-sm transition",
+            "border-stone-300/30 text-stone-50 placeholder:text-stone-200/40",
+            "focus:outline-none focus:ring-2 focus:ring-stone-400",
             "disabled:opacity-60 disabled:cursor-not-allowed"
           )}
         />
@@ -101,7 +101,7 @@ export default function TextField({
       {typeof maxChars === "number" && (
         <div
           id={`${id}-counter`}
-          className="mt-1 text-right text-xs text-amber-300/70"
+          className="mt-1 text-right text-xs text-stone-300/70"
           aria-live="polite"
         >
           {length} / {maxChars}

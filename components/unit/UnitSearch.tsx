@@ -98,8 +98,8 @@ const UnitStatsTable = ({ dict, unit }: { dict: LocaleDictionary; unit: UnitStat
 
   return (
     <div className="overflow-x-auto">
-      <table className="min-w-full divide-y divide-amber-400/20 text-xs">
-        <thead className="text-amber-200/70">
+      <table className="min-w-full divide-y divide-stone-400/20 text-xs">
+        <thead className="text-stone-200/70">
           <tr>
             <th className="px-2 py-1 text-left font-semibold uppercase tracking-wide">
               {dict.rosterDetailStatsModelLabel}
@@ -120,7 +120,7 @@ const UnitStatsTable = ({ dict, unit }: { dict: LocaleDictionary; unit: UnitStat
         </thead>
         <tbody>
           {displayBaseRow ? (
-            <tr className="text-amber-100">
+            <tr className="text-stone-100">
               <th className="px-2 py-2 text-left font-semibold">{baseLabel}</th>
               {ROSTER_STAT_FIELDS.map((field) => (
                 <td key={`base-${field.key as string}`} className="px-2 py-2 text-center">
@@ -130,7 +130,7 @@ const UnitStatsTable = ({ dict, unit }: { dict: LocaleDictionary; unit: UnitStat
             </tr>
           ) : null}
           {profileRows.map(({ label, profile, index }) => (
-            <tr key={`${label}-${index}`} className="text-amber-100">
+            <tr key={`${label}-${index}`} className="text-stone-100">
               <th className="px-2 py-2 text-left font-semibold">
                 {label && label.startsWith("Profile ")
                   ? dict.rosterDetailProfileFallback.replace(
@@ -269,15 +269,15 @@ const UnitSearchResultBody = ({
         <dl className="grid gap-2 sm:grid-cols-2">
           {infoRows.map(({ label, value }) => (
             <div key={`${label}-${value}`} className="flex flex-col gap-1">
-              <dt className="text-xs uppercase tracking-wide text-amber-200/70">{label}</dt>
-              <dd className="text-sm text-amber-100">{value}</dd>
+              <dt className="text-xs uppercase tracking-wide text-stone-200/70">{label}</dt>
+              <dd className="text-sm text-stone-100">{value}</dd>
             </div>
           ))}
         </dl>
       ) : null}
 
       <div className="space-y-2">
-        <h4 className="text-xs font-semibold uppercase tracking-wide text-amber-200/70">
+        <h4 className="text-xs font-semibold uppercase tracking-wide text-stone-200/70">
           {dict.unitSearchProfilesHeading}
         </h4>
         <UnitStatsTable dict={dict} unit={line} />
@@ -285,19 +285,19 @@ const UnitSearchResultBody = ({
 
       {equipment.length ? (
         <div>
-          <h4 className="text-xs font-semibold uppercase tracking-wide text-amber-200/70">
+          <h4 className="text-xs font-semibold uppercase tracking-wide text-stone-200/70">
             {dict.unitSearchEquipmentLabel}
           </h4>
-          <p className="mt-1 text-sm text-amber-100/80">{translatedEquipment.join(", ")}</p>
+          <p className="mt-1 text-sm text-stone-100/80">{translatedEquipment.join(", ")}</p>
         </div>
       ) : null}
 
       {rules.length ? (
         <div>
-          <h4 className="text-xs font-semibold uppercase tracking-wide text-amber-200/70">
+          <h4 className="text-xs font-semibold uppercase tracking-wide text-stone-200/70">
             {dict.rosterDetailSpecialRulesLabel}
           </h4>
-          <ul className="mt-1 list-disc space-y-1 pl-4 text-sm text-amber-100/90">
+          <ul className="mt-1 list-disc space-y-1 pl-4 text-sm text-stone-100/90">
             {translatedRules.map((rule) => (
               <li key={rule}>{rule}</li>
             ))}
@@ -342,14 +342,14 @@ const UnitSearchResultAccordionItem = ({
   return (
     <Accordion.Item
       value={value}
-      className="overflow-hidden rounded-2xl border border-amber-300/30 bg-slate-900/70 text-amber-100 shadow shadow-amber-900/20"
+      className="overflow-hidden rounded-2xl border border-stone-300/30 bg-stone-800/70 text-stone-100 shadow shadow-stone-900/20"
     >
       <Accordion.Header className="w-full">
-        <Accordion.Trigger className="flex w-full items-center justify-between gap-3 px-5 py-4 text-left outline-none transition hover:bg-slate-900/80 data-[state=open]:border-b data-[state=open]:border-amber-300/20">
+        <Accordion.Trigger className="flex w-full items-center justify-between gap-3 px-5 py-4 text-left outline-none transition hover:bg-stone-800/80 data-[state=open]:border-b data-[state=open]:border-stone-300/20">
           <div className="flex flex-col gap-1">
-            <h3 className="text-lg font-semibold text-amber-100">{title}</h3>
+            <h3 className="text-lg font-semibold text-stone-100">{title}</h3>
             {armyLabel ? (
-              <span className="text-sm text-amber-200/70">
+              <span className="text-sm text-stone-200/70">
                 {dict.unitSearchArmyLabel}: {armyLabel}
               </span>
             ) : null}
@@ -394,12 +394,12 @@ export default function UnitSearch({ dict, className }: Props) {
 
   return (
     <section className={className} aria-labelledby="unit-search-heading">
-      <div className="rounded-3xl border border-amber-300/30 bg-slate-900/80 p-6 text-amber-100 shadow-lg shadow-amber-900/20">
+      <div className="rounded-3xl border border-stone-300/30 bg-stone-800/80 p-6 text-stone-100 shadow-lg shadow-stone-900/20">
         <div className="flex flex-col gap-3">
           <div className="flex items-center justify-between gap-3">
             <h2
               id="unit-search-heading"
-              className="text-2xl font-semibold uppercase tracking-[0.25em] text-amber-300"
+              className="text-2xl font-semibold uppercase tracking-[0.25em] text-stone-300"
             >
               {dict.unitSearchHeading}
             </h2>
@@ -407,24 +407,24 @@ export default function UnitSearch({ dict, className }: Props) {
               <Button
                 type="button"
                 onClick={() => setQuery("")}
-                className="text-xs font-semibold uppercase tracking-wide text-amber-200/70 hover:text-amber-100"
+                className="text-xs font-semibold uppercase tracking-wide text-stone-200/70 hover:text-stone-100"
               >
                 {dict.unitSearchClearButton}
               </Button>
             ) : null}
           </div>
           <label className="flex flex-col gap-2 text-sm" htmlFor="unit-search-input">
-            <span className="text-amber-200/80">{dict.unitSearchInputLabel}</span>
+            <span className="text-stone-200/80">{dict.unitSearchInputLabel}</span>
             <input
               id="unit-search-input"
               type="text"
               value={query}
               onChange={(event) => setQuery(event.target.value)}
               placeholder={dict.unitSearchPlaceholder}
-              className="rounded-xl border border-amber-400/30 bg-slate-950/50 px-4 py-3 text-base text-amber-100 shadow-inner outline-none transition focus:border-amber-300 focus:ring-2 focus:ring-amber-400"
+              className="rounded-xl border border-stone-400/30 bg-stone-900/50 px-4 py-3 text-base text-stone-100 shadow-inner outline-none transition focus:border-stone-300 focus:ring-2 focus:ring-stone-400"
             />
           </label>
-          {resultMessage ? <p className="text-xs text-amber-200/70">{resultMessage}</p> : null}
+          {resultMessage ? <p className="text-xs text-stone-200/70">{resultMessage}</p> : null}
         </div>
 
         {results.length > 0 ? (
@@ -438,7 +438,7 @@ export default function UnitSearch({ dict, className }: Props) {
             })}
           </Accordion.Root>
         ) : query.trim().length >= 2 ? (
-          <p className="text-sm text-amber-200/70">{dict.unitSearchNoResults}</p>
+          <p className="text-sm text-stone-200/70">{dict.unitSearchNoResults}</p>
         ) : null}
       </div>
     </section>

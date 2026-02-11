@@ -2,8 +2,8 @@
 
 import * as Dialog from "@radix-ui/react-dialog";
 import { Bug } from "lucide-react";
+import Link from "next/link";
 import { useParams } from "next/navigation";
-import { useRouter } from "next/navigation";
 import * as React from "react";
 
 import TextField from "@/components/builder/TextField";
@@ -22,9 +22,11 @@ function resolveLocaleParam(raw: string | string[] | undefined): Locale {
   return isLocale(raw) ? raw : defaultLocale;
 }
 
+const footerNavButtonClass =
+  "inline-flex shrink-0 items-center gap-2 rounded-md border border-stone-300/40 px-3 py-1.5 text-sm text-stone-200/80 transition-all duration-200 hover:border-stone-400 hover:bg-stone-500 hover:text-stone-100 active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400";
+
 export default function Footer() {
   const params = useParams();
-  const router = useRouter();
   const locale = resolveLocaleParam(
     (params as Record<string, string | string[] | undefined>)?.locale
   );
@@ -81,59 +83,45 @@ export default function Footer() {
   return (
     <footer
       aria-label={dictionary.footerAriaLabel}
-      className="mt-20 w-full border-t border-amber-300/20 bg-slate-950/80 text-amber-200/80 backdrop-blur supports-[backdrop-filter]:bg-slate-950/60"
+      className="mt-20 w-full border-t border-stone-300/20 bg-stone-900/80 text-stone-200/80 backdrop-blur supports-[backdrop-filter]:bg-stone-900/60"
     >
       <div className="mx-auto max-w-wide px-container py-section-y">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
           <p className="text-sm leading-relaxed">{dictionary.footerLegalNotice}</p>
           <div className="flex flex-col items-start gap-3 sm:items-end">
             <div className="flex flex-wrap items-center gap-2">
-              <Button
-                variant="secondary"
-                size="sm"
-                className="shrink-0"
-                onClick={() => router.push(aboutHref)}
-              >
+              <Link href={aboutHref} className={footerNavButtonClass}>
                 {dictionary.aboutTitle}
-              </Button>
-              <Button
-                variant="secondary"
-                size="sm"
-                className="shrink-0"
-                onClick={() => router.push(changelogHref)}
-              >
+              </Link>
+              <Link href={changelogHref} className={footerNavButtonClass}>
                 {dictionary.footerChangelogLinkLabel}
-              </Button>
+              </Link>
             </div>
             <Dialog.Root open={reportOpen} onOpenChange={handleReportOpenChange}>
               <Dialog.Trigger asChild>
-                <Button
-                  variant="secondary"
-                  size="sm"
-                  className="shrink-0"
-                  leftIcon={<Bug className="h-4 w-4" aria-hidden />}
-                >
+                <button type="button" className={footerNavButtonClass}>
+                  <Bug className="h-4 w-4" aria-hidden />
                   {dictionary.footerReportBugButton}
-                </Button>
+                </button>
               </Dialog.Trigger>
               <Dialog.Portal>
                 {reportOpen ? (
                   <>
-                    <Dialog.Overlay className="fixed inset-0 z-40 bg-slate-950/80 data-[state=open]:animate-fade-in" />
-                    <Dialog.Content className="fixed left-1/2 top-1/2 z-50 w-[min(92vw,560px)] -translate-x-1/2 -translate-y-1/2 rounded-2xl border border-amber-300/25 bg-slate-950/95 p-6 text-amber-50 shadow-2xl shadow-amber-900/30 focus:outline-none">
+                    <Dialog.Overlay className="fixed inset-0 z-40 bg-stone-900/80 data-[state=open]:animate-fade-in" />
+                    <Dialog.Content className="fixed left-1/2 top-1/2 z-50 w-[min(92vw,560px)] -translate-x-1/2 -translate-y-1/2 rounded-2xl border border-stone-300/25 bg-stone-900/95 p-6 text-stone-50 shadow-2xl shadow-stone-900/30 focus:outline-none">
                       <div className="flex items-start justify-between gap-4">
                         <div>
-                          <Dialog.Title className="text-lg font-semibold text-amber-100">
+                          <Dialog.Title className="text-lg font-semibold text-stone-100">
                             {dictionary.footerReportBugTitle}
                           </Dialog.Title>
-                          <Dialog.Description className="mt-1 text-sm text-amber-200/70">
+                          <Dialog.Description className="mt-1 text-sm text-stone-200/70">
                             {dictionary.footerReportBugDescription}
                           </Dialog.Description>
                         </div>
                         <Dialog.Close asChild>
                           <button
                             type="button"
-                            className="rounded-full border border-amber-300/30 px-3 py-1 text-xs uppercase tracking-widest text-amber-200/70 transition hover:border-amber-300/60 hover:text-amber-100"
+                            className="rounded-full border border-stone-300/30 px-3 py-1 text-xs uppercase tracking-widest text-stone-200/70 transition-all duration-200 hover:border-stone-300/60 hover:text-stone-100 active:scale-[0.97]"
                           >
                             {dictionary.footerReportBugCancel}
                           </button>
@@ -173,7 +161,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-3 text-xs text-amber-300/70">
+        <div className="mt-3 text-xs text-stone-300/70">
           © {year} Old-World Armybuilder — {dictionary.footerCommunityNote}
         </div>
       </div>

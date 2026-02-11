@@ -138,7 +138,7 @@ export function FactionGrid({ locale, editSlug }: FactionGridProps) {
       {/* Left gradient fade */}
       <div
         className={`pointer-events-none absolute left-0 top-0 bottom-4 w-16 z-10
-                    bg-gradient-to-r from-slate-950 to-transparent
+                    bg-gradient-to-r from-stone-950 to-transparent
                     transition-opacity duration-300
                     ${canScrollLeft ? "opacity-100" : "opacity-0"}`}
       />
@@ -146,7 +146,7 @@ export function FactionGrid({ locale, editSlug }: FactionGridProps) {
       {/* Right gradient fade */}
       <div
         className={`pointer-events-none absolute right-0 top-0 bottom-4 w-16 z-10
-                    bg-gradient-to-l from-slate-950 to-transparent
+                    bg-gradient-to-l from-stone-950 to-transparent
                     transition-opacity duration-300
                     ${canScrollRight ? "opacity-100" : "opacity-0"}`}
       />
@@ -187,10 +187,10 @@ export function FactionGrid({ locale, editSlug }: FactionGridProps) {
         onClick={handleScrollLeft}
         aria-label="Scroll factions to the left"
         className={`absolute -left-[50px] top-[calc(50%-8px)] -translate-y-1/2
-                    rounded-full border border-amber-300/40 bg-slate-900/90 p-2.5
-                    text-amber-200 shadow-lg backdrop-blur-sm
-                    transition-all duration-300 ease-out
-                    hover:scale-110 hover:border-amber-300 hover:text-amber-100 hover:bg-slate-800/90
+                    rounded-full border border-stone-300/40 bg-stone-800/90 p-2.5
+                    text-stone-200 shadow-lg backdrop-blur-sm
+                    transition-all duration-200
+                    hover:scale-110 hover:border-stone-300 hover:text-stone-100 hover:bg-stone-700/90
                     active:scale-95
                     ${canScrollLeft ? "opacity-100" : "pointer-events-none opacity-0"}`}
       >
@@ -203,10 +203,10 @@ export function FactionGrid({ locale, editSlug }: FactionGridProps) {
         onClick={handleScrollRight}
         aria-label="Scroll factions to the right"
         className={`absolute -right-[50px] top-[calc(50%-8px)] -translate-y-1/2
-                    rounded-full border border-amber-300/40 bg-slate-900/90 p-2.5
-                    text-amber-200 shadow-lg backdrop-blur-sm
-                    transition-all duration-300 ease-out
-                    hover:scale-110 hover:border-amber-300 hover:text-amber-100 hover:bg-slate-800/90
+                    rounded-full border border-stone-300/40 bg-stone-800/90 p-2.5
+                    text-stone-200 shadow-lg backdrop-blur-sm
+                    transition-all duration-200
+                    hover:scale-110 hover:border-stone-300 hover:text-stone-100 hover:bg-stone-700/90
                     active:scale-95
                     ${canScrollRight ? "opacity-100" : "pointer-events-none opacity-0"}`}
       >
@@ -221,11 +221,11 @@ export function FactionGrid({ locale, editSlug }: FactionGridProps) {
             type="button"
             onClick={() => scrollToPage(index)}
             aria-label={`Go to page ${index + 1}`}
-            className={`h-2 rounded-full transition-all duration-300 ease-out
+            className={`h-2 rounded-full transition-all duration-200
                         ${
                           index === activeIndex
-                            ? "w-6 bg-amber-400"
-                            : "w-2 bg-amber-400/30 hover:bg-amber-400/50"
+                            ? "w-6 bg-stone-400"
+                            : "w-2 bg-stone-400/30 hover:bg-stone-400/50"
                         }`}
           />
         ))}

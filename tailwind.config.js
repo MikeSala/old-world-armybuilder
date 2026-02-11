@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "class",
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}"
@@ -85,8 +86,8 @@ module.exports = {
         "glow-pulse": "glow-pulse 2s ease-in-out infinite",
       },
       backgroundImage: {
-        "hero-radial": "radial-gradient(ellipse at top center, rgba(251, 191, 36, 0.15) 0%, rgba(251, 191, 36, 0.05) 40%, transparent 70%)",
-        "hero-radial-strong": "radial-gradient(ellipse at top center, rgba(251, 191, 36, 0.25) 0%, rgba(217, 119, 6, 0.1) 30%, transparent 60%)",
+        "hero-radial": "radial-gradient(ellipse at top center, rgba(168, 162, 158, 0.18) 0%, rgba(120, 113, 108, 0.08) 40%, transparent 70%)",
+        "hero-radial-strong": "radial-gradient(ellipse at top center, rgba(168, 162, 158, 0.28) 0%, rgba(120, 113, 108, 0.14) 30%, transparent 60%)",
       },
     },
   },

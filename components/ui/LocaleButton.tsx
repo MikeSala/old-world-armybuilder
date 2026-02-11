@@ -13,7 +13,7 @@ type LocaleButtonProps = AnchorHTMLAttributes<HTMLAnchorElement> & {
 };
 
 const baseClasses =
-  "inline-flex items-center gap-2 px-3 py-1.5 rounded-md border transition hover:bg-slate-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 text-sm";
+  "inline-flex items-center gap-2 px-3 py-1.5 rounded-md border transition-all duration-200 hover:bg-stone-500 active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 text-sm";
 
 // Mapowanie: jaki emoji dla danego języka
 const LOCALE_FLAGS: Record<Locale, string> = {

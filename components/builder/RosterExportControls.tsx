@@ -307,14 +307,14 @@ export default function RosterExportControls({
         <DropdownMenu.Content
           sideOffset={6}
           align="start"
-          className="z-50 w-56 rounded-lg border border-amber-300/40 bg-slate-900/95 p-2 text-sm shadow-lg shadow-amber-900/20 backdrop-blur"
+          className="z-50 w-56 rounded-lg border border-stone-300/40 bg-stone-800/95 p-2 text-sm shadow-lg shadow-stone-900/20 backdrop-blur"
         >
           {actions.map((action, index) => (
             <DropdownMenu.Item
               key={index}
               onSelect={action.onSelect}
               disabled={action.disabled}
-              className="flex w-full items-center justify-between rounded-md px-3 py-2 text-left text-amber-100 outline-none hover:bg-slate-800/70 focus-visible:ring-2 focus-visible:ring-amber-400 disabled:cursor-not-allowed disabled:opacity-60 data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
+              className="flex w-full items-center justify-between rounded-md px-3 py-2 text-left text-stone-100 outline-none hover:bg-stone-700/70 focus-visible:ring-2 focus-visible:ring-stone-400 disabled:cursor-not-allowed disabled:opacity-60 data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
             >
               {action.label}
               <span aria-hidden>→</span>
@@ -335,11 +335,11 @@ export default function RosterExportControls({
 
   return (
     <section className={className} aria-label={dict.rosterExportAriaLabel}>
-      <div className="relative rounded-2xl border border-amber-300/30 bg-slate-900/70 p-4 text-amber-100 shadow shadow-amber-900/10">
-        <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-400">
+      <div className="relative rounded-2xl border border-stone-300/30 bg-stone-800/70 p-4 text-stone-100 shadow shadow-stone-900/10">
+        <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-stone-400">
           {dict.rosterExportTitle}
         </h3>
-        <p className="mt-2 text-xs text-amber-200/70">{dict.rosterExportDescription}</p>
+        <p className="mt-2 text-xs text-stone-200/70">{dict.rosterExportDescription}</p>
 
         <div className="mt-4">{triggerButton}</div>
       </div>

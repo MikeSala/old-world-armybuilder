@@ -95,15 +95,15 @@ export function RosterSummaryList({
         return (
           <li
             key={category}
-            className="rounded-xl bg-slate-800/60 p-4 print:break-inside-avoid print:border print:border-gray-300 print:bg-white print:shadow-none"
+            className="rounded-xl bg-stone-700/60 p-4 print:break-inside-avoid print:border print:border-gray-300 print:bg-white print:shadow-none"
           >
             <div className="mb-2 flex items-center justify-between">
-              <span className="font-semibold text-amber-200 print:text-gray-900">
+              <span className="font-semibold text-stone-200 print:text-gray-900">
                 {categoryLabel}
               </span>
-              <span className="text-amber-200/70 print:text-gray-800">{categoryPoints}</span>
+              <span className="text-stone-200/70 print:text-gray-800">{categoryPoints}</span>
             </div>
-            <ul className="space-y-2 text-amber-100/90 print:text-gray-900">
+            <ul className="space-y-2 text-stone-100/90 print:text-gray-900">
               {items.map((entry) => {
                 const entryName =
                   unitLabelById?.get(entry.unitId) ?? translateNameForDict(entry.name, dict);
@@ -163,16 +163,16 @@ export function RosterSummaryList({
                 return (
                   <li
                     key={entry.id}
-                    className="rounded-lg bg-slate-900/60 px-3 py-2 print:break-inside-avoid print:border print:border-gray-300 print:bg-white print:shadow-none"
+                    className="rounded-lg bg-stone-800/60 px-3 py-2 print:break-inside-avoid print:border print:border-gray-300 print:bg-white print:shadow-none"
                   >
                     <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between print:gap-2">
                       <div className="flex flex-col gap-1">
-                        <span className="font-medium text-amber-100 print:text-gray-900">
+                        <span className="font-medium text-stone-100 print:text-gray-900">
                           {entry.unitSize} {entryName}
                         </span>
                       </div>
                       <div className="flex flex-wrap items-center gap-3 md:ml-auto print:gap-2">
-                        <span className="text-amber-200/80 print:font-semibold print:text-gray-900">
+                        <span className="text-stone-200/80 print:font-semibold print:text-gray-900">
                           {entryPointsLabel}
                         </span>
                         <Button
@@ -189,16 +189,16 @@ export function RosterSummaryList({
                           size="sm"
                           onClick={() => onToggleDetails(entry.id)}
                           aria-expanded={isExpanded}
-                          className="print:hidden text-xs uppercase tracking-wide text-amber-300 hover:text-amber-100"
+                          className="print:hidden text-xs uppercase tracking-wide text-stone-300 hover:text-stone-100"
                         >
                           {detailsLabel}
                         </Button>
-                        <label className="flex flex-row-reverse items-center gap-2 text-xs text-amber-100 print:hidden md:ml-auto">
+                        <label className="flex flex-row-reverse items-center gap-2 text-xs text-stone-100 print:hidden md:ml-auto">
                           <input
                             type="checkbox"
                             checked={entry.owned}
                             onChange={(event) => onToggleOwned(entry.id, event.target.checked)}
-                            className="h-4 w-4 rounded border-amber-100 bg-slate-900 text-amber-500 focus:ring-amber-400"
+                            className="h-4 w-4 rounded border-stone-100 bg-stone-800 text-stone-500 focus:ring-stone-400"
                           />
                           <span>{dict.rosterSummaryOwnedLabel}</span>
                         </label>
@@ -208,17 +208,17 @@ export function RosterSummaryList({
                       </div>
                     </div>
 
-                    <div className="mt-1 text-xs text-amber-200/70 print:font-medium print:text-gray-700">
+                    <div className="mt-1 text-xs text-stone-200/70 print:font-medium print:text-gray-700">
                       {baseCostText}
                       {unitSizeDetail ? ` · ${unitSizeDetail}` : ""}
                     </div>
                     {isExpanded ? (
                       detail ? (
-                        <div className="mt-3 space-y-3 rounded-lg border border-amber-400/20 bg-slate-950/60 p-3 text-xs text-amber-200/70 print:break-inside-avoid print:border-gray-300 print:bg-gray-100">
+                        <div className="mt-3 space-y-3 rounded-lg border border-stone-400/20 bg-stone-900/60 p-3 text-xs text-stone-200/70 print:break-inside-avoid print:border-gray-300 print:bg-gray-100">
                           {statsRows.length ? (
                             <StatsTable rows={statsRows} dict={dict} />
                           ) : (
-                            <p className="text-amber-200/70 print:text-gray-700">
+                            <p className="text-stone-200/70 print:text-gray-700">
                               {dict.rosterDetailStatsMissing}
                             </p>
                           )}
@@ -227,10 +227,10 @@ export function RosterSummaryList({
                             <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:gap-6">
                               {specialRules.length ? (
                                 <div className="flex-1 space-y-1">
-                                  <h5 className="font-semibold uppercase tracking-wide text-amber-200/70 print:text-gray-700">
+                                  <h5 className="font-semibold uppercase tracking-wide text-stone-200/70 print:text-gray-700">
                                     {dict.rosterDetailSpecialRulesLabel}
                                   </h5>
-                                  <p className="text-amber-100 print:text-gray-900">
+                                  <p className="text-stone-100 print:text-gray-900">
                                     {translatedRules.join(", ")}
                                   </p>
                                 </div>
@@ -242,10 +242,10 @@ export function RosterSummaryList({
                                       key={`${meta.label}-${meta.value}`}
                                       className="flex flex-col gap-0.5"
                                     >
-                                      <dt className="font-semibold uppercase tracking-wide text-amber-200/70 print:text-gray-700">
+                                      <dt className="font-semibold uppercase tracking-wide text-stone-200/70 print:text-gray-700">
                                         {meta.label}
                                       </dt>
-                                      <dd className="text-amber-100 print:text-gray-900">
+                                      <dd className="text-stone-100 print:text-gray-900">
                                         {meta.value}
                                       </dd>
                                     </div>
@@ -256,13 +256,13 @@ export function RosterSummaryList({
                           ) : null}
                         </div>
                       ) : (
-                        <div className="mt-3 rounded-lg border border-amber-200/20 bg-slate-900/40 p-3 text-xs text-amber-200/70 print:border-gray-300 print:bg-gray-100 print:text-gray-700">
+                        <div className="mt-3 rounded-lg border border-stone-200/20 bg-stone-800/40 p-3 text-xs text-stone-200/70 print:border-gray-300 print:bg-gray-100 print:text-gray-700">
                           {dict.rosterDetailStatsMissing}
                         </div>
                       )
                     ) : null}
                     {entry.options.length ? (
-                      <ul className="mt-2 space-y-1 text-xs text-amber-200/70 print:text-gray-700">
+                      <ul className="mt-2 space-y-1 text-xs text-stone-200/70 print:text-gray-700">
                         {entry.options.map((opt) => {
                           const optionCost = formatOptionCost(opt, dict, formatPointsFor);
                           const optionInfo = opt.sourceId ? optionMap?.get(opt.sourceId) : null;
@@ -281,18 +281,18 @@ export function RosterSummaryList({
                               className="flex items-center justify-between gap-3 print:break-inside-avoid print:grid print:grid-cols-[minmax(0,1fr)_auto] print:gap-2"
                             >
                               <span className="print:text-gray-900">
-                                <span className="font-medium text-amber-200/70 print:text-gray-900">
+                                <span className="font-medium text-stone-200/70 print:text-gray-900">
                                   {optionGroupLabel}
                                 </span>{" "}
-                                <span className=" text-amber-100 print:text-gray-900">{optionName}</span>
+                                <span className=" text-stone-100 print:text-gray-900">{optionName}</span>
                                 {optionNote ? (
-                                  <span className="text-amber-200/70 print:text-gray-900">
+                                  <span className="text-stone-200/70 print:text-gray-900">
                                     {" "}
                                     — {optionNote}
                                   </span>
                                 ) : null}
                               </span>
-                              <span className="text-amber-100 print:text-gray-900">{optionCost}</span>
+                              <span className="text-stone-100 print:text-gray-900">{optionCost}</span>
                             </li>
                           );
                         })}

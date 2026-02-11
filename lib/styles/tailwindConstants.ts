@@ -4,17 +4,17 @@
  */
 
 /**
- * Card/container styles with amber borders and dark backgrounds
+ * Card/container styles with stone borders and dark backgrounds
  */
 export const TAILWIND_CARDS = {
   /** Standard option card - Used in CategoryConfigurator, OptionGroupSection */
-  OPTION_CARD: "rounded-xl border border-amber-300/20 bg-slate-900/60 p-4",
+  OPTION_CARD: "rounded-xl border border-stone-300/20 bg-stone-800/60 p-4",
 
   /** Detail card with shadow - Used in RosterDetailSheet */
-  DETAIL_CARD: "rounded-xl border border-amber-400/10 bg-slate-950/60 p-4 shadow shadow-amber-900/10",
+  DETAIL_CARD: "rounded-xl border border-stone-400/10 bg-stone-900/60 p-4 shadow shadow-stone-900/10",
 
   /** Main configurator section - Used in CategoryConfigurator */
-  CONFIGURATOR_SECTION: "rounded-2xl border border-amber-300/30 bg-slate-900/60 p-5 text-amber-100 shadow-lg shadow-amber-900/10",
+  CONFIGURATOR_SECTION: "rounded-2xl border border-stone-300/30 bg-stone-800/60 p-5 text-stone-100 shadow-lg shadow-stone-900/10",
 } as const;
 
 /**
@@ -22,16 +22,16 @@ export const TAILWIND_CARDS = {
  */
 export const TAILWIND_TEXT = {
   /** Muted text for hints and secondary information */
-  MUTED: "text-xs text-amber-200/70 print:text-gray-600 print:text-[11px]",
+  MUTED: "text-xs text-stone-200/70 print:text-gray-600 print:text-[11px]",
 
   /** Muted text (shorter variant without print) */
-  MUTED_SHORT: "text-xs text-amber-200/70",
+  MUTED_SHORT: "text-xs text-stone-200/70",
 
   /** Empty state messages */
-  EMPTY_STATE: "text-sm text-amber-200/60 print:text-gray-700",
+  EMPTY_STATE: "text-sm text-stone-200/60 print:text-gray-700",
 
   /** Section headings */
-  SECTION_HEADING: "text-sm font-semibold uppercase tracking-[0.2em] text-amber-300",
+  SECTION_HEADING: "text-sm font-semibold uppercase tracking-[0.2em] text-stone-300",
 } as const;
 
 /**
@@ -39,7 +39,7 @@ export const TAILWIND_TEXT = {
  */
 export const TAILWIND_INPUTS = {
   /** Search input field - Used in UnitSearch */
-  SEARCH: "rounded-xl border border-amber-400/30 bg-slate-950/50 px-4 py-3 text-base text-amber-100 shadow-inner outline-none transition focus:border-amber-300 focus:ring-2 focus:ring-amber-400",
+  SEARCH: "rounded-xl border border-stone-400/30 bg-stone-900/50 px-4 py-3 text-base text-stone-100 shadow-inner outline-none transition focus:border-stone-300 focus:ring-2 focus:ring-stone-400",
 } as const;
 
 /**

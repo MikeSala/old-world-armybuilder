@@ -31,10 +31,10 @@ export function FactionCard({ faction, locale, editSlug, isDragging = false }: F
       draggable={false}
       className={`group relative flex flex-none snap-start items-center justify-center p-4
                  h-[160px] w-[170px]
-                 rounded-xl border border-amber-400/20 bg-slate-900/60
+                 rounded-xl border border-stone-400/20 bg-stone-800/60
                  backdrop-blur-sm transition-all duration-300 ease-out
-                 hover:bg-slate-900/80 hover:rounded-2xl
-                 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400
+                 hover:bg-stone-800/80 hover:rounded-2xl
+                 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400
                  ${isDragging ? "cursor-grabbing" : "hover:scale-[1.03] hover:-translate-y-1"}`}
       style={
         {
@@ -70,9 +70,9 @@ export function FactionCard({ faction, locale, editSlug, isDragging = false }: F
 
       {/* Faction name with better typography */}
       <h3
-        className="absolute left-3 right-3 top-[108px] text-[11px] font-semibold uppercase tracking-wider text-amber-100/90
+        className="absolute left-3 right-3 top-[108px] text-[11px] font-semibold uppercase tracking-wider text-stone-100/90
                    text-center leading-snug transition-all duration-300
-                   group-hover:text-amber-50 group-hover:tracking-widest"
+                   group-hover:text-stone-50 group-hover:tracking-widest"
       >
         {name}
       </h3>

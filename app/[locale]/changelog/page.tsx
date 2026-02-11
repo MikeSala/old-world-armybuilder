@@ -70,12 +70,12 @@ export default async function ChangelogPage({ params }: PageProps) {
   };
 
   return (
-    <section className="py-section-y text-amber-100">
+    <section className="py-section-y text-stone-100">
       <div className="max-w-3xl">
         <h1 className="text-3xl font-bold tracking-tight">
           {dictionary.changelogTitle}
         </h1>
-        <p className="mt-3 text-sm text-amber-200/70">{dictionary.changelogDescription}</p>
+        <p className="mt-3 text-sm text-stone-200/70">{dictionary.changelogDescription}</p>
       </div>
 
       {entries.length ? (
@@ -83,20 +83,20 @@ export default async function ChangelogPage({ params }: PageProps) {
           {entries.map((entry) => (
             <article
               key={`${entry.date}-${entry.title}`}
-              className="rounded-2xl border border-amber-300/20 bg-slate-900/70 p-5 shadow-lg shadow-slate-950/40"
+              className="rounded-2xl border border-stone-300/20 bg-stone-800/70 p-5 shadow-lg shadow-stone-950/40"
             >
-              <div className="text-xs uppercase tracking-[0.25em] text-amber-300/60">
+              <div className="text-xs uppercase tracking-[0.25em] text-stone-300/60">
                 {formatDate(entry.date)}
               </div>
-              <h2 className="mt-2 text-lg font-semibold text-amber-100">{entry.title}</h2>
+              <h2 className="mt-2 text-lg font-semibold text-stone-100">{entry.title}</h2>
               {entry.description ? (
-                <p className="mt-2 text-sm text-amber-200/70">{entry.description}</p>
+                <p className="mt-2 text-sm text-stone-200/70">{entry.description}</p>
               ) : null}
               {entry.items?.length ? (
-                <ul className="mt-3 space-y-2 text-sm text-amber-200/80">
+                <ul className="mt-3 space-y-2 text-sm text-stone-200/80">
                   {entry.items.map((item) => (
                     <li key={item} className="flex items-start gap-2">
-                      <span className="mt-1 h-1.5 w-1.5 rounded-full bg-amber-400/80" />
+                      <span className="mt-1 h-1.5 w-1.5 rounded-full bg-stone-400/80" />
                       <span>{item}</span>
                     </li>
                   ))}
@@ -106,7 +106,7 @@ export default async function ChangelogPage({ params }: PageProps) {
           ))}
         </div>
       ) : (
-        <p className="mt-8 text-sm text-amber-200/70">{dictionary.changelogEmpty}</p>
+        <p className="mt-8 text-sm text-stone-200/70">{dictionary.changelogEmpty}</p>
       )}
     </section>
   );

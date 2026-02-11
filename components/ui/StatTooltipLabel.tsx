@@ -21,7 +21,7 @@ export function StatTooltipLabel({ abbreviation, label, className }: Props) {
         <span
           tabIndex={0}
           className={clsx(
-            "cursor-help rounded px-1 py-0.5 outline-none focus-visible:ring-2 focus-visible:ring-amber-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950",
+            "cursor-help rounded px-1 py-0.5 outline-none focus-visible:ring-2 focus-visible:ring-stone-400 focus-visible:ring-offset-2 focus-visible:ring-offset-stone-950",
             className
           )}
         >
@@ -32,10 +32,10 @@ export function StatTooltipLabel({ abbreviation, label, className }: Props) {
         <Tooltip.Content
           side="top"
           sideOffset={6}
-          className="select-none rounded border-2 border-amber-400 bg-slate-900/95 px-2 py-1 text-xs font-medium text-amber-100 z-[70]"
+          className="select-none rounded border-2 border-stone-400 bg-stone-800/95 px-2 py-1 text-xs font-medium text-stone-100 z-[70]"
         >
           {content}
-          <Tooltip.Arrow className="fill-slate-900/95" />
+          <Tooltip.Arrow className="fill-stone-900/95" />
         </Tooltip.Content>
       </Tooltip.Portal>
     </Tooltip.Root>

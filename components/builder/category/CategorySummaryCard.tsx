@@ -24,13 +24,13 @@ export function CategorySummaryCard({
     rightText ?? `${rightValue}${rightSuffix ? ` ${rightSuffix}` : ""}`;
 
   return (
-    <div className="flex flex-col rounded-2xl border border-amber-300/30 bg-slate-900/60 shadow-lg shadow-amber-900/20 backdrop-blur print-bg-white">
+    <div className="flex flex-col rounded-2xl border border-stone-300/30 bg-stone-800/60 shadow-lg shadow-stone-900/20 backdrop-blur print-bg-white">
       <div className="grid grid-cols-[1fr_auto_auto] items-center gap-3 px-4 py-3">
-        <div className="text-lg font-semibold text-amber-200">{title}</div>
+        <div className="text-lg font-semibold text-stone-200">{title}</div>
         <div className="flex justify-center">{headerAction ?? <span className="hidden" />}</div>
         <div
           className={`text-right text-sm font-semibold tracking-wide ${
-            emphasizeWarning ? "text-red-300" : "text-amber-200/80"
+            emphasizeWarning ? "text-red-300" : "text-stone-200/80"
           }`}
         >
           {displayText}
@@ -38,7 +38,7 @@ export function CategorySummaryCard({
       </div>
 
       {hasChildren ? (
-        <div className="border-t border-amber-300/10 px-4 py-3">
+        <div className="border-t border-stone-300/10 px-4 py-3">
           <div className="flex w-full flex-col gap-3 md:flex-col">
             {children}
           </div>

@@ -45,9 +45,9 @@ export default function Select({
 
   return (
     <RtSelect.Root value={controlledValue} onValueChange={handleValueChange} disabled={disabled}>
-      <div className={clsx("text-slate-100", className)}>
+      <div className={clsx("text-stone-100", className)}>
         {label ? (
-          <label htmlFor={selectId} className="mb-2 block text-sm font-semibold text-slate-100">
+          <label htmlFor={selectId} className="mb-2 block text-sm font-semibold text-stone-100">
             {label}
           </label>
         ) : null}
@@ -55,9 +55,9 @@ export default function Select({
         <RtSelect.Trigger
           id={selectId}
           className={clsx(
-            "flex w-full items-center justify-between rounded-md border border-amber-300/30 bg-slate-950/70 px-3 py-2 text-sm text-amber-100 shadow-sm transition",
-            "focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950",
-            "data-[state=open]:border-amber-400 data-[state=open]:bg-slate-950/80",
+            "flex w-full items-center justify-between rounded-md border border-stone-300/30 bg-stone-900/70 px-3 py-2 text-sm text-stone-100 shadow-sm transition",
+            "focus:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 focus-visible:ring-offset-2 focus-visible:ring-offset-stone-950",
+            "data-[state=open]:border-stone-400 data-[state=open]:bg-stone-900/80",
             "disabled:cursor-not-allowed disabled:opacity-60"
           )}
           aria-label={label}
@@ -73,7 +73,7 @@ export default function Select({
         <RtSelect.Content
           position="popper"
           sideOffset={6}
-          className="min-w-[var(--radix-select-trigger-width)] rounded-md border border-amber-300/30 bg-slate-900/95 text-amber-100 shadow-lg shadow-amber-900/30 backdrop-blur supports-[backdrop-filter]:bg-slate-900/80"
+          className="min-w-[var(--radix-select-trigger-width)] rounded-md border border-stone-300/30 bg-stone-800/95 text-stone-100 shadow-lg shadow-stone-900/30 backdrop-blur supports-[backdrop-filter]:bg-stone-800/80"
         >
           <RtSelect.ScrollUpButton className="flex items-center justify-center p-1 text-xs opacity-70 hover:opacity-100">
             ▲
@@ -83,7 +83,7 @@ export default function Select({
             {hasPlaceholder ? (
               <RtSelect.Item
                 value={PLACEHOLDER_VALUE}
-                className="cursor-default select-none rounded px-3 py-2 text-sm outline-none data-[highlighted]:bg-amber-400/20 data-[state=checked]:font-semibold"
+                className="cursor-default select-none rounded px-3 py-2 text-sm outline-none data-[highlighted]:bg-stone-400/20 data-[state=checked]:font-semibold"
               >
                 <RtSelect.ItemText>{placeholder}</RtSelect.ItemText>
               </RtSelect.Item>
@@ -93,7 +93,7 @@ export default function Select({
               <RtSelect.Item
                 key={option.id}
                 value={option.id}
-                className="cursor-default select-none rounded px-3 py-2 text-sm outline-none data-[highlighted]:bg-amber-400/20 data-[state=checked]:font-semibold"
+                className="cursor-default select-none rounded px-3 py-2 text-sm outline-none data-[highlighted]:bg-stone-400/20 data-[state=checked]:font-semibold"
               >
                 <RtSelect.ItemText>{option.label}</RtSelect.ItemText>
               </RtSelect.Item>
