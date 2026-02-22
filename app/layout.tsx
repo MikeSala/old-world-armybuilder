@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 
 import "./globals.css";
+import "flag-icons/css/flag-icons.min.css";
 
 import ClientProviders from "@/components/ClientProviders";
 import { MarginLayout } from "@/components/layout/MarginLayout";
@@ -30,20 +31,19 @@ export default async function RootLayout({ params, children }: RootLayoutProps) 
       ? (localeParam as Locale)
       : defaultLocale;
   return (
-    <html lang={locale} suppressHydrationWarning data-theme="dark" className="dark">
+    <html lang={locale} suppressHydrationWarning data-theme="light">
       <body className="bg-stone-500 text-stone-300">
         <Script id="theme-init" strategy="beforeInteractive">
           {`(() => {
             try {
               const storedTheme = localStorage.getItem("theme");
-              const theme = storedTheme === "light" || storedTheme === "dark" ? storedTheme : "dark";
+              const theme = storedTheme === "light" || storedTheme === "dark" ? storedTheme : "light";
               const root = document.documentElement;
               root.dataset.theme = theme;
               root.classList.toggle("dark", theme === "dark");
             } catch {
               const root = document.documentElement;
-              root.dataset.theme = "dark";
-              root.classList.add("dark");
+              root.dataset.theme = "light";
             }
           })();`}
         </Script>

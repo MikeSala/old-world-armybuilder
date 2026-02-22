@@ -19,9 +19,10 @@ import {
 } from "@/lib/i18n/paths";
 
 // Button styles
-const localeBtnBase = "border text-stone-200/80";
-const localeBtnActive = "border-stone-400 bg-stone-500/10 text-stone-200";
-const localeBtnIdle = "border-stone-300/40 hover:border-stone-400 hover:text-stone-100";
+const localeBtnBase = "";
+const localeBtnActive = "opacity-100 drop-shadow-[0_0_6px_rgba(99,102,241,0.8)]";
+const localeBtnIdle =
+  "opacity-50 hover:opacity-100 hover:drop-shadow-[0_0_6px_rgba(99,102,241,0.6)]";
 
 const editSlugByLocale: Record<Locale, string> = locales.reduce(
   (acc, locale) => {
@@ -35,7 +36,7 @@ export default function Header() {
   const pathname = usePathname() ?? "/";
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [theme, setTheme] = useState<"dark" | "light">("dark");
+  const [theme, setTheme] = useState<"dark" | "light">("light");
 
   const toggleTheme = () => {
     const nextTheme = theme === "dark" ? "light" : "dark";
@@ -122,12 +123,12 @@ export default function Header() {
         {/* Logo and brand */}
         <Link
           href={buildLocalePath(activeLocale)}
-          className="group flex items-center gap-2 sm:gap-3"
+          className="flex items-center gap-2 sm:gap-3"
           aria-label={dictionary.headerBrandLabel}
           title={dictionary.headerBrandLabel}
         >
-          <LogoIcon className="h-6 w-6 text-stone-400 transition-transform duration-300 group-hover:scale-110 sm:h-7 sm:w-7" />
-          <span className="hidden text-xs font-semibold uppercase tracking-[0.2em] text-stone-200 transition-colors group-hover:text-stone-400 sm:inline sm:text-sm lg:tracking-[0.3em]">
+          <LogoIcon className="h-6 w-6 text-stone-400 sm:h-7 sm:w-7" />
+          <span className="hidden text-xs font-semibold uppercase tracking-[0.2em] text-stone-200 sm:inline sm:text-sm lg:tracking-[0.3em]">
             Army Builder
           </span>
         </Link>
@@ -138,7 +139,7 @@ export default function Header() {
         </div>
 
         {/* Language switcher (desktop) */}
-        <div className="hidden items-center gap-1 sm:flex sm:gap-1.5">
+        <div className="hidden items-center gap-2.5 sm:flex sm:gap-3">
           {locales.map((locale) => {
             const isActive = locale === activeLocale;
             return (
@@ -156,25 +157,27 @@ export default function Header() {
           })}
         </div>
 
-        {/* Theme switcher (desktop) */}
+        {/* Theme toggle */}
         <button
           type="button"
           onClick={toggleTheme}
-          className="hidden h-9 items-center gap-2 rounded-md border border-stone-300/40 bg-stone-700/70 px-3 text-xs font-semibold uppercase tracking-wide text-stone-100 transition-all duration-200 hover:bg-stone-600/80 active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-300 sm:inline-flex"
           aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
+          className="theme-toggle relative flex h-8 w-16 shrink-0 cursor-pointer items-center rounded-full border border-stone-600 bg-stone-800 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 active:scale-[0.97]"
         >
-          {theme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
-          <span>{theme === "dark" ? "Light" : "Dark"}</span>
-        </button>
-
-        {/* Theme switcher (mobile) */}
-        <button
-          type="button"
-          onClick={toggleTheme}
-          className="inline-flex h-10 w-10 items-center justify-center rounded-md border border-stone-300/40 bg-stone-700/70 text-stone-100 transition-all duration-200 hover:bg-stone-600/80 active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-300 sm:hidden"
-          aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
-        >
-          {theme === "dark" ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
+          {/* Sliding knob */}
+          <span
+            className={clsx(
+              "absolute flex h-6 w-6 items-center justify-center rounded-full bg-stone-300 shadow transition-all duration-300",
+              theme === "light" ? "left-1" : "left-9"
+            )}
+          >
+            {theme === "light"
+              ? <Sun className="h-3.5 w-3.5 text-stone-800" />
+              : <Moon className="h-3.5 w-3.5 text-stone-800" />}
+          </span>
+          {/* Background hint icons */}
+          <Moon className={clsx("ml-auto mr-1.5 h-3 w-3 text-stone-500 transition-opacity duration-300", theme === "light" ? "opacity-60" : "opacity-0")} />
+          <Sun className={clsx("ml-1.5 mr-auto h-3 w-3 text-stone-500 transition-opacity duration-300", theme === "dark" ? "opacity-60" : "opacity-0")} />
         </button>
 
         {/* Mobile language menu */}
