@@ -1,7 +1,11 @@
 import { MarginLayout } from "@/components/layout/MarginLayout";
 import { FactionGrid } from "@/components/home/FactionGrid";
 import UnitSearch from "@/components/unit/UnitSearch";
+import { ARMIES } from "@/lib/data/armies/armies";
 import type { Locale, LocaleDictionary } from "@/lib/i18n/dictionaries";
+
+const officialArmies = ARMIES.filter((a) => !a.isLegacy);
+const legacyArmies = ARMIES.filter((a) => a.isLegacy);
 
 type Props = {
   dict: LocaleDictionary;
@@ -17,8 +21,14 @@ export function LandingPageContent({ dict, locale }: Props) {
           <h2 className="mb-4 text-center text-heading-section font-bold uppercase tracking-wider text-stone-200 sm:mb-5">
             {dict.landingFactionHeading}
           </h2>
-          <FactionGrid locale={locale} editSlug={dict.editSlug} />
         </MarginLayout>
+        {/* Full-bleed rows */}
+        <div className="relative left-1/2 w-screen -translate-x-1/2 mt-3">
+          <FactionGrid locale={locale} editSlug={dict.editSlug} armies={officialArmies} />
+        </div>
+        <div className="relative left-1/2 w-screen -translate-x-1/2 mt-2">
+          <FactionGrid locale={locale} editSlug={dict.editSlug} armies={legacyArmies} />
+        </div>
       </section>
 
       {/* Unit Search Section */}

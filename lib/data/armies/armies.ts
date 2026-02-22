@@ -4,6 +4,7 @@ import type { DataKey } from "@/lib/i18n/data";
 export type Army = {
   id: string;
   nameKey: DataKey;
+  isLegacy?: boolean;
   compositions?: { id: string; nameKey: DataKey }[];
 };
 
@@ -33,6 +34,7 @@ export const ARMIES: Army[] = [
   {
     id: "chaos-dwarfs",
     nameKey: "army.chaos-dwarfs",
+    isLegacy: true,
     compositions: [
       { id: "grand-army", nameKey: "composition.grand-army" },
       { id: "renegade", nameKey: "composition.renegades" },
@@ -41,6 +43,7 @@ export const ARMIES: Army[] = [
   {
     id: "daemons-of-chaos",
     nameKey: "army.daemons-of-chaos",
+    isLegacy: true,
     compositions: [
       { id: "grand-army", nameKey: "composition.grand-army" },
       { id: "renegade", nameKey: "composition.renegades" },
@@ -49,6 +52,7 @@ export const ARMIES: Army[] = [
   {
     id: "dark-elves",
     nameKey: "army.dark-elves",
+    isLegacy: true,
     compositions: [
       { id: "grand-army", nameKey: "composition.grand-army" },
       { id: "renegade", nameKey: "composition.renegades" },
@@ -105,6 +109,7 @@ export const ARMIES: Army[] = [
   {
     id: "lizardmen",
     nameKey: "army.lizardmen",
+    isLegacy: true,
     compositions: [
       { id: "grand-army", nameKey: "composition.grand-army" },
       { id: "renegade", nameKey: "composition.renegades" },
@@ -113,6 +118,7 @@ export const ARMIES: Army[] = [
   {
     id: "ogre-kingdoms",
     nameKey: "army.ogre-kingdoms",
+    isLegacy: true,
     compositions: [
       { id: "grand-army", nameKey: "composition.grand-army" },
       { id: "renegade", nameKey: "composition.renegades" },
@@ -134,6 +140,7 @@ export const ARMIES: Army[] = [
   {
     id: "skaven",
     nameKey: "army.skaven",
+    isLegacy: true,
     compositions: [
       { id: "grand-army", nameKey: "composition.grand-army" },
       { id: "renegade", nameKey: "composition.renegades" },
@@ -151,6 +158,7 @@ export const ARMIES: Army[] = [
   {
     id: "vampire-counts",
     nameKey: "army.vampire-counts",
+    isLegacy: true,
     compositions: [
       { id: "grand-army", nameKey: "composition.grand-army" },
       { id: "renegade", nameKey: "composition.renegades" },
