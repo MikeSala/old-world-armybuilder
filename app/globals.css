@@ -64,6 +64,7 @@
 
   body {
     margin: 0;
+    overflow-x: clip;
     font-feature-settings:
       "rlig" 1,
       "calt" 1;
@@ -80,7 +81,10 @@
 
   html[data-theme="light"] img,
   html[data-theme="light"] video,
-  html[data-theme="light"] canvas {
+  html[data-theme="light"] canvas,
+  html[data-theme="light"] .locale-btn,
+  html[data-theme="light"] .theme-toggle,
+  html[data-theme="light"] .footer-btn {
     filter: invert(1) hue-rotate(180deg);
   }
 }
