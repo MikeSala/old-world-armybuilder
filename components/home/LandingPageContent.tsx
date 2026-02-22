@@ -32,7 +32,7 @@ export function LandingPageContent({ dict, locale }: Props) {
       </section>
 
       {/* Unit Search Section */}
-      <section className="bg-stone-100 dark:bg-stone-600">
+      <section className="bg-white dark:bg-stone-950">
         <MarginLayout>
           <UnitSearch dict={dict} className="w-full text-left" />
         </MarginLayout>
