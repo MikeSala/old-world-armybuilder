@@ -28,9 +28,9 @@ const baseClasses =
 // Styling classes specific to each button variant, defining colors, borders, and hover/focus states
 const variantClasses: Record<ButtonVariant, string> = {
   primary:
-    "rounded-md border border-stone-900 bg-stone-700 text-stone-100 hover:bg-stone-800 focus-visible:ring-stone-400 focus-visible:ring-offset-stone-900",
+    "rounded-md border border-emerald-800 bg-emerald-700 text-stone-50 hover:bg-emerald-600 focus-visible:ring-emerald-400 focus-visible:ring-offset-stone-900",
   secondary:
-    "rounded-md border border-stone-500 bg-transparent text-stone-500 hover:bg-stone-500/10 focus-visible:ring-stone-300 focus-visible:ring-offset-stone-800",
+    "rounded-md border border-emerald-600/60 bg-emerald-950/30 text-emerald-400 hover:border-emerald-500 hover:bg-emerald-900/40 hover:text-emerald-300 focus-visible:ring-emerald-400 focus-visible:ring-offset-stone-900",
   ghost:
     "rounded-md border border-transparent bg-transparent text-stone-700 hover:border-stone-500 hover:bg-stone-100/40 focus-visible:ring-stone-400 focus-visible:ring-offset-stone-900",
   outline:
@@ -38,7 +38,7 @@ const variantClasses: Record<ButtonVariant, string> = {
   gradient:
     "rounded-md border border-stone-600 bg-gradient-to-br from-stone-500 via-stone-600 to-stone-800 text-stone-100 shadow-lg hover:-translate-y-0.5 hover:from-stone-500 hover:via-stone-500 hover:to-stone-700 focus-visible:ring-stone-300 focus-visible:ring-offset-stone-900",
   accent:
-    "rounded-md border border-stone-400 bg-stone-500 text-stone-900 shadow-lg shadow-stone-900/20 hover:bg-stone-400 focus-visible:ring-stone-200 focus-visible:ring-offset-stone-900 disabled:bg-stone-600 disabled:text-stone-200 disabled:shadow-none",
+    "rounded-md border border-emerald-400 bg-emerald-600 text-stone-50 shadow-lg shadow-stone-900/20 hover:bg-emerald-500 focus-visible:ring-emerald-300 focus-visible:ring-offset-stone-900 disabled:bg-emerald-900 disabled:text-stone-300 disabled:shadow-none",
 };
 
 // Styling classes defining padding and font size for each button size option

@@ -235,8 +235,8 @@ export default function RosterBuilderClient({ dict, className, onSaved }: Props)
                     disabled={saving}
                     className={`flex-1 min-w-[120px] rounded-lg px-4 py-2.5 font-semibold text-stone-50 shadow-md transition-all duration-200 disabled:opacity-60 ${
                       savedAt
-                        ? "bg-stone-600 hover:bg-stone-600/90"
-                        : "bg-stone-500 hover:bg-stone-500 hover:shadow-lg"
+                        ? "bg-emerald-800 hover:bg-emerald-700/90"
+                        : "bg-emerald-700 hover:bg-emerald-600 hover:shadow-lg"
                     }`}
                   >
                     {savedAt ? dict.rosterSetupSavedButton : dict.rosterSetupSaveButton}
