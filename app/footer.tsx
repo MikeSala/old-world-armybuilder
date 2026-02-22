@@ -1,7 +1,7 @@
 "use client";
 
 import * as Dialog from "@radix-ui/react-dialog";
-import { Bug } from "lucide-react";
+import { Bug, Clock, Info } from "lucide-react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import * as React from "react";
@@ -23,7 +23,10 @@ function resolveLocaleParam(raw: string | string[] | undefined): Locale {
 }
 
 const footerNavButtonClass =
-  "inline-flex shrink-0 items-center gap-2 rounded-md border border-stone-300/40 px-3 py-1.5 text-sm text-stone-200/80 transition-all duration-200 hover:border-stone-400 hover:bg-stone-500 hover:text-stone-100 active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400";
+  "footer-btn inline-flex shrink-0 items-center gap-2 rounded-md border border-stone-600 bg-stone-700/60 px-3 py-1.5 text-sm text-stone-200/80 transition-all duration-200 hover:border-stone-500 hover:bg-stone-600/70 hover:text-stone-100 active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400";
+
+const footerActionButtonClass =
+  "footer-btn inline-flex shrink-0 items-center gap-2 rounded-md border border-stone-600 bg-stone-700/60 px-3 py-1.5 text-sm text-stone-200/80 transition-all duration-200 hover:border-red-400/60 hover:bg-red-950/40 hover:text-red-200 active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-400/50";
 
 export default function Footer() {
   const params = useParams();
@@ -91,15 +94,16 @@ export default function Footer() {
           <div className="flex flex-col items-start gap-3 sm:items-end">
             <div className="flex flex-wrap items-center gap-2">
               <Link href={aboutHref} className={footerNavButtonClass}>
+                <Info className="h-4 w-4" aria-hidden />
                 {dictionary.aboutTitle}
               </Link>
               <Link href={changelogHref} className={footerNavButtonClass}>
+                <Clock className="h-4 w-4" aria-hidden />
                 {dictionary.footerChangelogLinkLabel}
               </Link>
-            </div>
-            <Dialog.Root open={reportOpen} onOpenChange={handleReportOpenChange}>
+              <Dialog.Root open={reportOpen} onOpenChange={handleReportOpenChange}>
               <Dialog.Trigger asChild>
-                <button type="button" className={footerNavButtonClass}>
+                <button type="button" className={footerActionButtonClass}>
                   <Bug className="h-4 w-4" aria-hidden />
                   {dictionary.footerReportBugButton}
                 </button>
@@ -158,6 +162,7 @@ export default function Footer() {
                 ) : null}
               </Dialog.Portal>
             </Dialog.Root>
+            </div>
           </div>
         </div>
 
