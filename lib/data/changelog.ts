@@ -20,6 +20,37 @@ export type ResolvedChangelogEntry = {
 
 const CHANGELOG: ChangelogEntry[] = [
   {
+    date: "2026-02-22",
+    title: {
+      pl: "Odświeżenie interfejsu",
+      en: "UI refresh",
+    },
+    description: {
+      pl: "Zestaw usprawnień wizualnych na stronie głównej, w nagłówku i stopce.",
+      en: "A set of visual improvements across the landing page, header and footer.",
+    },
+    items: {
+      pl: [
+        "Wybór frakcji przebudowany na poziome scrollowalne „pills" – dwa rzędy: frakcje oficjalnie wspierane i frakcje legacy.",
+        "Przełącznik języka zastąpiony płaskimi flagami krajów z podświetleniem indygo.",
+        "Przełącznik dark/light mode przeprojektowany jako suwak; domyślnie włączony tryb jasny.",
+        "Buttony w stopce (O mnie, Ostatnie zmiany, Zgłoś błąd) wzbogacone o ikony i wyraźniejsze tło.",
+        "Poprawiono wyświetlanie buttonów w trybie jasnym (counter-filter dla flag, togglea i stopki).",
+        "Usunięto efekty hover z logo.",
+        "Usunięto automatyczne przekierowanie na /pl/.",
+      ],
+      en: [
+        "Faction selector rebuilt as horizontal scrollable pills – two rows: officially supported and legacy factions.",
+        "Locale switcher replaced with flat country flags with indigo glow.",
+        "Dark/light mode toggle redesigned as a pill slider; light mode is now the default.",
+        "Footer buttons (About, Latest changes, Report a bug) enhanced with icons and a distinct background.",
+        "Fixed button rendering in light mode (counter-filter for flags, toggle and footer).",
+        "Removed hover effects from the logo.",
+        "Removed automatic redirect to /pl/.",
+      ],
+    },
+  },
+  {
     date: "2026-01-22",
     title: {
       pl: "Nowości w projekcie",
