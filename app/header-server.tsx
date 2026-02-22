@@ -115,8 +115,8 @@ export default function Header() {
       className={clsx(
         "fixed inset-x-0 top-0 z-50 border-b transition-all duration-300",
         scrolled
-          ? "border-stone-400/30 bg-stone-900/95 backdrop-blur-md shadow-lg shadow-stone-950/50"
-          : "border-stone-300/20 bg-stone-900/70 backdrop-blur-sm"
+          ? "border-stone-200 bg-white/95 backdrop-blur-md shadow-lg shadow-stone-200/50 dark:border-stone-400/30 dark:bg-stone-900/95 dark:shadow-stone-950/50"
+          : "border-stone-200/0 bg-white/80 backdrop-blur-sm dark:border-stone-300/20 dark:bg-stone-900/70"
       )}
     >
       <div className="mx-auto flex w-full max-w-main items-center justify-between gap-gap-sm px-container py-2.5 sm:py-3">
@@ -127,8 +127,8 @@ export default function Header() {
           aria-label={dictionary.headerBrandLabel}
           title={dictionary.headerBrandLabel}
         >
-          <LogoIcon className="h-6 w-6 text-stone-400 sm:h-7 sm:w-7" />
-          <span className="hidden text-xs font-semibold uppercase tracking-[0.2em] text-stone-200 sm:inline sm:text-sm lg:tracking-[0.3em]">
+          <LogoIcon className="h-6 w-6 text-stone-500 sm:h-7 sm:w-7 dark:text-stone-400" />
+          <span className="hidden text-xs font-semibold uppercase tracking-[0.2em] text-stone-800 sm:inline sm:text-sm lg:tracking-[0.3em] dark:text-stone-200">
             Army Builder
           </span>
         </Link>
@@ -162,22 +162,22 @@ export default function Header() {
           type="button"
           onClick={toggleTheme}
           aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
-          className="theme-toggle relative flex h-8 w-16 shrink-0 cursor-pointer items-center rounded-full border border-stone-600 bg-stone-800 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 active:scale-[0.97]"
+          className="theme-toggle relative flex h-8 w-16 shrink-0 cursor-pointer items-center rounded-full border border-stone-300 bg-stone-100 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 active:scale-[0.97] dark:border-stone-600 dark:bg-stone-800"
         >
           {/* Sliding knob */}
           <span
             className={clsx(
-              "absolute flex h-6 w-6 items-center justify-center rounded-full bg-stone-300 shadow transition-all duration-300",
+              "absolute flex h-6 w-6 items-center justify-center rounded-full bg-white shadow transition-all duration-300 dark:bg-stone-300",
               theme === "light" ? "left-1" : "left-9"
             )}
           >
             {theme === "light"
-              ? <Sun className="h-3.5 w-3.5 text-stone-800" />
-              : <Moon className="h-3.5 w-3.5 text-stone-800" />}
+              ? <Sun className="h-3.5 w-3.5 text-stone-600 dark:text-stone-800" />
+              : <Moon className="h-3.5 w-3.5 text-stone-600 dark:text-stone-800" />}
           </span>
           {/* Background hint icons */}
-          <Moon className={clsx("ml-auto mr-1.5 h-3 w-3 text-stone-500 transition-opacity duration-300", theme === "light" ? "opacity-60" : "opacity-0")} />
-          <Sun className={clsx("ml-1.5 mr-auto h-3 w-3 text-stone-500 transition-opacity duration-300", theme === "dark" ? "opacity-60" : "opacity-0")} />
+          <Moon className={clsx("ml-auto mr-1.5 h-3 w-3 text-stone-400 transition-opacity duration-300 dark:text-stone-500", theme === "light" ? "opacity-60" : "opacity-0")} />
+          <Sun className={clsx("ml-1.5 mr-auto h-3 w-3 text-stone-400 transition-opacity duration-300 dark:text-stone-500", theme === "dark" ? "opacity-60" : "opacity-0")} />
         </button>
 
         {/* Mobile language menu */}
@@ -185,7 +185,7 @@ export default function Header() {
           <Dialog.Trigger asChild>
             <button
               type="button"
-              className="inline-flex h-10 w-10 items-center justify-center rounded-md border border-stone-300/40 bg-stone-700/70 text-stone-100 transition-all duration-200 hover:bg-stone-600/80 active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-300 sm:hidden"
+              className="inline-flex h-10 w-10 items-center justify-center rounded-md border border-stone-300 bg-stone-100 text-stone-700 transition-all duration-200 hover:bg-stone-200 active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-300 sm:hidden dark:border-stone-300/40 dark:bg-stone-700/70 dark:text-stone-100 dark:hover:bg-stone-600/80"
               aria-label={mobileMenuOpen ? "Close language menu" : "Open language menu"}
               aria-expanded={mobileMenuOpen}
             >
@@ -194,8 +194,8 @@ export default function Header() {
           </Dialog.Trigger>
           <Dialog.Portal>
             <Dialog.Overlay className="fixed inset-0 z-40 bg-stone-900/60 data-[state=open]:animate-fade-in sm:hidden" />
-            <Dialog.Content className="fixed left-4 right-4 top-16 z-50 rounded-2xl border border-stone-300/30 bg-stone-800/95 p-4 shadow-2xl shadow-stone-900/30 backdrop-blur focus:outline-none sm:hidden">
-              <Dialog.Title className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-stone-300">
+            <Dialog.Content className="fixed left-4 right-4 top-16 z-50 rounded-2xl border border-stone-200 bg-white/95 p-4 shadow-2xl shadow-stone-200/50 backdrop-blur focus:outline-none sm:hidden dark:border-stone-300/30 dark:bg-stone-800/95 dark:shadow-stone-900/30">
+              <Dialog.Title className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-stone-500 dark:text-stone-300">
                 Languages
               </Dialog.Title>
               <Dialog.Description className="sr-only">

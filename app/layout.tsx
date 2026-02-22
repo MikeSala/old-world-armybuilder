@@ -32,7 +32,7 @@ export default async function RootLayout({ params, children }: RootLayoutProps) 
       : defaultLocale;
   return (
     <html lang={locale} suppressHydrationWarning data-theme="light">
-      <body className="bg-stone-500 text-stone-300">
+      <body className="bg-white text-stone-900 dark:bg-stone-950 dark:text-stone-200">
         <Script id="theme-init" strategy="beforeInteractive">
           {`(() => {
             try {

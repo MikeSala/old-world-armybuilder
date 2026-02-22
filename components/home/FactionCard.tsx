@@ -29,7 +29,7 @@ export function FactionCard({ faction, locale, editSlug, isDragging = false }: F
       onClick={handleClick}
       draggable={false}
       className={`group relative flex flex-none snap-start items-center gap-1.5 px-2.5
-                 h-8 rounded-full border bg-stone-800/60
+                 h-8 rounded-full border
                  backdrop-blur-sm transition-all duration-200 ease-out
                  focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400
                  ${isDragging ? "cursor-grabbing" : "hover:scale-[1.04]"}`}
@@ -43,8 +43,7 @@ export function FactionCard({ faction, locale, editSlug, isDragging = false }: F
         style={{ color: theme.primary }}
       />
       <span
-        className="text-[9px] font-semibold uppercase tracking-wider text-stone-100/90
-                   whitespace-nowrap transition-colors duration-200 group-hover:text-stone-50"
+        className="text-[9px] font-semibold uppercase tracking-wider text-stone-800 whitespace-nowrap transition-colors duration-200 group-hover:text-stone-900 dark:text-stone-100/90 dark:group-hover:text-stone-50"
       >
         {name}
       </span>

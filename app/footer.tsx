@@ -23,10 +23,10 @@ function resolveLocaleParam(raw: string | string[] | undefined): Locale {
 }
 
 const footerNavButtonClass =
-  "footer-btn inline-flex shrink-0 items-center gap-2 rounded-md border border-stone-600 bg-stone-700/60 px-3 py-1.5 text-sm text-stone-200/80 transition-all duration-200 hover:border-stone-500 hover:bg-stone-600/70 hover:text-stone-100 active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400";
+  "inline-flex shrink-0 items-center gap-2 rounded-md border border-stone-300 bg-white px-3 py-1.5 text-sm text-stone-600 transition-all duration-200 hover:border-stone-400 hover:bg-stone-100 hover:text-stone-800 active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 dark:border-stone-600 dark:bg-stone-700/60 dark:text-stone-200/80 dark:hover:border-stone-500 dark:hover:bg-stone-600/70 dark:hover:text-stone-100";
 
 const footerActionButtonClass =
-  "footer-btn inline-flex shrink-0 items-center gap-2 rounded-md border border-stone-600 bg-stone-700/60 px-3 py-1.5 text-sm text-stone-200/80 transition-all duration-200 hover:border-red-400/60 hover:bg-red-950/40 hover:text-red-200 active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-400/50";
+  "inline-flex shrink-0 items-center gap-2 rounded-md border border-stone-300 bg-white px-3 py-1.5 text-sm text-stone-600 transition-all duration-200 hover:border-red-300 hover:bg-red-50 hover:text-red-700 active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-400/50 dark:border-stone-600 dark:bg-stone-700/60 dark:text-stone-200/80 dark:hover:border-red-400/60 dark:hover:bg-red-950/40 dark:hover:text-red-200";
 
 export default function Footer() {
   const params = useParams();
@@ -86,7 +86,7 @@ export default function Footer() {
   return (
     <footer
       aria-label={dictionary.footerAriaLabel}
-      className="mt-20 w-full border-t border-stone-300/20 bg-stone-900/80 text-stone-200/80 backdrop-blur supports-[backdrop-filter]:bg-stone-900/60"
+      className="mt-20 w-full border-t border-stone-200 bg-stone-50 text-stone-600 backdrop-blur supports-[backdrop-filter]:bg-stone-50/90 dark:border-stone-300/20 dark:bg-stone-900/80 dark:text-stone-200/80 dark:supports-[backdrop-filter]:bg-stone-900/60"
     >
       <div className="mx-auto max-w-wide px-container py-section-y">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
@@ -166,7 +166,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-3 text-xs text-stone-300/70">
+        <div className="mt-3 text-xs text-stone-500 dark:text-stone-300/70">
           © {year} Old-World Armybuilder — {dictionary.footerCommunityNote}
         </div>
       </div>

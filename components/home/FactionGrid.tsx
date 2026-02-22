@@ -138,11 +138,12 @@ export function FactionGrid({ locale, editSlug, armies }: FactionGridProps) {
         onClick={handleScrollLeft}
         aria-label="Scroll factions to the left"
         className={`absolute left-1 top-1/2 -translate-y-1/2 z-10
-                    rounded-full border border-stone-300/40 bg-stone-800/90 p-2.5
-                    text-stone-200 shadow-lg backdrop-blur-sm
+                    rounded-full border border-stone-300 bg-white/90 p-2.5
+                    text-stone-600 shadow-lg backdrop-blur-sm
                     transition-all duration-200
-                    hover:scale-110 hover:border-stone-300 hover:text-stone-100 hover:bg-stone-700/90
+                    hover:scale-110 hover:border-stone-400 hover:text-stone-900 hover:bg-white
                     active:scale-95
+                    dark:border-stone-300/40 dark:bg-stone-800/90 dark:text-stone-200 dark:hover:border-stone-300 dark:hover:text-stone-100 dark:hover:bg-stone-700/90
                     ${canScrollLeft ? "opacity-100" : "pointer-events-none opacity-0"}`}
       >
         <ChevronLeftIcon />
@@ -154,11 +155,12 @@ export function FactionGrid({ locale, editSlug, armies }: FactionGridProps) {
         onClick={handleScrollRight}
         aria-label="Scroll factions to the right"
         className={`absolute right-1 top-1/2 -translate-y-1/2 z-10
-                    rounded-full border border-stone-300/40 bg-stone-800/90 p-2.5
-                    text-stone-200 shadow-lg backdrop-blur-sm
+                    rounded-full border border-stone-300 bg-white/90 p-2.5
+                    text-stone-600 shadow-lg backdrop-blur-sm
                     transition-all duration-200
-                    hover:scale-110 hover:border-stone-300 hover:text-stone-100 hover:bg-stone-700/90
+                    hover:scale-110 hover:border-stone-400 hover:text-stone-900 hover:bg-white
                     active:scale-95
+                    dark:border-stone-300/40 dark:bg-stone-800/90 dark:text-stone-200 dark:hover:border-stone-300 dark:hover:text-stone-100 dark:hover:bg-stone-700/90
                     ${canScrollRight ? "opacity-100" : "pointer-events-none opacity-0"}`}
       >
         <ChevronRightIcon />
