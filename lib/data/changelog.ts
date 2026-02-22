@@ -31,7 +31,7 @@ const CHANGELOG: ChangelogEntry[] = [
     },
     items: {
       pl: [
-        "Wybór frakcji przebudowany na poziome scrollowalne „pills" – dwa rzędy: frakcje oficjalnie wspierane i frakcje legacy.",
+        "Wybór frakcji przebudowany na poziome scrollowalne \"pills\" – dwa rzędy: frakcje oficjalnie wspierane i frakcje legacy.",
         "Przełącznik języka zastąpiony płaskimi flagami krajów z podświetleniem indygo.",
         "Przełącznik dark/light mode przeprojektowany jako suwak; domyślnie włączony tryb jasny.",
         "Buttony w stopce (O mnie, Ostatnie zmiany, Zgłoś błąd) wzbogacone o ikony i wyraźniejsze tło.",
