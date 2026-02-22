@@ -1,5 +1,6 @@
 import { MarginLayout } from "@/components/layout/MarginLayout";
 import { FactionGrid } from "@/components/home/FactionGrid";
+import { SeoTextExpander } from "@/components/home/SeoTextExpander";
 import UnitSearch from "@/components/unit/UnitSearch";
 import { ARMIES } from "@/lib/data/armies/armies";
 import type { Locale, LocaleDictionary } from "@/lib/i18n/dictionaries";
@@ -46,33 +47,35 @@ export function LandingPageContent({ dict, locale }: Props) {
                 {dict.landingSeoTitle}
               </h2>
               <p className="mt-2 text-sm text-stone-500 dark:text-stone-200/70">{dict.landingSeoLabel}</p>
-              <div className="mt-4 space-y-4 text-sm leading-relaxed text-stone-700 dark:text-stone-100/85">
-                <p>{dict.landingSeoIntro}</p>
-                <p>{dict.landingSeoLore}</p>
-              </div>
+              <SeoTextExpander readMoreLabel={dict.landingSeoReadMore}>
+                <div className="mt-4 space-y-4 text-sm leading-relaxed text-stone-700 dark:text-stone-100/85">
+                  <p>{dict.landingSeoIntro}</p>
+                  <p>{dict.landingSeoLore}</p>
+                </div>
 
-              <div className="mt-6 space-y-3 text-sm text-stone-700 dark:text-stone-100/85">
-                <h3 className="text-base font-semibold text-stone-900 dark:text-stone-100">
-                  {dict.landingSeoPrimaryFactionsTitle}
-                </h3>
-                <ul className="grid gap-1 sm:grid-cols-2">
-                  {dict.landingSeoPrimaryFactions.map((item) => (
-                    <li key={item}>{item}</li>
-                  ))}
-                </ul>
-              </div>
+                <div className="mt-6 space-y-3 text-sm text-stone-700 dark:text-stone-100/85">
+                  <h3 className="text-base font-semibold text-stone-900 dark:text-stone-100">
+                    {dict.landingSeoPrimaryFactionsTitle}
+                  </h3>
+                  <ul className="grid gap-1 sm:grid-cols-2">
+                    {dict.landingSeoPrimaryFactions.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
 
-              <div className="mt-6 space-y-3 text-sm text-stone-700 dark:text-stone-100/85">
-                <h3 className="text-base font-semibold text-stone-900 dark:text-stone-100">
-                  {dict.landingSeoLegacyFactionsTitle}
-                </h3>
-                <p>{dict.landingSeoLegacyFactions}</p>
-              </div>
+                <div className="mt-6 space-y-3 text-sm text-stone-700 dark:text-stone-100/85">
+                  <h3 className="text-base font-semibold text-stone-900 dark:text-stone-100">
+                    {dict.landingSeoLegacyFactionsTitle}
+                  </h3>
+                  <p>{dict.landingSeoLegacyFactions}</p>
+                </div>
 
-              <div className="mt-6 space-y-4 text-sm leading-relaxed text-stone-700 dark:text-stone-100/85">
-                <p>{dict.landingSeoSearchNote}</p>
-                <p>{dict.landingSeoSupportNote}</p>
-              </div>
+                <div className="mt-6 space-y-4 text-sm leading-relaxed text-stone-700 dark:text-stone-100/85">
+                  <p>{dict.landingSeoSearchNote}</p>
+                  <p>{dict.landingSeoSupportNote}</p>
+                </div>
+              </SeoTextExpander>
             </div>
           </MarginLayout>
         </section>

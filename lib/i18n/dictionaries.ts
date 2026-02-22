@@ -186,6 +186,7 @@ export type LocaleDictionary = {
   landingSeoLegacyFactions: string;
   landingSeoSearchNote: string;
   landingSeoSupportNote: string;
+  landingSeoReadMore: string;
   changelogTitle: string;
   changelogDescription: string;
   changelogEmpty: string;
@@ -433,6 +434,7 @@ const dictionaries = {
       "Army Builder oferuje również wyszukiwarkę statystyk jednostek — sprawdź profil dowolnego modelu w kilka sekund, bez przekopywania się przez podręczniki.",
     landingSeoSupportNote:
       "Narzędzie stworzone przez gracza dla graczy. Zachęcamy do wspierania Games Workshop i zakupu oficjalnych materiałów.",
+    landingSeoReadMore: "Czytaj więcej",
     changelogTitle: "Ostatnie zmiany",
     changelogDescription: "Zobacz, co ostatnio dodaliśmy lub poprawiliśmy w projekcie.",
     changelogEmpty: "Brak aktualizacji. Wróć wkrótce.",
@@ -667,6 +669,7 @@ const dictionaries = {
       "Army Builder also features a unit stats search — check the profile of any model in seconds, without flipping through rulebooks.",
     landingSeoSupportNote:
       "A tool made by a gamer for gamers. We encourage you to support Games Workshop and purchase official materials.",
+    landingSeoReadMore: "Read more",
     changelogTitle: "Latest changes",
     changelogDescription: "See what was recently added or improved in the project.",
     changelogEmpty: "No updates yet. Check back soon.",
@@ -902,6 +905,7 @@ const dictionaries = {
       "Army Builder bietet auch eine Einheitenstatistik-Suche — überprüfe das Profil jedes Modells in Sekunden, ohne in Regelbüchern blättern zu müssen.",
     landingSeoSupportNote:
       "Ein Werkzeug von einem Spieler für Spieler. Wir ermutigen dich, Games Workshop zu unterstützen und offizielle Materialien zu kaufen.",
+    landingSeoReadMore: "Mehr lesen",
     changelogTitle: "Letzte Änderungen",
     changelogDescription: "Sieh dir an, was zuletzt hinzugefügt oder verbessert wurde.",
     changelogEmpty: "Noch keine Aktualisierungen. Schau bald wieder vorbei.",
@@ -1138,6 +1142,7 @@ const dictionaries = {
       "Army Builder propose également un moteur de recherche de statistiques d'unités — consulte le profil de n'importe quel modèle en quelques secondes, sans feuilleter les livres de règles.",
     landingSeoSupportNote:
       "Un outil créé par un joueur pour les joueurs. Nous t'encourageons à soutenir Games Workshop et à acheter les matériaux officiels.",
+    landingSeoReadMore: "Lire la suite",
     changelogTitle: "Derniers changements",
     changelogDescription: "Découvrez ce qui a été ajouté ou amélioré récemment.",
     changelogEmpty: "Aucune mise à jour pour l’instant. Revenez bientôt.",
@@ -1373,6 +1378,7 @@ const dictionaries = {
       "Army Builder también ofrece un buscador de estadísticas de unidades — consulta el perfil de cualquier modelo en segundos, sin hojear los manuales.",
     landingSeoSupportNote:
       "Una herramienta creada por un jugador para jugadores. Te animamos a apoyar a Games Workshop y comprar los materiales oficiales.",
+    landingSeoReadMore: "Leer más",
     changelogTitle: "Últimos cambios",
     changelogDescription: "Consulta lo que se ha añadido o mejorado recientemente.",
     changelogEmpty: "Aún no hay actualizaciones. Vuelve pronto.",
