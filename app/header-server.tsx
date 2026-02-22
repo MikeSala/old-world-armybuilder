@@ -195,13 +195,13 @@ export default function Header() {
           <Dialog.Portal>
             <Dialog.Overlay className="fixed inset-0 z-40 bg-stone-900/60 data-[state=open]:animate-fade-in sm:hidden" />
             <Dialog.Content className="fixed left-4 right-4 top-16 z-50 rounded-2xl border border-stone-200 bg-white/95 p-4 shadow-2xl shadow-stone-200/50 backdrop-blur focus:outline-none sm:hidden dark:border-stone-300/30 dark:bg-stone-800/95 dark:shadow-stone-900/30">
-              <Dialog.Title className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-stone-500 dark:text-stone-300">
-                Languages
-              </Dialog.Title>
               <Dialog.Description className="sr-only">
                 Choose a language version of the site.
               </Dialog.Description>
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-row flex-wrap items-center gap-1">
+                <Dialog.Title className="mr-2 text-xs font-semibold uppercase tracking-[0.2em] text-stone-500 dark:text-stone-300">
+                  Languages
+                </Dialog.Title>
                 {locales.map((locale) => {
                   const isActive = locale === activeLocale;
                   return (
@@ -215,7 +215,7 @@ export default function Header() {
                       )}
                       onClick={() => setMobileMenuOpen(false)}
                       className={clsx(
-                        "w-full justify-start",
+                        "p-2 rounded-lg",
                         localeBtnBase,
                         isActive ? localeBtnActive : localeBtnIdle
                       )}

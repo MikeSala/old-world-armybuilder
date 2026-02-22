@@ -115,11 +115,10 @@ export function FactionGrid({ locale, editSlug, armies }: FactionGridProps) {
         onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
-        className={`overflow-x-auto overflow-y-clip py-2 px-10 scroll-smooth snap-x snap-proximity scrollbar-hide cursor-grab select-none${isDragging ? " cursor-grabbing scroll-auto" : ""}`}
+        className={`overflow-x-auto overflow-y-clip py-2 px-4 sm:px-10 scroll-smooth snap-x snap-proximity scrollbar-hide sm:cursor-grab select-none${isDragging ? " sm:cursor-grabbing sm:scroll-auto" : ""}`}
         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
       >
-        {/* w-fit mx-auto: centers when items fit, scrolls from left when they overflow */}
-        <div className="flex gap-2 w-fit mx-auto">
+        <div className="flex flex-wrap justify-center gap-2 sm:flex-nowrap sm:w-fit sm:mx-auto">
           {armies.map((faction) => (
             <FactionCard
               key={faction.id}
@@ -137,7 +136,7 @@ export function FactionGrid({ locale, editSlug, armies }: FactionGridProps) {
         type="button"
         onClick={handleScrollLeft}
         aria-label="Scroll factions to the left"
-        className={`absolute left-1 top-1/2 -translate-y-1/2 z-10
+        className={`hidden sm:block absolute left-1 top-1/2 -translate-y-1/2 z-10
                     rounded-full border border-stone-300 bg-white/90 p-2.5
                     text-stone-600 shadow-lg backdrop-blur-sm
                     transition-all duration-200
@@ -154,7 +153,7 @@ export function FactionGrid({ locale, editSlug, armies }: FactionGridProps) {
         type="button"
         onClick={handleScrollRight}
         aria-label="Scroll factions to the right"
-        className={`absolute right-1 top-1/2 -translate-y-1/2 z-10
+        className={`hidden sm:block absolute right-1 top-1/2 -translate-y-1/2 z-10
                     rounded-full border border-stone-300 bg-white/90 p-2.5
                     text-stone-600 shadow-lg backdrop-blur-sm
                     transition-all duration-200
