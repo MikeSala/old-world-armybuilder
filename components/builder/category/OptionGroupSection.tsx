@@ -17,7 +17,7 @@ type Props = {
 export function OptionGroupSection({ group, selectedIds, onToggle, dict }: Props) {
   return (
     <section className={TAILWIND_CARDS.OPTION_CARD}>
-      <h4 className="text-sm font-semibold uppercase tracking-wide text-stone-200">
+      <h4 className="text-sm font-semibold uppercase tracking-wide text-stone-700 dark:text-stone-200">
         {group.title}
       </h4>
       <ul className="mt-3 space-y-2">
@@ -41,16 +41,16 @@ export function OptionGroupSection({ group, selectedIds, onToggle, dict }: Props
                   onChange={(event) =>
                     onToggle(group, option.id, group.type === "radio" ? true : event.target.checked)
                   }
-                  className="mt-1 h-4 w-4 rounded border-stone-400 bg-stone-800 text-stone-500 focus:ring-stone-500"
+                  className="mt-1 h-4 w-4 rounded border-stone-300 bg-white text-stone-500 focus:ring-stone-400 dark:border-stone-400 dark:bg-stone-800 dark:focus:ring-stone-500"
                 />
-                <span className="flex flex-col text-stone-200/70">
-                  <span className="font-medium text-stone-200/80">{label}</span>
+                <span className="flex flex-col text-stone-600 dark:text-stone-200/70">
+                  <span className="font-medium text-stone-700 dark:text-stone-200/80">{label}</span>
                   {note ? (
-                    <span className="text-xs text-stone-200/70">{note}</span>
+                    <span className="text-xs text-stone-500 dark:text-stone-200/70">{note}</span>
                   ) : null}
                 </span>
               </label>
-              <span className="text-xs font-semibold text-stone-200/80">
+              <span className="text-xs font-semibold text-stone-600 dark:text-stone-200/80">
                 {option.points
                   ? `${dict.categoryPointsValue.replace("{value}", String(option.points))}${
                       option.perModel ? dict.categoryOptionCostPerModelSuffix : ""

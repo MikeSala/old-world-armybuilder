@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { Button } from "@/components/ui/Button";
+import { PlusIcon } from "@/components/icons/PlusIcon";
 import type { CategoryKey } from "@/lib/data/domain/types/categories";
 
 import { CategoryEntryList } from "./CategoryEntryList";
@@ -59,41 +59,34 @@ function CategorySummaryItem({
         rightSuffix={section.suffix}
         rightText={section.formattedValue}
         emphasizeWarning={section.warning}
+        headerAction={
+          <button
+            type="button"
+            onClick={() => onToggleCategory(section.key, cardRef.current)}
+            disabled={addDisabled}
+            aria-label={dict.categoryAddLabel}
+            className="print:hidden inline-flex h-7 w-7 items-center justify-center rounded-md border border-stone-400 bg-stone-100 text-stone-900 transition-all duration-200 hover:border-stone-500 hover:bg-stone-200 active:scale-[0.97] disabled:cursor-not-allowed disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 dark:border-stone-600 dark:bg-stone-800 dark:text-stone-100 dark:hover:border-stone-400 dark:hover:bg-stone-700"
+          >
+            <PlusIcon className="h-3.5 w-3.5 shrink-0" />
+          </button>
+        }
       >
-        <div className="flex flex-col gap-2">
-          {categoryEntries.length > 0 ? (
-            <CategoryEntryList
-              entries={categoryEntries}
-              dict={dict}
-              unitLabelById={unitLabelById}
-              optionLabelByUnitId={optionLabelByUnitId}
-              onSelect={
-                onEntrySelect
-                  ? (entry) => {
-                      onEntrySelect(entry.id);
-                    }
-                  : undefined
-              }
-              activeEntryId={selectedEntryId}
-            />
-          ) : null}
-          <div className="flex self-center print:hidden">
-            <Button
-              variant="secondary"
-              size="sm"
-              className="w-36 focus-visible:ring-2 focus-visible:ring-stone-400 focus-visible:outline-none"
-              onClick={() => onToggleCategory(section.key, cardRef.current)}
-              disabled={addDisabled}
-              leftIcon={
-                <span className="flex h-6 w-6 items-center justify-center text-sm font-bold leading-none">
-                  +
-                </span>
-              }
-            >
-              {dict.categoryAddLabel}
-            </Button>
-          </div>
-        </div>
+        {categoryEntries.length > 0 ? (
+          <CategoryEntryList
+            entries={categoryEntries}
+            dict={dict}
+            unitLabelById={unitLabelById}
+            optionLabelByUnitId={optionLabelByUnitId}
+            onSelect={
+              onEntrySelect
+                ? (entry) => {
+                    onEntrySelect(entry.id);
+                  }
+                : undefined
+            }
+            activeEntryId={selectedEntryId}
+          />
+        ) : null}
       </CategorySummaryCard>
     </div>
   );
@@ -118,7 +111,7 @@ export function CategorySummaryPanel({
 
   return (
     <section className="space-y-2">
-      <div className="rounded-2xl border border-stone-300/20 bg-stone-800/40 px-4 py-2 text-sm font-medium text-stone-100/80">
+      <div className="rounded-2xl border border-stone-200 bg-stone-100 px-4 py-2 text-sm font-medium text-stone-700 dark:border-stone-300/20 dark:bg-stone-800/40 dark:text-stone-100/80">
         {totalSpentText}
       </div>
       {sections.map((section) => (

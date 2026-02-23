@@ -23,7 +23,6 @@ import {
 } from "@/lib/utils/rosterFormatting";
 import { normalizeUnitStatKey } from "@/lib/data/domain/units/units-stats";
 
-import { Button } from "../ui/Button";
 import { StatTooltipLabel } from "../ui/StatTooltipLabel";
 
 type Props = {
@@ -404,13 +403,13 @@ export default function UnitSearch({ dict, className }: Props) {
               {dict.unitSearchHeading}
             </h2>
             {query ? (
-              <Button
+              <button
                 type="button"
                 onClick={() => setQuery("")}
-                className="text-xs font-semibold uppercase tracking-wide text-stone-500 hover:text-stone-800 dark:text-stone-200/70 dark:hover:text-stone-100"
+                className="text-xs font-semibold uppercase tracking-wide text-stone-500 transition-colors hover:text-stone-800 dark:text-stone-200/70 dark:hover:text-stone-100"
               >
                 {dict.unitSearchClearButton}
-              </Button>
+              </button>
             ) : null}
           </div>
           <label className="flex flex-col gap-2 text-sm" htmlFor="unit-search-input">

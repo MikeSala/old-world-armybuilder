@@ -98,7 +98,7 @@ export default function ArmyPointsCounter({
   return (
     <div className={className}>
       {showLabel ? (
-        <label id={labelId} className="mb-1 block text-sm font-semibold text-stone-100">
+        <label id={labelId} className="mb-1 block text-sm font-semibold text-stone-700 dark:text-stone-100">
           {armyLabel}:
         </label>
       ) : null}
@@ -113,7 +113,7 @@ export default function ArmyPointsCounter({
           onBlur={handleBlur}
           onKeyDown={handleKeyDown}
           onWheel={(e) => (e.currentTarget as HTMLInputElement).blur()}
-          className="w-48 rounded-md border border-stone-300/30 bg-stone-900/70 px-3 py-2 text-sm text-stone-50 shadow-inner focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 disabled:cursor-not-allowed disabled:opacity-60"
+          className="w-48 rounded-md border border-stone-300 bg-white px-3 py-2 text-sm text-stone-900 shadow-inner focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 disabled:cursor-not-allowed disabled:opacity-60 dark:border-stone-300/30 dark:bg-stone-900/70 dark:text-stone-50"
           placeholder={placeholderText}
         />
         <div className="flex flex-col gap-1">
@@ -121,7 +121,7 @@ export default function ArmyPointsCounter({
             type="button"
             onClick={increment}
             disabled={!canInc}
-            className="rounded-md bg-stone-700 px-2 py-1 text-xs text-white shadow transition-all duration-200 hover:bg-stone-600 active:translate-y-px disabled:opacity-50"
+            className="rounded-md bg-stone-200 px-2 py-1 text-xs text-stone-700 shadow transition-all duration-200 hover:bg-stone-300 active:translate-y-px disabled:opacity-50 dark:bg-stone-700 dark:text-white dark:hover:bg-stone-600"
             aria-label={increaseAria}
             title={`+${step}`}
           >
@@ -131,7 +131,7 @@ export default function ArmyPointsCounter({
             type="button"
             onClick={decrement}
             disabled={!canDec}
-            className="rounded-md bg-stone-700 px-2 py-1 text-xs text-white shadow transition-all duration-200 hover:bg-stone-600 active:translate-y-px disabled:opacity-50"
+            className="rounded-md bg-stone-200 px-2 py-1 text-xs text-stone-700 shadow transition-all duration-200 hover:bg-stone-300 active:translate-y-px disabled:opacity-50 dark:bg-stone-700 dark:text-white dark:hover:bg-stone-600"
             aria-label={decreaseAria}
             title={`-${step}`}
           >

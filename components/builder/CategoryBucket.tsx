@@ -65,7 +65,7 @@ export default function CategoryBuckets({ totals, onAddClick, dict, className }:
   );
 
   const categoryGridClass =
-    "grid gap-6 text-stone-100 lg:grid-cols-[minmax(0,440px)_minmax(0,1fr)] lg:items-start";
+    "grid gap-6 text-stone-900 dark:text-stone-100 lg:grid-cols-2 lg:items-start";
 
   return (
     <div className={className}>

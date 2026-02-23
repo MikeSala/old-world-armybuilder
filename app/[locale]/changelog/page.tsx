@@ -70,12 +70,12 @@ export default async function ChangelogPage({ params }: PageProps) {
   };
 
   return (
-    <section className="py-section-y text-stone-100">
+    <section className="py-section-y">
       <div className="max-w-3xl">
-        <h1 className="text-3xl font-bold tracking-tight">
+        <h1 className="text-3xl font-bold tracking-tight text-black dark:text-stone-100">
           {dictionary.changelogTitle}
         </h1>
-        <p className="mt-3 text-sm text-stone-200/70">{dictionary.changelogDescription}</p>
+        <p className="mt-3 text-sm text-stone-600 dark:text-stone-200/70">{dictionary.changelogDescription}</p>
       </div>
 
       {entries.length ? (
@@ -83,20 +83,20 @@ export default async function ChangelogPage({ params }: PageProps) {
           {entries.map((entry) => (
             <article
               key={`${entry.date}-${entry.title}`}
-              className="rounded-2xl border border-stone-300/20 bg-stone-800/70 p-5 shadow-lg shadow-stone-950/40"
+              className="rounded-2xl border border-stone-200 bg-white p-5 shadow-lg shadow-stone-200/50 dark:border-stone-300/20 dark:bg-stone-800/70 dark:shadow-stone-950/40"
             >
-              <div className="text-xs uppercase tracking-[0.25em] text-stone-300/60">
+              <div className="text-xs uppercase tracking-[0.25em] text-stone-500 dark:text-stone-300/60">
                 {formatDate(entry.date)}
               </div>
-              <h2 className="mt-2 text-lg font-semibold text-stone-100">{entry.title}</h2>
+              <h2 className="mt-2 text-lg font-semibold text-stone-900 dark:text-stone-100">{entry.title}</h2>
               {entry.description ? (
-                <p className="mt-2 text-sm text-stone-200/70">{entry.description}</p>
+                <p className="mt-2 text-sm text-stone-600 dark:text-stone-200/70">{entry.description}</p>
               ) : null}
               {entry.items?.length ? (
-                <ul className="mt-3 space-y-2 text-sm text-stone-200/80">
+                <ul className="mt-3 space-y-2 text-sm text-stone-700 dark:text-stone-200/80">
                   {entry.items.map((item) => (
                     <li key={item} className="flex items-start gap-2">
-                      <span className="mt-1 h-1.5 w-1.5 rounded-full bg-stone-400/80" />
+                      <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-stone-400 dark:bg-stone-400/80" />
                       <span>{item}</span>
                     </li>
                   ))}
@@ -106,7 +106,7 @@ export default async function ChangelogPage({ params }: PageProps) {
           ))}
         </div>
       ) : (
-        <p className="mt-8 text-sm text-stone-200/70">{dictionary.changelogEmpty}</p>
+        <p className="mt-8 text-sm text-stone-600 dark:text-stone-200/70">{dictionary.changelogEmpty}</p>
       )}
     </section>
   );

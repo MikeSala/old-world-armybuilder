@@ -9,50 +9,41 @@ type FactionCardProps = {
   faction: Army;
   locale: Locale;
   editSlug: string;
-  isDragging?: boolean;
 };
 
-export function FactionCard({ faction, locale, editSlug, isDragging = false }: FactionCardProps) {
+export function FactionCard({ faction, locale, editSlug }: FactionCardProps) {
   const theme = getFactionTheme(faction.id);
   const name = tData(faction.nameKey as DataKey, locale);
   const Icon = theme.icon;
 
-  const handleClick = (e: React.MouseEvent) => {
-    if (isDragging) {
-      e.preventDefault();
-    }
-  };
-
   return (
     <Link
       href={buildLocalePath(locale, `${editSlug}?army=${faction.id}`)}
-      onClick={handleClick}
       draggable={false}
-      className={`group relative flex flex-none snap-start items-center gap-1.5 px-2.5
-                 h-8 rounded-full border
-                 backdrop-blur-sm transition-all duration-200 ease-out
-                 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400
-                 ${isDragging ? "cursor-grabbing" : "hover:scale-[1.04]"}`}
-      style={{
-        borderColor: `${theme.primary}50`,
-        backgroundColor: `${theme.bg}40`,
-      }}
+      className="group relative flex flex-none items-center gap-1.5 px-2.5
+                 h-8 rounded-full
+                 transition-all duration-200 ease-out hover:scale-[1.04]
+                 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50"
+      style={{ backgroundColor: theme.primary }}
     >
       <Icon
-        className="h-3.5 w-3.5 flex-none transition-all duration-200 group-hover:scale-110"
-        style={{ color: theme.primary }}
+        className="h-3.5 w-3.5 flex-none text-white transition-all duration-200 group-hover:scale-110"
       />
-      <span
-        className="text-[9px] font-semibold uppercase tracking-wider text-stone-800 whitespace-nowrap transition-colors duration-200 group-hover:text-stone-900 dark:text-stone-100/90 dark:group-hover:text-stone-50"
-      >
+      <span className="text-[9px] font-semibold uppercase tracking-wider text-white whitespace-nowrap">
         {name}
       </span>
+      {/* Shine overlay: left lighter, right darker */}
+      <div
+        className="pointer-events-none absolute inset-0 rounded-full"
+        style={{
+          background:
+            "linear-gradient(to right, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0.04) 50%, rgba(0,0,0,0.12) 100%)",
+        }}
+      />
+      {/* Hover ring */}
       <div
         className="pointer-events-none absolute inset-0 rounded-full opacity-0 transition-all duration-200 group-hover:opacity-100"
-        style={{
-          boxShadow: `0 0 12px ${theme.glow}40, inset 0 0 8px ${theme.glow}15`,
-          border: `1px solid ${theme.primary}80`,
-        }}
+        style={{ boxShadow: "0 0 0 3px rgba(120, 113, 108, 0.28)" }}
       />
     </Link>
   );

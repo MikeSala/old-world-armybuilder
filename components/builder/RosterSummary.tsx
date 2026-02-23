@@ -118,11 +118,11 @@ export default function RosterSummary({ dict, className }: Props) {
         className={clsx("print-summary-content print-bg-white print:text-black", className)}
         aria-labelledby="roster-summary-heading"
       >
-        <div className="rounded-2xl border border-stone-300/30 bg-stone-800/80 p-6 text-stone-100 shadow-lg shadow-stone-900/15 print-bg-white">
+        <div className="rounded-2xl border border-stone-200 bg-white p-6 text-stone-900 shadow-lg shadow-stone-200/50 print-bg-white dark:border-stone-300/30 dark:bg-stone-800/80 dark:text-stone-100 dark:shadow-stone-900/15">
           <header className="mb-4">
             <div className="flex items-start justify-between gap-4">
               <div>
-                <p className="text-sm uppercase tracking-[0.3em] text-stone-400 print:text-gray-700">
+                <p className="text-sm uppercase tracking-[0.3em] text-stone-500 print:text-gray-700 dark:text-stone-400">
                   {dict.rosterSummaryHeading}
                 </p>
                 <h2
@@ -132,7 +132,7 @@ export default function RosterSummary({ dict, className }: Props) {
                   {name || dict.rosterSummaryDefaultName}
                 </h2>
                 {description ? (
-                  <p className="mt-2 text-sm text-stone-200/70 print:text-gray-700">
+                  <p className="mt-2 text-sm text-stone-500 print:text-gray-700 dark:text-stone-200/70">
                     {description}
                   </p>
                 ) : null}
@@ -151,11 +151,11 @@ export default function RosterSummary({ dict, className }: Props) {
                 </div>
               ) : null}
             </div>
-            <div className="mt-3 flex items-center justify-between text-sm text-stone-200 print:text-gray-800">
+            <div className="mt-3 flex items-center justify-between text-sm text-stone-700 print:text-gray-800 dark:text-stone-200">
               <span>{dict.rosterPointsLimitLabel}</span>
               <span className="font-semibold">{formatPointsFor(pointsLimit)}</span>
             </div>
-            <div className="flex items-center justify-between text-sm text-stone-200 print:text-gray-800">
+            <div className="flex items-center justify-between text-sm text-stone-700 print:text-gray-800 dark:text-stone-200">
               <span>{dict.rosterTotalSpentLabel}</span>
               <span className="font-semibold">{formatPointsFor(totalSpent)}</span>
             </div>

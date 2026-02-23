@@ -7,7 +7,7 @@ import { useParams } from "next/navigation";
 import * as React from "react";
 
 import TextField from "@/components/builder/TextField";
-import { Button } from "@/components/ui/Button";
+import { CancelIcon } from "@/components/icons/CancelIcon";
 import { ABOUT_SLUG } from "@/lib/data/about";
 import { CHANGELOG_SLUG } from "@/lib/data/changelog";
 import { getDictionary, defaultLocale, isLocale, type Locale } from "@/lib/i18n/dictionaries";
@@ -111,25 +111,15 @@ export default function Footer() {
               <Dialog.Portal>
                 {reportOpen ? (
                   <>
-                    <Dialog.Overlay className="fixed inset-0 z-40 bg-stone-900/80 data-[state=open]:animate-fade-in" />
-                    <Dialog.Content className="fixed left-1/2 top-1/2 z-50 w-[min(92vw,560px)] -translate-x-1/2 -translate-y-1/2 rounded-2xl border border-stone-300/25 bg-stone-900/95 p-6 text-stone-50 shadow-2xl shadow-stone-900/30 focus:outline-none">
-                      <div className="flex items-start justify-between gap-4">
-                        <div>
-                          <Dialog.Title className="text-lg font-semibold text-stone-100">
-                            {dictionary.footerReportBugTitle}
-                          </Dialog.Title>
-                          <Dialog.Description className="mt-1 text-sm text-stone-200/70">
-                            {dictionary.footerReportBugDescription}
-                          </Dialog.Description>
-                        </div>
-                        <Dialog.Close asChild>
-                          <button
-                            type="button"
-                            className="rounded-full border border-stone-300/30 px-3 py-1 text-xs uppercase tracking-widest text-stone-200/70 transition-all duration-200 hover:border-stone-300/60 hover:text-stone-100 active:scale-[0.97]"
-                          >
-                            {dictionary.footerReportBugCancel}
-                          </button>
-                        </Dialog.Close>
+                    <Dialog.Overlay className="fixed inset-0 z-40 bg-stone-900/50 backdrop-blur-sm data-[state=open]:animate-fade-in dark:bg-stone-900/80" />
+                    <Dialog.Content className="fixed left-1/2 top-1/2 z-50 w-[min(92vw,560px)] -translate-x-1/2 -translate-y-1/2 rounded-2xl border border-stone-200 bg-white p-6 shadow-2xl shadow-stone-200/60 focus:outline-none dark:border-stone-300/20 dark:bg-stone-900 dark:shadow-stone-900/40">
+                      <div>
+                        <Dialog.Title className="text-lg font-semibold text-black dark:text-stone-100">
+                          {dictionary.footerReportBugTitle}
+                        </Dialog.Title>
+                        <Dialog.Description className="mt-1 text-sm text-stone-600 dark:text-stone-200/70">
+                          {dictionary.footerReportBugDescription}
+                        </Dialog.Description>
                       </div>
 
                       <form onSubmit={handleReportSubmit} className="mt-5 space-y-4">
@@ -144,17 +134,24 @@ export default function Footer() {
                           required
                         />
                         {reportError ? (
-                          <p className="text-xs text-red-300">{reportError}</p>
+                          <p className="text-xs text-red-500 dark:text-red-300">{reportError}</p>
                         ) : null}
                         <div className="flex flex-wrap items-center justify-end gap-2">
-                          <Dialog.Close asChild>
-                            <Button variant="outline" size="sm" type="button">
-                              {dictionary.footerReportBugCancel}
-                            </Button>
-                          </Dialog.Close>
-                          <Button variant="accent" size="sm" type="submit">
+                          <button
+                            type="submit"
+                            className="inline-flex items-center rounded-lg border border-stone-400 bg-stone-100 px-4 py-2 text-sm font-semibold text-stone-900 transition-all duration-200 hover:border-stone-500 hover:bg-stone-200 active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 dark:border-stone-600 dark:bg-stone-800 dark:text-stone-100 dark:hover:border-stone-400 dark:hover:bg-stone-700"
+                          >
                             {dictionary.footerReportBugSubmit}
-                          </Button>
+                          </button>
+                          <Dialog.Close asChild>
+                            <button
+                              type="button"
+                              aria-label={dictionary.footerReportBugCancel}
+                              className="inline-flex h-9 w-9 items-center justify-center rounded-lg border border-red-300 bg-red-50 text-red-500 transition-all duration-200 hover:border-red-400 hover:bg-red-100 active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-400 dark:border-red-700 dark:bg-red-950/30 dark:text-red-400 dark:hover:border-red-500 dark:hover:bg-red-900/30"
+                            >
+                              <CancelIcon className="h-4 w-4 shrink-0" />
+                            </button>
+                          </Dialog.Close>
                         </div>
                       </form>
                     </Dialog.Content>

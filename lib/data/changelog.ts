@@ -2,7 +2,7 @@ import type { Locale } from "@/lib/i18n/dictionaries";
 
 export const CHANGELOG_SLUG = "changelog";
 
-type Localized<T> = Partial<Record<Locale, T>> & { en: T; pl: T };
+type Localized<T> = Partial<Record<Locale, T>> & { en: T };
 
 export type ChangelogEntry = {
   date: string;
@@ -19,6 +19,23 @@ export type ResolvedChangelogEntry = {
 };
 
 const CHANGELOG: ChangelogEntry[] = [
+  {
+    date: "2026-02-23",
+    title: { en: "Army builder UX improvements" },
+    description: { en: "A set of visual and ergonomic fixes in the army builder and supporting pages." },
+    items: {
+      en: [
+        "Add unit (+) button moved into the category card header — next to the title and point counter.",
+        "Unit selection and unit configuration columns now each take 50% of the screen width.",
+        "Removed the word \"currently\" from category point summaries; reduced the counter font size.",
+        "Cancel button in the configurator replaced with a red circle-slash icon.",
+        "\"Add unit\" shortened to \"Add\"; \"Move to top\" shortened to \"Back to top\".",
+        "Remove, Show details, and Download roster buttons — unified to the stone grey style.",
+        "Report a bug modal — adjusted colours, simplified button layout, cancel changed to an icon.",
+        "/about and /changelog pages adapted to light and dark mode.",
+      ],
+    },
+  },
   {
     date: "2026-02-22",
     title: {

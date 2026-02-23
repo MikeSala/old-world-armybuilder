@@ -45,9 +45,9 @@ export default function Select({
 
   return (
     <RtSelect.Root value={controlledValue} onValueChange={handleValueChange} disabled={disabled}>
-      <div className={clsx("text-stone-100", className)}>
+      <div className={clsx("text-stone-900 dark:text-stone-100", className)}>
         {label ? (
-          <label htmlFor={selectId} className="mb-2 block text-sm font-semibold text-stone-100">
+          <label htmlFor={selectId} className="mb-2 block text-sm font-semibold text-stone-700 dark:text-stone-100">
             {label}
           </label>
         ) : null}
@@ -55,9 +55,9 @@ export default function Select({
         <RtSelect.Trigger
           id={selectId}
           className={clsx(
-            "flex w-full items-center justify-between rounded-md border border-stone-300/30 bg-stone-900/70 px-3 py-2 text-sm text-stone-100 shadow-sm transition",
-            "focus:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 focus-visible:ring-offset-2 focus-visible:ring-offset-stone-950",
-            "data-[state=open]:border-stone-400 data-[state=open]:bg-stone-900/80",
+            "flex w-full items-center justify-between rounded-md border border-stone-300 bg-white px-3 py-2 text-sm text-stone-900 shadow-sm transition dark:border-stone-300/30 dark:bg-stone-900/70 dark:text-stone-100",
+            "focus:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:focus-visible:ring-offset-stone-950",
+            "data-[state=open]:border-stone-400 data-[state=open]:bg-stone-50 dark:data-[state=open]:bg-stone-900/80",
             "disabled:cursor-not-allowed disabled:opacity-60"
           )}
           aria-label={label}
@@ -73,7 +73,7 @@ export default function Select({
         <RtSelect.Content
           position="popper"
           sideOffset={6}
-          className="min-w-[var(--radix-select-trigger-width)] rounded-md border border-stone-300/30 bg-stone-800/95 text-stone-100 shadow-lg shadow-stone-900/30 backdrop-blur supports-[backdrop-filter]:bg-stone-800/80"
+          className="min-w-[var(--radix-select-trigger-width)] rounded-md border border-stone-200 bg-white text-stone-900 shadow-lg shadow-stone-200/40 backdrop-blur dark:border-stone-300/30 dark:bg-stone-800/95 dark:text-stone-100 dark:shadow-stone-900/30 supports-[backdrop-filter]:dark:bg-stone-800/80"
         >
           <RtSelect.ScrollUpButton className="flex items-center justify-center p-1 text-xs opacity-70 hover:opacity-100">
             ▲

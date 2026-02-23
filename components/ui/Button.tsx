@@ -30,11 +30,11 @@ const variantClasses: Record<ButtonVariant, string> = {
   primary:
     "rounded-md border border-emerald-800 bg-emerald-700 text-stone-50 hover:bg-emerald-600 focus-visible:ring-emerald-400 focus-visible:ring-offset-stone-900",
   secondary:
-    "rounded-md border border-emerald-600/60 bg-emerald-950/30 text-emerald-400 hover:border-emerald-500 hover:bg-emerald-900/40 hover:text-emerald-300 focus-visible:ring-emerald-400 focus-visible:ring-offset-stone-900",
+    "rounded-md border border-emerald-500/60 bg-emerald-50 text-emerald-700 hover:border-emerald-500 hover:bg-emerald-100 hover:text-emerald-800 focus-visible:ring-emerald-400 focus-visible:ring-offset-white dark:border-emerald-600/60 dark:bg-emerald-950/30 dark:text-emerald-400 dark:hover:border-emerald-500 dark:hover:bg-emerald-900/40 dark:hover:text-emerald-300 dark:focus-visible:ring-offset-stone-900",
   ghost:
     "rounded-md border border-transparent bg-transparent text-stone-700 hover:border-stone-500 hover:bg-stone-100/40 focus-visible:ring-stone-400 focus-visible:ring-offset-stone-900",
   outline:
-    "rounded-md border border-stone-700 bg-stone-800/60 text-stone-200 hover:bg-stone-800 focus-visible:ring-stone-300 focus-visible:ring-offset-stone-800",
+    "rounded-md border border-stone-300 bg-stone-50 text-stone-700 hover:bg-stone-100 hover:border-stone-400 focus-visible:ring-stone-400 focus-visible:ring-offset-white dark:border-stone-700 dark:bg-stone-800/60 dark:text-stone-200 dark:hover:bg-stone-800 dark:focus-visible:ring-stone-300 dark:focus-visible:ring-offset-stone-800",
   gradient:
     "rounded-md border border-stone-600 bg-gradient-to-br from-stone-500 via-stone-600 to-stone-800 text-stone-100 shadow-lg hover:-translate-y-0.5 hover:from-stone-500 hover:via-stone-500 hover:to-stone-700 focus-visible:ring-stone-300 focus-visible:ring-offset-stone-900",
   accent:

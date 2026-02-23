@@ -56,10 +56,10 @@ export function CategoryEntryList({
           <li
             key={entry.id}
             className={clsx(
-              "w-full rounded-lg border px-3 py-2 transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-stone-300 focus-visible:ring-offset-2 focus-visible:ring-offset-stone-900 print-bg-white",
+              "w-full rounded-lg border px-3 py-2 transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:focus-visible:ring-stone-300 dark:focus-visible:ring-offset-stone-900 print-bg-white",
               activeEntryId === entry.id
-                ? "border-stone-400 bg-stone-800/80"
-                : "border-stone-300/10 bg-stone-800/50 hover:border-stone-300/40 hover:bg-stone-800/70",
+                ? "border-stone-400 bg-stone-100 dark:border-stone-400 dark:bg-stone-800/80"
+                : "border-stone-200 bg-stone-50 hover:border-stone-300 hover:bg-stone-100 dark:border-stone-300/10 dark:bg-stone-800/50 dark:hover:border-stone-300/40 dark:hover:bg-stone-800/70",
               onSelect && "cursor-pointer active:scale-[0.99]"
             )}
             role={onSelect ? "button" : undefined}
@@ -75,19 +75,19 @@ export function CategoryEntryList({
             }}
           >
             <div className="flex items-baseline justify-between gap-3">
-              <span className="text-sm font-semibold text-stone-100">{unitName}</span>
-              <span className="text-xs font-semibold uppercase tracking-wide text-stone-200/80">
+              <span className="text-sm font-semibold text-stone-800 dark:text-stone-100">{unitName}</span>
+              <span className="text-xs font-semibold uppercase tracking-wide text-stone-600 dark:text-stone-200/80">
                 {totalPointsLabel}
               </span>
             </div>
             {unitSummary ? (
-              <div className="text-xs text-stone-200/70">
+              <div className="text-xs text-stone-500 dark:text-stone-200/70">
                 {unitSummary}
                 {perModelCost ? ` · ${perModelCost}` : null}
               </div>
             ) : null}
             {optionNames.length > 0 ? (
-              <div className="mt-1 text-xs text-stone-200/70">{optionNames.join(", ")}</div>
+              <div className="mt-1 text-xs text-stone-500 dark:text-stone-200/70">{optionNames.join(", ")}</div>
             ) : null}
           </li>
         );

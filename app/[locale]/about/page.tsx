@@ -64,10 +64,10 @@ export default async function AboutPage({ params }: PageProps) {
   const paragraphs = getAboutContent(locale);
 
   return (
-    <section className="py-section-y text-stone-100">
+    <section className="py-section-y">
       <div className="about-text-panel relative overflow-hidden rounded-3xl p-6 sm:p-8">
         <div className="relative z-10">
-          <h1 className="text-3xl font-bold tracking-tight">{dictionary.aboutTitle}</h1>
+          <h1 className="text-3xl font-bold tracking-tight text-black dark:text-stone-100">{dictionary.aboutTitle}</h1>
           <figure className="about-inline-image">
             <img
               src="/images/about-hero.webp"
@@ -75,7 +75,7 @@ export default async function AboutPage({ params }: PageProps) {
               className="about-inline-image__img"
             />
           </figure>
-          <div className="mt-6 space-y-4 text-sm leading-relaxed text-stone-100/85">
+          <div className="mt-6 space-y-4 text-sm leading-relaxed text-stone-700 dark:text-stone-100/85">
             {paragraphs.map((paragraph) => (
               <p key={paragraph}>{paragraph}</p>
             ))}

@@ -5,8 +5,10 @@ import UnitSearch from "@/components/unit/UnitSearch";
 import { ARMIES } from "@/lib/data/armies/armies";
 import type { Locale, LocaleDictionary } from "@/lib/i18n/dictionaries";
 
-const officialArmies = ARMIES.filter((a) => !a.isLegacy);
-const legacyArmies = ARMIES.filter((a) => a.isLegacy);
+const allArmies = [
+  ...ARMIES.filter((a) => !a.isLegacy),
+  ...ARMIES.filter((a) => a.isLegacy),
+];
 
 type Props = {
   dict: LocaleDictionary;
@@ -23,12 +25,8 @@ export function LandingPageContent({ dict, locale }: Props) {
             {dict.landingFactionHeading}
           </h2>
         </MarginLayout>
-        {/* Full-bleed rows */}
         <div className="relative left-1/2 w-screen -translate-x-1/2 mt-3">
-          <FactionGrid locale={locale} editSlug={dict.editSlug} armies={officialArmies} />
-        </div>
-        <div className="relative left-1/2 w-screen -translate-x-1/2 mt-2">
-          <FactionGrid locale={locale} editSlug={dict.editSlug} armies={legacyArmies} />
+          <FactionGrid locale={locale} editSlug={dict.editSlug} armies={allArmies} />
         </div>
       </section>
 
@@ -46,7 +44,6 @@ export function LandingPageContent({ dict, locale }: Props) {
               <h2 className="text-2xl font-bold tracking-tight">
                 {dict.landingSeoTitle}
               </h2>
-              <p className="mt-2 text-sm text-stone-500 dark:text-stone-200/70">{dict.landingSeoLabel}</p>
               <SeoTextExpander readMoreLabel={dict.landingSeoReadMore}>
                 <div className="mt-4 space-y-4 text-sm leading-relaxed text-stone-700 dark:text-stone-100/85">
                   <p>{dict.landingSeoIntro}</p>
