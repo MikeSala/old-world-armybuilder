@@ -2,9 +2,8 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 
 import { ArmyFromUrlInitializer } from "@/components/builder/ArmyFromUrlInitializer";
-import CategoryBuckets from "@/components/builder/CategoryBucket";
 import RosterBuilderClient from "@/components/builder/RosterBuilderClient";
-import RosterSummary from "@/components/builder/RosterSummary";
+import RosterUnlockedContent from "@/components/builder/RosterUnlockedContent";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
 import BuyMeCoffeeWidget from "@/components/support/BuyMeCoffeeWidget";
 import { getDictionary, locales, defaultLocale, type Locale } from "@/lib/i18n/dictionaries";
@@ -71,14 +70,11 @@ export default function RosterEditPage() {
       <Suspense fallback={null}>
         <ArmyFromUrlInitializer />
       </Suspense>
-      <header className="text-stone-100">
-        <h1 className="text-3xl font-bold tracking-tight">{dictionary.editTitle}</h1>
+      <header>
+        <h1 className="text-3xl font-bold tracking-tight text-black dark:text-stone-100">{dictionary.editTitle}</h1>
       </header>
       <RosterBuilderClient dict={dictionary} />
-      <CategoryBuckets dict={dictionary} />
-      <div id="summary-print-root" className="w-full">
-        <RosterSummary dict={dictionary} />
-      </div>
+      <RosterUnlockedContent dict={dictionary} />
       <BuyMeCoffeeWidget />
       <ScrollToTopButton className="self-center" label={dictionary.editMoveToTopLabel} />
     </section>

@@ -28,7 +28,6 @@ import {
   setComposition,
   setSavedAt,
   setSaving,
-  setSetupCollapsed,
   setValidationErrors,
 } from "@/lib/store/slices/rosterSlice";
 
@@ -56,8 +55,6 @@ type Dict = Pick<
   | "saveSuccess"
   | "saveError"
   | "rosterSetupHeading"
-  | "rosterSetupEditButton"
-  | "rosterSetupCollapseButton"
   | "rosterSetupSaveButton"
   | "rosterSetupSavedButton"
   | "rosterSummaryDefaultName"
@@ -84,9 +81,8 @@ export default function RosterBuilderClient({ dict, className, onSaved }: Props)
   const rosterState = useSelector((s: RootState) => s.roster) ?? rosterInitialState;
   const draftState = rosterState?.draft ?? rosterInitialState.draft;
   const uiState = rosterState?.ui ?? rosterInitialState.ui;
-  const { errors, saving, savedAt, setupCollapsed } = uiState;
+  const { errors, saving, savedAt } = uiState;
   const { armyId, compositionId, armyRuleId, pointsLimit } = draftState;
-  const collapsed = setupCollapsed ?? false;
   const clipboardItems = useSelector((s: RootState) => s.clipboard?.items ?? []);
   const [clipboardOpen, setClipboardOpen] = React.useState(false);
 
@@ -133,9 +129,9 @@ export default function RosterBuilderClient({ dict, className, onSaved }: Props)
     setClipboardOpen(true);
   };
 
-  const handleRestoreFromClipboard = (draft: RosterDraft, savedAt: number) => {
+  const handleRestoreFromClipboard = (draft: RosterDraft, restoredSavedAt: number) => {
     dispatch(loadDraft(draft));
-    dispatch(setSavedAt(savedAt));
+    dispatch(setSavedAt(restoredSavedAt));
     dispatch(setValidationErrors({}));
   };
 
@@ -147,153 +143,118 @@ export default function RosterBuilderClient({ dict, className, onSaved }: Props)
     dispatch(setSavedAt(timestamp));
     onSaved?.(snapshot);
     dispatch(setSaving(false));
-    dispatch(setSetupCollapsed(true));
   };
 
   return (
     <div className={className}>
-      <div className="flex flex-col gap-4">
-        {/* Header with edit/collapse toggle */}
-        <div className="flex items-center justify-between">
-          <h3 className="text-sm font-semibold uppercase tracking-[0.25em] text-stone-300">
-            {dict.rosterSetupHeading}
-          </h3>
-          {collapsed && (
-            <Button
-              variant="primary"
-              size="sm"
-              onClick={() => dispatch(setSetupCollapsed(false))}
-            >
-              {dict.rosterSetupEditButton}
-            </Button>
-          )}
+      <section className="rounded-2xl border border-stone-200 bg-white p-6 shadow-lg shadow-stone-200/50 dark:border-stone-300/30 dark:bg-stone-800/30 dark:shadow-stone-900/10">
+        <h3 className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-stone-600 dark:text-stone-300">
+          {dict.rosterSetupHeading}
+        </h3>
+
+        <div className="grid gap-6 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)]">
+          {/* Left column - Army settings */}
+          <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-2">
+              <Select
+                label={dict.armyLabel}
+                placeholder={dict.selectPlaceholder}
+                options={clientArmies}
+                value={armyId}
+                onChange={(id) => {
+                  dispatch(setArmy(id));
+                }}
+                className="w-full"
+              />
+              {errors.army && <p className="text-sm text-red-500 dark:text-red-300">{errors.army}</p>}
+            </div>
+
+            <ArmyPointsCounter
+              dict={dict}
+              className="flex items-center gap-2"
+              showLabel={true}
+            />
+            {errors.points && <p className="text-sm text-red-500 dark:text-red-300">{errors.points}</p>}
+
+            <Select
+              label={dict.armyCompositionLabel}
+              placeholder={dict.selectPlaceholder}
+              options={compositionOptions}
+              value={compositionId}
+              onChange={(id) => dispatch(setComposition(id))}
+              disabled={!armyId}
+              className="w-full"
+            />
+
+            <ArmyRulesSelectClient
+              dict={{
+                selectPlaceholder: dict.selectPlaceholder,
+                armyRule: dict.armyRuleLabel,
+                localeName: dict.localeName,
+              }}
+              defaultValue={armyRuleId}
+              onChange={(id) => dispatch(setArmyRule(id))}
+              className="w-full"
+            />
+          </div>
+
+          {/* Right column - Meta */}
+          <div className="flex flex-col gap-4">
+            <RosterMetaClient dict={dict} />
+          </div>
         </div>
 
-        {/* Main setup form */}
-        {!collapsed && (
-          <section className="rounded-2xl border border-stone-300/30 bg-stone-800/30 p-6 shadow-lg shadow-stone-900/10">
-            <div className="grid gap-6 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)]">
-              {/* Left column - Army settings */}
-              <div className="flex flex-col gap-4">
-                {/* Army Select */}
-                <div className="flex flex-col gap-2">
-                  <Select
-                    label={dict.armyLabel}
-                    placeholder={dict.selectPlaceholder}
-                    options={clientArmies}
-                    value={armyId}
-                    onChange={(id) => {
-                      dispatch(setArmy(id));
-                    }}
-                    className="w-full"
-                  />
-                  {errors.army && <p className="text-sm text-red-300">{errors.army}</p>}
-                </div>
-
-                {/* Points - moved up for importance */}
-                <ArmyPointsCounter
-                  dict={dict}
-                  className="flex items-center gap-2"
-                  showLabel={true}
-                />
-                {errors.points && <p className="text-sm text-red-300">{errors.points}</p>}
-
-                {/* Composition Select */}
-                <Select
-                  label={dict.armyCompositionLabel}
-                  placeholder={dict.selectPlaceholder}
-                  options={compositionOptions}
-                  value={compositionId}
-                  onChange={(id) => dispatch(setComposition(id))}
-                  disabled={!armyId}
-                  className="w-full"
-                />
-
-                {/* Army Rule Select */}
-                <ArmyRulesSelectClient
-                  dict={{
-                    selectPlaceholder: dict.selectPlaceholder,
-                    armyRule: dict.armyRuleLabel,
-                    localeName: dict.localeName,
-                  }}
-                  defaultValue={armyRuleId}
-                  onChange={(id) => dispatch(setArmyRule(id))}
-                  className="w-full"
-                />
-              </div>
-
-              {/* Right column - Meta + Actions */}
-              <div className="flex flex-col gap-4">
-                <RosterMetaClient dict={dict} />
-
-                {/* Action buttons - inside the form section */}
-                <div className="mt-auto flex flex-wrap items-center gap-3 pt-4 border-t border-stone-300/10">
-                  <Button
-                    type="button"
-                    size="md"
-                    onClick={handleSave}
-                    disabled={saving}
-                    className={`flex-1 min-w-[120px] rounded-lg px-4 py-2.5 font-semibold text-stone-50 shadow-md transition-all duration-200 disabled:opacity-60 ${
-                      savedAt
-                        ? "bg-emerald-800 hover:bg-emerald-700/90"
-                        : "bg-emerald-700 hover:bg-emerald-600 hover:shadow-lg"
-                    }`}
-                  >
-                    {savedAt ? dict.rosterSetupSavedButton : dict.rosterSetupSaveButton}
-                  </Button>
-                  <Button
-                    type="button"
-                    size="md"
-                    variant="outline"
-                    onClick={handleSaveToClipboard}
-                    disabled={saving}
-                    className="flex-1 min-w-[120px]"
-                  >
-                    {dict.rosterClipboardSaveButton}
-                  </Button>
-                  <Button
-                    type="button"
-                    size="sm"
-                    variant="outline"
-                    onClick={() => dispatch(setSetupCollapsed(true))}
-                    className="ml-auto opacity-70 hover:opacity-100"
-                  >
-                    {dict.rosterSetupCollapseButton}
-                  </Button>
-                </div>
-              </div>
-            </div>
-          </section>
-        )}
-
-        {/* Collapsible Clipboard Section */}
-        <section className="rounded-2xl border border-stone-300/20 bg-stone-800/30 overflow-hidden">
-          <button
-            type="button"
-            onClick={() => setClipboardOpen(!clipboardOpen)}
-            className="flex w-full items-center justify-between p-4 text-left transition-all duration-200 hover:bg-stone-700/30 active:scale-[0.99]"
-          >
-            <h4 className="text-xs font-semibold uppercase tracking-[0.25em] text-stone-300">
-              {dict.rosterClipboardHeading} ({clipboardItems.length}/{CLIPBOARD_LIMIT})
-            </h4>
-            <ChevronDownIcon
-              className={`h-4 w-4 text-stone-300 transition-transform duration-200 ${
-                clipboardOpen ? "rotate-180" : ""
+        {/* Action bar + Clipboard — full width below both columns */}
+        <div className="mt-4 border-t border-stone-200 pt-4 dark:border-stone-300/10">
+          <div className="flex flex-wrap items-center gap-3">
+            <Button
+              type="button"
+              size="md"
+              onClick={handleSave}
+              disabled={saving}
+              className={`min-w-[120px] rounded-lg border px-4 py-2.5 font-semibold transition-all duration-200 disabled:opacity-60 dark:text-stone-100 dark:hover:border-stone-400 dark:hover:bg-stone-700 ${
+                savedAt
+                  ? "border-stone-500 bg-stone-200 text-stone-900 hover:bg-stone-300 hover:border-stone-600 dark:border-stone-500 dark:bg-stone-700"
+                  : "border-stone-400 bg-stone-100 text-stone-900 hover:bg-stone-200 hover:border-stone-500 dark:border-stone-600 dark:bg-stone-800"
               }`}
-            />
-          </button>
+            >
+              {savedAt ? dict.rosterSetupSavedButton : dict.rosterSetupSaveButton}
+            </Button>
+            <Button
+              type="button"
+              size="md"
+              variant="outline"
+              onClick={handleSaveToClipboard}
+              disabled={saving}
+            >
+              {dict.rosterClipboardSaveButton}
+            </Button>
 
+            {/* Clipboard toggle */}
+            <button
+              type="button"
+              onClick={() => setClipboardOpen(!clipboardOpen)}
+              className="ml-auto flex items-center gap-1.5 text-xs font-medium text-stone-500 transition-colors hover:text-stone-700 dark:text-stone-400 dark:hover:text-stone-200"
+            >
+              {dict.rosterClipboardHeading} ({clipboardItems.length}/{CLIPBOARD_LIMIT})
+              <ChevronDownIcon
+                className={`h-3.5 w-3.5 transition-transform duration-200 ${clipboardOpen ? "rotate-180" : ""}`}
+              />
+            </button>
+          </div>
+
+          {/* Clipboard items — compact */}
           <div
             className={`grid transition-all duration-300 ease-out ${
               clipboardOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
             }`}
           >
             <div className="overflow-hidden">
-              <div className="px-4 pb-4">
+              <div className="pt-3">
                 {clipboardItems.length === 0 ? (
-                  <p className="text-sm text-stone-200/60">{dict.rosterClipboardEmpty}</p>
+                  <p className="text-sm text-stone-500 dark:text-stone-200/60">{dict.rosterClipboardEmpty}</p>
                 ) : (
-                  <ul className="space-y-2 text-sm">
+                  <ul className="space-y-1.5">
                     {clipboardItems.map((item) => {
                       const armyLabel =
                         clientArmies.find((army) => army.id === item.draft.armyId)?.label ??
@@ -312,34 +273,29 @@ export default function RosterBuilderClient({ dict, className, onSaved }: Props)
                       return (
                         <li
                           key={item.id}
-                          className="rounded-lg border border-stone-300/20 bg-stone-800/60 px-3 py-2"
+                          className="flex flex-wrap items-center gap-2 rounded-lg border border-stone-100 bg-stone-50 px-3 py-1.5 dark:border-stone-300/10 dark:bg-stone-800/50"
                         >
-                          <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
-                            <div className="flex flex-col gap-1">
-                              <span className="font-semibold text-stone-100">{rosterName}</span>
-                              <span className="text-xs text-stone-200/70">
-                                {dict.armyLabel}: {armyLabel}
-                              </span>
-                              <span className="text-xs text-stone-200/70">
-                                {dict.rosterPointsLimitLabel}: {pointsLabel}
-                              </span>
-                            </div>
-                            <div className="flex items-center gap-2">
-                              <Button
-                                variant="secondary"
-                                size="sm"
-                                onClick={() => handleRestoreFromClipboard(item.draft, item.savedAt)}
-                              >
-                                {dict.rosterClipboardRestoreButton}
-                              </Button>
-                              <Button
-                                variant="outline"
-                                size="sm"
-                                onClick={() => dispatch(removeClipboardItem(item.id))}
-                              >
-                                {dict.rosterClipboardRemoveButton}
-                              </Button>
-                            </div>
+                          <span className="min-w-0 flex-1 truncate text-sm">
+                            <span className="font-medium text-stone-800 dark:text-stone-100">{rosterName}</span>
+                            <span className="ml-2 text-xs text-stone-500 dark:text-stone-200/60">
+                              {armyLabel} · {pointsLabel}
+                            </span>
+                          </span>
+                          <div className="flex shrink-0 items-center gap-1.5">
+                            <Button
+                              variant="secondary"
+                              size="sm"
+                              onClick={() => handleRestoreFromClipboard(item.draft, item.savedAt)}
+                            >
+                              {dict.rosterClipboardRestoreButton}
+                            </Button>
+                            <Button
+                              variant="outline"
+                              size="sm"
+                              onClick={() => dispatch(removeClipboardItem(item.id))}
+                            >
+                              {dict.rosterClipboardRemoveButton}
+                            </Button>
                           </div>
                         </li>
                       );
@@ -349,8 +305,8 @@ export default function RosterBuilderClient({ dict, className, onSaved }: Props)
               </div>
             </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
     </div>
   );
 }
