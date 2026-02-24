@@ -289,16 +289,13 @@ export default function RosterExportControls({
   const triggerButton = (
     <Theme>
       <DropdownMenu.Root>
-        <DropdownMenu.Trigger asChild>
-          <button
-            type="button"
-            aria-label={dict.rosterExportAriaLabel}
-            aria-busy={Boolean(pdfExporting)}
-            className="inline-flex items-center gap-1.5 rounded-lg border border-stone-400 bg-stone-100 px-4 py-2.5 text-sm font-semibold text-stone-900 transition-all duration-200 hover:border-stone-500 hover:bg-stone-200 active:scale-[0.97] disabled:cursor-not-allowed disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 dark:border-stone-600 dark:bg-stone-800 dark:text-stone-100 dark:hover:border-stone-400 dark:hover:bg-stone-700"
-          >
-            <Download aria-hidden className="h-4 w-4 shrink-0" strokeWidth={2} />
-            {effectiveTriggerLabel}
-          </button>
+        <DropdownMenu.Trigger
+          aria-label={dict.rosterExportAriaLabel}
+          aria-busy={Boolean(pdfExporting)}
+          className="inline-flex items-center gap-1.5 rounded-lg border border-stone-400 bg-stone-100 px-4 py-2.5 text-sm font-semibold text-stone-900 transition-all duration-200 hover:border-stone-500 hover:bg-stone-200 active:scale-[0.97] disabled:cursor-not-allowed disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 dark:border-stone-600 dark:bg-stone-800 dark:text-stone-100 dark:hover:border-stone-400 dark:hover:bg-stone-700"
+        >
+          <Download aria-hidden className="h-4 w-4 shrink-0" strokeWidth={2} />
+          {effectiveTriggerLabel}
         </DropdownMenu.Trigger>
 
         <DropdownMenu.Content
